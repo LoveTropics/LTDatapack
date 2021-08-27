@@ -1,0 +1,1 @@
+summon minecraft:pig ~ ~ ~ {Invulnerable:1b,Tags:["SigRunNPC","SignatureNPC"],CustomName:'[{"text":"Nathan","color":"white"},{"text":" | ","color":"yellow"},{"text":"+1","color":"green"}]',Attributes:[{Name:generic.knockbackResistance,Base:1},{Name:generic.movementSpeed,Base:0}]}

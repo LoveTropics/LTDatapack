@@ -1,0 +1,33 @@
+{
+  "translation_key": "turtle_race",
+  "telemetry_key": "turtle_race",
+  "map_provider": {
+    "type": "ltminigames:inline",
+    "dimension": "tropicraft:tropics"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 10,
+  "behaviors": [
+    "ltminigames:isolate_player_state",
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "adventure",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:commands",
+      "ready": "scoreboard players set Mode TRaceGlobal 1",
+      "start": "function lt20:minigames/turtle_race/begin",
+      "player_join": "function lt20:minigames/turtle_race/player/join",
+      "cancel": "function lt20:minigames/turtle_race/cancel"
+    },
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:bind_objective_to_statistic",
+      "objectives": {
+        "placement": "TRacePlayerPlace",
+        "total_time": "TRacePlayerS"
+      }
+    }
+  ]
+}

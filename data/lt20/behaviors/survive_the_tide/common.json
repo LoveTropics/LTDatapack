@@ -1,0 +1,27 @@
+[
+  "ltminigames:fireworks_on_death",
+  "ltminigames:respawn_spectator",
+  "ltminigames:place_by_death_order",
+  "ltminigames:tnt_auto_fuse",
+  {
+    "type": "ltminigames:reveal_players",
+    "players_left_required": 2,
+    "glow_on_time": 20,
+    "glow_off_time": 80
+  },
+  {
+    "type": "ltminigames:camping_tracker",
+    "trigger": {"after_phase": "phase0"},
+    "camp_time_threshold": 160,
+    "camp_movement_threshold": 8
+  },
+  "ltminigames:cause_of_death_tracker",
+  "ltminigames:kills_tracker",
+  "ltminigames:damage_tracker",
+  {
+    "type": "ltminigames:time_survived_tracker",
+    "trigger": {"after_phase": "phase0"}
+  },
+  "ltminigames:spectator_chase"
+]
+ 

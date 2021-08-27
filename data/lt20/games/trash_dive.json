@@ -1,0 +1,41 @@
+{
+  "translation_key": "trash_dive",
+  "telemetry_key": "trash_dive",
+  "map_provider": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt20:trash_dive",
+    "dimension": "ltminigames:trash_dive_game"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 64,
+  "behaviors": [
+    "ltminigames:isolate_player_state",
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "survival",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "participants": ["spawn"],
+      "spectators": ["spawn"]
+    },
+    "ltminigames:respawn_spectator",
+    {
+      "type": "ltminigames:place_trash",
+      "positionData": "lt20:trash.bin",
+      "centerY": 75,
+      "range": 50,
+      "density": 2
+    },
+    "ltminigames:trash_collection",
+    {
+      "type": "ltminigames:timed",
+      "length": 6000,
+      "close_length": 60,
+      "timer_bar": true
+    },
+    "ltminigames:disable_hunger"
+  ]
+}
+

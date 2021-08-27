@@ -1,0 +1,179 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "ltminigames:acid_repellent_umbrella",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "ltminigames:super_sunscreen"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Unstable Explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:2b,Amplifier:1b,Duration:160},{Id:7b,Amplifier:0b,Duration:6}],Potion:\"minecraft:harming\",CustomPotionColor:8716288}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Poison Vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:9b,Amplifier:1b,Duration:200},{Id:15b,Amplifier:1b,Duration:60},{Id:18b,Amplifier:1b,Duration:160},{Id:19b,Amplifier:2b,Duration:80}],Potion:\"minecraft:harming\",CustomPotionColor:1179392}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Slow Bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:100}],Potion:\"minecraft:harming\",CustomPotionColor:14079702}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fishing_rod"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lava_bucket"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:water_bucket"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:creeper_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:skeleton_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blaze_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "ltminigames:paddle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+              ]
+              }
+    ]
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "type": "ltminigames:weather_events",
+    "rain_heavy_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "rain_acid_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.0
+    },
+    "heatwave_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "wind_speed": {
+      "phase0": 0.1,
+      "phase1": 0.1,
+      "phase2": 0.5,
+      "phase3": 1.0,
+      "phase4": 1.5
+    },
+    "rain_heavy_min_time": 1200,
+    "rain_heavy_extra_rand_time": 1200,
+    "rain_acid_min_time": 1200,
+    "rain_acid_extra_rand_time": 1200,
+    "heatwave_movement_multiplier": 0.5,
+    "acid_rain_damage": 1,
+    "acid_rain_damage_rate": 60
+  }
+]

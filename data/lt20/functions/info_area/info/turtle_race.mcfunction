@@ -1,0 +1,3 @@
+tellraw @s [{"text":"\n| ","color":"gray"},{"text":"Turtle Races","color":"aqua"},{"text":" |","color":"gray"},{"text":" ------------------------\n","color":"blue"}]
+tellraw @s [{"text":" Experience high-octane turtle racing, with two different modes;","color":"white"},{"text":" Aracde","color":"light_purple"},{"text":" and ","color":"white"},{"text":"Traditional","color":"green"},{"text":"\n\nIn Arcade mode, race for first place and utilize speed boosts and sabatoge powerups to claim victory.\n","color":"white"},{"text":"\nIn Traditional mode, compete for the fastest times and the highest place!","color":"white"}]
+tellraw @s {"text":"\n-------------------------------------","color":"blue"}

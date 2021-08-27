@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ltminigames:teams",
+    "teams": [
+      {
+        "key": "red",
+        "name": "Red",
+        "dye": "red",
+        "text": "red"
+      },
+      {
+        "key": "blue",
+        "name": "Blue",
+        "dye": "blue",
+        "text": "blue"
+      }
+    ],
+    "friendly_fire": false
+  }
+]

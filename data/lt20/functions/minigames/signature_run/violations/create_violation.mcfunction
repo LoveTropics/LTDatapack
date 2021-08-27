@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {CustomNameVisible:1b,Age:-32768,PickupDelay:32767,Tags:["code_violation_pickup"],CustomName:'{"text":"| Code Violation |","color":"red","bold":true}',Item:{id:"minecraft:paper",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}}

@@ -1,0 +1,37 @@
+[
+  {
+    "type": "ltminigames:scheduled_messages",
+    "messages": {
+      "0": {
+        "translate": "ltminigames.minigame.survive_the_tide_intro1",
+        "color": "gray",
+        "italic": true
+      },
+      "140": {
+        "translate": "ltminigames.minigame.survive_the_tide_intro2",
+        "color": "gray",
+        "italic": true
+      },
+      "280": {
+        "translate": "ltminigames.minigame.survive_the_tide_intro3",
+        "color": "gray",
+        "italic": true
+      },
+      "420": {
+        "translate": "ltminigames.minigame.survive_the_tide_intro4",
+        "color": "gray",
+        "italic": true
+      },
+      "560": {
+        "translate": "ltminigames.minigame.survive_the_tide_intro5",
+        "color": "gray",
+        "italic": true
+      },
+      "3000": {
+        "translate": "ltminigames.minigame.survive_the_tide_pvp_enabled",
+        "color": "red",
+        "bold": true
+      }
+    }
+  }
+]

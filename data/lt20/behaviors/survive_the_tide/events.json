@@ -1,0 +1,65 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "lightning_storm_event",
+    "message_for_player": {
+      "text": "OH NO! Chat has started a LIGHTNING STORM!",
+      "color": "red"
+    },
+    "player_select": "all",
+    "sound_on_receive": "ltminigames:sabotage_receive",
+    "receive_behaviors": [
+      {"type": "ltminigames:give_player_head_package"},
+      {
+        "type": "ltminigames:spawn_entities_at_regions_over_time_package",
+        "entity_id": "minecraft:lightning_bolt",
+        "entity_count": 1000,
+        "ticks_to_spawn_for": 800,
+        "regions_to_spawn_at": ["tide_area"]
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "zombie_invasion_event",
+    "message_for_player": {
+      "text": "OH NO! Chat has started a ZOMBIE INVASION!",
+      "color": "red"
+    },
+    "sound_on_receive": "ltminigames:sabotage_receive",
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:spawn_entities_around_players_package",
+        "entity_id": "minecraft:zombie",
+        "entity_count_per_player": 15,
+        "spawn_distance_min": 10,
+        "spawn_distance_max": 20,
+        "spawn_range_y": 10,
+        "spawn_try_rate": 10
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "meteor_shower_event",
+    "message_for_player": {
+      "text": "OH NO! Chat has started a METEOR SHOWER! Keep an eye on the skies!",
+      "color": "red"
+    },
+    "sound_on_receive": "ltminigames:sabotage_receive",
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:shoot_projectiles_at_player",
+        "entity_count_per_player": 10,
+        "spawn_distance_max": 40,
+        "target_randomness": 10,
+        "spawn_height": 20,
+        "spawn_rate_base": 20,
+        "spawn_rate_random": 20,
+        "explosion_strength": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+tellraw @s [{"text":"\n| ","color":"gray"},{"text":"Volcano Spleef","color":"aqua"},{"text":" |","color":"gray"},{"text":" ----------------------\n","color":"blue"}]
+tellraw @s [{"text":" Sift the sands and uncover riches in: ","color":"white"},{"text":"Treasure Hunt X","color":"gold"},{"text":"\n\nBuried under volcanic sands, treasure awaits! Sift the sand and find the most treasure before time runs out!\n","color":"white"},{"text":"\nTwist: You're not alone, others seek the same and are anything but friendly. Utilize powerups to help yourself or harm your enemies! And beware what might dwell in the dunes.","color":"white"}]
+tellraw @s {"text":"\n-------------------------------------","color":"blue"}

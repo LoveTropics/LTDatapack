@@ -1,0 +1,63 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": [
+      "participant_spawn_1",
+      "participant_spawn_2",
+      "participant_spawn_3",
+      "participant_spawn_4",
+      "participant_spawn_5",
+      "participant_spawn_6",
+      "participant_spawn_7",
+      "participant_spawn_8",
+      "participant_spawn_9",
+      "participant_spawn_10",
+      "participant_spawn_11",
+      "participant_spawn_12",
+      "participant_spawn_13",
+      "participant_spawn_14",
+      "participant_spawn_15",
+      "participant_spawn_16"
+    ],
+    "spectators": ["center"]
+  },
+  {
+    "type": "ltminigames:rising_tides",
+    "tide_area_region": "tide_area",
+    "iceberg_lines_region": "iceberg_line",
+    "water_levels": {
+      "phase0": 123,
+      "phase1": 123,
+      "phase2": 133,
+      "phase3": 150,
+      "phase4": 150
+    },
+    "phases_icebergs_grow": ["phase4"],
+    "iceberg_growth_tick_rate": 100
+  },
+  {
+    "type": "ltminigames:world_border",
+    "name": "Explosive Storm",
+    "world_border_center": "center",
+    "collapse_message": {
+      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
+      "color": "red",
+      "bold": true
+    },
+    "delay_until_collapse": 6000,
+    "ticks_until_start": 21000,
+    "particle_rate_delay": 1,
+    "particle_height": 110,
+    "damage_rate_delay": 20,
+    "damage_amount": 4,
+    "border_particle": "minecraft:explosion"
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false"
+    }
+  }
+]

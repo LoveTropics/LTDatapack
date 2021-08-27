@@ -1,0 +1,1 @@
+give @p minecraft:silverfish_spawn_egg{display:{Name:"{\"text\":\"Create Leave DigSite\",\"color\":\"yellow\"}"},EntityTag:{id:"minecraft:armor_stand",NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["create_leave_digsite"]}} 1
