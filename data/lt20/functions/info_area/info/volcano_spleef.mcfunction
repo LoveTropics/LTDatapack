@@ -1,3 +1,0 @@
-tellraw @s [{"text":"\n| ","color":"gray"},{"text":"Volcano Spleef","color":"aqua"},{"text":" |","color":"gray"},{"text":" ----------------------\n","color":"blue"}]
-tellraw @s [{"text":" Fight for vertical dominance in: ","color":"white"},{"text":"Volcano Spleef","color":"red"},{"text":"\n\nSpleef your way to victory by breaking blocks and avoiding lava. Will you be the last player standing?\n","color":"white"},{"text":"\nTwist: The Volcano is unstable; layer by layer the floors will collapse until none remain!","color":"white"}]
-tellraw @s {"text":"\n-------------------------------------","color":"blue"}

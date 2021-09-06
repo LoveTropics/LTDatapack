@@ -1,9 +1,0 @@
-execute if score @s TRacePlayerStage matches 0 if block ~ 255 ~ ltextras:checkpoint[stage=1] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 1 if block ~ 255 ~ ltextras:checkpoint[stage=2] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 2 if block ~ 255 ~ ltextras:checkpoint[stage=3] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 3 if block ~ 255 ~ ltextras:checkpoint[stage=4] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 4 if block ~ 255 ~ ltextras:checkpoint[stage=5] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 5 if block ~ 255 ~ ltextras:checkpoint[stage=6] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 6 if block ~ 255 ~ ltextras:checkpoint[stage=7] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 7 if block ~ 255 ~ ltextras:checkpoint[stage=8] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade
-execute if score @s TRacePlayerStage matches 8 if block ~ 255 ~ ltextras:checkpoint[stage=9] run function lt20:minigames/turtle_race/player/pass_checkpoint_arcade

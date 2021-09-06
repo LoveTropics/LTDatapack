@@ -1,0 +1,23 @@
+{
+  "translation_key": "survive_the_tide_2_teams",
+  "telemetry_key": "survive_the_tide",
+  "minimum_participants": 3,
+  "maximum_participants": 16,
+  "map_provider": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt21:survive_the_tide_2",
+    "dimension": "ltminigames:hunger_games"
+  },
+  "behaviors": [
+    "lt21:teams/red_blue_yellow",
+    "lt21:survive_the_tide/stt2_map",
+    "lt21:survive_the_tide/stt2_phases",
+    "lt21:survive_the_tide/intro",
+    "lt21:survive_the_tide/player_setup",
+    "lt21:survive_the_tide/ruleset",
+    "lt21:survive_the_tide/teams_win_logic",
+    "lt21:survive_the_tide/weather",
+    "lt21:survive_the_tide/stream_integrations",
+    "lt21:survive_the_tide/common"
+  ]
+}

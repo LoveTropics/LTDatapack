@@ -1,1 +1,0 @@
-give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"Delete DigSite\",\"color\":\"gold\"}"},EntityTag:{id:"minecraft:armor_stand",NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["delete_digsite"]}} 1
