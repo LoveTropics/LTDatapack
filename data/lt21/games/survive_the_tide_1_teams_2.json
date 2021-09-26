@@ -3,56 +3,11 @@
   "telemetry_key": "survive_the_tide",
   "minimum_participants": 3,
   "maximum_participants": 16,
-  "map_provider": {
+  "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt21:survive_the_tide",
-    "dimension": "ltminigames:hunger_games"
-  },
-  "configuration": {
-    "teams": {
-      "type": "ltminigames:list",
-      "name": "Team Selection",
-      "defaults": {
-        "2 Teams": [
-          {"key": "red", "name": "Red", "dye": "red", "text": "red"},
-          {"key": "blue", "name": "Blue", "dye": "blue", "text": "blue"}
-        ],
-        "3 Teams": [
-          {"key": "red", "name": "Red", "dye": "red", "text": "red"},
-          {"key": "blue", "name": "Blue", "dye": "blue", "text": "blue"},
-          {"key": "yellow", "name": "Yellow", "dye": "yellow", "text": "yellow"}
-        ],
-        "4 Teams": [
-          {"key": "red", "name": "Red", "dye": "red", "text": "red"},
-          {"key": "blue", "name": "Blue", "dye": "blue", "text": "blue"},
-          {"key": "yellow", "name": "Yellow", "dye": "yellow", "text": "yellow"},
-          {"key": "green", "name": "Green", "dye": "green", "text": "green"}
-        ]
-      },
-      "entry": {
-
-      }
-    },
-    "friendly_fire": {
-      "type": "ltminigames:toggle",
-      "name": "Friendly Fire",
-      "default": false
-    },
-    "assign_teams": {
-      "type": "ltminigames:list",
-      "name": "Assign Teams",
-      "default": [],
-      "entry": {
-
-      }
-    }
+    "load_from": "lt21:survive_the_tide"
   },
   "behaviors": [
-    {
-      "type": "ltminigames:teams",
-      "teams": "$teams",
-      "friendly_fire": "$friendly_fire"
-    },
     "lt21:teams/red_blue",
     "lt21:survive_the_tide/stt1_map",
     "lt21:survive_the_tide/stt1_phases",

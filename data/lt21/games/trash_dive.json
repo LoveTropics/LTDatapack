@@ -1,10 +1,9 @@
 {
   "translation_key": "trash_dive",
   "telemetry_key": "trash_dive",
-  "map_provider": {
+  "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt21:trash_dive",
-    "dimension": "ltminigames:trash_dive_game"
+    "load_from": "lt21:trash_dive"
   },
   "minimum_participants": 1,
   "maximum_participants": 64,

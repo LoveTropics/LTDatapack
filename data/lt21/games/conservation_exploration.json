@@ -1,10 +1,10 @@
 {
   "translation_key": "conservation_exploration",
   "telemetry_key": "conservation_exploration",
-  "map_provider": {
+  "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt21:conservation_exploration",
-    "dimension": "ltminigames:conservation_exploration_game"
+    "dimension": "lt21:games/conservation_exploration"
   },
   "minimum_participants": 1,
   "maximum_participants": 100,

@@ -1,7 +1,7 @@
 {
   "translation_key": "volcano_spleef",
   "telemetry_key": "volcano_spleef",
-  "map_provider": {
+  "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"
   },

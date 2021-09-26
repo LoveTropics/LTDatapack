@@ -1,7 +1,7 @@
 {
   "translation_key": "turtle_race_arcade",
   "telemetry_key": "turtle_race",
-  "map_provider": {
+  "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"
   },

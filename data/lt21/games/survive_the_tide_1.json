@@ -3,10 +3,12 @@
   "telemetry_key": "survive_the_tide",
   "minimum_participants": 3,
   "maximum_participants": 16,
-  "map_provider": {
+  "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt21:survive_the_tide",
-    "dimension": "ltminigames:hunger_games"
+    "load_from": "lt21:survive_the_tide"
+  },
+  "waiting_lobby": {
+    "map": "lt21:waiting_lobby"
   },
   "behaviors": [
     "lt21:survive_the_tide/stt1_map",

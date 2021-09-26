@@ -1,10 +1,10 @@
 {
   "translation_key": "signature_run",
   "telemetry_key": "signature_run",
-  "map_provider": {
+  "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt21:signaturerun",
-    "dimension": "ltminigames:signature_run_game"
+    "dimension": "lt21:games/signature_run"
   },
   "minimum_participants": 1,
   "maximum_participants": 8,
