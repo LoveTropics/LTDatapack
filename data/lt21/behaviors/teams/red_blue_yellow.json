@@ -1,6 +1,6 @@
 [
   {
-    "type": "ltminigames:teams",
+    "type": "ltminigames:setup_teams",
     "teams": [
       {
         "key": "red",
@@ -20,7 +20,6 @@
         "dye": "yellow",
         "text": "yellow"
       }
-    ],
-    "friendly_fire": false
+    ]
   }
 ]

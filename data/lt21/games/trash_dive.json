@@ -8,16 +8,13 @@
   "minimum_participants": 1,
   "maximum_participants": 64,
   "behaviors": [
-    "ltminigames:isolate_player_state",
     {
-      "type": "ltminigames:set_game_types",
-      "participant": "survival",
-      "spectator": "spectator"
+      "type": "lt21:common/playing",
+      "game_type": "survival"
     },
     {
       "type": "ltminigames:position_players",
-      "participants": ["spawn"],
-      "spectators": ["spawn"]
+      "all": ["spawn"]
     },
     "ltminigames:respawn_spectator",
     {

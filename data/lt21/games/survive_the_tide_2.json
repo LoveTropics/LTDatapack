@@ -8,9 +8,12 @@
     "load_from": "lt21:survive_the_tide_2"
   },
   "behaviors": [
+    {
+      "type": "lt21:common/playing",
+      "game_type": "adventure"
+    },
     "lt21:survive_the_tide/stt2_map",
     "lt21:survive_the_tide/stt2_phases",
-    "lt21:survive_the_tide/player_setup",
     "lt21:survive_the_tide/ruleset",
     "lt21:survive_the_tide/individuals_win_logic",
     "lt21:survive_the_tide/weather",

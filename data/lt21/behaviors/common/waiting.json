@@ -1,0 +1,22 @@
+[
+  "ltminigames:isolate_player_state",
+  {
+    "type": "ltminigames:set_game_types",
+    "participant": "adventure",
+    "spectator": "spectator"
+  },
+  {
+    "type": "ltminigames:position_players",
+    "all": ["$regions.spawn"]
+  },
+  "ltminigames:disable_hunger",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false"
+    }
+  }
+]

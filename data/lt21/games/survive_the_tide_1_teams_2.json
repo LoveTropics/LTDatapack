@@ -3,16 +3,34 @@
   "telemetry_key": "survive_the_tide",
   "minimum_participants": 3,
   "maximum_participants": 16,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt21:waiting_lobby"
+    },
+    "behaviors": [
+      {
+        "type": "lt21:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt21:teams/red_blue"
+    ]
+  },
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt21:survive_the_tide"
   },
   "behaviors": [
-    "lt21:teams/red_blue",
+    {
+      "type": "lt21:common/playing",
+      "game_type": "adventure"
+    },
+    "ltminigames:teams",
     "lt21:survive_the_tide/stt1_map",
     "lt21:survive_the_tide/stt1_phases",
     "lt21:survive_the_tide/intro",
-    "lt21:survive_the_tide/player_setup",
     "lt21:survive_the_tide/ruleset",
     "lt21:survive_the_tide/teams_win_logic",
     "lt21:survive_the_tide/weather",
