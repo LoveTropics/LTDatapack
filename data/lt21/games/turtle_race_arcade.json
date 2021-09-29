@@ -1,5 +1,5 @@
 {
-  "translation_key": "turtle_race_arcade",
+  "translation_key": "arcade_turtle_race",
   "telemetry_key": "turtle_race",
   "map": {
     "type": "ltminigames:inline",
@@ -8,7 +8,6 @@
   "minimum_participants": 1,
   "maximum_participants": 12,
   "behaviors": [
-    "ltminigames:isolate_player_state",
     {
       "type": "ltminigames:set_game_types",
       "participant": "adventure",

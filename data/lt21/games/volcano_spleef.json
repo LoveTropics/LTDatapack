@@ -16,7 +16,6 @@
         }
       }
     },
-    "ltminigames:isolate_player_state",
     {
       "type": "ltminigames:set_game_types",
       "participant": "adventure",

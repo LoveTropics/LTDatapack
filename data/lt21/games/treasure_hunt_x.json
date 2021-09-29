@@ -1,5 +1,5 @@
 {
-  "translation_key": "treasure_hunt_x",
+  "translation_key": "treasure_hunt",
   "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"
@@ -7,7 +7,6 @@
   "minimum_participants": 1,
   "maximum_participants": 32,
   "behaviors": [
-    "ltminigames:isolate_player_state",
     {
       "type": "ltminigames:set_game_types",
       "participant": "adventure",

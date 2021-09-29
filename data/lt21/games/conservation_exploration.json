@@ -10,9 +10,6 @@
   "maximum_participants": 100,
   "behaviors": [
     {
-      "type": "ltminigames:isolate_player_state"
-    },
-    {
       "type": "ltminigames:set_game_types",
       "participant": "adventure",
       "spectator": "spectator"
