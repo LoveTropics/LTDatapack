@@ -1,5 +1,6 @@
 [
   "ltminigames:team_win_trigger",
+  "ltminigames:respawn_spectator",
   {
     "type": "ltminigames:survive_the_tide_win_logic",
     "game_finish_tick_delay": 760,

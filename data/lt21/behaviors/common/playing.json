@@ -3,7 +3,7 @@
   "ltminigames:assign_player_roles",
   {
     "type": "ltminigames:join_as_role",
-    "role": "spectator"
+    "role": "$join_as_role"
   },
   {
     "type": "ltminigames:set_game_types",

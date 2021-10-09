@@ -408,7 +408,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Suddenly, everyone is a Tapir for 60 seconds!",
+        "text": "Everyone is a Tapir for 60 seconds!",
         "color": "gold"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
@@ -420,6 +420,31 @@
         "type": "ltminigames:apply_disguise_package",
         "disguise": {
           "entity": "tropicraft:tapir",
+          "apply_attributes": false
+        },
+        "seconds": 60
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "basilisk_lizard_party",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Everyone is a Basilisk Lizard for 60 seconds!",
+        "color": "gold"
+      },
+      "icon": {"item": "tropicraft:brown_basilisk_spawn_egg"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "tropicraft:brown_basilisk_lizard",
           "apply_attributes": false
         },
         "seconds": 60

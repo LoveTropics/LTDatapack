@@ -25,7 +25,8 @@
   "behaviors": [
     {
       "type": "lt21:common/playing",
-      "game_type": "adventure"
+      "game_type": "adventure",
+      "join_as_role": "spectator"
     },
     "ltminigames:teams",
     "lt21:survive_the_tide/stt1_map",

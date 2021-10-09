@@ -10,7 +10,8 @@
   "behaviors": [
     {
       "type": "lt21:common/playing",
-      "game_type": "survival"
+      "game_type": "survival",
+      "join_as_role": "participant"
     },
     {
       "type": "ltminigames:position_players",
