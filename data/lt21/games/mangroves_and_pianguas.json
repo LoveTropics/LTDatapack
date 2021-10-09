@@ -10,7 +10,8 @@
   "behaviors": [
     {
       "type": "lt21:common/playing",
-      "game_type": "survival"
+      "game_type": "survival",
+      "join_as_role": "spectator"
     },
     {
       "type": "ltminigames:mangroves_and_pianguas",
