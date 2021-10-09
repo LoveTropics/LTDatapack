@@ -48,7 +48,7 @@
     "package_type": "boom_package",
     "notification": {
       "message": {
-        "text": "%1$s sent everyone a BOOM PACKAGE of 10 Coconut Bombs!",
+        "text": "%1$s sent everyone a BOOM PACKAGE of 4 Coconut Bombs!",
         "color": "gold"
       },
       "icon": {"item": "tropicraft:exploding_coconut"},
@@ -70,7 +70,7 @@
     "package_type": "invisibility_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you an INVISIBILITY PACKAGE! They are invisible for 60 seconds.",
+        "text": "%1$s sent you an INVISIBILITY PACKAGE! You are invisible for 60 seconds.",
         "color": "gold"
       },
       "icon": {"effect": "minecraft:invisibility"},
@@ -398,6 +398,31 @@
       {
         "type": "ltminigames:spawn_entity_at_player_package",
         "entity_id": "pufferfish"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "tapir_party",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Suddenly, everyone is a Tapir for 60 seconds!",
+        "color": "gold"
+      },
+      "icon": {"item": "tropicraft:tapir_spawn_egg"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "tropicraft:tapir",
+          "apply_attributes": false
+        },
+        "seconds": 60
       }
     ]
   }
