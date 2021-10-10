@@ -70,7 +70,7 @@
     "package_type": "invisibility_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you an INVISIBILITY PACKAGE! You are invisible for 60 seconds.",
+        "text": "%1$s sent you an INVISIBILITY PACKAGE! You are invisible for 2 minutes.",
         "color": "gold"
       },
       "icon": {"effect": "minecraft:invisibility"},
@@ -85,7 +85,7 @@
         "effects": [
           {
             "type": "minecraft:invisibility",
-            "seconds": 60,
+            "seconds": 120,
             "amplifier": 1
           }
         ]
@@ -120,7 +120,7 @@
     "package_type": "slowness_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a SLOWNESS SABOTAGE for 60 seconds!",
+        "text": "%1$s sent you a SLOWNESS SABOTAGE for 2 minutes!",
         "color": "red"
       },
       "icon": {"effect": "minecraft:slowness"},
@@ -135,7 +135,7 @@
         "effects": [
           {
             "type": "minecraft:slowness",
-            "seconds": 60,
+            "seconds": 120,
             "amplifier": 4
           }
         ]
@@ -148,7 +148,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a HUNGER SABOTAGE for 60 seconds!",
+        "text": "%1$s sent you a HUNGER SABOTAGE for 2 minutes!",
         "color": "red"
       },
       "icon": {"effect": "minecraft:hunger"},
@@ -163,7 +163,7 @@
         "effects": [
           {
             "type": "minecraft:hunger",
-            "seconds": 60,
+            "seconds": 120,
             "amplifier": 3
           }
         ]
@@ -239,7 +239,7 @@
         "text": "%1$s sent you a LIGHTNING STRIKE! Look out!",
         "color": "red"
       },
-      "icon": {"item": "minecraft:fire"},
+      "icon": {"item": "minecraft:flint_and_steel"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -248,7 +248,8 @@
       {"type": "ltminigames:give_player_head_package"},
       {
         "type": "ltminigames:spawn_entity_at_player_package",
-        "entity_id": "minecraft:lightning_bolt"
+        "entity_id": "minecraft:lightning_bolt",
+        "damage_player_amount": 7.0
       }
     ]
   },
@@ -261,7 +262,7 @@
         "text": "%1$s started a LIGHTNING STORM! Look out!",
         "color": "red"
       },
-      "icon": {"item": "minecraft:fire"},
+      "icon": {"item": "minecraft:flint_and_steel"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -271,8 +272,8 @@
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time_package",
         "entity_id": "minecraft:lightning_bolt",
-        "entity_count": 1000,
-        "ticks_to_spawn_for": 800,
+        "entity_count": 250,
+        "ticks_to_spawn_for": 1600,
         "regions_to_spawn_at": ["tide_area"]
       }
     ]
@@ -294,7 +295,7 @@
       {
         "type": "ltminigames:spawn_entities_around_players_package",
         "entity_id": "minecraft:zombie",
-        "entity_count_per_player": 15,
+        "entity_count_per_player": 7,
         "spawn_distance_min": 10,
         "spawn_distance_max": 20,
         "spawn_range_y": 10,
@@ -318,12 +319,12 @@
     "receive_behaviors": [
       {
         "type": "ltminigames:shoot_projectiles_at_player",
-        "entity_count_per_player": 10,
+        "entity_count_per_player": 30,
         "spawn_distance_max": 40,
         "target_randomness": 10,
         "spawn_height": 20,
         "spawn_rate_base": 20,
-        "spawn_rate_random": 20,
+        "spawn_rate_random": 12,
         "explosion_strength": 2
       }
     ]
@@ -344,7 +345,7 @@
     "receive_behaviors": [
       {
         "type": "ltminigames:shoot_projectiles_at_player",
-        "entity_count_per_player": 10,
+        "entity_count_per_player": 30,
         "spawn_distance_max": 40,
         "target_randomness": 10,
         "spawn_height": 20,
@@ -408,7 +409,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is a Tapir for 60 seconds!",
+        "text": "Everyone is a Tapir for 2 minutes!",
         "color": "gold"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
@@ -422,7 +423,7 @@
           "entity": "tropicraft:tapir",
           "apply_attributes": false
         },
-        "seconds": 60
+        "seconds": 120
       }
     ]
   },
@@ -433,7 +434,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is a Basilisk Lizard for 60 seconds!",
+        "text": "Everyone is a Basilisk Lizard for 2 minutes!",
         "color": "gold"
       },
       "icon": {"item": "tropicraft:brown_basilisk_spawn_egg"},
@@ -447,7 +448,7 @@
           "entity": "tropicraft:brown_basilisk_lizard",
           "apply_attributes": false
         },
-        "seconds": 60
+        "seconds": 120
       }
     ]
   }

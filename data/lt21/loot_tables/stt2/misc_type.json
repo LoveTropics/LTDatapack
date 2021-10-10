@@ -12,6 +12,10 @@
                     "name": "minecraft:tnt",
                     "functions": [
                         {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
+                        {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
@@ -26,6 +30,10 @@
                     "name": "minecraft:cobweb",
                     "functions": [
                         {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
+			{
                             "function": "set_count",
                             "count": {
                                 "min": 1,
@@ -91,18 +99,34 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:lava_bucket"
+                    "name": "minecraft:lava_bucket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:water_bucket"
+                    "name": "minecraft:water_bucket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
                     "weight": 2,
                     "name": "minecraft:creeper_spawn_egg",
                     "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
                         {
                             "function": "set_count",
                             "count": {
@@ -118,6 +142,10 @@
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
+                        {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
@@ -131,6 +159,10 @@
                     "weight": 1,
                     "name": "minecraft:blaze_spawn_egg",
                     "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
                         {
                             "function": "set_count",
                             "count": 1

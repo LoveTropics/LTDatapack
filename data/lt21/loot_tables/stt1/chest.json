@@ -1,0 +1,376 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shield"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:elytra"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_rocket"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:leather_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:leather_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:leather_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:leather_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:iron_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:iron_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:iron_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:iron_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:chainmail_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:chainmail_chestplate"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:chainmail_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:chainmail_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond_boots"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "ltminigames:acid_repellent_umbrella",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "ltminigames:super_sunscreen",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:stone_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:wooden_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:stone_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:iron_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:bow"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:crossbow"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 9,
+                    "name": "minecraft:cooked_beef",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:melon_slice",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:900}],CustomPotionColor:12713984}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:swiftness\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:leaping\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:healing\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
