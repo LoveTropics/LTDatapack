@@ -1,0 +1,22 @@
+[
+  {
+    "type": "ltminigames:setup_teams",
+    "teams": [
+      {
+        "key": "hiders",
+        "name": "Hiders",
+        "dye": "cyan",
+        "text": "aqua"
+      },
+      {
+        "key": "seekers",
+        "name": "Seekers",
+        "dye": "red",
+        "text": "red"
+      }
+    ],
+    "max_sizes": {
+      "seekers": "$start_seekers"
+    }
+  }
+]

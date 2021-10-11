@@ -1,0 +1,41 @@
+{
+  "translation_key": "survive_the_tide_1_teams",
+  "telemetry_key": "survive_the_tide",
+  "minimum_participants": 3,
+  "maximum_participants": 16,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue_yellow"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:survive_the_tide"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_as_role": "spectator"
+    },
+    "ltminigames:teams",
+    "lt:survive_the_tide/stt1_map",
+    "lt:survive_the_tide/stt1_phases",
+    "lt:survive_the_tide/intro",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/teams_win_logic",
+    "lt:survive_the_tide/weather",
+    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/common"
+  ]
+}

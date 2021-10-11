@@ -1,0 +1,87 @@
+[
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "loot_tables": {
+      "cyan_glazed_terracotta": "lt:stt2/misc_type",
+      "green_glazed_terracotta": "lt:stt2/food_type",
+      "red_glazed_terracotta": "lt:stt2/military_type",
+      "orange_glazed_terracotta": "lt:stt2/equipment_type"
+    }
+  },
+  {"type": "ltminigames:generate_entities", "entity": "ltminigames:driftwood", "min_per_chunk": -1, "max_per_chunk": 1},
+  {
+    "type": "ltminigames:position_players",
+    "participants": [
+      "participant_spawn_1",
+      "participant_spawn_2",
+      "participant_spawn_3",
+      "participant_spawn_4",
+      "participant_spawn_5",
+      "participant_spawn_6",
+      "participant_spawn_7",
+      "participant_spawn_8",
+      "participant_spawn_9",
+      "participant_spawn_10",
+      "participant_spawn_11",
+      "participant_spawn_12",
+      "participant_spawn_13",
+      "participant_spawn_14",
+      "participant_spawn_15",
+      "participant_spawn_16"
+    ],
+    "spectators": ["center"]
+  },
+  {
+    "type": "ltminigames:set_blocks",
+    "region": "delete_on_start",
+    "set": "air",
+    "time": 20
+  },
+  {
+    "type": "ltminigames:rising_tides",
+    "tide_area_region": "tide_area",
+    "iceberg_lines_region": "iceberg_line",
+    "water_levels": {
+      "phase0": 50,
+      "phase1": 50,
+      "phase2": 58,
+      "phase3": 68,
+      "phase4": 68
+    },
+    "phases_icebergs_grow": [ "phase4" ],
+    "iceberg_growth_tick_rate": 100
+  },
+  {
+    "type": "ltminigames:world_border",
+    "name": "Explosive Storm",
+    "world_border_center": "storm_center",
+    "collapse_message": {
+      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
+      "color": "red",
+      "bold": true
+    },
+    "delay_until_collapse": 6000,
+    "ticks_until_start": 21000,
+    "particle_rate_delay": 1,
+    "particle_height": 110,
+    "damage_rate_delay": 20,
+    "damage_amount": 4,
+    "border_particle": "minecraft:explosion"
+  },
+  {
+    "type": "ltminigames:run_command_in_region",
+    "regions": {
+      "got_stuck_help": "tp @s 51 54 137"
+    },
+    "interval": 100
+  },
+  "ltminigames:disable_tnt_block_destruction",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false"
+    }
+  }
+]

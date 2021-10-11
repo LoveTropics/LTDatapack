@@ -1,0 +1,22 @@
+{
+  "translation_key": "treasure_hunt",
+  "map": {
+    "type": "ltminigames:inline",
+    "dimension": "tropicraft:tropics"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 32,
+  "behaviors": [
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "adventure",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:commands",
+      "start": "function lt:minigames/desert_dig/start",
+      "player_join": "function lt:minigames/desert_dig/join_digsite",
+      "cancel": "function lt:minigames/desert_dig/cancel"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "translation_key": "survive_the_tide_1",
+  "telemetry_key": "survive_the_tide",
+  "minimum_participants": 3,
+  "maximum_participants": 16,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:survive_the_tide"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_as_role": "spectator"
+    },
+    "lt:survive_the_tide/stt1_map",
+    "lt:survive_the_tide/stt1_phases",
+    "lt:survive_the_tide/intro",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/individuals_win_logic",
+    "lt:survive_the_tide/weather",
+    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/common"
+  ]
+}

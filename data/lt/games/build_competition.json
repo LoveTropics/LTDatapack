@@ -1,0 +1,39 @@
+{
+  "translation_key": "build_competition",
+  "telemetry_key": "build_competition",
+  "map": {
+    "type": "ltminigames:inline",
+    "dimension": "tropicraft:tropics"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 100,
+  "behaviors": [
+    {
+      "type": "ltminigames:bind_controls",
+      "controls": {
+        "initiator": {
+          "menu": "function lt:minigames/build_competition/control_menu/display_menu"
+        }
+      }
+    },
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "survival",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:commands",
+      "start": "function lt:minigames/build_competition/start",
+      "player_join": ["function lt:minigames/build_competition/player/join", "build enable @p"],
+      "player_leave": "build disable @p",
+      "cancel": "function lt:minigames/build_competition/reset"
+    },
+    {
+      "type": "ltminigames:eliminate_player_control"
+    },
+    {
+      "type": "ltminigames:poll_finalists",
+      "finalists_tag": "finalist"
+    }
+  ]
+}

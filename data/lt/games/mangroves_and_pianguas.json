@@ -1,0 +1,47 @@
+{
+  "translation_key": "mangroves_and_pianguas",
+  "telemetry_key": "mangroves_and_pianguas",
+  "minimum_participants": 1,
+  "maximum_participants": 4,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mangroves_and_pianguas_test"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "survival",
+      "join_as_role": "spectator"
+    },
+    {
+      "type": "ltminigames:mangroves_and_pianguas",
+      "participants": [
+        {
+          "plot": "plot_1",
+          "spawn": "spawn_1",
+          "shop": "shop_1",
+          "mob_spawn": "mob_spawn_1"
+        },
+        {
+          "plot": "plot_2",
+          "spawn": "spawn_2",
+          "shop": "shop_2",
+          "mob_spawn": "mob_spawn_2"
+        },
+        {
+          "plot": "plot_3",
+          "spawn": "spawn_3",
+          "shop": "shop_3",
+          "mob_spawn": "mob_spawn_3"
+        },
+        {
+          "plot": "plot_4",
+          "spawn": "spawn_4",
+          "shop": "shop_4",
+          "mob_spawn": "mob_spawn_4"
+        }
+      ],
+      "difficulty": "normal"
+    }
+  ]
+}
