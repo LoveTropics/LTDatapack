@@ -14,6 +14,33 @@
       "join_as_role": "spectator"
     },
     {
+      "type": "ltminigames:equip_participants",
+      "equipment": [
+        {
+          "id": "minecraft:diamond_hoe",
+          "Count": 1,
+          "tag": {
+            "Unbreakable": true
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "Count": 1,
+          "tag": {
+            "Unbreakable": true
+          }
+        },
+        {
+          "id": "minecraft:sunflower",
+          "Count": 32
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:set_time_speed",
+      "factor": 5
+    },
+    {
       "type": "ltminigames:mangroves_and_pianguas",
       "participants": [
         {
