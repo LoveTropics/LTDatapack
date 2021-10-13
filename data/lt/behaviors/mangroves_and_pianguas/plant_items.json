@@ -1,0 +1,86 @@
+[
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "sweet_berries",
+    "places": "sweet_berry_bush",
+    "item": "minecraft:sweet_berries"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "potato",
+    "places": "potato",
+    "item": "minecraft:potato"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "carrot",
+    "places": "carrot",
+    "item": "minecraft:carrot"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "wheat",
+    "places": "wheat",
+    "item": "minecraft:wheat_seeds"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "beetroot",
+    "places": "beetroot",
+    "item": "minecraft:beetroot_seeds"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "wither_rose",
+    "places": "wither_rose",
+    "item": "minecraft:wither_rose"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "grass",
+    "places": "grass",
+    "item": "minecraft:grass"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "iris",
+    "places": "iris",
+    "item": "tropicraft:iris"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "melon",
+    "places": "melon",
+    "item": "minecraft:melon"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "pumpkin",
+    "places": "pumpkin",
+    "item": "minecraft:pumpkin"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "jack_o_lantern",
+    "places": "jack_o_lantern",
+    "item": "minecraft:jack_o_lantern"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "birch_sapling",
+    "places": "birch_sapling",
+    "item": "minecraft:birch_sapling"
+  }
+]
+ 

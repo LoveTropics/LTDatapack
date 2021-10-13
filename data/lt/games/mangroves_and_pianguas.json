@@ -14,6 +14,12 @@
       "join_as_role": "spectator"
     },
     {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "randomTickSpeed": "0"
+      }
+    },
+    {
       "type": "ltminigames:equip_participants",
       "equipment": [
         {
@@ -39,6 +45,10 @@
     {
       "type": "ltminigames:set_time_speed",
       "factor": 5
+    },
+    {
+      "type": "ltminigames:set_difficulty",
+      "difficulty": "normal"
     },
     {
       "type": "ltminigames:mangroves_and_pianguas_assign_plots",
@@ -70,8 +80,18 @@
       ]
     },
     {
-      "type": "ltminigames:mangroves_and_pianguas",
-      "difficulty": "normal"
-    }
+      "type": "ltminigames:mangroves_and_pianguas_wave_spawner",
+      "wave_interval_seconds": 120,
+      "wave_warn_seconds": 30,
+      "difficulty_factors": {
+        "easy": 0.5,
+        "normal": 1.0,
+        "hard": 1.5
+      }
+    },
+    "lt:mangroves_and_pianguas/plants",
+    "lt:mangroves_and_pianguas/plant_items",
+    "ltminigames:mangroves_and_pianguas",
+    "lt:mangroves_and_pianguas/merchant"
   ]
 }

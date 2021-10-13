@@ -1,0 +1,221 @@
+[
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "sweet_berry_bush",
+    "place": {
+      "type": "single",
+      "block": "minecraft:sweet_berry_bush"
+    },
+    "drops": "sweet_berries",
+    "behaviors": [
+      {
+        "type": "ltminigames:berries_plant",
+        "interval": 300
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "potato",
+    "place": {
+      "type": "single",
+      "block": "minecraft:potatoes"
+    },
+    "drops": "potato",
+    "behaviors": [
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "carrot",
+    "place": {
+      "type": "single",
+      "block": "minecraft:carrots"
+    },
+    "drops": "carrot",
+    "behaviors": [
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "wheat",
+    "place": {
+      "type": "single",
+      "block": "minecraft:wheat"
+    },
+    "drops": "wheat",
+    "behaviors": [
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "beetroot",
+    "place": {
+      "type": "single",
+      "block": "minecraft:beetroots"
+    },
+    "drops": "beetroot",
+    "behaviors": [
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "wither_rose",
+    "place": {
+      "type": "single",
+      "block": "minecraft:wither_rose"
+    },
+    "drops": "wither_rose"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "grass",
+    "place": {
+      "type": "single",
+      "block": "minecraft:grass"
+    },
+    "drops": "grass",
+    "behaviors": [
+      {
+        "type": "ltminigames:effect_adding_plant",
+        "effect": {
+          "type": "minecraft:slowness",
+          "seconds": 0.5,
+          "amplifier": 2,
+          "hide_particles": true
+        },
+        "radius": 0.0
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "iris",
+    "place": {
+      "type": "double",
+      "block": "tropicraft:iris"
+    },
+    "drops": "iris",
+    "behaviors": [
+      {
+        "type": "ltminigames:effect_adding_plant",
+        "effect": {
+          "type": "minecraft:glowing",
+          "seconds": 1,
+          "amplifier": 1,
+          "hide_particles": false
+        },
+        "radius": 5.0
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "melon",
+    "place": {
+      "type": "single",
+      "block": "minecraft:melon"
+    },
+    "drops": "melon",
+    "behaviors": [
+      {
+        "type": "ltminigames:proximity_bomb_plant",
+        "radius": 2.0
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "pumpkin",
+    "place": {
+      "type": "single",
+      "block": "minecraft:pumpkin"
+    },
+    "drops": "pumpkin",
+    "behaviors": [
+      {
+        "type": "ltminigames:plant_health",
+        "initial": 30
+      },
+      {
+        "type": "ltminigames:barrier_plant",
+        "radius": 1.0
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "jack_o_lantern",
+    "place": {
+      "type": "single",
+      "block": "minecraft:jack_o_lantern"
+    },
+    "drops": "jack_o_lantern",
+    "behaviors": [
+      {
+        "type": "ltminigames:plant_health",
+        "initial": 2400,
+        "decay_per_tick": 1,
+        "decay_into": "pumpkin"
+      },
+      {
+        "type": "ltminigames:scary_plant",
+        "push_cost": 20,
+        "radius": 3.0
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "birch_tree",
+    "place": {
+      "type": "tree",
+      "tree": "minecraft:birch"
+    },
+    "drops": "birch_sapling"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "birch_sapling",
+    "place": {
+      "type": "single",
+      "block": "minecraft:birch_sapling"
+    },
+    "drops": "birch_sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "birch_tree"
+      }
+    ]
+  }
+]
