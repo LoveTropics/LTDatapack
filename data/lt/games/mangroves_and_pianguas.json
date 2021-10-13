@@ -41,8 +41,8 @@
       "factor": 5
     },
     {
-      "type": "ltminigames:mangroves_and_pianguas",
-      "participants": [
+      "type": "ltminigames:mangroves_and_pianguas_assign_plots",
+      "plots": [
         {
           "plot": "plot_1",
           "spawn": "spawn_1",
@@ -67,7 +67,10 @@
           "shop": "shop_4",
           "mob_spawn": "mob_spawn_4"
         }
-      ],
+      ]
+    },
+    {
+      "type": "ltminigames:mangroves_and_pianguas",
       "difficulty": "normal"
     }
   ]
