@@ -1,0 +1,66 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [203, 167, 233],
+      "max": [223, 187, 253]
+    }
+  },
+  "widgets": [
+    {
+      "type": "block_highlight",
+      "box": {
+        "min": [209, 110, 239],
+        "max": [217, 110, 247]
+      },
+      "color": "#00ffff"
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [213.5, 180.0, 237.5],
+        "text": {
+          "text": "Welcome to Love Tropics! :heart:",
+          "color": "aqua",
+          "siblings": [
+            {
+              "text": ":arrow_down: Follow the stairs! :arrow_down:",
+              "color": "green"
+            }
+          ]
+        },
+        "scale": 0.0625,
+        "point_along": [0.0, 0.0, 1.0]
+      },
+      "focus": {
+        "looking_at": {
+          "min": [212, 178, 236],
+          "max": [214, 180, 238]
+        },
+        "distance": 5.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [211.5, 174.5, 245.5],
+        "text": {
+          "text": ":arrow_down: Jump down to the platform! :arrow_down:",
+          "color": "green"
+        },
+        "scale": 0.0625,
+        "point_along": [1.0, 0.0, -1.0]
+      },
+      "focus": {
+        "looking_at": {
+          "min": [210, 173, 244],
+          "max": [212, 175, 246]
+        },
+        "distance": 5.0
+      }
+    }
+  ]
+}
