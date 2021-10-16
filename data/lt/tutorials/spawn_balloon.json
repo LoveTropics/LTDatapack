@@ -17,36 +17,58 @@
       "color": "#00ffff"
     },
     {
-      "type": "focusing",
-      "widget": {
-        "type": "text",
-        "pos": [213.5, 180.0, 237.5],
-        "text": {
-          "text": "Welcome to Love Tropics! :heart:",
-          "color": "aqua",
-          "siblings": [
-            {
-              "text": ":arrow_down: Follow the stairs! :arrow_down:",
-              "color": "green"
-            }
-          ]
-        },
-        "scale": 0.0625,
-        "point_along": [0.0, 0.0, 1.0]
+      "type": "text",
+      "pos": [209.5, 122.0, 247.5],
+      "text": {
+        "text": "Here!",
+        "color": "green"
       },
+      "scale": 0.5,
+      "point_along": [6.0, 50.0, -6.0]
+    },
+    {
+      "type": "focusing",
+      "widget": [
+        {
+          "type": "text",
+          "pos": [213.5, 180.0, 237.5],
+          "text": {
+            "text": "Welcome to ",
+            "color": "aqua",
+            "extra": [
+              {
+                "text": "Love Tropics! :heart:",
+                "color": "gold"
+              }
+            ]
+          },
+          "scale": 0.0625,
+          "point_along": [0.0, 0.0, 1.0]
+        },
+        {
+          "type": "text",
+          "pos": [213.5, 179.0, 237.5],
+          "text": {
+            "text": ":arrow_down: Follow the stairs! :arrow_down:",
+            "color": "green"
+          },
+          "scale": 0.05,
+          "point_along": [0.0, 0.0, 1.0]
+        }
+      ],
       "focus": {
         "looking_at": {
           "min": [212, 178, 236],
           "max": [214, 180, 238]
         },
-        "distance": 5.0
+        "distance": 10.0
       }
     },
     {
       "type": "focusing",
       "widget": {
         "type": "text",
-        "pos": [211.5, 174.5, 245.5],
+        "pos": [211.5, 175.0, 245.5],
         "text": {
           "text": ":arrow_down: Jump down to the platform! :arrow_down:",
           "color": "green"
@@ -59,7 +81,7 @@
           "min": [210, 173, 244],
           "max": [212, 175, 246]
         },
-        "distance": 5.0
+        "distance": 10.0
       }
     }
   ]
