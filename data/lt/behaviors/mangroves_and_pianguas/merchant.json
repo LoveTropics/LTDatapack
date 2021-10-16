@@ -8,6 +8,10 @@
         "output": {"plant": "sweet_berries"}
       },
       {
+        "input": {"id": "minecraft:sunflower", "Count": 6},
+        "output": {"plant": "crocosmia"}
+      },
+      {
         "input": {"id": "minecraft:sunflower", "Count": 1},
         "output": {"plant": "potato"}
       },

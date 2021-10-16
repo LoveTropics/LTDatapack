@@ -217,5 +217,21 @@
         "grow_into": "birch_tree"
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "crocosmia",
+    "place": {
+      "type": "single",
+      "block": "tropicraft:crocosmia"
+    },
+    "drops": "crocosmia",
+    "behaviors": [
+      {
+        "type": "ltminigames:flaming_plant",
+        "radius": 1
+      }
+    ]
   }
 ]

@@ -81,6 +81,13 @@
     "id": "birch_sapling",
     "places": "birch_sapling",
     "item": "minecraft:birch_sapling"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "crocosmia",
+    "places": "crocosmia",
+    "item": "tropicraft:crocosmia"
   }
 ]
  
