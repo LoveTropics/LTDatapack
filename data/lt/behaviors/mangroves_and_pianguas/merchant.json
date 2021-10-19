@@ -12,6 +12,10 @@
         "output": {"plant": "crocosmia"}
       },
       {
+        "input": {"id": "minecraft:sunflower", "Count": 8},
+        "output": {"plant": "commelina_diffusa"}
+      },
+      {
         "input": {"id": "minecraft:sunflower", "Count": 1},
         "output": {"plant": "potato"}
       },

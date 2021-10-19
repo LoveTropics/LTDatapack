@@ -88,6 +88,13 @@
     "id": "crocosmia",
     "places": "crocosmia",
     "item": "tropicraft:crocosmia"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "commelina_diffusa",
+    "places": "commelina_diffusa",
+    "item": "tropicraft:commelina_diffusa"
   }
 ]
  

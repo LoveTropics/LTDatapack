@@ -233,5 +233,20 @@
         "radius": 1
       }
     ]
+  },
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "commelina_diffusa",
+    "place": {
+      "type": "single",
+      "block": "tropicraft:commelina_diffusa"
+    },
+    "drops": "commelina_diffusa",
+    "behaviors": [
+      {
+        "type": "ltminigames:watery_plant",
+        "radius": 2
+      }
+    ]
   }
 ]
