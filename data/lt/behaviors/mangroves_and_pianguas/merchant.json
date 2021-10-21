@@ -52,6 +52,10 @@
         "output": {"plant": "birch_sapling"}
       },
       {
+        "input": {"id": "minecraft:sunflower", "Count": 32},
+        "output": {"plant": "oak_sapling"}
+      },
+      {
         "input": {"id": "minecraft:sunflower", "Count": 12},
         "output": {"plant": "pumpkin"}
       },

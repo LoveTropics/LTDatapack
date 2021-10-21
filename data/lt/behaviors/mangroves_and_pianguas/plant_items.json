@@ -85,6 +85,13 @@
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "oak_sapling",
+    "places": "oak_sapling",
+    "item": "minecraft:oak_sapling"
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "crocosmia",
     "places": "crocosmia",
     "item": "tropicraft:crocosmia"

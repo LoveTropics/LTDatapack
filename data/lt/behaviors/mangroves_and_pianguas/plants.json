@@ -221,6 +221,43 @@
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "oak_tree",
+    "place": {
+      "type": "tree",
+      "tree": "minecraft:oak"
+    },
+    "drops": "oak_sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:drop_item",
+        "interval": 6000,
+        "item": {
+          "id": "minecraft:golden_apple",
+          "Count": 1
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "oak_sapling",
+    "place": {
+      "type": "single",
+      "block": "minecraft:oak_sapling"
+    },
+    "drops": "oak_sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "oak_tree"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
     "id": "crocosmia",
     "place": {
       "type": "single",
