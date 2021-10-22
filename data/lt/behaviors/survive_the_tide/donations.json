@@ -1,5 +1,10 @@
 [
   {
+    "type": "ltminigames:block_packages_during_phase",
+    "blocked_phases": ["phase0"]
+  },
+
+  {
     "type": "ltminigames:donation_package",
     "package_type": "antidote_package",
     "player_select": "specific",
