@@ -4,7 +4,7 @@
     "id": "sweet_berries",
     "places": "sweet_berry_bush",
     "item": {
-      "id": "minecraft:sweet_berries",
+      "id": "ltminigames:sweet_berry_seeds",
       "Count": 1,
       "tag": {
         "display": {
@@ -21,7 +21,7 @@
     "id": "potato",
     "places": "potato",
     "item": {
-      "id": "minecraft:potato",
+      "id": "ltminigames:potato_seeds",
       "Count": 1,
       "tag": {
         "display": {
@@ -39,7 +39,7 @@
     "id": "carrot",
     "places": "carrot",
     "item": {
-      "id": "minecraft:carrot",
+      "id": "ltminigames:carrot_seeds",
       "Count": 1,
       "tag": {
         "display": {
