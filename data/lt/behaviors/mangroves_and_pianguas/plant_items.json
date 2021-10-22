@@ -3,105 +3,261 @@
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "sweet_berries",
     "places": "sweet_berry_bush",
-    "item": "minecraft:sweet_berries"
+    "item": {
+      "id": "minecraft:sweet_berries",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "potato",
     "places": "potato",
-    "item": "minecraft:potato"
+    "item": {
+      "id": "minecraft:potato",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Good source of nutrition!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "carrot",
     "places": "carrot",
-    "item": "minecraft:carrot"
+    "item": {
+      "id": "minecraft:carrot",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Good source of nutrition!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "wheat",
     "places": "wheat",
-    "item": "minecraft:wheat_seeds"
+    "item": {
+      "id": "minecraft:wheat_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"A staple crop for many.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "beetroot",
     "places": "beetroot",
-    "item": "minecraft:beetroot_seeds"
+    "item": {
+      "id": "minecraft:beetroot_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Makes great soup!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "wither_rose",
     "places": "wither_rose",
-    "item": "minecraft:wither_rose"
+    "item": {
+      "id": "minecraft:wither_rose",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Applies the wither effect to mobs touching it.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "grass",
     "places": "grass",
-    "item": "minecraft:grass"
+    "item": {
+      "id": "minecraft:grass",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Greatly slows down mobs touching it.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "iris",
     "places": "iris",
-    "item": "tropicraft:iris"
+    "item": {
+      "id": "tropicraft:iris",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Applies a glowing effect mobs to all mobs nearby.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "melon",
     "places": "melon",
-    "item": "minecraft:melon"
+    "item": {
+      "id": "minecraft:melon",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Explodes when monsters are nearby.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "pumpkin",
     "places": "pumpkin",
-    "item": "minecraft:pumpkin"
+    "item": {
+      "id": "minecraft:pumpkin",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Causes mobs to be attracted to it. Eventually breaks.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "jack_o_lantern",
     "places": "jack_o_lantern",
-    "item": "minecraft:jack_o_lantern"
+    "item": {
+      "id": "minecraft:jack_o_lantern",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Pushes mobs away from it. Turns into a pumpkin after some time.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "birch_sapling",
     "places": "birch_sapling",
-    "item": "minecraft:birch_sapling"
+    "item": {
+      "id": "minecraft:birch_sapling",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a birch tree.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "oak_sapling",
     "places": "oak_sapling",
-    "item": "minecraft:oak_sapling"
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into an oak tree and drops golden apples rarely.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "crocosmia",
     "places": "crocosmia",
-    "item": "tropicraft:crocosmia"
+    "item": {
+      "id": "tropicraft:crocosmia",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Catches nearby mobs on fire.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   },
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "commelina_diffusa",
     "places": "commelina_diffusa",
-    "item": "tropicraft:commelina_diffusa"
+    "item": {
+      "id": "tropicraft:commelina_diffusa",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Damages nearby mobs with water. Puts out fires.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
   }
 ]
  
