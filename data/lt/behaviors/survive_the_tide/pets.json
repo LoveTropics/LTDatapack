@@ -1,0 +1,28 @@
+[
+  {
+    "type": "ltminigames:survive_the_tide_pets",
+    "entities": {
+      "minecraft:pig": {
+        "attack_damage": 2.0,
+        "speed": 1.0
+      },
+      "minecraft:zombie": {
+        "attack_damage": 4.0,
+        "speed": 1.0
+      },
+      "tropicraft:tapir": {
+        "attack_damage": 2.0,
+        "speed": 1.5
+      },
+      "tropicraft:jaguar": {
+        "attack_damage": 4.0,
+        "speed": 1.0
+      },
+      "tropicraft:white_lipped_peccary": {
+        "attack_damage": 2.0,
+        "speed": 1.5
+      }
+    }
+  }
+]
+ 
