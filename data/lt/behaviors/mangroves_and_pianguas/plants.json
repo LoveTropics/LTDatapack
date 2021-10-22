@@ -31,6 +31,10 @@
         "plant": "potato"
       },
       {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/potatoes"
+      },
+      {
         "type": "ltminigames:aging_plant",
         "interval": 300
       }
@@ -48,6 +52,10 @@
       {
         "type": "ltminigames:drop_plant_item",
         "plant": "carrot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/carrots"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -69,6 +77,10 @@
         "plant": "wheat"
       },
       {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/wheat"
+      },
+      {
         "type": "ltminigames:aging_plant",
         "interval": 300
       }
@@ -86,6 +98,10 @@
       {
         "type": "ltminigames:drop_plant_item",
         "plant": "beetroot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/beetroots"
       },
       {
         "type": "ltminigames:aging_plant",
