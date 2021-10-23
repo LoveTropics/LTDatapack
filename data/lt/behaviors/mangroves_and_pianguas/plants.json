@@ -222,23 +222,13 @@
     "id": "jack_o_lantern",
     "behaviors": [
       {
-        "type": "ltminigames:place_single_plant",
-        "block": "minecraft:jack_o_lantern"
-      },
-      {
         "type": "ltminigames:drop_plant_item",
         "plant": "jack_o_lantern"
       },
       {
-        "type": "ltminigames:plant_health",
-        "initial": 2400,
-        "decay_per_tick": 1,
-        "decay_into": "pumpkin"
-      },
-      {
         "type": "ltminigames:scare_trap_plant",
-        "push_cost": 20,
-        "radius": 3.0
+        "trigger_radius": 1.5,
+        "scare_radius": 4.0
       }
     ]
   },
