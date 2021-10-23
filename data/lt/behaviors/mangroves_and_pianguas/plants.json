@@ -307,6 +307,166 @@
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "red_mangrove",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "tropicraft:red_mangrove_short"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:pianguas",
+        "radius": 4,
+        "block": "tropicraft:mud_with_pianguas"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "red_mangrove_propagule",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "red_mangrove"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "tall_mangrove",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "tropicraft:tall_mangrove"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "tall_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:pianguas",
+        "radius": 4,
+        "block": "tropicraft:mud_with_pianguas"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "tall_mangrove_propagule",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:tall_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "tall_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "tall_mangrove"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "tea_mangrove",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "tropicraft:tea_mangrove"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "tea_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:pianguas",
+        "radius": 4,
+        "block": "tropicraft:mud_with_pianguas"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "tea_mangrove_propagule",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:tea_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "tea_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "tea_mangrove"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "black_mangrove",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "tropicraft:black_mangrove"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "black_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:pianguas",
+        "radius": 4,
+        "block": "tropicraft:mud_with_pianguas"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "id": "black_mangrove_propagule",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:black_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "black_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "black_mangrove"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant",
     "id": "crocosmia",
     "behaviors": [
       {

@@ -210,6 +210,78 @@
 
   {
     "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "red_mangrove_propagule",
+    "places": "red_mangrove_propagule",
+    "item": {
+      "id": "tropicraft:red_mangrove_propagule",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a red mangrove.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "tall_mangrove_propagule",
+    "places": "tall_mangrove_propagule",
+    "item": {
+      "id": "tropicraft:tall_mangrove_propagule",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a tall mangrove.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "tea_mangrove_propagule",
+    "places": "tea_mangrove_propagule",
+    "item": {
+      "id": "tropicraft:tea_mangrove_propagule",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a tea mangrove.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "id": "black_mangrove_propagule",
+    "places": "black_mangrove_propagule",
+    "item": {
+      "id": "tropicraft:black_mangrove_propagule",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a black mangrove.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:mangroves_and_pianguas_plant_item",
     "id": "oak_sapling",
     "places": "oak_sapling",
     "item": {
