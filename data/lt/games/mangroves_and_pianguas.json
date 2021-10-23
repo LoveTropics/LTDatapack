@@ -57,25 +57,29 @@
           "plot": "plot_1",
           "spawn": "spawn_1",
           "shop": "shop_1",
-          "mob_spawn": "mob_spawn_1"
+          "mob_spawn": "mob_spawn_1",
+          "forward": "west"
         },
         {
           "plot": "plot_2",
           "spawn": "spawn_2",
           "shop": "shop_2",
-          "mob_spawn": "mob_spawn_2"
+          "mob_spawn": "mob_spawn_2",
+          "forward": "west"
         },
         {
           "plot": "plot_3",
           "spawn": "spawn_3",
           "shop": "shop_3",
-          "mob_spawn": "mob_spawn_3"
+          "mob_spawn": "mob_spawn_3",
+          "forward": "east"
         },
         {
           "plot": "plot_4",
           "spawn": "spawn_4",
           "shop": "shop_4",
-          "mob_spawn": "mob_spawn_4"
+          "mob_spawn": "mob_spawn_4",
+          "forward": "east"
         }
       ]
     },

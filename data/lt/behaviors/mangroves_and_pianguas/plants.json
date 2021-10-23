@@ -31,6 +31,10 @@
         "plant": "potato"
       },
       {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/potatoes"
+      },
+      {
         "type": "ltminigames:aging_plant",
         "interval": 300
       }
@@ -48,6 +52,10 @@
       {
         "type": "ltminigames:drop_plant_item",
         "plant": "carrot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/carrots"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -69,6 +77,10 @@
         "plant": "wheat"
       },
       {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/wheat"
+      },
+      {
         "type": "ltminigames:aging_plant",
         "interval": 300
       }
@@ -86,6 +98,10 @@
       {
         "type": "ltminigames:drop_plant_item",
         "plant": "beetroot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:mangroves_and_pianguas/beetroots"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -206,23 +222,13 @@
     "id": "jack_o_lantern",
     "behaviors": [
       {
-        "type": "ltminigames:place_single_plant",
-        "block": "minecraft:jack_o_lantern"
-      },
-      {
         "type": "ltminigames:drop_plant_item",
         "plant": "jack_o_lantern"
       },
       {
-        "type": "ltminigames:plant_health",
-        "initial": 2400,
-        "decay_per_tick": 1,
-        "decay_into": "pumpkin"
-      },
-      {
         "type": "ltminigames:scare_trap_plant",
-        "push_cost": 20,
-        "radius": 3.0
+        "trigger_radius": 1.5,
+        "scare_radius": 4.0
       }
     ]
   },

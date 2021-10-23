@@ -30,6 +30,13 @@
       "region": "map"
     },
     { "type": "ltminigames:weather_controls" },
-    { "type": "ltminigames:spectator_chase" }
+    { "type": "ltminigames:spectator_chase" },
+    {
+      "type": "ltminigames:set_client_tweak",
+      "tweak": {
+        "type": "ltminigames:hotbar_texture",
+        "texture": "ltminigames:textures/gui/widgets.png"
+      }
+    }
   ]
 }
