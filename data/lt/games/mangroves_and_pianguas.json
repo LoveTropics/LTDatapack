@@ -2,10 +2,10 @@
   "translation_key": "mangroves_and_pianguas",
   "telemetry_key": "mangroves_and_pianguas",
   "minimum_participants": 1,
-  "maximum_participants": 4,
+  "maximum_participants": 14,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mangroves_and_pianguas_test"
+    "load_from": "lt:biodiversity_blitz"
   },
   "behaviors": [
     {
@@ -80,6 +80,76 @@
           "shop": "shop_4",
           "mob_spawn": "mob_spawn_4",
           "forward": "east"
+        },
+        {
+          "plot": "plot_5",
+          "spawn": "spawn_5",
+          "shop": "shop_5",
+          "mob_spawn": "mob_spawn_5",
+          "forward": "east"
+        },
+        {
+          "plot": "plot_6",
+          "spawn": "spawn_6",
+          "shop": "shop_6",
+          "mob_spawn": "mob_spawn_6",
+          "forward": "east"
+        },
+        {
+          "plot": "plot_7",
+          "spawn": "spawn_7",
+          "shop": "shop_7",
+          "mob_spawn": "mob_spawn_7",
+          "forward": "east"
+        },
+        {
+          "plot": "plot_8",
+          "spawn": "spawn_8",
+          "shop": "shop_8",
+          "mob_spawn": "mob_spawn_8",
+          "forward": "north"
+        },
+        {
+          "plot": "plot_9",
+          "spawn": "spawn_9",
+          "shop": "shop_9",
+          "mob_spawn": "mob_spawn_9",
+          "forward": "north"
+        },
+        {
+          "plot": "plot_10",
+          "spawn": "spawn_10",
+          "shop": "shop_10",
+          "mob_spawn": "mob_spawn_10",
+          "forward": "north"
+        },
+        {
+          "plot": "plot_11",
+          "spawn": "spawn_11",
+          "shop": "shop_11",
+          "mob_spawn": "mob_spawn_11",
+          "forward": "west"
+        },
+        {
+          "plot": "plot_12",
+          "spawn": "spawn_12",
+          "shop": "shop_12",
+          "mob_spawn": "mob_spawn_12",
+          "forward": "west"
+        },
+        {
+          "plot": "plot_13",
+          "spawn": "spawn_13",
+          "shop": "shop_13",
+          "mob_spawn": "mob_spawn_13",
+          "forward": "west"
+        },
+        {
+          "plot": "plot_14",
+          "spawn": "spawn_14",
+          "shop": "shop_14",
+          "mob_spawn": "mob_spawn_14",
+          "forward": "west"
         }
       ]
     },
