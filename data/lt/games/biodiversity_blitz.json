@@ -36,10 +36,6 @@
           "tag": {
             "Unbreakable": true
           }
-        },
-        {
-          "id": "ltminigames:osa_point",
-          "Count": 32
         }
       ]
     },
@@ -151,11 +147,16 @@
       }
     },
     {
-      "type": "ltminigames:drop_currency"
+      "type": "ltminigames:drop_currency",
+      "interval": 30
     },
     "lt:biodiversity_blitz/plants",
     "lt:biodiversity_blitz/plant_items",
-    "ltminigames:biodiversity_blitz",
+    {
+      "type": "ltminigames:biodiversity_blitz",
+      "initial_currency": 32
+    },
+    "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant"
   ]
 }
