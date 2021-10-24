@@ -22,7 +22,11 @@
             "key": "the_duo",
             "name": "The Duo",
             "dye": "red",
-            "text": "red"
+            "text": "red",
+            "assign": [
+              "3e6835f1-7344-435a-9a23-c2f2441a002c",
+              "dce7b3a1-6f05-41a6-91cd-71c34de5b801"
+            ]
           },
           {
             "key": "the_viewers",
@@ -30,13 +34,7 @@
             "dye": "aqua",
             "text": "aqua"
           }
-        ],
-        "assign": {
-          "the_duo": [
-            "3e6835f1-7344-435a-9a23-c2f2441a002c",
-            "dce7b3a1-6f05-41a6-91cd-71c34de5b801"
-          ]
-        }
+        ]
       }
     ]
   },
