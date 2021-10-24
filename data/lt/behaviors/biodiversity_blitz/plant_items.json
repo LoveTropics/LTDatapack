@@ -1,6 +1,6 @@
 [
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "sweet_berries",
     "places": "sweet_berry_bush",
     "item": {
@@ -17,7 +17,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "potato",
     "places": "potato",
     "item": {
@@ -35,7 +35,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "carrot",
     "places": "carrot",
     "item": {
@@ -53,7 +53,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "wheat",
     "places": "wheat",
     "item": {
@@ -71,7 +71,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "beetroot",
     "places": "beetroot",
     "item": {
@@ -89,7 +89,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "wither_rose",
     "places": "wither_rose",
     "item": {
@@ -106,7 +106,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "grass",
     "places": "grass",
     "item": {
@@ -123,7 +123,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "iris",
     "places": "iris",
     "item": {
@@ -140,7 +140,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "melon",
     "places": "melon",
     "item": {
@@ -157,7 +157,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "pumpkin",
     "places": "pumpkin",
     "item": {
@@ -174,7 +174,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "jack_o_lantern",
     "places": "jack_o_lantern",
     "item": {
@@ -191,7 +191,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "birch_sapling",
     "places": "birch_sapling",
     "item": {
@@ -209,7 +209,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "red_mangrove_propagule",
     "places": "red_mangrove_propagule",
     "item": {
@@ -227,7 +227,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "tall_mangrove_propagule",
     "places": "tall_mangrove_propagule",
     "item": {
@@ -245,7 +245,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "tea_mangrove_propagule",
     "places": "tea_mangrove_propagule",
     "item": {
@@ -263,7 +263,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "black_mangrove_propagule",
     "places": "black_mangrove_propagule",
     "item": {
@@ -281,7 +281,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "oak_sapling",
     "places": "oak_sapling",
     "item": {
@@ -299,7 +299,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "crocosmia",
     "places": "crocosmia",
     "item": {
@@ -316,7 +316,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant_item",
+    "type": "ltminigames:biodiversity_blitz_plant_item",
     "id": "commelina_diffusa",
     "places": "commelina_diffusa",
     "item": {

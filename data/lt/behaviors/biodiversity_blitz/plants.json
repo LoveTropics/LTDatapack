@@ -1,6 +1,6 @@
 [
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "sweet_berry_bush",
     "behaviors": [
       {
@@ -19,7 +19,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "potato",
     "behaviors": [
       {
@@ -32,7 +32,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
-        "loot_table": "lt:mangroves_and_pianguas/potatoes"
+        "loot_table": "lt:biodiversity_blitz/potatoes"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -42,7 +42,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "carrot",
     "behaviors": [
       {
@@ -55,7 +55,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
-        "loot_table": "lt:mangroves_and_pianguas/carrots"
+        "loot_table": "lt:biodiversity_blitz/carrots"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -65,7 +65,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "wheat",
     "behaviors": [
       {
@@ -78,7 +78,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
-        "loot_table": "lt:mangroves_and_pianguas/wheat"
+        "loot_table": "lt:biodiversity_blitz/wheat"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -88,7 +88,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "beetroot",
     "behaviors": [
       {
@@ -101,7 +101,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
-        "loot_table": "lt:mangroves_and_pianguas/beetroots"
+        "loot_table": "lt:biodiversity_blitz/beetroots"
       },
       {
         "type": "ltminigames:aging_plant",
@@ -111,7 +111,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "wither_rose",
     "behaviors": [
       {
@@ -126,7 +126,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "grass",
     "behaviors": [
       {
@@ -151,7 +151,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "iris",
     "behaviors": [
       {
@@ -176,7 +176,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "melon",
     "behaviors": [
       {
@@ -195,7 +195,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "pumpkin",
     "behaviors": [
       {
@@ -218,7 +218,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "jack_o_lantern",
     "behaviors": [
       {
@@ -234,7 +234,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_tree",
     "behaviors": [
       {
@@ -249,7 +249,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_sapling",
     "behaviors": [
       {
@@ -269,7 +269,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_tree",
     "behaviors": [
       {
@@ -292,7 +292,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_sapling",
     "behaviors": [
       {
@@ -312,7 +312,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "red_mangrove",
     "behaviors": [
       {
@@ -332,7 +332,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "red_mangrove_propagule",
     "behaviors": [
       {
@@ -352,7 +352,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tall_mangrove",
     "behaviors": [
       {
@@ -372,7 +372,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tall_mangrove_propagule",
     "behaviors": [
       {
@@ -392,7 +392,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove",
     "behaviors": [
       {
@@ -412,7 +412,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove_propagule",
     "behaviors": [
       {
@@ -432,7 +432,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove",
     "behaviors": [
       {
@@ -452,7 +452,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove_propagule",
     "behaviors": [
       {
@@ -472,7 +472,7 @@
   },
 
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "crocosmia",
     "behaviors": [
       {
@@ -490,7 +490,7 @@
     ]
   },
   {
-    "type": "ltminigames:mangroves_and_pianguas_plant",
+    "type": "ltminigames:biodiversity_blitz_plant",
     "id": "commelina_diffusa",
     "behaviors": [
       {
