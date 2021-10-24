@@ -57,7 +57,8 @@
     "rules": {
       "doDaylightCycle": "false",
       "doWeatherCycle": "false",
-      "doMobSpawning": "false"
+      "doMobSpawning": "false",
+      "announceAdvancements": "false"
     }
   }
 ]

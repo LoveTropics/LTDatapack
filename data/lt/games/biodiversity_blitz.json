@@ -16,7 +16,8 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "randomTickSpeed": "0"
+        "randomTickSpeed": "0",
+        "announceAdvancements": "false"
       }
     },
     {
