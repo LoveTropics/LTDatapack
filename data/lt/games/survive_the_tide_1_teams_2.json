@@ -20,7 +20,8 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:survive_the_tide"
+    "load_from": "lt:survive_the_tide",
+    "dimension_type": "tropicraft:tropics"
   },
   "behaviors": [
     {
