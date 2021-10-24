@@ -193,7 +193,8 @@
       {"type": "ltminigames:give_player_head_package"},
       {
         "type": "ltminigames:spawn_entity_at_player_package",
-        "entity_id": "minecraft:creeper"
+        "entity_id": "minecraft:creeper",
+        "distance": 3.0
       }
     ]
   },
@@ -231,7 +232,8 @@
       {"type": "ltminigames:give_player_head_package"},
       {
         "type": "ltminigames:spawn_entity_at_player_package",
-        "entity_id": "minecraft:creeper"
+        "entity_id": "minecraft:creeper",
+        "distance": 3.0
       }
     ]
   },
