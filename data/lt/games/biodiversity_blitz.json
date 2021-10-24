@@ -150,6 +150,9 @@
         "hard": 1.5
       }
     },
+    {
+      "type": "ltminigames:drop_currency"
+    },
     "lt:biodiversity_blitz/plants",
     "lt:biodiversity_blitz/plant_items",
     "ltminigames:biodiversity_blitz",

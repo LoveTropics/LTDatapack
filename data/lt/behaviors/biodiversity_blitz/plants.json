@@ -2,6 +2,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "sweet_berry_bush",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -21,6 +22,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "potato",
+    "family": "crop",
+    "value": 0.05,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -44,6 +47,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "carrot",
+    "family": "crop",
+    "value": 0.05,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -67,6 +72,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "wheat",
+    "family": "crop",
+    "value": 0.05,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -90,6 +97,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "beetroot",
+    "family": "crop",
+    "value": 0.05,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -113,6 +122,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "wither_rose",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -128,6 +138,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "grass",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -153,6 +164,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "iris",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_double_plant",
@@ -178,6 +190,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "melon",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -197,6 +210,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "pumpkin",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -220,6 +234,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "jack_o_lantern",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:drop_plant_item",
@@ -236,6 +251,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_tree",
+    "family": "tree",
+    "value": 0.75,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -251,6 +268,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_sapling",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -271,6 +289,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_tree",
+    "family": "tree",
+    "value": 0.75,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -294,6 +314,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_sapling",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -314,6 +335,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "red_mangrove",
+    "family": "tree",
+    "value": 0.9,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -334,6 +357,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "red_mangrove_propagule",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -354,6 +378,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tall_mangrove",
+    "family": "tree",
+    "value": 0.9,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -374,6 +400,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tall_mangrove_propagule",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -394,6 +421,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove",
+    "family": "tree",
+    "value": 0.9,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -414,6 +443,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove_propagule",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -434,6 +464,8 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove",
+    "family": "tree",
+    "value": 0.9,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -454,6 +486,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove_propagule",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -474,6 +507,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "crocosmia",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -492,6 +526,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "commelina_diffusa",
+    "family": "plant",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
