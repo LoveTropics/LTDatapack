@@ -1,0 +1,65 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "oak_sapling",
+    "places": "oak_sapling",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into an oak tree and drops golden apples rarely.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "oak_tree",
+    "family": "tree",
+    "value": 0.75,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "minecraft:oak"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "oak_sapling"
+      },
+      {
+        "type": "ltminigames:idle_drop_item",
+        "interval": 6000,
+        "item": {
+          "id": "minecraft:golden_apple",
+          "Count": 1
+        }
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "oak_sapling",
+    "family": "sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:oak_sapling"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "oak_sapling"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "oak_tree"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "carrot",
+    "places": "carrot",
+    "item": {
+      "id": "ltminigames:carrot_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Good source of nutrition!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "carrot",
+    "family": "crop",
+    "value": 0.05,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:carrots"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "carrot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:biodiversity_blitz/carrots"
+      },
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  }
+]

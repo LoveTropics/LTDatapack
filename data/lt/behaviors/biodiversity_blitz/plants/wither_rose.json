@@ -1,0 +1,34 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "wither_rose",
+    "places": "wither_rose",
+    "item": {
+      "id": "minecraft:wither_rose",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Applies the wither effect to mobs touching it.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "wither_rose",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:wither_rose"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "wither_rose"
+      }
+    ]
+  }
+]

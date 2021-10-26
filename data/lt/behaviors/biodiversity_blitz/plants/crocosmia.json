@@ -1,0 +1,38 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "crocosmia",
+    "places": "crocosmia",
+    "item": {
+      "id": "tropicraft:crocosmia",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Catches nearby mobs on fire.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "crocosmia",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:crocosmia"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "crocosmia"
+      },
+      {
+        "type": "ltminigames:flaming_plant",
+        "radius": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "pumpkin",
+    "places": "pumpkin",
+    "item": {
+      "id": "minecraft:pumpkin",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Causes mobs to be attracted to it. Eventually breaks.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "pumpkin",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:pumpkin"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "pumpkin"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "initial": 30
+      },
+      {
+        "type": "ltminigames:barrier_plant",
+        "radius": 1.0
+      }
+    ]
+  }
+]

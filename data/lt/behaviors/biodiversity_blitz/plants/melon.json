@@ -1,0 +1,38 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "melon",
+    "places": "melon",
+    "item": {
+      "id": "minecraft:melon",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Explodes when monsters are nearby.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "melon",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:melon"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "melon"
+      },
+      {
+        "type": "ltminigames:proximity_bomb_plant",
+        "radius": 2.0
+      }
+    ]
+  }
+]

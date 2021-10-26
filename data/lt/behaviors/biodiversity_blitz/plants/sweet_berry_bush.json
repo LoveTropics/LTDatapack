@@ -1,0 +1,38 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "sweet_berries",
+    "places": "sweet_berry_bush",
+    "item": {
+      "id": "ltminigames:sweet_berry_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "sweet_berry_bush",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:sweet_berry_bush"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "sweet_berries"
+      },
+      {
+        "type": "ltminigames:berries_plant",
+        "interval": 300
+      }
+    ]
+  }
+]

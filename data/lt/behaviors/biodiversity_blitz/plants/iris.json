@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "iris",
+    "places": "iris",
+    "item": {
+      "id": "tropicraft:iris",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Applies a glowing effect mobs to all mobs nearby.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "iris",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_double_plant",
+        "block": "minecraft:iris"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "iris"
+      },
+      {
+        "type": "ltminigames:effect_adding_plant",
+        "effect": {
+          "type": "minecraft:glowing",
+          "seconds": 1,
+          "amplifier": 1,
+          "hide_particles": false
+        },
+        "radius": 5.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "wheat",
+    "places": "wheat",
+    "item": {
+      "id": "minecraft:wheat_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"A staple crop for many.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "wheat",
+    "family": "crop",
+    "value": 0.05,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:wheat"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "wheat"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:biodiversity_blitz/wheat"
+      },
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  }
+]

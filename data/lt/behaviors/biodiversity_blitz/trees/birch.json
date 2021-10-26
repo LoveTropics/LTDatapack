@@ -1,0 +1,57 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "birch_sapling",
+    "places": "birch_sapling",
+    "item": {
+      "id": "minecraft:birch_sapling",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a birch tree.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "birch_tree",
+    "family": "tree",
+    "value": 0.75,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "minecraft:birch"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "birch_sapling"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "birch_sapling",
+    "family": "sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:birch_sapling"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "birch_sapling"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "birch_tree"
+      }
+    ]
+  }
+]

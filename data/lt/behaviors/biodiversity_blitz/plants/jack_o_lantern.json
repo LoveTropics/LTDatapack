@@ -1,0 +1,35 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "jack_o_lantern",
+    "places": "jack_o_lantern",
+    "item": {
+      "id": "minecraft:jack_o_lantern",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Pushes mobs away from it. Turns into a pumpkin after some time.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "jack_o_lantern",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "jack_o_lantern"
+      },
+      {
+        "type": "ltminigames:scare_trap_plant",
+        "trigger_radius": 1.5,
+        "scare_radius": 4.0
+      }
+    ]
+  }
+]

@@ -151,7 +151,6 @@
       "interval": 30
     },
     "lt:biodiversity_blitz/plants",
-    "lt:biodiversity_blitz/plant_items",
     {
       "type": "ltminigames:biodiversity_blitz",
       "initial_currency": 32

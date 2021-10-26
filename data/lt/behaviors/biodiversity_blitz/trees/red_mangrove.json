@@ -1,0 +1,62 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "red_mangrove_propagule",
+    "places": "red_mangrove_propagule",
+    "item": {
+      "id": "tropicraft:red_mangrove_propagule",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a red mangrove.\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "red_mangrove",
+    "family": "tree",
+    "value": 0.9,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": "tropicraft:red_mangrove_short"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:pianguas",
+        "radius": 4,
+        "block": "tropicraft:mud_with_pianguas"
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "red_mangrove_propagule",
+    "family": "sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "red_mangrove_propagule"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "red_mangrove"
+      }
+    ]
+  }
+]

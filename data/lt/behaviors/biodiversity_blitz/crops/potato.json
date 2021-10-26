@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "potato",
+    "places": "potato",
+    "item": {
+      "id": "ltminigames:potato_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Good source of nutrition!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "potato",
+    "family": "crop",
+    "value": 0.05,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:potatoes"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "potato"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:biodiversity_blitz/potatoes"
+      },
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  }
+]

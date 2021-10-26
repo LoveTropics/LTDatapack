@@ -1,0 +1,38 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "commelina_diffusa",
+    "places": "commelina_diffusa",
+    "item": {
+      "id": "tropicraft:commelina_diffusa",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Damages nearby mobs with water. Puts out fires.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "commelina_diffusa",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:commelina_diffusa"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "commelina_diffusa"
+      },
+      {
+        "type": "ltminigames:watery_plant",
+        "radius": 2
+      }
+    ]
+  }
+]

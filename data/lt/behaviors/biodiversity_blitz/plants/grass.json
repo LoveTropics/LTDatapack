@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "grass",
+    "places": "grass",
+    "item": {
+      "id": "minecraft:grass",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Greatly slows down mobs touching it.\",\"color\": \"gray\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "grass",
+    "family": "plant",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:grass"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "grass"
+      },
+      {
+        "type": "ltminigames:effect_adding_plant",
+        "effect": {
+          "type": "minecraft:slowness",
+          "seconds": 0.5,
+          "amplifier": 2,
+          "hide_particles": true
+        },
+        "radius": 0.0
+      }
+    ]
+  }
+]

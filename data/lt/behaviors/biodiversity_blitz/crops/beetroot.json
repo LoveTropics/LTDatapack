@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "beetroot",
+    "places": "beetroot",
+    "item": {
+      "id": "minecraft:beetroot_seeds",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Makes great soup!\",\"color\": \"gray\",\"italic\": true}",
+            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "beetroot",
+    "family": "crop",
+    "value": 0.05,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:beetroots"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "beetroot"
+      },
+      {
+        "type": "ltminigames:drop_loot_table",
+        "loot_table": "lt:biodiversity_blitz/beetroots"
+      },
+      {
+        "type": "ltminigames:aging_plant",
+        "interval": 300
+      }
+    ]
+  }
+]
