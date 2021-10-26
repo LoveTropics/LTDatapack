@@ -268,7 +268,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_sapling",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -314,7 +314,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_sapling",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -357,7 +357,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "red_mangrove_propagule",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -400,7 +400,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tall_mangrove_propagule",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -443,7 +443,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove_propagule",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
@@ -486,7 +486,7 @@
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove_propagule",
-    "family": "plant",
+    "family": "sapling",
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
