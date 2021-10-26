@@ -37,7 +37,7 @@
             "color": "aqua",
             "extra": [
               {
-                "text": "Love Tropics! :heart:",
+                "text": "Love Tropics! ♥",
                 "color": "gold"
               }
             ]
@@ -49,7 +49,7 @@
           "type": "text",
           "pos": [213.5, 179.0, 237.5],
           "text": {
-            "text": ":arrow_down: Follow the stairs! :arrow_down:",
+            "text": "⬇ Follow the stairs! ⬇",
             "color": "green"
           },
           "scale": 0.05,
@@ -70,7 +70,7 @@
         "type": "text",
         "pos": [211.5, 175.0, 245.5],
         "text": {
-          "text": ":arrow_down: Jump down to the platform! :arrow_down:",
+          "text": "⬇ Jump down to the platform! ⬇",
           "color": "green"
         },
         "scale": 0.0625,

@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "swap_players_package",
+    "notification": {
+      "message": {
+        "text": "%1$s sent a PLAYER SWAP SABOTAGE and all players have swapped positions!",
+        "color": "red"
+      },
+      "icon": {"effect": "minecraft:unluck"},
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {"type": "ltminigames:swap_players_package"}
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "hunger_package",
+    "notification": {
+      "message": {
+        "text": "%1$s sent you a HUNGER SABOTAGE for 2 minutes!",
+        "color": "red"
+      },
+      "icon": {"effect": "minecraft:hunger"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "specific",
+    "receive_behaviors": [
+      {"type": "ltminigames:give_player_head_package"},
+      {
+        "type": "ltminigames:effect_package",
+        "effects": [
+          {
+            "type": "minecraft:hunger",
+            "seconds": 120,
+            "amplifier": 3
+          }
+        ]
+      }
+    ]
+  }
+]

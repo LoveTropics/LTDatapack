@@ -156,6 +156,7 @@
       "initial_currency": 32
     },
     "ltminigames:biodiversity_blitz_client_state",
-    "lt:biodiversity_blitz/merchant"
+    "lt:biodiversity_blitz/merchant",
+    "lt:biodiversity_blitz/donations"
   ]
 }
