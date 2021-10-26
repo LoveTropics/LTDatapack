@@ -25,7 +25,52 @@
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
-        "feature": "tropicraft:tea_mangrove"
+        "feature": {
+          "type": "tropicraft:mangrove_tree",
+          "config": {
+            "max_water_depth": 0,
+            "ignore_vines": false,
+            "heightmap": "OCEAN_FLOOR",
+            "minimum_size": {
+              "type": "minecraft:two_layers_feature_size",
+              "limit": 0,
+              "lower_size": 0,
+              "upper_size": 0,
+              "min_clipped_height": 4
+            },
+            "decorators": [
+              {"count": 2, "spread": 2, "type": "tropicraft:pianguas"}
+            ],
+            "trunk_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "tropicraft:light_mangrove_log",
+                "Properties": {"axis": "y"}
+              }
+            },
+            "leaves_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "tropicraft:tea_mangrove_leaves",
+                "Properties": {"persistent": "false", "distance": "7"}
+              }
+            },
+            "foliage_placer": {
+              "type": "tropicraft:mangrove",
+              "radius": 0,
+              "offset": 0
+            },
+            "trunk_placer": {
+              "type": "tropicraft:mangrove",
+              "roots_block": "tropicraft:light_mangrove_roots",
+              "can_generate_raised": false,
+              "tea_mangrove": true,
+              "base_height": 5,
+              "height_rand_a": 1,
+              "height_rand_b": 0
+            }
+          }
+        }
       },
       {
         "type": "ltminigames:drop_plant_item",
