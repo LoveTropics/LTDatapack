@@ -46,8 +46,18 @@
         "type": "text",
         "pos": [219.5, 112.0, 243.5],
         "text": {
-          "text": "⬇ Step here to launch! ⬇",
-          "color": "green"
+          "text": "⬇ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Step here to launch!",
+              "color": "green"
+            },
+            {
+              "text": " ⬇",
+              "color": "aqua"
+            }
+          ]
         },
         "scale": 0.0625,
         "point_along": [-1.0, 0.0, 0.0]
@@ -66,8 +76,18 @@
         "type": "text",
         "pos": [213.5, 112.0, 249.5],
         "text": {
-          "text": "⬇ Step here to launch! ⬇",
-          "color": "green"
+          "text": "⬇ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Step here to launch!",
+              "color": "green"
+            },
+            {
+              "text": " ⬇",
+              "color": "aqua"
+            }
+          ]
         },
         "scale": 0.0625,
         "point_along": [0.0, 0.0, -1.0]
@@ -86,8 +106,18 @@
         "type": "text",
         "pos": [207.5, 112.0, 243.5],
         "text": {
-          "text": "⬇ Step here to launch! ⬇",
-          "color": "green"
+          "text": "⬇ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Step here to launch!",
+              "color": "green"
+            },
+            {
+              "text": " ⬇",
+              "color": "aqua"
+            }
+          ]
         },
         "scale": 0.0625,
         "point_along": [1.0, 0.0, 0.0]
@@ -106,8 +136,18 @@
         "type": "text",
         "pos": [213.5, 112.0, 237.5],
         "text": {
-          "text": "⬇ Step here to launch! ⬇",
-          "color": "green"
+          "text": "⬇ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Step here to launch!",
+              "color": "green"
+            },
+            {
+              "text": " ⬇",
+              "color": "aqua"
+            }
+          ]
         },
         "scale": 0.0625,
         "point_along": [0.0, 0.0, 1.0]

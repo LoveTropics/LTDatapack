@@ -37,8 +37,12 @@
             "color": "aqua",
             "extra": [
               {
-                "text": "Love Tropics! ♥",
+                "text": "Love Tropics! ",
                 "color": "gold"
+              },
+              {
+                "text": "♥",
+                "color": "red"
               }
             ]
           },
@@ -49,8 +53,18 @@
           "type": "text",
           "pos": [213.5, 179.0, 237.5],
           "text": {
-            "text": "⬇ Follow the stairs! ⬇",
-            "color": "green"
+            "text": "⬇ ",
+            "color": "aqua",
+            "extra": [
+              {
+                "text": "Follow the stairs!",
+                "color": "green"
+              },
+              {
+                "text": " ⬇",
+                "color": "aqua"
+              }
+            ]
           },
           "scale": 0.05,
           "point_along": [0.0, 0.0, 1.0]
@@ -70,8 +84,18 @@
         "type": "text",
         "pos": [211.5, 175.0, 245.5],
         "text": {
-          "text": "⬇ Jump down to the platform! ⬇",
-          "color": "green"
+          "text": "⬇ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Jump down to the platform!",
+              "color": "green"
+            },
+            {
+              "text": " ⬇",
+              "color": "aqua"
+            }
+          ]
         },
         "scale": 0.0625,
         "point_along": [1.0, 0.0, -1.0]
