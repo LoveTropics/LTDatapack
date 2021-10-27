@@ -106,7 +106,7 @@
       {
         "input": {"id": "minecraft:potato", "Count": 2},
         "output": {"id": "minecraft:baked_potato", "Count": 1}
-      },
+      }
     ]
   }
 ]
