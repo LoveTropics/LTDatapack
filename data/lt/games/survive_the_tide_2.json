@@ -1,5 +1,5 @@
 {
-  "translation_key": "survive_the_tide_2",
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_2"},
   "telemetry_key": "survive_the_tide",
   "minimum_participants": 3,
   "maximum_participants": 16,

@@ -1,5 +1,5 @@
 {
-  "translation_key": "treasure_hunt",
+  "name": {"translate": "ltminigames.minigame.treasure_hunt"},
   "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"

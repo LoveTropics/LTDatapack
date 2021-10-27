@@ -1,5 +1,5 @@
 {
-  "translation_key": "arcade_turtle_race",
+  "name": {"translate": "ltminigames.minigame.arcade_turtle_race"},
   "telemetry_key": "turtle_race",
   "map": {
     "type": "ltminigames:inline",

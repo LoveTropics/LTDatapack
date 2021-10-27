@@ -1,5 +1,5 @@
 {
-  "translation_key": "trash_dive",
+  "name": {"translate": "ltminigames.minigame.trash_dive"},
   "telemetry_key": "trash_dive",
   "map": {
     "type": "ltminigames:load_map",

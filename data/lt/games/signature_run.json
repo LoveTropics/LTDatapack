@@ -1,5 +1,5 @@
 {
-  "translation_key": "signature_run",
+  "name": {"translate": "ltminigames.minigame.signature_run"},
   "telemetry_key": "signature_run",
   "map": {
     "type": "ltminigames:load_map",
@@ -32,8 +32,8 @@
     { "type": "ltminigames:weather_controls" },
     { "type": "ltminigames:spectator_chase" },
     {
-      "type": "ltminigames:set_client_tweak",
-      "tweak": {
+      "type": "ltminigames:set_client_state",
+      "state": {
         "type": "ltminigames:hotbar_texture",
         "texture": "ltminigames:textures/gui/widgets.png"
       }
