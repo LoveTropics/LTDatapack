@@ -96,13 +96,17 @@
         "output": {"id": "minecraft:arrow", "Count": 4}
       },
       {
+        "input": {"id": "tropicraft:pianguas", "Count": 1},
+        "output": {"id": "ltminigames:osa_point", "Count": 6}
+      },
+      {
         "input": {"id": "minecraft:wheat", "Count": 2},
         "output": {"id": "minecraft:bread", "Count": 1}
       },
       {
         "input": {"id": "minecraft:potato", "Count": 2},
         "output": {"id": "minecraft:baked_potato", "Count": 1}
-      }
+      },
     ]
   }
 ]

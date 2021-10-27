@@ -150,6 +150,12 @@
       "type": "ltminigames:drop_currency",
       "interval": 30
     },
+    {
+      "type": "ltminigames:remove_from_block",
+      "in": "tropicraft:mud_with_pianguas",
+      "out": "tropicraft:mud",
+      "drop": "tropicraft:pianguas"
+    },
     "lt:biodiversity_blitz/plants",
     {
       "type": "ltminigames:biodiversity_blitz",
