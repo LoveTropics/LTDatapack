@@ -31,7 +31,7 @@
       },
       {
         "type": "ltminigames:watery_plant",
-        "radius": 2
+        "radius": 1
       }
     ]
   }
