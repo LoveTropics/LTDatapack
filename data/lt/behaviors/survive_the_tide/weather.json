@@ -22,6 +22,20 @@
       "phase3": 0.02,
       "phase4": 0.025
     },
+    "sandstorm_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "snowstorm_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
     "wind_speed": {
       "phase0": 0.1,
       "phase1": 0.1,
