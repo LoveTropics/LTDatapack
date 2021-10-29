@@ -150,6 +150,11 @@
       "type": "ltminigames:biodiversity_blitz_currency",
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
+      "drop_calculation": {
+        "base": 4.0,
+        "bound": 30.0,
+        "diversity_factor": 0.33
+      },
       "drop_interval": 30
     },
     {
@@ -165,7 +170,7 @@
     "lt:biodiversity_blitz/donations",
     {
       "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
-      "threshold_currency": 100
+      "threshold_currency": 200
     },
     {
       "type": "ltminigames:game_end_timer",
