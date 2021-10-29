@@ -1,80 +1,10 @@
 [
   {
     "type": "ltminigames:biodiversity_blitz_merchant",
-    "entity": "tropicraft:koa",
+    "plot_region": "shop",
+    "entity": "tropicraft:tropiskelly",
+    "name": "Shop",
     "offers": [
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 4},
-        "output": {"plant": "sweet_berries"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
-        "output": {"plant": "crocosmia"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 8},
-        "output": {"plant": "commelina_diffusa"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
-        "output": {"plant": "potato"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
-        "output": {"plant": "carrot"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
-        "output": {"plant": "wheat", "count": 2}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 2},
-        "output": {"plant": "grass"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
-        "output": {"plant": "wither_rose"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
-        "output": {"plant": "melon"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
-        "output": {"plant": "iris"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
-        "output": {"plant": "jack_o_lantern"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
-        "output": {"plant": "birch_sapling"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
-        "output": {"plant": "oak_sapling"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
-        "output": {"plant": "red_mangrove_propagule"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
-        "output": {"plant": "tall_mangrove_propagule"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
-        "output": {"plant": "tea_mangrove_propagule"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
-        "output": {"plant": "black_mangrove_propagule"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
-        "output": {"plant": "pumpkin"}
-      },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 12},
         "output": "minecraft:oak_boat"
