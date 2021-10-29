@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Good source of nutrition!\",\"color\": \"gray\",\"italic\": true}",
-            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Good source of nutrition!\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

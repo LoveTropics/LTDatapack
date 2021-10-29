@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

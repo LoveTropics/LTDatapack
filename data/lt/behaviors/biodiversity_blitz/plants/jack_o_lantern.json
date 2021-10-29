@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Pushes mobs away from it. Turns into a pumpkin after some time.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Scares nearby mobs away! Must be reset after triggering.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

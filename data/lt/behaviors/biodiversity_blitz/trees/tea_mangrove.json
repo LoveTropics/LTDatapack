@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a tea mangrove.\",\"color\": \"gray\",\"italic\": true}",
-            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Grows into a tea mangrove.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

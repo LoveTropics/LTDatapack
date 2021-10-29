@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a birch tree.\",\"color\": \"gray\",\"italic\": true}",
-            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Grows into a birch tree.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

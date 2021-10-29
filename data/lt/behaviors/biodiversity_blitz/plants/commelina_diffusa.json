@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Damages nearby mobs with water. Puts out fires.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Damages nearby mobs with water. Puts out fires.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

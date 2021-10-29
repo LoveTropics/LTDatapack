@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Explodes when monsters are nearby.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Explodes when monsters come too close.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }
@@ -31,7 +32,7 @@
       },
       {
         "type": "ltminigames:proximity_bomb_plant",
-        "radius": 2.0
+        "radius": 1.2
       }
     ]
   }

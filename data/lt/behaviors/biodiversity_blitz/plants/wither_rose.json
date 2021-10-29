@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Applies the wither effect to mobs touching it.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Applies the wither effect to mobs touching it.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

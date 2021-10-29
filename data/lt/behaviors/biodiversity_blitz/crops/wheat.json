@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"A staple crop for many.\",\"color\": \"gray\",\"italic\": true}",
-            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"A staple crop for many.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }
