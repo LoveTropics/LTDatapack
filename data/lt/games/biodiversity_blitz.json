@@ -147,8 +147,10 @@
       }
     },
     {
-      "type": "ltminigames:drop_currency",
-      "interval": 30
+      "type": "ltminigames:biodiversity_blitz_currency",
+      "initial_currency": 32,
+      "item": "ltminigames:osa_point",
+      "drop_interval": 30
     },
     {
       "type": "ltminigames:remove_from_block",
@@ -157,12 +159,27 @@
       "drop": "tropicraft:pianguas"
     },
     "lt:biodiversity_blitz/plants",
-    {
-      "type": "ltminigames:biodiversity_blitz",
-      "initial_currency": 32
-    },
+    "ltminigames:biodiversity_blitz",
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
-    "lt:biodiversity_blitz/donations"
+    "lt:biodiversity_blitz/donations",
+    {
+      "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
+      "threshold_currency": 100
+    },
+    {
+      "type": "ltminigames:game_end_timer",
+      "stop_delay": 200,
+      "scheduled_messages": {
+        "0": {
+          "text": "Through tough competition, %1$s has acquired sufficient currency points and has won the game!",
+          "color": "gray"
+        },
+        "20": {
+          "text": "Gosh, just look at %1$s's garden!",
+          "color": "gray"
+        }
+      }
+    }
   ]
 }
