@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "wheat",
     "family": "crop",
-    "value": 0.05,
+    "value": 0.1,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",

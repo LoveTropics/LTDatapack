@@ -46,7 +46,7 @@
         "output": {"plant": "iris"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": {"plant": "jack_o_lantern"}
       },
       {
@@ -54,7 +54,7 @@
         "output": {"plant": "birch_sapling"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "Count": 30},
         "output": {"plant": "oak_sapling"}
       },
       {

@@ -21,6 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "iris",
     "family": "plant",
+    "value": 0.2,
     "behaviors": [
       {
         "type": "ltminigames:place_double_plant",
