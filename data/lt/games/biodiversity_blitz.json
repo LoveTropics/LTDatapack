@@ -62,6 +62,11 @@
         "upper": 10.0,
         "base": 3.0,
         "scale": 1.0
+      },
+      "first_message": {
+        "text": "A wave has spawned! Your plant defense may not yet be self-sufficient, use your sword to defend your plot!",
+        "color": "gray",
+        "italic": true
       }
     },
     {

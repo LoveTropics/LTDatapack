@@ -1,8 +1,7 @@
 [
   {
     "type": "ltminigames:set_game_types",
-    "participant": "adventure",
-    "spectator": "spectator"
+    "none": "adventure"
   },
   {
     "type": "ltminigames:position_players",
