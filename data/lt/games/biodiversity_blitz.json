@@ -2,7 +2,7 @@
   "name": {"translate": "ltminigames.minigame.biodiversity_blitz"},
   "telemetry_key": "biodiversity_blitz",
   "minimum_participants": 1,
-  "maximum_participants": 14,
+  "maximum_participants": 20,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:biodiversity_blitz"
@@ -92,7 +92,7 @@
       "threshold_currency": 200
     },
     {
-      "type": "ltminigames:game_end_timer",
+      "type": "ltminigames:game_end_effects",
       "stop_delay": 200,
       "scheduled_messages": {
         "0": {
@@ -104,6 +104,7 @@
           "color": "gray"
         }
       }
-    }
+    },
+    "ltminigames:spectator_chase"
   ]
 }

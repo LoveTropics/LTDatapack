@@ -3,7 +3,8 @@
   "telemetry_key": "trash_dive",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:trash_dive"
+    "load_from": "lt:trash_dive",
+    "dimension_type": "tropicraft:tropics"
   },
   "minimum_participants": 1,
   "maximum_participants": 64,

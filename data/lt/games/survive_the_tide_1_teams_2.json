@@ -8,7 +8,8 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby"
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
       {
