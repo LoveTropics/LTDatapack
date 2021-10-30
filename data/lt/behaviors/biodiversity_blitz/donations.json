@@ -41,5 +41,30 @@
         ]
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "tapir_party",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Everyone is a Tapir for 2 minutes!",
+        "color": "gold"
+      },
+      "icon": {"item": "tropicraft:tapir_spawn_egg"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "tropicraft:tapir",
+          "apply_attributes": false
+        },
+        "seconds": 120
+      }
+    ]
   }
 ]

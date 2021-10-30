@@ -58,19 +58,19 @@
         "output": {"plant": "oak_sapling"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
+        "input": {"id": "ltminigames:osa_point", "Count": 40},
         "output": {"plant": "red_mangrove_propagule"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
+        "input": {"id": "ltminigames:osa_point", "Count": 40},
         "output": {"plant": "tall_mangrove_propagule"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
+        "input": {"id": "ltminigames:osa_point", "Count": 40},
         "output": {"plant": "tea_mangrove_propagule"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 48},
+        "input": {"id": "ltminigames:osa_point", "Count": 40},
         "output": {"plant": "black_mangrove_propagule"}
       },
       {

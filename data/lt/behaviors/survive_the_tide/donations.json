@@ -298,6 +298,7 @@
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
+    "player_select": "all",
     "receive_behaviors": [
       {
         "type": "ltminigames:spawn_entities_around_players_package",

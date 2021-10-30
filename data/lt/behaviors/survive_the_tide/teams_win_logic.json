@@ -8,7 +8,7 @@
     "lightning_bolt_spawn_tick_rate": 100
   },
   {
-    "type": "ltminigames:game_end_timer",
+    "type": "ltminigames:game_end_effects",
     "stop_delay": 760,
     "scheduled_messages": {
       "0": {
@@ -31,6 +31,10 @@
         "text": "The game will close in 10 seconds...",
         "color": "gold"
       }
+    },
+    "title": {
+      "text": "%1$s has won the game!",
+      "color": "gold"
     }
   }
 ]

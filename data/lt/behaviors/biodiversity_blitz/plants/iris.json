@@ -24,7 +24,7 @@
     "behaviors": [
       {
         "type": "ltminigames:place_double_plant",
-        "block": "minecraft:iris"
+        "block": "tropicraft:iris"
       },
       {
         "type": "ltminigames:drop_plant_item",
