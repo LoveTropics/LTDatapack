@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into an oak tree and drops golden apples rarely.\",\"color\": \"gray\",\"italic\": true}",
-            "{\"text\": \"Provides currency\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Grows into an oak tree and rarely drops golden apples.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

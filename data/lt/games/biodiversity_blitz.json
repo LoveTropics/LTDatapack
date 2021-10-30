@@ -47,108 +47,33 @@
       "type": "ltminigames:set_difficulty",
       "difficulty": "normal"
     },
-    {
-      "type": "ltminigames:biodiversity_blitz_assign_plots",
-      "plots": [
-        {
-          "plot": "plot_1",
-          "spawn": "spawn_1",
-          "shop": "shop_1",
-          "mob_spawn": "mob_spawn_1"
-        },
-        {
-          "plot": "plot_2",
-          "spawn": "spawn_2",
-          "shop": "shop_2",
-          "mob_spawn": "mob_spawn_2"
-        },
-        {
-          "plot": "plot_3",
-          "spawn": "spawn_3",
-          "shop": "shop_3",
-          "mob_spawn": "mob_spawn_3"
-        },
-        {
-          "plot": "plot_4",
-          "spawn": "spawn_4",
-          "shop": "shop_4",
-          "mob_spawn": "mob_spawn_4"
-        },
-        {
-          "plot": "plot_5",
-          "spawn": "spawn_5",
-          "shop": "shop_5",
-          "mob_spawn": "mob_spawn_5"
-        },
-        {
-          "plot": "plot_6",
-          "spawn": "spawn_6",
-          "shop": "shop_6",
-          "mob_spawn": "mob_spawn_6"
-        },
-        {
-          "plot": "plot_7",
-          "spawn": "spawn_7",
-          "shop": "shop_7",
-          "mob_spawn": "mob_spawn_7"
-        },
-        {
-          "plot": "plot_8",
-          "spawn": "spawn_8",
-          "shop": "shop_8",
-          "mob_spawn": "mob_spawn_8"
-        },
-        {
-          "plot": "plot_9",
-          "spawn": "spawn_9",
-          "shop": "shop_9",
-          "mob_spawn": "mob_spawn_9"
-        },
-        {
-          "plot": "plot_10",
-          "spawn": "spawn_10",
-          "shop": "shop_10",
-          "mob_spawn": "mob_spawn_10"
-        },
-        {
-          "plot": "plot_11",
-          "spawn": "spawn_11",
-          "shop": "shop_11",
-          "mob_spawn": "mob_spawn_11"
-        },
-        {
-          "plot": "plot_12",
-          "spawn": "spawn_12",
-          "shop": "shop_12",
-          "mob_spawn": "mob_spawn_12"
-        },
-        {
-          "plot": "plot_13",
-          "spawn": "spawn_13",
-          "shop": "shop_13",
-          "mob_spawn": "mob_spawn_13"
-        },
-        {
-          "plot": "plot_14",
-          "spawn": "spawn_14",
-          "shop": "shop_14",
-          "mob_spawn": "mob_spawn_14"
-        }
-      ]
-    },
+    "lt:biodiversity_blitz/plots",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
-      "wave_interval_seconds": 120,
-      "wave_warn_seconds": 30,
+      "interval_seconds": 120,
+      "warn_seconds": 30,
       "difficulty_factors": {
         "easy": 0.5,
         "normal": 1.0,
         "hard": 1.5
+      },
+      "size_curve": {
+        "lower": 2.0,
+        "upper": 10.0,
+        "base": 3.0,
+        "scale": 1.0
       }
     },
     {
-      "type": "ltminigames:drop_currency",
-      "interval": 30
+      "type": "ltminigames:biodiversity_blitz_currency",
+      "initial_currency": 32,
+      "item": "ltminigames:osa_point",
+      "drop_calculation": {
+        "base": 4.0,
+        "bound": 30.0,
+        "diversity_factor": 0.33
+      },
+      "drop_interval": 30
     },
     {
       "type": "ltminigames:remove_from_block",
@@ -157,12 +82,28 @@
       "drop": "tropicraft:pianguas"
     },
     "lt:biodiversity_blitz/plants",
-    {
-      "type": "ltminigames:biodiversity_blitz",
-      "initial_currency": 32
-    },
+    "ltminigames:biodiversity_blitz",
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
-    "lt:biodiversity_blitz/donations"
+    "lt:biodiversity_blitz/plant_merchant",
+    "lt:biodiversity_blitz/donations",
+    {
+      "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
+      "threshold_currency": 200
+    },
+    {
+      "type": "ltminigames:game_end_timer",
+      "stop_delay": 200,
+      "scheduled_messages": {
+        "0": {
+          "text": "Through tough competition, %1$s has acquired sufficient currency points and has won the game!",
+          "color": "gray"
+        },
+        "20": {
+          "text": "Gosh, just look at %1$s's garden!",
+          "color": "gray"
+        }
+      }
+    }
   ]
 }

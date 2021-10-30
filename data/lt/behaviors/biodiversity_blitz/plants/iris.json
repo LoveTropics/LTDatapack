@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Applies a glowing effect mobs to all mobs nearby.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Applies a glowing effect mobs to all nearby mobs.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }
@@ -23,7 +24,7 @@
     "behaviors": [
       {
         "type": "ltminigames:place_double_plant",
-        "block": "minecraft:iris"
+        "block": "tropicraft:iris"
       },
       {
         "type": "ltminigames:drop_plant_item",

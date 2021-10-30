@@ -9,7 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Causes mobs to be attracted to it. Eventually breaks.\",\"color\": \"gray\",\"italic\": true}"
+            "{\"text\": \"Attracts mobs, but eventually breaks.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }
