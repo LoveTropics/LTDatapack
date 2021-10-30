@@ -70,6 +70,10 @@
       {
         "type": "ltminigames:drop_plant_item",
         "plant": "birch_sapling"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 120
       }
     ]
   },
@@ -91,6 +95,10 @@
         "type": "ltminigames:grow_plant",
         "time": 300,
         "grow_into": "birch_tree"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 16
       }
     ]
   }

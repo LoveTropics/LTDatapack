@@ -80,6 +80,10 @@
         "type": "ltminigames:pianguas",
         "radius": 4,
         "block": "tropicraft:mud_with_pianguas"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 120
       }
     ]
   },
@@ -101,6 +105,10 @@
         "type": "ltminigames:grow_plant",
         "time": 300,
         "grow_into": "black_mangrove"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 16
       }
     ]
   }

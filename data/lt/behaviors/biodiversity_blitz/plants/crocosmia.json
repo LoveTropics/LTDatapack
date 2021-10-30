@@ -32,6 +32,10 @@
       {
         "type": "ltminigames:flaming_plant",
         "radius": 1
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 32
       }
     ]
   }

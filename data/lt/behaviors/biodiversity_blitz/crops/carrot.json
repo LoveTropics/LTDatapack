@@ -36,6 +36,10 @@
         "loot_table": "lt:biodiversity_blitz/carrots"
       },
       {
+        "type": "ltminigames:plant_health",
+        "health": 24
+      },
+      {
         "type": "ltminigames:aging_plant",
         "interval": 300
       }

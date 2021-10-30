@@ -78,6 +78,10 @@
           "id": "minecraft:golden_apple",
           "Count": 1
         }
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 120
       }
     ]
   },
@@ -99,6 +103,10 @@
         "type": "ltminigames:grow_plant",
         "time": 300,
         "grow_into": "oak_tree"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 16
       }
     ]
   }
