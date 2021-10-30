@@ -1,0 +1,29 @@
+{
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
+  "subtitle": "Low Tide",
+  "telemetry_key": "survive_the_tide",
+  "minimum_participants": 3,
+  "maximum_participants": 32,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:survive_the_tide_3"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_as_role": "spectator"
+    },
+    {
+      "type":  "lt:survive_the_tide/stt3_map",
+      "tide": 180
+    },
+    "lt:survive_the_tide/stt3_phases",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/individuals_win_logic",
+    "lt:survive_the_tide/weather",
+    "lt:survive_the_tide/intro",
+    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/common"
+  ]
+}

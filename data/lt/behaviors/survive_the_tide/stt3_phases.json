@@ -1,0 +1,27 @@
+[
+  {
+    "type": "ltminigames:phase_controller",
+    "phases": [
+      {
+        "key": "phase0",
+        "length_in_ticks": 600
+      },
+      {
+        "key": "phase1",
+        "length_in_ticks": 2400
+      },
+      {
+        "key": "phase2",
+        "length_in_ticks": 6500
+      },
+      {
+        "key": "phase3",
+        "length_in_ticks": 5500
+      },
+      {
+        "key": "phase4",
+        "length_in_ticks": 4800
+      }
+    ]
+  }
+]

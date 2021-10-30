@@ -1,0 +1,63 @@
+[
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "loot_tables": {
+      "purple_glazed_terracotta": "lt:stt3/tier_1",
+      "yellow_glazed_terracotta": "lt:stt3/tier_2",
+      "pink_glazed_terracotta": "lt:stt3/tier_3",
+      "red_glazed_terracotta": "lt:stt3/tier_4"
+    }
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "spawn",
+    "spectators": "center"
+  },
+  {
+    "type": "ltminigames:rising_tides",
+    "tide_area_region": "tide_area",
+    "water_levels": {
+      "phase0": 97,
+      "phase1": 97,
+      "phase2": 120,
+      "phase3": 145,
+      "phase4": "$tide"
+    },
+    "iceberg_lines_region": "iceberg_line",
+    "phases_icebergs_grow": [],
+    "iceberg_growth_tick_rate": 100
+  },
+  {
+    "type": "ltminigames:set_blocks",
+    "region": "helicopter",
+    "set": "air",
+    "time": 400
+  },
+  {
+    "type": "ltminigames:world_border",
+    "name": "Explosive Storm",
+    "world_border_center": "storm_center",
+    "collapse_message": {
+      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
+      "color": "red",
+      "bold": true
+    },
+    "delay_until_collapse": 6000,
+    "ticks_until_start": 21000,
+    "particle_rate_delay": 1,
+    "particle_height": 110,
+    "damage_rate_delay": 20,
+    "damage_amount": 4,
+    "border_particle": "minecraft:explosion"
+  },
+  "ltminigames:disable_tnt_block_destruction",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false"
+    }
+  }
+]

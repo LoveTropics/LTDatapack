@@ -75,7 +75,7 @@
       "item": "ltminigames:osa_point",
       "drop_calculation": {
         "base": 4.0,
-        "bound": 30.0,
+        "bound": 30.5,
         "diversity_factor": 0.33
       },
       "drop_interval": 30

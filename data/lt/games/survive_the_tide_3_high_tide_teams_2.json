@@ -1,0 +1,45 @@
+{
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
+  "subtitle": "2 Teams / High Tide",
+  "telemetry_key": "survive_the_tide",
+  "minimum_participants": 3,
+  "maximum_participants": 32,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:survive_the_tide_3"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_as_role": "spectator"
+    },
+    {
+      "type":  "lt:survive_the_tide/stt3_map",
+      "tide": 190
+    },
+    "lt:survive_the_tide/stt3_phases",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/teams_win_logic",
+    "lt:survive_the_tide/weather",
+    "lt:survive_the_tide/intro",
+    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/common"
+  ]
+}
