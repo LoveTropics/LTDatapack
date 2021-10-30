@@ -1,0 +1,53 @@
+[
+  {
+    "type": "ltminigames:scheduled_messages",
+    "messages": {
+      "20": {
+        "text": "Welcome to ",
+        "extra": [
+          {
+            "text": "Biodiversity Blitz!",
+            "color": "green"
+          }
+        ],
+        "color": "gray",
+        "italic": true
+      },
+      "120": {
+        "text": "As the professional conservationist that you surely are, you must turn this bare plot into a thriving ecosystem.",
+        "color": "gray",
+        "italic": true
+      },
+      "220": {
+        "text": "\nInvasive species will be spawning soon! But if you construct an ecosystem that is resilient enough, you may be able to survive.",
+        "color": "gray",
+        "italic": true
+      },
+      "320": {
+        "text": "\nYou can buy plants and items from the shop using your 'OSA points' and place them in your plot!",
+        "color": "gray",
+        "italic": true
+      },
+      "420": {
+        "text": "\nThese plants may provide food, defense, or even attack your enemies. Every plant improves the number of currency you receive per turn.",
+        "color": "gray",
+        "italic": true
+      },
+      "520": {
+        "text": "\nMake sure to have a large variety of different plants in your plot- diversity in an ecosystem only makes you stronger!",
+        "color": "gray",
+        "italic": true
+      },
+      "620": {
+        "text": "\nYou win the game once you reach the threshold amount of currency- you can check your progress in the top-left of your screen!",
+        "color": "gray",
+        "italic": true
+      },
+      "720": {
+        "text": "\nGood luck!",
+        "color": "green",
+        "bold": true
+      }
+    }
+  }
+]

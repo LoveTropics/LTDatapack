@@ -83,6 +83,7 @@
     },
     "lt:biodiversity_blitz/plants",
     "ltminigames:biodiversity_blitz",
+    "lt:biodiversity_blitz/intro",
     {
       "type": "ltminigames:biodiversity_blitz_give_plants",
       "plants": [

@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:scheduled_messages",
     "messages": {
-      "0": {
+      "20": {
         "translate": "ltminigames.minigame.survive_the_tide_intro1",
         "color": "gray",
         "italic": true
