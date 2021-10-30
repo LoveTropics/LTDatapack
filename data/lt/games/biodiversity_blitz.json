@@ -83,6 +83,19 @@
     },
     "lt:biodiversity_blitz/plants",
     "ltminigames:biodiversity_blitz",
+    {
+      "type": "ltminigames:biodiversity_blitz_give_plants",
+      "plants": [
+        {
+          "item": "wheat",
+          "count": 2
+        },
+        {
+          "item": "sweet_berries",
+          "count": 1
+        }
+      ]
+    },
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
     "lt:biodiversity_blitz/plant_merchant",
