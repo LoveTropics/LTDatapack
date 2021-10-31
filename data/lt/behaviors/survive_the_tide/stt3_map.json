@@ -38,7 +38,8 @@
     "region": ["paracord"],
     "set": "ltextras:paracord",
     "start_time": 600,
-    "end_time": 660
+    "end_time": 660,
+    "direction": "down"
   },
   {
     "type": "ltminigames:world_border",
