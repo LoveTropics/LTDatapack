@@ -13,7 +13,7 @@
           "amount": 1
         }
       },
-      "heat_wave": {
+      "heatwave": {
         "repellent": {
           "item": "ltminigames:super_sunscreen",
           "rate": 60,
