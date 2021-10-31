@@ -1,0 +1,79 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "palm_sapling",
+    "places": "palm_sapling",
+    "item": {
+      "id": "tropicraft:palm_sapling",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Grows into a palm tree which can grow and drop coconut bombs on entities.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "palm_tree",
+    "family": "tree",
+    "value": 1,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_feature_plant",
+        "feature": {
+          "type": "tropicraft:normal_palm_tree",
+          "config": {}
+        }
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "palm_sapling"
+      },
+      {
+        "type": "ltminigames:fruit_drop_entity",
+        "range": 1,
+        "interval": 50,
+        "fruit": "tropicraft:coconut",
+        "entity": "tropicraft:exploding_coconut"
+      },
+      {
+        "type": "ltminigames:grow_coconuts",
+        "interval": 300
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 135
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "palm_sapling",
+    "family": "sapling",
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:palm_sapling"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "palm_sapling"
+      },
+      {
+        "type": "ltminigames:grow_plant",
+        "time": 300,
+        "grow_into": "palm_tree"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 16
+      }
+    ]
+  }
+]

@@ -74,6 +74,10 @@
         "output": {"plant": "black_mangrove_propagule"}
       },
       {
+        "input": {"id": "ltminigames:osa_point", "Count": 50},
+        "output": {"plant": "palm_sapling"}
+      },
+      {
         "input": {"id": "ltminigames:osa_point", "Count": 12},
         "output": {"plant": "pumpkin"}
       }
