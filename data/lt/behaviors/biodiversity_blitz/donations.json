@@ -66,5 +66,27 @@
         "seconds": 120
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "acid_rain",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "It is raining for 2 minutes!",
+        "color": "gold"
+      },
+      "icon": {"item": "minecraft:water_bucket"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:weather_event_package",
+        "event": "acid_rain",
+        "time": 120
+      }
+    ]
   }
 ]

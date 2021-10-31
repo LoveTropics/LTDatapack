@@ -1,0 +1,13 @@
+[
+  {
+    "type": "ltminigames:add_weather",
+    "event_effects": {
+      "acid_rain": {
+        "damage": {
+          "rate": 60,
+          "amount": 1
+        }
+      }
+    }
+  }
+]
