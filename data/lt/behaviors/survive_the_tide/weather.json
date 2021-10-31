@@ -1,6 +1,38 @@
 [
   {
-    "type": "ltminigames:weather_events",
+    "type": "ltminigames:add_weather",
+    "event_effects": {
+      "acid_rain": {
+        "repellent": {
+          "item": "ltminigames:acid_repellent_umbrella",
+          "rate": 60,
+          "amount": 3
+        },
+        "damage": {
+          "rate": 60,
+          "amount": 1
+        }
+      },
+      "heat_wave": {
+        "repellent": {
+          "item": "ltminigames:super_sunscreen",
+          "rate": 60,
+          "amount": 3
+        },
+        "potion": {
+          "effect": {
+            "type": "minecraft:slowness",
+            "seconds": 2,
+            "amplifier": 1,
+            "hide_particles": true
+          },
+          "rate": 20
+        }
+      }
+    }
+  },
+  {
+    "type": "ltminigames:stt_weather_control",
     "rain_heavy_chance": {
       "phase0": 0.0,
       "phase1": 0.0,
@@ -47,8 +79,6 @@
     "rain_heavy_extra_rand_time": 1200,
     "rain_acid_min_time": 1200,
     "rain_acid_extra_rand_time": 1200,
-    "heatwave_movement_multiplier": 0.5,
-    "acid_rain_damage": 1,
-    "acid_rain_damage_rate": 60
+    "heatwave_movement_multiplier": 0.5
   }
 ]

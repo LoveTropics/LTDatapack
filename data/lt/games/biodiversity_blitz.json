@@ -105,6 +105,7 @@
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
     "lt:biodiversity_blitz/plant_merchant",
+    "lt:biodiversity_blitz/weather",
     "lt:biodiversity_blitz/donations",
     {
       "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
