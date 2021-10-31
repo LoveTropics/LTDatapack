@@ -31,15 +31,17 @@
     "type": "ltminigames:set_blocks",
     "region": ["helicopter", "paracord"],
     "set": "air",
-    "time": 1000
+    "time": 1000,
+    "notify_neighbors": false
   },
   {
     "type": "ltminigames:set_extending_blocks",
     "region": ["paracord"],
     "set": "ltextras:paracord",
+    "direction": "down",
     "start_time": 600,
-    "end_time": 660,
-    "direction": "down"
+    "end_time": 700,
+    "notify_neighbors": true
   },
   {
     "type": "ltminigames:world_border",
