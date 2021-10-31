@@ -34,6 +34,11 @@
       {
         "type": "ltminigames:berries_plant",
         "interval": 300
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 32,
+        "not_pathfindable": true
       }
     ]
   }

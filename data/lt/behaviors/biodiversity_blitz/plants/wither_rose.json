@@ -33,7 +33,8 @@
       },
       {
         "type": "ltminigames:plant_health",
-        "health": 40
+        "health": 40,
+        "not_pathfindable": true
       }
     ]
   }

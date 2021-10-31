@@ -40,6 +40,11 @@
           "hide_particles": true
         },
         "radius": 0.0
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 12,
+        "not_pathfindable": true
       }
     ]
   }
