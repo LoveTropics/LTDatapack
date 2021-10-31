@@ -29,9 +29,16 @@
   },
   {
     "type": "ltminigames:set_blocks",
-    "region": "helicopter",
+    "region": ["helicopter", "paracord"],
     "set": "air",
-    "time": 400
+    "time": 1000
+  },
+  {
+    "type": "ltminigames:set_extending_blocks",
+    "region": ["paracord"],
+    "set": "ltextras:paracord",
+    "start_time": 600,
+    "end_time": 660
   },
   {
     "type": "ltminigames:world_border",

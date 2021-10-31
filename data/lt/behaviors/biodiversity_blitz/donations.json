@@ -74,7 +74,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "It is raining for 2 minutes!",
+        "text": "It is raining acid for 1 minute!",
         "color": "gold"
       },
       "icon": {"item": "minecraft:water_bucket"},
@@ -85,7 +85,7 @@
       {
         "type": "ltminigames:weather_event_package",
         "event": "acid_rain",
-        "time": 120
+        "seconds": 60
       }
     ]
   }
