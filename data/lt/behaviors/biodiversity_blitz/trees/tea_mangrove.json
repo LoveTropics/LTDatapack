@@ -70,7 +70,8 @@
               "height_rand_b": 0
             }
           }
-        }
+        },
+        "blocks": ["#minecraft:logs", "#minecraft:leaves", "#tropicraft:roots"]
       },
       {
         "type": "ltminigames:drop_plant_item",
