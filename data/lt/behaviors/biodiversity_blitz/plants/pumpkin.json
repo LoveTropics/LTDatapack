@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "pumpkin",
     "family": "plant",
-    "value": 0.2,
+    "value": 0.1,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",

@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_tree",
     "family": "tree",
-    "value": 0.75,
+    "value": 0.8,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",

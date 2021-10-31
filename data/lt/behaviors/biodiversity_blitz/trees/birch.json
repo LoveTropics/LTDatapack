@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_tree",
     "family": "tree",
-    "value": 0.75,
+    "value": 0.7,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",

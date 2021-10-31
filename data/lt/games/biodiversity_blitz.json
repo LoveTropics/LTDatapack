@@ -50,7 +50,7 @@
     "lt:biodiversity_blitz/plots",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
-      "interval_seconds": 120,
+      "interval_seconds": 80,
       "warn_seconds": 30,
       "difficulty_factors": {
         "easy": 0.5,
@@ -74,11 +74,11 @@
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 4.0,
-        "bound": 30.5,
+        "base": 3.0,
+        "bound": 15.5,
         "diversity_factor": 0.33
       },
-      "drop_interval": 30
+      "drop_interval": 15
     },
     {
       "type": "ltminigames:remove_from_block",
