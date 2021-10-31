@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.biodiversity_blitz"},
-  "telemetry_key": "biodiversity_blitz",
+  "statistics_key": "biodiversity_blitz",
   "minimum_participants": 1,
   "maximum_participants": 20,
   "map": {

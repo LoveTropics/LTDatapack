@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.calamity"},
-  "telemetry_key": "calamity",
+  "statistics_key": "calamity",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:calamity",

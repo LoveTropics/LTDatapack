@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.build_competition"},
-  "telemetry_key": "build_competition",
+  "statistics_key": "build_competition",
   "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"

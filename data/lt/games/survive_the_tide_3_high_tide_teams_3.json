@@ -1,7 +1,9 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
   "subtitle": "3 Teams / High Tide",
-  "telemetry_key": "survive_the_tide",
+  "statistics_key": "survive_the_tide",
+  "backend_id": "lt:survive_the_tide_3_teams",
+
   "minimum_participants": 3,
   "maximum_participants": 32,
   "waiting": {

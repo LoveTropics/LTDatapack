@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.hide_and_seek"},
-  "telemetry_key": "hide_and_seek",
+  "statistics_key": "hide_and_seek",
   "minimum_participants": 1,
   "maximum_participants": 32,
   "waiting": {

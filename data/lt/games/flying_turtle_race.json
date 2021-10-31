@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.flying_turtle_race"},
-  "telemetry_key": "flying_turtle_race",
+  "statistics_key": "flying_turtle_race",
   "map": {
     "type": "ltminigames:inline",
     "dimension": "tropicraft:tropics"

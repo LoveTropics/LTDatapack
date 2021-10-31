@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.signature_run"},
-  "telemetry_key": "signature_run",
+  "statistics_key": "signature_run",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:signaturerun",
