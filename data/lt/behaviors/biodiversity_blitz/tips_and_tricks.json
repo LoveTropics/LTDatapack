@@ -1,0 +1,63 @@
+[
+  {
+    "type": "ltminigames:tips_and_tricks",
+    "time_between_tips": 2400,
+    "texts": [
+      {
+        "text": "Make sure to have a plot with many different plant types to gain more osa points!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "The Commelina Diffusa can put out the Crocosmia's fires. Be careful of where you plant them!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Mangrove trees produce pianguas in mud that can be harvested via right click to sell at the store!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Beware the creeper. The legends say that it's explosion can level even the sturdiest of trees...",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "The waves will get harder as time goes on, so be quick!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "You can visit other players' plots to learn from how they've set up their plot!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Mobs loooove pumpkins. Place them in strategic places to create elaborate traps!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Be careful of having too much of the same plant, monocultures can hurt your point production!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Crops are weaker than other plants, so put them in places where mobs can't get to them!",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Rumours say that if you're patient enough, oak trees will drop golden apples. Could it possibly be true?",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "If you change your mind about tilling a piece of land, simply right click it with your hoe to make it into grass again!",
+        "color": "gray",
+        "italic": true
+      }
+    ]
+  }
+]
