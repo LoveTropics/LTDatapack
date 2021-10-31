@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove",
     "family": "tree",
-    "value": 0.9,
+    "value": 1.5,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
