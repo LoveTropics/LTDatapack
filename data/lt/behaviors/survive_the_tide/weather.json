@@ -75,10 +75,13 @@
       "phase3": 1.0,
       "phase4": 1.5
     },
-    "rain_heavy_min_time": 1200,
-    "rain_heavy_extra_rand_time": 1200,
-    "rain_acid_min_time": 1200,
-    "rain_acid_extra_rand_time": 1200,
+    "rain_heavy_min_time": 800,
+    "rain_heavy_extra_rand_time": 800,
+    "rain_acid_min_time": 800,
+    "rain_acid_extra_rand_time": 800,
+    "heatwave_min_time": 800,
+    "heatwave_extra_rand_time": 800,
+    "heatwave_movement_multiplier": 0.5,
     "heatwave_movement_multiplier": 0.5
   }
 ]
