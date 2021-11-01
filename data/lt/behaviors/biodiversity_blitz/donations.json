@@ -88,5 +88,26 @@
         "seconds": 60
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "surprise_creepers",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Surprise! Creepers are attacking your plot!",
+        "color": "green"
+      },
+      "icon": {"item": "minecraft:creeper_spawn_egg"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:spawn_surprise_wave",
+        "wave_size": 5
+      }
+    ]
   }
 ]
