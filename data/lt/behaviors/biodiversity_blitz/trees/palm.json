@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "palm_tree",
     "family": "tree",
-    "value": 1,
+    "value": 1.5,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",

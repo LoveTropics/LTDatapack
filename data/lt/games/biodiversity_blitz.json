@@ -89,6 +89,7 @@
     "lt:biodiversity_blitz/plants",
     "ltminigames:biodiversity_blitz",
     "lt:biodiversity_blitz/intro",
+    "lt:biodiversity_blitz/tips_and_tricks",
     {
       "type": "ltminigames:biodiversity_blitz_give_plants",
       "plants": [

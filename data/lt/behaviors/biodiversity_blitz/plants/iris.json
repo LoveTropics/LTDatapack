@@ -43,7 +43,7 @@
       },
       {
         "type": "ltminigames:plant_health",
-        "health": 40
+        "health": 32
       }
     ]
   }

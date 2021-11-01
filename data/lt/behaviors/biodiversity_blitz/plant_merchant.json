@@ -34,7 +34,7 @@
         "output": {"plant": "grass"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "Count": 14},
         "output": {"plant": "wither_rose"}
       },
       {
@@ -46,11 +46,15 @@
         "output": {"plant": "iris"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "Count": 16},
         "output": {"plant": "jack_o_lantern"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "Count": 12},
+        "output": {"plant": "pumpkin"}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 20},
         "output": {"plant": "birch_sapling"}
       },
       {
@@ -77,10 +81,6 @@
         "input": {"id": "ltminigames:osa_point", "Count": 50},
         "output": {"plant": "palm_sapling"}
       },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
-        "output": {"plant": "pumpkin"}
-      }
     ]
   }
 ]
