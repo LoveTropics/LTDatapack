@@ -47,6 +47,21 @@
                 },
                 {
                     "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"ltweather:sand_layer\"],HideFlags:63}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
                     "weight": 4,
                     "name": "minecraft:tnt",
                     "functions": [
