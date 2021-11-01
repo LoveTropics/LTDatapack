@@ -21,7 +21,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove",
     "family": "tree",
-    "value": 1.5,
+    "value": 1.6,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
