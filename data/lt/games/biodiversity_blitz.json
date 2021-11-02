@@ -110,7 +110,7 @@
     "lt:biodiversity_blitz/donations",
     {
       "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
-      "threshold_currency": 200
+      "threshold_currency": 500
     },
     {
       "type": "ltminigames:game_end_effects",
