@@ -1,0 +1,45 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.spleef_standard"
+  },
+  "statistics_key": "spleef_standard",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:spleef",
+    "dimension": "lt:games/spleef_standard"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 32,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_as_role": "participant"
+    },
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "adventure",
+      "spectator": "spectator"
+    },
+
+    {
+      "type": "ltminigames:commands",
+      "ready": "function lt:game/party/spleef/init",
+      "start": [
+        "function lt:game/party/spleef/start",
+        "function lt:game/party/spleef/version/standard/settings"
+      ],
+      "player_participate": "function lt:game/party/spleef/player/join_competitor",
+      "player_spectate": "function lt:game/party/spleef/player/join_spectator",
+      "player_remove": "function lt:game/party/spleef/player/leave",
+      "stop": "function lt:game/party/spleef/deinit"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": [
+        "spawn"
+      ]
+    },
+    "ltminigames:spectator_chase"
+  ]
+}
