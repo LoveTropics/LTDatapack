@@ -64,9 +64,9 @@
     "snowstorm_chance": {
       "phase0": 0.0,
       "phase1": 0.0,
-      "phase2": 0.015,
-      "phase3": 0.02,
-      "phase4": 0.025
+      "phase2": 0.0,
+      "phase3": 0.0,
+      "phase4": 0.0
     },
     "wind_speed": {
       "phase0": 0.1,
@@ -81,6 +81,9 @@
     "rain_acid_extra_rand_time": 800,
     "heatwave_min_time": 800,
     "heatwave_extra_rand_time": 800,
-    "heatwave_movement_multiplier": 0.5
+    "sandstorm_buildup_tickrate": 40,
+    "sandstorm_max_stackable": 1,
+    "snowstorm_buildup_tickrate": 40,
+    "snowstorm_max_stackable": 1
   }
 ]

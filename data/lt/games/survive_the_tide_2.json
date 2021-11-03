@@ -19,7 +19,7 @@
     "lt:survive_the_tide/stt2_phases",
     "lt:survive_the_tide/ruleset",
     "lt:survive_the_tide/individuals_win_logic",
-    "lt:survive_the_tide/weather",
+    "lt:survive_the_tide/weather_stt2",
     "lt:survive_the_tide/intro",
     "lt:survive_the_tide/stream_integrations",
     "lt:survive_the_tide/common"

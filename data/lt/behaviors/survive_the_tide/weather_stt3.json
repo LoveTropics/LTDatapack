@@ -1,0 +1,89 @@
+[
+  {
+    "type": "ltminigames:add_weather",
+    "event_effects": {
+      "acid_rain": {
+        "repellent": {
+          "item": "ltminigames:acid_repellent_umbrella",
+          "rate": 60,
+          "amount": 3
+        },
+        "damage": {
+          "rate": 60,
+          "amount": 1
+        }
+      },
+      "heatwave": {
+        "repellent": {
+          "item": "ltminigames:super_sunscreen",
+          "rate": 60,
+          "amount": 3
+        },
+        "potion": {
+          "effect": {
+            "type": "minecraft:slowness",
+            "seconds": 2,
+            "amplifier": 1,
+            "hide_particles": true
+          },
+          "rate": 20
+        }
+      }
+    }
+  },
+  {
+    "type": "ltminigames:stt_weather_control",
+    "rain_heavy_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "rain_acid_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.0
+    },
+    "heatwave_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "sandstorm_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.015,
+      "phase3": 0.02,
+      "phase4": 0.025
+    },
+    "snowstorm_chance": {
+      "phase0": 0.0,
+      "phase1": 0.0,
+      "phase2": 0.0,
+      "phase3": 0.0,
+      "phase4": 0.0
+    },
+    "wind_speed": {
+      "phase0": 0.1,
+      "phase1": 0.1,
+      "phase2": 0.5,
+      "phase3": 1.0,
+      "phase4": 1.5
+    },
+    "rain_heavy_min_time": 800,
+    "rain_heavy_extra_rand_time": 800,
+    "rain_acid_min_time": 800,
+    "rain_acid_extra_rand_time": 800,
+    "heatwave_min_time": 800,
+    "heatwave_extra_rand_time": 800,
+    "sandstorm_buildup_tickrate": 40,
+    "sandstorm_max_stackable": 1,
+    "snowstorm_buildup_tickrate": 40,
+    "snowstorm_max_stackable": 1
+  }
+]
