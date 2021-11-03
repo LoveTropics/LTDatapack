@@ -106,7 +106,7 @@
     "receive_behaviors": [
       {
         "type": "ltminigames:spawn_surprise_wave",
-        "wave_size": 5
+        "wave_size": 3
       }
     ]
   }
