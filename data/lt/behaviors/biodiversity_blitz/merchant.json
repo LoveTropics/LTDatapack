@@ -27,10 +27,10 @@
       },
       {
         "input": {"id": "tropicraft:pianguas", "Count": 1},
-        "output": {"id": "ltminigames:osa_point", "Count": 6}
+        "output": {"id": "ltminigames:osa_point", "Count": 4}
       },
       {
-        "input": {"id": "minecraft:wheat", "Count": 6},
+        "input": {"id": "minecraft:wheat", "Count": 4},
         "output": {"id": "ltminigames:osa_point", "Count": 3}
       },
       {
