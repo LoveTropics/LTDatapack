@@ -6,23 +6,23 @@
     "name": "Shop",
     "offers": [
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
+        "input": {"id": "ltminigames:osa_point", "Count": 6},
         "output": "minecraft:oak_boat"
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "Count": 16},
         "output": "minecraft:iron_sword"
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 64},
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": "minecraft:iron_axe"
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 64},
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": "minecraft:bow"
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 16},
+        "input": {"id": "ltminigames:osa_point", "Count": 6},
         "output": {"id": "minecraft:arrow", "Count": 4}
       },
       {
