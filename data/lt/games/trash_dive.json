@@ -18,7 +18,16 @@
       "type": "ltminigames:position_players",
       "all": ["spawn"]
     },
-    "ltminigames:respawn_spectator",
+    {
+      "type": "ltminigames:immediate_respawn",
+      "role": "participant",
+      "respawn_as": "spectator",
+      "death_message": {
+        "text": "☠ %1$s",
+        "color": "gray"
+      },
+      "drop_inventory": false
+    },
     {
       "type": "ltminigames:place_trash",
       "positionData": "lt:trash.bin",
