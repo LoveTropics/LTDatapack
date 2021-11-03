@@ -70,6 +70,11 @@
             "type": "minecraft:speed",
             "seconds": 60,
             "amplifier": 1
+          },
+          {
+            "type": "minecraft:strength",
+            "seconds": 60,
+            "amplifier": 1
           }
         ]
       }
