@@ -6,7 +6,7 @@
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:spleef",
-    "dimension": "lt:games/spleef_standard"
+    "dimension": "lt:spleef_standard"
   },
   "minimum_participants": 1,
   "maximum_participants": 32,
@@ -21,14 +21,17 @@
       "participant": "adventure",
       "spectator": "spectator"
     },
-
+    {
+      "type": "ltminigames:force_load_region",
+      "region": "force_load"
+    },
     {
       "type": "ltminigames:commands",
-      "ready": "function lt:game/party/spleef/init",
-      "start": [
-        "function lt:game/party/spleef/start",
+      "ready": [
+        "function lt:game/party/spleef/init",
         "function lt:game/party/spleef/version/standard/settings"
       ],
+      "start": "function lt:game/party/spleef/start",
       "player_participate": "function lt:game/party/spleef/player/join_competitor",
       "player_spectate": "function lt:game/party/spleef/player/join_spectator",
       "player_remove": "function lt:game/party/spleef/player/leave",
