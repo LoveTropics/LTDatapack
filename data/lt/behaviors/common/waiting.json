@@ -17,5 +17,10 @@
       "fallDamage": "false",
       "announceAdvancements": "false"
     }
+  },
+  "ltminigames:immediate_respawn",
+  {
+    "type": "ltminigames:cancel_player_damage",
+    "knockback": true
   }
 ]

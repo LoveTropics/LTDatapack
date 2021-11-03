@@ -11,7 +11,7 @@
     "notification": {
       "message": {
         "text": "%1$s sent you an ANTIDOTE PACKAGE!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
       "sentiment": "positive",
@@ -32,7 +32,7 @@
     "notification": {
       "message": {
         "text": "%1$s sent you a KNOCKBACK PACKAGE! Use the Teeter Yeeter™ wisely.",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "minecraft:stick"},
       "sentiment": "positive",
@@ -54,7 +54,7 @@
     "notification": {
       "message": {
         "text": "%1$s sent everyone a BOOM PACKAGE of 4 Coconut Bombs!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "tropicraft:exploding_coconut"},
       "sentiment": "positive",
@@ -76,7 +76,7 @@
     "notification": {
       "message": {
         "text": "%1$s sent you an INVISIBILITY PACKAGE! You are invisible for 2 minutes.",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"effect": "minecraft:invisibility"},
       "sentiment": "positive",
@@ -104,7 +104,7 @@
     "notification": {
       "message": {
         "text": "%1$s sent you an UNDYING PACKAGE with a Totem of Undying!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"effect": "minecraft:totem_of_undying"},
       "sentiment": "positive",
@@ -420,7 +420,7 @@
     "notification": {
       "message": {
         "text": "Everyone is a Tapir for 2 minutes!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
       "sentiment": "neutral",
@@ -445,7 +445,7 @@
     "notification": {
       "message": {
         "text": "Everyone is a Basilisk Lizard for 2 minutes!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "tropicraft:brown_basilisk_spawn_egg"},
       "sentiment": "neutral",

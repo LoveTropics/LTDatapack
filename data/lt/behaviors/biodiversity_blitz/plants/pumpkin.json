@@ -33,7 +33,7 @@
       },
       {
         "type": "ltminigames:plant_health",
-        "health": 80
+        "health": 60
       },
       {
         "type": "ltminigames:barrier_plant",

@@ -6,6 +6,11 @@
         "damage": {
           "rate": 60,
           "amount": 1
+        },
+        "repellent": {
+          "item": "ltminigames:acid_repellent_umbrella",
+          "rate": 60,
+          "amount": 3
         }
       }
     }

@@ -29,7 +29,7 @@
         "italic": true
       },
       "420": {
-        "text": "\nThese plants may provide food, defense, or even attack your enemies. Every plant improves the number of currency you receive per turn.",
+        "text": "\nThese plants may provide food, defense, or even attack your enemies. Every plant improves the number of osa points you receive per turn.",
         "color": "gray",
         "italic": true
       },
@@ -39,7 +39,7 @@
         "italic": true
       },
       "620": {
-        "text": "\nYou win the game once you reach the threshold amount of currency- you can check your progress in the top-left of your screen!",
+        "text": "\nYou win the game once you accumulate the target amount of osa points- you can check your progress in the top-left of your screen!",
         "color": "gray",
         "italic": true
       },

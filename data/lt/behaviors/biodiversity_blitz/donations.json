@@ -50,7 +50,7 @@
     "notification": {
       "message": {
         "text": "Everyone is a Tapir for 2 minutes!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
       "sentiment": "neutral",
@@ -75,7 +75,7 @@
     "notification": {
       "message": {
         "text": "It is raining acid for 1 minute!",
-        "color": "gold"
+        "color": "light_purple"
       },
       "icon": {"item": "minecraft:water_bucket"},
       "sentiment": "negative",
@@ -106,7 +106,7 @@
     "receive_behaviors": [
       {
         "type": "ltminigames:spawn_surprise_wave",
-        "wave_size": 5
+        "wave_size": 3
       }
     ]
   }
