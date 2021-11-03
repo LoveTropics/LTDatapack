@@ -117,7 +117,7 @@
       "stop_delay": 200,
       "scheduled_messages": {
         "0": {
-          "text": "Through tough competition, %1$s has acquired sufficient osa points and has won the game!",
+          "text": "Through tough competition, %1$s has acquired sufficient currency points and has won the game!",
           "color": "gray"
         },
         "20": {
