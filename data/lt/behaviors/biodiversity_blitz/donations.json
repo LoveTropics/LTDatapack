@@ -109,5 +109,25 @@
         "wave_size": 3
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "equalize_currency",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "All players' currency has been averaged together!",
+        "color": "gold"
+      },
+      "icon": {"item": "ltminigames:osa_point"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:equalize_currency"
+      }
+    ]
   }
 ]
