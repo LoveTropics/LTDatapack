@@ -5,6 +5,19 @@
 
   "minimum_participants": 3,
   "maximum_participants": 24,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {"spawn": "spawn"}
+      }
+    ]
+  },
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:survive_the_tide_2"
