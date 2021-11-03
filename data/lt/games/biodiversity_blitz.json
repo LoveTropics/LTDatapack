@@ -24,7 +24,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_as_role": "spectator"
+      "join_late_with_role": "spectator"
     },
     {
       "type": "ltminigames:set_game_rules",

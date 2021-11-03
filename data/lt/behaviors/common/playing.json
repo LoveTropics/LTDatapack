@@ -7,7 +7,7 @@
   },
   "ltminigames:assign_player_roles",
   {
-    "type": "ltminigames:join_as_role",
-    "role": "$join_as_role"
+    "type": "ltminigames:join_late_with_role",
+    "role": "$join_late_with_role"
   }
 ]

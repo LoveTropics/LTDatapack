@@ -31,7 +31,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_as_role": "spectator"
+      "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
     "lt:survive_the_tide/stt2_map",

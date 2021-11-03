@@ -51,7 +51,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_as_role": "spectator"
+      "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
     {"type": "ltminigames:set_max_health", "max_health_by_team": {"the_viewers": 6.0}},

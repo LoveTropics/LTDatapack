@@ -12,7 +12,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_as_role": "participant"
+      "join_late_with_role": "participant"
     },
     {
       "type": "ltminigames:position_players",
@@ -40,7 +40,10 @@
       "type": "ltminigames:timed",
       "length": 6000,
       "close_length": 60,
-      "timer_bar": true
+      "timer_bar": {
+        "text": "Time Remaining: %1$s...",
+        "color": "green"
+      }
     },
     "ltminigames:disable_hunger"
   ]

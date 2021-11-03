@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:set_game_types",
-    "none": "adventure"
+    "all": "adventure"
   },
   {
     "type": "ltminigames:position_players",
@@ -22,5 +22,14 @@
   {
     "type": "ltminigames:cancel_player_damage",
     "knockback": true
+  },
+  {
+    "type": "ltminigames:timed",
+    "length": 2400,
+    "countdown_seconds": 3,
+    "timer_bar": {
+      "text": "Game starting in %1$s!",
+      "color": "green"
+    }
   }
 ]

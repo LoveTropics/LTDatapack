@@ -26,7 +26,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_as_role": "spectator"
+      "join_late_with_role": "spectator"
     },
     "lt:survive_the_tide/stt2_map",
     "lt:survive_the_tide/stt2_phases",
