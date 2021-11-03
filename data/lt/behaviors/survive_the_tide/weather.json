@@ -81,7 +81,6 @@
     "rain_acid_extra_rand_time": 800,
     "heatwave_min_time": 800,
     "heatwave_extra_rand_time": 800,
-    "heatwave_movement_multiplier": 0.5,
     "heatwave_movement_multiplier": 0.5
   }
 ]
