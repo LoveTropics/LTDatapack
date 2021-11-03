@@ -14,7 +14,7 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_as_role": "participant"
+      "join_as_role": "spectator"
     },
     {
       "type": "ltminigames:set_game_types",
