@@ -92,9 +92,9 @@
       "phase3": 1.0,
       "phase4": 1.5
     },
-    "sandstorm_buildup_tickrate": 40,
+    "sandstorm_buildup_tickrate": 80,
     "sandstorm_max_stackable": 1,
-    "snowstorm_buildup_tickrate": 40,
+    "snowstorm_buildup_tickrate": 80,
     "snowstorm_max_stackable": 1
   }
 ]
