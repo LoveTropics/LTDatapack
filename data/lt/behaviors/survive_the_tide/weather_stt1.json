@@ -33,40 +33,56 @@
   },
   {
     "type": "ltminigames:stt_weather_control",
-    "rain_heavy_chance": {
-      "phase0": 0.0,
-      "phase1": 0.0,
-      "phase2": 0.015,
-      "phase3": 0.02,
-      "phase4": 0.025
+    "event_chances": {
+      "heavy_rain": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.015,
+        "phase3": 0.02,
+        "phase4": 0.025
+      },
+      "acid_rain": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.015,
+        "phase3": 0.02,
+        "phase4": 0.0
+      },
+      "heatwave": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.015,
+        "phase3": 0.02,
+        "phase4": 0.0
+      },
+      "sandstorm": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.0
+      },
+      "snowstorm": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.045
+      }
     },
-    "rain_acid_chance": {
-      "phase0": 0.0,
-      "phase1": 0.0,
-      "phase2": 0.015,
-      "phase3": 0.02,
-      "phase4": 0.0
-    },
-    "heatwave_chance": {
-      "phase0": 0.0,
-      "phase1": 0.0,
-      "phase2": 0.015,
-      "phase3": 0.02,
-      "phase4": 0.0
-    },
-    "sandstorm_chance": {
-      "phase0": 0.0,
-      "phase1": 0.0,
-      "phase2": 0.0,
-      "phase3": 0.0,
-      "phase4": 0.0
-    },
-    "snowstorm_chance": {
-      "phase0": 0.0,
-      "phase1": 0.0,
-      "phase2": 0.0,
-      "phase3": 0.0,
-      "phase4": 0.045
+    "event_timers": {
+      "heavy_rain": {
+        "min_time": 800,
+        "extra_rand_time": 800
+      },
+      "acid_rain": {
+        "min_time": 800,
+        "extra_rand_time": 800
+      },
+      "heatwave": {
+        "min_time": 800,
+        "extra_rand_time": 800
+      }
     },
     "wind_speed": {
       "phase0": 0.1,
@@ -75,12 +91,6 @@
       "phase3": 1.0,
       "phase4": 1.5
     },
-    "rain_heavy_min_time": 800,
-    "rain_heavy_extra_rand_time": 800,
-    "rain_acid_min_time": 800,
-    "rain_acid_extra_rand_time": 800,
-    "heatwave_min_time": 800,
-    "heatwave_extra_rand_time": 800,
     "sandstorm_buildup_tickrate": 80,
     "sandstorm_max_stackable": 1,
     "snowstorm_buildup_tickrate": 80,

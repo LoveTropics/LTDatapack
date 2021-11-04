@@ -28,7 +28,7 @@
     "length": 2400,
     "countdown_seconds": 3,
     "timer_bar": {
-      "text": "%2$s starting in %1$s: ready-up!",
+      "text": "Starting in %1$s: ready-up!",
       "color": "green"
     }
   },
