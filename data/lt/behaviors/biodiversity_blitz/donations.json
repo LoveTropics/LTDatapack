@@ -1,33 +1,6 @@
 [
   {
     "type": "ltminigames:donation_package",
-    "package_type": "swap_players_package",
-    "notification": {
-      "message": {
-        "text": "%1$s is swapping everyone with a nearby player!",
-        "color": "red"
-      },
-      "icon": { "effect": "minecraft:unluck" },
-      "sound": "ltminigames:sabotage_receive"
-    },
-    "receive_behaviors": [
-      {
-        "type": "ltminigames:countdown_package",
-        "warning": {
-          "text": "You will be swapping with a nearby player in %1$s seconds!",
-          "color": "red"
-        },
-        "countdown": 5,
-        "behaviors": {
-          "type": "ltminigames:swap_players_package",
-          "distance_threshold": 48.0
-        }
-      }
-    ]
-  },
-
-  {
-    "type": "ltminigames:donation_package",
     "package_type": "hunger_package",
     "notification": {
       "message": {
