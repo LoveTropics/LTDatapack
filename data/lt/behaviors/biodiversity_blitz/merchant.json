@@ -26,6 +26,10 @@
         "output": {"id": "minecraft:arrow", "Count": 4}
       },
       {
+        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "output": {"id": "ltminigames:acid_repellent_umbrella", "Count": 1}
+      },
+      {
         "input": {"id": "tropicraft:pianguas", "Count": 1},
         "output": {"id": "ltminigames:osa_point", "Count": 4}
       },
