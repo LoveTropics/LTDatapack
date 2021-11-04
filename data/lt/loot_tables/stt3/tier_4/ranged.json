@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 30,
+                                "max": 30
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Super Rocket\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}']},HideFlags:127,Fireworks:{Explosions:[{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:2,Flicker:1b,Trail:1b,Colors:[I;16753152],FadeColors:[I;11869469]}]}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

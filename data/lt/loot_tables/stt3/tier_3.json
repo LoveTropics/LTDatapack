@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "lt:stt3/tier_3/armor",
+                    "min": 1
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "lt:stt3/tier_3/food"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "lt:stt3/tier_3/melee"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "lt:stt3/tier_3/misc"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "lt:stt3/tier_3/ranged"
+                }
+            ]
+        }
+    ]
+}

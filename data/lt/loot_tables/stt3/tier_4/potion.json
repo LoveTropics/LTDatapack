@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Gilded \",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\"Tonic of Gloriousness\",\"color\":\"#E80000\",\"bold\":false,\"italic\":false}]',Lore:['{\"text\":\"It\\'s not better than a non gilded potion. But you can sell it at a higher markup now.\",\"color\":\"gray\"}']},HideFlags:1,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:160},{Id:5b,Amplifier:0b,Duration:600}],CustomPotionColor:10557464}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Gilded \",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\"Splash Tincture of Remedial Invigoration\",\"color\":\"#FF00F7\",\"bold\":false,\"italic\":false}]',Lore:['{\"text\":\"It\\'s not better than a non gilded potion.\\\\nBut you can sell it at a higher markup now.\",\"color\":\"gray\"}']},Enchantments:[{}],CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:5}],CustomPotionColor:16712678}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Gilded \",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\"Splash Tincture of Mal-intent\",\"color\":\"#FF7519\",\"bold\":false,\"italic\":false}]',Lore:['{\"text\":\"It\\'s not better than a non gilded potion. But you can sell it at a higher markup now.\",\"color\":\"gray\"}']},CustomPotionEffects:[{Id:17b,Amplifier:2b,Duration:160},{Id:18b,Amplifier:0b,Duration:500},{Id:19b,Amplifier:2b,Duration:160}],CustomPotionColor:12216071}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
