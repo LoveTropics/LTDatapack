@@ -2,6 +2,8 @@
   "name": {
     "translate": "ltminigames.minigame.spleef_standard"
   },
+  "icon": "ltminigames:textures/gui/minigames/spleef/icon.png",
+
   "statistics_key": "spleef_standard",
   "map": {
     "type": "ltminigames:load_map",
