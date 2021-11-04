@@ -148,6 +148,7 @@
           "text": "A wave of surprise creepers is spawning in %1$s seconds!",
           "color": "red"
         },
+        "countdown": 5,
         "behaviors": {
           "type": "ltminigames:spawn_surprise_wave",
           "wave_size": 3
