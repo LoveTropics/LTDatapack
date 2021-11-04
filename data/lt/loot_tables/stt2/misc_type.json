@@ -13,7 +13,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"ltweather:sand_layer\"],HideFlags:63}"
+                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
                         },
                         {
                             "function": "set_count",
