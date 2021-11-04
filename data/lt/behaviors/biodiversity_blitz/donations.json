@@ -143,8 +143,15 @@
     },
     "receive_behaviors": [
       {
-        "type": "ltminigames:spawn_surprise_wave",
-        "wave_size": 3
+        "type": "ltminigames:countdown_package",
+        "warning": {
+          "text": "A wave of surprise creepers is spawning in %1$s seconds!",
+          "color": "red"
+        },
+        "behaviors": {
+          "type": "ltminigames:spawn_surprise_wave",
+          "wave_size": 3
+        }
       }
     ]
   },
