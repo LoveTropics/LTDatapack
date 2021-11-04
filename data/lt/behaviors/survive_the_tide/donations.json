@@ -289,8 +289,8 @@
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time_package",
         "entity_id": "minecraft:lightning_bolt",
-        "entity_count": 250,
-        "ticks_to_spawn_for": 1600,
+        "entity_count": 100,
+        "ticks_to_spawn_for": 800,
         "regions_to_spawn_at": ["tide_area"]
       }
     ]
