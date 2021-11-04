@@ -48,6 +48,13 @@
         "phase3": 0.02,
         "phase4": 0.0
       },
+      "hail_chance": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.015,
+        "phase3": 0.02,
+        "phase4": 0.025
+      },
       "heatwave": {
         "phase0": 0.0,
         "phase1": 0.0,
