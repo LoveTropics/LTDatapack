@@ -34,14 +34,14 @@
   {
     "type": "ltminigames:stt_weather_control",
     "event_chances": {
-      "rain_heavy": {
+      "heavy_rain": {
         "phase0": 0.0,
         "phase1": 0.0,
         "phase2": 0.015,
         "phase3": 0.02,
         "phase4": 0.025
       },
-      "rain_acid": {
+      "acid_rain": {
         "phase0": 0.0,
         "phase1": 0.0,
         "phase2": 0.015,
