@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Splash Tincture of Mal-intent\",\"color\":\"#FF7519\",\"italic\":false}'},CustomPotionEffects:[{Id:17b,Amplifier:2b,Duration:160},{Id:18b,Amplifier:0b,Duration:500},{Id:19b,Amplifier:2b,Duration:160}],CustomPotionColor:12216071}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "ltminigames:acid_repellent_umbrella"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

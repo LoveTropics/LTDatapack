@@ -1,0 +1,88 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:vex_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:creeper_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Tonic of Gloriousness\",\"color\":\"#E80000\",\"italic\":false}'},CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:160},{Id:5b,Amplifier:0b,Duration:600}],CustomPotionColor:10557464}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

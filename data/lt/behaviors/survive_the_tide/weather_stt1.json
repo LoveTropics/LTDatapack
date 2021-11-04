@@ -48,6 +48,13 @@
         "phase3": 0.02,
         "phase4": 0.0
       },
+      "hail": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.0
+      },
       "heatwave": {
         "phase0": 0.0,
         "phase1": 0.0,
@@ -67,7 +74,7 @@
         "phase1": 0.0,
         "phase2": 0.0,
         "phase3": 0.0,
-        "phase4": 0.045
+        "phase4": 0.03
       }
     },
     "event_timers": {
