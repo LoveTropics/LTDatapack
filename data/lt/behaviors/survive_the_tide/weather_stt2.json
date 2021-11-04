@@ -48,7 +48,7 @@
         "phase3": 0.02,
         "phase4": 0.0
       },
-      "hail_chance": {
+      "hail": {
         "phase0": 0.0,
         "phase1": 0.0,
         "phase2": 0.0,
