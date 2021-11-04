@@ -204,14 +204,24 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%1$s sent a PLAYER SWAP SABOTAGE and all players have swapped positions!",
+        "text": "%1$s is swapping everyone with another player!",
         "color": "red"
       },
-      "icon": {"effect": "minecraft:unluck"},
+      "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
     "receive_behaviors": [
-      {"type": "ltminigames:swap_players_package"}
+      {
+        "type": "ltminigames:countdown_package",
+        "warning": {
+          "text": "You will be swapping with another player in %1$s seconds!",
+          "color": "red"
+        },
+        "countdown": 5,
+        "behaviors": {
+          "type": "ltminigames:swap_players_package"
+        }
+      }
     ]
   },
 

@@ -4,14 +4,25 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%1$s sent a PLAYER SWAP SABOTAGE and all players have swapped positions!",
+        "text": "%1$s is swapping everyone with a nearby player!",
         "color": "red"
       },
-      "icon": {"effect": "minecraft:unluck"},
+      "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
     "receive_behaviors": [
-      {"type": "ltminigames:swap_players_package"}
+      {
+        "type": "ltminigames:countdown_package",
+        "warning": {
+          "text": "You will be swapping with a nearby player in %1$s seconds!",
+          "color": "red"
+        },
+        "countdown": 5,
+        "behaviors": {
+          "type": "ltminigames:swap_players_package",
+          "distance_threshold": 48.0
+        }
+      }
     ]
   },
 
@@ -23,13 +34,13 @@
         "text": "%1$s sent you a HUNGER SABOTAGE for 2 minutes!",
         "color": "red"
       },
-      "icon": {"effect": "minecraft:hunger"},
+      "icon": { "effect": "minecraft:hunger" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
     "player_select": "specific",
     "receive_behaviors": [
-      {"type": "ltminigames:give_player_head_package"},
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:effect_package",
         "effects": [
@@ -51,13 +62,13 @@
         "text": "%1$s sent you helpful effects for 1 minute!",
         "color": "light_purple"
       },
-      "icon": {"effect": "minecraft:regeneration"},
+      "icon": { "effect": "minecraft:regeneration" },
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
     "player_select": "specific",
     "receive_behaviors": [
-      {"type": "ltminigames:give_player_head_package"},
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:effect_package",
         "effects": [
@@ -90,7 +101,7 @@
         "text": "Everyone is a Tapir for 2 minutes!",
         "color": "light_purple"
       },
-      "icon": {"item": "tropicraft:tapir_spawn_egg"},
+      "icon": { "item": "tropicraft:tapir_spawn_egg" },
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -115,7 +126,7 @@
         "text": "It is raining acid for 1 minute!",
         "color": "light_purple"
       },
-      "icon": {"item": "minecraft:water_bucket"},
+      "icon": { "item": "minecraft:water_bucket" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -137,7 +148,7 @@
         "text": "Surprise! Creepers are attacking your plot!",
         "color": "green"
       },
-      "icon": {"item": "minecraft:creeper_spawn_egg"},
+      "icon": { "item": "minecraft:creeper_spawn_egg" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -166,7 +177,7 @@
         "text": "All players' currency has been averaged together!",
         "color": "gold"
       },
-      "icon": {"item": "ltminigames:osa_point"},
+      "icon": { "item": "ltminigames:osa_point" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },

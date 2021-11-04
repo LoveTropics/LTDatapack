@@ -28,8 +28,11 @@
     "length": 2400,
     "countdown_seconds": 3,
     "timer_bar": {
-      "text": "Game starting in %1$s!",
+      "text": "Game starting in %1$s: ready-up!",
       "color": "green"
     }
+  },
+  {
+    "type": "ltminigames:ready_up"
   }
 ]
