@@ -8,19 +8,19 @@
       },
       {
         "key": "phase1",
-        "length_in_ticks": 2400
+        "length_in_ticks": 2000
       },
       {
         "key": "phase2",
-        "length_in_ticks": 6500
+        "length_in_ticks": 6000
       },
       {
         "key": "phase3",
-        "length_in_ticks": 5500
+        "length_in_ticks": 6000
       },
       {
         "key": "phase4",
-        "length_in_ticks": 4800
+        "length_in_ticks": 5000
       }
     ]
   }

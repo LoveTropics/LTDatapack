@@ -19,8 +19,8 @@
     "water_levels": {
       "phase0": 97,
       "phase1": 97,
-      "phase2": 120,
-      "phase3": 145,
+      "phase2": 125,
+      "phase3": 150,
       "phase4": "$tide"
     },
     "iceberg_lines_region": "iceberg_line",
