@@ -107,6 +107,28 @@
         },
         "distance": 10.0
       }
+    },
+    {
+      "type": "image",
+      "pos": [207.01, 175.5, 243.5],
+      "texture": {
+        "path": "lttutorials:textures/paintings/coast.png",
+        "size": [256, 320],
+        "uv": [0, 0, 256, 320]
+      },
+      "scale": 1.5,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [219.99, 175.5, 243.5],
+      "texture": {
+        "path": "lttutorials:textures/paintings/costa_rica_waterfall.png",
+        "size": [256, 375],
+        "uv": [0, 0, 256, 375]
+      },
+      "scale": 1.5,
+      "point_along": [1.0, 0.0, 0.0]
     }
   ]
 }
