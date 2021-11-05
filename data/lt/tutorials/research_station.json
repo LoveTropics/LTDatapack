@@ -140,12 +140,12 @@
     },
     {
       "type": "image",
-      "pos": [164.0, 118.0, 636.0],
+      "pos": [164.0, 119.0, 636.0],
       "texture": {
         "path": "lttutorials:textures/paintings/costa_rica_waterfall.png",
         "size": [256, 375]
       },
-      "scale": 1.0
+      "scale": 2.0
     }
   ]
 }

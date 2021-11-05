@@ -1,0 +1,17 @@
+{
+  "name": "Waiting Lobby",
+  "statistics_key": "waiting_lobby",
+  "minimum_participants": 1,
+  "maximum_participants": 100,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:waiting_lobby",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/waiting",
+      "regions": {"spawn": "spawn"}
+    }
+  ]
+}
