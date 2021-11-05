@@ -45,6 +45,7 @@
         "spawn"
       ]
     },
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    "ltminigames:eliminate_player_control"
   ]
 }
