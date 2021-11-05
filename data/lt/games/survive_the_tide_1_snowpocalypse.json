@@ -1,5 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_1"},
+  "subtitle": "SNOWPOCALYPSE",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_1_snowpocalypse",
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
