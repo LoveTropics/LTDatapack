@@ -46,6 +46,7 @@
       ]
     },
     "ltminigames:spectator_chase",
-    "ltminigames:eliminate_player_control"
+    "ltminigames:eliminate_player_control",
+    "ltminigames:cancel_player_damage"
   ]
 }
