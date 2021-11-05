@@ -47,6 +47,15 @@
     },
     "ltminigames:spectator_chase",
     "ltminigames:eliminate_player_control",
-    "ltminigames:cancel_player_damage"
+    "ltminigames:cancel_player_damage",
+    {
+      "type": "ltminigames:set_client_state",
+      "state": {
+        "type": "ltminigames:replace_textures",
+        "textures": {
+          "boss_bars": "ltminigames:textures/gui/minigames/turtle_race/bars.png"
+        }
+      }
+    }
   ]
 }
