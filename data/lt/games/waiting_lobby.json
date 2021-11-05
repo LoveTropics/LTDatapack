@@ -15,7 +15,7 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": ["$spawn"]
+      "all": ["spawn"]
     },
     "ltminigames:disable_hunger",
     {
