@@ -31,7 +31,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a HUNGER SABOTAGE for 2 minutes!",
+        "text": "%1$s sent you a HUNGER SABOTAGE for 30 seconds!",
         "color": "red"
       },
       "icon": { "effect": "minecraft:hunger" },
@@ -46,8 +46,8 @@
         "effects": [
           {
             "type": "minecraft:hunger",
-            "seconds": 120,
-            "amplifier": 3
+            "seconds": 30,
+            "amplifier": 2
           }
         ]
       }

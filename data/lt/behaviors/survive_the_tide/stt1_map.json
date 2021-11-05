@@ -58,7 +58,8 @@
       "doDaylightCycle": "false",
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
-      "announceAdvancements": "false"
+      "announceAdvancements": "false",
+      "fallDamage": "true"
     }
   }
 ]
