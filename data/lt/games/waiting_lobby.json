@@ -10,8 +10,29 @@
   },
   "behaviors": [
     {
-      "type": "lt:common/waiting",
-      "regions": {"spawn": "spawn"}
+      "type": "ltminigames:set_game_types",
+      "all": "adventure"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": ["$spawn"]
+    },
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true"
+      }
+    },
+    "ltminigames:immediate_respawn",
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": true
     }
   ]
 }
