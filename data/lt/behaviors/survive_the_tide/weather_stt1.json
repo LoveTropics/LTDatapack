@@ -2,6 +2,17 @@
   {
     "type": "ltminigames:add_weather",
     "event_effects": {
+      "hail": {
+        "repellent": {
+          "item": "minecraft:diamond",
+          "rate": 60,
+          "amount": 3
+        },
+        "damage": {
+          "rate": 60,
+          "amount": 1
+        }
+      },
       "acid_rain": {
         "repellent": {
           "item": "ltminigames:acid_repellent_umbrella",
