@@ -1,14 +1,14 @@
 {
-  "name": {
-    "translate": "ltminigames.minigame.race_standard_21"
-  },
+  "name": {"translate": "ltminigames.minigame.turtle race"},
+  "subtitle": "Standard 21",
   "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_1.png",
 
   "statistics_key": "race_standard_21",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:turtle_race_21",
-    "dimension": "lt:turtle_race_21"
+    "dimension": "lt:turtle_race_21",
+    "dimension_type": "tropicraft:tropics"
   },
   "minimum_participants": 4,
   "maximum_participants": 32,
