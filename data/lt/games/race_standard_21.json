@@ -1,0 +1,47 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.race_standard_21"
+  },
+  "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_1.png",
+
+  "statistics_key": "race_standard_21",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:turtle_race_21",
+    "dimension": "lt:turtle_race_21"
+  },
+  "minimum_participants": 4,
+  "maximum_participants": 32,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "adventure",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:commands",
+      "ready": [
+        "function lt:game/party/race_standard/init",
+        "function lt:game/party/race_standard/settings"
+      ],
+      "start": "function lt:game/party/race_standard/start",
+      "player_participate": "function lt:game/party/race_standard/player/join_competitor",
+      "player_spectate": "function lt:game/party/race_standard/player/join_spectator",
+      "player_remove": "function lt:game/party/race_standard/player/leave",
+      "stop": "function lt:game/party/race_standard/deinit"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": [
+        "spawn"
+      ]
+    },
+    "ltminigames:spectator_chase",
+    "ltminigames:eliminate_player_control"
+  ]
+}
