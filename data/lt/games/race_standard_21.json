@@ -24,6 +24,10 @@
       "spectator": "spectator"
     },
     {
+      "type": "ltminigames:force_load_region",
+      "region": "force_load"
+    },
+    {
       "type": "ltminigames:commands",
       "ready": [
         "function lt:game/party/race_standard/init",
