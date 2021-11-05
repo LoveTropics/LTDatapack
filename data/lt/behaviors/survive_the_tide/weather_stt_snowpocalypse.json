@@ -48,39 +48,45 @@
       "heavy_rain": {
         "phase0": 0.0,
         "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.0
       },
       "acid_rain": {
         "phase0": 0.0,
         "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
+        "phase2": 0.0,
+        "phase3": 0.0,
         "phase4": 0.0
       },
       "hail": {
         "phase0": 0.0,
         "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "phase2": 0.005,
+        "phase3": 0.005,
+        "phase4": 0.01
       },
       "heatwave": {
         "phase0": 0.0,
         "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.0
       },
       "sandstorm": {
+        "phase0": 0.0,
+        "phase1": 0.0,
+        "phase2": 0.0,
+        "phase3": 0.0,
+        "phase4": 0.0
+      },
+      "snowstorm": {
         "phase0": 0.0,
         "phase1": 0.0,
         "phase2": 0.015,
         "phase3": 0.02,
         "phase4": 0.025
-      },
-      "snowstorm": {}
+      }
     },
     "event_timers": {
       "heavy_rain": {
@@ -92,8 +98,8 @@
         "extra_rand_time": 800
       },
       "heatwave": {
-        "min_time": 800,
-        "extra_rand_time": 800
+        "min_time": 1600,
+        "extra_rand_time": 1600
       }
     },
     "wind_speed": {
@@ -103,9 +109,9 @@
       "phase3": 1.0,
       "phase4": 1.5
     },
-    "sandstorm_buildup_tickrate": 80,
-    "sandstorm_max_stackable": 1,
-    "snowstorm_buildup_tickrate": 80,
-    "snowstorm_max_stackable": 1
+    "sandstorm_buildup_tickrate": 10,
+    "sandstorm_max_stackable": 15,
+    "snowstorm_buildup_tickrate": 10,
+    "snowstorm_max_stackable": 15
   }
 ]
