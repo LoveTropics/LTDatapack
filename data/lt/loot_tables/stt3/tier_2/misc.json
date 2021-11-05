@@ -28,7 +28,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
                         }
                     ]
                 },
