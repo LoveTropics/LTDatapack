@@ -1,3 +1,0 @@
-**/maps/*.zip filter=lfs diff=lfs merge=lfs -text
-**/structures/**/*.nbt filter=lfs diff=lfs merge=lfs -text
-*.bin filter=lfs diff=lfs merge=lfs -text
