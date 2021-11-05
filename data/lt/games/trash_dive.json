@@ -45,7 +45,21 @@
         "color": "green"
       }
     },
-    "ltminigames:disable_hunger"
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:armor_participants",
+      "head": "tropicraft:pink_scuba_goggles",
+      "chest": {
+        "id": "tropicraft:pink_scuba_harness",
+        "Count": 1,
+        "tag": {
+          "scuba": {
+            "air": 12000
+          }
+        }
+      },
+      "feet": "tropicraft:pink_scuba_flippers"
+    }
   ]
 }
 
