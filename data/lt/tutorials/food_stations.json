@@ -1,0 +1,157 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [-1000, 0, -1000],
+      "max": [1000, 255, 1000]
+    }
+  },
+  "widgets": [
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [223.5,118.5,262.5],
+        "text": {
+          "text": "⟶ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Food dispenser",
+              "color": "green"
+            },
+            {
+              "text": " ⟵",
+              "color": "aqua"
+            }
+          ]
+        },
+        "scale": 0.0325
+      },
+      "focus": {
+        "looking_at": {
+          "min": [223, 109, 261],
+          "max": [224, 112, 263]
+        },
+        "distance": 10.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [562.5,108.5,27.5],
+        "text": {
+          "text": "⟶ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Food dispenser",
+              "color": "green"
+            },
+            {
+              "text": " ⟵",
+              "color": "aqua"
+            }
+          ]
+        },
+        "scale": 0.0325
+      },
+      "focus": {
+        "looking_at": {
+          "min": [561, 106, 26],
+          "max": [563, 108, 28]
+        },
+        "distance": 10.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [731.5,107.5,74.5],
+        "text": {
+          "text": "⟶ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Food dispenser",
+              "color": "green"
+            },
+            {
+              "text": " ⟵",
+              "color": "aqua"
+            }
+          ]
+        },
+        "scale": 0.0325
+      },
+      "focus": {
+        "looking_at": {
+          "min": [730, 105, 73],
+          "max": [732, 107, 75]
+        },
+        "distance": 10.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [854.5,108.5,-169.5],
+        "text": {
+          "text": "⟶ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Food dispenser",
+              "color": "green"
+            },
+            {
+              "text": " ⟵",
+              "color": "aqua"
+            }
+          ]
+        },
+        "scale": 0.0325
+      },
+      "focus": {
+        "looking_at": {
+          "min": [852, 106, -170],
+          "max": [856, 108, -172]
+        },
+        "distance": 10.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": {
+        "type": "text",
+        "pos": [834.5,108.5,-295.5],
+        "text": {
+          "text": "⟶ ",
+          "color": "aqua",
+          "extra": [
+            {
+              "text": "Food dispenser",
+              "color": "green"
+            },
+            {
+              "text": " ⟵",
+              "color": "aqua"
+            }
+          ]
+        },
+        "scale": 0.0325
+      },
+      "focus": {
+        "looking_at": {
+          "min": [832, 104, -294],
+          "max": [836, 108, -296]
+        },
+        "distance": 10.0
+      }
+    }
+  ]
+}

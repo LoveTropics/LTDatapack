@@ -1,0 +1,100 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [244, 107, 251],
+      "max": [254, 119, 235]
+    }
+  },
+  "widgets": [
+    {
+      "type": "focusing",
+      "widget": [
+        {
+          "type": "text",
+          "pos": [249.90, 113.65, 244.40],
+          "text": {
+            "text": "Tropiland - Theme Park",
+            "color": "red"
+          },
+          "scale": 0.0145,
+          "point_along": [-1.0, 0.0, 0.0]
+        }
+      ],
+      "focus": {
+        "looking_at": {
+          "min": [250, 113, 240],
+          "max": [250, 106, 246]
+        },
+        "distance": 25.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": [
+        {
+          "type": "text",
+          "pos": [249.90, 111.75, 244.50],
+          "text": {
+            "text": "Spawn Islet",
+            "color": "aqua"
+          },
+          "scale": 0.0145,
+          "point_along": [-1.0, 0.0, 0.0]
+        }
+      ],
+      "focus": {
+        "looking_at": {
+          "min": [250, 113, 240],
+          "max": [250, 106, 246]
+        },
+        "distance": 25.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": [
+        {
+          "type": "text",
+          "pos": [249.90, 109.23, 241.12],
+          "text": {
+            "text": "Concert Island",
+            "color": "dark_purple"
+          },
+          "scale": 0.0145,
+          "point_along": [-1.0, 0.0, 0.0]
+        }
+      ],
+      "focus": {
+        "looking_at": {
+          "min": [250, 113, 240],
+          "max": [250, 106, 246]
+        },
+        "distance": 25.0
+      }
+    },
+    {
+      "type": "focusing",
+      "widget": [
+        {
+          "type": "text",
+          "pos": [249.90, 111.22, 245.84],
+          "text": {
+            "text": "Research Center",
+            "color": "green"
+          },
+          "scale": 0.0145,
+          "point_along": [-1.0, 0.0, 0.0]
+        }
+      ],
+      "focus": {
+        "looking_at": {
+          "min": [250, 113, 240],
+          "max": [250, 106, 246]
+        },
+        "distance": 25.0
+      }
+    }
+  ]
+}

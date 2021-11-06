@@ -2,7 +2,7 @@
   "name": {"translate": "ltminigames.minigame.biodiversity_blitz"},
   "statistics_key": "biodiversity_blitz",
   "minimum_participants": 1,
-  "maximum_participants": 20,
+  "maximum_participants": 32,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",

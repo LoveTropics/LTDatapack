@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.turtle_race"},
-  "subtitle": "Standard 21",
+  "subtitle": "Standard 2 Lap - LT21",
   "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_1.png",
 
   "statistics_key": "race_standard_21",
