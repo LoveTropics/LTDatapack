@@ -1,4 +1,4 @@
 {
-  "enter_commands": ["disguise as tropicraft:fiddler_crab"],
+  "enter_commands": ["disguise as tropicraft:fiddler_crab {Attributes:[{Base:0.4,Name:\"minecraft:generic.movement_speed\"}]}"],
   "exit_commands": ["disguise clear"]
 }
