@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["disguise as tropicraft:fiddler_crab"],
+  "exit_commands": ["disguise clear"]
+}
