@@ -1,0 +1,45 @@
+{
+  "name": "Block Party",
+
+  "statistics_key": "block_party",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:block_party"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 32,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:block_party",
+      "floor": "blocks",
+      "blocks": [
+        "minecraft:diamond_block",
+        "minecraft:emerald_block",
+        "minecraft:gold_block",
+        "tropicraft:light_mangrove_wood",
+        "tropicraft:black_mangrove_wood",
+        "tropicraft:red_mangrove_wood"
+      ],
+      "quad_size": 3
+    },
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true"
+      }
+    },
+    "ltminigames:cancel_player_damage",
+    "ltminigames:spectator_chase"
+  ]
+}
