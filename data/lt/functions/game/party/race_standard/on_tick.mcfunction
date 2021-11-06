@@ -2,10 +2,11 @@
 #title @a actionbar "FUNCTION RUNNING"
 
 # STATE 1 - Turtle mounting
-execute as @e[tag=turtle_race.standard.entity.turtle,tag=!turtle_race.standard.entity.turtle.has_rider] at @s if score state r.s.global matches 1 if entity @a[tag=game.party.turtle_race.standard.player.competitor,distance=..0.05] run function lt:game/party/race_standard/turtle/mount/set_true
-execute as @e[tag=turtle_race.standard.entity.turtle,tag=turtle_race.standard.entity.turtle.has_rider] at @s if score state r.s.global matches 1 unless entity @a[tag=game.party.turtle_race.standard.player.competitor,distance=..0.05] run function lt:game/party/race_standard/turtle/mount/set_false
-execute unless score turtles_with_riders r.s.global = SETATSTART.PLAYER_COUNT r.s.global if score state r.s.global matches 1 run title @a[tag=game.party.turtle_race.standard.player] actionbar [{"score":{"name":"turtles_with_riders","objective":"r.s.global"},"color":"yellow"},{"text":"/","color":"gray"},{"score":{"name":"SETATSTART.PLAYER_COUNT","objective":"r.s.global"},"color":"yellow"},{"text":" Have mounted their turtles.","color":"white"}]
+#execute as @e[tag=turtle_race.standard.entity.turtle,tag=!turtle_race.standard.entity.turtle.has_rider] at @s if score state r.s.global matches 1 if entity @a[tag=game.party.turtle_race.standard.player.competitor,distance=..0.05] run function lt:game/party/race_standard/turtle/mount/set_true
+#execute as @e[tag=turtle_race.standard.entity.turtle,tag=turtle_race.standard.entity.turtle.has_rider] at @s if score state r.s.global matches 1 unless entity @a[tag=game.party.turtle_race.standard.player.competitor,distance=..0.05] run function lt:game/party/race_standard/turtle/mount/set_false
+#execute unless score turtles_with_riders r.s.global = SETATSTART.PLAYER_COUNT r.s.global if score state r.s.global matches 1 run title @a[tag=game.party.turtle_race.standard.player] actionbar [{"score":{"name":"turtles_with_riders","objective":"r.s.global"},"color":"yellow"},{"text":"/","color":"gray"},{"score":{"name":"SETATSTART.PLAYER_COUNT","objective":"r.s.global"},"color":"yellow"},{"text":" Have mounted their turtles.","color":"white"}]
 execute if score state r.s.global matches 1 run title @a[tag=game.party.turtle_race.standard.player] actionbar {"text": "Mount your turtles. The race will begin shortly!"}
+execute if score state r.s.global matches 1 if score time_since_all_mounted r.s.global matches 1.. run scoreboard players remove time_since_all_mounted r.s.global 1
 execute if score state r.s.global matches 1 if score time_since_all_mounted r.s.global matches 0 run function lt:game/party/race_standard/countdown/fp_5
 
 # STATE 2 - Countdown

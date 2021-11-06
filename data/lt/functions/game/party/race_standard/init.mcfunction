@@ -24,7 +24,7 @@ scoreboard objectives add r.s.p_boost_time dummy
 scoreboard players set state r.s.global 0
 scoreboard players set ticks_since_start r.s.global 0
 scoreboard players set players_on_turtles r.s.global 0
-scoreboard players set time_since_all_mounted r.s.global 200
+scoreboard players set time_since_all_mounted r.s.global 260
 scoreboard players set finishers r.s.global 0
 scoreboard players set turtles_with_riders r.s.global 0
 

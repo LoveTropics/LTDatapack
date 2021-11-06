@@ -14,6 +14,5 @@ schedule function lt:game/party/race_one_way/countdown/spawn_turtles 1.5s
 execute as @a[tag=game.party.turtle_race.one_way.player.competitor] run scoreboard players add SETATSTART.PLAYER_COUNT r.o.global 1
 
 # things that need to be done after settings have been loaded but before the game has started
-bossbar set lt:game.party.turtle_race.one_way.lap_display.1st players @a[tag=game.party.turtle_race.one_way.player.competitor]
-bossbar set lt:game.party.turtle_race.one_way.time_display players @a[tag=game.party.turtle_race.one_way.player.opectator]
+bossbar set lt:game.party.turtle_race.one_way.time_display players @a[tag=game.party.turtle_race.one_way.player]
 #
