@@ -32,7 +32,10 @@
         "effect give @s minecraft:levitation 100000 1 true",
         "tag @s add levitation.yes"
       ],
-      "player_remove": ["tag @s remove levitation.yes"]
+      "player_remove": ["tag @s remove levitation.yes"],
+      "stop": [
+        "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+      ]
     },
     {
       "type": "ltminigames:run_command_in_region",
