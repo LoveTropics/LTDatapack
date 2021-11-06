@@ -18,11 +18,12 @@
       "type": "ltminigames:block_party",
       "floor": "blocks",
       "blocks": [
-        "minecraft:diamond_block",
-        "minecraft:emerald_block",
-        "minecraft:gold_block",
         "tropicraft:black_mangrove_wood",
-        "tropicraft:red_mangrove_wood"
+        "tropicraft:red_mangrove_wood",
+        "ltextras:imposter_brain_coral_block",
+        "ltextras:imposter_horn_coral_block",
+        "ltextras:imposter_tube_coral_block",
+        "minecraft:grass_block"
       ],
       "quad_size": 3,
       "max_time": 140
