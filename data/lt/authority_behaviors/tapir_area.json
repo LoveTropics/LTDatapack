@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["disguise as tropicraft:tapir"],
+  "exit_commands": ["disguise clear"]
+}
