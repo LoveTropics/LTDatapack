@@ -1,0 +1,15 @@
+# Floor Type = INT | Range: # of defined materials
+# Number of Floors = INT | Range: 1 - 5
+# Floor 1 Y bounds = INT1 INT2
+# Floor 2 Y bounds = INT1 INT2
+# Floor 3 Y bounds = INT1 INT2
+# Floor 4 Y bounds = INT1 INT2
+# Floor 5 Y bounds = INT1 INT2
+# Tool to Give = /replaceitem command
+# Floor 1 Time to FP = INT
+# Floor 2 Time to FP = INT
+# Floor 3 Time to FP = INT
+# Floor 4 Time to FP = INT
+# Floor 5 Time to FP = INT
+# Y level 'out'
+# Version to Run = INT | Range: 1 - 2
