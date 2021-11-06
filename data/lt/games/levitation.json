@@ -42,6 +42,7 @@
       "regions": {
         "end": [
           "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
+          "kill @e[current_world=true,type=minecraft:fishing_bobber]",
           "game finish"
         ]
       },
@@ -81,7 +82,7 @@
       "type": "ltminigames:scheduled_messages",
       "messages": {
         "20": {
-          "text": "First to the top wins!",
+          "text": "Race to be the first to reach the top of the tube!",
           "color": "green",
           "italic": true
         },
