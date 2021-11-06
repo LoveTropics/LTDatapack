@@ -16,8 +16,8 @@
     },
     {
       "type": "ltminigames:position_players",
-      "participant": "spawn",
-      "spectator": "end"
+      "participants": "spawn",
+      "spectators": "end"
     },
     {
       "type": "ltminigames:set_blocks",
@@ -28,13 +28,17 @@
     },
     {
       "type": "ltminigames:commands",
-      "player_participate": "effect give @s minecraft:levitation 100000 1 true"
+      "player_participate": [
+        "effect give @s minecraft:levitation 100000 1 true",
+        "tag @s add levitation.yes"
+      ],
+      "player_remove": ["tag @s remove levitation.yes"]
     },
     {
       "type": "ltminigames:run_command_in_region",
       "regions": {
         "end": [
-          "say A player has won the game!",
+          "tellraw @e[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
           "game finish"
         ]
       },
