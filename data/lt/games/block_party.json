@@ -25,7 +25,8 @@
         "tropicraft:black_mangrove_wood",
         "tropicraft:red_mangrove_wood"
       ],
-      "quad_size": 3
+      "quad_size": 3,
+      "max_time": 140
     },
     "ltminigames:disable_hunger",
     {
