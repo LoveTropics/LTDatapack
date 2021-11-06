@@ -1,0 +1,73 @@
+{
+  "name": "Levitation",
+
+  "statistics_key": "levitation",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:levitation"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 37,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "participant": "spawn",
+      "spectator": "end"
+    },
+    {
+      "type": "ltminigames:set_blocks",
+      "replace": ["minecraft:red_stained_glass", "minecraft:orange_stained_glass", "minecraft:yellow_stained_glass", "minecraft:lime_stained_glass","minecraft:light_blue_stained_glass","minecraft:magenta_stained_glass"],
+      "set": "minercaft:air",
+      "time": 200
+    },
+    {
+      "type": "ltminigames:commands",
+      "player_participate": "effect give @s minecraft:levitation 100000 1 true"
+    },
+    {
+      "type": "ltminigames:run_command_in_region",
+      "regions": {
+        "end": [
+          "say A player has won the game!",
+          "game finish"
+        ]
+      },
+      "interval": 5
+    },
+    {
+      "type": "ltminigames:equip_participants",
+      "equipment": [
+        {
+          "id": "minecraft:fishing_rod",
+          "Count": 1,
+          "tag": {
+            "Unbreakable": true
+          }
+        }
+      ]
+    },
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true"
+      }
+    },
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": true
+    },
+    "ltminigames:immediate_respawn",
+    "ltminigames:spectator_chase"
+  ]
+}
