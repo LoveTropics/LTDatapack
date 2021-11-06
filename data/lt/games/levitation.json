@@ -76,6 +76,21 @@
       "knockback": true
     },
     "ltminigames:immediate_respawn",
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:scheduled_messages",
+      "messages": {
+        "20": {
+          "text": "First to the top wins!",
+          "color": "green",
+          "italic": true
+        },
+        "80": {
+          "text": "Use your fishing rod to pull other players down.",
+          "color": "gray",
+          "italic": true
+        }
+      }
+    }
   ]
 }
