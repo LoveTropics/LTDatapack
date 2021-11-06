@@ -46,6 +46,10 @@
         "output": {"id": "ltminigames:osa_point", "Count": 3}
       },
       {
+        "input": {"id": "minecraft:sweet_berries", "Count": 2},
+        "output": {"id": "ltminigames:osa_point", "Count": 3}
+      },
+      {
         "input": {"id": "minecraft:wheat", "Count": 2},
         "output": {"id": "minecraft:bread", "Count": 1}
       },
