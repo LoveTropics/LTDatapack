@@ -38,7 +38,7 @@
       "type": "ltminigames:run_command_in_region",
       "regions": {
         "end": [
-          "tellraw @e[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
+          "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
           "game finish"
         ]
       },
