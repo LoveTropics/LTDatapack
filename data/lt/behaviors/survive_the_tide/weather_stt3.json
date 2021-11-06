@@ -4,9 +4,9 @@
     "event_effects": {
       "hail": {
         "repellent": {
-          "item": "minecraft:diamond",
+          "item": "minecraft:acid_repellent_umbrella",
           "rate": 60,
-          "amount": 3
+          "amount": 50
         },
         "damage": {
           "rate": 60,

@@ -19,13 +19,12 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type": "ltminigames:set_game_types",
-      "participant": "adventure",
-      "spectator": "spectator"
-    },
-    {
       "type": "ltminigames:force_load_region",
       "region": "force_load"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": ["spawn"]
     },
     {
       "type": "ltminigames:commands",
@@ -38,12 +37,6 @@
       "player_spectate": "function lt:game/party/spleef/player/join_spectator",
       "player_remove": "function lt:game/party/spleef/player/leave",
       "stop": "function lt:game/party/spleef/deinit"
-    },
-    {
-      "type": "ltminigames:position_players",
-      "all": [
-        "spawn"
-      ]
     },
     "ltminigames:spectator_chase",
     "ltminigames:eliminate_player_control"
