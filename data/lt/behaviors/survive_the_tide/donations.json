@@ -490,7 +490,7 @@
       {
         "type": "ltminigames:apply_disguise_package",
         "disguise": {
-          "entity": "ltminigames:cubera",
+          "entity": "tropicraft:cubera",
           "apply_attributes": false
         },
         "seconds": 120
@@ -515,7 +515,7 @@
       {
         "type": "ltminigames:apply_disguise_package",
         "disguise": {
-          "entity": "ltminigames:armor_stand",
+          "entity": "minecraft:armor_stand",
           "apply_attributes": false,
           "tag": {
             "ShowArms": true
