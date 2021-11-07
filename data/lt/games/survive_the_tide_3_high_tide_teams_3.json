@@ -38,6 +38,7 @@
       "type":  "lt:survive_the_tide/stt3_map",
       "tide": 190
     },
+    "ltminigames:teams",
     "lt:survive_the_tide/stt3_phases",
     "lt:survive_the_tide/pets",
     "lt:survive_the_tide/ruleset",
