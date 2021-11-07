@@ -471,5 +471,31 @@
         "seconds": 120
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "its_been_fun",
+    "notification": {
+      "message": {
+        "text": "It's been fun, but %1$s has ENDED THE GAME!",
+        "color": "red"
+      },
+      "icon": {"item": "minecraft:tnt"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "all",
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:spawn_entity_at_player_package",
+        "entity_id": "minecraft:lightning_bolt",
+        "damage_player_amount": 10000.0
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_player_package",
+        "entity_id": "minecraft:tnt"
+      }
+    ]
   }
 ]
