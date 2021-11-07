@@ -60,7 +60,6 @@
     "damage_amount": 4,
     "border_particle": "minecraft:explosion"
   },
-  "ltminigames:disable_tnt_block_destruction",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
