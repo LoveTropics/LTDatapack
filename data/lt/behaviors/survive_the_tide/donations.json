@@ -450,6 +450,84 @@
 
   {
     "type": "ltminigames:donation_package",
+    "package_type": "driftwood_dazzle",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Everyone is.. driftwood? For 2 minutes!",
+        "color": "light_purple"
+      },
+      "icon": {"item": "minecraft:oak_log"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "ltminigames:driftwood",
+          "apply_attributes": false
+        },
+        "seconds": 120
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "cubera_confusion",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Oops, we're all fish for 2 minutes!",
+        "color": "light_purple"
+      },
+      "icon": {"item": "tropicraft:cubera_spawn_egg"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "ltminigames:cubera",
+          "apply_attributes": false
+        },
+        "seconds": 120
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "armor_standified",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "For 2 minutes, you have become an armor stand. What?",
+        "color": "light_purple"
+      },
+      "icon": {"item": "minecraft:armor_stand"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_behaviors": [
+      {
+        "type": "ltminigames:apply_disguise_package",
+        "disguise": {
+          "entity": "ltminigames:armor_stand",
+          "apply_attributes": false,
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "seconds": 120
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
     "package_type": "basilisk_lizard_party",
     "player_select": "all",
     "notification": {

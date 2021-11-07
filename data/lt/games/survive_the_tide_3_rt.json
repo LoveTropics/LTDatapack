@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "Philza Minecraft but disorganised",
+  "subtitle": "RT Minecraft but disorganised",
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
   "statistics_key": "survive_the_tide",
