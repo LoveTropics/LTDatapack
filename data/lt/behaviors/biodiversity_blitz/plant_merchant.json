@@ -38,6 +38,10 @@
         "output": {"plant": "wither_rose"}
       },
       {
+        "input": {"id": "ltminigames:osa_point", "Count": 16},
+        "output": {"plant": "canna"}
+      },
+      {
         "input": {"id": "ltminigames:osa_point", "Count": 12},
         "output": {"plant": "melon"}
       },

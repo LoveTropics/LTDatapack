@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "canna",
+    "places": "canna",
+    "item": {
+      "id": "tropicraft:canna",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Shoots lightning at mobs and sets them on fire.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Charges creepers.\",\"color\": \"red\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "canna",
+    "family": "plant",
+    "value": 0.2,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:canna"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "canna"
+      },
+      {
+        "type": "ltminigames:lightning_plant",
+        "radius": 5
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 4
+      }
+    ]
+  }
+]
