@@ -12,10 +12,10 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "player_select": "all",
-    "receive_behaviors": [
-      {"type": "ltminigames:give_player_head_package"},
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
       {
-        "type": "ltminigames:spawn_entities_at_regions_over_time_package",
+        "type": "ltminigames:spawn_entities_at_regions_over_time",
         "entity_id": "minecraft:lightning_bolt",
         "entity_count": 100,
         "ticks_to_spawn_for": 800,
@@ -37,9 +37,9 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "player_select": "all",
-    "receive_behaviors": [
+    "receive_actions": [
       {
-        "type": "ltminigames:spawn_entities_around_players_package",
+        "type": "ltminigames:spawn_entities_around_players",
         "entity_id": "minecraft:zombie",
         "entity_count_per_player": 7,
         "spawn_distance_min": 10,
@@ -63,7 +63,7 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "player_select": "all",
-    "receive_behaviors": [
+    "receive_actions": [
       {
         "type": "ltminigames:shoot_projectiles_at_player",
         "entity_count_per_player": 50,

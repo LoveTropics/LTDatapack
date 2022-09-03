@@ -1,5 +1,8 @@
 [
-  "ltminigames:fireworks_on_death",
+  {
+    "type": "ltminigames:on_death",
+    "actions": "ltminigames:spawn_fireworks"
+  },
   "ltminigames:place_by_death_order",
   "ltminigames:tnt_auto_fuse",
   {

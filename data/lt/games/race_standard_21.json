@@ -27,16 +27,34 @@
       "all": ["spawn"]
     },
     {
-      "type": "ltminigames:commands",
-      "ready": [
-        "function lt:game/party/race_standard/init",
-        "function lt:game/party/race_standard/settings"
-      ],
-      "start": "function lt:game/party/race_standard/start",
-      "player_participate": "function lt:game/party/race_standard/player/join_competitor",
-      "player_spectate": "function lt:game/party/race_standard/player/join_spectator",
-      "player_remove": "function lt:game/party/race_standard/player/leave",
-      "stop": "function lt:game/party/race_standard/deinit"
+      "type": "ltminigames:general_events",
+      "ready": {
+        "type": "ltminigames:run_commands",
+        "global": [
+          "function lt:game/party/race_standard/init",
+          "function lt:game/party/race_standard/settings"
+        ]
+      },
+      "start": {
+        "type": "ltminigames:run_commands",
+        "global": "function lt:game/party/race_standard/start"
+      },
+      "player_participate": {
+        "type": "ltminigames:run_commands",
+        "player": "function lt:game/party/race_standard/player/join_competitor"
+      },
+      "player_spectate": {
+        "type": "ltminigames:run_commands",
+        "player": "function lt:game/party/race_standard/player/join_spectator"
+      },
+      "player_remove": {
+        "type": "ltminigames:run_commands",
+        "player": "function lt:game/party/race_standard/player/leave"
+      },
+      "stop": {
+        "type": "ltminigames:run_commands",
+        "global": "function lt:game/party/race_standard/deinit"
+      }
     },
     "ltminigames:spectator_chase",
     "ltminigames:eliminate_player_control",

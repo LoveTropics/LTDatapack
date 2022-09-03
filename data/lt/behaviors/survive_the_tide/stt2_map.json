@@ -32,10 +32,14 @@
     "spectators": ["center"]
   },
   {
-    "type": "ltminigames:set_blocks",
-    "region": "delete_on_start",
-    "set": "air",
-    "time": 20
+    "type": "ltminigames:scheduled_actions",
+    "actions": {
+      "20": {
+        "type": "ltminigames:set_blocks",
+        "region": "delete_on_start",
+        "set": "air"
+      }
+    }
   },
   {
     "type": "ltminigames:rising_tides",
@@ -69,9 +73,12 @@
     "border_particle": "minecraft:explosion"
   },
   {
-    "type": "ltminigames:run_command_in_region",
+    "type": "ltminigames:while_in_region",
     "regions": {
-      "got_stuck_help": "tp @s 51 54 137"
+      "got_stuck_help": {
+        "type": "ltminigames:run_commands",
+        "player": "tp @s 51 54 137"
+      }
     },
     "interval": 100
   },

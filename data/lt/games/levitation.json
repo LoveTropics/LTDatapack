@@ -20,31 +20,57 @@
       "spectators": "end"
     },
     {
-      "type": "ltminigames:set_blocks",
-      "replace": {"block": "minecraft:light_blue_stained_glass"},
-      "set": "minercaft:air",
-      "time": 200,
-      "region": "barrier"
+      "type": "ltminigames:scheduled_actions",
+      "actions": {
+        "200":     {
+          "type": "ltminigames:set_blocks",
+          "replace": {"block": "minecraft:light_blue_stained_glass"},
+          "set": "minecraft:air",
+          "region": "barrier"
+        }
+      }
     },
     {
-      "type": "ltminigames:commands",
-      "player_participate": [
-        "effect give @s minecraft:levitation 100000 1 true",
-        "tag @s add levitation.yes"
-      ],
-      "player_remove": ["tag @s remove levitation.yes"],
-      "stop": [
-        "kill @e[current_world=true,type=minecraft:fishing_bobber]"
-      ]
+      "type": "ltminigames:general_events",
+      "actions": {
+        "player_participate": [
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:levitation",
+                "seconds": 100000,
+                "amplifier": 1,
+                "hide_particles": true
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:run_commands",
+            "player": "tag @s add levitation.yes"
+          }
+        ],
+        "player_remove": {
+          "type": "ltminigames:run_commands",
+          "player": "tag @s remove levitation.yes"
+        },
+        "stop": {
+          "type": "ltminigames:run_commands",
+          "global": "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+        }
+      }
     },
     {
-      "type": "ltminigames:run_command_in_region",
+      "type": "ltminigames:while_in_region",
       "regions": {
-        "end": [
-          "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
-          "kill @e[current_world=true,type=minecraft:fishing_bobber]",
-          "game finish"
-        ]
+        "end": {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
+            "kill @e[current_world=true,type=minecraft:fishing_bobber]",
+            "game finish"
+          ]
+        }
       },
       "interval": 5
     },
@@ -79,17 +105,23 @@
     "ltminigames:immediate_respawn",
     "ltminigames:spectator_chase",
     {
-      "type": "ltminigames:scheduled_messages",
-      "messages": {
+      "type": "ltminigames:scheduled_actions",
+      "actions": {
         "20": {
-          "text": "Race to be the first to reach the top of the tube!",
-          "color": "green",
-          "italic": true
+          "type": "ltminigames:send_message",
+          "message": {
+            "text": "Race to be the first to reach the top of the tube!",
+            "color": "green",
+            "italic": true
+          }
         },
         "80": {
-          "text": "Use your fishing rod to pull other players down.",
-          "color": "gray",
-          "italic": true
+          "type": "ltminigames:send_message",
+          "message": {
+            "text": "Use your fishing rod to pull other players down.",
+            "color": "gray",
+            "italic": true
+          }
         }
       }
     }

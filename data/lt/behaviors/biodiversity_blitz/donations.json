@@ -10,16 +10,16 @@
       "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
-    "receive_behaviors": [
+    "receive_actions": [
       {
-        "type": "ltminigames:countdown_package",
+        "type": "ltminigames:countdown_action",
         "warning": {
           "text": "You will be swapping with a nearby player in %1$s seconds!",
           "color": "red"
         },
         "countdown": 5,
-        "behaviors": {
-          "type": "ltminigames:swap_players_package",
+        "actions": {
+          "type": "ltminigames:swap_players",
           "distance_threshold": 48.0
         }
       }
@@ -39,10 +39,10 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "player_select": "specific",
-    "receive_behaviors": [
+    "receive_actions": [
       { "type": "ltminigames:give_player_head_package" },
       {
-        "type": "ltminigames:effect_package",
+        "type": "ltminigames:give_effect",
         "effects": [
           {
             "type": "minecraft:hunger",
@@ -67,10 +67,10 @@
       "sound": "ltminigames:package_receive"
     },
     "player_select": "specific",
-    "receive_behaviors": [
+    "receive_actions": [
       { "type": "ltminigames:give_player_head_package" },
       {
-        "type": "ltminigames:effect_package",
+        "type": "ltminigames:give_effect",
         "effects": [
           {
             "type": "minecraft:regeneration",
@@ -105,9 +105,9 @@
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"
     },
-    "receive_behaviors": [
+    "receive_actions": [
       {
-        "type": "ltminigames:apply_disguise_package",
+        "type": "ltminigames:apply_global_disguise",
         "disguise": {
           "entity": "tropicraft:tapir",
           "apply_attributes": false
@@ -130,9 +130,9 @@
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "receive_behaviors": [
+    "receive_actions": [
       {
-        "type": "ltminigames:weather_event_package",
+        "type": "ltminigames:weather_event",
         "event": "acid_rain",
         "seconds": 60
       }
@@ -152,15 +152,15 @@
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "receive_behaviors": [
+    "receive_actions": [
       {
-        "type": "ltminigames:countdown_package",
+        "type": "ltminigames:countdown_action",
         "warning": {
           "text": "A wave of surprise creepers is spawning in %1$s seconds!",
           "color": "red"
         },
         "countdown": 5,
-        "behaviors": {
+        "actions": {
           "type": "ltminigames:spawn_surprise_wave",
           "wave_size": 3
         }
@@ -181,7 +181,7 @@
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "receive_behaviors": [
+    "receive_actions": [
       {
         "type": "ltminigames:equalize_currency"
       }

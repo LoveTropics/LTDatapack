@@ -28,20 +28,23 @@
     "iceberg_growth_tick_rate": 100
   },
   {
-    "type": "ltminigames:set_blocks",
-    "region": ["helicopter", "paracord"],
-    "set": "air",
-    "time": 1000,
-    "notify_neighbors": false
-  },
-  {
-    "type": "ltminigames:set_extending_blocks",
-    "region": ["paracord"],
-    "set": "ltextras:paracord",
-    "direction": "down",
-    "start_time": 600,
-    "end_time": 700,
-    "notify_neighbors": true
+    "type": "ltminigames:scheduled_actions",
+    "actions": {
+      "600":   {
+        "type": "ltminigames:set_extending_blocks",
+        "region": ["paracord"],
+        "set": "ltextras:paracord",
+        "direction": "down",
+        "duration": 100,
+        "notify_neighbors": true
+      },
+      "1000": {
+        "type": "ltminigames:set_blocks",
+        "region": ["helicopter", "paracord"],
+        "set": "air",
+        "notify_neighbors": false
+      }
+    }
   },
   {
     "type": "ltminigames:world_border",
