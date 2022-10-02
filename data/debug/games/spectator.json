@@ -1,0 +1,22 @@
+{
+  "name": {"text": "Debug: Spectator"},
+  "map": {
+    "type": "ltminigames:inline",
+    "dimension": "minecraft:overworld"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 1,
+  "behaviors": [
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "creative",
+      "spectator": "spectator"
+    },
+    "ltminigames:assign_player_roles",
+    {
+      "type": "ltminigames:join_late_with_role",
+      "role": "spectator"
+    },
+    "ltminigames:spectator_chase"
+  ]
+}
