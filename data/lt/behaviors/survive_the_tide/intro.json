@@ -43,12 +43,17 @@
         }
       },
       "3000": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "ltminigames.minigame.survive_the_tide_pvp_enabled",
+        "type": "ltminigames:show_title",
+        "title": {
+          "translate": "ltminigames.minigame.survive_the_tide_pvp_enabled.title",
           "color": "red",
           "bold": true
-        }
+        },
+        "subtitle": {
+          "translate": "ltminigames.minigame.survive_the_tide_pvp_enabled.subtitle",
+          "color": "red"
+        },
+        "stay": 40
       }
     }
   }
