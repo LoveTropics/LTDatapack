@@ -6,7 +6,9 @@
       "yellow_glazed_terracotta": "lt:stt3/tier_2",
       "pink_glazed_terracotta": "lt:stt3/tier_3",
       "red_glazed_terracotta": "lt:stt3/tier_4"
-    }
+    },
+    "max_per_chunk": 4,
+    "percentage": 1.0
   },
   {
     "type": "ltminigames:position_players",
