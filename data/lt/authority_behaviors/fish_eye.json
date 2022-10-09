@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["effect give @s ltextras:fish_eye"],
+  "exit_commands": ["effect clear @s ltextras:fish_eye"]
+}
