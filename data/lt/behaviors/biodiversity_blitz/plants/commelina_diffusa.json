@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"Damages nearby mobs with water. Puts out fires.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When placed, any mobs in a small radius nearby will get hit by a stream of water, damaging them.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Useful as a front-line defense as it actively tries to attack mobs. Be careful where you put it, as it can put out the Crocosmia's fires.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
