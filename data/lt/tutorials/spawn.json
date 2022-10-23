@@ -1,0 +1,32 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [1344, 60, 903],
+      "max": [1368, 82, 927]
+    }
+  },
+  "widgets": [
+    {
+      "type": "text",
+      "pos": [1353.5, 67.0, 915.5],
+      "text": {
+        "text": "Welcome to ",
+        "color": "aqua",
+        "extra": [
+          {
+            "text": "Love Tropics! ",
+            "color": "gold"
+          },
+          {
+            "text": "♥",
+            "color": "red"
+          }
+        ]
+      },
+      "scale": 0.0625,
+      "point_along": [1.0, 0.0, 0.0]
+    }
+  ]
+}
