@@ -8,15 +8,25 @@
       },
       {
         "key": "phase1",
-        "length_in_ticks": 2000
+        "length_in_ticks": 2000,
+        "advance_conditions": {
+          "below_player_percentage": 0.75
+        }
       },
       {
         "key": "phase2",
-        "length_in_ticks": 6000
+        "length_in_ticks": 6000,
+        "advance_conditions": {
+          "below_player_percentage": 0.5
+        }
       },
       {
         "key": "phase3",
-        "length_in_ticks": 6000
+        "length_in_ticks": 6000,
+        "advance_conditions": {
+          "below_player_percentage": 0.25,
+          "below_player_count": 2
+        }
       },
       {
         "key": "phase4",
