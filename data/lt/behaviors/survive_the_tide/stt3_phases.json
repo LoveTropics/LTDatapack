@@ -8,29 +8,31 @@
       },
       {
         "key": "phase1",
-        "length_in_ticks": 2000,
-        "advance_conditions": {
-          "below_player_percentage": 0.75
-        }
+        "length_in_ticks": 2000
       },
       {
         "key": "phase2",
-        "length_in_ticks": 6000,
-        "advance_conditions": {
-          "below_player_percentage": 0.5
-        }
+        "length_in_ticks": 6000
       },
       {
         "key": "phase3",
-        "length_in_ticks": 6000,
-        "advance_conditions": {
-          "below_player_percentage": 0.25,
-          "below_player_count": 2
-        }
+        "length_in_ticks": 6000
       },
       {
         "key": "phase4",
         "length_in_ticks": 5000
+      }
+    ],
+    "max_time_step": 8,
+    "time_by_player_count": [
+      {
+        "percentage": 0.75,
+        "time": 5000
+      },
+      {
+        "percentage": 0.1,
+        "left": 2,
+        "time": 15000
       }
     ]
   }
