@@ -1,15 +1,5 @@
 [
   {
-    "type": "ltminigames:immediate_respawn",
-    "role": "participant",
-    "respawn_as": "spectator",
-    "death_message": {
-      "text": "☠ %1$s. They are eliminated!",
-      "color": "gray"
-    },
-    "drop_inventory": true
-  },
-  {
     "type": "ltminigames:on_death",
     "actions": [
       { "type": "ltminigames:spawn_fireworks" },
@@ -27,6 +17,16 @@
         "repeat": 3
       }
     ]
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "death_message": {
+      "text": "☠ %1$s. They are eliminated!",
+      "color": "gray"
+    },
+    "drop_inventory": true
   },
   "ltminigames:place_by_death_order",
   "ltminigames:tnt_auto_fuse",
