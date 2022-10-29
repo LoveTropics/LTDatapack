@@ -57,8 +57,7 @@
       "color": "red",
       "bold": true
     },
-    "delay_until_collapse": 6000,
-    "ticks_until_start": 21000,
+    "phase": "phase5",
     "particle_rate_delay": 1,
     "particle_height": 110,
     "damage_rate_delay": 20,

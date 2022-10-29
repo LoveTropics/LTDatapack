@@ -22,7 +22,11 @@
       },
       {
         "key": "phase4",
-        "length_in_ticks": 5000
+        "length_in_ticks": 6000
+      },
+      {
+        "key": "phase5",
+        "length_in_ticks": 6000
       }
     ],
     "max_time_step": 8,
