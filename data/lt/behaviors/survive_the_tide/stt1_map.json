@@ -26,8 +26,8 @@
     "tide_area_region": "tide_area",
     "iceberg_lines_region": "iceberg_line",
     "water_levels": {
-      "phase0": 123,
-      "phase1": 123,
+      "phase0": 122,
+      "phase1": 122,
       "phase2": 133,
       "phase3": 150,
       "phase4": 150
