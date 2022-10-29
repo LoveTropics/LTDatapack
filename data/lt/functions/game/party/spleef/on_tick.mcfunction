@@ -28,7 +28,7 @@ execute if score state s.global matches 3 if score SETTING.GAME_VERSION s.global
 execute at @e[tag=game.party.spleef.marker.world_finder] if score state s.global matches 3 run kill @e[type=item,distance=..500]
 
 # Replace da shovels
-execute as @a[tag=game.party.spleef.player.competitor] if score state s.global matches 3 if score SETTING.GAME_VERSION s.global matches 1 unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run replaceitem entity @s weapon netherite_pickaxe{SpleefTool:1b,HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:100s}],CanDestroy:["minecraft:obsidian"]} 1
+execute as @a[tag=game.party.spleef.player.competitor] if score state s.global matches 3 if score SETTING.GAME_VERSION s.global matches 1 unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run item replace entity @s weapon with netherite_pickaxe{SpleefTool:1b,HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:100s}],CanDestroy:["minecraft:obsidian"]} 1
 
 # Make da person win
 execute if score state s.global matches 3 if score alive_competitors s.global matches 1 run execute as @a[tag=game.party.spleef.player.competitor] at @s run function lt:game/party/spleef/player/declare_winner
