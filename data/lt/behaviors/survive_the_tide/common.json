@@ -50,5 +50,46 @@
     "trigger": {"after_phase": "phase0"}
   },
   "ltminigames:spectator_chase",
-  "ltminigames:survive_the_tide_sidebar"
+  "ltminigames:survive_the_tide_sidebar",
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "phases": {
+      "phase1": {
+        "text": {
+          "text": "Grace Period: PVP Disabled",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true
+      },
+      "phase2": {
+        "text": {
+          "text": "Tides Rising",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      "phase3": {
+        "text": {
+          "text": "Extreme Weather",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      "phase4": {
+        "text": {
+          "text": "Freezing Over",
+          "color": "aqua"
+        },
+        "color": "blue"
+      },
+      "phase5": {
+        "text": {
+          "text": "Explosive Storm",
+          "color": "red"
+        },
+        "color": "red"
+      }
+    }
+  }
 ]

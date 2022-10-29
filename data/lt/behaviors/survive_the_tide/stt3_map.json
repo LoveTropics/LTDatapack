@@ -50,7 +50,6 @@
   },
   {
     "type": "ltminigames:world_border",
-    "name": "Explosive Storm",
     "world_border_center": "storm_center",
     "collapse_message": {
       "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
