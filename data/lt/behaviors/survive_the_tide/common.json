@@ -1,7 +1,19 @@
 [
   {
     "type": "ltminigames:on_death",
-    "actions": "ltminigames:spawn_fireworks"
+    "actions": [
+      { "type": "ltminigames:spawn_fireworks" },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:spawn_particles_around_player",
+        "particles": ["totem_of_undying", "electric_spark"],
+        "count": 15,
+        "repeat": 3
+      }
+    ]
   },
   "ltminigames:place_by_death_order",
   "ltminigames:tnt_auto_fuse",
@@ -24,6 +36,16 @@
     "type": "ltminigames:time_survived_tracker",
     "trigger": {"after_phase": "phase0"}
   },
-  "ltminigames:spectator_chase"
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "death_message": {
+      "text": "☠ %1$s. They are eliminated!",
+      "color": "gray"
+    },
+    "drop_inventory": true
+  }
 ]
  

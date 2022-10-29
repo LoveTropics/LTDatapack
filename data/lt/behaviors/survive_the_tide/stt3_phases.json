@@ -4,11 +4,13 @@
     "phases": [
       {
         "key": "phase0",
-        "length_in_ticks": 600
+        "length_in_ticks": 600,
+        "fixed": true
       },
       {
         "key": "phase1",
-        "length_in_ticks": 2000
+        "length_in_ticks": 2000,
+        "fixed": true
       },
       {
         "key": "phase2",
@@ -21,6 +23,18 @@
       {
         "key": "phase4",
         "length_in_ticks": 5000
+      }
+    ],
+    "max_time_step": 8,
+    "time_by_player_count": [
+      {
+        "percentage": 0.75,
+        "time": 5000
+      },
+      {
+        "percentage": 0.1,
+        "left": 2,
+        "time": 15000
       }
     ]
   }

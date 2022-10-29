@@ -1,0 +1,3 @@
+scoreboard players operation hole8time golfGlobal = HoleTimes golfGlobal
+title @p[tag=hole_8_player] actionbar [{"text":"Seconds Left: ","color":"dark_gray"},{"score":{"name":"hole8time","objective":"golfGlobal"},"color":"yellow"},{"text":" | "},{"text":"Hits: ","color":"dark_gray"},{"score":{"name":"hole8hits","objective":"golfGlobal"},"color":"green"}]
+schedule function lt:game/minigolf/holes/hole_8/timer/timer_count 1s

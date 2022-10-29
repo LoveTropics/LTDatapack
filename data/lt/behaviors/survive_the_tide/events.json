@@ -13,7 +13,7 @@
     },
     "player_select": "all",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
         "entity_id": "minecraft:lightning_bolt",

@@ -1,0 +1,3 @@
+scoreboard players operation hole2time golfGlobal = HoleTimes golfGlobal
+title @p[tag=hole_2_player] actionbar [{"text":"Seconds Left: ","color":"dark_gray"},{"score":{"name":"hole2time","objective":"golfGlobal"},"color":"yellow"},{"text":" | "},{"text":"Hits: ","color":"dark_gray"},{"score":{"name":"hole2hits","objective":"golfGlobal"},"color":"green"}]
+schedule function lt:game/minigolf/holes/hole_2/timer/timer_count 1s
