@@ -1,5 +1,15 @@
 [
   {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "death_message": {
+      "text": "☠ %1$s. They are eliminated!",
+      "color": "gray"
+    },
+    "drop_inventory": true
+  },
+  {
     "type": "ltminigames:on_death",
     "actions": [
       { "type": "ltminigames:spawn_fireworks" },
@@ -9,7 +19,10 @@
       },
       {
         "type": "ltminigames:spawn_particles_around_player",
-        "particles": ["totem_of_undying", "electric_spark"],
+        "particles": [
+          { "type": "totem_of_undying" },
+          { "type": "electric_spark" }
+        ],
         "count": 15,
         "repeat": 3
       }
@@ -36,16 +49,6 @@
     "type": "ltminigames:time_survived_tracker",
     "trigger": {"after_phase": "phase0"}
   },
-  "ltminigames:spectator_chase",
-  {
-    "type": "ltminigames:immediate_respawn",
-    "role": "participant",
-    "respawn_as": "spectator",
-    "death_message": {
-      "text": "☠ %1$s. They are eliminated!",
-      "color": "gray"
-    },
-    "drop_inventory": true
-  }
+  "ltminigames:spectator_chase"
 ]
  
