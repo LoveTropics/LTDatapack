@@ -27,7 +27,7 @@
       "all": ["spawn"]
     },
     {
-      "type": "ltminigames:general_events",
+      "type": "ltminigames:events",
       "ready": {
         "type": "ltminigames:run_commands",
         "global": [

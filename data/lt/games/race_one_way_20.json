@@ -28,7 +28,7 @@
       "region": "force_load"
     },
     {
-      "type": "ltminigames:general_events",
+      "type": "ltminigames:events",
       "ready": {
         "type": "ltminigames:run_commands",
         "global": [
