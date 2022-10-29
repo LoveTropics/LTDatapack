@@ -49,6 +49,6 @@
     "type": "ltminigames:time_survived_tracker",
     "trigger": {"after_phase": "phase0"}
   },
-  "ltminigames:spectator_chase"
+  "ltminigames:spectator_chase",
+  "ltminigames:survive_the_tide_sidebar"
 ]
- 
