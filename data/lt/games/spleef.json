@@ -57,6 +57,13 @@
       }
     },
     "ltminigames:spectator_chase",
-    "ltminigames:eliminate_player_control"
+    {
+      "type": "ltminigames:bind_controls",
+      "admins": {
+        "eliminate": {
+          "type": "ltminigames:eliminate_player"
+        }
+      }
+    }
   ]
 }
