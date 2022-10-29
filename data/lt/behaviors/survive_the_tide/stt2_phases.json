@@ -4,11 +4,13 @@
     "phases": [
       {
         "key": "phase0",
-        "length_in_ticks": 600
+        "length_in_ticks": 600,
+        "fixed": true
       },
       {
         "key": "phase1",
-        "length_in_ticks": 2400
+        "length_in_ticks": 2400,
+        "fixed": true
       },
       {
         "key": "phase2",
