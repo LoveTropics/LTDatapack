@@ -24,7 +24,29 @@
           "italic": true
         }
       },
+      "200": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "text": "\nYou can buy plants and items from the shop using your 'Biodiversity points' and place them in your plot!",
+          "color": "gray",
+          "italic": true
+        }
+      },
       "220": {
+        "type": "ltminigames:bb_tutorial",
+        "diffusa": "commelina_diffusa",
+        "grass": "grass",
+        "wheat": "wheat"
+      },
+      "300": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "text": "\nThese plants may provide food, defense, or even attack the invasive species. Every plant you place improves the number of biodiversity points received per turn.",
+          "color": "gray",
+          "italic": true
+        }
+      },
+      "550": {
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nInvasive species will be spawning soon! But if you construct an ecosystem that is resilient enough, you may be able to survive.",
@@ -32,23 +54,7 @@
           "italic": true
         }
       },
-      "320": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "text": "\nYou can buy plants and items from the shop using your 'OSA points' and place them in your plot!",
-          "color": "gray",
-          "italic": true
-        }
-      },
-      "420": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "text": "\nThese plants may provide food, defense, or even attack your enemies. Every plant improves the number of osa points you receive per turn.",
-          "color": "gray",
-          "italic": true
-        }
-      },
-      "520": {
+      "800": {
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nMake sure to have a large variety of different plants in your plot- diversity in an ecosystem only makes you stronger!",
@@ -56,7 +62,7 @@
           "italic": true
         }
       },
-      "620": {
+      "1000": {
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nYou win the game once you accumulate the target amount of osa points- you can check your progress in the top-left of your screen!",
@@ -64,7 +70,7 @@
           "italic": true
         }
       },
-      "720": {
+      "1100": {
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nGood luck!",
