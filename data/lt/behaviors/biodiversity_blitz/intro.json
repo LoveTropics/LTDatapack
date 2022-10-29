@@ -9,10 +9,11 @@
           "extra": [
             {
               "text": "Biodiversity Blitz!",
-              "color": "green"
+              "color": "green",
+              "bold": true
             }
           ],
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -20,7 +21,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "As the professional conservationist that you surely are, you must turn this bare plot into a thriving ecosystem.",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -28,7 +29,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nYou can buy plants and items from the shop using your 'Biodiversity points' and place them in your plot!",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -42,7 +43,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nThese plants may provide food, defense, or even attack the invasive species. Every plant you place improves the number of biodiversity points received per turn.",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -50,7 +51,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nInvasive species will be spawning soon! But if you construct an ecosystem that is resilient enough, you may be able to survive.",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -58,7 +59,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nMake sure to have a large variety of different plants in your plot- diversity in an ecosystem only makes you stronger!",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },
@@ -66,7 +67,7 @@
         "type": "ltminigames:send_message",
         "message": {
           "text": "\nYou win the game once you accumulate the target amount of osa points- you can check your progress in the top-left of your screen!",
-          "color": "gray",
+          "color": "gold",
           "italic": true
         }
       },

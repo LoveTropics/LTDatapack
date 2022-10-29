@@ -1,9 +1,6 @@
 [
   "lt:biodiversity_blitz/trees/birch",
   "lt:biodiversity_blitz/trees/oak",
-  "lt:biodiversity_blitz/trees/black_mangrove",
-  "lt:biodiversity_blitz/trees/red_mangrove",
-  "lt:biodiversity_blitz/trees/tall_mangrove",
   "lt:biodiversity_blitz/trees/tea_mangrove",
   "lt:biodiversity_blitz/trees/palm"
 ]

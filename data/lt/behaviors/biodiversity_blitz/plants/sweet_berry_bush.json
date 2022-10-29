@@ -11,6 +11,11 @@
           "Lore": [
             "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When placed, grows into a berry bush that damages mobs that walk through it.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Rarely, berries will grow, which can then be sold at the shop for points.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

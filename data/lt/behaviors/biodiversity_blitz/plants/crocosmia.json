@@ -11,6 +11,11 @@
           "Lore": [
             "{\"text\": \"Lights nearby mobs on fire.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When placed, any mobs in a small radius nearby will get hit by a jet of flamess, setting them on fire.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Useful as a front-line defense as it actively tries to attack mobs. Be careful where you put it, as the Commelina Diffusa's water can put it out.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Be careful! Enemies set on fire will set you on fire if they attack you.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

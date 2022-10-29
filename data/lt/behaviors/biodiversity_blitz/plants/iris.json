@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"Applies a glowing effect mobs to all nearby mobs.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Gives all mobs on the field the glowing effect.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Useful for detecting where the mobs are when hidden behind trees.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
