@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:on_death",
     "actions": [
-      "ltminigames:spawn_fireworks",
+      { "type": "ltminigames:spawn_fireworks" },
       {
         "type": "ltminigames:play_sound",
         "sound": "entity.experience_orb.pickup"

@@ -218,7 +218,9 @@
           "color": "red"
         },
         "countdown": 5,
-        "actions": "ltminigames:swap_players"
+        "actions": {
+          "type": "ltminigames:swap_players"
+        }
       }
     ]
   },
