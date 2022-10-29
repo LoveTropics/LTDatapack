@@ -18,7 +18,7 @@
       "sound": "ltminigames:package_receive"
     },
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/antidote_package"
@@ -40,7 +40,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/yeeter_package"
@@ -62,7 +62,7 @@
     },
     "player_select": "all",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/boom_package"
@@ -84,7 +84,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -112,7 +112,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/no_die_package"
@@ -134,7 +134,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -162,7 +162,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -190,7 +190,7 @@
     },
     "player_select": "random",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity_id": "minecraft:creeper",
@@ -237,7 +237,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity_id": "minecraft:creeper",
@@ -260,7 +260,7 @@
     },
     "player_select": "specific",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity_id": "minecraft:lightning_bolt",
@@ -283,7 +283,7 @@
     },
     "player_select": "all",
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
         "entity_id": "minecraft:lightning_bolt",
@@ -409,7 +409,7 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "receive_actions": [
-      "ltminigames:give_player_head_package",
+      { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:set_block_at_player",
         "block": "water"
