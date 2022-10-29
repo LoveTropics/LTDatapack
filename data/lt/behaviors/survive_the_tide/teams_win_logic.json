@@ -1,16 +1,6 @@
 [
   "ltminigames:team_win_trigger",
   {
-    "type": "ltminigames:immediate_respawn",
-    "role": "participant",
-    "respawn_as": "spectator",
-    "death_message": {
-      "text": "☠ %1$s",
-      "color": "gray"
-    },
-    "drop_inventory": true
-  },
-  {
     "type": "ltminigames:survive_the_tide_win_logic",
     "game_finish_tick_delay": 760,
     "spawn_lightning_bolts_on_finish": true,
