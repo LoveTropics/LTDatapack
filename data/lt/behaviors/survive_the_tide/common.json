@@ -91,5 +91,17 @@
         "color": "red"
       }
     }
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "phase4": {
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:notification_toast",
+        "text": "The map is freezing over!",
+        "icon": {"item": "minecraft:snow_block"},
+        "visible_time_ms": 5000
+      }
+    }
   }
 ]
