@@ -22,8 +22,9 @@
       "phase0": 97,
       "phase1": 97,
       "phase2": 125,
-      "phase3": 150,
-      "phase4": "$tide"
+      "phase3": "$tide",
+      "phase4": "$tide",
+      "phase5": "$tide"
     },
     "iceberg_lines_region": "iceberg_line",
     "phases_icebergs_grow": [],
