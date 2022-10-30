@@ -104,6 +104,7 @@
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:scheduled_actions",
+      "target": "all",
       "actions": {
         "20": {
           "type": "ltminigames:send_message",
