@@ -1,17 +1,17 @@
 {
-  "name": {"translate": "ltminigames.minigame.turtle_race"},
+  "name": {
+    "translate": "ltminigames.minigame.turtle_race"
+  },
   "subtitle": "Standard 2 Lap - LT21",
   "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_1.png",
-
   "statistics_key": "race_standard_21",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:turtle_race_21",
-    "dimension": "lt:turtle_race_21",
     "dimension_type": "tropicraft:tropics"
   },
   "minimum_participants": 4,
-  "maximum_participants": 32,
+  "maximum_participants": 16,
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -24,47 +24,105 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": ["spawn"]
+      "participants": "player_spawn",
+      "spectators": "spawn"
     },
     {
-      "type": "ltminigames:events",
-      "ready": {
-        "type": "ltminigames:run_commands",
-        "global": [
-          "function lt:game/party/race_standard/init",
-          "function lt:game/party/race_standard/settings"
+      "type": "ltminigames:turtle_rider",
+      "entity": "tropicraft:turtle",
+      "tag": {
+        "Invulnerable": true,
+        "NoAI": true,
+        "Attributes": [
+          {
+            "Base": 1.65,
+            "Name": "minecraft:generic.movement_speed"
+          }
+        ],
+        "NoBrakesOnThisTrain": true
+      }
+    },
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "all",
+      "actions": {
+        "140": [
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.arrow.hit_player"
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "..3",
+              "color": "red"
+            },
+            "stay": 40
+          }
+        ],
+        "160": [
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.arrow.hit_player"
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "..2",
+              "color": "gold"
+            },
+            "stay": 40
+          }
+        ],
+        "180": [
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.arrow.hit_player"
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "..1",
+              "color": "yellow"
+            },
+            "stay": 40
+          }
+        ],
+        "200": [
+          {
+            "type": "ltminigames:set_blocks",
+            "region": "start_floor",
+            "replace": {"tag": "lt:all_stained_glass"},
+            "set": "air"
+          },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.arrow.hit_player",
+            "pitch": 1.5
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "GO!",
+              "color": "green"
+            },
+            "stay": 40
+          },
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:water_breathing",
+                "seconds": 999999,
+                "amplifier": 80,
+                "hide_particles": true
+              }
+            ]
+          }
         ]
-      },
-      "start": {
-        "type": "ltminigames:run_commands",
-        "global": "function lt:game/party/race_standard/start"
-      },
-      "player_participate": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/race_standard/player/join_competitor"
-      },
-      "player_spectate": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/race_standard/player/join_spectator"
-      },
-      "player_remove": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/race_standard/player/leave"
-      },
-      "stop": {
-        "type": "ltminigames:run_commands",
-        "global": "function lt:game/party/race_standard/deinit"
       }
     },
     "ltminigames:spectator_chase",
-    {
-      "type": "ltminigames:bind_controls",
-      "admins": {
-        "eliminate": {
-          "type": "ltminigames:eliminate_player"
-        }
-      }
-    },
     "ltminigames:cancel_player_damage",
     {
       "type": "ltminigames:set_client_state",
