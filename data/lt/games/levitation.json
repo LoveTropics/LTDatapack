@@ -32,32 +32,30 @@
     },
     {
       "type": "ltminigames:events",
-      "actions": {
-        "player_participate": [
-          {
-            "type": "ltminigames:give_effect",
-            "effects": [
-              {
-                "type": "minecraft:levitation",
-                "seconds": 100000,
-                "amplifier": 1,
-                "hide_particles": true
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:run_commands",
-            "player": "tag @s add levitation.yes"
-          }
-        ],
-        "player_remove": {
-          "type": "ltminigames:run_commands",
-          "player": "tag @s remove levitation.yes"
+      "player_participate": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:levitation",
+              "seconds": 100000,
+              "amplifier": 1,
+              "hide_particles": true
+            }
+          ]
         },
-        "stop": {
+        {
           "type": "ltminigames:run_commands",
-          "global": "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+          "player": "tag @s add levitation.yes"
         }
+      ],
+      "player_remove": {
+        "type": "ltminigames:run_commands",
+        "player": "tag @s remove levitation.yes"
+      },
+      "stop": {
+        "type": "ltminigames:run_commands",
+        "global": "kill @e[current_world=true,type=minecraft:fishing_bobber]"
       }
     },
     {
