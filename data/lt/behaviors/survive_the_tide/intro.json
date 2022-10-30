@@ -58,7 +58,7 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "entity.ender_dragon.growl"
+          "sound": "event.raid.horn"
         }
       ]
     }
