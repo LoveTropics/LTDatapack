@@ -287,6 +287,19 @@
     "receive_actions": [
       { "type": "ltminigames:give_player_head_package" },
       {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Lightning Storm!",
+          "color": "yellow",
+          "bold": true
+        },
+        "subtitle": {
+          "text": "Look out!",
+          "color": "yellow"
+        },
+        "stay": 40
+      },
+      {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
         "entity_id": "minecraft:lightning_bolt",
         "entity_count": 100,
@@ -306,10 +319,23 @@
       },
       "icon": {"item": "minecraft:zombie_head"},
       "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      "sound": "event.raid.horn"
     },
     "player_select": "all",
     "receive_actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Zombie Invasion!",
+          "color": "red",
+          "bold": true
+        },
+        "subtitle": {
+          "text": "Look out!",
+          "color": "red"
+        },
+        "stay": 40
+      },
       {
         "type": "ltminigames:spawn_entities_around_players",
         "entity_id": "minecraft:zombie",
@@ -336,6 +362,19 @@
     },
     "player_select": "all",
     "receive_actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Meteor Shower!",
+          "color": "red",
+          "bold": true
+        },
+        "subtitle": {
+          "text": "Look out!",
+          "color": "red"
+        },
+        "stay": 40
+      },
       {
         "type": "ltminigames:shoot_projectiles_at_player",
         "entity_count_per_player": 30,
