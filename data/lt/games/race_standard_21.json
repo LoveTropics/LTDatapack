@@ -128,6 +128,18 @@
         "start": 1,
         "end": 130,
         "prefix": "point_"
+      },
+      "lap_count": 3,
+      "winner_count": 3
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200,
+      "scheduled_messages": {
+        "0": {
+          "text": "%1$s completed the race in the shortest amount of time and won the game!",
+          "color": "gray"
+        }
       }
     },
     "ltminigames:spectator_chase",
