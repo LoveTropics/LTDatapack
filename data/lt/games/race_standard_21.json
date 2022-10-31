@@ -122,16 +122,15 @@
         ]
       }
     },
-    "ltminigames:spectator_chase",
-    "ltminigames:cancel_player_damage",
     {
-      "type": "ltminigames:set_client_state",
-      "state": {
-        "type": "ltminigames:replace_textures",
-        "textures": {
-          "boss_bars": "ltminigames:textures/gui/minigames/turtle_race/bars.png"
-        }
+      "type": "ltminigames:race_track",
+      "path": {
+        "start": 1,
+        "end": 130,
+        "prefix": "point_"
       }
-    }
+    },
+    "ltminigames:spectator_chase",
+    "ltminigames:cancel_player_damage"
   ]
 }
