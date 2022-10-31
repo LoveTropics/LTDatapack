@@ -130,7 +130,8 @@
         "prefix": "point_"
       },
       "lap_count": 3,
-      "winner_count": 3
+      "winner_count": 3,
+      "start_time": 200
     },
     {
       "type": "ltminigames:game_end_effects",
