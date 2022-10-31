@@ -1,0 +1,2 @@
+summon tropicraft:fiddler_crab ~ ~ ~ {NoGravity:1b,Silent:1b,Health:500f,Tags:["golf_crab"],Attributes:[{Name:generic.max_health,Base:500},{Name:generic.knockback_resistance,Base:0.75},{Name:generic.movement_speed,Base:0}]}
+team join anticrabcollision @e[tag=golf_crab,distance=..0.5]

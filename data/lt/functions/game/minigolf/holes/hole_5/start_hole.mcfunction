@@ -1,10 +1,17 @@
-tag @s add hole_5_player
-function lt:game/minigolf/core/gamemode_start
-tellraw @a[tag=hole_5_player,tag=!played_golf] {"text":"Welcome to Crab Golf! Use the putters in your inventory to hit the crab into the hole! The fewer hits the better your score. You have as many hits as you need but there is a two minute time limit after which the hole will be reset. One player at a time, per hole.","color":"blue"}
-tag @s add played_golf
+# Resets The Scoreboards
 scoreboard players set hole5hits golfGlobal 0
-function lt:game/minigolf/core/clear_putters
+scoreboard players set hole5seconds golfGlobal 0
+scoreboard players operation hole5time golfGlobal = HoleTimes golfGlobal
+# Give player tag showing what hole they are on
+tag @s add hole_5_player
+# Makes creavite players go to survival
+function lt:game/minigolf/core/gamemode_start
+# Tell first time player how to play
+execute as @a[tag=hole_5_player,tag=!played_golf] run function lt:game/minigolf/core/first_play
+# Summon the crab an tags it
+execute at @e[tag=hole_5_start] run function lt:game/minigolf/core/summon_crab
+execute at @e[tag=hole_5_start] run tag @e[tag=golf_crab,distance=..5] add hole_5
+# Gives the player the putters
 function lt:game/minigolf/core/give_putters
-execute at @e[tag=hole_5_start] run summon tropicraft:fiddler_crab ~ ~ ~ {NoGravity:1b,Silent:1b,Health:500f,Tags:["hole_5","golf_crab"],Attributes:[{Name:generic.max_health,Base:500},{Name:generic.knockback_resistance,Base:0.75},{Name:generic.movement_speed,Base:0}]}
-team join anticrabcollision @e[tag=golf_crab,tag=hole_5]
-function lt:game/minigolf/holes/hole_5/timer/timer_start
+# Starts the round of golf
+function lt:game/minigolf/holes/hole_5/timer

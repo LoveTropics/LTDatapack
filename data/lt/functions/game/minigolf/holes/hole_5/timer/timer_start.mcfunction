@@ -1,3 +1,0 @@
-scoreboard players operation hole5time golfGlobal = HoleTimes golfGlobal
-title @p[tag=hole_5_player] actionbar [{"text":"Seconds Left: ","color":"dark_gray"},{"score":{"name":"hole5time","objective":"golfGlobal"},"color":"yellow"},{"text":" | "},{"text":"Hits: ","color":"dark_gray"},{"score":{"name":"hole5hits","objective":"golfGlobal"},"color":"green"}]
-schedule function lt:game/minigolf/holes/hole_5/timer/timer_count 1s
