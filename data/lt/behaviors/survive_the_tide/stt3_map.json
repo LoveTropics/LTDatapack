@@ -28,7 +28,7 @@
     },
     "iceberg_lines_region": "iceberg_line",
     "phases_icebergs_grow": [],
-    "iceberg_growth_tick_rate": 100
+    "iceberg_growth_steps": 600
   },
   {
     "type": "ltminigames:scheduled_actions",
