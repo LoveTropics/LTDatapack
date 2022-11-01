@@ -54,7 +54,7 @@
       "phase5": 68
     },
     "phases_icebergs_grow": [ "phase4" ],
-    "iceberg_growth_tick_rate": 100
+    "iceberg_growth_steps": 60
   },
   {
     "type": "ltminigames:world_border",
