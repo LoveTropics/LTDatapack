@@ -125,9 +125,30 @@
     {
       "type": "ltminigames:race_track",
       "path": {
-        "start": 1,
+        "start": 0,
         "end": 130,
         "prefix": "point_"
+      },
+      "lap_count": 3,
+      "winner_count": 3,
+      "start_time": 200
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 400,
+      "scheduled_messages": {
+        "0": {
+          "text": "%1$s completed the race in the shortest amount of time and won the game!",
+          "color": "gray"
+        }
+      },
+      "podium": {
+        "winner_regions": [
+          "winner_1",
+          "winner_2",
+          "winner_3"
+        ],
+        "loser_region": "spawn"
       }
     },
     "ltminigames:spectator_chase",

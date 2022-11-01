@@ -1,0 +1,24 @@
+{
+  "name": {"text": "Debug: Packages"},
+  "backend_id": "lt:survive_the_tide_1",
+  "map": {
+    "type": "ltminigames:inline",
+    "dimension": "minecraft:overworld"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 1,
+  "behaviors": [
+    "ltminigames:setup_telemetry",
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "creative",
+      "spectator": "spectator"
+    },
+    "ltminigames:assign_player_roles",
+    {
+      "type": "ltminigames:join_late_with_role",
+      "role": "participant"
+    },
+    "lt:survive_the_tide/stream_integrations"
+  ]
+}
