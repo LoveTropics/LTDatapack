@@ -1,14 +1,23 @@
 [
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "loot_tables": {
-      "purple_glazed_terracotta": "lt:stt3/tier_1",
-      "yellow_glazed_terracotta": "lt:stt3/tier_2",
-      "pink_glazed_terracotta": "lt:stt3/tier_3",
-      "red_glazed_terracotta": "lt:stt3/tier_4"
-    },
-    "max_per_chunk": 4,
-    "percentage": 1.0
+    "marker": "purple_glazed_terracotta",
+    "loot_table": "lt:stt3/tier_1"
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "yellow_glazed_terracotta",
+    "loot_table": "lt:stt3/tier_2"
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "pink_glazed_terracotta",
+    "loot_table": "lt:stt3/tier_3"
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "red_glazed_terracotta",
+    "loot_table": "lt:stt3/tier_4"
   },
   {
     "type": "ltminigames:position_players",
