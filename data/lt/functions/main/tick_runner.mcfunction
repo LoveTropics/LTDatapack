@@ -22,3 +22,7 @@ function lt:game/minigolf/core/on_tick
 
 # ಠ‿↼ - it's offical now 'cause its in the datapack
 execute as @a[tag=awwww] at @s if entity @a[tag=awww,distance=..7] run function lt:utility/uwu/lunosus
+
+# Kill stt entities after they exist for too long
+scoreboard players add @e[tag=game.stt.placed_mob] game.stt.entity_track 1
+execute as @e[tag=game.stt.place_mob,scores={game.stt.entity_track=1200..}] at @s run function lt:game/stt/entity/remove_entity
