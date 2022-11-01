@@ -125,7 +125,7 @@
     {
       "type": "ltminigames:race_track",
       "path": {
-        "start": 1,
+        "start": 0,
         "end": 130,
         "prefix": "point_"
       },
