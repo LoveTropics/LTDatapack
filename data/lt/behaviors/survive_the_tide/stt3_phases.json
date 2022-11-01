@@ -29,16 +29,20 @@
         "length_in_ticks": 6000
       }
     ],
-    "max_time_step": 8,
+    "max_time_step": 5,
     "time_by_player_count": [
       {
-        "percentage": 0.75,
-        "time": 5000
+        "percentage": 0.5,
+        "time": 10200
       },
       {
-        "percentage": 0.1,
-        "left": 2,
+        "left": 4,
         "time": 15000
+      },
+      {
+        "percentage": 0.15,
+        "left": 2,
+        "time": 21000
       }
     ]
   }
