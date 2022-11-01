@@ -103,5 +103,11 @@
         "visible_time_ms": 5000
       }
     }
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:health_tag"
+    }
   }
 ]
