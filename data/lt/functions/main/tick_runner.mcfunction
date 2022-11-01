@@ -17,5 +17,8 @@ execute if entity @e[tag=map.player] run function lt:map/main
 execute as @e[tag=map.marker.hit_tracker] at @s unless entity @a[tag=map.player,limit=1,sort=nearest,distance=..3.5] run tp @s ~ ~-500 ~
 execute as @a[tag=!map.player,tag=map_gamemode] run function lt:map/revert_gamemode
 
+# Runs MiniGolf tick commands
+function lt:game/minigolf/core/on_tick
+
 # ಠ‿↼ - it's offical now 'cause its in the datapack
 execute as @a[tag=awwww] at @s if entity @a[tag=awww,distance=..7] run function lt:utility/uwu/lunosus

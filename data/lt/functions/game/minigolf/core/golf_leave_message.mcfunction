@@ -1,0 +1,1 @@
+title @a[tag=hole_1_player] actionbar [{"text":"Your have left the golf area. Your game has been cleared","color":"red"}]
