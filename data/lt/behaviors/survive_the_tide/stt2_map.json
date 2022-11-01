@@ -2,22 +2,42 @@
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "cyan_glazed_terracotta",
-    "loot_table": "lt:stt2/misc_type"
+    "loot_tables": [
+      {
+        "data": "lt:stt2/misc_type",
+        "weight": 1
+      }
+    ]
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "green_glazed_terracotta",
-    "loot_table": "lt:stt2/food_type"
+    "loot_tables": [
+      {
+        "data": "lt:stt2/food_type",
+        "weight": 1
+      }
+    ]
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "red_glazed_terracotta",
-    "loot_table": "lt:stt2/military_type"
+    "loot_tables": [
+      {
+        "data": "lt:stt2/military_type",
+        "weight": 1
+      }
+    ]
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "orange_glazed_terracotta",
-    "loot_table": "lt:stt2/equipment_type"
+    "loot_tables": [
+      {
+        "data": "lt:stt2/equipment_type",
+        "weight": 1
+      }
+    ]
   },
   {"type": "ltminigames:generate_entities", "entity": "ltminigames:driftwood", "min_per_chunk": -1, "max_per_chunk": 1},
   {
