@@ -8,6 +8,7 @@
   "minimum_participants": 1,
   "maximum_participants": 1,
   "behaviors": [
+    "ltminigames:setup_telemetry",
     {
       "type": "ltminigames:set_game_types",
       "participant": "creative",
