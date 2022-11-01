@@ -32,17 +32,20 @@
     "max_time_step": 5,
     "time_by_player_count": [
       {
-        "percentage": 0.5,
+        "left": 24,
         "time": 10200
       },
       {
-        "left": 4,
+        "left": 16,
         "time": 15000
       },
       {
-        "percentage": 0.15,
-        "left": 2,
+        "left": 8,
         "time": 21000
+      },
+      {
+        "left": 4,
+        "time": 23600
       }
     ]
   }
