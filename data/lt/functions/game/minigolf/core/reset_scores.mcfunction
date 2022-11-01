@@ -1,36 +1,21 @@
-scoreboard players set hole1highscore golfGlobal 100
-scoreboard players set hole2highscore golfGlobal 100
-scoreboard players set hole3highscore golfGlobal 100
-scoreboard players set hole4highscore golfGlobal 100
-scoreboard players set hole5highscore golfGlobal 100
-scoreboard players set hole6highscore golfGlobal 100
-scoreboard players set hole7highscore golfGlobal 100
-scoreboard players set hole8highscore golfGlobal 100
-scoreboard players set hole9highscore golfGlobal 100
-scoreboard players set hole10highscore golfGlobal 100
-scoreboard players set hole11highscore golfGlobal 100
-scoreboard players set hole12highscore golfGlobal 100
-scoreboard players set hole13highscore golfGlobal 100
-scoreboard players set hole14highscore golfGlobal 100
-scoreboard players set hole15highscore golfGlobal 100
-scoreboard players set hole16highscore golfGlobal 100
-scoreboard players set hole17highscore golfGlobal 100
-scoreboard players set hole18highscore golfGlobal 100
-data modify entity @e[tag=hole_1_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_2_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_3_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_4_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_5_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_6_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_7_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_8_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_9_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_10_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_11_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_12_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_13_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_14_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_15_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_16_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_17_dummy,limit=1] ProfileName set value Searge
-data modify entity @e[tag=hole_18_dummy,limit=1] ProfileName set value Searge
+scoreboard players set hole1highscore golfGlobal 20
+scoreboard players set hole2highscore golfGlobal 20
+scoreboard players set hole3highscore golfGlobal 20
+scoreboard players set hole4highscore golfGlobal 20
+scoreboard players set hole5highscore golfGlobal 20
+scoreboard players set hole6highscore golfGlobal 20
+scoreboard players set hole7highscore golfGlobal 20
+scoreboard players set hole8highscore golfGlobal 20
+scoreboard players set hole9highscore golfGlobal 20
+scoreboard players set hole10highscore golfGlobal 20
+scoreboard players set hole11highscore golfGlobal 20
+scoreboard players set hole12highscore golfGlobal 20
+scoreboard players set hole13highscore golfGlobal 20
+scoreboard players set hole14highscore golfGlobal 20
+scoreboard players set hole15highscore golfGlobal 20
+scoreboard players set hole16highscore golfGlobal 20
+scoreboard players set hole17highscore golfGlobal 20
+scoreboard players set hole18highscore golfGlobal 20
+execute as @e[tag=golf_dummy] run data modify entity @s ProfileName set value Searge
+execute as @e[tag=golf_dummy] run data modify entity @s NameSuffix set value '{"text":" - 20 ", "color":"green"}'
+execute as @e[tag=golf_dummy] run data modify entity @s NamePrefix set value '[{"text":" ","color":"red"},{"text":"Best Score: ","color":"green"}]'
