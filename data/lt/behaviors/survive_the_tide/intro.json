@@ -59,7 +59,8 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "event.raid.horn"
+          "sound": "event.raid.horn",
+          "volume": 32.0
         }
       ]
     }

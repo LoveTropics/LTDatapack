@@ -319,7 +319,7 @@
       },
       "icon": {"item": "minecraft:zombie_head"},
       "sentiment": "negative",
-      "sound": "event.raid.horn"
+      "sound": "entity.wither.spawn"
     },
     "player_select": "all",
     "receive_actions": [
