@@ -13,6 +13,7 @@ execute unless score hole15hits golfGlobal > @p[tag=hole_15_player,tag=!hole_15_
 # High Score Dummy Player
 execute unless score hole15hits golfGlobal > hole15highscore golfGlobal run scoreboard players operation hole15highscore golfGlobal = @p[tag=hole_15_player,tag=!hole_15_timeup] golf_hole_15_scores
 execute unless score hole15hits golfGlobal > hole15highscore golfGlobal run data modify entity @e[tag=hole_15_dummy,limit=1] ProfileID set from entity @p[tag=hole_15_player,tag=!hole_15_timeup] UUID
+execute unless score hole15hits golfGlobal > hole15highscore golfGlobal as @e[tag=hole_15_dummy] run function lt:game/minigolf/holes/hole_15/dummy
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole_15_player] run function lt:game/minigolf/core/clear_putters
 execute as @a[tag=hole_15_player] run function lt:game/minigolf/core/gamemode_end
