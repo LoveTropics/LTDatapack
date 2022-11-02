@@ -26,3 +26,6 @@ execute as @a[tag=awwww] at @s if entity @a[tag=awww,distance=..7] run function 
 # Kill stt entities after they exist for too long
 scoreboard players add @e[tag=game.stt.placed_mob] game.stt.entity_track 1
 execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at @s run function lt:game/stt/entity/remove_entity
+
+# Change long duration strength area effect cloud created by linger potions to desired functionality
+execute as @e[type=minecraft:area_effect_cloud,limit=1,nbt={Potion:"minecraft:long_strength"},tag=!game.stt.strength_aec] at @s run function lt:game/stt/entity/fix_strength_aec
