@@ -21,7 +21,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 3,
+                    "weight": 4,
                     "name": "minecraft:bow"
                 }
             ]
