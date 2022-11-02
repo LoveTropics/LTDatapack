@@ -7,6 +7,7 @@
       "pvp_enabled": 3000,
       "mid_game": 10200,
       "icebergs_start": 15000,
+      "loot_drop": 16200,
       "icebergs_end": 21000,
       "explosive_storm_start": 21000,
       "explosive_storm_mid": 24000,
@@ -20,19 +21,19 @@
     },
     "time_by_player_count": [
       {
-        "left": 24,
+        "left": 20,
         "point": "mid_game"
       },
       {
-        "left": 16,
+        "left": 12,
         "point": "icebergs_start"
       },
       {
-        "left": 8,
+        "left": 6,
         "point": "explosive_storm_start"
       },
       {
-        "left": 4,
+        "left": 3,
         "point": "explosive_storm_mid"
       }
     ]
