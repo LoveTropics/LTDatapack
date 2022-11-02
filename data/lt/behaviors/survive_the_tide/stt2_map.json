@@ -129,5 +129,9 @@
       "announceAdvancements": "false",
       "fallDamage": "true"
     }
+  },
+  {
+    "type": "ltminigames:set_day_time",
+    "time": 18000
   }
 ]
