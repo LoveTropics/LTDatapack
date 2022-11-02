@@ -207,12 +207,13 @@
             {
               "type": "minecraft:poison",
               "seconds": 4,
-              "amplifier": 1
+              "amplifier": 0
             }
           ]
         },
         {
           "type": "ltminigames:show_title",
+          "title": " ",
           "subtitle": {
             "text": "You should not be here!",
             "color": "red"
