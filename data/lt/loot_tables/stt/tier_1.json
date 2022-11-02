@@ -2,19 +2,35 @@
     "type": "minecraft:chest",
     "pools": [
         {
-            "rolls": 3,
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "lt:stt/tier_1/arrows"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
                     "name": "lt:stt/tier_1/armor"
-                },
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
                 {
                     "type": "minecraft:loot_table",
                     "name": "lt:stt/tier_1/weapons"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1/arrows"
                 }
             ]
         },
