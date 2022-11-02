@@ -5,6 +5,7 @@
       "start": 0,
       "release_players": 600,
       "pvp_enabled": 3000,
+      "loot_drop": 5400,
       "mid_game": 10200,
       "icebergs_start": 15000,
       "icebergs_end": 21000,

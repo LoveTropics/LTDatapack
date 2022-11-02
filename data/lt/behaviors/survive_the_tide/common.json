@@ -206,7 +206,7 @@
           "effects": [
             {
               "type": "minecraft:poison",
-              "seconds": 1,
+              "seconds": 4,
               "amplifier": 1
             }
           ]
@@ -217,11 +217,11 @@
             "text": "You should not be here!",
             "color": "red"
           },
-          "stay": 30,
+          "stay": 90,
           "fade_in": 0
         }
       ]
     },
-    "interval": 20
+    "interval": 80
   }
 ]
