@@ -47,16 +47,25 @@
   {
     "type": "ltminigames:rising_tides",
     "tide_area_region": "tide_area",
-    "water_levels": {
-      "phase0": 97,
-      "phase1": 97,
-      "phase2": 125,
-      "phase3": "$tide",
-      "phase4": "$tide",
-      "phase5": "$tide"
+    "water_levels": [
+      {
+        "point": "pvp_enabled",
+        "value": 97
+      },
+      {
+        "point": "mid_game",
+        "value": 125
+      },
+      {
+        "point": "icebergs_start",
+        "value": "$tide"
+      }
+    ],
+    "iceberg_growth_period": {
+      "start": "icebergs_start",
+      "end": "icebergs_end"
     },
     "iceberg_lines_region": "iceberg_line",
-    "phases_icebergs_grow": [],
     "iceberg_growth_steps": 60
   },
   {
@@ -86,7 +95,10 @@
       "color": "red",
       "bold": true
     },
-    "phase": "phase5",
+    "period": {
+      "start": "explosive_storm_start",
+      "end": "explosive_storm_end"
+    },
     "particle_rate_delay": 1,
     "particle_height": 110,
     "damage_rate_delay": 20,

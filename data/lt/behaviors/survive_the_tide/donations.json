@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:block_packages_during_phase",
-    "blocked_phases": ["phase0"]
+    "block_periods": [{"start": "start", "end": "pvp_enabled"}]
   },
 
   {

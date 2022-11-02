@@ -2,8 +2,11 @@
   {
     "type": "ltminigames:survive_the_tide_ruleset",
     "spawn_area_region": "spawn_area",
-    "phase_to_free_participants": "phase1",
-    "phases_with_no_pvp": [ "phase0", "phase1" ],
+    "free_participants_at": "release_players",
+    "safe_period": {
+      "start": "start",
+      "end": "pvp_enabled"
+    },
     "force_drop_items_on_death": true,
     "message_on_set_players_free": {
       "translate": "ltminigames.minigame.survive_the_tide_pvp_disabled",

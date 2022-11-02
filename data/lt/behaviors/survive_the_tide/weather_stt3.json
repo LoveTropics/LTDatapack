@@ -46,39 +46,34 @@
     "type": "ltminigames:stt_weather_control",
     "event_chances": {
       "heavy_rain": {
-        "phase0": 0.0,
-        "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "start": 0.0,
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "icebergs_start": 0.025
       },
       "acid_rain": {
-        "phase0": 0.0,
-        "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.0
+        "start": 0.0,
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "icebergs_start": 0.0
       },
       "hail": {
-        "phase0": 0.0,
-        "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "start": 0.0,
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "icebergs_start": 0.025
       },
       "heatwave": {
-        "phase0": 0.0,
-        "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "start": 0.0,
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "icebergs_start": 0.025
       },
       "sandstorm": {
-        "phase0": 0.0,
-        "phase1": 0.0,
-        "phase2": 0.015,
-        "phase3": 0.02,
-        "phase4": 0.025
+        "start": 0.0,
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "icebergs_start": 0.025
       },
       "snowstorm": {}
     },
@@ -97,11 +92,14 @@
       }
     },
     "wind_speed": {
-      "phase0": 0.1,
-      "phase1": 0.1,
-      "phase2": 0.5,
-      "phase3": 1.0,
-      "phase4": 1.5
+      "start": 0.1,
+      "pvp_enabled": 0.5,
+      "mid_game": 1.0,
+      "icebergs_start": 1.5
+    },
+    "halve_event_time": {
+      "start": "icebergs_start",
+      "end": "end"
     },
     "sandstorm_buildup_tickrate": 80,
     "sandstorm_max_stackable": 1,
