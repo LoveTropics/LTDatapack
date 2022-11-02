@@ -196,5 +196,32 @@
     "state": {
       "type": "ltminigames:health_tag"
     }
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "no_camping": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:poison",
+              "seconds": 1,
+              "amplifier": 1
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:show_title",
+          "subtitle": {
+            "text": "You should not be here!",
+            "color": "red"
+          },
+          "stay": 30,
+          "fade_in": 0
+        }
+      ]
+    },
+    "interval": 20
   }
 ]
