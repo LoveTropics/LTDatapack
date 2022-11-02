@@ -10,7 +10,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:golden_helmet",
+                    "name": "minecraft:golden_helmet"
                 },
                 {
                     "type": "minecraft:item",
