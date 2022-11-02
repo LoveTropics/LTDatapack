@@ -150,7 +150,7 @@
       ]
     },
     "pvp_enabled": {
-      "target": "participants",
+      "target": "all",
       "actions": [
         {
           "type": "ltminigames:show_title",
@@ -173,11 +173,20 @@
       ]
     },
     "icebergs_start": {
-      "target": "participants",
+      "target": "all",
       "actions": {
         "type": "ltminigames:notification_toast",
         "text": "The map is freezing over!",
         "icon": {"item": "minecraft:snow_block"},
+        "visible_time_ms": 5000
+      }
+    },
+    "explosive_storm_start": {
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:notification_toast",
+        "text": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN! Get to the center!",
+        "icon": {"item": "minecraft:tnt"},
         "visible_time_ms": 5000
       }
     }

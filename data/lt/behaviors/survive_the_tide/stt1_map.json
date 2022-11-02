@@ -48,11 +48,6 @@
   {
     "type": "ltminigames:world_border",
     "world_border_center": "center",
-    "collapse_message": {
-      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
-      "color": "red",
-      "bold": true
-    },
     "period": {
       "start": "explosive_storm_start",
       "end": "explosive_storm_end"
