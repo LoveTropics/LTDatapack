@@ -131,7 +131,28 @@
       },
       "lap_count": 3,
       "winner_count": 3,
-      "start_time": 200
+      "start_time": 200,
+      "finish_region": "finish",
+      "checkpoint_regions": {
+        "checkpoint": [
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.arrow.hit_player"
+          },
+          {
+            "type": "ltminigames:show_title",
+            "action_bar": {
+              "text": "Speed boost! You passed a checkpoint!",
+              "color": "green"
+            }
+          },
+          {
+            "type": "ltminigames:turtle_boost",
+            "amount": 1.0,
+            "duration": 40
+          }
+        ]
+      }
     },
     {
       "type": "ltminigames:game_end_effects",
