@@ -134,7 +134,7 @@
         {
           "type": "ltminigames:set_blocks",
           "region": "spawn_area",
-          "replace": {"tag": "minecraft:wooden_fences"},
+          "replace": {"tag": "minecraft:fences"},
           "set": "air"
         },
         {
