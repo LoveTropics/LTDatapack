@@ -210,6 +210,7 @@
       "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
+    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:countdown_action",

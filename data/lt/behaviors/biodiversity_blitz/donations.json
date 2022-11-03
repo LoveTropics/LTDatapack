@@ -119,7 +119,7 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "acid_rain",
+    "package_type": "acid_rain_event",
     "player_select": "all",
     "notification": {
       "message": {
