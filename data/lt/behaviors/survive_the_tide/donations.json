@@ -651,7 +651,30 @@
     "receive_actions": [
       {
         "type": "ltminigames:transform_player_tornado",
-        "time_ticks": 800
+        "time_ticks": 800,
+        "baby": false
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "player_tornado_baby",
+    "player_select": "specific",
+    "notification": {
+      "message": {
+        "text": "%1$s turned you into a baby tornado!",
+        "color": "light_purple"
+      },
+      "icon": {"item": "minecraft:milk_bucket"},
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:transform_player_tornado",
+        "time_ticks": 1200,
+        "baby": true
       }
     ]
   },
