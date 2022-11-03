@@ -10,6 +10,19 @@
     "load_from": "lt:turtle_race_20",
     "dimension_type": "tropicraft:tropics"
   },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {"spawn": "spawn"}
+      }
+    ]
+  },
   "minimum_participants": 4,
   "maximum_participants": 16,
   "behaviors": [
