@@ -4,7 +4,7 @@
     "dimension": "minecraft:overworld",
     "box": {
       "min": [1150, 80, 903],
-      "max": [1195, 100, 965]
+      "max": [1200, 100, 965]
     }
   },
   "widgets": [
@@ -25,14 +25,14 @@
           }
         ]
       },
-      "scale": 0.0625,
+      "scale": 0.03125,
       "point_along": [1.0, 0.0, 0.0]
     },
     {
       "type": "text",
-      "pos": [1167.5, 84.5, 945.5],
+      "pos": [1168.0, 84.5, 945.0],
       "text": {
-        "text": "Each layer represents ",
+        "text": "Each layer represents\n",
         "color": "aqua",
         "extra": [
           {
@@ -50,7 +50,7 @@
           }
         ]
       },
-      "scale": 0.0625,
+      "scale": 0.03125,
       "point_along": [1.0, 0.0, -1.0]
     },
     {
@@ -67,7 +67,7 @@
           "our top donators"
         ]
       },
-      "scale": 0.0625,
+      "scale": 0.03125,
       "point_along": [1.0, 0.0, -1.0]
     }
   ]
