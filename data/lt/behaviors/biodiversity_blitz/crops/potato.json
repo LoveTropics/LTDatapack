@@ -37,6 +37,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
+        "id": "potato",
         "loot_table": "lt:biodiversity_blitz/potatoes"
       },
       {
