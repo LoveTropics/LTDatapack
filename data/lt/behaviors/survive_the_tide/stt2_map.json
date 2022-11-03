@@ -127,7 +127,8 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
-      "fallDamage": "true"
+      "fallDamage": "true",
+      "doTileDrops": "false"
     }
   },
   {

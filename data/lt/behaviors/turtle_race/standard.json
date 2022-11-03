@@ -161,5 +161,16 @@
     }
   },
   "ltminigames:spectator_chase",
-  "ltminigames:cancel_player_damage"
+  "ltminigames:cancel_player_damage",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "doTileDrops": "false",
+      "doEntityDrops": "false"
+    }
+  }
 ]
