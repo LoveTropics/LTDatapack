@@ -341,7 +341,21 @@
       {
         "type": "ltminigames:spawn_entities_around_players",
         "entity": {
-          "type": "minecraft:zombie"
+          "type": "minecraft:zombie",
+          "tag": {
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {
+                "id": "minecraft:leather_helmet",
+                "Count": 1,
+                "tag": {
+                 "Unbreakable": true
+                }
+              }
+            ]
+          }
         },
         "entity_count_per_player": 7,
         "spawn_distance_min": 10,
