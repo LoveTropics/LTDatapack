@@ -301,7 +301,9 @@
       },
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
-        "entity_id": "minecraft:lightning_bolt",
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
         "entity_count": 20,
         "ticks_to_spawn_for": 800,
         "regions_to_spawn_at": ["tide_area"]
@@ -338,7 +340,9 @@
       },
       {
         "type": "ltminigames:spawn_entities_around_players",
-        "entity_id": "minecraft:zombie",
+        "entity": {
+          "type": "minecraft:zombie"
+        },
         "entity_count_per_player": 7,
         "spawn_distance_min": 10,
         "spawn_distance_max": 20,
