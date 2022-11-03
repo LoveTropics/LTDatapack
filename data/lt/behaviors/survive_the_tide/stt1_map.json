@@ -43,7 +43,8 @@
       "start": "icebergs_start",
       "end": "icebergs_end"
     },
-    "iceberg_growth_steps": 60
+    "iceberg_growth_steps": 60,
+    "damage_depth": 2
   },
   {
     "type": "ltminigames:world_border",
