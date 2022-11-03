@@ -31,7 +31,7 @@ execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at 
 execute as @e[type=minecraft:area_effect_cloud,limit=1,nbt={Potion:"minecraft:long_strength"},tag=!game.stt.strength_aec] at @s run function lt:game/stt/entity/fix_strength_aec
 
 # Change turtle master area effect cloud created by linger potions to desired functionality
-execute as @e[type=minecraft:area_effect_cloud,limit=1,nbt={Potion:"minecraft:turtle_master"},tag=!game.stt.turtle_master_aec] at @s run function lt:game/stt/entity/fix_turtle_master_aec
+execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:turtle_master"},tag=!game.stt.turtle_master_aec] at @s run function lt:game/stt/entity/fix_turtle_master_aec
 
 # Change turtle master area effect cloud created by linger potions to desired functionality
-execute as @e[type=minecraft:area_effect_cloud,limit=1,nbt={Color:857152},tag=!game.stt.blindness_aec] at @s run function lt:game/stt/entity/fix_blindness_aec
+execute as @e[type=minecraft:area_effect_cloud,nbt={Color:266808},tag=!game.stt.blindness_aec] at @s run function lt:game/stt/entity/fix_blindness_aec
