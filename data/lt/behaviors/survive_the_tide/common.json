@@ -129,7 +129,7 @@
           "type": "ltminigames:notification_toast",
           "text": "The tide will soon begin to rise, and PVP will be enabled! Collect resources before the time runs out!",
           "icon": {"item": "minecraft:chest"},
-          "visible_time_ms": 5000
+          "visible_time_ms": 10000
         },
         {
           "type": "ltminigames:set_blocks",
@@ -178,7 +178,7 @@
         "type": "ltminigames:notification_toast",
         "text": "The map is freezing over!",
         "icon": {"item": "minecraft:snow_block"},
-        "visible_time_ms": 5000
+        "visible_time_ms": 8000
       }
     },
     "explosive_storm_start": {
@@ -187,7 +187,7 @@
         "type": "ltminigames:notification_toast",
         "text": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN! Get to the center!",
         "icon": {"item": "minecraft:tnt"},
-        "visible_time_ms": 5000
+        "visible_time_ms": 8000
       }
     }
   },

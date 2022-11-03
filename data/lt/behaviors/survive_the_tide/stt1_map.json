@@ -77,7 +77,7 @@
           "type": "ltminigames:notification_toast",
           "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
           "icon": {"item": "minecraft:chest"},
-          "visible_time_ms": 5000
+          "visible_time_ms": 12000
         },
         {
           "type": "ltminigames:chest_drop",
