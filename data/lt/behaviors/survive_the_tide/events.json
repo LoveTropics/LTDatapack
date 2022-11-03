@@ -131,5 +131,49 @@
         "explosion_strength": 2
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "acid_rain_event",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Chat has started ACID RAIN for 1 minute!",
+        "color": "light_purple"
+      },
+      "icon": { "item": "ltminigames:acid_repellent_umbrella" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:weather_event",
+        "event": "acid_rain",
+        "seconds": 60
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "heatwave_event",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Chat has started a HEATWAVE for 1 minute!",
+        "color": "light_purple"
+      },
+      "icon": { "item": "ltminigames:super_sunscreen" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:weather_event",
+        "event": "heatwave",
+        "seconds": 60
+      }
+    ]
   }
 ]
