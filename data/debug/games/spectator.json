@@ -17,6 +17,36 @@
       "type": "ltminigames:join_late_with_role",
       "role": "spectator"
     },
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "all",
+      "actions":  {
+        "20": {
+          "type": "ltminigames:spectator_activity",
+          "style": "red"
+        },
+        "40": {
+          "type": "ltminigames:spectator_activity",
+          "style": "green"
+        },
+        "60": {
+          "type": "ltminigames:spectator_activity",
+          "style": "blue"
+        },
+        "80": {
+          "type": "ltminigames:spectator_activity",
+          "style": "red"
+        },
+        "100": {
+          "type": "ltminigames:spectator_activity",
+          "style": "green"
+        },
+        "120": {
+          "type": "ltminigames:spectator_activity",
+          "style": "blue"
+        }
+      }
+    }
   ]
 }
