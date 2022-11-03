@@ -167,8 +167,8 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "weather2:streaming.siren",
-          "volume": 0.25
+          "sound": "event.raid.horn",
+          "volume": 8.0
         }
       ]
     },
