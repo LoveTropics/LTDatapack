@@ -80,7 +80,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Jelly Bomb Spawn Egg\",\"italic\":false}'},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:[\"game.stt.jelly_bomb\"]}}"
+                            "tag": "{display:{Name:'{\"text\":\"Slime Bomb\",\"italic\":false}'},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:[\"game.stt.jelly_bomb\"]}}"
                         }
                     ]
                 }
