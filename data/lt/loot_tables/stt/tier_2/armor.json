@@ -9,7 +9,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:chainmail_helmet"
                 },
                 {
@@ -19,12 +19,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:chainmail_boots"
                 },
-                {
+                {   
                     "type": "minecraft:item",
-                    "weight": 1,
+                    "weight": 2,
                     "name": "minecraft:chainmail_leggings"
                 }
             ]
