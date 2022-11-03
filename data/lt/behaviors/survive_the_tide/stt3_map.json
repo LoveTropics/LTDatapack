@@ -63,8 +63,7 @@
       "end": "icebergs_end"
     },
     "iceberg_lines_region": "iceberg_line",
-    "iceberg_growth_steps": 60,
-    "damage_depth": 2
+    "iceberg_growth_steps": 80
   },
   {
     "type": "ltminigames:scheduled_actions",
