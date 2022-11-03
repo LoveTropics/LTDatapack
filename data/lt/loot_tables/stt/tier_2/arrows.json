@@ -6,14 +6,18 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spectral_arrow",
+                    "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 4,
-                                "max": 9
+                                "min": 2,
+                                "max": 5
                             }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:weakness\"}"
                         }
                     ]
                 },
@@ -30,7 +34,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:invisibility\"}"
+                            "tag": "{Potion:\"minecraft:slowness\"}"
                         }
                     ]
                 },
@@ -47,41 +51,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:swiftness\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:slow_falling\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:leaping\"}"
+                            "tag": "{display:{Name:'{\"text\":\"Arrow of Levitation\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:60}],Potion:\"minecraft:slow_falling\",CustomPotionColor:16318356}"
                         }
                     ]
                 }
