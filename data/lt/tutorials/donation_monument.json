@@ -12,7 +12,7 @@
       "type": "text",
       "pos": [1190.0, 85.5, 925.5],
       "text": {
-        "text": "Welcome to the ",
+        "text": "Welcome to the\n",
         "color": "aqua",
         "extra": [
           {
@@ -25,7 +25,7 @@
           }
         ]
       },
-      "scale": 0.03125,
+      "scale": 0.0625,
       "point_along": [1.0, 0.0, 0.0]
     },
     {
@@ -50,12 +50,12 @@
           }
         ]
       },
-      "scale": 0.03125,
+      "scale": 0.045,
       "point_along": [1.0, 0.0, -1.0]
     },
     {
       "type": "text",
-      "pos": [1173.5, 83.5, 939.5],
+      "pos": [1174.0, 83.5, 939.0],
       "text": {
         "text": "",
         "color": "aqua",
@@ -67,7 +67,7 @@
           "our top donators"
         ]
       },
-      "scale": 0.03125,
+      "scale": 0.045,
       "point_along": [1.0, 0.0, -1.0]
     }
   ]
