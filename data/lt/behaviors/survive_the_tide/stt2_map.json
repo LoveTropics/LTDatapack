@@ -135,5 +135,31 @@
   {
     "type": "ltminigames:set_day_time",
     "time": 18000
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "loot_drop": {
+      "target": "all",
+      "actions": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
+          "icon": {"item": "minecraft:chest"},
+          "visible_time_ms": 12000
+        },
+        {
+          "type": "ltminigames:chest_drop",
+          "region": "loot_drop",
+          "loot_tables": [
+            {
+              "data": "lt:stt3/tier_4",
+              "weight": 1
+            }
+          ],
+          "delay": 1200,
+          "count": 2
+        }
+      ]
+    }
   }
 ]
