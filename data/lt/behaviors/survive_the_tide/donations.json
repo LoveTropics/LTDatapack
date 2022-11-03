@@ -193,7 +193,9 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:creeper",
+        "entity": {
+          "type": "minecraft:creeper"
+        },
         "distance": 3.0
       }
     ]
@@ -243,7 +245,9 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:creeper",
+        "entity": {
+          "type": "minecraft:creeper"
+        },
         "distance": 3.0
       }
     ]
@@ -266,7 +270,9 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:lightning_bolt",
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
         "damage_player_amount": 7.0
       }
     ]
@@ -476,7 +482,9 @@
       },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "pufferfish"
+        "entity": {
+          "type": "minecraft:pufferfish"
+        }
       }
     ]
   },
@@ -625,12 +633,16 @@
     "receive_actions": [
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:lightning_bolt",
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
         "damage_player_amount": 10000.0
       },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:tnt"
+        "entity": {
+          "type": "minecraft:tnt"
+        }
       }
     ]
   },
