@@ -106,7 +106,7 @@
         "text": "%1$s sent you an UNDYING PACKAGE with a Totem of Undying!",
         "color": "light_purple"
       },
-      "icon": {"effect": "minecraft:totem_of_undying"},
+      "icon": {"item": "minecraft:totem_of_undying"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
