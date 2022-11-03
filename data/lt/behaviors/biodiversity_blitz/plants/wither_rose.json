@@ -14,7 +14,7 @@
           ],
           "ShiftLore": [
             "{\"text\": \"When walked through, mobs will get the wither effect. This includes you!\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
