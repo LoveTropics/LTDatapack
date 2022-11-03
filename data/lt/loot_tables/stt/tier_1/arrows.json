@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:invisibility\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:swiftness\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:slow_falling\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:leaping\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

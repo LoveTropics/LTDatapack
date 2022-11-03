@@ -25,26 +25,34 @@
     "type": "ltminigames:rising_tides",
     "tide_area_region": "tide_area",
     "iceberg_lines_region": "iceberg_line",
-    "water_levels": {
-      "phase0": 122,
-      "phase1": 122,
-      "phase2": 133,
-      "phase3": 150,
-      "phase4": 150,
-      "phase5": 150
+    "water_levels": [
+      {
+        "point": "pvp_enabled",
+        "value": 122
+      },
+      {
+        "point": "mid_game",
+        "value": 133
+      },
+      {
+        "point": "icebergs_start",
+        "value": 150
+      }
+    ],
+    "iceberg_growth_period": {
+      "start": "icebergs_start",
+      "end": "icebergs_end"
     },
-    "phases_icebergs_grow": ["phase4"],
-    "iceberg_growth_steps": 60
+    "iceberg_growth_steps": 60,
+    "damage_depth": 2
   },
   {
     "type": "ltminigames:world_border",
     "world_border_center": "center",
-    "collapse_message": {
-      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
-      "color": "red",
-      "bold": true
+    "period": {
+      "start": "explosive_storm_start",
+      "end": "explosive_storm_end"
     },
-    "phase": "phase5",
     "particle_rate_delay": 1,
     "particle_height": 110,
     "damage_rate_delay": 20,
@@ -58,7 +66,34 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
-      "fallDamage": "true"
+      "fallDamage": "true",
+      "doTileDrops": "false"
+    }
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "loot_drop": {
+      "target": "all",
+      "actions": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
+          "icon": {"item": "minecraft:chest"},
+          "visible_time_ms": 12000
+        },
+        {
+          "type": "ltminigames:chest_drop",
+          "region": "loot_drop",
+          "loot_tables": [
+            {
+              "data": "lt:stt3/tier_4",
+              "weight": 1
+            }
+          ],
+          "delay": 1200,
+          "count": 2
+        }
+      ]
     }
   }
 ]

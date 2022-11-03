@@ -1,0 +1,74 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [1150, 80, 903],
+      "max": [1200, 100, 965]
+    }
+  },
+  "widgets": [
+    {
+      "type": "text",
+      "pos": [1190.0, 85.5, 925.5],
+      "text": {
+        "text": "Welcome to the\n",
+        "color": "aqua",
+        "extra": [
+          {
+            "text": "donation monument! ",
+            "color": "green"
+          },
+          {
+            "text": "⭐",
+            "color": "gold"
+          }
+        ]
+      },
+      "scale": 0.0625,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "text",
+      "pos": [1168.0, 87.5, 945.0],
+      "text": {
+        "text": "Each layer represents\n",
+        "color": "aqua",
+        "extra": [
+          {
+            "text": "$1000 raised",
+            "color": "gold"
+          },
+          " for ",
+          {
+            "text": "Project Seagrass! ",
+            "color": "green"
+          },
+          {
+            "text": "♥",
+            "color": "red"
+          }
+        ]
+      },
+      "scale": 0.045,
+      "point_along": [1.0, 0.0, -1.0]
+    },
+    {
+      "type": "text",
+      "pos": [1174.0, 83.5, 939.0],
+      "text": {
+        "text": "",
+        "color": "aqua",
+        "extra": [
+          {
+            "text": "♥ ",
+            "color": "red"
+          },
+          "our top donators"
+        ]
+      },
+      "scale": 0.045,
+      "point_along": [1.0, 0.0, -1.0]
+    }
+  ]
+}

@@ -33,6 +33,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
+        "id": "beetroot",
         "loot_table": "lt:biodiversity_blitz/beetroots"
       },
       {

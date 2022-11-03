@@ -28,8 +28,10 @@
       },
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
-        "entity_id": "minecraft:lightning_bolt",
-        "entity_count": 100,
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
+        "entity_count": 20,
         "ticks_to_spawn_for": 800,
         "regions_to_spawn_at": ["tide_area"]
       }
@@ -65,7 +67,23 @@
       },
       {
         "type": "ltminigames:spawn_entities_around_players",
-        "entity_id": "minecraft:zombie",
+        "entity": {
+          "type": "minecraft:zombie",
+          "tag": {
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {
+                "id": "minecraft:leather_helmet",
+                "Count": 1,
+                "tag": {
+                  "Unbreakable": true
+                }
+              }
+            ]
+          }
+        },
         "entity_count_per_player": 7,
         "spawn_distance_min": 10,
         "spawn_distance_max": 20,
@@ -111,6 +129,50 @@
         "spawn_rate_base": 10,
         "spawn_rate_random": 10,
         "explosion_strength": 2
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "acid_rain_event",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Chat has started ACID RAIN for 1 minute!",
+        "color": "light_purple"
+      },
+      "icon": { "item": "ltminigames:acid_repellent_umbrella" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:weather_event",
+        "event": "acid_rain",
+        "seconds": 60
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "heatwave_event",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Chat has started a HEATWAVE for 1 minute!",
+        "color": "light_purple"
+      },
+      "icon": { "item": "ltminigames:super_sunscreen" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:weather_event",
+        "event": "heatwave",
+        "seconds": 60
       }
     ]
   }

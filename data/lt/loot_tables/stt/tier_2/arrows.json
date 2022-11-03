@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:weakness\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:slowness\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Arrow of Levitation\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:60}],Potion:\"minecraft:slow_falling\",CustomPotionColor:16318356}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+tag @s add game.stt.turtle_master_aec
+data merge entity @s {ReapplicationDelay:20,Radius:3.5f,RadiusPerTick:-0.0025f,RadiusOnUse:0f,Duration:200,DurationOnUse:-3f,Potion:"minecraft:turtle_master",Effects:[{Id:2,Amplifier:3b,Duration:60},{Id:11,Amplifier:3b,Duration:60},{Id:18,Amplifier:1b,Duration:60}]}

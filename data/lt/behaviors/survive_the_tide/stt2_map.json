@@ -1,12 +1,43 @@
 [
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "loot_tables": {
-      "cyan_glazed_terracotta": "lt:stt2/misc_type",
-      "green_glazed_terracotta": "lt:stt2/food_type",
-      "red_glazed_terracotta": "lt:stt2/military_type",
-      "orange_glazed_terracotta": "lt:stt2/equipment_type"
-    }
+    "marker": "cyan_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt2/misc_type",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "green_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt2/food_type",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "red_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt2/military_type",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "orange_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt2/equipment_type",
+        "weight": 1
+      }
+    ]
   },
   {"type": "ltminigames:generate_entities", "entity": "ltminigames:driftwood", "min_per_chunk": -1, "max_per_chunk": 1},
   {
@@ -45,26 +76,34 @@
     "type": "ltminigames:rising_tides",
     "tide_area_region": "tide_area",
     "iceberg_lines_region": "iceberg_line",
-    "water_levels": {
-      "phase0": 50,
-      "phase1": 50,
-      "phase2": 58,
-      "phase3": 68,
-      "phase4": 68,
-      "phase5": 68
+    "water_levels": [
+      {
+        "point": "pvp_enabled",
+        "value": 50
+      },
+      {
+        "point": "mid_game",
+        "value": 58
+      },
+      {
+        "point": "icebergs_start",
+        "value": 68
+      }
+    ],
+    "iceberg_growth_period": {
+      "start": "icebergs_start",
+      "end": "icebergs_end"
     },
-    "phases_icebergs_grow": [ "phase4" ],
-    "iceberg_growth_steps": 60
+    "iceberg_growth_steps": 60,
+    "damage_depth": 2
   },
   {
     "type": "ltminigames:world_border",
     "world_border_center": "storm_center",
-    "collapse_message": {
-      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
-      "color": "red",
-      "bold": true
+    "period": {
+      "start": "explosive_storm_start",
+      "end": "explosive_storm_end"
     },
-    "phase": "phase5",
     "particle_rate_delay": 1,
     "particle_height": 110,
     "damage_rate_delay": 20,
@@ -89,7 +128,38 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
-      "fallDamage": "true"
+      "fallDamage": "true",
+      "doTileDrops": "false"
+    }
+  },
+  {
+    "type": "ltminigames:set_day_time",
+    "time": 18000
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "loot_drop": {
+      "target": "all",
+      "actions": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
+          "icon": {"item": "minecraft:chest"},
+          "visible_time_ms": 12000
+        },
+        {
+          "type": "ltminigames:chest_drop",
+          "region": "loot_drop",
+          "loot_tables": [
+            {
+              "data": "lt:stt3/tier_4",
+              "weight": 1
+            }
+          ],
+          "delay": 1200,
+          "count": 2
+        }
+      ]
     }
   }
 ]

@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"A staple crop for many.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Grows into a wheat crop after a few growth cycles.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Can be traded at the Shop for bread or points.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
@@ -33,6 +37,7 @@
       },
       {
         "type": "ltminigames:drop_loot_table",
+        "id": "wheat",
         "loot_table": "lt:biodiversity_blitz/wheat"
       },
       {

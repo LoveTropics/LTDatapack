@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:block_packages_during_phase",
-    "blocked_phases": ["phase0"]
+    "block_periods": [{"start": "start", "end": "pvp_enabled"}]
   },
 
   {
@@ -106,7 +106,7 @@
         "text": "%1$s sent you an UNDYING PACKAGE with a Totem of Undying!",
         "color": "light_purple"
       },
-      "icon": {"effect": "minecraft:totem_of_undying"},
+      "icon": {"item": "minecraft:totem_of_undying"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
@@ -193,7 +193,12 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:creeper",
+        "entity": {
+          "type": "minecraft:creeper",
+          "tag": {
+            "ExplosionRadius": 5.0
+          }
+        },
         "distance": 3.0
       }
     ]
@@ -210,6 +215,7 @@
       "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
+    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:countdown_action",
@@ -242,7 +248,12 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:creeper",
+        "entity": {
+          "type": "minecraft:creeper",
+          "tag": {
+            "ExplosionRadius": 5.0
+          }
+        },
         "distance": 3.0
       }
     ]
@@ -265,7 +276,9 @@
       { "type": "ltminigames:give_player_head_package" },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:lightning_bolt",
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
         "damage_player_amount": 7.0
       }
     ]
@@ -301,8 +314,10 @@
       },
       {
         "type": "ltminigames:spawn_entities_at_regions_over_time",
-        "entity_id": "minecraft:lightning_bolt",
-        "entity_count": 100,
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
+        "entity_count": 20,
         "ticks_to_spawn_for": 800,
         "regions_to_spawn_at": ["tide_area"]
       }
@@ -338,7 +353,23 @@
       },
       {
         "type": "ltminigames:spawn_entities_around_players",
-        "entity_id": "minecraft:zombie",
+        "entity": {
+          "type": "minecraft:zombie",
+          "tag": {
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {
+                "id": "minecraft:leather_helmet",
+                "Count": 1,
+                "tag": {
+                 "Unbreakable": true
+                }
+              }
+            ]
+          }
+        },
         "entity_count_per_player": 7,
         "spawn_distance_min": 10,
         "spawn_distance_max": 20,
@@ -457,7 +488,9 @@
       },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "pufferfish"
+        "entity": {
+          "type": "minecraft:pufferfish"
+        }
       }
     ]
   },
@@ -606,12 +639,16 @@
     "receive_actions": [
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:lightning_bolt",
+        "entity": {
+          "type": "minecraft:lightning_bolt"
+        },
         "damage_player_amount": 10000.0
       },
       {
         "type": "ltminigames:spawn_entity_at_player",
-        "entity_id": "minecraft:tnt"
+        "entity": {
+          "type": "minecraft:tnt"
+        }
       }
     ]
   },
@@ -632,8 +669,70 @@
     "receive_actions": [
       {
         "type": "ltminigames:transform_player_tornado",
-        "time_ticks": 800
+        "time_ticks": 800,
+        "baby": false
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "player_tornado_baby",
+    "player_select": "specific",
+    "notification": {
+      "message": {
+        "text": "%1$s turned you into a baby tornado!",
+        "color": "light_purple"
+      },
+      "icon": {"item": "minecraft:milk_bucket"},
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:transform_player_tornado",
+        "time_ticks": 1200,
+        "baby": true
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_threshold",
+    "amount": 20.0,
+    "actions": {
+      "type": "ltminigames:target_player",
+      "id": "84555089-add1-49b1-a26d-8021270a40f0",
+      "actions": [
+        {
+          "type": "ltminigames:spawn_entities_around_players",
+          "entity": {
+            "type": "minecraft:zombie",
+            "tag": {
+              "IsBaby": true,
+              "ArmorItems": [
+                {},
+                {},
+                {
+                  "id": "minecraft:golden_chestplate",
+                  "Count": 1,
+                  "tag": {"Unbreakable": true}
+                },
+                {
+                  "id": "minecraft:golden_helmet",
+                  "Count": 1,
+                  "tag": {"Unbreakable": true}
+                }
+              ]
+            }
+          },
+          "entity_count_per_player": 1,
+          "spawn_distance_min": 5,
+          "spawn_distance_max": 10,
+          "spawn_range_y": 10,
+          "spawn_try_rate": 10
+        }
+      ]
+    }
   }
 ]

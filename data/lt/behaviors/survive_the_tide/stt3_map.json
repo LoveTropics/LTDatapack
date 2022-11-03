@@ -1,14 +1,43 @@
 [
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "loot_tables": {
-      "purple_glazed_terracotta": "lt:stt3/tier_1",
-      "yellow_glazed_terracotta": "lt:stt3/tier_2",
-      "pink_glazed_terracotta": "lt:stt3/tier_3",
-      "red_glazed_terracotta": "lt:stt3/tier_4"
-    },
-    "max_per_chunk": 4,
-    "percentage": 1.0
+    "marker": "purple_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt3/tier_1",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "yellow_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt3/tier_2",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "pink_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt3/tier_3",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:fill_chests_by_marker",
+    "marker": "red_glazed_terracotta",
+    "loot_tables": [
+      {
+        "data": "lt:stt3/tier_4",
+        "weight": 1
+      }
+    ]
   },
   {
     "type": "ltminigames:position_players",
@@ -18,17 +47,27 @@
   {
     "type": "ltminigames:rising_tides",
     "tide_area_region": "tide_area",
-    "water_levels": {
-      "phase0": 97,
-      "phase1": 97,
-      "phase2": 125,
-      "phase3": "$tide",
-      "phase4": "$tide",
-      "phase5": "$tide"
+    "water_levels": [
+      {
+        "point": "pvp_enabled",
+        "value": 97
+      },
+      {
+        "point": "mid_game",
+        "value": 125
+      },
+      {
+        "point": "icebergs_start",
+        "value": "$tide"
+      }
+    ],
+    "iceberg_growth_period": {
+      "start": "icebergs_start",
+      "end": "icebergs_end"
     },
     "iceberg_lines_region": "iceberg_line",
-    "phases_icebergs_grow": [],
-    "iceberg_growth_steps": 60
+    "iceberg_growth_steps": 60,
+    "damage_depth": 2
   },
   {
     "type": "ltminigames:scheduled_actions",
@@ -52,12 +91,10 @@
   {
     "type": "ltminigames:world_border",
     "world_border_center": "storm_center",
-    "collapse_message": {
-      "translate": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN!",
-      "color": "red",
-      "bold": true
+    "period": {
+      "start": "explosive_storm_start",
+      "end": "explosive_storm_end"
     },
-    "phase": "phase5",
     "particle_rate_delay": 1,
     "particle_height": 110,
     "damage_rate_delay": 20,
@@ -71,7 +108,8 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
-      "fallDamage": "true"
+      "fallDamage": "true",
+      "doTileDrops": "false"
     }
   }
 ]

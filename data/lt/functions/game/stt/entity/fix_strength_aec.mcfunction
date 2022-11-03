@@ -1,0 +1,2 @@
+tag @s add game.stt.strength_aec
+data merge entity @s {ReapplicationDelay:20,Radius:3.5f,RadiusPerTick:-0.0025f,RadiusOnUse:0f,Duration:300,DurationOnUse:-3f,Potion:"minecraft:strength",Effects:[{Id:5,Amplifier:1b,Duration:40}]}

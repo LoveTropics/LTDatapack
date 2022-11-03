@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"Grows into an oak tree and rarely drops golden apples.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Grows into an oak tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Golden apples drop from the leaves every few minutes.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
@@ -21,7 +25,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_tree",
     "family": "tree",
-    "value": 1.3,
+    "value": 1.2,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",
@@ -80,7 +84,7 @@
       },
       {
         "type": "ltminigames:idle_drop_item",
-        "interval": 6000,
+        "interval": 3600,
         "item": {
           "id": "minecraft:golden_apple",
           "Count": 1

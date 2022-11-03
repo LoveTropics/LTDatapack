@@ -10,148 +10,26 @@
     "load_from": "lt:turtle_race_21",
     "dimension_type": "tropicraft:tropics"
   },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {"spawn": "spawn"}
+      }
+    ]
+  },
   "minimum_participants": 4,
   "maximum_participants": 16,
   "behaviors": [
     {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator"
-    },
-    {
-      "type": "ltminigames:force_load_region",
-      "region": "force_load"
-    },
-    {
-      "type": "ltminigames:position_players",
-      "participants": "player_spawn",
-      "spectators": "spawn"
-    },
-    {
-      "type": "ltminigames:turtle_rider",
-      "entity": "tropicraft:turtle",
-      "tag": {
-        "Invulnerable": true,
-        "NoAI": true,
-        "Attributes": [
-          {
-            "Base": 1.65,
-            "Name": "minecraft:generic.movement_speed"
-          }
-        ],
-        "NoBrakesOnThisTrain": true
-      }
-    },
-    {
-      "type": "ltminigames:scheduled_actions",
-      "target": "all",
-      "actions": {
-        "140": [
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.arrow.hit_player"
-          },
-          {
-            "type": "ltminigames:show_title",
-            "title": {
-              "text": "..3",
-              "color": "red"
-            },
-            "stay": 40
-          }
-        ],
-        "160": [
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.arrow.hit_player"
-          },
-          {
-            "type": "ltminigames:show_title",
-            "title": {
-              "text": "..2",
-              "color": "gold"
-            },
-            "stay": 40
-          }
-        ],
-        "180": [
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.arrow.hit_player"
-          },
-          {
-            "type": "ltminigames:show_title",
-            "title": {
-              "text": "..1",
-              "color": "yellow"
-            },
-            "stay": 40
-          }
-        ],
-        "200": [
-          {
-            "type": "ltminigames:set_blocks",
-            "region": "start_floor",
-            "replace": {"tag": "lt:all_stained_glass"},
-            "set": "air"
-          },
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.arrow.hit_player",
-            "pitch": 1.5
-          },
-          {
-            "type": "ltminigames:show_title",
-            "title": {
-              "text": "GO!",
-              "color": "green"
-            },
-            "stay": 40
-          },
-          {
-            "type": "ltminigames:give_effect",
-            "effects": [
-              {
-                "type": "minecraft:water_breathing",
-                "seconds": 999999,
-                "amplifier": 80,
-                "hide_particles": true
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "ltminigames:race_track",
-      "path": {
-        "start": 0,
-        "end": 130,
-        "prefix": "point_"
-      },
-      "lap_count": 3,
-      "winner_count": 3,
-      "start_time": 200
-    },
-    {
-      "type": "ltminigames:game_end_effects",
-      "stop_delay": 400,
-      "scheduled_messages": {
-        "0": {
-          "text": "%1$s completed the race in the shortest amount of time and won the game!",
-          "color": "gray"
-        }
-      },
-      "podium": {
-        "winner_regions": [
-          "winner_1",
-          "winner_2",
-          "winner_3"
-        ],
-        "loser_region": "spawn"
-      }
-    },
-    "ltminigames:spectator_chase",
-    "ltminigames:cancel_player_damage"
+      "type": "lt:turtle_race/standard",
+      "track_point_count": 130,
+      "lap_count": 2
+    }
   ]
 }

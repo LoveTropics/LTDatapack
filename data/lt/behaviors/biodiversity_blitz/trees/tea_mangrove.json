@@ -9,8 +9,13 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a tea mangrove.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Grows into a tea mangrove and produces pianguas.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Grows into a Tea mangrove after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"When placed near mud, the mud will turn into mud blocks with pianguas.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Right clicking mud blocks with pianguas will drop the pianguas, which can be sold at the Shop for points.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

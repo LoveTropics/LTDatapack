@@ -1,51 +1,40 @@
 [
   {
-    "type": "ltminigames:phase_controller",
-    "phases": [
-      {
-        "key": "phase0",
-        "length_in_ticks": 600,
-        "fixed": true
-      },
-      {
-        "key": "phase1",
-        "length_in_ticks": 2000,
-        "fixed": true
-      },
-      {
-        "key": "phase2",
-        "length_in_ticks": 6000
-      },
-      {
-        "key": "phase3",
-        "length_in_ticks": 6000
-      },
-      {
-        "key": "phase4",
-        "length_in_ticks": 6000
-      },
-      {
-        "key": "phase5",
-        "length_in_ticks": 6000
-      }
-    ],
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "release_players": 600,
+      "pvp_enabled": 2400,
+      "loot_drop": 4800,
+      "mid_game": 9600,
+      "icebergs_start": 14400,
+      "icebergs_end": 20400,
+      "explosive_storm_start": 21000,
+      "explosive_storm_mid": 24000,
+      "explosive_storm_end": 27000,
+      "end": 27000
+    },
     "max_time_step": 5,
+    "fixed_time_step": {
+      "start": "start",
+      "end": "pvp_enabled"
+    },
     "time_by_player_count": [
       {
-        "left": 24,
-        "time": 10200
+        "left": 20,
+        "point": "mid_game"
       },
       {
-        "left": 16,
-        "time": 15000
+        "left": 12,
+        "point": "icebergs_start"
       },
       {
-        "left": 8,
-        "time": 21000
+        "left": 6,
+        "point": "explosive_storm_start"
       },
       {
-        "left": 4,
-        "time": 23600
+        "left": 3,
+        "point": "explosive_storm_mid"
       }
     ]
   }

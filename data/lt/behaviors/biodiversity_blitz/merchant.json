@@ -6,30 +6,6 @@
     "name": "Shop",
     "offers": [
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
-        "output": "minecraft:oak_boat"
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 16},
-        "output": "minecraft:iron_sword"
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
-        "output": "minecraft:iron_axe"
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
-        "output": "minecraft:bow"
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
-        "output": {"id": "minecraft:arrow", "Count": 4}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 20},
-        "output": {"id": "ltminigames:acid_repellent_umbrella", "Count": 1}
-      },
-      {
         "input": {"id": "tropicraft:pianguas", "Count": 1},
         "output": {"id": "ltminigames:osa_point", "Count": 4}
       },
@@ -56,6 +32,30 @@
       {
         "input": {"id": "minecraft:potato", "Count": 2},
         "output": {"id": "minecraft:baked_potato", "Count": 1}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 6},
+        "output": "minecraft:oak_boat"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 16},
+        "output": "minecraft:iron_sword"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "output": "minecraft:iron_axe"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "output": "minecraft:bow"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 6},
+        "output": {"id": "minecraft:arrow", "Count": 4}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "output": {"id": "ltminigames:acid_repellent_umbrella", "Count": 1}
       }
     ]
   }
