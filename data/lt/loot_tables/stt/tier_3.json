@@ -15,8 +15,8 @@
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "minecraft:set_damage",
-                            "damage": 242
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:242}"
                         }
                     ]
                 },
