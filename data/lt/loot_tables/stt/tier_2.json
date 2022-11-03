@@ -32,6 +32,15 @@
             "rolls": 1,
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "lt:stt/tier_2/spawn_eggs"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
                     "type": "minecraft:item",
                     "name": "ltminigames:super_sunscreen"
                 },
