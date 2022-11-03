@@ -15,17 +15,19 @@
   },
   {
     "type": "ltminigames:turtle_rider",
-    "entity": "tropicraft:turtle",
-    "tag": {
-      "Invulnerable": true,
-      "NoAI": true,
-      "Attributes": [
-        {
-          "Base": 1.65,
-          "Name": "minecraft:generic.movement_speed"
-        }
-      ],
-      "NoBrakesOnThisTrain": true
+    "turtle": {
+      "type": "tropicraft:turtle",
+      "tag": {
+        "Invulnerable": true,
+        "NoAI": true,
+        "Attributes": [
+          {
+            "Base": 1.65,
+            "Name": "minecraft:generic.movement_speed"
+          }
+        ],
+        "NoBrakesOnThisTrain": true
+      }
     }
   },
   {
