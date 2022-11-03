@@ -9,8 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a palm tree which can grow and drop coconut bombs on entities.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Grows into a palm tree which drops coconut bombs on entities.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Grows into a palm tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Drops coconut bombs on any mobs underneath. These explosions can damage you, but not your plants.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
@@ -21,7 +25,7 @@
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "palm_tree",
     "family": "tree",
-    "value": 1.5,
+    "value": 1.2,
     "behaviors": [
       {
         "type": "ltminigames:place_feature_plant",

@@ -9,8 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Attracts mobs, but eventually breaks.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Attracts mobs, but eventually breaks.\",\"color\": \"aqua\"}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When placed, all mobs will path directly towards the pumpkin and gather around it.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"This causes the pumpkin to take damage and eventually break, but it allows you to make interesting traps by forcing monsters towards a certain area.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Pumpkins do not contribute towards your biodiversity score.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

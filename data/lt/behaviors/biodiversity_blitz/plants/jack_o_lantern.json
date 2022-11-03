@@ -9,8 +9,11 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Scares nearby mobs away! Must be reset after triggering.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Scares nearby mobs away! Must be reset after triggering.\",\"color\": \"aqua\"}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When mobs walk towards the Jack o' Lantern, they get scared and avoid the area.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Jack o' Lanterns need to be reset after use and do not contribute towards your biodiversity score.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

@@ -9,8 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Explodes when monsters come too close.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"text\": \"Explodes when monsters come too close.\",\"color\": \"aqua\"}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When mobs walk close to the melon, the melon explodes.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"This explosion does not affect plants or the player: only mobs.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Melons do not contribute towards your biodiversity score.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"Applies the wither effect to mobs touching it.\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"When walked through, mobs will get the wither effect. This includes you!\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}",
           ]
         }
       }

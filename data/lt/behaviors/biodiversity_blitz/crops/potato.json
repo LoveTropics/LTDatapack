@@ -11,6 +11,10 @@
           "Lore": [
             "{\"text\": \"Good source of nutrition!\",\"color\": \"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ],
+          "ShiftLore": [
+            "{\"text\": \"Grows into a potato crop after a few growth cycles.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Can be traded at the Shop for baked potatoes or points.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
