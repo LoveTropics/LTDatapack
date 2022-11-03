@@ -1,40 +1,37 @@
 [
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "marker": "cyan_glazed_terracotta",
+    "marker": "white_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt2/misc_type",
+        "data": "lt:stt/tier_1",
         "weight": 1
       }
-    ]
+    ],
+    "percentage": 0.5,
+    "max_per_chunk": 2
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "marker": "green_glazed_terracotta",
+    "marker": "pink_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt2/food_type",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:fill_chests_by_marker",
-    "marker": "red_glazed_terracotta",
-    "loot_tables": [
+        "data": "lt:stt/tier_2",
+        "weight": 17
+      },
       {
-        "data": "lt:stt2/military_type",
-        "weight": 1
+        "data": "lt:stt/tier_3",
+        "weight": 3
       }
-    ]
+    ],
+    "max_per_section": 1
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "orange_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt2/equipment_type",
+        "data": "lt:stt/tier_cornucopia",
         "weight": 1
       }
     ]
@@ -152,7 +149,7 @@
           "region": "loot_drop",
           "loot_tables": [
             {
-              "data": "lt:stt3/tier_4",
+              "data": "lt:stt/tier_3",
               "weight": 1
             }
           ],
