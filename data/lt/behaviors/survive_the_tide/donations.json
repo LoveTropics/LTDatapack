@@ -194,7 +194,10 @@
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity": {
-          "type": "minecraft:creeper"
+          "type": "minecraft:creeper",
+          "tag": {
+            "ExplosionRadius": 5.0
+          }
         },
         "distance": 3.0
       }
@@ -246,7 +249,10 @@
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity": {
-          "type": "minecraft:creeper"
+          "type": "minecraft:creeper",
+          "tag": {
+            "ExplosionRadius": 5.0
+          }
         },
         "distance": 3.0
       }
