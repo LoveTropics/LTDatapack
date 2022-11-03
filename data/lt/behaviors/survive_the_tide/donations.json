@@ -654,5 +654,44 @@
         "time_ticks": 800
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_threshold",
+    "amount": 20.0,
+    "actions": {
+      "type": "ltminigames:target_player",
+      "id": "84555089-add1-49b1-a26d-8021270a40f0",
+      "actions": [
+        {
+          "type": "ltminigames:spawn_entities_around_players",
+          "entity": {
+            "type": "minecraft:zombie",
+            "tag": {
+              "IsBaby": true,
+              "ArmorItems": [
+                {},
+                {},
+                {
+                  "id": "minecraft:golden_chestplate",
+                  "Count": 1,
+                  "tag": {"Unbreakable": true}
+                },
+                {
+                  "id": "minecraft:golden_helmet",
+                  "Count": 1,
+                  "tag": {"Unbreakable": true}
+                }
+              ]
+            }
+          },
+          "entity_count_per_player": 1,
+          "spawn_distance_min": 5,
+          "spawn_distance_max": 10,
+          "spawn_range_y": 10,
+          "spawn_try_rate": 10
+        }
+      ]
+    }
   }
 ]
