@@ -13,7 +13,8 @@
       "pos": [1325.5, 66.5, 1370.99],
       "texture": {
         "path": "lttutorials:textures/research_centre/leafy_sea_dragon.png",
-        "size": [256, 256]
+        "size": [256, 256],
+        "uv": [0, 0, 256, 171]
       },
       "scale": 1.0,
       "point_along": [0.0, 0.0, -1.0]
