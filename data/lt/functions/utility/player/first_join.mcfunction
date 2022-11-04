@@ -1,5 +1,6 @@
 tag @s add utility.player.joined
 execute in overworld run tp @s 1357 65 915 90 0
+effect give @s ltextras:fish_eye 36000 0 true
 execute in overworld run spawnpoint @s 1357 65 915
 title @s times 15 135 15
 title @s title {"text":"Welcome to Love Tropics '22!","color":"yellow"}

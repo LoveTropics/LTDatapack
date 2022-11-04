@@ -2,15 +2,15 @@ tellraw @s [{"text":"> ","color":"dark_gray"},{"text":"Teleport Complete!","colo
 
 # Location : TEMPLATE
 #tp @s[tag=map.player.looking.TEMPLATE] XX YY ZZ YAW PITCH
-tp @s[tag=map.player.looking.concert_island] -441 106 -549 -90 0
-tp @s[tag=map.player.looking.research_centre] 191 112 637 0 0
-tp @s[tag=map.player.looking.tropiland] 507 103 187 -135 -20
-tp @s[tag=map.player.looking.town_square] 850 106 -180 -180 0
-tp @s[tag=map.player.looking.shrimp_farm] -596 97 -78 0 0
-tp @s[tag=map.player.looking.scuba_centre] -313 97 186 -130 0
-tp @s[tag=map.player.looking.palm_plantation] -361 98 -220 0 0
-tp @s[tag=map.player.looking.boat_station_b] 284 102 32 0 0
-tp @s[tag=map.player.looking.boat_station_a] 69 102 -10 0 0
+tp @s[tag=map.player.looking.mountain_village] 822 86 1452 10 -10
+tp @s[tag=map.player.looking.research_institute] 1350 63 1362 90 -20
+tp @s[tag=map.player.looking.banyan_tree] 543.02 65.94 956.99 90 -50
+tp @s[tag=map.player.looking.crab_golf] 1055 64 448 90 0
+tp @s[tag=map.player.looking.free_build_1] 740 66 479 90 0
+tp @s[tag=map.player.looking.free_build_2] 917 66 973 180 0
+tp @s[tag=map.player.looking.free_build_3] 593 67 1259 -90 0
+tp @s[tag=map.player.looking.resort] 545 63 371 135 -15
+tp @s[tag=map.player.looking.theatre] 775 66 1369 -70 0
 
 
 
