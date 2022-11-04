@@ -4,7 +4,6 @@ execute if score game.carnival.color_bop.active main.global matches 1 run functi
 # Run ticking functions for party games
 ###execute if score game.party.block_party.active main.global matches 1 run function lt:game/party/block_party/on_tick
 execute if score game.party.spleef.active main.global matches 1 run function lt:game/party/spleef/on_tick
-execute if score game.party.turtle_race.standard.active main.global matches 1 run function lt:game/party/race_standard/on_tick
 
 # Run utility on tick functions
 function lt:utility/on_tick
