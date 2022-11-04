@@ -100,11 +100,23 @@
       "start": "explosive_storm_start",
       "end": "explosive_storm_end"
     },
-    "particle_rate_delay": 1,
+    "border_particles": [
+      {
+        "particle": "minecraft:explosion",
+        "rate": 1,
+        "chance": 30,
+        "density": 4
+      },
+      {
+        "particle": "minecraft:portal",
+        "rate": 1,
+        "chance": 10,
+        "density": 8
+      }
+    ],
     "particle_height": 110,
     "damage_rate_delay": 20,
-    "damage_amount": 4,
-    "border_particle": "minecraft:explosion"
+    "damage_amount": 4
   },
   {
     "type": "ltminigames:while_in_region",
