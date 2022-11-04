@@ -707,7 +707,7 @@
 
   {
     "type": "ltminigames:donation_threshold",
-    "amount": 20.0,
+    "threshold": 20.0,
     "actions": {
       "type": "ltminigames:target_player",
       "id": "84555089-add1-49b1-a26d-8021270a40f0",
