@@ -1,4 +1,4 @@
-setblock ~ ~ ~ minecraft:purple_glazed_terracotta
+setblock ~ ~ ~ minecraft:white_glazed_terracotta
 setblock ~ ~1 ~ minecraft:chest
 summon area_effect_cloud ~ ~ ~ {Duration:19999980,Tags:["survive_the_tide_3.loot_marker","survive_the_tide_3.loot_marker.tier_1"]}
 kill @s

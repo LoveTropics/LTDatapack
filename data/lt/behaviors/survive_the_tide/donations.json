@@ -356,6 +356,14 @@
         "entity": {
           "type": "minecraft:zombie",
           "tag": {
+            "Health": 8.0,
+            "IsBaby": false,
+            "Attributes": [
+              {
+                "Name": "generic.max_health",
+                "Base": 8
+              }
+            ],
             "ArmorItems": [
               {},
               {},
