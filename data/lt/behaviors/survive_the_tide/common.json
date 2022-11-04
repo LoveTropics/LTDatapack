@@ -19,6 +19,15 @@
     ]
   },
   {
+    "type": "ltminigames:on_kill",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      }
+    ]
+  },
+  {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
@@ -168,7 +177,7 @@
         {
           "type": "ltminigames:play_sound",
           "sound": "event.raid.horn",
-          "volume": 8.0
+          "volume": 16.0
         }
       ]
     },
