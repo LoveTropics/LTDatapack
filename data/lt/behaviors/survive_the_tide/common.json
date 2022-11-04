@@ -32,7 +32,7 @@
     "role": "participant",
     "respawn_as": "spectator",
     "death_message": {
-      "text": "☠ %1$s. They are eliminated!",
+      "text": "☠ %message%. They are eliminated!",
       "color": "gray"
     },
     "drop_inventory": true
