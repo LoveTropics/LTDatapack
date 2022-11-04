@@ -10,7 +10,7 @@
     "stop_delay": 760,
     "scheduled_messages": {
       "0": {
-        "text": "Through the rising sea levels, the volatile and chaotic weather, and the struggle to survive, one player remains: %1$s.",
+        "text": "Through the rising sea levels, the volatile and chaotic weather, and the struggle to survive, one player remains: %winner%.",
         "color": "gray"
       },
       "140": {
@@ -18,7 +18,7 @@
         "color": "gray"
       },
       "280": {
-        "text": "\nThe lone survivor of this city, %1$s, has won - but at what cost? The world is not what it once was, and they must survive in this new apocalyptic land.",
+        "text": "\nThe lone survivor of this city, %winner%, has won - but at what cost? The world is not what it once was, and they must survive in this new apocalyptic land.",
         "color": "gray"
       },
       "420": {
@@ -31,7 +31,7 @@
       }
     },
     "title": {
-      "text": "%1$s has won the game!",
+      "text": "%winner% has won the game!",
       "color": "gold"
     }
   },

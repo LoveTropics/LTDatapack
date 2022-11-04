@@ -91,16 +91,20 @@
     },
     "border_particles": [
       {
-        "particle": "minecraft:explosion",
+        "particle": {
+          "type": "minecraft:explosion"
+        },
         "rate": 1,
         "chance": 30,
-        "density": 4
+        "density": 4.0
       },
       {
-        "particle": "minecraft:portal",
+        "particle": {
+          "type": "minecraft:portal"
+        },
         "rate": 1,
         "chance": 10,
-        "density": 8
+        "density": 8.0
       }
     ],
     "particle_height": 110,

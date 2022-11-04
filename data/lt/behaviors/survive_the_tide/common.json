@@ -19,11 +19,34 @@
     ]
   },
   {
+    "type": "ltminigames:on_kill",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "text": "💀 ",
+          "color": "gray",
+          "extra": [
+            {
+              "text": "%killed%",
+              "color": "red"
+            }
+          ]
+        },
+        "stay": 30
+      }
+    ]
+  },
+  {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
     "death_message": {
-      "text": "☠ %1$s. They are eliminated!",
+      "text": "☠ %message%. They are eliminated!",
       "color": "gray"
     },
     "drop_inventory": true
@@ -168,7 +191,7 @@
         {
           "type": "ltminigames:play_sound",
           "sound": "event.raid.horn",
-          "volume": 8.0
+          "volume": 16.0
         }
       ]
     },
@@ -224,5 +247,10 @@
       ]
     },
     "interval": 80
+  },
+  {
+    "type": "ltminigames:scale_player_damage",
+    "factor": 0.5,
+    "host_factor": 0.35
   }
 ]

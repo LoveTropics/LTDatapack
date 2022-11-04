@@ -1,0 +1,176 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [1310, 59, 1342],
+      "max": [1411, 114, 1447]
+    }
+  },
+  "widgets": [
+    {
+      "type": "image",
+      "pos": [1325.5, 66.5, 1370.99],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/leafy_sea_dragon.png",
+        "size": [256, 171],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, -1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1317.01, 66.5, 1362.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/fisher_in_seagrass.png",
+        "size": [256, 171],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1325.5, 66.5, 1354.01],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/dugong.png",
+        "size": [256, 183],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, 1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1376.99, 65.5, 1363.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/green_sea_turtle.png",
+        "size": [256, 171],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [-1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1371.5, 66.5, 1358.01],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_1.png",
+        "size": [256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, 1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1371.5, 66.5, 1368.99],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_2.png",
+        "size": [256, 520],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, -1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1379.99, 66.5, 1387.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_3.png",
+        "size": [256, 453],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [-1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1370.99, 66.5, 1419.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_4.png",
+        "size": [256, 171],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [-1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1360.01, 66.5, 1419.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_5.png",
+        "size": [256, 190],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1344.99, 66.5, 1408.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_6.png",
+        "size": [256, 202],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [-1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1334.01, 66.5, 1408.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_7.png",
+        "size": [256, 170],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1339.5, 66.5, 1413.99],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seagrass_8.png",
+        "size": [256, 454],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, -1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1404.5, 66.5, 1438.01],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seascape_1.png",
+        "size": [256, 192],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, 1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1407.99, 66.5, 1441.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seascape_2.png",
+        "size": [256, 341],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [-1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1404.5, 66.5, 1444.99],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/seascape_3.png",
+        "size": [256, 171],
+        "uv": [0, 0, 256, 256]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, -1.0]
+    }
+  ]
+}
