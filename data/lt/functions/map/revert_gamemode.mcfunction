@@ -7,3 +7,4 @@ tag @s remove map.player.gamemode.adventure
 tag @s remove map.player.gamemode.spectator
 tag @s remove map.player.gamemode.survival
 tag @s remove map.player.gamemode
+title @s actionbar " "
