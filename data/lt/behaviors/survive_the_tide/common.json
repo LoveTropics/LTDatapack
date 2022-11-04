@@ -162,22 +162,6 @@
           "text": "The tide will soon begin to rise, and PVP will be enabled! Collect resources before the time runs out!",
           "icon": {"item": "minecraft:chest"},
           "visible_time_ms": 10000
-        },
-        {
-          "type": "ltminigames:set_blocks",
-          "region": "spawn_area",
-          "replace": {"tag": "minecraft:fences"},
-          "set": "air"
-        },
-        {
-          "type": "ltminigames:give_effect",
-          "effects": [
-            {
-              "type": "minecraft:slow_falling",
-              "seconds": 10,
-              "amplifier": 0
-            }
-          ]
         }
       ]
     },

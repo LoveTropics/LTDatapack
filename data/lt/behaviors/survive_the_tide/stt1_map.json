@@ -124,6 +124,27 @@
   },
   {
     "type": "ltminigames:phase_change",
+    "release_players": {
+      "target": "participants",
+      "actions": [
+        {
+          "type": "ltminigames:set_blocks",
+          "region": "spawn_area",
+          "replace": {"tag": "minecraft:fences"},
+          "set": "air"
+        },
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:slow_falling",
+              "seconds": 10,
+              "amplifier": 0
+            }
+          ]
+        }
+      ]
+    },
     "loot_drop": {
       "target": "all",
       "actions": [
