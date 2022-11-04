@@ -19,6 +19,15 @@
     ]
   },
   {
+    "type": "ltminigames:on_damage",
+    "actions":  [
+      {
+        "type": "ltminigames:spectator_activity",
+        "style": "red"
+      }
+    ]
+  },
+  {
     "type": "ltminigames:on_kill",
     "actions": [
       {
