@@ -127,36 +127,6 @@
       },
       "scale": 2.0,
       "point_along": [0.0, 0.0, -1.0]
-    },
-    {
-      "type": "image",
-      "pos": [1404.5, 67.5, 1438.01],
-      "texture": {
-        "path": "lttutorials:textures/research_centre/seascape_1.png",
-        "size": [256, 192]
-      },
-      "scale": 2.0,
-      "point_along": [0.0, 0.0, 1.0]
-    },
-    {
-      "type": "image",
-      "pos": [1407.99, 67.5, 1441.5],
-      "texture": {
-        "path": "lttutorials:textures/research_centre/seascape_2.png",
-        "size": [256, 341]
-      },
-      "scale": 2.0,
-      "point_along": [-1.0, 0.0, 0.0]
-    },
-    {
-      "type": "image",
-      "pos": [1404.5, 67.5, 1444.99],
-      "texture": {
-        "path": "lttutorials:textures/research_centre/seascape_3.png",
-        "size": [256, 171]
-      },
-      "scale": 2.0,
-      "point_along": [0.0, 0.0, -1.0]
     }
   ]
 }
