@@ -35,14 +35,11 @@
             ]
         },
         {
-            "rolls": {
-                "min": 1,
-                "max": 2
-            },
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/potions"
+                    "name": "lt:stt/tier_1/potions"
                 }
             ]
         },
