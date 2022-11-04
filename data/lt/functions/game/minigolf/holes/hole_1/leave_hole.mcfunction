@@ -6,6 +6,7 @@ execute as @a[tag=hole_1_player] run function lt:game/minigolf/core/golf_leave_m
 execute as @a[tag=hole_1_player] run playsound create:scroll_value ambient @s ~ ~ ~ 100 .05
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole_1_player] run function lt:game/minigolf/core/clear_putters
+tag @a[tag=hole_1_player] remove mini_golf_started
 execute as @a[tag=hole_1_player] run tag @s remove hole_1_player
 tag @a remove hole_1_timeup
 # Stops the timer
