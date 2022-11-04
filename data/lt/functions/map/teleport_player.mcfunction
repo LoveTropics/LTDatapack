@@ -1,4 +1,4 @@
-tellraw @s [{"text":"> ","color":"dark_gray"},{"text":"Teleport Complete!","color":"#77A12F"}]
+tellraw @s [{"text":"> ","color":"dark_gray"},{"text":"Teleport Complete!","color":"yellow"}]
 
 # Location : TEMPLATE
 #tp @s[tag=map.player.looking.TEMPLATE] XX YY ZZ YAW PITCH
