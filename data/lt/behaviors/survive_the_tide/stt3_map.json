@@ -91,7 +91,7 @@
       "start": "explosive_storm_start",
       "end": "explosive_storm_end"
     },
-    "border_particle": {
+    "border_particles": {
       "particle": "minecraft:explosion",
       "rate": 1,
       "chance": 30,
