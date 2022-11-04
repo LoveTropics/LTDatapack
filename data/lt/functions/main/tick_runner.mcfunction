@@ -36,4 +36,4 @@ execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:turtle_mas
 execute as @e[type=minecraft:area_effect_cloud,nbt={Color:266808},tag=!game.stt.blindness_aec] at @s run function lt:game/stt/entity/fix_blindness_aec
 
 # Make jelly bombs work
-execute as @e[tag=game.stt.jelly_bomb] at @s run function lt:game/stt/entity/jelly_bomb
+execute as @e[tag=game.stt.jelly_bomb,gamemode=adventure] at @s run function lt:game/stt/entity/jelly_bomb
