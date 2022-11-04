@@ -15,3 +15,5 @@ execute at @e[tag=hole_17_start] run tag @e[tag=golf_crab,distance=..5] add hole
 function lt:game/minigolf/core/give_putters
 # Starts the round of golf
 function lt:game/minigolf/holes/hole_17/timer
+tag @s add mini_golf_started
+scoreboard players add GolfCount golfGlobal 1

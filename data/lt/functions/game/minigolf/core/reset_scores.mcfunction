@@ -16,6 +16,7 @@ scoreboard players set hole15highscore golfGlobal 20
 scoreboard players set hole16highscore golfGlobal 20
 scoreboard players set hole17highscore golfGlobal 20
 scoreboard players set hole18highscore golfGlobal 20
+function lt:game/minigolf/core/create_scoreboards
 execute as @e[tag=golf_dummy] run data modify entity @s ProfileID set value [I; 1768587982,1106529105,-1439582096,-1685682448]
 execute as @e[tag=golf_dummy] run data modify entity @s NameSuffix set value '{"text":" - 20 ", "color":"green"}'
 execute as @e[tag=golf_dummy] run data modify entity @s NamePrefix set value '[{"text":" ","color":"red"},{"text":"Best Score: ","color":"green"}]'
