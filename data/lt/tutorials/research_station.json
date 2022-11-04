@@ -1,0 +1,42 @@
+{
+  "space": {
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "box": {
+      "min": [1310, 59, 1342],
+      "max": [1411, 114, 1447]
+    }
+  },
+  "widgets": [
+    {
+      "type": "image",
+      "pos": [1325.5, 66.5, 1369.99],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/leafy_sea_dragon.png",
+        "size": [256, 171]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, -1.0]
+    },
+    {
+      "type": "image",
+      "pos": [1317.01, 66.5, 1362.5],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/fisher_in_seagrass.png",
+        "size": [256, 171]
+      },
+      "scale": 1.0,
+      "point_along": [1.0, 0.0, 0.0]
+    },
+    {
+      "type": "image",
+      "pos": [1325.5, 66.5, 1354.01],
+      "texture": {
+        "path": "lttutorials:textures/research_centre/dugong.png",
+        "size": [256, 183]
+      },
+      "scale": 1.0,
+      "point_along": [0.0, 0.0, 1.0]
+    }
+  ]
+}
