@@ -6,7 +6,7 @@
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
   "minimum_participants": 3,
-  "maximum_participants": 16,
+  "maximum_participants": 24,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
