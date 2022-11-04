@@ -6,6 +6,19 @@
     "load_from": "lt:trash_dive",
     "dimension_type": "tropicraft:tropics"
   },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {"spawn": "spawn"}
+      }
+    ]
+  },
   "minimum_participants": 1,
   "maximum_participants": 64,
   "behaviors": [
@@ -48,18 +61,9 @@
     "ltminigames:disable_hunger",
     {
       "type": "ltminigames:armor_participants",
-      "head": "tropicraft:pink_scuba_goggles",
-      "chest": {
-        "id": "tropicraft:pink_scuba_harness",
-        "Count": 1,
-        "tag": {
-          "scuba": {
-            "air": 12000
-          }
-        }
-      },
       "feet": "tropicraft:pink_scuba_flippers"
-    }
+    },
+    "ltminigames:spectator_chase"
   ]
 }
 
