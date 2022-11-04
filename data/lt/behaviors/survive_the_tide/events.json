@@ -122,7 +122,7 @@
       },
       {
         "type": "ltminigames:shoot_projectiles_at_player",
-        "entity_count_per_player": 50,
+        "entity_count_per_player": 30,
         "spawn_distance_max": 40,
         "target_randomness": 10,
         "spawn_height": 20,

@@ -4,7 +4,7 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%1$s is swapping everyone with a nearby player!",
+        "text": "%sender% is swapping everyone with a nearby player!",
         "color": "red"
       },
       "icon": { "effect": "minecraft:unluck" },
@@ -14,7 +14,7 @@
       {
         "type": "ltminigames:countdown_action",
         "warning": {
-          "text": "You will be swapping with a nearby player in %1$s seconds!",
+          "text": "You will be swapping with a nearby player in %time% seconds!",
           "color": "red"
         },
         "countdown": 5,
@@ -31,7 +31,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a HUNGER SABOTAGE for 30 seconds!",
+        "text": "%sender% sent you a HUNGER SABOTAGE for 30 seconds!",
         "color": "red"
       },
       "icon": { "effect": "minecraft:hunger" },
@@ -59,7 +59,7 @@
     "package_type": "helpful_effects",
     "notification": {
       "message": {
-        "text": "%1$s sent you helpful effects for 1 minute!",
+        "text": "%sender% sent you helpful effects for 1 minute!",
         "color": "light_purple"
       },
       "icon": { "effect": "minecraft:regeneration" },
@@ -156,7 +156,7 @@
       {
         "type": "ltminigames:countdown_action",
         "warning": {
-          "text": "A wave of surprise creepers is spawning in %1$s seconds!",
+          "text": "A wave of surprise creepers is spawning in %time% seconds!",
           "color": "red"
         },
         "countdown": 5,

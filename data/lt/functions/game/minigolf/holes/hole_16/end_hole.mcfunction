@@ -17,6 +17,7 @@ execute unless score hole16hits golfGlobal > hole16highscore golfGlobal as @e[ta
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole_16_player] run function lt:game/minigolf/core/clear_putters
 execute as @a[tag=hole_16_player] run function lt:game/minigolf/core/gamemode_end
+tag @a[tag=hole_16_player] remove mini_golf_started
 execute as @a[tag=hole_16_player] run tag @s remove hole_16_player
 tag @a remove hole_16_timeup
 # Sets all scores to -1 mainly for debug reasons

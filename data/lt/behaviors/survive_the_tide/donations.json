@@ -10,7 +10,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%1$s sent you an ANTIDOTE PACKAGE!",
+        "text": "%sender% sent you an ANTIDOTE PACKAGE!",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -31,7 +31,7 @@
     "package_type": "knockback_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a KNOCKBACK PACKAGE! Use the Teeter Yeeter™ wisely.",
+        "text": "%sender% sent you a KNOCKBACK PACKAGE! Use the Teeter Yeeter™ wisely.",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:stick"},
@@ -53,7 +53,7 @@
     "package_type": "boom_package",
     "notification": {
       "message": {
-        "text": "%1$s sent everyone a BOOM PACKAGE of 4 Coconut Bombs!",
+        "text": "%sender% sent everyone a BOOM PACKAGE of 4 Coconut Bombs!",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:exploding_coconut"},
@@ -75,7 +75,7 @@
     "package_type": "invisibility_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you an INVISIBILITY PACKAGE! You are invisible for 2 minutes.",
+        "text": "%sender% sent you an INVISIBILITY PACKAGE! You are invisible for 2 minutes.",
         "color": "light_purple"
       },
       "icon": {"effect": "minecraft:invisibility"},
@@ -103,7 +103,7 @@
     "package_type": "undying_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you an UNDYING PACKAGE with a Totem of Undying!",
+        "text": "%sender% sent you an UNDYING PACKAGE with a Totem of Undying!",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:totem_of_undying"},
@@ -125,7 +125,7 @@
     "package_type": "slowness_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a SLOWNESS SABOTAGE for 2 minutes!",
+        "text": "%sender% sent you a SLOWNESS SABOTAGE for 2 minutes!",
         "color": "red"
       },
       "icon": {"effect": "minecraft:slowness"},
@@ -153,7 +153,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a HUNGER SABOTAGE for 1 minute!",
+        "text": "%sender% sent you a HUNGER SABOTAGE for 1 minute!",
         "color": "red"
       },
       "icon": {"effect": "minecraft:hunger"},
@@ -181,7 +181,7 @@
     "package_type": "random_creeper_package",
     "notification": {
       "message": {
-        "text": "%1$s sent a RANDOM CREEPER that found you! Look out!",
+        "text": "%sender% sent a RANDOM CREEPER that found you! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
@@ -209,7 +209,7 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%1$s is swapping everyone with another player!",
+        "text": "%sender% is swapping everyone with another player!",
         "color": "red"
       },
       "icon": { "effect": "minecraft:unluck" },
@@ -220,7 +220,7 @@
       {
         "type": "ltminigames:countdown_action",
         "warning": {
-          "text": "You will be swapping with another player in %1$s seconds!",
+          "text": "You will be swapping with another player in %time% seconds!",
           "color": "red"
         },
         "countdown": 5,
@@ -236,7 +236,7 @@
     "package_type": "chosen_creeper_package",
     "notification": {
       "message": {
-        "text": "%1$s sent you a CREEPER SABOTAGE! Look out!",
+        "text": "%sender% sent you a CREEPER SABOTAGE! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
@@ -264,7 +264,7 @@
     "package_type": "lightning_strike",
     "notification": {
       "message": {
-        "text": "%1$s sent you a LIGHTNING STRIKE! Look out!",
+        "text": "%sender% sent you a LIGHTNING STRIKE! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
@@ -289,7 +289,7 @@
     "package_type": "lightning_storm",
     "notification": {
       "message": {
-        "text": "%1$s started a LIGHTNING STORM! Look out!",
+        "text": "%sender% started a LIGHTNING STORM! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
@@ -329,7 +329,7 @@
     "package_type": "zombie_invasion_package",
     "notification": {
       "message": {
-        "text": "%1$s started a ZOMBIE INVASION! Look out!",
+        "text": "%sender% started a ZOMBIE INVASION! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:zombie_head"},
@@ -356,6 +356,14 @@
         "entity": {
           "type": "minecraft:zombie",
           "tag": {
+            "Health": 8.0,
+            "IsBaby": false,
+            "Attributes": [
+              {
+                "Name": "generic.max_health",
+                "Base": 8
+              }
+            ],
             "ArmorItems": [
               {},
               {},
@@ -384,7 +392,7 @@
     "package_type": "meteor_storm_package",
     "notification": {
       "message": {
-        "text": "%1$s started a METEOR STORM! Look out!",
+        "text": "%sender% started a METEOR STORM! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -424,7 +432,7 @@
     "package_type": "meteor_strike_package",
     "notification": {
       "message": {
-        "text": "%1$s sent a METEOR STRIKE to a random player! Look out!",
+        "text": "%sender% sent a METEOR STRIKE to a random player! Look out!",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -452,7 +460,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "You are now wearing %1$s's head, and you can't do anything about it!",
+        "text": "You are now wearing %sender%'s head, and you can't do anything about it!",
         "color": "red"
       },
       "icon": {"item": "minecraft:player_head"},
@@ -473,7 +481,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "Where did that pufferfish come from? %1$s may know.",
+        "text": "Where did that pufferfish come from? %sender% may know.",
         "color": "red"
       },
       "icon": {"item": "minecraft:pufferfish"},
@@ -628,7 +636,7 @@
     "package_type": "its_been_fun",
     "notification": {
       "message": {
-        "text": "It's been fun, but %1$s has ENDED THE GAME!",
+        "text": "It's been fun, but %sender% has ENDED THE GAME!",
         "color": "red"
       },
       "icon": {"item": "minecraft:tnt"},
@@ -659,7 +667,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%1$s turned you into a tornado!",
+        "text": "%sender% turned you into a tornado!",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -681,7 +689,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%1$s turned you into a baby tornado!",
+        "text": "%sender% turned you into a baby tornado!",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -699,7 +707,7 @@
 
   {
     "type": "ltminigames:donation_threshold",
-    "amount": 20.0,
+    "threshold": 20.0,
     "actions": {
       "type": "ltminigames:target_player",
       "id": "84555089-add1-49b1-a26d-8021270a40f0",

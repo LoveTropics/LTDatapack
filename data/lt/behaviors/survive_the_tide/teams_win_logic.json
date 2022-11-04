@@ -11,7 +11,7 @@
     "stop_delay": 760,
     "scheduled_messages": {
       "0": {
-        "text": "Through the rising sea levels, the volatile and chaotic weather, and the struggle to survive, one team remains: %1$s.",
+        "text": "Through the rising sea levels, the volatile and chaotic weather, and the struggle to survive, one team remains: %winner%.",
         "color": "gray"
       },
       "140": {
@@ -32,7 +32,7 @@
       }
     },
     "title": {
-      "text": "%1$s has won the game!",
+      "text": "%winner% has won the game!",
       "color": "gold"
     }
   }

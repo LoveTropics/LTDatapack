@@ -7,35 +7,35 @@ title @a[tag=map.player] actionbar {"text":"To interact with the map; Look at a 
 # Runs related functions based on armour stand being looked at
 #tag @a remove map.player.looking.TEMPLATE
 #execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.location.TEMPLATE,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.TEMPLATE
-tag @a remove map.player.looking.concert_island
-tag @a remove map.player.looking.research_centre
-tag @a remove map.player.looking.tropiland
-tag @a remove map.player.looking.town_square
-tag @a remove map.player.looking.shrimp_farm
-tag @a remove map.player.looking.scuba_centre
-tag @a remove map.player.looking.palm_plantation
-tag @a remove map.player.looking.boat_station_b
-tag @a remove map.player.looking.boat_station_a
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.concert_island,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.concert_island
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.research_centre,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.research_centre
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.tropiland,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.tropiland
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.town_square,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.town_square
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.shrimp_farm,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.shrimp_farm
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.scuba_centre,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.scuba_centre
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.palm_plantation,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.palm_plantation
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.boat_station_b,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.boat_station_b
-execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.boat_station_a,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.boat_station_a
+tag @a remove map.player.looking.banyan_tree
+tag @a remove map.player.looking.crab_golf
+tag @a remove map.player.looking.mountain_village
+tag @a remove map.player.looking.research_institute
+tag @a remove map.player.looking.resort
+tag @a remove map.player.looking.theatre
+tag @a remove map.player.looking.free_build_1
+tag @a remove map.player.looking.free_build_2
+tag @a remove map.player.looking.free_build_3
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.banyan_tree,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.banyan_tree
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.crab_golf,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.crab_golf
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.mountain_village,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.mountain_village
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.research_institute,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.research_institute
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.resort,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.resort
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.theatre,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.theatre
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_1,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_1
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_2,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_2
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_3,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_3
 # Show map info
 #execute as @a[tag=map.player.looking.TEMPLATE] at @s run function lt:map/map_location/TEMPLATE
-execute as @a[tag=map.player.looking.concert_island] at @s run function lt:map/map_location/concert_island
-execute as @a[tag=map.player.looking.research_centre] at @s run function lt:map/map_location/research_centre
-execute as @a[tag=map.player.looking.tropiland] at @s run function lt:map/map_location/tropiland
-execute as @a[tag=map.player.looking.town_square] at @s run function lt:map/map_location/town_square
-execute as @a[tag=map.player.looking.shrimp_farm] at @s run function lt:map/map_location/shrimp_farm
-execute as @a[tag=map.player.looking.scuba_centre] at @s run function lt:map/map_location/scuba_centre
-execute as @a[tag=map.player.looking.palm_plantation] at @s run function lt:map/map_location/palm_plantation
-execute as @a[tag=map.player.looking.boat_station_b] at @s run function lt:map/map_location/boat_station_b
-execute as @a[tag=map.player.looking.boat_station_a] at @s run function lt:map/map_location/boat_station_a
+execute as @a[tag=map.player.looking.banyan_tree] at @s run function lt:map/map_location/banyan_tree
+execute as @a[tag=map.player.looking.crab_golf] at @s run function lt:map/map_location/crab_golf
+execute as @a[tag=map.player.looking.mountain_village] at @s run function lt:map/map_location/mountain_village
+execute as @a[tag=map.player.looking.research_institute] at @s run function lt:map/map_location/research_institute
+execute as @a[tag=map.player.looking.resort] at @s run function lt:map/map_location/resort
+execute as @a[tag=map.player.looking.theatre] at @s run function lt:map/map_location/theatre
+execute as @a[tag=map.player.looking.free_build_1] at @s run function lt:map/map_location/free_build_1
+execute as @a[tag=map.player.looking.free_build_2] at @s run function lt:map/map_location/free_build_2
+execute as @a[tag=map.player.looking.free_build_3] at @s run function lt:map/map_location/free_build_3
 # Teleports map.marker.hit_tracker mobs ot their targets
 execute as @a[tag=map.player] at @s positioned ~ ~1 ~ run tp @e[tag=map.marker.hit_tracker,sort=nearest,limit=1,distance=..1.5] @s
 execute as @e[tag=map.marker.hit_tracker] at @s if entity @p[tag=map.player,distance=..1.5] run tp @s ~ ~1 ~

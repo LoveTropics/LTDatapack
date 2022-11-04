@@ -1,40 +1,37 @@
 [
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "marker": "purple_glazed_terracotta",
+    "marker": "white_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt3/tier_1",
+        "data": "lt:stt/tier_1",
         "weight": 1
       }
-    ]
-  },
-  {
-    "type": "ltminigames:fill_chests_by_marker",
-    "marker": "yellow_glazed_terracotta",
-    "loot_tables": [
-      {
-        "data": "lt:stt3/tier_2",
-        "weight": 1
-      }
-    ]
+    ],
+    "percentage": 0.5,
+    "max_per_chunk": 2
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "pink_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt3/tier_3",
-        "weight": 1
+        "data": "lt:stt/tier_2",
+        "weight": 17
+      },
+      {
+        "data": "lt:stt/tier_3",
+        "weight": 3
       }
-    ]
+    ],
+    "max_per_section": 1
   },
   {
     "type": "ltminigames:fill_chests_by_marker",
-    "marker": "red_glazed_terracotta",
+    "marker": "orange_glazed_terracotta",
     "loot_tables": [
       {
-        "data": "lt:stt3/tier_4",
+        "data": "lt:stt/tier_cornucopia",
         "weight": 1
       }
     ]
@@ -66,8 +63,7 @@
       "end": "icebergs_end"
     },
     "iceberg_lines_region": "iceberg_line",
-    "iceberg_growth_steps": 60,
-    "damage_depth": 2
+    "iceberg_growth_steps": 80
   },
   {
     "type": "ltminigames:scheduled_actions",
@@ -95,11 +91,27 @@
       "start": "explosive_storm_start",
       "end": "explosive_storm_end"
     },
-    "particle_rate_delay": 1,
+    "border_particles": [
+      {
+        "particle": {
+          "type": "minecraft:explosion"
+        },
+        "rate": 1,
+        "chance": 30,
+        "density": 4.0
+      },
+      {
+        "particle": {
+          "type": "minecraft:portal"
+        },
+        "rate": 1,
+        "chance": 10,
+        "density": 8.0
+      }
+    ],
     "particle_height": 110,
     "damage_rate_delay": 20,
-    "damage_amount": 4,
-    "border_particle": "minecraft:explosion"
+    "damage_amount": 4
   },
   {
     "type": "ltminigames:set_game_rules",
@@ -110,6 +122,32 @@
       "announceAdvancements": "false",
       "fallDamage": "true",
       "doTileDrops": "false"
+    }
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "loot_drop": {
+      "target": "all",
+      "actions": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
+          "icon": {"item": "minecraft:chest"},
+          "visible_time_ms": 12000
+        },
+        {
+          "type": "ltminigames:chest_drop",
+          "region": "loot_drop",
+          "loot_tables": [
+            {
+              "data": "lt:stt/tier_3",
+              "weight": 1
+            }
+          ],
+          "delay": 1200,
+          "count": 2
+        }
+      ]
     }
   }
 ]

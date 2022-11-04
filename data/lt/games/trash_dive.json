@@ -23,7 +23,7 @@
       "role": "participant",
       "respawn_as": "spectator",
       "death_message": {
-        "text": "☠ %1$s",
+        "text": "☠ %message%",
         "color": "gray"
       },
       "drop_inventory": false
@@ -41,7 +41,7 @@
       "length": 6000,
       "close_length": 60,
       "timer_bar": {
-        "text": "Time Remaining: %1$s...",
+        "text": "Time Remaining: %time%...",
         "color": "green"
       }
     },
