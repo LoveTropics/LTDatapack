@@ -38,7 +38,7 @@
   },
   {
     "type": "ltminigames:position_players",
-    "participants": "spawn",
+    "participants": ["spawn", "spawn_1", "spawn_2", "spawn_3", "spawn_4", "spawn_5", "spawn_6", "spawn_7", "spawn_8"],
     "spectators": "center"
   },
   {
