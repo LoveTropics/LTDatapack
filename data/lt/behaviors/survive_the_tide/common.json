@@ -24,6 +24,20 @@
       {
         "type": "ltminigames:play_sound",
         "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "text": "💀 ",
+          "color": "gray",
+          "extra": [
+            {
+              "text": "%killed%",
+              "color": "red"
+            }
+          ]
+        },
+        "stay": 30
       }
     ]
   },
