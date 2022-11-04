@@ -11,3 +11,4 @@ tag @s[gamemode=spectator,tag=!map.player] add map.player.gamemode.spectator
 tag @s[gamemode=survival,tag=!map.player] add map.player.gamemode.survival
 
 gamemode adventure
+playsound minecraft:block.note_block.pling master @s
