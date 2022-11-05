@@ -1,4 +1,6 @@
 kill @e[tag=stage.speaker.map]
+# because I Fucked up and don twant to edit the structure files
+kill @e[type=item_frame,nbt={Item:{id:"minecraft:filled_map"}},distance=..100,x=1550,y=35,z=358]
 
 # Left speaker 1
 setblock 1524 47 369 structure_block[mode=load]{ignoreEntities:0b,mode:"LOAD",name:"lt:stage/left_speaker_1_empty",posX:-3,posY:-9,posZ:0,sizeX:6,sizeY:9,sizeZ:5}
