@@ -7,12 +7,13 @@
       "pvp_enabled": 2400,
       "loot_drop": 4800,
       "mid_game": 9600,
+      "high_tide": 14400,
       "icebergs_start": 14400,
-      "icebergs_end": 20400,
-      "explosive_storm_start": 21000,
-      "explosive_storm_mid": 24000,
-      "explosive_storm_end": 27000,
-      "end": 27000
+      "icebergs_end": 18400,
+      "explosive_storm_start": 19000,
+      "explosive_storm_mid": 22000,
+      "explosive_storm_end": 25000,
+      "end": 25000
     },
     "max_time_step": 5,
     "fixed_time_step": {
@@ -26,7 +27,7 @@
       },
       {
         "left": 12,
-        "point": "icebergs_start"
+        "point": "high_tide"
       },
       {
         "left": 6,
@@ -35,6 +36,57 @@
       {
         "left": 3,
         "point": "explosive_storm_mid"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": "release_players",
+          "end": "pvp_enabled"
+        },
+        "text": {
+          "text": "Grace Period: PVP Disabled",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "pvp_enabled",
+          "end": "high_tide"
+        },
+        "text": {
+          "text": "Tides Rising",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "icebergs_start",
+          "end": "icebergs_end"
+        },
+        "text": {
+          "text": "Freezing Over",
+          "color": "aqua"
+        },
+        "color": "blue"
+      },
+      {
+        "period": {
+          "start": "explosive_storm_start",
+          "end": "explosive_storm_end"
+        },
+        "text": {
+          "text": "Explosive Storm",
+          "color": "red"
+        },
+        "color": "red"
       }
     ]
   }

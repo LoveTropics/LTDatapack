@@ -54,7 +54,7 @@
         "value": 125
       },
       {
-        "point": "icebergs_start",
+        "point": "high_tide",
         "value": "$tide"
       }
     ],

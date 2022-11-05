@@ -90,7 +90,7 @@
     },
     "tide_rising_period": {
       "start": "pvp_enabled",
-      "end": "icebergs_start"
+      "end": "high_tide"
     },
     "iceberg_growth_period": {
       "start": "icebergs_start",
@@ -100,57 +100,6 @@
       "start": "explosive_storm_start",
       "end": "explosive_storm_end"
     }
-  },
-  {
-    "type": "ltminigames:phase_progress_bar",
-    "entries": [
-      {
-        "period": {
-          "start": "release_players",
-          "end": "pvp_enabled"
-        },
-        "text": {
-          "text": "Grace Period: PVP Disabled",
-          "color": "yellow"
-        },
-        "color": "yellow",
-        "reversed": true,
-        "include_time": true
-      },
-      {
-        "period": {
-          "start": "pvp_enabled",
-          "end": "icebergs_start"
-        },
-        "text": {
-          "text": "Tides Rising",
-          "color": "red"
-        },
-        "color": "red"
-      },
-      {
-        "period": {
-          "start": "icebergs_start",
-          "end": "icebergs_end"
-        },
-        "text": {
-          "text": "Freezing Over",
-          "color": "aqua"
-        },
-        "color": "blue"
-      },
-      {
-        "period": {
-          "start": "explosive_storm_start",
-          "end": "explosive_storm_end"
-        },
-        "text": {
-          "text": "Explosive Storm",
-          "color": "red"
-        },
-        "color": "red"
-      }
-    ]
   },
   {
     "type": "ltminigames:phase_change",
