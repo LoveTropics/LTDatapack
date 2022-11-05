@@ -4,7 +4,7 @@
     "event_effects": {
       "hail": {
         "repellent": {
-          "item": "minecraft:acid_repellent_umbrella",
+          "item": "ltminigames:acid_repellent_umbrella",
           "rate": 60,
           "amount": 50
         },
