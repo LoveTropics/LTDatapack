@@ -706,6 +706,27 @@
   },
 
   {
+    "type": "ltminigames:donation_package",
+    "package_type": "sharknado",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "%sender% has spawned a SHARKNADO!",
+        "color": "light_purple"
+      },
+      "icon": {"item": "minecraft:milk_bucket"},
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:spawn_tornado",
+        "sharknado": true
+      }
+    ]
+  },
+
+  {
     "type": "ltminigames:donation_threshold",
     "threshold": 20.0,
     "actions": {
