@@ -126,6 +126,21 @@
   },
   {
     "type": "ltminigames:phase_change",
+    "release_players": {
+      "target": "participants",
+      "actions": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:slow_falling",
+              "seconds": 10,
+              "amplifier": 0
+            }
+          ]
+        }
+      ]
+    },
     "loot_drop": {
       "target": "all",
       "actions": [
