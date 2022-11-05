@@ -11,6 +11,7 @@ tp @s[tag=map.player.looking.free_build_2] 917 66 973 180 0
 tp @s[tag=map.player.looking.free_build_3] 593 67 1259 -90 0
 tp @s[tag=map.player.looking.resort] 545 63 371 135 -15
 tp @s[tag=map.player.looking.theatre] 775 66 1369 -70 0
+tp @s[tag=map.player.looking.stage] 1560 36 359 90 -5
 
 
 

@@ -16,6 +16,7 @@ tag @a remove map.player.looking.theatre
 tag @a remove map.player.looking.free_build_1
 tag @a remove map.player.looking.free_build_2
 tag @a remove map.player.looking.free_build_3
+tag @a remove map.player.looking.stage
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.banyan_tree,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.banyan_tree
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.crab_golf,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.crab_golf
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.mountain_village,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.mountain_village
@@ -25,6 +26,7 @@ execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored 
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_1,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_1
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_2,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_2
 execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.free_build_3,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.free_build_3
+execute in minecraft:overworld run execute as @a[tag=map.player] at @s anchored eyes facing entity @e[type=armor_stand,tag=map.marker,tag=map.marker.location.stage,distance=..50] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.06] run tag @s add map.player.looking.stage
 # Show map info
 #execute as @a[tag=map.player.looking.TEMPLATE] at @s run function lt:map/map_location/TEMPLATE
 execute as @a[tag=map.player.looking.banyan_tree] at @s run function lt:map/map_location/banyan_tree
@@ -36,6 +38,7 @@ execute as @a[tag=map.player.looking.theatre] at @s run function lt:map/map_loca
 execute as @a[tag=map.player.looking.free_build_1] at @s run function lt:map/map_location/free_build_1
 execute as @a[tag=map.player.looking.free_build_2] at @s run function lt:map/map_location/free_build_2
 execute as @a[tag=map.player.looking.free_build_3] at @s run function lt:map/map_location/free_build_3
+execute as @a[tag=map.player.looking.stage] at @s run function lt:map/map_location/stage
 # Teleports map.marker.hit_tracker mobs ot their targets
 execute as @a[tag=map.player] at @s positioned ~ ~1 ~ run tp @e[tag=map.marker.hit_tracker,sort=nearest,limit=1,distance=..1.5] @s
 execute as @e[tag=map.marker.hit_tracker] at @s if entity @p[tag=map.player,distance=..1.5] run tp @s ~ ~1 ~
