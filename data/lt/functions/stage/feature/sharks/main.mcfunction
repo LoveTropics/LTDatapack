@@ -1,0 +1,2 @@
+execute as @e[tag=stage.shark.upper,limit=1] at @s if score @s stage.shark matches 2.. run function lt:stage/feature/sharks/animation/dance
+execute as @e[tag=stage.shark.upper,limit=1] at @s if score @s stage.shark matches 1 run function lt:stage/feature/sharks/animation/dance_activate
