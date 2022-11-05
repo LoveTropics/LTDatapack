@@ -7,4 +7,4 @@ execute if score @s stage.shark matches 30 run data merge entity @s {Pose:{Head:
 execute if score @s stage.shark matches 20 run data merge entity @s {Pose:{Head:[0f,324f,0f],LeftArm:[318f,307f,0f],RightArm:[226f,42f,0f]}}
 execute if score @s stage.shark matches 10 run data merge entity @s {Pose:{Head:[337f,0f,0f],LeftArm:[220f,307f,0f],RightArm:[226f,42f,0f]}}
 
-scoreboard players remove @s stage.shark 2 
+scoreboard players remove @s stage.shark 1 
