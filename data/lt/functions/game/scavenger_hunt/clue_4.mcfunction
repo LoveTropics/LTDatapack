@@ -1,4 +1,4 @@
 execute unless score @s scavenger_hunt matches 0.. run scoreboard players set @s scavenger_hunt 0
 execute if score @s scavenger_hunt matches 3.. run give @p written_book{pages:['["",{"text":"___________________","color":"#BLACK"},{"text":"\\n\\nWhat we see is a giant wheel, but only one of us in the key to your next clue.\\n","color":"reset"},{"text":"___________________","color":"#BLACK"}]'],title:"Clue #4",author:"The Riddle Master"}
 execute if score @s scavenger_hunt matches 3 run scoreboard players set @s scavenger_hunt 4
-execute if score @s scavenger_hunt matches 0..3 run tellraw @s ["",{"text":"You must complate the "},{"text":"scavenger hunt","bold":true,"color":"red"},{"text":" in order"}]
+execute if score @s scavenger_hunt matches 0..3 run tellraw @s ["",{"text":"You must complete the "},{"text":"scavenger hunt","bold":true,"color":"red"},{"text":" in order"}]
