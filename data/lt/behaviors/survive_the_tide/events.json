@@ -175,5 +175,27 @@
         "seconds": 60
       }
     ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "hail_event",
+    "player_select": "all",
+    "notification": {
+      "message": {
+        "text": "Chat has started a HAILSTORM for 1 minute!",
+        "color": "light_purple"
+      },
+      "icon": { "item": "ltminigames:acid_repellent_umbrella" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:weather_event",
+        "event": "hail",
+        "seconds": 60
+      }
+    ]
   }
 ]
