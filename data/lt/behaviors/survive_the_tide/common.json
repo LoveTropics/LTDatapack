@@ -244,6 +244,6 @@
   {
     "type": "ltminigames:scale_player_damage",
     "factor": 0.5,
-    "host_factor": 0.35
+    "host_factor": 0.25
   }
 ]
