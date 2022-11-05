@@ -2,3 +2,5 @@ summon dummyplayers:dummy_player 1526.75 42.00 359 {Tags:["stage.dj"],Rotation:[
 
 scoreboard players set @e[tag=stage.dj] stage.dj 0
 scoreboard players set anim_state stage.dj 1
+
+schedule function lt:stage/feature/dj/animation/dance_activate 2s
