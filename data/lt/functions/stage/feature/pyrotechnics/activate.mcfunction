@@ -1,11 +1,11 @@
-setblock 1527 38 356 stone
-setblock 1527 38 362 stone
-setblock 1533 34 375 stone
-setblock 1537 34 379 stone
-setblock 1541 34 382 stone
-setblock 1533 34 342 stone
-setblock 1538 34 339 stone
-setblock 1543 34 337 stone
+setblock 1527 38 356 ltextras:particle_emitter{Mode:1}
+setblock 1527 38 362 ltextras:particle_emitter{Mode:1}
+setblock 1533 34 375 ltextras:particle_emitter{Mode:1}
+setblock 1537 34 379 ltextras:particle_emitter{Mode:0}
+setblock 1541 34 382 ltextras:particle_emitter{Mode:1}
+setblock 1533 34 342 ltextras:particle_emitter{Mode:1}
+setblock 1538 34 339 ltextras:particle_emitter{Mode:0}
+setblock 1543 34 337 ltextras:particle_emitter{Mode:1}
 
 setblock 1527 37 356 redstone_block
 setblock 1527 37 362 redstone_block
