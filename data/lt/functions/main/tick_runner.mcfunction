@@ -41,3 +41,7 @@ execute as @e[tag=game.stt.jelly_bomb,gamemode=adventure] at @s run function lt:
 # back to map teleporters
 execute as @e[tag=map.teleporter] at @s run particle minecraft:portal ~ ~1 ~ 0.1 0.35 0.1 0.025 1 force @a[distance=..15]
 execute as @e[tag=map.teleporter] at @s run execute as @a[distance=..0.75] at @s run function lt:map/back_to_map
+
+# Stage stuff
+execute if entity @e[tag=stage.dj] run function lt:stage/feature/dj/main
+execute if entity @e[tag=stage.shark] run function lt:stage/feature/sharks/main
