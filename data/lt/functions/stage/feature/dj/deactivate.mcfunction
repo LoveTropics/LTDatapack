@@ -1,0 +1,1 @@
+kill @e[tag=stage.dj]
