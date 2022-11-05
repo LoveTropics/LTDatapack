@@ -1,4 +1,4 @@
 {
-  "enter_commands": ["build enable @s", "tag @s add building"],
-  "exit_commands": ["build disable @s", "tag @s remove building"]
+  "enter_commands": ["build enable @s", "tag @s add building", "role assign @s build_mode"],
+  "exit_commands": ["build disable @s", "tag @s remove building", "role remove @s build_mode"]
 }
