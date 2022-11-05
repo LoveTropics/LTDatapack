@@ -633,7 +633,7 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "its_been_fun",
+    "package_type": "its_been_fun2",
     "notification": {
       "message": {
         "text": "It's been fun, but %sender% has ENDED THE GAME!",
