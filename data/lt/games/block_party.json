@@ -52,7 +52,17 @@
       "named_points": {
         "start": 0,
         "end": 999999999
-      }
+      },
+      "time_by_player_count": [
+        {
+          "left": 1000,
+          "point": "start"
+        },
+        {
+          "left": 999,
+          "point": "end"
+        }
+      ]
     },
     {
       "type": "ltminigames:survive_the_tide_ruleset",
@@ -60,17 +70,7 @@
         "start": "start",
         "end": "end"
       },
-      "force_drop_items_on_death": false,
-      "time_by_player_count": [
-        {
-          "left": 1000,
-          "point": "start"
-        },
-        {
-          "left": 1000,
-          "point": "end"
-        }
-      ]
+      "force_drop_items_on_death": false
     }
   ]
 }
