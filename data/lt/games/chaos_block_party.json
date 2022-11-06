@@ -1,5 +1,5 @@
 {
-  "name": "Block Party",
+  "name": "Chaos Block Party",
 
   "statistics_key": "block_party",
   "map": {
@@ -26,9 +26,8 @@
         "minecraft:grass_block"
       ],
       "quad_size": 3,
-      "max_time": 280,
-      "time_decay_rounds": 10,
-      "interval": 80
+      "max_time": 180,
+      "time_decay_rounds": 10
     },
     "ltminigames:disable_hunger",
     {
@@ -44,23 +43,8 @@
     },
     {
       "type": "ltminigames:cancel_player_damage",
-      "knockback": false
+      "knockback": true
     },
-    "ltminigames:spectator_chase",
-    {
-      "type": "ltminigames:progression",
-      "named_points": {
-        "start": 0,
-        "end": 999999999
-      }
-    },
-    {
-      "type": "ltminigames:survive_the_tide_ruleset",
-      "safe_period": {
-        "start": "start",
-        "end": "end"
-      },
-      "force_drop_items_on_death": false
-    }
+    "ltminigames:spectator_chase"
   ]
 }
