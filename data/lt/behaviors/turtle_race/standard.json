@@ -1,4 +1,5 @@
 [
+  "lt:turtle_race/donations",
   {
     "type": "lt:common/playing",
     "game_type": "adventure",

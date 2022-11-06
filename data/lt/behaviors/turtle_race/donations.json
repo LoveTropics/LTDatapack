@@ -1,0 +1,135 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "speed_boost_1_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SPEED BOOST for 1 second! Wow",
+        "color": "green"
+      },
+      "icon": { "effect": "minecraft:speed" },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:turtle_boost",
+        "amount": 1.2,
+        "duration": 20
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "speed_boost_5_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SPEED BOOST for 5 seconds!",
+        "color": "green"
+      },
+      "icon": { "effect": "minecraft:speed" },
+      "sentiment": "positive",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:package_receive",
+        "amount": 1.2,
+        "duration": 100
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "speed_boost_30_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SPEED BOOST for 30 seconds!",
+        "color": "green"
+      },
+      "icon": { "effect": "minecraft:speed" },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:turtle_boost",
+        "amount": 1.2,
+        "duration": 600
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "slowness_1_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SLOWNESS PACKAGE for 1 second! Wow",
+        "color": "red"
+      },
+      "icon": { "effect": "minecraft:slowness" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:turtle_boost",
+        "amount": -0.6,
+        "duration": 20
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "slowness_5_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SLOWNESS PACKAGE for 5 seconds!",
+        "color": "red"
+      },
+      "icon": { "effect": "minecraft:slowness" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:turtle_boost",
+        "amount": -0.6,
+        "duration": 100
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "package_type": "slowness_30_package",
+    "notification": {
+      "message": {
+        "text": "%sender% sent you a SLOWNESS PACKAGE for 30 seconds!",
+        "color": "red"
+      },
+      "icon": { "effect": "minecraft:slowness" },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "player_select": "specific",
+    "receive_actions": [
+      { "type": "ltminigames:give_player_head_package" },
+      {
+        "type": "ltminigames:turtle_boost",
+        "amount": -0.6,
+        "duration": 600
+      }
+    ]
+  }
+]

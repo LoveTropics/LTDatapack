@@ -5,6 +5,7 @@
   "subtitle": "Standard 2 Lap - LT21",
   "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_1.png",
   "statistics_key": "race_standard_21",
+  "backend_id": "lt:turtle_race",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:turtle_race_21",
