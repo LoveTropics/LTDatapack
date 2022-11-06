@@ -17,7 +17,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Coconut Go Boom On Throw! - Got it?\",\"color\":\"red\",\"bold\":true,\"italic\":false}'},explosion_radius:1.0}"
+                            "tag": "{display:{Name:'{\"text\":\"Coconut Go Boom On Throw! - Got it?\",\"color\":\"red\",\"bold\":true,\"italic\":false}'},explosion_radius:0.6}"
                         }
                     ]
                 }
