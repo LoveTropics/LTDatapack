@@ -7,7 +7,7 @@
   "backend_id": "lt:survive_the_tide_3",
 
   "minimum_participants": 3,
-  "maximum_participants": 32,
+  "maximum_participants": 40,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
