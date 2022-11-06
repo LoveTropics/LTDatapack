@@ -60,7 +60,17 @@
         "start": "start",
         "end": "end"
       },
-      "force_drop_items_on_death": false
+      "force_drop_items_on_death": false,
+      "time_by_player_count": [
+        {
+          "left": 1000,
+          "point": "start"
+        },
+        {
+          "left": 1000,
+          "point": "end"
+        }
+      ]
     }
   ]
 }
