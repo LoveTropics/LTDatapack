@@ -31,13 +31,13 @@
       },
       "icon": { "effect": "minecraft:speed" },
       "sentiment": "positive",
-      "sound": "ltminigames:sabotage_receive"
+      "sound": "ltminigames:package_receive"
     },
     "player_select": "specific",
     "receive_actions": [
       { "type": "ltminigames:give_player_head_package" },
       {
-        "type": "ltminigames:package_receive",
+        "type": "ltminigames:turtle_boost",
         "amount": 1.2,
         "duration": 100
       }
