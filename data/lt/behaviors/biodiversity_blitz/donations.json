@@ -183,7 +183,7 @@
     },
     "receive_actions": [
       {
-        "type": "ltminigames:equaize_currency"
+        "type": "ltminigames:equalize_currency"
       }
     ]
   }
