@@ -63,13 +63,14 @@
     "lt:biodiversity_blitz/plots_teams",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
-      "interval_seconds": 80,
-      "warn_seconds": 30,
+      "interval_seconds": 60,
+      "warn_seconds": 20,
       "difficulty_factors": {
         "easy": 0.5,
         "normal": 1.0,
         "hard": 1.5
       },
+      "size_curve_always": true,
       "size_curve": {
         "lower": 2.0,
         "upper": 10.0,
@@ -87,7 +88,7 @@
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 3.0,
+        "base": 2.5,
         "bound": 20.5,
         "diversity_factor": 0.33
       },
@@ -123,7 +124,7 @@
     "lt:biodiversity_blitz/donations",
     {
       "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
-      "threshold_currency": 600
+      "threshold_currency": 1000
     },
     {
       "type": "ltminigames:game_end_effects",
