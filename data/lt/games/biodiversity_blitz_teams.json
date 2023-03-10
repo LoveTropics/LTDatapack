@@ -72,8 +72,8 @@
       },
       "size_curve_always": true,
       "size_curve": {
-        "lower": 2.0,
-        "upper": 10.0,
+        "lower": 1.0,
+        "upper": 15.0,
         "base": 3.0,
         "scale": 1.0
       },
