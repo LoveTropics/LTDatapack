@@ -73,7 +73,7 @@
       "size_curve_always": true,
       "size_curve": {
         "lower": 1.0,
-        "upper": 15.0,
+        "upper": 18.0,
         "base": 3.0,
         "scale": 1.0
       },
@@ -88,7 +88,7 @@
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 2.5,
+        "base": 2.0,
         "bound": 20.5,
         "diversity_factor": 0.33
       },
@@ -102,7 +102,7 @@
     },
     "lt:biodiversity_blitz/plants",
     "ltminigames:biodiversity_blitz",
-    "lt:biodiversity_blitz/intro",
+    "lt:biodiversity_blitz/intro_teams",
     "lt:biodiversity_blitz/tips_and_tricks",
     {
       "type": "ltminigames:biodiversity_blitz_give_plants",

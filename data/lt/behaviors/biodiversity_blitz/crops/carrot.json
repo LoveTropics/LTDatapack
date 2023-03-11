@@ -42,7 +42,7 @@
       },
       {
         "type": "ltminigames:plant_health",
-        "health": 24
+        "health": 16
       },
       {
         "type": "ltminigames:aging_plant",
