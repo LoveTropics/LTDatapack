@@ -1,5 +1,5 @@
 [
-  "ltminigames:setup_telemetry",
+  "ltminigames:setup_integrations",
   {
     "type": "ltminigames:set_game_types",
     "participant": "$game_type",
