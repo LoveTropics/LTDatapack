@@ -61,6 +61,7 @@
     "lt:survive_the_tide/pets",
     "lt:survive_the_tide/ruleset",
     "lt:survive_the_tide/teams_win_logic",
+    "lt:survive_the_tide/teams_glow_members",
     "lt:survive_the_tide/weather_stt3",
     "lt:survive_the_tide/intro",
     "lt:survive_the_tide/stream_integrations",
