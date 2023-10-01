@@ -56,6 +56,15 @@
       {
         "input": {"id": "ltminigames:osa_point", "Count": 20},
         "output": {"id": "ltminigames:acid_repellent_umbrella", "Count": 1}
+      },
+
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 48},
+        "output": "minecraft:anvil"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 4},
+        "output": "minecraft:paper"
       }
     ]
   }
