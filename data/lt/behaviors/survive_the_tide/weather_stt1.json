@@ -98,12 +98,6 @@
         "extra_rand_time": 800
       }
     },
-    "wind_speed": {
-      "start": 0.1,
-      "pvp_enabled": 0.5,
-      "mid_game": 1.0,
-      "high_tide": 1.5
-    },
     "halve_event_time": {
       "start": "high_tide",
       "end": "end"
@@ -112,5 +106,14 @@
     "sandstorm_max_stackable": 1,
     "snowstorm_buildup_tickrate": 80,
     "snowstorm_max_stackable": 1
+  },
+  {
+    "type": "ltminigames:stt_wind_control",
+    "wind_speed": {
+      "start": 0.1,
+      "pvp_enabled": 0.5,
+      "mid_game": 1.0,
+      "high_tide": 1.5
+    }
   }
 ]
