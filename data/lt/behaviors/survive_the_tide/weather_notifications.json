@@ -1,0 +1,82 @@
+[
+  {
+    "type": "ltminigames:weather_change_trigger",
+    "events": {
+      "acid_rain": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "WEATHER REPORT:\nAcid Rain is falling!\nFind shelter, or make sure to carry an Acid Repellent Umbrella!",
+          "icon": {
+            "item": "ltminigames:acid_repellent_umbrella"
+          },
+          "sentiment": "negative",
+          "color": "dark"
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.villager.no"
+        }
+      ],
+      "hail": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "WEATHER REPORT:\nHail is falling!\nFind shelter, or make sure to carry an Acid Repellent Umbrella!",
+          "icon": {
+            "item": "ltminigames:acid_repellent_umbrella"
+          },
+          "sentiment": "negative",
+          "color": "dark"
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.villager.no"
+        }
+      ],
+      "heatwave": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "WEATHER REPORT:\nA Heat Wave is passing!\nStay inside, or make sure to equip Super Sunscreen!",
+          "icon": {
+            "item": "ltminigames:super_sunscreen"
+          },
+          "sentiment": "negative",
+          "color": "dark"
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.villager.no"
+        }
+      ],
+      "sandstorm": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "WEATHER REPORT:\nA Sandstorm is passing!\nFind shelter!",
+          "icon": {
+            "item": "minecraft:sand"
+          },
+          "sentiment": "negative",
+          "color": "dark"
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.villager.no"
+        }
+      ],
+      "snowstorm": [
+        {
+          "type": "ltminigames:notification_toast",
+          "text": "WEATHER REPORT:\nA Snowstorm is passing!\nFind shelter!",
+          "icon": {
+            "item": "minecraft:snow_block"
+          },
+          "sentiment": "negative",
+          "color": "dark"
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.villager.no"
+        }
+      ]
+    }
+  }
+]

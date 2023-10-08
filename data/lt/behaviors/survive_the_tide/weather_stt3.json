@@ -1,4 +1,6 @@
 [
+  "lt:survive_the_tide/weather_notifications",
+
   {
     "type": "ltminigames:add_weather",
     "event_effects": {
