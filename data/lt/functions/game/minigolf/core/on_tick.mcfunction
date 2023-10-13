@@ -1,18 +1,19 @@
-execute as @e[tag=golf_crab,tag=hole_1,nbt={HurtTime:1s}] at @s run scoreboard players add hole1hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_2,nbt={HurtTime:1s}] at @s run scoreboard players add hole2hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_3,nbt={HurtTime:1s}] at @s run scoreboard players add hole3hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_4,nbt={HurtTime:1s}] at @s run scoreboard players add hole4hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_5,nbt={HurtTime:1s}] at @s run scoreboard players add hole5hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_6,nbt={HurtTime:1s}] at @s run scoreboard players add hole6hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_7,nbt={HurtTime:1s}] at @s run scoreboard players add hole7hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_8,nbt={HurtTime:1s}] at @s run scoreboard players add hole8hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_9,nbt={HurtTime:1s}] at @s run scoreboard players add hole9hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_10,nbt={HurtTime:1s}] at @s run scoreboard players add hole10hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_11,nbt={HurtTime:1s}] at @s run scoreboard players add hole11hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_12,nbt={HurtTime:1s}] at @s run scoreboard players add hole12hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_13,nbt={HurtTime:1s}] at @s run scoreboard players add hole13hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_14,nbt={HurtTime:1s}] at @s run scoreboard players add hole14hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_15,nbt={HurtTime:1s}] at @s run scoreboard players add hole15hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_16,nbt={HurtTime:1s}] at @s run scoreboard players add hole16hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_17,nbt={HurtTime:1s}] at @s run scoreboard players add hole17hits golfGlobal 1
-execute as @e[tag=golf_crab,tag=hole_18,nbt={HurtTime:1s}] at @s run scoreboard players add hole18hits golfGlobal 1
+execute if entity @a[tag=hole01Player] run function lt:game/minigolf/holes/hole_01/tick
+
+execute as @e[tag=hole02Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole02Hits golf.global 1
+execute as @e[tag=hole03Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole03Hits golf.global 1
+execute as @e[tag=hole04Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole04Hits golf.global 1
+execute as @e[tag=hole05Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole05Hits golf.global 1
+execute as @e[tag=hole06Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole06Hits golf.global 1
+execute as @e[tag=hole07Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole07Hits golf.global 1
+execute as @e[tag=hole08Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole08Hits golf.global 1
+execute as @e[tag=hole09Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole09Hits golf.global 1
+execute as @e[tag=hole10Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole10Hits golf.global 1
+execute as @e[tag=hole11Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole11Hits golf.global 1
+execute as @e[tag=hole12Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole12Hits golf.global 1
+execute as @e[tag=hole13Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole13Hits golf.global 1
+execute as @e[tag=hole14Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole14Hits golf.global 1
+execute as @e[tag=hole15Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole15Hits golf.global 1
+execute as @e[tag=hole16Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole16Hits golf.global 1
+execute as @e[tag=hole17Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole17Hits golf.global 1
+execute as @e[tag=hole18Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole18Hits golf.global 1
