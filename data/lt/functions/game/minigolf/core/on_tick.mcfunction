@@ -1,19 +1,18 @@
 execute if entity @a[tag=hole01Player] run function lt:game/minigolf/holes/hole_01/tick
-
-execute as @e[tag=hole02Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole02Hits golf.global 1
-execute as @e[tag=hole03Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole03Hits golf.global 1
-execute as @e[tag=hole04Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole04Hits golf.global 1
-execute as @e[tag=hole05Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole05Hits golf.global 1
-execute as @e[tag=hole06Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole06Hits golf.global 1
-execute as @e[tag=hole07Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole07Hits golf.global 1
-execute as @e[tag=hole08Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole08Hits golf.global 1
-execute as @e[tag=hole09Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole09Hits golf.global 1
-execute as @e[tag=hole10Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole10Hits golf.global 1
-execute as @e[tag=hole11Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole11Hits golf.global 1
-execute as @e[tag=hole12Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole12Hits golf.global 1
-execute as @e[tag=hole13Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole13Hits golf.global 1
-execute as @e[tag=hole14Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole14Hits golf.global 1
-execute as @e[tag=hole15Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole15Hits golf.global 1
-execute as @e[tag=hole16Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole16Hits golf.global 1
-execute as @e[tag=hole17Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole17Hits golf.global 1
-execute as @e[tag=hole18Crab,nbt={HurtTime:1s}] at @s run scoreboard players add hole18Hits golf.global 1
+execute if entity @a[tag=hole02Player] run function lt:game/minigolf/holes/hole_02/tick
+execute if entity @a[tag=hole03Player] run function lt:game/minigolf/holes/hole_03/tick
+execute if entity @a[tag=hole04Player] run function lt:game/minigolf/holes/hole_04/tick
+execute if entity @a[tag=hole05Player] run function lt:game/minigolf/holes/hole_05/tick
+execute if entity @a[tag=hole06Player] run function lt:game/minigolf/holes/hole_06/tick
+execute if entity @a[tag=hole07Player] run function lt:game/minigolf/holes/hole_07/tick
+execute if entity @a[tag=hole08Player] run function lt:game/minigolf/holes/hole_08/tick
+execute if entity @a[tag=hole09Player] run function lt:game/minigolf/holes/hole_09/tick
+execute if entity @a[tag=hole10Player] run function lt:game/minigolf/holes/hole_10/tick
+execute if entity @a[tag=hole11Player] run function lt:game/minigolf/holes/hole_11/tick
+execute if entity @a[tag=hole12Player] run function lt:game/minigolf/holes/hole_12/tick
+execute if entity @a[tag=hole13Player] run function lt:game/minigolf/holes/hole_13/tick
+execute if entity @a[tag=hole14Player] run function lt:game/minigolf/holes/hole_14/tick
+execute if entity @a[tag=hole15Player] run function lt:game/minigolf/holes/hole_15/tick
+execute if entity @a[tag=hole16Player] run function lt:game/minigolf/holes/hole_16/tick
+execute if entity @a[tag=hole17Player] run function lt:game/minigolf/holes/hole_17/tick
+execute if entity @a[tag=hole18Player] run function lt:game/minigolf/holes/hole_18/tick

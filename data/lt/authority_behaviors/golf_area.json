@@ -1,14 +1,8 @@
 {
   "enter_commands": [
-    "function lt:game/minigolf/core/clear_putters",
-    "function lt:game/minigolf/core/gamemode_end",
-    "execute if score FiddlerMode golfGlobal matches 1 run disguise as tropicraft:fiddler_crab 1 {Attributes:[{Base:0.4,Name:\"minecraft:generic.movement_speed\"}]}",
-    "execute if score FiddlerMode golfGlobal matches 2 run disguise as tropicraft:fiddler_crab 2 {Attributes:[{Base:0.4,Name:\"minecraft:generic.movement_speed\"}]}",
-    "execute if score FiddlerMode golfGlobal matches 3 run disguise as tropicraft:fiddler_crab 3 {Attributes:[{Base:0.4,Name:\"minecraft:generic.movement_speed\"}]}"
-
+    "function lt:game/minigolf/core/end_hole"
   ],
   "exit_commands": [
-    "execute as @s run function lt:game/minigolf/core/golf_leave",
-    "disguise clear"
+    "execute as @s run function lt:game/minigolf/core/golf_leave"
   ]
 }
