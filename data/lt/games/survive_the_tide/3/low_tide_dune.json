@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "Low Tide - SNOWPOCALYPSE",
+  "subtitle": "Low Tide - DUUUUUNE",
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
   "statistics_key": "survive_the_tide",
@@ -32,16 +32,15 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type":  "lt:survive_the_tide/stt3_map",
+      "type":  "lt:survive_the_tide/3/map",
       "tide": 180
     },
-    "lt:survive_the_tide/stt3_phases",
+    "lt:survive_the_tide/3/phases",
     "lt:survive_the_tide/pets",
     "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/individuals_win_logic",
-    "lt:survive_the_tide/weather_stt_snowpocalypse",
+    "lt:survive_the_tide/mode/ffa/win_logic",
+    "lt:survive_the_tide/weather/dune",
     "lt:survive_the_tide/intro",
-    "lt:survive_the_tide/stream_integrations",
     "lt:survive_the_tide/common"
   ]
 }

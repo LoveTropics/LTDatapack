@@ -1,12 +1,12 @@
 [
-  "lt:survive_the_tide/weather_notifications",
+  "lt:survive_the_tide/weather/notifications",
 
   {
     "type": "ltminigames:add_weather",
     "event_effects": {
       "hail": {
         "repellent": {
-          "item": "ltminigames:acid_repellent_umbrella",
+          "item": "minecraft:acid_repellent_umbrella",
           "rate": 60,
           "amount": 50
         },
@@ -69,20 +69,15 @@
         "start": 0.0,
         "pvp_enabled": 0.015,
         "mid_game": 0.02,
-        "high_tide": 0.0
+        "high_tide": 0.025
       },
       "sandstorm": {
         "start": 0.0,
-        "pvp_enabled": 0.0,
-        "mid_game": 0.0,
-        "high_tide": 0.0
+        "pvp_enabled": 0.015,
+        "mid_game": 0.02,
+        "high_tide": 0.025
       },
-      "snowstorm": {
-        "start": 0.0,
-        "pvp_enabled": 0.0,
-        "mid_game": 0.0,
-        "high_tide": 0.03
-      }
+      "snowstorm": {}
     },
     "event_timers": {
       "heavy_rain": {

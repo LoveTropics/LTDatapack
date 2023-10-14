@@ -1,13 +1,13 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "Low Tide - DUUUUUNE",
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_1"},
+  "subtitle": "2 Teams",
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
   "statistics_key": "survive_the_tide",
-  "backend_id": "lt:survive_the_tide_3",
+  "backend_id": "lt:survive_the_tide_1_teams",
 
   "minimum_participants": 3,
-  "maximum_participants": 32,
+  "maximum_participants": 40,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
@@ -17,13 +17,17 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": {"spawn": "spawn"}
-      }
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
     ]
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:survive_the_tide_3"
+    "load_from": "lt:survive_the_tide",
+    "dimension_type": "tropicraft:tropics"
   },
   "behaviors": [
     {
@@ -31,17 +35,14 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    {
-      "type":  "lt:survive_the_tide/stt3_map",
-      "tide": 180
-    },
-    "lt:survive_the_tide/stt3_phases",
-    "lt:survive_the_tide/pets",
-    "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/individuals_win_logic",
-    "lt:survive_the_tide/weather_stt_dune",
+    "ltminigames:teams",
+    "lt:survive_the_tide/1/map",
+    "lt:survive_the_tide/1/phases",
     "lt:survive_the_tide/intro",
-    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/mode/teams/win_logic",
+    "lt:survive_the_tide/mode/teams/glow",
+    "lt:survive_the_tide/1/weather",
     "lt:survive_the_tide/common"
   ]
 }

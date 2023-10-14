@@ -1,14 +1,14 @@
 [
-  "lt:survive_the_tide/weather_notifications",
+  "lt:survive_the_tide/weather/notifications",
 
   {
     "type": "ltminigames:add_weather",
     "event_effects": {
       "hail": {
         "repellent": {
-          "item": "minecraft:acid_repellent_umbrella",
+          "item": "minecraft:diamond",
           "rate": 60,
-          "amount": 50
+          "amount": 3
         },
         "damage": {
           "rate": 60,
@@ -49,14 +49,14 @@
     "event_chances": {
       "heavy_rain": {
         "start": 0.0,
-        "pvp_enabled": 0.015,
-        "mid_game": 0.02,
-        "high_tide": 0.025
+        "pvp_enabled": 0.005,
+        "mid_game": 0.005,
+        "high_tide": 0.01
       },
       "acid_rain": {
         "start": 0.0,
-        "pvp_enabled": 0.015,
-        "mid_game": 0.02,
+        "pvp_enabled": 0.0,
+        "mid_game": 0.0,
         "high_tide": 0.0
       },
       "hail": {
@@ -67,9 +67,9 @@
       },
       "heatwave": {
         "start": 0.0,
-        "pvp_enabled": 0.015,
-        "mid_game": 0.02,
-        "high_tide": 0.025
+        "pvp_enabled": 0.005,
+        "mid_game": 0.005,
+        "high_tide": 0.01
       },
       "sandstorm": {
         "start": 0.0,
@@ -77,7 +77,12 @@
         "mid_game": 0.02,
         "high_tide": 0.025
       },
-      "snowstorm": {}
+      "snowstorm": {
+        "start": 0.0,
+        "pvp_enabled": 0.0,
+        "mid_game": 0.0,
+        "high_tide": 0.0
+      }
     },
     "event_timers": {
       "heavy_rain": {
@@ -89,18 +94,18 @@
         "extra_rand_time": 800
       },
       "heatwave": {
-        "min_time": 800,
-        "extra_rand_time": 800
+        "min_time": 1600,
+        "extra_rand_time": 1600
       }
     },
     "halve_event_time": {
       "start": "high_tide",
       "end": "end"
     },
-    "sandstorm_buildup_tickrate": 80,
-    "sandstorm_max_stackable": 1,
-    "snowstorm_buildup_tickrate": 80,
-    "snowstorm_max_stackable": 1
+    "sandstorm_buildup_tickrate": 10,
+    "sandstorm_max_stackable": 15,
+    "snowstorm_buildup_tickrate": 10,
+    "snowstorm_max_stackable": 15
   },
   {
     "type": "ltminigames:stt_wind_control",

@@ -206,5 +206,6 @@
     "type": "ltminigames:scale_explosion_knockback",
     "factor": 2.25,
     "exploder": "tropicraft:exploding_coconut"
-  }
+  },
+  "lt:survive_the_tide/integrations"
 ]

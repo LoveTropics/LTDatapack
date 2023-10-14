@@ -1,9 +1,8 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_1"},
-  "subtitle": "3 Teams",
-
   "statistics_key": "survive_the_tide",
-  "backend_id": "lt:survive_the_tide_1_teams",
+  "backend_id": "lt:survive_the_tide_1",
+  "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
   "minimum_participants": 3,
   "maximum_participants": 40,
@@ -16,11 +15,8 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": {
-          "spawn": "spawn"
-        }
-      },
-      "lt:teams/red_blue_yellow"
+        "regions": {"spawn": "spawn"}
+      }
     ]
   },
   "map": {
@@ -34,15 +30,12 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    "ltminigames:teams",
-    "lt:survive_the_tide/stt1_map",
-    "lt:survive_the_tide/stt1_phases",
+    "lt:survive_the_tide/1/map",
+    "lt:survive_the_tide/1/phases",
     "lt:survive_the_tide/intro",
     "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/teams_win_logic",
-    "lt:survive_the_tide/teams_glow_members",
-    "lt:survive_the_tide/weather_stt1",
-    "lt:survive_the_tide/stream_integrations",
+    "lt:survive_the_tide/mode/ffa/win_logic",
+    "lt:survive_the_tide/1/weather",
     "lt:survive_the_tide/common"
   ]
 }

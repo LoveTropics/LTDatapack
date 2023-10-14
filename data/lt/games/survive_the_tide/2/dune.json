@@ -1,0 +1,41 @@
+{
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_2"},
+  "subtitle": "DUUUUUNE",
+  "statistics_key": "survive_the_tide",
+  "backend_id": "lt:survive_the_tide_2",
+  "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
+
+  "minimum_participants": 3,
+  "maximum_participants": 40,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {"spawn": "spawn"}
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:survive_the_tide_2"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:survive_the_tide/2/map",
+    "lt:survive_the_tide/2/phases",
+    "lt:survive_the_tide/ruleset",
+    "lt:survive_the_tide/mode/ffa/win_logic",
+    "lt:survive_the_tide/weather/dune",
+    "lt:survive_the_tide/intro",
+    "lt:survive_the_tide/common"
+  ]
+}

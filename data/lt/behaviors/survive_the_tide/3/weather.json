@@ -1,5 +1,5 @@
 [
-  "lt:survive_the_tide/weather_notifications",
+  "lt:survive_the_tide/weather/notifications",
 
   {
     "type": "ltminigames:add_weather",
