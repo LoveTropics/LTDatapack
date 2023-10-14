@@ -52,8 +52,11 @@
       "player_remove": {
         "type": "ltminigames:run_commands",
         "player": "tag @s remove levitation.yes"
-      },
-      "stop": {
+      }
+    },
+    {
+      "type": "ltminigames:phase_triggers/stop",
+      "actions": {
         "type": "ltminigames:run_commands",
         "global": "kill @e[current_world=true,type=minecraft:fishing_bobber]"
       }
