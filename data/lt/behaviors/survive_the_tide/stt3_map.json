@@ -127,6 +127,7 @@
   {
     "type": "ltminigames:phase_change",
     "release_players": {
+      "type": "ltminigames:apply_to_player",
       "target": "participants",
       "actions": [
         {

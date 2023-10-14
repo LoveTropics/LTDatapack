@@ -155,6 +155,7 @@
     "receive_actions": [
       {
         "type": "ltminigames:countdown_action",
+        "target": "source",
         "warning": {
           "text": "A wave of surprise creepers is spawning in %time% seconds!",
           "color": "red"

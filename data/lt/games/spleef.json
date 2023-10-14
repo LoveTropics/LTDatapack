@@ -50,8 +50,11 @@
       "player_remove": {
         "type": "ltminigames:run_commands",
         "player": "function lt:game/party/spleef/player/leave"
-      },
-      "stop": {
+      }
+    },
+    {
+      "type": "ltminigames:phase_triggers/stop",
+      "actions": {
         "type": "ltminigames:run_commands",
         "global": "function lt:game/party/spleef/deinit"
       }

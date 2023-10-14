@@ -34,12 +34,20 @@
           "italic": true
         }
       },
-      "220": {
-        "type": "ltminigames:bb_tutorial",
-        "diffusa": "commelina_diffusa",
-        "grass": "grass",
-        "wheat": "wheat"
-      },
+      "220": [
+        {
+          "type": "ltminigames:apply_to_plot",
+          "target": "all",
+          "actions": [
+            {
+              "type": "ltminigames:bb_tutorial",
+              "diffusa": "commelina_diffusa",
+              "grass": "grass",
+              "wheat": "wheat"
+            }
+          ]
+        }
+      ],
       "300": {
         "type": "ltminigames:send_message",
         "message": {
