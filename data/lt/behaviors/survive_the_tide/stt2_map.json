@@ -151,6 +151,7 @@
   {
     "type": "ltminigames:phase_change",
     "loot_drop": {
+      "type": "ltminigames:apply_to_player",
       "target": "all",
       "actions": [
         {
