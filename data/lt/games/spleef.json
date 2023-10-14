@@ -28,17 +28,6 @@
     },
     {
       "type": "ltminigames:events",
-      "ready": {
-        "type": "ltminigames:run_commands",
-        "global": [
-          "function lt:game/party/spleef/init",
-          "function lt:game/party/spleef/version/standard/settings"
-        ]
-      },
-      "start": {
-        "type": "ltminigames:run_commands",
-        "global": "function lt:game/party/spleef/start"
-      },
       "player_participate": {
         "type": "ltminigames:run_commands",
         "player": "function lt:game/party/spleef/player/join_competitor"
@@ -52,6 +41,7 @@
         "player": "function lt:game/party/spleef/player/leave"
       }
     },
+
     {
       "type": "ltminigames:phase_triggers/stop",
       "actions": {
@@ -59,6 +49,24 @@
         "global": "function lt:game/party/spleef/deinit"
       }
     },
+    {
+      "type": "ltminigames:phase_triggers/start",
+      "actions": {
+        "type": "ltminigames:run_commands",
+        "global": "function lt:game/party/spleef/start"
+      }
+    },
+    {
+      "type": "ltminigames:phase_triggers/ready",
+      "actions": {
+        "type": "ltminigames:run_commands",
+        "global": [
+          "function lt:game/party/spleef/init",
+          "function lt:game/party/spleef/version/standard/settings"
+        ]
+      }
+    },
+
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:bind_controls",
