@@ -55,15 +55,10 @@
       "type":  "lt:survive_the_tide/3/map",
       "tide": 190
     },
-    "ltminigames:teams",
     {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0}},
     "lt:survive_the_tide/3/phases",
-    "lt:survive_the_tide/pets",
-    "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/mode/teams/win_logic",
-    "lt:survive_the_tide/mode/teams/glow",
+    "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/3/weather",
-    "lt:survive_the_tide/intro",
     "lt:survive_the_tide/common"
   ]
 }

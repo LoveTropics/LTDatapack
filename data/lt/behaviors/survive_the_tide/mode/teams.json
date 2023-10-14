@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ltminigames:teams",
+    "friendly_fire": "$friendly_fire"
+  },
+  "lt:survive_the_tide/mode/teams/win_logic",
+  "lt:survive_the_tide/mode/teams/glow"
+]

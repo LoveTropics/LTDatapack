@@ -32,9 +32,7 @@
     },
     "lt:survive_the_tide/1/map",
     "lt:survive_the_tide/1/phases",
-    "lt:survive_the_tide/intro",
-    "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/mode/ffa/win_logic",
+    "lt:survive_the_tide/mode/ffa",
     "lt:survive_the_tide/1/weather",
     "lt:survive_the_tide/common"
   ]

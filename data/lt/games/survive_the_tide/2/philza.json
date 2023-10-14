@@ -51,17 +51,13 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    {
-      "type": "ltminigames:teams",
-      "friendly_fire": true
-    },
     {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0}},
     "lt:survive_the_tide/2/map",
     "lt:survive_the_tide/2/phases",
-    "lt:survive_the_tide/intro",
-    "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/mode/teams/win_logic",
-    "lt:survive_the_tide/mode/teams/glow",
+    {
+      "type": "lt:survive_the_tide/mode/teams",
+      "friendly_fire": true
+    },
     "lt:survive_the_tide/2/weather",
     "lt:survive_the_tide/common"
   ]

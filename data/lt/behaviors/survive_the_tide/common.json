@@ -1,4 +1,6 @@
 [
+  "lt:survive_the_tide/intro",
+  "lt:survive_the_tide/ruleset",
   {
     "type": "ltminigames:on_damage",
     "actions":  [

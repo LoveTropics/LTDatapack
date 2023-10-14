@@ -38,14 +38,9 @@
       "type":  "lt:survive_the_tide/3/map",
       "tide": 190
     },
-    "ltminigames:teams",
     "lt:survive_the_tide/3/phases",
-    "lt:survive_the_tide/pets",
-    "lt:survive_the_tide/ruleset",
-    "lt:survive_the_tide/mode/teams/win_logic",
-    "lt:survive_the_tide/mode/teams/glow",
+    "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/3/weather",
-    "lt:survive_the_tide/intro",
     "lt:survive_the_tide/common"
   ]
 }
