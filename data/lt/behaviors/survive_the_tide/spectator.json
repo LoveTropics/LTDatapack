@@ -1,0 +1,12 @@
+[
+  {
+    "type": "ltminigames:on_damage",
+    "actions":  [
+      {
+        "type": "ltminigames:spectator_activity",
+        "style": "red"
+      }
+    ]
+  },
+  "ltminigames:spectator_chase"
+]

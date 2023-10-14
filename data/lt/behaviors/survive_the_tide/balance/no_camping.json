@@ -1,0 +1,28 @@
+{
+  "type": "ltminigames:while_in_region",
+  "regions": {
+    "no_camping": [
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:poison",
+            "seconds": 4,
+            "amplifier": 0
+          }
+        ]
+      },
+      {
+        "type": "ltminigames:show_title",
+        "title": " ",
+        "subtitle": {
+          "text": "You should not be here!",
+          "color": "red"
+        },
+        "stay": 90,
+        "fade_in": 0
+      }
+    ]
+  },
+  "interval": 80
+}

@@ -1,4 +1,5 @@
 [
+  "lt:survive_the_tide/balance/no_camping",
   {
     "type": "ltminigames:scale_player_damage",
     "factor": 0.75,
