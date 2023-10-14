@@ -85,33 +85,8 @@
     }
   },
   {
-    "type": "ltminigames:world_border",
-    "world_border_center": "storm_center",
-    "period": {
-      "start": "explosive_storm_start",
-      "end": "explosive_storm_end"
-    },
-    "border_particles": [
-      {
-        "particle": {
-          "type": "minecraft:explosion"
-        },
-        "rate": 1,
-        "chance": 30,
-        "density": 4.0
-      },
-      {
-        "particle": {
-          "type": "minecraft:portal"
-        },
-        "rate": 1,
-        "chance": 10,
-        "density": 8.0
-      }
-    ],
-    "particle_height": 110,
-    "damage_rate_delay": 20,
-    "damage_amount": 4
+    "type": "lt:survive_the_tide/explosive_storm",
+    "center_region": "storm_center"
   },
   {
     "type": "ltminigames:set_game_rules",
