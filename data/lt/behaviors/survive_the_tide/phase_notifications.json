@@ -13,6 +13,7 @@
     ]
   },
   "pvp_enabled": {
+    "type": "ltminigames:apply_to_player",
     "target": "all",
     "actions": [
       {
@@ -36,6 +37,7 @@
     ]
   },
   "icebergs_start": {
+    "type": "ltminigames:apply_to_player",
     "target": "all",
     "actions": {
       "type": "ltminigames:notification_toast",
@@ -45,6 +47,7 @@
     }
   },
   "explosive_storm_start": {
+    "type": "ltminigames:apply_to_player",
     "target": "all",
     "actions": {
       "type": "ltminigames:notification_toast",
