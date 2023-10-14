@@ -149,30 +149,8 @@
     "time": 18000
   },
   {
-    "type": "ltminigames:phase_change",
-    "loot_drop": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
-      "actions": [
-        {
-          "type": "ltminigames:notification_toast",
-          "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
-          "icon": {"item": "minecraft:chest"},
-          "visible_time_ms": 12000
-        },
-        {
-          "type": "ltminigames:chest_drop",
-          "region": "loot_drop",
-          "loot_tables": [
-            {
-              "data": "lt:stt/tier_3",
-              "weight": 1
-            }
-          ],
-          "delay": 1200,
-          "count": 2
-        }
-      ]
-    }
+    "type": "lt:survive_the_tide/loot_drop",
+    "loot_table": "lt:stt/tier_3",
+    "count": 2
   }
 ]
