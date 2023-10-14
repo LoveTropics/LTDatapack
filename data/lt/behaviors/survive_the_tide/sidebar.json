@@ -1,0 +1,21 @@
+[
+  {
+    "type": "ltminigames:survive_the_tide_sidebar",
+    "safe_period": {
+      "start": "start",
+      "end": "pvp_enabled"
+    },
+    "tide_rising_period": {
+      "start": "pvp_enabled",
+      "end": "high_tide"
+    },
+    "iceberg_growth_period": {
+      "start": "icebergs_start",
+      "end": "icebergs_end"
+    },
+    "explosive_storm_period": {
+      "start": "explosive_storm_start",
+      "end": "explosive_storm_end"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "ltminigames:camping_tracker",
+    "trigger": {"after": "release_players"},
+    "camp_time_threshold": 160,
+    "camp_movement_threshold": 8
+  },
+  "ltminigames:cause_of_death_tracker",
+  "ltminigames:kills_tracker",
+  "ltminigames:damage_tracker",
+  {
+    "type": "ltminigames:time_survived_tracker",
+    "trigger": {"after": "release_players"}
+  }
+]

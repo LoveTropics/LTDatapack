@@ -1,0 +1,17 @@
+[
+  {
+    "type": "ltminigames:scale_player_damage",
+    "factor": 0.75,
+    "host_factor": 0.25
+  },
+  {
+    "type": "ltminigames:scale_damage_from_entity",
+    "factor": 0.20,
+    "source": "tropicraft:exploding_coconut"
+  },
+  {
+    "type": "ltminigames:scale_explosion_knockback",
+    "factor": 2.25,
+    "exploder": "tropicraft:exploding_coconut"
+  }
+]

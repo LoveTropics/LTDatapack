@@ -17,5 +17,6 @@
       "fallDamage": "true",
       "doTileDrops": "false"
     }
-  }
+  },
+  "ltminigames:tnt_auto_fuse"
 ]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ltminigames:on_death",
+    "actions": [
+      { "type": "ltminigames:spawn_fireworks" },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:spawn_particles_around_player",
+        "particles": [
+          { "type": "totem_of_undying" },
+          { "type": "electric_spark" }
+        ],
+        "count": 15,
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:on_kill",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "text": "💀 ",
+          "color": "gray",
+          "extra": [
+            {
+              "text": "%killed%",
+              "color": "red"
+            }
+          ]
+        },
+        "stay": 30
+      }
+    ]
+  }
+]

@@ -1,24 +1,5 @@
 [
   {
-    "type": "ltminigames:on_death",
-    "actions": [
-      { "type": "ltminigames:spawn_fireworks" },
-      {
-        "type": "ltminigames:play_sound",
-        "sound": "entity.experience_orb.pickup"
-      },
-      {
-        "type": "ltminigames:spawn_particles_around_player",
-        "particles": [
-          { "type": "totem_of_undying" },
-          { "type": "electric_spark" }
-        ],
-        "count": 15,
-        "repeat": 3
-      }
-    ]
-  },
-  {
     "type": "ltminigames:on_damage",
     "actions":  [
       {
@@ -27,29 +8,7 @@
       }
     ]
   },
-  {
-    "type": "ltminigames:on_kill",
-    "actions": [
-      {
-        "type": "ltminigames:play_sound",
-        "sound": "entity.experience_orb.pickup"
-      },
-      {
-        "type": "ltminigames:show_title",
-        "subtitle": {
-          "text": "💀 ",
-          "color": "gray",
-          "extra": [
-            {
-              "text": "%killed%",
-              "color": "red"
-            }
-          ]
-        },
-        "stay": 30
-      }
-    ]
-  },
+  "lt:survive_the_tide/effects/death",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
@@ -61,46 +20,15 @@
     "drop_inventory": true
   },
   "ltminigames:place_by_death_order",
-  "ltminigames:tnt_auto_fuse",
   {
     "type": "ltminigames:reveal_players",
     "players_left_required": 2,
     "glow_on_time": 20,
     "glow_off_time": 80
   },
-  {
-    "type": "ltminigames:camping_tracker",
-    "trigger": {"after": "release_players"},
-    "camp_time_threshold": 160,
-    "camp_movement_threshold": 8
-  },
-  "ltminigames:cause_of_death_tracker",
-  "ltminigames:kills_tracker",
-  "ltminigames:damage_tracker",
-  {
-    "type": "ltminigames:time_survived_tracker",
-    "trigger": {"after": "release_players"}
-  },
+  "lt:survive_the_tide/statistics",
   "ltminigames:spectator_chase",
-  {
-    "type": "ltminigames:survive_the_tide_sidebar",
-    "safe_period": {
-      "start": "start",
-      "end": "pvp_enabled"
-    },
-    "tide_rising_period": {
-      "start": "pvp_enabled",
-      "end": "high_tide"
-    },
-    "iceberg_growth_period": {
-      "start": "icebergs_start",
-      "end": "icebergs_end"
-    },
-    "explosive_storm_period": {
-      "start": "explosive_storm_start",
-      "end": "explosive_storm_end"
-    }
-  },
+  "lt:survive_the_tide/sidebar",
   {
     "type": "ltminigames:phase_change",
     "release_players": {
@@ -191,21 +119,6 @@
     },
     "interval": 80
   },
-  {
-    "type": "ltminigames:scale_player_damage",
-    "factor": 0.75,
-    "host_factor": 0.25
-  },
-
-  {
-    "type": "ltminigames:scale_damage_from_entity",
-    "factor": 0.20,
-    "source": "tropicraft:exploding_coconut"
-  },
-  {
-    "type": "ltminigames:scale_explosion_knockback",
-    "factor": 2.25,
-    "exploder": "tropicraft:exploding_coconut"
-  },
+  "lt:survive_the_tide/balance",
   "lt:survive_the_tide/integrations"
 ]
