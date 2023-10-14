@@ -109,17 +109,6 @@
   },
   "ltminigames:disable_tnt_block_destruction",
   {
-    "type": "ltminigames:set_game_rules",
-    "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "true",
-      "doTileDrops": "false"
-    }
-  },
-  {
     "type": "ltminigames:set_day_time",
     "time": 18000
   },

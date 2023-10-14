@@ -6,5 +6,16 @@
       "end": "pvp_enabled"
     },
     "force_drop_items_on_death": true
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "fallDamage": "true",
+      "doTileDrops": "false"
+    }
   }
 ]

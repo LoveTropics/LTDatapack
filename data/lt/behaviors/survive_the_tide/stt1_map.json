@@ -87,17 +87,6 @@
     "center_region": "center"
   },
   {
-    "type": "ltminigames:set_game_rules",
-    "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "true",
-      "doTileDrops": "false"
-    }
-  },
-  {
     "type": "ltminigames:phase_change",
     "release_players": {
       "type": "ltminigames:apply_to_player",
