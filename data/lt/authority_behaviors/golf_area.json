@@ -1,6 +1,7 @@
 {
   "enter_commands": [
-    "function lt:game/minigolf/core/end_hole"
+    "function lt:game/minigolf/core/hole_end",
+    "execute as @s run function lt:game/minigolf/core/golf_leave"
   ],
   "exit_commands": [
     "execute as @s run function lt:game/minigolf/core/golf_leave"
