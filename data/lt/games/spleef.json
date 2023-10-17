@@ -28,17 +28,19 @@
     },
     {
       "type": "ltminigames:events",
-      "player_participate": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/spleef/player/join_competitor"
-      },
-      "player_spectate": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/spleef/player/join_spectator"
-      },
-      "player_remove": {
-        "type": "ltminigames:run_commands",
-        "player": "function lt:game/party/spleef/player/leave"
+      "events": {
+        "player_participate": {
+          "type": "ltminigames:run_commands",
+          "player": "function lt:game/party/spleef/player/join_competitor"
+        },
+        "player_spectate": {
+          "type": "ltminigames:run_commands",
+          "player": "function lt:game/party/spleef/player/join_spectator"
+        },
+        "player_remove": {
+          "type": "ltminigames:run_commands",
+          "player": "function lt:game/party/spleef/player/leave"
+        }
       }
     },
 
@@ -70,9 +72,11 @@
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:bind_controls",
-      "admins": {
-        "eliminate": {
-          "type": "ltminigames:eliminate_player"
+      "scopes": {
+        "admins": {
+          "eliminate": {
+            "type": "ltminigames:eliminate_player"
+          }
         }
       }
     }

@@ -32,26 +32,28 @@
     },
     {
       "type": "ltminigames:events",
-      "player_participate": [
-        {
-          "type": "ltminigames:give_effect",
-          "effects": [
-            {
-              "type": "minecraft:levitation",
-              "seconds": 100000,
-              "amplifier": 1,
-              "hide_particles": true
-            }
-          ]
-        },
-        {
+      "events": {
+        "player_participate": [
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:levitation",
+                "seconds": 100000,
+                "amplifier": 1,
+                "hide_particles": true
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:run_commands",
+            "player": "tag @s add levitation.yes"
+          }
+        ],
+        "player_remove": {
           "type": "ltminigames:run_commands",
-          "player": "tag @s add levitation.yes"
+          "player": "tag @s remove levitation.yes"
         }
-      ],
-      "player_remove": {
-        "type": "ltminigames:run_commands",
-        "player": "tag @s remove levitation.yes"
       }
     },
     {

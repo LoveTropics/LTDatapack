@@ -90,21 +90,23 @@
   },
   {
     "type": "ltminigames:phase_change",
-    "release_players": {
-      "type": "ltminigames:apply_to_player",
-      "target": "participants",
-      "actions": [
-        {
-          "type": "ltminigames:give_effect",
-          "effects": [
-            {
-              "type": "minecraft:slow_falling",
-              "seconds": 10,
-              "amplifier": 0
-            }
-          ]
-        }
-      ]
+    "phases": {
+      "release_players": {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:slow_falling",
+                "seconds": 10,
+                "amplifier": 0
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   {
