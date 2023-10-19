@@ -3,4 +3,3 @@ give @s golden_hoe{display:{Name:'{"text":"Soft Putter","color":"light_purple","
 give @s iron_hoe{display:{Name:'{"text":"Putter","color":"light_purple","italic":false}',Lore:['{"text":"Perfect for those medium range puts.","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:3s}],Tags:[golf]} 1
 give @s diamond_hoe{display:{Name:'{"text":"Powerful Driver","color":"light_purple","italic":false}',Lore:['{"text":"Puts that aren\'t quite far, but aren\'t quite medium.","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:4s}],Tags:[golf]} 1
 give @s netherite_hoe{display:{Name:'{"text":"Potent Driver","color":"light_purple","italic":false}',Lore:['{"text":"For when you just want the crab to be as far away from you as possible, as fast as possible.","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:5s}],Tags:[golf]} 1
-give @s ltminigames:osa_point 1
