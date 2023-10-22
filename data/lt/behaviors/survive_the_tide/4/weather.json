@@ -37,6 +37,34 @@
     ]
   },
   {
+    "type": "ltminigames:weather_change_trigger",
+    "events": {
+      "heavy_rain": [
+        {
+          "type": "ltminigames:apply_to_player",
+          "target": "all",
+          "actions": [
+            {
+              "type": "ltminigames:notification_toast",
+              "text": {
+                "translate": "ltminigames.minigame.survive_the_tide.toast.flash_flood"
+              },
+              "icon": {
+                "item": "minecraft:water_bucket"
+              },
+              "sentiment": "negative",
+              "color": "dark"
+            },
+            {
+              "type": "ltminigames:play_sound",
+              "sound": "minecraft:entity.villager.no"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "type": "ltminigames:stt_wind_control",
     "wind_speed": {
       "start": 0.1,

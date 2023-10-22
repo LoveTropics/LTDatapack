@@ -72,7 +72,7 @@
           "end": "rain_start_1"
         },
         "text": {
-          "text": "Collect loot before the tide starts rising!",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.collect_loot",
           "color": "yellow"
         },
         "color": "yellow"
@@ -80,10 +80,54 @@
       {
         "period": {
           "start": "rain_start_1",
+          "end": "rain_end_1"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.flash_flood",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "rain_start_2",
+          "end": "rain_end_2"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.flash_flood",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "rain_start_3",
+          "end": "rain_end_3"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.flash_flood",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "rain_start_4",
+          "end": "rain_end_4"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.flash_flood",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "rain_start_5",
           "end": "rain_end_5"
         },
         "text": {
-          "translate": "ltminigames.minigame.survive_the_tide.bar.tides_rising",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.flash_flood",
           "color": "red"
         },
         "color": "red"
