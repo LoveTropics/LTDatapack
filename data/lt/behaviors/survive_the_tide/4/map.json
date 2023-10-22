@@ -1,5 +1,18 @@
 [
   {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:fog",
+      "red": 0.27,
+      "green": 0.26,
+      "blue": 0.26,
+      "fog_type": "terrain",
+      "fog_shape": "sphere",
+      "near_distance": 0.0,
+      "far_distance": 120.0
+    }
+  },
+  {
     "type": "ltminigames:position_players",
     "participants": ["spawn"],
     "spectators": "spectator_spawn"
