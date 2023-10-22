@@ -1,0 +1,42 @@
+{
+  "name": {"translate": "ltminigames.minigame.survive_the_tide_4"},
+  "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
+
+  "statistics_key": "survive_the_tide",
+  "backend_id": "lt:survive_the_tide_4",
+
+  "minimum_participants": 3,
+  "maximum_participants": 40,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:stt4"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:survive_the_tide/4/map",
+    "lt:survive_the_tide/4/phases",
+    "lt:survive_the_tide/mode/teams",
+    "lt:survive_the_tide/4/weather",
+    "lt:survive_the_tide/common"
+  ]
+}

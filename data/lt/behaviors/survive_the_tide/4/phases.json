@@ -1,0 +1,104 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "release_players": 30,
+      "pvp_enabled": 45,
+      "rain_start_1": 75,
+      "tide_rise_1": 80,
+      "rain_end_1": 160,
+      "rain_start_2": 280,
+      "tide_rise_2": 285,
+      "rain_end_2": 290,
+      "rain_start_3": 460,
+      "tide_rise_3": 465,
+      "rain_end_3": 490,
+      "rain_start_4": 640,
+      "tide_rise_4": 645,
+      "rain_end_4": 670,
+      "rain_start_5": 820,
+      "tide_rise_5": 825,
+      "rain_end_5": 850,
+      "loot_drop": 860,
+      "explosive_storm_start": 1000,
+      "explosive_storm_mid": 1150,
+      "explosive_storm_end": 1300,
+      "end": 1300
+    },
+    "max_time_step": 3,
+    "fixed_time_step": {
+      "start": "start",
+      "end": "rain_start_2"
+    },
+    "time_by_player_count": [
+      {
+        "left": 20,
+        "point": "rain_end_3"
+      },
+      {
+        "left": 12,
+        "point": "rain_end_5"
+      },
+      {
+        "left": 6,
+        "point": "explosive_storm_start"
+      },
+      {
+        "left": 3,
+        "point": "explosive_storm_mid"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": "release_players",
+          "end": "pvp_enabled"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.pvp_disabled",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "pvp_enabled",
+          "end": "rain_start_1"
+        },
+        "text": {
+          "text": "Collect loot before the tide starts rising!",
+          "color": "yellow"
+        },
+        "color": "yellow"
+      },
+      {
+        "period": {
+          "start": "rain_start_1",
+          "end": "rain_end_5"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.tides_rising",
+          "color": "red"
+        },
+        "color": "red"
+      },
+      {
+        "period": {
+          "start": "explosive_storm_start",
+          "end": "explosive_storm_end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.survive_the_tide.bar.explosive_storm",
+          "color": "red"
+        },
+        "color": "red"
+      }
+    ]
+  }
+]

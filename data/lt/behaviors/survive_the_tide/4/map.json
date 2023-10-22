@@ -1,0 +1,75 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": ["spawn"],
+    "spectators": "spectator_spawn"
+  },
+  {
+    "type": "ltminigames:rising_tides",
+    "tide_area_region": "tide_area",
+    "water_levels": [
+      {
+        "point": "tide_rise_1",
+        "value": -8
+      },
+      {
+        "point": "rain_end_1",
+        "value": 23
+      },
+      {
+        "point": "tide_rise_2",
+        "value": 23
+      },
+      {
+        "point": "rain_end_2",
+        "value": 49
+      },
+      {
+        "point": "tide_rise_3",
+        "value": 49
+      },
+      {
+        "point": "rain_end_3",
+        "value": 85
+      },
+      {
+        "point": "tide_rise_4",
+        "value": 85
+      },
+      {
+        "point": "rain_end_4",
+        "value": 106
+      },
+      {
+        "point": "tide_rise_5",
+        "value": 106
+      },
+      {
+        "point": "rain_end_5",
+        "value": 106
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_change",
+    "phases": {
+      "release_players": {
+        "type": "ltminigames:set_blocks",
+        "region": "spawn_box",
+        "replace": {
+          "block": "minecraft:barrier"
+        },
+        "set": "air"
+      }
+    }
+  },
+  {
+    "type": "lt:survive_the_tide/explosive_storm",
+    "center_region": "explosive_storm"
+  },
+  {
+    "type": "lt:survive_the_tide/loot_drop",
+    "loot_table": "lt:stt/tier_3",
+    "count": 1
+  }
+]

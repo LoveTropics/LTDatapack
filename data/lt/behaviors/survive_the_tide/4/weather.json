@@ -1,0 +1,47 @@
+[
+  "lt:survive_the_tide/weather/notifications",
+
+  {
+    "type": "ltminigames:add_weather",
+    "event_effects": {
+    }
+  },
+  {
+    "type": "ltminigames:phased_weather_control",
+    "periods": [
+      {
+        "start": "rain_start_1",
+        "end": "rain_end_1",
+        "weather": "heavy_rain"
+      },
+      {
+        "start": "rain_start_2",
+        "end": "rain_end_2",
+        "weather": "heavy_rain"
+      },
+      {
+        "start": "rain_start_3",
+        "end": "rain_end_3",
+        "weather": "heavy_rain"
+      },
+      {
+        "start": "rain_start_4",
+        "end": "rain_end_4",
+        "weather": "heavy_rain"
+      },
+      {
+        "start": "rain_start_5",
+        "end": "rain_end_5",
+        "weather": "heavy_rain"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:stt_wind_control",
+    "wind_speed": {
+      "start": 0.1,
+      "pvp_enabled": 0.5,
+      "rain_end_5": 1.5
+    }
+  }
+]
