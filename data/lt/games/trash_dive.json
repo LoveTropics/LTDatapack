@@ -54,7 +54,7 @@
       "length": 6000,
       "close_length": 60,
       "timer_bar": {
-        "text": "Time Remaining: %time%...",
+        "translate": "ltminigames.minigame.trash_dive.time_remaining",
         "color": "green"
       }
     },

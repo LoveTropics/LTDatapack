@@ -8,7 +8,7 @@
         "actions": [
           {
             "type": "ltminigames:notification_toast",
-            "text": "A loot drop will arrive in 1 minute! Find the nearest beacon beam!",
+            "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.loot_drop"},
             "icon": {"item": "minecraft:chest"},
             "visible_time_ms": 12000
           },

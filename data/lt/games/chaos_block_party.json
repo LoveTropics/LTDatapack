@@ -1,5 +1,5 @@
 {
-  "name": "Chaos Block Party",
+  "name": {"translate": "ltminigames.minigame.chaos_block_party"},
 
   "statistics_key": "block_party",
   "map": {

@@ -6,14 +6,7 @@
       "20": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "Welcome to ",
-          "extra": [
-            {
-              "text": "Biodiversity Blitz!",
-              "color": "green",
-              "bold": true
-            }
-          ],
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro1",
           "color": "gold",
           "italic": true
         }
@@ -21,7 +14,7 @@
       "120": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "As the professional conservationist that you surely are, you must turn this bare plot into a thriving ecosystem.",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro2",
           "color": "gold",
           "italic": true
         }
@@ -29,7 +22,7 @@
       "200": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nYou can buy plants and items from the shop using your 'Biodiversity points' and place them in your plot!",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro3",
           "color": "gold",
           "italic": true
         }
@@ -51,7 +44,7 @@
       "300": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nThese plants may provide food, defense, or even attack the invasive species. Every plant you place improves the number of biodiversity points received per turn.",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro4",
           "color": "gold",
           "italic": true
         }
@@ -59,7 +52,7 @@
       "550": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nInvasive species will be spawning soon! But if you construct an ecosystem that is resilient enough, you may be able to survive.",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro5",
           "color": "gold",
           "italic": true
         }
@@ -67,7 +60,7 @@
       "800": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nMake sure to have a large variety of different plants in your plot- diversity in an ecosystem only makes you stronger!",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro6",
           "color": "gold",
           "italic": true
         }
@@ -75,7 +68,7 @@
       "1000": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nYou win the game once you accumulate the target amount of osa points- you can check your progress in the top-left of your screen!",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro7",
           "color": "gold",
           "italic": true
         }
@@ -83,7 +76,7 @@
       "1100": {
         "type": "ltminigames:send_message",
         "message": {
-          "text": "\nGood luck!",
+          "translate": "ltminigames.minigame.biodiversity_blitz.intro8",
           "color": "green",
           "bold": true
         }

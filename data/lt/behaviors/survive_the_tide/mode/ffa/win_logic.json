@@ -10,28 +10,28 @@
     "stop_delay": 760,
     "scheduled_messages": {
       "0": {
-        "text": "Through the rising sea levels, the volatile and chaotic weather, and the struggle to survive, one player remains: %winner%.",
+        "translate": "ltminigames.minigame.survive_the_tide.outro.ffa1",
         "color": "gray"
       },
       "140": {
-        "text": "\nThose who have fallen have been swept away by the encroaching tides that engulf countless landmasses in this dire future.",
+        "translate": "ltminigames.minigame.survive_the_tide.outro.ffa2",
         "color": "gray"
       },
       "280": {
-        "text": "\nThe lone survivor of this city, %winner%, has won - but at what cost? The world is not what it once was, and they must survive in this new apocalyptic land.",
+        "translate": "ltminigames.minigame.survive_the_tide.outro.ffa3",
         "color": "gray"
       },
       "420": {
-        "text": "\nWhat would you do different next time? Together, we could stop this from becoming our future.",
+        "translate": "ltminigames.minigame.survive_the_tide.outro.ffa4",
         "color": "gray"
       },
       "560": {
-        "text": "The game will close in 10 seconds...",
+        "translate": "ltminigames.minigame.survive_the_tide.outro.ffa5",
         "color": "gold"
       }
     },
     "title": {
-      "text": "%winner% has won the game!",
+      "translate": "ltminigames.minigame.survive_the_tide.win",
       "color": "gold"
     }
   },

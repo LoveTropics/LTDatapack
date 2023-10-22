@@ -9,7 +9,7 @@
           "actions": [
             {
               "type": "ltminigames:notification_toast",
-              "text": "WEATHER REPORT:\nAcid Rain is falling!\nFind shelter, or make sure to carry an Acid Repellent Umbrella!",
+              "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.acid_rain"},
               "icon": {
                 "item": "ltminigames:acid_repellent_umbrella"
               },
@@ -29,7 +29,7 @@
         "actions": [
           {
             "type": "ltminigames:notification_toast",
-            "text": "WEATHER REPORT:\nHail is falling!\nFind shelter, or make sure to carry an Acid Repellent Umbrella!",
+            "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.hail"},
             "icon": {
               "item": "ltminigames:acid_repellent_umbrella"
             },
@@ -48,7 +48,7 @@
         "actions": [
           {
             "type": "ltminigames:notification_toast",
-            "text": "WEATHER REPORT:\nA Heat Wave is passing!\nStay inside, or make sure to equip Super Sunscreen!",
+            "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.heat_wave"},
             "icon": {
               "item": "ltminigames:super_sunscreen"
             },
@@ -67,7 +67,7 @@
         "actions": [
           {
             "type": "ltminigames:notification_toast",
-            "text": "WEATHER REPORT:\nA Sandstorm is passing!\nFind shelter!",
+            "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.sandstorm"},
             "icon": {
               "item": "minecraft:sand"
             },
@@ -87,7 +87,7 @@
           "actions": [
             {
               "type": "ltminigames:notification_toast",
-              "text": "WEATHER REPORT:\nA Snowstorm is passing!\nFind shelter!",
+              "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.snowstorm"},
               "icon": {
                 "item": "minecraft:snow_block"
               },

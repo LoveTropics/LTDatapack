@@ -4,7 +4,7 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%sender% is swapping everyone with a nearby player!",
+        "translate": "ltminigames.minigame.donation.swap",
         "color": "red"
       },
       "icon": { "effect": "minecraft:unluck" },
@@ -14,7 +14,7 @@
       {
         "type": "ltminigames:countdown_action",
         "warning": {
-          "text": "You will be swapping with a nearby player in %time% seconds!",
+          "translate": "ltminigames.minigame.donation.swap.warning",
           "color": "red"
         },
         "countdown": 5,
@@ -31,7 +31,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a HUNGER SABOTAGE for 30 seconds!",
+        "translate": "ltminigames.minigame.donation.hunger_sabotage",
         "color": "red"
       },
       "icon": { "effect": "minecraft:hunger" },
@@ -59,7 +59,7 @@
     "package_type": "helpful_effects",
     "notification": {
       "message": {
-        "text": "%sender% sent you helpful effects for 1 minute!",
+        "translate": "ltminigames.minigame.donation.helpful_effects",
         "color": "light_purple"
       },
       "icon": { "effect": "minecraft:regeneration" },
@@ -98,7 +98,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is a Tapir for 2 minutes!",
+        "translate": "ltminigames.minigame.donation.tapir_party",
         "color": "light_purple"
       },
       "icon": { "item": "tropicraft:tapir_spawn_egg" },
@@ -123,7 +123,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "It is raining acid for 1 minute!",
+        "translate": "ltminigames.minigame.donation.acid_rain",
         "color": "light_purple"
       },
       "icon": { "item": "minecraft:water_bucket" },
@@ -145,7 +145,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Surprise! Creepers are attacking your plot!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.donation.surprise_creepers",
         "color": "green"
       },
       "icon": { "item": "minecraft:creeper_spawn_egg" },
@@ -157,7 +157,7 @@
         "type": "ltminigames:countdown_action",
         "target": "source",
         "warning": {
-          "text": "A wave of surprise creepers is spawning in %time% seconds!",
+          "translate": "ltminigames.minigame.biodiversity_blitz.donation.surprise_creepers.warning",
           "color": "red"
         },
         "countdown": 5,
@@ -175,7 +175,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "All players' currency has been averaged together!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.donation.equalize_currency",
         "color": "gold"
       },
       "icon": { "item": "ltminigames:osa_point" },

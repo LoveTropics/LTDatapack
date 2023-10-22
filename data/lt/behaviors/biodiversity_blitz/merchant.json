@@ -3,7 +3,7 @@
     "type": "ltminigames:biodiversity_blitz_merchant",
     "plot_region": "shop",
     "entity": "tropicraft:tropiskelly",
-    "name": "Shop",
+    "name": {"translate": "ltminigames.minigame.biodiversity_blitz.shop"},
     "offers": [
       {
         "input": {"id": "tropicraft:pianguas", "Count": 1},

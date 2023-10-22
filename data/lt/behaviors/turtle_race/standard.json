@@ -94,7 +94,7 @@
         {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "GO!",
+            "translate": "ltminigames.minigame.turtle_race.go",
             "color": "green"
           },
           "stay": 40
@@ -133,7 +133,7 @@
         {
           "type": "ltminigames:show_title",
           "action_bar": {
-            "text": "Speed boost! You passed a checkpoint!",
+            "translate": "ltminigames.minigame.turtle_race.speed_bost",
             "color": "green"
           }
         },

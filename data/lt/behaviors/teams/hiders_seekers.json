@@ -4,13 +4,13 @@
     "teams": [
       {
         "key": "hiders",
-        "name": "Hiders",
+        "name": {"translate": "ltminigames.minigame.teams.hiders"},
         "dye": "cyan",
         "text": "aqua"
       },
       {
         "key": "seekers",
-        "name": "Seekers",
+        "name": {"translate": "ltminigames.minigame.teams.seekers"},
         "dye": "red",
         "text": "red"
       }

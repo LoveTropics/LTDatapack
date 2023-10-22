@@ -4,7 +4,7 @@
     "package_type": "speed_boost_1_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SPEED BOOST for 1 second! Wow",
+        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_1_package",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
@@ -26,7 +26,7 @@
     "package_type": "speed_boost_5_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SPEED BOOST for 5 seconds!",
+        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_5_package",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
@@ -48,7 +48,7 @@
     "package_type": "speed_boost_30_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SPEED BOOST for 30 seconds!",
+        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_30_package",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
@@ -71,7 +71,7 @@
     "package_type": "slowness_1_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SLOWNESS PACKAGE for 1 second! Wow",
+        "translate": "ltminigames.minigame.turtle_race.donation.slowness_1_package",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },
@@ -93,7 +93,7 @@
     "package_type": "slowness_5_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SLOWNESS PACKAGE for 5 seconds!",
+        "translate": "ltminigames.minigame.turtle_race.donation.slowness_5_package",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },
@@ -115,7 +115,7 @@
     "package_type": "slowness_30_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SLOWNESS PACKAGE for 30 seconds!",
+        "translate": "ltminigames.minigame.turtle_race.donation.slowness_30_package",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },

@@ -7,7 +7,7 @@
       "actions": [
         {
           "type": "ltminigames:notification_toast",
-          "text": "The tide will soon begin to rise, and PVP will be enabled! Collect resources before the time runs out!",
+          "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.release_players"},
           "icon": {"item": "minecraft:chest"},
           "visible_time_ms": 10000
         }
@@ -42,7 +42,7 @@
       "target": "all",
       "actions": {
         "type": "ltminigames:notification_toast",
-        "text": "The map is freezing over!",
+        "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.icebergs_start"},
         "icon": {"item": "minecraft:snow_block"},
         "visible_time_ms": 8000
       }
@@ -52,7 +52,7 @@
       "target": "all",
       "actions": {
         "type": "ltminigames:notification_toast",
-        "text": "THE EXPLOSIVE STORM HAS STARTED CLOSING IN! Get to the center!",
+        "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.explosive_storm_start"},
         "icon": {"item": "minecraft:tnt"},
         "visible_time_ms": 8000
       }

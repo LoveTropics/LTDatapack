@@ -3,7 +3,7 @@
     "type": "ltminigames:biodiversity_blitz_merchant",
     "plot_region": "plant_shop",
     "entity": "tropicraft:tropicreeper",
-    "name": "Plant Shop",
+    "name": {"translate": "ltminigames.minigame.biodiversity_blitz.plant_shop"},
     "offers": [
       {
         "input": {"id": "ltminigames:osa_point", "Count": 1},

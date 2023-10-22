@@ -1,5 +1,5 @@
 {
-  "name": "Block Party",
+  "name": {"translate": "ltminigames.minigame.block_party"},
 
   "statistics_key": "block_party",
   "map": {

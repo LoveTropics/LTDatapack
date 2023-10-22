@@ -7,7 +7,7 @@
     "role": "participant",
     "respawn_as": "spectator",
     "death_message": {
-      "text": "☠ %message%. They are eliminated!",
+      "translate": "ltminigames.minigame.survive_the_tide.eliminated",
       "color": "gray"
     },
     "drop_inventory": true

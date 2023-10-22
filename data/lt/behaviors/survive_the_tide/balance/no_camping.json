@@ -16,7 +16,7 @@
         "type": "ltminigames:show_title",
         "title": " ",
         "subtitle": {
-          "text": "You should not be here!",
+          "translate": "ltminigames.minigame.survive_the_tide.camping_warning",
           "color": "red"
         },
         "stay": 90,

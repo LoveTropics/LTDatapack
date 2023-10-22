@@ -1,5 +1,5 @@
 {
-  "name": "Levitation",
+  "name": {"translate": "ltminigames.minigame.levitation"},
 
   "statistics_key": "levitation",
   "map": {
@@ -114,7 +114,7 @@
         "20": {
           "type": "ltminigames:send_message",
           "message": {
-            "text": "Race to be the first to reach the top of the tube!",
+            "translate": "ltminigames.minigame.levitation.intro1",
             "color": "green",
             "italic": true
           }
@@ -122,7 +122,7 @@
         "80": {
           "type": "ltminigames:send_message",
           "message": {
-            "text": "Use your fishing rod to pull other players down.",
+            "translate": "ltminigames.minigame.levitation.intro2",
             "color": "gray",
             "italic": true
           }

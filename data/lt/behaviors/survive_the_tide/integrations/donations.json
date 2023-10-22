@@ -10,7 +10,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%sender% sent you an ANTIDOTE PACKAGE!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.antidote_package",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -31,7 +31,7 @@
     "package_type": "knockback_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a KNOCKBACK PACKAGE! Use the Teeter Yeeter™ wisely.",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.knockback_package",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:stick"},
@@ -53,7 +53,7 @@
     "package_type": "boom_package",
     "notification": {
       "message": {
-        "text": "%sender% sent everyone a BOOM PACKAGE of 4 Coconut Bombs!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.boom_package",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:exploding_coconut"},
@@ -75,7 +75,7 @@
     "package_type": "invisibility_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you an INVISIBILITY PACKAGE! You are invisible for 2 minutes.",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.invisibility_package",
         "color": "light_purple"
       },
       "icon": {"effect": "minecraft:invisibility"},
@@ -103,7 +103,7 @@
     "package_type": "undying_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you an UNDYING PACKAGE with a Totem of Undying!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.undying_package",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:totem_of_undying"},
@@ -125,7 +125,7 @@
     "package_type": "slowness_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a SLOWNESS SABOTAGE for 2 minutes!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.slowness_package",
         "color": "red"
       },
       "icon": {"effect": "minecraft:slowness"},
@@ -153,7 +153,7 @@
     "package_type": "hunger_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a HUNGER SABOTAGE for 1 minute!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.hunger_package",
         "color": "red"
       },
       "icon": {"effect": "minecraft:hunger"},
@@ -181,7 +181,7 @@
     "package_type": "random_creeper_package",
     "notification": {
       "message": {
-        "text": "%sender% sent a RANDOM CREEPER that found you! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.random_creeper_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
@@ -209,7 +209,7 @@
     "package_type": "swap_players_package",
     "notification": {
       "message": {
-        "text": "%sender% is swapping everyone with another player!",
+        "translate": "ltminigames.minigame.donation.swap",
         "color": "red"
       },
       "icon": { "effect": "minecraft:unluck" },
@@ -220,7 +220,7 @@
       {
         "type": "ltminigames:countdown_action",
         "warning": {
-          "text": "You will be swapping with another player in %time% seconds!",
+          "translate": "ltminigames.minigame.donation.swap.warning",
           "color": "red"
         },
         "countdown": 5,
@@ -236,7 +236,7 @@
     "package_type": "chosen_creeper_package",
     "notification": {
       "message": {
-        "text": "%sender% sent you a CREEPER SABOTAGE! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.chosen_creeper_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
@@ -264,7 +264,7 @@
     "package_type": "lightning_strike",
     "notification": {
       "message": {
-        "text": "%sender% sent you a LIGHTNING STRIKE! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.lightning_strike",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
@@ -289,7 +289,7 @@
     "package_type": "lightning_storm",
     "notification": {
       "message": {
-        "text": "%sender% started a LIGHTNING STORM! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.lightning_storm",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
@@ -302,12 +302,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Lightning Storm!",
+          "translate": "ltminigames.minigame.survive_the_tide.lightning_storm",
           "color": "yellow",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.lightning_storm.subtitle",
           "color": "yellow"
         },
         "stay": 40
@@ -329,7 +329,7 @@
     "package_type": "zombie_invasion_package",
     "notification": {
       "message": {
-        "text": "%sender% started a ZOMBIE INVASION! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.zombie_invasion_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:zombie_head"},
@@ -341,12 +341,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Zombie Invasion!",
+          "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion",
           "color": "red",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion.subtitle",
           "color": "red"
         },
         "stay": 40
@@ -392,7 +392,7 @@
     "package_type": "meteor_storm_package",
     "notification": {
       "message": {
-        "text": "%sender% started a METEOR STORM! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.meteor_storm_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -404,12 +404,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Meteor Shower!",
+          "translate": "ltminigames.minigame.survive_the_tide.meteor_shower",
           "color": "red",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.meteor_shower.subtitle",
           "color": "red"
         },
         "stay": 40
@@ -432,7 +432,7 @@
     "package_type": "meteor_strike_package",
     "notification": {
       "message": {
-        "text": "%sender% sent a METEOR STRIKE to a random player! Look out!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.meteor_strike_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -460,7 +460,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "You are now wearing %sender%'s head, and you can't do anything about it!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.forced_player_head_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:player_head"},
@@ -481,7 +481,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "Where did that pufferfish come from? %sender% may know.",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.puffer_package",
         "color": "red"
       },
       "icon": {"item": "minecraft:pufferfish"},
@@ -509,7 +509,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is a Tapir for 2 minutes!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.tapir_party",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
@@ -534,7 +534,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is.. driftwood? For 2 minutes!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.driftwood_dazzle",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:oak_log"},
@@ -559,7 +559,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Oops, we're all fish for 2 minutes!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.cubera_confusion",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:cubera_spawn_egg"},
@@ -584,7 +584,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "For 2 minutes, you have become an armor stand. What?",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.armor_standardization",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:armor_stand"},
@@ -612,7 +612,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Everyone is a Basilisk Lizard for 2 minutes!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.basilisk_lizard_party",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:brown_basilisk_spawn_egg"},
@@ -636,7 +636,7 @@
     "package_type": "its_been_fun",
     "notification": {
       "message": {
-        "text": "It's been fun, but %sender% has ENDED THE GAME!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.its_been_fun",
         "color": "red"
       },
       "icon": {"item": "minecraft:tnt"},
@@ -667,7 +667,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%sender% turned you into a tornado!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -689,7 +689,7 @@
     "player_select": "specific",
     "notification": {
       "message": {
-        "text": "%sender% turned you into a baby tornado!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado_baby",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -711,7 +711,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "%sender% has spawned a SHARKNADO!",
+        "translate": "ltminigames.minigame.survive_the_tide.donation.sharknado",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},

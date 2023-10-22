@@ -4,57 +4,57 @@
     "time_between_tips": 2400,
     "texts": [
       {
-        "text": "Make sure to have a plot with many different plant types to gain more osa points!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.diversity",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "The Commelina Diffusa can put out the Crocosmia's fires. Be careful of where you plant them!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.diffuse",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Mangrove trees produce pianguas in mud that can be harvested via right click to sell at the store!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.pianguas",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Beware the creeper. The legends say that its explosion can level even the sturdiest of trees...",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.creeper",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "The waves will get harder as time goes on, so be quick!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.wave_difficulty",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "You can visit other players' plots to learn from how they've set up their plot!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.visit",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Mobs loooove pumpkins. Place them in strategic places to create elaborate traps!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.pumpkins",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Be careful of having too much of the same plant, monocultures can hurt your point production!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.monoculture",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Crops are weaker than other plants, so put them in places where mobs can't get to them!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.crops",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "Rumours say that if you're patient enough, oak trees will drop golden apples. Could it possibly be true?",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.oak",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "If you change your mind about tilling a piece of land, simply right click it with your hoe to make it into grass again!",
+        "translate": "ltminigames.minigame.biodiversity_blitz.tips.tilling",
         "color": "gray",
         "italic": true
       }

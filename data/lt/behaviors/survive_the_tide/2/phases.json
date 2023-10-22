@@ -48,7 +48,7 @@
           "end": "pvp_enabled"
         },
         "text": {
-          "text": "Grace Period: PVP Disabled",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.pvp_disabled",
           "color": "yellow"
         },
         "color": "yellow",
@@ -61,7 +61,7 @@
           "end": "high_tide"
         },
         "text": {
-          "text": "Tides Rising",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.tides_rising",
           "color": "red"
         },
         "color": "red"
@@ -72,7 +72,7 @@
           "end": "icebergs_end"
         },
         "text": {
-          "text": "Freezing Over",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.freezing_over",
           "color": "aqua"
         },
         "color": "blue"
@@ -83,7 +83,7 @@
           "end": "explosive_storm_end"
         },
         "text": {
-          "text": "Explosive Storm",
+          "translate": "ltminigames.minigame.survive_the_tide.bar.explosive_storm",
           "color": "red"
         },
         "color": "red"

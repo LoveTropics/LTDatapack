@@ -4,7 +4,7 @@
     "package_type": "lightning_storm_event",
     "notification": {
       "message": {
-        "text": "Chat started a LIGHTNING STORM!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.lightning_storm_event",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -16,12 +16,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Lightning Storm!",
+          "translate": "ltminigames.minigame.survive_the_tide.lightning_storm",
           "color": "yellow",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.lightning_storm.subtitle",
           "color": "yellow"
         },
         "stay": 40
@@ -43,7 +43,7 @@
     "package_type": "zombie_invasion_event",
     "notification": {
       "message": {
-        "text": "Chat started a ZOMBIE INVASION!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.zombie_invasion_event",
         "color": "red"
       },
       "icon": {"item": "minecraft:zombie_head"},
@@ -55,12 +55,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Zombie Invasion!",
+          "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion",
           "color": "red",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion.subtitle",
           "color": "red"
         },
         "stay": 40
@@ -98,7 +98,7 @@
     "package_type": "meteor_shower_event",
     "notification": {
       "message": {
-        "text": "Chat started a METEOR SHOWER! Keep an eye on the skies!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.meteor_shower_event",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
@@ -110,12 +110,12 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "text": "Meteor Shower!",
+          "translate": "ltminigames.minigame.survive_the_tide.meteor_shower",
           "color": "red",
           "bold": true
         },
         "subtitle": {
-          "text": "Look out!",
+          "translate": "ltminigames.minigame.survive_the_tide.meteor_shower.subtitle",
           "color": "red"
         },
         "stay": 40
@@ -139,7 +139,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Chat has started ACID RAIN for 1 minute!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.acid_rain_event",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:acid_repellent_umbrella" },
@@ -161,7 +161,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Chat has started a HEATWAVE for 1 minute!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.heatwave_event",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:super_sunscreen" },
@@ -183,7 +183,7 @@
     "player_select": "all",
     "notification": {
       "message": {
-        "text": "Chat has started a HAILSTORM for 1 minute!",
+        "translate": "ltminigames.minigame.survive_the_tide.event.hail_event",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:acid_repellent_umbrella" },

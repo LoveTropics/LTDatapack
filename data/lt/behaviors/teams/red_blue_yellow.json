@@ -4,19 +4,19 @@
     "teams": [
       {
         "key": "red",
-        "name": "Red",
+        "name": {"translate": "ltminigames.minigame.teams.red"},
         "dye": "red",
         "text": "red"
       },
       {
         "key": "blue",
-        "name": "Blue",
+        "name": {"translate": "ltminigames.minigame.teams.blue"},
         "dye": "blue",
         "text": "blue"
       },
       {
         "key": "yellow",
-        "name": "Yellow",
+        "name": {"translate": "ltminigames.minigame.teams.yellow"},
         "dye": "yellow",
         "text": "yellow"
       }
