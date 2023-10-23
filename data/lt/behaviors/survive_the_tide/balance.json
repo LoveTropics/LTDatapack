@@ -3,7 +3,12 @@
   {
     "type": "ltminigames:scale_player_damage",
     "factor": 0.75,
-    "host_factor": 0.25
+    "role_factors": {
+      "host": {
+        "value": true,
+        "factor": 0.25
+      }
+    }
   },
   {
     "type": "ltminigames:scale_damage_from_entity",
