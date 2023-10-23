@@ -1,0 +1,19 @@
+execute as @s if score @s golf.01.scores matches 0..20 if score @s golf.02.scores matches 0..20 if score @s golf.03.scores matches 0..20 if score @s golf.04.scores matches 0..20 if score @s golf.05.scores matches 0..20 if score @s golf.06.scores matches 0..20 if score @s golf.07.scores matches 0..20 if score @s golf.08.scores matches 0..20 if score @s golf.09.scores matches 0..20 if score @s golf.10.scores matches 0..20 if score @s golf.11.scores matches 0..20 if score @s golf.12.scores matches 0..20 if score @s golf.13.scores matches 0..20 if score @s golf.14.scores matches 0..20 if score @s golf.15.scores matches 0..20 if score @s golf.16.scores matches 0..20 if score @s golf.17.scores matches 0..20 if score @s golf.18.scores matches 0..20 if score @s golf.03.scores matches 0..20 run collectible give @s ltminigames:mob_hat{"entity":{"type":"tropicraft:fiddler_crab"}}
+execute unless score @s golf.01.scores matches 0..20 run tell @s Missing Hole: 01
+execute unless score @s golf.02.scores matches 0..20 run tell @s Missing Hole: 02
+execute unless score @s golf.03.scores matches 0..20 run tell @s Missing Hole: 03
+execute unless score @s golf.04.scores matches 0..20 run tell @s Missing Hole: 04
+execute unless score @s golf.05.scores matches 0..20 run tell @s Missing Hole: 05
+execute unless score @s golf.06.scores matches 0..20 run tell @s Missing Hole: 06
+execute unless score @s golf.07.scores matches 0..20 run tell @s Missing Hole: 07
+execute unless score @s golf.08.scores matches 0..20 run tell @s Missing Hole: 08
+execute unless score @s golf.09.scores matches 0..20 run tell @s Missing Hole: 09
+execute unless score @s golf.10.scores matches 0..20 run tell @s Missing Hole: 10
+execute unless score @s golf.11.scores matches 0..20 run tell @s Missing Hole: 11
+execute unless score @s golf.12.scores matches 0..20 run tell @s Missing Hole: 12
+execute unless score @s golf.13.scores matches 0..20 run tell @s Missing Hole: 13
+execute unless score @s golf.14.scores matches 0..20 run tell @s Missing Hole: 14
+execute unless score @s golf.15.scores matches 0..20 run tell @s Missing Hole: 15
+execute unless score @s golf.16.scores matches 0..20 run tell @s Missing Hole: 16
+execute unless score @s golf.17.scores matches 0..20 run tell @s Missing Hole: 17
+execute unless score @s golf.18.scores matches 0..20 run tell @s Missing Hole: 18
