@@ -19,6 +19,12 @@ execute as @e[tag=hole15Marker] at @s run tag @e[type=dummyplayers:dummy_player,
 execute as @e[tag=hole16Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole16Dummy
 execute as @e[tag=hole17Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole17Dummy
 execute as @e[tag=hole18Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole18Dummy
+execute as @e[tag=hole19Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole19Dummy
+execute as @e[tag=hole20Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole20Dummy
+execute as @e[tag=hole21Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole21Dummy
+execute as @e[tag=hole22Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole22Dummy
+execute as @e[tag=hole23Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole23Dummy
+execute as @e[tag=holeDummySouthEast] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add holeDummySouthEast
 execute as @e[tag=holeDummySouthEast] at @s run tp @e[type=dummyplayers:dummy_player,distance=..1] ~ ~ ~ -45 0
 execute as @e[tag=holeDummySouthWest] at @s run tp @e[type=dummyplayers:dummy_player,distance=..1] ~ ~ ~ 45 0
 execute as @e[tag=holeDummyNorthWest] at @s run tp @e[type=dummyplayers:dummy_player,distance=..1] ~ ~ ~ 135 0

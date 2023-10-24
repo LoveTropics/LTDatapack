@@ -34,6 +34,11 @@ scoreboard objectives remove golf.15.scores
 scoreboard objectives remove golf.16.scores
 scoreboard objectives remove golf.17.scores
 scoreboard objectives remove golf.18.scores
+scoreboard objectives remove golf.19.scores
+scoreboard objectives remove golf.20.scores
+scoreboard objectives remove golf.21.scores
+scoreboard objectives remove golf.22.scores
+scoreboard objectives remove golf.23.scores
 scoreboard objectives add golf.01.scores dummy "Hole 1"
 scoreboard objectives add golf.02.scores dummy "Hole 2"
 scoreboard objectives add golf.03.scores dummy "Hole 3"
@@ -52,4 +57,9 @@ scoreboard objectives add golf.15.scores dummy "Hole 15"
 scoreboard objectives add golf.16.scores dummy "Hole 16"
 scoreboard objectives add golf.17.scores dummy "Hole 17"
 scoreboard objectives add golf.18.scores dummy "Hole 18"
+scoreboard objectives add golf.19.scores dummy "Hole 19"
+scoreboard objectives add golf.20.scores dummy "Hole 20"
+scoreboard objectives add golf.21.scores dummy "Hole 21"
+scoreboard objectives add golf.22.scores dummy "Hole 22"
+scoreboard objectives add golf.23.scores dummy "Hole 23"
 function lt:game/minigolf/debug/reset_dummy
