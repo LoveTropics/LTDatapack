@@ -30,3 +30,7 @@ function lt:utility/on_load
 
 # handle STT entity killing
 scoreboard objectives add game.stt.entity_track dummy
+
+function lt:milestones/setup
+schedule clear lt:milestones/on_ten_second
+schedule function lt:milestones/on_ten_second 10s
