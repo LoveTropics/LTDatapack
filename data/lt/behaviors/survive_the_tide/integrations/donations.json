@@ -679,6 +679,14 @@
         "type": "ltminigames:transform_player_tornado",
         "time_ticks": 800,
         "baby": false
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado.title",
+          "color": "red"
+        },
+        "stay": 60
       }
     ]
   },
@@ -701,6 +709,14 @@
         "type": "ltminigames:transform_player_tornado",
         "time_ticks": 1200,
         "baby": true
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado_baby.title",
+          "color": "red"
+        },
+        "stay": 60
       }
     ]
   },
