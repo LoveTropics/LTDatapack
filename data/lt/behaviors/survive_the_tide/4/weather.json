@@ -57,7 +57,32 @@
             },
             {
               "type": "ltminigames:play_sound",
-              "sound": "minecraft:entity.villager.no"
+              "sound": "ltminigames:stt4.flash_flooding_imminent",
+              "source": "voice"
+            }
+          ]
+        }
+      ],
+      "acid_rain": [
+        {
+          "type": "ltminigames:apply_to_player",
+          "target": "all",
+          "actions": [
+            {
+              "type": "ltminigames:notification_toast",
+              "text": {
+                "translate": "ltminigames.minigame.survive_the_tide.toast.flash_flood"
+              },
+              "icon": {
+                "item": "ltminigames:acid_repellent_umbrella"
+              },
+              "sentiment": "negative",
+              "color": "dark"
+            },
+            {
+              "type": "ltminigames:play_sound",
+              "sound": "ltminigames:stt4.acid_flash_flooding_imminent",
+              "source": "voice"
             }
           ]
         }

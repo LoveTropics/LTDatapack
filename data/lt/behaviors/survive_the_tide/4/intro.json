@@ -1,0 +1,45 @@
+{
+  "type": "ltminigames:scheduled_actions",
+  "target": "all",
+  "actions": {
+    "60": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "ltminigames:stt4.last_shuttle_departing",
+        "source": "voice"
+      },
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.survive_the_tide.stt4.intro1",
+          "color": "gray",
+          "bold": true
+        }
+      }
+    ],
+    "140": {
+      "type": "ltminigames:send_message",
+      "message": {
+        "translate": "ltminigames.minigame.survive_the_tide.stt4.intro2",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    "220": {
+      "type": "ltminigames:send_message",
+      "message": {
+        "translate": "ltminigames.minigame.survive_the_tide.stt4.intro3",
+        "color": "gray",
+        "italic": true
+      }
+    },
+    "340": {
+      "type": "ltminigames:send_message",
+      "message": {
+        "translate": "ltminigames.minigame.survive_the_tide.stt4.intro4",
+        "color": "gray",
+        "italic": true
+      }
+    }
+  }
+}
