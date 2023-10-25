@@ -79,6 +79,10 @@
           }
         }
       }
+    },
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
     }
   ]
 }

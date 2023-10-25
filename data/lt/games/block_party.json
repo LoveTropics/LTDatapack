@@ -71,6 +71,10 @@
         "end": "end"
       },
       "force_drop_items_on_death": false
+    },
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
     }
   ]
 }

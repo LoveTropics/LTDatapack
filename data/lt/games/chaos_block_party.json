@@ -45,6 +45,10 @@
       "type": "ltminigames:cancel_player_damage",
       "knockback": true
     },
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
   ]
 }

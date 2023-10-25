@@ -1,0 +1,41 @@
+{
+  "type": "ltminigames:top_player_trigger",
+  "by_place": [
+    {
+      "type": "ltminigames:give_reward",
+      "items": [
+        {
+          "id": "ltextras:tropicoin",
+          "Count": 25
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:give_reward",
+      "items": [
+        {
+          "id": "ltextras:tropicoin",
+          "Count": 15
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:give_reward",
+      "items": [
+        {
+          "id": "ltextras:tropicoin",
+          "Count": 10
+        }
+      ]
+    }
+  ],
+  "fallback": {
+    "type": "ltminigames:give_reward",
+    "items": [
+      {
+        "id": "ltextras:tropicoin",
+        "Count": 5
+      }
+    ]
+  }
+}

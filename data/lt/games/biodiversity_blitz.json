@@ -139,6 +139,7 @@
         }
       }
     },
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    "lt:biodiversity_blitz/rewards"
   ]
 }

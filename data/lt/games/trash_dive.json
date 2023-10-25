@@ -63,7 +63,11 @@
       "type": "ltminigames:armor_participants",
       "feet": "tropicraft:pink_scuba_flippers"
     },
-    "ltminigames:spectator_chase"
+    "ltminigames:spectator_chase",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 10
+    }
   ]
 }
 

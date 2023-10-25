@@ -1,0 +1,16 @@
+{
+  "type": "ltminigames:game_finish",
+  "actions": {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants",
+    "actions": {
+      "type": "ltminigames:give_reward",
+      "items": [
+        {
+          "id": "ltextras:tropicoin",
+          "Count": "$coins"
+        }
+      ]
+    }
+  }
+}

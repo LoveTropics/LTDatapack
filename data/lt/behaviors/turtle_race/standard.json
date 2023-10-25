@@ -175,5 +175,6 @@
       "doTileDrops": "false",
       "doEntityDrops": "false"
     }
-  }
+  },
+  "lt:turtle_race/rewards"
 ]
