@@ -2,9 +2,9 @@
 kill @e[tag=hole18Crab]
 execute at @a[tag=hole18Player] run kill @e[type=minecraft:experience_orb,distance=..20]
 ## Run when the player runs out of time
-title @a[tag=hole18Player,tag=hole18Timeup] actionbar [{"text":"Your time has ran out for the #1 of Crab Golf","color":"red"}]
+title @a[tag=hole18Player,tag=hole18Timeup] actionbar [{"translate":"lt.golf.time_up_part_1","color":"red"}, {"text":"#1","color":"red"}, {"translate":"lt.golf.time_up_part_2","color":"red"}]
 ## Runs when the players gets into the hole
-title @a[tag=hole18Player,tag=!hole18Timeup] actionbar [{"text":"You have completed the hole #1 of Crab Golf ","color":"red"},{"score":{"name":"hole18Hits","objective":"golf.global"},"color":"green"},{"text":" hits!","color":"red"}]]
+title @a[tag=hole18Player,tag=!hole18Timeup] actionbar [{"translate":"lt.golf.end_hole_part_1","color":"red"},{"text":"#1","color":"red"},{"translate":"lt.golf.end_hole_part_2","color":"red"},{"score":{"name":"hole18Hits","objective":"golf.global"},"color":"green"},{"translate":"lt.golf.end_hole_part_3","color":"red"}]]
 execute as @a[tag=hole18Player,tag=!hole18Timeup] at @e[tag=hole18End] run function lt:game/minigolf/core/firework
 # Sets the player high score to the scoreboard
 execute unless score hole18Hits golf.global > @p[tag=hole18Player,tag=!hole18Timeup] golf.18.scores run scoreboard players operation @a[tag=hole18Player] golf.18.scores = hole18Hits golf.global

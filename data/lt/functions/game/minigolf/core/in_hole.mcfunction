@@ -1,3 +1,3 @@
-title @s title {"text":"Slow down There","color":"red"}
-title @s subtitle {"text":"You are only allowed to play one hole at a time!","color":"red"}
+title @s title {"translate":"lt.golf.second_hole.title2","color":"red"}
+title @s subtitle {"translate":"lt.golf.second_hole.subtitle","color":"red"}
 playsound minecraft:item.signature_run.failure voice @s

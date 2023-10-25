@@ -31,4 +31,4 @@ execute as @e[tag=holeDummyNorthWest] at @s run tp @e[type=dummyplayers:dummy_pl
 execute as @e[tag=holeDummyNorthEast] at @s run tp @e[type=dummyplayers:dummy_player,distance=..1] ~ ~ ~ -135 0
 execute as @e[tag=golfDummy] run data modify entity @s ProfileID set value [I; 1768587982,1106529105,-1439582096,-1685682448]
 execute as @e[tag=golfDummy] run data modify entity @s NameSuffix set value '{"text":" - 20 ", "color":"green"}'
-execute as @e[tag=golfDummy] run data modify entity @s NamePrefix set value '[{"text":" ","color":"red"},{"text":"Best Score: ","color":"green"}]'
+execute as @e[tag=golfDummy] run data modify entity @s NamePrefix set value '[{"text":" ","color":"red"},{"translate":"lt.golf.best_score","color":"green"}]'

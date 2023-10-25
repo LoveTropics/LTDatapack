@@ -1,7 +1,7 @@
 # Removes 1 Second
 scoreboard players remove hole17Timer golf.global 1
 # Shows Time and Hits to the Player
-title @p[tag=hole17Player] actionbar [{"text":"Seconds Left: ","color":"dark_gray"},{"score":{"name":"hole17Timer","objective":"golf.global"},"color":"yellow"},{"text":" | "},{"text":"Hits: ","color":"dark_gray"},{"score":{"name":"hole17Hits","objective":"golf.global"},"color":"green"}]
+title @p[tag=hole17Player] actionbar [{"translate":"lt.golf.seconds_left","color":"dark_gray"},{"score":{"name":"hole17Timer","objective":"golf.global"},"color":"yellow"},{"text":" | "},{"translate":"lt.golf.hits","color":"dark_gray"},{"score":{"name":"hole17Hits","objective":"golf.global"},"color":"green"}]
 # Tests if carb is near the hole
 execute as @e[tag=hole17Crab] at @s if entity @e[tag=hole17End,distance=..0.65] run scoreboard players add hole17EndCounter golf.global 1
 execute as @e[tag=hole17Crab] at @s if entity @e[tag=hole17End,distance=0.65..] unless entity @e[tag=hole17End,distance=..0.65] run scoreboard players set hole17EndCounter golf.global 0

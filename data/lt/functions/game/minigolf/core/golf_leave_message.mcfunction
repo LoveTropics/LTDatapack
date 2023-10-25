@@ -1,1 +1,1 @@
-title @s actionbar [{"text":"Your have left the golf area. Your game has been cleared","color":"red"}]
+title @s actionbar [{"text":"lt.golf.translate","color":"red"}]
