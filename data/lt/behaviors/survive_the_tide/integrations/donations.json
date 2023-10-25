@@ -520,8 +520,10 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "tropicraft:tapir",
-          "apply_attributes": false
+          "entity": {
+            "type": "tropicraft:tapir",
+            "apply_attributes": false
+          }
         },
         "seconds": 120
       }
@@ -545,8 +547,10 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "ltminigames:driftwood",
-          "apply_attributes": false
+          "entity": {
+            "type": "ltminigames:driftwood",
+            "apply_attributes": false
+          }
         },
         "seconds": 120
       }
@@ -570,8 +574,10 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "tropicraft:cubera",
-          "apply_attributes": false
+          "entity": {
+            "type": "tropicraft:cubera",
+            "apply_attributes": false
+          }
         },
         "seconds": 120
       }
@@ -595,10 +601,12 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "minecraft:armor_stand",
-          "apply_attributes": false,
-          "tag": {
-            "ShowArms": true
+          "entity": {
+            "type": "minecraft:armor_stand",
+            "apply_attributes": false,
+            "tag": {
+              "ShowArms": true
+            }
           }
         },
         "seconds": 120
@@ -615,7 +623,7 @@
         "translate": "ltminigames.minigame.survive_the_tide.donation.basilisk_lizard_party",
         "color": "light_purple"
       },
-      "icon": {"item": "tropicraft:brown_basilisk_spawn_egg"},
+      "icon": {"item": "tropicraft:brown_basilisk_lizard_spawn_egg"},
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -623,8 +631,10 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "tropicraft:brown_basilisk_lizard",
-          "apply_attributes": false
+          "entity": {
+            "type": "tropicraft:brown_basilisk_lizard",
+            "apply_attributes": false
+          }
         },
         "seconds": 120
       }

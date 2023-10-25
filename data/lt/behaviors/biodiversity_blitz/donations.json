@@ -109,8 +109,10 @@
       {
         "type": "ltminigames:apply_global_disguise",
         "disguise": {
-          "entity": "tropicraft:tapir",
-          "apply_attributes": false
+          "entity": {
+            "type": "tropicraft:tapir",
+            "apply_attributes": false
+          }
         },
         "seconds": 120
       }
