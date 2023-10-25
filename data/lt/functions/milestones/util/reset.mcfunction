@@ -1,6 +1,6 @@
-scoreboard players set collectible stats 0
-scoreboard players set Collectible1 stats 0
-scoreboard players set Collectible2 stats 0
-scoreboard players set Collectible3 stats 0
-scoreboard players set Collectible4 stats 0
-scoreboard players set Collectible5 stats 0
+scoreboard players set collectible main.stats 0
+scoreboard players set Collectible1 main.stats 0
+scoreboard players set Collectible2 main.stats 0
+scoreboard players set Collectible3 main.stats 0
+scoreboard players set Collectible4 main.stats 0
+scoreboard players set Collectible5 main.stats 0

@@ -53,3 +53,6 @@ execute in tropicraft:tropics as @e[tag=club.gibnut] at @s if entity @p[distance
 execute in tropicraft:tropics as @e[tag=club.gibnut] at @s if entity @p[distance=..8] run execute as @a[distance=..8,tag=club.has_enough_disguises,tag=!club.speaking_with_gibnut,tag=!club.spoken_with_gibnut] at @s run function lt:club/gibnut/accept
 execute as @a[tag=club.speaking_with_gibnut,tag=club.has_enough_disguises] at @s run function lt:club/gibnut/accept_on_tick
 execute as @a[tag=club.speaking_with_gibnut,tag=!club.has_enough_disguises] at @s run function lt:club/gibnut/reject_on_tick
+
+#Donation Effects
+function lt:effects/donation/large_cocnut/tick
