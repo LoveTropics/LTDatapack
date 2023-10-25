@@ -141,10 +141,6 @@
       }
     },
     "ltminigames:spectator_chase",
-    {
-      "type": "ltminigames:team_chat",
-      "chat_type": "lt:team_chat"
-    },
     "lt:biodiversity_blitz/rewards"
   ]
 }
