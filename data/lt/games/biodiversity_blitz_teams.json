@@ -141,6 +141,12 @@
       }
     },
     "ltminigames:spectator_chase",
-    "lt:biodiversity_blitz/rewards"
+    "lt:biodiversity_blitz/rewards",
+    {
+	"type": "ltminigames:bb_in_game_scoreboard",
+	"start": [55.0, 105.0, 36.0],
+	"end": [55.0, 108.0, 42.0],
+	"side": true
+    }
   ]
 }
