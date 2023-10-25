@@ -1,6 +1,11 @@
 {
   "items": [
-    "ltextras:collectible_basket"
+    {
+      "id": "ltextras:collectible_basket",
+      "tag": {
+        "undroppable": true
+      }
+    }
   ],
   "can_be_restored": true
 }
