@@ -133,7 +133,7 @@
         {
           "type": "ltminigames:show_title",
           "action_bar": {
-            "translate": "ltminigames.minigame.turtle_race.speed_bost",
+            "translate": "ltminigames.minigame.turtle_race.speed_boost",
             "color": "green"
           }
         },
