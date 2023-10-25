@@ -55,4 +55,4 @@ execute as @a[tag=club.speaking_with_gibnut,tag=club.has_enough_disguises] at @s
 execute as @a[tag=club.speaking_with_gibnut,tag=!club.has_enough_disguises] at @s run function lt:club/gibnut/reject_on_tick
 
 #Donation Effects
-function lt:effects/donation/large_cocnut/tick
+function lt:effects/donation/large_coconut/tick
