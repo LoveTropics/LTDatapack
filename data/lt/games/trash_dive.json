@@ -43,7 +43,7 @@
     },
     {
       "type": "ltminigames:place_trash",
-      "positionData": "lt:trash.bin",
+      "positionData": "lt:maps/trash.bin",
       "centerY": 75,
       "range": 50,
       "density": 2
