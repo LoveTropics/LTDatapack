@@ -32,5 +32,15 @@ function lt:utility/on_load
 scoreboard objectives add game.stt.entity_track dummy
 
 function lt:milestones/setup
-schedule clear lt:milestones/on_ten_second
-schedule function lt:milestones/on_ten_second 10s
+
+# Setup CCFUCC stuff
+scoreboard objectives add club.disguiseCount dummy
+scoreboard objectives add club.global dummy
+scoreboard objectives add club.joinClock dummy
+scoreboard objectives add club.invCheck dummy
+scoreboard objectives add club.disguiseWearTrack dummy
+scoreboard objectives add club.dialogueTime dummy
+
+team add club.hideNames
+team modify club.hideNames friendlyFire false
+team modify club.hideNames nametagVisibility never

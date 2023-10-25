@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["club.lava_door"]}

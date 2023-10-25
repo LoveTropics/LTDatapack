@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["club.disguise_tracker"]}
