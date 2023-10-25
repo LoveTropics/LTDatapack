@@ -1,5 +1,5 @@
 # Give collectibles from previously unlocked milestones to players who don't yet have them.
-execute in tropicraft:tropics run function lt:milestones/collectible
+execute in tropicraft:tropics run function lt:milestones/on_ten_seconds
 
 
 # Count player disguises unlocked through non-milestone means. If player has enough, get that ball rolling baybeeee

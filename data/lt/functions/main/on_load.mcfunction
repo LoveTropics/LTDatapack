@@ -31,7 +31,8 @@ function lt:utility/on_load
 # handle STT entity killing
 scoreboard objectives add game.stt.entity_track dummy
 
-function lt:milestones/setup
+# General stats scoreboard
+scoreboard objectives add main.stats dummy
 
 # Setup CCFUCC stuff
 scoreboard objectives add club.disguiseCount dummy
