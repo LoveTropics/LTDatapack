@@ -7,7 +7,7 @@ title @s subtitle [{"text":"Covert Club for Undercover Clubbers","color":"dark_g
 scoreboard players set @s club.joinClock 100
 
 # Teleport player
-tp @s 1169 229 2744
+tp @s 2358 106 2392 -90 20
 
 # Give effects
 effect give @s blindness infinite 60 true

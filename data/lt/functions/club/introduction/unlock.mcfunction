@@ -5,3 +5,7 @@ title @s subtitle [{"text":"To the Covert Club for Undercover Clubbers","color":
 
 # Clear blindness
 effect clear @s blindness
+
+# Teleport through barriers and give slow falling
+tp @s ~ ~-3 ~
+effect give @s slow_falling 3 1 true
