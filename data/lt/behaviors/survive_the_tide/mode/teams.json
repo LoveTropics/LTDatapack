@@ -4,5 +4,9 @@
     "type": "ltminigames:teams",
     "friendly_fire": "$friendly_fire"
   },
-  "lt:survive_the_tide/mode/teams/glow"
+  "lt:survive_the_tide/mode/teams/glow",
+  {
+    "type": "ltminigames:team_chat",
+    "chat_type": "lt:team_chat"
+  }
 ]
