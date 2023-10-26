@@ -17,5 +17,8 @@ execute if entity @s[tag=club.can_enter,scores={club.disguiseWearTrack=1}] if bl
 # Set gamemode
 execute if entity @s[tag=club.can_enter,scores={club.disguiseWearTrack=1}] if block ~ 44 ~ emerald_block run gamemode survival @s
 
+# Clear speed from drink
+execute if entity @s[tag=club.can_enter,scores={club.disguiseWearTrack=1}] if block ~ 44 ~ emerald_block run effect clear @s speed
+
 # Otherwise teleport them to the existing member spawn location
 execute if entity @s[tag=club.can_enter,scores={club.disguiseWearTrack=1}] if block ~ 44 ~ emerald_block if entity @s[tag=!club.first_time_join] run function lt:club/introduction/existing_member
