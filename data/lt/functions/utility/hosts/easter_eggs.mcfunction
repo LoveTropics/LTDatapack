@@ -1,17 +1,17 @@
-# Direwolf20
+#Direwolf20
 execute if data entity @s {ProfileID: [I;-1145537090,1762607621,-1111133441,-1192508771]} run data modify entity @s HandItems set value [{id:"create:wrench",Count:1b},{}]
-# Cojomax99
+#Cojomax99
 execute if data entity @s {ProfileID: [I;-1505211345,-855292401,-2116995351,764383134]} run data modify entity @s HandItems set value [{id:"minecraft:cookie",Count:1b},{}]
-# Philza
+#Ph1LzA
 execute if data entity @s {ProfileID: [I;-2074783607,-1378793039,-1569882079,654983408]} run data modify entity @s HandItems set value [{id:"tropicraft:exploding_coconut",Count:1b},{}]
 #Tavinnea
 execute if data entity @s {ProfileID: [I;1029004137,1135038304,-2017228868,-433775056]} run data modify entity @s HandItems set value [{id:"create:builders_tea",Count:1b},{}]
 #HelgaRakel
 execute if data entity @s {ProfileID: [I;1671137399,1213023590,-2113455186,2027551008]} run data modify entity @s HandItems set value [{id:"ltminigames:osa_point",Count:1b},{}]
 #LogicPro
-execute if data entity @s {ProfileID: [I;-1023112197,1296125024,-2119703515,741123856]} run data modify entity @s HandItems set value [{id:"bracreate:brass_hand",Count:1b},{}]
+execute if data entity @s {ProfileID: [I;-1023112197,1296125024,-2119703515,741123856]} run data modify entity @s HandItems set value [{id:"create:brass_hand",Count:1b},{}]
 #MandaLin
-execute if data entity @s {ProfileID: [I;2083692328,-830058638,-1783446481,27363519]} run data modify entity @s HandItems set value [{id:"create:sweet_roll",Count:1b},{}]
+execute if data entity @s {ProfileID: [I;895672764,-1602335584,-1985475681,864027637]} run data modify entity @s HandItems set value [{id:"create:sweet_roll",Count:1b},{}]
 #iskall85
 execute if data entity @s {ProfileID: [I;2127779963,-430553463,-1865021215,497744135]} run data modify entity @s HandItems set value [{id:"create:goggles",Count:1b},{}]
 #slicedlime
