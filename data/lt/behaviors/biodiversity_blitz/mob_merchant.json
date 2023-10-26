@@ -1,0 +1,19 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_merchant",
+    "plot_region": "mob_shop",
+    "entity": "tropicraft:ashen",
+    "name": {"translate": "ltminigames.minigame.biodiversity_blitz.mob_shop"},
+    "offers": [
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "output": "minecraft:rotten_flesh"
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 30},
+        "output": "minecraft:bone"
+      }
+    ]
+  }
+]
+ 

@@ -7,6 +7,7 @@
       "spawn": "spawn_%s",
       "shop": "shop_%s",
       "plant_shop": "plant_shop_%s",
+      "mob_shop": "mob_shop_%s",
       "mob_spawn": "mob_spawn_%s"
     },
     "plots": [

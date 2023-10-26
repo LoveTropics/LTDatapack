@@ -18,7 +18,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:biobash"
+    "load_from": "lt:biobash_new"
   },
   "behaviors": [
     {
@@ -120,6 +120,7 @@
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
     "lt:biodiversity_blitz/plant_merchant",
+    "lt:biodiversity_blitz/mob_merchant",
     "lt:biodiversity_blitz/weather",
     "lt:biodiversity_blitz/donations",
     {
@@ -144,8 +145,8 @@
     "lt:biodiversity_blitz/rewards",
     {
 	"type": "ltminigames:bb_in_game_scoreboard",
-	"start": [55.0, 105.0, 36.0],
-	"end": [55.0, 108.0, 42.0],
+	"start": [9.3, 150.0, -18.0],
+	"end": [9.3, 146.0, -24.0],
 	"side": true
     }
   ]
