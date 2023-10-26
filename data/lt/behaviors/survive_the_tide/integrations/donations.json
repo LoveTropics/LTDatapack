@@ -748,6 +748,14 @@
       {
         "type": "ltminigames:spawn_tornado",
         "sharknado": true
+      },
+      {
+        "type": "ltminigames:show_title",
+        "subtitle": {
+          "translate": "ltminigames.minigame.survive_the_tide.donation.sharknado.title",
+          "color": "red"
+        },
+        "stay": 60
       }
     ]
   },
