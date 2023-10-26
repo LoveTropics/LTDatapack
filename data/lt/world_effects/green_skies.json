@@ -5,5 +5,17 @@
     "green": 255,
     "blue": 110,
     "fade_length": 40
+  },
+  {
+    "type": "particles",
+    "particles": [
+      {
+        "options": {
+          "type": "minecraft:falling_spore_blossom"
+        },
+        "count": 4,
+        "range": 10
+      }
+    ]
   }
 ]
