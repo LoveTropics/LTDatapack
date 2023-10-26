@@ -1,0 +1,22 @@
+[
+  {
+    "type": "sky_color",
+    "red": 255,
+    "green": 110,
+    "blue": 40,
+    "fade_length": 40
+  },
+  {
+    "type": "particles",
+    "particles": [
+      {
+        "options": {
+          "type": "minecraft:lava"
+        },
+        "count": 4,
+        "range": 20,
+        "offset": [0, 12, 0]
+      }
+    ]
+  }
+]
