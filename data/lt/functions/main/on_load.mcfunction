@@ -45,3 +45,6 @@ scoreboard objectives add club.dialogueTime dummy
 team add club.hideNames
 team modify club.hideNames friendlyFire false
 team modify club.hideNames nametagVisibility never
+
+#Stuff for donation effects
+scoreboard objectives add donation.effects dummy

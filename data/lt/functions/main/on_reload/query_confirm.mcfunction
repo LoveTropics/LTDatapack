@@ -4,3 +4,6 @@ execute as @a[tag=main.operator] at @s run playsound minecraft:block.note_block.
 # Schedule 10 second counter
 schedule clear lt:main/on_ten_seconds
 schedule function lt:main/on_ten_seconds 10s
+
+#Reset the donation effect to 0 just in case
+function lt:effects/donation/sky_effects/reset

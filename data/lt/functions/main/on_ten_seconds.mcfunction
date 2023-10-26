@@ -9,3 +9,5 @@ execute in tropicraft:tropics as @a[tag=club.needs_invite_2] at @s run function 
 
 # Repeat every 10 seconds
 schedule function lt:main/on_ten_seconds 10s
+
+execute if score running donation.effects matches 0 run function lt:effects/donation/sky_effects/on_ten_second
