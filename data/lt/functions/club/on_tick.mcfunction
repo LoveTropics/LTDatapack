@@ -5,7 +5,7 @@ execute as @a[tag=club.speaking_with_gibnut,tag=club.has_enough_disguises] at @s
 execute as @a[tag=club.speaking_with_gibnut,tag=!club.has_enough_disguises] at @s run function lt:club/gibnut/reject_on_tick
 
 # Disguise detection (abstracted out for efficiency :))
-execute as @e[tag=club.disguise_tracker] at @s if entity @e[type=player,distance=..35] run function lt:club/disguise_tracker_tick
+execute in tropicraft:tropics as @e[tag=club.disguise_tracker] at @s if entity @e[type=player,distance=..35] run function lt:club/disguise_tracker_tick
 
 # Bouncer / Club system
 execute in tropicraft:tropics as @e[tag=club.the_club] at @s if entity @p[distance=..45] run function lt:club/bouncer/on_tick
