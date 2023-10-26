@@ -4,4 +4,4 @@ tag @s add club.spoken_with_gibnut
 tag @s add club.needs_invite_2
 playsound minecraft:entity.llama.spit master @s ~ ~ ~ 1 1
 scoreboard players reset @s club.dialogueTime
-give @s tropicraft:tropicoin 4
+give @s ltextras:tropicoin 4
