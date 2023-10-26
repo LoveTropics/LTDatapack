@@ -1,5 +1,5 @@
 kill @e[tag=golfDummy]
-execute as @e[tag=golfDummySpawner] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Invulnerable:1b}
+execute as @e[tag=golfDummySpawner] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Invulnerable:1b, DisabledSlots:4144959}
 execute as @e[tag=golfDummySpawner] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add golfDummy
 execute as @e[tag=hole01Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole01Dummy
 execute as @e[tag=hole02Marker] at @s run tag @e[type=dummyplayers:dummy_player,distance=..1] add hole02Dummy

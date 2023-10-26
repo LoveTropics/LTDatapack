@@ -7,7 +7,7 @@ execute if score count global.utility matches 2.. run tag @a[tag=temp,tag=!host0
 execute if score count global.utility matches 3.. run tag @a[tag=temp,tag=!host01,tag=!host03] add host03
 execute if score count global.utility matches 1.. as @e[tag=host01Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost01", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
 execute if score count global.utility matches 2.. as @e[tag=host02Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost02", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
-execute if score count global.utility matches 3.. as @e[tag=host03Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost03", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959   }
+execute if score count global.utility matches 3.. as @e[tag=host03Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost03", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
 execute as @p[tag=host01] run data modify entity @e[tag=dummyHost01,limit=1] ProfileID set from entity @s UUID
 execute as @p[tag=host02] run data modify entity @e[tag=dummyHost02,limit=1] ProfileID set from entity @s UUID
 execute as @p[tag=host03] run data modify entity @e[tag=dummyHost03,limit=1] ProfileID set from entity @s UUID
