@@ -18,3 +18,4 @@ execute if score hole09Hits golf.global matches 17 run data modify entity @s Nam
 execute if score hole09Hits golf.global matches 18 run data modify entity @s NameSuffix set value '{"text":" - 18 ", "color":"green"}'
 execute if score hole09Hits golf.global matches 19 run data modify entity @s NameSuffix set value '{"text":" - 19 ", "color":"green"}'
 execute if score hole09Hits golf.global matches 20 run data modify entity @s NameSuffix set value '{"text":" - 20 ", "color":"green"}'
+execute as @s run function lt:utility/hosts/easter_eggs
