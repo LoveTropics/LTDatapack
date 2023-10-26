@@ -4,4 +4,4 @@ title @s subtitle {"text": "You shouldn't be here - Bouncers inbound!","color": 
 effect give @s blindness 2 60 true
 effect give @s slowness 1 5 true
 playsound minecraft:block.note_block.bit master @s ~ ~ ~ 0.5 0.5
-damage @e[tag=club.bouncer,limit=1,sort=nearest] 5 minecraft:out_of_world by @s
+damage @e[tag=club.bouncer,limit=1,sort=nearest] 1 minecraft:out_of_world by @s
