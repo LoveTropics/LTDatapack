@@ -49,10 +49,6 @@ execute if entity @e[tag=stage.shark] run function lt:stage/feature/sharks/main
 # Club Stuff
 execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
 execute in tropicraft:tropics run function lt:club/on_tick
-execute in tropicraft:tropics as @e[tag=club.gibnut] at @s if entity @p[distance=..8] run execute as @a[distance=..8,tag=!club.has_enough_disguises,tag=!club.speaking_with_gibnut,tag=!club.gibnut_rejected] at @s run function lt:club/gibnut/reject
-execute in tropicraft:tropics as @e[tag=club.gibnut] at @s if entity @p[distance=..8] run execute as @a[distance=..8,tag=club.has_enough_disguises,tag=!club.speaking_with_gibnut,tag=!club.spoken_with_gibnut] at @s run function lt:club/gibnut/accept
-execute as @a[tag=club.speaking_with_gibnut,tag=club.has_enough_disguises] at @s run function lt:club/gibnut/accept_on_tick
-execute as @a[tag=club.speaking_with_gibnut,tag=!club.has_enough_disguises] at @s run function lt:club/gibnut/reject_on_tick
 
 #Donation Effects
 function lt:effects/donation/large_coconut/tick

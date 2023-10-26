@@ -4,7 +4,7 @@ title @s title [{"text":"Welcome Back!","color":"dark_purple","bold":true}]
 title @s subtitle [{"text":"To the Covert Club for Undercover Clubbers","color":"light_purple"}]
 
 # Teleport player
-tp @s 1169 229 2744
+tp @s @e[tag=club.normal_spawn,limit=1]
 
 # Give effects
 effect give @s nausea 5 3 true
