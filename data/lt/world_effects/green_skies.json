@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sky_color",
+    "red": 40,
+    "green": 255,
+    "blue": 110,
+    "fade_length": 40
+  },
+  {
+    "type": "particles",
+    "particles": [
+      {
+        "options": {
+          "type": "minecraft:wax_on"
+        },
+        "count": 4,
+        "range": 10
+      }
+    ]
+  }
+]
