@@ -6,6 +6,6 @@ execute if score all donations.totals matches 20000.. as @a[current_world=true,t
 execute if score all donations.totals matches 25000.. as @a[current_world=true,tag=!collectibles.granted-five] run function lt:milestones/grant/five
 
 #Philza Online Unlock 
-execute if entity 84555089-add1-49b1-a26d-8021270a40f0 if dimension tropicraft:tropics as @a[current_world=true,tag=!collectibles.tranted-ph1zla] run function lt:milestones/grant/ph1zla
+execute as @a[role=live] if entity 84555089-add1-49b1-a26d-8021270a40f0 if dimension tropicraft:tropics as @a[current_world=true,tag=!collectibles.tranted-ph1zla] run function lt:milestones/grant/ph1zla
 
 execute as @a[tag=collectibles.admin] run function lt:milestones/util/update_from_score
