@@ -48,3 +48,6 @@ team modify club.hideNames nametagVisibility never
 
 #Stuff for donation effects
 scoreboard objectives add donation.effects dummy
+
+#Player disguise cloning
+scoreboard objectives add disguise.cloneing dummy
