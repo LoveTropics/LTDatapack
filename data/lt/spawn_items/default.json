@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "id": "ltextras:tropical_map",
+      "tag": {
+        "undroppable": true
+      }
+    },
+    {
       "id": "ltextras:collectible_basket",
       "tag": {
         "undroppable": true
