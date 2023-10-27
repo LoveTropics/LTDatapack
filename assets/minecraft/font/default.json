@@ -38,6 +38,15 @@
     },
     {
       "type": "bitmap",
+      "file": "ltextras:font/collectible/utility_english.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE014"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "ltextras:font/collectible/purchased_spanish.png",
       "ascent": 7,
       "height": 9,
@@ -74,6 +83,15 @@
     },
     {
       "type": "bitmap",
+      "file": "ltextras:font/collectible/utility_spanish.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE024"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "ltextras:font/collectible/purchased_french.png",
       "ascent": 10,
       "height": 12,
@@ -106,6 +124,15 @@
       "height": 9,
       "chars": [
         "\uE033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/utility_french.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [
+        "\uE034"
       ]
     }
   ]
