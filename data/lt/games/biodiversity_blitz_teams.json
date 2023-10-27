@@ -67,7 +67,7 @@
       "warn_seconds": 20,
       "difficulty_factors": {
         "easy": 0.5,
-        "normal": 1.0,
+        "normal": 1.25,
         "hard": 1.5
       },
       "size_curve_always": true,
@@ -88,7 +88,7 @@
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 2.0,
+        "base": 1.5,
         "bound": 20.5,
         "diversity_factor": 0.33
       },
@@ -143,6 +143,7 @@
     },
     "ltminigames:spectator_chase",
     "lt:biodiversity_blitz/rewards",
+    "lt:biodiversity_blitz/send_mobs",
     {
 	"type": "ltminigames:bb_in_game_scoreboard",
 	"start": [9.3, 150.0, -18.0],

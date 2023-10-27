@@ -7,11 +7,54 @@
     "offers": [
       {
         "input": {"id": "ltminigames:osa_point", "Count": 20},
-        "output": "minecraft:rotten_flesh"
+        "output": {
+	  "id": "minecraft:rotten_flesh",
+	  "Count": 1,
+	  "tag": {
+            "display": {
+              "Lore": [
+		"{\"text\": \"Send a husk to the other side!\",\"color\":\"red\"}"
+              ]
+	    },
+	    "ltminigames:bb_mobs_to_send_to_enemies": {
+	      "husk": 1
+	    }
+	  }
+	}
       },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 30},
-        "output": "minecraft:bone"
+	"output": {
+	  "id": "minecraft:bone",
+	  "Count": 1,
+	  "tag": {
+            "display": {
+              "Lore": [
+		"{\"text\": \"Send a pillager to the other side!\",\"color\":\"red\"}"
+              ]
+	    },
+	    "ltminigames:bb_mobs_to_send_to_enemies": {
+	      "pillager": 1
+	    }
+	  }
+	}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 30},
+	"output": {
+	  "id": "minecraft:gunpowder",
+	  "Count": 1,
+	  "tag": {
+            "display": {
+              "Lore": [
+		"{\"text\": \"Send a creeper to the other side!\",\"color\":\"red\"}"
+              ]
+	    },
+	    "ltminigames:bb_mobs_to_send_to_enemies": {
+	      "creeper": 1
+	    }
+	  }
+	}
       }
     ]
   }

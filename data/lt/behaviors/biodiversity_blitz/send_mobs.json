@@ -1,0 +1,8 @@
+{
+  "type": "ltminigames:biodiversity_blitz_send_mobs_to_enemy",
+  "item": [
+    "minecraft:rotten_flesh",
+    "minecraft:bone",
+    "minecraft:gunpowder"
+  ]
+}
