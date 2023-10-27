@@ -1,19 +1,24 @@
 [
   {
     "type": "ltminigames:donation_package",
-    "package_type": "speed_boost_1_package",
+    "id": "speed_boost_1_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.speed_boost_1_package"},
+    "description": {"translate": "ltminigames.minigame.donation.speed_boost_1_package.description"},
+    "donation_amount": 2.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_1_package",
+        "translate": "ltminigames.minigame.donation.speed_boost_1_package.toast",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": 1.2,
@@ -23,19 +28,24 @@
   },
   {
     "type": "ltminigames:donation_package",
-    "package_type": "speed_boost_5_package",
+    "id": "speed_boost_5_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.speed_boost_5_package"},
+    "description": {"translate": "ltminigames.minigame.donation.speed_boost_5_package.description"},
+    "donation_amount": 10.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_5_package",
+        "translate": "ltminigames.minigame.donation.speed_boost_5_package.toast",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": 1.2,
@@ -45,19 +55,24 @@
   },
   {
     "type": "ltminigames:donation_package",
-    "package_type": "speed_boost_30_package",
+    "id": "speed_boost_30_package",
+    "package_type": "care_package",
+    "category": "medium",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.speed_boost_30_package"},
+    "description": {"translate": "ltminigames.minigame.donation.speed_boost_30_package.description"},
+    "donation_amount": 60.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.speed_boost_30_package",
+        "translate": "ltminigames.minigame.donation.speed_boost_30_package.toast",
         "color": "green"
       },
       "icon": { "effect": "minecraft:speed" },
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": 1.2,
@@ -68,19 +83,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "slowness_1_package",
+    "id": "slowness_1_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.slowness_1_package"},
+    "description": {"translate": "ltminigames.minigame.donation.slowness_1_package.description"},
+    "donation_amount": 2.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.slowness_1_package",
+        "translate": "ltminigames.minigame.donation.slowness_1_package.toast",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": -0.6,
@@ -90,19 +110,24 @@
   },
   {
     "type": "ltminigames:donation_package",
-    "package_type": "slowness_5_package",
+    "id": "slowness_5_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.slowness_5_package"},
+    "description": {"translate": "ltminigames.minigame.donation.slowness_5_package.description"},
+    "donation_amount": 10.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.slowness_5_package",
+        "translate": "ltminigames.minigame.donation.slowness_5_package.toast",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": -0.6,
@@ -112,19 +137,24 @@
   },
   {
     "type": "ltminigames:donation_package",
-    "package_type": "slowness_30_package",
+    "id": "slowness_30_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.slowness_30_package"},
+    "description": {"translate": "ltminigames.minigame.donation.slowness_30_package.description"},
+    "donation_amount": 60.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.turtle_race.donation.slowness_30_package",
+        "translate": "ltminigames.minigame.donation.slowness_30_package.toast",
         "color": "red"
       },
       "icon": { "effect": "minecraft:slowness" },
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:turtle_boost",
         "amount": -0.6,

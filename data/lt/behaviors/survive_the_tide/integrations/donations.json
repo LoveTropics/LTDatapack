@@ -6,11 +6,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "antidote_package",
+    "id": "antidote_package",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.antidote_package"},
+    "description": {"translate": "ltminigames.minigame.donation.antidote_package.description"},
+    "donation_amount": 5.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.antidote_package",
+        "translate": "ltminigames.minigame.donation.antidote_package.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -18,7 +23,7 @@
       "sound": "ltminigames:package_receive"
     },
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/antidote_package"
@@ -28,19 +33,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "knockback_package",
+    "id": "knockback_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.knockback_package"},
+    "description": {"translate": "ltminigames.minigame.donation.knockback_package.description"},
+    "donation_amount": 10.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.knockback_package",
+        "translate": "ltminigames.minigame.donation.knockback_package.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:stick"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/yeeter_package"
@@ -50,19 +60,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "boom_package",
+    "id": "boom_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.boom_package"},
+    "description": {"translate": "ltminigames.minigame.donation.boom_package.description"},
+    "donation_amount": 20.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.boom_package",
+        "translate": "ltminigames.minigame.donation.boom_package.toast",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:exploding_coconut"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "all",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/boom_package"
@@ -72,19 +87,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "invisibility_package",
+    "id": "invisibility_package",
+    "package_type": "care_package",
+    "category": "medium",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.invisibility_package"},
+    "description": {"translate": "ltminigames.minigame.donation.invisibility_package.description"},
+    "donation_amount": 10.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.invisibility_package",
+        "translate": "ltminigames.minigame.donation.invisibility_package.toast",
         "color": "light_purple"
       },
       "icon": {"effect": "minecraft:invisibility"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -100,19 +120,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "undying_package",
+    "id": "undying_package",
+    "package_type": "care_package",
+    "category": "large",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.undying_package"},
+    "description": {"translate": "ltminigames.minigame.donation.undying_package.description"},
+    "donation_amount": 40.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.undying_package",
+        "translate": "ltminigames.minigame.donation.undying_package.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:totem_of_undying"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/no_die_package"
@@ -122,19 +147,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "slowness_package",
+    "id": "slowness_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.slowness_package"},
+    "description": {"translate": "ltminigames.minigame.donation.slowness_package.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.slowness_package",
+        "translate": "ltminigames.minigame.donation.slowness_package.toast",
         "color": "red"
       },
       "icon": {"effect": "minecraft:slowness"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -150,19 +180,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "hunger_package",
+    "id": "hunger_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.hunger_package"},
+    "description": {"translate": "ltminigames.minigame.donation.hunger_package.description"},
+    "donation_amount": 5.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.hunger_package",
+        "translate": "ltminigames.minigame.donation.hunger_package.toast",
         "color": "red"
       },
       "icon": {"effect": "minecraft:hunger"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -178,19 +213,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "random_creeper_package",
+    "id": "random_creeper_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "random",
+    "name": {"translate": "ltminigames.minigame.donation.random_creeper_package"},
+    "description": {"translate": "ltminigames.minigame.donation.random_creeper_package.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.random_creeper_package",
+        "translate": "ltminigames.minigame.donation.random_creeper_package.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "random",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity": {
@@ -206,7 +246,13 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "swap_players_package",
+    "id": "swap_players_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.swap"},
+    "description": {"translate": "ltminigames.minigame.donation.swap.description"},
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.swap",
@@ -215,7 +261,6 @@
       "icon": { "effect": "minecraft:unluck" },
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:countdown_action",
@@ -233,19 +278,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "chosen_creeper_package",
+    "id": "chosen_creeper_package",
+    "package_type": "sabotage_package",
+    "category": "medium",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.chosen_creeper_package"},
+    "description": {"translate": "ltminigames.minigame.donation.chosen_creeper_package.description"},
+    "donation_amount": 25.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.chosen_creeper_package",
+        "translate": "ltminigames.minigame.donation.chosen_creeper_package.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:creeper_head"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity": {
@@ -261,19 +311,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "lightning_strike",
+    "id": "lightning_strike",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.lightning_strike"},
+    "description": {"translate": "ltminigames.minigame.donation.lightning_strike.description"},
+    "donation_amount": 20.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.lightning_strike",
+        "translate": "ltminigames.minigame.donation.lightning_strike.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "specific",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:spawn_entity_at_player",
         "entity": {
@@ -286,19 +341,24 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "lightning_storm",
+    "id": "lightning_storm",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.lightning_storm"},
+    "description": {"translate": "ltminigames.minigame.donation.lightning_storm.description"},
+    "donation_amount": 20.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.lightning_storm",
+        "translate": "ltminigames.minigame.donation.lightning_storm.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:flint_and_steel"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:show_title",
         "title": {
@@ -326,17 +386,22 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "zombie_invasion_package",
+    "id": "zombie_invasion_package",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.zombie_invasion_package"},
+    "description": {"translate": "ltminigames.minigame.donation.zombie_invasion_package.description"},
+    "donation_amount": 50.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.zombie_invasion_package",
+        "translate": "ltminigames.minigame.donation.zombie_invasion_package.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:zombie_head"},
       "sentiment": "negative",
       "sound": "entity.wither.spawn"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:show_title",
@@ -389,17 +454,22 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "meteor_storm_package",
+    "id": "meteor_storm_package",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.meteor_storm_package"},
+    "description": {"translate": "ltminigames.minigame.donation.meteor_storm_package.description"},
+    "donation_amount": 50.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.meteor_storm_package",
+        "translate": "ltminigames.minigame.donation.meteor_storm_package.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:show_title",
@@ -429,17 +499,22 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "meteor_strike_package",
+    "id": "meteor_strike_package",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "random",
+    "name": {"translate": "ltminigames.minigame.donation.meteor_strike_package"},
+    "description": {"translate": "ltminigames.minigame.donation.meteor_strike_package.description"},
+    "donation_amount": 25.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.meteor_strike_package",
+        "translate": "ltminigames.minigame.donation.meteor_strike_package.title",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "random",
     "receive_actions": [
       {
         "type": "ltminigames:shoot_projectiles_at_player",
@@ -456,11 +531,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "forced_player_head_package",
+    "id": "forced_player_head_package",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.forced_player_head_package"},
+    "description": {"translate": "ltminigames.minigame.donation.forced_player_head_package.description"},
+    "donation_amount": 5.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.forced_player_head_package",
+        "translate": "ltminigames.minigame.donation.forced_player_head_package.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:player_head"},
@@ -477,11 +557,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "puffer_package",
+    "id": "puffer_package",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.puffer_package"},
+    "description": {"translate": "ltminigames.minigame.donation.puffer_package.description"},
+    "donation_amount": 10.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.puffer_package",
+        "translate": "ltminigames.minigame.donation.puffer_package.title",
         "color": "red"
       },
       "icon": {"item": "minecraft:pufferfish"},
@@ -489,7 +574,7 @@
       "sound": "ltminigames:sabotage_receive"
     },
     "receive_actions": [
-      { "type": "ltminigames:give_player_head_package" },
+      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:set_block_at_player",
         "block": "water"
@@ -505,11 +590,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "tapir_party",
+    "id": "tapir_party",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.tapir_party"},
+    "description": {"translate": "ltminigames.minigame.donation.tapir_party.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.tapir_party",
+        "translate": "ltminigames.minigame.donation.tapir_party.toast",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:tapir_spawn_egg"},
@@ -532,11 +622,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "driftwood_dazzle",
+    "id": "driftwood_dazzle",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.driftwood_dazzle"},
+    "description": {"translate": "ltminigames.minigame.donation.driftwood_dazzle.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.driftwood_dazzle",
+        "translate": "ltminigames.minigame.donation.driftwood_dazzle.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:oak_log"},
@@ -559,11 +654,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "cubera_confusion",
+    "id": "cubera_confusion",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.cubera_confusion"},
+    "description": {"translate": "ltminigames.minigame.donation.cubera_confusion.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.cubera_confusion",
+        "translate": "ltminigames.minigame.donation.cubera_confusion.toast",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:cubera_spawn_egg"},
@@ -586,11 +686,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "armor_standified",
+    "id": "armor_standified",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.armor_standardization"},
+    "description": {"translate": "ltminigames.minigame.donation.armor_standardization.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.armor_standardization",
+        "translate": "ltminigames.minigame.donation.armor_standardization.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:armor_stand"},
@@ -616,11 +721,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "basilisk_lizard_party",
+    "id": "basilisk_lizard_party",
+    "package_type": "sabotage_package",
+    "category": "small",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.basilisk_lizard_party"},
+    "description": {"translate": "ltminigames.minigame.donation.basilisk_lizard_party.description"},
+    "donation_amount": 15.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.basilisk_lizard_party",
+        "translate": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
         "color": "light_purple"
       },
       "icon": {"item": "tropicraft:brown_basilisk_lizard_spawn_egg"},
@@ -643,17 +753,22 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "its_been_fun",
+    "id": "its_been_fun",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.its_been_fun"},
+    "description": {"translate": "ltminigames.minigame.donation.its_been_fun.description"},
+    "donation_amount": 1000.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.its_been_fun",
+        "translate": "ltminigames.minigame.donation.its_been_fun.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:tnt"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:spawn_entity_at_player",
@@ -673,11 +788,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "player_tornado",
+    "id": "player_tornado",
+    "package_type": "care_package",
+    "category": "large",
     "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.player_tornado"},
+    "description": {"translate": "ltminigames.minigame.donation.player_tornado.description"},
+    "donation_amount": 50.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado",
+        "translate": "ltminigames.minigame.donation.player_tornado.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -693,7 +813,7 @@
       {
         "type": "ltminigames:show_title",
         "subtitle": {
-          "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado.title",
+          "translate": "ltminigames.minigame.donation.player_tornado.title",
           "color": "red"
         },
         "stay": 60
@@ -703,11 +823,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "player_tornado_baby",
+    "id": "player_tornado_baby",
+    "package_type": "care_package",
+    "category": "large",
     "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.player_tornado_baby"},
+    "description": {"translate": "ltminigames.minigame.donation.player_tornado_baby.description"},
+    "donation_amount": 30.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado_baby",
+        "translate": "ltminigames.minigame.donation.player_tornado_baby.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -723,7 +848,7 @@
       {
         "type": "ltminigames:show_title",
         "subtitle": {
-          "translate": "ltminigames.minigame.survive_the_tide.donation.player_tornado_baby.title",
+          "translate": "ltminigames.minigame.donation.player_tornado_baby.title",
           "color": "red"
         },
         "stay": 60
@@ -733,11 +858,16 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "sharknado",
+    "id": "sharknado",
+    "package_type": "sabotage_package",
+    "category": "large",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.sharknado"},
+    "description": {"translate": "ltminigames.minigame.donation.sharknado.description"},
+    "donation_amount": 50.0,
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.donation.sharknado",
+        "translate": "ltminigames.minigame.donation.sharknado.toast",
         "color": "light_purple"
       },
       "icon": {"item": "minecraft:milk_bucket"},
@@ -752,7 +882,7 @@
       {
         "type": "ltminigames:show_title",
         "subtitle": {
-          "translate": "ltminigames.minigame.survive_the_tide.donation.sharknado.title",
+          "translate": "ltminigames.minigame.donation.sharknado.title",
           "color": "red"
         },
         "stay": 60

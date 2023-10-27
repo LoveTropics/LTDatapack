@@ -1,17 +1,20 @@
 [
   {
     "type": "ltminigames:donation_package",
-    "package_type": "lightning_storm_event",
+    "id": "lightning_storm_event",
+    "package_type": "chat_event",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.lightning_storm_event"},
+    "description": {"translate": "ltminigames.minigame.event.lightning_storm_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.lightning_storm_event",
+        "translate": "ltminigames.minigame.event.lightning_storm_event.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:show_title",
@@ -40,17 +43,20 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "zombie_invasion_event",
+    "id": "zombie_invasion_event",
+    "package_type": "chat_event",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.zombie_invasion_event"},
+    "description": {"translate": "ltminigames.minigame.event.zombie_invasion_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.zombie_invasion_event",
+        "translate": "ltminigames.minigame.event.zombie_invasion_event.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:zombie_head"},
       "sentiment": "negative",
       "sound": "entity.wither.spawn"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:show_title",
@@ -95,17 +101,20 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "meteor_shower_event",
+    "id": "meteor_shower_event",
+    "package_type": "chat_event",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.meteor_shower_event"},
+    "description": {"translate": "ltminigames.minigame.event.meteor_shower_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.meteor_shower_event",
+        "translate": "ltminigames.minigame.event.meteor_shower_event.toast",
         "color": "red"
       },
       "icon": {"item": "minecraft:fire_charge"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
-    "player_select": "all",
     "receive_actions": [
       {
         "type": "ltminigames:show_title",
@@ -135,11 +144,14 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "acid_rain_event",
+    "id": "acid_rain_event",
+    "package_type": "chat_event",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.acid_rain_event"},
+    "description": {"translate": "ltminigames.minigame.event.acid_rain_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.acid_rain_event",
+        "translate": "ltminigames.minigame.event.acid_rain_event.toast",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:acid_repellent_umbrella" },
@@ -157,11 +169,14 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "heatwave_event",
+    "id": "heatwave_event",
+    "package_type": "chat_event",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.heatwave_event"},
+    "description": {"translate": "ltminigames.minigame.event.heatwave_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.heatwave_event",
+        "translate": "ltminigames.minigame.event.heatwave_event.toast",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:super_sunscreen" },
@@ -179,11 +194,14 @@
 
   {
     "type": "ltminigames:donation_package",
-    "package_type": "hail_event",
+    "id": "hail_event",
+    "package_type": "chat_event",
     "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.event.hail_event"},
+    "description": {"translate": "ltminigames.minigame.event.hail_event.description"},
     "notification": {
       "message": {
-        "translate": "ltminigames.minigame.survive_the_tide.event.hail_event",
+        "translate": "ltminigames.minigame.event.hail_event.toast",
         "color": "light_purple"
       },
       "icon": { "item": "ltminigames:acid_repellent_umbrella" },
