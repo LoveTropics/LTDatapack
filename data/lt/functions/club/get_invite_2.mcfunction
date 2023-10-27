@@ -17,12 +17,12 @@ scoreboard players reset @s club.invCheck
 execute store success score @s club.invCheck run data get entity @s Inventory[{tag:{clubInviteTwo:1b}}]
 
 # CASE: Player got invite
-execute if score @s club.invCheck matches 1 run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.succeed","color": "gray"}]
+execute if score @s club.invCheck matches 1 run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.succeed","color": "gray","obfuscated":false}]
 execute if score @s club.invCheck matches 1 run playsound minecraft:block.note_block.iron_xylophone master @s ~ ~ ~ 2 1
 
 # CASE: Player didn't get invite
-execute if score @s[tag=!club.full_inventory] club.invCheck matches 0 if entity @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}},distance=..3] run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.fail","color": "gray"}]
-execute if score @s[tag=club.full_inventory] club.invCheck matches 0 if entity @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}},distance=..3] run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.special","color": "gray"}]
+execute if score @s[tag=!club.full_inventory] club.invCheck matches 0 if entity @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}},distance=..3] run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.fail","color": "gray","obfuscated":false}]
+execute if score @s[tag=club.full_inventory] club.invCheck matches 0 if entity @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}},distance=..3] run tellraw @s [{"text":"Club","color":"dark_purple","obfuscated":true},{"translate": "lt.club.message.invite_2.special","color": "gray","obfuscated":false}]
 execute if score @s club.invCheck matches 0 if entity @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}},distance=..3] run playsound minecraft:block.note_block.snare master @s ~ ~ ~ 2 1
 execute if score @s club.invCheck matches 0 run kill @e[type=item,nbt={Item:{tag:{clubInviteTwo:1b}}}]
 
