@@ -1,0 +1,26 @@
+{
+  "item.signature_run.failure": {
+    "sounds": [
+      {
+        "name": "signature_run/failure"
+      }
+    ],
+    "subtitle": "Hurt"
+  },
+  "item.turtle_race.spin_powerup": {
+    "sounds": [
+      {
+        "name": "turtle_race/spin_powerup"
+      }
+    ],
+    "subtitle": "Hurt"
+  },
+  "item.turtle_race.get_powerup": {
+    "sounds": [
+      {
+        "name": "turtle_race/get_powerup"
+      }
+    ],
+    "subtitle": "Hurt"
+  }
+}

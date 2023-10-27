@@ -4,7 +4,7 @@
     "lt.golf.soft_putter": "Soft Putter",
     "lt.golf.putter": "Putter",
     "lt.golf.powerful_driver": "Powerful Driver",
-    "lt.golf.potent_driver": "Potent Driver",    
+    "lt.golf.potent_driver": "Potent Driver",
     "lt.golf.gentle_putter.info": "For those short and sweet strikes.",
     "lt.golf.soft_putter.info": "A little bit higher range than the Gentle Putter.",
     "lt.golf.putter.info": "Perfect for those medium-range putts.",
@@ -39,6 +39,9 @@
     "lt.milestone.colcojo": "Col Cojo",
     "lt.item.moon_boots": "Moon Boots",
     "ltmenu.connect": "Connect to Love Tropics",
-    "ltmenu.donate": "Donate to Sustainable Harvest"
-
+    "ltmenu.donate": "Donate to Sustainable Harvest",
+    "lt.collectibles.unicode.milestone": "",
+    "lt.collectibles.unicode.purchased": "",
+    "lt.collectibles.unicode.reward": "",
+    "lt.collectibles.unicode.secret": ""
 }

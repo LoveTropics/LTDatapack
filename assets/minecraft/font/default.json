@@ -1,0 +1,112 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/purchased_english.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/reward_english.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/milestone_english.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/secret_english.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/purchased_spanish.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/reward_spanish.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/milestone_spanish.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/secret_spanish.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/purchased_french.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [
+        "\uE030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/reward_french.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [
+        "\uE031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/milestone_french.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [
+        "\uE032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "ltextras:font/collectible/secret_french.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": [
+        "\uE033"
+      ]
+    }
+  ]
+}
