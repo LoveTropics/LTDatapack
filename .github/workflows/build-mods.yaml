@@ -1,4 +1,4 @@
-name: Build Assets
+name: Build Mods
 
 on:
   push:
@@ -12,9 +12,11 @@ jobs:
 
       - run: |
           zip -r lt-assets.jar assets/ META-INF/ pack.mcmeta
+          zip -r lt-data.jar data/ META-INF/ pack.mcmeta
 
       - uses: actions/upload-artifact@v2
         with:
-          name: lt-assets
+          name: lt
           path: |
             lt-assets.jar
+            lt-data.jar
