@@ -17,4 +17,4 @@ execute as @e[tag=dummyHost03] at @s run tp @s ~ ~ ~ 45 0
 tag @a remove host01
 tag @a remove host02
 tag @a remove host03
-execute as @e[tag=hostDummy] run function lt:utility/hosts/easter_eggs
+execute as @e[tag=hostDummy] at @s run function lt:utility/hosts/easter_eggs
