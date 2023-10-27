@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/purchased_english.png",
+      "file": "lt:font/collectible/purchased_english.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -11,7 +11,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/reward_english.png",
+      "file": "lt:font/collectible/reward_english.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -20,7 +20,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/milestone_english.png",
+      "file": "lt:font/collectible/milestone_english.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -29,7 +29,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/secret_english.png",
+      "file": "lt:font/collectible/secret_english.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/utility_english.png",
+      "file": "lt:font/collectible/utility_english.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -47,7 +47,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/purchased_spanish.png",
+      "file": "lt:font/collectible/purchased_spanish.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -56,7 +56,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/reward_spanish.png",
+      "file": "lt:font/collectible/reward_spanish.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -65,7 +65,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/milestone_spanish.png",
+      "file": "lt:font/collectible/milestone_spanish.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -74,7 +74,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/secret_spanish.png",
+      "file": "lt:font/collectible/secret_spanish.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -83,7 +83,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/utility_spanish.png",
+      "file": "lt:font/collectible/utility_spanish.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -92,7 +92,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/purchased_french.png",
+      "file": "lt:font/collectible/purchased_french.png",
       "ascent": 10,
       "height": 12,
       "chars": [
@@ -101,7 +101,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/reward_french.png",
+      "file": "lt:font/collectible/reward_french.png",
       "ascent": 10,
       "height": 12,
       "chars": [
@@ -110,7 +110,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/milestone_french.png",
+      "file": "lt:font/collectible/milestone_french.png",
       "ascent": 10,
       "height": 12,
       "chars": [
@@ -119,7 +119,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/secret_french.png",
+      "file": "lt:font/collectible/secret_french.png",
       "ascent": 7,
       "height": 9,
       "chars": [
@@ -128,7 +128,7 @@
     },
     {
       "type": "bitmap",
-      "file": "ltextras:font/collectible/utility_french.png",
+      "file": "lt:font/collectible/utility_french.png",
       "ascent": 10,
       "height": 12,
       "chars": [
