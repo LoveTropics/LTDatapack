@@ -12,7 +12,7 @@
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
-    "spectators": "spawn"
+    "spectators": "point_1"
   },
   {
     "type": "ltminigames:turtle_rider",
@@ -160,7 +160,7 @@
         "winner_2",
         "winner_3"
       ],
-      "loser_region": "spawn"
+      "loser_region": "loser_spawn"
     }
   },
   "ltminigames:spectator_chase",
