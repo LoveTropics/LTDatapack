@@ -1,0 +1,16 @@
+{
+  "x": -100,
+  "y": 0,
+  "width": 200,
+  "height": 20,
+  "u": 0,
+  "v": 20,
+  "hoverU": 0,
+  "hoverV": 40,
+  "texWidth": 200,
+  "texHeight": 60,
+  "langKey": "ltmenu.connect",
+  "action": "CONNECT_TO_SERVER",
+  "texture": "packmenu:textures/gui/ltconnect.png",
+  "data": "event-server.lovetropics.org"
+}

@@ -1,0 +1,9 @@
+{
+  "x": -100,
+  "y": 22,
+  "width": 200,
+  "height": 20,
+  "langKey": "ltmenu.donate",
+  "action": "OPEN_URL",
+  "data": "https://lovetropics.org/donate"
+}
