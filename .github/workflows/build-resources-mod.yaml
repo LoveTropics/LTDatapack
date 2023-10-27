@@ -12,8 +12,8 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: lt
+          name: lt-assets
           path: |
-            data/
+            META-INF/
+            assets/
             pack.mcmeta
-          retention-days: 30

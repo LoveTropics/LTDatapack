@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="[40,)"
+authors="LoveTropics"
+license="ARR"
+
+[[mods]]
+modId="lt"
+version="1.0"
+displayName="Love Tropics Resources"
+description='''Resources for the Love Tropics event'''
