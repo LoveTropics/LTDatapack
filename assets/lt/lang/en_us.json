@@ -33,17 +33,62 @@
     "lt.golf.display.info.part_5": "\n Good luck and Have Fun!!",
     "lt.golf.display.tele.part_1": "Teleporters!",
     "lt.golf.display.tele.part_2": "\n If your Crab touches Concrete Powder \n it will teleport to the Concrete of the same color",
+
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
-    "lt.milestone.item_lore": "Unlocked for recving %s in total donations",
+    "lt.milestone.item_lore": "Unlocked for recieving %s in total donations",
     "lt.milestone.colcojo": "Col Cojo",
-    "lt.item.moon_boots": "Moon Boots",
     "ltmenu.connect": "Connect to Love Tropics",
     "ltmenu.donate": "Donate to Sustainable Harvest",
+
     "lt.collectible.unicode.milestone": "",
     "lt.collectible.unicode.purchased": "",
     "lt.collectible.unicode.reward": "",
     "lt.collectible.unicode.secret": "",
     "lt.collectible.unicode.utility": "",
-    "lt.disguise.to_many_players": "Can't clone more then one player at a time!"
+
+    "lt.collectible.disguise.name.suffix": "Disguise",
+    "lt.collectible.hat.name.suffix": "Hat",
+    "lt.collectible.disguise.tooltip.when_on_head": "When on Head:",
+    "lt.collectible.disguise.tooltip.subtract_player": " - Player",
+    
+    "lt.collectible.cool_shades.name": "Cool Shades",
+    "lt.collectible.cool_shades.description": "Very cool. Not very effective.",
+    "lt.collectible.tapir_with_shades.name": "Tapir with Shades",
+    "lt.collectible.tapir_with_shades.description": "The coolest tapir in town! Bad eyesight though.",
+    "lt.collectible.player_clone.name": "Cloned ",
+    "lt.collectible.player_clone.description": "!¡∷𝙹!¡ᒷ∷ℸ ̣ || 𝙹⎓ ℸ ̣ ⍑ᒷℸ ̣ ᔑ",
+
+    "lt.club.message.invite_1.succeed": ": You've been given an item. Try holding it. We look forward to not knowing you.",
+    "lt.club.message.invite_1.fail": ": We tried to give you an item, but your inventory was full. You can now find it in your collectibles basket. Try holding it. We look forward to not knowing you.",
+    "lt.club.message.invite_2.succeed": ": We're glad you've come this far. Another item has been given to you.",
+    "lt.club.message.invite_2.fail": ": We tried to give you another item, but your inventory was full. You can now find a second item in your collectible basket. We're glad you've come this far.",
+    "lt.club.message.invite_2.special": ": We're glad you've come this far but for the love of disguises clean up your inventory a bit! That's TWICE! IN A ROW! Y'know how much it costs to send these messages?! No, wait, you don't get to know! You're probably doing this on purpose to bankrupt us! You're lucky we're not allowed to reject members. You can now find a second item in your stupid collectible basket ...",
+    "lt.club.message.door.scold": "Now why would you walk into lava without protection?",
+
+    "lt.club.dialogue.gibnut.reject.1": ": Hmm, curious.",
+    "lt.club.dialogue.gibnut.reject.2": ": You've made it all the way here yet you lack what is needed.",
+    "lt.club.dialogue.gibnut.reject.3": ": That simply won't do.",
+    "lt.club.dialogue.gibnut.reject.4": ": Until the time you return with five, non-milestone disguises, I will speak no further.",
+    "lt.club.dialogue.gibnut.reject.leave": ": Hey! I wasn't done talking, where are you going! Who raised you?! Whatever ... I don't think you'll find enough disguises anyways.",
+    "lt.club.dialogue.gibnut.accept.1": ": Ahh, welcome!",
+    "lt.club.dialogue.gibnut.accept.2": ": I was told to expect your company.",
+    "lt.club.dialogue.gibnut.accept.3": ": That disguise is marvelous, an excellent choice.",
+    "lt.club.dialogue.gibnut.accept.4": ": But here's me blathering on, knowing full well in your shoes I'd have little care for the meandering of an old man.",
+    "lt.club.dialogue.gibnut.accept.5": ": Bah! So be it then. I won't keep you much longer.",
+    "lt.club.dialogue.gibnut.accept.6": ": You'll want to take these coins. Oh and keep them close, yeah? You'll be needing them.",
+    "lt.club.dialogue.gibnut.accept.7": ": Well now, unless you have something, I'll let them know you're ready. Farewell.",
+    "lt.club.dialogue.gibnut.accept.leave": ": Hey! I w asn't done talking, where are you going! Who raised you?! Whatever ... I'll pass the word along to them that you're ready. Oh and take these coins. I think you'll find them helpful.",
+    
+    "lt.club.entity.dave.name": "Dave: Bartender",
+    "lt.club.entity.bouncer.name": "way of their inability to follow club rules.",
+
+    "lt.club.title.welcome": "Welcome",
+    "lt.club.title.returning": "Welcome Back!",
+    "lt.club.title.non_member": "! NON MEMBER !",
+    "lt.club.title.idiot_member": "! DISGUISE REMOVED !",
+
+    "lt.club.subtitle.welcome": "To the Covert Club for Undercover Clubbers",
+    "lt.club.subtitle.non_member": "You shouldn't be here - Bouncers inbound!",
+    "lt.club.subtitle.idiot_member": "Reequip your disguise - Bouncers inbound!"
 }
