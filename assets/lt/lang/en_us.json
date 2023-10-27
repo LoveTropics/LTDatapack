@@ -43,6 +43,7 @@
     "lt.collectibles.unicode.milestone": "",
     "lt.collectibles.unicode.purchased": "",
     "lt.collectibles.unicode.reward": "",
-    "lt.collectibles.unicode.secret": ""
+    "lt.collectibles.unicode.secret": "",
+    "lt.collectibles.unicode.utility": "",
     "lt.disguise.to_many_players": "Can't clone more then one player at a time!"
 }
