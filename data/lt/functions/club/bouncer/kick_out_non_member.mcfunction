@@ -1,6 +1,6 @@
 title @s times 0t 3t 0t
-title @s title {"text": "! NON MEMBER !","color": "dark_red","bold": true}
-title @s subtitle {"text": "You shouldn't be here - Bouncers inbound!","color": "red"}
+title @s title {"translate": "lt.club.title.non_member","color": "dark_red","bold": true}
+title @s subtitle {"translate": "lt.club.subtitle.non_member","color": "red"}
 effect give @s blindness 2 60 true
 effect give @s slowness 1 5 true
 playsound minecraft:block.note_block.bit master @s ~ ~ ~ 0.5 0.5

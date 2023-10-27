@@ -1,7 +1,7 @@
 # Show titles
 title @s times 5t 4s 5t
-title @s title [{"text":"Welcome Back!","color":"dark_purple","bold":true}]
-title @s subtitle [{"text":"To the Covert Club for Undercover Clubbers","color":"light_purple"}]
+title @s title [{"translate":"lt.club.title.returning","color":"dark_purple","bold":true}]
+title @s subtitle [{"translate":"lt.club.subtitle.welcome","color":"light_purple"}]
 
 # Teleport player
 tp @s @e[tag=club.normal_spawn,limit=1]
