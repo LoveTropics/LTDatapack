@@ -10,10 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - run: |
+          zip -r lt-assets.jar assets/ META-INF/ pack.mcmeta
+
       - uses: actions/upload-artifact@v2
         with:
           name: lt-assets
           path: |
-            META-INF/
-            assets/
-            pack.mcmeta
+            lt-assets.jar

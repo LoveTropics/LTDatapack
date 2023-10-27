@@ -10,10 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - run: |
+          zip -r lt-data.jar data/ META-INF/ pack.mcmeta
+
       - uses: actions/upload-artifact@v2
         with:
           name: lt-data
           path: |
-            data/
-            pack.mcmeta
-          retention-days: 30
+            lt-data.jar
