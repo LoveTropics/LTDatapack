@@ -31,20 +31,4 @@ execute as @s if data entity @s {ProfileID: [I;1985151379,-516600059,-1885570566
 #joehillssays
 execute as @s if data entity @s {ProfileID: [I;1404757078,-608482257,-1938186610,-1033075838]} run data modify entity @s HandItems set value [{id:"tropicraft:large_bongo_drum",Count:1b},{}]
 
-
-execute as @s if data entity @s {ProfileID: [I;-1485293637,-1100069853,-1638540787,-1475363801]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-1145537090,1762607621,-1111133441,-1192508771]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-1505211345,-855292401,-2116995351,764383134]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-2074783607,-1378793039,-1569882079,654983408]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1029004137,1135038304,-2017228868,-433775056]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1671137399,1213023590,-2113455186,2027551008]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-1023112197,1296125024,-2119703515,741123856]} run say I match
-execute as @s if data entity @s {ProfileID: [I;895672764,-1602335584,-1985475681,864027637]} run say I match
-execute as @s if data entity @s {ProfileID: [I;2127779963,-430553463,-1865021215,497744135]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-1674917544,1575568808,-1935589086,-347337826]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1516136082,-1512355275,-1273681262,1206684784]} run say I match
-execute as @s if data entity @s {ProfileID: [I;-870806706,-438285351,-1812630518,-977540790]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1976066990,-1148041107,-1860414717,206908384]} run say I match
-execute as @s if data entity @s {ProfileID: [I;42250248,-361936331,-1457856371,915838635]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1985151379,-516600059,-1885570566,683693240]} run say I match
-execute as @s if data entity @s {ProfileID: [I;1404757078,-608482257,-1938186610,-1033075838]} run say I match
+execute if entity @s[type=player] run tellraw @p {"text":"Execute","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=hostDummy] run function lt:utility/hosts/easter_eggs"}}
