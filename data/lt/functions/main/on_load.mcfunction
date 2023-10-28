@@ -1,3 +1,9 @@
+# Play sound to indicate server is reloaded
+execute as @a[tag=main.operator] at @s run playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 2 1.5
+
+# Put a message in chat to indicate server is reloaded
+tellraw @a[tag=main.operator] [{"text":"<@>","color":"gray"}, {"text":" Reload: ","color":"yellow"}, {"score":{"name":"Reloads","objective":"main.stats"}, "color": "red"}]
+
 # Initiate main module scoreboards
 scoreboard objectives add main.global dummy
 scoreboard objectives add main.number dummy
@@ -54,3 +60,10 @@ scoreboard objectives add donation.effects dummy
 
 #Player disguise cloning
 scoreboard objectives add disguise.cloneing dummy
+
+# Schedule 10 second counter
+schedule clear lt:main/on_ten_seconds
+schedule function lt:main/on_ten_seconds 10s
+
+#Reset the donation effect to 0 just in case
+function lt:events/donation/sky_effects/reset
