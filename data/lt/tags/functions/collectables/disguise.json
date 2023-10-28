@@ -1,6 +1,7 @@
 {
     "values": [
-      "lt:collectible/give/disguise/tapir_with_shades"
+      "lt:collectible/give/disguise/tapir_with_shades",
+      "lt:collectible/give/disguise/player_clone"
     ]
   }
   

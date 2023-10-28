@@ -57,8 +57,9 @@
     "lt.collectible.cool_shades.description": "Very cool. Not very effective.",
     "lt.collectible.tapir_with_shades.name": "Tapir with Shades",
     "lt.collectible.tapir_with_shades.description": "The coolest tapir in town! Bad eyesight though.",
-    "lt.collectible.player_clone.name": "",
+    "lt.collectible.player_clone.name": "%s Clone Disguise",
     "lt.collectible.player_clone.description": "!¡∷𝙹!¡ᒷ∷ℸ ̣ || 𝙹⎓ ℸ ̣ ⍑ᒷℸ ̣ ᔑ",
+    "lt.collectible.player_clone.tooltip.add": "%s Clone",
 
     "lt.collectible.col_cojo.name": "Col Cojo",
 
