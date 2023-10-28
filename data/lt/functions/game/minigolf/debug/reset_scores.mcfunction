@@ -16,6 +16,11 @@ scoreboard players set hole15HighScores golf.global 20
 scoreboard players set hole16HighScores golf.global 20
 scoreboard players set hole17HighScores golf.global 20
 scoreboard players set hole18HighScores golf.global 20
+scoreboard players set hole19HighScores golf.global 20
+scoreboard players set hole20HighScores golf.global 20
+scoreboard players set hole21HighScores golf.global 20
+scoreboard players set hole22HighScores golf.global 20
+scoreboard players set hole23HighScores golf.global 20
 scoreboard objectives remove golf.01.scores
 scoreboard objectives remove golf.02.scores
 scoreboard objectives remove golf.03.scores
