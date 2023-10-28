@@ -50,6 +50,12 @@
     },
     "ltminigames:trash_collection",
     {
+      "type": "ltminigames:display_leaderboard_on_finish",
+      "statistic": "trash_collected",
+      "order": "max",
+      "length": 5
+    },
+    {
       "type": "ltminigames:timed",
       "length": 6000,
       "close_length": 60,
