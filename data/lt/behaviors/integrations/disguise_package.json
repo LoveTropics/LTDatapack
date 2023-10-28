@@ -1,0 +1,28 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "$id",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "all",
+  "name": {"translate": "$name"},
+  "description": {"translate": "$description"},
+  "donation_amount": 20.0,
+  "notification": {
+    "message": {
+      "translate": "$toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "$icon"},
+    "sentiment": "neutral",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_global_disguise",
+      "disguise": {
+        "entity": "$entity"
+      },
+      "seconds": 120
+    }
+  ]
+}

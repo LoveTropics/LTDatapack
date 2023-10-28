@@ -109,35 +109,15 @@
   },
 
   {
-    "type": "ltminigames:donation_package",
+    "type": "lt:integrations/disguise_package",
     "id": "tapir_party",
-    "package_type": "sabotage_package",
-    "category": "small",
-    "player_select": "all",
-    "name": {"translate": "ltminigames.minigame.donation.tapir_party"},
-    "description": {"translate": "ltminigames.minigame.donation.tapir_party.description"},
-    "donation_amount": 15.0,
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.tapir_party.toast",
-        "color": "light_purple"
-      },
-      "icon": { "item": "tropicraft:tapir_spawn_egg" },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
-    },
-    "receive_actions": [
-      {
-        "type": "ltminigames:apply_global_disguise",
-        "disguise": {
-          "entity": {
-            "type": "tropicraft:tapir",
-            "apply_attributes": false
-          }
-        },
-        "seconds": 120
-      }
-    ]
+    "name": "ltminigames.minigame.donation.tapir_party",
+    "description": "ltminigames.minigame.donation.tapir_party",
+    "toast": "ltminigames.minigame.donation.tapir_party.toast",
+    "icon": "tropicraft:tapir_spawn_egg",
+    "entity": {
+      "type": "tropicraft:tapir"
+    }
   },
 
   {
