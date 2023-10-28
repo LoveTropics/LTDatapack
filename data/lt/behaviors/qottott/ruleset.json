@@ -9,7 +9,13 @@
       "announceAdvancements": "false",
       "fallDamage": "true",
       "doTileDrops": "false",
-      "doFireTick": "false"
+      "doFireTick": "false",
+      "naturalRegeneration": "false"
     }
+  },
+  {
+    "type": "ltminigames:damage_in_water",
+    "interval": 20,
+    "amount": 2.0
   }
 ]
