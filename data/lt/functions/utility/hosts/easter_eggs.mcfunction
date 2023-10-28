@@ -1,3 +1,5 @@
+# Resets to empty hand
+execute as @s run data modify entity @s HandItems set value [{},{}]
 #DinnerBeef - Debug
 execute as @s if data entity @s {ProfileID: [I;-1485293637,-1100069853,-1638540787,-1475363801]} run data modify entity @s HandItems set value [{id:"create:clipboard",Count:1b},{}]
 #Direwolf20
