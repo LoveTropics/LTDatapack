@@ -1,15 +1,8 @@
 {
   "enter_commands": [
-    "function lt:game/minigolf/core/hole_end",
-    "execute as @s run function lt:game/minigolf/core/golf_leave",
-    "tag @s add in.golf.area",
-    "execute if score GolfMode golf.global matches 1 run disguise as tropicraft:fiddler_crab",
-    "execute if score GolfMode golf.global matches 1 run tag @s add golf.is.crab"
+    "function lt:game/minigolf/core/enter_area"
   ],
   "exit_commands": [
-    "execute as @s run function lt:game/minigolf/core/golf_leave",
-    "tag @s remove in.golf.area",
-    "execute if entity @s[tag=golf.is.crab] run disguise clear",
-    "tag @s remove golf.is.crab"
+    "function lt:game/minigolf/core/leave_area"
   ]
 }
