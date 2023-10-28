@@ -50,6 +50,10 @@
     },
     "ltminigames:trash_collection",
     {
+      "type": "ltminigames:sum_statistic",
+      "statistic": "trash_collected"
+    },
+    {
       "type": "ltminigames:display_leaderboard_on_finish",
       "statistic": "trash_collected",
       "order": "max",
