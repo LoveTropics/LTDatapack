@@ -1,7 +1,18 @@
 {
     "values": [
       "lt:collectible/give/cool_shades",
-      "lt:collectible/give/eternal_elytra"
+      "lt:collectible/give/eternal_elytra",
+      "lt:collectible/give/rocket_boots",
+      "lt:collectible/give/moon_boots",
+      "lt:collectible/give/nigels_moustache",
+      "lt:collectible/give/swift_feather",
+      "lt:collectible/give/sliced_lime",
+      "lt:collectible/give/trident_of_traversal",
+      "lt:collectible/give/interdimensional_umbrella",
+      "lt:collectible/give/infinite_ender_pearl",
+      "lt:collectible/give/everlasting_firework",
+      "lt:collectible/give/hyper_dense_chorus_fruit",
+      "lt:collectible/give/boots_of_big_stepping"
     ]
   }
   
