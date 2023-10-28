@@ -50,6 +50,19 @@
     },
     "ltminigames:trash_collection",
     {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "trash_collected",
+      "order": "max",
+      "count": 5,
+      "title": {"translate": "ltminigames.minigame.trash_dive.sidebar.title", "color": "blue", "bold": true},
+      "header": [
+        {"translate": "ltminigames.minigame.trash_dive.sidebar.instruction", "color": "green"},
+        {"translate": "ltminigames.minigame.trash_dive.sidebar.collected", "color": "gray"},
+        "",
+        {"translate": "ltminigames.minigame.trash_dive.sidebar.top_players", "color": "green"}
+      ]
+    },
+    {
       "type": "ltminigames:sum_statistic",
       "statistic": "trash_collected"
     },
