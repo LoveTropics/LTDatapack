@@ -179,7 +179,7 @@
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.surprise_creepers.toast",
-        "color": "green"
+        "color": "red"
       },
       "icon": { "item": "minecraft:creeper_spawn_egg" },
       "sentiment": "negative",
