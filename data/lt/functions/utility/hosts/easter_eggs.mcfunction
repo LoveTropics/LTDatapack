@@ -17,7 +17,7 @@ execute as @s if data entity @s {ProfileID: [I;895672764,-1602335584,-1985475681
 #iskall85
 execute as @s if data entity @s {ProfileID: [I;2127779963,-430553463,-1865021215,497744135]} run data modify entity @s HandItems set value [{id:"create:goggles",Count:1b},{}]
 #slicedlime
-execute as @s if data entity @s {ProfileID: [I;-1674917544,1575568808,-1935589086,-347337826]} run data modify entity @s HandItems set value [{id:"ltextras:lime_block",Count:1b},{}]
+execute as @s if data entity @s {ProfileID: [I;-1674917544,1575568808,-1935589086,-347337826]} run data modify entity @s HandItems set value [{id:"ltextras:sliced_lime",Count:1b},{}]
 #millkberry
 execute as @s if data entity @s {ProfileID: [I;1516136082,-1512355275,-1273681262,1206684784]} run data modify entity @s HandItems set value [{id:"minecraft:experience_bottle",Count:1b},{}]
 #MacNcheeseP1z

@@ -2,6 +2,9 @@
 scoreboard objectives add main.global dummy
 scoreboard objectives add main.number dummy
 
+# Reload Counter
+scoreboard players add Reloads main.stats 1
+
 # Define main.number scores
 scoreboard players set 1 main.number 1
 scoreboard players set 2 main.number 2
