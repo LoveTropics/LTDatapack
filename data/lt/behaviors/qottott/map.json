@@ -10,6 +10,79 @@
     "target_region": "buff_spawn"
   },
   {
+    "type": "ltminigames:kit_selection",
+    "kits": [
+      {
+        "region": "kit_1",
+        "angle": -180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": [
+          "lt:qottott/kits/1",
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.experience_orb.pickup"
+          }
+        ]
+      },
+      {
+        "region": "kit_2",
+        "angle": -180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": [
+          "lt:qottott/kits/2",
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.experience_orb.pickup"
+          }
+        ]
+      },
+      {
+        "region": "kit_3",
+        "angle": 180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": [
+          "lt:qottott/kits/3",
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.experience_orb.pickup"
+          }
+        ]
+      },
+      {
+        "region": "kit_4",
+        "angle": 180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": [
+          "lt:qottott/kits/4",
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "entity.experience_orb.pickup"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_1",

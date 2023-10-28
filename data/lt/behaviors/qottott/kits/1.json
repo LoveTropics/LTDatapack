@@ -1,0 +1,9 @@
+[
+  {
+    "type": "ltminigames:add_equipment",
+    "clear": true,
+    "items": [
+      "minecraft:diamond_sword"
+    ]
+  }
+]
