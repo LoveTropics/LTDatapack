@@ -1,3 +1,2 @@
-execute as @a[tag=in.golf.area] disguise set fiddler_crab
-execute as @a[tag=in.golf.area] tell @s You are now a fiddler crab! # Will change to lang later want to make sure everything works
+execute as @a[tag=in.golf.area] run disguise as tropicraft:fiddler_crab
 scoreboard players set GolfMode golf.global 1
