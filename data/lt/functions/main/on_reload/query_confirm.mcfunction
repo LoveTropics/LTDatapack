@@ -6,4 +6,4 @@ schedule clear lt:main/on_ten_seconds
 schedule function lt:main/on_ten_seconds 10s
 
 #Reset the donation effect to 0 just in case
-function lt:effects/donation/sky_effects/reset
+function lt:events/donation/sky_effects/reset

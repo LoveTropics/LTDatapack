@@ -51,4 +51,4 @@ execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run functio
 execute in tropicraft:tropics run function lt:club/on_tick
 
 #Donation Effects
-function lt:effects/donation/large_coconut/tick
+function lt:events/donation/large_coconut/tick

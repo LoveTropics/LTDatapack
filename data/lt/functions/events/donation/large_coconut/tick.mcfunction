@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=LargeCoconut,nbt={OnGround:1b}] run function lt:events/donation/large_coconut/kill
