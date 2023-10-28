@@ -16,13 +16,22 @@
     "sentiment": "neutral",
     "sound": "ltminigames:sabotage_receive"
   },
-  "receive_actions": [
-    {
-      "type": "ltminigames:apply_global_disguise",
-      "disguise": {
+  "receive_actions": {
+    "type": "ltminigames:global_timed",
+    "apply": {
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:set_disguise",
         "entity": "$entity"
-      },
-      "seconds": 120
-    }
-  ]
+      }
+    },
+    "clear": {
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:clear_disguise",
+        "entity": "$entity"
+      }
+    },
+    "seconds": 120
+  }
 }
