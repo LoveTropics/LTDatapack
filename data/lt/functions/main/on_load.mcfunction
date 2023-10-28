@@ -65,3 +65,7 @@ schedule function lt:main/on_ten_seconds 10s
 
 #Reset the donation effect to 0 just in case
 function lt:events/donation/sky_effects/reset
+
+# Collectible Mechanic Scoreboards
+scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
+scoreboard objectives add collectible.rocket_boots.time dummy

@@ -52,3 +52,6 @@ execute in tropicraft:tropics run function lt:club/on_tick
 
 #Donation Effects
 function lt:events/donation/large_coconut/tick
+
+# Runs collectible specific on_tick (mostly just for organizations sake)
+execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
