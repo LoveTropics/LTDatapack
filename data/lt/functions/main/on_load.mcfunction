@@ -7,6 +7,7 @@ tellraw @a[tag=main.operator] [{"text":"<@>","color":"gray"}, {"text":" Reload: 
 # Initiate main module scoreboards
 scoreboard objectives add main.global dummy
 scoreboard objectives add main.number dummy
+scoreboard objectives add main.stats dummy
 
 # Reload Counter
 scoreboard players add Reloads main.stats 1
@@ -39,9 +40,6 @@ function lt:utility/on_load
 
 # handle STT entity killing
 scoreboard objectives add game.stt.entity_track dummy
-
-# General stats scoreboard
-scoreboard objectives add main.stats dummy
 
 # Setup CCFUCC stuff
 scoreboard objectives add club.disguiseCount dummy
