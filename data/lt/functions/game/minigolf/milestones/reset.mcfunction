@@ -24,7 +24,7 @@ summon minecraft:marker 2746 127 2625 {Tags:["hole19"]}
 summon minecraft:marker 2716 127 2622 {Tags:["hole20"]}
 summon minecraft:marker 2724 127 2593 {Tags:["hole21"]}
 summon minecraft:marker 2682 127 2583 {Tags:["hole22"]}
-summon minecraft:marker 2681 127 2618 {Tags:["hole23"]}
+summon minecraft:marker 2681 126 2618 {Tags:["hole23"]}
 summon minecraft:marker 2690 128 2666 {Tags:["golfWalk"]}
 execute at @e[tag=hole19] run place template lt2023:golf_hole_19_clear
 execute at @e[tag=hole20] run place template lt2023:golf_hole_20_clear
