@@ -29,18 +29,13 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
-    },
-    {
-      "type": "ltminigames:position_players",
-      "all": ["player_spawn"]
+      "join_late_with_role": "participant"
     },
     "lt:qottott/ruleset",
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:immediate_respawn",
       "role": "participant",
-      "respawn_as": "participant",
       "death_message": {
         "text": "☠ %message%",
         "color": "gray"

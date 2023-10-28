@@ -1,5 +1,15 @@
 [
   {
+    "type": "ltminigames:position_players",
+    "all": ["lobby_spawn"],
+    "angle": 90.0
+  },
+  {
+    "type": "ltminigames:lobby_with_portal",
+    "portal_region": "portal",
+    "target_region": "buff_spawn"
+  },
+  {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_1",
