@@ -146,5 +146,18 @@
 
     "lt.club.subtitle.welcome": "To the Covert Club for Undercover Clubbers",
     "lt.club.subtitle.non_member": "You shouldn't be here - Bouncers inbound!",
-    "lt.club.subtitle.idiot_member": "Reequip your disguise - Bouncers inbound!"
+    "lt.club.subtitle.idiot_member": "Reequip your disguise - Bouncers inbound!",
+
+    "lt.poi.spawn": "Spawn",
+    "lt.poi.volcano": "Volcano",
+    "lt.poi.theatre": "Theatre",
+    "lt.poi.crab_golf": "Crab Golf",
+    "lt.poi.education_area": "Education Area",
+    "lt.poi.finale_area": "Finale Area",
+    "lt.poi.free_build_1": "Free Build #1",
+    "lt.poi.free_build_2": "Free Build #2",
+    "lt.poi.free_build_3": "Free Build #3",
+    "lt.poi.free_build_4": "Free Build #4",
+    "lt.poi.free_build_5": "Free Build #5",
+    "lt.poi.free_build_6": "Free Build #6"
 }
