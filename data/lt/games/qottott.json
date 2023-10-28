@@ -1,0 +1,77 @@
+{
+  "name": {"translate": "ltminigames.minigame.qottott"},
+
+  "statistics_key": "qottott",
+  "backend_id": "lt:qottott",
+
+  "minimum_participants": 3,
+  "maximum_participants": 40,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:kottot"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": ["player_spawn"]
+    },
+    "lt:qottott/ruleset",
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:immediate_respawn",
+      "role": "participant",
+      "respawn_as": "participant",
+      "death_message": {
+        "text": "☠ %message%",
+        "color": "gray"
+      },
+      "drop_inventory": false
+    },
+    {
+      "type": "ltminigames:timed",
+      "length": 6000,
+      "close_length": 100,
+      "timer_bar": {
+        "translate": "ltminigames.minigame.qottott.time_remaining",
+        "color": "green"
+      }
+    },
+    {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "points",
+      "order": "max",
+      "count": 5,
+      "title": {"translate": "ltminigames.minigame.qottott.sidebar.title", "color": "light_purple", "bold": true},
+      "header": [
+        {"translate": "ltminigames.minigame.qottott.sidebar.instruction", "color": "aqua"},
+        "",
+        {"translate": "ltminigames.minigame.qottott.sidebar.top_players", "color": "aqua"}
+      ]
+    },
+    "lt:qottott/map",
+    {
+      "type": "ltminigames:item_pickup_points",
+      "items": ["ltextras:tropicoin"]
+    }
+  ]
+}

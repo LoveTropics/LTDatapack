@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_1",
+    "interval_ticks": 120
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_2",
+    "interval_ticks": 80
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_3",
+    "interval_ticks": 40
+  }
+]
