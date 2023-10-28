@@ -596,7 +596,7 @@
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.tapir_party"},
     "description": {"translate": "ltminigames.minigame.donation.tapir_party.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.tapir_party.toast",
@@ -628,7 +628,7 @@
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.driftwood_dazzle"},
     "description": {"translate": "ltminigames.minigame.donation.driftwood_dazzle.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.driftwood_dazzle.toast",
@@ -660,7 +660,7 @@
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.cubera_confusion"},
     "description": {"translate": "ltminigames.minigame.donation.cubera_confusion.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.cubera_confusion.toast",
@@ -692,7 +692,7 @@
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.armor_standardization"},
     "description": {"translate": "ltminigames.minigame.donation.armor_standardization.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.armor_standardization.toast",
@@ -727,7 +727,7 @@
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.basilisk_lizard_party"},
     "description": {"translate": "ltminigames.minigame.donation.basilisk_lizard_party.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 20.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
@@ -743,6 +743,38 @@
         "disguise": {
           "entity": {
             "type": "tropicraft:brown_basilisk_lizard",
+            "apply_attributes": false
+          }
+        },
+        "seconds": 120
+      }
+    ]
+  },
+
+  {
+    "type": "ltminigames:donation_package",
+    "id": "manatee_madness",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.manatee_madness"},
+    "description": {"translate": "ltminigames.minigame.donation.manatee_madness.description"},
+    "donation_amount": 20.0,
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.manatee_madness.toast",
+        "color": "light_purple"
+      },
+      "icon": {"item": "tropicraft:manatee_spawn_egg"},
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:apply_global_disguise",
+        "disguise": {
+          "entity": {
+            "type": "tropicraft:manatee",
             "apply_attributes": false
           }
         },
