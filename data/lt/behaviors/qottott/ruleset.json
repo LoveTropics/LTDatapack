@@ -15,7 +15,7 @@
   },
   {
     "type": "ltminigames:damage_in_water",
-    "interval": 20,
-    "amount": 2.0
+    "interval": 2,
+    "amount": 1000.0
   }
 ]
