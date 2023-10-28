@@ -51,15 +51,22 @@
 
     "lt.collectible.disguise.name.suffix": "Disguise",
     "lt.collectible.hat.name.suffix": "Hat",
-    "lt.collectible.disguise.tooltip.when_on_head": "When on Head:",
+    "lt.collectible.generic.modifier.infinite": "Infinite",
+    "lt.collectible.generic.modifier.reusable": "Reusable",
     "lt.collectible.disguise.tooltip.subtract_player": " - Player",
     
     "lt.collectible.cool_shades.name": "Cool Shades",
     "lt.collectible.cool_shades.description": "Very cool. Not very effective.",
     "lt.collectible.tapir_with_shades.name": "Tapir with Shades",
     "lt.collectible.tapir_with_shades.description": "The coolest tapir in town! Bad eyesight though.",
-    "lt.collectible.player_clone.name": "Cloned ",
+    "lt.collectible.player_clone.name": "",
     "lt.collectible.player_clone.description": "!¡∷𝙹!¡ᒷ∷ℸ ̣ || 𝙹⎓ ℸ ̣ ⍑ᒷℸ ̣ ᔑ",
+
+    "lt.collectible.milestone.5000.description": "$5,000 Milestone reward.",
+    "lt.collectible.milestone.10000.description": "$10,000 Milestone reward.",
+    "lt.collectible.milestone.15000.description": "$15,000 Milestone reward.",
+    "lt.collectible.milestone.20000.description": "$20,000 Milestone reward.",
+    "lt.collectible.milestone.25000.description": "$25,000 Milestone reward.",
 
     "lt.club.message.invite_1.succeed": ": You've been given an item. Try holding it. We look forward to not knowing you.",
     "lt.club.message.invite_1.fail": ": We tried to give you an item, but your inventory was full. You can now find it in your collectibles basket. Try holding it. We look forward to not knowing you.",
