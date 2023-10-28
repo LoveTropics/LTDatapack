@@ -1,0 +1,44 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "$id",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "all",
+  "name": {"translate": "$name"},
+  "description": {"translate": "$description"},
+  "donation_amount": "$donation_amount",
+  "notification": {
+    "message": {
+      "translate": "$toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "$icon"},
+    "sentiment": "neutral",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": {
+    "type": "ltminigames:global_timed",
+    "apply": {
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "$attribute.type",
+        "modifier": {
+          "id": "$attribute.id",
+          "name": "$attribute.name",
+          "amount": "$attribute.amount",
+          "operation": "$attribute.operation"
+        }
+      }
+    },
+    "clear": {
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:clear_attribute_modifier",
+        "id": "$attribute.id",
+        "attribute": "$attribute.type"
+      }
+    },
+    "seconds": "$seconds"
+  }
+}
