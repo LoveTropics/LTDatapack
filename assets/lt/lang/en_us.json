@@ -60,6 +60,8 @@
     "lt.collectible.player_clone.name": "%s Clone Disguise",
     "lt.collectible.player_clone.description": "!¡∷𝙹!¡ᒷ∷ℸ ̣ || 𝙹⎓ ℸ ̣ ⍑ᒷℸ ̣ ᔑ",
     "lt.collectible.player_clone.tooltip.add": "%s Clone",
+    "lt.collectible.baby_zombie.name": "Baby Zombie",
+    "lt.collectible.baby_zombie.description": "A baby zombie. It's a baby. And a zombie.",
 
     "lt.collectible.col_cojo.name": "Col Cojo",
 
