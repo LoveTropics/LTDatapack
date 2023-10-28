@@ -1,6 +1,8 @@
 {
     "values": [
-      "#lt:collectables/milestone"
+      "#lt:collectables/milestone",
+      "#lt:collectables/disguise",
+      "#lt:collectables/items"
     ]
   }
   
