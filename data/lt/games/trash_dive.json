@@ -83,8 +83,12 @@
     },
     "ltminigames:disable_hunger",
     {
-      "type": "ltminigames:armor_participants",
-      "feet": "tropicraft:pink_scuba_flippers"
+      "type": "ltminigames:set_role",
+      "role": "participant",
+      "action": {
+        "type": "ltminigames:add_equipment",
+        "feet": "tropicraft:pink_scuba_flippers"
+      }
     },
     "ltminigames:spectator_chase",
     {

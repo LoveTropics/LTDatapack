@@ -78,16 +78,20 @@
       "interval": 5
     },
     {
-      "type": "ltminigames:equip_participants",
-      "equipment": [
-        {
-          "id": "minecraft:fishing_rod",
-          "Count": 1,
-          "tag": {
-            "Unbreakable": true
+      "type": "ltminigames:set_role",
+      "role": "participant",
+      "action": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:fishing_rod",
+            "Count": 1,
+            "tag": {
+              "Unbreakable": true
+            }
           }
-        }
-      ]
+        ]
+      }
     },
     "ltminigames:disable_hunger",
     {
