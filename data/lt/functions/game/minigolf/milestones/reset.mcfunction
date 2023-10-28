@@ -34,6 +34,7 @@ execute at @e[tag=hole23] run place template lt2023:golf_hole_23_clear
 execute at @e[tag=golfWalk] run place template lt2023:golf_walkway_clear
 execute in tropicraft:tropics run fill 2694 129 2669 2690 128 2663 air
 execute in tropicraft:tropics run fill 2684 126 2626 2698 126 2640 water
+execute in tropicraft:tropics run fill 2686 126 2624 2698 126 2641 water
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:moss_carpet"}}]
 kill @e[tag=hole19]
 kill @e[tag=hole20]
