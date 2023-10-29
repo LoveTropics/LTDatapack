@@ -42,7 +42,6 @@
     "ltmenu.connect": "Connect to Love Tropics",
     "ltmenu.donate": "Donate to Sustainable Harvest",
 
-    "lt.events.mouse_party.started": "Awwww, these Slender Harvest Mice are so cute!",
 
     "lt.collectible.unicode.milestone": "",
     "lt.collectible.unicode.purchased": "",
@@ -166,5 +165,11 @@
     "lt.poi.free_build_3": "Free Build #3",
     "lt.poi.free_build_4": "Free Build #4",
     "lt.poi.free_build_5": "Free Build #5",
-    "lt.poi.free_build_6": "Free Build #6"
+    "lt.poi.free_build_6": "Free Build #6",
+
+    "lt.events.world_effect.100": "$100 Sky Effect (Change Me)",
+    "lt.events.world_effect.250": "$250 Sky Effect (Change Me)",
+    "lt.events.world_effect.500": "$500 Sky Effect (Change Me)",
+    "lt.events.world_effect.mouse_party": "Awwww, these Slender Harvest Mice are so cute!"
+
 }
