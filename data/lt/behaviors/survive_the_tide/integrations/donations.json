@@ -1,4 +1,6 @@
 [
+  "lt:integrations/packages/its_been_fun",
+
   {
     "type": "ltminigames:block_packages_during_phase",
     "block_periods": [{"start": "start", "end": "pvp_enabled"}]
@@ -33,8 +35,6 @@
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",
   "lt:integrations/packages/sharknado",
-
-  "lt:integrations/packages/its_been_fun",
 
   {
     "type": "ltminigames:donation_threshold",
