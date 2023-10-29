@@ -6,3 +6,4 @@ kill @e[tag=hole19]
 summon minecraft:marker 2746 127 2625 {Tags:["hole19"]}
 execute at @e[tag=hole19] run place template lt2023:golf_hole_19
 kill @e[tag=hole19]
+tellraw @a {"translate": "lt.golf.course_unlocked"}

@@ -10,3 +10,4 @@ execute at @e[tag=hole23] run place template lt2023:golf_hole_23
 execute at @e[tag=golfWalk] run place template lt2023:golf_walkway
 kill @e[tag=hole23]
 kill @e[tag=golfWalk]
+tellraw @a {"translate": "lt.golf.course_unlocked"}
