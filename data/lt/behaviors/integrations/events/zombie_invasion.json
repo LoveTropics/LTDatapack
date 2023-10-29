@@ -1,0 +1,57 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "zombie_invasion_event",
+  "package_type": "chat_event",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.event.zombie_invasion_event"},
+  "description": {"translate": "ltminigames.minigame.event.zombie_invasion_event.description"},
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.event.zombie_invasion_event.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:zombie_head"},
+    "sentiment": "negative",
+    "sound": "entity.wither.spawn"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:show_title",
+      "title": {
+        "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion",
+        "color": "red",
+        "bold": true
+      },
+      "subtitle": {
+        "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion.subtitle",
+        "color": "red"
+      },
+      "stay": 40
+    },
+    {
+      "type": "ltminigames:spawn_entities_around_players",
+      "entity": {
+        "type": "minecraft:zombie",
+        "tag": {
+          "ArmorItems": [
+            {},
+            {},
+            {},
+            {
+              "id": "minecraft:leather_helmet",
+              "Count": 1,
+              "tag": {
+                "Unbreakable": true
+              }
+            }
+          ]
+        }
+      },
+      "entity_count_per_player": 7,
+      "spawn_distance_min": 10,
+      "spawn_distance_max": 20,
+      "spawn_range_y": 10,
+      "spawn_try_rate": 10
+    }
+  ]
+}

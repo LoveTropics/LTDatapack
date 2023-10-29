@@ -1,0 +1,32 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "puffer_package",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.puffer_package"},
+  "description": {"translate": "ltminigames.minigame.donation.puffer_package.description"},
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.puffer_package.title",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:pufferfish"},
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:set_block_at_player",
+      "block": "water"
+    },
+    {
+      "type": "ltminigames:spawn_entity_at_player",
+      "entity": {
+        "type": "minecraft:pufferfish"
+      }
+    }
+  ]
+}

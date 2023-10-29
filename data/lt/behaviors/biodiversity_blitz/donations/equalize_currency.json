@@ -1,0 +1,22 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "equalize_currency",
+  "package_type": "sabotage_package",
+  "category": "large",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.equalize_currency"},
+  "description": {"translate": "ltminigames.minigame.donation.equalize_currency.description"},
+  "donation_amount": 20.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.equalize_currency.toast",
+      "color": "gold"
+    },
+    "icon": { "item": "ltminigames:osa_point" },
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    "ltminigames:equalize_currency"
+  ]
+}

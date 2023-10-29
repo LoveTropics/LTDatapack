@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "acid_rain",
+  "package_type": "sabotage_package",
+  "category": "other",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.acid_rain"},
+  "description": {"translate": "ltminigames.minigame.donation.acid_rain.description"},
+  "donation_amount": 15.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.acid_rain.toast",
+      "color": "light_purple"
+    },
+    "icon": { "item": "minecraft:water_bucket" },
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:weather_event",
+      "event": "acid_rain",
+      "seconds": 60
+    }
+  ]
+},

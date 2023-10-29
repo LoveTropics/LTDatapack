@@ -1,0 +1,34 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "its_been_fun",
+  "package_type": "sabotage_package",
+  "category": "large",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.its_been_fun"},
+  "description": {"translate": "ltminigames.minigame.donation.its_been_fun.description"},
+  "donation_amount": 1000.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.its_been_fun.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:tnt"},
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:spawn_entity_at_player",
+      "entity": {
+        "type": "minecraft:lightning_bolt"
+      },
+      "damage_player_amount": 10000.0
+    },
+    {
+      "type": "ltminigames:spawn_entity_at_player",
+      "entity": {
+        "type": "minecraft:tnt"
+      }
+    }
+  ]
+}

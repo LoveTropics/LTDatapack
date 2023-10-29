@@ -1,0 +1,44 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "lightning_storm",
+  "package_type": "sabotage_package",
+  "category": "large",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.lightning_storm"},
+  "description": {"translate": "ltminigames.minigame.donation.lightning_storm.description"},
+  "donation_amount": 20.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.lightning_storm.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:flint_and_steel"},
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:show_title",
+      "title": {
+        "translate": "ltminigames.minigame.survive_the_tide.lightning_storm",
+        "color": "yellow",
+        "bold": true
+      },
+      "subtitle": {
+        "translate": "ltminigames.minigame.survive_the_tide.lightning_storm.subtitle",
+        "color": "yellow"
+      },
+      "stay": 40
+    },
+    {
+      "type": "ltminigames:spawn_entities_at_regions_over_time",
+      "entity": {
+        "type": "minecraft:lightning_bolt"
+      },
+      "entity_count": 20,
+      "ticks_to_spawn_for": 800,
+      "regions_to_spawn_at": ["tide_area"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "chosen_creeper_package",
+  "package_type": "sabotage_package",
+  "category": "medium",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.chosen_creeper_package"},
+  "description": {"translate": "ltminigames.minigame.donation.chosen_creeper_package.description"},
+  "donation_amount": 25.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.chosen_creeper_package.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:creeper_head"},
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:spawn_entity_at_player",
+      "entity": {
+        "type": "minecraft:creeper",
+        "tag": {
+          "ExplosionRadius": 5.0
+        }
+      },
+      "distance": 3.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "meteor_shower_event",
+  "package_type": "chat_event",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.event.meteor_shower_event"},
+  "description": {"translate": "ltminigames.minigame.event.meteor_shower_event.description"},
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.event.meteor_shower_event.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:fire_charge"},
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:show_title",
+      "title": {
+        "translate": "ltminigames.minigame.survive_the_tide.meteor_shower",
+        "color": "red",
+        "bold": true
+      },
+      "subtitle": {
+        "translate": "ltminigames.minigame.survive_the_tide.meteor_shower.subtitle",
+        "color": "red"
+      },
+      "stay": 40
+    },
+    {
+      "type": "ltminigames:shoot_projectiles_at_player",
+      "entity_count_per_player": 30,
+      "spawn_distance_max": 40,
+      "target_randomness": 10,
+      "spawn_height": 20,
+      "spawn_rate_base": 10,
+      "spawn_rate_random": 10,
+      "explosion_strength": 2
+    }
+  ]
+}

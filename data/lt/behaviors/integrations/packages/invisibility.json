@@ -1,0 +1,32 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "invisibility_package",
+  "package_type": "care_package",
+  "category": "medium",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.invisibility_package"},
+  "description": {"translate": "ltminigames.minigame.donation.invisibility_package.description"},
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.invisibility_package.toast",
+      "color": "light_purple"
+    },
+    "icon": {"effect": "minecraft:invisibility"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "minecraft:invisibility",
+          "seconds": 120,
+          "amplifier": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "antidote_package",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.antidote_package"},
+  "description": {"translate": "ltminigames.minigame.donation.antidote_package.description"},
+  "donation_amount": 5.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.antidote_package.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "minecraft:milk_bucket"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_loot",
+      "loot_table": "lt:packages/antidote_package"
+    }
+  ]
+}

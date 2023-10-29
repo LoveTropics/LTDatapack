@@ -1,0 +1,24 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "hail_event",
+  "package_type": "chat_event",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.event.hail_event"},
+  "description": {"translate": "ltminigames.minigame.event.hail_event.description"},
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.event.hail_event.toast",
+      "color": "light_purple"
+    },
+    "icon": { "item": "ltminigames:acid_repellent_umbrella" },
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:weather_event",
+      "event": "hail",
+      "seconds": 60
+    }
+  ]
+}

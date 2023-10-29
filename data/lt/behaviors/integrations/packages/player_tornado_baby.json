@@ -1,0 +1,34 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "player_tornado_baby",
+  "package_type": "care_package",
+  "category": "large",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.player_tornado_baby"},
+  "description": {"translate": "ltminigames.minigame.donation.player_tornado_baby.description"},
+  "donation_amount": 30.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.player_tornado_baby.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "minecraft:milk_bucket"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:transform_player_tornado",
+      "time_ticks": 1200,
+      "baby": true
+    },
+    {
+      "type": "ltminigames:show_title",
+      "subtitle": {
+        "translate": "ltminigames.minigame.donation.player_tornado_baby.title",
+        "color": "red"
+      },
+      "stay": 60
+    }
+  ]
+}

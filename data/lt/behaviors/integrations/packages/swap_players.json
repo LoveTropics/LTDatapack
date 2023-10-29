@@ -1,0 +1,32 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "swap_players_package",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.swap"},
+  "description": {"translate": "ltminigames.minigame.donation.swap.description"},
+  "donation_amount": 20.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.swap.toast",
+      "color": "red"
+    },
+    "icon": { "effect": "minecraft:unluck" },
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:countdown_action",
+      "warning": {
+        "translate": "ltminigames.minigame.donation.swap.warning",
+        "color": "red"
+      },
+      "countdown": 5,
+      "actions": {
+        "type": "ltminigames:swap_players",
+        "distance_threshold": "$donation_threshold"
+      }
+    }
+  ]
+}

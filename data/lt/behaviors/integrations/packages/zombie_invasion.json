@@ -1,0 +1,67 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "zombie_invasion_package",
+  "package_type": "sabotage_package",
+  "category": "large",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.zombie_invasion_package"},
+  "description": {"translate": "ltminigames.minigame.donation.zombie_invasion_package.description"},
+  "donation_amount": 50.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.zombie_invasion_package.toast",
+      "color": "red"
+    },
+    "icon": {"item": "minecraft:zombie_head"},
+    "sentiment": "negative",
+    "sound": "entity.wither.spawn"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:show_title",
+      "title": {
+        "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion",
+        "color": "red",
+        "bold": true
+      },
+      "subtitle": {
+        "translate": "ltminigames.minigame.survive_the_tide.zombie_invasion.subtitle",
+        "color": "red"
+      },
+      "stay": 40
+    },
+    {
+      "type": "ltminigames:spawn_entities_around_players",
+      "entity": {
+        "type": "minecraft:zombie",
+        "tag": {
+          "Health": 8.0,
+          "IsBaby": false,
+          "Attributes": [
+            {
+              "Name": "generic.max_health",
+              "Base": 8
+            }
+          ],
+          "ArmorItems": [
+            {},
+            {},
+            {},
+            {
+              "id": "minecraft:leather_helmet",
+              "Count": 1,
+              "tag": {
+                "Unbreakable": true
+              }
+            }
+          ]
+        }
+      },
+      "entity_count_per_player": 7,
+      "spawn_distance_min": 10,
+      "spawn_distance_max": 20,
+      "spawn_range_y": 10,
+      "spawn_try_rate": 10
+    }
+  ]
+}
