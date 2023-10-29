@@ -1,4 +1,10 @@
-{
-  "type": "ltminigames:run_commands",
-  "player": "function lt:game/qottott/kit/acrobat"
-}
+[
+  {
+    "type": "ltminigames:run_commands",
+    "player": "function lt:game/qottott/kit/acrobat"
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "entity.experience_orb.pickup"
+  }
+]

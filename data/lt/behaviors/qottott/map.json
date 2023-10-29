@@ -13,7 +13,7 @@
     "type": "ltminigames:kit_selection",
     "kits": [
       {
-        "region": "kit_1",
+        "region": "kit_1a",
         "angle": -180.0,
         "entity": {
           "type": "minecraft:armor_stand",
@@ -21,16 +21,10 @@
             "ShowArms": true
           }
         },
-        "apply": [
-          "lt:qottott/kits/assassin",
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.experience_orb.pickup"
-          }
-        ]
+        "apply": "lt:qottott/kits/assassin"
       },
       {
-        "region": "kit_2",
+        "region": "kit_2a",
         "angle": -180.0,
         "entity": {
           "type": "minecraft:armor_stand",
@@ -38,16 +32,21 @@
             "ShowArms": true
           }
         },
-        "apply": [
-          "lt:qottott/kits/acrobat",
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.experience_orb.pickup"
-          }
-        ]
+        "apply": "lt:qottott/kits/acrobat"
       },
       {
-        "region": "kit_3",
+        "region": "kit_3a",
+        "angle": -180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": "lt:qottott/kits/glass_cannon"
+      },
+      {
+        "region": "kit_1b",
         "angle": 180.0,
         "entity": {
           "type": "minecraft:armor_stand",
@@ -55,13 +54,29 @@
             "ShowArms": true
           }
         },
-        "apply": [
-          "lt:qottott/kits/glass_cannon",
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "entity.experience_orb.pickup"
+        "apply": "lt:qottott/kits/assassin"
+      },
+      {
+        "region": "kit_2b",
+        "angle": 180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
           }
-        ]
+        },
+        "apply": "lt:qottott/kits/acrobat"
+      },
+      {
+        "region": "kit_3b",
+        "angle": 180.0,
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "tag": {
+            "ShowArms": true
+          }
+        },
+        "apply": "lt:qottott/kits/glass_cannon"
       }
     ]
   },
