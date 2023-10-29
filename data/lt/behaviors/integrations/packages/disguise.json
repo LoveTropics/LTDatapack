@@ -17,7 +17,7 @@
     "sound": "ltminigames:sabotage_receive"
   },
   "receive_actions": {
-    "type": "ltminigames:global_timed",
+    "type": "ltminigames:apply_for_time",
     "apply": {
       "target": "participants",
       "actions": {
