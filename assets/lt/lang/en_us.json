@@ -103,6 +103,7 @@
     "lt.collectible.boots_of_big_stepping.tooltip.add_step_height": " + 3 Auto Step Height",
     "lt.collectible.sliced_lime.name": "Sliced Lime",
     "lt.collectible.sliced_lime.description": "If only there was a joke here ...",
+    "lt.collectible.slender_harvest_mouse.description": "The cutest little mouse around",
 
     "lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
     "lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
