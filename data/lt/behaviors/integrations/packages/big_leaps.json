@@ -1,5 +1,5 @@
 {
-  "type": "lt:integrations/attribute_package",
+  "type": "lt:integrations/packages/attribute",
   "id": "big_leaps",
   "name": "ltminigames.minigame.donation.big_leaps",
   "description": "ltminigames.minigame.donation.big_leaps",
