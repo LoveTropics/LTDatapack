@@ -11,7 +11,7 @@
     "particles": [
       {
         "options": {
-          "type": "minecraft:heart"
+          "type": "minecraft:cherry_leaves"
         },
         "count": 4,
         "range": 10
