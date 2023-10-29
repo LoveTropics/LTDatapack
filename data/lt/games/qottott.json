@@ -58,7 +58,7 @@
     {
       "type": "ltminigames:item_picked_up",
       "item": {
-        "items": ["minecraft:diamond"]
+        "items": ["ltextras:tropicoin"]
       },
       "action": [
         {
@@ -90,7 +90,7 @@
       },
       "point_percent": 0.125,
       "claim_announcement": [],
-      "tag_icon": "minecraft:diamond",
+      "tag_icon": "ltextras:tropicoin",
       "tag_translation_key": "ltminigames.minigame.qottott.kill_bonus.tag"
     }
   ]

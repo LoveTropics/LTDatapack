@@ -20,7 +20,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.assassin"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.assassin\"}",
             "CustomNameVisible": true
           }
         },
@@ -33,7 +33,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.acrobat"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.acrobat\"}",
             "CustomNameVisible": true
           }
         },
@@ -46,7 +46,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.glass_cannon"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.glass_cannon\"}",
             "CustomNameVisible": true
           }
         },
@@ -59,7 +59,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.assassin"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.assassin\"}",
             "CustomNameVisible": true
           }
         },
@@ -72,7 +72,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.acrobat"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.acrobat\"}",
             "CustomNameVisible": true
           }
         },
@@ -85,7 +85,7 @@
           "type": "minecraft:armor_stand",
           "tag": {
             "ShowArms": true,
-            "CustomName": {"translate": "ltminigames.minigame.qottott.kit.glass_cannon"},
+            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.glass_cannon\"}",
             "CustomNameVisible": true
           }
         },
@@ -95,28 +95,24 @@
   },
   {
     "type": "ltminigames:item_dropper",
-    "after": 15,
-    "loot": "minecraft:diamond",
+    "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_1",
     "interval_ticks": 120
   },
   {
     "type": "ltminigames:item_dropper",
-    "after": 15,
-    "loot": "minecraft:diamond",
+    "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_2",
     "interval_ticks": 80
   },
   {
     "type": "ltminigames:item_dropper",
-    "after": 15,
-    "loot": "minecraft:diamond",
+    "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_3",
     "interval_ticks": 40
   },
   {
     "type": "ltminigames:item_dropper",
-    "after": 15,
     "loot": "minecraft:enchanted_golden_apple",
     "region": "buff_spawn",
     "combined": true,
