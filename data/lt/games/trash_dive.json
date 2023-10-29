@@ -90,6 +90,10 @@
         "feet": "tropicraft:pink_scuba_flippers"
       }
     },
+    {
+      "type": "ltminigames:set_xp_to_statistic",
+      "statistic": "trash_collected"
+    },
     "ltminigames:spectator_chase",
     {
       "type": "lt:fixed_rewards",
