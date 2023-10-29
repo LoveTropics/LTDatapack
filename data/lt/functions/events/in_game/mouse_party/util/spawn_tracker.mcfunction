@@ -1,1 +1,1 @@
-summon
+summon marker ~ ~ ~ {"Tags":["events.in_game.mouse_party.tracker"]}
