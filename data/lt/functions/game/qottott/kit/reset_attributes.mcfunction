@@ -8,5 +8,6 @@ attribute @s forge:entity_gravity base set 0.08
 clear @s
 effect clear @s
 effect give @s instant_health 5 5 true
+effect give @a saturation infinite 
 
 
