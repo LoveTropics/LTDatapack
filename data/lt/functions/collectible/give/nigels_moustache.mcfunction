@@ -1,0 +1,2 @@
+collectible give @s tropicraft:nigel_stache{display:{Name:'{"translate":"item.tropicraft.nigel_stache","color":"#5ABDA3","italic":false}',Lore:['{"translate":"lt.collectible.nigels_moustache.description","color":"gray","italic":true}','{"text":" "}','{"translate":"lt.collectible.unicode.secret","color":"white","italic":false}','{"text":" "}','{"translate":"item.modifiers.head","color":"gray","italic":false}','[{"text":" + ","color":"blue","italic":false},{"translate":"item.tropicraft.nigel_stache","color":"blue","italic":false}]']},HideFlags:255,Enchantments:[{}]}
+

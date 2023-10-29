@@ -1,0 +1,1 @@
+collectible give @s elytra{HideFlags:255,Enchantments:[{}],Unbreakable:1b,display:{Name:'{"translate":"lt.collectible.eternal_elytra.name","color":"#5ABDA3","italic":false}',Lore:['{"translate":"lt.collectible.eternal_elytra.description","color":"gray"}','{"text":" "}','{"translate":"lt.collectible.unicode.secret","color":"white","italic":false}']}}

@@ -14,6 +14,6 @@ attribute @s generic.max_health base set 12
 attribute @s generic.movement_speed base set 0.1195
 attribute @s forge:step_height base set 2
 attribute @s forge:entity_gravity base set 0.1
-effect give @s jump_boost infinite 1 true
+effect give @s jump_boost infinite 2 true
 
 effect give @s instant_health 5 5 true
