@@ -13,5 +13,8 @@ execute if score running donation.effects matches 0 run function lt:events/donat
 #Scale mobs
 function lt:events/donation/mob_size/on_ten_second
 
+#Mouse party
+function lt:events/in_game/mouse_party/on_ten_seconds
+
 # Repeat every 10 seconds
 schedule function lt:main/on_ten_seconds 10s
