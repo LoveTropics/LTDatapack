@@ -13,3 +13,5 @@ execute at @e[tag=hole03Start] run tag @e[tag=golfCrab,distance=..5] add hole03C
 function lt:game/minigolf/holes/hole_03/timer
 scoreboard players add TotalHolesPlays golf.global 1
 scoreboard players add Total03Plays golf.global 1
+execute if entity @s[tag=color.blind] as @e[tag=hole03Blue] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.blue"}]',Tags:["hole03Text"],billboard:"center"}
+execute if entity @s[tag=color.blind] as @e[tag=hole03Magenta] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.magenta"}]',Tags:["hole03Text"],billboard:"center"}
