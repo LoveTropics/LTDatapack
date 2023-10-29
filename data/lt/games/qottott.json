@@ -1,9 +1,7 @@
 {
   "name": {"translate": "ltminigames.minigame.qottott"},
-
   "statistics_key": "qottott",
   "backend_id": "lt:qottott",
-
   "minimum_participants": 3,
   "maximum_participants": 40,
   "map": {
@@ -29,7 +27,7 @@
     },
     {
       "type": "ltminigames:timed",
-      "length": 6000,
+      "length": 6300,
       "close_length": 100,
       "timer_bar": {
         "translate": "ltminigames.minigame.qottott.time_remaining",
@@ -50,13 +48,50 @@
     },
     "lt:qottott/map",
     {
-      "type": "ltminigames:statistic_tag",
-      "statistic": "points",
-      "icon": "ltextras:tropicoin"
+      "type": "ltminigames:set_xp_to_statistic",
+      "statistic": "points"
     },
     {
-      "type": "ltminigames:item_pickup_points",
-      "items": ["ltextras:tropicoin"]
+      "type": "ltminigames:pickup_priority",
+      "max_seconds": 1.0
+    },
+    {
+      "type": "ltminigames:item_picked_up",
+      "item": {
+        "items": ["minecraft:diamond"]
+      },
+      "action": [
+        {
+          "type": "ltminigames:give_points",
+          "statistic": "points",
+          "count": 1
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "entity.experience_orb.pickup"
+        }
+      ],
+      "consume": true
+    },
+    "lt:qottott/power_ups",
+    {
+      "type": "ltminigames:kill_bonus",
+      "statistic": "points",
+      "order": "max",
+      "max_placement": 3,
+      "chance_per_tick": 0.01,
+      "assign_announcement": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.kill_bonus.announce",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      "point_percent": 0.125,
+      "claim_announcement": [],
+      "tag_icon": "minecraft:diamond",
+      "tag_translation_key": "ltminigames.minigame.qottott.kill_bonus.tag"
     }
   ]
 }
