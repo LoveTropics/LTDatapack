@@ -1,5 +1,6 @@
 # Kills the crab
 kill @e[tag=hole17Crab]
+kill @e[tag=hole17Text]
 ## Sends message the the player that they left the area
 execute as @a[tag=hole17Player] run function lt:game/minigolf/core/golf_leave_message
 execute as @a[tag=hole17Player] run playsound minecraft:item.goat_horn.sound.7 voice @s ~ ~ ~ 100 .05
