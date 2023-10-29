@@ -65,6 +65,11 @@
     },
     "lt:qottott/map",
     {
+      "type": "ltminigames:statistic_tag",
+      "statistic": "points",
+      "icon": "ltextras:tropicoin"
+    },
+    {
       "type": "ltminigames:item_pickup_points",
       "items": ["ltextras:tropicoin"]
     }
