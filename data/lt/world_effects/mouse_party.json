@@ -1,0 +1,14 @@
+[
+  {
+    "type": "particles",
+    "particles": [
+      {
+        "options": {
+          "type": "minecraft:note"
+        },
+        "count": 4,
+        "range": 10
+      }
+    ]
+  }
+]
