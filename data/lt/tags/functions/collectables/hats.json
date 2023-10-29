@@ -1,8 +1,8 @@
 {
     "values": [
       "lt:collectible/give/hats/gibnut",
-      "lt:collectible/give/disguise/slender_mouse",
-      "lt:collectible/give/disguise/toucan"
+      "lt:collectible/give/hats/slender_mouse",
+      "lt:collectible/give/hats/toucan"
     ]
   }
   
