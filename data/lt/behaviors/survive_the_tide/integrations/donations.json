@@ -1,11 +1,6 @@
 [
   "lt:integrations/packages/its_been_fun",
 
-  {
-    "type": "ltminigames:block_packages_during_phase",
-    "block_periods": [{"start": "start", "end": "pvp_enabled"}]
-  },
-
   "lt:integrations/packages/antidote",
   "lt:integrations/packages/invisibility",
   "lt:integrations/packages/slowness",
