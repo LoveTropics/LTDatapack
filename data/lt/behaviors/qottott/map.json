@@ -7,7 +7,7 @@
   {
     "type": "ltminigames:lobby_with_portal",
     "portal_region": "portal",
-    "target_region": "buff_spawn",
+    "target_region": "player_spawn",
     "wait_seconds": 15
   },
   {
