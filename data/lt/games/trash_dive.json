@@ -6,19 +6,6 @@
     "load_from": "lt:trash_dive",
     "dimension_type": "tropicraft:tropics"
   },
-  "waiting": {
-    "map": {
-      "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
-      "dimension_type": "tropicraft:tropics"
-    },
-    "behaviors": [
-      {
-        "type": "lt:common/waiting",
-        "regions": {"spawn": "spawn"}
-      }
-    ]
-  },
   "minimum_participants": 1,
   "maximum_participants": 64,
   "behaviors": [
