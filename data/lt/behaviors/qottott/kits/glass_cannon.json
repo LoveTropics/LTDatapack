@@ -12,7 +12,7 @@
     "message": {
       "translate": "ltminigames.minigame.qottott.kit.picked",
       "color": "gray",
-      "with": [{"translate": "ltminigames.minigame.qottott.glass_cannon", "color": "aqua"}]
+      "with": [{"translate": "ltminigames.minigame.qottott.kit.glass_cannon", "color": "aqua"}]
     }
   }
 ]
