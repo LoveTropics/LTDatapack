@@ -3,7 +3,7 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
+      "doDaylightCycle": "true",
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
