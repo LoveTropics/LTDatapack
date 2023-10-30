@@ -19,7 +19,7 @@
   "receive_actions": [
     {
       "type": "ltminigames:transform_player_tornado",
-      "time_ticks": 1200,
+      "time_ticks": 930,
       "baby": true
     },
     {
