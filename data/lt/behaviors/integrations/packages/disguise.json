@@ -22,7 +22,8 @@
       "target": "participants",
       "actions": {
         "type": "ltminigames:set_disguise",
-        "entity": "$entity"
+        "entity": "$entity",
+        "changes_size": false
       }
     },
     "clear": {
