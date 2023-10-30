@@ -1,6 +1,6 @@
 # Feedback
 #playsound minecraft:block.note_block.bit master @s ~ ~ ~ 1
-tellraw @s [{"translate":"lt.game.parkour.general.message.left"},{"translate":"lt.game.parkour.obstacle_cave.name"},{"translate":"lt.game.parkour.general.message.parkour_course"}]
+tellraw @s [{"translate":"lt.game.parkour.general.message.left"},{"translate":"lt.game.parkour.golf.name"},{"translate":"lt.game.parkour.general.message.parkour_course"}]
 
 title @s actionbar " "
 
