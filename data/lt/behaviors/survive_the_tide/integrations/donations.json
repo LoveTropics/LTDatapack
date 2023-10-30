@@ -7,7 +7,6 @@
   },
 
   "lt:integrations/packages/antidote",
-  "lt:integrations/packages/invisibility",
   "lt:integrations/packages/slowness",
   "lt:integrations/packages/hunger",
 

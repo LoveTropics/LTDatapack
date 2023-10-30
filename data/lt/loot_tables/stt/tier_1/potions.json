@@ -73,16 +73,6 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:invisibility\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:lingering_potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
                             "tag": "{display:{Name:'{\"text\":\"Lingering Potion of Blindness\",\"italic\":false}'},CustomPotionEffects:[{Id:15,Amplifier:2b,Duration:60}],CustomPotionColor:266808}"
                         }
                     ]

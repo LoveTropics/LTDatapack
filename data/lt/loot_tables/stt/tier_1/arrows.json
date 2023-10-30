@@ -30,23 +30,6 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:invisibility\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 9
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
                             "tag": "{Potion:\"minecraft:swiftness\"}"
                         }
                     ]
