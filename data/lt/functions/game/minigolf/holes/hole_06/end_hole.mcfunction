@@ -1,5 +1,6 @@
 # Kills the crab
 kill @e[tag=hole06Crab]
+kill @e[tag=hole06Text]
 execute at @a[tag=hole06Player] run kill @e[type=minecraft:experience_orb,distance=..20]
 ## Run when the player runs out of time
 title @a[tag=hole06Player,tag=hole06Timeup] actionbar [{"translate":"lt.golf.time_up","color":"red","with":[{"text":"06"}]}]
