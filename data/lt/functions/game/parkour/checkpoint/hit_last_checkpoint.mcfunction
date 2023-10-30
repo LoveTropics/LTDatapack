@@ -6,3 +6,6 @@ execute at @e[tag=game.parkour.checkpoint,sort=nearest,limit=1] run particle min
 tellraw @s {"translate":"lt.game.parkour.general.message.complete_course","color": "green"}
 
 give @s ltextras:tropicoin 20
+
+# Set players checkpoint score to that of the final checkpoint, ensuring even if prior checkpoints were skipped, the player only gets 20 tropicoins for the course.
+scoreboard players operation @s parkour.checkpoint = @e[tag=game.parkour.last_checkpoint,distance=..5,limit=1] parkour.checkpoint_id
