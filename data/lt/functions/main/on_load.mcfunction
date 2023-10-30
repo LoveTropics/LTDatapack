@@ -68,6 +68,7 @@ scoreboard objectives add parkour.checkpoint_setup dummy
 
 # Parkour checkpoint storage
 scoreboard objectives add parkour.crystal.checkpoint_last dummy
+scoreboard objectives add parkour.obstacle_cave.checkpoint_last dummy
 
 # Schedule 10 second counter
 schedule clear lt:main/on_ten_seconds
