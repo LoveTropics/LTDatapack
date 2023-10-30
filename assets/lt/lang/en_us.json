@@ -170,6 +170,17 @@
     "lt.events.world_effect.100": "$100 Sky Effect (Change Me)",
     "lt.events.world_effect.250": "$250 Sky Effect (Change Me)",
     "lt.events.world_effect.500": "$500 Sky Effect (Change Me)",
-    "lt.events.world_effect.mouse_party": "Awwww, these Slender Harvest Mice are so cute!"
+    "lt.events.world_effect.mouse_party": "Awwww, these Slender Harvest Mice are so cute!",
 
+    "lt.game.parkour.general.message.collectibles_removed": "Parkour area entered. Blacklisted functional collectibles have been returned to your collectibles basket.",
+    "lt.game.parkour.general.message.wrong_gamemode": "You entered a parkour area while in spectator. To properly play please exit the region and enter in a different gamemode.",
+    "lt.game.parkour.general.message.entered": "You've entered the ",
+    "lt.game.parkour.general.message.left": "You've left the ",
+    "lt.game.parkour.general.message.complete_course": "You've completed the parkour course and been given TropiCoins as a rewawrd!",
+    "lt.game.parkour.general.message.parkour_course": " parkour course.",
+    "lt.game.parkour.general.checkpoint_portal": "Checkpoint Portal",
+    "lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
+
+    "lt.game.parkour.crystal_cave.name": "Crystal Cavern",
+    "lt.game.parkour.golf.name": "Obstacle Cave"
 }
