@@ -1,8 +1,23 @@
 {
     "values": [
-      "lt:collectible/give/disguise/tapir_with_shades",
+      "lt:collectible/give/disguise/allay",
+      "lt:collectible/give/disguise/axolotl",
+      "lt:collectible/give/disguise/cat",
+      "lt:collectible/give/disguise/fiddler_crab",
+      "lt:collectible/give/disguise/fox",
+      "lt:collectible/give/disguise/frog",
+      "lt:collectible/give/disguise/ghast",
+      "lt:collectible/give/disguise/illusioner",
+      "lt:collectible/give/disguise/llama_spit",
+      "lt:collectible/give/disguise/manatee",
+      "lt:collectible/give/disguise/parrot",
       "lt:collectible/give/disguise/player_clone",
-      "lt:collectible/give/disguise/slender_mouse"
+      "lt:collectible/give/disguise/slender_mouse",
+      "lt:collectible/give/disguise/slime",
+      "lt:collectible/give/disguise/tapir_with_shades",
+      "lt:collectible/give/disguise/tnt",
+      "lt:collectible/give/disguise/tropibee",
+      "lt:collectible/give/disguise/warden"
     ]
   }
   
