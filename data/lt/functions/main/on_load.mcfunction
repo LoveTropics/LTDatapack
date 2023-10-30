@@ -59,6 +59,16 @@ scoreboard objectives add donation.effects dummy
 #Player disguise cloning
 scoreboard objectives add disguise.cloneing dummy
 
+## Scoreboards for parkour
+scoreboard objectives add parkour.test dummy
+scoreboard objectives add parkour.checkpoint dummy
+scoreboard objectives add parkour.checkpoint_id dummy
+scoreboard objectives add parkour.checkpoint_compare dummy
+scoreboard objectives add parkour.checkpoint_setup dummy
+
+# Parkour checkpoint storage
+scoreboard objectives add parkour.crystal.checkpoint_last dummy
+
 # Schedule 10 second counter
 schedule clear lt:main/on_ten_seconds
 schedule function lt:main/on_ten_seconds 10s

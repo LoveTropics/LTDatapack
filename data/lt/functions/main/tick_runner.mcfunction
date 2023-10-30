@@ -27,7 +27,7 @@ scoreboard players add @e[tag=game.stt.placed_mob] game.stt.entity_track 1
 execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at @s run function lt:game/stt/entity/remove_entity
 
 # Change long duration strength area effect cloud created by linger potions to desired functionality
-execute as @e[type=minecraft:area_effect_cloud,limit=1,nbt={Potion:"minecraft:long_strength"},tag=!game.stt.strength_aec] at @s run function lt:game/stt/entity/fix_strength_aec
+execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:long_strength"},tag=!game.stt.strength_aec] at @s run function lt:game/stt/entity/fix_strength_aec
 
 # Change turtle master area effect cloud created by linger potions to desired functionality
 execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:turtle_master"},tag=!game.stt.turtle_master_aec] at @s run function lt:game/stt/entity/fix_turtle_master_aec
@@ -54,4 +54,7 @@ execute in tropicraft:tropics run function lt:club/on_tick
 function lt:events/donation/large_coconut/tick
 
 # Runs collectible specific on_tick (mostly just for organizations sake)
-execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
+execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:collectible/mechanic/on_tick
+
+# Parkour
+execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
