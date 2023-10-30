@@ -85,15 +85,35 @@
       "max_placement": 3,
       "chance_per_tick": 0.01,
       "assign_announcement": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "ltminigames.minigame.qottott.kill_bonus.announce",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to_player",
+        "target": "all",
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.qottott.kill_bonus.announce",
+            "color": "gold"
+          }
         }
       },
-      "point_percent": 0.125,
-      "claim_announcement": [],
+      "point_percent": 0.5,
+      "claim_announcement": [
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.qottott.kill_bonus.claim.title",
+            "color": "gold"
+          },
+          "subtitle": {
+            "translate": "ltminigames.minigame.qottott.kill_bonus.claim.subtitle",
+            "color": "aqua"
+          },
+          "stay": 20
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "item.totem.use"
+        }
+      ],
       "tag_icon": "ltextras:tropicoin",
       "tag_translation_key": "ltminigames.minigame.qottott.kill_bonus.tag"
     },
