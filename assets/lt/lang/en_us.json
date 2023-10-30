@@ -34,10 +34,15 @@
     "lt.golf.display.tele.part_1": "Teleporters!",
     "lt.golf.display.tele.part_2": "\n If your Crab touches Concrete Powder \n it will teleport to the Concrete of the same color",
     "lt.golf.course_unlocked": "§4🦀 §2New Crab Golf course unlocked!",
-
+    
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
-
+    
+    "lt.info.colorblind.1": "Click here to",
+    "lt.info.colorblind.2": "toggle colorblind",
+    "lt.info.colorblind.3": "mode.",
+    "lt.info.colorblind.on": "You are now in colorblind mode!",
+    "lt.info.colorblind.off": "You are no longer in colorblind!",
     "lt.info.parkour": "Parkour",
     "ltmenu.connect": "Connect to Love Tropics",
     "ltmenu.donate": "Donate to Sustainable Harvest",
