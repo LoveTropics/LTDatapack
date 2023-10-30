@@ -35,9 +35,7 @@
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
     
-    "lt.info.colorblind.1": "Click here to",
-    "lt.info.colorblind.2": "toggle colorblind",
-    "lt.info.colorblind.3": "mode.",
+    "lt.info.colorblind.text": "Click the button to toggle colorblind mode.",
     "lt.info.colorblind.on": "You are now in colorblind mode!",
     "lt.info.colorblind.off": "You are no longer in colorblind!",
     "lt.info.parkour": "Parkour",
