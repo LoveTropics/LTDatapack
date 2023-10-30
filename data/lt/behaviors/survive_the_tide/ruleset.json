@@ -16,7 +16,8 @@
       "announceAdvancements": "false",
       "fallDamage": "true",
       "doTileDrops": "false",
-      "doFireTick": "false"
+      "doFireTick": "false",
+      "mobGriefing": "$mob_griefing"
     }
   },
   "ltminigames:tnt_auto_fuse"

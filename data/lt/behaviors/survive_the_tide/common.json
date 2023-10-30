@@ -1,5 +1,4 @@
 [
-  "lt:survive_the_tide/ruleset",
   "lt:survive_the_tide/effects/death",
   {
     "type": "ltminigames:immediate_respawn",

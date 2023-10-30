@@ -114,5 +114,10 @@
     "type": "lt:survive_the_tide/loot_drop",
     "loot_table": "lt:stt/tier_3",
     "count": 2
+  },
+  "ltminigames:disable_tnt_block_destruction",
+  {
+    "type": "lt:survive_the_tide/ruleset",
+    "mob_griefing": "false"
   }
 ]

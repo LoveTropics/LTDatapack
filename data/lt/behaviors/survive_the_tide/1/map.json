@@ -118,5 +118,9 @@
     "type": "lt:survive_the_tide/loot_drop",
     "loot_table": "lt:stt/tier_3",
     "count": 2
+  },
+  {
+    "type": "lt:survive_the_tide/ruleset",
+    "mob_griefing": "true"
   }
 ]
