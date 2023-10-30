@@ -22,27 +22,27 @@
       "type": "ltminigames:scheduled_actions",
       "target": "all",
       "actions":  {
-        "20": {
+        "1": {
           "type": "ltminigames:spectator_activity",
           "style": "red"
         },
-        "40": {
+        "2": {
           "type": "ltminigames:spectator_activity",
           "style": "green"
         },
-        "60": {
+        "3": {
           "type": "ltminigames:spectator_activity",
           "style": "blue"
         },
-        "80": {
+        "4": {
           "type": "ltminigames:spectator_activity",
           "style": "red"
         },
-        "100": {
+        "5": {
           "type": "ltminigames:spectator_activity",
           "style": "green"
         },
-        "120": {
+        "6": {
           "type": "ltminigames:spectator_activity",
           "style": "blue"
         }

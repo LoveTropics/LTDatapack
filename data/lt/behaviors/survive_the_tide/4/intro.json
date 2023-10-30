@@ -2,7 +2,7 @@
   "type": "ltminigames:scheduled_actions",
   "target": "all",
   "actions": {
-    "60": [
+    "3": [
       {
         "type": "ltminigames:play_sound",
         "sound": "ltminigames:stt4.last_shuttle_departing",
@@ -17,7 +17,7 @@
         }
       }
     ],
-    "140": {
+    "7": {
       "type": "ltminigames:send_message",
       "message": {
         "translate": "ltminigames.minigame.survive_the_tide.stt4.intro2",
@@ -25,7 +25,7 @@
         "italic": true
       }
     },
-    "220": {
+    "11": {
       "type": "ltminigames:send_message",
       "message": {
         "translate": "ltminigames.minigame.survive_the_tide.stt4.intro3",
@@ -33,7 +33,7 @@
         "italic": true
       }
     },
-    "340": {
+    "17": {
       "type": "ltminigames:send_message",
       "message": {
         "translate": "ltminigames.minigame.survive_the_tide.stt4.intro4",

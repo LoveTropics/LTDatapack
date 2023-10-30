@@ -76,7 +76,7 @@
   {
     "type": "ltminigames:scheduled_actions",
     "actions": {
-      "20": {
+      "1": {
         "type": "ltminigames:set_blocks",
         "region": "delete_on_start",
         "set": "air"

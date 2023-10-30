@@ -3,7 +3,7 @@
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
-      "20": {
+      "1": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro1",
@@ -11,7 +11,7 @@
           "italic": true
         }
       },
-      "120": {
+      "6": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro2",
@@ -19,7 +19,7 @@
           "italic": true
         }
       },
-      "200": {
+      "10": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro3",
@@ -27,7 +27,7 @@
           "italic": true
         }
       },
-      "220": [
+      "11": [
         {
           "type": "ltminigames:apply_to_plot",
           "target": "all",
@@ -42,7 +42,7 @@
           ]
         }
       ],
-      "300": {
+      "15": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro4",
@@ -50,7 +50,7 @@
           "italic": true
         }
       },
-      "550": {
+      "27.5": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro5",
@@ -58,7 +58,7 @@
           "italic": true
         }
       },
-      "800": {
+      "40": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro6",
@@ -66,7 +66,7 @@
           "italic": true
         }
       },
-      "1000": {
+      "50": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro7",
@@ -74,7 +74,7 @@
           "italic": true
         }
       },
-      "1100": {
+      "55": {
         "type": "ltminigames:send_message",
         "message": {
           "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro8",
