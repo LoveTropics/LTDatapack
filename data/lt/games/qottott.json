@@ -17,15 +17,6 @@
     "lt:qottott/ruleset",
     "ltminigames:spectator_chase",
     {
-      "type": "ltminigames:immediate_respawn",
-      "role": "participant",
-      "death_message": {
-        "text": "☠ %message%",
-        "color": "gray"
-      },
-      "drop_inventory": false
-    },
-    {
       "type": "ltminigames:timed",
       "length": 6300,
       "close_length": 100,
@@ -122,6 +113,15 @@
       "statistic": "points",
       "order": "max",
       "length": 5
+    },
+    {
+      "type": "ltminigames:immediate_respawn",
+      "role": "participant",
+      "death_message": {
+        "text": "☠ %message%",
+        "color": "gray"
+      },
+      "drop_inventory": false
     }
   ]
 }
