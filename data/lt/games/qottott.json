@@ -96,6 +96,12 @@
       "claim_announcement": [],
       "tag_icon": "ltextras:tropicoin",
       "tag_translation_key": "ltminigames.minigame.qottott.kill_bonus.tag"
+    },
+    {
+      "type": "ltminigames:display_leaderboard_on_finish",
+      "statistic": "points",
+      "order": "max",
+      "length": 5
     }
   ]
 }
