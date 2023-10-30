@@ -75,6 +75,7 @@
     {
       "type": "lt:fixed_rewards",
       "coins": 5
-    }
+    },
+    "ltminigames:disable_throwing_items"
   ]
 }

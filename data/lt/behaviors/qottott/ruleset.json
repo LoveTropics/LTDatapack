@@ -1,5 +1,6 @@
 [
   "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
