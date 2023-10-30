@@ -20,7 +20,7 @@
     {
       "type": "ltminigames:spawn_entity_at_player",
       "entity": {
-        "type": "minecraft:lightning_bolt"
+        "type": "ltminigames:quiet_lightning_bolt"
       },
       "damage_player_amount": 10000.0
     },
