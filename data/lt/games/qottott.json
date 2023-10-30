@@ -35,6 +35,10 @@
       }
     },
     {
+      "type": "ltminigames:set_time_speed",
+      "factor": 4
+    },
+    {
       "type": "ltminigames:points_sidebar",
       "statistic": "points",
       "order": "max",
