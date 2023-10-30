@@ -64,7 +64,7 @@
             "CustomNameVisible": true
           }
         },
-        "apply": "lt:qottott/kits/assassin"
+        "apply": "lt:qottott/kits/brawler"
       },
       {
         "region": "kit_2b",
@@ -77,7 +77,7 @@
             "CustomNameVisible": true
           }
         },
-        "apply": "lt:qottott/kits/acrobat"
+        "apply": "lt:qottott/kits/oppertunist"
       },
       {
         "region": "kit_3b",
@@ -90,7 +90,7 @@
             "CustomNameVisible": true
           }
         },
-        "apply": "lt:qottott/kits/glass_cannon"
+        "apply": "lt:qottott/kits/fighter"
       }
     ]
   },

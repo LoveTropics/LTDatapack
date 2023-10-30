@@ -14,7 +14,7 @@ item replace entity @s weapon.mainhand with stick{display:{Name:'{"translate":"l
 attribute @s generic.attack_damage base set 0.001
 attribute @s generic.armor base set -15
 attribute @s generic.knockback_resistance base set 0.95
-attribute @s generic.max_health base set 5
+attribute @s generic.max_health base set 12
 attribute @s generic.movement_speed base set 0.1175
 
 effect give @s instant_health 5 5 true
