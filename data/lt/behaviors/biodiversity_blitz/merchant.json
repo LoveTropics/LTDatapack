@@ -34,10 +34,6 @@
         "output": {"id": "minecraft:baked_potato", "Count": 1}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
-        "output": "minecraft:oak_boat"
-      },
-      {
         "input": {"id": "ltminigames:osa_point", "Count": 16},
         "output": "minecraft:iron_sword"
       },
