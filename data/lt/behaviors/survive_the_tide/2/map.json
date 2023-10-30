@@ -1,6 +1,19 @@
 [
   "lt:survive_the_tide/intro",
   {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:fog",
+      "red": 0.27,
+      "green": 0.26,
+      "blue": 0.26,
+      "fog_type": "terrain",
+      "fog_shape": "sphere",
+      "near_distance": 20.0,
+      "far_distance": 140.0
+    }
+  },
+  {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "white_glazed_terracotta",
     "loot_tables": [
