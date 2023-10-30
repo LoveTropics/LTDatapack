@@ -3,4 +3,4 @@ execute as @e[tag=events.in_game.parrot_party.jukebox] at @s run setblock ~ ~ ~ 
 tellraw @a[distance=..25] {"translate":"lt.events.parrot_party.started"}
 scoreboard players set Cooldown events.parrot_party 1
 scoreboard players add ParrotParty main.stats 1
-schedule function lt:events/in_gane/parrot_party/end_party 348s
+schedule function lt:events/in_game/parrot_party/end_party 348s
