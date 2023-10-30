@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {"Tags":["events.in_game.mouse_party","events.in_game.mouse_party.sign"]}

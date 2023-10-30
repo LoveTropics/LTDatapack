@@ -80,6 +80,7 @@ scoreboard players set Cooldown events.mouse_party 0
 
 #In World 'events'
 scoreboard objectives add events.mouse_party dummy
+scoreboard objectives add events.parrot_party dummy
 
 # Collectible Mechanic Scoreboards
 scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
