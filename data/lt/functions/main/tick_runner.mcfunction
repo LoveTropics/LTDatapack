@@ -54,7 +54,7 @@ execute in tropicraft:tropics run function lt:club/on_tick
 function lt:events/donation/large_coconut/tick
 
 # Runs collectible specific on_tick (mostly just for organizations sake)
-execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:collectible/mechanic/on_tick
+execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
 
 # Parkour
 execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
