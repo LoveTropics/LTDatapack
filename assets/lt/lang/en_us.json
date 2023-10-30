@@ -181,7 +181,7 @@
     "lt.game.parkour.general.message.wrong_gamemode": "You entered a parkour area while in spectator. To properly play please exit the region and enter in a different gamemode.",
     "lt.game.parkour.general.message.entered": "You've entered the ",
     "lt.game.parkour.general.message.left": "You've left the ",
-    "lt.game.parkour.general.message.complete_course": "You've completed the parkour course and been given TropiCoins as a rewawrd!",
+    "lt.game.parkour.general.message.complete_course": "You've completed the parkour course and been given TropiCoins as a reward!",
     "lt.game.parkour.general.message.parkour_course": " parkour course.",
     "lt.game.parkour.general.checkpoint_portal": "Checkpoint Portal",
     "lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
