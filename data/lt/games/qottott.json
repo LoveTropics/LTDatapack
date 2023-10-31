@@ -14,159 +14,14 @@
       "game_type": "adventure",
       "join_late_with_role": "participant"
     },
-    "lt:qottott/ruleset",
     "ltminigames:spectator_chase",
-    {
-      "type": "ltminigames:progression",
-      "named_points": {
-        "start": 15,
-        "end": 315,
-        "close": 325
-      }
-    },
-    {
-      "type": "ltminigames:scheduled_actions",
-      "target": "all",
-      "actions": {
-        "0": {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "ltminigames.minigame.qottott.intro",
-            "color": "yellow"
-          }
-        },
-        "start": [
-          {
-            "type": "ltminigames:send_message",
-            "message": {
-              "translate": "ltminigames.minigame.qottott.started",
-              "color": "green"
-            }
-          },
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "block.bell.use"
-          }
-        ]
-      }
-    },
-    {
-      "type": "ltminigames:timed_close",
-      "end": "end",
-      "close": "close"
-    },
-    {
-      "type": "ltminigames:phase_progress_bar",
-      "entries": [
-        {
-          "period": {
-            "start": 0.0,
-            "end": "start"
-          },
-          "text": {
-            "translate": "ltminigames.minigame.qottott.waiting",
-            "color": "yellow"
-          },
-          "color": "yellow",
-          "reversed": true,
-          "include_time": true
-        },
-        {
-          "period": {
-            "start": "start",
-            "end": "end"
-          },
-          "text": {
-            "translate": "ltminigames.minigame.qottott.instruction",
-            "color": "green"
-          },
-          "color": "green",
-          "include_time": true
-        }
-      ]
-    },
-    {
-      "type": "ltminigames:set_time_speed",
-      "factor": 4
-    },
-    {
-      "type": "ltminigames:points_sidebar",
-      "statistic": "points",
-      "order": "max",
-      "count": 5,
-      "title": {"translate": "ltminigames.minigame.qottott.sidebar.title", "color": "light_purple", "bold": true},
-      "header": [
-        {"translate": "ltminigames.minigame.qottott.instruction", "color": "aqua"},
-        "",
-        {"translate": "ltminigames.minigame.qottott.sidebar.top_players", "color": "aqua"}
-      ]
-    },
+    "lt:qottott/ruleset",
+    "lt:qottott/phases",
+    "lt:qottott/sidebar",
     "lt:qottott/map",
     {
       "type": "ltminigames:set_xp_to_statistic",
       "statistic": "points"
-    },
-    {
-      "type": "ltminigames:pickup_priority",
-      "max_seconds": 1.0
-    },
-    {
-      "type": "ltminigames:item_picked_up",
-      "item": {
-        "items": ["ltextras:tropicoin"]
-      },
-      "action": [
-        {
-          "type": "ltminigames:give_points",
-          "statistic": "points",
-          "count": 1
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "entity.experience_orb.pickup"
-        }
-      ],
-      "consume": true
-    },
-    "lt:qottott/power_ups",
-    {
-      "type": "ltminigames:kill_bonus",
-      "statistic": "points",
-      "order": "max",
-      "max_placement": 3,
-      "chance_per_tick": 0.01,
-      "assign_announcement": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "ltminigames.minigame.qottott.kill_bonus.announce",
-            "color": "gold"
-          }
-        }
-      },
-      "point_percent": 0.5,
-      "claim_announcement": [
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "ltminigames.minigame.qottott.kill_bonus.claim.title",
-            "color": "gold"
-          },
-          "subtitle": {
-            "translate": "ltminigames.minigame.qottott.kill_bonus.claim.subtitle",
-            "color": "aqua"
-          },
-          "stay": 20
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "item.totem.use"
-        }
-      ],
-      "tag_icon": "ltextras:tropicoin",
-      "tag_translation_key": "ltminigames.minigame.qottott.kill_bonus.tag"
     },
     {
       "type": "ltminigames:display_leaderboard_on_finish",
@@ -174,6 +29,8 @@
       "order": "max",
       "length": 5
     },
+    "lt:qottott/items",
+    "lt:qottott/rewards",
     {
       "type": "ltminigames:immediate_respawn",
       "role": "participant",

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_1",
+    "interval_ticks": 120,
+    "after": 15.0
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_2",
+    "interval_ticks": 80,
+    "after": 15.0
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "ltextras:tropicoin",
+    "region": "coin_dispenser_level_3",
+    "interval_ticks": 40,
+    "after": 15.0
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": "minecraft:enchanted_golden_apple",
+    "region": "buff_spawn",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": 80,
+    "after": 15.0,
+    "beacon": true
+  }
+]

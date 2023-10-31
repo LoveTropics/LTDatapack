@@ -1,0 +1,18 @@
+{
+  "type": "ltminigames:item_picked_up",
+  "item": {
+    "items": ["ltextras:tropicoin"]
+  },
+  "action": [
+    {
+      "type": "ltminigames:give_points",
+      "statistic": "points",
+      "count": 1
+    },
+    {
+      "type": "ltminigames:play_sound",
+      "sound": "entity.experience_orb.pickup"
+    }
+  ],
+  "consume": true
+}

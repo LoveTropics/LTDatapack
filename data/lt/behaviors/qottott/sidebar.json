@@ -1,0 +1,12 @@
+{
+  "type": "ltminigames:points_sidebar",
+  "statistic": "points",
+  "order": "max",
+  "count": 5,
+  "title": {"translate": "ltminigames.minigame.qottott.sidebar.title", "color": "light_purple", "bold": true},
+  "header": [
+    {"translate": "ltminigames.minigame.qottott.instruction", "color": "aqua"},
+    "",
+    {"translate": "ltminigames.minigame.qottott.sidebar.top_players", "color": "aqua"}
+  ]
+}

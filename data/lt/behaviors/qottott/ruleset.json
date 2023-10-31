@@ -18,5 +18,20 @@
     "type": "ltminigames:damage_in_water",
     "interval": 2,
     "amount": 1000.0
+  },
+  {
+    "type": "ltminigames:pickup_priority",
+    "max_seconds": 1.0
+  },
+  {
+    "type": "ltminigames:coin_drop_attribute",
+    "statistic": "points",
+    "item": "ltextras:tropicoin"
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:health_tag"
+    }
   }
 ]

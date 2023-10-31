@@ -1,5 +1,9 @@
 [
   {
+    "type": "ltminigames:set_time_speed",
+    "factor": 4
+  },
+  {
     "type": "ltminigames:position_players",
     "all": ["lobby_spawn"],
     "angle": 90.0
@@ -11,127 +15,6 @@
     "point_towards_region": "coin_dispenser_level_1",
     "wait_seconds": 15
   },
-  {
-    "type": "ltminigames:kit_selection",
-    "kits": [
-      {
-        "region": "kit_1a",
-        "angle": -180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.assassin\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/assassin"
-      },
-      {
-        "region": "kit_2a",
-        "angle": -180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.acrobat\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/acrobat"
-      },
-      {
-        "region": "kit_3a",
-        "angle": -180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.glass_cannon\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/glass_cannon"
-      },
-      {
-        "region": "kit_1b",
-        "angle": 180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.assassin\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/brawler"
-      },
-      {
-        "region": "kit_2b",
-        "angle": 180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.acrobat\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/oppertunist"
-      },
-      {
-        "region": "kit_3b",
-        "angle": 180.0,
-        "entity": {
-          "type": "minecraft:armor_stand",
-          "tag": {
-            "ShowArms": true,
-            "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.glass_cannon\"}",
-            "CustomNameVisible": true
-          }
-        },
-        "apply": "lt:qottott/kits/fighter"
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:item_dropper",
-    "loot": "ltextras:tropicoin",
-    "region": "coin_dispenser_level_1",
-    "interval_ticks": 120,
-    "after": 15.0
-  },
-  {
-    "type": "ltminigames:item_dropper",
-    "loot": "ltextras:tropicoin",
-    "region": "coin_dispenser_level_2",
-    "interval_ticks": 80,
-    "after": 15.0
-  },
-  {
-    "type": "ltminigames:item_dropper",
-    "loot": "ltextras:tropicoin",
-    "region": "coin_dispenser_level_3",
-    "interval_ticks": 40,
-    "after": 15.0
-  },
-  {
-    "type": "ltminigames:item_dropper",
-    "loot": "minecraft:enchanted_golden_apple",
-    "region": "buff_spawn",
-    "combined": true,
-    "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
-      "actions": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "ltminigames.minigame.qottott.spawn.power_up",
-          "color": "aqua"
-        }
-      }
-    },
-    "interval_ticks": 80,
-    "after": 15.0
-  }
+  "lt:qottott/kits",
+  "lt:qottott/map/droppers"
 ]

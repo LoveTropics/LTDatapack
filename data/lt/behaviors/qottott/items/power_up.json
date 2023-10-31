@@ -1,0 +1,22 @@
+{
+  "type": "ltminigames:item_picked_up",
+  "item": {
+    "items": ["minecraft:enchanted_golden_apple"]
+  },
+  "action": [
+    {
+      "type": "lt:qottott/point_power_up",
+      "seconds": 20
+    },
+    {
+      "type": "ltminigames:give_points",
+      "statistic": "points",
+      "count": 5
+    },
+    {
+      "type": "ltminigames:play_sound",
+      "sound": "entity.experience_orb.pickup"
+    }
+  ],
+  "consume": true
+}

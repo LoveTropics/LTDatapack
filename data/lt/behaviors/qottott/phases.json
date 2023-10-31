@@ -1,0 +1,71 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 15,
+      "end": 315,
+      "close": 325
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "0": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.intro",
+          "color": "yellow"
+        }
+      },
+      "start": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.qottott.started",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "block.bell.use"
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:timed_close",
+    "end": "end",
+    "close": "close"
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": 0.0,
+          "end": "start"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.qottott.waiting",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "start",
+          "end": "end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.qottott.instruction",
+          "color": "green"
+        },
+        "color": "green",
+        "include_time": true
+      }
+    ]
+  }
+]
