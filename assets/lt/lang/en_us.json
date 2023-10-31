@@ -203,5 +203,8 @@
     "lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
 
     "lt.game.parkour.crystal_cave.name": "Crystal Cavern",
-    "lt.game.parkour.golf.name": "Obstacle Cave"
+    "lt.game.parkour.golf.name": "Obstacle Cave",
+
+    "lt.team.no_cents.join": "You have joined Team No Cents!",
+    "lt.team.cents.join": "You have joined Team Cents!"
 }
