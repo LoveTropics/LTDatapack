@@ -95,5 +95,35 @@
     },
     "after": "start",
     "beacon": true
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": {
+      "id": "tropicraft:eudialyte_sword",
+      "tag": {
+        "display": {
+          "Name": "{\"translate\":\"ltminigames.minigame.qottott.sword\",\"italic\":false}",
+          "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.sword.lore\",\"color\":\"blue\"}"]
+        },
+        "AttributeModifiers": [
+          {
+            "AttributeName": "ltminigames:coin_drops",
+            "Name": "ltminigames:coin_drops",
+            "Amount": 0.2,
+            "Operation": 0,
+            "UUID": [-165644197, 1990414326, -1313898997, -19729470]
+          }
+        ]
+      }
+    },
+    "region": "sword_spawner",
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 300,
+        "max_inclusive": 500
+      }
+    },
+    "after": "start"
   }
 ]

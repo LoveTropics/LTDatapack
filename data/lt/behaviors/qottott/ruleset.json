@@ -39,7 +39,7 @@
     "type": "ltminigames:give_items_to_killer",
     "item_predicate": [
       {
-        "items": ["tropicraft:exploding_coconut", "minecraft:wooden_hoe", "minecraft:crossbow"]
+        "items": ["tropicraft:exploding_coconut", "minecraft:wooden_hoe", "minecraft:crossbow", "tropicraft:eudialyte_sword"]
       }
     ]
   }
