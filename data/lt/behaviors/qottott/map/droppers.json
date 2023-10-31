@@ -120,6 +120,17 @@
       }
     ],
     "region": "sword_spawner",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
     "interval_ticks": {
       "type": "minecraft:uniform",
       "value": {
