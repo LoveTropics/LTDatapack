@@ -11,7 +11,8 @@
       "fallDamage": "true",
       "doTileDrops": "false",
       "doFireTick": "false",
-      "naturalRegeneration": "false"
+      "naturalRegeneration": "false",
+      "mobGriefing": "false"
     }
   },
   {
@@ -33,5 +34,13 @@
     "state": {
       "type": "ltminigames:health_tag"
     }
+  },
+  {
+    "type": "ltminigames:give_items_to_killer",
+    "item_predicate": [
+      {
+        "items": ["tropicraft:exploding_coconut", "minecraft:wooden_hoe", "minecraft:crossbow"]
+      }
+    ]
   }
 ]

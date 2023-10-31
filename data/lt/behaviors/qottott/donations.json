@@ -1,0 +1,17 @@
+[
+  {
+    "type": "ltminigames:block_packages_during_phase",
+    "block_periods": [{"start": 0.0, "end": "start"}]
+  },
+
+  "lt:integrations/packages/all_disguises",
+  "lt:integrations/packages/big_leaps",
+
+  "lt:integrations/packages/zombie_invasion",
+  "lt:integrations/packages/lightning_strike",
+
+  "lt:integrations/packages/knockback",
+  "lt:integrations/packages/boom",
+  "lt:integrations/packages/undying",
+  "lt:integrations/packages/lightning_crossbow"
+]
