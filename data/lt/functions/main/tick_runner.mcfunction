@@ -58,3 +58,6 @@ execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
 
 # Parkour
 execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
+
+# Build Mode Tools
+execute as @a[tag=building,tag=!given_tools] at @s if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools

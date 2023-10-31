@@ -352,9 +352,29 @@
         "tropicraft:pina_colada",
         "tropicraft:limeade",
         "minecraft:fishing_rod",
-        "minecraft:leather_helmet",
-        "minecraft:leather_boots",
-        "minecraft:leather_chestplate",
-        "minecraft:leather_leggings"
+        "minecraft:painting",
+        "minecraft:enchanted_book",
+        "create:large_water_wheel",
+        "create:nixie_tube",
+        "create:rose_quartz_lamp",
+        "create:contraption_controls",
+        "create:elevator_pulley",
+        "create:track_observer",
+        "create:item_vault",
+        "create:display_link",
+        "create:display_board",
+        "create:controls",
+        "create:mechanical_roller",
+        "create:track_station",
+        "create:steam_engine",
+        "create:steam_whistle",
+        "create:track_signal",
+        "create:schedule",
+        "create:track",
+        "create:belt_connector",
+        "#forge:armors",
+        "#minecraft:tools",
+        "#minecraft:trim_templates"
+
     ]
 }
