@@ -8,7 +8,7 @@
     {
       "type": "ltminigames:give_points",
       "statistic": "points",
-      "count": 5,
+      "count": 2,
       "bypass_multiplier": true
     },
     {

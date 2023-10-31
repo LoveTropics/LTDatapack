@@ -89,8 +89,8 @@
     "interval_ticks": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 200,
-        "max_inclusive": 300
+        "min_inclusive": 300,
+        "max_inclusive": 400
       }
     },
     "after": "start",
