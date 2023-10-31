@@ -13,6 +13,7 @@
   "lt:integrations/packages/knockback",
   "lt:integrations/packages/boom",
   "lt:integrations/packages/undying",
+  "lt:integrations/packages/lightning_crossbow",
 
   "lt:integrations/packages/random_creeper",
   "lt:integrations/packages/chosen_creeper",
