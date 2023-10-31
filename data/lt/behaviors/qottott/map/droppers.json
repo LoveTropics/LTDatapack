@@ -100,12 +100,17 @@
     "type": "ltminigames:item_dropper",
     "loot": [
       {
-        "id": "tropicraft:eudialyte_sword",
+        "id": "ltminigames:plushie",
         "Count": 1,
         "tag": {
+          "cash_crab": true,
+          "entity": {
+            "type": "tropicraft:fiddler_crab"
+          },
+          "size": 1.8,
           "display": {
-            "Name": "{\"translate\":\"ltminigames.minigame.qottott.sword\",\"italic\":false}",
-            "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.sword.lore\",\"color\":\"blue\"}"]
+            "Name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
+            "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.lore\",\"color\":\"blue\"}"]
           },
           "AttributeModifiers": [
             {

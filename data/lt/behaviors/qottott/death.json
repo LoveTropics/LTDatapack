@@ -1,0 +1,37 @@
+[
+  {
+    "type": "ltminigames:on_death",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      },
+      {
+        "type": "ltminigames:spawn_particles_around_player",
+        "particles": [
+          {"type": "totem_of_undying"},
+          {"type": "electric_spark"}
+        ],
+        "count": 15,
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:on_death",
+    "killer_predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": ["ltminigames:plushie"],
+          "nbt": "{cash_crab:1b}"
+        }
+      }
+    },
+    "actions": {
+      "type": "ltminigames:show_title",
+      "title": "ltminigames.minigame.qottott.cash_crab.title",
+      "subtitle": "ltminigames.minigame.qottott.cash_crab.subtitle",
+      "stay": 40
+    }
+  }
+]

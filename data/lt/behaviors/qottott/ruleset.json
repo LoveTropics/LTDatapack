@@ -42,5 +42,6 @@
         "items": ["tropicraft:exploding_coconut", "minecraft:wooden_hoe", "minecraft:crossbow"]
       }
     ]
-  }
+  },
+  "lt:qottott/death"
 ]
