@@ -7,3 +7,5 @@ execute as @e[tag=survive_the_tide_3.loot_marker] at @s if block ~ ~ ~ air run k
 
 # Teleport
 execute as @a[tag=!utility.player.joined] at @s run function lt:utility/player/first_join
+
+function lt:utility/team/on_tick

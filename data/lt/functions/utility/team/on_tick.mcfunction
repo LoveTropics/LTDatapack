@@ -1,0 +1,3 @@
+execute as @e[tag=lt.team.no_cents.join] at @s run execute as @a[gamemode=!spectator,distance=..1] at @s run function lt:utility/team/no_cents/join
+execute as @e[tag=lt.team.cents.join] at @s run execute as @a[gamemode=!spectator,distance=..1] at @s run function lt:utility/team/cents/join
+execute as @e[tag=lt.team.cents.leave] at @s run execute as @a[gamemode=!spectator,distance=..1] at @s run function lt:utility/team/leave

@@ -41,6 +41,10 @@
     "lt.info.colorblind.text": "Click the button to toggle colorblind mode.",
     "lt.info.colorblind.on": "You are now in colorblind mode!",
     "lt.info.colorblind.off": "You are no longer in colorblind!",
+    "lt.info.leave": "Leave",
+    "lt.info.team_cents": "Team Cents",
+    "lt.info.team_no_cents": "Team No Cents",
+
     "lt.info.parkour": "Parkour",
     "ltmenu.connect": "Connect to Love Tropics",
     "ltmenu.donate": "Donate to Sustainable Harvest",
