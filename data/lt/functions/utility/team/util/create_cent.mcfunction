@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ {"Tags":["lt.team", "lt.team.no_cents.join"]}
+summon marker ~ ~ ~ {"Tags":["lt.team", "lt.team.cents.join"]}
