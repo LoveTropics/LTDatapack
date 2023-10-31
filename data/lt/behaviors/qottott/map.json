@@ -13,7 +13,7 @@
     "portal_region": "portal",
     "target_region": "player_spawn",
     "point_towards_region": "coin_dispenser_level_1",
-    "wait_seconds": 15
+    "open_at": "start"
   },
   "lt:qottott/kits",
   "lt:qottott/map/droppers"
