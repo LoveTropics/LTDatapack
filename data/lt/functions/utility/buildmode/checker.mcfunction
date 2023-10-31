@@ -1,3 +1,3 @@
-execute if entity @s[tag=building] if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:0b} run tellraw @s {"text":"You need to be in build mode to get tools","color":"green"}
-execute if entity @s[tag=!building] run tellraw @s {"text":"You need to be in build mode area to get tools","color":"green"}
+execute if entity @s[tag=building] if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:0b} run tellraw @s {"text":"lt.build.mode.inside.message","color":"green"}
+execute if entity @s[tag=!building] run tellraw @s {"translate":"lt.build.mode.outside.message","color":"green"}
 execute as @s[tag=building] at @s if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools

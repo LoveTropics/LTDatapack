@@ -35,6 +35,9 @@
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
     
+    "lt.build.mode.outside.message": "You need to be inside a build mode area to get tools",
+    "lt.build.mode.inside.message": "You need to be in build mode to get tools",
+
     "lt.info.colorblind.text": "Click the button to toggle colorblind mode.",
     "lt.info.colorblind.on": "You are now in colorblind mode!",
     "lt.info.colorblind.off": "You are no longer in colorblind!",
