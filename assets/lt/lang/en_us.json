@@ -116,6 +116,18 @@
     "lt.utility_item.tropical_map.description.2": "points of interest.",
     "lt.utility_item.collectible_compass.description.1": "Permanently points towards a random, unowned collectible",
 
+    "lt.collectible.team_no_cents.helmet.name": "Team No Cents Helmet ",
+    "lt.collectible.team_no_cents.chestplate.name": "Team No Cents Chestplate",
+    "lt.collectible.team_no_cents.leggings.name": "Team No Cents Leggings",
+    "lt.collectible.team_no_cents.boots.name": "Team No Cents Boots",
+    "lt.collectible.team_no_cents.generic.description": "Wear to show support for Team No Cents",
+
+    "lt.collectible.team_cents.helmet.name": "Team Cents Helmet ",
+    "lt.collectible.team_cents.chestplate.name": "Team Cents Chestplate",
+    "lt.collectible.team_cents.leggings.name": "Team Cents Leggings",
+    "lt.collectible.team_cents.boots.name": "Team Cents Boots",
+    "lt.collectible.team_cents.generic.description": "Wear to show support for Team Cents",
+
     "lt.collectible.col_cojo.name": "Col Cojo",
 
     "lt.collectible.milestone.5000.description": "$5,000 Milestone reward.",
