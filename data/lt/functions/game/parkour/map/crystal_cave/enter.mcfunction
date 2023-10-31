@@ -10,3 +10,5 @@ execute unless entity @s[gamemode=spectator] run tag @s add parkour.player
 # Set players checkpoint from stored
 execute unless entity @s[gamemode=spectator] run scoreboard players set @s parkour.checkpoint 0
 execute unless entity @s[gamemode=spectator] run scoreboard players operation @s parkour.checkpoint = @s parkour.crystal.checkpoint_last
+execute unless entity @s[gamemode=spectator] run collectible lock @s
+

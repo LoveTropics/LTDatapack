@@ -11,3 +11,5 @@ tag @s remove parkour.player.looking_for_checkpoint
 # Set players stored from checkpoint
 scoreboard players operation @s parkour.obstacle_cave.checkpoint_last = @s parkour.checkpoint
 scoreboard players reset @s parkour.checkpoint
+
+execute unless entity @s[gamemode=spectator] run collectible unlock @s
