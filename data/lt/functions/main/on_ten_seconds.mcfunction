@@ -17,5 +17,8 @@ function lt:events/donation/mob_size/on_ten_second
 #function lt:events/in_game/mouse_party/on_ten_seconds
 function lt:events/in_game/parrot_party/on_ten_seconds
 
+# Make particle on interdimensional acid repellent umbrella to make sure players see it
+execute in tropicraft:tropics positioned 2594.50 183.50 2426.50 run particle sonic_boom 2594.50 183.50 2426.50 0 0 0 0 1 force @a[distance=..35]
+
 # Repeat every 10 seconds
 schedule function lt:main/on_ten_seconds 10s
