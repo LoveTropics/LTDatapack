@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ {"Tags":["lt.team", "lt.team.no_cents.leave"]}
+summon marker ~ ~ ~ {"Tags":["lt.team", "lt.team.leave"]}
