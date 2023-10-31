@@ -113,7 +113,16 @@
               "Name": "ltminigames:coin_drops",
               "Amount": 0.2,
               "Operation": 0,
-              "UUID": [-165644197, 1990414326, -1313898997, -19729470]
+              "UUID": [-165644197, 1990414326, -1313898997, -19729470],
+              "Slot": "mainhand"
+            },
+            {
+              "AttributeName": "generic.attack_damage",
+              "Name": "generic.attack_damage",
+              "Amount": 100,
+              "Operation": 0,
+              "UUID": [-1132199485, 2035633310, -1801346983, 1049462189],
+              "Slot": "mainhand"
             }
           ]
         }
