@@ -41,7 +41,8 @@
           "type": "minecraft:glowing",
           "seconds": 1,
           "amplifier": 1,
-          "hide_particles": false
+          "particles": true,
+          "show_icon": false
         },
         "radius": 5.0
       },

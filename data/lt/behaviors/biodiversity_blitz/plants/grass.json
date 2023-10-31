@@ -41,7 +41,8 @@
           "type": "minecraft:slowness",
           "seconds": 0.5,
           "amplifier": 2,
-          "hide_particles": true
+          "particles": true,
+          "show_icon": false
         },
         "radius": 0.0
       },

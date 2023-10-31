@@ -106,7 +106,8 @@
               "type": "minecraft:water_breathing",
               "seconds": 999999,
               "amplifier": 80,
-              "hide_particles": true
+              "particles": false,
+              "show_icon": false
             }
           ]
         }

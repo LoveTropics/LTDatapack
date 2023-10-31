@@ -1,0 +1,37 @@
+[
+  {
+    "type": "lt:qottott/items/effect_power_up",
+    "item_tag": "{power_up: \"speed\"}",
+    "effect": "ltminigames:speed_power_up",
+    "subtitle": {"translate": "ltminigames.minigame.qottott.speed_power_up.subtitle", "color": "aqua"},
+    "seconds": 20
+  },
+  {
+    "type": "lt:qottott/items/effect_power_up",
+    "item_tag": "{power_up: \"knockback_resistance\"}",
+    "effect": "ltminigames:knockback_resistance_power_up",
+    "subtitle": {"translate": "ltminigames.minigame.qottott.knockback_resistance_power_up.subtitle", "color": "green"},
+    "seconds": 20
+  },
+  {
+    "type": "lt:qottott/items/effect_power_up",
+    "item_tag": "{power_up: \"pickup_priority\"}",
+    "effect": "ltminigames:pickup_priority_power_up",
+    "subtitle": {"translate": "ltminigames.minigame.qottott.pickup_priority_power_up.subtitle", "color": "yellow"},
+    "seconds": 20
+  },
+  {
+    "type": "lt:qottott/items/effect_power_up",
+    "item_tag": "{power_up: \"resistance\"}",
+    "effect": "minecraft:resistance",
+    "subtitle": {"translate": "ltminigames.minigame.qottott.resistance_power_up.subtitle", "color": "gold"},
+    "seconds": 20
+  },
+  {
+    "type": "lt:qottott/items/effect_power_up",
+    "item_tag": "{power_up: \"health\"}",
+    "effect": "minecraft:absorption",
+    "subtitle": {"translate": "ltminigames.minigame.qottott.health_power_up.subtitle", "color": "red"},
+    "seconds": 20
+  }
+]

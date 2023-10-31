@@ -42,42 +42,42 @@
     },
     {
       "region": "kit_1b",
-      "angle": 180.0,
+      "angle": 0.0,
       "entity": {
         "type": "minecraft:armor_stand",
         "tag": {
           "ShowArms": true,
-          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.assassin\"}",
-          "CustomNameVisible": true
-        }
-      },
-      "apply": "lt:qottott/kits/brawler"
-    },
-    {
-      "region": "kit_2b",
-      "angle": 180.0,
-      "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
-          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.acrobat\"}",
-          "CustomNameVisible": true
-        }
-      },
-      "apply": "lt:qottott/kits/oppertunist"
-    },
-    {
-      "region": "kit_3b",
-      "angle": 180.0,
-      "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
-          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.glass_cannon\"}",
+          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.fighter\"}",
           "CustomNameVisible": true
         }
       },
       "apply": "lt:qottott/kits/fighter"
+    },
+    {
+      "region": "kit_2b",
+      "angle": 0.0,
+      "entity": {
+        "type": "minecraft:armor_stand",
+        "tag": {
+          "ShowArms": true,
+          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.opportunist\"}",
+          "CustomNameVisible": true
+        }
+      },
+      "apply": "lt:qottott/kits/opportunist"
+    },
+    {
+      "region": "kit_3b",
+      "angle": 0.0,
+      "entity": {
+        "type": "minecraft:armor_stand",
+        "tag": {
+          "ShowArms": true,
+          "CustomName": "{\"translate\": \"ltminigames.minigame.qottott.kit.brawler\"}",
+          "CustomNameVisible": true
+        }
+      },
+      "apply": "lt:qottott/kits/brawler"
     }
   ]
 }

@@ -1,22 +1,42 @@
 {
   "type": "ltminigames:item_picked_up",
   "item": {
-    "items": ["minecraft:enchanted_golden_apple"]
+    "items": ["minecraft:enchanted_golden_apple"],
+    "nbt": "$item_tag"
   },
   "action": [
     {
-      "type": "lt:qottott/point_power_up",
-      "seconds": 20
-    },
-    {
       "type": "ltminigames:give_points",
       "statistic": "points",
-      "count": 5
+      "count": 5,
+      "bypass_multiplier": true
+    },
+    {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "ltminigames:coin_multiplier_power_up",
+          "seconds": "$seconds",
+          "amplifier": 0,
+          "particles": false,
+          "show_icon": false
+        }
+      ]
     },
     {
       "type": "ltminigames:play_sound",
-      "sound": "entity.experience_orb.pickup"
-    }
+      "sound": "block.respawn_anchor.charge"
+    },
+    {
+      "type": "ltminigames:show_title",
+      "title": {"translate": "ltminigames.minigame.qottott.power_up.title", "color": "gold"},
+      "subtitle": {
+        "translate": "ltminigames.minigame.qottott.power_up.subtitle",
+        "color": "gold",
+        "with": ["$subtitle"]
+      }
+    },
+    "$apply"
   ],
   "consume": true
 }

@@ -1,0 +1,18 @@
+{
+  "type": "lt:qottott/items/power_up",
+  "item_tag": "$item_tag",
+  "seconds": "$seconds",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:give_effect",
+    "effects": [
+      {
+        "type": "$effect",
+        "seconds": "$seconds",
+        "amplifier": 0,
+        "particles": false,
+        "show_icon": false
+      }
+    ]
+  }
+}

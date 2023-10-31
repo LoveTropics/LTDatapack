@@ -1,0 +1,18 @@
+[
+  {
+    "type": "ltminigames:run_commands",
+    "player": "function lt:game/qottott/kit/brawler"
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "entity.experience_orb.pickup"
+  },
+  {
+    "type": "ltminigames:send_message",
+    "message": {
+      "translate": "ltminigames.minigame.qottott.kit.picked",
+      "color": "gray",
+      "with": [{"translate": "ltminigames.minigame.qottott.kit.brawler", "color": "aqua"}]
+    }
+  }
+]

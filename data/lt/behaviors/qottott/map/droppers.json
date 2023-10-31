@@ -4,25 +4,76 @@
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_1",
     "interval_ticks": 120,
-    "after": 15.0
+    "after": "start"
   },
   {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_2",
     "interval_ticks": 80,
-    "after": 15.0
+    "after": "start"
   },
   {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_3",
     "interval_ticks": 40,
-    "after": 15.0
+    "after": "start"
   },
   {
     "type": "ltminigames:item_dropper",
-    "loot": "minecraft:enchanted_golden_apple",
+    "loot": [
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "Count": 1,
+        "tag": {
+          "power_up": "speed",
+          "display": {
+            "Name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
+          }
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "Count": 1,
+        "tag": {
+          "power_up": "knockback_resistance",
+          "display": {
+            "Name": "{\"translate\": \"ltminigames.minigame.qottott.knockback_resistance_power_up\", \"color\": \"green\"}"
+          }
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "Count": 1,
+        "tag": {
+          "power_up": "resistance",
+          "display": {
+            "Name": "{\"translate\": \"ltminigames.minigame.qottott.resistance_power_up\", \"color\": \"gold\"}"
+          }
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "Count": 1,
+        "tag": {
+          "power_up": "pickup_priority",
+          "display": {
+            "Name": "{\"translate\": \"ltminigames.minigame.qottott.pickup_priority_power_up\", \"color\": \"yellow\"}"
+          }
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "Count": 1,
+        "tag": {
+          "power_up": "health",
+          "display": {
+            "Name": "{\"translate\": \"ltminigames.minigame.qottott.health_power_up\", \"color\": \"red\"}"
+          }
+        }
+      }
+    ],
     "region": "buff_spawn",
     "announcement": {
       "type": "ltminigames:apply_to_player",
@@ -35,8 +86,14 @@
         }
       }
     },
-    "interval_ticks": 80,
-    "after": 15.0,
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 200,
+        "max_inclusive": 300
+      }
+    },
+    "after": "start",
     "beacon": true
   }
 ]

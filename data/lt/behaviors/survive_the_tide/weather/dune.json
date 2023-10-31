@@ -37,7 +37,8 @@
             "type": "minecraft:slowness",
             "seconds": 2,
             "amplifier": 1,
-            "hide_particles": true
+            "particles": false,
+            "show_icon": false
           },
           "rate": 20
         }

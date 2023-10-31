@@ -41,7 +41,8 @@
                 "type": "minecraft:levitation",
                 "seconds": 100000,
                 "amplifier": 1,
-                "hide_particles": true
+                "particles": false,
+                "show_icon": false
               }
             ]
           },

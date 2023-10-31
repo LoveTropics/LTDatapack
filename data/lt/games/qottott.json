@@ -31,6 +31,7 @@
     },
     "lt:qottott/items",
     "lt:qottott/rewards",
+    "lt:qottott/donations",
     {
       "type": "ltminigames:immediate_respawn",
       "role": "participant",
