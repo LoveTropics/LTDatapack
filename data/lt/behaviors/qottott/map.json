@@ -17,7 +17,7 @@
   },
   "lt:qottott/kits",
   {
-    "type": "ltminigames:only_pick_in_period",
+    "type": "ltminigames:only_tick_in_period",
     "period": {
       "start": "start",
       "end": "end"
