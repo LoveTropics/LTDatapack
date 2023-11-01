@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "tropicraft:pina_colada"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "lt:utility/to_the_tropics"
+    }
+  }
