@@ -21,6 +21,13 @@
     "amount": 1000.0
   },
   {
+    "type": "ltminigames:cancel_player_damage",
+    "period": {
+      "start": "end",
+      "end": "close"
+    }
+  },
+  {
     "type": "ltminigames:pickup_priority",
     "max_seconds": 1.0
   },
