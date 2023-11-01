@@ -37,6 +37,6 @@
   {
     "type": "ltminigames:power_up_indicator",
     "effect": "ltminigames:coin_multiplier_power_up",
-    "text": "ltminigames.minigame.qottott.power_up.generic"
+    "text": {"translate": "ltminigames.minigame.qottott.power_up.generic", "color": "gold"}
   }
 ]
