@@ -2,15 +2,16 @@
 execute as @a[tag=main.operator] at @s run playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 2 1.5
 
 # Put a message in chat to indicate server is reloaded
-tellraw @a[tag=main.operator] [{"text":"<@>","color":"gray"}, {"text":" Reload: ","color":"yellow"}, {"score":{"name":"Reloads","objective":"main.stats"}, "color": "red"}]
+tellraw @a[tag=main.operator] [{"text":"<@>","color":"gray"}, {"text":" Reload: ","color":"yellow"}, {"score":{"name":"Reloads","objective":"main.reloads"}, "color": "red"}]
 
 # Initiate main module scoreboards
 scoreboard objectives add main.global dummy
 scoreboard objectives add main.number dummy
 scoreboard objectives add main.stats dummy
+scoreboard objectives add main.reloads dummy
 
-# Reload Counter
-scoreboard players add Reloads main.stats 1
+# Reload Counter #Moved to main:reload so its easier to reset stats
+scoreboard players add Reloads main.reloads 1
 
 # Define main.number scores
 scoreboard players set 1 main.number 1
