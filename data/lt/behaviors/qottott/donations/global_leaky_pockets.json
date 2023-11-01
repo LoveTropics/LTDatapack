@@ -24,8 +24,8 @@
         "type": "ltminigames:leaky_pockets",
         "statistic": "points",
         "item": "ltextras:tropicoin",
-        "count": 1,
-        "chance": 0.1
+        "chance_per_coin": 0.03,
+        "interval": 5
       }
     },
     "seconds": 30
