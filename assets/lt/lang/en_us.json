@@ -188,6 +188,13 @@
     "lt.poi.volcano": "Volcano",
     "lt.poi.theatre": "Theatre",
     "lt.poi.crab_golf": "Crab Golf",
+    "lt.poi.shops": "Shops",
+    "lt.poi.parkour": "Parkour",
+    "lt.poi.dropper": "Dropper",
+    "lt.poi.elytra": "Elytra Course",
+    "lt.poi.minigames": "Minigames",
+    "lt.poi.free_build": "Free Build",
+
     "lt.poi.education_area": "Education Area",
     "lt.poi.finale_area": "Finale Area",
     "lt.poi.free_build_1": "Free Build #1",
@@ -223,5 +230,9 @@
     "lt.game.qottott.class.opportunist.weapon_name": "Opportunist's Sword",
 
     "lt.team.no_cents.join": "You have joined Team No Cents!",
-    "lt.team.cents.join": "You have joined Team Cents!"
+    "lt.team.cents.join": "You have joined Team Cents!",
+
+    "lt.info_center.what_to_do": "What's there to do?",
+    "lt.info_center.shops": "Use your collected TropiCoins to buy Collectibles",
+    "lt.minigame.survive_the_tide": "Survive the Tide"
 }
