@@ -1,18 +1,41 @@
-{
-  "type": "ltminigames:item_picked_up",
-  "item": {
-    "items": ["ltextras:tropicoin"]
-  },
-  "action": [
-    {
-      "type": "ltminigames:give_points",
-      "statistic": "points",
-      "count": 1
+[
+  {
+    "type": "ltminigames:item_picked_up",
+    "item": {
+      "items": ["ltextras:tropicoin"],
+      "nbt": "{source: \"dropper\"}"
     },
-    {
-      "type": "ltminigames:play_sound",
-      "sound": "entity.experience_orb.pickup"
-    }
-  ],
-  "consume": true
-}
+    "action": [
+      {
+        "type": "ltminigames:give_points",
+        "statistic": "points",
+        "count": 1
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      }
+    ],
+    "consume": true
+  },
+  {
+    "type": "ltminigames:item_picked_up",
+    "item": {
+      "items": ["ltextras:tropicoin"],
+      "nbt": "{source: \"leaky_pockets\"}"
+    },
+    "action": [
+      {
+        "type": "ltminigames:give_points",
+        "statistic": "points",
+        "count": 1,
+        "bypass_multiplier": true
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
+      }
+    ],
+    "consume": true
+  }
+]

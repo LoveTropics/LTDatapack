@@ -23,7 +23,13 @@
       "actions": {
         "type": "ltminigames:leaky_pockets",
         "statistic": "points",
-        "item": "ltextras:tropicoin",
+        "item": {
+          "id": "ltextras:tropicoin",
+          "Count": 1,
+          "tag": {
+            "source": "leaky_pockets"
+          }
+        },
         "chance_per_coin": 0.05,
         "interval": 5
       }
