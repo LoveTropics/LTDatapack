@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "knockback_package",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.knockback_package"},
+  "description": {"translate": "ltminigames.minigame.donation.knockback_package.description"},
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.knockback_package.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "minecraft:stick"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_loot",
+      "loot_table": "lt:packages/extreme_yeeter_package"
+    }
+  ]
+}

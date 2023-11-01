@@ -10,7 +10,7 @@
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/lightning_strike",
 
-  "lt:integrations/packages/knockback",
+  "lt:integrations/packages/extreme_knockback",
   "lt:integrations/packages/boom",
   "lt:integrations/packages/undying",
   "lt:integrations/packages/lightning_crossbow",
