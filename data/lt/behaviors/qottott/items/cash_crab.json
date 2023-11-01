@@ -47,5 +47,23 @@
       "type": "ltminigames:run_commands",
       "player": "clear @s ltminigames:plushie"
     }
+  },
+  {
+    "type": "ltminigames:apply_to_player_while",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": ["ltminigames:plushie"]
+        }
+      }
+    },
+    "apply": {
+      "type": "ltminigames:set_glowing",
+      "glowing": true
+    },
+    "clear": {
+      "type": "ltminigames:set_glowing",
+      "glowing": false
+    }
   }
 ]
