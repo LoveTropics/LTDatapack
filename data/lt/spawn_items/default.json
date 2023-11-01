@@ -7,5 +7,6 @@
       }
     }
   ],
-  "can_be_restored": true
+  "can_be_restored": true,
+  "exclude_tag": "ltminigames.isolated"
 }
