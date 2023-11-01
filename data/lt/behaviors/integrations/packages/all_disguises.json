@@ -5,7 +5,6 @@
     "name": "ltminigames.minigame.donation.tapir_party",
     "description": "ltminigames.minigame.donation.tapir_party",
     "toast": "ltminigames.minigame.donation.tapir_party.toast",
-    "icon": "tropicraft:tapir_spawn_egg",
     "entity": {
       "type": "tropicraft:tapir"
     }
@@ -17,7 +16,6 @@
     "name": "ltminigames.minigame.donation.driftwood_dazzle",
     "description": "ltminigames.minigame.donation.driftwood_dazzle",
     "toast": "ltminigames.minigame.donation.driftwood_dazzle.toast",
-    "icon": "minecraft:oak_log",
     "entity": {
       "type": "ltminigames:driftwood"
     }
@@ -29,7 +27,6 @@
     "name": "ltminigames.minigame.donation.cubera_confusion",
     "description": "ltminigames.minigame.donation.cubera_confusion",
     "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
-    "icon": "tropicraft:cubera_spawn_egg",
     "entity": {
       "type": "tropicraft:cubera"
     }
@@ -41,7 +38,6 @@
     "name": "ltminigames.minigame.donation.armor_standardization",
     "description": "ltminigames.minigame.donation.armor_standardization",
     "toast": "ltminigames.minigame.donation.armor_standardization.toast",
-    "icon": "minecraft:armor_stand",
     "entity": {
       "type": "minecraft:armor_stand",
       "tag": {
@@ -56,7 +52,6 @@
     "name": "ltminigames.minigame.donation.basilisk_lizard_party",
     "description": "ltminigames.minigame.donation.basilisk_lizard_party",
     "toast": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
-    "icon": "tropicraft:brown_basilisk_lizard_spawn_egg",
     "entity": {
       "type": "tropicraft:brown_basilisk_lizard"
     }
@@ -68,7 +63,6 @@
     "name": "ltminigames.minigame.donation.manatee_madness",
     "description": "ltminigames.minigame.donation.manatee_madness",
     "toast": "ltminigames.minigame.donation.manatee_madness.toast",
-    "icon": "tropicraft:manatee_spawn_egg",
     "entity": {
       "type": "tropicraft:manatee"
     }

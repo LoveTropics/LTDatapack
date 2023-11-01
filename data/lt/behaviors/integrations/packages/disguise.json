@@ -12,7 +12,9 @@
       "translate": "$toast",
       "color": "light_purple"
     },
-    "icon": {"item": "$icon"},
+    "icon": {
+      "item": {"id": "ltminigames:disguise", "Count": 1, "tag": {"disguise": {"entity": "$entity"}}}
+    },
     "sentiment": "neutral",
     "sound": "ltminigames:sabotage_receive"
   },
