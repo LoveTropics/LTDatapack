@@ -22,8 +22,7 @@
     "killer_predicate": {
       "equipment": {
         "mainhand": {
-          "items": ["ltminigames:plushie"],
-          "nbt": "{cash_crab:1b}"
+          "items": ["ltminigames:plushie"]
         }
       }
     },

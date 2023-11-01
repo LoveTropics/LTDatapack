@@ -99,7 +99,7 @@
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 300,
-        "max_inclusive": 400
+        "max_inclusive": 600
       }
     },
     "beacon": true,
