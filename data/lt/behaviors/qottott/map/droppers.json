@@ -4,21 +4,30 @@
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_1",
     "interval_ticks": 120,
-    "after": "start"
+    "period": {
+      "start": "start",
+      "end": "end"
+    }
   },
   {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_2",
     "interval_ticks": 80,
-    "after": "start"
+    "period": {
+      "start": "start",
+      "end": "end"
+    }
   },
   {
     "type": "ltminigames:item_dropper",
     "loot": "ltextras:tropicoin",
     "region": "coin_dispenser_level_3",
     "interval_ticks": 40,
-    "after": "start"
+    "period": {
+      "start": "start",
+      "end": "end"
+    }
   },
   {
     "type": "ltminigames:item_dropper",
@@ -93,8 +102,11 @@
         "max_inclusive": 400
       }
     },
-    "after": "start",
-    "beacon": true
+    "beacon": true,
+    "period": {
+      "start": "start",
+      "end": "end"
+    }
   },
   {
     "type": "ltminigames:item_dropper",
@@ -152,6 +164,9 @@
         "max_inclusive": 500
       }
     },
-    "after": "start"
+    "period": {
+      "start": "start",
+      "end": "end"
+    }
   }
 ]
