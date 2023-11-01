@@ -16,5 +16,12 @@
     "open_at": "start"
   },
   "lt:qottott/kits",
-  "lt:qottott/map/droppers"
+  {
+    "type": "ltminigames:only_pick_in_period",
+    "period": {
+      "start": "start",
+      "end": "end"
+    },
+    "behavior": "lt:qottott/map/droppers"
+  }
 ]

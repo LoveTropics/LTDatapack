@@ -1,5 +1,12 @@
-[
-  "lt:qottott/items/coin",
-  "lt:qottott/items/power_ups",
-  "lt:qottott/items/cash_crab"
-]
+{
+  "type": "ltminigames:only_tick_in_period",
+  "period": {
+    "start": "start",
+    "end": "end"
+  },
+  "behavior": [
+    "lt:qottott/items/coin",
+    "lt:qottott/items/power_ups",
+    "lt:qottott/items/cash_crab"
+  ]
+}

@@ -9,11 +9,7 @@
       }
     },
     "region": "coin_dispenser_level_1",
-    "interval_ticks": 120,
-    "period": {
-      "start": "start",
-      "end": "end"
-    }
+    "interval_ticks": 120
   },
   {
     "type": "ltminigames:item_dropper",
@@ -25,11 +21,7 @@
       }
     },
     "region": "coin_dispenser_level_2",
-    "interval_ticks": 80,
-    "period": {
-      "start": "start",
-      "end": "end"
-    }
+    "interval_ticks": 80
   },
   {
     "type": "ltminigames:item_dropper",
@@ -41,11 +33,7 @@
       }
     },
     "region": "coin_dispenser_level_3",
-    "interval_ticks": 40,
-    "period": {
-      "start": "start",
-      "end": "end"
-    }
+    "interval_ticks": 40
   },
   {
     "type": "ltminigames:item_dropper",
@@ -120,11 +108,7 @@
         "max_inclusive": 600
       }
     },
-    "beacon": true,
-    "period": {
-      "start": "start",
-      "end": "end"
-    }
+    "beacon": true
   },
   {
     "type": "ltminigames:item_dropper",
@@ -181,10 +165,6 @@
         "min_inclusive": 400,
         "max_inclusive": 600
       }
-    },
-    "period": {
-      "start": "start",
-      "end": "end"
     }
   }
 ]
