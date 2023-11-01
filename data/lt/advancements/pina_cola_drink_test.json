@@ -12,6 +12,6 @@
       }
     },
     "rewards": {
-        "function": "lt:utility/to_the_tropics"
+        "function": "lt:utility/spawn_island/to_the_tropics"
     }
   }
