@@ -57,11 +57,12 @@
           ]
         }
       },
-      "entity_count_per_player": 7,
+      "entity_count_per_player": 12,
       "spawn_distance_min": 10,
       "spawn_distance_max": 20,
       "spawn_range_y": 10,
-      "spawn_try_rate": 10
+      "spawn_try_rate": 10,
+      "max_entity_count": 150
     }
   ]
 }
