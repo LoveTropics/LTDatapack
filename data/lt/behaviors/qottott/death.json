@@ -3,10 +3,6 @@
     "type": "ltminigames:on_death",
     "actions": [
       {
-        "type": "ltminigames:play_sound",
-        "sound": "entity.experience_orb.pickup"
-      },
-      {
         "type": "ltminigames:spawn_particles_around_player",
         "particles": [
           {"type": "glow"},
@@ -20,23 +16,16 @@
   },
   {
     "type": "ltminigames:on_death",
-    "killer_predicate": {
-      "equipment": {
-        "mainhand": {
-          "items": ["ltminigames:plushie"]
-        }
-      }
-    },
+    "on_killer": true,
     "actions": [
       {
-        "type": "ltminigames:show_title",
-        "title": "ltminigames.minigame.qottott.cash_crab.title",
-        "subtitle": "ltminigames.minigame.qottott.cash_crab.subtitle",
-        "stay": 40
+        "type": "ltminigames:give_points",
+        "statistic": "points",
+        "count": 1
       },
       {
-        "type": "ltminigames:run_commands",
-        "player": "clear @s ltminigames:plushie"
+        "type": "ltminigames:play_sound",
+        "sound": "entity.experience_orb.pickup"
       }
     ]
   }
