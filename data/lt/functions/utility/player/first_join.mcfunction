@@ -2,6 +2,8 @@ tag @s add utility.player.joined
 execute in tropicraft:tropics run tp @s 2335 131 2403 -90 0
 execute in tropicraft:tropics run spawnpoint @s 2335 131 2403
 
+scoreboard players reset @s spawn_island.time
+
 effect clear @s
 execute as @s at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 1 1.5
 # LT23 join functions:
