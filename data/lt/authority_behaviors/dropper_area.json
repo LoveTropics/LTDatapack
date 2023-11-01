@@ -1,4 +1,4 @@
 {
-  "enter_commands": ["tag @s add in.dropper"],
-  "exit_commands": ["tag @s remove in.dropper"]
+  "enter_commands": ["tag @s add in.dropper", "team join dropper @s"],
+  "exit_commands": ["tag @s remove in.dropper", "team remove dropper @s"]
 }
