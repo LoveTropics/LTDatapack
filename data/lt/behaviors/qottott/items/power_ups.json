@@ -33,5 +33,10 @@
     "effect": "minecraft:absorption",
     "subtitle": {"translate": "ltminigames.minigame.qottott.health_power_up.subtitle", "color": "red"},
     "seconds": 20
+  },
+  {
+    "type": "ltminigames:power_up_indicator",
+    "effect": "ltminigames:coin_multiplier_power_up",
+    "text": "ltminigames.minigame.qottott.power_up.generic"
   }
 ]
