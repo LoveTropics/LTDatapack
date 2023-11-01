@@ -32,6 +32,8 @@
     "lt.golf.display.tele.part_2": "\n If your Crab touches Concrete Powder \n it will teleport to the Concrete of the same color",
     "lt.golf.course_unlocked": "§4🦀 §2New Crab Golf course unlocked!",
     
+    "lt.utility.introduce_island.message": "You awaken on a lonely, deserted island to the gentle lapping of waves. Your throat is parched, and you could really use a drink.",
+
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
     
@@ -49,6 +51,11 @@
     "ltmenu.connect": "Connect to Love Tropics",
     "ltmenu.donate": "Donate to Sustainable Harvest",
 
+    "lt.utility.first_join.title": "",
+    "lt.utility.first_join.subtitle.1": "Love Tropics",
+    "lt.utility.first_join.subtitle.2": "Sustainable Harvest",
+    "lt.utility.first_join.message.1": "Welcome to the Love Tropics Server!",
+    "lt.utility.first_join.message.2": "Sustainable Harvest International",
 
     "lt.collectible.unicode.milestone": "",
     "lt.collectible.unicode.purchased": "",
@@ -62,6 +69,7 @@
     "lt.collectible.generic.modifiers.infinite": "Infinite",
     "lt.collectible.generic.modifiers.reusable": "Reusable",
     "lt.collectible.generic.modifiers.on_interact": "On Interact:",
+    "lt.collectible.generic.modifiers.when_consumed": "When Consumed:",
     "lt.collectible.generic.modifiers.hold_both_hands": "When in Off or Main Hand:",
     "lt.collectible.tropical_map.tooltip.add_map": " + Map",
     "lt.collectible.tropical_map.tooltip.subtract_screen": " - Screen Space",
@@ -82,7 +90,7 @@
     "lt.collectible.player_clone.tooltip.add_horror": " + Man-made Horror Beyond Comprehension",
     "lt.collectible.player_clone.tooltip.add": "%s Clone",
     "lt.collectible.baby_zombie.name": "Baby Zombie",
-    "lt.collectible.baby_zombie.description": "A baby zombie. It's a baby. And a zombie.",
+    "lt.collectible.baby_zombie.description": "THE baby zombie. Yes, the one your thinking of.",
     "lt.collectible.moon_boots.name": "Moon Boots",
     "lt.collectible.moon_boots.description": "It's like the moon ... on your feet!",
     "lt.collectible.moon_boots.tooltip.subtract_gravity": " - Gravity",
@@ -113,6 +121,9 @@
     "lt.collectible.sliced_lime.name": "Sliced Lime",
     "lt.collectible.sliced_lime.description": "If only there was a joke here ...",
     "lt.collectible.slender_harvest_mouse.description": "The cutest little mouse around",
+    "lt.collectible.refreshing_pina_colada.name": "Refreshing Piña Colada",
+    "lt.collectible.refreshing_pina_colada.description": "With glistening condensation and a delectable aroma.",
+    "lt.collectible.refreshing_pina_colada.tooltip.???": " + Quenched Thirst",
 
     "lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
     "lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
