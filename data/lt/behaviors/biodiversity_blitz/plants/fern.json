@@ -1,20 +1,20 @@
 [
   {
     "type": "ltminigames:biodiversity_blitz_plant_item",
-    "id": "iris",
-    "places": "iris",
+    "id": "fern",
+    "places": "fern",
     "item": {
-      "id": "tropicraft:iris",
+      "id": "minecraft:fern",
       "Count": 1,
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Applies a glowing effect mobs to all nearby mobs.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Greatly slows down mobs walking through it.\",\"color\":\"aqua\"}",
             "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
-            "{\"text\": \"Gives all nearby mobs on the field the glowing effect.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Useful for detecting where the mobs are when hidden behind trees.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"text\": \"When mobs walk through ferns, they will get the slowness effect.\",\"color\": \"gold\",\"italic\": true}",
+            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
@@ -23,32 +23,32 @@
 
   {
     "type": "ltminigames:biodiversity_blitz_plant",
-    "id": "iris",
+    "id": "fern",
     "family": "plant",
-    "value": 0.1,
+    "value": 0.05,
     "behaviors": [
       {
-        "type": "ltminigames:place_double_plant",
-        "block": "tropicraft:iris"
+        "type": "ltminigames:place_single_plant",
+        "block": "minecraft:fern"
       },
       {
         "type": "ltminigames:drop_plant_item",
-        "plant": "iris"
+        "plant": "fern"
       },
       {
         "type": "ltminigames:effect_adding_plant",
         "effect": {
-          "type": "minecraft:glowing",
-          "seconds": 1,
-          "amplifier": 1,
+          "type": "minecraft:slowness",
+          "seconds": 0.5,
+          "amplifier": 2,
           "particles": true,
           "show_icon": false
         },
-        "radius": 8.0
+        "radius": 0.0
       },
       {
         "type": "ltminigames:plant_health",
-        "health": 32,
+        "health": 12,
         "not_pathfindable": true
       }
     ]

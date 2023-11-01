@@ -6,7 +6,7 @@
     "name": {"translate": "ltminigames.minigame.biodiversity_blitz.mob_shop"},
     "offers": [
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": {
 	  "id": "minecraft:rotten_flesh",
 	  "Count": 1,
@@ -23,7 +23,7 @@
 	}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 30},
+        "input": {"id": "ltminigames:osa_point", "Count": 32},
 	"output": {
 	  "id": "minecraft:bone",
 	  "Count": 1,
@@ -40,7 +40,7 @@
 	}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 30},
+        "input": {"id": "ltminigames:osa_point", "Count": 48},
 	"output": {
 	  "id": "minecraft:gunpowder",
 	  "Count": 1,

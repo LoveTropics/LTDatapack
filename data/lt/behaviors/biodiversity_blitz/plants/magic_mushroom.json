@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:biodiversity_blitz_plant_item",
+    "id": "magic_mushroom",
+    "places": "magic_mushroom",
+    "item": {
+      "id": "tropicraft:magic_mushroom",
+      "Count": 1,
+      "tag": {
+        "display": {
+          "Lore": [
+            "{\"text\": \"Creates extra points when mobs die near it.\",\"color\": \"aqua\"}",
+            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:biodiversity_blitz_plant",
+    "id": "magic_mushroom",
+    "family": "plant",
+    "value": 0.2,
+    "behaviors": [
+      {
+        "type": "ltminigames:place_single_plant",
+        "block": "tropicraft:magic_mushroom"
+      },
+      {
+        "type": "ltminigames:drop_plant_item",
+        "plant": "magic_mushroom"
+      },
+      {
+        "type": "ltminigames:mushroom_plant",
+        "id": "magic_mushroom"
+      },
+      {
+        "type": "ltminigames:plant_health",
+        "health": 32,
+        "not_pathfindable": true
+      }
+    ]
+  }
+]

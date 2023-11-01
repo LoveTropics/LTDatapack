@@ -95,10 +95,10 @@
     },
     {
       "type": "ltminigames:biodiversity_blitz_currency",
-      "initial_currency": 32,
+      "initial_currency": 16,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 1.5,
+        "base": 1.2,
         "bound": 20.5,
         "diversity_factor": 0.33
       },
