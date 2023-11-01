@@ -5,7 +5,8 @@
       "#lt:collectibles/items",
       "#lt:collectibles/hat",
       "#lt:collectibles/team_cents",
-      "#lt:collectibles/team_no_cents"
+      "#lt:collectibles/team_no_cents",
+      "#lt:collectibles/masks"
     ]
 }
   
