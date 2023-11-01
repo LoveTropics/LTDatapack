@@ -1,2 +1,2 @@
 execute as @e[tag=in.dropper] at @s in tropicraft:tropics if block ~ ~-1 ~ create:railway_casing run tp @s @e[tag=dropper.fail,limit=1]
-execute as @e[tag=dropper.fail,limit=1] at @s if block 2578 127 2801 minecraft:oak_button[powered=true] run function lt:game/dropper/timer/3
+execute as @e[tag=dropper.fail,tag=!running,limit=1] at @s if block 2578 127 2801 minecraft:oak_button[powered=true] run function lt:game/dropper/timer/3
