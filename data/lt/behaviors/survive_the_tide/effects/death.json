@@ -10,11 +10,12 @@
       {
         "type": "ltminigames:spawn_particles_around_player",
         "particles": [
-          { "type": "totem_of_undying" },
-          { "type": "electric_spark" }
+          {"type": "glow"},
+          {"type": "firework"}
         ],
         "count": 15,
-        "repeat": 3
+        "repeat": 5,
+        "radius": 0.3
       }
     ]
   },
