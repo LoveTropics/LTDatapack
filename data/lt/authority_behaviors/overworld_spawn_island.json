@@ -1,0 +1,5 @@
+{
+    "enter_commands": ["function lt:utility/spawn_island/enter"],
+    "exit_commands": ["function lt:utility/spawn_island/exit"]
+  }
+  
