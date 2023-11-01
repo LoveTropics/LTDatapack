@@ -158,7 +158,9 @@
       "type": "ltminigames:bb_in_game_scoreboard",
       "start": [9.3, 150.0, -18.0],
       "end": [9.3, 146.0, -24.0],
-      "side": true
+      "side": true,
+      "left_team": "blue",
+      "right_team": "red"
     }
   ]
 }
