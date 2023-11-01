@@ -13,7 +13,7 @@
       ],
       "statistic_binding": {
         "statistic": "points",
-        "multiplier": 0.25
+        "multiplier": 0.1
       }
     }
   }
