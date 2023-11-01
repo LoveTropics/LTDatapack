@@ -119,7 +119,7 @@
           "entity": {
             "type": "tropicraft:fiddler_crab"
           },
-          "size": 1.8,
+          "size": 2.2,
           "display": {
             "Name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
             "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.lore\",\"color\":\"blue\"}"]
@@ -160,8 +160,8 @@
     "interval_ticks": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 300,
-        "max_inclusive": 500
+        "min_inclusive": 400,
+        "max_inclusive": 600
       }
     },
     "period": {

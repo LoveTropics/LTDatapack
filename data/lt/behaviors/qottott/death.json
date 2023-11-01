@@ -27,11 +27,17 @@
         }
       }
     },
-    "actions": {
-      "type": "ltminigames:show_title",
-      "title": "ltminigames.minigame.qottott.cash_crab.title",
-      "subtitle": "ltminigames.minigame.qottott.cash_crab.subtitle",
-      "stay": 40
-    }
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": "ltminigames.minigame.qottott.cash_crab.title",
+        "subtitle": "ltminigames.minigame.qottott.cash_crab.subtitle",
+        "stay": 40
+      },
+      {
+        "type": "ltminigames:run_commands",
+        "player": "clear @s ltminigames:plushie"
+      }
+    ]
   }
 ]
