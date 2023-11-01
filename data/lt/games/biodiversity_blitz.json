@@ -1,5 +1,5 @@
 {
-  "name": {"translate": "ltminigames.minigame.biodiversity_blitz"},
+  "name": {"translate": "ltminigames.minigame.biodiversity_blitz_teams"},
   "statistics_key": "biodiversity_blitz",
   "minimum_participants": 1,
   "maximum_participants": 32,
@@ -13,18 +13,24 @@
       {
         "type": "lt:common/waiting",
         "regions": {"spawn": "spawn"}
-      }
+      },
+      "lt:teams/red_blue"
     ]
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:biodiversity_blitz"
+    "load_from": "lt:biobash_new"
   },
   "behaviors": [
     {
       "type": "lt:common/playing",
       "game_type": "survival",
       "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:team_chat",
+      "chat_type": "lt:team_chat"
     },
     {
       "type": "ltminigames:set_game_rules",
@@ -67,16 +73,17 @@
     "lt:biodiversity_blitz/plots",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
-      "interval_seconds": 80,
-      "warn_seconds": 30,
+      "interval_seconds": 60,
+      "warn_seconds": 20,
       "difficulty_factors": {
         "easy": 0.5,
-        "normal": 1.0,
+        "normal": 1.25,
         "hard": 1.5
       },
+      "size_curve_always": true,
       "size_curve": {
-        "lower": 2.0,
-        "upper": 10.0,
+        "lower": 1.0,
+        "upper": 18.0,
         "base": 3.0,
         "scale": 1.0
       },
@@ -91,7 +98,7 @@
       "initial_currency": 32,
       "item": "ltminigames:osa_point",
       "drop_calculation": {
-        "base": 3.0,
+        "base": 1.5,
         "bound": 20.5,
         "diversity_factor": 0.33
       },
@@ -123,11 +130,12 @@
     "ltminigames:biodiversity_blitz_client_state",
     "lt:biodiversity_blitz/merchant",
     "lt:biodiversity_blitz/plant_merchant",
+    "lt:biodiversity_blitz/mob_merchant",
     "lt:biodiversity_blitz/weather",
     "lt:biodiversity_blitz/donations",
     {
       "type": "ltminigames:biodiversity_blitz_currency_win_trigger",
-      "threshold_currency": 600
+      "threshold_currency": 1000
     },
     {
       "type": "ltminigames:game_end_effects",
@@ -144,6 +152,13 @@
       }
     },
     "ltminigames:spectator_chase",
-    "lt:biodiversity_blitz/rewards"
+    "lt:biodiversity_blitz/rewards",
+    "lt:biodiversity_blitz/send_mobs",
+    {
+      "type": "ltminigames:bb_in_game_scoreboard",
+      "start": [9.3, 150.0, -18.0],
+      "end": [9.3, 146.0, -24.0],
+      "side": true
+    }
   ]
 }

@@ -6,7 +6,7 @@
       "1": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro1",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro1",
           "color": "gold",
           "italic": true
         }
@@ -14,7 +14,7 @@
       "6": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro2",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro2",
           "color": "gold",
           "italic": true
         }
@@ -22,7 +22,7 @@
       "10": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro3",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro3",
           "color": "gold",
           "italic": true
         }
@@ -36,7 +36,8 @@
               "type": "ltminigames:bb_tutorial",
               "diffusa": "commelina_diffusa",
               "grass": "grass",
-              "wheat": "wheat"
+              "wheat": "wheat",
+              "run_tutorial": false
             }
           ]
         }
@@ -44,7 +45,7 @@
       "15": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro4",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro4",
           "color": "gold",
           "italic": true
         }
@@ -52,7 +53,7 @@
       "27.5": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro5",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro5",
           "color": "gold",
           "italic": true
         }
@@ -60,7 +61,7 @@
       "40": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro6",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro6",
           "color": "gold",
           "italic": true
         }
@@ -68,7 +69,7 @@
       "50": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro7",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro7",
           "color": "gold",
           "italic": true
         }
@@ -76,7 +77,7 @@
       "55": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.biodiversity_blitz.intro8",
+          "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro8",
           "color": "green",
           "bold": true
         }
