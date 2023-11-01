@@ -59,7 +59,15 @@
               "Unbreakable": true
             }
           }
-        ]
+        ],
+        "head": {
+          "id": "minecraft:leather_helmet",
+          "Count": 1,
+          "tag": {
+            "Trim": {"material": "gold", "pattern": "wild"}
+          }
+        },
+        "color_by_team": true
       }
     },
     {
