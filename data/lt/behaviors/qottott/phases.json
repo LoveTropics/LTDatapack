@@ -30,6 +30,63 @@
           "type": "ltminigames:play_sound",
           "sound": "block.bell.use"
         }
+      ],
+      "312": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "block.note_block.bit"
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "..3",
+            "color": "yellow"
+          },
+          "stay": 40
+        }
+      ],
+      "313": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "block.note_block.bit"
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "..2",
+            "color": "gold"
+          },
+          "stay": 40
+        }
+      ],
+      "314": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "block.note_block.bit"
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "..1",
+            "color": "red"
+          },
+          "stay": 40
+        }
+      ],
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "block.note_block.bit",
+          "pitch": 1.5
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.game_over.title",
+            "color": "red"
+          },
+          "stay": 60
+        }
       ]
     }
   },
