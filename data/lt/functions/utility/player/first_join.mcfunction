@@ -2,15 +2,17 @@ tag @s add utility.player.joined
 execute in tropicraft:tropics run tp @s 2335 131 2403 -90 0
 execute in tropicraft:tropics run spawnpoint @s 2335 131 2403
 
+effect clear @s
+execute as @s at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 1 1.5
 # LT23 join functions:
 
 title @s times 15 135 15
-title @s title {"text":"Welcome to Love Tropics '23!","color":"yellow"}
-title @s subtitle [{"text":"Love Tropics","color":"#F97400"},{"text":" ❤ ","color":"red"},{"text":"Sustainable Harvest International","color":"green"}]
+title @s title {"translate":"lt.utility.first_join.title","color":"yellow"}
+title @s subtitle [{"translate":"lt.utility.first_join.subtitle.1","color":"#F97400"},{"text":" ❤ ","color":"red"},{"translate":"lt.utility.first_join.subtitle.2","color":"green"}]
 execute as @s at @s positioned 213.38 177.00 243.35 run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.5 1
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"        "},{"text":"","color":"#00718E"}]
-tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"        "},{"text":"Welcome to the Love Tropics Server!","color":"yellow"}]
-tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"        "},{"text":"Love Tropics","color":"#5ebfa1"},{"text":" ❤ ","color":"red"},{"text":"Sustainable Harvest","color":"green"}]
+tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"        "},{"translate":"lt.utility.first_join.message.1","color":"yellow"}]
+tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"        "},{"translate":"lt.utility.first_join.title","color":"#5ebfa1"},{"text":" ❤ ","color":"red"},{"translate":"lt.utility.first_join.message.2","color":"green"}]
 tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 give @s ltextras:tropicoin 10
