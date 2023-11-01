@@ -1,0 +1,33 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "leaky_pockets",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.leaky_pockets"},
+  "description": {"translate": "ltminigames.minigame.donation.leaky_pockets.description"},
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.leaky_pockets.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "ltextras:tropicoin"},
+    "sentiment": "neutral",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": {
+    "type": "ltminigames:apply_for_time",
+    "tick": {
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:leaky_pockets",
+        "statistic": "points",
+        "item": "ltextras:tropicoin",
+        "count": 1,
+        "chance": 0.15
+      }
+    },
+    "seconds": 15
+  }
+}

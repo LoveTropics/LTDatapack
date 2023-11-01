@@ -13,5 +13,8 @@
   "lt:integrations/packages/knockback",
   "lt:integrations/packages/boom",
   "lt:integrations/packages/undying",
-  "lt:integrations/packages/lightning_crossbow"
+  "lt:integrations/packages/lightning_crossbow",
+
+  "lt:qottott/donations/global_leaky_pockets",
+  "lt:qottott/donations/leaky_pockets"
 ]
