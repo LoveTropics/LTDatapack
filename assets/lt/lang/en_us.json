@@ -205,6 +205,12 @@
     "lt.game.parkour.crystal_cave.name": "Crystal Cavern",
     "lt.game.parkour.golf.name": "Obstacle Cave",
 
+    "lt.game.qottott.class.assassin.weapon_name": "Assassin's Blade",
+    "lt.game.qottott.class.brawler.weapon_name": "Brawler Baton",
+    "lt.game.qottott.class.fighter.weapon_name": "Fighter's Sword",
+    "lt.game.qottott.class.glass_cannon.weapon_name": "Glass Cannon",
+    "lt.game.qottott.class.opportunist.weapon_name": "Opportunist's Sword",
+
     "lt.team.no_cents.join": "You have joined Team No Cents!",
     "lt.team.cents.join": "You have joined Team Cents!"
 }
