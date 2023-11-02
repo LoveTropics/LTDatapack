@@ -9,7 +9,7 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip\",\"color\":\"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip\",\"color\":\"aqua\"}"
           ],
           "ShiftLore": [
             "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
