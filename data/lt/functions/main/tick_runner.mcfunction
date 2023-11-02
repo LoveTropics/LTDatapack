@@ -63,4 +63,7 @@ execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:g
 function lt:game/dropper/on_tick
 
 # Build Mode Tools
-execute as @a[tag=building,tag=!given_tools] at @s if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools
+execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools
+
+# Scavenger Hunt
+execute in tropicraft:tropics as @a[tag=!scavengerHunt01,current_world=true] run execute if data entity @s ForgeCaps.ltextras:collectibles.collectibles[].tag{title:"Clue 01"} run tag @s add scavengerHunt01
