@@ -198,6 +198,11 @@
     "lt.poi.elytra": "Elytra Course",
     "lt.poi.minigames": "Minigames",
     "lt.poi.free_build": "Free Build",
+    "lt.poi.current_build_goal": "Current Build Goal",
+    "lt.poi.build_goal_start": "Build Goal Start",
+    "lt.poi.crystal_parkour": "Crystal Parkour",
+    "lt.poi.obstacle_parkour": "Obstacle Parkour",
+    "lt.poi.stt4_easter_egg": "STT4 Easter Egg",
 
     "lt.poi.education_area": "Education Area",
     "lt.poi.finale_area": "Finale Area",
@@ -231,6 +236,9 @@
     "lt.game.parkour.general.message.parkour_course": " parkour course.",
     "lt.game.parkour.general.checkpoint_portal": "Checkpoint Portal",
     "lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
+
+    "lt.game.parkour.general.billboard.checkpoint_portal": "Checkpoint Portal",
+    "lt.game.parkour.general.billboard.return_portal": "Return Portal",
 
     "lt.game.parkour.crystal_cave.name": "Crystal Cavern",
     "lt.game.parkour.golf.name": "Obstacle Cave",
