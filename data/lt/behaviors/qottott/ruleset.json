@@ -15,6 +15,7 @@
       "mobGriefing": "false"
     }
   },
+  "ltminigames:disable_tnt_block_destruction",
   {
     "type": "ltminigames:damage_in_water",
     "interval": 2,
