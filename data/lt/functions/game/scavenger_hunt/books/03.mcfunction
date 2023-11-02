@@ -1,0 +1,1 @@
+give @s written_book{pages:['{"translate":"lt.scavenger_hunt.clue.03", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "3"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 03",author:"The Puzzle Whisperer",collectible_marker:true}

@@ -1,3 +1,0 @@
-execute unless score @s scavenger_hunt matches 0.. run scoreboard players set @s scavenger_hunt 0
-execute if score @s scavenger_hunt matches 0.. run give @s written_book{pages:['["",{"text":"___________________","color":"#BLACK"},{"text":"\\n\\n","color":"reset"},{"text":"While many come here to sit back and relax, my ocean view is where you need to come to find your new clue.\\n___________________","color":"#BLACK"}]'],title:"Clue #1",author:"The Riddle Master"}
-execute if score @s scavenger_hunt matches 0 run scoreboard players set @s scavenger_hunt 1
