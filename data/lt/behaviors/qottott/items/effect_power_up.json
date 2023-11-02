@@ -11,7 +11,7 @@
         "seconds": "$seconds",
         "amplifier": 0,
         "particles": false,
-        "show_icon": false
+        "show_icon": true
       }
     ]
   }

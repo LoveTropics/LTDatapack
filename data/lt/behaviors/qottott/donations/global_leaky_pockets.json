@@ -24,7 +24,7 @@
         "seconds": 30,
         "amplifier": 1,
         "particles": false,
-        "show_icon": false
+        "show_icon": true
       }
     ]
   }
