@@ -83,8 +83,8 @@
     "lt:biodiversity_blitz/plots",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
-      "interval_seconds": 60,
-      "warn_seconds": 20,
+      "interval_seconds": 45,
+      "warn_seconds": 10,
       "difficulty_factors": {
         "easy": 0.5,
         "normal": 1.25,

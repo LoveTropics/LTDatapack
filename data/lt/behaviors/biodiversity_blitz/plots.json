@@ -8,7 +8,7 @@
       "shop": "shop_%s",
       "plant_shop": "plant_shop_%s",
       "mob_shop": "mob_shop_%s",
-      "mob_spawns": ["mob_spawn_%s_a", "mob_spawn_%s_b"]
+      "mob_spawns": ["mob_spawn_%s_a", "mob_spawn_%s_b", "mob_spawn_%s_c", "mob_spawn_%s_d", "mob_spawn_%s_e"]
     },
     "plots": {
       "blue": { "key": "1", "forward": "north" },
