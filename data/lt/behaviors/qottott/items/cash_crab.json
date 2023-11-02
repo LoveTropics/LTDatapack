@@ -28,10 +28,11 @@
       },
       {
         "type": "ltminigames:apply_to_player",
-        "target": "participants",
+        "target": "all",
         "actions": {
           "type": "ltminigames:play_sound",
           "sound": "minecraft:block.bell.resonate",
+          "volume": 2.0,
           "pitch": 1.5
         }
       }

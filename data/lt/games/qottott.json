@@ -45,7 +45,8 @@
         "text": "☠ %message%",
         "color": "gray"
       },
-      "drop_inventory": false
+      "drop_inventory": false,
+      "respawn_action": "lt:qottott/respawn"
     }
   ]
 }
