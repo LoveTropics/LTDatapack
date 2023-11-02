@@ -1,14 +1,13 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.spleef_standard"
+    "translate": "ltminigames.minigame.spleef"
   },
   "icon": "ltminigames:textures/gui/minigames/spleef/icon.png",
 
   "statistics_key": "spleef_standard",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:spleef",
-    "dimension": "lt:spleef_standard"
+    "load_from": "lt:spleef"
   },
   "minimum_participants": 1,
   "maximum_participants": 32,
@@ -26,63 +25,58 @@
       "type": "ltminigames:position_players",
       "all": ["spawn"]
     },
-    {
-      "type": "ltminigames:events",
-      "events": {
-        "player_participate": {
-          "type": "ltminigames:run_commands",
-          "player": "function lt:game/party/spleef/player/join_competitor"
-        },
-        "player_spectate": {
-          "type": "ltminigames:run_commands",
-          "player": "function lt:game/party/spleef/player/join_spectator"
-        },
-        "player_remove": {
-          "type": "ltminigames:run_commands",
-          "player": "function lt:game/party/spleef/player/leave"
-        }
-      }
-    },
-
-    {
-      "type": "ltminigames:phase_triggers/stop",
-      "actions": {
-        "type": "ltminigames:run_commands",
-        "global": "function lt:game/party/spleef/deinit"
-      }
-    },
-    {
-      "type": "ltminigames:phase_triggers/start",
-      "actions": {
-        "type": "ltminigames:run_commands",
-        "global": "function lt:game/party/spleef/start"
-      }
-    },
-    {
-      "type": "ltminigames:phase_triggers/ready",
-      "actions": {
-        "type": "ltminigames:run_commands",
-        "global": [
-          "function lt:game/party/spleef/init",
-          "function lt:game/party/spleef/version/standard/settings"
-        ]
-      }
-    },
-
     "ltminigames:spectator_chase",
     {
-      "type": "ltminigames:bind_controls",
-      "scopes": {
-        "admins": {
-          "eliminate": {
-            "type": "ltminigames:eliminate_player"
-          }
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "doTileDrops": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true"
+      }
+    },
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "participants",
+      "actions": {
+        "15": {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "minecraft:netherite_pickaxe",
+              "Count": 1,
+              "tag": {
+                "Unbreakable": true,
+                "Enchantments":[{"id":"minecraft:efficiency","lvl":100}],
+                "CanDestroy":["minecraft:obsidian", "ltextras:delighted_obsidian"],
+                "undroppable": true
+              }
+            }
+          ]
         }
       }
     },
     {
-      "type": "lt:fixed_rewards",
-      "coins": 5
+      "type": "ltminigames:spleef",
+      "forced_progression_seconds": 18,
+      "floors": 5,
+      "floor_material": "minecraft:obsidian",
+      "floor_breaking_material": "ltextras:delighted_obsidian",
+      "flavor_text": "volcano",
+      "break_count": 6,
+      "break_interval": 40
+    },
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": false
+    },
+    {
+      "type": "ltminigames:immediate_respawn",
+      "role": "participant",
+      "respawn_as": "spectator"
     }
   ]
 }
