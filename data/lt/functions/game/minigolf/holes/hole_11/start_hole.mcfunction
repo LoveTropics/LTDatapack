@@ -13,6 +13,6 @@ execute at @e[tag=hole11Start] run tag @e[tag=golfCrab,distance=..5] add hole11C
 function lt:game/minigolf/holes/hole_11/timer
 scoreboard players add TotalHolesPlays golf.global 1
 scoreboard players add Total11Plays golf.global 1
-execute as @e[tag=hole11Blue] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.blue"}]',Tags:["hole11Text"],billboard:"center"}
-execute as @e[tag=hole11Magenta] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.magenta"}]',Tags:["hole11Text"],billboard:"center"}
-execute as @e[tag=hole11TextMarker] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":" "}]', Tags:["hole11TextChange","hole11Text"],billboard:"center"}
+execute if entity @s[tag=color.blind] as @e[tag=hole11Blue] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.blue"}]',Tags:["hole11Text"],billboard:"center"}
+execute if entity @s[tag=color.blind] as @e[tag=hole11Magenta] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":"color.minecraft.magenta"}]',Tags:["hole11Text"],billboard:"center"}
+execute if entity @s[tag=color.blind] as @e[tag=hole11TextMarker] at @s run summon minecraft:text_display ~ ~2 ~ {text:'[{"translate":" "}]', Tags:["hole11TextChange","hole11Text"],billboard:"center"}
