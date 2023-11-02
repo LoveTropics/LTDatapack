@@ -3,8 +3,8 @@ function lt:game/qottott/kit/reset_attributes
 
 # Kit Thesis (High Knockback, High Speed, No Damage, Low Health)
 
-# Chest (Color)
-item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"translate":"ltminigames.minigame.qottott.kit.brawler","color":"dark_red","italic":false}',color:8390150},HideFlags:255,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],Trim:{material:"minecraft:netherite",pattern:"minecraft:wild"}} 1
+# Chest (Color) FF7700
+item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"translate":"ltminigames.minigame.qottott.kit.brawler","color":"dark_red","italic":false}',color:16742144},HideFlags:255,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],Trim:{material:"minecraft:redstone",pattern:"minecraft:coast"}} 1
 
 # Weapon (Knockback, Damage)
 item replace entity @s weapon.mainhand with stick{display:{Name:'{"translate":"lt.game.qottott.class.brawler.weapon_name","color":"dark_red","italic":false}'},Enchantments:[{id:"minecraft:knockback",lvl:45s}]} 1
