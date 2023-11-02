@@ -27,8 +27,8 @@ scoreboard players add @e[tag=game.stt.placed_mob] game.stt.entity_track 1
 execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at @s run function lt:game/stt/entity/remove_entity
 
 # Team Selection Teleporter
-execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 1 0 0 1 ~ ~ ~0.15 0.05 0.5 0.15 0.01 1 force @a[distance=..15]
-execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 0.153 0.059 1.000 1 ~ ~ ~-0.15 0.05 0.5 0.15 0.01 1 force @a[distance=..15]
+execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 1 0 0 1 ~ ~0.75 ~0.2 0.05 0.5 0.2 0.01 1 force @a[distance=..15]
+execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 0.059 0.467 1 1 ~ ~0.75 ~-0.2 0.05 0.5 0.2 0.01 1 force @a[distance=..15]
 execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.team_selection_teleporter,distance=..0.65] run function lt:utility/to_team_selection
 
 
