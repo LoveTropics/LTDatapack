@@ -20,4 +20,4 @@ execute if entity @s[tag=hole20Player] run tag @s remove scavengerHunt_42
 execute if entity @s[tag=hole21Player] run tag @s remove scavengerHunt_42
 execute if entity @s[tag=hole22Player] run tag @s remove scavengerHunt_42
 execute if entity @s[tag=hole23Player] run tag @s remove scavengerHunt_42
-execute if entity @s[tag=hole02Player,tag=scavengerHunt_42] as @s at @s run function lt:game/scavenger_hunt/teleport
+execute if entity @s[tag=hole02Player,tag=scavengerHunt_42] as @s[tag=scavengerHunt06] at @s run function lt:game/scavenger_hunt/teleport
