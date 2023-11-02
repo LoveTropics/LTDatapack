@@ -172,6 +172,24 @@
           ]
       },
       {
+          "type": "bitmap",
+          "file": "lt:font/other/tropical_map.png",
+          "ascent": 10,
+          "height": 14,
+          "chars": [
+              "\uE043"
+          ]
+      },
+      {
+          "type": "bitmap",
+          "file": "lt:font/other/collectible_basket.png",
+          "ascent": 10,
+          "height": 14,
+          "chars": [
+              "\uE044"
+          ]
+      },
+      {
           "type": "space",
           "advances": {
               "\uE009": 1
