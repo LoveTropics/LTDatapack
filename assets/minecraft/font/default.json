@@ -137,8 +137,8 @@
     },
     {
       "type": "bitmap",
-      "file": "lt:font/other/mini_tropicoin.png",
-      "ascent": 6,
+      "file": "lt:font/other/tropicoin.png",
+      "ascent": 8,
       "height": 7,
       "chars": [
         "\uE040"
@@ -160,6 +160,24 @@
       "height": 16,
       "chars": [
         "\uE042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/other/tropicoin.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": [
+        "\uE043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/other/small_space.png",
+      "ascent": 4,
+      "height": 8,
+      "chars": [
+        "\uE044"
       ]
     }
   ]
