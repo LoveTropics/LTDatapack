@@ -44,9 +44,9 @@
       },
       {
         "type": "ltminigames:play_sound",
-        "sound": "minecraft:block.amethyst_block.break",
+        "sound": "ltminigames:coin",
         "source": "player",
-        "pitch": 2.0
+        "pitch": 1.0
       }
     ]
   }
