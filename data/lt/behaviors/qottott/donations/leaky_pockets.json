@@ -30,7 +30,7 @@
             "source": "leaky_pockets"
           }
         },
-        "chance_per_coin": 0.05,
+        "chance_per_coin": 0.02,
         "interval": 5
       }
     },
