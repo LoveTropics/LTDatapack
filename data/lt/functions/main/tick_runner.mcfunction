@@ -71,6 +71,9 @@ execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker
 
 # Spawn return items system.
 execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.return_items_portal,distance=..0.85] run function lt:utility/return_items
+# Particle for above
+execute in tropicraft:tropics positioned 2329.53 131.5 2396.50 run particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0.01 1 force @a[distance=..10]
+
 
 # Scavenger Hunt
 execute in tropicraft:tropics as @a[tag=!scavengerHunt01,current_world=true] run execute if data entity @s ForgeCaps.ltextras:collectibles.collectibles[].tag{title:"Clue 01"} run tag @s add scavengerHunt01
