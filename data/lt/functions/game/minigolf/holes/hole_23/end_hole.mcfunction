@@ -12,9 +12,9 @@ execute as @a[tag=hole23Player,tag=!hole23Timeup] at @e[tag=hole23End] run funct
 execute unless score hole23Hits golf.global > @p[tag=hole23Player,tag=!hole23Timeup] golf.23.scores run scoreboard players operation @a[tag=hole23Player] golf.23.scores = hole23Hits golf.global
 # High Score Dummy Player
 execute unless score hole23Hits golf.global > hole23HighScores golf.global run scoreboard players operation hole23HighScores golf.global = @p[tag=hole23Player,tag=!hole23Timeup] golf.23.scores
-execute unless score hole23Hits golf.global > hole23HighScores golf.global run give @s ltextras:tropicoin 1
+execute unless score hole23Hits golf.global > hole23HighScores golf.global run give @a[tag=hole23Player] ltextras:tropicoin 1
 execute unless score hole23Hits golf.global > hole23HighScores golf.global run scoreboard players add @s[tag=!hole23HighScored] golf.highscores 1
-execute unless score hole23Hits golf.global > hole23HighScores golf.global run tag @s add hole23HighScored
+execute unless score hole23Hits golf.global > hole23HighScores golf.global run tag @a[tag=hole23Player] add hole23HighScored
 execute unless score hole23Hits golf.global > hole23HighScores golf.global run data modify entity @e[tag=hole23Dummy,limit=1] ProfileID set from entity @p[tag=hole23Player,tag=!hole23Timeup] UUID
 execute unless score hole23Hits golf.global > hole23HighScores golf.global as @e[tag=hole23Dummy] run function lt:game/minigolf/holes/hole_23/dummy
 execute unless score hole23Hits golf.global > hole23HighScores golf.global at @a[tag=hole23Player,tag=!hole23Timeup] run playsound minecraft:item.goat_horn.sound.0 voice @a[tag=hole23Player,tag=!hole23Timeup]
