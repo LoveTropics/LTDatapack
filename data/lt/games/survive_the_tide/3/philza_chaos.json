@@ -43,7 +43,8 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:survive_the_tide_3"
+    "load_from": "lt:survive_the_tide_3",
+    "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
     {

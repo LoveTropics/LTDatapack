@@ -6,7 +6,8 @@
   "maximum_participants": 40,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:kottot"
+    "load_from": "lt:kottot",
+    "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
     {
