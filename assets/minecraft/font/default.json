@@ -138,7 +138,7 @@
       {
           "type": "bitmap",
           "file": "lt:font/other/mini_tropicoin.png",
-          "ascent": 8,
+          "ascent": 7,
           "height": 7,
           "chars": [
               "\uE040"
