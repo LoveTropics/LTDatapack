@@ -50,6 +50,7 @@
     "lt.info.leave": "Leave",
     "lt.info.team_cents": "Team Cents",
     "lt.info.team_no_cents": "Team No Cents",
+    "lt.info.coming_soon": "Coming Soon",
 
     "lt.info.parkour": "Parkour",
     "ltmenu.connect": "Connect to Love Tropics",
@@ -128,6 +129,8 @@
     "lt.collectible.refreshing_pina_colada.name": "Refreshing Piña Colada",
     "lt.collectible.refreshing_pina_colada.description": "With glistening condensation and a delectable aroma.",
     "lt.collectible.refreshing_pina_colada.tooltip.???": " + Quenched Thirst",
+    "lt.collectible.gegy_potato.name": "Gegy Potato",
+    "lt.collectible.tiny_potato.name": "Tiny Potato",
 
     "lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
     "lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",

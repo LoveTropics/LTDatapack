@@ -14,7 +14,9 @@
       "lt:collectible/give/hyper_dense_chorus_fruit",
       "lt:collectible/give/boots_of_big_stepping",
       "lt:collectible/give/piglin_head",
-      "lt:collectible/give/spyglass"
+      "lt:collectible/give/spyglass",
+      "lt:collectible/give/tiny_potato",
+      "lt:collectible/give/gegy_potato"
     ]
   }
   
