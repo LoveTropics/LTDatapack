@@ -13,7 +13,10 @@
     "portal_region": "portal",
     "target_region": "player_spawn",
     "point_towards_region": "coin_dispenser_level_1",
-    "open_at": "start"
+    "open_at": {
+      "start": "start",
+      "end": "end"
+    }
   },
   "lt:qottott/kits",
   {
