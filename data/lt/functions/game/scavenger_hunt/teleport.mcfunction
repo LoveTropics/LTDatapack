@@ -5,5 +5,5 @@ particle minecraft:explosion_emitter ~ ~1 ~ 0 0 0 0 1 force
 playsound minecraft:entity.player.breath voice @a[tag=!teleportHuntTemp,distance=..50] ~ ~ ~ 10 0.1
 tp @s @e[tag=scavengerHuntRoom,limit=1]
 tellraw @s {"translate": "lt.scavenger_hunt.win","color":"green"}
-tag @s remove teleportHuntTemp
-playsound minecraft:entity.player.breath voice @s ~ ~ ~ 10 0.1
+tag @s remove scavengerHunt_42
+schedule function lt:game/scavenger_hunt/sound 2t
