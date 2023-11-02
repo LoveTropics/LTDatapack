@@ -9,5 +9,10 @@ give @s ltextras:tropicoin 20
 
 # Set players checkpoint score to that of the final checkpoint, ensuring even if prior checkpoints were skipped, the player only gets 20 tropicoins for the course.
 scoreboard players operation @s parkour.checkpoint = @e[tag=game.parkour.last_checkpoint,distance=..5,limit=1] parkour.checkpoint_id
+
+#Stats
 execute if entity @s[tag=parkour.crystal_cave] run scoreboard players add CrystalCave main.stats 1
 execute if entity @s[tag=parkour.obstacle_cave] run scoreboard players add ObstacleCave main.stats 1
+
+#Unlocks
+execute if entity @s[tag=parkour.crystal_cave] run function lt:collectible/give/hat/frog
