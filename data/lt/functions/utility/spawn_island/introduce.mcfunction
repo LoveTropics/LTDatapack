@@ -1,6 +1,8 @@
 # Teleport
 execute in minecraft:overworld run tp @s 896 63 -132 -180 0
 
+scoreboard players set @s spawn_island.skip_time 1200
+
 # Feedback
 execute as @s at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 2 1
 
