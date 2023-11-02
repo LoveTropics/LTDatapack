@@ -16,8 +16,7 @@
         "type": "ltminigames:play_sound",
         "sound": "block.anvil.land",
         "source": "player",
-        "volume": 0.5,
-        "pitch": 1.5
+        "volume": 0.5
       },
       {
         "type": "ltminigames:play_sound",
