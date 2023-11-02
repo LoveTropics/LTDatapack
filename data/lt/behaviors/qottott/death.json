@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:on_death",
-    "actions": [
+    "killed_action": [
       {
         "type": "ltminigames:spawn_particles_around_player",
         "particles": [
@@ -12,12 +12,8 @@
         "repeat": 5,
         "radius": 0.3
       }
-    ]
-  },
-  {
-    "type": "ltminigames:on_death",
-    "on_killer": true,
-    "actions": [
+    ],
+    "killer_action": [
       {
         "type": "ltminigames:give_points",
         "statistic": "points",

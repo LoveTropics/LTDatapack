@@ -1,8 +1,8 @@
 [
   {
     "type": "ltminigames:on_death",
-    "actions": [
-      { "type": "ltminigames:spawn_fireworks" },
+    "killed_action": [
+      "ltminigames:spawn_fireworks",
       {
         "type": "ltminigames:play_sound",
         "sound": "entity.experience_orb.pickup"
@@ -17,11 +17,8 @@
         "repeat": 5,
         "radius": 0.3
       }
-    ]
-  },
-  {
-    "type": "ltminigames:on_kill",
-    "actions": [
+    ],
+    "killer_action": [
       {
         "type": "ltminigames:play_sound",
         "sound": "entity.experience_orb.pickup"

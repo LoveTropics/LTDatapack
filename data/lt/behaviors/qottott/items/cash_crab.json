@@ -26,24 +26,13 @@
         }
       }
     },
-    "actions": {
+    "killed_action": {
       "type": "ltminigames:show_title",
       "title": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.title"},
       "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.subtitle"},
       "stay": 80
-    }
-  },
-  {
-    "type": "ltminigames:on_death",
-    "on_killer": true,
-    "killer_predicate": {
-      "equipment": {
-        "mainhand": {
-          "items": ["ltminigames:plushie"]
-        }
-      }
     },
-    "actions": {
+    "killer_action": {
       "type": "ltminigames:run_commands",
       "player": "clear @s ltminigames:plushie"
     }
