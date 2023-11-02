@@ -15,4 +15,4 @@ execute if entity @s[tag=parkour.crystal_cave] run scoreboard players add Crysta
 execute if entity @s[tag=parkour.obstacle_cave] run scoreboard players add ObstacleCave main.stats 1
 
 #Unlocks
-execute if entity @s[tag=parkour.crystal_cave] run function lt:collectible/give/hat/frog
+execute if entity @s[tag=parkour.obstacle_cave] run function lt:collectible/give/hat/frog
