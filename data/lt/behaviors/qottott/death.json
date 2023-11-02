@@ -34,6 +34,7 @@
       },
       {
         "type": "ltminigames:show_title",
+        "title": {"translate": "ltminigames.minigame.qottott.kill.title"},
         "subtitle": {"translate": "ltminigames.minigame.qottott.kill.subtitle"}
       },
       {

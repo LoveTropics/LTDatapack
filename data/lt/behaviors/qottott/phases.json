@@ -44,19 +44,7 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "minecraft:block.glass.break"
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "minecraft:block.glass.break"
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "minecraft:block.glass.break"
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "minecraft:block.glass.break"
+          "sound": "minecraft:block.respawn_anchor.deplete"
         }
       ],
       "end": [
@@ -115,7 +103,7 @@
     "type": "ltminigames:game_end_effects",
     "podium": {
       "winner_regions": ["winner"],
-      "loser_region": "spawn"
+      "loser_region": "lobby_spawn"
     }
   }
 ]

@@ -145,7 +145,7 @@
           "entity": {
             "type": "tropicraft:fiddler_crab"
           },
-          "size": 4.9,
+          "size": 4.5,
           "display": {
             "Name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
             "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.description\",\"color\":\"blue\"}"]
