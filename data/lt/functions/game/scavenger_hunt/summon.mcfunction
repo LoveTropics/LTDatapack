@@ -1,0 +1,5 @@
+kill @e[tag=scavengerHunt]
+summon villager ~ ~2 ~ {Profession:0,CustomName:"Frank",CustomNameVisible:0,Career:1,CareerLevel:42,CanPickUpLoot:0,PersistenceRequired:1,Invulnerable:1,Offers:{Recipes:[{buy:{id:"ltextras:tropicoin",Count:16},maxUses:9999999,sell:{id:"written_book",tag:{pages:['{"translate":"lt.scavenger_hunt.clue.01", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "1"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 01",author:"The Puzzle Whisperer",collectible_marker:true},Count:1},rewardExp:false}],tag:["scavengerHunt"]},NoAI:true,Silent:true,Tags:["scavengerHunt"]}
+execute as @e[tag=scavengerHunt] run disguise as dummyplayers:dummy_player {ProfileName:"DinnerBeef",Pose:{LeftArm:[247f,-50f,-40f],RightArm:[247f,50f,40f]}}
+
+# written_book{pages:['{"translate":"lt.scavenger_hunt.clue.01", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "1"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 01",author:"The Puzzle Whisperer",collectible_marker:true}
