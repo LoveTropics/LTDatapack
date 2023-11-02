@@ -38,6 +38,12 @@
 
     "lt.utility.introduce_island.message.fix_player_alert": "An admin has reset your first-time-join data and returned you to spawn. This was likely because you were stuck in the overworld. Ask in chat or send a modmail through discord if you're not sure why this happened.",
 
+    "lt.utility.spawn.return_item_message.tropical_map": "Item Returned - You've been given a Tropical Map!",
+    "lt.utility.spawn.return_item_message.collectible_basket": "Item Returned - You've been given a Collectible Basket!",
+
+    "lt.utility.spawn.billboard.step_here": "Step Here",
+    "lt.utility.spawn.billboard.missing_these": "Missing these?",
+
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
     
