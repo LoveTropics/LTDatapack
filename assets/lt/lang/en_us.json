@@ -57,6 +57,11 @@
     "lt.info.team_cents": "Team Cents",
     "lt.info.team_no_cents": "Team No Cents",
     "lt.info.coming_soon": "Coming Soon",
+    "lt.info.money_team_explanation.1": "Walk into a portal to join a team!",
+    "lt.info.money_team_explanation.2": "Your choice is permanent.",
+    "lt.info.money_team_explanation.3": "Both teams comes with unique cosmetics.",
+    "lt.info.money_team_explanation.4": "Which side are you on?",
+    "lt.info.team_selection": "⏷ Team Selection Teleporter ⏷",
 
     "lt.info.parkour": "Parkour",
     "ltmenu.connect": "Connect to Love Tropics",
