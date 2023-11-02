@@ -9,8 +9,8 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Creates extra points when mobs die near it.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.magic_mushroom.tooltip\",\"color\": \"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

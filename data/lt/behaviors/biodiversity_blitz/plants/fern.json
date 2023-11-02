@@ -9,12 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Greatly slows down mobs walking through it.\",\"color\":\"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.fern.tooltip\",\"color\":\"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
-            "{\"text\": \"When mobs walk through ferns, they will get the slowness effect.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.fern.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.fern.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

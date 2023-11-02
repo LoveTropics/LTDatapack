@@ -9,12 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Explodes when monsters come too close.\",\"color\": \"aqua\"}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip\",\"color\":\"aqua\"}"
           ],
           "ShiftLore": [
-            "{\"text\": \"When mobs walk close to the melon, the melon explodes.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"This explosion does not affect plants or the player: only mobs.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Melons do not contribute towards your biodiversity score.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

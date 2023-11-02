@@ -9,12 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"A staple crop for many.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.staple\",\"color\": \"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
-            "{\"text\": \"Grows into a wheat crop after a few growth cycles.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Can be traded at the Shop for bread or points.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.wheat.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.wheat.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

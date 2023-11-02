@@ -10,7 +10,7 @@
         "display": {
           "Lore": [
             "{\"text\": \"Grows into a tall mangrove.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

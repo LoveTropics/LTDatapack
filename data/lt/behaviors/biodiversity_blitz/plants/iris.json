@@ -9,12 +9,12 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Applies a glowing effect mobs to all nearby mobs.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.iris.tooltip\",\"color\":\"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
-            "{\"text\": \"Gives all nearby mobs on the field the glowing effect.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Useful for detecting where the mobs are when hidden behind trees.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.iris.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.iris.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

@@ -9,9 +9,9 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Shoots lightning at mobs and sets them on fire.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Charges creepers.\",\"color\": \"red\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip1\",\"color\": \"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip2\",\"color\": \"red\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ]
         }
       }

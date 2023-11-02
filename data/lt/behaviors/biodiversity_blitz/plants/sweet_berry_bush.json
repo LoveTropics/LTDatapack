@@ -9,13 +9,13 @@
       "tag": {
         "display": {
           "Lore": [
-            "{\"text\": \"Grows into a plant that harms monsters when walked over.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip\",\"color\": \"aqua\"}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
-            "{\"text\": \"When placed, grows into a berry bush that damages mobs that walk through it.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Mobs will not target this block: They will walk right through.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Rarely, berries will grow, which can then be sold at the shop for points.\",\"color\": \"gold\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }

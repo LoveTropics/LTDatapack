@@ -10,7 +10,7 @@
         "display": {
           "Lore": [
             "{\"text\": \"Grows into a birch tree.\",\"color\": \"aqua\"}",
-            "{\"text\": \"Provides currency.\",\"color\": \"purple\",\"italic\": true}"
+            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ],
           "ShiftLore": [
             "{\"text\": \"Grows into a birch tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
