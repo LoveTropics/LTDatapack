@@ -61,12 +61,12 @@
     },
     {
       "type": "ltminigames:spleef",
-      "forced_progression_seconds": 18,
+      "forced_progression_seconds": 30,
       "floors": 5,
       "floor_material": "minecraft:obsidian",
       "floor_breaking_material": "ltextras:delighted_obsidian",
       "flavor_text": "volcano",
-      "break_count": 6,
+      "break_count": 10,
       "break_interval": 40
     },
     {
