@@ -33,6 +33,10 @@
         "count": 1
       },
       {
+        "type": "ltminigames:show_title",
+        "subtitle": {"translate": "ltminigames.minigame.qottott.kill.subtitle"}
+      },
+      {
         "type": "ltminigames:play_sound",
         "sound": "minecraft:block.note_block.chime",
         "source": "player",
