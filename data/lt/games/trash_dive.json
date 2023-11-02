@@ -54,6 +54,11 @@
       "statistic": "trash_collected"
     },
     {
+      "type": "ltminigames:place_by_statistic",
+      "statistic": "points",
+      "order": "max"
+    },
+    {
       "type": "ltminigames:display_leaderboard_on_finish",
       "statistic": "trash_collected",
       "order": "max",

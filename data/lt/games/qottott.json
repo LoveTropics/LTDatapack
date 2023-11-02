@@ -24,6 +24,11 @@
       "statistic": "points"
     },
     {
+      "type": "ltminigames:place_by_statistic",
+      "statistic": "points",
+      "order": "max"
+    },
+    {
       "type": "ltminigames:display_leaderboard_on_finish",
       "statistic": "points",
       "order": "max",
