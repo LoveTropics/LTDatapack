@@ -28,9 +28,9 @@
       "quad_size": 3,
       "max_time": 280,
       "time_decay_rounds": 10,
-      "interval": 80
+      "interval": 80,
+      "knockback_after_round": 3
     },
-    "ltminigames:disable_hunger",
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
@@ -42,40 +42,12 @@
         "doImmediateRespawn": "true"
       }
     },
-    {
-      "type": "ltminigames:cancel_player_damage",
-      "knockback": false
-    },
+    "ltminigames:disable_hunger",
     "ltminigames:spectator_chase",
-    {
-      "type": "ltminigames:progression",
-      "named_points": {
-        "start": 0,
-        "end": 999999999
-      },
-      "time_by_player_count": [
-        {
-          "left": 1000,
-          "point": "start"
-        },
-        {
-          "left": 999,
-          "point": "end"
-        }
-      ]
-    },
-    {
-      "type": "ltminigames:survive_the_tide_ruleset",
-      "safe_period": {
-        "start": "start",
-        "end": "end"
-      },
-      "force_drop_items_on_death": false
-    },
+    "ltminigames:disable_throwing_items",
     {
       "type": "lt:fixed_rewards",
       "coins": 5
-    },
-    "ltminigames:disable_throwing_items"
+    }
   ]
 }
