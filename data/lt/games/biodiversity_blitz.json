@@ -49,14 +49,16 @@
             "id": "minecraft:stone_sword",
             "Count": 1,
             "tag": {
-              "Unbreakable": true
+              "Unbreakable": true,
+              "undroppable": true
             }
           },
           {
             "id": "minecraft:diamond_hoe",
             "Count": 1,
             "tag": {
-              "Unbreakable": true
+              "Unbreakable": true,
+              "undroppable": true
             }
           }
         ],

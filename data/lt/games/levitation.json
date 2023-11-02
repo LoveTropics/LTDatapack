@@ -88,7 +88,8 @@
             "id": "minecraft:fishing_rod",
             "Count": 1,
             "tag": {
-              "Unbreakable": true
+              "Unbreakable": true,
+              "undroppable": true
             }
           }
         ]
