@@ -17,23 +17,15 @@
     "sound": "ltminigames:sabotage_receive"
   },
   "receive_actions": {
-    "type": "ltminigames:apply_for_time",
-    "tick": {
-      "target": "participants",
-      "actions": {
+    "type": "ltminigames:give_effect",
+    "effects": [
+      {
         "type": "ltminigames:leaky_pockets",
-        "statistic": "points",
-        "item": {
-          "id": "ltextras:tropicoin",
-          "Count": 1,
-          "tag": {
-            "source": "leaky_pockets"
-          }
-        },
-        "chance_per_coin": 0.01,
-        "interval": 5
+        "seconds": 30,
+        "amplifier": 1,
+        "particles": false,
+        "show_icon": false
       }
-    },
-    "seconds": 30
+    ]
   }
 }
