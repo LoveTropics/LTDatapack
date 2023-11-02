@@ -152,6 +152,15 @@
       "chars": [
         "\uE041"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/other/pina_colada.png",
+      "ascent": 16,  
+      "height": 16,
+      "chars": [
+        "\uE042"
+      ]
     }
   ]
 }
