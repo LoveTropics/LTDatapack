@@ -235,11 +235,25 @@
     "lt.game.parkour.crystal_cave.name": "Crystal Cavern",
     "lt.game.parkour.golf.name": "Obstacle Cave",
 
-    "lt.game.qottott.class.assassin.weapon_name": "Assassin's Blade",
     "lt.game.qottott.class.brawler.weapon_name": "Brawler Baton",
-    "lt.game.qottott.class.fighter.weapon_name": "Fighter's Sword",
-    "lt.game.qottott.class.glass_cannon.weapon_name": "Glass Cannon",
+    "lt.game.qottott.class.fighter.weapon_name": "Fighter's Axe",
     "lt.game.qottott.class.opportunist.weapon_name": "Opportunist's Sword",
+
+    "lt.game.qottott.billboard.brawler.name": "Brawler",
+    "lt.game.qottott.billboard.opportunist.name": "Opportunist",
+    "lt.game.qottott.billboard.fighter.name": "Fighter",
+
+    "lt.game.qottott.billboard.generic.health": "Health",
+    "lt.game.qottott.billboard.generic.speed": "Speed",
+    "lt.game.qottott.billboard.generic.knocback_resistance": "Knockback Res.",
+    "lt.game.qottott.billboard.generic.damage": "Damage",
+    "lt.game.qottott.billboard.generic.knockback": "Knockback",
+    "lt.game.qottott.billboard.generic.low": "Low",
+    "lt.game.qottott.billboard.generic.high": "High",
+    "lt.game.qottott.billboard.generic.none": "None",
+    "lt.game.qottott.billboard.generic.weapon": "WEAPON",
+    "lt.game.qottott.billboard.generic.stats": "STATS",
+    "lt.game.qottott.billboard.generic.interact_to_select": "Interact to Select",
 
     "lt.team.no_cents.join": "You have joined Team No Cents!",
     "lt.team.cents.join": "You have joined Team Cents!",
