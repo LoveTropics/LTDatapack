@@ -32,7 +32,11 @@
     "lt.golf.display.tele.part_2": "\n If your Crab touches Concrete Powder \n it will teleport to the Concrete of the same color",
     "lt.golf.course_unlocked": "§4🦀 §2New Crab Golf course unlocked!",
     
-    "lt.utility.introduce_island.message": "You awaken on a lonely, deserted island to the gentle lapping of waves. Your throat is parched, and you could really use a drink.",
+    "lt.utility.introduce_island.message.1": "You awaken on a lonely, deserted island to the gentle lapping of waves. Your throat is parched, and you could really use a drink.",
+    "lt.utility.introduce_island.message.2": "You've just recieved your first collectible! You can view your collectibles by interacting while holding your collectible basket. Try putting the Piña Colada in your inventory.",
+    "lt.utility.introduce_island.message.3": "Nice, you just took out your first collectible! Try drinking the Piña Colada like you would a potion.",
+
+    "lt.utility.introduce_island.message.fix_player_alert": "An admin has reset your first-time-join data and returned you to spawn. This was likely because you were stuck in the overworld. Ask in chat or send a modmail through discord if you're not sure why this happened.",
 
     "lt.milestone.milestone": "Milestone",
     "lt.milestone.unlocked_message": "'%s Disguise' Unlocked!",
