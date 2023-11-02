@@ -2,9 +2,9 @@ kill @e[tag=hostDummy]
 scoreboard objectives add global.utility dummy
 scoreboard players set count global.utility 0
 execute as @e[role=live] run scoreboard players add count global.utility 1
-execute if score count global.utility matches 1.. run tag @a[tag=temp,limit=1] add host01
-execute if score count global.utility matches 2.. run tag @a[tag=temp,tag=!host01,limit=1] add host02
-execute if score count global.utility matches 3.. run tag @a[tag=temp,tag=!host01,tag=!host03] add host03
+execute if score count global.utility matches 1.. run tag @a[role=live,limit=1] add host01
+execute if score count global.utility matches 2.. run tag @a[role=live,tag=!host01,limit=1] add host02
+execute if score count global.utility matches 3.. run tag @a[role=live,tag=!host01,tag=!host03] add host03
 execute if score count global.utility matches 1.. as @e[tag=host01Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost01", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
 execute if score count global.utility matches 2.. as @e[tag=host02Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost02", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
 execute if score count global.utility matches 3.. as @e[tag=host03Marker] at @s run summon dummyplayers:dummy_player ~ ~ ~ {Tags:["dummyHost03", "hostDummy"], Invulnerable:1b, DisabledSlots:4144959}
