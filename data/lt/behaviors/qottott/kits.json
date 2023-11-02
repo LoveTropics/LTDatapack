@@ -8,32 +8,6 @@
         "type": "minecraft:armor_stand",
         "tag": {
           "ShowArms": true,
-          "HandItems": [{"id": "minecraft:wooden_axe", "Count": 1, "tag": {"Enchantments": []}}, {}],
-          "ArmorItems": [
-            {},
-            {},
-            {
-              "id": "minecraft:leather_chestplate",
-              "Count": 1,
-              "tag": {
-                "display": {"color": 65527},
-                "Enchantments": [],
-                "Trim": {"material": "minecraft:quartz", "pattern": "minecraft:vex"}
-              }
-            },
-            {}
-          ]
-        }
-      },
-      "apply": "lt:qottott/kits/fighter"
-    },
-    {
-      "region": "kit_2b",
-      "angle": 0.0,
-      "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
           "HandItems": [{"id": "minecraft:wooden_sword", "Count": 1, "tag": {"Enchantments": []}}, {}],
           "ArmorItems": [
             {},
@@ -52,6 +26,32 @@
         }
       },
       "apply": "lt:qottott/kits/opportunist"
+    },
+    {
+      "region": "kit_2b",
+      "angle": 0.0,
+      "entity": {
+        "type": "minecraft:armor_stand",
+        "tag": {
+          "ShowArms": true,
+          "HandItems": [{"id": "minecraft:wooden_axe", "Count": 1, "tag": {"Enchantments": []}}, {}],
+          "ArmorItems": [
+            {},
+            {},
+            {
+              "id": "minecraft:leather_chestplate",
+              "Count": 1,
+              "tag": {
+                "display": {"color": 65527},
+                "Enchantments": [],
+                "Trim": {"material": "minecraft:quartz", "pattern": "minecraft:vex"}
+              }
+            },
+            {}
+          ]
+        }
+      },
+      "apply": "lt:qottott/kits/fighter"
     },
     {
       "region": "kit_3b",
