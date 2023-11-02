@@ -13,7 +13,7 @@ execute unless score hole21Hits golf.global > @p[tag=hole21Player,tag=!hole21Tim
 # High Score Dummy Player
 execute unless score hole21Hits golf.global > hole21HighScores golf.global run scoreboard players operation hole21HighScores golf.global = @p[tag=hole21Player,tag=!hole21Timeup] golf.21.scores
 execute unless score hole21Hits golf.global > hole21HighScores golf.global run give @a[tag=hole21Player] ltextras:tropicoin 1
-execute unless score hole21Hits golf.global > hole21HighScores golf.global run scoreboard players add @a[tag=!hole21HighScored] golf.highscores 1
+execute unless score hole21Hits golf.global > hole21HighScores golf.global run scoreboard players add @a[tag=!hole21HighScored,tag=hole21Player] golf.highscores 1
 execute unless score hole21Hits golf.global > hole21HighScores golf.global run tag @a[tag=hole21Player] add hole21HighScored
 execute unless score hole21Hits golf.global > hole21HighScores golf.global run data modify entity @e[tag=hole21Dummy,limit=1] ProfileID set from entity @p[tag=hole21Player,tag=!hole21Timeup] UUID
 execute unless score hole21Hits golf.global > hole21HighScores golf.global as @e[tag=hole21Dummy] run function lt:game/minigolf/holes/hole_21/dummy
@@ -24,6 +24,8 @@ execute as @a[tag=hole21Player] run function lt:game/minigolf/core/hole_end
 execute as @a[tag=hole21Player] run function lt:game/minigolf/core/collectible
 #TropiCoins
 tag @a[tag=hole21Player] add hole21Played
+#42?
+execute as @a[tag=hole21Player] run function lt:game/minigolf/core/42
 tag @a remove hole21Player
 tag @a remove hole21Timeup
 # Sets all scores to -1 mainly for debug reasons
