@@ -1,0 +1,76 @@
+[
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "tapir_party",
+    "name": "ltminigames.minigame.donation.tapir_party",
+    "description": "ltminigames.minigame.donation.tapir_party",
+    "toast": "ltminigames.minigame.donation.tapir_party.toast",
+    "entity": {
+      "type": "tropicraft:tapir"
+    },
+    "seconds": 60
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "driftwood_dazzle",
+    "name": "ltminigames.minigame.donation.driftwood_dazzle",
+    "description": "ltminigames.minigame.donation.driftwood_dazzle",
+    "toast": "ltminigames.minigame.donation.driftwood_dazzle.toast",
+    "entity": {
+      "type": "ltminigames:driftwood"
+    },
+    "seconds": 60
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "cubera_confusion",
+    "name": "ltminigames.minigame.donation.cubera_confusion",
+    "description": "ltminigames.minigame.donation.cubera_confusion",
+    "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
+    "entity": {
+      "type": "tropicraft:cubera"
+    },
+    "seconds": 60
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "armor_standardization",
+    "name": "ltminigames.minigame.donation.armor_standardization",
+    "description": "ltminigames.minigame.donation.armor_standardization",
+    "toast": "ltminigames.minigame.donation.armor_standardization.toast",
+    "entity": {
+      "type": "minecraft:armor_stand",
+      "tag": {
+        "ShowArms": true
+      }
+    },
+    "seconds": 60
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "basilisk_lizard_party",
+    "name": "ltminigames.minigame.donation.basilisk_lizard_party",
+    "description": "ltminigames.minigame.donation.basilisk_lizard_party",
+    "toast": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
+    "entity": {
+      "type": "tropicraft:brown_basilisk_lizard"
+    },
+    "seconds": 60
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "manatee_madness",
+    "name": "ltminigames.minigame.donation.manatee_madness",
+    "description": "ltminigames.minigame.donation.manatee_madness",
+    "toast": "ltminigames.minigame.donation.manatee_madness.toast",
+    "entity": {
+      "type": "tropicraft:manatee"
+    },
+    "seconds": 60
+  }
+]

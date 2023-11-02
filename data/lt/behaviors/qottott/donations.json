@@ -1,10 +1,10 @@
 [
   {
     "type": "ltminigames:block_packages_during_phase",
-    "block_periods": [{"start": 0.0, "end": "start"}]
+    "block_periods": [{"start": 0.0, "end": "start"}, {"start": "end", "end": "close"}]
   },
 
-  "lt:integrations/packages/all_disguises",
+  "lt:integrations/packages/all_disguises_short",
   "lt:integrations/packages/big_leaps",
 
   "lt:integrations/packages/zombie_invasion",
