@@ -14,3 +14,4 @@ scoreboard players reset * utility.math5
 
 # Spawn island functionality
 scoreboard objectives add spawn_island.time dummy
+scoreboard objectives add spawn_island.skip_time dummy

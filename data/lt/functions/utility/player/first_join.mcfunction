@@ -2,6 +2,15 @@ tag @s add utility.player.joined
 execute in tropicraft:tropics run tp @s 2335 131 2403 -90 0
 execute in tropicraft:tropics run spawnpoint @s 2335 131 2403
 
+# Add every tag applied at first join
+tag @s add utility.player.introduced
+tag @s add utility.spawn_island.joined
+tag @s add utility.player.joined
+tag @s add utility.player.really_has_drink
+tag @s add utility.player.has_drink
+
+# Reset scores
+scoreboard players reset @s spawn_island.skip_time
 scoreboard players reset @s spawn_island.time
 
 effect clear @s
