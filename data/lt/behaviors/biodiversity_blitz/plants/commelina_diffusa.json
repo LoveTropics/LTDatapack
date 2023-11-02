@@ -37,7 +37,7 @@
       },
       {
         "type": "ltminigames:watery_plant",
-        "radius": 1
+        "radius": 2
       },
       {
         "type": "ltminigames:plant_health",
