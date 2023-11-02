@@ -41,5 +41,15 @@
     "source": "player",
     "volume": 1.0,
     "pitch": 2.0
+  },
+  {
+    "type": "ltminigames:give_effect",
+    "effects": [
+      {
+        "type": "ltminigames:leaky_pockets",
+        "seconds": 10,
+        "amplifier": 0
+      }
+    ]
   }
 ]
