@@ -22,10 +22,10 @@ execute if score hole13Hits golf.global > hole13HighScores golf.global at @a[tag
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole13Player] run function lt:game/minigolf/core/hole_end
 execute as @a[tag=hole13Player] run function lt:game/minigolf/core/collectible
-tag @a remove hole13Player
-tag @a remove hole13Timeup
 #TropiCoins
 tag @a[tag=hole13Player] add hole13Played
+tag @a remove hole13Player
+tag @a remove hole13Timeup
 # Sets all scores to -1 mainly for debug reasons
 scoreboard players set hole13Hits golf.global -1
 scoreboard players set hole13Timer golf.global -1
