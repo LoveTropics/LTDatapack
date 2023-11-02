@@ -1,0 +1,2 @@
+execute if entity @s[tag=hole01Played,tag=hole02Played,tag=hole03Played,tag=hole04Played,tag=hole05Played,tag=hole06Played,tag=hole07Played,tag=hole08Played,tag=hole09Played,tag=hole10Played,tag=hole11Played,tag=hole12Played,tag=hole13Played,tag=hole14Played,tag=hole15Played,tag=hole16Played,tag=hole17Played,tag=hole18Played] run function lt:collectible/give/hat/fiddler_crab
+execute if score @s golf.highscores matches 6.. run function lt:collectible/give/disguise/fiddler_crab

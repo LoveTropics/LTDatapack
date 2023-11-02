@@ -2,6 +2,7 @@
 kill @e[tag=hole03Crab]
 kill @e[tag=hole03Text]
 execute at @a[tag=hole03Player] run kill @e[type=minecraft:experience_orb,distance=..20]
+give @a[tag=hole03Player,tag=!hole03Played] ltextras:tropicoin 2
 ## Run when the player runs out of time
 title @a[tag=hole03Player,tag=hole03Timeup] actionbar [{"translate":"lt.golf.time_up","color":"red","with":[{"text":"03"}]}]
 ## Runs when the players gets into the hole ##
@@ -12,18 +13,19 @@ execute unless score hole03Hits golf.global > @p[tag=hole03Player,tag=!hole03Tim
 # High Score Dummy Player
 execute unless score hole03Hits golf.global > hole03HighScores golf.global run scoreboard players operation hole03HighScores golf.global = @p[tag=hole03Player,tag=!hole03Timeup] golf.03.scores
 execute unless score hole03Hits golf.global > hole03HighScores golf.global run give @s ltextras:tropicoin 1
-execute unless score hole03Hits golf.global > hole03HighScores golf.global run scoreboard players add @s golf.global 1
+execute unless score hole03Hits golf.global > hole03HighScores golf.global run scoreboard players add @s[tag=!hole03HighScored] golf.highscores 1
+execute unless score hole03Hits golf.global > hole03HighScores golf.global run tag @s add hole03HighScored
 execute unless score hole03Hits golf.global > hole03HighScores golf.global run data modify entity @e[tag=hole03Dummy,limit=1] ProfileID set from entity @p[tag=hole03Player,tag=!hole03Timeup] UUID
 execute unless score hole03Hits golf.global > hole03HighScores golf.global as @e[tag=hole03Dummy] run function lt:game/minigolf/holes/hole_03/dummy
 execute unless score hole03Hits golf.global > hole03HighScores golf.global at @a[tag=hole03Player,tag=!hole03Timeup] run playsound minecraft:item.goat_horn.sound.0 voice @a[tag=hole03Player,tag=!hole03Timeup]
 execute if score hole03Hits golf.global > hole03HighScores golf.global at @a[tag=hole03Player,tag=!hole03Timeup] run playsound minecraft:block.note_block.bell voice @a[tag=hole03Player,tag=!hole03Timeup]
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole03Player] run function lt:game/minigolf/core/hole_end
+execute as @a[tag=hole03Player] run function lt:game/minigolf/core/collectible
 tag @a remove hole03Player
 tag @a remove hole03Timeup
 #TropiCoins
-give @s[tag=!hole03Played] ltextras:tropicoin 2
-tag @a add hole03Played
+tag @a[tag=hole03Player] add hole03Played
 # Sets all scores to -1 mainly for debug reasons
 scoreboard players set hole03Hits golf.global -1
 scoreboard players set hole03Timer golf.global -1
