@@ -11,6 +11,8 @@ execute as @a[tag=hole13Player,tag=!hole13Timeup] at @e[tag=hole13End] run funct
 execute unless score hole13Hits golf.global > @p[tag=hole13Player,tag=!hole13Timeup] golf.13.scores run scoreboard players operation @a[tag=hole13Player] golf.13.scores = hole13Hits golf.global
 # High Score Dummy Player
 execute unless score hole13Hits golf.global > hole13HighScores golf.global run scoreboard players operation hole13HighScores golf.global = @p[tag=hole13Player,tag=!hole13Timeup] golf.13.scores
+execute unless score hole13Hits golf.global > hole13HighScores golf.global run give @s ltextras:tropicoin 1
+execute unless score hole13Hits golf.global > hole13HighScores golf.global run scoreboard players add @s golf.global 1
 execute unless score hole13Hits golf.global > hole13HighScores golf.global run data modify entity @e[tag=hole13Dummy,limit=1] ProfileID set from entity @p[tag=hole13Player,tag=!hole13Timeup] UUID
 execute unless score hole13Hits golf.global > hole13HighScores golf.global as @e[tag=hole13Dummy] run function lt:game/minigolf/holes/hole_13/dummy
 execute unless score hole13Hits golf.global > hole13HighScores golf.global at @a[tag=hole13Player,tag=!hole13Timeup] run playsound minecraft:item.goat_horn.sound.0 voice @a[tag=hole13Player,tag=!hole13Timeup]
@@ -19,6 +21,9 @@ execute if score hole13Hits golf.global > hole13HighScores golf.global at @a[tag
 execute as @a[tag=hole13Player] run function lt:game/minigolf/core/hole_end
 tag @a remove hole13Player
 tag @a remove hole13Timeup
+#TropiCoins
+give @s[tag=!hole13Played] ltextras:tropicoin 2
+tag @a add hole13Played
 # Sets all scores to -1 mainly for debug reasons
 scoreboard players set hole13Hits golf.global -1
 scoreboard players set hole13Timer golf.global -1
