@@ -221,6 +221,7 @@
     "lt.scavenger_hunt.clue": "Clue: %s\n%s",
     "lt.scavenger_hunt.spacer.start": "___________________\n\n",
     "lt.scavenger_hunt.spacer.end": "\n\n___________________",
+    "lt.scavenger_hunt.order": "§4❗ §2You must complete the scavenger hunt in order.",
     "lt.scavenger_hunt.clue.01": "%sWhile discovery awaits inside me, your journey here might even facilitate. Unseen within this lush green's serene, its hidden secrets remain to be seen%s",
     "lt.scavenger_hunt.clue.02": "%sWhile you might not be able to take the stage, your clue might lie near lava's cage%s",
     "lt.scavenger_hunt.clue.03": "%sWhile my eyes might scream for ice cream, your desires will be met on the other side.%s",
