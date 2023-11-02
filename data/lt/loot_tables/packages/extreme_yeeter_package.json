@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Teeter Yeeter\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}'},Damage:55,Enchantments:[{id:\"minecraft:knockback\",lvl:50s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Teeter Yeeter\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}'},Damage:55,Enchantments:[{id:\"minecraft:knockback\",lvl:95s}]}"
             }
           ]
         }
