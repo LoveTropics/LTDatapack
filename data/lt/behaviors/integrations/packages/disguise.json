@@ -35,6 +35,6 @@
         "entity": "$entity"
       }
     },
-    "seconds": 120
+    "seconds": "$seconds"
   }
 }
