@@ -21,9 +21,9 @@ execute unless score hole12Hits golf.global > hole12HighScores golf.global at @a
 execute if score hole12Hits golf.global > hole12HighScores golf.global at @a[tag=hole12Player,tag=!hole12Timeup] run playsound minecraft:block.note_block.bell voice @a[tag=hole12Player,tag=!hole12Timeup]
 #Resets Gamemode / Remove Putters / Remove player from game
 execute as @a[tag=hole12Player] run function lt:game/minigolf/core/hole_end
-execute as @a[tag=hole12Player] run function lt:game/minigolf/core/collectible
 #TropiCoins
 tag @a[tag=hole12Player] add hole12Played
+execute as @a[tag=hole12Player] run function lt:game/minigolf/core/collectible
 #42?
 execute as @a[tag=hole12Player] run function lt:game/minigolf/core/42
 tag @a remove hole12Player
