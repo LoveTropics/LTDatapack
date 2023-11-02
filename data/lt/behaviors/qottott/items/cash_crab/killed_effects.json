@@ -34,7 +34,7 @@
     "particles": [
       {"type": "crimson_spore"}
     ],
-    "repeat": 50,
+    "repeats": 50,
     "position": [0.0, 0.2, 0.0],
     "offset": [0.0, 0.0, 0.0]
   },
@@ -43,7 +43,7 @@
     "particles": [
       {"type": "block", "value": {"Name": "minecraft:bone_block"}}
     ],
-    "repeat": 50,
+    "repeats": 50,
     "position": [0.0, 0.9, 0.0],
     "offset": [0.15, 0.9, 0.15]
   }
