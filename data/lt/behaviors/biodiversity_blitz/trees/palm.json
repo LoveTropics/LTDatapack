@@ -72,7 +72,13 @@
       },
       {
         "type": "ltminigames:grow_plant",
-        "time": 300,
+        "time": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 300,
+            "max_inclusive": 400
+          }
+        },
         "grow_into": "palm_tree"
       },
       {
