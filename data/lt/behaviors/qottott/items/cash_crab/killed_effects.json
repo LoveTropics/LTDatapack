@@ -1,0 +1,50 @@
+[
+  {
+    "type": "ltminigames:show_title",
+    "title": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.title"},
+    "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.subtitle"},
+    "stay": 80
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.sniffer.eat",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 1.5,
+    "broadcast": true
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.camel.eat",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 1.5,
+    "broadcast": true
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.donkey.eat",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 1.5,
+    "broadcast": true
+  },
+  {
+    "type": "ltminigames:spawn_particles_around_player",
+    "particles": [
+      {"type": "crimson_spore"}
+    ],
+    "repeat": 50,
+    "position": [0.0, 0.2, 0.0],
+    "offset": [0.0, 0.0, 0.0]
+  },
+  {
+    "type": "ltminigames:spawn_particles_around_player",
+    "particles": [
+      {"type": "block", "value": {"Name": "minecraft:bone_block"}}
+    ],
+    "repeat": 50,
+    "position": [0.0, 0.9, 0.0],
+    "offset": [0.15, 0.9, 0.15]
+  }
+]

@@ -7,12 +7,33 @@
     "action": [
       {
         "type": "ltminigames:play_sound",
-        "sound": "block.respawn_anchor.charge"
+        "sound": "block.respawn_anchor.charge",
+        "source": "player",
+        "pitch": 1.2
+      },
+      {
+        "type": "ltminigames:spawn_particles_around_player",
+        "particles": [
+          {"type": "scrape"}
+        ],
+        "repeat": 75,
+        "position": [0.0, 0.9, 0.0],
+        "offset": [2.0, 2.0, 2.0],
+        "speed": 0.15
       },
       {
         "type": "ltminigames:show_title",
         "title": {"translate": "ltminigames.minigame.qottott.cash_crab", "color": "gold"},
         "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.description", "color": "aqua"}
+      },
+      {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.bell.resonate",
+          "pitch": 1.5
+        }
       }
     ],
     "consume": false
@@ -26,12 +47,21 @@
         }
       }
     },
-    "killed_action": {
-      "type": "ltminigames:show_title",
-      "title": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.title"},
-      "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.killed.subtitle"},
-      "stay": 80
-    },
+    "killed_action": [
+      "lt:qottott/items/cash_crab/killed_effects",
+      {
+        "type": "ltminigames:apply_to_players_around",
+        "distance": 5.0,
+        "action": "lt:qottott/items/cash_crab/area_effects",
+        "not_predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": ["ltminigames:plushie"]
+            }
+          }
+        }
+      }
+    ],
     "killer_action": {
       "type": "ltminigames:run_commands",
       "player": "clear @s ltminigames:plushie"

@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:show_title",
+    "title": {"translate": "ltminigames.minigame.qottott.cash_crab.leaky_pockets.title"},
+    "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.leaky_pockets.subtitle"},
+    "stay": 80
+  },
+  {
+    "type": "ltminigames:spawn_particles_around_player",
+    "particles": [
+      {"type": "sonic_boom"}
+    ],
+    "repeat": 1,
+    "position": [0.0, 0.9, 0.0],
+    "offset": [0.0, 0.0, 0.0]
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.evoker_fangs.attack",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 1.5
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.sheep.shear",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:block.conduit.deactivate",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 2.0
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:block.chest.open",
+    "source": "player",
+    "volume": 1.0,
+    "pitch": 2.0
+  }
+]

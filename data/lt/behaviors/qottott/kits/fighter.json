@@ -5,7 +5,7 @@
   },
   {
     "type": "ltminigames:play_sound",
-    "sound": "entity.experience_orb.pickup"
+    "sound": "item.armor.equip_netherite"
   },
   {
     "type": "ltminigames:send_message",

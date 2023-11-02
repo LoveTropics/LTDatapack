@@ -11,6 +11,19 @@
         "count": 15,
         "repeat": 5,
         "radius": 0.3
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "block.anvil.land",
+        "source": "player",
+        "volume": 0.5,
+        "pitch": 1.5
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.player.big_fall",
+        "source": "player",
+        "broadcast": true
       }
     ],
     "killer_action": [
@@ -21,7 +34,15 @@
       },
       {
         "type": "ltminigames:play_sound",
-        "sound": "entity.experience_orb.pickup"
+        "sound": "minecraft:block.note_block.chime",
+        "source": "player",
+        "pitch": 2.0
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.amethyst_block.break",
+        "source": "player",
+        "pitch": 2.0
       }
     ]
   }

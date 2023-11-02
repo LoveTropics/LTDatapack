@@ -8,6 +8,22 @@
     }
   },
   {
+    "type": "ltminigames:countdown_effects",
+    "target": "start",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "start_pitch": 1.25,
+    "end_pitch": 0.25
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "end",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "start_pitch": 1.25,
+    "end_pitch": 0.25
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
@@ -28,56 +44,26 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "block.bell.use"
-        }
-      ],
-      "312": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "block.note_block.bit"
+          "sound": "minecraft:block.glass.break"
         },
         {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..3",
-            "color": "yellow"
-          },
-          "stay": 40
-        }
-      ],
-      "313": [
-        {
           "type": "ltminigames:play_sound",
-          "sound": "block.note_block.bit"
+          "sound": "minecraft:block.glass.break"
         },
         {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..2",
-            "color": "gold"
-          },
-          "stay": 40
-        }
-      ],
-      "314": [
-        {
           "type": "ltminigames:play_sound",
-          "sound": "block.note_block.bit"
+          "sound": "minecraft:block.glass.break"
         },
         {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..1",
-            "color": "red"
-          },
-          "stay": 40
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.glass.break"
         }
       ],
       "end": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "block.note_block.bit",
-          "pitch": 1.5
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
         },
         {
           "type": "ltminigames:show_title",

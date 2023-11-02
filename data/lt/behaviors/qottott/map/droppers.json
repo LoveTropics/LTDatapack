@@ -9,7 +9,13 @@
       }
     },
     "region": "coin_dispenser_level_1",
-    "interval_ticks": 120
+    "interval_ticks": 120,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
   },
   {
     "type": "ltminigames:item_dropper",
@@ -21,7 +27,13 @@
       }
     },
     "region": "coin_dispenser_level_2",
-    "interval_ticks": 80
+    "interval_ticks": 80,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
   },
   {
     "type": "ltminigames:item_dropper",
@@ -33,7 +45,13 @@
       }
     },
     "region": "coin_dispenser_level_3",
-    "interval_ticks": 40
+    "interval_ticks": 40,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
   },
   {
     "type": "ltminigames:item_dropper",
@@ -108,7 +126,13 @@
         "max_inclusive": 600
       }
     },
-    "beacon": true
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
   },
   {
     "type": "ltminigames:item_dropper",

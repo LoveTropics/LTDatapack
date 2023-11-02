@@ -25,7 +25,19 @@
     },
     {
       "type": "ltminigames:play_sound",
-      "sound": "block.respawn_anchor.charge"
+      "sound": "block.respawn_anchor.charge",
+      "source": "player",
+      "pitch": 1.2
+    },
+    {
+      "type": "ltminigames:spawn_particles_around_player",
+      "particles": [
+        {"type": "scrape"}
+      ],
+      "repeat": 25,
+      "position": [0.0, 0.9, 0.0],
+      "offset": [1.0, 1.0, 1.0],
+      "speed": 0.15
     },
     {
       "type": "ltminigames:show_title",
