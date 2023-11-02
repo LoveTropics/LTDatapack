@@ -29,7 +29,7 @@ execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at 
 # Team Selection Teleporter
 execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 1 0 0 1 ~ ~ ~0.15 0.05 0.5 0.15 0.01 1 force @a[distance=..15]
 execute in tropicraft:tropics at @e[type=marker,tag=utility.team_selection_teleporter] run particle minecraft:dust 0.153 0.059 1.000 1 ~ ~ ~-0.15 0.05 0.5 0.15 0.01 1 force @a[distance=..15]
-execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.team_selection_teleporter,distance=..65] run function lt:utility/to_team_selection
+execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.team_selection_teleporter,distance=..0.65] run function lt:utility/to_team_selection
 
 
 # Change long duration strength area effect cloud created by linger potions to desired functionality
