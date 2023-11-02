@@ -35,7 +35,13 @@
   {
     "type": "ltminigames:coin_drop_attribute",
     "statistic": "points",
-    "item": "ltextras:tropicoin"
+    "item": {
+      "id": "ltextras:tropicoin",
+      "Count": 1,
+      "tag": {
+        "source": "dropper"
+      }
+    }
   },
   {
     "type": "ltminigames:set_client_state",
