@@ -1,4 +1,4 @@
-execute if score @s disguise.cloneing matches 1.. run tellraw @s {"translate":"lt.disguise.already_cloned"}
+execute if score @s disguise.cloneing matches 1.. run tellraw @s {"translate":"lt.disguise.already_cloned","color":"red"}
 data merge entity @e[tag=disguises.player.text,limit=1,sort=nearest] {text:'{"color":"#480073","text":"Ⓧ"}'}
 scoreboard players reset * disguise.cloneing
 scoreboard players set @s disguise.cloneing 1
