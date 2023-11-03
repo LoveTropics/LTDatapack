@@ -306,5 +306,8 @@
     "lt.info_center.minigame.turtle_race": "Competitive racing game while riding on the back of a sea turtle",
     "lt.info_center.minigame.survive_the_tide": "A Battle Royale set in a dystopian future ravaged by the effects of climate change. Avoid the rising tide, endure the extreme weather, and defeat the other players to survive.",
     "lt.info_center.minigame.elytra": "Test your flying skills with our challenging elytra course! The entrance is in the tall tower right above spawn",
-    "lt.minigame.survive_the_tide": "Survive the Tide"
+    "lt.minigame.survive_the_tide": "Survive the Tide",
+
+    "lt.disguise.already_cloned": "You are already cloned",
+    "lt.disguise.to_many_players": "Cloning can't work to many players nearby"
 }
