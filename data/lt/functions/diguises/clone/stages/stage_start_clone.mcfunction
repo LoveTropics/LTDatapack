@@ -10,7 +10,7 @@ scoreboard players add Clones main.stats 1
 particle minecraft:portal ~ ~ ~ 0 1 0 0.5 250
 #Todo Cry that this is hardcoded
 clone 2172 119 2615 2172 120 2615 2170 122 2615
-execute as @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] at @a[distance=..20] run particle minecraft:portal ~ ~ ~ 0 1 0 0.5 500
+execute as @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] at @s run particle minecraft:portal ~ ~ ~ 0 1 0 0.5 500
 execute as @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] at @a[distance=..20] run playsound minecraft:entity.warden.sonic_boom ambient @a[distance=..8] ~ ~ ~ 1 0.5
 playsound minecraft:entity.warden.sonic_charge ambient @a[distance=..5] ~ ~ ~ 1 0.5
 
