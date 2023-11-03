@@ -5,7 +5,7 @@
   "description": "ltminigames.minigame.donation.big_leaps",
   "toast": "ltminigames.minigame.donation.big_leaps.toast",
   "icon": "minecraft:rabbit_foot",
-  "donation_amount": 20.0,
+  "donation_amount": "$donation_amount",
   "seconds": 120,
   "attribute": {
     "type": "forge:entity_gravity",

@@ -5,15 +5,14 @@
   },
 
   "lt:qottott/donations/disguises",
-  "lt:integrations/packages/big_leaps",
+  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 8.0},
 
-  "lt:integrations/packages/zombie_invasion",
-  "lt:integrations/packages/lightning_strike",
+  {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 8.0},
 
   "lt:integrations/packages/extreme_knockback",
-  "lt:integrations/packages/boom",
-  "lt:integrations/packages/undying",
-  "lt:integrations/packages/lightning_crossbow",
+  {"type": "lt:integrations/packages/boom", "donation_amount": 8.0},
+  {"type": "lt:integrations/packages/undying", "donation_amount": 5.0},
+  {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 8.0},
 
   "lt:qottott/donations/global_leaky_pockets",
   "lt:qottott/donations/leaky_pockets"

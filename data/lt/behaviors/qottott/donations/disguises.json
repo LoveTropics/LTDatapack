@@ -8,7 +8,8 @@
     "entity": {
       "type": "tropicraft:tapir"
     },
-    "seconds": 60
+    "seconds": 60,
+    "donation_amount": 8.0
   },
 
   {
@@ -20,6 +21,7 @@
     "entity": {
       "type": "tropicraft:manatee"
     },
-    "seconds": 60
+    "seconds": 60,
+    "donation_amount": 8.0
   }
 ]

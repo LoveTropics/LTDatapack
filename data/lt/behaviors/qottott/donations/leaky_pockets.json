@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.leaky_pockets"},
   "description": {"translate": "ltminigames.minigame.donation.leaky_pockets.description"},
-  "donation_amount": 10.0,
+  "donation_amount": 8.0,
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.leaky_pockets.toast",

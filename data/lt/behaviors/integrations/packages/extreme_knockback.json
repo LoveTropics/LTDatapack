@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.knockback_package"},
   "description": {"translate": "ltminigames.minigame.donation.knockback_package.description"},
-  "donation_amount": 10.0,
+  "donation_amount": 5.0,
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.knockback_package.toast",

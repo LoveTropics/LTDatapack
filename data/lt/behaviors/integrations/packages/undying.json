@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.undying_package"},
   "description": {"translate": "ltminigames.minigame.donation.undying_package.description"},
-  "donation_amount": 40.0,
+  "donation_amount": "$donation_amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.undying_package.toast",

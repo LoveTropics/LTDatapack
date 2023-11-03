@@ -8,7 +8,8 @@
     "entity": {
       "type": "tropicraft:tapir"
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   },
 
   {
@@ -20,7 +21,8 @@
     "entity": {
       "type": "tropicraft:brown_basilisk_lizard"
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   },
 
   {
@@ -32,6 +34,7 @@
     "entity": {
       "type": "tropicraft:manatee"
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   }
 ]

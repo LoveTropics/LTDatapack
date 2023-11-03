@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.lightning_crossbow_package"},
   "description": {"translate": "ltminigames.minigame.donation.lightning_crossbow_package.description"},
-  "donation_amount": 10.0,
+  "donation_amount": "$donation_amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.lightning_crossbow_package.toast",

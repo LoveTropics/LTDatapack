@@ -8,7 +8,8 @@
     "entity": {
       "type": "tropicraft:tapir"
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   },
 
   {
@@ -20,7 +21,8 @@
     "entity": {
       "type": "tropicraft:cubera"
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   },
 
   {
@@ -35,6 +37,7 @@
         "ShowArms": true
       }
     },
-    "seconds": 120
+    "seconds": 120,
+    "donation_amount": 20.0
   }
 ]

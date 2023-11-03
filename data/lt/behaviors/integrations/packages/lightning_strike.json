@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.lightning_strike"},
   "description": {"translate": "ltminigames.minigame.donation.lightning_strike.description"},
-  "donation_amount": 20.0,
+  "donation_amount": "$donation_amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.lightning_strike.toast",

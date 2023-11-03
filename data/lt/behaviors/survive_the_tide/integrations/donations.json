@@ -10,16 +10,16 @@
   "lt:integrations/packages/hunger",
 
   "lt:integrations/packages/knockback",
-  "lt:integrations/packages/boom",
-  "lt:integrations/packages/undying",
-  "lt:integrations/packages/lightning_crossbow",
+  {"type": "lt:integrations/packages/boom", "donation_amount": 20.0},
+  {"type": "lt:integrations/packages/undying", "donation_amount": 40.0},
+  {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0},
 
   "lt:integrations/packages/random_creeper",
   "lt:integrations/packages/chosen_creeper",
 
   "lt:integrations/packages/swap_players",
 
-  "lt:integrations/packages/lightning_strike",
+  {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0},
   "lt:integrations/packages/lightning_storm",
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
@@ -29,7 +29,7 @@
   "lt:integrations/packages/puffer_package",
 
   "lt:survive_the_tide/integrations/disguises",
-  "lt:integrations/packages/big_leaps",
+  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0},
 
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",
