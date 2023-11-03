@@ -31,6 +31,9 @@
     "lt.golf.display.tele.part_1": "Teleporters!",
     "lt.golf.display.tele.part_2": "\n If your Crab touches Concrete Powder \n it will teleport to the Concrete of the same color",
     "lt.golf.course_unlocked": "§4🦀 §2New Crab Golf course unlocked!",
+
+    "lt.dropper.easier": "Your gravity has been reduced!",
+    "lt.dropper.reset": "Your gravity has been reset!",
     
     "lt.utility.introduce_island.message.1": "You awaken on a lonely, deserted island to the gentle lapping of waves. Your throat is parched, and you could really use a drink.",
     "lt.utility.introduce_island.message.2": "You've just recieved your first collectible! You can view your collectibles by interacting while holding your collectible basket. Try putting the Piña Colada in your inventory.",
