@@ -6,10 +6,6 @@
     "name": {"translate": "ltminigames.minigame.biodiversity_blitz.shop"},
     "offers": [
       {
-        "input": {"id": "tropicraft:pianguas", "Count": 1},
-        "output": {"id": "ltminigames:osa_point", "Count": 4}
-      },
-      {
         "input": {"id": "minecraft:wheat", "Count": 4},
         "output": {"id": "ltminigames:osa_point", "Count": 3}
       },
@@ -24,6 +20,14 @@
       {
         "input": {"id": "minecraft:sweet_berries", "Count": 2},
         "output": {"id": "ltminigames:osa_point", "Count": 3}
+      },
+      {
+        "input": {"id": "tropicraft:pianguas", "Count": 1},
+        "output": {"id": "ltminigames:osa_point", "Count": 4}
+      },
+      {
+        "input": {"id": "minecraft:beetroot", "Count": 2},
+        "output": {"id": "ltminigames:osa_point", "Count": 4}
       },
       {
         "input": {"id": "minecraft:wheat", "Count": 2},

@@ -38,7 +38,7 @@
       },
       {
         "type": "ltminigames:berries_plant",
-        "interval": 400
+        "interval": 300
       },
       {
         "type": "ltminigames:plant_health",
