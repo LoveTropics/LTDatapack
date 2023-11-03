@@ -245,7 +245,7 @@
     "lt.scavenger_hunt.clue.03": "%sWhilst my eyes on the green might scream for ice-cream, your desires will be met on the other side.%s",
     "lt.scavenger_hunt.clue.04": "%sWhile you look up to a tower so tall, being small can uncover all. Find the place where that answers the call%s",
     "lt.scavenger_hunt.clue.05": "%sWithin this land of blocks and sand, While many might make a lap, you should remain still, heading beneath where it all began.%s",
-    "lt.scavenger_hunt.clue.06": "%sThe answer to life, the universe, and all might be the key. But a round or two of golf can set your mind free, unlocking the secrets that were meant to be.%s",
+    "lt.scavenger_hunt.clue.06": "%sThe answer to life, the universe, and all might be the key. But a round or §o§ltwo§r of golf can set your mind free, unlocking the secrets that were meant to be.%s",
 
     "lt.game.parkour.general.message.collectibles_removed": "Parkour area entered. Blacklisted functional collectibles have been returned to your collectibles basket.",
     "lt.game.parkour.general.message.wrong_gamemode": "You entered a parkour area while in spectator. To properly play please exit the region and enter in a different gamemode.",
