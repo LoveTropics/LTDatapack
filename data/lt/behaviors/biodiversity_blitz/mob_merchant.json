@@ -33,7 +33,7 @@
           "Count": 8
         },
         "output": {
-          "id": "minecraft:arrow",
+          "id": "minecraft:iron_nugget",
           "Count": 1,
           "tag": {
             "display": {

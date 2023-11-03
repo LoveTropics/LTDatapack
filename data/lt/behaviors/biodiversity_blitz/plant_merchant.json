@@ -30,11 +30,11 @@
         "output": {"plant": "bramble"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
+        "input": {"id": "ltminigames:osa_point", "Count": 4},
         "output": {"plant": "crocosmia"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 8},
+        "input": {"id": "ltminigames:osa_point", "Count": 6},
         "output": {"plant": "commelina_diffusa"}
       },
       {
@@ -55,15 +55,15 @@
       },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "output": {"plant": "bromeliad"}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": {"plant": "magic_mushroom"}
       },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 32},
         "output": {"plant": "pumpkin"}
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
-        "output": {"plant": "bromeliad"}
       },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 32},

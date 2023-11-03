@@ -43,10 +43,6 @@
       },
       {
         "input": {"id": "ltminigames:osa_point", "Count": 24},
-        "output": "minecraft:iron_axe"
-      },
-      {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
         "output": "minecraft:bow"
       },
       {
@@ -54,7 +50,7 @@
         "output": {"id": "minecraft:arrow", "Count": 4}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "input": {"id": "ltminigames:osa_point", "Count": 10},
         "output": {"id": "ltminigames:acid_repellent_umbrella", "Count": 1}
       },
 
