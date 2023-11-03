@@ -50,7 +50,8 @@
     "entity": {
       "type": "dummyplayers:dummy_player",
       "tag": {
-      }
+      },
+      "apply_donor_name": true
     },
     "seconds": 120,
     "donation_amount": 30.0
