@@ -255,7 +255,7 @@
     "lt.events.world_effect.mouse_party": "Awwww, these Slender Harvest Mice are so cute!",
     "lt.events.parrot_party.started": "The Parrot party has started!",
     "lt.events.parrot_party.stopped": "The Parrot party has ended.",
-
+    
     "lt.scavenger_hunt.clue": "Clue: %s\n%s",
     "lt.scavenger_hunt.spacer.start": "___________________\n\n",
     "lt.scavenger_hunt.spacer.end": "\n\n___________________",
@@ -328,6 +328,7 @@
     "lt.info_center.minigame.turtle_race": "Competitive racing game while riding on the back of a sea turtle",
     "lt.info_center.minigame.survive_the_tide": "A Battle Royale set in a dystopian future ravaged by the effects of climate change. Avoid the rising tide, endure the extreme weather, and defeat the other players to survive.",
     "lt.info_center.minigame.elytra": "Test your flying skills with our challenging elytra course! The entrance is in the tall tower right above spawn",
+    "lt.info.exit": "Exit",
     "lt.minigame.survive_the_tide": "Survive the Tide",
     "lt.info.click_more_info": "Right Click Signs\n for More Info",
 
