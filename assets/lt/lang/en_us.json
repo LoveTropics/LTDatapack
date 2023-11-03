@@ -148,6 +148,7 @@
     "lt.collectible.refreshing_pina_colada.tooltip.???": " + Quenched Thirst",
     "lt.collectible.gegy_potato.name": "Gegy Potato",
     "lt.collectible.tiny_potato.name": "Tiny Potato",
+    "lt.collectible.yellow_scuba_harness.tooltip.add_air": " + Breathe Underwater",
 
     "lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
     "lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
