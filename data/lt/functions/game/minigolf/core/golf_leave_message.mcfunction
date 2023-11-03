@@ -1,1 +1,1 @@
-title @s actionbar [{"text":"lt.golf.leave_game","color":"red"}]
+title @s actionbar [{"translate":"lt.golf.leave_game","color":"red"}]
