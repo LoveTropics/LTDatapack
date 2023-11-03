@@ -86,7 +86,6 @@ function lt:diguises/clone/stages/stage_reset
 scoreboard objectives add events.mouse_party dummy
 scoreboard objectives add events.parrot_party dummy
 #Reset Parties
-schedule clear lt:events/in_game/mouse_party/end_party
 function lt:events/in_game/parrot_party/end_party
 
 # Collectible Mechanic Scoreboards

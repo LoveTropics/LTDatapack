@@ -1,0 +1,1 @@
+scoreboard players set Cooldown events.parrot_party 0
