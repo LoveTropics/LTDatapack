@@ -1,8 +1,11 @@
 [
   {
     "type": "lt:integrations/packages/swap_players",
-    "distance_threshold": 48.0
+    "distance_threshold": 48.0,
+    "donation_amount": 15.0
   },
+
+  {"type": "lt:integrations/packages/everything", "donation_amount": 100.0},
 
   "lt:integrations/packages/hunger",
   "lt:integrations/packages/helpful_effects",

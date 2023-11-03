@@ -6,6 +6,8 @@
     "block_periods": [{"start": "start", "end": "pvp_enabled"}]
   },
 
+  {"type": "lt:integrations/packages/everything", "donation_amount":  200.0},
+
   "lt:integrations/packages/slowness",
   "lt:integrations/packages/hunger",
 
@@ -17,7 +19,7 @@
   "lt:integrations/packages/random_creeper",
   "lt:integrations/packages/chosen_creeper",
 
-  "lt:integrations/packages/swap_players",
+  {"type": "lt:integrations/packages/swap_players", "donation_amount": 20.0},
 
   {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0},
   "lt:integrations/packages/lightning_storm",

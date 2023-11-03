@@ -6,7 +6,7 @@
   "player_select": "all",
   "name": {"translate": "ltminigames.minigame.donation.swap"},
   "description": {"translate": "ltminigames.minigame.donation.swap.description"},
-  "donation_amount": 20.0,
+  "donation_amount": "$donation_amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.swap.toast",

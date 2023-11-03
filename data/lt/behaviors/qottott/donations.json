@@ -4,6 +4,8 @@
     "block_periods": [{"start": 0.0, "end": "start"}, {"start": "end", "end": "close"}]
   },
 
+  {"type": "lt:integrations/packages/everything", "donation_amount": 100.0},
+
   "lt:qottott/donations/disguises",
   {"type": "lt:integrations/packages/big_leaps", "donation_amount": 8.0},
 
