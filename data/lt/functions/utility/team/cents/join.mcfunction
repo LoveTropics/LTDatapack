@@ -1,3 +1,4 @@
+execute if entity @s[tag=team.joined] run return 1
 tag @s add team.cents
 tag @s add team.joined
 tellraw @s {"translate":"lt.team.cents.join"}
