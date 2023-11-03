@@ -1,21 +1,16 @@
 [
   {
     "type": "ltminigames:biodiversity_blitz_plant_item",
-    "id": "sweet_berries",
-    "places": "sweet_berry_bush",
+    "id": "bramble",
+    "places": "bramble",
     "item": {
-      "id": "ltminigames:sweet_berry_seeds",
+      "id": "ltminigames:bramble",
       "Count": 1,
       "tag": {
         "display": {
           "Lore": [
             "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip\",\"color\": \"aqua\"}",
             "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
           ]
         }
       }
@@ -24,21 +19,17 @@
 
   {
     "type": "ltminigames:biodiversity_blitz_plant",
-    "id": "sweet_berry_bush",
+    "id": "bramble",
     "family": "plant",
     "value": 0.05,
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
-        "block": "minecraft:sweet_berry_bush"
+        "block": "ltminigames:bramble"
       },
       {
         "type": "ltminigames:drop_plant_item",
-        "plant": "sweet_berries"
-      },
-      {
-        "type": "ltminigames:berries_plant",
-        "interval": 400
+        "plant": "bramble"
       },
       {
         "type": "ltminigames:plant_health",

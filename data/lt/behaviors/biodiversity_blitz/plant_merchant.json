@@ -26,7 +26,11 @@
         "output": {"plant": "fern"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 4},
+        "input": {"id": "ltminigames:osa_point", "Count": 3},
+        "output": {"plant": "bramble"}
+      },
+      {
+        "input": {"id": "ltminigames:osa_point", "Count": 16},
         "output": {"plant": "sweet_berries"}
       },
       {
