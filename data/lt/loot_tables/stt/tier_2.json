@@ -55,13 +55,13 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:baked_potato",
+                    "name": "minecraft:bread",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 3,
-                                "max": 7
+                                "min": 4,
+                                "max": 9
                             }
                         }
                     ]
