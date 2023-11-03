@@ -29,7 +29,7 @@
       "max_time": 280,
       "time_decay_rounds": 10,
       "interval": 80,
-      "knockback_after_round": 3
+      "knockback_after_round": 5
     },
     {
       "type": "ltminigames:set_game_rules",
