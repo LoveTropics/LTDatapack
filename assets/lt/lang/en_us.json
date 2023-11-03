@@ -67,6 +67,9 @@
     "lt.info.team_selection": "⏷ Team Selection Teleporter ⏷",
 
     "lt.info.interact": "⏷ Interact to Shop ⏷",
+    "lt.info.interact.2": "⏷ Interact to Buy ⏷",
+    "lt.info.interact.3": "⏷ Interact to Get ⏷",
+    "lt.info.interact.4": "Complimentary!",
     "lt.info.collectible_compass_shop": "Collectible Compass",
 
     "lt.info.parkour": "Parkour",
@@ -100,6 +103,12 @@
     "lt.collectible.disguise.tooltip.subtract_player": " - Player",
 
     "lt.collectible.NAMEEEEE.tooltip.XXXXXXXX": " - Player",
+
+    "lt.collectible.cllub.text.1": "Infinite Potion Bar",
+    "lt.collectible.cllub.text.2": "The Covert Club for Undercover Clubbers",
+    "lt.collectible.cllub.text.3": "Club Merch",
+    "lt.collectible.cllub.text.4": "Covert Exit",
+    "lt.collectible.cllub.text.5": "⏶ Jump In ⏶",
     
     "lt.collectible.cool_shades.name": "Cool Shades",
     "lt.collectible.cool_shades.description": "Very cool. Not very effective.",
