@@ -26,8 +26,8 @@
         "output": {"id": "ltminigames:osa_point", "Count": 4}
       },
       {
-        "input": {"id": "minecraft:beetroot", "Count": 2},
-        "output": {"id": "ltminigames:osa_point", "Count": 4}
+        "input": {"id": "minecraft:beetroot", "Count": 4},
+        "output": {"id": "ltminigames:osa_point", "Count": 6}
       },
       {
         "input": {"id": "minecraft:wheat", "Count": 2},
