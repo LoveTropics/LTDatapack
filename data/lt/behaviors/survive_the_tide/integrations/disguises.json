@@ -39,5 +39,20 @@
     },
     "seconds": 120,
     "donation_amount": 20.0
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "player_dummy_package",
+    "name": "ltminigames.minigame.donation.player_dummy_package",
+    "description": "ltminigames.minigame.donation.player_dummy_package",
+    "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
+    "entity": {
+      "type": "dummyplayers:dummy_player",
+      "tag": {
+      }
+    },
+    "seconds": 120,
+    "donation_amount": 30.0
   }
 ]
