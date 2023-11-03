@@ -1,3 +1,4 @@
 give @s written_book{pages:['{"translate":"lt.scavenger_hunt.clue.05", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "5"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 05",author:"The Puzzle Whisperer",collectible_marker:true}
 collectible give @s written_book{pages:['{"translate":"lt.scavenger_hunt.clue.05", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "5"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 05",author:"The Puzzle Whisperer",collectible_marker:true}
 function lt:collectible/give/disguise/illusioner
+scoreboard players set @s scavenger_hunt_count 5

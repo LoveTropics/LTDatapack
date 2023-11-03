@@ -1,3 +1,4 @@
 give @s written_book{pages:['{"translate":"lt.scavenger_hunt.clue.02", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "2"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 02",author:"The Puzzle Whisperer",collectible_marker:true}
 collectible give @s written_book{pages:['{"translate":"lt.scavenger_hunt.clue.02", "with": [{"translate": "lt.scavenger_hunt.clue", "with": [{"text": "2"}, {"translate": "lt.scavenger_hunt.spacer.start"}]}, {"translate": "lt.scavenger_hunt.spacer.end"}]}'],title:"Clue 02",author:"The Puzzle Whisperer",collectible_marker:true}
 function lt:collectible/give/disguise/slime
+scoreboard players set @s scavenger_hunt_count 2
