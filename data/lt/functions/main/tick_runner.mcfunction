@@ -22,10 +22,6 @@ function lt:game/minigolf/core/on_tick
 # ಠ‿↼ - it's offical now 'cause its in the datapack
 execute as @a[tag=awwww] at @s if entity @a[tag=awww,distance=..7] run function lt:utility/uwu/lunosus
 
-# Clear collectible
-execute in tropicraft:tropics run collectible clear @a[tag=!collectibles_cleared]
-execute in tropicraft:tropics run tag @a[tag=!collectibles_cleared] add collectibles_cleared
-
 # Kill stt entities after they exist for too long
 scoreboard players add @e[tag=game.stt.placed_mob] game.stt.entity_track 1
 execute as @e[tag=game.stt.placed_mob,scores={game.stt.entity_track=1200..}] at @s run function lt:game/stt/entity/remove_entity
