@@ -6,4 +6,5 @@ execute as @e[tag=events.in_game.parrot_party.tracker] at @s run tellraw @a[dist
 scoreboard players set Cooldown events.parrot_party 1
 scoreboard players set Dance events.parrot_party 1
 scoreboard players add ParrotParty main.stats 1
+function lt:events/in_game/parrot_party/change_parrot
 schedule function lt:events/in_game/parrot_party/end_party 348s

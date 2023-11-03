@@ -14,7 +14,6 @@ execute if score running donation.effects matches 0 run function lt:events/donat
 function lt:events/donation/mob_size/on_ten_second
 
 #parties
-#function lt:events/in_game/mouse_party/on_ten_seconds
 function lt:events/in_game/parrot_party/on_ten_seconds
 
 #trigger support
