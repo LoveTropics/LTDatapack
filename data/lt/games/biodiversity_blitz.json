@@ -95,9 +95,9 @@
       "size_curve_always": true,
       "size_curve": {
         "lower": 1.0,
-        "upper": 18.0,
+        "upper": 26.0,
         "base": 3.0,
-        "scale": 1.0
+        "scale": 1.2
       },
       "first_message": {
         "translate": "ltminigames.minigame.biodiversity_blitz.wave_spawned",
