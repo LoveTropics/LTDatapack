@@ -4,7 +4,7 @@ execute in tropicraft:tropics run function lt:events/milestone/on_ten_seconds
 
 # Count player disguises unlocked through non-milestone means. If player has enough, get that ball rolling baybeeee
 execute as @a store result score @s club.disguiseCount run collectible countdisguises
-execute in tropicraft:tropics as @a[tag=!club.has_enough_disguises] at @s if score @s club.disguiseCount matches 5.. run function lt:club/get_invite_1
+execute in tropicraft:tropics as @a[tag=!club.has_enough_disguises,tag=!ltminigames.isolated] at @s if score @s club.disguiseCount matches 5.. run function lt:club/get_invite_1
 execute in tropicraft:tropics as @a[tag=club.needs_invite_2] at @s run function lt:club/get_invite_2
 
 #Check for new sky effects

@@ -6,10 +6,10 @@
 #execute as @e[tag=survive_the_tide_3.loot_marker] at @s if block ~ ~ ~ air run kill @s
 
 # Teleport
-#execute as @a[tag=!utility.player.joined] at @s run function lt:utility/player/first_join
+#execute as @a[tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/player/first_join
 
 execute in tropicraft:tropics run function lt:utility/team/on_tick
 
-execute in minecraft:overworld as @a[tag=!utility.player.introduced,tag=!utility.player.joined] at @s run function lt:utility/spawn_island/introduce
+execute in minecraft:overworld as @a[tag=!utility.player.introduced,tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/spawn_island/introduce
 
 execute in minecraft:overworld if entity @a[current_world=true] run function lt:utility/spawn_island/tick
