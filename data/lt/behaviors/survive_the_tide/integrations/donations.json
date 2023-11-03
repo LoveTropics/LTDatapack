@@ -6,7 +6,7 @@
     "block_periods": [{"start": "start", "end": "pvp_enabled"}]
   },
 
-  {"type": "lt:integrations/packages/everything", "donation_amount":  200.0},
+  {"type": "lt:integrations/packages/everything", "donation_amount":  250.0},
 
   "lt:integrations/packages/slowness",
   "lt:integrations/packages/hunger",
