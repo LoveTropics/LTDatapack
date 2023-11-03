@@ -51,7 +51,7 @@ execute as @s if data entity @s {ProfileID: [I;571400467,2001030148,-1746918587,
 #NotActuallyTerry
 execute as @s if data entity @s {ProfileID: [I;1136400850,1419657815,-2082778962,-1695050563]} run data modify entity @s HandItems set value [{id:"create:creative_motor",Count:1b},{}]
 #anonymous
-execute as @s if data entity @s {ProfileID: [I;0,0,0,0]} run disguise as tropicraft:tapir
+execute as @s if data entity @s {ProfileID: [I;0,0,0,0]} run disguise as tropicraft:tapir {undercover:true}
 execute as @s unless data entity @s {ProfileID: [I;0,0,0,0]} run disguise clear
 
 execute if entity @s[type=player] run tellraw @p {"text":"Execute","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=hostDummy] run function lt:utility/hosts/easter_eggs"}}
