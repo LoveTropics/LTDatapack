@@ -1,0 +1,40 @@
+[
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "tapir_party",
+    "name": "ltminigames.minigame.donation.tapir_party",
+    "description": "ltminigames.minigame.donation.tapir_party",
+    "toast": "ltminigames.minigame.donation.tapir_party.toast",
+    "entity": {
+      "type": "tropicraft:tapir"
+    },
+    "seconds": 120
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "cubera_confusion",
+    "name": "ltminigames.minigame.donation.cubera_confusion",
+    "description": "ltminigames.minigame.donation.cubera_confusion",
+    "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
+    "entity": {
+      "type": "tropicraft:cubera"
+    },
+    "seconds": 120
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "armor_standardization",
+    "name": "ltminigames.minigame.donation.armor_standardization",
+    "description": "ltminigames.minigame.donation.armor_standardization",
+    "toast": "ltminigames.minigame.donation.armor_standardization.toast",
+    "entity": {
+      "type": "minecraft:armor_stand",
+      "tag": {
+        "ShowArms": true
+      }
+    },
+    "seconds": 120
+  }
+]

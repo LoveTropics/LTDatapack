@@ -28,7 +28,7 @@
   "lt:integrations/packages/forced_player_head",
   "lt:integrations/packages/puffer_package",
 
-  "lt:integrations/packages/all_disguises",
+  "lt:survive_the_tide/integrations/disguises",
   "lt:integrations/packages/big_leaps",
 
   "lt:integrations/packages/player_tornado",

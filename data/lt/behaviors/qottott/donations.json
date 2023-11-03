@@ -4,7 +4,7 @@
     "block_periods": [{"start": 0.0, "end": "start"}, {"start": "end", "end": "close"}]
   },
 
-  "lt:integrations/packages/all_disguises_short",
+  "lt:qottott/donations/disguises",
   "lt:integrations/packages/big_leaps",
 
   "lt:integrations/packages/zombie_invasion",
