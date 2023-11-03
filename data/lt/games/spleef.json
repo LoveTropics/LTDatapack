@@ -77,6 +77,10 @@
       "type": "ltminigames:immediate_respawn",
       "role": "participant",
       "respawn_as": "spectator"
+    },
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
     }
   ]
 }
