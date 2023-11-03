@@ -20,6 +20,15 @@
       },
       {
           "type": "bitmap",
+          "file": "lt:font/other/spacer_3.png",
+          "ascent": 7,
+          "height": 9,
+          "chars": [
+              "\uE015"
+          ]
+      },
+      {
+          "type": "bitmap",
           "file": "lt:font/collectible/milestone_english.png",
           "ascent": 7,
           "height": 9,
