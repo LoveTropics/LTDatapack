@@ -11,4 +11,4 @@ execute as @a[distance=..45,gamemode=!spectator,gamemode=!creative,tag=!club.joi
 
 # Keep players without the main.operator tag from getting close to the club when in spectator and creative
 tp @a[tag=!main.operator,gamemode=spectator,distance=..65] 2335 131 2403
-tp @a[tag=!main.operator,gamemode=adventure,distance=..65] 2335 131 2403
+tp @a[tag=!main.operator,gamemode=creative,distance=..65] 2335 131 2403
