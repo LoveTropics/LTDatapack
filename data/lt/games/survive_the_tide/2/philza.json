@@ -29,7 +29,7 @@
             "name": "Philza",
             "dye": "red",
             "text": "red",
-            "assign": ["84555089-add1-49b1-a26d-8021270a40f0"]
+            "assign_roles": ["live"]
           },
           {
             "key": "everyone",
