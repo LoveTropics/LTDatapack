@@ -52,7 +52,7 @@
       "lt:qottott/items/cash_crab/killed_effects",
       {
         "type": "ltminigames:apply_to_players_around",
-        "distance": 5.0,
+        "distance": 9.0,
         "action": "lt:qottott/items/cash_crab/area_effects",
         "not_predicate": {
           "equipment": {
