@@ -1,4 +1,4 @@
 {
   "enter_commands": ["build disable @s", "tag @s remove building", "execute if entity @s[gamemode=survival] run fly disable"],
-  "exit_commands ": ["build disable @s"]
+  "exit_commands": []
 }
