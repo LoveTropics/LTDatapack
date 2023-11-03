@@ -13,6 +13,3 @@ scoreboard players operation @s parkour.checkpoint = @e[tag=game.parkour.last_ch
 #Stats
 execute if entity @s[tag=parkour.crystal_cave] run scoreboard players add CrystalCave main.stats 1
 execute if entity @s[tag=parkour.obstacle_cave] run scoreboard players add ObstacleCave main.stats 1
-
-#Unlocks
-execute if entity @s[tag=parkour.obstacle_cave] run function lt:collectible/give/hat/frog
