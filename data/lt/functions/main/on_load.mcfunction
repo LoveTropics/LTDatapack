@@ -78,6 +78,7 @@ schedule function lt:main/on_ten_seconds 10s
 #Reset the donation effect to 0 just in case
 function lt:events/donation/sky_effects/reset
 
+scoreboard objectives add stats.disguise dummy
 
 #In World 'events'
 scoreboard objectives add events.mouse_party dummy
