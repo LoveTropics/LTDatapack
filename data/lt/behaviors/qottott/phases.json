@@ -98,12 +98,5 @@
         "include_time": true
       }
     ]
-  },
-  {
-    "type": "ltminigames:game_end_effects",
-    "podium": {
-      "winner_regions": ["winner"],
-      "loser_region": "lobby_spawn"
-    }
   }
 ]

@@ -47,6 +47,13 @@
       },
       "drop_inventory": false,
       "respawn_action": "lt:qottott/respawn"
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "podium": {
+        "winner_regions": ["winner"],
+        "loser_region": "lobby_spawn"
+      }
     }
   ]
 }
