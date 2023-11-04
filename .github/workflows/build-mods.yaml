@@ -18,5 +18,5 @@ jobs:
         with:
           name: lt
           path: |
-            lt-assets.jar
+            lt-assets-1.jar
             lt-data.jar
