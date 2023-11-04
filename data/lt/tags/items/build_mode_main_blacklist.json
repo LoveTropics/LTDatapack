@@ -374,6 +374,12 @@
         "tropicraft:tropiskelly_spawn_egg",
         "tropicraft:v_monkey_spawn_egg",
         "tropicraft:water_wand",
-        "tropicraft:white_lipped_peccary_spawn_egg"
+        "tropicraft:white_lipped_peccary_spawn_egg",
+        "ltminigames:loot_dispenser",
+        "ltextras:tropical_map",
+        "ltdonations:donation_goal_redstone",
+        "ltdonations:donation_redstone",
+        "ltminigames:plushie",
+        "ltminigames:big_red_button"
     ]
 }
