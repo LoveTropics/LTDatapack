@@ -380,6 +380,7 @@
         "ltdonations:donation_goal_redstone",
         "ltdonations:donation_redstone",
         "ltminigames:plushie",
-        "ltminigames:big_red_button"
+        "ltminigames:big_red_button",
+        "ltminigames:collectible_compass"
     ]
 }
