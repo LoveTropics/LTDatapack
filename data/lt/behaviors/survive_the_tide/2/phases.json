@@ -15,7 +15,7 @@
       "explosive_storm_end": 1250,
       "end": 1250
     },
-    "max_time_step": 5,
+    "max_time_step": 4,
     "fixed_time_step": {
       "start": "start",
       "end": "pvp_enabled"
