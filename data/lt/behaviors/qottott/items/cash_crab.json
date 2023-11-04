@@ -48,6 +48,7 @@
         }
       }
     },
+
     "killed_action": [
       "lt:qottott/items/cash_crab/killed_effects",
       {
