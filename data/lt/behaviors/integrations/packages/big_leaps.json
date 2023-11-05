@@ -2,7 +2,7 @@
   "type": "lt:integrations/packages/attribute",
   "id": "big_leaps",
   "name": "ltminigames.minigame.donation.big_leaps",
-  "description": "ltminigames.minigame.donation.big_leaps",
+  "description": "ltminigames.minigame.donation.big_leaps.description",
   "toast": "ltminigames.minigame.donation.big_leaps.toast",
   "icon": "minecraft:rabbit_foot",
   "donation_amount": "$donation_amount",
