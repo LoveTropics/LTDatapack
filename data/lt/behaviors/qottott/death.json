@@ -23,7 +23,7 @@
       {
         "type": "ltminigames:give_points",
         "statistic": "points",
-        "count": 1
+        "count": 2
       },
       {
         "type": "ltminigames:show_title",
