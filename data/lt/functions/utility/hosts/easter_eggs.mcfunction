@@ -53,5 +53,6 @@ execute as @s if data entity @s {ProfileID: [I;1136400850,1419657815,-2082778962
 #anonymous
 execute as @s if data entity @s {ProfileID: [I;0,0,0,0]} run disguise as tropicraft:tapir {undercover:true}
 execute as @s[tag=!leadboardSpeical] unless data entity @s {ProfileID: [I;0,0,0,0]} unless data entity @s {CustomName:'{"text":"CreeperHost"}'} run disguise clear
-
+#execute as @s[tag=!leadboardSpeical] if entity @s {CustomName:'{"text":"CreeperHost"}'} run disguise as tropicraft:tropicreeper
+## ADD CreeperHost To This List
 execute if entity @s[type=player] run tellraw @p {"text":"Execute","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=hostDummy] run function lt:utility/hosts/easter_eggs"}}

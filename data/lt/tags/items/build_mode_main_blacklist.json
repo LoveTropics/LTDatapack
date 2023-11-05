@@ -381,6 +381,7 @@
         "ltdonations:donation_redstone",
         "ltminigames:plushie",
         "ltminigames:big_red_button",
-        "ltminigames:collectible_compass"
+        "ltminigames:collectible_compass",
+        "minecraft:goat_horn"
     ]
 }
