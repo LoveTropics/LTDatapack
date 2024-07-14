@@ -9,7 +9,7 @@
                 {
                     "type": "loot_table",
                     "weight": 5,
-                    "name": "lt:stt2/equipment_type"
+                    "value": "lt:stt2/equipment_type"
                 }
             ]
         },
@@ -22,7 +22,7 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt2/misc_type"
+                    "value": "lt:stt2/misc_type"
                 }
             ]
         },
@@ -35,7 +35,7 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt2/food_type"
+                    "value": "lt:stt2/food_type"
                 }
             ]
         }

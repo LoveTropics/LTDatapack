@@ -12,8 +12,15 @@
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_break": {
+                                    "predicates": [
+                                        {"blocks": ["snow_block", "snow", "sand", "weather2:sand_layer"]}
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -27,8 +34,13 @@
                     "name": "minecraft:tnt",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -45,10 +57,15 @@
                     "name": "minecraft:cobweb",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
-			{
+                        {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
@@ -79,8 +96,21 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Unstable Explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:2b,Amplifier:1b,Duration:160},{Id:7b,Amplifier:0b,Duration:6}],Potion:\"minecraft:harming\",CustomPotionColor:8716288}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Unstable Explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+                                "potion_contents": {
+                                    "potion": "harming",
+                                    "custom_effects": [
+                                        {
+                                            "id": "instant_damage",
+                                            "amplifier": 0,
+                                            "duration": 6
+                                        }
+                                    ],
+                                    "custom_color": 8716288
+                                }
+                            }
                         }
                     ]
                 },
@@ -90,8 +120,36 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Poison Vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:9b,Amplifier:1b,Duration:200},{Id:15b,Amplifier:1b,Duration:60},{Id:18b,Amplifier:1b,Duration:160},{Id:19b,Amplifier:2b,Duration:80}],Potion:\"minecraft:harming\",CustomPotionColor:1179392}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Poison Vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
+                                "potion_contents": {
+                                    "potion": "harming",
+                                    "custom_effects": [
+                                        {
+                                            "id": "nausea",
+                                            "amplifier": 1,
+                                            "duration": 200
+                                        },
+                                        {
+                                            "id": "blindness",
+                                            "amplifier": 1,
+                                            "duration": 60
+                                        },
+                                        {
+                                            "id": "weakness",
+                                            "amplifier": 1,
+                                            "duration": 160
+                                        },
+                                        {
+                                            "id": "poison",
+                                            "amplifier": 2,
+                                            "duration": 80
+                                        }
+                                    ],
+                                    "custom_color": 1179392
+                                }
+                            }
                         }
                     ]
                 },
@@ -101,8 +159,21 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Slow Bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:100}],Potion:\"minecraft:harming\",CustomPotionColor:14079702}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Slow Bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}",
+                                "potion_contents": {
+                                    "potion": "harming",
+                                    "custom_effects": [
+                                        {
+                                            "id": "slowness",
+                                            "amplifier": 3,
+                                            "duration": 100
+                                        }
+                                    ],
+                                    "custom_color": 14079702
+                                }
+                            }
                         }
                     ]
                 },
@@ -117,8 +188,13 @@
                     "name": "minecraft:lava_bucket",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         }
                     ]
                 },
@@ -128,8 +204,13 @@
                     "name": "minecraft:water_bucket",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                           "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         }
                     ]
                 },
@@ -139,8 +220,13 @@
                     "name": "minecraft:creeper_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                           "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -157,8 +243,13 @@
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                           "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -175,8 +266,13 @@
                     "name": "minecraft:blaze_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                           "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -221,6 +317,6 @@
                     ]
                 }
               ]
-              }
+          }
     ]
 }

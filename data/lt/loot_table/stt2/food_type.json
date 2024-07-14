@@ -108,8 +108,12 @@
                             "count": 1
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Health Boost\",\"color\":\"light_purple\",\"italic\":false}'},Potion:\"minecraft:healing\"}"
+                            "function": "set_components",
+                            "custom_name": "{\"text\":\"Health Boost\",\"color\":\"light_purple\",\"italic\":false}}"
+                        },
+                        {
+                            "function": "set_potion",
+                            "id": "healing"
                         }
                     ]
                 },
@@ -123,8 +127,22 @@
                             "count": 1
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Strength Boost\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Basically just steroids.\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}']},CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:900,ShowParticles:0b}],CustomPotionColor:7305732}"
+                            "function": "set_components",
+                            "custom_name": "{\"text\":\"Strength Boost\",\"color\":\"red\",\"italic\":false}",
+                            "lore": [
+                                "{\"text\":\"Basically just steroids.\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
+                            ],
+                            "potion_contents": {
+                                "custom_effects": [
+                                    {
+                                        "id": "strength",
+                                        "amplifier": 0,
+                                        "duration": 900,
+                                        "show_particles": false
+                                    }
+                                ],
+                                "custom_color": 7305732
+                            }
                         }
                     ]
                 },
@@ -149,8 +167,21 @@
                             "count": 1
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Speed Boost\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Weeeeeeeeeeeeeeeeeeeeeeeee\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}']},CustomPotionEffects:[{Id:1b,Amplifier:2b,Duration:600}],CustomPotionColor:65535}"
+                            "function": "set_components",
+                            "custom_name": "{\"text\":\"Speed Boost\",\"color\":\"aqua\",\"italic\":false}",
+                            "lore": [
+                                "{\"text\":\"Weeeeeeeeeeeeeeeeeeeeeeeee\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
+                            ],
+                            "potion_contents": {
+                                "custom_effects": [
+                                    {
+                                        "id": "speed",
+                                        "amplifier": 2,
+                                        "duration": 600
+                                    }
+                                ],
+                                "custom_color": 65535
+                            }
                         }
                     ]
                 }

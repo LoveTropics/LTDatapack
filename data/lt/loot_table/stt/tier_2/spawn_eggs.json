@@ -13,8 +13,13 @@
                     "name": "minecraft:creeper_spawn_egg",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"game.stt.placed_mob\"]},CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "entity_data": {
+                                    "Tags": ["game.stt.placed_mob"]
+                                },
+                                "can_place_on": {}
+                            }
                         },
                         {
                             "function": "minecraft:set_count",
@@ -31,8 +36,13 @@
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"game.stt.placed_mob\"]},CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "entity_data": {
+                                    "Tags": ["game.stt.placed_mob"]
+                                },
+                                "can_place_on": {}
+                            }
                         },
                         {
                             "function": "minecraft:set_count",
@@ -49,8 +59,13 @@
                     "name": "minecraft:guardian_spawn_egg",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"game.stt.placed_mob\"]},CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "entity_data": {
+                                    "Tags": ["game.stt.placed_mob"]
+                                },
+                                "can_place_on": {}
+                            }
                         },
                         {
                             "function": "minecraft:set_count",

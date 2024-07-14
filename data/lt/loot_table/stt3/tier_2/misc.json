@@ -9,8 +9,30 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Splash Tincture of Mal-intent\",\"color\":\"#FF7519\",\"italic\":false}'},CustomPotionEffects:[{Id:17b,Amplifier:2b,Duration:160},{Id:18b,Amplifier:0b,Duration:500},{Id:19b,Amplifier:2b,Duration:160}],CustomPotionColor:12216071}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Splash Tincture of Mal-intent\",\"color\":\"#FF7519\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "hunger",
+                                            "amplifier": 2,
+                                            "duration": 160
+                                        },
+                                        {
+                                            "id": "weakness",
+                                            "amplifier": 0,
+                                            "duration": 500
+                                        },
+                                        {
+                                            "id": "poison",
+                                            "amplifier": 2,
+                                            "duration": 160
+                                        }
+                                    ],
+                                    "custom_color": 12216071
+                                }
+                            }
                         }
                     ]
                 },
@@ -27,8 +49,13 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         }
                     ]
                 },
@@ -43,8 +70,15 @@
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_break": {
+                                    "predicates": [
+                                        {"blocks": ["snow_block", "snow", "sand", "weather2:sand_layer"]}
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",

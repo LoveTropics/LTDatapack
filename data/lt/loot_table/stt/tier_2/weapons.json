@@ -13,8 +13,22 @@
                     "name": "minecraft:trident",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-376515903,-1172420590,-2139455850,-984980945]}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "loyalty": 3
+                                    }
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "type": "generic.attack_damage",
+                                        "id": "lt:trident_attack_boost",
+                                        "amount": 4.0,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -24,8 +38,22 @@
                     "name": "minecraft:trident",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:riptide\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1458070019,-1239071603,-1401616010,-1506469786]}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "riptide": 3
+                                    }
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "type": "generic.attack_damage",
+                                        "id": "lt:trident_attack_boost",
+                                        "amount": 4.0,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -35,8 +63,14 @@
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:punch\",lvl:1s}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "punch": 1
+                                    }
+                                }
+                            }
                         }
                     ]
                 },
@@ -46,8 +80,14 @@
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "power": 1
+                                    }
+                                }
+                            }
                         }
                     ]
                 },

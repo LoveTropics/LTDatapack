@@ -16,8 +16,10 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Bucket of Milk except it was paid for!\",\"color\":\"white\",\"bold\":true,\"italic\":false}'}}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Bucket of Milk except it was paid for!\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                            }
                         }
                     ]
                 }

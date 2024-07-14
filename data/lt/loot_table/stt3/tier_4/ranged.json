@@ -28,8 +28,25 @@
                     "name": "minecraft:firework_rocket",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Super Rocket\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}']},HideFlags:127,Fireworks:{Explosions:[{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]},{Type:2,Flicker:1b,Trail:1b,Colors:[I;16753152],FadeColors:[I;11869469]}]}}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Super Rocket\",\"color\":\"red\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}'"
+                                ],
+                                "fireworks": {
+                                    "explosions": [
+                                        {"shape": "small_ball", "colors": [5079041]},
+                                        {"shape": "small_ball", "colors": [162984]},
+                                        {"shape": "small_ball", "colors": [5079041]},
+                                        {"shape": "small_ball", "colors": [162984]},
+                                        {"shape": "small_ball", "colors": [5079041]},
+                                        {"shape": "small_ball", "colors": [162984]},
+                                        {"shape": "star", "has_twinkle": true, "has_trail": true, "colors": [16753152], "fade_colors": [11869469]}
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",

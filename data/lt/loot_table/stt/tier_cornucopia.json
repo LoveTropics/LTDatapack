@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1"
+                    "value": "lt:stt/tier_1"
                 }
             ]
         },
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2"
+                    "value": "lt:stt/tier_2"
                 }
             ]
         }

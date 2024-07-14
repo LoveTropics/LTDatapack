@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 2,
-                    "name": "lt:stt/tier_3/potato_cannon"
+                    "value": "lt:stt/tier_3/potato_cannon"
                 },
                 {
                     "type": "minecraft:item",
@@ -15,8 +15,10 @@
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Damage:242}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "damage": 242
+                            }
                         }
                     ]
                 },
@@ -79,8 +81,18 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Slime Bomb\",\"italic\":false}'},EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:[\"game.stt.jelly_bomb\"]},CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Slime Bomb\",\"italic\":false}",
+                                "entity_data": {
+                                    "NoGravity": true,
+                                    "Silent": true,
+                                    "Invulnerable": true,
+                                    "PersistenceRequired": true,
+                                    "Tags": ["game.stt.jelly_bomb"]
+                                },
+                                "can_place_on": {}
+                            }
                         }
                     ]
                 }

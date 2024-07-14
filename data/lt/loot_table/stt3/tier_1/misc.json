@@ -12,8 +12,20 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Splash Tincture of Remedial Invigoration\",\"color\":\"#FF00F7\",\"italic\":false}'},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:5}],CustomPotionColor:16712678}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Splash Tincture of Remedial Invigoration\",\"color\":\"#FF00F7\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "instant_health",
+                                            "amplifier": 1,
+                                            "duration": 5
+                                        }
+                                    ],
+                                    "custom_color": 16712678
+                                }
+                            }
                         }
                     ]
                 },
@@ -30,8 +42,13 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [{}],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         }
                     ]
                 },

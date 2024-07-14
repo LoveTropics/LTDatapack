@@ -16,8 +16,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:weakness\"}"
+                            "function": "set_potion",
+                            "id": "weakness"
                         }
                     ]
                 },
@@ -33,8 +33,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:slowness\"}"
+                            "function": "set_potion",
+                            "id": "slowness"
                         }
                     ]
                 },
@@ -50,8 +50,21 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Arrow of Levitation\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:60}],Potion:\"minecraft:slow_falling\",CustomPotionColor:16318356}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Arrow of Levitation\",\"italic\":false}",
+                                "potion_contents": {
+                                    "potion": "slow_falling",
+                                    "custom_effects": [
+                                        {
+                                            "id": "levitation",
+                                            "amplifier": 1,
+                                            "duration": 60
+                                        }
+                                    ],
+                                    "custom_color": 16318356
+                                }
+                            }
                         }
                     ]
                 }

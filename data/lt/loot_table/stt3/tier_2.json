@@ -9,28 +9,28 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_2/armor",
+                    "value": "lt:stt3/tier_2/armor",
                     "min": 1
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_2/food"
+                    "value": "lt:stt3/tier_2/food"
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_2/melee"
+                    "value": "lt:stt3/tier_2/melee"
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_2/misc"
+                    "value": "lt:stt3/tier_2/misc"
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_2/ranged"
+                    "value": "lt:stt3/tier_2/ranged"
                 }
             ]
         }

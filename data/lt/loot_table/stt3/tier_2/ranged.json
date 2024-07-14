@@ -26,8 +26,20 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Poison Tipped Arrow\",\"italic\":false}'},CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:160}],CustomPotionColor:6212628}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Poison Tipped Arrow\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "poison",
+                                            "amplifier": 0,
+                                            "duration": 160
+                                        }
+                                    ],
+                                    "custom_color": 6212628
+                                }
+                            }
                         },
                         {
                             "function": "set_count",

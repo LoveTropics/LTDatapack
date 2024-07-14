@@ -16,8 +16,11 @@
                             }
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Coconut Go Boom On Throw! - Got it?\",\"color\":\"red\",\"bold\":true,\"italic\":false}'},explosion_radius:0.6}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Coconut Go Boom On Throw! - Got it?\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+                                "tropicraft:explosion_radius": 0.6
+                            }
                         }
                     ]
                 }

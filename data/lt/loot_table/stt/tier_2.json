@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/arrows"
+                    "value": "lt:stt/tier_2/arrows"
                 }
             ]
         },
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/armor"
+                    "value": "lt:stt/tier_2/armor"
                 }
             ]
         },
@@ -24,7 +24,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/weapons"
+                    "value": "lt:stt/tier_2/weapons"
                 }
             ]
         },
@@ -33,7 +33,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/spawn_eggs"
+                    "value": "lt:stt/tier_2/spawn_eggs"
                 }
             ]
         },
@@ -89,7 +89,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_2/potions"
+                    "value": "lt:stt/tier_2/potions"
                 }
             ]
         }

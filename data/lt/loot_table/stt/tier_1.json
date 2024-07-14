@@ -9,7 +9,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1/arrows"
+                    "value": "lt:stt/tier_1/arrows"
                 }
             ]
         },
@@ -18,7 +18,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1/armor"
+                    "value": "lt:stt/tier_1/armor"
                 }
             ]
         },
@@ -30,7 +30,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1/weapons"
+                    "value": "lt:stt/tier_1/weapons"
                 }
             ]
         },
@@ -39,7 +39,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lt:stt/tier_1/potions"
+                    "value": "lt:stt/tier_1/potions"
                 }
             ]
         },
@@ -98,8 +98,24 @@
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"game.stt.placed_mob\"],ArmorItems:[{},{},{},{id:'minecraft:leather_helmet',Count:1b,tag:{Unbreakable:1b}}]},CanPlaceOn:[\"#ltextras:everything\"]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "entity_data": {
+                                    "Tags": ["game.stt.placed_mob"],
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "leather_helmet",
+                                            "components": {
+                                                "unbreakable": {}
+                                            }
+                                        }
+                                    ]
+                                },
+                                "can_place_on": {}
+                            }
                         },
                         {
                             "function": "minecraft:set_count",

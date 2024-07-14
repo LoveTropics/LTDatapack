@@ -16,7 +16,7 @@
                             "count": 1
                         },
                         {
-                            "function": "set_nbt",
+                            "function": "set_custom_data",
                             "tag": "{DeleteMe:1b}"
                         }
                     ]

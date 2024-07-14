@@ -12,8 +12,26 @@
                     "name": "minecraft:firework_rocket",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{Fireworks:{Explosions:[{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;5079041]},{Type:0,Colors:[I;162984]}]}}"
+                            "function": "set_components",
+                            "components": {
+                                "fireworks": {
+                                    "explosions": [
+                                        {
+                                            "shape": "small_ball",
+                                            "colors": [5079041]
+                                        },
+                                        {
+                                            "shape": "small_ball",
+                                            "colors": [5079041]
+                                        },
+                                        {
+                                            "shape": "small_ball",
+                                            "colors": [162984]
+                                        }
+                                    ],
+                                    "flight_duration": 0
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -30,8 +48,20 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Greater Poison Tipped Arrow\",\"italic\":false}'},CustomPotionEffects:[{Id:19b,Amplifier:1b,Duration:300}],CustomPotionColor:6212628}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Greater Poison Tipped Arrow\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "poison",
+                                            "amplifier": 1,
+                                            "duration": 300
+                                        }
+                                    ],
+                                    "custom_color": 6212628
+                                }
+                            }
                         },
                         {
                             "function": "set_count",

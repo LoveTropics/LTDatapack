@@ -29,8 +29,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:swiftness\"}"
+                            "function": "set_potion",
+                            "id": "swiftness"
                         }
                     ]
                 },
@@ -46,8 +46,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:slow_falling\"}"
+                            "function": "set_potion",
+                            "id": "slow_falling"
                         }
                     ]
                 },
@@ -63,8 +63,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:leaping\"}"
+                            "function": "set_potion",
+                            "id": "leaping"
                         }
                     ]
                 }

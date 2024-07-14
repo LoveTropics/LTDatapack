@@ -28,15 +28,26 @@
                     "name": "minecraft:wooden_hoe",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"The Teeter Yeeter 2 Electric Boogaloo\",\"color\":\"#9CD43E\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter.\",\"color\":\"dark_aqua\",\"italic\":false}']},Damage:58,Enchantments:[{id:\"minecraft:knockback\",lvl:5s}]}"
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"The Teeter Yeeter 2 Electric Boogaloo\",\"color\":\"#9CD43E\",\"bold\":true,\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter.\",\"color\":\"dark_aqua\",\"italic\":false}"
+                                ],
+                                "damage": 58,
+                                "enchantments": {
+                                    "levels": {
+                                        "knockback": 5
+                                    }
+                                }
+                            }
                         }
                     ]
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_4/ranged"
+                    "value": "lt:stt3/tier_4/ranged"
                 }
             ]
         },
@@ -59,7 +70,7 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "lt:stt3/tier_4/potion"
+                    "value": "lt:stt3/tier_4/potion"
                 }
             ]
         }

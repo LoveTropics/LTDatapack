@@ -51,8 +51,15 @@
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanDestroy:[\"minecraft:snow_block\",\"minecraft:snow\",\"minecraft:sand\",\"weather2:sand_layer\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_break": {
+                                    "predicates": [
+                                        {"blocks": ["snow_block", "snow", "sand", "weather2:sand_layer"]}
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -66,8 +73,16 @@
                     "name": "minecraft:tnt",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [
+                                        {
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -84,8 +99,16 @@
                     "name": "minecraft:cobweb",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CanPlaceOn:[\"#ltextras:everything\"],HideFlags:63}"
+                            "function": "set_components",
+                            "components": {
+                                "can_place_on": {
+                                    "predicates": [
+                                        {
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
@@ -347,8 +370,19 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:5b,Amplifier:0b,Duration:900}],CustomPotionColor:12713984}"
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "blindness",
+                                            "amplifier": 0,
+                                            "duration": 900
+                                        }
+                                    ],
+                                    "custom_color": 12713984
+                                }
+                            }
                         }
                     ]
                 },
@@ -358,8 +392,8 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:swiftness\"}"
+                            "function": "set_potion",
+                            "id": "swiftness"
                         }
                     ]
                 },
@@ -369,8 +403,8 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:leaping\"}"
+                            "function": "set_potion",
+                            "id": "leaping"
                         }
                     ]
                 },
@@ -380,8 +414,8 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:healing\"}"
+                            "function": "set_potion",
+                            "id": "healing"
                         }
                     ]
                 }

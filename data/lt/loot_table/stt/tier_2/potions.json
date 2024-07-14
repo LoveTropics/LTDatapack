@@ -12,8 +12,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:long_strength\"}"
+                            "function": "set_potion",
+                            "id": "long_strength"
                         }
                     ]
                 },
@@ -22,8 +22,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:slowness\"}"
+                            "function": "set_potion",
+                            "id": "slowness"
                         }
                     ]
                 },
@@ -32,8 +32,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:turtle_master\"}"
+                            "function": "set_potion",
+                            "id": "turtle_master"
                         }
                     ]
                 },
@@ -42,8 +42,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:weakness\"}"
+                            "function": "set_potion",
+                            "id": "weakness"
                         }
                     ]
                 },
@@ -52,8 +52,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:swiftness\"}"
+                            "function": "set_potion",
+                            "id": "swiftness"
                         }
                     ]
                 },
@@ -62,8 +62,8 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:regeneration\"}"
+                            "function": "set_potion",
+                            "id": "regeneration"
                         }
                     ]
                 },
@@ -72,8 +72,20 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Lingering Potion of Blindness\",\"italic\":false}'},CustomPotionEffects:[{Id:15,Amplifier:2b,Duration:60}],CustomPotionColor:266808}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Lingering Potion of Blindness\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "blindness",
+                                            "amplifier": 2,
+                                            "duration": 60
+                                        }
+                                    ],
+                                    "custom_color": 266808
+                                }
+                            }
                         }
                     ]
                 },
@@ -82,8 +94,25 @@
                     "name": "minecraft:lingering_potion",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Lingering Potion of Levitation\",\"italic\":false}'},CustomPotionEffects:[{Id:25,Amplifier:1b,Duration:40},{Id:28,Amplifier:0b,Duration:100}],CustomPotionColor:13949245}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"Lingering Potion of Levitation\",\"italic\":false}",
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "levitation",
+                                            "amplifier": 1,
+                                            "duration": 40
+                                        },
+                                        {
+                                            "id": "slow_falling",
+                                            "amplifier": 0,
+                                            "duration": 100
+                                        }
+                                    ],
+                                    "custom_color": 13949245
+                                }
+                            }
                         }
                     ]
                 }
