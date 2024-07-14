@@ -5,19 +5,16 @@
     "places": "tea_mangrove_propagule",
     "item": {
       "id": "tropicraft:tea_mangrove_propagule",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"text\": \"Grows into a tea mangrove and produces pianguas.\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"text\": \"Grows into a Tea mangrove after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"When placed near mud, the mud will turn into mud blocks with pianguas.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Right clicking mud blocks with pianguas will drop the pianguas, which can be sold at the Shop for points.\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"text\": \"Grows into a tea mangrove and produces pianguas.\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"text\": \"Grows into a Tea mangrove after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+          "{\"text\": \"When placed near mud, the mud will turn into mud blocks with pianguas.\",\"color\": \"gold\",\"italic\": true}",
+          "{\"text\": \"Right clicking mud blocks with pianguas will drop the pianguas, which can be sold at the Shop for points.\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },
@@ -66,10 +63,8 @@
         "type": "ltminigames:grow_plant",
         "time": {
           "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 300,
-            "max_inclusive": 400
-          }
+          "min_inclusive": 300,
+          "max_inclusive": 400
         },
         "grow_into": "tea_mangrove"
       },

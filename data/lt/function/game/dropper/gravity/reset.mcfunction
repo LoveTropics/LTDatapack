@@ -6,4 +6,4 @@ tag @s remove dropper04
 tag @s remove dropper05
 tag @s remove dropper06
 tag @s remove dropper07
-attribute @s forge:entity_gravity base set 0.08
+attribute @s minecraft:generic.gravity base set 0.08

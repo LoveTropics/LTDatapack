@@ -5,14 +5,11 @@
     "places": "magic_mushroom",
     "item": {
       "id": "tropicraft:magic_mushroom",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
+      "components": {
+          "lore": [
             "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.magic_mushroom.tooltip\",\"color\": \"aqua\"}",
             "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
           ]
-        }
       }
     }
   },

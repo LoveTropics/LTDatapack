@@ -39,9 +39,9 @@
             {},
             {
               "id": "minecraft:leather_helmet",
-              "Count": 1,
-              "tag": {
-                "Unbreakable": true
+              "count": 1,
+              "components": {
+                "unbreakable": {}
               }
             }
           ]

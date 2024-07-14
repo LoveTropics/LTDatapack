@@ -5,18 +5,15 @@
     "places": "oak_sapling",
     "item": {
       "id": "minecraft:oak_sapling",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"text\": \"Grows into an oak tree and rarely drops golden apples.\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"text\": \"Grows into an oak tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Golden apples drop from the leaves every few minutes.\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"text\": \"Grows into an oak tree and rarely drops golden apples.\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"text\": \"Grows into an oak tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+          "{\"text\": \"Golden apples drop from the leaves every few minutes.\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },
@@ -86,8 +83,7 @@
         "type": "ltminigames:idle_drop_item",
         "interval": 3600,
         "item": {
-          "id": "minecraft:golden_apple",
-          "Count": 1
+          "id": "minecraft:golden_apple"
         }
       },
       {
@@ -114,10 +110,8 @@
         "type": "ltminigames:grow_plant",
         "time": {
           "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 300,
-            "max_inclusive": 400
-          }
+          "min_inclusive": 300,
+          "max_inclusive": 400
         },
         "grow_into": "oak_tree"
       },

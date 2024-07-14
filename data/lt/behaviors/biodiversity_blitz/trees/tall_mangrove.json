@@ -5,14 +5,11 @@
     "places": "tall_mangrove_propagule",
     "item": {
       "id": "tropicraft:tall_mangrove_propagule",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"text\": \"Grows into a tall mangrove.\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"text\": \"Grows into a tall mangrove.\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ]
       }
     }
   },
@@ -61,10 +58,8 @@
         "type": "ltminigames:grow_plant",
         "time": {
           "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 300,
-            "max_inclusive": 400
-          }
+          "min_inclusive": 300,
+          "max_inclusive": 400
         },
         "grow_into": "tall_mangrove"
       },

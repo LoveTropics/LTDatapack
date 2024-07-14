@@ -47,28 +47,25 @@
         "items": [
           {
             "id": "minecraft:stone_sword",
-            "Count": 1,
-            "tag": {
-              "Unbreakable": true,
-              "undroppable": true
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
             }
           },
           {
             "id": "minecraft:diamond_hoe",
-            "Count": 1,
-            "tag": {
-              "Unbreakable": true,
-              "undroppable": true
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
             }
           }
         ],
         "head": {
           "id": "minecraft:leather_helmet",
-          "Count": 1,
-          "tag": {
-            "Trim": {"material": "gold", "pattern": "wild"},
-            "Unbreakable": true,
-            "undroppable": true
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "trim": {"material": "gold", "pattern": "wild"}
           }
         },
         "color_by_team": true

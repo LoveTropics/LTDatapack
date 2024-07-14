@@ -5,18 +5,15 @@
     "places": "palm_sapling",
     "item": {
       "id": "tropicraft:palm_sapling",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"text\": \"Grows into a palm tree which drops coconut bombs on entities.\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"text\": \"Grows into a palm tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"Drops coconut bombs on any mobs underneath. These explosions can damage you, but not your plants.\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"text\": \"Grows into a palm tree which drops coconut bombs on entities.\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"text\": \"Grows into a palm tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+          "{\"text\": \"Drops coconut bombs on any mobs underneath. These explosions can damage you, but not your plants.\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },

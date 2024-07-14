@@ -55,13 +55,11 @@
                 {},
                 {
                   "id": "minecraft:golden_chestplate",
-                  "Count": 1,
-                  "tag": {"Unbreakable": true}
+                  "components": {"unbreakable": {}}
                 },
                 {
                   "id": "minecraft:golden_helmet",
-                  "Count": 1,
-                  "tag": {"Unbreakable": true}
+                  "components": {"unbreakable": {}}
                 }
               ]
             }

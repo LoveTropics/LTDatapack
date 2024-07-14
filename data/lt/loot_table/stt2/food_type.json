@@ -109,7 +109,9 @@
                         },
                         {
                             "function": "set_components",
-                            "custom_name": "{\"text\":\"Health Boost\",\"color\":\"light_purple\",\"italic\":false}}"
+                            "components": {
+                                "custom_name": "{\"text\":\"Health Boost\",\"color\":\"light_purple\",\"italic\":false}}"
+                            }
                         },
                         {
                             "function": "set_potion",
@@ -128,20 +130,22 @@
                         },
                         {
                             "function": "set_components",
-                            "custom_name": "{\"text\":\"Strength Boost\",\"color\":\"red\",\"italic\":false}",
-                            "lore": [
-                                "{\"text\":\"Basically just steroids.\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
-                            ],
-                            "potion_contents": {
-                                "custom_effects": [
-                                    {
-                                        "id": "strength",
-                                        "amplifier": 0,
-                                        "duration": 900,
-                                        "show_particles": false
-                                    }
+                            "components": {
+                                "custom_name": "{\"text\":\"Strength Boost\",\"color\":\"red\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"Basically just steroids.\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
                                 ],
-                                "custom_color": 7305732
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "strength",
+                                            "amplifier": 0,
+                                            "duration": 900,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "custom_color": 7305732
+                                }
                             }
                         }
                     ]
@@ -168,19 +172,21 @@
                         },
                         {
                             "function": "set_components",
-                            "custom_name": "{\"text\":\"Speed Boost\",\"color\":\"aqua\",\"italic\":false}",
-                            "lore": [
-                                "{\"text\":\"Weeeeeeeeeeeeeeeeeeeeeeeee\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
-                            ],
-                            "potion_contents": {
-                                "custom_effects": [
-                                    {
-                                        "id": "speed",
-                                        "amplifier": 2,
-                                        "duration": 600
-                                    }
+                            "components": {
+                                "custom_name": "{\"text\":\"Speed Boost\",\"color\":\"aqua\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"Weeeeeeeeeeeeeeeeeeeeeeeee\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
                                 ],
-                                "custom_color": 65535
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "speed",
+                                            "amplifier": 2,
+                                            "duration": 600
+                                        }
+                                    ],
+                                    "custom_color": 65535
+                                }
                             }
                         }
                     ]

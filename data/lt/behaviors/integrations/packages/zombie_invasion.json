@@ -37,10 +37,10 @@
         "tag": {
           "Health": 8.0,
           "IsBaby": false,
-          "Attributes": [
+          "attributes": [
             {
-              "Name": "generic.max_health",
-              "Base": 8
+              "id": "generic.max_health",
+              "base": 8
             }
           ],
           "ArmorItems": [
@@ -49,9 +49,9 @@
             {},
             {
               "id": "minecraft:leather_helmet",
-              "Count": 1,
-              "tag": {
-                "Unbreakable": true
+              "count": 1,
+              "components": {
+                "unbreakable": {}
               }
             }
           ]

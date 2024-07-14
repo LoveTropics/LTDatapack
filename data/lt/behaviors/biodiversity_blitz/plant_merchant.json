@@ -6,87 +6,87 @@
     "name": {"translate": "ltminigames.minigame.biodiversity_blitz.plant_shop"},
     "offers": [
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
+        "input": {"id": "ltminigames:osa_point", "count": 1},
         "output": {"plant": "wheat", "count": 2}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
+        "input": {"id": "ltminigames:osa_point", "count": 1},
         "output": {"plant": "potato"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 1},
+        "input": {"id": "ltminigames:osa_point", "count": 1},
         "output": {"plant": "carrot"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 2},
+        "input": {"id": "ltminigames:osa_point", "count": 2},
         "output": {"plant": "grass"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 2},
+        "input": {"id": "ltminigames:osa_point", "count": 2},
         "output": {"plant": "fern"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 3},
+        "input": {"id": "ltminigames:osa_point", "count": 3},
         "output": {"plant": "bramble"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 4},
+        "input": {"id": "ltminigames:osa_point", "count": 4},
         "output": {"plant": "crocosmia"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 6},
+        "input": {"id": "ltminigames:osa_point", "count": 6},
         "output": {"plant": "commelina_diffusa"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 12},
+        "input": {"id": "ltminigames:osa_point", "count": 12},
         "output": {"plant": "iris"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 16},
+        "input": {"id": "ltminigames:osa_point", "count": 16},
         "output": {"plant": "sweet_berries"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 16},
+        "input": {"id": "ltminigames:osa_point", "count": 16},
         "output": {"plant": "beetroot"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 20},
+        "input": {"id": "ltminigames:osa_point", "count": 20},
         "output": {"plant": "melon"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "count": 24},
         "output": {"plant": "bromeliad"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "count": 24},
         "output": {"plant": "magic_mushroom"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "count": 32},
         "output": {"plant": "pumpkin"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "count": 32},
         "output": {"plant": "jack_o_lantern"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "count": 24},
         "output": {"plant": "wither_rose"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 24},
+        "input": {"id": "ltminigames:osa_point", "count": 24},
         "output": {"plant": "birch_sapling"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 32},
+        "input": {"id": "ltminigames:osa_point", "count": 32},
         "output": {"plant": "oak_sapling"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 44},
+        "input": {"id": "ltminigames:osa_point", "count": 44},
         "output": {"plant": "tea_mangrove_propagule"}
       },
       {
-        "input": {"id": "ltminigames:osa_point", "Count": 50},
+        "input": {"id": "ltminigames:osa_point", "count": 50},
         "output": {"plant": "palm_sapling"}
       }
     ]

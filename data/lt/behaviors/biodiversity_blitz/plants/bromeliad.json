@@ -5,14 +5,11 @@
     "places": "bromeliad",
     "item": {
       "id": "tropicraft:bromeliad",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.bromeliad.tooltip\",\"color\":\"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.bromeliad.tooltip\",\"color\":\"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ]
       }
     }
   },

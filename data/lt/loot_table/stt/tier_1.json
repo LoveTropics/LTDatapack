@@ -101,6 +101,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "entity_data": {
+                                    "id": "zombie",
                                     "Tags": ["game.stt.placed_mob"],
                                     "ArmorItems": [
                                         {},

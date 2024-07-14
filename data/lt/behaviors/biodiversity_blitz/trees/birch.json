@@ -5,18 +5,15 @@
     "places": "birch_sapling",
     "item": {
       "id": "minecraft:birch_sapling",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"text\": \"Grows into a birch tree.\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"text\": \"Grows into a birch tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-            "{\"text\": \"They don't have any special behaviors, but they contribute to biodiversity.\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"text\": \"Grows into a birch tree.\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"text\": \"Grows into a birch tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
+          "{\"text\": \"They don't have any special behaviors, but they contribute to biodiversity.\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },
@@ -106,10 +103,8 @@
         "type": "ltminigames:grow_plant",
         "time": {
           "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 300,
-            "max_inclusive": 400
-          }
+          "min_inclusive": 300,
+          "max_inclusive": 400
         },
         "grow_into": "birch_tree"
       },

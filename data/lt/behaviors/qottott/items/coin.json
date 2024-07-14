@@ -3,7 +3,7 @@
     "type": "ltminigames:item_picked_up",
     "item": {
       "items": ["ltextras:tropicoin"],
-      "nbt": "{source: \"dropper\"}"
+      "custom_data": "{source: \"dropper\"}"
     },
     "action": [
       {
@@ -23,7 +23,7 @@
     "type": "ltminigames:item_picked_up",
     "item": {
       "items": ["ltextras:tropicoin"],
-      "nbt": "{source: \"leaky_pockets\"}"
+      "custom_data": "{source: \"leaky_pockets\"}"
     },
     "action": [
       {

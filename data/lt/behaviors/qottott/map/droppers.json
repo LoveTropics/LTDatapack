@@ -3,9 +3,11 @@
     "type": "ltminigames:item_dropper",
     "loot": {
       "id": "ltextras:tropicoin",
-      "Count": 1,
-      "tag": {
-        "source": "dropper"
+      "count": 1,
+      "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
       }
     },
     "region": "coin_dispenser_level_1",
@@ -21,9 +23,11 @@
     "type": "ltminigames:item_dropper",
     "loot": {
       "id": "ltextras:tropicoin",
-      "Count": 1,
-      "tag": {
-        "source": "dropper"
+      "count": 1,
+        "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
       }
     },
     "region": "coin_dispenser_level_2",
@@ -39,9 +43,11 @@
     "type": "ltminigames:item_dropper",
     "loot": {
       "id": "ltextras:tropicoin",
-      "Count": 1,
-      "tag": {
-        "source": "dropper"
+      "count": 1,
+        "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
       }
     },
     "region": "coin_dispenser_level_3",
@@ -58,52 +64,47 @@
     "loot": [
       {
         "id": "minecraft:enchanted_golden_apple",
-        "Count": 1,
-        "tag": {
-          "power_up": "speed",
-          "display": {
-            "Name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
-          }
+        "components": {
+          "custom_data": {
+            "power_up": "speed"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
         }
       },
       {
         "id": "minecraft:enchanted_golden_apple",
-        "Count": 1,
-        "tag": {
-          "power_up": "knockback_resistance",
-          "display": {
-            "Name": "{\"translate\": \"ltminigames.minigame.qottott.knockback_resistance_power_up\", \"color\": \"green\"}"
-          }
+        "components": {
+          "custom_data": {
+            "power_up": "knockback_resistance"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.knockback_resistance_power_up\", \"color\": \"green\"}"
         }
       },
       {
         "id": "minecraft:enchanted_golden_apple",
-        "Count": 1,
-        "tag": {
-          "power_up": "resistance",
-          "display": {
-            "Name": "{\"translate\": \"ltminigames.minigame.qottott.resistance_power_up\", \"color\": \"gold\"}"
-          }
+        "components": {
+          "custom_data": {
+            "power_up": "resistance"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.resistance_power_up\", \"color\": \"gold\"}"
         }
       },
       {
         "id": "minecraft:enchanted_golden_apple",
-        "Count": 1,
-        "tag": {
-          "power_up": "pickup_priority",
-          "display": {
-            "Name": "{\"translate\": \"ltminigames.minigame.qottott.pickup_priority_power_up\", \"color\": \"yellow\"}"
-          }
+        "components": {
+          "custom_data": {
+            "power_up": "pickup_priority"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.pickup_priority_power_up\", \"color\": \"yellow\"}"
         }
       },
       {
         "id": "minecraft:enchanted_golden_apple",
-        "Count": 1,
-        "tag": {
-          "power_up": "health",
-          "display": {
-            "Name": "{\"translate\": \"ltminigames.minigame.qottott.health_power_up\", \"color\": \"red\"}"
-          }
+        "components": {
+          "custom_data": {
+            "power_up": "health"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.health_power_up\", \"color\": \"red\"}"
         }
       }
     ],
@@ -139,33 +140,30 @@
     "loot": [
       {
         "id": "ltminigames:plushie",
-        "Count": 1,
-        "tag": {
-          "cash_crab": true,
-          "entity": {
+        "components": {
+          "custom_data": {
+            "cash_crab": true
+          },
+          "ltminigames:entity": {
             "type": "tropicraft:fiddler_crab"
           },
-          "size": 4.5,
-          "display": {
-            "Name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
-            "Lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.description\",\"color\":\"blue\"}"]
-          },
-          "AttributeModifiers": [
+          "ltminigames:size": 4.5,
+          "custom_name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
+          "lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.description\",\"color\":\"blue\"}"],
+          "attribute_modifiers": [
             {
-              "AttributeName": "ltminigames:coin_drops",
-              "Name": "ltminigames:coin_drops",
-              "Amount": 0.2,
-              "Operation": 0,
-              "UUID": [-165644197, 1990414326, -1313898997, -19729470],
-              "Slot": "mainhand"
+              "id": "ltminigames:coin_drops",
+              "type": "ltminigames:coin_drops",
+              "amount": 0.2,
+              "operation": "add_value",
+              "slot": "mainhand"
             },
             {
-              "AttributeName": "generic.attack_damage",
-              "Name": "generic.attack_damage",
-              "Amount": 100,
-              "Operation": 0,
-              "UUID": [-1132199485, 2035633310, -1801346983, 1049462189],
-              "Slot": "mainhand"
+              "id": "generic.attack_damage",
+              "type": "generic.attack_damage",
+              "amount": 100,
+              "operation": "add_value",
+              "slot": "mainhand"
             }
           ]
         }

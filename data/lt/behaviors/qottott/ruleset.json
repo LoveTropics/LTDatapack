@@ -37,9 +37,10 @@
     "statistic": "points",
     "item": {
       "id": "ltextras:tropicoin",
-      "Count": 1,
-      "tag": {
-        "source": "dropper"
+      "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
       }
     }
   },
@@ -63,9 +64,10 @@
     "statistic": "points",
     "item": {
       "id": "ltextras:tropicoin",
-      "Count": 1,
-      "tag": {
-        "source": "leaky_pockets"
+      "components": {
+        "custom_data": {
+          "source": "leaky_pockets"
+        }
       }
     },
     "interval": 5

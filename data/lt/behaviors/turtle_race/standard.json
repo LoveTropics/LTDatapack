@@ -21,10 +21,10 @@
       "tag": {
         "Invulnerable": true,
         "NoAI": true,
-        "Attributes": [
+        "attributes": [
           {
-            "Base": 1.65,
-            "Name": "minecraft:generic.movement_speed"
+            "base": 1.65,
+            "id": "minecraft:generic.movement_speed"
           }
         ],
         "NoBrakesOnThisTrain": true

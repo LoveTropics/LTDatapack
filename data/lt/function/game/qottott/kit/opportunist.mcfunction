@@ -17,7 +17,7 @@ attribute @s generic.knockback_resistance base set 0.935
 attribute @s generic.max_health base set 8
 attribute @s generic.movement_speed base set 0.125
 attribute @s forge:step_height base set 2
-attribute @s forge:entity_gravity base set 0.1
+attribute @s minecraft:generic.gravity base set 0.1
 effect give @s jump_boost infinite 2 true
 
 effect give @s instant_health 5 5 true

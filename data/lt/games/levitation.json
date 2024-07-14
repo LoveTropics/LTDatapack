@@ -86,10 +86,9 @@
         "items": [
           {
             "id": "minecraft:fishing_rod",
-            "Count": 1,
-            "tag": {
-              "Unbreakable": true,
-              "undroppable": true
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
             }
           }
         ]

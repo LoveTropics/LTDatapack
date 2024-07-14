@@ -47,12 +47,17 @@
           "items": [
             {
               "id": "minecraft:netherite_pickaxe",
-              "Count": 1,
-              "tag": {
-                "Unbreakable": true,
-                "Enchantments":[{"id":"minecraft:efficiency","lvl":100}],
-                "CanDestroy":["minecraft:obsidian", "ltextras:delighted_obsidian"],
-                "undroppable": true
+              "components": {
+                "unbreakable": {},
+                "ltextras:undroppable": {},
+                "enchantments": {
+                  "levels": {
+                    "efficiency": 100
+                  },
+                  "can_break": {
+                    "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
+                  }
+                }
               }
             }
           ]

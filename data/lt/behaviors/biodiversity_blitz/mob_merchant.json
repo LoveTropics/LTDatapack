@@ -10,17 +10,15 @@
       {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 4
+          "count": 4
         },
         "output": {
           "id": "minecraft:rotten_flesh",
-          "Count": 1,
-          "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a husk to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+          "count": 1,
+          "components": {
+            "lore": [
+              "{\"text\": \"Send a husk to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "husk": 1
             }
@@ -30,17 +28,15 @@
       {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 8
+          "count": 8
         },
         "output": {
           "id": "minecraft:iron_nugget",
-          "Count": 1,
-          "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a pillager to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+          "count": 1,
+          "components": {
+            "lore": [
+              "{\"text\": \"Send a pillager to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "pillager": 1
             }
@@ -50,17 +46,15 @@
 	  {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 14
+          "count": 14
         },
         "output": {
           "id": "minecraft:gold_nugget",
-          "Count": 1,
+          "count": 1,
           "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a zombified piglin to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+            "components": [
+              "{\"text\": \"Send a zombified piglin to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "pigman": 1
             }
@@ -70,17 +64,15 @@
 	  {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 20
+          "count": 20
         },
         "output": {
           "id": "minecraft:iron_axe",
-          "Count": 1,
-          "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a vindicator to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+          "count": 1,
+          "components": {
+            "lore": [
+              "{\"text\": \"Send a vindicator to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "vindicator": 1
             }
@@ -90,17 +82,15 @@
 	  {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 28
+          "count": 28
         },
         "output": {
           "id": "minecraft:carrot_on_a_stick",
-          "Count": 1,
-          "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a zoglin to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+          "count": 1,
+          "components": {
+            "lore": [
+              "{\"text\": \"Send a zoglin to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "zoglin": 1
             }
@@ -110,17 +100,15 @@
       {
         "input": {
           "id": "ltminigames:osa_point",
-          "Count": 32
+          "count": 32
         },
         "output": {
           "id": "minecraft:gunpowder",
-          "Count": 1,
-          "tag": {
-            "display": {
-              "Lore": [
-                "{\"text\": \"Send a creeper to the other side!\",\"color\":\"red\"}"
-              ]
-            },
+          "count": 1,
+          "components": {
+            "lore": [
+              "{\"text\": \"Send a creeper to the other side!\",\"color\":\"red\"}"
+            ],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "creeper": 1
             }

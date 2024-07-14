@@ -5,18 +5,15 @@
     "places": "pumpkin",
     "item": {
       "id": "minecraft:pumpkin",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip\",\"color\":\"aqua\"}"
-          ],
-          "ShiftLore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip\",\"color\":\"aqua\"}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },

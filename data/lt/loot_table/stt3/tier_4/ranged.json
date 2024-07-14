@@ -32,7 +32,7 @@
                             "components": {
                                 "custom_name": "{\"text\":\"Super Rocket\",\"color\":\"red\",\"italic\":false}",
                                 "lore": [
-                                    "{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}'"
+                                    "{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}"
                                 ],
                                 "fireworks": {
                                     "explosions": [

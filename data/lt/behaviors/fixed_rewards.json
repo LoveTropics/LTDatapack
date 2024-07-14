@@ -8,7 +8,7 @@
       "items": [
         {
           "id": "ltextras:tropicoin",
-          "Count": "$coins"
+          "count": "$coins"
         }
       ]
     }

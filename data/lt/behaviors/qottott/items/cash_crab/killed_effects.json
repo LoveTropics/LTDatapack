@@ -41,7 +41,7 @@
   {
     "type": "ltminigames:spawn_particles_around_player",
     "particles": [
-      {"type": "block", "value": {"Name": "minecraft:bone_block"}}
+      {"type": "block", "block_state": {"Name": "minecraft:bone_block"}}
     ],
     "repeats": 50,
     "position": [0.0, 0.9, 0.0],

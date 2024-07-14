@@ -8,17 +8,19 @@
         "type": "minecraft:armor_stand",
         "tag": {
           "ShowArms": true,
-          "HandItems": [{"id": "minecraft:wooden_sword", "Count": 1, "tag": {"Enchantments": []}}, {}],
+          "HandItems": [{"id": "minecraft:wooden_sword", "components": {"enchantment_glint_override": true}}, {}],
           "ArmorItems": [
             {},
             {},
             {
               "id": "minecraft:leather_chestplate",
-              "Count": 1,
-              "tag": {
-                "display": {"color": 16082146},
-                "Enchantments": [],
-                "Trim": {"material": "minecraft:amethyst", "pattern": "minecraft:wayfinder"}
+              "components": {
+                "enchantment_glint_override": true,
+                "dyed_color": 16082146,
+                "trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:wayfinder"
+                }
               }
             },
             {}
@@ -34,17 +36,19 @@
         "type": "minecraft:armor_stand",
         "tag": {
           "ShowArms": true,
-          "HandItems": [{"id": "minecraft:wooden_axe", "Count": 1, "tag": {"Enchantments": []}}, {}],
+          "HandItems": [{"id": "minecraft:wooden_axe", "components": {"enchantment_glint_override": true}}, {}],
           "ArmorItems": [
             {},
             {},
             {
               "id": "minecraft:leather_chestplate",
-              "Count": 1,
-              "tag": {
-                "display": {"color": 65527},
-                "Enchantments": [],
-                "Trim": {"material": "minecraft:quartz", "pattern": "minecraft:vex"}
+              "components": {
+                "enchantment_glint_override": true,
+                "dyed_color": 65527,
+                "trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:vex"
+                }
               }
             },
             {}
@@ -60,17 +64,19 @@
         "type": "minecraft:armor_stand",
         "tag": {
           "ShowArms": true,
-          "HandItems": [{"id": "minecraft:stick", "Count": 1, "tag": {"Enchantments": []}}, {}],
+          "HandItems": [{"id": "minecraft:stick", "components": {"enchantment_glint_override": true}}, {}],
           "ArmorItems": [
             {},
             {},
             {
               "id": "minecraft:leather_chestplate",
-              "Count": 1,
-              "tag": {
-                "display": {"color": 16742144},
-                "Enchantments": [],
-                "Trim": {"material": "minecraft:redstone", "pattern": "minecraft:coast"}
+              "components": {
+                "enchantment_glint_override": true,
+                "dyed_color": 16742144,
+                "trim": {
+                  "material": "minecraft:redstone",
+                  "pattern": "minecraft:coast"
+                }
               }
             },
             {}

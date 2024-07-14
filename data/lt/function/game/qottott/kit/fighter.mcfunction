@@ -3,7 +3,7 @@ function lt:game/qottott/kit/reset_attributes
 
 # Kit Thesis (No knockback, High Knock Res, Low Health, Moderate Damage.
 
-# forge:step_height forge:entity_gravity
+# forge:step_height minecraft:generic.gravity
 
 
 # Chest (Color) 0AFFF7

@@ -5,19 +5,16 @@
     "places": "crocosmia",
     "item": {
       "id": "tropicraft:crocosmia",
-      "Count": 1,
-      "tag": {
-        "display": {
-          "Lore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
-          ],
-          "ShiftLore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
-          ]
-        }
+      "components": {
+        "lore": [
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip\",\"color\": \"aqua\"}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+        ],
+        "ltminigames:shift_lore": [
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.crocosmia.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
+        ]
       }
     }
   },

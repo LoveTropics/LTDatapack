@@ -6,7 +6,7 @@
       "items": [
         {
           "id": "ltextras:tropicoin",
-          "Count": 25
+          "count": 25
         }
       ]
     },
@@ -15,7 +15,7 @@
       "items": [
         {
           "id": "ltextras:tropicoin",
-          "Count": 15
+          "count": 15
         }
       ]
     },
@@ -24,7 +24,7 @@
       "items": [
         {
           "id": "ltextras:tropicoin",
-          "Count": 10
+          "count": 10
         }
       ]
     }
@@ -34,7 +34,7 @@
     "items": [
       {
         "id": "ltextras:tropicoin",
-        "Count": 5
+        "count": 5
       }
     ]
   }

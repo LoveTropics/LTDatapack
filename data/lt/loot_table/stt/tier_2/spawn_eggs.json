@@ -16,6 +16,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "entity_data": {
+                                    "id": "creeper",
                                     "Tags": ["game.stt.placed_mob"]
                                 },
                                 "can_place_on": {}
@@ -39,6 +40,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "entity_data": {
+                                    "id": "skeleton",
                                     "Tags": ["game.stt.placed_mob"]
                                 },
                                 "can_place_on": {}
@@ -62,6 +64,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "entity_data": {
+                                    "id": "guardian",
                                     "Tags": ["game.stt.placed_mob"]
                                 },
                                 "can_place_on": {}

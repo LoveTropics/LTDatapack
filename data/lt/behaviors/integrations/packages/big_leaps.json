@@ -8,10 +8,10 @@
   "donation_amount": "$donation_amount",
   "seconds": 120,
   "attribute": {
-    "type": "forge:entity_gravity",
-    "id": "5d0adbd1-5e6e-4468-9cfc-0914d3998b11",
+    "type": "minecraft:generic.gravity",
+    "id": "ltminigames:low_gravity",
     "name": "low_gravity_package",
     "amount": -0.6,
-    "operation": "multiply_total"
+    "operation": "add_multiplied_total"
   }
 }
