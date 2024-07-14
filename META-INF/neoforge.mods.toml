@@ -1,5 +1,5 @@
 modLoader="lowcodefml"
-loaderVersion="[40,)"
+loaderVersion = "[2,)"
 authors="LoveTropics"
 license="ARR"
 
