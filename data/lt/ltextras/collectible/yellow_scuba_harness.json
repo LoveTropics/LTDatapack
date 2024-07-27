@@ -1,0 +1,15 @@
+{
+  "item": "tropicraft:yellow_scuba_harness",
+  "components": {
+    "ltextras:undroppable": {},
+    "tropicraft:scuba_air": 9216000,
+    "item_name": "{\"translate\":\"item.tropicraft.yellow_scuba_harness\",\"color\":\"#BFEA00\"}",
+    "lore": [
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.purchased\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.chest\",\"color\":\"gray\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.yellow_scuba_harness.tooltip.add_air\",\"color\":\"blue\",\"italic\":false}"
+    ]
+  }
+}
