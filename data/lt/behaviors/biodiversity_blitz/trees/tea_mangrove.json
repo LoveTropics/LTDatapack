@@ -8,7 +8,7 @@
       "components": {
         "lore": [
           "{\"text\": \"Grows into a tea mangrove and produces pianguas.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
         ],
         "ltminigames:shift_lore": [
           "{\"text\": \"Grows into a Tea mangrove after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",

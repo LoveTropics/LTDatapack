@@ -8,7 +8,7 @@
       "components": {
         "lore": [
           "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.beetroot.tooltip\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
         ]
       }
     }

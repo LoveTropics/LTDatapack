@@ -8,7 +8,7 @@
       "components": {
         "lore": [
           "{\"text\": \"Grows into a black mangrove.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
         ]
       }
     }

@@ -4,11 +4,11 @@
     "id": "grass",
     "places": "grass",
     "item": {
-      "id": "minecraft:grass",
+      "id": "minecraft:short_grass",
       "components": {
         "lore": [
           "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.grass.tooltip\",\"color\":\"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
         ],
         "ltminigames:shift_lore": [
           "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.grass.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
@@ -26,7 +26,7 @@
     "behaviors": [
       {
         "type": "ltminigames:place_single_plant",
-        "block": "minecraft:grass"
+        "block": "minecraft:short_grass"
       },
       {
         "type": "ltminigames:drop_plant_item",

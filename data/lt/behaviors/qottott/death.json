@@ -38,7 +38,7 @@
       },
       {
         "type": "ltminigames:play_sound",
-        "sound": "ltminigames:coin",
+        "sound": "ltminigames:coins",
         "source": "player",
         "pitch": 1.0
       }

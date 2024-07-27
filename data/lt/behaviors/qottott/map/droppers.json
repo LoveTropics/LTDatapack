@@ -122,10 +122,8 @@
     },
     "interval_ticks": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 300,
-        "max_inclusive": 600
-      }
+      "min_inclusive": 300,
+      "max_inclusive": 600
     },
     "beacon": true,
     "sound": {
@@ -190,10 +188,8 @@
     },
     "interval_ticks": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 400,
-        "max_inclusive": 600
-      }
+      "min_inclusive": 400,
+      "max_inclusive": 600
     }
   }
 ]

@@ -8,7 +8,7 @@
       "components": {
         "lore": [
           "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.staple\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"purple\",\"italic\": true}"
+          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
         ],
         "ltminigames:shift_lore": [
           "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.wheat.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
