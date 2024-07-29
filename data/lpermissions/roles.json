@@ -1,0 +1,163 @@
+{
+  "organiser": {
+    "includes": [
+      "administration"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "style": "#2ecc71"
+      }
+    }
+  },
+  "live": {
+    "includes": [
+      "host"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "▶ ",
+          "color": "red"
+        },
+        "style": "#e91e63"
+      },
+      "host": true
+    }
+  },
+  "host": {
+    "overrides": {
+      "name_decoration": {
+        "style": "#E91E63"
+      },
+      "commands": {
+        "fly": "allow",
+        "gamemode": "allow"
+      }
+    }
+  },
+  "mojangsta": {
+    "includes": [
+      "privileged"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "style": "#d84283"
+      }
+    }
+  },
+  "moderator": {
+    "includes": [
+      "moderation",
+      "privileged",
+      "building"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "style": "#3498db"
+      }
+    }
+  },
+  "builder": {
+    "includes": [
+      "building"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "style": "#a95cdd"
+      }
+    }
+  },
+  "modder": {
+    "includes": [
+      "privileged"
+    ],
+    "overrides": {
+      "name_decoration": {
+        "style": "#9b6565"
+      }
+    }
+  },
+  "helper": {
+    "overrides": {
+      "name_decoration": {
+        "style": "#30f0a7"
+      }
+    }
+  },
+  "administration": {
+    "overrides": {
+      "commands": {
+        ".*": "allow"
+      }
+    }
+  },
+  "building": {
+    "overrides": {
+      "commands": {}
+    }
+  },
+  "moderation": {
+    "overrides": {
+      "commands": {
+        "kick": "allow",
+        "ban": "allow",
+        "ban-ip": "allow",
+        "pardon": "allow",
+        "pardon-ip": "allow",
+        "banlist": "allow",
+        "give": "allow",
+        "unban": "allow"
+      }
+    }
+  },
+  "privileged": {
+    "overrides": {
+      "commands": {
+        "tp": "allow",
+        "fly": "allow",
+        "game": "allow",
+        "gamemode .*": "allow"
+      }
+    }
+  },
+  "build_mode": {
+    "overrides": {
+      "commands": {
+        "fly": "allow"
+      }
+    }
+  },
+  "in_tutorial": {
+    "overrides": {
+      "commands": {
+        ".*": "deny"
+      }
+    }
+  },
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "help": "allow",
+        "game join": "allow",
+        "game spectate": "allow",
+        "game play": "allow",
+        "game leave": "allow",
+        "game register": "allow",
+        "me": "allow",
+        "w": "allow",
+        "tell": "allow",
+        "msg": "allow",
+        "chat": "allow",
+        "shout": "allow",
+        "spawnitems": "allow",
+        "tpa": "allow",
+        "tpaccept": "allow",
+        "warp": "allow",
+        "tools": "allow",
+        "about": "allow",
+        "spawn": "allow",
+        "((?!title|tellraw|give).)*": "deny"
+      }
+    }
+  }
+}

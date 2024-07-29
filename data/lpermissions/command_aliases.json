@@ -1,0 +1,23 @@
+{
+  "updatehosts": "function lt:utility/hosts/hosts_dummy",
+  "tools": "function lt:utility/buildmode/checker",
+  "spawn": "warp spawn",
+  "about shops": "function lt:welcome_center/info/shops",
+  "about parkour": "function lt:welcome_center/info/parkour",
+  "about crab_golf": "function lt:welcome_center/info/crab_golf",
+  "about dropper": "function lt:welcome_center/info/dropper",
+  "about elytra_course": "function lt:welcome_center/info/elytra_course",
+  "about minigames": "function lt:welcome_center/info/minigames",
+  "about theatre": "function lt:welcome_center/info/theatre",
+  "about free_build": "function lt:welcome_center/info/free_build",
+  "about edu": "function lt:welcome_center/info/edu",
+  "about minigames biodiversity_blitz": "function lt:welcome_center/info/minigame/biodiversity_blitz",
+  "about minigames qottott": "function lt:welcome_center/info/minigame/qottott",
+  "about minigames spleef": "function lt:welcome_center/info/minigame/spleef",
+  "about minigames levitation": "function lt:welcome_center/info/minigame/levitation",
+  "about minigames block_party": "function lt:welcome_center/info/minigame/block_party",
+  "about minigames calamity": "function lt:welcome_center/info/minigame/calamity",
+  "about minigames turtle_race": "function lt:welcome_center/info/minigame/turtle_race",
+  "about minigames trash_dive": "function lt:welcome_center/info/minigame/trash_dive",
+  "about minigames survive_the_tide": "function lt:welcome_center/info/minigame/survive_the_tide"
+}
