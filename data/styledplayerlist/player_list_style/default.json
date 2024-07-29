@@ -1,0 +1,19 @@
+{
+  "style_name": "Default",
+  "update_tick_time": 20,
+  "list_header": [
+    "",
+    " <color:#c76035>♥</color><gr:#afe0d0:#ffffff><bold> Love Tropics '23</bold></gr> <color:#c76035>♥</color> ",
+    "<color:gold>%ltdonations:total%</color> raised",
+    "",
+    "<color:#5ebfa1><strikethrough>                </strikethrough>[ </color><color:#c76035>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#5ebfa1> ]<strikethrough>                </strikethrough></color>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<color:#5ebfa1><strikethrough>                                          </strikethrough></color>",
+    "Next up: <color:#c76035>%ltextras:schedule/next/hosts%",
+    "at <color:aqua>%ltextras:schedule/next/start%</color> (in <color:aqua>%ltextras:schedule/next/time_until%</color>)"
+  ],
+  "hidden_in_commands": false
+}

@@ -1,0 +1,11 @@
+{
+  "config_version": 2,
+  "__comment": "Before changing anything, see https://github.com/Patbox/StyledPlayerList#configuration",
+  "player": {
+    "modify_name": false,
+    "passthrough": false,
+    "hidden": false,
+    "format": "%player:displayname%"
+  },
+  "client_show_in_singleplayer": true
+}
