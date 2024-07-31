@@ -1,0 +1,46 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.moon_boots.description\",\"color\":\"gray\"}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.moon_boots.tooltip.subtract_gravity\",\"color\":\"blue\",\"italic\":false}"
+    ],
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "amount": -0.9,
+          "slot": "feet",
+          "id": "minecraft:fe4324c2-4961-4c49-8793-54e0864c087c",
+          "type": "minecraft:generic.gravity",
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "show_in_tooltip": 0
+    },
+    "minecraft:enchantments": {
+      "show_in_tooltip": 0,
+      "levels": {}
+    },
+    "minecraft:unbreakable": {
+      "show_in_tooltip": 0
+    },
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.moon_boots.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
+    "minecraft:custom_data": {
+      "ParkourBlacklist": 1
+    },
+    "minecraft:trim": {
+      "material": "minecraft:gold",
+      "pattern": "minecraft:snout",
+      "show_in_tooltip": 0
+    },
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 16772589,
+      "show_in_tooltip": 0
+    }
+  },
+  "item": "minecraft:leather_boots"
+}

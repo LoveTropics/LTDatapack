@@ -1,0 +1,24 @@
+{
+  "components": {
+    "minecraft:custom_name": "{\"translate\":\"item.tropicraft.nigel_stache\",\"color\":\"#5ABDA3\",\"italic\":false}",
+    "minecraft:enchantment_glint_override": 1,
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.nigels_moustache.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+      "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"item.tropicraft.nigel_stache\",\"color\":\"blue\",\"italic\":false}]"
+    ],
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:enchantments": {
+      "show_in_tooltip": 0,
+      "levels": {}
+    },
+    "minecraft:dyed_color": {
+      "rgb": 10511680,
+      "show_in_tooltip": 0
+    }
+  },
+  "item": "tropicraft:nigel_stache"
+}

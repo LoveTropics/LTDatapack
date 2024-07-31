@@ -1,0 +1,29 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.trident_of_traversal.description.1\",\"color\":\"gray\"}",
+      "{\"translate\":\"lt.collectible.trident_of_traversal.description.2\",\"color\":\"gray\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": 0,
+      "levels": {
+        "minecraft:riptide": 5
+      }
+    },
+    "minecraft:unbreakable": {
+      "show_in_tooltip": 0
+    },
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.trident_of_traversal.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
+    "minecraft:custom_data": {
+      "ParkourBlacklist": 1
+    },
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 10511680,
+      "show_in_tooltip": 0
+    }
+  },
+  "item": "minecraft:trident"
+}

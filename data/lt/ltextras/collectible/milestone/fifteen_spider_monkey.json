@@ -1,0 +1,30 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.milestone.15000.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.milestone\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.disguise.tooltip.subtract_player\",\"color\":\"blue\",\"italic\":false}",
+      "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.tropicraft.spider_monkey\",\"color\":\"blue\",\"italic\":false}]"
+    ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": 0,
+      "levels": {}
+    },
+    "ltminigames:disguise": {
+      "entity": {
+        "type": "tropicraft:spider_monkey"
+      }
+    },
+    "minecraft:custom_name": "[{\"translate\":\"entity.tropicraft.spider_monkey\",\"color\":\"#DB6634\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"lt.collectible.disguise.name.suffix\",\"color\":\"#DB6634\",\"italic\":false}]",
+    "minecraft:enchantment_glint_override": 1,
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 10511680,
+      "show_in_tooltip": 0
+    }
+  },
+  "item": "ltminigames:disguise"
+}

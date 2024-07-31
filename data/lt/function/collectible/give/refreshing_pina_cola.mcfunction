@@ -1,5 +1,0 @@
-# Summon command
-# summon ltextras:collectible ~ ~ ~ {Tags:["island.colada"],collectible:{item:"tropicraft:pina_colada",tag:{SpawnColada:1b,display:{Name:'{"translate":"lt.collectible.refreshing_pina_colada.name","color":"gold","italic":false,"bold":true}',Lore:['{"translate":"lt.collectible.refreshing_pina_colada.description","color":"gray"}','{"text":" "}','{"translate":"lt.collectible.generic.modifiers.when_consumed","color":"gray","italic":false}','{"translate":"lt.collectible.refreshing_pina_colada.tooltip.???","color":"blue","italic":false}']}}}}
-
-collectible give @s tropicraft:pina_colada{SpawnColada:1b,display:{Name:'{"translate":"lt.collectible.refreshing_pina_colada.name","color":"gold","italic":false,"bold":true}',Lore:['{"translate":"lt.collectible.refreshing_pina_colada.description","color":"gray"}','{"text":" "}','{"translate":"lt.collectible.generic.modifiers.when_consumed","color":"gray","italic":false}','{"translate":"lt.collectible.refreshing_pina_colada.tooltip.???","color":"blue","italic":false}']}}
-
