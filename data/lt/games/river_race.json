@@ -1,0 +1,16 @@
+{
+  "name": {"translate": "ltminigames.minigame.river_race"},
+  "statistics_key": "river_race",
+  "backend_id": "lt:river_race",
+  "minimum_participants": 1,
+  "maximum_participants": 40,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:river_race",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "is_multi_game": true,
+  "behaviors": [
+    "lt:river_race/common"
+  ]
+}
