@@ -1,0 +1,68 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "participant"
+  },
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:microgames",
+    "games": [
+      "ltminigames:block_party"
+    ]
+  },
+  {
+    "type": "ltminigames:trivia",
+    "zones": [
+      {
+        "zone_id": 1,
+        "questions": [
+          {
+            "difficulty": "easy",
+            "question": "Can you dye sheep?",
+            "answers": [
+              {
+                "text": "Yes",
+                "correct": true
+              },
+              {
+                "text": "Maybe?",
+                "correct": false
+              },
+              {
+                "text": "Absolutely Not.",
+                "correct": false
+              },
+              {
+                "text": "Once in a blue moon?",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "difficulty": "hard",
+            "question": "Moon is red?",
+            "answers": [
+              {
+                "text": "No",
+                "correct": true
+              },
+              {
+                "text": "Perhaps?",
+                "correct": false
+              },
+              {
+                "text": "If it's a blood moon.",
+                "correct": false
+              },
+              {
+                "text": "I don't know!",
+                "correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
