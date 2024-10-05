@@ -12,6 +12,18 @@
     ]
   },
   {
+    "type": "ltminigames:victory_points",
+    "points_per_question": 1,
+    "points_per_block_collected": 1,
+    "points_per_game_won": 1
+  },
+  "lt:teams/red_blue",
+  "ltminigames:teams",
+  {
+    "type": "ltminigames:team_chat",
+    "chat_type": "lt:team_chat"
+  },
+  {
     "type": "ltminigames:trivia",
     "zones": [
       {
