@@ -8,8 +8,10 @@
   {
     "type": "ltminigames:microgames",
     "games": [
-      "ltminigames:block_party"
-    ]
+      "lt:block_party",
+      "lt:block_party"
+    ],
+    "games_per_round": 2
   },
   {
     "type": "ltminigames:victory_points",
