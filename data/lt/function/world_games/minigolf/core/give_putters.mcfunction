@@ -3,3 +3,6 @@ give @s golden_hoe{display:{Name:'{"translate":"lt.golf.soft_putter","color":"li
 give @s iron_hoe{display:{Name:'{"translate":"lt.golf.putter","color":"light_purple","italic":false}',Lore:['{"translate":"lt.golf.putter.info","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:3s}],Tags:[golf],undroppable:true} 1
 give @s diamond_hoe{display:{Name:'{"translate":"lt.golf.powerful_driver","color":"light_purple","italic":false}',Lore:['{"translate":"lt.golf.powerful_driver.info","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:4s}],Tags:[golf],undroppable:true} 1
 give @s netherite_hoe{display:{Name:'{"translate":"lt.golf.potent_driver","color":"light_purple","italic":false}',Lore:['{"translate":"lt.golf.potent_driver.info","color":"white"}']},HideFlags:127,Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:5s}],Tags:[golf],undroppable:true} 1
+
+
+give DinnerBeef minecraft:stone_hoe[custom_name='{"translate":"lt.golf.gentle_putter","color":"light_purple","italic":false}',lore=['{"translate":"lt.golf.gentle_putter.info","color":"white"}'],ltextras:undroppable={},hide_additional_tooltip={},minecraft:custom_data={lt:golf},unbreakable={},enchantments={levels:{knockback:1},show_in_tooltip:false}]
