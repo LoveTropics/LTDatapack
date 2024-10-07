@@ -1,0 +1,13 @@
+# Project created via BDEngine
+
+data merge entity @e[type=block_display,tag=group_11726537189411_17_0,limit=1] {transformation:[-0.3367f,0.0976f,-0.0696f,-0.3822f,-0.1889f,0.0597f,0.1166f,0.3190f,0.6042f,0.0730f,-0.0023f,-0.7740f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=group_11726537189411_17_0,limit=1] {transformation:[-0.3367f,0.0976f,-0.0696f,-0.3822f,-0.1889f,0.0597f,0.1166f,0.3190f,0.6042f,0.0730f,-0.0023f,-0.7740f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=group_11726537189411_17_0,limit=1] {transformation:[-0.3367f,0.0976f,-0.0696f,-0.3822f,-0.1889f,0.0597f,0.1166f,0.3190f,0.6042f,0.0730f,-0.0023f,-0.7740f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=block_display,tag=group_11726537189411_17_1,limit=1] {transformation:[-0.0956f,0.0976f,-0.0696f,-0.2745f,-0.0536f,0.0597f,0.1166f,0.3794f,0.1715f,0.0730f,-0.0023f,-0.9673f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=group_11726537189411_17_1,limit=1] {transformation:[-0.0956f,0.0976f,-0.0696f,-0.2745f,-0.0536f,0.0597f,0.1166f,0.3794f,0.1715f,0.0730f,-0.0023f,-0.9673f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=group_11726537189411_17_1,limit=1] {transformation:[-0.0956f,0.0976f,-0.0696f,-0.2745f,-0.0536f,0.0597f,0.1166f,0.3794f,0.1715f,0.0730f,-0.0023f,-0.9673f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=block_display,tag=group_11726537189411_17_2,limit=1] {transformation:[-0.0418f,-0.0695f,-0.0977f,-0.2823f,-0.0235f,0.1165f,-0.0598f,0.4127f,0.0750f,-0.0023f,-0.0731f,-1.0471f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=group_11726537189411_17_2,limit=1] {transformation:[-0.0418f,-0.0695f,-0.0977f,-0.2823f,-0.0235f,0.1165f,-0.0598f,0.4127f,0.0750f,-0.0023f,-0.0731f,-1.0471f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=group_11726537189411_17_2,limit=1] {transformation:[-0.0418f,-0.0695f,-0.0977f,-0.2823f,-0.0235f,0.1165f,-0.0598f,0.4127f,0.0750f,-0.0023f,-0.0731f,-1.0471f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+
+schedule function project:animate/animation_keyframe1_17 0.1s
