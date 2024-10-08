@@ -10,16 +10,16 @@
       "{\"translate\":\"lt.collectible.interdimensional_umbrella.tooltip.add_slow_fall\",\"color\":\"blue\",\"italic\":false}"
     ],
     "minecraft:custom_data": {
-      "ParkourBlacklist": 1
+      "ParkourBlacklist": true
     },
     "minecraft:hide_additional_tooltip": {},
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "ltminigames:acid_repellent_umbrella"

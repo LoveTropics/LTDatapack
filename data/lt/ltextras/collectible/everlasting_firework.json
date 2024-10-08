@@ -2,14 +2,14 @@
   "components": {
     "ltextras:cooldown_override": 100,
     "minecraft:custom_name": "{\"translate\":\"lt.collectible.everlasting_firework.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
-    "minecraft:enchantment_glint_override": 1,
+    "minecraft:enchantment_glint_override": true,
     "minecraft:lore": [
       "{\"translate\":\"lt.collectible.everlasting_firework.description\",\"color\":\"gray\"}",
       "{\"text\":\" \"}",
       "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}"
     ],
     "minecraft:custom_data": {
-      "ParkourBlacklist": 1
+      "ParkourBlacklist": true
     },
     "minecraft:fireworks": {
       "explosions": [],

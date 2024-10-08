@@ -10,7 +10,7 @@
     ],
     "ltminigames:entity": {
       "tag": {
-        "standing": 1
+        "standing": true
       },
       "type": "tropicraft:spider_monkey"
     }

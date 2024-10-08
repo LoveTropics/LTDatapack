@@ -8,7 +8,7 @@
       "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"scuba.tropicraft.scuba.visibility\",\"color\":\"blue\",\"italic\":false}]"
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "ltextras:undroppable": {},
@@ -16,7 +16,7 @@
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "tropicraft:pink_scuba_goggles"

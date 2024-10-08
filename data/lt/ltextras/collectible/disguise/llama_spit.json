@@ -9,7 +9,7 @@
       "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.minecraft.llama_spit\",\"color\":\"blue\",\"italic\":false}]"
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "ltminigames:disguise": {
@@ -19,11 +19,11 @@
       }
     },
     "minecraft:custom_name": "[{\"translate\":\"entity.minecraft.llama_spit\",\"color\":\"#5ABDA3\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"lt.collectible.disguise.name.suffix\",\"color\":\"#5ABDA3\",\"italic\":false}]",
-    "minecraft:enchantment_glint_override": 1,
+    "minecraft:enchantment_glint_override": true,
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "ltminigames:disguise"

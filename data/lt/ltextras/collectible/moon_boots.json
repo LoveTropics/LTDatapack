@@ -18,28 +18,28 @@
           "operation": "add_multiplied_total"
         }
       ],
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "minecraft:unbreakable": {
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:custom_name": "{\"translate\":\"lt.collectible.moon_boots.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
     "minecraft:custom_data": {
-      "ParkourBlacklist": 1
+      "ParkourBlacklist": true
     },
     "minecraft:trim": {
       "material": "minecraft:gold",
       "pattern": "minecraft:snout",
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 16772589,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "minecraft:leather_boots"

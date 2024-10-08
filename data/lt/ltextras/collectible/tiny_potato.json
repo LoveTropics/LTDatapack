@@ -23,12 +23,12 @@
     ],
     "minecraft:hide_additional_tooltip": {},
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "minecraft:player_head"

@@ -10,26 +10,26 @@
       "{\"translate\":\"lt.collectible.rocket_boots.tooltip.add_reckless_abandon\",\"color\":\"blue\",\"italic\":false}"
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "minecraft:unbreakable": {
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:custom_name": "{\"translate\":\"lt.collectible.rocket_boots.name\",\"color\":\"#005958\",\"italic\":false}",
     "minecraft:custom_data": {
-      "ParkourBlacklist": 1,
-      "RocketBoots": 1
+      "ParkourBlacklist": true,
+      "RocketBoots": true
     },
     "minecraft:trim": {
       "material": "minecraft:redstone",
       "pattern": "minecraft:eye",
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "minecraft:netherite_boots"

@@ -8,7 +8,7 @@
       "{\"translate\":\"lt.collectible.yellow_scuba_harness.tooltip.add_air\",\"color\":\"blue\",\"italic\":false}"
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {}
     },
     "ltextras:undroppable": {},
@@ -16,7 +16,7 @@
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "tropicraft:scuba_air": 9216000
   },

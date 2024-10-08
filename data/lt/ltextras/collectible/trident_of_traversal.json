@@ -7,22 +7,22 @@
       "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}"
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": 0,
+      "show_in_tooltip": false,
       "levels": {
         "minecraft:riptide": 5
       }
     },
     "minecraft:unbreakable": {
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     },
     "minecraft:custom_name": "{\"translate\":\"lt.collectible.trident_of_traversal.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
     "minecraft:custom_data": {
-      "ParkourBlacklist": 1
+      "ParkourBlacklist": true
     },
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
       "rgb": 10511680,
-      "show_in_tooltip": 0
+      "show_in_tooltip": false
     }
   },
   "item": "minecraft:trident"

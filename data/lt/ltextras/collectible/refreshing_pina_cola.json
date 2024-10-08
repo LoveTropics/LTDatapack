@@ -9,7 +9,7 @@
       "{\"translate\":\"lt.collectible.refreshing_pina_colada.tooltip.???\",\"color\":\"blue\",\"italic\":false}"
     ],
     "minecraft:custom_data": {
-      "SpawnColada": 1
+      "SpawnColada": true
     }
   },
   "item": "tropicraft:cocktail"
