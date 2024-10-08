@@ -14,7 +14,7 @@
           "amount": 3.0,
           "slot": "feet",
           "id": "minecraft:5697552a-91d4-4c3d-970b-35916e692325",
-          "type": "forge:step_height",
+          "type": "generic.step_height",
           "operation": "add_value"
         }
       ],

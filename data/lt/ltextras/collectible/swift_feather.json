@@ -14,7 +14,7 @@
         {
           "amount": 1,
           "id": "minecraft:7fef02bc-fded-4b1d-be18-537fd25fca78",
-          "type": "forge:step_height",
+          "type": "generic.step_height",
           "operation": "add_value"
         },
         {
