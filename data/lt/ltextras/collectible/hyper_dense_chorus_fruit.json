@@ -1,0 +1,16 @@
+{
+  "components": {
+    "ltextras:cooldown_override": 40,
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.hyper_dense_chorus_fruit.name\",\"color\":\"#BFEA00\",\"italic\":false}",
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.hyper_dense_chorus_fruit.description\",\"color\":\"gray\"}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.purchased\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:custom_data": {
+      "ParkourBlacklist": true
+    }
+  },
+  "item": "minecraft:chorus_fruit"
+}

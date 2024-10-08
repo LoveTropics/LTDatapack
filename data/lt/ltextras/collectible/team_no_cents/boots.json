@@ -1,0 +1,28 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.team_no_cents.generic.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": false,
+      "levels": {}
+    },
+    "minecraft:unbreakable": {
+      "show_in_tooltip": false
+    },
+    "minecraft:custom_name": "[{\"translate\":\"lt.collectible.team_no_cents.boots.name\",\"color\":\"#005958\",\"italic\":false}]",
+    "minecraft:trim": {
+      "material": "gold",
+      "pattern": "wild",
+      "show_in_tooltip": false
+    },
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 11546150,
+      "show_in_tooltip": false
+    }
+  },
+  "item": "minecraft:leather_boots"
+}

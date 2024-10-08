@@ -1,0 +1,21 @@
+{
+  "components": {
+    "minecraft:custom_name": "[{\"translate\":\"block.minecraft.amethyst_cluster\",\"color\":\"#5ABDA3\",\"italic\":false},{\"translate\":\" \"},{\"translate\":\"lt.collectible.hat.name.suffix\",\"color\":\"#5ABDA3\",\"italic\":false}]",
+    "minecraft:lore": [
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+      "[{\"text\": \" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.minecraft.falling_block\",\"color\":\"blue\",\"italic\":false}]"
+    ],
+    "ltminigames:entity": {
+      "tag": {
+        "BlockState": {
+          "Name": "minecraft:amethyst_cluster"
+        }
+      },
+      "type": "minecraft:falling_block"
+    }
+  },
+  "item": "ltminigames:mob_hat"
+}

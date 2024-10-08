@@ -1,0 +1,71 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.milestone.25000.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.milestone\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.disguise.tooltip.subtract_player\",\"color\":\"blue\",\"italic\":false}",
+      "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"lt.collectible.col_cojo.name\",\"color\":\"blue\",\"italic\":false}]"
+    ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": false,
+      "levels": {}
+    },
+    "ltminigames:disguise": {
+      "entity": {
+        "tag": {
+          "ProfileID": [
+            -1505211345,
+            -855292401,
+            -2116995351,
+            764383134
+          ],
+          "ArmorItems": [
+            {},
+            {},
+            {},
+            {
+              "id": "tropicraft:cool_shades",
+              "Count": 1
+            }
+          ],
+          "Pose": {
+            "RightArm": [
+              0.0,
+              0.0,
+              91.0
+            ],
+            "LeftArm": [
+              0.0,
+              261.0,
+              268.0
+            ]
+          },
+          "NoBasePlate": true,
+          "ShowArms": true,
+          "HandItems": [
+            {
+              "id": "minecraft:cookie",
+              "Count": 1
+            },
+            {
+              "id": "minecraft:cookie",
+              "Count": 1
+            }
+          ]
+        },
+        "type": "dummyplayers:dummy_player"
+      }
+    },
+    "minecraft:custom_name": "[{\"translate\":\"lt.collectible.col_cojo.name\",\"color\":\"#DB6634\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"lt.collectible.disguise.name.suffix\",\"color\":\"#DB6634\",\"italic\":false}]",
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 10511680,
+      "show_in_tooltip": false
+    }
+  },
+  "item": "ltminigames:disguise"
+}

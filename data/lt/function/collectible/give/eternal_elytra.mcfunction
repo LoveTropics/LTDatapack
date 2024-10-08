@@ -1,4 +1,0 @@
-# Collectible summon command
-# summon ltextras:collectible ~ ~ ~ {collectible:{item:"minecraft:elytra",tag:{ParkourBlacklist:1b,HideFlags:255,Enchantments:[{}],Unbreakable:1b,display:{Name:'{"translate":"lt.collectible.eternal_elytra.name","color":"#5ABDA3","italic":false}',Lore:['{"translate":"lt.collectible.eternal_elytra.description","color":"gray"}','{"text":" "}','{"translate":"lt.collectible.unicode.secret","color":"white","italic":false}']}}}}
-
-collectible give @s elytra{ParkourBlacklist:1b,HideFlags:255,Enchantments:[{}],Unbreakable:1b,display:{Name:'{"translate":"lt.collectible.eternal_elytra.name","color":"#5ABDA3","italic":false}',Lore:['{"translate":"lt.collectible.eternal_elytra.description","color":"gray"}','{"text":" "}','{"translate":"lt.collectible.unicode.secret","color":"white","italic":false}']}}
