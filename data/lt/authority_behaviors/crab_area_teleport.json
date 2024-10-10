@@ -1,4 +1,0 @@
-{
-	"enter_commands": ["teleport @s ~ ~ ~ 270 0"],
-	"exit_commands": [""]
-}

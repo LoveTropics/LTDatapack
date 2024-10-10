@@ -91,3 +91,6 @@ function lt:events/in_game/parrot_party/end_party
 # Collectible Mechanic Scoreboards
 scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
 scoreboard objectives add collectible.rocket_boots.time dummy
+
+# Crab Golf
+function lt:world_games/minigolf/core/on_second

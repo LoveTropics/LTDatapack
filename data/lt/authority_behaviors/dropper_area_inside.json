@@ -1,4 +1,4 @@
 {
-  "enter_commands": ["tag @s add in.dropper_failing"],
-  "exit_commands": ["tag @s remove in.dropper_failing"]
+	"enter_commands": [""],
+	"exit_commands": [""]
 }

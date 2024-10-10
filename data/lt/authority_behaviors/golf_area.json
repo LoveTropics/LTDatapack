@@ -1,8 +1,4 @@
 {
-  "enter_commands": [
-    "function lt:game/minigolf/core/enter_area"
-  ],
-  "exit_commands": [
-    "function lt:game/minigolf/core/leave_area"
-  ]
+	"enter_commands": ["tag @s add in.golf.area"],
+	"exit_commands": ["tag @s remove in.golf.area"]
 }
