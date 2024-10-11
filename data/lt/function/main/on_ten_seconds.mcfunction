@@ -16,9 +16,6 @@ function lt:events/donation/mob_size/on_ten_second
 #parties
 function lt:events/in_game/parrot_party/on_ten_seconds
 
-#trigger support
-function lt:utility/trigger/on_ten_seconds
-
 # Make particle on interdimensional acid repellent umbrella to make sure players see it
 execute in tropicraft:tropics positioned 2594.50 183.50 2426.50 run particle sonic_boom 2594.50 183.50 2426.50 0 0 0 0 1 force @a[distance=..35]
 

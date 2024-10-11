@@ -10,6 +10,7 @@
 
 execute in tropicraft:tropics run function lt:utility/team/on_tick
 
-execute in minecraft:overworld as @a[tag=!utility.player.introduced,tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/spawn_island/introduce
+# Disabled spawn tp for now
+#execute in minecraft:overworld as @a[tag=!utility.player.introduced,tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/spawn_island/introduce
 
-execute in minecraft:overworld if entity @a[current_world=true] run function lt:utility/spawn_island/tick
+#execute in minecraft:overworld if entity @a[current_world=true] run function lt:utility/spawn_island/tick
