@@ -11,6 +11,8 @@
   },
   "is_multi_game": true,
   "behaviors": [
-    "lt:river_race/common"
+    "lt:river_race/common",
+    "lt:river_race/merchant_zone_1",
+    "lt:river_race/merchant_zone_2"
   ]
 }

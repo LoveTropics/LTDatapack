@@ -1,5 +1,9 @@
 [
   {
+    "type": "ltminigames:set_difficulty",
+    "difficulty": "normal"
+  },
+  {
     "type": "lt:common/playing",
     "game_type": "adventure",
     "join_late_with_role": "participant"
@@ -25,6 +29,7 @@
     "type": "ltminigames:team_chat",
     "chat_type": "lt:team_chat"
   },
+  "ltminigames:river_race_overlord",
   {
     "type": "ltminigames:trivia",
     "zones": [
