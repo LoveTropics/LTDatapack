@@ -1,208 +1,187 @@
 {
-  "providers": [
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/purchased_english.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE010"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/reward_english.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE011"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/spacer_3.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE015"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/milestone_english.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE012"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/secret_english.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE013"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/utility_english.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE014"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/purchased_spanish.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE020"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/reward_spanish.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE021"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/milestone_spanish.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE022"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/secret_spanish.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE023"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/utility_spanish.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE024"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/purchased_french.png",
-          "ascent": 10,
-          "height": 12,
-          "chars": [
-              "\uE030"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/reward_french.png",
-          "ascent": 10,
-          "height": 12,
-          "chars": [
-              "\uE031"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/milestone_french.png",
-          "ascent": 10,
-          "height": 12,
-          "chars": [
-              "\uE032"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/secret_french.png",
-          "ascent": 7,
-          "height": 9,
-          "chars": [
-              "\uE033"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/collectible/utility_french.png",
-          "ascent": 10,
-          "height": 12,
-          "chars": [
-              "\uE034"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/mini_tropicoin.png",
-          "ascent": 7,
-          "height": 7,
-          "chars": [
-              "\uE040"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/translated_icon.png",
-          "ascent": 8,
-          "height": 9,
-          "chars": [
-              "\uE041"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/pina_colada.png",
-          "ascent": 16,
-          "height": 16,
-          "chars": [
-              "\uE042"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/tropicoin.png",
-          "ascent": 14,
-          "height": 14,
-          "chars": [
-              "\uE035"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/tropical_map.png",
-          "ascent": 10,
-          "height": 14,
-          "chars": [
-              "\uE043"
-          ]
-      },
-      {
-          "type": "bitmap",
-          "file": "lt:font/other/collectible_basket.png",
-          "ascent": 10,
-          "height": 14,
-          "chars": [
-              "\uE044"
-          ]
-      },
-      {
-          "type": "space",
-          "advances": {
-              "\uE009": 1
-          }
-      }
-  ]
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/purchased_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE010"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/reward_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE011"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/spacer_3.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE015"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/milestone_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE012"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/secret_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE013"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/utility_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE014"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/purchased_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE020"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/reward_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE021"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/milestone_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE022"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/secret_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE023"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/utility_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE024"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/purchased_french.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE030"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/reward_french.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE031"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/milestone_french.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE032"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/secret_french.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE033"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/utility_french.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE034"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/mini_tropicoin.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": ["\uE040"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/translated_icon.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": ["\uE041"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/pina_colada.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": ["\uE042"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/tropicoin.png",
+			"ascent": 14,
+			"height": 14,
+			"chars": ["\uE035"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/tropical_map.png",
+			"ascent": 10,
+			"height": 14,
+			"chars": ["\uE043"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/other/collectible_basket.png",
+			"ascent": 10,
+			"height": 14,
+			"chars": ["\uE044"]
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uE009": 1
+			}
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/ascii_sga.png",
+			"ascent": 7,
+			"chars": [
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\ueb40\ueb41\ueb42\ueb43\ueb44\ueb45\ueb46\ueb47\ueb48\ueb49\ueb4a\ueb4b\ueb4c\ueb4d\ueb4e",
+				"\ueb4f\ueb50\ueb51\ueb52\ueb53\ueb54\ueb55\ueb56\ueb57\ueb58\ueb59\ueb5d\ueb5e\ueb5f\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"\ue002\ue003\ue004\ue005\ue006\ue007\ue008\ue009\ue00A\ue00B\ue00C\ue00D\ue00e\ue00F\ue010\ue011",
+				"\ue012\ue013\ue014\ue015\ue016\ue017\ue018\ue019\ue01A\ue01B\ue01C\ue01D\ue01e\ue01F\ue020\ue021",
+				"\ue022\ue023\ue024\ue025\ue026\ue027\ue028\ue029\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+			]
+		}
+	]
 }
