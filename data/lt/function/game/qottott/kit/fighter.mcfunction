@@ -7,10 +7,10 @@ function lt:game/qottott/kit/reset_attributes
 
 
 # Chest (Color) 0AFFF7
-item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"translate":"ltminigames.minigame.qottott.kit.fighter","color":"#0AFFF7","italic":false}',color:65527},HideFlags:255,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],Trim:{material:"minecraft:quartz",pattern:"minecraft:vex"}} 1
+item replace entity @s armor.chest with minecraft:leather_chestplate[minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_name='{"translate":"ltminigames.minigame.qottott.kit.fighter","color":"#0AFFF7","italic":false}',minecraft:trim={material:"minecraft:quartz",pattern:"minecraft:vex",show_in_tooltip:0b},minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:65527,show_in_tooltip:0b}] 1
 
 # Weapon (Knockback, Damage)
-item replace entity @s weapon.mainhand with wooden_axe{display:{Name:'{"translate":"lt.game.qottott.class.fighter.weapon_name","color":"#0AFFF7","italic":false}'},HideFlags:255,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;-1771193999,-1390129351,-1219003945,197838923],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.0,Operation:0,UUID:[I;-1782035422,1629704147,-1777711428,-1163549348],Slot:"mainhand"}]} 1
+item replace entity @s weapon.mainhand with minecraft:stick[minecraft:attribute_modifiers={modifiers:[{amount:3,id:"lt:qottott_kit",operation:"add_value",slot:"mainhand",type:"generic.attack_damage"},{amount:-2.0d,name:"generic.attack_speed",operation:"add_value",slot:"mainhand",type:"generic.attack_speed",id:"lt:qottott_kit"}],show_in_tooltip:0b},minecraft:enchantments={levels:{},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_name='{"translate":"lt.game.qottott.class.fighter.weapon_name","color":"#0AFFF7","italic":false}',minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:10511680,show_in_tooltip:0b}] 1
 
 # Attributes
 attribute @s generic.attack_damage base set 0.001

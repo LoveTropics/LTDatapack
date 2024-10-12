@@ -4,10 +4,10 @@ function lt:game/qottott/kit/reset_attributes
 # Kit Thesis (High Knockback, High Speed, No Damage, Low Health)
 
 # Chest (Color) FF7700
-item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"translate":"ltminigames.minigame.qottott.kit.brawler","color":"#FF7700","italic":false}',color:16742144},HideFlags:255,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],Trim:{material:"minecraft:redstone",pattern:"minecraft:coast"}} 1
+item replace entity @s armor.chest with minecraft:leather_chestplate[minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_name='{"translate":"ltminigames.minigame.qottott.kit.brawler","color":"#FF7700","italic":false}',minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:coast",show_in_tooltip:0b},minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:16742144,show_in_tooltip:0b}] 1
 
 # Weapon (Knockback, Damage)
-item replace entity @s weapon.mainhand with stick{HideFlags:255,display:{Name:'{"translate":"lt.game.qottott.class.brawler.weapon_name","color":"#FF7700","italic":false}'},Enchantments:[{id:"minecraft:knockback",lvl:50s}]} 1
+item replace entity @s weapon.mainhand with minecraft:stick[minecraft:enchantments={levels:{"minecraft:knockback":50},show_in_tooltip:0b},minecraft:custom_name='{"translate":"lt.game.qottott.class.brawler.weapon_name","color":"#FF7700","italic":false}',minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:10511680,show_in_tooltip:0b}] 1
 
 
 # Effects

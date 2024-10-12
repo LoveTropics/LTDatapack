@@ -4,10 +4,10 @@ function lt:game/qottott/kit/reset_attributes
 # Kit Thesis (No Damage, No Knockback, Auto Step, Speed, Jump, Avg Health + Res)
 
 # Chest (Color) F564E2
-item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"translate":"ltminigames.minigame.qottott.kit.opportunist","color":"#F564E2","italic":false}',color:16082146},HideFlags:255,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],Trim:{material:"minecraft:amethyst",pattern:"minecraft:wayfinder"}} 1
+item replace entity @s armor.chest with minecraft:leather_chestplate[minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_name='{"translate":"ltminigames.minigame.qottott.kit.opportunist","color":"#F564E2","italic":false}',minecraft:trim={material:"minecraft:amethyst",pattern:"minecraft:wayfinder",show_in_tooltip:0b},minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:16082146,show_in_tooltip:0b}] 1
 
 # Weapon
-item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{"translate":"lt.game.qottott.class.opportunist.weapon_name","color":"#F564E2","italic":false}'},HideFlags:255,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1,Operation:0,UUID:[I;-1771193999,-1390129351,-1219003945,197838923],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.25,Operation:0,UUID:[I;-1782035422,1629704147,-1777711428,-1163549348],Slot:"mainhand"}],Enchantments:[{id:"minecraft:knockback",lvl:15s}]} 1
+item replace entity @s weapon.mainhand with minecraft:wooden_sword[minecraft:attribute_modifiers={modifiers:[{amount:1,operation:"add_value",slot:"mainhand",type:"generic.attack_damage",id:"lt:qottott_kit"},{amount:-2.25d,operation:"add_value",slot:"mainhand",type:"generic.attack_speed",id:"lt:qottott_kit"}],show_in_tooltip:0b},minecraft:enchantments={levels:{"minecraft:knockback":15},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_name='{"translate":"lt.game.qottott.class.opportunist.weapon_name","color":"#F564E2","italic":false}',minecraft:hide_additional_tooltip={},minecraft:dyed_color={rgb:10511680,show_in_tooltip:0b}] 1
 
 
 # Effects
