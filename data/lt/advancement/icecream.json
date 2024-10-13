@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:player",
+                    "components": {
+                        "minecraft:custom_data": "{IceCream:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lt:effects/icecream"
+    }
+}
