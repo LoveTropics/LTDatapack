@@ -1,0 +1,1 @@
+summon tropicraft:fiddler_crab ~ ~ ~ {RollingDownTown:true,Silent:true,Health:500f,Tags:["golfCrab"],attributes:[{id:"minecraft:generic.max_health",base:500},{id:"minecraft:generic.knockback_resistance",base:0.75},{id:"minecraft:generic.movement_speed",base:0}]}

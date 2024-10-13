@@ -1,1 +1,0 @@
-$data modify block ~ ~-1 ~ name set value "lt:golf/$(year)/hole_$(hole)"
