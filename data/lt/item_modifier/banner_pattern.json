@@ -1,0 +1,34 @@
+[
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
+            {
+                "pattern": "lt:cents",
+                "color": "green"
+            }
+        ],
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:reference",
+                "name": "lt:team_cents"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
+            {
+                "pattern": "lt:no_cents",
+                "color": "red"
+            }
+        ],
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:reference",
+                "name": "lt:team_no_cents"
+            }
+        ]
+    }
+]
