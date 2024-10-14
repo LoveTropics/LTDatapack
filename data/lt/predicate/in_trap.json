@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "tropicraft:fiddler_crab",
+		"stepping_on": {
+			"block": {
+				"blocks": "minecraft:moss_block"
+			}
+		}
+	}
+}
