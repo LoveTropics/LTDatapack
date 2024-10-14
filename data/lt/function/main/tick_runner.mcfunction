@@ -84,7 +84,7 @@ execute in tropicraft:tropics positioned 2329.53 131.5 2396.50 run particle mine
 
 
 # Scavenger Hunt
-execute in tropicraft:tropics as @a[tag=!scavengerHunt01,current_world=true] run execute if data entity @s ForgeCaps.ltextras:collectibles.collectibles[].tag{title:"Clue 01"} run tag @s add scavengerHunt01
+#execute in tropicraft:tropics as @a[tag=!scavengerHunt01,current_world=true] run execute if data entity @s ForgeCaps.ltextras:collectibles.collectibles[].tag{title:"Clue 01"} run tag @s add scavengerHunt01
 
 # Crab Golf
-#execute as @e[tag=golfCrab,nbt={HurtTime:10s}] run scoreboard players add @s golf.hits 1
+execute as @e[type=tropicraft:fiddler_crab,tag=golfCrab,nbt={HurtTime:1s}] run scoreboard players add @s golf.hits 1
