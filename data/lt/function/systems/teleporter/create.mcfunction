@@ -1,1 +1,1 @@
-$summon minecraft:marker ~ ~ ~ {Tags:[lt.system.teleporter],data:{x:-$(x),y:$(y),z:$(z),rY:$(rY),rX:$(rX)}}
+$summon minecraft:marker ~ ~ ~ {Tags:[lt.system.teleporter],data:{x:$(x),y:$(y),z:$(z),rY:$(rY),rX:$(rX)}}
