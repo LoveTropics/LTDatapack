@@ -94,3 +94,10 @@ scoreboard objectives add collectible.rocket_boots.time dummy
 
 # Crab Golf
 function lt:world_games/minigolf/core/on_second
+
+
+# Dropper
+scoreboard objectives add game.dropper.stats dummy "Dropper"
+team add dropper
+team modify dropper collisionRule never
+team modify dropper seeFriendlyInvisibles true

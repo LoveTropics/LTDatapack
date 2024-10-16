@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["tag @s add in.dropper", "team join dropper @s", "collectible lock @s", "effect give @s minecraft:invisibility infinite 255 true"],
+  "exit_commands": ["tag @s remove in.dropper", "team remove dropper @s", "collectible unlock @s", "effect clear @s minecraft:invisibility"]
+}
