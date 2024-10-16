@@ -1,2 +1,2 @@
-execute as @a[tag=in.dropper] at @s if entity @s[predicate=lt:is_over_bad_block] in tropicraft:tropics run function lt:world_games/dropper/fail
-execute as @a[tag=in.dropper] at @s if entity @s[predicate=lt:is_over_win_block] in tropicraft:tropics run function lt:world_games/dropper/win
+execute as @a[tag=in.dropper] at @s if entity @s[predicate=lt:parkour/is_over_bad_block] in tropicraft:tropics run function lt:world_games/dropper/fail
+execute as @a[tag=in.dropper] at @s if entity @s[predicate=lt:parkour/is_over_win_block] in tropicraft:tropics run function lt:world_games/dropper/win
