@@ -98,6 +98,9 @@ function lt:world_games/minigolf/core/on_second
 
 # Dropper
 scoreboard objectives add game.dropper.stats dummy "Dropper"
+scoreboard objectives add game.dropper.stats_player_plays dummy "Dropper Plays"
+scoreboard objectives add game.dropper.stats_player_fails dummy "Dropper Fails"
+scoreboard objectives add game.dropper.stats_player_wins dummy "Dropper Wins"
 team add dropper
 team modify dropper collisionRule never
 team modify dropper seeFriendlyInvisibles true

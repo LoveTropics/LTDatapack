@@ -4,6 +4,9 @@ give @s[tag=!dropper.win.coins] ltextras:tropicoin 20
 give @s[tag=dropper.win.coins] ltextras:tropicoin 1
 tag @s add dropper.win.coins
 scoreboard players add Success game.dropper.stats 1
+scoreboard players add Drops game.dropper.stats 1
+scoreboard players add @s game.dropper.stats_player_plays 1
+scoreboard players add @s game.dropper.stats_player_wins 1
 function lt:world_games/dropper/util/update_display
 # scoreboard players set @s dropper.counter 0
 # function lt:game/dropper/gravity/reset

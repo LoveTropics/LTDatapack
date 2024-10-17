@@ -1,0 +1,2 @@
+execute in tropicraft:tropics positioned -207.9612 184 -90.949 run function lt:effects/spawn/failguls/spawn_at
+execute in tropicraft:tropics positioned -184.2434 184 -89.392 run function lt:effects/spawn/failguls/spawn_at
