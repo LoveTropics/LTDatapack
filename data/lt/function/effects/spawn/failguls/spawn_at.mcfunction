@@ -1,1 +1,1 @@
-summon tropicraft:failgull ~ ~ ~ {Tags:["spawn.effect.failgull"],attributes:[{id:"minecraft:generic.scale",base:20}]}
+summon tropicraft:failgull ~ ~ ~ {NoAI:true,Tags:["spawn.effect.failgull"],attributes:[{id:"minecraft:generic.scale",base:20}]}
