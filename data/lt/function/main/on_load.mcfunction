@@ -95,6 +95,8 @@ scoreboard objectives add collectible.rocket_boots.time dummy
 # Crab Golf
 function lt:world_games/minigolf/core/on_second
 
+# Elevator
+scoreboard objectives add system.elevator dummy
 
 # Dropper
 scoreboard objectives add game.dropper.stats dummy "Dropper"
