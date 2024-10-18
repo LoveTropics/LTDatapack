@@ -1,4 +1,4 @@
-execute as @e[predicate=lt:elevator/go_down] at @s if score @s system.elevator matches 0 run function lt:systems/elevator/teleport_down with entity @e[type=minecraft:marker,distance=..2,limit=1] data
-execute as @e[predicate=lt:elevator/go_up] at @s if score @s system.elevator matches 0 run function lt:systems/elevator/teleport_up with entity @e[type=minecraft:marker,distance=..2,limit=1] data
+execute as @a[predicate=lt:elevator/go_down] at @s if score @s system.elevator matches 0 run function lt:systems/elevator/teleport_down with entity @e[type=minecraft:marker,distance=..2,limit=1] data
+execute as @a at @s if block ~ ~-1.5 ~ minecraft:waxed_oxidized_copper if score @s system.elevator matches 0 run function lt:systems/elevator/teleport_up with entity @e[type=minecraft:marker,distance=..2,limit=1] data
 execute as @a if score @s system.elevator matches 1.. run scoreboard players remove @s system.elevator 1
 execute as @a unless score @s system.elevator matches 0..100 run scoreboard players set @s system.elevator 0
