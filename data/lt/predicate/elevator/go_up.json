@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"stepping_on": {
+			"position": {
+				"y": 0
+			},
+			"block": {
+				"blocks": "minecraft:waxed_oxidized_copper"
+			}
+		},
+		"flags": {
+			"is_on_ground": false
+		}
+	}
+}
