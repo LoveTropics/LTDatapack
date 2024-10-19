@@ -1,0 +1,174 @@
+[
+  {
+    "type": "ltminigames:crafting_bee",
+    "selectors": [
+      {
+        // Wood products - easy
+        "type": "from_list",
+        "recipes": [
+          "crafting_table",
+          "chest",
+          "oak_door",
+          "oak_slab",
+          "oak_trapdoor",
+          "oak_fence",
+          "oak_fence_gate",
+          "oak_sign"
+        ]
+      },
+      {
+        // Tools and combat - easy
+        "type": "one_of",
+        "selectors": [
+          {
+            "type": "from_item_tag",
+            "tag": "#minecraft:shovels"
+          },
+          {
+            "type": "from_item_tag",
+            "tag": "#minecraft:pickaxes"
+          },
+          {
+            "type": "from_item_tag",
+            "tag": "#minecraft:hoes"
+          },
+          {
+            "type": "from_item_tag",
+            "tag": "#minecraft:axes"
+          },
+          {
+            "type": "from_item_tag",
+            "tag": "#minecraft:swords"
+          },
+          {
+            "type": "from_item_tag",
+            "tag": "#c:armors"
+          },
+          {
+            "type": "from_list",
+            "recipes": [
+              "minecraft:bow",
+              "minecraft:crossbow",
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        // Villager job sites - medium
+        "type": "from_item_tag",
+        "tag": "#c:villager_job_sites"
+      },
+      {
+        // Redstone - medium
+        "type": "from_list",
+        "recipes": [
+          "piston",
+          "sticky_piston",
+          "minecart",
+          "rail",
+          "dropper",
+          "dispenser",
+          "tnt",
+          "hopper",
+          "repeater",
+          "comparator",
+          "target",
+          "redstone_lamp",
+          "trapped_chest"
+        ]
+      },
+      {
+        // Redstone - hard
+        "type": "from_list",
+        "recipes": [
+          "crafter",
+          "detector_rail",
+          "activator_rail",
+          "observer",
+          "daylight_detector"
+        ]
+      },
+      {
+        // Decoration - medium
+        "type": "from_list",
+        "recipes": [
+          "end_crystal",
+          "lantern",
+          "soul_lantern",
+          "end_rod",
+          "armor_stand",
+          "item_frame",
+          "decorated_pot_simple",
+          "bookshelf",
+          "enchanting_table",
+          "campfire"
+        ]
+      },
+      {
+        // Misc - easy/medium
+        "type": "from_list",
+        "recipes": [
+          "clock",
+          "recovery_compass",
+          "writable_book",
+          "fire_charge",
+          "cake",
+          "pumpkin_pie",
+          "fermented_spider_eye",
+          "firework_rocket_simple",
+          "fishing_rod"
+        ]
+      }
+    ],
+    "decomposers": [
+      {
+        "type": "simple_tag"
+      },
+      {
+        "type": "prefer_from_tag",
+        "preferences": {
+          "#planks": "oak_planks",
+          "#oak_logs": "oak_log",
+          "#wooden_slabs": "oak_slab",
+          "#stone_crafting_materials": "cobblestone",
+          "#coals": "coal",
+          "#soul_fire_base_blocks": "soul_soil"
+        }
+      },
+      {
+        "type": "from_recipe",
+        "recipes": [
+          "oak_planks",
+          "bookshelf",
+          "book",
+          "paper",
+          "oak_slab",
+          "stick",
+          "tripwire_hook",
+          "chest",
+          "bow",
+          "furnace",
+          "stone_slab",
+          "piston",
+          "slime_ball",
+          "dropper",
+          "crafting_table",
+          "redstone_torch",
+          "stone_pressure_plate",
+          "hay_block",
+          "glowstone",
+          "iron_nugget",
+          "torch",
+          "soul_torch",
+          "ender_eye",
+          "blaze_powder",
+          "compass",
+          "sugar_from_sugar_cane",
+          "smooth_stone_slab"
+        ]
+      }
+    ],
+    "hints_per_player": 3
+  }
+]
