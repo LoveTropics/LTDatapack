@@ -24,6 +24,15 @@
     "points_per_game_won": 1
   },
   "lt:teams/red_blue",
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "blue": ["blue_spawn"],
+      "red": ["red_spawn"]
+    },
+    "split_by_team": true,
+    "spectators": ["center"]
+  },
   "ltminigames:teams",
   {
     "type": "ltminigames:team_chat",
@@ -38,6 +47,27 @@
         "questions": [
           {
             "difficulty": "easy",
+            "question": "Can you dye sheep?",
+            "answers": [
+              {
+                "text": "Yes",
+                "correct": true
+              },
+              {
+                "text": "Maybe?",
+                "correct": false
+              },
+              {
+                "text": "Absolutely Not.",
+                "correct": false
+              },
+              {
+                "text": "Once in a blue moon?",
+                "correct": false
+              }
+            ]
+          },{
+            "difficulty": "medium",
             "question": "Can you dye sheep?",
             "answers": [
               {
