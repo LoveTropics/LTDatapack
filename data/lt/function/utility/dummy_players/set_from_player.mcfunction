@@ -1,2 +1,2 @@
-data modify entity @s profile set value {}
+function lt:utility/dummy_players/reset
 $data modify entity @s profile.id set value $(UUID)

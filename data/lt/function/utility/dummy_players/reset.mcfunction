@@ -1,0 +1,1 @@
+data modify entity @s profile set value {}
