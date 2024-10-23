@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {Tags:["disguises.player.sign_marker"]}

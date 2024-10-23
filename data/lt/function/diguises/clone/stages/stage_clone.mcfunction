@@ -1,8 +1,7 @@
-execute as @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] at @s run particle minecraft:portal ~ ~ ~ 0 1 0 0.5 1000
+particle minecraft:portal ~ ~ ~ 0 1 0 0.5 1000
 
-data modify entity @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] collectible.tag.disguise.entity.tag.ProfileID set from entity @p[tag=diguises.cloned.target] UUID
+$data modify entity @s collectible.components.ltminigames:disguise.entity.tag set value {profile:{name:$(name)}}
 #Todo Modify Name of Disguise (And Other Deatils?)
 
-execute as @e[tag=disguises.player.sign_marker,limit=1] at @s run data modify entity @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] collectible.tag.display.Name set from block ~ ~ ~ front_text.messages[0]
-execute as @e[tag=disguises.player.sign_marker,limit=1] at @s run data modify entity @e[type=ltextras:collectible,tag=disguises.player.cloned,limit=1] collectible.tag.display.Lore[7] set from block ~ ~ ~ front_text.messages[1]
+$data modify entity @s collectible.components.minecraft:lore[7] set value '[{"text":" + $(name)","color": "blue","italic": false},{"translate":"lt.collectible.player_clone.tooltip.add","with":[{"selector":"@p[tag=diguises.cloned.target]"}],"color": "blue","italic":false}]'
 
