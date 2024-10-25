@@ -12,10 +12,10 @@
   {
     "type": "ltminigames:microgames",
     "games": [
-      "lt:block_party",
+      "lt:connect_four",
       "lt:block_party"
     ],
-    "games_per_round": 2
+    "games_per_round": 1
   },
   {
     "type": "ltminigames:victory_points",
