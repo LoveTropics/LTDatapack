@@ -1,0 +1,55 @@
+{
+  "name": {"translate": "ltminigames.minigame.connect_four"},
+
+  "statistics_key": "connect_four",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:connect_four",
+    "dimension_type": "lt:raised_clouds"
+  },
+
+  "minimum_participants": 1,
+  "maximum_participants": 24,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "survival",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "red": ["red"],
+        "blue": ["blue"]
+      },
+      "spectators": ["spectators"]
+    },
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": false
+    },
+    {
+      "type": "ltminigames:connect_four",
+      "team_blocks": {
+        "red": {
+          "powder": "minecraft:red_concrete_powder",
+          "solid": "minecraft:red_concrete"
+        },
+        "blue": {
+          "powder": "minecraft:blue_concrete_powder",
+          "solid": "minecraft:blue_concrete"
+        }
+      },
+      "placing_region": "placing",
+      "separator": "ltextras:quartz_block_wall",
+      "blocker": "minecraft:obsidian",
+      "grid_width": 7,
+      "grid_height": 6,
+      "connect": 4
+    },
+    {
+      "type": "ltminigames:disable_throwing_items"
+    }
+  ]
+}
