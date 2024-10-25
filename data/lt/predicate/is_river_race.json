@@ -1,0 +1,4 @@
+{
+  "condition": "ltminigames:is_minigame",
+  "minigame_id": "lt:river_race"
+}
