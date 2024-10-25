@@ -43,7 +43,7 @@
       },
       "placing_region": "placing",
       "separator": "ltextras:quartz_block_wall",
-      "blocker": "minecraft:obsidian",
+      "blocker": "minecraft:smooth_quartz",
       "grid_width": 7,
       "grid_height": 6,
       "connect": 4
