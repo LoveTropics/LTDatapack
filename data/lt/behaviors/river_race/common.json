@@ -10,12 +10,21 @@
   },
   "ltminigames:spectator_chase",
   {
-    "type": "ltminigames:microgames",
-    "games": [
-      "lt:connect_four",
-      "lt:block_party"
-    ],
-    "games_per_round": 1
+    "type": "ltminigames:bind_controls",
+    "scopes": {
+      "initiator": {
+        "start_microgames": [
+          {
+            "type": "ltminigames:start_microgames",
+            "games": [
+              "lt:connect_four",
+              "lt:block_party"
+            ],
+            "games_per_round": 1
+          }
+        ]
+      }
+    }
   },
   {
     "type": "ltminigames:victory_points",
