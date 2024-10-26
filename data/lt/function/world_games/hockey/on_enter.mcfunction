@@ -5,3 +5,4 @@ execute if score random game.hockey matches 1 run function lt:world_games/hockey
 execute if score random game.hockey matches 2 run function lt:world_games/hockey/team/items/red
 attribute @s minecraft:generic.jump_strength modifier add lt:no_jump -9999999 add_value
 tp @s @e[tag=world_game.hockey.enter,limit=1]
+gamemode adventure @s
