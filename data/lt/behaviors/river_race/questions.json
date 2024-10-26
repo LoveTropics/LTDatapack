@@ -10,7 +10,7 @@
           "answers": [
             {
               "text": "stop",
-              "correct": false
+              "correct": true
             },
             {
               "text": "speed up",
@@ -32,7 +32,7 @@
           "answers": [
             {
               "text": "sophomore",
-              "correct": false
+              "correct": true
             },
             {
               "text": "senior",
@@ -58,7 +58,7 @@
             },
             {
               "text": "Texas",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Montana",
@@ -76,7 +76,7 @@
           "answers": [
             {
               "text": "cursing them",
-              "correct": false
+              "correct": true
             },
             {
               "text": "blessing a child",
@@ -102,7 +102,7 @@
             },
             {
               "text": "blue",
-              "correct": false
+              "correct": true
             },
             {
               "text": "windy",
@@ -132,7 +132,7 @@
             },
             {
               "text": "blue",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -150,7 +150,7 @@
             },
             {
               "text": "orange",
-              "correct": false
+              "correct": true
             },
             {
               "text": "purple",
@@ -172,7 +172,7 @@
             },
             {
               "text": "18",
-              "correct": false
+              "correct": true
             },
             {
               "text": "21",
@@ -198,7 +198,7 @@
             },
             {
               "text": "the Trinity",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -212,7 +212,7 @@
             },
             {
               "text": "War of 1812",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Civil War",
@@ -230,7 +230,7 @@
           "answers": [
             {
               "text": "28",
-              "correct": false
+              "correct": true
             },
             {
               "text": "32",
@@ -264,7 +264,7 @@
             },
             {
               "text": "French",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -278,7 +278,7 @@
             },
             {
               "text": "they're brothers",
-              "correct": false
+              "correct": true
             },
             {
               "text": "they're father and son",
@@ -300,7 +300,7 @@
             },
             {
               "text": "in reverse",
-              "correct": false
+              "correct": true
             },
             {
               "text": "in braille",
@@ -322,7 +322,7 @@
             },
             {
               "text": "two",
-              "correct": false
+              "correct": true
             },
             {
               "text": "four",
@@ -348,7 +348,7 @@
             },
             {
               "text": "88",
-              "correct": false
+              "correct": true
             },
             {
               "text": "100",
@@ -374,7 +374,7 @@
             },
             {
               "text": "four",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -392,7 +392,7 @@
             },
             {
               "text": "50",
-              "correct": false
+              "correct": true
             },
             {
               "text": "51",
@@ -418,7 +418,7 @@
             },
             {
               "text": "bicycles",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -440,7 +440,7 @@
             },
             {
               "text": "Saturday",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -458,7 +458,7 @@
             },
             {
               "text": "George Bernard Shaw",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Anton Chekhov",
@@ -476,7 +476,7 @@
             },
             {
               "text": "film production",
-              "correct": false
+              "correct": true
             },
             {
               "text": "construction",
@@ -498,7 +498,7 @@
             },
             {
               "text": "Steve Cauthen",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Willie Shoemaker",
@@ -524,7 +524,7 @@
             },
             {
               "text": "six",
-              "correct": false
+              "correct": true
             },
             {
               "text": "seven",
@@ -542,7 +542,7 @@
             },
             {
               "text": "100",
-              "correct": false
+              "correct": true
             },
             {
               "text": "500",
@@ -564,7 +564,7 @@
             },
             {
               "text": "bogey",
-              "correct": false
+              "correct": true
             },
             {
               "text": "dormy",
@@ -590,7 +590,7 @@
             },
             {
               "text": "his neighbor",
-              "correct": false
+              "correct": true
             },
             {
               "text": "all you can be",
@@ -612,7 +612,7 @@
             },
             {
               "text": "World Trade Center",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Chrysler Building",
@@ -634,7 +634,7 @@
             },
             {
               "text": "red",
-              "correct": false
+              "correct": true
             },
             {
               "text": "blue",
@@ -656,7 +656,7 @@
             },
             {
               "text": "Mudville",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Waterlog",
@@ -674,7 +674,7 @@
             },
             {
               "text": "Mini-Me",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Small Fry",
@@ -692,7 +692,7 @@
           "answers": [
             {
               "text": "Agent 86",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Agent 99",
@@ -726,7 +726,7 @@
             },
             {
               "text": "thousand",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -740,7 +740,7 @@
             },
             {
               "text": "New York",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Los Angeles",
@@ -762,7 +762,7 @@
             },
             {
               "text": "1940s",
-              "correct": false
+              "correct": true
             },
             {
               "text": "1950s",
@@ -792,7 +792,7 @@
             },
             {
               "text": "golf",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -806,7 +806,7 @@
             },
             {
               "text": "1929",
-              "correct": false
+              "correct": true
             },
             {
               "text": "1953",
@@ -824,7 +824,7 @@
           "answers": [
             {
               "text": "Hundred Years' War",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Franco-Prussian War",
@@ -850,7 +850,7 @@
             },
             {
               "text": "Silicon",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Aluminum",
@@ -876,7 +876,7 @@
             },
             {
               "text": "12 hours, 25 minutes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "24 hours, 25 minutes",
@@ -890,7 +890,7 @@
           "answers": [
             {
               "text": "Eros",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Cupid",
@@ -924,7 +924,7 @@
             },
             {
               "text": "451 degrees",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -938,7 +938,7 @@
             },
             {
               "text": "chicken",
-              "correct": false
+              "correct": true
             },
             {
               "text": "tofu",
@@ -968,7 +968,7 @@
             },
             {
               "text": "Bowie knife",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -982,7 +982,7 @@
             },
             {
               "text": "Sweden",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Switzerland",
@@ -1008,7 +1008,7 @@
             },
             {
               "text": "bones",
-              "correct": false
+              "correct": true
             },
             {
               "text": "digestive tract",
@@ -1022,7 +1022,7 @@
           "answers": [
             {
               "text": "waltz",
-              "correct": false
+              "correct": true
             },
             {
               "text": "tango",
@@ -1044,7 +1044,7 @@
           "answers": [
             {
               "text": "011",
-              "correct": false
+              "correct": true
             },
             {
               "text": "101",
@@ -1066,7 +1066,7 @@
           "answers": [
             {
               "text": "pig",
-              "correct": false
+              "correct": true
             },
             {
               "text": "cow",
@@ -1096,7 +1096,7 @@
             },
             {
               "text": "8 1/2 x 11 inches",
-              "correct": false
+              "correct": true
             },
             {
               "text": "11 x 17 inches",
@@ -1114,7 +1114,7 @@
             },
             {
               "text": "Tom and Dick",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Dave and George",
@@ -1132,7 +1132,7 @@
           "answers": [
             {
               "text": "Nissan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mazda",
@@ -1154,7 +1154,7 @@
           "answers": [
             {
               "text": "Chicken Little",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Curious George",
@@ -1176,7 +1176,7 @@
           "answers": [
             {
               "text": "Chicago",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Orlando",
@@ -1202,7 +1202,7 @@
             },
             {
               "text": "purple",
-              "correct": false
+              "correct": true
             },
             {
               "text": "red",
@@ -1224,7 +1224,7 @@
             },
             {
               "text": "Nabisco",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Keebler",
@@ -1242,7 +1242,7 @@
           "answers": [
             {
               "text": "France",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Spain",
@@ -1268,7 +1268,7 @@
             },
             {
               "text": "Japan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "North Korea",
@@ -1294,7 +1294,7 @@
             },
             {
               "text": "hemophilia",
-              "correct": false
+              "correct": true
             },
             {
               "text": "tuberculosis",
@@ -1308,7 +1308,7 @@
           "answers": [
             {
               "text": "acidity",
-              "correct": false
+              "correct": true
             },
             {
               "text": "density",
@@ -1338,7 +1338,7 @@
             },
             {
               "text": "from many, one",
-              "correct": false
+              "correct": true
             },
             {
               "text": "for the greater good",
@@ -1360,7 +1360,7 @@
             },
             {
               "text": "Joan Baez",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Peter Yarrow",
@@ -1382,7 +1382,7 @@
             },
             {
               "text": "Red Grange",
-              "correct": false
+              "correct": true
             },
             {
               "text": "George Halas",
@@ -1400,7 +1400,7 @@
             },
             {
               "text": "Riverdale High",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Rumson High",
@@ -1426,7 +1426,7 @@
             },
             {
               "text": "a kettle pot",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a sauna",
@@ -1440,7 +1440,7 @@
           "answers": [
             {
               "text": "6'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "6",
@@ -1470,7 +1470,7 @@
             },
             {
               "text": "'Land of Enchantment'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'The Garden State'",
@@ -1484,7 +1484,7 @@
           "answers": [
             {
               "text": "calligraphy",
-              "correct": false
+              "correct": true
             },
             {
               "text": "engraving",
@@ -1506,7 +1506,7 @@
           "answers": [
             {
               "text": "Bismarck",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Fargo",
@@ -1540,7 +1540,7 @@
             },
             {
               "text": "all",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -1554,7 +1554,7 @@
             },
             {
               "text": "omega",
-              "correct": false
+              "correct": true
             },
             {
               "text": "upsilon",
@@ -1580,7 +1580,7 @@
             },
             {
               "text": "August",
-              "correct": false
+              "correct": true
             },
             {
               "text": "November",
@@ -1606,7 +1606,7 @@
             },
             {
               "text": "Andy",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -1624,7 +1624,7 @@
             },
             {
               "text": "tangelo",
-              "correct": false
+              "correct": true
             },
             {
               "text": "kumquat",
@@ -1638,7 +1638,7 @@
           "answers": [
             {
               "text": "African National Congress",
-              "correct": false
+              "correct": true
             },
             {
               "text": "South African Democrats",
@@ -1672,7 +1672,7 @@
             },
             {
               "text": "Old Sparky",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -1682,7 +1682,7 @@
           "answers": [
             {
               "text": "St. Augustine, Florida",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Plymouth, Massachusetts",
@@ -1712,7 +1712,7 @@
             },
             {
               "text": "graffito",
-              "correct": false
+              "correct": true
             },
             {
               "text": "graffitus",
@@ -1734,7 +1734,7 @@
             },
             {
               "text": "china",
-              "correct": false
+              "correct": true
             },
             {
               "text": "silver",
@@ -1756,7 +1756,7 @@
             },
             {
               "text": "right",
-              "correct": false
+              "correct": true
             },
             {
               "text": "invisible",
@@ -1774,7 +1774,7 @@
             },
             {
               "text": "car",
-              "correct": false
+              "correct": true
             },
             {
               "text": "truck",
@@ -1792,7 +1792,7 @@
           "answers": [
             {
               "text": "grenadine",
-              "correct": false
+              "correct": true
             },
             {
               "text": "schnapps",
@@ -1822,7 +1822,7 @@
             },
             {
               "text": "Cinco de Mayo",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Christmas",
@@ -1836,7 +1836,7 @@
           "answers": [
             {
               "text": "Zamfir",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Yanni",
@@ -1858,7 +1858,7 @@
           "answers": [
             {
               "text": "China",
-              "correct": false
+              "correct": true
             },
             {
               "text": "India",
@@ -1884,7 +1884,7 @@
             },
             {
               "text": "Hulk Hogan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Andre the Giant",
@@ -1906,7 +1906,7 @@
             },
             {
               "text": "Madonna",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Garth Brooks",
@@ -1932,7 +1932,7 @@
             },
             {
               "text": "chocolate syrup",
-              "correct": false
+              "correct": true
             },
             {
               "text": "ketchup",
@@ -1954,7 +1954,7 @@
             },
             {
               "text": "anagram",
-              "correct": false
+              "correct": true
             },
             {
               "text": "antonym",
@@ -1968,7 +1968,7 @@
           "answers": [
             {
               "text": "gaggle",
-              "correct": false
+              "correct": true
             },
             {
               "text": "gang",
@@ -1998,7 +1998,7 @@
             },
             {
               "text": "Herbert Hoover",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Richard Nixon",
@@ -2012,7 +2012,7 @@
           "answers": [
             {
               "text": "Oberlin College",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Dartmouth College",
@@ -2038,7 +2038,7 @@
             },
             {
               "text": "Victoria",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Magellan",
@@ -2060,7 +2060,7 @@
             },
             {
               "text": "pigs in a blanket",
-              "correct": false
+              "correct": true
             },
             {
               "text": "cows in a pasture",
@@ -2090,7 +2090,7 @@
             },
             {
               "text": "arm straight out",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2100,7 +2100,7 @@
           "answers": [
             {
               "text": "6:00 a.m.",
-              "correct": false
+              "correct": true
             },
             {
               "text": "6:30 a.m.",
@@ -2126,7 +2126,7 @@
             },
             {
               "text": "Prince William Sound",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Cape Cod",
@@ -2148,7 +2148,7 @@
             },
             {
               "text": "courtroom",
-              "correct": false
+              "correct": true
             },
             {
               "text": "football stadium",
@@ -2174,7 +2174,7 @@
             },
             {
               "text": "Meow Mix",
-              "correct": false
+              "correct": true
             },
             {
               "text": "9-Lives",
@@ -2188,7 +2188,7 @@
           "answers": [
             {
               "text": "Wendy's",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Kentucky Fried Chicken",
@@ -2218,7 +2218,7 @@
             },
             {
               "text": "Cheerios",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Raisin Bran",
@@ -2240,7 +2240,7 @@
             },
             {
               "text": "'All the President's Men'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'All the Right Moves'",
@@ -2258,7 +2258,7 @@
             },
             {
               "text": "Pikes Peak",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Lake Mead",
@@ -2280,7 +2280,7 @@
             },
             {
               "text": "Larry",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Curly",
@@ -2306,7 +2306,7 @@
             },
             {
               "text": "radishes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "peanuts",
@@ -2324,7 +2324,7 @@
             },
             {
               "text": "periwinkle",
-              "correct": false
+              "correct": true
             },
             {
               "text": "mauve",
@@ -2350,7 +2350,7 @@
             },
             {
               "text": "Spain",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Japan",
@@ -2372,7 +2372,7 @@
             },
             {
               "text": "Jackie Robinson",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Billy Martin",
@@ -2394,7 +2394,7 @@
             },
             {
               "text": "chocolate",
-              "correct": false
+              "correct": true
             },
             {
               "text": "olives",
@@ -2416,7 +2416,7 @@
             },
             {
               "text": "Thanksgiving",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Christmas",
@@ -2430,7 +2430,7 @@
           "answers": [
             {
               "text": "sea horse",
-              "correct": false
+              "correct": true
             },
             {
               "text": "sea cow",
@@ -2456,7 +2456,7 @@
             },
             {
               "text": "parquetry",
-              "correct": false
+              "correct": true
             },
             {
               "text": "harquetry",
@@ -2482,7 +2482,7 @@
             },
             {
               "text": "chocolate",
-              "correct": false
+              "correct": true
             },
             {
               "text": "anchovies",
@@ -2504,7 +2504,7 @@
             },
             {
               "text": "Sanskrit",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Brahma",
@@ -2518,7 +2518,7 @@
           "answers": [
             {
               "text": "gingham",
-              "correct": false
+              "correct": true
             },
             {
               "text": "brogan",
@@ -2552,7 +2552,7 @@
             },
             {
               "text": "deciduous",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2562,7 +2562,7 @@
           "answers": [
             {
               "text": "the power of Apollo",
-              "correct": false
+              "correct": true
             },
             {
               "text": "the strength of Hercules",
@@ -2596,7 +2596,7 @@
             },
             {
               "text": "Lumpy Gravy",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2618,7 +2618,7 @@
             },
             {
               "text": "144 square inches",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2628,7 +2628,7 @@
           "answers": [
             {
               "text": "'Patch Adams'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'The Truman Show'",
@@ -2658,7 +2658,7 @@
             },
             {
               "text": "brush",
-              "correct": false
+              "correct": true
             },
             {
               "text": "palette",
@@ -2676,7 +2676,7 @@
             },
             {
               "text": "Rosie Perez",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Paula Abdul",
@@ -2702,7 +2702,7 @@
             },
             {
               "text": "Mickey Finn",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Molotov cocktail",
@@ -2720,7 +2720,7 @@
             },
             {
               "text": "I wish I were your man",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Wherefore art your man?",
@@ -2746,7 +2746,7 @@
             },
             {
               "text": "Kansas",
-              "correct": false
+              "correct": true
             },
             {
               "text": "California",
@@ -2760,7 +2760,7 @@
           "answers": [
             {
               "text": "Magic 8 Ball",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Barbie",
@@ -2786,7 +2786,7 @@
             },
             {
               "text": "oui",
-              "correct": false
+              "correct": true
             },
             {
               "text": "ja",
@@ -2804,7 +2804,7 @@
           "answers": [
             {
               "text": "candle",
-              "correct": false
+              "correct": true
             },
             {
               "text": "food",
@@ -2838,7 +2838,7 @@
             },
             {
               "text": "Beethoven",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2852,7 +2852,7 @@
             },
             {
               "text": "Gary Larson",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Garry Trudeau",
@@ -2882,7 +2882,7 @@
             },
             {
               "text": "Humphrey Bogart",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2900,7 +2900,7 @@
             },
             {
               "text": "Nat Turner",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Harriet Tubman",
@@ -2926,7 +2926,7 @@
             },
             {
               "text": "a wooden dummy",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2948,7 +2948,7 @@
             },
             {
               "text": "George III",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -2962,7 +2962,7 @@
             },
             {
               "text": "Louis XIV",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Louis XV",
@@ -2988,7 +2988,7 @@
             },
             {
               "text": "a political party",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a spy ring",
@@ -3014,7 +3014,7 @@
             },
             {
               "text": "Bobby Riggs",
-              "correct": false
+              "correct": true
             }
           ]
         }
@@ -3029,7 +3029,7 @@
           "answers": [
             {
               "text": "potato",
-              "correct": false
+              "correct": true
             },
             {
               "text": "creamed corn",
@@ -3051,7 +3051,7 @@
           "answers": [
             {
               "text": "lawyer",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bricklayer",
@@ -3085,7 +3085,7 @@
             },
             {
               "text": "coffee",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3095,7 +3095,7 @@
           "answers": [
             {
               "text": "Ireland",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Poland",
@@ -3121,7 +3121,7 @@
             },
             {
               "text": "Wednesday's child",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Thursday's child",
@@ -3151,7 +3151,7 @@
             },
             {
               "text": "breads",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3161,7 +3161,7 @@
           "answers": [
             {
               "text": "California",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Illinois",
@@ -3183,7 +3183,7 @@
           "answers": [
             {
               "text": "Two",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Three",
@@ -3217,7 +3217,7 @@
             },
             {
               "text": "Fannie Mae",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3239,7 +3239,7 @@
             },
             {
               "text": "War of 1812",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3261,7 +3261,7 @@
             },
             {
               "text": "each pays their own way",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3275,7 +3275,7 @@
             },
             {
               "text": "Martin Luther",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Luther Vandross",
@@ -3301,7 +3301,7 @@
             },
             {
               "text": ".75",
-              "correct": false
+              "correct": true
             },
             {
               "text": ".90",
@@ -3323,7 +3323,7 @@
             },
             {
               "text": "six years",
-              "correct": false
+              "correct": true
             },
             {
               "text": "eight years",
@@ -3345,7 +3345,7 @@
             },
             {
               "text": "16",
-              "correct": false
+              "correct": true
             },
             {
               "text": "20",
@@ -3367,7 +3367,7 @@
             },
             {
               "text": "seven",
-              "correct": false
+              "correct": true
             },
             {
               "text": "eight",
@@ -3385,7 +3385,7 @@
             },
             {
               "text": "24",
-              "correct": false
+              "correct": true
             },
             {
               "text": "30",
@@ -3403,7 +3403,7 @@
           "answers": [
             {
               "text": "11",
-              "correct": false
+              "correct": true
             },
             {
               "text": "13",
@@ -3425,7 +3425,7 @@
           "answers": [
             {
               "text": "declaring bankruptcy",
-              "correct": false
+              "correct": true
             },
             {
               "text": "selling stock",
@@ -3455,7 +3455,7 @@
             },
             {
               "text": "eye",
-              "correct": false
+              "correct": true
             },
             {
               "text": "knee",
@@ -3473,7 +3473,7 @@
             },
             {
               "text": "chicken",
-              "correct": false
+              "correct": true
             },
             {
               "text": "beef",
@@ -3503,7 +3503,7 @@
             },
             {
               "text": "North Pole",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -3513,7 +3513,7 @@
           "answers": [
             {
               "text": "Gulf of Sidra",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Gulf of Oman",
@@ -3539,7 +3539,7 @@
             },
             {
               "text": "five feet",
-              "correct": false
+              "correct": true
             },
             {
               "text": "twelve feet",
@@ -3557,7 +3557,7 @@
           "answers": [
             {
               "text": "file transfer protocol",
-              "correct": false
+              "correct": true
             },
             {
               "text": "full time portal",
@@ -3583,7 +3583,7 @@
             },
             {
               "text": "Cronus",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Prometheus",
@@ -3605,7 +3605,7 @@
             },
             {
               "text": "talking to the cops",
-              "correct": false
+              "correct": true
             },
             {
               "text": "killing an enemy",
@@ -3631,7 +3631,7 @@
             },
             {
               "text": "magic carpet",
-              "correct": false
+              "correct": true
             },
             {
               "text": "hot air balloon",
@@ -3649,7 +3649,7 @@
             },
             {
               "text": "the home team",
-              "correct": false
+              "correct": true
             },
             {
               "text": "the bat boy",
@@ -3671,7 +3671,7 @@
             },
             {
               "text": "American flag",
-              "correct": false
+              "correct": true
             },
             {
               "text": "two white doves",
@@ -3697,7 +3697,7 @@
             },
             {
               "text": "Wookie",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Klingon",
@@ -3715,7 +3715,7 @@
             },
             {
               "text": "through a human body",
-              "correct": false
+              "correct": true
             },
             {
               "text": "to the ocean floor",
@@ -3737,7 +3737,7 @@
             },
             {
               "text": "March 21",
-              "correct": false
+              "correct": true
             },
             {
               "text": "April 21",
@@ -3763,7 +3763,7 @@
             },
             {
               "text": "England",
-              "correct": false
+              "correct": true
             },
             {
               "text": "France",
@@ -3785,7 +3785,7 @@
             },
             {
               "text": "1950s",
-              "correct": false
+              "correct": true
             },
             {
               "text": "1970s",
@@ -3807,7 +3807,7 @@
             },
             {
               "text": "pro wrestling",
-              "correct": false
+              "correct": true
             },
             {
               "text": "college basketball",
@@ -3825,7 +3825,7 @@
             },
             {
               "text": "1980",
-              "correct": false
+              "correct": true
             },
             {
               "text": "1984",
@@ -3851,7 +3851,7 @@
             },
             {
               "text": "five",
-              "correct": false
+              "correct": true
             },
             {
               "text": "six",
@@ -3873,7 +3873,7 @@
             },
             {
               "text": "goat",
-              "correct": false
+              "correct": true
             },
             {
               "text": "mole",
@@ -3891,7 +3891,7 @@
             },
             {
               "text": "Ponch",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Chipper",
@@ -3913,7 +3913,7 @@
             },
             {
               "text": "Asia",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Europe",
@@ -3939,7 +3939,7 @@
             },
             {
               "text": "England",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Germany",
@@ -3953,7 +3953,7 @@
           "answers": [
             {
               "text": "Paul McCartney",
-              "correct": false
+              "correct": true
             },
             {
               "text": "John Lennon",
@@ -3987,7 +3987,7 @@
             },
             {
               "text": "potatoes",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4001,7 +4001,7 @@
             },
             {
               "text": "Stephen King",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Dean Koontz",
@@ -4019,7 +4019,7 @@
           "answers": [
             {
               "text": "bed sheets",
-              "correct": false
+              "correct": true
             },
             {
               "text": "paint",
@@ -4045,7 +4045,7 @@
             },
             {
               "text": "meat",
-              "correct": false
+              "correct": true
             },
             {
               "text": "cheese",
@@ -4063,7 +4063,7 @@
           "answers": [
             {
               "text": "knock on it",
-              "correct": false
+              "correct": true
             },
             {
               "text": "kiss it",
@@ -4085,7 +4085,7 @@
           "answers": [
             {
               "text": "dragon",
-              "correct": false
+              "correct": true
             },
             {
               "text": "rabbit",
@@ -4119,7 +4119,7 @@
             },
             {
               "text": "Huey, Dewey, Louie",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4137,7 +4137,7 @@
             },
             {
               "text": "scarf",
-              "correct": false
+              "correct": true
             },
             {
               "text": "underwear",
@@ -4163,7 +4163,7 @@
             },
             {
               "text": "Sherman",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4177,7 +4177,7 @@
             },
             {
               "text": "Big Bird",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mickey Mouse",
@@ -4203,7 +4203,7 @@
             },
             {
               "text": "New York City",
-              "correct": false
+              "correct": true
             },
             {
               "text": "London",
@@ -4225,7 +4225,7 @@
             },
             {
               "text": "white",
-              "correct": false
+              "correct": true
             },
             {
               "text": "dishwater blond",
@@ -4239,7 +4239,7 @@
           "answers": [
             {
               "text": "Estee Lauder",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ralph Lauren",
@@ -4273,7 +4273,7 @@
             },
             {
               "text": "France",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4283,7 +4283,7 @@
           "answers": [
             {
               "text": "Wednesday",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Thursday",
@@ -4305,7 +4305,7 @@
           "answers": [
             {
               "text": "Edward Estlin",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Edmund Earl",
@@ -4335,7 +4335,7 @@
             },
             {
               "text": "milk",
-              "correct": false
+              "correct": true
             },
             {
               "text": "methane",
@@ -4361,7 +4361,7 @@
             },
             {
               "text": "Read-Only Memory",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4375,7 +4375,7 @@
             },
             {
               "text": "Casey Kasem",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Larry King",
@@ -4393,7 +4393,7 @@
           "answers": [
             {
               "text": "centrifugal",
-              "correct": false
+              "correct": true
             },
             {
               "text": "vehicular",
@@ -4427,7 +4427,7 @@
             },
             {
               "text": "rice",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4437,7 +4437,7 @@
           "answers": [
             {
               "text": "Spanish",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Russian",
@@ -4463,7 +4463,7 @@
             },
             {
               "text": "a truck",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a babysitter",
@@ -4489,7 +4489,7 @@
             },
             {
               "text": "oxygen",
-              "correct": false
+              "correct": true
             },
             {
               "text": "light",
@@ -4515,7 +4515,7 @@
             },
             {
               "text": "pinch hitter",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4537,7 +4537,7 @@
             },
             {
               "text": "melting",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4547,7 +4547,7 @@
           "answers": [
             {
               "text": "blue whale",
-              "correct": false
+              "correct": true
             },
             {
               "text": "giant squid",
@@ -4581,7 +4581,7 @@
             },
             {
               "text": "armpit of the giant",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4603,7 +4603,7 @@
             },
             {
               "text": "palette",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4625,7 +4625,7 @@
             },
             {
               "text": "Swee'pea",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4639,7 +4639,7 @@
             },
             {
               "text": "Olympus",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Vesuvius",
@@ -4657,7 +4657,7 @@
           "answers": [
             {
               "text": "Charlie",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Sam",
@@ -4683,7 +4683,7 @@
             },
             {
               "text": "33 1/3 rpm",
-              "correct": false
+              "correct": true
             },
             {
               "text": "45 rpm",
@@ -4709,7 +4709,7 @@
             },
             {
               "text": "cabbage",
-              "correct": false
+              "correct": true
             },
             {
               "text": "chicory",
@@ -4731,7 +4731,7 @@
             },
             {
               "text": "81",
-              "correct": false
+              "correct": true
             },
             {
               "text": "729",
@@ -4753,7 +4753,7 @@
             },
             {
               "text": "the chicken pox virus",
-              "correct": false
+              "correct": true
             },
             {
               "text": "ancient Roman poetry",
@@ -4775,7 +4775,7 @@
             },
             {
               "text": "bird",
-              "correct": false
+              "correct": true
             },
             {
               "text": "fish",
@@ -4793,7 +4793,7 @@
             },
             {
               "text": "knife",
-              "correct": false
+              "correct": true
             },
             {
               "text": "toothbrush",
@@ -4815,7 +4815,7 @@
             },
             {
               "text": "'The Divine Comedy'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Beowulf'",
@@ -4837,7 +4837,7 @@
             },
             {
               "text": "German",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Danish",
@@ -4859,7 +4859,7 @@
             },
             {
               "text": "sack of money",
-              "correct": false
+              "correct": true
             },
             {
               "text": "globe",
@@ -4885,7 +4885,7 @@
             },
             {
               "text": "Inca",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Apache",
@@ -4911,7 +4911,7 @@
             },
             {
               "text": "San Antonio Spurs",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4933,7 +4933,7 @@
             },
             {
               "text": "bowling",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4943,7 +4943,7 @@
           "answers": [
             {
               "text": "Earl Grey",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Darjeeling",
@@ -4977,7 +4977,7 @@
             },
             {
               "text": "atheist",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -4999,7 +4999,7 @@
             },
             {
               "text": "music",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5009,7 +5009,7 @@
           "answers": [
             {
               "text": "Ninth",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Tenth",
@@ -5031,7 +5031,7 @@
           "answers": [
             {
               "text": "The News",
-              "correct": false
+              "correct": true
             },
             {
               "text": "The Attractions",
@@ -5053,7 +5053,7 @@
           "answers": [
             {
               "text": "Lisa 2",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mac Daddy",
@@ -5079,7 +5079,7 @@
             },
             {
               "text": "gamma",
-              "correct": false
+              "correct": true
             },
             {
               "text": "phi",
@@ -5097,7 +5097,7 @@
           "answers": [
             {
               "text": "six",
-              "correct": false
+              "correct": true
             },
             {
               "text": "seven",
@@ -5123,7 +5123,7 @@
             },
             {
               "text": "China",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Great Britain",
@@ -5153,7 +5153,7 @@
             },
             {
               "text": "San Francisco",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5167,7 +5167,7 @@
             },
             {
               "text": "Pennsylvania",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Illinois",
@@ -5189,7 +5189,7 @@
             },
             {
               "text": "Monica",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ross",
@@ -5211,7 +5211,7 @@
             },
             {
               "text": "Ernie",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Chip",
@@ -5233,7 +5233,7 @@
             },
             {
               "text": "Skittles",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Reese's Pieces",
@@ -5263,7 +5263,7 @@
             },
             {
               "text": "plants",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5273,7 +5273,7 @@
           "answers": [
             {
               "text": "visa",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bill of landing",
@@ -5303,7 +5303,7 @@
             },
             {
               "text": "Jack Palance",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Marisa Tomei",
@@ -5329,7 +5329,7 @@
             },
             {
               "text": "emu",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5351,7 +5351,7 @@
             },
             {
               "text": "Guatemala",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5365,7 +5365,7 @@
             },
             {
               "text": "Walter Mondale",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Gary Hart",
@@ -5391,7 +5391,7 @@
             },
             {
               "text": "Donna Karan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Christian Dior",
@@ -5413,7 +5413,7 @@
             },
             {
               "text": "craps",
-              "correct": false
+              "correct": true
             },
             {
               "text": "solitaire",
@@ -5439,7 +5439,7 @@
             },
             {
               "text": "'Friday the 13th'",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5457,7 +5457,7 @@
             },
             {
               "text": "SEC",
-              "correct": false
+              "correct": true
             },
             {
               "text": "MADD",
@@ -5475,7 +5475,7 @@
             },
             {
               "text": "Fendi",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ghost",
@@ -5501,7 +5501,7 @@
             },
             {
               "text": "Bichon Frise",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Maine Coon",
@@ -5515,7 +5515,7 @@
           "answers": [
             {
               "text": "print lock",
-              "correct": false
+              "correct": true
             },
             {
               "text": "number lock",
@@ -5537,7 +5537,7 @@
           "answers": [
             {
               "text": "sukiyaki",
-              "correct": false
+              "correct": true
             },
             {
               "text": "souvlaki",
@@ -5567,7 +5567,7 @@
             },
             {
               "text": "chocolate",
-              "correct": false
+              "correct": true
             },
             {
               "text": "meat drippings",
@@ -5593,7 +5593,7 @@
             },
             {
               "text": "centrifugal",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5603,7 +5603,7 @@
           "answers": [
             {
               "text": "Football",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Basketball",
@@ -5625,7 +5625,7 @@
           "answers": [
             {
               "text": "Tiger Beat",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Outside",
@@ -5659,7 +5659,7 @@
             },
             {
               "text": "Lawrence",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5681,7 +5681,7 @@
             },
             {
               "text": "rotini",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5703,7 +5703,7 @@
             },
             {
               "text": "Sotheby's",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5717,7 +5717,7 @@
             },
             {
               "text": "Seine",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mekong",
@@ -5743,7 +5743,7 @@
             },
             {
               "text": "copperhead",
-              "correct": false
+              "correct": true
             },
             {
               "text": "python",
@@ -5769,7 +5769,7 @@
             },
             {
               "text": "J Crew",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5779,7 +5779,7 @@
           "answers": [
             {
               "text": "Vitamin A",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Vitamin-12",
@@ -5809,7 +5809,7 @@
             },
             {
               "text": "hygiene",
-              "correct": false
+              "correct": true
             },
             {
               "text": "wierd",
@@ -5831,7 +5831,7 @@
             },
             {
               "text": "John Paul I",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Hank II",
@@ -5845,7 +5845,7 @@
           "answers": [
             {
               "text": "OverCat",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Muttley",
@@ -5875,7 +5875,7 @@
             },
             {
               "text": "Flora",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Niobe",
@@ -5893,7 +5893,7 @@
             },
             {
               "text": "Ray Romano",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ray Parker Jr.",
@@ -5915,7 +5915,7 @@
             },
             {
               "text": "a World War I gun",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a pro wrestling champion",
@@ -5945,7 +5945,7 @@
             },
             {
               "text": "Ben",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -5963,7 +5963,7 @@
             },
             {
               "text": "Alan Shepard",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Neil Armstrong",
@@ -5985,7 +5985,7 @@
             },
             {
               "text": "Rhea",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Hera",
@@ -5999,7 +5999,7 @@
           "answers": [
             {
               "text": "Charles Dickens",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Nathaniel Hawthorne",
@@ -6033,7 +6033,7 @@
             },
             {
               "text": "Franklin Roosevelt",
-              "correct": false
+              "correct": true
             }
           ]
         }
@@ -6052,7 +6052,7 @@
             },
             {
               "text": "flat bread",
-              "correct": false
+              "correct": true
             },
             {
               "text": "French tart",
@@ -6074,7 +6074,7 @@
             },
             {
               "text": "three",
-              "correct": false
+              "correct": true
             },
             {
               "text": "five",
@@ -6096,7 +6096,7 @@
             },
             {
               "text": "rabbit",
-              "correct": false
+              "correct": true
             },
             {
               "text": "moose",
@@ -6126,7 +6126,7 @@
             },
             {
               "text": "Labrador retriever",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6144,7 +6144,7 @@
             },
             {
               "text": "as the Romans do",
-              "correct": false
+              "correct": true
             },
             {
               "text": "don't drink the water",
@@ -6158,7 +6158,7 @@
           "answers": [
             {
               "text": "a computer program",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a souffle",
@@ -6188,7 +6188,7 @@
             },
             {
               "text": "Marines",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Navy",
@@ -6210,7 +6210,7 @@
             },
             {
               "text": "New York Knicks",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Philadelphia 76ers",
@@ -6224,7 +6224,7 @@
           "answers": [
             {
               "text": "England",
-              "correct": false
+              "correct": true
             },
             {
               "text": "France",
@@ -6250,7 +6250,7 @@
             },
             {
               "text": "the Gold Glove",
-              "correct": false
+              "correct": true
             },
             {
               "text": "the Silver Bat",
@@ -6276,7 +6276,7 @@
             },
             {
               "text": "to make holes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "to weigh fruit",
@@ -6298,7 +6298,7 @@
             },
             {
               "text": "Sinn Fein",
-              "correct": false
+              "correct": true
             },
             {
               "text": "PLO",
@@ -6312,7 +6312,7 @@
           "answers": [
             {
               "text": "1600",
-              "correct": false
+              "correct": true
             },
             {
               "text": "004",
@@ -6338,7 +6338,7 @@
             },
             {
               "text": "24 seconds",
-              "correct": false
+              "correct": true
             },
             {
               "text": "30 seconds",
@@ -6360,7 +6360,7 @@
             },
             {
               "text": "two",
-              "correct": false
+              "correct": true
             },
             {
               "text": "three",
@@ -6386,7 +6386,7 @@
             },
             {
               "text": "16",
-              "correct": false
+              "correct": true
             },
             {
               "text": "32",
@@ -6404,7 +6404,7 @@
             },
             {
               "text": "Three",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Five",
@@ -6422,7 +6422,7 @@
           "answers": [
             {
               "text": "5 cents",
-              "correct": false
+              "correct": true
             },
             {
               "text": "10 cents",
@@ -6448,7 +6448,7 @@
             },
             {
               "text": "four",
-              "correct": false
+              "correct": true
             },
             {
               "text": "five",
@@ -6474,7 +6474,7 @@
             },
             {
               "text": "snowboarding",
-              "correct": false
+              "correct": true
             },
             {
               "text": "surfing",
@@ -6496,7 +6496,7 @@
             },
             {
               "text": "directory assistance",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Moviefone",
@@ -6518,7 +6518,7 @@
             },
             {
               "text": "Chicago",
-              "correct": false
+              "correct": true
             },
             {
               "text": "New York City",
@@ -6536,7 +6536,7 @@
             },
             {
               "text": "royal flush",
-              "correct": false
+              "correct": true
             },
             {
               "text": "full house",
@@ -6566,7 +6566,7 @@
             },
             {
               "text": "four",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6588,7 +6588,7 @@
             },
             {
               "text": "Internet Service Provider",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6602,7 +6602,7 @@
             },
             {
               "text": "trifecta",
-              "correct": false
+              "correct": true
             },
             {
               "text": "exacta",
@@ -6632,7 +6632,7 @@
             },
             {
               "text": "goalkeeper",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6646,7 +6646,7 @@
             },
             {
               "text": "King Arthur",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Lancelot",
@@ -6672,7 +6672,7 @@
             },
             {
               "text": "playing the piano",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Flying an imaginary plane",
@@ -6690,7 +6690,7 @@
             },
             {
               "text": "Matt Damon",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Dustin Hoffman",
@@ -6712,7 +6712,7 @@
             },
             {
               "text": "Passepartout",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Renfield",
@@ -6730,7 +6730,7 @@
           "answers": [
             {
               "text": "a cow",
-              "correct": false
+              "correct": true
             },
             {
               "text": "a hat",
@@ -6760,7 +6760,7 @@
             },
             {
               "text": "Judy",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Barbara",
@@ -6778,7 +6778,7 @@
             },
             {
               "text": "Sweden",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Israel",
@@ -6808,7 +6808,7 @@
             },
             {
               "text": "Sherwood Forest",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6818,7 +6818,7 @@
           "answers": [
             {
               "text": "California",
-              "correct": false
+              "correct": true
             },
             {
               "text": "South Carolina",
@@ -6840,7 +6840,7 @@
           "answers": [
             {
               "text": "Bad Company",
-              "correct": false
+              "correct": true
             },
             {
               "text": "The Firm",
@@ -6874,7 +6874,7 @@
             },
             {
               "text": "Mediterranean Sea",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -6888,7 +6888,7 @@
             },
             {
               "text": "'The African Queen'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'The Deer Hunter'",
@@ -6910,7 +6910,7 @@
             },
             {
               "text": "Pizza Man",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Snookums",
@@ -6928,7 +6928,7 @@
           "answers": [
             {
               "text": "head",
-              "correct": false
+              "correct": true
             },
             {
               "text": "hands",
@@ -6954,7 +6954,7 @@
             },
             {
               "text": "Saturn",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Neptune",
@@ -6980,7 +6980,7 @@
             },
             {
               "text": "Apollos Rivoire",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Paolo Reverini",
@@ -6998,7 +6998,7 @@
             },
             {
               "text": "nearsighted",
-              "correct": false
+              "correct": true
             },
             {
               "text": "hindsighted",
@@ -7024,7 +7024,7 @@
             },
             {
               "text": "Pittsburgh",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Cleveland",
@@ -7042,7 +7042,7 @@
             },
             {
               "text": "trepanation",
-              "correct": false
+              "correct": true
             },
             {
               "text": "aeronomy",
@@ -7068,7 +7068,7 @@
             },
             {
               "text": "MTV",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Home Shopping Network",
@@ -7090,7 +7090,7 @@
             },
             {
               "text": "Jaclyn Smith",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Kate Jackson",
@@ -7108,7 +7108,7 @@
             },
             {
               "text": "Charlie Brown",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Bugs Bunny",
@@ -7130,7 +7130,7 @@
             },
             {
               "text": "Red and Yellow",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mort and Marty",
@@ -7160,7 +7160,7 @@
             },
             {
               "text": "Hyundai",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7170,7 +7170,7 @@
           "answers": [
             {
               "text": "Coach",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Diane",
@@ -7200,7 +7200,7 @@
             },
             {
               "text": "Liverpool",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Manchester",
@@ -7214,7 +7214,7 @@
           "answers": [
             {
               "text": "red",
-              "correct": false
+              "correct": true
             },
             {
               "text": "black",
@@ -7248,7 +7248,7 @@
             },
             {
               "text": "red and yellow",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7266,7 +7266,7 @@
             },
             {
               "text": "acne",
-              "correct": false
+              "correct": true
             },
             {
               "text": "carpal tunnel syndrome",
@@ -7288,7 +7288,7 @@
             },
             {
               "text": "The Netherlands",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Australia",
@@ -7302,7 +7302,7 @@
           "answers": [
             {
               "text": "cancer",
-              "correct": false
+              "correct": true
             },
             {
               "text": "influenza",
@@ -7336,7 +7336,7 @@
             },
             {
               "text": "calf",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7350,7 +7350,7 @@
             },
             {
               "text": "work without pay",
-              "correct": false
+              "correct": true
             },
             {
               "text": "work as your own boss",
@@ -7368,7 +7368,7 @@
           "answers": [
             {
               "text": "crazy",
-              "correct": false
+              "correct": true
             },
             {
               "text": "sacred",
@@ -7402,7 +7402,7 @@
             },
             {
               "text": "Yogi Bear",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7416,7 +7416,7 @@
             },
             {
               "text": "Willard Scott",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Deborah Norville",
@@ -7438,7 +7438,7 @@
             },
             {
               "text": "America Online",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Americans On Links",
@@ -7460,7 +7460,7 @@
             },
             {
               "text": "Peking duck",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Hong Kong duck",
@@ -7490,7 +7490,7 @@
             },
             {
               "text": "'Your Grace'",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7504,7 +7504,7 @@
             },
             {
               "text": "Big Gulp",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Big Drink",
@@ -7526,7 +7526,7 @@
             },
             {
               "text": "garnet",
-              "correct": false
+              "correct": true
             },
             {
               "text": "opal",
@@ -7544,7 +7544,7 @@
           "answers": [
             {
               "text": "iris",
-              "correct": false
+              "correct": true
             },
             {
               "text": "pupil",
@@ -7566,7 +7566,7 @@
           "answers": [
             {
               "text": "Philadelphia",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Stewartsville",
@@ -7600,7 +7600,7 @@
             },
             {
               "text": "Diagnosis",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7622,7 +7622,7 @@
             },
             {
               "text": "Robin Quivers",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7640,7 +7640,7 @@
             },
             {
               "text": "Little Jimmy Bond",
-              "correct": false
+              "correct": true
             },
             {
               "text": "M",
@@ -7654,7 +7654,7 @@
           "answers": [
             {
               "text": "Law of Inertia",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Law of Thermodynamics",
@@ -7688,7 +7688,7 @@
             },
             {
               "text": "IKEA",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7710,7 +7710,7 @@
             },
             {
               "text": "Dutch",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7732,7 +7732,7 @@
             },
             {
               "text": "the working class",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7746,7 +7746,7 @@
             },
             {
               "text": "ichthyologist",
-              "correct": false
+              "correct": true
             },
             {
               "text": "marinologist",
@@ -7764,7 +7764,7 @@
           "answers": [
             {
               "text": "Scorpio",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Capricorn",
@@ -7798,7 +7798,7 @@
             },
             {
               "text": "penguin",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7812,7 +7812,7 @@
             },
             {
               "text": "police officer",
-              "correct": false
+              "correct": true
             },
             {
               "text": "rice farmer",
@@ -7842,7 +7842,7 @@
             },
             {
               "text": "mean",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7860,7 +7860,7 @@
             },
             {
               "text": "Sioux",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Iroquois",
@@ -7878,7 +7878,7 @@
             },
             {
               "text": "The Daily Planet",
-              "correct": false
+              "correct": true
             },
             {
               "text": "The Metropolis Tribune",
@@ -7900,7 +7900,7 @@
             },
             {
               "text": "Budokan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Bhutan",
@@ -7926,7 +7926,7 @@
             },
             {
               "text": "lieutenant general",
-              "correct": false
+              "correct": true
             },
             {
               "text": "major general",
@@ -7952,7 +7952,7 @@
             },
             {
               "text": "horse racing",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -7970,7 +7970,7 @@
             },
             {
               "text": "New York Yankees",
-              "correct": false
+              "correct": true
             },
             {
               "text": "San Francisco Giants",
@@ -7984,7 +7984,7 @@
           "answers": [
             {
               "text": "heredity",
-              "correct": false
+              "correct": true
             },
             {
               "text": "heresy",
@@ -8014,7 +8014,7 @@
             },
             {
               "text": "corned beef",
-              "correct": false
+              "correct": true
             },
             {
               "text": "pepperoni",
@@ -8032,7 +8032,7 @@
             },
             {
               "text": "Milhous",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mortimer",
@@ -8062,7 +8062,7 @@
             },
             {
               "text": "'Sensation'",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8084,7 +8084,7 @@
             },
             {
               "text": "'Fidelio'",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8094,7 +8094,7 @@
           "answers": [
             {
               "text": "It opens many locks.",
-              "correct": false
+              "correct": true
             },
             {
               "text": "It's made of bone.",
@@ -8116,7 +8116,7 @@
           "answers": [
             {
               "text": "four inches",
-              "correct": false
+              "correct": true
             },
             {
               "text": "seven inches",
@@ -8146,7 +8146,7 @@
             },
             {
               "text": "Saturn",
-              "correct": false
+              "correct": true
             },
             {
               "text": "in a saxophone",
@@ -8160,7 +8160,7 @@
           "answers": [
             {
               "text": "Paris",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Lyon",
@@ -8190,7 +8190,7 @@
             },
             {
               "text": "Kirstie Alley",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Helen Hunt",
@@ -8212,7 +8212,7 @@
             },
             {
               "text": "Pillsbury",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Keebler",
@@ -8226,7 +8226,7 @@
           "answers": [
             {
               "text": "parka",
-              "correct": false
+              "correct": true
             },
             {
               "text": "kilt",
@@ -8252,7 +8252,7 @@
             },
             {
               "text": "fructose",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bellicose",
@@ -8278,7 +8278,7 @@
             },
             {
               "text": "Cutie Patootie",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Chubby Hubby",
@@ -8304,7 +8304,7 @@
             },
             {
               "text": "hand knitting",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8322,7 +8322,7 @@
             },
             {
               "text": "frog",
-              "correct": false
+              "correct": true
             },
             {
               "text": "elephant",
@@ -8336,7 +8336,7 @@
           "answers": [
             {
               "text": "Baby Ruth",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Clark Bar",
@@ -8362,7 +8362,7 @@
             },
             {
               "text": "EDigital",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Datek Online",
@@ -8384,7 +8384,7 @@
             },
             {
               "text": "chitlins",
-              "correct": false
+              "correct": true
             },
             {
               "text": "grits",
@@ -8406,7 +8406,7 @@
             },
             {
               "text": "poppy seed bagels",
-              "correct": false
+              "correct": true
             },
             {
               "text": "carbonated soda",
@@ -8436,7 +8436,7 @@
             },
             {
               "text": "shellfish",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8454,7 +8454,7 @@
             },
             {
               "text": "dog",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bird",
@@ -8472,7 +8472,7 @@
             },
             {
               "text": "watermelon",
-              "correct": false
+              "correct": true
             },
             {
               "text": "potato",
@@ -8494,7 +8494,7 @@
             },
             {
               "text": "Links",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Steps",
@@ -8512,7 +8512,7 @@
           "answers": [
             {
               "text": "Perskippity",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Kerhonkson",
@@ -8542,7 +8542,7 @@
             },
             {
               "text": "striker",
-              "correct": false
+              "correct": true
             },
             {
               "text": "free safety",
@@ -8560,7 +8560,7 @@
             },
             {
               "text": "cheyenne",
-              "correct": false
+              "correct": true
             },
             {
               "text": "jalapeno",
@@ -8578,7 +8578,7 @@
           "answers": [
             {
               "text": "almonds",
-              "correct": false
+              "correct": true
             },
             {
               "text": "chocolate",
@@ -8600,7 +8600,7 @@
           "answers": [
             {
               "text": "Japanese",
-              "correct": false
+              "correct": true
             },
             {
               "text": "English",
@@ -8630,7 +8630,7 @@
             },
             {
               "text": "hemlock",
-              "correct": false
+              "correct": true
             },
             {
               "text": "marjoram",
@@ -8656,7 +8656,7 @@
             },
             {
               "text": "Pat Riley",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8666,7 +8666,7 @@
           "answers": [
             {
               "text": "NAACP",
-              "correct": false
+              "correct": true
             },
             {
               "text": "NASA",
@@ -8700,7 +8700,7 @@
             },
             {
               "text": "King Tut",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8714,7 +8714,7 @@
             },
             {
               "text": "thistle",
-              "correct": false
+              "correct": true
             },
             {
               "text": "rose",
@@ -8736,7 +8736,7 @@
             },
             {
               "text": "Jerry Garcia",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Jeff Beck",
@@ -8762,7 +8762,7 @@
             },
             {
               "text": "'De Do Do Do, De Da Da Da'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'In-a-Gadda-Da-Vida'",
@@ -8780,7 +8780,7 @@
             },
             {
               "text": "'Perfect Strangers'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Joanie Loves Chachi'",
@@ -8806,7 +8806,7 @@
             },
             {
               "text": "stroll",
-              "correct": false
+              "correct": true
             },
             {
               "text": "heal",
@@ -8820,7 +8820,7 @@
           "answers": [
             {
               "text": "Indira Gandhi",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ferdinand Marcos",
@@ -8846,7 +8846,7 @@
             },
             {
               "text": "'Rocky III'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Rocky IV'",
@@ -8868,7 +8868,7 @@
             },
             {
               "text": "the stockholders",
-              "correct": false
+              "correct": true
             },
             {
               "text": "the president",
@@ -8894,7 +8894,7 @@
             },
             {
               "text": "St. Francis of Assisi",
-              "correct": false
+              "correct": true
             },
             {
               "text": "St. Joan of Arc",
@@ -8916,7 +8916,7 @@
             },
             {
               "text": "Ann Landers",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Miss Manners",
@@ -8930,7 +8930,7 @@
           "answers": [
             {
               "text": "Benjamin Franklin",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Henry David Thoreau",
@@ -8964,7 +8964,7 @@
             },
             {
               "text": "William McKinley",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -8974,7 +8974,7 @@
           "answers": [
             {
               "text": "Hillary Clinton",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Rosalynn Carter",
@@ -9008,7 +9008,7 @@
             },
             {
               "text": "Yolanda Griffith",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9018,7 +9018,7 @@
           "answers": [
             {
               "text": "Richard Rodgers",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Rogers Hornsby",
@@ -9048,7 +9048,7 @@
             },
             {
               "text": "electric guitar",
-              "correct": false
+              "correct": true
             },
             {
               "text": "baby",
@@ -9071,7 +9071,7 @@
             },
             {
               "text": "caricature",
-              "correct": false
+              "correct": true
             },
             {
               "text": "still life",
@@ -9093,7 +9093,7 @@
             },
             {
               "text": "other people",
-              "correct": false
+              "correct": true
             },
             {
               "text": "little made large",
@@ -9115,7 +9115,7 @@
             },
             {
               "text": "Artemis",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Venus",
@@ -9145,7 +9145,7 @@
             },
             {
               "text": "Miriam",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9155,7 +9155,7 @@
           "answers": [
             {
               "text": "Invention",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Luck",
@@ -9177,7 +9177,7 @@
           "answers": [
             {
               "text": "Prince William",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Prince Andrew",
@@ -9207,7 +9207,7 @@
             },
             {
               "text": "about 1000 miles per hour",
-              "correct": false
+              "correct": true
             },
             {
               "text": "about 2000 miles per hour",
@@ -9229,7 +9229,7 @@
             },
             {
               "text": "Captain Kangaroo",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Buffalo Bob",
@@ -9251,7 +9251,7 @@
             },
             {
               "text": "veal parmigiano",
-              "correct": false
+              "correct": true
             },
             {
               "text": "chicken pot pie",
@@ -9269,7 +9269,7 @@
             },
             {
               "text": "ivory",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bone",
@@ -9287,7 +9287,7 @@
           "answers": [
             {
               "text": "Zaire",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Angola",
@@ -9309,7 +9309,7 @@
           "answers": [
             {
               "text": "Amish",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Sikh",
@@ -9331,7 +9331,7 @@
           "answers": [
             {
               "text": "2",
-              "correct": false
+              "correct": true
             },
             {
               "text": "II",
@@ -9361,7 +9361,7 @@
             },
             {
               "text": "ten thousand",
-              "correct": false
+              "correct": true
             },
             {
               "text": "one hundred thousand",
@@ -9383,7 +9383,7 @@
             },
             {
               "text": "nine",
-              "correct": false
+              "correct": true
             },
             {
               "text": "ten",
@@ -9405,7 +9405,7 @@
             },
             {
               "text": "Three",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Four",
@@ -9423,7 +9423,7 @@
             },
             {
               "text": "seven",
-              "correct": false
+              "correct": true
             },
             {
               "text": "nine",
@@ -9449,7 +9449,7 @@
             },
             {
               "text": "eight days",
-              "correct": false
+              "correct": true
             },
             {
               "text": "two weeks",
@@ -9475,7 +9475,7 @@
             },
             {
               "text": "silver",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9497,7 +9497,7 @@
             },
             {
               "text": "nyctophobia",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9515,7 +9515,7 @@
             },
             {
               "text": "$10",
-              "correct": false
+              "correct": true
             },
             {
               "text": "$20",
@@ -9537,7 +9537,7 @@
             },
             {
               "text": "Argentina",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Paraguay",
@@ -9563,7 +9563,7 @@
             },
             {
               "text": "meat",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9581,7 +9581,7 @@
             },
             {
               "text": "10",
-              "correct": false
+              "correct": true
             },
             {
               "text": "12",
@@ -9595,7 +9595,7 @@
           "answers": [
             {
               "text": "cheese",
-              "correct": false
+              "correct": true
             },
             {
               "text": "fruit",
@@ -9625,7 +9625,7 @@
             },
             {
               "text": "carving",
-              "correct": false
+              "correct": true
             },
             {
               "text": "butt-ending",
@@ -9651,7 +9651,7 @@
             },
             {
               "text": "The Squeegee Guy",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9669,7 +9669,7 @@
             },
             {
               "text": "20",
-              "correct": false
+              "correct": true
             },
             {
               "text": "21",
@@ -9687,7 +9687,7 @@
             },
             {
               "text": "Rat King",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Snow Queen",
@@ -9709,7 +9709,7 @@
             },
             {
               "text": "a shaker of salt",
-              "correct": false
+              "correct": true
             },
             {
               "text": "his car keys",
@@ -9731,7 +9731,7 @@
             },
             {
               "text": "Becky Thatcher",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Nancy Drew",
@@ -9757,7 +9757,7 @@
             },
             {
               "text": "American",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Adult",
@@ -9783,7 +9783,7 @@
             },
             {
               "text": "Minneapolis",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9801,7 +9801,7 @@
             },
             {
               "text": "Japan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Canada",
@@ -9815,7 +9815,7 @@
           "answers": [
             {
               "text": "Denny's",
-              "correct": false
+              "correct": true
             },
             {
               "text": "McDonald's",
@@ -9845,7 +9845,7 @@
             },
             {
               "text": "Springfield, Massachusetts",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Lawrence, Kansas",
@@ -9871,7 +9871,7 @@
             },
             {
               "text": "drag racing",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9885,7 +9885,7 @@
             },
             {
               "text": "oil",
-              "correct": false
+              "correct": true
             },
             {
               "text": "steel",
@@ -9903,7 +9903,7 @@
           "answers": [
             {
               "text": "black",
-              "correct": false
+              "correct": true
             },
             {
               "text": "red",
@@ -9937,7 +9937,7 @@
             },
             {
               "text": "proctologist",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9959,7 +9959,7 @@
             },
             {
               "text": "brakes",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -9969,7 +9969,7 @@
           "answers": [
             {
               "text": "ukulele",
-              "correct": false
+              "correct": true
             },
             {
               "text": "kazoo",
@@ -9999,7 +9999,7 @@
             },
             {
               "text": "Kiwi",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Grape",
@@ -10025,7 +10025,7 @@
             },
             {
               "text": "Spanish",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -10039,7 +10039,7 @@
             },
             {
               "text": "'Mary Had a Little Lamb'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Jack Be Nimble'",
@@ -10057,7 +10057,7 @@
           "answers": [
             {
               "text": "Japan",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Vietnam",
@@ -10079,7 +10079,7 @@
           "answers": [
             {
               "text": "weaving",
-              "correct": false
+              "correct": true
             },
             {
               "text": "sculpting",
@@ -10105,7 +10105,7 @@
             },
             {
               "text": "cow",
-              "correct": false
+              "correct": true
             },
             {
               "text": "chicken",
@@ -10127,7 +10127,7 @@
             },
             {
               "text": "MiSTies",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Bot Brigade",
@@ -10149,7 +10149,7 @@
             },
             {
               "text": "jewel cases",
-              "correct": false
+              "correct": true
             },
             {
               "text": "slip cases",
@@ -10171,7 +10171,7 @@
             },
             {
               "text": "mitosis",
-              "correct": false
+              "correct": true
             },
             {
               "text": "diffusion",
@@ -10193,7 +10193,7 @@
             },
             {
               "text": "hydrogen peroxide",
-              "correct": false
+              "correct": true
             },
             {
               "text": "sodium chloride",
@@ -10223,7 +10223,7 @@
             },
             {
               "text": "Akron, Ohio",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -10241,7 +10241,7 @@
             },
             {
               "text": "blue",
-              "correct": false
+              "correct": true
             },
             {
               "text": "brown",
@@ -10255,7 +10255,7 @@
           "answers": [
             {
               "text": "pink",
-              "correct": false
+              "correct": true
             },
             {
               "text": "blue",
@@ -10281,7 +10281,7 @@
             },
             {
               "text": "Procter & Gamble",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Johnson & Johnson",
@@ -10303,7 +10303,7 @@
             },
             {
               "text": "Ireland",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Belgium",
@@ -10329,7 +10329,7 @@
             },
             {
               "text": "Diabetes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Arthritis",
@@ -10351,7 +10351,7 @@
             },
             {
               "text": "turkey",
-              "correct": false
+              "correct": true
             },
             {
               "text": "ace",
@@ -10369,7 +10369,7 @@
             },
             {
               "text": "rapid eye movement",
-              "correct": false
+              "correct": true
             },
             {
               "text": "red entertainment machine",
@@ -10387,7 +10387,7 @@
           "answers": [
             {
               "text": "stationary bicycle",
-              "correct": false
+              "correct": true
             },
             {
               "text": "treadmill",
@@ -10409,7 +10409,7 @@
           "answers": [
             {
               "text": "Cannes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Marseille",
@@ -10439,7 +10439,7 @@
             },
             {
               "text": "Homer",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Socrates",
@@ -10453,7 +10453,7 @@
           "answers": [
             {
               "text": "musical instrument",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Russian peasant",
@@ -10479,7 +10479,7 @@
             },
             {
               "text": "giraffe",
-              "correct": false
+              "correct": true
             },
             {
               "text": "cantaloupe",
@@ -10505,7 +10505,7 @@
             },
             {
               "text": "interior designer",
-              "correct": false
+              "correct": true
             },
             {
               "text": "website designer",
@@ -10527,7 +10527,7 @@
             },
             {
               "text": "186,000 miles per second",
-              "correct": false
+              "correct": true
             },
             {
               "text": "293,000 miles per second",
@@ -10545,7 +10545,7 @@
             },
             {
               "text": "Wellington",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Auckland",
@@ -10567,7 +10567,7 @@
             },
             {
               "text": "Albuquerque",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Albequerque",
@@ -10585,7 +10585,7 @@
           "answers": [
             {
               "text": "Revelation",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Judges",
@@ -10607,7 +10607,7 @@
           "answers": [
             {
               "text": "whooping cough",
-              "correct": false
+              "correct": true
             },
             {
               "text": "tennis elbow",
@@ -10633,7 +10633,7 @@
             },
             {
               "text": "Luigi",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Luciano",
@@ -10659,7 +10659,7 @@
             },
             {
               "text": "Geraldine Jones",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Gladys Knight",
@@ -10673,7 +10673,7 @@
           "answers": [
             {
               "text": "Stalag 13",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Alcatraz 17",
@@ -10699,7 +10699,7 @@
             },
             {
               "text": "kangaroo",
-              "correct": false
+              "correct": true
             },
             {
               "text": "platypus",
@@ -10725,7 +10725,7 @@
             },
             {
               "text": "Kentucky Derby",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Indianapolis 500",
@@ -10747,7 +10747,7 @@
             },
             {
               "text": "to hold a ship in place",
-              "correct": false
+              "correct": true
             },
             {
               "text": "to damage other boats",
@@ -10769,7 +10769,7 @@
             },
             {
               "text": "hinny",
-              "correct": false
+              "correct": true
             },
             {
               "text": "honker",
@@ -10795,7 +10795,7 @@
             },
             {
               "text": "big toe",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -10817,7 +10817,7 @@
             },
             {
               "text": "Trans Am",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -10831,7 +10831,7 @@
             },
             {
               "text": "DEF",
-              "correct": false
+              "correct": true
             },
             {
               "text": "GHI",
@@ -10853,7 +10853,7 @@
             },
             {
               "text": "Denver boot",
-              "correct": false
+              "correct": true
             },
             {
               "text": "LoJack",
@@ -10875,7 +10875,7 @@
             },
             {
               "text": "Zulu",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Aztec",
@@ -10901,7 +10901,7 @@
             },
             {
               "text": "stomach",
-              "correct": false
+              "correct": true
             },
             {
               "text": "nose",
@@ -10919,7 +10919,7 @@
             },
             {
               "text": "Hula Hoop",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Lincoln Logs",
@@ -10949,7 +10949,7 @@
             },
             {
               "text": "Chuck D",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -10967,7 +10967,7 @@
             },
             {
               "text": "Indianapolis 500",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Super Bowl",
@@ -10981,7 +10981,7 @@
           "answers": [
             {
               "text": "Nomadic",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Pedantic",
@@ -11011,7 +11011,7 @@
             },
             {
               "text": "school",
-              "correct": false
+              "correct": true
             },
             {
               "text": "gaggle",
@@ -11029,7 +11029,7 @@
             },
             {
               "text": "ceramic",
-              "correct": false
+              "correct": true
             },
             {
               "text": "wood",
@@ -11051,7 +11051,7 @@
             },
             {
               "text": "Malcolm Little",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Malcolm Lincoln",
@@ -11069,7 +11069,7 @@
           "answers": [
             {
               "text": "Nautilus",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Neptune",
@@ -11095,7 +11095,7 @@
             },
             {
               "text": "Meriwether and William",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Cabot and Joseph",
@@ -11117,7 +11117,7 @@
             },
             {
               "text": "one hour backward",
-              "correct": false
+              "correct": true
             },
             {
               "text": "two hours forward",
@@ -11135,7 +11135,7 @@
           "answers": [
             {
               "text": "books",
-              "correct": false
+              "correct": true
             },
             {
               "text": "compact discs",
@@ -11161,7 +11161,7 @@
             },
             {
               "text": "St. Louis",
-              "correct": false
+              "correct": true
             },
             {
               "text": "New Orleans",
@@ -11183,7 +11183,7 @@
             },
             {
               "text": "India",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Peru",
@@ -11205,7 +11205,7 @@
             },
             {
               "text": "Rhode Island",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Virginia",
@@ -11223,7 +11223,7 @@
           "answers": [
             {
               "text": "Ford",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Chevrolet",
@@ -11245,7 +11245,7 @@
           "answers": [
             {
               "text": "tea",
-              "correct": false
+              "correct": true
             },
             {
               "text": "coffee",
@@ -11279,7 +11279,7 @@
             },
             {
               "text": "Espy",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11297,7 +11297,7 @@
             },
             {
               "text": "Simon and Garfunkel",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Tom and Jerry",
@@ -11323,7 +11323,7 @@
             },
             {
               "text": "grelp",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11345,7 +11345,7 @@
             },
             {
               "text": "jaguar",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11355,7 +11355,7 @@
           "answers": [
             {
               "text": "Notre Dame",
-              "correct": false
+              "correct": true
             },
             {
               "text": "USC",
@@ -11389,7 +11389,7 @@
             },
             {
               "text": "Israel",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11411,7 +11411,7 @@
             },
             {
               "text": "Jimmy Swaggart",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11429,7 +11429,7 @@
             },
             {
               "text": "scallop",
-              "correct": false
+              "correct": true
             },
             {
               "text": "scone",
@@ -11443,7 +11443,7 @@
           "answers": [
             {
               "text": "Jake Barnes",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Rogelio Gomez",
@@ -11473,7 +11473,7 @@
             },
             {
               "text": "IRA",
-              "correct": false
+              "correct": true
             },
             {
               "text": "IRS",
@@ -11487,7 +11487,7 @@
           "answers": [
             {
               "text": "fuzz",
-              "correct": false
+              "correct": true
             },
             {
               "text": "shrinks",
@@ -11521,7 +11521,7 @@
             },
             {
               "text": "antihistamines",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11535,7 +11535,7 @@
             },
             {
               "text": "Celotex",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Seersucker",
@@ -11561,7 +11561,7 @@
             },
             {
               "text": "cucumber",
-              "correct": false
+              "correct": true
             },
             {
               "text": "cayenne",
@@ -11579,7 +11579,7 @@
             },
             {
               "text": "marmot",
-              "correct": false
+              "correct": true
             },
             {
               "text": "orangutan",
@@ -11597,7 +11597,7 @@
           "answers": [
             {
               "text": "'The Dog and the Squirrel'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'The Hare and the Tortoise'",
@@ -11627,7 +11627,7 @@
             },
             {
               "text": "Parliamentary",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Legislative",
@@ -11641,7 +11641,7 @@
           "answers": [
             {
               "text": "baking soda",
-              "correct": false
+              "correct": true
             },
             {
               "text": "nail polish",
@@ -11663,7 +11663,7 @@
           "answers": [
             {
               "text": "March",
-              "correct": false
+              "correct": true
             },
             {
               "text": "April",
@@ -11689,7 +11689,7 @@
             },
             {
               "text": "kidney",
-              "correct": false
+              "correct": true
             },
             {
               "text": "stomach",
@@ -11719,7 +11719,7 @@
             },
             {
               "text": "Ulysses S. Grant",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11733,7 +11733,7 @@
             },
             {
               "text": "Balderdash",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Pictionary",
@@ -11763,7 +11763,7 @@
             },
             {
               "text": "pumice",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11785,7 +11785,7 @@
             },
             {
               "text": "hoot",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11799,7 +11799,7 @@
             },
             {
               "text": "'M*A*S*H'",
-              "correct": false
+              "correct": true
             },
             {
               "text": "'Northern Exposure'",
@@ -11829,7 +11829,7 @@
             },
             {
               "text": "quickly",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11843,7 +11843,7 @@
             },
             {
               "text": "Mussolini",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Churchill",
@@ -11873,7 +11873,7 @@
             },
             {
               "text": "Paul Allen",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -11891,7 +11891,7 @@
             },
             {
               "text": "Pete Rose",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Ken Griffey Jr",
@@ -11905,7 +11905,7 @@
           "answers": [
             {
               "text": "Anthony 'Spud' Webb",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Michael 'Air' Jordan",
@@ -11931,7 +11931,7 @@
             },
             {
               "text": "Chino",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Bernardo",
@@ -11953,7 +11953,7 @@
             },
             {
               "text": "Janis Joplin",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Mama Cass",
@@ -11975,7 +11975,7 @@
             },
             {
               "text": "Harry S. Truman",
-              "correct": false
+              "correct": true
             },
             {
               "text": "Franklin Roosevelt",
@@ -12005,7 +12005,7 @@
             },
             {
               "text": "Richard Nixon",
-              "correct": false
+              "correct": true
             }
           ]
         },
@@ -12015,7 +12015,7 @@
           "answers": [
             {
               "text": "war protesters",
-              "correct": false
+              "correct": true
             },
             {
               "text": "bluegrass musicians",
@@ -12049,7 +12049,7 @@
             },
             {
               "text": "Paul Anka",
-              "correct": false
+              "correct": true
             }
           ]
         }
