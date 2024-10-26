@@ -52,5 +52,14 @@
     "chat_type": "lt:team_chat"
   },
   "ltminigames:river_race_overlord",
-  "lt:river_race/questions"
+  "lt:river_race/questions",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    },
+    "drop_inventory": false
+  }
 ]
