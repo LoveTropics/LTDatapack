@@ -17,6 +17,7 @@
           {
             "type": "ltminigames:start_microgames",
             "games": [
+              "lt:crafting_bee",
               "lt:connect_four",
               "lt:block_party"
             ],

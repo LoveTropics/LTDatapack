@@ -1,0 +1,37 @@
+{
+  "name": {"translate": "ltminigames.minigame.crafting_bee"},
+
+  "statistics_key": "crafting_bee",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:crafting_bee",
+    "dimension_type": "lt:raised_clouds"
+  },
+
+  "minimum_participants": 1,
+  "maximum_participants": 24,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "red": ["red"],
+        "blue": ["blue"]
+      },
+      "spectators": ["spectators"]
+    },
+    "lt:crafting_bee_recipes",
+    {
+      "type": "ltminigames:set_client_state",
+      "state": {
+        "type": "ltminigames:hide_recipe_book",
+        "message": {"translate": "ltminigames.minigame.crafting_bee.dont_cheat"}
+      }
+    }
+  ]
+}
