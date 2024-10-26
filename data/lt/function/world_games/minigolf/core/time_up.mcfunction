@@ -2,7 +2,7 @@ $title @a[tag=hole$(ForcedAge)Player] actionbar [{"translate":"lt.golf.time_up",
 $execute as @a[tag=hole$(ForcedAge)Player] at @s run playsound minecraft:block.note_block.bell voice @s
 $execute as @a[tag=hole$(ForcedAge)Player] run attribute @s minecraft:player.submerged_mining_speed base set 0.2
 # Kills the crab
-$kill @e[tag=hole$(ForcedAge)Crab]
+$data modify entity @e[tag=hole$(ForcedAge)Crab,limit=1] Health set value -1000
 $kill @e[tag=hole$(ForcedAge)Text]
 $execute at @a[tag=hole$(ForcedAge)Player] run kill @e[type=minecraft:experience_orb,distance=..20]
 #TropiCoins

@@ -16,5 +16,5 @@ $data modify entity @e[tag=hole$(hole)Crab,limit=1] Owner set from entity @p[tag
 $scoreboard players set @e[tag=hole$(hole)Crab] golf.timer 120
 $scoreboard players set @e[tag=hole$(hole)Crab] golf.hits 0
 
-
+$execute as @e[tag=hole$(hole)Data] at @s run data modify block ~ ~ ~ front_text.messages[0] set value '{"selector":"@p"}'
 execute as @s run function lt:world_games/minigolf/core/utils/give_putters

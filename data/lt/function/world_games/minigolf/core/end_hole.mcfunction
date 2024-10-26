@@ -5,9 +5,10 @@ $gamemode creative @a[tag=hole$(ForcedAge)Player,tag=golfCreative]
 $tag @a[tag=hole$(ForcedAge)Player,gamemode=creative] remove golfCreative
 $clear @a[tag=hole$(ForcedAge)Player] #minecraft:hoes
 $tag @a[tag=hole$(ForcedAge)Player] remove golfInGame
+$function lt:world_games/minigolf/core/utils/set_score with entity @p[tag=hole$(ForcedAge)Player]
 
 # Kills the crab
-$kill @e[tag=hole$(ForcedAge)Crab]
+$data modify entity @e[tag=hole$(ForcedAge)Crab,limit=1] Health set value -1000
 $kill @e[tag=hole$(ForcedAge)Text]
 $execute at @a[tag=hole$(ForcedAge)Player] run kill @e[type=minecraft:experience_orb,distance=..20]
 $give @a[tag=hole$(ForcedAge)Player,tag=!hole$(ForcedAge)Played] ltextras:tropicoin 2
