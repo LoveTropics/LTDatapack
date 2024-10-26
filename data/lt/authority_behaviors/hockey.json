@@ -1,5 +1,5 @@
 {
-    "enter_commands": ["say enter"],
-    "exit_commands": ["say exit"]
+    "enter_commands": [],
+    "exit_commands": []
   }
   
