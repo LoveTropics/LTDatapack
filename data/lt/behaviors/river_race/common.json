@@ -21,7 +21,7 @@
               "lt:connect_four",
               "lt:block_party"
             ],
-            "games_per_round": 1
+            "games_per_round": 3
           }
         ]
       }

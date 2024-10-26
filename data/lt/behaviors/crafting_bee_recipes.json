@@ -3,7 +3,7 @@
     "type": "ltminigames:crafting_bee",
     "selectors": [
       {
-        // Wood products - easy
+        // Wood products - easy - 30 sec
         "type": "from_list",
         "recipes": [
           "crafting_table",
@@ -17,7 +17,7 @@
         ]
       },
       {
-        // Tools and combat - easy
+        // Tools and combat - easy - 30 sec
         "type": "one_of",
         "selectors": [
           {
@@ -55,12 +55,12 @@
         ]
       },
       {
-        // Villager job sites - medium
+        // Villager job sites - medium - 45 sec
         "type": "from_item_tag",
         "tag": "#c:villager_job_sites"
       },
       {
-        // Redstone - medium
+        // Redstone - medium - 45 sec
         "type": "from_list",
         "recipes": [
           "piston",
@@ -79,7 +79,7 @@
         ]
       },
       {
-        // Redstone - hard
+        // Redstone - hard - 90 sec
         "type": "from_list",
         "recipes": [
           "crafter",
@@ -90,7 +90,7 @@
         ]
       },
       {
-        // Decoration - medium
+        // Decoration - medium - 45 sec
         "type": "from_list",
         "recipes": [
           "end_crystal",
@@ -106,7 +106,7 @@
         ]
       },
       {
-        // Misc - easy/medium
+        // Misc - easy/medium - 45 sec
         "type": "from_list",
         "recipes": [
           "clock",
@@ -169,6 +169,13 @@
         ]
       }
     ],
-    "hints_per_player": 3
+    "hints_per_player": 3,
+    "timer_bar": {
+      "translate": "ltminigames.minigame.trash_dive.time_remaining",
+      "color": "green"
+    },
+    "time_per_team": 7800, // 7800 ticks = 330 seconds for recipes + 30 second leeway + 30 second penalty = 6:30,
+    "recycling_penalty": 300, // 15 seconds / recycle
+    "recycling_region": "recycler"
   }
 ]
