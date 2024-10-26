@@ -1,5 +1,5 @@
 {
-    "enter_commands": ["team join hockey @s", "function lt:world_games/hockey/util/give_stick"],
-    "exit_commands": ["team leave @s", "clear @s minecraft:wooden_hoe[minecraft:custom_data={HockeyStick:1b}]"]
+    "enter_commands": ["say enter"],
+    "exit_commands": ["say exit"]
   }
   
