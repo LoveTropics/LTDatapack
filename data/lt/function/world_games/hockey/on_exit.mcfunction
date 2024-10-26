@@ -1,2 +1,2 @@
-execute if entity @s[team=hockey] run team leave @s
+team leave @s
 clear @s minecraft:wooden_hoe[minecraft:custom_data={HockeyStick:1b}]

@@ -1,5 +1,5 @@
 {
-    "enter_commands": ["function lt:world_games/hockey/on_enter"],
-    "exit_commands": ["function lt:world_games/hockey/on_exit"]
+    "enter_commands": ["say enter"],
+    "exit_commands": ["say exit"]
   }
   
