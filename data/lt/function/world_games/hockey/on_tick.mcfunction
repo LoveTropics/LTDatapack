@@ -1,0 +1,2 @@
+execute as @e[tag=crabHockey] at @s if block ~ ~ ~ ltextras:checkpoint[stage=1] run function lt:world_games/hockey/score {"team":"blue"}
+execute as @e[tag=crabHockey] at @s if block ~ ~ ~ ltextras:checkpoint[stage=15] run function lt:world_games/hockey/score {"team":"red"}

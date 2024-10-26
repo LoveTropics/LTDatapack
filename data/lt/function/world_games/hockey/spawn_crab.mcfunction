@@ -1,0 +1,1 @@
+execute as @e[tag=world_game.hockey.crab_spawn] at @s run summon tropicraft:fiddler_crab ~ ~ ~ {RollingDownTown:true,Silent:true,Health:500f,Tags:["crabHockey"],attributes:[{id:"minecraft:generic.max_health",base:500},{id:"minecraft:generic.knockback_resistance",base:0.75},{id:"minecraft:generic.movement_speed",base:0}]}

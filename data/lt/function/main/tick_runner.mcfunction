@@ -93,3 +93,7 @@ execute as @e[predicate=lt:in_trap] run tp @s @e[tag=golfStart,sort=nearest,limi
 
 #Systems
 function lt:systems/on_tick
+
+
+# Hockey
+function lt:world_games/hockey/on_tick

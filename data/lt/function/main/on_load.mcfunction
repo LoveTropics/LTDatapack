@@ -106,3 +106,7 @@ scoreboard objectives add game.dropper.stats_player_wins dummy "Dropper Wins"
 team add dropper
 team modify dropper collisionRule never
 team modify dropper seeFriendlyInvisibles true
+
+
+# Hockey
+scoreboard objectives add game.hockey dummy "Hockey"
