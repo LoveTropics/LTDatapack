@@ -32,7 +32,10 @@
     "points_per_block_collected": 1,
     "points_per_game_won": 1
   },
-  "lt:teams/red_blue",
+  {
+    "type":"ltminigames:river_race_progress",
+    "max_points": 10
+  },
   {
     "type": "ltminigames:position_players",
     "teams": {
