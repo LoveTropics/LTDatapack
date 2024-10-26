@@ -5,7 +5,7 @@
   },
   {
     "type": "lt:common/playing",
-    "game_type": "adventure",
+    "game_type": "survival",
     "join_late_with_role": "participant"
   },
   "ltminigames:spectator_chase",
@@ -60,6 +60,8 @@
       "text": "☠ %message%",
       "color": "gray"
     },
-    "drop_inventory": false
+    "drop_inventory": false,
+    "extinguish_fire": true,
+    "clear_effects": true
   }
 ]
