@@ -1,3 +1,5 @@
+$execute if entity @e[tag=hole$(hole)Player] run tellraw @s [{"translate":"lt.golf.in_use","color":"red","with":[{"text":"$(hole)"}]}]
+$execute if entity @e[tag=hole$(hole)Player] run return fail
 # Gives / Set Player Settings
 $tag @s add hole$(hole)Player
 $tag @s add hole$(hole)Player
