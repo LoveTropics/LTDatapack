@@ -19,7 +19,7 @@
             "games": [
               "lt:crafting_bee",
               "lt:connect_four",
-              "lt:block_party"
+              "lt:block_party_teams"
             ],
             "games_per_round": 3
           }
