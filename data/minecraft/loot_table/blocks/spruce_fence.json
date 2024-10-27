@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_planks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0,
+        "conditions": [
+          {
+            "condition": "minecraft:reference",
+            "name": "lt:is_river_race"
+          }
+        ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/mangrove_planks"
+}

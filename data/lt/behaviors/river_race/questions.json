@@ -445,6 +445,28 @@
           ]
         },
         {
+          "difficulty": "hard",
+          "question": "In Greek mythology, what is the name of Zeus' father?",
+          "answers": [
+            {
+              "text": "Apollo",
+              "correct": false
+            },
+            {
+              "text": "Cronus",
+              "correct": true
+            },
+            {
+              "text": "Prometheus",
+              "correct": false
+            },
+            {
+              "text": "Hercules",
+              "correct": false
+            }
+          ]
+        },
+        {
           "difficulty": "medium",
           "question": "If you are watching a Shavian play, who is the author?",
           "answers": [
@@ -3024,7 +3046,7 @@
       "zone_id": 2,
       "questions": [
         {
-          "difficulty": "medium",
+          "difficulty": "hard",
           "question": "A knish is traditionally stuffed with what filling?",
           "answers": [
             {
@@ -3178,7 +3200,7 @@
           ]
         },
         {
-          "difficulty": "medium",
+          "difficulty": "hard",
           "question": "Backgammon is a how many player game?",
           "answers": [
             {
@@ -3244,7 +3266,7 @@
           ]
         },
         {
-          "difficulty": "medium",
+          "difficulty": "hard",
           "question": "For a man and woman on a date, 'dutch treat' means what?",
           "answers": [
             {
@@ -3332,7 +3354,7 @@
           ]
         },
         {
-          "difficulty": "medium",
+          "difficulty": "hard",
           "question": "How many digits are in a standard Visa credit card number?",
           "answers": [
             {
@@ -3573,28 +3595,7 @@
             }
           ]
         },
-        {
-          "difficulty": "hard",
-          "question": "In Greek mythology, what is the name of Zeus' father?",
-          "answers": [
-            {
-              "text": "Apollo",
-              "correct": false
-            },
-            {
-              "text": "Cronus",
-              "correct": true
-            },
-            {
-              "text": "Prometheus",
-              "correct": false
-            },
-            {
-              "text": "Hercules",
-              "correct": false
-            }
-          ]
-        },
+
         {
           "difficulty": "medium",
           "question": "In mobster lingo, if you 'sing like a canary' what are you doing?",
