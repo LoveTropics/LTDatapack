@@ -61,7 +61,9 @@
       "color": "gray"
     },
     "drop_inventory": false,
-    "extinguish_fire": true,
-    "clear_effects": true
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player"
+    ]
   }
 ]
