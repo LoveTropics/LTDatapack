@@ -1,12 +1,10 @@
+# Send Message / Time Up Stuff
+$title @a[tag=hole$(XpLevel)Player,current_world=true] actionbar [{"translate":"lt.golf.leave_game","color":"red"}]
+$execute as @a[tag=hole$(XpLevel)Player,current_world=true] at @s run playsound minecraft:block.note_block.bell voice @s
+
 # Kills the crab
-$data modify entity @e[tag=hole$(ForcedAge)Crab,limit=1] Health set value -1000
-$kill @e[tag=hole$(ForcedAge)Text]
-$execute at @a[tag=hole$(ForcedAge)Player] run kill @e[type=minecraft:experience_orb,distance=..20]
-$execute as @a[tag=hole$(ForcedAge)Player] run attribute @s minecraft:player.submerged_mining_speed base set 0.2
-#TropiCoins
-$tag @a[tag=hole$(ForcedAge)Player] remove golfInGame
-$tag @a remove hole$(ForcedAge)Player
-gamemode creative @s[tag=golfCreative]
-tag @s[gamemode=creative] remove golfCreative
-clear @s #minecraft:hoes
-tag @s remove golfInGame
+$execute as @e[tag=hole$(XpLevel)End,current_world=true] run function lt:world_games/minigolf/core/utils/kill_crab {hole:$(XpLevel)}
+
+# Resets The Player
+$execute as @p[tag=hole$(XpLevel)Player,current_world=true] run function lt:world_games/minigolf/core/utils/gamemode
+$execute as @a[current_world=true] run tag @s remove hole$(XpLevel)Player

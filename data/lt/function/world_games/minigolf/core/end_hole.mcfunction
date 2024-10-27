@@ -1,20 +1,14 @@
-$title @a[tag=hole$(ForcedAge)Player] actionbar [{"translate":"lt.golf.end_hole","color":"red","with":[{"text":"$(ForcedAge)"}, {"score":{"name":"@e[tag=hole$(ForcedAge)Crab]","objective":"golf.hits"}}]}]
-$execute as @a[tag=hole$(ForcedAge)Player] at @s run playsound minecraft:item.goat_horn.sound.0 voice @s
-$execute as @a[tag=hole$(ForcedAge)Player] run attribute @s minecraft:player.submerged_mining_speed base set 0.2
-$gamemode creative @a[tag=hole$(ForcedAge)Player,tag=golfCreative]
-$tag @a[tag=hole$(ForcedAge)Player,gamemode=creative] remove golfCreative
-$clear @a[tag=hole$(ForcedAge)Player] #minecraft:hoes
-$tag @a[tag=hole$(ForcedAge)Player] remove golfInGame
-$function lt:world_games/minigolf/core/utils/set_score with entity @p[tag=hole$(ForcedAge)Player]
+# Send Message / Finsh Hole Stuff
+$execute at @e[tag=hole$(ForcedAge)End,current_world=true] run summon firework_rocket ~ ~3 ~ {LifeTime:10,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{explosions:[{shape:small_ball,colors:[I;14602026]}]}}}}
+$title @p[tag=hole$(ForcedAge)Player,current_world=true] actionbar [{"translate":"lt.golf.end_hole","color":"red","with":[{"text":"$(ForcedAge)"}, {"score":{"name":"@e[tag=hole$(ForcedAge)Crab]","objective":"golf.hits"}}]}]
+$execute as @p[tag=hole$(ForcedAge)Player,current_world=true] at @s run playsound minecraft:item.goat_horn.sound.0 voice @s
 
 # Kills the crab
-$data modify entity @e[tag=hole$(ForcedAge)Crab,limit=1] Health set value -1000
-$kill @e[tag=hole$(ForcedAge)Text]
-$execute at @a[tag=hole$(ForcedAge)Player] run kill @e[type=minecraft:experience_orb,distance=..20]
-$give @a[tag=hole$(ForcedAge)Player,tag=!hole$(ForcedAge)Played] ltextras:tropicoin 2
-#Resets Gamemode / Remove Putters / Remove player from game
-$execute as @a[tag=hole$(ForcedAge)Player] run function lt:world_games/minigolf/core/hole_end
-#TropiCoins
-$tag @a[tag=hole$(ForcedAge)Player] remove golfInGame
-$tag @a remove hole$(ForcedAge)Player
-$execute at @e[tag=hole$(ForcedAge)End] run summon firework_rocket ~ ~3 ~ {LifeTime:10,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{explosions:[{shape:small_ball,colors:[I;14602026]}]}}}}
+$execute as @e[tag=hole$(ForcedAge)End,current_world=true] run function lt:world_games/minigolf/core/utils/kill_crab {hole:$(ForcedAge)}
+
+# Resets The Player
+$execute as @p[tag=hole$(ForcedAge)Player,current_world=true] run function lt:world_games/minigolf/core/utils/gamemode
+$give @a[tag=hole$(ForcedAge)Player,tag=!hole$(ForcedAge)Played,current_world=true] ltextras:tropicoin 2
+$execute as @a[current_world=true] run tag @s remove hole$(ForcedAge)Player
+
+
