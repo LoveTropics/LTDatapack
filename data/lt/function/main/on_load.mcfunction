@@ -110,5 +110,6 @@ team modify dropper seeFriendlyInvisibles true
 
 # Hockey
 scoreboard objectives add game.hockey dummy "Hockey"
+scoreboard players set WinScore game.hockey 10
 team add hockey
 team modify hockey collisionRule never
