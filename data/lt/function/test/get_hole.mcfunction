@@ -1,0 +1,1 @@
+$function lt:test/say_hole with storage lt:test "${UUID}"
