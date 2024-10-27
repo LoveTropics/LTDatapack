@@ -1,7 +1,18 @@
 [
   {
     "type": "ltminigames:river_race_merchant",
-    "zone": "zone_1",
+    "zone": "red_shop_zone_1",
+    "entity": "tropicraft:tropiskelly",
+    "name": {
+      "translate": "ltminigames.minigame.biodiversity_blitz.shop"
+    },
+    "offers": [
+
+    ]
+  },
+  {
+    "type": "ltminigames:river_race_merchant",
+    "zone": "blue_shop_zone_1",
     "entity": "tropicraft:tropiskelly",
     "name": {
       "translate": "ltminigames.minigame.biodiversity_blitz.shop"
