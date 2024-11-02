@@ -27,10 +27,32 @@
       "end": 1300
     },
     "max_time_step": 3,
-    "fixed_time_step": {
-      "start": "start",
-      "end": "rain_start_2"
-    },
+    "fixed_time_step": [
+      {
+        "start": "start",
+        "end": "rain_start_2"
+      },
+      {
+        "start": "tide_rise_1",
+        "end": "rain_end_1"
+      },
+      {
+        "start": "tide_rise_2",
+        "end": "rain_end_2"
+      },
+      {
+        "start": "tide_rise_3",
+        "end": "rain_end_3"
+      },
+      {
+        "start": "tide_rise_4",
+        "end": "rain_end_4"
+      },
+      {
+        "start": "tide_rise_5",
+        "end": "rain_end_5"
+      }
+    ],
     "time_by_player_count": [
       {
         "left": 20,
