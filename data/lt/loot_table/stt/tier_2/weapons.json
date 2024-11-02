@@ -24,32 +24,7 @@
                                     {
                                         "type": "generic.attack_damage",
                                         "id": "lt:trident_attack_boost",
-                                        "amount": 4.0,
-                                        "operation": "add_value"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:trident",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "enchantments": {
-                                    "levels": {
-                                        "riptide": 3
-                                    }
-                                },
-                                "attribute_modifiers": [
-                                    {
-                                        "type": "generic.attack_damage",
-                                        "id": "lt:trident_attack_boost",
-                                        "amount": 4.0,
+                                        "amount": 3.0,
                                         "operation": "add_value"
                                     }
                                 ]
