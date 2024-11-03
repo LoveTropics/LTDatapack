@@ -94,7 +94,7 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "type": "minecraft:max_health",
+                  "type": "minecraft:generic.max_health",
                   "slot": "any",
                   "id": "lt:river_race_collectable_health",
                   "amount": -16,
@@ -136,7 +136,7 @@
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
-                  "type": "minecraft:max_health",
+                  "type": "minecraft:generic.max_health",
                   "slot": "any",
                   "id": "lt:river_race_collectable_health",
                   "amount": -16,
