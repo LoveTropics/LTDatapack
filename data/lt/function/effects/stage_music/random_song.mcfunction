@@ -1,0 +1,22 @@
+execute store result score RandomSong main.global run random value 2..22
+execute if score RandomSong main.global matches 2 run item replace block ~ ~ ~ contents with minecraft:music_disc_creator
+execute if score RandomSong main.global matches 3 run item replace block ~ ~ ~ contents with minecraft:music_disc_blocks
+execute if score RandomSong main.global matches 4 run item replace block ~ ~ ~ contents with minecraft:music_disc_wait
+execute if score RandomSong main.global matches 5 run item replace block ~ ~ ~ contents with minecraft:music_disc_cat
+execute if score RandomSong main.global matches 6 run item replace block ~ ~ ~ contents with minecraft:music_disc_chirp
+execute if score RandomSong main.global matches 7 run item replace block ~ ~ ~ contents with minecraft:music_disc_mellohi
+execute if score RandomSong main.global matches 8 run item replace block ~ ~ ~ contents with minecraft:music_disc_mall
+execute if score RandomSong main.global matches 9 run item replace block ~ ~ ~ contents with minecraft:music_disc_far
+execute if score RandomSong main.global matches 10 run item replace block ~ ~ ~ contents with minecraft:music_disc_stal
+execute if score RandomSong main.global matches 11 run item replace block ~ ~ ~ contents with minecraft:music_disc_creator_music_box
+execute if score RandomSong main.global matches 12 run item replace block ~ ~ ~ contents with minecraft:music_disc_precipice
+execute if score RandomSong main.global matches 13 run item replace block ~ ~ ~ contents with minecraft:music_disc_relic
+execute if score RandomSong main.global matches 14 run item replace block ~ ~ ~ contents with minecraft:music_disc_pigstep
+execute if score RandomSong main.global matches 15 run item replace block ~ ~ ~ contents with minecraft:music_disc_otherside
+execute if score RandomSong main.global matches 16 run item replace block ~ ~ ~ contents with minecraft:music_disc_strad
+execute if score RandomSong main.global matches 17 run item replace block ~ ~ ~ contents with tropicraft:music_disc_buried_treasure
+execute if score RandomSong main.global matches 18 run item replace block ~ ~ ~ contents with tropicraft:music_disc_eastern_isles
+execute if score RandomSong main.global matches 19 run item replace block ~ ~ ~ contents with tropicraft:music_disc_low_tide
+execute if score RandomSong main.global matches 20 run item replace block ~ ~ ~ contents with tropicraft:music_disc_summering
+execute if score RandomSong main.global matches 21 run item replace block ~ ~ ~ contents with tropicraft:music_disc_the_tribe
+execute if score RandomSong main.global matches 22 run item replace block ~ ~ ~ contents with tropicraft:music_disc_trade_winds
