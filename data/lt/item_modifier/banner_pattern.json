@@ -7,13 +7,7 @@
                 "color": "green"
             }
         ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:reference",
-                "name": "lt:team_cents"
-            }
-        ]
+        "append": false
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -23,12 +17,46 @@
                 "color": "red"
             }
         ],
-        "append": false,
-        "conditions": [
+        "append": false
+    },
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
             {
-                "condition": "minecraft:reference",
-                "name": "lt:team_no_cents"
+                "pattern": "lt:col",
+                "color": "red"
             }
-        ]
+        ],
+        "append": false
+    },
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
+            {
+                "pattern": "lt:love_heart",
+                "color": "red"
+            }
+        ],
+        "append": false
+    },
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
+            {
+                "pattern": "lt:love_heart_new",
+                "color": "red"
+            }
+        ],
+        "append": false
+    },
+    {
+        "function": "minecraft:set_banner_pattern",
+        "patterns": [
+            {
+                "pattern": "lt:pog",
+                "color": "yellow"
+            }
+        ],
+        "append": false
     }
 ]

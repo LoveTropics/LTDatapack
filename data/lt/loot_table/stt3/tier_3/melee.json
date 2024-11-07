@@ -28,6 +28,10 @@
                                 "min": 0.1,
                                 "max": 0.35
                             }
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "lt:banner_pattern"
                         }
                     ]
                 },
