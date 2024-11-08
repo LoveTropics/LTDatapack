@@ -53,10 +53,10 @@
                 "enchantments": {
                   "levels": {
                     "efficiency": 100
-                  },
-                  "can_break": {
-                    "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
                   }
+                },
+                "can_break": {
+                  "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
                 }
               }
             }
