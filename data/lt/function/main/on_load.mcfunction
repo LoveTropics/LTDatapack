@@ -115,3 +115,7 @@ team add hockey.red "Red Hockey Team"
 team add hockey.blue "Blue Hockey Team"
 team modify hockey.red collisionRule always
 team modify hockey.blue collisionRule always
+
+
+# Party Room
+scoreboard objectives add party_room.items dummy
