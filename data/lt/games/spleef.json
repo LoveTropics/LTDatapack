@@ -50,10 +50,14 @@
               "components": {
                 "unbreakable": {},
                 "ltextras:undroppable": {},
-                "enchantments": {
-                  "levels": {
-                    "efficiency": 100
-                  }
+                "enchantment_glint_override": true,
+                "tool": {
+                  "rules": [
+                    {
+                      "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"],
+                      "speed": 5000
+                    }
+                  ]
                 },
                 "can_break": {
                   "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
