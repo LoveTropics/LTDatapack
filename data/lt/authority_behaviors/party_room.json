@@ -3,7 +3,7 @@
         "scoreboard players set @s party_room.items 0"
     ],
     "exit_commands": [
-        "execute store result score @s party_room.items run clear @s #ltextras:everything[minecraft:custom_data={PartyRoomOnly:1b}]",
+        "execute store result score @s party_room.items run clear @s #minecraft:potion[minecraft:custom_data={PartyRoomOnly:1b}]",
         "execute if score @s party_room.items matches 0.. run tellraw @s \"Fix Me - Illegal Items\""]
   }
   
