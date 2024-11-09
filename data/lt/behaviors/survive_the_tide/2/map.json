@@ -53,35 +53,15 @@
   {"type": "ltminigames:generate_entities", "entity": "ltminigames:driftwood", "min_per_chunk": -1, "max_per_chunk": 1},
   {
     "type": "ltminigames:position_players",
-    "participants": [
-      "participant_spawn_1",
-      "participant_spawn_2",
-      "participant_spawn_3",
-      "participant_spawn_4",
-      "participant_spawn_5",
-      "participant_spawn_6",
-      "participant_spawn_7",
-      "participant_spawn_8",
-      "participant_spawn_9",
-      "participant_spawn_10",
-      "participant_spawn_11",
-      "participant_spawn_12",
-      "participant_spawn_13",
-      "participant_spawn_14",
-      "participant_spawn_15",
-      "participant_spawn_16"
-    ],
+    "participants": ["spawn_area"],
     "spectators": ["center"]
   },
   {
-    "type": "ltminigames:scheduled_actions",
-    "actions": {
-      "1": {
-        "type": "ltminigames:set_blocks",
-        "region": "delete_on_start",
-        "set": "air"
-      }
-    }
+    "type": "ltminigames:rising_platform",
+    "platform": "spawn_area",
+    "time": 300,
+    "height": 21.0,
+    "block_state": "minecraft:cyan_terracotta"
   },
   {
     "type": "ltminigames:rising_tides",
