@@ -1,0 +1,116 @@
+{
+  "name": { "translate": "ltminigames.minigame.crab_hockey" },
+
+  "statistics_key": "hockey",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:crab_hockey"
+  },
+  "minimum_participants": 1,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "red": ["red"],
+        "blue": ["blue"]
+      },
+      "spectators": ["spectators"]
+    },
+    {
+      "type": "ltminigames:spawn_entity_at_regions",
+      "entity_id": "tropicraft:fiddler_crab",
+      "regions_to_spawn_at": ["crab_spawn"],
+      "tag": {
+        "RollingDownTown":true,
+        "Silent":true,
+        "Health":500,
+        "active_effects": [
+          {
+            "id":"minecraft:glowing",
+            "show_particles":false,
+            "duration":-1
+          }
+        ],
+        "attributes": [
+          {
+            "id": "minecraft:generic.max_health",
+            "base": 500
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "base": 0.75
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "base": 0
+          },
+          { 
+            "id": "minecraft:generic.scale",
+            "base": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "type": "ltminigames:set_role",
+      "role": "participant",
+      "action": {
+        "type": "ltminigames:run_commands",
+        "player": ["function lt:world_games/hockey/util/give_stick", "function lt:world_games/hockey/util/set_attributes"]
+      }
+    },
+    {
+      "type": "ltminigames:timed",
+      "length": 6000,
+      "countdown_seconds": 5,
+      "timer_bar": {
+        "translate": "ltminigames.minigame.trash_dive.time_remaining",
+        "color": "green"
+      }
+    },
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true"
+      }
+    },
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": true
+    },
+    "ltminigames:immediate_respawn",
+    "ltminigames:spectator_chase",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
+  ]
+}
