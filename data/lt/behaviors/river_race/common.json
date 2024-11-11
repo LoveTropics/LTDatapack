@@ -73,6 +73,33 @@
     ]
   },
   {
+    "type": "ltminigames:while_in_inventory",
+    "item": {
+      "components": {
+        "ltminigames:river_race_collectable_marker": {}
+      }
+    },
+    "apply": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+          "id": "lt:river_race/held_collectable",
+          "amount": -16,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "clear": [
+      {
+        "type": "ltminigames:clear_attribute_modifier",
+        "attribute": "minecraft:generic.max_health",
+        "id": "lt:river_race/held_collectable"
+      }
+    ],
+    "stack": false
+  },
+  {
     "type": "ltminigames:river_race_collectables",
     "collectables": [
       {
@@ -92,18 +119,7 @@
             "minecraft:enchantments": {
               "vanishing_curse": 1
             },
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                  "type": "minecraft:generic.max_health",
-                  "slot": "any",
-                  "id": "lt:river_race_collectable_health",
-                  "amount": -16,
-                  "operation": "add_value"
-                }
-              ],
-              "show_in_tooltip": false
-            }
+            "ltminigames:river_race_collectable_marker": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
@@ -136,18 +152,7 @@
             "minecraft:enchantments": {
               "vanishing_curse": 1
             },
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                  "type": "minecraft:generic.max_health",
-                  "slot": "any",
-                  "id": "lt:river_race_collectable_health",
-                  "amount": -16,
-                  "operation": "add_value"
-                }
-              ],
-              "show_in_tooltip": false
-            }
+            "ltminigames:river_race_collectable_marker": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
