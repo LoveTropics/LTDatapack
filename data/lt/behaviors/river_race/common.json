@@ -61,7 +61,8 @@
     "drop_inventory": false,
     "respawn_action": [
       "ltminigames:clear_effects",
-      "ltminigames:extinguish_player"
+      "ltminigames:extinguish_player",
+      "ltminigames:reset_hunger"
     ]
   },
   {
