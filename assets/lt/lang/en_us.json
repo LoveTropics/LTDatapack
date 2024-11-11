@@ -336,5 +336,8 @@
     "lt.disguise.already_cloned": "You are already cloned",
     "lt.disguise.to_many_players": "Cloning can't work too many players nearby",
 
-    "lt.enchant.rocket_boots": "Rocket Boots"
+    "lt.enchant.rocket_boots": "Rocket Boots",
+
+    "lt.item.damaging_coconut": "Damaging Coconut",
+    "lt.item.explosive_coconut": "Explosive Coconut"
 }
