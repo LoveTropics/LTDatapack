@@ -2,7 +2,9 @@
   "type": "ltminigames:item_picked_up",
   "item": {
     "items": ["minecraft:enchanted_golden_apple"],
-    "custom_data": "$item_tag"
+    "predicates": {
+      "minecraft:custom_data": "$item_tag"
+    }
   },
   "action": [
     {
