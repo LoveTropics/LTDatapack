@@ -1,1 +1,1 @@
-$execute store result storage lt:golf $(UUID[0]).hole1 int 1 run scoreboard players get @e[tag=hole1Crab,limit=1] golf.hits
+say hi
