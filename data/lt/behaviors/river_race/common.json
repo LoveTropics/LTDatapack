@@ -113,7 +113,11 @@
           "lt:connect_four",
           "lt:block_party_teams"
         ],
-        "games_per_round": 4
+        "games_per_round": 4,
+        "unlocks_colliders": [
+          "red_river_1",
+          "blue_river_1"
+        ]
       },
       {
         "zone": "zone_2",
@@ -153,7 +157,11 @@
           "lt:connect_four",
           "lt:block_party_teams"
         ],
-        "games_per_round": 4
+        "games_per_round": 4,
+        "unlocks_colliders": [
+          "red_river_2",
+          "blue_river_2"
+        ]
       }
     ]
   }
