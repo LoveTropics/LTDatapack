@@ -1,0 +1,5 @@
+{
+	"id": "item/ltextras:cooldown_override",
+	"type": "int",
+	"always_relevant": true
+}

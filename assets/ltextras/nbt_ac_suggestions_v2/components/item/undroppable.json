@@ -1,0 +1,5 @@
+{
+	"id": "item/ltextras:undroppable",
+	"type": "boolean",
+	"always_relevant": true
+}

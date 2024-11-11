@@ -1,0 +1,18 @@
+{
+	"id": "item/ltextras:collectible",
+	"type": "compound",
+	"always_relevant": true,
+
+	"tags":
+	[
+		{
+			"tag": "type",
+			"type": "string",
+			"subtype": "registry_key/ltextras:collectible"
+		},
+		{
+			"tag": "owner",
+			"type": "uuid"
+		}
+	]
+}

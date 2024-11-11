@@ -1,0 +1,68 @@
+{
+	"id": "item/ltextras:image",
+	"type": "compound",
+	"always_relevant": true,
+	"tags":
+	[
+		{
+			"tag": "name",
+			"type": "json_text"
+		},
+		{
+			"tag": "texture",
+			"type": "id"
+		},
+		{
+			"tag": "width",
+			"type": "float"
+		},
+		{
+			"tag": "height",
+			"type": "float"
+		},
+		{
+			"tag": "offset_x",
+			"type": "float"
+		},
+		{
+			"tag": "offset_y",
+			"type": "float"
+		},
+		{
+			"tag": "text",
+			"type": "list/compound",
+			"tags": [
+				{
+					"tag": "text",
+					"type": "json_text"
+				},
+				{
+					"tag": "x",
+					"type": "float"
+				},
+				{
+					"tag": "y",
+					"type": "float"
+				},
+				{
+					"tag": "max_width",
+					"type": "float"
+				},
+				{
+					"tag": "line_spacing",
+					"type": "float"
+				},
+				{
+					"tag": "align_horizontal",
+					"type": "string",
+					"subtype": "enum/start;center;end"
+				},
+				{
+					"tag": "align_vertical",
+					"type": "string",
+					"subtype": "enum/start;center;end"
+				}
+			]
+		}
+	]
+}

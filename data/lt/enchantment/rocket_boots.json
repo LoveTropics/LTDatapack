@@ -1,5 +1,5 @@
 {
-    "description": "moon_boots",
+    "description": "lt.enchant.rocket_boots",
     "supported_items": "#minecraft:enchantable/foot_armor",
     "weight": 1,
     "max_level": 1,

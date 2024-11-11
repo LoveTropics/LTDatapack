@@ -1,0 +1,5 @@
+{
+	"id": "item/ltextras:coin_count",
+	"type": "int",
+	"always_relevant": true
+}
