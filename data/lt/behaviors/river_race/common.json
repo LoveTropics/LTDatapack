@@ -81,7 +81,7 @@
         "item": {
           "id": "minecraft:red_wool",
           "components": {
-            "minecraft:custom_name": "{\"text\":\"Collectable - East Africa\",\"color\":\"red\",\"italic\":false}",
+            "minecraft:item_name": "{\"text\":\"Collectable - East Africa\",\"color\":\"red\"}",
             "minecraft:enchantment_glint_override": true,
             "minecraft:lore": [
               "{\"text\":\"Collectable\",\"color\":\"gray\"}",
@@ -107,8 +107,6 @@
           }
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
-        "monument_predicate": "minecraft:red_wool",
-        "monument_block_state": "minecraft:red_wool",
         "victory_points": 2,
         "game_pool": [
           "lt:crafting_bee",
@@ -123,7 +121,7 @@
         "item": {
           "id": "minecraft:yellow_wool",
           "components": {
-            "minecraft:custom_name": "{\"text\":\"Collectable - India\",\"color\":\"yellow\",\"italic\":false}",
+            "minecraft:item_name": "{\"text\":\"Collectable - India\",\"color\":\"yellow\"}",
             "minecraft:enchantment_glint_override": true,
             "minecraft:lore": [
               "{\"text\":\"Collectable\",\"color\":\"gray\"}",
@@ -149,8 +147,6 @@
           }
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
-        "monument_predicate": "minecraft:yellow_wool",
-        "monument_block_state": "minecraft:yellow_wool",
         "victory_points": 4,
         "game_pool": [
           "lt:crafting_bee",
