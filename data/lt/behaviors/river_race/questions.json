@@ -2,7 +2,7 @@
   "type": "ltminigames:trivia",
   "zones": [
     {
-      "zone_id": 1,
+      "zone_region": "zone_1",
       "questions": [
         {
           "difficulty": "easy",
@@ -3043,7 +3043,7 @@
       ]
     },
     {
-      "zone_id": 2,
+      "zone_region": "zone_2",
       "questions": [
         {
           "difficulty": "hard",
@@ -6041,7 +6041,7 @@
       ]
     },
     {
-      "zone_id": 3,
+      "zone_region": "zone_3",
       "questions": [
         {
           "difficulty": "easy",
@@ -9060,7 +9060,7 @@
       ]
     },
     {
-      "zone_id": 4,
+      "zone_region": "zone_4",
       "questions": [
         {
           "difficulty": "medium",
