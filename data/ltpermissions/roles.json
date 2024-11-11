@@ -22,7 +22,6 @@
 	},
 	"host": {
 		"overrides": {
-			"command_feedback": false,
 			"name_decoration": {
 				"style": "#E91E63"
 			},
@@ -116,7 +115,6 @@
 	},
 	"in_tutorial": {
 		"overrides": {
-			"command_feedback": false,
 			"commands": {
 				".*": "deny"
 			}
@@ -124,7 +122,6 @@
 	},
 	"everyone": {
 		"overrides": {
-			"command_feedback": false,
 			"commands": {
 				"help": "allow",
 				"game join": "allow",
