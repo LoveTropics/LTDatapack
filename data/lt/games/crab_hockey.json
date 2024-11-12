@@ -39,41 +39,6 @@
       "spectators": ["spectators"]
     },
     {
-      "type": "ltminigames:spawn_entity_at_regions",
-      "entity_id": "tropicraft:fiddler_crab",
-      "regions_to_spawn_at": ["crab_spawn"],
-      "tag": {
-        "RollingDownTown":true,
-        "Silent":true,
-        "Health":500,
-        "active_effects": [
-          {
-            "id":"minecraft:glowing",
-            "show_particles":false,
-            "duration":-1
-          }
-        ],
-        "attributes": [
-          {
-            "id": "minecraft:generic.max_health",
-            "base": 500
-          },
-          {
-            "id": "minecraft:generic.knockback_resistance",
-            "base": 0.75
-          },
-          {
-            "id": "minecraft:generic.movement_speed",
-            "base": 0
-          },
-          { 
-            "id": "minecraft:generic.scale",
-            "base": 1.5
-          }
-        ]
-      }
-    },
-    {
       "type": "ltminigames:set_role",
       "role": "participant",
       "action": {
@@ -89,6 +54,26 @@
         "translate": "ltminigames.minigame.trash_dive.time_remaining",
         "color": "green"
       }
+    },
+    {
+      "type": "ltminigames:phase_triggers/start",
+      "actions": "lt:crab_hockey/spawn_crab"
+    },
+    {
+      "type": "ltminigames:score_mob_in_goal",
+      "scoring_entity": "tropicraft:fiddler_crab",
+      "score_action": "lt:crab_hockey/spawn_crab",
+      "team_goal_regions": {
+        "red": "red_goal",
+        "blue": "blue_goal"
+      },
+      "statistic": "points"
+    },
+    {
+      "type": "ltminigames:place_by_statistic",
+      "statistic": "points",
+      "order": "max",
+      "trigger_win": true
     },
     "ltminigames:disable_hunger",
     {

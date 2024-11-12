@@ -1,0 +1,40 @@
+{
+  "type": "ltminigames:spawn_entity_at_regions",
+  "regions_to_spawn_at": [
+    "crab_spawn"
+  ],
+  "at_heightmap": false,
+  "entity": {
+    "type": "tropicraft:fiddler_crab",
+    "tag": {
+      "RollingDownTown": true,
+      "Silent": true,
+      "Health": 500,
+      "active_effects": [
+        {
+          "id": "minecraft:glowing",
+          "show_particles": false,
+          "duration": -1
+        }
+      ],
+      "attributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "base": 500
+        },
+        {
+          "id": "minecraft:generic.knockback_resistance",
+          "base": 0.75
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "base": 0
+        },
+        {
+          "id": "minecraft:generic.scale",
+          "base": 1.5
+        }
+      ]
+    }
+  }
+}
