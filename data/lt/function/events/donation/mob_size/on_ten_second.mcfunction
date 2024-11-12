@@ -1,1 +1,0 @@
-execute as @e[tag=display.effect.grow] run function lt:events/donation/mob_size/scale_mob

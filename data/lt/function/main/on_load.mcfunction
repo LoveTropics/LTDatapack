@@ -75,9 +75,6 @@ scoreboard objectives add parkour.obstacle_cave.checkpoint_last dummy
 schedule clear lt:main/on_ten_seconds
 schedule function lt:main/on_ten_seconds 10s
 
-#Reset the donation effect to 0 just in case
-function lt:events/donation/sky_effects/reset
-
 scoreboard objectives add stats.disguise dummy
 #Reset player cloning cooldown
 function lt:diguises/clone/stages/stage_reset
@@ -85,8 +82,6 @@ function lt:diguises/clone/stages/stage_reset
 #In World 'events'
 scoreboard objectives add events.mouse_party dummy
 scoreboard objectives add events.parrot_party dummy
-#Reset Parties
-function lt:events/in_game/parrot_party/end_party
 
 # Collectible Mechanic Scoreboards
 scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump

@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {"Tags":["events.in_game.parrot_party","events.in_game.parrot_party.tracker"]}
