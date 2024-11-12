@@ -119,3 +119,6 @@ team modify hockey.blue collisionRule always
 
 # Party Room
 scoreboard objectives add party_room.items dummy
+
+# Scavenger Hunt
+scoreboard objectives add sh_seat dummy
