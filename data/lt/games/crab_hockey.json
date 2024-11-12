@@ -36,7 +36,8 @@
         "red": ["red"],
         "blue": ["blue"]
       },
-      "spectators": ["spectators"]
+      "spectators": ["spectators"],
+      "face_region": "crab_spawn"
     },
     "lt:crab_hockey/equipment",
     {
