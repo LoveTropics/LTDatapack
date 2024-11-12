@@ -1,7 +1,7 @@
 function lt:game/qottott/kit/reset_attributes
 
 # Weapon (Knockback, Damage)
-item replace entity @s weapon.mainhand with tropicraft:exploding_coconut[tropicraft:destroys_blocks=false,tropicraft:explosion_radius=3,ltextras:cooldown_override=50] 64
+item replace entity @s weapon.mainhand with tropicraft:exploding_coconut[tropicraft:destroys_blocks=false,tropicraft:explosion_radius=2,ltextras:cooldown_override=50] 64
 
 # Effects
 
