@@ -96,6 +96,15 @@
     {
       "type": "lt:fixed_rewards",
       "coins": 5
+    },
+    {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "points",
+      "order": "max",
+      "count": 2,
+      "title": {"translate": "ltminigames.minigame.crab_hockey", "color": "light_purple", "bold": true},
+      "header": [
+      ]
     }
   ]
 }
