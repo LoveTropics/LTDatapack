@@ -38,14 +38,7 @@
       },
       "spectators": ["spectators"]
     },
-    {
-      "type": "ltminigames:set_role",
-      "role": "participant",
-      "action": {
-        "type": "ltminigames:run_commands",
-        "player": ["function lt:world_games/hockey/util/give_stick", "function lt:world_games/hockey/util/set_attributes"]
-      }
-    },
+    "lt:crab_hockey/equipment",
     {
       "type": "ltminigames:progression",
       "named_points": {
