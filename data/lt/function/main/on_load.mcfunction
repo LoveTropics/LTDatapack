@@ -111,9 +111,9 @@ team add hockey.blue "Blue Hockey Team"
 team modify hockey.red collisionRule always
 team modify hockey.blue collisionRule always
 
-
 # Party Room
 scoreboard objectives add party_room.items dummy
+function lt:donation_effects/party_room/disco_floor/on_second
 
 # Scavenger Hunt
 scoreboard objectives add sh_seat dummy

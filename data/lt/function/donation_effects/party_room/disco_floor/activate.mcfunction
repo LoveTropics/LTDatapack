@@ -1,0 +1,1 @@
+scoreboard players add disco_floor donation.effects 30
