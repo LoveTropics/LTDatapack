@@ -49,9 +49,9 @@
     {
       "type": "ltminigames:progression",
       "named_points": {
-        "start": 0,
-        "end": 300,
-        "close": 310
+        "start": 10,
+        "end": 310,
+        "close": 320
       }
     },
     {
@@ -67,14 +67,43 @@
       "start_pitch": 1.25,
       "end_pitch": 0.25
     },
+    "lt:crab_hockey/waiting_period",
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "all",
+      "actions": {
+        "end": [
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "minecraft:block.end_portal.spawn",
+            "pitch": 0.2
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "translate": "ltminigames.minigame.game_over.title",
+              "color": "red"
+            },
+            "stay": 60
+          }
+        ]
+      }
+    },
     {
       "type": "ltminigames:phase_progress_bar",
       "entries": [
         {
-          "period": {
-            "start": "start",
-            "end": "end"
+          "period": [0, "start"],
+          "text": {
+            "translate": "ltminigames.minigame.get_ready",
+            "color": "yellow"
           },
+          "color": "yellow",
+          "reversed": true,
+          "include_time": true
+        },
+        {
+          "period": ["start", "end"],
           "text": {
             "translate": "ltminigames.minigame.crab_hockey",
             "color": "red"

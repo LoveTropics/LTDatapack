@@ -1,0 +1,33 @@
+[
+  {
+    "type": "ltminigames:cancel_player_attacks",
+    "period": [0, "start"]
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "start",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "start_pitch": 0.25,
+    "end_pitch": 1.25
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:show_title",
+          "message": {
+            "translate": "ltminigames.minigame.go",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        }
+      ]
+    }
+  }
+]
