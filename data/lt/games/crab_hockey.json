@@ -47,13 +47,43 @@
       }
     },
     {
-      "type": "ltminigames:timed",
-      "length": 6000,
-      "countdown_seconds": 5,
-      "timer_bar": {
-        "translate": "ltminigames.minigame.trash_dive.time_remaining",
-        "color": "green"
+      "type": "ltminigames:progression",
+      "named_points": {
+        "start": 0,
+        "end": 300,
+        "close": 310
       }
+    },
+    {
+      "type": "ltminigames:timed_close",
+      "end": "end",
+      "close": "close"
+    },
+    {
+      "type": "ltminigames:countdown_effects",
+      "target": "end",
+      "sound": "minecraft:block.end_portal_frame.fill",
+      "seconds": 5,
+      "start_pitch": 1.25,
+      "end_pitch": 0.25
+    },
+    {
+      "type": "ltminigames:phase_progress_bar",
+      "entries": [
+        {
+          "period": {
+            "start": "start",
+            "end": "end"
+          },
+          "text": {
+            "translate": "ltminigames.minigame.crab_hockey",
+            "color": "red"
+          },
+          "color": "red",
+          "include_time": true,
+          "reversed": true
+        }
+      ]
     },
     {
       "type": "ltminigames:phase_triggers/start",
