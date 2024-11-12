@@ -1,0 +1,39 @@
+{
+	"type": "ltminigames:kit_selection",
+	"kits": [
+		{
+			"region": "kit_1b",
+			"angle": 0.0,
+			"entity": {
+				"type": "minecraft:armor_stand",
+				"tag": {
+					"ShowArms": true,
+					"HandItems": [
+						{
+							"id": "minecraft:wooden_sword",
+							"components": { "enchantment_glint_override": true }
+						},
+						{}
+					],
+					"ArmorItems": [
+						{},
+						{},
+						{
+							"id": "minecraft:leather_chestplate",
+							"components": {
+								"enchantment_glint_override": true,
+								"dyed_color": 16082146,
+								"trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:wayfinder"
+								}
+							}
+						},
+						{}
+					]
+				}
+			},
+			"apply": "lt:dodgeball/kits/opportunist"
+		}
+	]
+}

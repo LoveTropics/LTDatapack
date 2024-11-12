@@ -1,0 +1,30 @@
+[
+	{
+		"type": "ltminigames:set_time_speed",
+		"factor": 4
+	},
+	{
+		"type": "ltminigames:position_players",
+		"all": ["lobby_spawn"],
+		"angle": 90.0
+	},
+	{
+		"type": "ltminigames:lobby_with_portal",
+		"portal_region": "portal",
+		"target_region": "player_spawn",
+		"point_towards_region": "center",
+		"open_at": {
+			"start": "start",
+			"end": "end"
+		}
+	},
+	"lt:dodgeball/kits",
+	{
+		"type": "ltminigames:only_tick_in_period",
+		"period": {
+			"start": "start",
+			"end": "end"
+		},
+		"behavior": "lt:qottott/map/droppers"
+	}
+]

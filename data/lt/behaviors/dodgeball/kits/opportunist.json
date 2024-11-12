@@ -1,0 +1,23 @@
+[
+	{
+		"type": "ltminigames:run_commands",
+		"player": "function lt:game/dodgeball/kit/exploding_coconut"
+	},
+	{
+		"type": "ltminigames:play_sound",
+		"sound": "item.armor.equip_netherite"
+	},
+	{
+		"type": "ltminigames:send_message",
+		"message": {
+			"translate": "ltminigames.minigame.qottott.kit.picked",
+			"color": "gray",
+			"with": [
+				{
+					"translate": "ltminigames.minigame.qottott.kit.brawler",
+					"color": "aqua"
+				}
+			]
+		}
+	}
+]
