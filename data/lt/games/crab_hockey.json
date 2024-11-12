@@ -140,10 +140,7 @@
         "doImmediateRespawn": "true"
       }
     },
-    {
-      "type": "ltminigames:cancel_player_damage",
-      "knockback": true
-    },
+    "ltminigames:cancel_player_damage",
     "ltminigames:immediate_respawn",
     "ltminigames:spectator_chase",
     {
