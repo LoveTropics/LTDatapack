@@ -1,0 +1,4 @@
+{
+	"enter_commands": ["function lt:utility/team/join {\"team\":\"no_cents\"}"],
+	"exit_commands": []
+}
