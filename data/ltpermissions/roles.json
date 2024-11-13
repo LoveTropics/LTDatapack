@@ -143,7 +143,13 @@
 				"about": "allow",
 				"spawn": "allow",
 				"((?!title|tellraw|give).)*": "deny"
-			}
+			},
+			"command_feedback": false
+		}
+	},
+	"commander": {
+		"overrides": {
+			"command_feedback": true
 		}
 	}
 }
