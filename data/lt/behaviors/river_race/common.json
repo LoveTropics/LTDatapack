@@ -119,7 +119,8 @@
             "minecraft:enchantments": {
               "vanishing_curse": 1
             },
-            "ltminigames:river_race_collectable_marker": {}
+            "ltminigames:river_race_collectable_marker": {},
+            "minecraft:fire_resistant": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
@@ -152,7 +153,8 @@
             "minecraft:enchantments": {
               "vanishing_curse": 1
             },
-            "ltminigames:river_race_collectable_marker": {}
+            "ltminigames:river_race_collectable_marker": {},
+            "minecraft:fire_resistant": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
