@@ -9,7 +9,7 @@
   "donation_amount": 10.0,
   "notification": {
     "message": {
-      "translate": "ltminigames.minigame.donation.puffer_package.title",
+      "translate": "ltminigames.minigame.donation.puffer_package",
       "color": "red"
     },
     "icon": {"item": "minecraft:pufferfish"},
