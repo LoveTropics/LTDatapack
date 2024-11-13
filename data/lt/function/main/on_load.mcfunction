@@ -117,3 +117,9 @@ function lt:donation_effects/party_room/disco_floor/on_second
 
 # Scavenger Hunt
 scoreboard objectives add sh_seat dummy
+
+# Stats
+scoreboard objectives add chair_sit_time dummy
+
+# On Second
+schedule function lt:main/on_second 1s replace
