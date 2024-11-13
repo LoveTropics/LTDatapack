@@ -9,6 +9,7 @@ scoreboard objectives add main.global dummy
 scoreboard objectives add main.number dummy
 scoreboard objectives add main.stats dummy
 scoreboard objectives add main.reloads dummy
+scoreboard objectives add main.random dummy
 
 # Reload Counter #Moved to main:reload so its easier to reset stats
 scoreboard players add Reloads main.reloads 1
@@ -123,3 +124,4 @@ scoreboard objectives add chair_sit_time dummy
 
 # On Second
 schedule function lt:main/on_second 1s replace
+

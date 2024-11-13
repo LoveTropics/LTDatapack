@@ -7,7 +7,21 @@
                 "color": "green"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 1
+            }
+        ]
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -17,7 +31,21 @@
                 "color": "red"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 2
+            }
+        ]
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -27,7 +55,21 @@
                 "color": "red"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 3
+            }
+        ]
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -37,7 +79,21 @@
                 "color": "red"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 4
+            }
+        ]
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -47,7 +103,21 @@
                 "color": "red"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 5
+            }
+        ]
     },
     {
         "function": "minecraft:set_banner_pattern",
@@ -57,6 +127,20 @@
                 "color": "yellow"
             }
         ],
-        "append": false
+        "append": false,
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "Banner"
+                    },
+                    "score": "main.random"
+                },
+                "range": 6
+            }
+        ]
     }
 ]

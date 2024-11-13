@@ -102,3 +102,7 @@ function lt:world_games/hockey/on_tick
 
 # Marker finder
 execute as @e[type=marker] at @s run particle minecraft:portal ~ ~ ~ 0 0 0 0 1 force @a[tag=ilikemarkers,distance=0..15]
+
+
+#Random values
+execute store result score Banner main.random run random value 1..6
