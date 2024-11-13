@@ -8,8 +8,10 @@
     "target": "start",
     "sound": "minecraft:block.end_portal_frame.fill",
     "seconds": 5,
-    "start_pitch": 0.25,
-    "end_pitch": 1.25
+    "pitch": {
+      "start": 0.25,
+      "end": 1.25
+    }
   },
   {
     "type": "ltminigames:scheduled_actions",

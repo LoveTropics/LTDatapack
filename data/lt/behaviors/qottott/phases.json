@@ -12,16 +12,20 @@
     "target": "start",
     "sound": "minecraft:block.end_portal_frame.fill",
     "seconds": 5,
-    "start_pitch": 1.25,
-    "end_pitch": 0.25
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
   },
   {
     "type": "ltminigames:countdown_effects",
     "target": "end",
     "sound": "minecraft:block.end_portal_frame.fill",
     "seconds": 5,
-    "start_pitch": 1.25,
-    "end_pitch": 0.25
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
   },
   {
     "type": "ltminigames:scheduled_actions",
