@@ -9,5 +9,6 @@
   {
     "type": "ltminigames:join_late_with_role",
     "role": "$join_late_with_role"
-  }
+  },
+  "ltminigames:set_winner_statistic"
 ]
