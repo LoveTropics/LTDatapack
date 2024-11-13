@@ -15,7 +15,7 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": "{\"text\":\"Charged Lightning Crossbow\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
+                "custom_name": "{\"translate\":\"lt.loot_table.lightning_crossbow\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
                 "charged_projectiles": [
                   {"id": "ltminigames:lightning_arrow"},
                   {"id": "ltminigames:lightning_arrow"},

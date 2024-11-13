@@ -339,5 +339,42 @@
 	"lt.item.damaging_coconut": "Damaging Coconut",
 	"lt.item.explosive_coconut": "Explosive Coconut",
 
-	"lt.minigame.dodgeball": "Exploding Dodgeball"
+	"lt.minigame.dodgeball": "Exploding Dodgeball",
+
+	"trim_pattern.lt.tropics": "Tropics Trim",
+	"trim_pattern.lt.cents": "Team Cents Trim",
+	"trim_pattern.lt.no_cents": "Team No Cents Trim",
+
+	"lt.loot_table.paid_milk": "Bucket of Milk except it was paid for!",
+	"lt.loot_table.coconut_boom": "Coconut Go Boom On Throw! - Got it?",
+	"lt.loot_table.teeter_yeeter": "Teeter Yeeter",
+	"lt.loot_table.lightning_crossbow": "Charged Lightning Crossbow",
+	"lt.loot_table.lingering_potion_of_blindness": "Lingering Potion of Blindness",
+	"lt.loot_table.lingering_potion_of_levitation": "Lingering Potion of Levitation",
+	"lt.loot_table.arrow_of_levitation": "Arrow of Levitation",
+	"lt.loot_table.slime_bomb": "Slime Bomb",
+	"lt.loot_table.health_boost": "Health Boost",
+	"lt.loot_table.strength_boost": "Strength Boost",
+	"lt.loot_table.strength_boost.lore": "Basically just steroids.",
+	"lt.loot_table.speed_boost": "Speed Boost",
+	"lt.loot_table.speed_boost.lore": "Weeeeeeeeeeeeeeeeeeeeeeeee",
+	"lt.loot_table.unstable_explosive": "Unstable Explosive",
+	"lt.loot_table.poison_vile": "Poison Vile",
+	"lt.loot_table.slow_bomb": "Slow Bomb",
+	"lt.loot_table.remedial_invigoration": "Splash Tincture of Remedial Invigoration",
+	"lt.loot_table.tincture_malintent": "Splash Tincture of Mal-intent",
+	"lt.loot_table.poision_tipped_arrow": "Poison Tipped Arrow",
+	"lt.loot_table.tonic_gloriousness": "Tonic of Gloriousness",
+	"lt.loot_table.greater_poision_tipped": "Greater Poison Tipped Arrow",
+	"lt.loot_table.gilded": "Gilded",
+	"lt.loot_table.tonic_gloriousness.lore": "It's not better than a non gilded potion. But you can sell it at a higher markup now.",
+	"lt.loot_table.super_rocket": "Super Rocket",
+	"lt.loot_table.super_rocket.lore": "Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!",
+	"lt.loot_table.teeter_yeeter_boogaloo": "The Teeter Yeeter 2 Electric Boogaloo",
+	"lt.loot_table.teeter_yeeter_boogaloo.lore": "You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter."
+
+
+
+
+
 }

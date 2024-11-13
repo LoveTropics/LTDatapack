@@ -34,9 +34,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"The Teeter Yeeter 2 Electric Boogaloo\",\"color\":\"#9CD43E\",\"bold\":true,\"italic\":false}",
+                                "custom_name": "{\"translate\":\"lt.loot_table.teeter_yeeter_boogaloo\",\"color\":\"#9CD43E\",\"bold\":true,\"italic\":false}",
                                 "lore": [
-                                    "{\"text\":\"You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter.\",\"color\":\"dark_aqua\",\"italic\":false}"
+                                    "{\"translate\":\"lt.loot_table.teeter_yeeter_boogaloo.lore\",\"color\":\"dark_aqua\",\"italic\":false}"
                                 ],
                                 "damage": 58,
                                 "enchantments": {

@@ -30,9 +30,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"Super Rocket\",\"color\":\"red\",\"italic\":false}",
+                                "custom_name": "{\"translate\":\"lt.loot_table.super_rocket\",\"color\":\"red\",\"italic\":false}",
                                 "lore": [
-                                    "{\"text\":\"Super Rocket Soaring like a Super Guy or Super Gal or Super Non-Binary Pal!\",\"color\":\"blue\",\"italic\":false}"
+                                    "{\"translate\":\"lt.loot_table.super_rocket.lore\",\"color\":\"blue\",\"italic\":false}"
                                 ],
                                 "fireworks": {
                                     "explosions": [

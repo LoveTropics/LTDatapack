@@ -98,7 +98,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"Unstable Explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+                                "custom_name": "{\"translate\":\"lt.loot_table.unstable_explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [
@@ -122,7 +122,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"Poison Vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
+                                "custom_name": "{\"translate\":\"lt.loot_table.poison_vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [
@@ -161,7 +161,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"Slow Bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}",
+                                "custom_name": "{\"translate\":\"lt.loot_table.slow_bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}",
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [

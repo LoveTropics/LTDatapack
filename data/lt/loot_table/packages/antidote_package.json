@@ -18,7 +18,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"text\":\"Bucket of Milk except it was paid for!\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                                "custom_name": "{\"translate\":\"lt.loot_table.paid_milk\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
                             }
                         }
                     ]
