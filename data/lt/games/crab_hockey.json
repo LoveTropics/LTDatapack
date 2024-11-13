@@ -115,14 +115,18 @@
       "actions": "lt:crab_hockey/spawn_crab"
     },
     {
-      "type": "ltminigames:score_mob_in_goal",
-      "scoring_entity": "tropicraft:fiddler_crab",
-      "score_action": "lt:crab_hockey/spawn_crab",
-      "team_goal_regions": {
-        "red": "red_goal",
-        "blue": "blue_goal"
-      },
-      "statistic": "points"
+      "type": "ltminigames:only_tick_in_period",
+      "period": ["start", "end"],
+      "behavior": {
+        "type": "ltminigames:score_mob_in_goal",
+        "scoring_entity": "tropicraft:fiddler_crab",
+        "score_action": "lt:crab_hockey/spawn_crab",
+        "team_goal_regions": {
+          "red": "red_goal",
+          "blue": "blue_goal"
+        },
+        "statistic": "points"
+      }
     },
     {
       "type": "ltminigames:place_by_statistic",
