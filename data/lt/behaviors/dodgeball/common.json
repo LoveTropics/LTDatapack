@@ -32,7 +32,7 @@
 		"type": "ltminigames:immediate_respawn",
 		"role": "participant",
 		"death_message": {
-			"text": "☠ %message%",
+			"text": "🎯 %message%",
 			"color": "gray"
 		},
 		"drop_inventory": false,
