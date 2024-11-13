@@ -100,6 +100,18 @@
     "stack": false
   },
   {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:add_colliders",
+      "regions": [
+        "red_river_1",
+        "blue_river_1",
+        "red_river_2",
+        "blue_river_2"
+      ]
+    }
+  },
+  {
     "type": "ltminigames:river_race_collectables",
     "collectables": [
       {
@@ -125,18 +137,20 @@
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
         "victory_points": 2,
-        "on_complete": {
-          "type": "ltminigames:start_microgames",
-          "games": [
-            "lt:crafting_bee",
-            "lt:connect_four",
-            "lt:block_party_teams"
-          ],
-          "games_per_round": 4
-        },
-        "unlocks_colliders": [
-          "red_river_1",
-          "blue_river_1"
+        "on_complete": [
+          {
+            "type": "ltminigames:start_microgames",
+            "games": [
+              "lt:crafting_bee",
+              "lt:connect_four",
+              "lt:block_party_teams"
+            ],
+            "games_per_round": 4
+          },
+          {
+            "type": "ltminigames:remove_colliders",
+            "regions": ["red_river_1", "blue_river_1"]
+          }
         ]
       },
       {
@@ -162,18 +176,20 @@
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
         "victory_points": 4,
-        "on_complete": {
-          "type": "ltminigames:start_microgames",
-          "games": [
-            "lt:crafting_bee",
-            "lt:connect_four",
-            "lt:block_party_teams"
-          ],
-          "games_per_round": 4
-        },
-        "unlocks_colliders": [
-          "red_river_2",
-          "blue_river_2"
+        "on_complete": [
+          {
+            "type": "ltminigames:start_microgames",
+            "games": [
+              "lt:crafting_bee",
+              "lt:connect_four",
+              "lt:block_party_teams"
+            ],
+            "games_per_round": 4
+          },
+          {
+            "type": "ltminigames:remove_colliders",
+            "regions": ["red_river_2", "blue_river_2"]
+          }
         ]
       }
     ]
