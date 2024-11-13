@@ -13,6 +13,7 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
+    "ltminigames:teams",
     {
       "type": "ltminigames:block_party",
       "floor": "blocks",
