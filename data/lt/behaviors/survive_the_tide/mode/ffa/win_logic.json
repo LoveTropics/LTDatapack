@@ -1,5 +1,5 @@
 [
-  "ltminigames:individual_win_trigger",
+  "ltminigames:last_remaining_win_trigger",
   {
     "type": "ltminigames:survive_the_tide_win_logic",
     "spawn_lightning_bolts_on_finish": true,
