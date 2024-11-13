@@ -15,6 +15,10 @@
     },
     "ltminigames:teams",
     {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "last_team": true
+    },
+    {
       "type": "ltminigames:block_party",
       "floor": "blocks",
       "blocks": [
@@ -29,8 +33,7 @@
       "max_time": 280,
       "time_decay_rounds": 10,
       "interval": 80,
-      "knockback_after_round": 5,
-      "teams_support": true
+      "knockback_after_round": 5
     },
     {
       "type": "ltminigames:set_game_rules",
