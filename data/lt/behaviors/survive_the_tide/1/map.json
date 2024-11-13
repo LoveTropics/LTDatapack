@@ -57,7 +57,8 @@
       "participant_spawn_15",
       "participant_spawn_16"
     ],
-    "spectators": ["center"]
+    "spectators": ["center"],
+    "face_region": "center"
   },
   {
     "type": "ltminigames:rising_tides",
