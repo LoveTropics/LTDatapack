@@ -107,7 +107,9 @@
         "red_river_1",
         "blue_river_1",
         "red_river_2",
-        "blue_river_2"
+        "blue_river_2",
+        "red_river_3",
+        "blue_river_3"
       ]
     }
   },
@@ -136,7 +138,7 @@
           }
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
-        "victory_points": 2,
+        "victory_points": 1,
         "on_complete": [
           {
             "type": "ltminigames:start_microgames",
@@ -175,7 +177,7 @@
           }
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
-        "victory_points": 4,
+        "victory_points": 1,
         "on_complete": [
           {
             "type": "ltminigames:start_microgames",
@@ -189,6 +191,45 @@
           {
             "type": "ltminigames:remove_colliders",
             "regions": ["red_river_2", "blue_river_2"]
+          }
+        ]
+      },
+      {
+        "zone": "zone_3",
+        "zone_display_name": "Niger Delta",
+        "item": {
+          "id": "minecraft:green_wool",
+          "components": {
+            "minecraft:item_name": "{\"text\":\"Collectable - Niger Delta\",\"color\":\"green\"}",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:lore": [
+              "{\"text\":\"Collectable\",\"color\":\"gray\"}",
+              "{\"text\":\" \"}",
+              "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
+            ],
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantments": {
+              "vanishing_curse": 1
+            },
+            "ltminigames:river_race_collectable_marker": {},
+            "minecraft:fire_resistant": {}
+          }
+        },
+        "monument_slot_region": ["collectable_red_zone_3","collectable_blue_zone_3"],
+        "victory_points": 1,
+        "on_complete": [
+          {
+            "type": "ltminigames:start_microgames",
+            "games": [
+              "lt:crafting_bee",
+              "lt:connect_four",
+              "lt:block_party_teams"
+            ],
+            "games_per_round": 4
+          },
+          {
+            "type": "ltminigames:remove_colliders",
+            "regions": ["red_river_3", "blue_river_3"]
           }
         ]
       }
