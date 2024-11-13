@@ -1,0 +1,14 @@
+[
+	{
+		"predicate": {
+			"amount": {
+				"min": 69.0,
+				"max": 69.0
+			}
+		},
+		"action": {
+			"type": "run_function",
+			"function": "lt:donation_effects/party_room/aquarium/show"
+		}
+	}
+]
