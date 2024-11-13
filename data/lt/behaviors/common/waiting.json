@@ -25,12 +25,47 @@
     "knockback": true
   },
   {
-    "type": "ltminigames:timed",
-    "length": 1200,
-    "countdown_seconds": 3,
-    "timer_bar": {
-      "translate": "ltminigames.minigame.starting_in",
-      "color": "green"
+    "type": "ltminigames:progression",
+    "named_points": {
+      "end": 60
     }
+  },
+  {
+    "type": "ltminigames:timed_close",
+    "close": "end"
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "end",
+    "sound": "minecraft:entity.arrow.hit_player",
+    "seconds": 3,
+    "show_title": false
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.arrow.hit_player",
+          "pitch": 1.5
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": [0, "end"],
+        "template": {
+          "translate": "ltminigames.minigame.starting_in",
+          "color": "green"
+        },
+        "color": "green",
+        "reversed": true
+      }
+    ]
   }
 ]
