@@ -9,17 +9,35 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:leather_chestplate"
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:leather_boots"
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:leather_leggings"
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 }
             ]
         }

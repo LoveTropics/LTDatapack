@@ -25,7 +25,13 @@
                 {
                     "type": "minecraft:item",
                     "weight": 2,
-                    "name": "minecraft:iron_chestplate"
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 }
             ]
         },

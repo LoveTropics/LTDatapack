@@ -10,22 +10,46 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:chainmail_helmet"
+                    "name": "minecraft:chainmail_helmet",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:chainmail_chestplate"
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:chainmail_boots"
+                    "name": "minecraft:chainmail_boots",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {   
                     "type": "minecraft:item",
                     "weight": 2,
-                    "name": "minecraft:chainmail_leggings"
+                    "name": "minecraft:chainmail_leggings",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 }
             ]
         }

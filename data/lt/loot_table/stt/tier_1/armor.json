@@ -10,22 +10,46 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:golden_helmet"
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 2,
-                    "name": "minecraft:golden_chestplate"
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:golden_boots"
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 2,
-                    "name": "minecraft:golden_leggings"
+                    "name": "minecraft:golden_leggings",
+                    "functions": [
+                       {
+                            "function": "minecraft:reference",
+                            "name": "lt:armor"
+                       }
+                    ]
                 }
             ]
         }
