@@ -5,7 +5,7 @@
 		"join_late_with_role": "participant"
 	},
 	"ltminigames:spectator_chase",
-	"lt:qottott/ruleset",
+	"lt:dodgeball/ruleset",
 	"lt:qottott/phases",
 	"lt:qottott/sidebar",
 	"lt:dodgeball/map",
