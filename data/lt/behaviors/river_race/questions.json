@@ -1,5 +1,6 @@
 {
   "type": "ltminigames:trivia",
+  "forward_direction": "east",
   "zones": [
     {
       "zone_region": "zone_1",
