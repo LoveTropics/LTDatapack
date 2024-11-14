@@ -374,7 +374,9 @@
 	"lt.loot_table.teeter_yeeter_boogaloo.lore": "You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter.",
 
 	"lt.hockey.jump_floor.title": "Jump Floor Actvated!",
-	"lt.hockey.jump_floor.subtitle": "A Donation has effected the floor!"
+	"lt.hockey.jump_floor.subtitle": "A Donation has effected the floor!",
+	"lt.hockey.score.subtitle_blue": "Blue Team Scored!",
+	"lt.hockey.score.subtitle_red": "Red Team Scored!"
 
 
 
