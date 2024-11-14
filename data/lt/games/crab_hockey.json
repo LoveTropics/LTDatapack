@@ -161,6 +161,7 @@
       "title": {"translate": "ltminigames.minigame.crab_hockey", "color": "light_purple", "bold": true},
       "header": [
       ]
-    }
+    },
+    "lt:crab_hockey/donations"
   ]
 }
