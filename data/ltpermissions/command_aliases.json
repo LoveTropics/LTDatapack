@@ -19,5 +19,6 @@
   "about minigames calamity": "function lt:welcome_center/info/minigame/calamity",
   "about minigames turtle_race": "function lt:welcome_center/info/minigame/turtle_race",
   "about minigames trash_dive": "function lt:welcome_center/info/minigame/trash_dive",
-  "about minigames survive_the_tide": "function lt:welcome_center/info/minigame/survive_the_tide"
+  "about minigames survive_the_tide": "function lt:welcome_center/info/minigame/survive_the_tide",
+  "admin toggle markers": "function lt:utility/toggle_marker_visibilty"
 }
