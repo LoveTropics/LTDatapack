@@ -33,7 +33,19 @@
   },
   {
     "type":"ltminigames:river_race_progress",
-    "max_points": 10
+    "top_team": "blue",
+    "bottom_team": "red",
+    "map_fitting_region": "overhead_map",
+    "locked_zones": [
+      {
+        "id": "zone_2",
+        "color": "yellow"
+      },
+      {
+        "id": "zone_3",
+        "color": "green"
+      }
+    ]
   },
   {
     "type": "ltminigames:position_players",
@@ -118,6 +130,7 @@
     "collectables": [
       {
         "zone": "zone_1",
+        "unlocks_zone": "zone_2",
         "zone_display_name": "East Africa",
         "item": {
           "id": "minecraft:red_wool",
@@ -157,6 +170,7 @@
       },
       {
         "zone": "zone_2",
+        "unlocks_zone": "zone_3",
         "zone_display_name": "India",
         "item": {
           "id": "minecraft:yellow_wool",
@@ -196,6 +210,7 @@
       },
       {
         "zone": "zone_3",
+        "unlocks_zone": "zone_4",
         "zone_display_name": "Niger Delta",
         "item": {
           "id": "minecraft:green_wool",
