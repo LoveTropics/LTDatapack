@@ -1,0 +1,195 @@
+[
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": {
+      "id": "ltextras:tropicoin",
+      "count": 1,
+      "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
+      }
+    },
+    "region": "coin_dispenser_level_1",
+    "interval_ticks": 120,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": {
+      "id": "ltextras:tropicoin",
+      "count": 1,
+        "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
+      }
+    },
+    "region": "coin_dispenser_level_2",
+    "interval_ticks": 80,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": {
+      "id": "ltextras:tropicoin",
+      "count": 1,
+        "components": {
+        "custom_data": {
+          "source": "dropper"
+        }
+      }
+    },
+    "region": "coin_dispenser_level_3",
+    "interval_ticks": 40,
+    "sound": {
+      "sound": "block.chain.break",
+      "source": "block",
+      "volume": 0.5,
+      "pitch": 1.5
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "speed"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "knockback_resistance"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.knockback_resistance_power_up\", \"color\": \"green\"}"
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "resistance"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.resistance_power_up\", \"color\": \"gold\"}"
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "pickup_priority"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.pickup_priority_power_up\", \"color\": \"yellow\"}"
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "health"
+          },
+          "custom_name": "{\"translate\": \"ltminigames.minigame.qottott.health_power_up\", \"color\": \"red\"}"
+        }
+      }
+    ],
+    "region": "buff_spawn",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 300,
+      "max_inclusive": 600
+    },
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "ltminigames:plushie",
+        "components": {
+          "custom_data": {
+            "cash_crab": true
+          },
+          "ltminigames:entity": {
+            "type": "tropicraft:fiddler_crab"
+          },
+          "ltminigames:size": 4.5,
+          "custom_name": "{\"translate\":\"ltminigames.minigame.qottott.cash_crab\",\"italic\":false}",
+          "lore": ["{\"translate\":\"ltminigames.minigame.qottott.cash_crab.description\",\"color\":\"blue\"}"],
+          "attribute_modifiers": [
+            {
+              "id": "ltminigames:coin_drops",
+              "type": "ltminigames:coin_drops",
+              "amount": 0.2,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+              "id": "generic.attack_damage",
+              "type": "generic.attack_damage",
+              "amount": 100,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ]
+        }
+      }
+    ],
+    "region": "sword_spawner",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.qottott.spawn.power_up",
+            "color": "aqua"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.bell.use",
+          "pitch": 1.5
+        }
+      ]
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 400,
+      "max_inclusive": 600
+    }
+  }
+]

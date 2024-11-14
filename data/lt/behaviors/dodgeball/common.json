@@ -6,28 +6,11 @@
 	},
 	"ltminigames:spectator_chase",
 	"lt:dodgeball/ruleset",
-	"lt:qottott/phases",
-	"lt:qottott/sidebar",
+	"lt:dodgeball/phases",
 	"lt:dodgeball/map",
-	{
-		"type": "ltminigames:set_xp_to_statistic",
-		"statistic": "points"
-	},
-	{
-		"type": "ltminigames:place_by_statistic",
-		"statistic": "points",
-		"order": "max",
-		"trigger_win": false
-	},
-	{
-		"type": "ltminigames:display_leaderboard_on_finish",
-		"statistic": "points",
-		"order": "max",
-		"length": 6
-	},
-	"lt:qottott/items",
-	"lt:qottott/rewards",
-	"lt:qottott/donations",
+	"lt:dodgeball/items",
+	"lt:dodgeball/rewards",
+	"lt:dodgeball/donations",
 	{
 		"type": "ltminigames:immediate_respawn",
 		"role": "participant",
@@ -36,14 +19,26 @@
 			"color": "gray"
 		},
 		"drop_inventory": false,
-		"respawn_action": "lt:qottott/respawn"
+		"respawn_action": "lt:dodgeball/respawn"
 	},
 	{
-		"type": "ltminigames:on_death",
-		"killed_action": {
-			"type": "ltminigames:increase_statistic",
-			"statistic": "deaths",
-			"amount": 1
+		"type": "ltminigames:on_spawn",
+		"role": "participant",
+		"action": {
+			"type": "ltminigames:add_equipment",
+			"items": [
+				{
+					"id": "tropicraft:exploding_coconut",
+					"count": 64,
+					"components": {
+						"unbreakable": {},
+						"ltextras:undroppable": {},
+						"tropicraft:destroys_blocks": false,
+						"tropicraft:explosion_radius": 2,
+						"ltextras:cooldown_override": 2
+					}
+				}
+			]
 		}
 	},
 	{
@@ -51,15 +46,34 @@
 		"statistic": "deaths",
 		"order": "min",
 		"count": 5,
-		"title": {"translate": "lt.minigame.dodgeball", "color": "light_purple", "bold": true},
-		"header": [
-		]
+		"title": {
+			"translate": "lt.minigame.dodgeball",
+			"color": "light_purple",
+			"bold": true
+		},
+		"header": []
 	},
 	{
 		"type": "ltminigames:game_end_effects",
 		"podium": {
 			"winner_regions": ["winner"],
-			"loser_region": "lobby_spawn"
+			"loser_region": "player_spawn"
+		}
+	},
+	{
+		"type": "ltminigames:game_finish",
+		"actions": {
+			"type": "ltminigames:apply_to_player",
+			"target": "participants",
+			"actions": {
+				"type": "ltminigames:give_reward",
+				"items": [
+					{
+						"id": "ltextras:tropicoin",
+						"count": 1
+					}
+				]
+			}
 		}
 	}
 ]

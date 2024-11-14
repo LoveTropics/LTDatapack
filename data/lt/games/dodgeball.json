@@ -2,11 +2,11 @@
 	"name": { "translate": "lt.minigame.dodgeball" },
 	"statistics_key": "dodgeball",
 	"backend_id": "lt:dodgeball",
-	"minimum_participants": 3,
+	"minimum_participants": 2,
 	"maximum_participants": 40,
 	"map": {
 		"type": "ltminigames:load_map",
-		"load_from": "lt:kottot",
+		"load_from": "lt:dodgeball",
 		"dimension_type": "lt:raised_clouds"
 	},
 	"behaviors": ["lt:dodgeball/common"]

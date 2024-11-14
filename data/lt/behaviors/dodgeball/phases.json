@@ -1,0 +1,106 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 15,
+      "end": 315,
+      "close": 330
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "start",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "end",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "0": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.intro",
+          "color": "yellow"
+        }
+      },
+      "start": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.qottott.started",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        }
+      ],
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.game_over.title",
+            "color": "red"
+          },
+          "stay": 60
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:timed_close",
+    "end": "end",
+    "close": "close"
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": 0.0,
+          "end": "start"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.qottott.waiting",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "start",
+          "end": "end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.qottott.instruction",
+          "color": "green"
+        },
+        "color": "green",
+        "include_time": true
+      }
+    ]
+  }
+]

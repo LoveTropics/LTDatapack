@@ -28,48 +28,5 @@
 			"end": "close"
 		}
 	},
-	{
-		"type": "ltminigames:pickup_priority",
-		"max_seconds": 1.0
-	},
-	{
-		"type": "ltminigames:coin_drop_attribute",
-		"statistic": "points",
-		"item": {
-			"id": "ltextras:tropicoin",
-			"components": {
-				"custom_data": {
-					"source": "dropper"
-				}
-			}
-		}
-	},
-	{
-		"type": "ltminigames:set_client_state",
-		"state": {
-			"type": "ltminigames:health_tag"
-		}
-	},
-	{
-		"type": "ltminigames:give_items_to_killer",
-		"item_predicate": [
-			{
-				"items": ["minecraft:wooden_hoe", "minecraft:crossbow"]
-			}
-		]
-	},
-	"lt:qottott/death",
-	{
-		"type": "ltminigames:leaky_pockets",
-		"statistic": "points",
-		"item": {
-			"id": "ltextras:tropicoin",
-			"components": {
-				"custom_data": {
-					"source": "leaky_pockets"
-				}
-			}
-		},
-		"interval": 5
-	}
+	"lt:dodgeball/death"
 ]
