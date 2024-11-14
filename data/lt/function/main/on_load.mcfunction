@@ -106,6 +106,7 @@ team modify dropper seeFriendlyInvisibles true
 
 # Hockey
 scoreboard objectives add game.hockey dummy "Hockey"
+scoreboard objectives add game.hockey_scores dummy "Hockey Scores"
 scoreboard players set WinScore game.hockey 10
 team add hockey.red "Red Hockey Team"
 team add hockey.blue "Blue Hockey Team"
