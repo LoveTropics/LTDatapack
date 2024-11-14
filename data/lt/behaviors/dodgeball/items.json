@@ -4,9 +4,5 @@
 		"start": "start",
 		"end": "end"
 	},
-	"behavior": [
-		"lt:dodgeball/items/coin",
-		"lt:dodgeball/items/power_ups",
-		"lt:dodgeball/items/cash_crab"
-	]
+	"behavior": ["lt:dodgeball/items/power_ups"]
 }

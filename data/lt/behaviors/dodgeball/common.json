@@ -2,14 +2,13 @@
 	{
 		"type": "lt:common/playing",
 		"game_type": "adventure",
-		"join_late_with_role": "participant"
+		"join_late_with_role": "spectator"
 	},
 	"ltminigames:spectator_chase",
 	"lt:dodgeball/ruleset",
 	"lt:dodgeball/phases",
 	"lt:dodgeball/map",
 	"lt:dodgeball/items",
-	"lt:dodgeball/rewards",
 	"lt:dodgeball/donations",
 	{
 		"type": "ltminigames:immediate_respawn",
@@ -20,6 +19,18 @@
 		},
 		"drop_inventory": false,
 		"respawn_action": "lt:dodgeball/respawn"
+	},
+	{
+		"type": "ltminigames:place_by_statistic",
+		"statistic": "deaths",
+		"order": "min",
+		"trigger_win": false
+	},
+	{
+		"type": "ltminigames:display_leaderboard_on_finish",
+		"statistic": "deaths",
+		"order": "min",
+		"length": 6
 	},
 	{
 		"type": "ltminigames:on_spawn",
@@ -102,7 +113,11 @@
 						"id": "ltextras:tropicoin",
 						"count": 1
 					}
-				]
+				],
+				"statistic_binding": {
+					"statistic": "deaths",
+					"multiplier": 0.1
+				}
 			}
 		}
 	}

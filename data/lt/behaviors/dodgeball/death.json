@@ -23,13 +23,6 @@
 		],
 		"killer_action": [
 			{
-				"type": "ltminigames:show_title",
-				"title": { "translate": "ltminigames.minigame.qottott.kill.title" },
-				"subtitle": {
-					"translate": "ltminigames.minigame.qottott.kill.subtitle"
-				}
-			},
-			{
 				"type": "ltminigames:play_sound",
 				"sound": "minecraft:block.note_block.chime",
 				"source": "player",

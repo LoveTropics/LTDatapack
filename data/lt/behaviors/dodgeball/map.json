@@ -13,6 +13,7 @@
 		"period": {
 			"start": "start",
 			"end": "end"
-		}
+		},
+		"behavior": "lt:dodgeball/items/droppers"
 	}
 ]
