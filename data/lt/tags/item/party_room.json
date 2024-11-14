@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+        "minecraft:potion",
+        "minecraft:glow_berries",
+        "minecraft:mud_bricks",
+        "ltminigames:cola_standing"
+	]
+}

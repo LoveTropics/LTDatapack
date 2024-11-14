@@ -3,10 +3,7 @@
         "scoreboard players set @s party_room.items 0"
     ],
     "exit_commands": [
-        "execute store result score @s party_room.items run clear @s minecraft:potion[minecraft:custom_data={PartyRoomOnly:1b}]",
-        "execute store result score @s party_room.items run clear @s minecraft:glow_berries[minecraft:custom_data={PartyRoomOnly:1b}]",
-        "execute store result score @s party_room.items run clear @s minecraft:mud_bricks[minecraft:custom_data={PartyRoomOnly:1b}]",
-        "execute store result score @s party_room.items run clear @s ltminigames:cola_standing[minecraft:custom_data={PartyRoomOnly:1b}]",
+        "execute store result score @s party_room.items run clear @s #lt:party_room[minecraft:custom_data={PartyRoomOnly:1b}]",
         "execute if score @s party_room.items matches 1.. run tellraw @s {\"translate\":\"lt.party_room.exit.illegal_items\",\"color\":\"red\"}"]
   }
   
