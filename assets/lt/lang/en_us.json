@@ -160,6 +160,9 @@
 	"lt.collectible.gegy_potato.name": "Gegy Potato",
 	"lt.collectible.tiny_potato.name": "Tiny Potato",
 	"lt.collectible.yellow_scuba_harness.tooltip.add_air": " + Breathe Underwater",
+	"lt.collectible.wellies.tooltip.add_movement_effenicy": " + Movement Efficiency",
+	"lt.collectible.wellies.description": "That mud will no longer be a match for me!",
+	"lt.collectible.wellies.name": "Wellies",
 
 	"lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
 	"lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
@@ -335,6 +338,7 @@
 	"lt.disguise.to_many_players": "Cloning can't work too many players nearby",
 
 	"lt.enchant.rocket_boots": "Rocket Boots",
+	"lt.enchant.wellies": "Wellies",
 
 	"lt.item.damaging_coconut": "Damaging Coconut",
 	"lt.item.explosive_coconut": "Explosive Coconut",
@@ -378,10 +382,12 @@
 	"lt.hockey.score.subtitle_blue": "Blue Team Scored!",
 	"lt.hockey.score.subtitle_red": "Red Team Scored!",
 	"lt.hocket_win_blue": "Blue Team Wins!",
-	"lt.hocket_win_red": "Red Team Wins!"
+	"lt.hocket_win_red": "Red Team Wins!",
 
-
-
-
+	"lt.party_room.store.glow_berries": "Sunshine Berries",
+	"lt.party_room.store.levity_lift": "Levity Lift",
+	"lt.party_room.store.chocolate_bricks": "Chocolate Bricks",
+	"lt.party_room.store.chocolate_bricks.lore": "A delicious treat that will make you feel like you're in a chocolate wonderland! Warring may include mud",
+	"lt.party_room.shop.name": "Billy Bonka"
 
 }
