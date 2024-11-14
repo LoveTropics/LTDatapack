@@ -388,6 +388,7 @@
 	"lt.party_room.store.levity_lift": "Levity Lift",
 	"lt.party_room.store.chocolate_bricks": "Chocolate Bricks",
 	"lt.party_room.store.chocolate_bricks.lore": "A delicious treat that will make you feel like you're in a chocolate wonderland! Warring may include mud",
-	"lt.party_room.shop.name": "Billy Bonka"
+	"lt.party_room.shop.name": "Billy Bonka",
+	"lt.party_room.exit.illegal_items": "Wooo you can't take that out of the party room! - They have been removed from your inventory"
 
 }
