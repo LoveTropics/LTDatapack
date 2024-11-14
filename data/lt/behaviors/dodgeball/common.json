@@ -28,7 +28,7 @@
 			{
 				"type": "ltminigames:add_equipment",
 				"clear": true,
-                "items": [
+				"items": [
 					{
 						"id": "tropicraft:exploding_coconut",
 						"count": 64,
@@ -46,8 +46,26 @@
 				"type": "ltminigames:add_attribute_modifier",
 				"attribute": "minecraft:generic.max_health",
 				"modifier": {
-					"id": "lt:dodgeball",
+					"id": "lt:dodgeball_health",
 					"amount": -19,
+					"operation": "add_value"
+				}
+			},
+			{
+				"type": "ltminigames:add_attribute_modifier",
+				"attribute": "minecraft:generic.step_height",
+				"modifier": {
+					"id": "lt:dodgeball_step",
+					"amount": 0.4,
+					"operation": "add_value"
+				}
+			},
+			{
+				"type": "ltminigames:add_attribute_modifier",
+				"attribute": "minecraft:generic.movement_speed",
+				"modifier": {
+					"id": "lt:dodgeball_speed",
+					"amount": 0.025,
 					"operation": "add_value"
 				}
 			}

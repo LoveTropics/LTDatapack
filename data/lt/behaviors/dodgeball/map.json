@@ -13,7 +13,6 @@
 		"period": {
 			"start": "start",
 			"end": "end"
-		},
-		"behavior": "lt:dodgeball/map/droppers"
+		}
 	}
 ]
