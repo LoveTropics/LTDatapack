@@ -39,6 +39,23 @@
 		"respawn_action": "lt:qottott/respawn"
 	},
 	{
+		"type": "ltminigames:on_death",
+		"killed_action": {
+			"type": "ltminigames:increase_statistic",
+			"statistic": "deaths",
+			"amount": 1
+		}
+	},
+	{
+		"type": "ltminigames:points_sidebar",
+		"statistic": "deaths",
+		"order": "min",
+		"count": 5,
+		"title": {"translate": "lt.minigame.dodgeball", "color": "light_purple", "bold": true},
+		"header": [
+		]
+	},
+	{
 		"type": "ltminigames:game_end_effects",
 		"podium": {
 			"winner_regions": ["winner"],
