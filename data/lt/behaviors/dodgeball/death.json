@@ -16,7 +16,7 @@
 				"broadcast": true
 			},
 			{
-				"type": "ltminigames:increase_statistic",
+				"type": "ltminigames:increment_statistic",
 				"statistic": "deaths",
 				"amount": 1
 			}
