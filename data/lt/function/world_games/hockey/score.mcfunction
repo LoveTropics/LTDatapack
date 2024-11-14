@@ -1,4 +1,5 @@
 $title @a[tag=in_game.hockey] subtitle {"translate": "lt.hockey.score.subtitle_$(team)","color":"$(team)"}
+title @a[tag=in_game.hockey] title ""
 $scoreboard players add $(team) game.hockey 1
 function lt:world_games/hockey/spawn_crab
 kill @s
