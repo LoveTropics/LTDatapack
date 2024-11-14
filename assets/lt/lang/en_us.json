@@ -376,7 +376,9 @@
 	"lt.hockey.jump_floor.title": "Jump Floor Actvated!",
 	"lt.hockey.jump_floor.subtitle": "A Donation has effected the floor!",
 	"lt.hockey.score.subtitle_blue": "Blue Team Scored!",
-	"lt.hockey.score.subtitle_red": "Red Team Scored!"
+	"lt.hockey.score.subtitle_red": "Red Team Scored!",
+	"lt.hocket_win_blue": "Blue Team Wins!",
+	"lt.hocket_win_red": "Red Team Wins!"
 
 
 
