@@ -8,13 +8,18 @@
       "{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}",
       "{\"translate\":\"lt.collectible.wellies.tooltip.add_movement_effenicy\",\"color\":\"blue\",\"italic\":false}"
     ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": false,
+      "levels": {
+        "lt:wellies": 1
+      }
+    },
     "minecraft:unbreakable": {
       "show_in_tooltip": false
     },
     "minecraft:custom_name": "{\"translate\":\"lt.collectible.wellies.name\",\"color\":\"#005958\",\"italic\":false}",
     "minecraft:custom_data": {
-      "ParkourBlacklist": true,
-      "RocketBoots": true
+      "ParkourBlacklist": true
     },
     "minecraft:trim": {
       "material": "minecraft:redstone",
