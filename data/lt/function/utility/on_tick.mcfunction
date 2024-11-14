@@ -8,7 +8,7 @@
 # Teleport
 #execute as @a[tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/player/first_join
 
-execute in tropicraft:tropics run function lt:utility/team/on_tick
+# execute in tropicraft:tropics run function lt:utility/team/on_tick
 
 # Disabled spawn tp for now
 #execute in minecraft:overworld as @a[tag=!utility.player.introduced,tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/spawn_island/introduce
