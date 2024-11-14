@@ -1,38 +1,31 @@
 {
   "components": {
     "minecraft:lore": [
-      "{\"translate\":\"lt.collectible.rocket_boots.description\",\"color\":\"gray\"}",
+      "{\"translate\":\"lt.collectible.wellies.description\",\"color\":\"gray\"}",
       "{\"text\":\" \"}",
       "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}",
       "{\"text\":\" \"}",
       "{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}",
-      "{\"translate\":\"lt.collectible.rocket_boots.tooltip.add_velocity\",\"color\":\"blue\",\"italic\":false}",
-      "{\"translate\":\"lt.collectible.rocket_boots.tooltip.add_reckless_abandon\",\"color\":\"blue\",\"italic\":false}"
+      "{\"translate\":\"lt.collectible.wellies.tooltip.add_movement_effenicy\",\"color\":\"blue\",\"italic\":false}"
     ],
-    "minecraft:enchantments": {
-      "show_in_tooltip": false,
-      "levels": {
-        "lt:rocket_boots": 1
-      }
-    },
     "minecraft:unbreakable": {
       "show_in_tooltip": false
     },
-    "minecraft:custom_name": "{\"translate\":\"lt.collectible.rocket_boots.name\",\"color\":\"#005958\",\"italic\":false}",
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.wellies.name\",\"color\":\"#005958\",\"italic\":false}",
     "minecraft:custom_data": {
       "ParkourBlacklist": true,
       "RocketBoots": true
     },
     "minecraft:trim": {
       "material": "minecraft:redstone",
-      "pattern": "minecraft:eye",
+      "pattern": "lt:tropics",
       "show_in_tooltip": false
     },
     "minecraft:hide_additional_tooltip": {},
     "minecraft:dyed_color": {
-      "rgb": 10511680,
+      "rgb": 16767257,
       "show_in_tooltip": false
     }
   },
-  "item": "minecraft:netherite_boots"
+  "item": "minecraft:leather_boots"
 }
