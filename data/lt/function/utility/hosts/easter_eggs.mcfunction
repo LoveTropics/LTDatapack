@@ -80,5 +80,7 @@ execute as @s if data entity @s {profile:{name:"NotActuallyTerry"}} run item rep
 
 # Anonymous
 execute as @s if data entity @s {profile:{name:""}} run disguise as tropicraft:tapir {undercover:true}
+execute as @s unless data entity @s {profile:{name:""}} run disguise clear
+
 
 execute if entity @s[type=player] run tellraw @p {"text":"Execute","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=hostDummy] run function lt:utility/hosts/easter_eggs"}}
