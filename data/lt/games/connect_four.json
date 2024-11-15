@@ -51,11 +51,13 @@
       "team_blocks": {
         "red": {
           "powder": "minecraft:red_concrete_powder",
-          "solid": "minecraft:red_concrete"
+          "solid": "minecraft:red_concrete",
+          "highlighted": "minecraft:pink_concrete"
         },
         "blue": {
           "powder": "minecraft:blue_concrete_powder",
-          "solid": "minecraft:blue_concrete"
+          "solid": "minecraft:blue_concrete",
+          "highlighted": "minecraft:light_blue_concrete"
         }
       },
       "placing_region": "placing",
