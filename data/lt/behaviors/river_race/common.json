@@ -32,6 +32,10 @@
     "points_per_game_won": 1
   },
   {
+    "type": "ltminigames:kill_above_void",
+    "ticks": 10
+  },
+  {
     "type":"ltminigames:river_race_progress",
     "top_team": "blue",
     "bottom_team": "red",
