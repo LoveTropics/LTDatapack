@@ -82,7 +82,7 @@
           "type": "ltminigames:set_blocks",
           "region": "start_floor",
           "replace": {
-            "tag": "lt:all_stained_glass"
+            "blocks": "#lt:all_stained_glass"
           },
           "set": "air"
         },

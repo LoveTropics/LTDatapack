@@ -71,7 +71,7 @@
         "type": "ltminigames:set_blocks",
         "region": "spawn_box",
         "replace": {
-          "block": "minecraft:barrier"
+          "blocks": ["minecraft:barrier"]
         },
         "set": "air"
       }

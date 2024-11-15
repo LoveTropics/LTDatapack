@@ -24,7 +24,7 @@
       "actions": {
         "10":     {
           "type": "ltminigames:set_blocks",
-          "replace": {"block": "minecraft:light_blue_stained_glass"},
+          "replace": {"blocks": ["minecraft:light_blue_stained_glass"]},
           "set": "minecraft:air",
           "region": "barrier"
         }
