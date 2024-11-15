@@ -387,6 +387,13 @@
 	"lt.party_room.store.chocolate_bricks": "Chocolate Bricks",
 	"lt.party_room.store.chocolate_bricks.lore": "A delicious treat that will make you feel like you're in a chocolate wonderland! Warning may include mud",
 	"lt.party_room.shop.name": "Billy Bonka",
-	"lt.party_room.exit.illegal_items": "Wooo you can't take that out of the party room! - They have been removed from your inventory"
+	"lt.party_room.exit.illegal_items": "Wooo you can't take that out of the party room! - They have been removed from your inventory",
+
+	"lt.rules.info.one": "Keep it PG",
+    "lt.rules.info.two": "No Griefing",
+    "lt.rules.info.three": "Be Respectful",
+    "lt.rules.info.four": "Don’t overcrowd the Host",
+    "lt.rules.info.five": "Listen to moderators, stop when told",
+    "lt.rules.info.six": "If you run into a tech issue, join the Discord and use Modmail"
 
 }
