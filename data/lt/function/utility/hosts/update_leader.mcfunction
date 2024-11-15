@@ -1,0 +1,1 @@
+execute as @e[type=dummyplayers:dummy_player,tag=leaderDummy] run function lt:utility/hosts/easter_eggs
