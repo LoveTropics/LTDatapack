@@ -1,0 +1,6 @@
+{
+	"enter_commands": [
+		"execute if entity @s[role=!organiser] if entity @s[role=!builder] if entity @s[role=!host] if entity @s[role=!moderator] at @e[type=marker,tag=stagetp,limit=1] run teleport @s ~ ~ ~ ~180 ~"
+	],
+	"exit_commands": []
+}
