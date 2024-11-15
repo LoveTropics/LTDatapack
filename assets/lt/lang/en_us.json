@@ -243,7 +243,11 @@
 	"lt.poi.crystal_parkour": "Crystal Parkour",
 	"lt.poi.obstacle_parkour": "Obstacle Parkour",
 	"lt.poi.stt4_easter_egg": "STT4 Easter Egg",
+	"lt.poi.build_goals": "Build Goals",
+	"lt.poi.theater": "Theater",
 
+	"lt.poi.edu": "EDU",
+	"lt.poi.edu_area": "EDU Area",
 	"lt.poi.education_area": "Education Area",
 	"lt.poi.finale_area": "Finale Area",
 	"lt.poi.free_build_1": "Free Build #1",

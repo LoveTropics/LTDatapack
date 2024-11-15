@@ -10,5 +10,18 @@
   {
     "type": "lt:integrations/packages/wind_charge",
     "donation_amount": 15.0
+  },
+  {
+    "type": "lt:integrations/packages/disguise_with_command",
+    "id": "fiddler_crab",
+    "name": "ltminigames.minigame.donation.fiddler_crab",
+    "description": "ltminigames.minigame.donation.fiddler_crab",
+    "toast": "ltminigames.minigame.donation.fiddler_crab.toast",
+    "command": "give @e[type=tropicraft:fiddler_crab,current_world=true] minecraft:glowing infinite 255 true",
+    "entity": {
+      "type": "tropicraft:fiddler_crab"
+    },
+    "seconds": 60,
+    "donation_amount": 8.0
   }
 ]
