@@ -1,8 +1,10 @@
 # Resets to empty hand
 execute as @s run data modify entity @s HandItems set value [{},{}]
+execute as @s run data modify entity @s ArmorItems set value [{},{},{},{}]
 
 # DinnerBeef - Debug
-execute as @s if data entity @s {profile:{name:"DinnerBeef"}} run item replace entity @s weapon with ltminigames:mob_hat[ltminigames:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
+execute as @s if data entity @s {profile:{name:"DinnerBeef"}} run say hi
+execute as @s if data entity @s {profile:{name:"DinnerBeef"}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
 
 # Direwolf20
 execute as @s if data entity @s {profile:{name:"Direwolf20"}} run item replace entity @s weapon with minecraft:cake
@@ -23,7 +25,7 @@ execute as @s if data entity @s {profile:{name:"HelgaRakel"}} run item replace e
 execute as @s if data entity @s {profile:{name:"LogicPro"}} run item replace entity @s weapon with minecraft:cake
 
 # MandaLin
-execute as @s if data entity @s {profile:{name:"MandaLin"}} run item replace entity @s weapon with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:slime"},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{name:"MandaLin"}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:slime"},ltminigames:size=0.5]
 
 # iskall85
 execute as @s if data entity @s {profile:{name:"iskall85"}} run item replace entity @s weapon with minecraft:cake
@@ -50,7 +52,7 @@ execute as @s if data entity @s {profile:{name:"Pixlriffs"}} run item replace en
 execute as @s if data entity @s {profile:{name:"joehillssays"}} run item replace entity @s weapon with tropicraft:large_bongo_drum
 
 # Rushmead
-execute as @s if data entity @s {profile:{name:"Rushmead"}} run item replace entity @s weapon with minecraft:player_head{SkullOwner:{Id:[I;-1425014579,-1424734237,-1938822881,-2030827905],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA2NjIyMmI0M2M0NTE5OGY5ZWNkNzdiYzE0MTI3MmIzOWEyNjlkNjhlNzQ3MTIwODEwNDRkNWY5MzExOTkyMiJ9fX0="}]}}}}
+execute as @s if data entity @s {profile:{name:"Rushmead"}} run item replace entity @s weapon with minecraft:stone
 
 # RichardThornton
 execute as @s if data entity @s {profile:{name:"RichardThornton"}} run item replace entity @s weapon with minecraft:medium_amethyst_bud
