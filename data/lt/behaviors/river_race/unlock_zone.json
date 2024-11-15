@@ -1,0 +1,69 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "channel": "$channel",
+    "named_points": {
+      "start": 0,
+      "end": 45
+    },
+    "start": false
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "end",
+    "sound": "ui.button.click",
+    "pitch": {
+      "start": 0.2,
+      "end": 0.2
+    },
+    "seconds": 5,
+    "show_title": true,
+    "channel": "$channel"
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "channel": "$channel",
+    "actions": {
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.arrow.hit_player",
+          "pitch": 1.5
+        },
+        {
+          "type": "ltminigames:unlock_zone",
+          "zone": "$zone"
+        },
+        {
+          "type": "ltminigames:remove_colliders",
+          "regions": "$colliders"
+        },
+        {
+          "type": "ltminigames:start_microgames",
+          "games": [
+            "lt:crafting_bee",
+            "lt:connect_four",
+            "lt:block_party_teams"
+          ],
+          "games_per_round": 4
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "channel": "$channel",
+    "entries": [
+      {
+        "period": ["start", "end"],
+        "template": {
+          "translate": "ltminigames.minigame.river_race.trivia.games_start_in",
+          "color": "green"
+        },
+        "color": "green",
+        "reversed": true
+      }
+    ]
+  }
+]

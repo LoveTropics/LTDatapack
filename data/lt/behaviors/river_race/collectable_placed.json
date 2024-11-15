@@ -1,0 +1,25 @@
+[
+  {
+    "type": "ltminigames:show_title",
+    "title": {
+      "translate": "ltminigames.minigame.river_race.trivia.collectable_placed.title",
+      "color": "gold"
+    },
+    "subtitle": {
+      "translate": "ltminigames.minigame.river_race.trivia.collectable_placed.subtitle",
+      "color": "green"
+    },
+    "fade_in": 20,
+    "stay": 40,
+    "fade_out": 20
+  },
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "event.raid.horn",
+    "volume": 16.0
+  },
+  {
+    "type": "ltminigames:start_progress_channel",
+    "channel": "$unlock_channel"
+  }
+]
