@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "wind_charge_package",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "all",
+  "name": {"translate": "ltminigames.minigame.donation.wind_charge_package"},
+  "description": {"translate": "ltminigames.minigame.donation.wind_charge_package.description"},
+  "donation_amount": "$donation_amount",
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.wind_charge_package.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "minecraft:wind_charge"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_loot",
+      "loot_table": "lt:packages/wind_charge"
+    }
+  ]
+}

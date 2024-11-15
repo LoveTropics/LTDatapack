@@ -6,5 +6,9 @@
   {
     "type": "lt:integrations/packages/big_leaps",
     "donation_amount": 15.0
+  },
+  {
+    "type": "lt:integrations/packages/wind_charge",
+    "donation_amount": 15.0
   }
 ]
