@@ -42,5 +42,6 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "features": []
+  "features": [],
+  "carvers": {}
 }
