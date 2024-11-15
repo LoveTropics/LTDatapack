@@ -19,7 +19,9 @@
             "games": [
               "lt:crafting_bee",
               "lt:connect_four",
-              "lt:block_party_teams"
+              "lt:block_party_teams",
+              "lt:de_a_coudre_teams",
+              "lt:crab_hockey"
             ],
             "games_per_round": 3
           }

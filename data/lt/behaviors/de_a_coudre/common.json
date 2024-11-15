@@ -1,0 +1,49 @@
+[
+  "lt:de_a_coudre/ruleset",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "blue": ["spawn_blue"],
+      "red": ["spawn_red"]
+    },
+    "face_region": "hole",
+    "split_by_team": true,
+    "all": "spectator_spawn",
+    "spectators": ["spectator_spawn"]
+  },
+  {
+    "type": "ltminigames:de_a_coudre",
+    "water_region": "water",
+    "hole_region": "hole",
+    "team_palettes": {
+      "red": {
+        "blocks": ["minecraft:red_stained_glass", "minecraft:orange_stained_glass", "minecraft:pink_stained_glass"],
+        "bonus": "minecraft:redstone_block"
+      },
+      "blue": {
+        "blocks": ["minecraft:blue_stained_glass", "minecraft:light_blue_stained_glass", "minecraft:lime_stained_glass"],
+        "bonus": "minecraft:diamond_block"
+      }
+    },
+    "points_per_block": 1,
+    "points_per_bonus": 3
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 5,
+    "title": {
+      "translate": "ltminigames.minigame.de_a_coudre",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  },
+  "lt:de_a_coudre/end",
+  {
+    "type": "lt:fixed_rewards",
+    "coins": 5
+  }
+]
