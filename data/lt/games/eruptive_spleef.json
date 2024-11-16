@@ -27,7 +27,7 @@
   "behaviors": [
     {
       "type": "lt:common/playing",
-      "game_type": "survival",
+      "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
@@ -79,7 +79,10 @@
             "id": "minecraft:flint_and_steel",
             "components": {
               "unbreakable": {},
-              "ltextras:undroppable": {}
+              "ltextras:undroppable": {},
+              "can_place_on": [
+                {"blocks": ["tnt"]}
+              ]
             }
           }
         ],
@@ -96,8 +99,17 @@
     },
     {
       "type": "ltminigames:permanent_item",
-      "item": "minecraft:tnt",
-      "count": 5,
+      "item": {
+        "id": "minecraft:tnt",
+        "count": 64,
+        "components": {
+          "can_place_on": {
+            "predicates": [
+              {}
+            ]
+          }
+        }
+      },
       "interval": 5
     },
     {
