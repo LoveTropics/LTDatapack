@@ -3,7 +3,6 @@ execute as @s run data modify entity @s HandItems set value [{},{}]
 execute as @s run data modify entity @s ArmorItems set value [{},{},{},{}]
 
 # DinnerBeef - Debug
-execute as @s if data entity @s {profile:{name:"DinnerBeef"}} run say hi
 execute as @s if data entity @s {profile:{name:"DinnerBeef"}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
 
 # Direwolf20
