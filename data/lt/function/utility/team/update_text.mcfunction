@@ -1,5 +1,2 @@
-execute as @e[tag=info.no_cents] run data merge entity @s {text:'{"translate":"lt.info.team_no_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"},"  ",{"text":"15","color":"gold"}],"color":"blue"}'}
-execute as @e[tag=info.cents] run data merge entity @s {text:'{"translate":"lt.info.team_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"},"  ",{"text":"9","color":"gold"}],"color":"#FF8A13"}'}
-
-execute as @e[tag=info.no_cents] run data merge entity @s {text:'{"translate":"lt.info.team_no_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"}," ",{"text":"15","color":"gold"}],"color":"blue"}'}
-execute as @e[tag=info.cents] run data merge entity @s {text:'{"translate":"lt.info.team_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"}," ",",{"text":"9","color":"gold"}],"color":"#FF8A13"}'}
+execute as @e[tag=info.no_cents] run data merge entity @s {text:'{"translate":"lt.info.team_no_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"}," ",{"color":"gold","score":{"name":"no_cents","objective":"main.stats"}}],"color":"blue"}'}
+execute as @e[tag=info.cents] run data merge entity @s {text:'{"translate":"lt.info.team_cents","extra":["\\n",{"translate":"lt.text.members","color":"light_purple"}," ",{"color":"gold","score":{"name":"cents","objective":"main.stats"}}],"color":"#FF8A13"}'}
