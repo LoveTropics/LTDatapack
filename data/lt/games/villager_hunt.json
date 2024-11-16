@@ -2,9 +2,8 @@
   "name": { "translate": "ltminigames.minigame.villager_hunt" },
   "statistics_key": "villager_hunt",
   "backend_id": "lt:villager_hunt",
-  "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
 
-  "minimum_participants": 1,
+  "minimum_participants": 2,
   "maximum_participants": 40,
   "waiting": {
     "map": {
@@ -45,6 +44,9 @@
       "last_team": true
     },
     "ltminigames:disable_hunger",
+    "lt:villager_hunt/equipment",
+    "lt:villager_hunt/actions",
+    "lt:survive_the_tide/mode/teams/glow",
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
@@ -58,128 +60,12 @@
       }
     },
     {
-      "type": "ltminigames:progression",
-      "named_points": {
-        "start": 1
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200,
+      "title": {
+        "translate": "ltminigames.minigame.win",
+        "color": "gold"
       }
-    },
-    {
-      "type": "ltminigames:scheduled_actions",
-      "target": "all",
-      "actions": {
-        "start": [
-          {
-            "type": "ltminigames:show_title",
-            "message": {
-              "translate": "ltminigames.minigame.go",
-              "color": "green"
-            }
-          },
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "minecraft:block.respawn_anchor.deplete"
-          },
-          {
-            "type": "ltminigames:spawn_entity_at_regions",
-            "entity": {
-              "type": "minecraft:villager",
-              "tag": {
-                "Health": 5000,
-                "IsBaby": false,
-                "attributes": [
-                  {
-                    "id": "generic.max_health",
-                    "base": 8
-                  }
-                ],
-                "ArmorItems": [
-                  {},
-                  {
-                    "id": "minecraft:leather_helmet",
-                    "count": 1,
-                    "components": {
-                      "unbreakable": {},
-                      "enchantments": {
-                        "levels": {
-                          "thorns": 6
-                        }
-                      }
-                    }
-                  },
-                 {},
-                 {}
-                ]
-              }
-            },
-            "regions_to_spawn_at": ["spawn"],
-            "entity_count_per_region": 150,
-            "at_heightmap": false
-          },
-          {
-            "type": "ltminigames:add_attribute_modifier",
-            "attribute": "minecraft:generic.max_health",
-            "modifier": {
-              "id": "lt:villager_hunt",
-              "amount": -10,
-              "operation": "add_value"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "ltminigames:set_role",
-      "role": "participant",
-      "action": [
-        {
-          "type": "ltminigames:run_commands",
-          "player": ["disguise as minecraft:villager", "effect give @s minecraft:stre 1 1"]
-        },
-        {
-          "type": "ltminigames:add_equipment",
-          "head": {
-            "id": "minecraft:leather_helmet",
-            "components": {
-              "unbreakable": {},
-              "ltextras:undroppable": {},
-              "trim": {
-                "material": "gold",
-                "pattern": "wild"
-              },
-              "enchantments": {
-                "levels": {
-                  "thorns": 3
-                }
-              }
-            }
-          },
-          "chest": {
-            "id": "minecraft:leather_chestplate",
-            "components": {
-              "unbreakable": {},
-              "ltextras:undroppable": {}
-            }
-          },
-          "color_by_team": true,
-          "hotbar_team_items": {
-            "red": {
-              "id": "minecraft:red_wool",
-              "components": {
-                "item_name": "\"Red Team\"",
-                "ltextras:undroppable": {}
-              }
-            },
-            "blue": {
-              "id": "minecraft:blue_wool",
-              "components": {
-                "item_name": "\"Blue Team\"",
-                "ltextras:undroppable": {}
-              }
-            }
-          }
-        }
-      ]
-    },
-  "lt:survive_the_tide/mode/teams/glow"
+    }
   ]
 }

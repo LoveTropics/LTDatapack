@@ -415,5 +415,7 @@
 
 	"ltminigames.minigame.donation.fiddler_crab": "Fiddler Crab",
 	"ltminigames.minigame.donation.fiddler_crab.description": "Turn everyone into a fiddler crab!",
-	"ltminigames.minigame.donation.fiddler_crab.toast": "%sender% has turned everyone into fiddler crabs!"
+	"ltminigames.minigame.donation.fiddler_crab.toast": "%sender% has turned everyone into fiddler crabs!",
+
+	"ltminigames.minigame.villager_hunt": "Villager Hunt"
 }

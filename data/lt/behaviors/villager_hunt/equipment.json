@@ -1,0 +1,55 @@
+[
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "action": [
+      {
+        "type": "ltminigames:run_commands",
+        "player": ["disguise as minecraft:villager", "effect give @s minecraft:stre 1 1"]
+      },
+      {
+        "type": "ltminigames:add_equipment",
+        "head": {
+          "id": "minecraft:leather_helmet",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "trim": {
+              "material": "gold",
+              "pattern": "wild"
+            },
+            "enchantments": {
+              "levels": {
+                "thorns": 3
+              }
+            }
+          }
+        },
+        "chest": {
+          "id": "minecraft:leather_chestplate",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        },
+        "color_by_team": true,
+        "hotbar_team_items": {
+          "red": {
+            "id": "minecraft:red_wool",
+            "components": {
+              "item_name": "\"Red Team\"",
+              "ltextras:undroppable": {}
+            }
+          },
+          "blue": {
+            "id": "minecraft:blue_wool",
+            "components": {
+              "item_name": "\"Blue Team\"",
+              "ltextras:undroppable": {}
+            }
+          }
+        }
+      }
+    ]
+  }
+]

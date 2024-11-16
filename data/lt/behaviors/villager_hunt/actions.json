@@ -1,0 +1,37 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 1
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:show_title",
+          "message": {
+            "translate": "ltminigames.minigame.go",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        },
+        "lt:villager_hunt/spawn_villagers",
+        {
+          "type": "ltminigames:add_attribute_modifier",
+          "attribute": "minecraft:generic.max_health",
+          "modifier": {
+            "id": "lt:villager_hunt",
+            "amount": -10,
+            "operation": "add_value"
+          }
+        }
+      ]
+    }
+  }
+]
