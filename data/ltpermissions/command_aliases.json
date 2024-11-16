@@ -1,7 +1,7 @@
 {
   "updatehosts": "function lt:utility/hosts/hosts_dummy",
   "tools": "function lt:utility/buildmode/checker",
-  "spawn": "warp spawn",
+  "spawn": "warp lt:spawn",
   "about shops": "function lt:welcome_center/info/shops",
   "about parkour": "function lt:welcome_center/info/parkour",
   "about crab_golf": "function lt:welcome_center/info/crab_golf",
