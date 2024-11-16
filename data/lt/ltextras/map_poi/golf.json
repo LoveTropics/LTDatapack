@@ -1,0 +1,16 @@
+{
+	"description": { "translate": "lt.poi.crab_golf" },
+	"icon": {
+		"item": {
+			"id": "ltminigames:plushie",
+			"components": {
+				"ltminigames:entity": {
+					"type": "tropicraft:fiddler_crab"
+				},
+				"ltminigames:size": 1
+			}
+		}
+	},
+	"pos": [114, 133, -69],
+	"map": "lt:tropics"
+}
