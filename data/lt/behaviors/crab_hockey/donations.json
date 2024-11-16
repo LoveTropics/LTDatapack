@@ -8,7 +8,7 @@
     "donation_amount": 15.0
   },
   {
-    "type": "lt:integrations/packages/wind_charge",
+    "type": "lt:integrations/packages/wind_charge_offhand",
     "donation_amount": 15.0
   },
   {
