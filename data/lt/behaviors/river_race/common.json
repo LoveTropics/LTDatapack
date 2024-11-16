@@ -75,9 +75,13 @@
   },
   {
     "type": "ltminigames:prevent_break",
-    "blocks": [
-      "minecraft:purple_stained_glass",
-      "ltextras:thorn_stem"
+    "predicates": [
+      {
+        "blocks": [
+          "minecraft:purple_stained_glass",
+          "ltextras:thorn_stem"
+        ]
+      }
     ]
   },
   {
