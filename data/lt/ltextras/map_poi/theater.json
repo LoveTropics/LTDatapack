@@ -2,7 +2,7 @@
 	"description": { "translate": "lt.poi.theater" },
 	"icon": {
 		"item": {
-			"id": "minecraft:dropper"
+			"id": "ltextras:curtain"
 		}
 	},
 	"pos": [-179.5, 133, -260.0],
