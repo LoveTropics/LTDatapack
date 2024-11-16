@@ -7,10 +7,10 @@
 				"ltminigames:entity": {
 					"type": "tropicraft:fiddler_crab"
 				},
-				"ltminigames:size": 1
+				"ltminigames:size": 2
 			}
 		}
 	},
-	"pos": [114, 133, -69],
+	"pos": [87, 133, -46],
 	"map": "lt:tropics"
 }
