@@ -32,7 +32,7 @@
   },
   {
     "type": "ltminigames:game_end_effects",
-    "stop_delay": 100,
+    "stop_delay": 200,
     "title": {
       "translate": "ltminigames.minigame.win",
       "color": "gold"

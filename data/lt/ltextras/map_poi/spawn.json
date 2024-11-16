@@ -1,0 +1,7 @@
+{
+  "description": {"translate": "lt.poi.spawn"},
+  "icon": {"item": {"id": "ltextras:tropicoin"}},
+  "pos": [-244, 153, -15],
+  "angle": -140.0,
+  "map": "lt:tropics"
+}
