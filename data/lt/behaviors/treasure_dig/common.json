@@ -1,0 +1,62 @@
+[
+  "lt:treasure_dig/ruleset",
+  "lt:treasure_dig/phases",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "blue": ["spawn_blue"],
+      "red": ["spawn_red"]
+    },
+    "split_by_team": true,
+    "all": "spectator_spawn",
+    "spectators": ["spectator_spawn"]
+  },
+  {
+    "type": "ltminigames:treasure_dig",
+    "chests_region": "chests",
+    "loot_tables": {
+      "minecraft:chest": "lt:river_race/micro_game/treasure_dig_1",
+      "minecraft:trapped_chest": "lt:river_race/micro_game/treasure_dig_2"
+    },
+    "points_map": {
+      "minecraft:diamond": 3,
+      "minecraft:gold_nugget": 2,
+      "minecraft:iron_nugget":1
+    }
+  },
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "action": {
+      "type": "ltminigames:add_equipment",
+      "items": [
+        {
+          "id": "minecraft:diamond_shovel",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "minecraft:can_break": { "blocks":  ["tropicraft:volcanic_sand"]}
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 5,
+    "title": {
+      "translate": "ltminigames.minigame.treasure_dig",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  },
+  "lt:treasure_dig/end",
+  {
+    "type": "lt:fixed_rewards",
+    "coins": 5
+  }
+]

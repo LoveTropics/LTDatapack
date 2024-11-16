@@ -6,7 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ltextras:undroppable": {}
+              }
+            }
+          ]
         }
       ]
     },
@@ -15,7 +23,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond"
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ltextras:undroppable": {}
+              }
+            }
+          ]
         }
       ]
     }
