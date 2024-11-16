@@ -64,9 +64,9 @@
     "block_state": "minecraft:cyan_terracotta"
   },
   {
-    "type": "ltminigames:rising_tides",
-    "tide_area_region": "tide_area",
-    "water_levels": [
+    "type": "ltminigames:rising_fluid",
+    "region": "tide_area",
+    "fluid_levels": [
       {
         "point": "pvp_enabled",
         "value": 50
