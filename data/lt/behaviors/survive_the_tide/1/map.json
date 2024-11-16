@@ -63,7 +63,6 @@
   {
     "type": "ltminigames:rising_tides",
     "tide_area_region": "tide_area",
-    "iceberg_lines_region": "iceberg_line",
     "water_levels": [
       {
         "point": "pvp_enabled",
@@ -77,12 +76,14 @@
         "point": "icebergs_start",
         "value": 150
       }
-    ],
-    "iceberg_growth_period": {
-      "start": "icebergs_start",
-      "end": "icebergs_end"
-    },
-    "iceberg_growth_steps": 80
+    ]
+  },
+  {
+    "type": "ltminigames:form_icebergs",
+    "lines_region": "iceberg_line",
+    "height": 150,
+    "growth_period": ["icebergs_start", "icebergs_end"],
+    "growth_steps": 80
   },
   {
     "type": "lt:survive_the_tide/explosive_storm",

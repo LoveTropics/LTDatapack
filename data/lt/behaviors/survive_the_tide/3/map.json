@@ -58,13 +58,14 @@
         "point": "high_tide",
         "value": "$tide"
       }
-    ],
-    "iceberg_growth_period": {
-      "start": "icebergs_start",
-      "end": "icebergs_end"
-    },
-    "iceberg_lines_region": "iceberg_line",
-    "iceberg_growth_steps": 80
+    ]
+  },
+  {
+    "type": "ltminigames:form_icebergs",
+    "lines_region": "iceberg_line",
+    "height": "$tide",
+    "growth_period": ["icebergs_start", "icebergs_end"],
+    "growth_steps": 80
   },
   {
     "type": "ltminigames:scheduled_actions",
