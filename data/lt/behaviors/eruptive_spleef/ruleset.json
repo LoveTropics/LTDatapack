@@ -34,14 +34,15 @@
     }
   },
   {
-    "type": "ltminigames:while_in_region",
-    "regions": {
-      "lava": {
-        "type": "ltminigames:damage_player",
-        "source": "minecraft:lava",
-        "amount": 10.0
-      }
-    },
-    "interval": 1
+    "type": "ltminigames:scale_damage",
+    "factor": 2.0,
+    "source": {
+      "tags": [
+        {
+          "id": "lt:is_lava",
+          "expected": true
+        }
+      ]
+    }
   }
 ]
