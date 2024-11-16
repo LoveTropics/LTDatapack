@@ -1,0 +1,23 @@
+[
+  "lt:pillars_of_wealth/ruleset",
+  "lt:pillars_of_wealth/phases",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:pillars_of_wealth",
+    "pillar_height": 10,
+    "item_interval": 10,
+    "exclusion_tags": []
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": true
+  },
+  "ltminigames:last_remaining_win_trigger",
+  "lt:pillars_of_wealth/end",
+  {
+    "type": "lt:fixed_rewards",
+    "coins": 5
+  }
+]

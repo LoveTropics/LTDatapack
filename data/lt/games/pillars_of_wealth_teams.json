@@ -16,21 +16,21 @@
     ]
   },
 
-  "name": {"translate": "ltminigames.minigame.treasure_dig_teams"},
-  "statistics_key": "treasure_dig",
+  "name": {"translate": "ltminigames.minigame.pillars_of_wealth_teams"},
+  "statistics_key": "pillars_of_wealth",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:treasure_dig_teams"
+    "load_from": "lt:pillars_of_wealth"
   },
   "minimum_participants": 1,
-  "maximum_participants": 24,
+  "maximum_participants": 30,
   "behaviors": [
     {
       "type": "lt:common/playing",
-      "game_type": "adventure",
+      "game_type": "survival",
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
-    "lt:treasure_dig/common"
+    "lt:pillars_of_wealth/common"
   ]
 }
