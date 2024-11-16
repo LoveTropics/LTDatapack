@@ -88,9 +88,7 @@ execute in tropicraft:tropics positioned 2329.53 131.5 2396.50 run particle mine
 function lt:world_games/scavenger_hunt/seat
 
 # Crab Golf
-execute as @e[type=tropicraft:fiddler_crab,tag=golfCrab,nbt={HurtTime:1s}] run scoreboard players add @s golf.hits 1
-execute as @e[predicate=lt:in_trap] run data modify entity @s Motion set value [0.0,1.0,0.0]
-execute as @e[predicate=lt:in_trap] run tp @s @e[tag=golfStart,sort=nearest,limit=1]
+function lt:world_games/minigolf/core/on_tick
 
 #Systems
 function lt:systems/on_tick

@@ -5,3 +5,6 @@ execute as @e[tag=golfCrab] at @s if block ~ ~-1 ~ ltextras:imposter_white_concr
 execute as @e[tag=golfCrab] at @s if block ~ ~-1 ~ ltextras:imposter_orange_concrete_powder run tp @e[tag=orangeTele,sort=nearest,limit=1]
 execute as @e[tag=golfCrab] at @s if block ~ ~-1 ~ ltextras:imposter_light_blue_concrete_powder run tp @e[tag=lightBlueTele,sort=nearest,limit=1]
 execute as @e[tag=golfCrab] at @s if block ~ ~-1 ~ ltextras:imposter_yellow_concrete_powder run tp @e[tag=yellowTele,sort=nearest,limit=1]
+
+execute as @e[predicate=lt:in_trap] run data modify entity @s Motion set value [0.0,1.0,0.0]
+execute as @e[predicate=lt:in_trap] run tp @s @e[tag=golfStart,sort=nearest,limit=1]
