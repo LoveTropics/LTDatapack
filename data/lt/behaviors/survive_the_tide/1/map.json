@@ -62,6 +62,7 @@
   },
   {
     "type": "ltminigames:rising_fluid",
+    "fill_type": "water",
     "region": "tide_area",
     "fluid_levels": [
       {
