@@ -1,0 +1,67 @@
+[
+  "lt:pillars_of_wealth/ruleset",
+  "lt:pillars_of_wealth/phases",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "blue": ["blue_spawn"],
+      "red": ["red_spawn"]
+    },
+    "split_by_team": true,
+    "all": "spectator_spawn",
+    "spectators": ["spectator_spawn"]
+  },
+  {
+    "type": "ltminigames:paint_party",
+    "teams": {
+      "blue": {
+        "spawn_region": "blue_spawn",
+        "block": "minecraft:blue_concrete",
+        "ammo_item": {
+          "id": "minecraft:blue_concrete",
+          "components": {
+            "ltextras:undroppable": {}
+          }
+        },
+        "block_tag": "#c:dyed/blue",
+        "item_tag": "#c:dyed/blue"
+      },
+      "red": {
+        "spawn_region": "red_spawn",
+        "block": "minecraft:red_concrete",
+        "ammo_item": {
+          "id": "minecraft:red_concrete",
+          "components": {
+            "ltextras:undroppable": {}
+          }
+        },
+        "block_tag": "#c:dyed/red",
+        "item_tag": "#c:dyed/red"
+      }
+    }
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 5,
+    "title": {
+      "translate": "ltminigames.minigame.paint_party",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": true
+  },
+  "lt:pillars_of_wealth/end",
+  {
+    "type": "lt:fixed_rewards",
+    "coins": 5
+  }
+]

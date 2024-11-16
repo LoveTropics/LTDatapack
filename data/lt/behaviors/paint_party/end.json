@@ -1,0 +1,32 @@
+[
+  {
+    "type": "ltminigames:place_by_statistic",
+    "statistic": "kills",
+    "order": "max"
+  },
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "pitch": 0.2
+      }
+    ],
+    "target": "all"
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 100,
+    "title": {
+      "translate": "ltminigames.minigame.win",
+      "color": "gold"
+    }
+  },
+  {
+    "type": "ltminigames:display_leaderboard_on_finish",
+    "statistic": "points",
+    "order": "max",
+    "length": 5
+  }
+]

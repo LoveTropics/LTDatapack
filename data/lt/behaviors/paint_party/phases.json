@@ -1,0 +1,66 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "end": 300,
+      "close": 330
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.game_over.title",
+            "color": "red"
+          },
+          "stay": 30
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:timed_close",
+    "end": "end",
+    "close": "close"
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": 0.0,
+          "end": "start"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.paint_party",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "start",
+          "end": "end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.paint_party",
+          "color": "green"
+        },
+        "color": "green",
+        "include_time": true
+      }
+    ]
+  }
+]
