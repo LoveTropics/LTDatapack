@@ -7,7 +7,7 @@ $function lt:collectible/team/clear {"team":"$(team)"}
 $function lt:collectible/team/give {"team":"$(team)"}
 $tag @s add team.$(team)
 tag @s add team.joined
-$title @s subtitle {"translate":"lt.team.$(team).join","color":"$(team)"}
+$title @s subtitle {"translate":"lt.team.$(team).join","color":"Gold"}
 title @s title " "
 $scoreboard players add $(team) main.stats 1
 spawn
