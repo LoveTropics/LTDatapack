@@ -1,30 +1,30 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "tropicraft:exploding_coconut",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 4
-                            }
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.coconut_boom\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
-                                "tropicraft:explosion_radius": 0.6
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "tropicraft:exploding_coconut",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 4
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"custom_name": "{\"translate\":\"lt.loot_table.coconut_boom\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+								"tropicraft:explosion_radius": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }
