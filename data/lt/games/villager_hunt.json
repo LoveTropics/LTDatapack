@@ -53,15 +53,14 @@
         "doMobSpawning": "false",
         "fallDamage": "false",
         "announceAdvancements": "false",
-        "doImmediateRespawn": "true"
+        "doImmediateRespawn": "true",
+        "naturalRegeneration": "false"
       }
     },
     {
       "type": "ltminigames:progression",
       "named_points": {
-        "start": 10,
-        "end": 310,
-        "close": 320
+        "start": 1
       }
     },
     {
@@ -85,7 +84,7 @@
             "entity": {
               "type": "minecraft:villager",
               "tag": {
-                "Health": 8.0,
+                "Health": 5000,
                 "IsBaby": false,
                 "attributes": [
                   {
@@ -95,21 +94,35 @@
                 ],
                 "ArmorItems": [
                   {},
-                  {},
-                  {},
                   {
                     "id": "minecraft:leather_helmet",
                     "count": 1,
                     "components": {
-                      "unbreakable": {}
+                      "unbreakable": {},
+                      "enchantments": {
+                        "levels": {
+                          "thorns": 6
+                        }
+                      }
                     }
-                  }
+                  },
+                 {},
+                 {}
                 ]
               }
             },
             "regions_to_spawn_at": ["spawn"],
-            "entity_count_per_region": 75,
+            "entity_count_per_region": 150,
             "at_heightmap": false
+          },
+          {
+            "type": "ltminigames:add_attribute_modifier",
+            "attribute": "minecraft:generic.max_health",
+            "modifier": {
+              "id": "lt:villager_hunt",
+              "amount": -10,
+              "operation": "add_value"
+            }
           }
         ]
       }
@@ -120,7 +133,7 @@
       "action": [
         {
           "type": "ltminigames:run_commands",
-          "player": ["disguise as minecraft:villager"]
+          "player": ["disguise as minecraft:villager", "effect give @s minecraft:stre 1 1"]
         },
         {
           "type": "ltminigames:add_equipment",
@@ -132,6 +145,11 @@
               "trim": {
                 "material": "gold",
                 "pattern": "wild"
+              },
+              "enchantments": {
+                "levels": {
+                  "thorns": 3
+                }
               }
             }
           },
@@ -161,6 +179,7 @@
           }
         }
       ]
-    }
+    },
+  "lt:survive_the_tide/mode/teams/glow"
   ]
 }
