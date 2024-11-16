@@ -32,13 +32,42 @@
   },
   {
     "type": "ltminigames:donation_package",
+    "id": "plus_one_crab",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.plus_one_crab"},
+    "description": {"translate": "ltminigames.minigame.donation.plus_one_crab.description"},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.plus_one_crab.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": {"id": "ltminigames:plushie", "components": {"ltminigames:entity": {"type": "tropicraft:fiddler_crab"}}}
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": {
+      "actions": {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "crabs",
+        "amount": 1
+      },
+      "target": "none"
+    }
+  },
+  {
+    "type": "ltminigames:donation_package",
     "id": "plus_two_crabs",
     "package_type": "sabotage_package",
     "category": "small",
     "player_select": "all",
     "name": {"translate": "ltminigames.minigame.donation.plus_two_crabs"},
     "description": {"translate": "ltminigames.minigame.donation.plus_two_crabs.description"},
-    "donation_amount": 15.0,
+    "donation_amount": 10.0,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.plus_two_crabs.toast",
