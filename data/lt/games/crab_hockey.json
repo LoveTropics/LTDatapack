@@ -112,57 +112,60 @@
     },
     {
       "type": "ltminigames:phase_triggers/start",
-      "actions": "lt:crab_hockey/spawn_crab"
+      "actions": [
+        {
+          "type": "ltminigames:set_statistic",
+          "statistic": "crabs",
+          "by_player_count": [
+            [0, 1],
+            [16, 8]
+          ]
+        }
+      ]
     },
     {
-      "type": "ltminigames:only_tick_in_period",
-      "period": ["start", "end"],
-      "behavior": {
-        "type": "ltminigames:score_mob_in_goal",
-        "spawn_region": "crab_spawn",
-        "scoring_entity": {
-          "type": "tropicraft:fiddler_crab",
-          "tag": {
-            "RollingDownTown": true,
-            "Silent": true,
-            "Health": 500,
-            "active_effects": [
-              {
-                "id": "minecraft:glowing",
-                "show_particles": false,
-                "duration": -1
-              }
-            ],
-            "attributes": [
-              {
-                "id": "minecraft:generic.max_health",
-                "base": 500
-              },
-              {
-                "id": "minecraft:generic.knockback_resistance",
-                "base": 0.75
-              },
-              {
-                "id": "minecraft:generic.movement_speed",
-                "base": 0
-              },
-              {
-                "id": "minecraft:generic.scale",
-                "base": 1.5
-              }
-            ]
-          }
-        },
-        "initial_count_by_players": [
-          [0, 1],
-          [16, 8]
-        ],
-        "team_goal_regions": {
-          "red": "red_goal",
-          "blue": "blue_goal"
-        },
-        "statistic": "points"
-      }
+      "type": "ltminigames:score_mob_in_goal",
+      "target_count_statistic": "crabs",
+      "spawn_region": "crab_spawn",
+      "scoring_entity": {
+        "type": "tropicraft:fiddler_crab",
+        "tag": {
+          "RollingDownTown": true,
+          "Silent": true,
+          "Health": 500,
+          "active_effects": [
+            {
+              "id": "minecraft:glowing",
+              "show_particles": false,
+              "duration": -1
+            }
+          ],
+          "attributes": [
+            {
+              "id": "minecraft:generic.max_health",
+              "base": 500
+            },
+            {
+              "id": "minecraft:generic.knockback_resistance",
+              "base": 0.75
+            },
+            {
+              "id": "minecraft:generic.movement_speed",
+              "base": 0
+            },
+            {
+              "id": "minecraft:generic.scale",
+              "base": 1.5
+            }
+          ]
+        }
+      },
+      "team_goal_regions": {
+        "red": "red_goal",
+        "blue": "blue_goal"
+      },
+      "statistic": "points",
+      "score_period": ["start", "end"]
     },
     {
       "type": "ltminigames:place_by_statistic",
