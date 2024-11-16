@@ -1,0 +1,11 @@
+{
+	"description": { "translate": "lt.poi.final" },
+	"icon": {
+		"item": {
+			"id": "minecraft:firework_rocket"
+		}
+	},
+	"pos": [-703.5, 127, -112.5],
+	"angle": -160,
+	"map": "lt:tropics"
+}

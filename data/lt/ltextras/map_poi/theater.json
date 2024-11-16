@@ -1,0 +1,11 @@
+{
+	"description": { "translate": "lt.poi.theater" },
+	"icon": {
+		"item": {
+			"id": "minecraft:dropper"
+		}
+	},
+	"pos": [-179.5, 133, -260.0],
+	"angle": -90,
+	"map": "lt:tropics"
+}
