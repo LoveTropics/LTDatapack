@@ -108,7 +108,8 @@
               }
             },
             "regions_to_spawn_at": ["spawn"],
-            "entity_count_per_region": 75
+            "entity_count_per_region": 75,
+            "at_heightmap": false
           }
         ]
       }
