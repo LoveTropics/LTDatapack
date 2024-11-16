@@ -12,6 +12,7 @@ $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] at @s store result
 $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] if score @s golf.data >= @e[tag=hole$(ForcedAge)Crab,limit=1] golf.hits as @e[tag=hole$(ForcedAge)Dummy,limit=1,current_world=true] run data modify entity @s name_suffix set value '[{"translate":"lt.golf.util","color":"green","with":[{"score":{"name":"@e[tag=hole$(ForcedAge)Crab]","objective":"golf.hits"}}]}]'
 $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] if score @s golf.data >= @e[tag=hole$(ForcedAge)Crab,limit=1] golf.hits run execute store result gamedata lt:golf highScores hole$(ForcedAge) int 1 run scoreboard players get @e[tag=hole$(ForcedAge)Crab,limit=1] golf.hits
 $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] if score @s golf.data >= @e[tag=hole$(ForcedAge)Crab,limit=1] golf.hits as @e[tag=hole$(ForcedAge)Dummy,limit=1,current_world=true] run function lt:utility/dummy_players/set_from_player with entity @p[tag=hole$(ForcedAge)Player,current_world=true]
+$execute as @p[tag=hole$(ForcedAge)Player,current_world=true] if score @s golf.data >= @e[tag=hole$(ForcedAge)Crab,limit=1] golf.hits as @e[tag=hole$(ForcedAge)Dummy,limit=1,current_world=true] run function lt:utility/hosts/easter_eggs
 
 # Kills the crab
 $execute as @e[tag=hole$(ForcedAge)End,current_world=true] at @s run function lt:world_games/minigolf/core/utils/kill_crab {hole:$(ForcedAge)}
