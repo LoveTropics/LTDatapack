@@ -7,6 +7,8 @@ title @s times 1s 2s 1s
 execute as @s run function lt:world_games/minigolf/core/utils/gamemode
 execute as @s run function lt:world_games/minigolf/core/utils/putters
 
+$execute unless data gamedata lt:golf HighScores hole$(hole) run data modify gamedata lt:golf HighScores hole$(hole) set value 20
+
 # Summons Carb / Set Carbs Data
 $execute as @e[tag=hole$(hole)Start,current_world=true] at @s run function lt:world_games/minigolf/core/utils/spawn_crab
 $execute as @e[tag=hole$(hole)Start,current_world=true] at @s run tag @e[type=tropicraft:fiddler_crab,distance=..2,limit=1] add hole$(hole)Crab
