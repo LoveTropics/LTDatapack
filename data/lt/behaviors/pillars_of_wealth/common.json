@@ -6,7 +6,8 @@
     "type": "ltminigames:pillars_of_wealth",
     "pillar_height": 10,
     "item_interval": 10,
-    "exclusion_tags": []
+    "exclusion_tags": [],
+    "floor_region": "floor"
   },
   {
     "type": "ltminigames:immediate_respawn",
@@ -14,7 +15,10 @@
     "respawn_as": "spectator",
     "drop_inventory": true
   },
-  "ltminigames:last_remaining_win_trigger",
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "last_team": true
+  },
   "lt:pillars_of_wealth/end",
   {
     "type": "lt:fixed_rewards",
