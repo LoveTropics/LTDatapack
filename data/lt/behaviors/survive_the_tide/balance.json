@@ -11,9 +11,13 @@
     }
   },
   {
-    "type": "ltminigames:scale_damage_from_entity",
+    "type": "ltminigames:scale_damage",
     "factor": 0.20,
-    "source": "tropicraft:exploding_coconut"
+    "source": {
+      "direct_entity": {
+        "type": "tropicraft:exploding_coconut"
+      }
+    }
   },
   {
     "type": "ltminigames:scale_explosion_knockback",

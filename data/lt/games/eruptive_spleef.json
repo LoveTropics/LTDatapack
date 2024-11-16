@@ -101,9 +101,16 @@
       "interval": 5
     },
     {
-      "type": "ltminigames:scale_damage_from_entity",
+      "type": "ltminigames:scale_damage",
       "factor": 0.0,
-      "source": "minecraft:tnt"
+      "source": {
+        "tags": [
+          {
+            "id": "minecraft:is_explosion",
+            "expected": true
+          }
+        ]
+      }
     },
     {
       "type": "ltminigames:while_in_region",
