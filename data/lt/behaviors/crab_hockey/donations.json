@@ -1,5 +1,12 @@
 [
   {
+    "type": "ltminigames:block_packages_during_phase",
+    "block_periods": [
+      [0, "start"],
+      ["end", "close"]
+    ]
+  },
+  {
     "type": "lt:integrations/packages/slipperiness",
     "donation_amount": 15.0
   },
