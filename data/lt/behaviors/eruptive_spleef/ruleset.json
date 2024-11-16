@@ -1,0 +1,47 @@
+[
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:cancel_player_attacks",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "death_message": {
+      "translate": "ltminigames.minigame.survive_the_tide.eliminated",
+      "color": "gray"
+    },
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:scale_damage",
+    "factor": 0.0,
+    "source": {
+      "tags": [
+        {
+          "id": "minecraft:is_explosion",
+          "expected": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "lava": {
+        "type": "ltminigames:damage_player",
+        "source": "minecraft:lava",
+        "amount": 10.0
+      }
+    },
+    "interval": 1
+  }
+]

@@ -1,6 +1,23 @@
 {
-  "name": {"translate": "ltminigames.minigame.eruptive_spleef"},
-  "statistics_key": "eruptive_spleef",
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+
+  "name": {"translate": "ltminigames.minigame.eruptive_spleef_teams"},
+  "statistics_key": "eruptive_spleef_teams",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:eruptive_spleef"
@@ -13,14 +30,23 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
+    "ltminigames:teams",
     {
       "type": "ltminigames:position_players",
+      "teams": {
+        "blue": ["blue_spawn"],
+        "red": ["red_spawn"]
+      },
       "face_region": "center",
-      "all": ["blue_spawn", "red_spawn"],
+      "split_by_team": true,
+      "all": "center",
       "spectators": ["center"]
     },
     "ltminigames:spectator_chase",
-    "ltminigames:last_remaining_win_trigger",
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "last_team": true
+    },
     "lt:eruptive_spleef/ruleset",
     "lt:eruptive_spleef/equipment",
     {
