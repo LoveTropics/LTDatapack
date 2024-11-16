@@ -1,0 +1,59 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "start_rise_1": 30,
+      "end_rise_1": 50,
+      "start_rise_2": 80,
+      "end_rise_2": 100,
+      "start_rise_3": 130,
+      "end_rise_3": 150,
+      "start_rise_4": 180,
+      "end_rise_4": 200
+    }
+  },
+  {
+    "type": "ltminigames:rising_fluid",
+    "fill_type": "lava",
+    "region": "lava",
+    "fluid_levels": [
+      {
+        "point": "start",
+        "value": 65
+      },
+      {
+        "point": "start_rise_1",
+        "value": 65
+      },
+      {
+        "point": "end_rise_1",
+        "value": 70
+      },
+      {
+        "point": "start_rise_2",
+        "value": 70
+      },
+      {
+        "point": "end_rise_2",
+        "value": 75
+      },
+      {
+        "point": "start_rise_3",
+        "value": 75
+      },
+      {
+        "point": "end_rise_3",
+        "value": 82
+      },
+      {
+        "point": "start_rise_4",
+        "value": 82
+      },
+      {
+        "point": "end_rise_4",
+        "value": 87
+      }
+    ]
+  }
+]

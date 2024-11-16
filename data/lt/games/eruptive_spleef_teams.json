@@ -49,6 +49,7 @@
     },
     "lt:eruptive_spleef/ruleset",
     "lt:eruptive_spleef/equipment",
+    "lt:eruptive_spleef/lava",
     {
       "type": "ltminigames:game_end_effects",
       "stop_delay": 200,
