@@ -15,30 +15,49 @@
     "ticks": 10
   },
   {
-    "type": "ltminigames:river_race/zones",
-    "forward_direction": "east",
-    "zones": {
-      "zone_1": {
-        "region": "zone_1",
-        "display_name": "East Africa",
-        "color": "red"
-      },
-      "zone_2": {
-        "region": "zone_2",
-        "display_name": "India",
-        "color": "yellow"
-      },
-      "zone_3": {
-        "region": "zone_3",
-        "display_name": "Niger Delta",
-        "color": "green"
-      },
-      "zone_4": {
-        "region": "zone_4",
-        "display_name": "Mexico",
-        "color": "blue"
-      }
-    }
+    "type": "ltminigames:river_race/setup",
+    "forward_direction": "east"
+  },
+  {
+    "type": "lt:river_race/map/zone",
+    "id": "zone_1",
+    "region": "zone_1",
+    "display_name": "East Africa",
+    "color": "red",
+    "colliders": []
+  },
+  {
+    "type": "lt:river_race/map/zone",
+    "id": "zone_2",
+    "region": "zone_2",
+    "display_name": "India",
+    "color": "yellow",
+    "colliders": [
+      "red_river_1",
+      "blue_river_1"
+    ]
+  },
+  {
+    "type": "lt:river_race/map/zone",
+    "id": "zone_3",
+    "region": "zone_3",
+    "display_name": "Niger Delta",
+    "color": "green",
+    "colliders": [
+      "red_river_2",
+      "blue_river_2"
+    ]
+  },
+  {
+    "type": "lt:river_race/map/zone",
+    "id": "zone_4",
+    "region": "zone_4",
+    "display_name": "Mexico",
+    "color": "blue",
+    "colliders": [
+      "red_river_3",
+      "blue_river_3"
+    ]
   },
   {
     "type":"ltminigames:river_race_progress",
@@ -55,19 +74,5 @@
         "color": "green"
       }
     ]
-  },
-  {
-    "type": "ltminigames:phase_triggers/start",
-    "actions": {
-      "type": "ltminigames:add_colliders",
-      "regions": [
-        "red_river_1",
-        "blue_river_1",
-        "red_river_2",
-        "blue_river_2",
-        "red_river_3",
-        "blue_river_3"
-      ]
-    }
   }
 ]

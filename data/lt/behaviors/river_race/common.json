@@ -54,23 +54,5 @@
       "ltminigames:reset_hunger"
     ]
   },
-  "lt:river_race/collectables",
-  {
-    "type": "lt:river_race/unlock_zone",
-    "channel": "unlock_zone_2",
-    "zone": "zone_2",
-    "colliders": ["red_river_1", "blue_river_1"]
-  },
-  {
-    "type": "lt:river_race/unlock_zone",
-    "channel": "unlock_zone_3",
-    "zone": "zone_3",
-    "colliders": ["red_river_2", "blue_river_2"]
-  },
-  {
-    "type": "lt:river_race/unlock_zone",
-    "channel": "unlock_zone_4",
-    "zone": "zone_4",
-    "colliders": ["red_river_3", "blue_river_3"]
-  }
+  "lt:river_race/collectables"
 ]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ltminigames:river_race/zone",
+    "id": "$id",
+    "region": "$region",
+    "display_name": "$display_name",
+    "color": "$color"
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:add_colliders",
+      "regions": "$colliders"
+    }
+  },
+  {
+    "type": "lt:river_race/unlock_zone",
+    "channel": {
+      "$": {"prefix": "unlock_", "path": "$id"}
+    },
+    "zone": "$id",
+    "colliders": "$colliders"
+  }
+]
