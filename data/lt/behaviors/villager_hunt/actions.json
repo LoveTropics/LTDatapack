@@ -6,6 +6,12 @@
     }
   },
   {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
