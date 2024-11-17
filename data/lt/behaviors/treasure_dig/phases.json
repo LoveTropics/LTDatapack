@@ -59,6 +59,7 @@
           "color": "green"
         },
         "color": "green",
+        "reversed": true,
         "include_time": true
       }
     ]
