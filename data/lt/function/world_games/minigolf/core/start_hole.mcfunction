@@ -8,7 +8,7 @@ execute as @s run function lt:world_games/minigolf/core/utils/gamemode
 execute as @s run function lt:world_games/minigolf/core/utils/putters
 
 $execute unless data gamedata lt:golf HighScores hole$(hole) run data modify gamedata lt:golf HighScores hole$(hole) set value 99
-$execute unless data gamedata lt:golf @s hole$(hole) run data modify gamedata lt:golf @s hole$(hole) set value 99
+$execute unless data gamedata lt:golf @s[type=player] hole$(hole) run data modify gamedata lt:golf @s hole$(hole) set value 99
 
 # Summons Carb / Set Carbs Data
 $execute as @e[tag=hole$(hole)Start,current_world=true] at @s run function lt:world_games/minigolf/core/utils/spawn_crab
