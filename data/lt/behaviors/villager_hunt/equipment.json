@@ -17,11 +17,6 @@
             "trim": {
               "material": "gold",
               "pattern": "wild"
-            },
-            "enchantments": {
-              "levels": {
-                "thorns": 3
-              }
             }
           }
         },
