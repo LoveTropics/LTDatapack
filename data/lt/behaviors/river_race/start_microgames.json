@@ -7,7 +7,10 @@
     "lt:de_a_coudre_teams",
     "lt:crab_hockey",
     "lt:pillars_of_wealth_teams",
-    "lt:treasure_dig_teams"
+    "lt:treasure_dig_teams",
+    "lt:villager_hunt",
+    "lt:eruptive_spleef_teams",
+    "lt:paint_party"
   ],
   "games_per_round": 4
 }
