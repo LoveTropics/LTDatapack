@@ -20,10 +20,6 @@
     }
   },
   {
-    "type": "ltminigames:victory_points",
-    "points_per_game_won": 1
-  },
-  {
     "type": "ltminigames:position_players",
     "all": ["center"]
   },
@@ -35,6 +31,10 @@
   "ltminigames:river_race_overlord",
   "lt:river_race/map",
   "lt:river_race/questions",
+  {
+    "type": "ltminigames:victory_points",
+    "points_per_game_won": 1
+  },
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",

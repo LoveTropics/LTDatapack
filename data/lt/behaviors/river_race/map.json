@@ -56,7 +56,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_1",
     "region": "zone_1",
-    "display_name": "East Africa",
+    "display_name": {"text": "East Africa", "color": "red"},
     "color": "red",
     "colliders": []
   },
@@ -64,7 +64,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_2",
     "region": "zone_2",
-    "display_name": "India",
+    "display_name": {"text": "India", "color": "yellow"},
     "color": "yellow",
     "colliders": [
       "red_river_1",
@@ -75,7 +75,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_3",
     "region": "zone_3",
-    "display_name": "Niger Delta",
+    "display_name": {"text": "Niger Delta", "color": "green"},
     "color": "green",
     "colliders": [
       "red_river_2",
@@ -86,7 +86,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_4",
     "region": "zone_4",
-    "display_name": "Mexico",
+    "display_name": {"text": "Mexico", "color": "blue"},
     "color": "blue",
     "colliders": [
       "red_river_3",
