@@ -1,0 +1,78 @@
+[
+  {
+    "type": "ltminigames:while_in_inventory",
+    "item": {
+      "components": {
+        "ltminigames:river_race_collectable_marker": {}
+      }
+    },
+    "apply": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+          "id": "lt:river_race/held_collectable",
+          "amount": -16,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "clear": [
+      {
+        "type": "ltminigames:clear_attribute_modifier",
+        "attribute": "minecraft:generic.max_health",
+        "id": "lt:river_race/held_collectable"
+      }
+    ],
+    "stack": false
+  },
+  {
+    "type": "ltminigames:river_race_collectables",
+    "item_patch": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        "{\"text\":\"Collectable\",\"color\":\"gray\"}",
+        "{\"text\":\" \"}",
+        "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantments": {
+        "vanishing_curse": 1
+      },
+      "minecraft:fire_resistant": {},
+      "ltextras:undroppable": {}
+    },
+    "collectables_by_zone": {
+      "zone_1": {
+        "item": {
+          "id": "minecraft:red_wool"
+        },
+        "monument_slot_region": ["collectable_red_zone_1", "collectable_blue_zone_1"],
+        "on_complete": {
+          "type": "lt:river_race/collectable_placed",
+          "unlock_channel": "unlock_zone_2"
+        }
+      },
+      "zone_2": {
+        "item": {
+          "id": "minecraft:yellow_wool"
+        },
+        "monument_slot_region": ["collectable_red_zone_2", "collectable_blue_zone_2"],
+        "on_complete": {
+          "type": "lt:river_race/collectable_placed",
+          "unlock_channel": "unlock_zone_3"
+        }
+      },
+      "zone_3": {
+        "item": {
+          "id": "minecraft:green_wool"
+        },
+        "monument_slot_region": ["collectable_red_zone_3", "collectable_blue_zone_3"],
+        "on_complete": {
+          "type": "lt:river_race/collectable_placed",
+          "unlock_channel": "unlock_zone_4"
+        }
+      }
+    }
+  }
+]

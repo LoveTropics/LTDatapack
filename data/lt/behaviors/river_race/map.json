@@ -1,0 +1,73 @@
+[
+  {
+    "type": "ltminigames:prevent_break",
+    "predicates": [
+      {
+        "blocks": [
+          "minecraft:purple_stained_glass",
+          "ltextras:thorn_stem"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:kill_above_void",
+    "ticks": 10
+  },
+  {
+    "type": "ltminigames:river_race/zones",
+    "forward_direction": "east",
+    "zones": {
+      "zone_1": {
+        "region": "zone_1",
+        "display_name": "East Africa",
+        "color": "red"
+      },
+      "zone_2": {
+        "region": "zone_2",
+        "display_name": "India",
+        "color": "yellow"
+      },
+      "zone_3": {
+        "region": "zone_3",
+        "display_name": "Niger Delta",
+        "color": "green"
+      },
+      "zone_4": {
+        "region": "zone_4",
+        "display_name": "Mexico",
+        "color": "blue"
+      }
+    }
+  },
+  {
+    "type":"ltminigames:river_race_progress",
+    "top_team": "blue",
+    "bottom_team": "red",
+    "map_fitting_region": "overhead_map",
+    "locked_zones": [
+      {
+        "id": "zone_2",
+        "color": "yellow"
+      },
+      {
+        "id": "zone_3",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:add_colliders",
+      "regions": [
+        "red_river_1",
+        "blue_river_1",
+        "red_river_2",
+        "blue_river_2",
+        "red_river_3",
+        "blue_river_3"
+      ]
+    }
+  }
+]

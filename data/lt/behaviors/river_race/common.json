@@ -24,26 +24,6 @@
     "points_per_game_won": 1
   },
   {
-    "type": "ltminigames:kill_above_void",
-    "ticks": 10
-  },
-  {
-    "type":"ltminigames:river_race_progress",
-    "top_team": "blue",
-    "bottom_team": "red",
-    "map_fitting_region": "overhead_map",
-    "locked_zones": [
-      {
-        "id": "zone_2",
-        "color": "yellow"
-      },
-      {
-        "id": "zone_3",
-        "color": "green"
-      }
-    ]
-  },
-  {
     "type": "ltminigames:position_players",
     "teams": {
       "blue": ["blue_spawn"],
@@ -58,6 +38,7 @@
     "chat_type": "lt:team_chat"
   },
   "ltminigames:river_race_overlord",
+  "lt:river_race/map",
   "lt:river_race/questions",
   {
     "type": "ltminigames:immediate_respawn",
@@ -73,58 +54,7 @@
       "ltminigames:reset_hunger"
     ]
   },
-  {
-    "type": "ltminigames:prevent_break",
-    "predicates": [
-      {
-        "blocks": [
-          "minecraft:purple_stained_glass",
-          "ltextras:thorn_stem"
-        ]
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:while_in_inventory",
-    "item": {
-      "components": {
-        "ltminigames:river_race_collectable_marker": {}
-      }
-    },
-    "apply": [
-      {
-        "type": "ltminigames:add_attribute_modifier",
-        "attribute": "minecraft:generic.max_health",
-        "modifier": {
-          "id": "lt:river_race/held_collectable",
-          "amount": -16,
-          "operation": "add_value"
-        }
-      }
-    ],
-    "clear": [
-      {
-        "type": "ltminigames:clear_attribute_modifier",
-        "attribute": "minecraft:generic.max_health",
-        "id": "lt:river_race/held_collectable"
-      }
-    ],
-    "stack": false
-  },
-  {
-    "type": "ltminigames:phase_triggers/start",
-    "actions": {
-      "type": "ltminigames:add_colliders",
-      "regions": [
-        "red_river_1",
-        "blue_river_1",
-        "red_river_2",
-        "blue_river_2",
-        "red_river_3",
-        "blue_river_3"
-      ]
-    }
-  },
+  "lt:river_race/collectables",
   {
     "type": "lt:river_race/unlock_zone",
     "channel": "unlock_zone_2",
@@ -142,80 +72,5 @@
     "channel": "unlock_zone_4",
     "zone": "zone_4",
     "colliders": ["red_river_3", "blue_river_3"]
-  },
-  {
-    "type": "ltminigames:river_race/zones",
-    "forward_direction": "east",
-    "zones": {
-      "zone_1": {
-        "region": "zone_1",
-        "display_name": "East Africa",
-        "color": "red"
-      },
-      "zone_2": {
-        "region": "zone_2",
-        "display_name": "India",
-        "color": "yellow"
-      },
-      "zone_3": {
-        "region": "zone_3",
-        "display_name": "Niger Delta",
-        "color": "green"
-      },
-      "zone_4": {
-        "region": "zone_4",
-        "display_name": "Mexico",
-        "color": "blue"
-      }
-    }
-  },
-  {
-    "type": "ltminigames:river_race_collectables",
-    "item_patch": {
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:lore": [
-        "{\"text\":\"Collectable\",\"color\":\"gray\"}",
-        "{\"text\":\" \"}",
-        "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
-      ],
-      "minecraft:max_stack_size": 1,
-      "minecraft:enchantments": {
-        "vanishing_curse": 1
-      },
-      "minecraft:fire_resistant": {},
-      "ltextras:undroppable": {}
-    },
-    "collectables_by_zone": {
-      "zone_1": {
-        "item": {
-          "id": "minecraft:red_wool"
-        },
-        "monument_slot_region": ["collectable_red_zone_1", "collectable_blue_zone_1"],
-        "on_complete": {
-          "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_2"
-        }
-      },
-      "zone_2": {
-        "item": {
-          "id": "minecraft:yellow_wool"
-        },
-        "monument_slot_region": ["collectable_red_zone_2", "collectable_blue_zone_2"],
-        "on_complete": {
-          "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_3"
-        }
-      },
-      "zone_3": {
-        "item": {
-          "id": "minecraft:green_wool"
-        },
-        "monument_slot_region": ["collectable_red_zone_3", "collectable_blue_zone_3"],
-        "on_complete": {
-          "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_4"
-        }
-      }
-    }
   }
 ]
