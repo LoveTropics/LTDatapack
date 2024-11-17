@@ -1,598 +1,585 @@
 {
   "type": "ltminigames:trivia",
-  "forward_direction": "east",
-  "zones": [
-    {
-      "zone_region": "zone_1",
-      "questions": [
-        {
-          "difficulty": "hard",
-          "question": "What type of mining has destabilized the Mpanga River banks?",
-          "answers": [
-            {
-              "text": "Sand, gravel and stones mining",
-              "correct": true
-            },
-            {
-              "text": "Coal mining",
-              "correct": false
-            },
-            {
-              "text": "Oil extraction",
-              "correct": false
-            },
-            {
-              "text": "Gold mining",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "hard",
-          "question": "What role do wetlands play in supporting the Mpanga River ecosystem?",
-          "answers": [
-            {
-              "text": "Water purification, flood control, and habitat provision",
-              "correct": true
-            },
-            {
-              "text": "Provide habitats for fish",
-              "correct": false
-            },
-            {
-              "text": "Prevent deforestation and filter pollutants",
-              "correct": false
-            },
-            {
-              "text": "Increase soil erosion",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "Which industry contributes significantly to water pollution in the Mpanga River?",
-          "answers": [
-            {
-              "text": "Agro-processing",
-              "correct": true
-            },
-            {
-              "text": "Textile industry",
-              "correct": false
-            },
-            {
-              "text": "Tourism industry",
-              "correct": false
-            },
-            {
-              "text": "Technology sector",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "The Mpanga River supports diverse ecosystems, including wetlands. Which species are commonly found in these wetlands?",
-          "answers": [
-            {
-              "text": "Tropical birds, amphibians, and native fish species",
-              "correct": true
-            },
-            {
-              "text": "Hippopotamus, Nile crocodiles, and African fish eagles",
-              "correct": false
-            },
-            {
-              "text": "African clawless otters, tropical fish, and waterfowl",
-              "correct": false
-            },
-            {
-              "text": "Vervet monkeys, African bush elephants, and antelope",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What effect has urbanization had on the Mpanga River?",
-          "answers": [
-            {
-              "text": "Habitat degradation and pollution increase",
-              "correct": true
-            },
-            {
-              "text": "Decreased biodiversity",
-              "correct": false
-            },
-            {
-              "text": "More awareness for conserving the Mpanga River",
-              "correct": false
-            },
-            {
-              "text": "Restoration of wetlands",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What is a consequence of deforestation in the Rwenzori Mountains on the Mpanga River?",
-          "answers": [
-            {
-              "text": "Soil erosion and river siltation",
-              "correct": true
-            },
-            {
-              "text": "Decreased fish populations",
-              "correct": false
-            },
-            {
-              "text": "Improved water quality",
-              "correct": false
-            },
-            {
-              "text": "Expansion of wetlands",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "Which local infrastructure near the Mpanga River has contributed waste to its waters?",
-          "answers": [
-            {
-              "text": "Motor vehicle washing bays",
-              "correct": true
-            },
-            {
-              "text": "Hospitals",
-              "correct": false
-            },
-            {
-              "text": "Shopping malls",
-              "correct": false
-            },
-            {
-              "text": "Schools",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What is one of the main causes of soil erosion in the Mpanga River area?",
-          "answers": [
-            {
-              "text": "Deforestation",
-              "correct": true
-            },
-            {
-              "text": "Overfishing",
-              "correct": false
-            },
-            {
-              "text": "Increased rainfall",
-              "correct": false
-            },
-            {
-              "text": "Tourism",
-              "correct": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "zone_region": "zone_2",
-      "questions": [
-        {
-          "difficulty": "hard",
-          "question": "Which organization is actively involved in efforts to conserve the Mpanga River?",
-          "answers": [
-            {
-              "text": "Ugandan government and local NGOs",
-              "correct": true
-            },
-            {
-              "text": "World Wildlife Fund (WWF)",
-              "correct": false
-            },
-            {
-              "text": "United Nations",
-              "correct": false
-            },
-            {
-              "text": "Greenpeace",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "hard",
-          "question": "Which activity has led to the reduction of wetlands near the Mpanga River?",
-          "answers": [
-            {
-              "text": "Agricultural expansion, urbanization and inadequate enforcement of environmental laws",
-              "correct": true
-            },
-            {
-              "text": "Tourism and hiking trails",
-              "correct": false
-            },
-            {
-              "text": "Fish farming, mining, and industrial activities",
-              "correct": false
-            },
-            {
-              "text": "Hydropower plants and taro & rice farming",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "What are some of the key activities WEA women leaders engage in to benefit their communities?",
-          "answers": [
-            {
-              "text": "Saving indigenous seeds, protecting land rights, and launching sustainable farms.",
-              "correct": true
-            },
-            {
-              "text": "Building shopping centers and setting up markets.",
-              "correct": false
-            },
-            {
-              "text": "Importing agricultural machinery and recruiting foreign workers.",
-              "correct": false
-            },
-            {
-              "text": "Providing loans to local governments for environmental policies.",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "Which of the following best describes the “ripple effect” created by WEA’s projects?",
-          "answers": [
-            {
-              "text": "WEA leaders replicate their success, creating multiple circles of impact beyond the initial project.",
-              "correct": true
-            },
-            {
-              "text": "WEA leaders are restricted to specific areas and projects.",
-              "correct": false
-            },
-            {
-              "text": "WEA projects conclude after the first phase of training.",
-              "correct": false
-            },
-            {
-              "text": "WEA focuses exclusively on measurable outcomes in short-term studies.",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What is the focus of the Mpanga River cleanup efforts?",
-          "answers": [
-            {
-              "text": "Restore and protect the river and it’s wetlands",
-              "correct": true
-            },
-            {
-              "text": "Eliminate tourism",
-              "correct": false
-            },
-            {
-              "text": "Reduce commercial water extraction",
-              "correct": false
-            },
-            {
-              "text": "Increase fish biodiversity",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What is the primary mission of Women’s Earth Alliance (WEA)?",
-          "answers": [
-            {
-              "text": "To protect the environment, address climate crises, and support a thriving world through women’s leadership.",
-              "correct": true
-            },
-            {
-              "text": "To build wells and provide short-term loans to women in rural communities.",
-              "correct": false
-            },
-            {
-              "text": "To fund environmental projects in urban areas across developed countries.",
-              "correct": false
-            },
-            {
-              "text": "To create economic opportunities through international corporate partnerships.",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "Which sector does WEA primarily focus on in addition to environmental sustainability?",
-          "answers": [
-            {
-              "text": "Women’s empowerment",
-              "correct": true
-            },
-            {
-              "text": "Agriculture",
-              "correct": false
-            },
-            {
-              "text": "Industrial development",
-              "correct": false
-            },
-            {
-              "text": "Technology innovation",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "Why are women specifically at the core of WEA’s mission to address environmental and climate crises?",
-          "answers": [
-            {
-              "text": "Women are most impacted by environmental challenges and are effective at creating long-term, local solutions.",
-              "correct": true
-            },
-            {
-              "text": "Women have access to more government support than men.",
-              "correct": false
-            },
-            {
-              "text": "Women leaders can easily relocate to assist other regions.",
-              "correct": false
-            },
-            {
-              "text": "Women can more effectively build relationships with corporate partners.",
-              "correct": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "zone_region": "zone_3",
-      "questions": [
-        {
-          "difficulty": "hard",
-          "question": "How many countries does WEA work with grassroots women leaders?",
-          "answers": [
-            {
-              "text": "31",
-              "correct": true
-            },
-            {
-              "text": "5",
-              "correct": false
-            },
-            {
-              "text": "12",
-              "correct": false
-            },
-            {
-              "text": "50",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "hard",
-          "question": "How many years has it taken the WEA to catalyze over 52,000 women-led environmental projects?",
-          "answers": [
-            {
-              "text": "18",
-              "correct": true
-            },
-            {
-              "text": "10",
-              "correct": false
-            },
-            {
-              "text": "25",
-              "correct": false
-            },
-            {
-              "text": "5",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "How does WEA measure its impact in communities?",
-          "answers": [
-            {
-              "text": "By the number of women trained, supported, and the broader community impact.",
-              "correct": true
-            },
-            {
-              "text": "By measuring the number of wells built annually.",
-              "correct": false
-            },
-            {
-              "text": "By tracking corporate investments in urban projects.",
-              "correct": false
-            },
-            {
-              "text": "By the number of one-time grants distributed.",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "medium",
-          "question": "What are some of the core benefits that WEA-trained women leaders bring to their communities?",
-          "answers": [
-            {
-              "text": "Economic prosperity, conservation of natural resources, and cultural healing.",
-              "correct": true
-            },
-            {
-              "text": "Access to consumer goods, low-interest loans, and educational grants.",
-              "correct": false
-            },
-            {
-              "text": "Opportunities for global travel, government funding, and political connections.",
-              "correct": false
-            },
-            {
-              "text": "Partnerships with multinational corporations focused on tech.",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "What is a primary approach WEA uses to support women-led environmental projects?",
-          "answers": [
-            {
-              "text": "Training, resources, and partnership development",
-              "correct": true
-            },
-            {
-              "text": "Financial investment in corporations",
-              "correct": false
-            },
-            {
-              "text": "Tourism promotion",
-              "correct": false
-            },
-            {
-              "text": "Legislative lobbying",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "How does WEA contribute to climate action?",
-          "answers": [
-            {
-              "text": "By empowering women-led, grassroots environmental projects",
-              "correct": true
-            },
-            {
-              "text": "By creating wind farms",
-              "correct": false
-            },
-            {
-              "text": "By directly investing in oil-free technologies",
-              "correct": false
-            },
-            {
-              "text": "By lobbying for global warming policies in the UN",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "PLACEHOLDER How many pigs to fly?",
-          "answers": [
-            {
-              "text": "True",
-              "correct": true
-            },
-            {
-              "text": "False",
-              "correct": false
-            },
-            {
-              "text": "Super False",
-              "correct": false
-            },
-            {
-              "text": "Extra Super-Duper False",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "easy",
-          "question": "PLACEHOLDER Sky? What color?",
-          "answers": [
-            {
-              "text": "Depends on the biome!",
-              "correct": true
-            },
-            {
-              "text": "Blue!",
-              "correct": false
-            },
-            {
-              "text": "Green!",
-              "correct": false
-            },
-            {
-              "text": "The sky isn't real!",
-              "correct": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "zone_region": "zone_4",
-      "questions": [
-        {
-          "difficulty": "hard",
-          "question": "WEA supports women leaders from over how many communities globally?",
-          "answers": [
-            {
-              "text": "5,000",
-              "correct": true
-            },
-            {
-              "text": "1,000",
-              "correct": false
-            },
-            {
-              "text": "2,500",
-              "correct": false
-            },
-            {
-              "text": "3,000",
-              "correct": false
-            }
-          ]
-        },
-        {
-          "difficulty": "hard",
-          "question": "How many people have WEA’s projects reached with climate solutions?",
-          "answers": [
-            {
-              "text": "24 million",
-              "correct": true
-            },
-            {
-              "text": "1 million",
-              "correct": false
-            },
-            {
-              "text": "10 million",
-              "correct": false
-            },
-            {
-              "text": "15 million",
-              "correct": false
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "questions_by_zone": {
+    "zone_1": [
+      {
+        "difficulty": "hard",
+        "question": "What type of mining has destabilized the Mpanga River banks?",
+        "answers": [
+          {
+            "text": "Sand, gravel and stones mining",
+            "correct": true
+          },
+          {
+            "text": "Coal mining",
+            "correct": false
+          },
+          {
+            "text": "Oil extraction",
+            "correct": false
+          },
+          {
+            "text": "Gold mining",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "What role do wetlands play in supporting the Mpanga River ecosystem?",
+        "answers": [
+          {
+            "text": "Water purification, flood control, and habitat provision",
+            "correct": true
+          },
+          {
+            "text": "Provide habitats for fish",
+            "correct": false
+          },
+          {
+            "text": "Prevent deforestation and filter pollutants",
+            "correct": false
+          },
+          {
+            "text": "Increase soil erosion",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which industry contributes significantly to water pollution in the Mpanga River?",
+        "answers": [
+          {
+            "text": "Agro-processing",
+            "correct": true
+          },
+          {
+            "text": "Textile industry",
+            "correct": false
+          },
+          {
+            "text": "Tourism industry",
+            "correct": false
+          },
+          {
+            "text": "Technology sector",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Mpanga River supports diverse ecosystems, including wetlands. Which species are commonly found in these wetlands?",
+        "answers": [
+          {
+            "text": "Tropical birds, amphibians, and native fish species",
+            "correct": true
+          },
+          {
+            "text": "Hippopotamus, Nile crocodiles, and African fish eagles",
+            "correct": false
+          },
+          {
+            "text": "African clawless otters, tropical fish, and waterfowl",
+            "correct": false
+          },
+          {
+            "text": "Vervet monkeys, African bush elephants, and antelope",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What effect has urbanization had on the Mpanga River?",
+        "answers": [
+          {
+            "text": "Habitat degradation and pollution increase",
+            "correct": true
+          },
+          {
+            "text": "Decreased biodiversity",
+            "correct": false
+          },
+          {
+            "text": "More awareness for conserving the Mpanga River",
+            "correct": false
+          },
+          {
+            "text": "Restoration of wetlands",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a consequence of deforestation in the Rwenzori Mountains on the Mpanga River?",
+        "answers": [
+          {
+            "text": "Soil erosion and river siltation",
+            "correct": true
+          },
+          {
+            "text": "Decreased fish populations",
+            "correct": false
+          },
+          {
+            "text": "Improved water quality",
+            "correct": false
+          },
+          {
+            "text": "Expansion of wetlands",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which local infrastructure near the Mpanga River has contributed waste to its waters?",
+        "answers": [
+          {
+            "text": "Motor vehicle washing bays",
+            "correct": true
+          },
+          {
+            "text": "Hospitals",
+            "correct": false
+          },
+          {
+            "text": "Shopping malls",
+            "correct": false
+          },
+          {
+            "text": "Schools",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is one of the main causes of soil erosion in the Mpanga River area?",
+        "answers": [
+          {
+            "text": "Deforestation",
+            "correct": true
+          },
+          {
+            "text": "Overfishing",
+            "correct": false
+          },
+          {
+            "text": "Increased rainfall",
+            "correct": false
+          },
+          {
+            "text": "Tourism",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "zone_2": [
+      {
+        "difficulty": "hard",
+        "question": "Which organization is actively involved in efforts to conserve the Mpanga River?",
+        "answers": [
+          {
+            "text": "Ugandan government and local NGOs",
+            "correct": true
+          },
+          {
+            "text": "World Wildlife Fund (WWF)",
+            "correct": false
+          },
+          {
+            "text": "United Nations",
+            "correct": false
+          },
+          {
+            "text": "Greenpeace",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "Which activity has led to the reduction of wetlands near the Mpanga River?",
+        "answers": [
+          {
+            "text": "Agricultural expansion, urbanization and inadequate enforcement of environmental laws",
+            "correct": true
+          },
+          {
+            "text": "Tourism and hiking trails",
+            "correct": false
+          },
+          {
+            "text": "Fish farming, mining, and industrial activities",
+            "correct": false
+          },
+          {
+            "text": "Hydropower plants and taro & rice farming",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "What are some of the key activities WEA women leaders engage in to benefit their communities?",
+        "answers": [
+          {
+            "text": "Saving indigenous seeds, protecting land rights, and launching sustainable farms.",
+            "correct": true
+          },
+          {
+            "text": "Building shopping centers and setting up markets.",
+            "correct": false
+          },
+          {
+            "text": "Importing agricultural machinery and recruiting foreign workers.",
+            "correct": false
+          },
+          {
+            "text": "Providing loans to local governments for environmental policies.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which of the following best describes the “ripple effect” created by WEA’s projects?",
+        "answers": [
+          {
+            "text": "WEA leaders replicate their success, creating multiple circles of impact beyond the initial project.",
+            "correct": true
+          },
+          {
+            "text": "WEA leaders are restricted to specific areas and projects.",
+            "correct": false
+          },
+          {
+            "text": "WEA projects conclude after the first phase of training.",
+            "correct": false
+          },
+          {
+            "text": "WEA focuses exclusively on measurable outcomes in short-term studies.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the focus of the Mpanga River cleanup efforts?",
+        "answers": [
+          {
+            "text": "Restore and protect the river and it’s wetlands",
+            "correct": true
+          },
+          {
+            "text": "Eliminate tourism",
+            "correct": false
+          },
+          {
+            "text": "Reduce commercial water extraction",
+            "correct": false
+          },
+          {
+            "text": "Increase fish biodiversity",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is the primary mission of Women’s Earth Alliance (WEA)?",
+        "answers": [
+          {
+            "text": "To protect the environment, address climate crises, and support a thriving world through women’s leadership.",
+            "correct": true
+          },
+          {
+            "text": "To build wells and provide short-term loans to women in rural communities.",
+            "correct": false
+          },
+          {
+            "text": "To fund environmental projects in urban areas across developed countries.",
+            "correct": false
+          },
+          {
+            "text": "To create economic opportunities through international corporate partnerships.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "Which sector does WEA primarily focus on in addition to environmental sustainability?",
+        "answers": [
+          {
+            "text": "Women’s empowerment",
+            "correct": true
+          },
+          {
+            "text": "Agriculture",
+            "correct": false
+          },
+          {
+            "text": "Industrial development",
+            "correct": false
+          },
+          {
+            "text": "Technology innovation",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "Why are women specifically at the core of WEA’s mission to address environmental and climate crises?",
+        "answers": [
+          {
+            "text": "Women are most impacted by environmental challenges and are effective at creating long-term, local solutions.",
+            "correct": true
+          },
+          {
+            "text": "Women have access to more government support than men.",
+            "correct": false
+          },
+          {
+            "text": "Women leaders can easily relocate to assist other regions.",
+            "correct": false
+          },
+          {
+            "text": "Women can more effectively build relationships with corporate partners.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "zone_3": [
+      {
+        "difficulty": "hard",
+        "question": "How many countries does WEA work with grassroots women leaders?",
+        "answers": [
+          {
+            "text": "31",
+            "correct": true
+          },
+          {
+            "text": "5",
+            "correct": false
+          },
+          {
+            "text": "12",
+            "correct": false
+          },
+          {
+            "text": "50",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "How many years has it taken the WEA to catalyze over 52,000 women-led environmental projects?",
+        "answers": [
+          {
+            "text": "18",
+            "correct": true
+          },
+          {
+            "text": "10",
+            "correct": false
+          },
+          {
+            "text": "25",
+            "correct": false
+          },
+          {
+            "text": "5",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "How does WEA measure its impact in communities?",
+        "answers": [
+          {
+            "text": "By the number of women trained, supported, and the broader community impact.",
+            "correct": true
+          },
+          {
+            "text": "By measuring the number of wells built annually.",
+            "correct": false
+          },
+          {
+            "text": "By tracking corporate investments in urban projects.",
+            "correct": false
+          },
+          {
+            "text": "By the number of one-time grants distributed.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "medium",
+        "question": "What are some of the core benefits that WEA-trained women leaders bring to their communities?",
+        "answers": [
+          {
+            "text": "Economic prosperity, conservation of natural resources, and cultural healing.",
+            "correct": true
+          },
+          {
+            "text": "Access to consumer goods, low-interest loans, and educational grants.",
+            "correct": false
+          },
+          {
+            "text": "Opportunities for global travel, government funding, and political connections.",
+            "correct": false
+          },
+          {
+            "text": "Partnerships with multinational corporations focused on tech.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "What is a primary approach WEA uses to support women-led environmental projects?",
+        "answers": [
+          {
+            "text": "Training, resources, and partnership development",
+            "correct": true
+          },
+          {
+            "text": "Financial investment in corporations",
+            "correct": false
+          },
+          {
+            "text": "Tourism promotion",
+            "correct": false
+          },
+          {
+            "text": "Legislative lobbying",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "How does WEA contribute to climate action?",
+        "answers": [
+          {
+            "text": "By empowering women-led, grassroots environmental projects",
+            "correct": true
+          },
+          {
+            "text": "By creating wind farms",
+            "correct": false
+          },
+          {
+            "text": "By directly investing in oil-free technologies",
+            "correct": false
+          },
+          {
+            "text": "By lobbying for global warming policies in the UN",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "PLACEHOLDER How many pigs to fly?",
+        "answers": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False",
+            "correct": false
+          },
+          {
+            "text": "Super False",
+            "correct": false
+          },
+          {
+            "text": "Extra Super-Duper False",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "easy",
+        "question": "PLACEHOLDER Sky? What color?",
+        "answers": [
+          {
+            "text": "Depends on the biome!",
+            "correct": true
+          },
+          {
+            "text": "Blue!",
+            "correct": false
+          },
+          {
+            "text": "Green!",
+            "correct": false
+          },
+          {
+            "text": "The sky isn't real!",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "zone_4": [
+      {
+        "difficulty": "hard",
+        "question": "WEA supports women leaders from over how many communities globally?",
+        "answers": [
+          {
+            "text": "5,000",
+            "correct": true
+          },
+          {
+            "text": "1,000",
+            "correct": false
+          },
+          {
+            "text": "2,500",
+            "correct": false
+          },
+          {
+            "text": "3,000",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "How many people have WEA’s projects reached with climate solutions?",
+        "answers": [
+          {
+            "text": "24 million",
+            "correct": true
+          },
+          {
+            "text": "1 million",
+            "correct": false
+          },
+          {
+            "text": "10 million",
+            "correct": false
+          },
+          {
+            "text": "15 million",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
 }

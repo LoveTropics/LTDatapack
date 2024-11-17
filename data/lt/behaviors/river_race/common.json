@@ -144,92 +144,78 @@
     "colliders": ["red_river_3", "blue_river_3"]
   },
   {
+    "type": "ltminigames:river_race/zones",
+    "forward_direction": "east",
+    "zones": {
+      "zone_1": {
+        "region": "zone_1",
+        "display_name": "East Africa",
+        "color": "red"
+      },
+      "zone_2": {
+        "region": "zone_2",
+        "display_name": "India",
+        "color": "yellow"
+      },
+      "zone_3": {
+        "region": "zone_3",
+        "display_name": "Niger Delta",
+        "color": "green"
+      },
+      "zone_4": {
+        "region": "zone_4",
+        "display_name": "Mexico",
+        "color": "blue"
+      }
+    }
+  },
+  {
     "type": "ltminigames:river_race_collectables",
-    "collectables": [
-      {
-        "zone": "zone_1",
-        "zone_display_name": "East Africa",
+    "item_patch": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        "{\"text\":\"Collectable\",\"color\":\"gray\"}",
+        "{\"text\":\" \"}",
+        "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantments": {
+        "vanishing_curse": 1
+      },
+      "minecraft:fire_resistant": {},
+      "ltextras:undroppable": {}
+    },
+    "collectables_by_zone": {
+      "zone_1": {
         "item": {
-          "id": "minecraft:red_wool",
-          "components": {
-            "minecraft:item_name": "{\"text\":\"Collectable - East Africa\",\"color\":\"red\"}",
-            "minecraft:enchantment_glint_override": true,
-            "minecraft:lore": [
-              "{\"text\":\"Collectable\",\"color\":\"gray\"}",
-              "{\"text\":\" \"}",
-              "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
-            ],
-            "minecraft:max_stack_size": 1,
-            "minecraft:enchantments": {
-              "vanishing_curse": 1
-            },
-            "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {},
-            "ltextras:undroppable": {}
-          }
+          "id": "minecraft:red_wool"
         },
-        "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
+        "monument_slot_region": ["collectable_red_zone_1", "collectable_blue_zone_1"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_2"
         }
       },
-      {
-        "zone": "zone_2",
-        "zone_display_name": "India",
+      "zone_2": {
         "item": {
-          "id": "minecraft:yellow_wool",
-          "components": {
-            "minecraft:item_name": "{\"text\":\"Collectable - India\",\"color\":\"yellow\"}",
-            "minecraft:enchantment_glint_override": true,
-            "minecraft:lore": [
-              "{\"text\":\"Collectable\",\"color\":\"gray\"}",
-              "{\"text\":\" \"}",
-              "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
-            ],
-            "minecraft:max_stack_size": 1,
-            "minecraft:enchantments": {
-              "vanishing_curse": 1
-            },
-            "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {},
-            "ltextras:undroppable": {}
-          }
+          "id": "minecraft:yellow_wool"
         },
-        "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
+        "monument_slot_region": ["collectable_red_zone_2", "collectable_blue_zone_2"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_3"
         }
       },
-      {
-        "zone": "zone_3",
-        "zone_display_name": "Niger Delta",
+      "zone_3": {
         "item": {
-          "id": "minecraft:green_wool",
-          "components": {
-            "minecraft:item_name": "{\"text\":\"Collectable - Niger Delta\",\"color\":\"green\"}",
-            "minecraft:enchantment_glint_override": true,
-            "minecraft:lore": [
-              "{\"text\":\"Collectable\",\"color\":\"gray\"}",
-              "{\"text\":\" \"}",
-              "{\"text\":\"Place into the monument at the end of the map.\",\"color\":\"white\",\"italic\":false}"
-            ],
-            "minecraft:max_stack_size": 1,
-            "minecraft:enchantments": {
-              "vanishing_curse": 1
-            },
-            "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {},
-            "ltextras:undroppable": {}
-          }
+          "id": "minecraft:green_wool"
         },
-        "monument_slot_region": ["collectable_red_zone_3","collectable_blue_zone_3"],
+        "monument_slot_region": ["collectable_red_zone_3", "collectable_blue_zone_3"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_4"
         }
       }
-    ]
+    }
   }
 ]
