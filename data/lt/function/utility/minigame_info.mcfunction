@@ -1,0 +1,1 @@
+$summon minecraft:text_display ~ ~ ~ {billboard:"fixed",template:["<color:#FFD700><lang lt.minigame.$(game)>","<color:red>❤","<lang lt.info_center.minigame.$(game)>"],transformation:{scale:0.7f}}
