@@ -164,11 +164,11 @@
               "vanishing_curse": 1
             },
             "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {}
+            "minecraft:fire_resistant": {},
+            "ltextras:undroppable": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_1","collectable_blue_zone_1"],
-        "victory_points": 1,
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_2"
@@ -192,11 +192,11 @@
               "vanishing_curse": 1
             },
             "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {}
+            "minecraft:fire_resistant": {},
+            "ltextras:undroppable": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_2","collectable_blue_zone_2"],
-        "victory_points": 1,
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_3"
@@ -220,11 +220,11 @@
               "vanishing_curse": 1
             },
             "ltminigames:river_race_collectable_marker": {},
-            "minecraft:fire_resistant": {}
+            "minecraft:fire_resistant": {},
+            "ltextras:undroppable": {}
           }
         },
         "monument_slot_region": ["collectable_red_zone_3","collectable_blue_zone_3"],
-        "victory_points": 1,
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
           "unlock_channel": "unlock_zone_4"
