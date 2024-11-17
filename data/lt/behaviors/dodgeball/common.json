@@ -18,7 +18,8 @@
 			"color": "gray"
 		},
 		"drop_inventory": false,
-		"respawn_action": "lt:dodgeball/respawn"
+		"respawn_action": "lt:dodgeball/respawn",
+		"clear_kill_tracker": true
 	},
 	{
 		"type": "ltminigames:place_by_statistic",
