@@ -35,6 +35,10 @@
           "type": "ltminigames:unlock_zone",
           "zone": "$zone"
         },
+        {
+          "type": "ltminigames:remove_colliders",
+          "regions": "$colliders"
+        },
         "lt:river_race/start_microgames"
       ]
     }
