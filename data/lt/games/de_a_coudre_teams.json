@@ -30,7 +30,10 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    "ltminigames:teams",
+    {
+      "type": "ltminigames:teams",
+      "player_collision": false
+    },
     "lt:de_a_coudre/common"
   ]
 }
