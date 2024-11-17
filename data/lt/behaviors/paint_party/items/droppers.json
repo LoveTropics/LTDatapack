@@ -1,0 +1,40 @@
+[
+	{
+		"type": "ltminigames:item_dropper",
+		"loot": [
+			{
+				"id": "minecraft:enchanted_golden_apple",
+				"components": {
+					"custom_data": {
+						"power_up": "speed"
+					},
+					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
+				}
+			}
+		],
+		"region": "buff_spawn",
+		"announcement": {
+			"type": "ltminigames:apply_to_player",
+			"target": "all",
+			"actions": {
+				"type": "ltminigames:send_message",
+				"message": {
+					"translate": "ltminigames.minigame.qottott.spawn.power_up",
+					"color": "aqua"
+				}
+			}
+		},
+		"interval_ticks": {
+			"type": "minecraft:uniform",
+			"min_inclusive": 300,
+			"max_inclusive": 600
+		},
+		"beacon": true,
+		"sound": {
+			"sound": "block.beacon.activate",
+			"source": "block",
+			"volume": 2.0,
+			"pitch": 2.0
+		}
+	}
+]

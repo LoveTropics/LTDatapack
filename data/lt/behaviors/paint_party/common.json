@@ -59,7 +59,8 @@
     "respawn_as": "spectator",
     "drop_inventory": true
   },
-  "lt:pillars_of_wealth/end",
+  "lt:paint_party/end",
+  "lt:paint_party/items",
   {
     "type": "lt:fixed_rewards",
     "coins": 5

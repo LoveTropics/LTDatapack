@@ -1,0 +1,39 @@
+{
+	"type": "ltminigames:item_picked_up",
+	"item": {
+		"items": ["minecraft:enchanted_golden_apple"],
+		"predicates": {
+			"minecraft:custom_data": "$item_tag"
+		}
+	},
+	"action": [
+		{
+			"type": "ltminigames:play_sound",
+			"sound": "block.respawn_anchor.charge",
+			"source": "player",
+			"pitch": 1.2
+		},
+		{
+			"type": "ltminigames:spawn_particles_around_player",
+			"particles": [{ "type": "wax_on" }],
+			"repeats": 25,
+			"position": [0.0, 0.9, 0.0],
+			"offset": [1.0, 1.0, 1.0],
+			"speed": 0.15
+		},
+		{
+			"type": "ltminigames:show_title",
+			"title": {
+				"translate": "ltminigames.minigame.qottott.power_up.title",
+				"color": "gold"
+			},
+			"subtitle": {
+				"translate": "ltminigames.minigame.qottott.power_up.subtitle",
+				"color": "gold",
+				"with": ["$subtitle"]
+			}
+		},
+		"$apply"
+	],
+	"consume": true
+}
