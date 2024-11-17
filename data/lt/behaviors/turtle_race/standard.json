@@ -27,7 +27,8 @@
             "id": "minecraft:generic.movement_speed"
           }
         ],
-        "NoBrakesOnThisTrain": true
+        "NoBrakesOnThisTrain": true,
+        "DeathLootTable": "minecraft:empty"
       }
     }
   },
