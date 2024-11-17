@@ -1,0 +1,18 @@
+{
+	"description": { 
+        "translate": "lt.poi.milestone_area",
+        "with": [
+            { 
+                "text": "4" 
+            }
+        ]
+    },
+	"icon": {
+		"item": {
+			"id": "ltextras:papyrus_umbel"
+		}
+	},
+	"pos": [-390.0, 131, 211.0],
+	"angle": 90,
+	"map": "lt:tropics"
+}
