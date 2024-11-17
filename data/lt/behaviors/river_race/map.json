@@ -19,6 +19,40 @@
     "forward_direction": "east"
   },
   {
+    "type": "ltminigames:river_race/spawns",
+    "zone_spawns": {
+      "zone_1": {
+        "unlock_on_start": true,
+        "region_by_team": {
+          "red": "red_spawn",
+          "blue": "blue_spawn"
+        },
+        "angle": -90.0
+      },
+      "zone_2": {
+        "region_by_team": {
+          "red": "red_spawn_2",
+          "blue": "blue_spawn_2"
+        },
+        "angle": -90.0
+      },
+      "zone_3": {
+        "region_by_team": {
+          "red": "red_spawn_3",
+          "blue": "blue_spawn_3"
+        },
+        "angle": -90.0
+      },
+      "zone_4": {
+        "region_by_team": {
+          "red": "red_spawn_4",
+          "blue": "blue_spawn_4"
+        },
+        "angle": -90.0
+      }
+    }
+  },
+  {
     "type": "lt:river_race/map/zone",
     "id": "zone_1",
     "region": "zone_1",

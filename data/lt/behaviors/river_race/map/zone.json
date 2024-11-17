@@ -18,7 +18,6 @@
     "channel": {
       "$": {"prefix": "unlock_", "path": "$id"}
     },
-    "zone": "$id",
-    "colliders": "$colliders"
+    "zone": "$id"
   }
 ]

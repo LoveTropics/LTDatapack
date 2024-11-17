@@ -25,12 +25,7 @@
   },
   {
     "type": "ltminigames:position_players",
-    "teams": {
-      "blue": ["blue_spawn"],
-      "red": ["red_spawn"]
-    },
-    "split_by_team": true,
-    "spectators": ["center"]
+    "all": ["center"]
   },
   "ltminigames:teams",
   {
