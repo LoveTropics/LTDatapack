@@ -15,6 +15,19 @@
     "respawn_as": "spectator",
     "drop_inventory": true
   },
+  "ltminigames:kills_tracker",
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "kills",
+    "order": "max",
+    "count": 2,
+    "title": {
+      "translate": "ltminigames.minigame.pillars_of_wealth",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  },
   {
     "type": "ltminigames:last_remaining_win_trigger",
     "last_team": true
