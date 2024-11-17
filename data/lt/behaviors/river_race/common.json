@@ -35,6 +35,7 @@
     "type": "ltminigames:victory_points",
     "points_per_game_won": 1
   },
+  "lt:river_race/death",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",

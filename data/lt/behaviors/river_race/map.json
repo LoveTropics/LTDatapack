@@ -22,7 +22,6 @@
     "type": "ltminigames:river_race/spawns",
     "zone_spawns": {
       "zone_1": {
-        "unlock_on_start": true,
         "region_by_team": {
           "red": "red_spawn",
           "blue": "blue_spawn"
@@ -56,6 +55,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_1",
     "region": "zone_1",
+    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.1"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red"},
     "color": "red",
     "colliders": []
@@ -64,6 +64,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_2",
     "region": "zone_2",
+    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.2"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow"},
     "color": "yellow",
     "colliders": [
@@ -75,6 +76,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_3",
     "region": "zone_3",
+    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.3"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.niger_delta", "color": "green"},
     "color": "green",
     "colliders": [
@@ -86,6 +88,7 @@
     "type": "lt:river_race/map/zone",
     "id": "zone_4",
     "region": "zone_4",
+    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.4"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.mexico", "color": "blue"},
     "color": "blue",
     "colliders": [
