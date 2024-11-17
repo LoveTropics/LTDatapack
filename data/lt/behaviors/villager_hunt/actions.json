@@ -12,6 +12,12 @@
     "drop_inventory": false
   },
   {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:hide_name_tags"
+    }
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
