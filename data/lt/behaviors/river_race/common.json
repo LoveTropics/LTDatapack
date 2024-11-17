@@ -49,5 +49,6 @@
       "ltminigames:reset_hunger"
     ]
   },
-  "lt:river_race/collectables"
+  "lt:river_race/collectables",
+  "ltminigames:rewards_from_microgame"
 ]
