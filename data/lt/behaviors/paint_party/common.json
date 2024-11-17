@@ -13,6 +13,24 @@
     "spectators": ["spectator_spawn"]
   },
   {
+    "type": "ltminigames:kill_above_void",
+    "ticks": 10
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    },
+    "drop_inventory": false,
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player",
+      "ltminigames:reset_hunger"
+    ]
+  },
+  {
     "type": "ltminigames:paint_party",
     "teams": {
       "blue": {

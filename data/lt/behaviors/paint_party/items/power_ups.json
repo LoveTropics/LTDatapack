@@ -4,22 +4,18 @@
 		"item_tag": "{power_up: \"speed\"}",
 		"effect": "ltminigames:speed_power_up",
 		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.speed_power_up.subtitle",
+			"translate": "ltminigames.minigame.paint_party.speed_power_up.subtitle",
 			"color": "aqua"
 		},
 		"seconds": 20
 	},
 	{
-		"type": "ltminigames:power_up_indicator",
-		"effect": "ltminigames:coin_multiplier_power_up",
-		"text": {
-			"translate": "ltminigames.minigame.dodgeball.power_up.generic",
-			"color": "gold"
+		"type": "lt:paint_party/items/exploding_coconuts",
+		"item_tag": "{power_up: \"coconut_powerup\"}",
+		"subtitle": {
+			"translate": "ltminigames.minigame.paint_party.coconut_power_up.subtitle",
+			"color": "aqua"
 		},
-		"sound": {
-			"sound": "minecraft:block.respawn_anchor.deplete",
-			"volume": 0.2,
-			"pitch": 2.0
-		}
+		"seconds": 20
 	}
 ]
