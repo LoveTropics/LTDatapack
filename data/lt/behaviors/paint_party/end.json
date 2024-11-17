@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:place_by_statistic",
-    "statistic": "kills",
+    "statistic": "points",
     "order": "max"
   },
   {
