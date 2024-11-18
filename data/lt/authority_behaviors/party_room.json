@@ -4,7 +4,7 @@
     ],
     "exit_commands": [
         "execute store result score @s party_room.items run clear @s #lt:party_room[minecraft:custom_data={PartyRoomOnly:1b}]",
-        "execute store result gamedata lt:party_room/item_counts @s[type=player] items_count int 1 run scoreboard players get @s party_room.items",
+        "execute store result gamedata lt:party_room/item_counts @s[type=player] count int 1 run scoreboard players get @s party_room.items",
         "function lt:utility/give_tropcoins with gamedata lt:party_room/item_counts @s[type=minecraft:player]",
         "execute if score @s party_room.items matches 1.. run tellraw @s {\"translate\":\"lt.party_room.exit.illegal_items\",\"color\":\"red\"}"]
   }
