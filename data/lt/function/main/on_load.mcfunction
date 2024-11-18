@@ -90,6 +90,13 @@ scoreboard objectives add collectible.rocket_boots.time dummy
 
 # Crab Golf
 function lt:world_games/minigolf/core/on_second
+team add anticrabcollision
+team modify anticrabcollision collisionRule never
+scoreboard objective add golf.data
+scoreboard objective add golf.events
+scoreboard objective add golf.global
+scoreboard objective add golf.hits
+scoreboard objective add golf.timer
 
 # Elevator
 scoreboard objectives add system.elevator dummy
