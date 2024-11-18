@@ -66,6 +66,7 @@
 	"lt.info.money_team_explanation.3": "Both teams come with unique cosmetics.",
 	"lt.info.money_team_explanation.4": "Which side are you on?",
 	"lt.info.team_selection": "⏷ Team Selection Teleporter ⏷",
+	
 
 	"lt.info.edu_teleport": "⏷ EDU Area Teleporter ⏷",
 
@@ -338,6 +339,7 @@
 	"lt.info_center.minigame.turtle_race": "Competitive racing game while riding on the back of a sea turtle",
 	"lt.info_center.minigame.survive_the_tide": "A Battle Royale set in a dystopian future ravaged by the effects of climate change. Avoid the rising tide, endure the extreme weather, and defeat the other players to survive.",
 	"lt.info_center.minigame.elytra": "Test your flying skills with our challenging elytra course! The entrance is in the tall tower right above spawn",
+	"lt.info_center.minigame.villager_hunt": "Everyone is a villager, hunt and trackdown the other players. Before they find you",
 	"lt.minigame.survive_the_tide": "Survive the Tide",
 	"lt.info.click_more_info": "Right Click Signs\n for More Info",
 
@@ -384,7 +386,7 @@
 	"lt.loot_table.teeter_yeeter_boogaloo": "The Teeter Yeeter 2 Electric Boogaloo",
 	"lt.loot_table.teeter_yeeter_boogaloo.lore": "You may yeet a teeter with this teeter yeeter but that begs the question how much yeet could a teeter yeeter yeet if a teeter yeeter was a wooden hoe with one durability. The answer is that a teeter yeeter could yeet a single teeter.",
 
-	"lt.hockey.jump_floor.title": "Jump Floor Actvated!",
+	"lt.hockey.jump_floor.title": "Jump Floor Activated!",
 	"lt.hockey.jump_floor.subtitle": "A Donation has effected the floor!",
 	"lt.hockey.score.subtitle_blue": "Blue Team Scored!",
 	"lt.hockey.score.subtitle_red": "Red Team Scored!",
