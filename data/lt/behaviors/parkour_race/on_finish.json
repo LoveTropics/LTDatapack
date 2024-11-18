@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ltminigames:set_player_role",
+    "role": "spectator"
+  },
+  {
+    "type": "ltminigames:apply_to_player",
+    "target": "all",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:entity.arrow.hit_player"
+      },
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.player_completed_course",
+          "color": "gold"
+        }
+      },
+      "ltminigames:set_total_time"
+    ]
+  }
+]

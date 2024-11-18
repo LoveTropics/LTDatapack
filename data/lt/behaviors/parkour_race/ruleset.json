@@ -1,0 +1,15 @@
+[
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items"
+]

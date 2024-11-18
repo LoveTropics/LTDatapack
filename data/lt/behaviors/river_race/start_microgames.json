@@ -10,7 +10,8 @@
     "lt:treasure_dig_teams",
     "lt:villager_hunt",
     "lt:eruptive_spleef_teams",
-    "lt:paint_party"
+    "lt:paint_party",
+    "lt:parkour_race_teams"
   ],
   "games_per_round": 4
 }

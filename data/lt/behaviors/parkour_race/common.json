@@ -1,0 +1,49 @@
+[
+  "ltminigames:spectator_chase",
+  "lt:parkour_race/ruleset",
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "red": ["red_spawn"],
+      "blue": ["blue_spawn"]
+    },
+    "spectators": ["spectators"],
+    "angle": -180.0
+  },
+  "lt:parkour_race/equipment",
+  {
+    "type": "ltminigames:checkpoints",
+    "region": "checkpoint",
+    "angle": -180.0
+  },
+  {
+    "type": "ltminigames:kill_in_void",
+    "void_below_region": "void"
+  },
+  "ltminigames:immediate_respawn",
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "finish": "lt:parkour_race/on_finish"
+    },
+    "interval": 2
+  },
+  "ltminigames:first_empty_team_win_trigger",
+  "lt:common/announce_game_over",
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 100
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "total_time",
+    "order": "min",
+    "count": 10,
+    "title": {"translate": "ltminigames.minigame.parkour_race_teams", "color": "yellow", "bold": true},
+    "header": [
+      {"translate": "ltminigames.minigame.sidebar.race_course", "color": "gray"},
+      ""
+    ],
+    "statistic_holder": "player"
+  }
+]
