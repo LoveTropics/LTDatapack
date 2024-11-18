@@ -4,176 +4,256 @@
     "zone_1": [
       {
         "difficulty": "hard",
-        "question": "What type of mining has destabilized the Mpanga River banks?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_1"
+        },
         "answers": [
           {
-            "text": "Sand, gravel and stones mining",
+            "text": {
+              "translate": "lt.river_race.trivia.question_1.a"
+            },
             "correct": true
           },
           {
-            "text": "Coal mining",
+            "text": {
+              "translate": "lt.river_race.trivia.question_1.b"
+            },
             "correct": false
           },
           {
-            "text": "Oil extraction",
+            "text": {
+              "translate": "lt.river_race.trivia.question_1.c"
+            },
             "correct": false
           },
           {
-            "text": "Gold mining",
+            "text": {
+              "translate": "lt.river_race.trivia.question_1.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "hard",
-        "question": "What role do wetlands play in supporting the Mpanga River ecosystem?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_2"
+        },
         "answers": [
           {
-            "text": "Water purification, flood control, and habitat provision",
+            "text": {
+              "translate": "lt.river_race.trivia.question_2.a"
+            },
             "correct": true
           },
           {
-            "text": "Provide habitats for fish",
+            "text": {
+              "translate": "lt.river_race.trivia.question_2.b"
+            },
             "correct": false
           },
           {
-            "text": "Prevent deforestation and filter pollutants",
+            "text": {
+              "translate": "lt.river_race.trivia.question_2.c"
+            },
             "correct": false
           },
           {
-            "text": "Increase soil erosion",
+            "text": {
+              "translate": "lt.river_race.trivia.question_2.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "Which industry contributes significantly to water pollution in the Mpanga River?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_3"
+        },
         "answers": [
           {
-            "text": "Agro-processing",
+            "text": {
+              "translate": "lt.river_race.trivia.question_3.a"
+            },
             "correct": true
           },
           {
-            "text": "Textile industry",
+            "text": {
+              "translate": "lt.river_race.trivia.question_3.b"
+            },
             "correct": false
           },
           {
-            "text": "Tourism industry",
+            "text": {
+              "translate": "lt.river_race.trivia.question_3.c"
+            },
             "correct": false
           },
           {
-            "text": "Technology sector",
+            "text": {
+              "translate": "lt.river_race.trivia.question_3.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "The Mpanga River supports diverse ecosystems, including wetlands. Which species are commonly found in these wetlands?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_4"
+        },
         "answers": [
           {
-            "text": "Tropical birds, amphibians, and native fish species",
+            "text": {
+              "translate": "lt.river_race.trivia.question_4.a"
+            },
             "correct": true
           },
           {
-            "text": "Hippopotamus, Nile crocodiles, and African fish eagles",
+            "text": {
+              "translate": "lt.river_race.trivia.question_4.b"
+            },
             "correct": false
           },
           {
-            "text": "African clawless otters, tropical fish, and waterfowl",
+            "text": {
+              "translate": "lt.river_race.trivia.question_4.c"
+            },
             "correct": false
           },
           {
-            "text": "Vervet monkeys, African bush elephants, and antelope",
+            "text": {
+              "translate": "lt.river_race.trivia.question_4.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What effect has urbanization had on the Mpanga River?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_5"
+        },
         "answers": [
           {
-            "text": "Habitat degradation and pollution increase",
+            "text": {
+              "translate": "lt.river_race.trivia.question_5.a"
+            },
             "correct": true
           },
           {
-            "text": "Decreased biodiversity",
+            "text": {
+              "translate": "lt.river_race.trivia.question_5.b"
+            },
             "correct": false
           },
           {
-            "text": "More awareness for conserving the Mpanga River",
+            "text": {
+              "translate": "lt.river_race.trivia.question_5.c"
+            },
             "correct": false
           },
           {
-            "text": "Restoration of wetlands",
+            "text": {
+              "translate": "lt.river_race.trivia.question_5.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What is a consequence of deforestation in the Rwenzori Mountains on the Mpanga River?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_6"
+        },
         "answers": [
           {
-            "text": "Soil erosion and river siltation",
+            "text": {
+              "translate": "lt.river_race.trivia.question_6.a"
+            },
             "correct": true
           },
           {
-            "text": "Decreased fish populations",
+            "text": {
+              "translate": "lt.river_race.trivia.question_6.b"
+            },
             "correct": false
           },
           {
-            "text": "Improved water quality",
+            "text": {
+              "translate": "lt.river_race.trivia.question_6.c"
+            },
             "correct": false
           },
           {
-            "text": "Expansion of wetlands",
+            "text": {
+              "translate": "lt.river_race.trivia.question_6.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "Which local infrastructure near the Mpanga River has contributed waste to its waters?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_7"
+        },
         "answers": [
           {
-            "text": "Motor vehicle washing bays",
+            "text": {
+              "translate": "lt.river_race.trivia.question_7.a"
+            },
             "correct": true
           },
           {
-            "text": "Hospitals",
+            "text": {
+              "translate": "lt.river_race.trivia.question_7.b"
+            },
             "correct": false
           },
           {
-            "text": "Shopping malls",
+            "text": {
+              "translate": "lt.river_race.trivia.question_7.c"
+            },
             "correct": false
           },
           {
-            "text": "Schools",
+            "text": {
+              "translate": "lt.river_race.trivia.question_7.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What is one of the main causes of soil erosion in the Mpanga River area?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_8"
+        },
         "answers": [
           {
-            "text": "Deforestation",
+            "text": {
+              "translate": "lt.river_race.trivia.question_8.a"
+            },
             "correct": true
           },
           {
-            "text": "Overfishing",
+            "text": {
+              "translate": "lt.river_race.trivia.question_8.b"
+            },
             "correct": false
           },
           {
-            "text": "Increased rainfall",
+            "text": {
+              "translate": "lt.river_race.trivia.question_8.c"
+            },
             "correct": false
           },
           {
-            "text": "Tourism",
+            "text": {
+              "translate": "lt.river_race.trivia.question_8.d"
+            },
             "correct": false
           }
         ]
@@ -182,176 +262,256 @@
     "zone_2": [
       {
         "difficulty": "hard",
-        "question": "Which organization is actively involved in efforts to conserve the Mpanga River?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_9"
+        },
         "answers": [
           {
-            "text": "Ugandan government and local NGOs",
+            "text": {
+              "translate": "lt.river_race.trivia.question_9.a"
+            },
             "correct": true
           },
           {
-            "text": "World Wildlife Fund (WWF)",
+            "text": {
+              "translate": "lt.river_race.trivia.question_9.b"
+            },
             "correct": false
           },
           {
-            "text": "United Nations",
+            "text": {
+              "translate": "lt.river_race.trivia.question_9.c"
+            },
             "correct": false
           },
           {
-            "text": "Greenpeace",
+            "text": {
+              "translate": "lt.river_race.trivia.question_9.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "hard",
-        "question": "Which activity has led to the reduction of wetlands near the Mpanga River?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_10"
+        },
         "answers": [
           {
-            "text": "Agricultural expansion, urbanization and inadequate enforcement of environmental laws",
+            "text": {
+              "translate": "lt.river_race.trivia.question_10.a"
+            },
             "correct": true
           },
           {
-            "text": "Tourism and hiking trails",
+            "text": {
+              "translate": "lt.river_race.trivia.question_10.b"
+            },
             "correct": false
           },
           {
-            "text": "Fish farming, mining, and industrial activities",
+            "text": {
+              "translate": "lt.river_race.trivia.question_10.c"
+            },
             "correct": false
           },
           {
-            "text": "Hydropower plants and taro & rice farming",
+            "text": {
+              "translate": "lt.river_race.trivia.question_10.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "What are some of the key activities WEA women leaders engage in to benefit their communities?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_11"
+        },
         "answers": [
           {
-            "text": "Saving indigenous seeds, protecting land rights, and launching sustainable farms.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_11.a"
+            },
             "correct": true
           },
           {
-            "text": "Building shopping centers and setting up markets.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_11.b"
+            },
             "correct": false
           },
           {
-            "text": "Importing agricultural machinery and recruiting foreign workers.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_11.c"
+            },
             "correct": false
           },
           {
-            "text": "Providing loans to local governments for environmental policies.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_11.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "Which of the following best describes the “ripple effect” created by WEA’s projects?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_12"
+        },
         "answers": [
           {
-            "text": "WEA leaders replicate their success, creating multiple circles of impact beyond the initial project.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_12.a"
+            },
             "correct": true
           },
           {
-            "text": "WEA leaders are restricted to specific areas and projects.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_12.b"
+            },
             "correct": false
           },
           {
-            "text": "WEA projects conclude after the first phase of training.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_12.c"
+            },
             "correct": false
           },
           {
-            "text": "WEA focuses exclusively on measurable outcomes in short-term studies.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_12.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What is the focus of the Mpanga River cleanup efforts?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_13"
+        },
         "answers": [
           {
-            "text": "Restore and protect the river and it’s wetlands",
+            "text": {
+              "translate": "lt.river_race.trivia.question_13.a"
+            },
             "correct": true
           },
           {
-            "text": "Eliminate tourism",
+            "text": {
+              "translate": "lt.river_race.trivia.question_13.b"
+            },
             "correct": false
           },
           {
-            "text": "Reduce commercial water extraction",
+            "text": {
+              "translate": "lt.river_race.trivia.question_13.c"
+            },
             "correct": false
           },
           {
-            "text": "Increase fish biodiversity",
+            "text": {
+              "translate": "lt.river_race.trivia.question_13.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What is the primary mission of Women’s Earth Alliance (WEA)?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_14"
+        },
         "answers": [
           {
-            "text": "To protect the environment, address climate crises, and support a thriving world through women’s leadership.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_14.a"
+            },
             "correct": true
           },
           {
-            "text": "To build wells and provide short-term loans to women in rural communities.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_14.b"
+            },
             "correct": false
           },
           {
-            "text": "To fund environmental projects in urban areas across developed countries.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_14.c"
+            },
             "correct": false
           },
           {
-            "text": "To create economic opportunities through international corporate partnerships.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_14.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "Which sector does WEA primarily focus on in addition to environmental sustainability?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_15"
+        },
         "answers": [
           {
-            "text": "Women’s empowerment",
+            "text": {
+              "translate": "lt.river_race.trivia.question_15.a"
+            },
             "correct": true
           },
           {
-            "text": "Agriculture",
+            "text": {
+              "translate": "lt.river_race.trivia.question_15.b"
+            },
             "correct": false
           },
           {
-            "text": "Industrial development",
+            "text": {
+              "translate": "lt.river_race.trivia.question_15.c"
+            },
             "correct": false
           },
           {
-            "text": "Technology innovation",
+            "text": {
+              "translate": "lt.river_race.trivia.question_15.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "Why are women specifically at the core of WEA’s mission to address environmental and climate crises?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_16"
+        },
         "answers": [
           {
-            "text": "Women are most impacted by environmental challenges and are effective at creating long-term, local solutions.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_16.a"
+            },
             "correct": true
           },
           {
-            "text": "Women have access to more government support than men.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_16.b"
+            },
             "correct": false
           },
           {
-            "text": "Women leaders can easily relocate to assist other regions.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_16.c"
+            },
             "correct": false
           },
           {
-            "text": "Women can more effectively build relationships with corporate partners.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_16.d"
+            },
             "correct": false
           }
         ]
@@ -360,176 +520,256 @@
     "zone_3": [
       {
         "difficulty": "hard",
-        "question": "How many countries does WEA work with grassroots women leaders?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_17"
+        },
         "answers": [
           {
-            "text": "31",
+            "text": {
+              "translate": "lt.river_race.trivia.question_17.a"
+            },
             "correct": true
           },
           {
-            "text": "5",
+            "text": {
+              "translate": "lt.river_race.trivia.question_17.b"
+            },
             "correct": false
           },
           {
-            "text": "12",
+            "text": {
+              "translate": "lt.river_race.trivia.question_17.c"
+            },
             "correct": false
           },
           {
-            "text": "50",
+            "text": {
+              "translate": "lt.river_race.trivia.question_17.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "hard",
-        "question": "How many years has it taken the WEA to catalyze over 52,000 women-led environmental projects?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_18"
+        },
         "answers": [
           {
-            "text": "18",
+            "text": {
+              "translate": "lt.river_race.trivia.question_18.a"
+            },
             "correct": true
           },
           {
-            "text": "10",
+            "text": {
+              "translate": "lt.river_race.trivia.question_18.b"
+            },
             "correct": false
           },
           {
-            "text": "25",
+            "text": {
+              "translate": "lt.river_race.trivia.question_18.c"
+            },
             "correct": false
           },
           {
-            "text": "5",
+            "text": {
+              "translate": "lt.river_race.trivia.question_18.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "How does WEA measure its impact in communities?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_19"
+        },
         "answers": [
           {
-            "text": "By the number of women trained, supported, and the broader community impact.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_19.a"
+            },
             "correct": true
           },
           {
-            "text": "By measuring the number of wells built annually.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_19.b"
+            },
             "correct": false
           },
           {
-            "text": "By tracking corporate investments in urban projects.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_19.c"
+            },
             "correct": false
           },
           {
-            "text": "By the number of one-time grants distributed.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_19.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "medium",
-        "question": "What are some of the core benefits that WEA-trained women leaders bring to their communities?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_20"
+        },
         "answers": [
           {
-            "text": "Economic prosperity, conservation of natural resources, and cultural healing.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_20.a"
+            },
             "correct": true
           },
           {
-            "text": "Access to consumer goods, low-interest loans, and educational grants.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_20.b"
+            },
             "correct": false
           },
           {
-            "text": "Opportunities for global travel, government funding, and political connections.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_20.c"
+            },
             "correct": false
           },
           {
-            "text": "Partnerships with multinational corporations focused on tech.",
+            "text": {
+              "translate": "lt.river_race.trivia.question_20.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "What is a primary approach WEA uses to support women-led environmental projects?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_21"
+        },
         "answers": [
           {
-            "text": "Training, resources, and partnership development",
+            "text": {
+              "translate": "lt.river_race.trivia.question_21.a"
+            },
             "correct": true
           },
           {
-            "text": "Financial investment in corporations",
+            "text": {
+              "translate": "lt.river_race.trivia.question_21.b"
+            },
             "correct": false
           },
           {
-            "text": "Tourism promotion",
+            "text": {
+              "translate": "lt.river_race.trivia.question_21.c"
+            },
             "correct": false
           },
           {
-            "text": "Legislative lobbying",
+            "text": {
+              "translate": "lt.river_race.trivia.question_21.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "How does WEA contribute to climate action?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_22"
+        },
         "answers": [
           {
-            "text": "By empowering women-led, grassroots environmental projects",
+            "text": {
+              "translate": "lt.river_race.trivia.question_22.a"
+            },
             "correct": true
           },
           {
-            "text": "By creating wind farms",
+            "text": {
+              "translate": "lt.river_race.trivia.question_22.b"
+            },
             "correct": false
           },
           {
-            "text": "By directly investing in oil-free technologies",
+            "text": {
+              "translate": "lt.river_race.trivia.question_22.c"
+            },
             "correct": false
           },
           {
-            "text": "By lobbying for global warming policies in the UN",
+            "text": {
+              "translate": "lt.river_race.trivia.question_22.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "PLACEHOLDER How many pigs to fly?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_23"
+        },
         "answers": [
           {
-            "text": "True",
+            "text": {
+              "translate": "lt.river_race.trivia.question_23.a"
+            },
             "correct": true
           },
           {
-            "text": "False",
+            "text": {
+              "translate": "lt.river_race.trivia.question_23.b"
+            },
             "correct": false
           },
           {
-            "text": "Super False",
+            "text": {
+              "translate": "lt.river_race.trivia.question_23.c"
+            },
             "correct": false
           },
           {
-            "text": "Extra Super-Duper False",
+            "text": {
+              "translate": "lt.river_race.trivia.question_23.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "easy",
-        "question": "PLACEHOLDER Sky? What color?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_24"
+        },
         "answers": [
           {
-            "text": "Depends on the biome!",
+            "text": {
+              "translate": "lt.river_race.trivia.question_24.a"
+            },
             "correct": true
           },
           {
-            "text": "Blue!",
+            "text": {
+              "translate": "lt.river_race.trivia.question_24.b"
+            },
             "correct": false
           },
           {
-            "text": "Green!",
+            "text": {
+              "translate": "lt.river_race.trivia.question_24.c"
+            },
             "correct": false
           },
           {
-            "text": "The sky isn't real!",
+            "text": {
+              "translate": "lt.river_race.trivia.question_24.d"
+            },
             "correct": false
           }
         ]
@@ -538,44 +778,64 @@
     "zone_4": [
       {
         "difficulty": "hard",
-        "question": "WEA supports women leaders from over how many communities globally?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_25"
+        },
         "answers": [
           {
-            "text": "5,000",
+            "text": {
+              "translate": "lt.river_race.trivia.question_25.a"
+            },
             "correct": true
           },
           {
-            "text": "1,000",
+            "text": {
+              "translate": "lt.river_race.trivia.question_25.b"
+            },
             "correct": false
           },
           {
-            "text": "2,500",
+            "text": {
+              "translate": "lt.river_race.trivia.question_25.c"
+            },
             "correct": false
           },
           {
-            "text": "3,000",
+            "text": {
+              "translate": "lt.river_race.trivia.question_25.d"
+            },
             "correct": false
           }
         ]
       },
       {
         "difficulty": "hard",
-        "question": "How many people have WEA’s projects reached with climate solutions?",
+        "question": {
+          "translate": "lt.river_race.trivia.question_26"
+        },
         "answers": [
           {
-            "text": "24 million",
+            "text": {
+              "translate": "lt.river_race.trivia.question_26.a"
+            },
             "correct": true
           },
           {
-            "text": "1 million",
+            "text": {
+              "translate": "lt.river_race.trivia.question_26.b"
+            },
             "correct": false
           },
           {
-            "text": "10 million",
+            "text": {
+              "translate": "lt.river_race.trivia.question_26.c"
+            },
             "correct": false
           },
           {
-            "text": "15 million",
+            "text": {
+              "translate": "lt.river_race.trivia.question_26.d"
+            },
             "correct": false
           }
         ]
