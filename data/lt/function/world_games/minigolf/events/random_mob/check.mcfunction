@@ -1,1 +1,1 @@
-execute as @s if score hostMode golf.events matches 1 run function lt:world_games/minigolf/events/random_mob/host with entity @p[role=live]
+execute as @s if score hostMode golf.events matches 1 run function lt:world_games/minigolf/events/random_mob/host with entity @p[role=live,limit=1]
