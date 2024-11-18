@@ -47,7 +47,7 @@
           "sound": "minecraft:entity.arrow.hit_player",
           "pitch": 1.5
         },
-        "ltminigames:end_game"
+        "ltminigames:close_game"
       ]
     }
   },
