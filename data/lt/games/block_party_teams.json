@@ -20,7 +20,7 @@
   "statistics_key": "block_party",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:block_party"
+    "load_from": "lt:block_party_teams"
   },
   "minimum_participants": 1,
   "maximum_participants": 32,
@@ -39,12 +39,20 @@
       "type": "ltminigames:block_party",
       "floor": "blocks",
       "blocks": [
-        "tropicraft:black_mangrove_wood",
-        "tropicraft:red_mangrove_wood",
-        "ltextras:imposter_brain_coral_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:shroomlight",
         "ltextras:imposter_horn_coral_block",
+        "minecraft:melon",
+        "minecraft:warped_wart_block",
+        "minecraft:blue_ice",
         "ltextras:imposter_tube_coral_block",
-        "minecraft:grass_block"
+        "ltextras:imposter_bubble_coral_block",
+        {
+          "Name": "minecraft:cherry_leaves",
+          "Properties": {
+            "persistent": "true"
+          }
+        }
       ],
       "quad_size": 3,
       "max_time": 280,

@@ -27,7 +27,12 @@
         "minecraft:blue_ice",
         "ltextras:imposter_tube_coral_block",
         "ltextras:imposter_bubble_coral_block",
-        "minecraft:cherry_leaves"
+        {
+          "Name": "minecraft:cherry_leaves",
+          "Properties": {
+            "persistent": "true"
+          }
+        }
       ],
       "quad_size": 3,
       "max_time": 280,
