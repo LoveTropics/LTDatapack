@@ -340,6 +340,7 @@
 	"lt.info_center.minigame.survive_the_tide": "A Battle Royale set in a dystopian future ravaged by the effects of climate change. Avoid the rising tide, endure the extreme weather, and defeat the other players to survive.",
 	"lt.info_center.minigame.elytra": "Test your flying skills with our challenging elytra course! The entrance is in the tall tower right above spawn",
 	"lt.info_center.minigame.villager_hunt": "Everyone is a villager, hunt and trackdown the other players. Before they find you",
+	"lt.info_center.minigame.crab_hockey": "Fast paced hockey game but the hockey puck is a crab!",
 	"lt.minigame.survive_the_tide": "Survive the Tide",
 	"lt.info.click_more_info": "Right Click Signs\n for More Info",
 
@@ -421,6 +422,8 @@
 	"ltminigames.minigame.donation.fiddler_crab.toast": "%sender% has turned everyone into fiddler crabs!",
 
 	"ltminigames.minigame.villager_hunt": "Villager Hunt",
+	"lt.qottott.full": "Queen of the Top of The Tide",
 
-	"lt.text.sustaning_bio_div": "Sustaning Biodiversity: The Birds of River Mpanga"
+	"lt.text.sustaning_bio_div": "Sustaning Biodiversity: The Birds of River Mpanga",
+	"lt.text.edu.flora_of_river": "About the River Mpanga"
 }
