@@ -10,7 +10,6 @@ execute if score count global.utility matches 2 as @e[tag=host03Marker] at @s ru
 execute as @p[tag=host01] run data modify entity @e[tag=dummyHost01,limit=1] profile.id set from entity @s UUID
 execute as @p[tag=host01] run data modify entity @e[tag=dummyHost03,limit=1] profile.id set from entity @s UUID
 execute as @p[tag=host02] run data modify entity @e[tag=dummyHost02,limit=1] profile.id set from entity @s UUID
-execute as @e[tag=dummyHost01] at @s run tp @s ~ ~ ~ 0 0
 execute as @e[tag=dummyHost02] at @s run tp @s ~ ~ ~ 45 0
 execute as @e[tag=dummyHost03] at @s run tp @s ~ ~ ~ 90 0
 tag @a remove host01
