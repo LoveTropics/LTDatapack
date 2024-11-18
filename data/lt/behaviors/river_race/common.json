@@ -32,10 +32,6 @@
   "ltminigames:river_race_overlord",
   "lt:river_race/map",
   "lt:river_race/questions",
-  {
-    "type": "ltminigames:victory_points",
-    "points_per_game_won": 1
-  },
   "lt:river_race/death",
   {
     "type": "ltminigames:immediate_respawn",
@@ -52,5 +48,9 @@
     ]
   },
   "lt:river_race/collectables",
+  {
+    "type": "ltminigames:victory_points",
+    "points_per_game_won": 1
+  },
   "ltminigames:rewards_from_microgame"
 ]
