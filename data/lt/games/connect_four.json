@@ -47,6 +47,22 @@
       "knockback": false
     },
     {
+      "type": "lt:connect_four/team_timer",
+      "timer": "red_timer",
+      "length": 120,
+      "team_name": {"translate": "ltminigames.minigame.teams.red"},
+      "team_color": "red",
+      "other_team": "blue"
+    },
+    {
+      "type": "lt:connect_four/team_timer",
+      "timer": "blue_timer",
+      "length": 120,
+      "team_name": {"translate": "ltminigames.minigame.teams.blue"},
+      "team_color": "blue",
+      "other_team": "red"
+    },
+    {
       "type": "ltminigames:connect_four",
       "team_blocks": {
         "red": {
@@ -59,6 +75,10 @@
           "solid": "minecraft:blue_concrete",
           "highlighted": "minecraft:light_blue_concrete"
         }
+      },
+      "team_timers": {
+        "red": "red_timer",
+        "blue": "blue_timer"
       },
       "placing_region": "placing",
       "separator": "ltextras:quartz_block_wall",

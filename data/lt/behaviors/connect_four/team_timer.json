@@ -1,0 +1,36 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "channel": "$timer",
+    "named_points": {"start": 0, "end": "$length"},
+    "start": false
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "channel": "$timer",
+    "entries": [
+      {
+        "period": ["start", "end"],
+        "text": {
+          "translate": "ltminigames.minigame.teams.name",
+          "with": ["$team_name"],
+          "color": "$team_color"
+        },
+        "color": "$team_color",
+        "include_time": true,
+        "reversed": true
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "channel": "$timer",
+    "target": "all",
+    "actions": {
+      "end": {
+        "type": "ltminigames:end_game",
+        "winning_team": "$other_team"
+      }
+    }
+  }
+]
