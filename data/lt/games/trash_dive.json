@@ -73,9 +73,12 @@
       }
     },
     {
-      "type": "ltminigames:timed_close",
-      "end": "end",
-      "close": "close"
+      "type": "ltminigames:scheduled_actions",
+      "target": "all",
+      "actions": {
+        "end": "ltminigames:end_game",
+        "close": "ltminigames:close_game"
+      }
     },
     {
       "type": "ltminigames:countdown_effects",

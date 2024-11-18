@@ -49,11 +49,6 @@
       }
     },
     {
-      "type": "ltminigames:timed_close",
-      "end": "end",
-      "close": "close"
-    },
-    {
       "type": "ltminigames:countdown_effects",
       "target": "end",
       "sound": "minecraft:block.end_portal_frame.fill",
@@ -81,8 +76,10 @@
               "color": "red"
             },
             "stay": 60
-          }
-        ]
+          },
+          "ltminigames:end_game"
+        ],
+        "close": "ltminigames:close_game"
       }
     },
     {

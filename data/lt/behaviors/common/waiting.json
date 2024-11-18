@@ -31,10 +31,6 @@
     }
   },
   {
-    "type": "ltminigames:timed_close",
-    "close": "end"
-  },
-  {
     "type": "ltminigames:countdown_effects",
     "target": "end",
     "sound": "minecraft:entity.arrow.hit_player",
@@ -50,7 +46,8 @@
           "type": "ltminigames:play_sound",
           "sound": "minecraft:entity.arrow.hit_player",
           "pitch": 1.5
-        }
+        },
+        "ltminigames:end_game"
       ]
     }
   },
