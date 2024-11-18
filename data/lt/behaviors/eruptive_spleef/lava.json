@@ -3,14 +3,14 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "start_rise_1": 30,
-      "end_rise_1": 50,
-      "start_rise_2": 80,
-      "end_rise_2": 100,
-      "start_rise_3": 130,
-      "end_rise_3": 150,
-      "start_rise_4": 180,
-      "end_rise_4": 200
+      "start_rise_1": 60,
+      "end_rise_1": 80,
+      "start_rise_2": 140,
+      "end_rise_2": 160,
+      "start_rise_3": 220,
+      "end_rise_3": 240,
+      "start_rise_4": 300,
+      "end_rise_4": 320
     }
   },
   {
