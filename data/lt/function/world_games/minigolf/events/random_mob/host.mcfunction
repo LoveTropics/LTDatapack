@@ -1,0 +1,1 @@
+$disguise as dummyplayers:dummy_player {NoBasePlate:true,Small:true,profile:{id:$(UUID)}}
