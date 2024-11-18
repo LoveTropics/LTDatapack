@@ -8,7 +8,8 @@
   "ltminigames:assign_player_roles",
   {
     "type": "ltminigames:join_late_with_role",
-    "role": "$join_late_with_role"
+    "role": "$join_late_with_role",
+    "allow_rejoin": "$allow_rejoin"
   },
   "ltminigames:set_winner_statistic"
 ]
