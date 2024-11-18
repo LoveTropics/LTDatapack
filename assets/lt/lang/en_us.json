@@ -418,5 +418,7 @@
 	"ltminigames.minigame.donation.fiddler_crab.description": "Turn everyone into a fiddler crab!",
 	"ltminigames.minigame.donation.fiddler_crab.toast": "%sender% has turned everyone into fiddler crabs!",
 
-	"ltminigames.minigame.villager_hunt": "Villager Hunt"
+	"ltminigames.minigame.villager_hunt": "Villager Hunt",
+
+	"lt.text.sustaning_bio_div": "Sustaning Biodiversity: The Birds of River Mpanga"
 }
