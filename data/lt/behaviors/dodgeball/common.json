@@ -23,14 +23,14 @@
 	},
 	{
 		"type": "ltminigames:place_by_statistic",
-		"statistic": "deaths",
+		"statistic": "points",
 		"order": "min",
 		"trigger_win": false
 	},
 	{
 		"type": "ltminigames:display_leaderboard_on_finish",
-		"statistic": "deaths",
-		"order": "min",
+		"statistic": "points",
+		"order": "max",
 		"length": 6
 	},
 	{
@@ -85,9 +85,9 @@
 	},
 	{
 		"type": "ltminigames:points_sidebar",
-		"statistic": "deaths",
-		"order": "min",
-		"count": 5,
+		"statistic": "points",
+		"order": "max",
+		"count": 10,
 		"title": {
 			"translate": "lt.minigame.dodgeball",
 			"color": "light_purple",
@@ -116,7 +116,7 @@
 					}
 				],
 				"statistic_binding": {
-					"statistic": "deaths",
+					"statistic": "kills",
 					"multiplier": 0.1
 				}
 			}

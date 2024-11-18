@@ -1,6 +1,7 @@
 [
 	{
 		"type": "ltminigames:on_death",
+		"exclude_self": {},
 		"killed_action": [
 			{
 				"type": "ltminigames:spawn_particles_around_player",
@@ -14,11 +15,6 @@
 				"sound": "entity.player.big_fall",
 				"source": "player",
 				"broadcast": true
-			},
-			{
-				"type": "ltminigames:increment_statistic",
-				"statistic": "deaths",
-				"amount": 1
 			}
 		],
 		"killer_action": [
@@ -27,6 +23,11 @@
 				"sound": "minecraft:block.note_block.chime",
 				"source": "player",
 				"pitch": 2.0
+			},
+			{
+				"type": "ltminigames:increment_statistic",
+				"statistic": "points",
+				"amount": 1
 			}
 		]
 	}
