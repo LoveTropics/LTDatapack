@@ -20,7 +20,7 @@
   "statistics_key": "columns_of_chaos",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:columns_of_chaos"
+    "load_from": "lt:pillars_of_wealth"
   },
   "minimum_participants": 1,
   "maximum_participants": 30,

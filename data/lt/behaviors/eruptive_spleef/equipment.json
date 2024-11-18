@@ -10,9 +10,7 @@
           "components": {
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "can_place_on": [
-              {"blocks": ["tnt"]}
-            ]
+            "can_place_on": {"blocks": ["tnt"]}
           }
         }
       ],
