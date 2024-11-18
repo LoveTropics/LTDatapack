@@ -17,8 +17,8 @@
           "translate": "ltminigames.minigame.player_completed_course",
           "color": "gold"
         }
-      },
-      "ltminigames:set_total_time"
+      }
     ]
-  }
+  },
+  "ltminigames:set_total_time"
 ]
