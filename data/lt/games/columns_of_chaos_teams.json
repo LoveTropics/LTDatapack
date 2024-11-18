@@ -16,11 +16,11 @@
     ]
   },
 
-  "name": {"translate": "ltminigames.minigame.pillars_of_wealth_teams"},
-  "statistics_key": "pillars_of_wealth",
+  "name": {"translate": "ltminigames.minigame.columns_of_chaos_teams"},
+  "statistics_key": "columns_of_chaos",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:pillars_of_wealth"
+    "load_from": "lt:columns_of_chaos"
   },
   "minimum_participants": 1,
   "maximum_participants": 30,
@@ -31,6 +31,6 @@
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
-    "lt:pillars_of_wealth/common"
+    "lt:columns_of_chaos/common"
   ]
 }

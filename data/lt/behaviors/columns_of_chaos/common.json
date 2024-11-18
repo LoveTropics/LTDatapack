@@ -1,9 +1,9 @@
 [
-  "lt:pillars_of_wealth/ruleset",
-  "lt:pillars_of_wealth/phases",
+  "lt:columns_of_chaos/ruleset",
+  "lt:columns_of_chaos/phases",
   "ltminigames:spectator_chase",
   {
-    "type": "ltminigames:pillars_of_wealth",
+    "type": "ltminigames:columns_of_chaos",
     "pillar_height": 10,
     "item_interval": 10,
     "exclusion_tags": [],
@@ -22,7 +22,7 @@
     "order": "max",
     "count": 2,
     "title": {
-      "translate": "ltminigames.minigame.pillars_of_wealth",
+      "translate": "ltminigames.minigame.columns_of_chaos",
       "color": "yellow",
       "bold": true
     },
@@ -32,7 +32,7 @@
     "type": "ltminigames:last_remaining_win_trigger",
     "last_team": true
   },
-  "lt:pillars_of_wealth/end",
+  "lt:columns_of_chaos/end",
   {
     "type": "lt:fixed_rewards",
     "coins": 5

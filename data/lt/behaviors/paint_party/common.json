@@ -1,6 +1,6 @@
 [
-  "lt:pillars_of_wealth/ruleset",
-  "lt:pillars_of_wealth/phases",
+  "lt:columns_of_chaos/ruleset",
+  "lt:columns_of_chaos/phases",
   "ltminigames:spectator_chase",
   {
     "type": "ltminigames:position_players",

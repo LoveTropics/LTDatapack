@@ -39,7 +39,7 @@
           "end": "start"
         },
         "text": {
-          "translate": "ltminigames.minigame.pillars_of_wealth",
+          "translate": "ltminigames.minigame.columns_of_chaos",
           "color": "yellow"
         },
         "color": "yellow",
@@ -52,7 +52,7 @@
           "end": "end"
         },
         "text": {
-          "translate": "ltminigames.minigame.pillars_of_wealth",
+          "translate": "ltminigames.minigame.columns_of_chaos",
           "color": "green"
         },
         "color": "green",
