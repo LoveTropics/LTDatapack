@@ -39,7 +39,11 @@
           "type": "ltminigames:remove_colliders",
           "regions": "$colliders"
         },
-        "lt:river_race/start_microgames"
+        {
+          "type": "ltminigames:start_microgames",
+          "games": "$microgames",
+          "games_per_round": 4
+        }
       ]
     }
   },

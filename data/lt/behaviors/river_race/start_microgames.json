@@ -11,7 +11,8 @@
     "lt:villager_hunt",
     "lt:eruptive_spleef_teams",
     "lt:paint_party",
-    "lt:parkour_race_teams"
+    "lt:parkour_race_teams",
+    "lt:dodgeball_teams"
   ],
   "games_per_round": 4
 }

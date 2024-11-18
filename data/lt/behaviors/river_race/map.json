@@ -58,7 +58,13 @@
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.1"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red"},
     "color": "red",
-    "colliders": []
+    "colliders": [],
+    "microgames": [
+      "lt:de_a_coudre_teams",
+      "lt:crafting_bee",
+      "lt:paint_party",
+      "lt:connect_four"
+    ]
   },
   {
     "type": "lt:river_race/map/zone",
@@ -70,6 +76,11 @@
     "colliders": [
       "red_river_1",
       "blue_river_1"
+    ],
+    "microgames": [
+      "lt:treasure_dig_teams",
+      "lt:villager_hunt",
+      "lt:eruptive_spleef_teams"
     ]
   },
   {
@@ -82,6 +93,12 @@
     "colliders": [
       "red_river_2",
       "blue_river_2"
+    ],
+    "microgames": [
+      "lt:block_party_teams",
+      "lt:parkour_race_teams",
+      "lt:dodgeball_teams",
+      "lt:columns_of_chaos_teams"
     ]
   },
   {
@@ -94,6 +111,9 @@
     "colliders": [
       "red_river_3",
       "blue_river_3"
+    ],
+    "microgames": [
+      "lt:crab_hockey"
     ]
   },
   {
