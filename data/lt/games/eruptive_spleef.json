@@ -26,11 +26,8 @@
     "lt:eruptive_spleef/lava",
     {
       "type": "ltminigames:game_end_effects",
-      "stop_delay": 200,
-      "title": {
-        "translate": "ltminigames.minigame.win",
-        "color": "gold"
-      }
-    }
+      "stop_delay": 200
+    },
+    "lt:common/announce_game_over"
   ]
 }

@@ -165,6 +165,7 @@
       "loser_region": "loser_spawn"
     }
   },
+  "lt:common/game_over_title",
   "ltminigames:spectator_chase",
   "ltminigames:cancel_player_damage",
   {

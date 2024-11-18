@@ -89,6 +89,7 @@
     },
     {
       "type": "ltminigames:disable_throwing_items"
-    }
+    },
+    "lt:common/announce_game_over"
   ]
 }

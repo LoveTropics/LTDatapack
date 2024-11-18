@@ -1,0 +1,16 @@
+[
+  "lt:common/game_over_title",
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.win",
+          "color": "gold"
+        }
+      }
+    ],
+    "target": "all"
+  }
+]

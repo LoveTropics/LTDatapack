@@ -17,12 +17,9 @@
   },
   {
     "type": "ltminigames:game_end_effects",
-    "stop_delay": 100,
-    "title": {
-      "translate": "ltminigames.minigame.win",
-      "color": "gold"
-    }
+    "stop_delay": 100
   },
+  "lt:common/game_over_title",
   {
     "type": "ltminigames:display_leaderboard_on_finish",
     "statistic": "points",

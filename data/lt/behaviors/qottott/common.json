@@ -44,5 +44,6 @@
       "winner_regions": ["winner"],
       "loser_region": "lobby_spawn"
     }
-  }
+  },
+  "lt:common/game_over_title"
 ]

@@ -64,6 +64,7 @@
           }
         }
       }
-    }
+    },
+    "lt:common/announce_game_over"
   ]
 }

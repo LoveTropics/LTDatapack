@@ -29,12 +29,9 @@
         "translate": "ltminigames.minigame.survive_the_tide.outro.ffa5",
         "color": "gold"
       }
-    },
-    "title": {
-      "translate": "ltminigames.minigame.survive_the_tide.win",
-      "color": "gold"
     }
   },
+  "lt:common/game_over_title",
   {
     "type": "ltminigames:survive_the_tide_chat_broadcast",
     "down_to_two_translation_key": "ltminigames.minigame.survive_the_tide_down_to_two"

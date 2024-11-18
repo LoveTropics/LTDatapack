@@ -33,10 +33,7 @@
         "translate": "ltminigames.minigame.survive_the_tide.outro.teams5",
         "color": "gold"
       }
-    },
-    "title": {
-      "translate": "ltminigames.minigame.survive_the_tide.win",
-      "color": "gold"
     }
-  }
+  },
+  "lt:common/game_over_title"
 ]

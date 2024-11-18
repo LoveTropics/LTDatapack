@@ -1,0 +1,20 @@
+{
+  "type": "ltminigames:events/game_over",
+  "actions": [
+    {
+      "type": "ltminigames:show_title",
+      "title": {
+        "translate": "ltminigames.minigame.game_over.title",
+        "color": "gold"
+      },
+      "subtitle": {
+        "translate": "ltminigames.minigame.game_over.subtitle",
+        "color": "gray"
+      },
+      "fade_in": 10,
+      "stay": 60,
+      "fade_out": 10
+    }
+  ],
+  "target": "all"
+}
