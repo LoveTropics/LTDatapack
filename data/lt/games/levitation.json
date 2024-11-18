@@ -20,9 +20,16 @@
       "spectators": "end"
     },
     {
+      "type": "ltminigames:progression",
+      "named_points": {
+        "start": 0,
+        "rise": 10
+      }
+    },
+    {
       "type": "ltminigames:scheduled_actions",
       "actions": {
-        "10":     {
+        "rise": {
           "type": "ltminigames:set_blocks",
           "replace": {"blocks": ["minecraft:light_blue_stained_glass"]},
           "set": "minecraft:air",
@@ -67,14 +74,16 @@
     {
       "type": "ltminigames:while_in_region",
       "regions": {
-        "end": {
-          "type": "ltminigames:run_commands",
-          "player": [
-            "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
-            "kill @e[current_world=true,type=minecraft:fishing_bobber]",
-            "game finish"
-          ]
-        }
+        "end": [
+          {
+            "type": "ltminigames:run_commands",
+            "player": [
+              "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
+              "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+            ]
+          },
+          "ltminigames:close_game"
+        ]
       },
       "interval": 5
     },

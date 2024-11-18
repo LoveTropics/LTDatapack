@@ -1,4 +1,10 @@
 [
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "go": 10
+    }
+  },
   "lt:turtle_race/donations",
   {
     "type": "lt:common/playing",
@@ -33,52 +39,17 @@
     }
   },
   {
+    "type": "ltminigames:countdown_effects",
+    "target": "go",
+    "sound": "minecraft:entity.arrow.hit_player",
+    "seconds": 3,
+    "show_title": true
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
-      "7": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "entity.arrow.hit_player"
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..3",
-            "color": "red"
-          },
-          "stay": 40
-        }
-      ],
-      "8": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "entity.arrow.hit_player"
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..2",
-            "color": "gold"
-          },
-          "stay": 40
-        }
-      ],
-      "9": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "entity.arrow.hit_player"
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "..1",
-            "color": "yellow"
-          },
-          "stay": 40
-        }
-      ],
-      "10": [
+      "go": [
         {
           "type": "ltminigames:set_blocks",
           "region": "start_floor",
