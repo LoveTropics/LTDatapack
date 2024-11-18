@@ -50,7 +50,9 @@
   "lt:river_race/collectables",
   {
     "type": "ltminigames:victory_points",
-    "points_per_game_won": 1
+    "special_points_per_game": {
+      "lt:crab_hockey": 7
+    }
   },
   "ltminigames:rewards_from_microgame"
 ]
