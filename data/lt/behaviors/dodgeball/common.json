@@ -1,9 +1,4 @@
 [
-	{
-		"type": "lt:common/playing",
-		"game_type": "adventure",
-		"join_late_with_role": "spectator"
-	},
 	"ltminigames:spectator_chase",
 	"lt:dodgeball/ruleset",
 	"lt:dodgeball/phases",
