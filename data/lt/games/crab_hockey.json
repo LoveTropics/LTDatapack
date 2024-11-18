@@ -204,6 +204,12 @@
       "header": [
       ]
     },
-    "lt:crab_hockey/donations"
+    "lt:crab_hockey/donations",
+    {
+      "type": "ltminigames:set_client_state",
+      "state": {
+        "type": "ltminigames:disable_bobbing"
+      }
+    }
   ]
 }
