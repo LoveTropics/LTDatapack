@@ -19,12 +19,15 @@
       "type": "ltminigames:block_party",
       "floor": "blocks",
       "blocks": [
-        "tropicraft:black_mangrove_wood",
-        "tropicraft:red_mangrove_wood",
-        "ltextras:imposter_brain_coral_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:shroomlight",
         "ltextras:imposter_horn_coral_block",
+        "minecraft:melon",
+        "minecraft:warped_wart_block",
+        "minecraft:blue_ice",
         "ltextras:imposter_tube_coral_block",
-        "minecraft:grass_block"
+        "ltextras:imposter_bubble_coral_block",
+        "minecraft:cherry_leaves"
       ],
       "quad_size": 3,
       "max_time": 280,
