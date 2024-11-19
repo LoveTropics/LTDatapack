@@ -1,5 +1,5 @@
-execute if entity @s[tag=team.cents] run return run function lt:utility/team/no_switching
-execute if entity @s[tag=team.no_cents] run return run function lt:utility/team/no_switching
+$execute if entity @s[tag=team.cents] run return run function lt:utility/team/no_switching with {"team":"$(team)"}
+$execute if entity @s[tag=team.no_cents] run return run function lt:utility/team/no_switching with {"team":"$(team)"}
 tag @s remove team.joined
 tag @s remove team.cents
 tag @s remove team.no_cents
