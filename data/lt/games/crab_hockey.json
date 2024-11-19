@@ -170,8 +170,7 @@
     {
       "type": "ltminigames:place_by_statistic",
       "statistic": "points",
-      "order": "max",
-      "trigger_win": true
+      "order": "max"
     },
     "ltminigames:disable_hunger",
     {

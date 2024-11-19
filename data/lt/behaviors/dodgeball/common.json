@@ -19,8 +19,7 @@
 	{
 		"type": "ltminigames:place_by_statistic",
 		"statistic": "points",
-		"order": "min",
-		"trigger_win": false
+		"order": "min"
 	},
 	{
 		"type": "ltminigames:display_leaderboard_on_finish",
