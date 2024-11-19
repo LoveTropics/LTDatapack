@@ -6,7 +6,7 @@ execute as @a[scores={map.launch_pad.lev_time=1..}] run function lt:map/generic/
 # Rotate launch pads 
 execute as @e[type=breeze,tag=map.launch_pad] at @s run tp @s ~0.001 ~ ~ ~3.0 ~0
 # I actually hate it here for real
-execute as @e[type=marker,tag=map.launch_pad_puller] at @s if entity @e[type=breeze,tag=map.launch_pad,distance=0.2..1] run tp @e[type=breeze,tag=map.launch_pad,limit=1,sort=nearest,distance=..2] @s
+execute as @e[type=marker,tag=map.launch_pad_puller] at @s if entity @e[type=breeze,tag=map.launch_pad,distance=0.01..1] run tp @e[type=breeze,tag=map.launch_pad,limit=1,sort=nearest,distance=..2] @s
 #
 execute as @e[type=breeze,tag=map.launch_pad] at @s run tp @e[type=wind_charge,tag=charge_1,limit=1,sort=nearest,distance=..5] ^0.4 ^0.4 ^0.4
 execute as @e[type=breeze,tag=map.launch_pad] at @s run tp @e[type=wind_charge,tag=charge_2,limit=1,sort=nearest,distance=..5] ^-0.4 ^0.4 ^0.4
