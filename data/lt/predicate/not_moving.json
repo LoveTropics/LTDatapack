@@ -4,8 +4,7 @@
 	"predicate": {
 		"movement": {
 			"speed": 0,
-			"horizontal_speed": 0,
-			"vertical_speed": 0
+			"horizontal_speed": 0
 		}
 	}
 }
