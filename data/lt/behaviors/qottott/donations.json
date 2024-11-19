@@ -7,7 +7,7 @@
   {"type": "lt:integrations/packages/everything", "donation_amount": 100.0},
 
   "lt:qottott/donations/disguises",
-  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 8.0},
+  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 8.0, "duration": 120},
 
   {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 8.0},
 

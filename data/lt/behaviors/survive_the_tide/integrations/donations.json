@@ -31,7 +31,7 @@
   "lt:integrations/packages/puffer_package",
 
   "lt:survive_the_tide/integrations/disguises",
-  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0},
+  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0, "duration": 120},
 
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",

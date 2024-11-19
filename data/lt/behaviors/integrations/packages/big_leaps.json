@@ -6,7 +6,7 @@
   "toast": "ltminigames.minigame.donation.big_leaps.toast",
   "icon": "minecraft:rabbit_foot",
   "donation_amount": "$donation_amount",
-  "seconds": 120,
+  "seconds": "$duration",
   "attribute": {
     "type": "minecraft:generic.gravity",
     "id": "ltminigames:low_gravity",
