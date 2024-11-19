@@ -58,7 +58,10 @@
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.1"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red"},
     "color": "red",
-    "colliders": [],
+    "colliders": [
+      "red_river_1",
+      "blue_river_1"
+    ],
     "microgames": [
       "lt:de_a_coudre_teams",
       "lt:crafting_bee",
@@ -74,8 +77,8 @@
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow"},
     "color": "yellow",
     "colliders": [
-      "red_river_1",
-      "blue_river_1"
+      "red_river_2",
+      "blue_river_2"
     ],
     "microgames": [
       "lt:treasure_dig_teams",
@@ -91,8 +94,8 @@
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.niger_delta", "color": "green"},
     "color": "green",
     "colliders": [
-      "red_river_2",
-      "blue_river_2"
+      "red_river_3",
+      "blue_river_3"
     ],
     "microgames": [
       "lt:block_party_teams",
@@ -109,8 +112,6 @@
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.mexico", "color": "blue"},
     "color": "blue",
     "colliders": [
-      "red_river_3",
-      "blue_river_3"
     ],
     "microgames": [
       "lt:crab_hockey"
