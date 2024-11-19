@@ -177,9 +177,15 @@
     "time_per_team": 7800, // 7800 ticks = 330 seconds for recipes + 30 second leeway + 30 second penalty = 6:30,
     "recycling_penalty": 300, // 15 seconds / recycle
     "recycling_region": "recycler",
-    "beacon_bar_by_team": {
-      "red": "red_beacons",
-      "blue": "blue_beacons"
+    "team_regions": {
+      "red": {
+        "beacon_row": "red_beacons",
+        "item_row": "red_item_row"
+      },
+      "blue": {
+        "beacon_row": "blue_beacons",
+        "item_row": "blue_item_row"
+      }
     }
   }
 ]
