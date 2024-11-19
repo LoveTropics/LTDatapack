@@ -10,6 +10,6 @@ tag @s add team.joined
 $title @s subtitle {"translate":"lt.team.$(team).join","color":"gold"}
 title @s title " "
 $scoreboard players add $(team) main.stats 1
-spawn
+tp @s -219.5 133 -26 -180 0
 function lt:utility/team/update_text
 playsound ltminigames:coins
