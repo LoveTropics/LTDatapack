@@ -138,3 +138,12 @@ schedule function lt:main/on_second 1s replace
 #Elytra
 scoreboard objectives add world_game.elytra dummy
 
+##
+# Quest System Variables
+##
+# What line should be sent by the dialogue system
+scoreboard objectives add quest.dia.target_line dummy
+# How long until the next dialogue line/stage should be processed
+scoreboard objectives add quest.dia.line_time dummy
+# What state the dialogue is currently in
+scoreboard objectives add quest.dia.state dummy

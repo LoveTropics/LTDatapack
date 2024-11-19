@@ -94,3 +94,6 @@ execute in tropicraft:tropics run function lt:world_games/elytra/on_tick
 # Launch Pads
 # TODO: Ask gegy if theres an easy way to only have certain functions be ran on_tick when a game requires them.
 function lt:map/generic/launch_pad/on_tick
+
+# Quest System
+function lt:quest/main/on_tick
