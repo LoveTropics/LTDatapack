@@ -16,7 +16,8 @@
     "open_at": {
       "start": "start",
       "end": "end"
-    }
+    },
+    "on_teleport": "lt:qottott/teleport_effects"
   },
   "lt:qottott/kits",
   {
