@@ -129,6 +129,7 @@ scoreboard objectives add sh_seat dummy
 
 # Stats
 scoreboard objectives add chair_sit_time dummy
+scoreboard objectives add stats.death_count deathCount {"text": "The Death Count", "color": "red"}
 
 # On Second
 schedule function lt:main/on_second 1s replace
