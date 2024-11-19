@@ -1,5 +1,5 @@
-execute if entity @s[tag=team.cents] run scoreboard players remove cents main.stats 1
-execute if entity @s[tag=team.no_cents] run scoreboard players remove no_cents main.stats 1
+execute if entity @s[tag=team.cents] run return run function lt:utility/team/no_switching
+execute if entity @s[tag=team.no_cents] run return run function lt:utility/team/no_switching
 tag @s remove team.joined
 tag @s remove team.cents
 tag @s remove team.no_cents
