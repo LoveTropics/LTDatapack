@@ -87,3 +87,6 @@ execute as @e[type=marker] at @s run particle minecraft:portal ~ ~ ~ 0 0 0 0 1 f
 #Random values
 execute store result score Banner main.random run random value 1..6
 execute store result score Armor main.random run random value 1..10
+
+# Elytra
+execute in tropicraft:tropics run function lt:world_games/elytra/on_tick

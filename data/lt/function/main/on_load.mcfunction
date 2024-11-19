@@ -134,3 +134,7 @@ scoreboard objectives add stats.death_count deathCount {"text": "The Death Count
 # On Second
 schedule function lt:main/on_second 1s replace
 
+
+#Elytra
+scoreboard objectives add world_game.elytra dummy
+

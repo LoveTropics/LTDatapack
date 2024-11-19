@@ -1,0 +1,1 @@
+execute as @a[tag=world_game.elytra_active] run function lt:world_games/elytra/player_tick
