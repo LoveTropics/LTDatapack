@@ -319,6 +319,8 @@
 
 	"lt.team.no_cents.join": "You have joined Team No Cents!",
 	"lt.team.cents.join": "You have joined Team Cents!",
+	"lt.team.cents.no_switch": "Trying to back out of Team Cents? That doesn't make any sense! Request Denied.",
+	"lt.team.no_cents.no_switch": "Leaving? Team No Cents?! It's simply not allowed.",
 
 	"lt.info_center.what_to_do": "What's there to do?",
 	"lt.info_center.shops": "Use your collected TropiCoins to buy Collectibles",
