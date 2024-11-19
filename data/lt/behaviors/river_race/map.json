@@ -54,6 +54,7 @@
   {
     "type": "lt:river_race/map/zone",
     "id": "zone_1",
+    "next_id": "zone_2",
     "region": "zone_1",
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.1"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red"},
@@ -72,6 +73,7 @@
   {
     "type": "lt:river_race/map/zone",
     "id": "zone_2",
+    "next_id": "zone_3",
     "region": "zone_2",
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.2"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow"},
@@ -89,6 +91,7 @@
   {
     "type": "lt:river_race/map/zone",
     "id": "zone_3",
+    "next_id": "zone_4",
     "region": "zone_3",
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.3"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.niger_delta", "color": "green"},
@@ -105,14 +108,12 @@
     ]
   },
   {
-    "type": "lt:river_race/map/zone",
+    "type": "lt:river_race/map/final_zone",
     "id": "zone_4",
     "region": "zone_4",
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.4"},
     "display_name": {"translate": "ltminigames.minigame.river_race.zone.mexico", "color": "blue"},
     "color": "blue",
-    "colliders": [
-    ],
     "microgames": [
       "lt:crab_hockey"
     ]
@@ -130,6 +131,10 @@
       {
         "id": "zone_3",
         "color": "green"
+      },
+      {
+        "id": "zone_4",
+        "color": "blue"
       }
     ]
   }

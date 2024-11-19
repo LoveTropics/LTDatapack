@@ -50,7 +50,7 @@
         "monument_slot_region": ["collectable_red_zone_1", "collectable_blue_zone_1"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_2"
+          "unlock_channel": "finish_zone_1"
         }
       },
       "zone_2": {
@@ -60,7 +60,7 @@
         "monument_slot_region": ["collectable_red_zone_2", "collectable_blue_zone_2"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_3"
+          "unlock_channel": "finish_zone_2"
         }
       },
       "zone_3": {
@@ -70,7 +70,17 @@
         "monument_slot_region": ["collectable_red_zone_3", "collectable_blue_zone_3"],
         "on_complete": {
           "type": "lt:river_race/collectable_placed",
-          "unlock_channel": "unlock_zone_4"
+          "unlock_channel": "finish_zone_3"
+        }
+      },
+      "zone_4": {
+        "item": {
+          "id": "minecraft:blue_wool"
+        },
+        "monument_slot_region": ["collectable_red_zone_4", "collectable_blue_zone_4"],
+        "on_complete": {
+          "type": "lt:river_race/collectable_placed",
+          "unlock_channel": "finish_zone_4"
         }
       }
     }

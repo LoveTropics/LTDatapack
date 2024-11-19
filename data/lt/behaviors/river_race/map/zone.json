@@ -15,11 +15,20 @@
     }
   },
   {
-    "type": "lt:river_race/unlock_zone",
+    "type": "lt:river_race/microgames_countdown",
     "channel": {
-      "$": {"prefix": "unlock_", "path": "$id"}
+      "$": {"prefix": "finish_", "path": "$id"}
     },
-    "zone": "$id",
+    "before_games_action": [
+      {
+        "type": "ltminigames:unlock_zone",
+        "zone": "$next_id"
+      },
+      {
+        "type": "ltminigames:remove_colliders",
+        "regions": "$colliders"
+      }
+    ],
     "microgames": "$microgames"
   }
 ]

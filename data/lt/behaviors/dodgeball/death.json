@@ -1,7 +1,7 @@
 [
 	{
 		"type": "ltminigames:on_death",
-		"exclude_self": {},
+		"exclude_self": true,
 		"killed_action": [
 			{
 				"type": "ltminigames:spawn_particles_around_player",

@@ -31,18 +31,12 @@
           "sound": "minecraft:entity.arrow.hit_player",
           "pitch": 1.5
         },
-        {
-          "type": "ltminigames:unlock_zone",
-          "zone": "$zone"
-        },
-        {
-          "type": "ltminigames:remove_colliders",
-          "regions": "$colliders"
-        },
+        "$before_games_action",
         {
           "type": "ltminigames:start_microgames",
           "games": "$microgames",
-          "games_per_round": 4
+          "games_per_round": 4,
+          "on_complete": "$after_games_action"
         }
       ]
     }

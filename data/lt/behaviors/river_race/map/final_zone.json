@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ltminigames:river_race/zone",
+    "id": "$id",
+    "region": "$region",
+    "ordinal_name": "$ordinal_name",
+    "display_name": "$display_name",
+    "color": "$color"
+  },
+  {
+    "type": "lt:river_race/microgames_countdown",
+    "channel": {
+      "$": {"prefix": "finish_", "path": "$id"}
+    },
+    "after_games_action": [
+      "ltminigames:end_game"
+    ],
+    "microgames": "$microgames"
+  }
+]
