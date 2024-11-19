@@ -1,3 +1,16 @@
 execute if entity @s[predicate=!lt:is_elytra] run return run function lt:world_games/elytra/player_fail
 execute if block ~ ~ ~ ltextras:checkpoint[stage=1] run function lt:world_games/elytra/add_score {"checkpoint":"1"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=2] run function lt:world_games/elytra/add_score {"checkpoint":"2"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=3] run function lt:world_games/elytra/add_score {"checkpoint":"3"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=4] run function lt:world_games/elytra/add_score {"checkpoint":"4"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=5] run function lt:world_games/elytra/add_score {"checkpoint":"5"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=6] run function lt:world_games/elytra/add_score {"checkpoint":"6"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=7] run function lt:world_games/elytra/add_score {"checkpoint":"7"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=8] run function lt:world_games/elytra/add_score {"checkpoint":"8"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=9] run function lt:world_games/elytra/add_score {"checkpoint":"9"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=10] run function lt:world_games/elytra/add_score {"checkpoint":"10"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=11] run function lt:world_games/elytra/add_score {"checkpoint":"11"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=12] run function lt:world_games/elytra/add_score {"checkpoint":"12"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=13] run function lt:world_games/elytra/add_score {"checkpoint":"13"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=14] run function lt:world_games/elytra/add_score {"checkpoint":"14"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=15] run function lt:world_games/elytra/add_score {"checkpoint":"15"}
