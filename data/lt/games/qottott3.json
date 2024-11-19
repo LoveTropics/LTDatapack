@@ -1,0 +1,15 @@
+{
+  "name": {"translate": "ltminigames.minigame.qottott"},
+  "statistics_key": "qottott",
+  "backend_id": "lt:qottott",
+  "minimum_participants": 3,
+  "maximum_participants": 40,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:cotott3",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "behaviors": [
+    "lt:qottott/common"
+  ]
+}
