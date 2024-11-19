@@ -48,7 +48,7 @@
   },
   {
     "type": "ltminigames:periodic_actions",
-    "interval": 800,
+    "interval": 400,
     "actions": [
       {
         "type": "ltminigames:kill_entities",
