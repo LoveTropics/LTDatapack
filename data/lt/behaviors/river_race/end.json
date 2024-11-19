@@ -19,6 +19,7 @@
     "type": "ltminigames:game_end_effects",
     "stop_delay": 200
   },
+  "lt:common/winner_fireworks",
   "lt:common/announce_game_over",
   {
     "type": "ltminigames:display_leaderboard_on_finish",
