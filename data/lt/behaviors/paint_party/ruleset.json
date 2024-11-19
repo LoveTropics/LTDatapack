@@ -12,6 +12,5 @@
     }
   },
   "ltminigames:disable_hunger",
-  "ltminigames:cancel_player_damage",
   "ltminigames:immediate_respawn"
 ]
