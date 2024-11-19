@@ -165,6 +165,8 @@
 	"lt.collectible.wellies.tooltip.add_movement_effenicy": " + Movement Efficiency",
 	"lt.collectible.wellies.description": "That mud will no longer be a match for me!",
 	"lt.collectible.wellies.name": "Wellies",
+	"lt.collectible.rechargeable_windcharge.name": "Rechargeable Wind Charge",
+	"lt.collectible.rechargeable_windcharge.description": "Quick charge not included",
 
 	"lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
 	"lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
