@@ -1,0 +1,16 @@
+{
+  "type": "ltminigames:events/game_over",
+  "actions": {
+    "type": "ltminigames:delayed",
+    "delay": {
+      "type": "uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 20
+    },
+    "target": {
+      "type": "ltminigames:player",
+      "value": "source"
+    },
+    "actions": ["ltminigames:spawn_fireworks"]
+  }
+}

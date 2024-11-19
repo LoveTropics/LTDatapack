@@ -20,7 +20,7 @@
     {
       "type": "ltminigames:countdown_action",
       "target": {
-        "type": "player",
+        "type": "ltminigames:player",
         "value": "source"
       },
       "warning": {
