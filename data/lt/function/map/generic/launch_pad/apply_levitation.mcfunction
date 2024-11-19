@@ -1,4 +1,5 @@
 effect give @s levitation 5 30 true
+tag @s add map.launch_pad.is_launching
 scoreboard players set @s map.launch_pad.lev_time 4
 playsound minecraft:entity.breeze.shoot master @s ~ ~ ~ 0.3 1.5 1
 playsound minecraft:entity.breeze.charge master @s ~ ~ ~ 0.7 1 1

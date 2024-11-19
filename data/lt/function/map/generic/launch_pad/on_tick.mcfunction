@@ -14,3 +14,6 @@ execute as @e[type=breeze,tag=map.launch_pad] at @s run tp @e[type=wind_charge,t
 execute as @e[type=breeze,tag=map.launch_pad] at @s run tp @e[type=wind_charge,tag=charge_3,limit=1,sort=nearest,distance=..5] ^-0.4 ^0.4 ^-0.4
 # Particles on launch pads
 execute as @e[type=breeze,tag=map.launch_pad] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~0.3 ~ 0.15 0 0.15 0 1 force @a[distance=..15]
+
+# Launch player if they're near and have not already been launched
+execute as @e[type=breeze,tag=map.launch_pad] at @s positioned ~ ~0.5 ~ run execute as @a[tag=!map.launch_pad.is_launching,distance=..0.5] at @s run function lt:map/generic/launch_pad/apply_levitation
