@@ -90,6 +90,10 @@
     {
       "type": "ltminigames:disable_throwing_items"
     },
-    "lt:common/announce_game_over"
+    "lt:common/announce_game_over",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
   ]
 }

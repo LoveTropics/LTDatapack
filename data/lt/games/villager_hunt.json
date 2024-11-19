@@ -64,6 +64,10 @@
       "type": "ltminigames:game_end_effects",
       "stop_delay": 200
     },
-    "lt:common/announce_game_over"
+    "lt:common/announce_game_over",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
   ]
 }
