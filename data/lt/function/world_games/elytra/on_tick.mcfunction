@@ -1,2 +1,2 @@
-execute as @a[current_world=true,tag=!world_game.elytra_active,predicate=lt:is_elytra] if block ~ ~ ~ ltextras:checkpoint[stage=1] at @s run function lt:world_games/elytra/start
+execute as @a[current_world=true,tag=!world_game.elytra_active,predicate=lt:is_elytra] at @s if block ~ ~ ~ ltextras:checkpoint[stage=1] run function lt:world_games/elytra/start
 execute as @a[current_world=true,tag=world_game.elytra_active] at @s run function lt:world_games/elytra/player_tick
