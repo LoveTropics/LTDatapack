@@ -28,5 +28,10 @@
 			"end": "close"
 		}
 	},
+	{
+		"type": "ltminigames:scale_explosion_knockback",
+		"factor": 0.0,
+		"exploder": "tropicraft:exploding_coconut"
+	},
 	"lt:dodgeball/death"
 ]
