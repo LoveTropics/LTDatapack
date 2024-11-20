@@ -20,3 +20,4 @@ execute if block ~ ~ ~ ltextras:checkpoint[stage=18] run function lt:world_games
 execute if block ~ ~ ~ ltextras:checkpoint[stage=19] run function lt:world_games/elytra/add_score {"checkpoint":"19"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=40] run function lt:world_games/elytra/on_win
 scoreboard players add @s world_game.elytra.clock 1
+title @s actionbar {"translate":"lt.world_games.elytra.time","with":[{"score":{"name":"@s","objective":"world_game.elytra.clock"}},{"score":{"name":"@s","objective":"world_game.elytra.tracker"}}]}

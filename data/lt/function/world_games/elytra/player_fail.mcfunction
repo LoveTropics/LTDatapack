@@ -17,3 +17,8 @@ tag @s remove world_game.elytra.checkpoint_12
 tag @s remove world_game.elytra.checkpoint_13
 tag @s remove world_game.elytra.checkpoint_14
 tag @s remove world_game.elytra.checkpoint_15
+tag @s remove world_game.elytra.checkpoint_16
+tag @s remove world_game.elytra.checkpoint_17
+tag @s remove world_game.elytra.checkpoint_18
+tag @s remove world_game.elytra.checkpoint_19
+tag @s remove world_game.elytra.checkpoint_40
