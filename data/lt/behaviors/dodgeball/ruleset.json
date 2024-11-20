@@ -35,5 +35,6 @@
 			"type": "tropicraft:exploding_coconut"
 		}
 	},
-	"lt:dodgeball/death"
+	"lt:dodgeball/death",
+	"ltminigames:quiet_explosions"
 ]
