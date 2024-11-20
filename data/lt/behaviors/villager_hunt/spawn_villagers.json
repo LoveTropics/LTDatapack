@@ -6,6 +6,7 @@
           "tag": {
             "Health": 5000,
             "IsBaby": false,
+            "PersistenceRequired": true,
             "attributes": [
               {
                 "id": "generic.max_health",

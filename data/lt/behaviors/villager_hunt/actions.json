@@ -18,6 +18,25 @@
     }
   },
   {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": "lt:villager_hunt/spawn_villagers"
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "action": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:generic.max_health",
+        "modifier": {
+          "id": "lt:villager_hunt",
+          "amount": -10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
@@ -32,16 +51,6 @@
         {
           "type": "ltminigames:play_sound",
           "sound": "minecraft:block.respawn_anchor.deplete"
-        },
-        "lt:villager_hunt/spawn_villagers",
-        {
-          "type": "ltminigames:add_attribute_modifier",
-          "attribute": "minecraft:generic.max_health",
-          "modifier": {
-            "id": "lt:villager_hunt",
-            "amount": -10,
-            "operation": "add_value"
-          }
         }
       ]
     }
