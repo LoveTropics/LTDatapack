@@ -20,4 +20,10 @@ tag @s remove world_game.elytra.checkpoint_16
 tag @s remove world_game.elytra.checkpoint_17
 tag @s remove world_game.elytra.checkpoint_18
 tag @s remove world_game.elytra.checkpoint_19
+tag @s remove world_game.elytra.checkpoint_20
+tag @s remove world_game.elytra.checkpoint_21
+tag @s remove world_game.elytra.checkpoint_22
+tag @s remove world_game.elytra.checkpoint_23
+tag @s remove world_game.elytra.checkpoint_24
+tag @s remove world_game.elytra.checkpoint_25
 tag @s remove world_game.elytra.checkpoint_40
