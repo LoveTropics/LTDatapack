@@ -1,4 +1,4 @@
-execute if score @s world_game.elytra.tracker >= NeedPoints world_game.elytra.tracker run return run function lt:world_games/elytra/fail_no_enough
+execute if score @s world_game.elytra.tracker < NeedPoints world_game.elytra.tracker run return run function lt:world_games/elytra/fail_no_enough
 title @s subtitle {"translate": "lt.world_games.elytra.win.subtitle", "color": "gold"}
 title @s title {"translate": "lt.world_games.elytra.win.title", "color": "gold"}
 execute store result score @s world_game.elytra.scores run scoreboard players get @s world_game.elytra.clock
