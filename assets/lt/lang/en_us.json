@@ -353,6 +353,12 @@
 	"lt.info_center.minigame.elytra": "Test your flying skills with our challenging Elytra Course! The entrance is in the tall tower right above spawn",
 	"lt.info_center.minigame.villager_hunt": "Everyone is a villager, hunt and track down the other players. Before they find you",
 	"lt.info_center.minigame.crab_hockey": "Fast paced hockey game but the hockey puck is a crab!",
+	"lt.info_center.minigame.columns_of_chaos": "You're on a pillar. It's in the void. You get random items. Don't die.",
+	"lt.info_center.minigame.eruptive_spleef": "No shovels here! It's just you, infinite tnt, a destructible map, and a flint and steel!",
+	"lt.info_center.minigame.connect_four": "To be fair we phoned it in on this one ... it's just Connect Four. But in Minecraft!",
+	"lt.info_center.minigame.crafting_bee": "Two teams, seven randomly chosen things to craft, and the items you need to craft them. Recipes not included. Sharing recommended.",
+	"lt.info_center.minigame.paint_party": "Paint the floor with your teams color. Team with the most color at the end wins.",
+	"lt.info_center.minigame.de_a_coudre": "Jump into water to fill it in with your teams color. Landing on solid ground is lethal.",
 	"lt.minigame.survive_the_tide": "Survive the Tide",
 	"lt.info.click_more_info": "Right Click Signs\n for More Info",
 
@@ -569,5 +575,8 @@
 	"lt.river_race.trivia.question_26.a": "24 million",
 	"lt.river_race.trivia.question_26.b": "1 million",
 	"lt.river_race.trivia.question_26.c": "10 million",
-	"lt.river_race.trivia.question_26.d": "15 million"
+	"lt.river_race.trivia.question_26.d": "15 million",
+
+
+	"ltminigames.minigame.river_race.zone.the_cliff": "The Cliff"
 }
