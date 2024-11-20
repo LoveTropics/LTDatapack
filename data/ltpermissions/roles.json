@@ -23,7 +23,7 @@
 	"host": {
 		"overrides": {
 			"name_decoration": {
-				"style": "#E91E63"
+				"style": "#e91e63"
 			},
 			"commands": {
 				"fly": "allow",
