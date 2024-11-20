@@ -4,8 +4,10 @@
     "role": "participant",
     "action": [
       {
-        "type": "ltminigames:run_commands",
-        "player": ["disguise as minecraft:villager", "effect give @s minecraft:stre 1 1"]
+        "type": "ltminigames:set_disguise",
+        "entity": {
+          "type": "minecraft:villager"
+        }
       },
       {
         "type": "ltminigames:add_equipment",

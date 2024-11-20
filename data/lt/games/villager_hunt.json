@@ -33,10 +33,7 @@
     "ltminigames:teams",
     {
       "type": "ltminigames:position_players",
-      "teams": {
-        "red": ["spawn"],
-        "blue": ["spawn"]
-      },
+      "participants": ["spawn"],
       "spectators": ["spectators"]
     },
     {
