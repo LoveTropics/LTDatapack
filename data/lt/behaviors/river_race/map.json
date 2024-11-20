@@ -5,7 +5,9 @@
       {
         "blocks": [
           "minecraft:purple_stained_glass",
-          "ltextras:thorn_stem"
+          "ltextras:thorn_stem",
+          "ltextras:gold_block_stairs",
+          "minecraft:gold_block"
         ]
       }
     ]
