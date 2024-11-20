@@ -155,10 +155,38 @@
 			"chars": ["\uE044"]
 		},
 		{
+			"type": "bitmap",
+			"file": "lt:font/other/collectible_basket.png",
+			"ascent": 8,
+			"height": 7,
+			"chars": ["\uE045"]
+		},
+		{
 			"type": "space",
 			"advances": {
 				"\uE009": 1
 			}
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/quest_english.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE046"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/quest_french.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE047"]
+		},
+		{
+			"type": "bitmap",
+			"file": "lt:font/collectible/quest_spanish.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": ["\uE048"]
 		},
 		{
 			"type": "bitmap",
