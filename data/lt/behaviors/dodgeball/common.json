@@ -19,7 +19,7 @@
 	{
 		"type": "ltminigames:place_by_statistic",
 		"statistic": "points",
-		"order": "min"
+		"order": "max"
 	},
 	{
 		"type": "ltminigames:display_leaderboard_on_finish",
@@ -27,6 +27,7 @@
 		"order": "max",
 		"length": 6
 	},
+	"lt:common/announce_game_over",
 	{
 		"type": "ltminigames:on_spawn",
 		"role": "participant",
@@ -110,7 +111,7 @@
 					}
 				],
 				"statistic_binding": {
-					"statistic": "kills",
+					"statistic": "points",
 					"multiplier": 0.1
 				}
 			}

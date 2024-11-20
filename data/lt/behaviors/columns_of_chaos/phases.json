@@ -4,8 +4,7 @@
     "named_points": {
       "start": 0,
       "unfreeze": 5,
-      "end": 300,
-      "close": 330
+      "end": 300
     }
   },
   {
@@ -35,23 +34,7 @@
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
-      "end": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "minecraft:block.end_portal.spawn",
-          "pitch": 0.2
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "ltminigames.minigame.game_over.title",
-            "color": "red"
-          },
-          "stay": 30
-        },
-        "ltminigames:end_game"
-      ],
-      "close": "ltminigames:close_game"
+      "end": "ltminigames:end_game"
     }
   },
   {

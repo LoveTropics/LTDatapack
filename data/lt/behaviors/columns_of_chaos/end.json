@@ -19,10 +19,10 @@
     "type": "ltminigames:game_end_effects",
     "stop_delay": 100
   },
-  "lt:common/game_over_title",
+  "lt:common/announce_game_over",
   {
     "type": "ltminigames:display_leaderboard_on_finish",
-    "statistic": "points",
+    "statistic": "kills",
     "order": "max",
     "length": 5
   }
