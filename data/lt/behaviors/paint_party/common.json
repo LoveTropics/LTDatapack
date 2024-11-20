@@ -31,6 +31,22 @@
     ]
   },
   {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "action": {
+      "type": "ltminigames:add_equipment",
+      "items": [
+        {
+          "id": "minecraft:diamond_hoe",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "ltminigames:paint_party",
     "teams": {
       "blue": {
