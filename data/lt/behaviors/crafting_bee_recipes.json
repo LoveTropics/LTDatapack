@@ -174,7 +174,7 @@
       "translate": "ltminigames.minigame.time_remaining",
       "color": "green"
     },
-    "time_per_team": 7800, // 7800 ticks = 330 seconds for recipes + 30 second leeway + 30 second penalty = 6:30,
+    "time_per_team": 4800, // 4800 ticks = 180 seconds for recipes + 30 second leeway + 30 second penalty = 4:00,
     "recycling_penalty": 300, // 15 seconds / recycle
     "recycling_region": "recycler",
     "team_regions": {
