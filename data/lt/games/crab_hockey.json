@@ -206,6 +206,16 @@
       "state": {
         "type": "ltminigames:disable_bobbing"
       }
+    },
+    {
+      "type": "ltminigames:scale_explosion_knockback",
+      "factor": 3.0,
+      "exploded": {
+        "type": "tropicraft:fiddler_crab"
+      },
+      "exploder": {
+        "type": "minecraft:wind_charge"
+      }
     }
   ]
 }

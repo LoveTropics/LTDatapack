@@ -22,6 +22,8 @@
   {
     "type": "ltminigames:scale_explosion_knockback",
     "factor": 2.25,
-    "exploder": "tropicraft:exploding_coconut"
+    "exploder": {
+      "type": "tropicraft:exploding_coconut"
+    }
   }
 ]
