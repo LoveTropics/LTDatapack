@@ -2,7 +2,6 @@
 execute as @a[tag=main.operator] at @s run playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 2 1.5
 
 # Put a message in chat to indicate server is reloaded
-tellraw @a "Testing Server Reload"
 tellraw @a[tag=main.operator] [{"text":"<@>","color":"gray"}, {"text":" Reload: ","color":"yellow"}, {"score":{"name":"Reloads","objective":"main.reloads"}, "color": "red"}]
 
 # Initiate main module scoreboards
