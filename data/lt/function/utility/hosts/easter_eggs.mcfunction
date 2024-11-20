@@ -6,7 +6,7 @@ execute as @s run data modify entity @s ArmorItems set value [{},{},{},{}]
 execute as @s if data entity @s {profile:{id:[I;-1485293637,-1100069853,-1638540787,-1475363801]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
 
 # Direwolf20 - 2023
-execute as @s if data entity @s {profile:[I;-1145537090,1762607621,-1111133441,-1192508771]}  run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"direwolf20"},small:true}},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:[I;-1145537090,1762607621,-1111133441,-1192508771]} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"direwolf20"},small:true}}]
 
 # Cojomax99 - 2023/2024
 execute as @s if data entity @s {profile:{id:[I;-1505211345,-855292401,-2116995351,764383134]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"cojomax99"},small:true}},ltminigames:size=0.5]
@@ -81,13 +81,13 @@ execute as @s if data entity @s {profile:{id:[I;1136400850,1419657815,-208277896
 execute as @s if data entity @s {profile:{id:[I;664726165,612188496,-1761333497,-211121024]}} run item replace entity @s weapon with minecraft:cake
 
 # Linkzzey -2024
-execute as @s if data entity @s {profile:{id:[I;1818565733,1967997921,-1492476074,2075951117]}} run item replace entity @s weapon with minecraft:cake
+execute as @s if data entity @s {profile:{id:[I;1818565733,1967997921,-1492476074,2075951117]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:chicken"},ltminigames:size=2]
 
 # iChun -2024
 execute as @s if data entity @s {profile:{id:[I;192219632,609763680,-1662965902,-1180411198]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:pig"},ltminigames:size=2]
 
 # Ulraf -2024
-execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s weapon with minecraft:cake
+execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:panda"},ltminigames:size=2]
 
 # Pokepugx -2024 
 execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s weapon with minecraft:cake
