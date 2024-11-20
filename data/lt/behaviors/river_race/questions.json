@@ -12042,6 +12042,50 @@
             "correct": true
           }
         ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "How many 'r's in the word 'strawberry'? (Very difficult)",
+        "answers": [
+          {
+            "text": "1",
+            "correct": false
+          },
+          {
+            "text": "2",
+            "correct": false
+          },
+          {
+            "text": "Yes",
+            "correct": false
+          },
+          {
+            "text": "3",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "difficulty": "hard",
+        "question": "The name 'Cojomax99' comes from...",
+        "answers": [
+          {
+            "text": "His cats - Max and 99",
+            "correct": true
+          },
+          {
+            "text": "An obscure cereal brand",
+            "correct": false
+          },
+          {
+            "text": "A random username generator",
+            "correct": false
+          },
+          {
+            "text": "Divine inspiration",
+            "correct": false
+          }
+        ]
       }
     ]
   }
