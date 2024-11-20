@@ -149,3 +149,14 @@ scoreboard objectives add quest.dia.target_line dummy
 scoreboard objectives add quest.dia.line_time dummy
 # What state the dialogue is currently in
 scoreboard objectives add quest.dia.state dummy
+# What state the dialogue ended with
+scoreboard objectives add quest.dia.end_state dummy
+# Generic var for comparing quest stages
+scoreboard objectives add quest.main.stage_eval dummy
+# Generic var for comparing misc things within quests (E.g. checking whether player is in dialogue)
+scoreboard objectives add quest.main.misc_eval dummy
+
+## Setup teams for quests (NPC only)
+team add quest.npc.no_collide
+team modify quest.npc.no_collide collisionRule never
+team modify quest.npc.no_collide friendlyFire false
