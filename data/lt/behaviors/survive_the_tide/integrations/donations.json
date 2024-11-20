@@ -36,6 +36,7 @@
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",
   "lt:integrations/packages/sharknado",
+  "lt:integrations/packages/invert_controls",
 
   {
     "type": "ltminigames:donation_threshold",

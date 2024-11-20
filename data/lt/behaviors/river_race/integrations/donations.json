@@ -1,0 +1,24 @@
+[
+  {"type": "lt:integrations/packages/everything", "donation_amount":  250.0},
+
+  "lt:integrations/packages/slowness",
+  "lt:integrations/packages/hunger",
+
+  {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0},
+
+  "lt:integrations/packages/random_creeper",
+  "lt:integrations/packages/chosen_creeper",
+
+  {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0},
+  "lt:integrations/packages/lightning_storm",
+  "lt:integrations/packages/zombie_invasion",
+  "lt:integrations/packages/meteor_storm",
+  "lt:integrations/packages/meteor_strike",
+
+  "lt:integrations/packages/puffer_package",
+
+  "lt:survive_the_tide/integrations/disguises",
+  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0, "duration": 120},
+
+  "lt:integrations/packages/invert_controls"
+]
