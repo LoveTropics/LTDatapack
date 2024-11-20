@@ -14,6 +14,9 @@ execute if block ~ ~ ~ ltextras:checkpoint[stage=12] run function lt:world_games
 execute if block ~ ~ ~ ltextras:checkpoint[stage=13] run function lt:world_games/elytra/add_score {"checkpoint":"13"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=14] run function lt:world_games/elytra/add_score {"checkpoint":"14"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=15] run function lt:world_games/elytra/add_score {"checkpoint":"15"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=15] run function lt:world_games/elytra/add_score {"checkpoint":"16"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=16] run function lt:world_games/elytra/add_score {"checkpoint":"16"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=17] run function lt:world_games/elytra/add_score {"checkpoint":"17"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=18] run function lt:world_games/elytra/add_score {"checkpoint":"18"}
+execute if block ~ ~ ~ ltextras:checkpoint[stage=19] run function lt:world_games/elytra/add_score {"checkpoint":"19"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=40] run function lt:world_games/elytra/on_win
 scoreboard players add @s world_game.elytra.clock 1
