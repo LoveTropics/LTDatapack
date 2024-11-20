@@ -5,6 +5,7 @@
     "type": "ltminigames:inline",
     "dimension": "minecraft:overworld"
   },
+  "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1,
   "behaviors": [
