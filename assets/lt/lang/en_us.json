@@ -270,6 +270,10 @@
 	"lt.events.parrot_party.started": "The Parrot party has started!",
 	"lt.events.parrot_party.stopped": "The Parrot party has ended.",
 
+	"lt.world_games.elytra.start": "You've started the Elytra Course!",
+	"lt.world_games.elytra.fail_checkpoints": "You've missed to many checkpoints! Try again!",
+	"lt.world_games.elytra.win": "You've completed the Elytra Course!",
+
 	"lt.scavenger_hunt.clue": "Clue: %s\n%s",
 	"lt.scavenger_hunt.spacer.start": "___________________\n\n",
 	"lt.scavenger_hunt.spacer.end": "\n\n___________________",
