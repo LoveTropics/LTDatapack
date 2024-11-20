@@ -3,7 +3,7 @@
     "minecraft:custom_name": "[{\"translate\":\"entity.minecraft.bee\",\"color\":\"#BFEA00\",\"italic\":false},{\"translate\":\" \"},{\"translate\":\"lt.collectible.hat.name.suffix\",\"color\":\"#BFEA00\",\"italic\":false}]",
     "minecraft:lore": [
       "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.purchased\",\"color\":\"white\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}",
       "{\"text\":\" \"}",
       "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
       "[{\"text\": \" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.minecraft.bee\",\"color\":\"blue\",\"italic\":false}]"
