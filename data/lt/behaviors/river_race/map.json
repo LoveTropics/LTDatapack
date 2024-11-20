@@ -114,7 +114,7 @@
     "id": "zone_4",
     "region": "zone_4",
     "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.4"},
-    "display_name": {"translate": "ltminigames.minigame.river_race.zone.mexico", "color": "blue"},
+    "display_name": {"translate": "ltminigames.minigame.river_race.zone.the_cliff", "color": "blue"},
     "color": "blue",
     "microgames": [
       "lt:crab_hockey"
