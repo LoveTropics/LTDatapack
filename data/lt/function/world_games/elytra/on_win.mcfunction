@@ -1,4 +1,4 @@
-execute if score @s world_game.elytra.tracker matches ..18 run return run tellraw @s {"translate": "lt.world_games.elytra.fail_checkpoints", "color": "gold"}
+execute if score @s world_game.elytra.tracker matches ..17 run return run tellraw @s {"translate": "lt.world_games.elytra.fail_checkpoints", "color": "gold"}
 title @s subtitle {"translate": "lt.world_games.elytra.win.subtitle", "color": "gold"}
 title @s title {"translate": "lt.world_games.elytra.win.title", "color": "gold"}
 execute store result score @s world_game.elytra.scores run scoreboard players get @s world_game.elytra.clock
