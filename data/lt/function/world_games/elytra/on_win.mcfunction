@@ -1,0 +1,2 @@
+execute if score @s world_game.elytra.tracker matches ..15 run return run tellraw @s {"translate": "lt.world_games.elytra.fail_checkpoints", "color": "gold"}
+tellraw @s {"translate": "lt.world_games.elytra.win", "color": "gold"}
