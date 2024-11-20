@@ -1,4 +1,0 @@
-kill @e[tag=golfTextInfo]
-execute as @e[tag=golfTextInfoMarker] at @s run summon minecraft:text_display ~ ~1 ~ {text:'[{"translate":"lt.golf.display.info.part_1","color":"dark_blue"}, {"translate":"lt.golf.display.info.part_2", "color":"gold"}, {"translate":"lt.golf.display.info.part_3", "color":"green"}, {"translate":"lt.golf.display.info.part_4", "color":"aqua"}, {"translate":"lt.golf.display.info.part_5", "color":"dark_purple"}]', billboard:"fixed"}
-execute as @e[tag=golfTextInfoMarker] at @s run tag @e[distance=..2,tag=!golfTextInfoMarker] add golfTextInfo
-execute as @e[tag=golfTextInfo] at @s run tp @s ~ ~ ~ 90 0
