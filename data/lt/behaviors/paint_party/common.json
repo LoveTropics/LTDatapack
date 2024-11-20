@@ -31,20 +31,32 @@
     ]
   },
   {
-    "type": "ltminigames:set_role",
+    "type": "ltminigames:on_spawn",
     "role": "participant",
-    "action": {
-      "type": "ltminigames:add_equipment",
-      "items": [
-        {
-          "id": "minecraft:diamond_hoe",
-          "components": {
-            "unbreakable": {},
-            "ltextras:undroppable": {}
+    "action": [
+      {
+        "type": "ltminigames:add_equipment",
+        "clear": true,
+        "items": [
+          {
+            "id": "minecraft:diamond_hoe",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
+            }
           }
+        ]
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:generic.step_height",
+        "modifier": {
+          "id": "lt:paint_party/step_height",
+          "amount": 0.5,
+          "operation": "add_value"
         }
-      ]
-    }
+      }
+    ]
   },
   {
     "type": "ltminigames:paint_party",
@@ -91,7 +103,7 @@
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
-    "drop_inventory": true
+    "drop_inventory": false
   },
   "lt:paint_party/end",
   "lt:paint_party/items",
