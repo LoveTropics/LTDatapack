@@ -8,8 +8,8 @@ execute as @e[tag=golfCrab,tag=!golfInGame] at @s run title @a[distance=..5] act
 execute as @e[tag=golfCrab] at @s on owner run title @s actionbar [{"translate":"lt.golf.seconds_left","color":"dark_gray"},{"score":{"name":"@e[sort=nearest,tag=golfCrab,limit=1]","objective":"golf.timer"},"color":"yellow"},{"text":" | "},{"translate":"lt.golf.hits","color":"dark_gray"},{"score":{"name":"@e[sort=nearest,tag=golfCrab,limit=1]","objective":"golf.hits"},"color":"green"}]
 execute as @e[tag=golfCrab] at @s on owner if entity @s[tag=!in.golf.area] run function lt:world_games/minigolf/core/leave_hole with entity @s
 
-execute as @e[tag=startTag] at @s run function lt:world_games/minigolf/core/utils/markers/start
-execute as @e[tag=endTag] at @s run function lt:world_games/minigolf/core/utils/markers/end
-execute as @e[tag=dummyTag] at @s run function lt:world_games/minigolf/core/utils/markers/dummy
+#execute as @e[tag=startTag] at @s run function lt:world_games/minigolf/core/utils/markers/start
+#execute as @e[tag=endTag] at @s run function lt:world_games/minigolf/core/utils/markers/end
+#execute as @e[tag=dummyTag] at @s run function lt:world_games/minigolf/core/utils/markers/dummy
 
 schedule function lt:world_games/minigolf/core/on_second 1s
