@@ -448,7 +448,7 @@
 	"lt.item.steve_pick.name": "Steve's Pickaxe",
 	"lt.item.steve_pick.lore": "As a child, I yearned for the mines",
 
-	"lt.trash_counter": "§9Trash Left:§6 (§2%s§6/§4100§6)",
+	"lt.trash_counter": "§9Trash Left:§6 (§%s§6/§4100§6)",
 
 	"_todo_make_these_better_question": "Make these better?",
 	"ltminigames.minigame.donation.wind_charge_package": "Wind Charged",
