@@ -432,14 +432,26 @@
 	"lt.rules.info.five": "Listen to moderators, stop when told",
 	"lt.rules.info.six": "If you run into a tech issue, join the Discord and use Modmail",
 
+	"lt.info.wea.1": "Women's Earth Alliance (WEA)",
+	"lt.info.wea.2": "WEA is a nonprofit investing in, and empowering women around the world to lead environmental and social change",
+	"lt.info.wea.3": "Love Tropics has partnered with WEA on a project to help fund 50 women in Uganda. They will be tasked with working to restore the natural ecosystem of the Mpanga river and its shore front",
+
+	"lt.item.steve_pick.name": "Steve's Pickaxe",
+	"lt.item.steve_pick.lore": "As a child, I yearned for the mines",
+
+
 	"_todo_make_these_better_question": "Make these better?",
 	"ltminigames.minigame.donation.wind_charge_package": "Wind Charged",
-	"ltminigames.minigame.donation.wind_charge_package.description": "Give everyone wind charges!",
+	"ltminigames.minigame.donation.wind_charge_package.description": "Give everyone 6 wind charges",
 	"ltminigames.minigame.donation.wind_charge_package.toast": "%sender% sent everyone 6 wind charges!",
 
 	"ltminigames.minigame.donation.more_friction": "Increase Friction",
-	"ltminigames.minigame.donation.more_friction.description": "Make everything more slippery!",
+	"ltminigames.minigame.donation.more_friction.description": "Incress the friction of everyone and make everything more slippery",
 	"ltminigames.minigame.donation.more_friction.toast": "%sender% has increased the friction!",
+
+	"ltminigames.minigame.donation.steve_pick": "Steve's Pickaxe",
+	"ltminigames.minigame.donation.steve_pick.description": "Give a player a efficiency 3 diamond pickaxe. that can only mine ores",
+	"ltminigames.minigame.donation.steve_pick.toast": "%sender% has sent you Steve's Pickaxe!",
 
 	"ltminigames.minigame.villager_hunt": "Villager Hunt",
 	"lt.qottott.full": "Queen of the Top of The Tide",
