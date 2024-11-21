@@ -27,11 +27,7 @@
 				"translate": "ltminigames.minigame.qottott.power_up.title",
 				"color": "gold"
 			},
-			"subtitle": {
-				"translate": "ltminigames.minigame.qottott.power_up.subtitle",
-				"color": "gold",
-				"with": ["$subtitle"]
-			}
+			"subtitle": "$subtitle"
 		},
 		"$apply"
 	],
