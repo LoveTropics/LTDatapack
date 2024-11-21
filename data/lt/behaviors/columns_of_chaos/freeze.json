@@ -1,0 +1,35 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "channel": "freeze",
+    "named_points": {
+      "start": 0,
+      "unfreeze": 5
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "channel": "freeze",
+    "target": "unfreeze",
+    "sound": "minecraft:entity.arrow.hit_player",
+    "seconds": 3,
+    "show_title": true
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "channel": "freeze",
+    "target": "participants",
+    "actions": {
+      "start": {
+        "type": "ltminigames:apply_client_state",
+        "state": {
+          "type": "ltminigames:disable_player_movement"
+        }
+      },
+      "unfreeze": {
+        "type": "ltminigames:remove_client_state",
+        "state": "ltminigames:disable_player_movement"
+      }
+    }
+  }
+]

@@ -16,7 +16,7 @@
     ]
   },
 
-  "name": {"translate": "ltminigames.minigame.columns_of_chaos_teams"},
+  "name": {"translate": "ltminigames.minigame.columns_of_chaos_teams_endless"},
   "statistics_key": "columns_of_chaos",
   "map": {
     "type": "ltminigames:load_map",
@@ -31,7 +31,6 @@
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
-    "lt:columns_of_chaos/common",
-    "lt:columns_of_chaos/phases"
+    "lt:columns_of_chaos/common"
   ]
 }
