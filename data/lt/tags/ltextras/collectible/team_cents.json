@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lt:team_cents/boots",
+    "lt:team_cents/chestplate",
+    "lt:team_cents/helmet",
+    "lt:team_cents/leggings"
+  ]
+}

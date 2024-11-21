@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "lt:hat/allay",
+    "lt:hat/amethyst",
+    "lt:hat/axolotl",
+    "lt:hat/bee",
+    "lt:hat/cat",
+    "lt:hat/endermite",
+    "lt:hat/fiddler_crab",
+    "lt:hat/flowering_lily_pad",
+    "lt:hat/frog",
+    "lt:hat/gibnut",
+    "lt:hat/glow_squid",
+    "lt:hat/magma_cube",
+    "lt:hat/manatee",
+    "lt:hat/parrot",
+    "lt:hat/slender_mouse",
+    "lt:hat/spider_monkey",
+    "lt:hat/toucan",
+    "lt:hat/tropibee",
+    "lt:hat/wither",
+    "lt:hat/wolf"
+  ]
+}
