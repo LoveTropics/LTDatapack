@@ -3,7 +3,7 @@
   "id": "silverfish_infestation",
   "package_type": "sabotage_package",
   "category": "large",
-  "player_select": "all",
+  "player_select": "specific",
   "name": {"translate": "ltminigames.minigame.donation.silverfish_infestation"},
   "description": {"translate": "ltminigames.minigame.donation.silverfish_infestation.description"},
   "donation_amount": 50.0,
