@@ -9,7 +9,7 @@
   "donation_amount": 35.0,
   "notification": {
     "message": {
-      "translate": "ltminigames.minigame.donation.meteor_strike_package.title",
+      "translate": "ltminigames.minigame.donation.meteor_strike_package.toast",
       "color": "red"
     },
     "icon": {"item": "minecraft:fire_charge"},

@@ -1,0 +1,29 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "money_grows_on_trees",
+  "package_type": "care_package",
+  "category": "medium",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.money_grows_on_trees"},
+  "description": {"translate": "ltminigames.minigame.donation.money_grows_on_trees.description"},
+  "donation_amount": 80.0,
+  "apply_to_team": true,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.money_grows_on_trees.toast",
+      "color": "light_purple"
+    },
+    "icon": { "item": "ltextras:tropicoin" },
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:limited_time_loot",
+      "blocks": "#minecraft:leaves",
+      "loot_table": "lt:packages/coins_from_leaves",
+      "duration_ticks": 900
+    }
+  ]
+}

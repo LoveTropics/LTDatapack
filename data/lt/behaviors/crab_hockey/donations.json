@@ -23,7 +23,7 @@
     "type": "lt:integrations/packages/disguise",
     "id": "fiddler_crab",
     "name": "ltminigames.minigame.donation.fiddler_crab",
-    "description": "ltminigames.minigame.donation.fiddler_crab",
+    "description": "ltminigames.minigame.donation.fiddler_crab.description",
     "toast": "ltminigames.minigame.donation.fiddler_crab.toast",
     "entity": {
       "type": "tropicraft:fiddler_crab"

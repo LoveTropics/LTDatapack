@@ -1,0 +1,47 @@
+[
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "glorious_gibnuts",
+    "name": "ltminigames.minigame.donation.glorious_gibnuts",
+    "description": "ltminigames.minigame.donation.glorious_gibnuts.description",
+    "toast": "ltminigames.minigame.donation.glorious_gibnuts.toast",
+    "entity": {
+      "type": "tropicraft:gibnut"
+    },
+    "seconds": 120,
+    "donation_amount": 20.0
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise_and_extra",
+    "id": "this_will_be_a_breeze",
+    "name": "ltminigames.minigame.donation.this_will_be_a_breeze",
+    "description": "ltminigames.minigame.donation.this_will_be_a_breeze.description",
+    "toast": "ltminigames.minigame.donation.this_will_be_a_breeze.toast",
+    "entity": {
+      "type": "minecraft:breeze"
+    },
+    "seconds": 120,
+    "donation_amount": 25.0,
+    "action": {
+      "type": "ltminigames:add_equipment",
+      "offhand": {
+        "id": "minecraft:wind_charge",
+        "count": 10
+      }
+    }
+  },
+
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "seriously_shoebill",
+    "name": "ltminigames.minigame.donation.seriously_shoebill",
+    "description": "ltminigames.minigame.donation.seriously_shoebill.description",
+    "toast": "ltminigames.minigame.donation.seriously_shoebill.toast",
+    "entity": {
+      "type": "tropicraft:shoebill_stork"
+    },
+    "seconds": 120,
+    "donation_amount": 20.0
+  }
+]

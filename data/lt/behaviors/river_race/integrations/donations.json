@@ -1,24 +1,15 @@
 [
   {"type": "lt:integrations/packages/everything", "donation_amount":  250.0},
 
-  "lt:integrations/packages/mute_team_vc",
-  "lt:integrations/packages/slowness",
-  "lt:integrations/packages/hunger",
-
   {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0},
+  "lt:integrations/packages/money_grows_on_trees",
+  "lt:integrations/packages/team_coins",
 
-  "lt:integrations/packages/random_creeper",
-  "lt:integrations/packages/chosen_creeper",
+  "lt:integrations/packages/mute_team_vc",
+  "lt:integrations/packages/invert_controls",
 
-  {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0},
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
-  "lt:integrations/packages/meteor_strike",
 
-  "lt:integrations/packages/puffer_package",
-
-  "lt:survive_the_tide/integrations/disguises",
-  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0, "duration": 120},
-
-  "lt:integrations/packages/invert_controls"
+  "lt:river_race/integrations/disguises"
 ]

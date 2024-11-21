@@ -166,7 +166,7 @@
     "type": "lt:integrations/packages/disguise",
     "id": "whos_the_turtle_now",
     "name": "ltminigames.minigame.donation.whos_the_turtle_now",
-    "description": "ltminigames.minigame.donation.whos_the_turtle_now",
+    "description": "ltminigames.minigame.donation.whos_the_turtle_now.description",
     "toast": "ltminigames.minigame.donation.whos_the_turtle_now.toast",
     "entity": {
       "type": "tropicraft:turtle"

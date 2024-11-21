@@ -3,7 +3,7 @@
     "type": "lt:integrations/packages/disguise",
     "id": "tapir_party",
     "name": "ltminigames.minigame.donation.tapir_party",
-    "description": "ltminigames.minigame.donation.tapir_party",
+    "description": "ltminigames.minigame.donation.tapir_party.description",
     "toast": "ltminigames.minigame.donation.tapir_party.toast",
     "entity": {
       "type": "tropicraft:tapir"
@@ -16,7 +16,7 @@
     "type": "lt:integrations/packages/disguise",
     "id": "basilisk_lizard_party",
     "name": "ltminigames.minigame.donation.basilisk_lizard_party",
-    "description": "ltminigames.minigame.donation.basilisk_lizard_party",
+    "description": "ltminigames.minigame.donation.basilisk_lizard_party.description",
     "toast": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
     "entity": {
       "type": "tropicraft:brown_basilisk_lizard"
@@ -29,7 +29,7 @@
     "type": "lt:integrations/packages/disguise",
     "id": "manatee_madness",
     "name": "ltminigames.minigame.donation.manatee_madness",
-    "description": "ltminigames.minigame.donation.manatee_madness",
+    "description": "ltminigames.minigame.donation.manatee_madness.description",
     "toast": "ltminigames.minigame.donation.manatee_madness.toast",
     "entity": {
       "type": "tropicraft:manatee"
