@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "1": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.paint_party.intro1",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      "5": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.paint_party.intro2",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    }
+  }
+]

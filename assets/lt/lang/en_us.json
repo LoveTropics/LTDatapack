@@ -600,5 +600,8 @@
 	"lt.river_race.trivia.question_26.c": "10 million",
 	"lt.river_race.trivia.question_26.d": "15 million",
 
-	"ltminigames.minigame.river_race.zone.the_cliff": "The Cliff"
+	"ltminigames.minigame.river_race.zone.the_cliff": "The Cliff",
+
+	"ltminigames.minigame.paint_party.intro1": "Welcome to Paint Party! Your goal is to paint the map with your team's color, by walking on the map and using the paintball gun.",
+	"ltminigames.minigame.paint_party.intro2": "Make sure to refill your paint by holding shift on your own color!"
 }
