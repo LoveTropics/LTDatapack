@@ -15,27 +15,27 @@
 				"id": "minecraft:enchanted_golden_apple",
 				"components": {
 					"custom_data": {
-						"power_up": "knockback_resistance"
-					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.knockback_resistance_power_up\", \"color\": \"green\"}"
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "resistance"
-					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.resistance_power_up\", \"color\": \"gold\"}"
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
 						"power_up": "health"
 					},
 					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.health_power_up\", \"color\": \"red\"}"
+				}
+			},
+			{
+				"id": "minecraft:enchanted_golden_apple",
+				"components": {
+					"custom_data": {
+						"power_up": "multiplier"
+					},
+					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.coin_multiplier_power_up\", \"color\": \"red\"}"
+				}
+			},
+			{
+				"id": "minecraft:enchanted_golden_apple",
+				"components": {
+					"custom_data": {
+						"power_up": "scale"
+					},
+					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.scale_power_up\", \"color\": \"red\"}"
 				}
 			}
 		],

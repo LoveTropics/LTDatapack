@@ -9,5 +9,10 @@
 
 	{ "type": "lt:integrations/packages/everything", "donation_amount": 100.0 },
 
+	{
+		"type": "lt:integrations/packages/big_leaps",
+		"donation_amount": 15.0,
+		"duration": 30
+	},
 	"lt:dodgeball/donations/disguises"
 ]

@@ -11,40 +11,35 @@
 	},
 	{
 		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"knockback_resistance\"}",
-		"effect": "ltminigames:knockback_resistance_power_up",
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.knockback_resistance_power_up.subtitle",
-			"color": "green"
-		},
-		"seconds": 20
-	},
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"pickup_priority\"}",
-		"effect": "ltminigames:pickup_priority_power_up",
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.pickup_priority_power_up.subtitle",
-			"color": "yellow"
-		},
-		"seconds": 20
-	},
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"resistance\"}",
-		"effect": "minecraft:resistance",
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.resistance_power_up.subtitle",
-			"color": "gold"
-		},
-		"seconds": 20
-	},
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
 		"item_tag": "{power_up: \"health\"}",
 		"effect": "minecraft:absorption",
 		"subtitle": {
 			"translate": "ltminigames.minigame.dodgeball.health_power_up.subtitle",
+			"color": "red"
+		},
+		"seconds": 20
+	},
+	{
+		"type": "lt:dodgeball/items/effect_power_up",
+		"item_tag": "{power_up: \"multiplier\"}",
+		"effect": "ltminigames:coin_multiplier_power_up",
+		"subtitle": {
+			"translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
+			"color": "red"
+		},
+		"seconds": 20
+	},
+	{
+		"type": "lt:dodgeball/items/attribute_power_up",
+		"item_tag": "{power_up: \"scale\"}",
+		"attribute": {
+			"id": "dodgeball.scale",
+			"name": "minecraft:generic.scale",
+			"amount": -0.5,
+			"operation": "add_value"
+		},
+		"subtitle": {
+			"translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
 			"color": "red"
 		},
 		"seconds": 20

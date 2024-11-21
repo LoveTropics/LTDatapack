@@ -1,0 +1,23 @@
+{
+	"type": "lt:dodgeball/items/power_up",
+	"item_tag": "$item_tag",
+	"seconds": "$seconds",
+	"subtitle": "$subtitle",
+	"apply": {
+		"type": "ltminigames:add_attribute_modifier",
+		"attribute": "$attribute.name",
+		"modifier": {
+			"id": "$attribute.id",
+			"amount": "$attribute.amount",
+			"operation": "$attribute.operation"
+		}
+	},
+	"clear": {
+		"target": "all",
+		"actions": {
+			"type": "ltminigames:clear_attribute_modifier",
+			"id": "$attribute.id",
+			"attribute": "$attribute.name"
+		}
+	}
+}
