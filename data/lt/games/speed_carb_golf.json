@@ -1,0 +1,36 @@
+{
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+
+  "name": {"translate": "ltminigames.minigame.speed_carb_golf"},
+  "statistics_key": "speed_carb_golf",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:speed_carb_golf"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 6,
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    "lt:speed_carb_golf/common"
+  ]
+}
