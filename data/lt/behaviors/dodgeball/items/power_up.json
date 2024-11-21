@@ -28,7 +28,7 @@
 				"color": "gold"
 			},
 			"subtitle": {
-				"translate": "ltminigames.minigame.qottott.power_up.subtitle",
+				"translate": "ltminigames.minigame.dodgeball.power_up.subtitle",
 				"color": "gold",
 				"with": ["$subtitle"]
 			}

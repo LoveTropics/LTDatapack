@@ -601,6 +601,13 @@
 	"lt.river_race.trivia.question_26.d": "15 million",
 
 	"ltminigames.minigame.river_race.zone.the_cliff": "The Cliff",
+	"ltminigames.minigame.dodgeball.multiplier.subtitle": "Double Point Mode",
+	"ltminigames.minigame.dodgeball.scale.subtitle": "Mini Mode",
+	"ltminigames.minigame.dodgeball.coin_multiplier_power_up": "Point Multiplier",
+	"ltminigames.minigame.dodgeball.scale_power_up": "Shrinking Powerup",
+	"ltminigames.minigame.dodgeball.power_up.subtitle": "%s",
+	"ltminigames.minigame.gravity.scale.subtitle": "Low Gravity Mode",
+	"ltminigames.minigame.dodgeball.gravity.subtitle": "Low Gravity Powerup",
 
 	"ltminigames.minigame.paint_party.intro1": "Welcome to Paint Party! Your goal is to paint the map with your team's color, by walking on the map and using the paintball gun.",
 	"ltminigames.minigame.paint_party.intro2": "Make sure to refill your paint by holding shift on your own color!"

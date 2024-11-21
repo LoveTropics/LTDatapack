@@ -25,7 +25,7 @@
 				"pitch": 2.0
 			},
 			{
-				"type": "ltminigames:increment_statistic",
+				"type": "ltminigames:give_points",
 				"statistic": "points",
 				"amount": 1
 			}
