@@ -9,6 +9,7 @@
   "lt:integrations/packages/invert_controls",
 
   "lt:river_race/integrations/spawner_buff",
+  "lt:river_race/integrations/silverfish_infestation",
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
 
