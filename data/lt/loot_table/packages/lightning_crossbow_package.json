@@ -15,7 +15,7 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": "{\"translate\":\"lt.loot_table.lightning_crossbow\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
+                "item_name": "{\"translate\":\"lt.loot_table.lightning_crossbow\",\"color\":\"dark_green\",\"bold\":true}",
                 "charged_projectiles": [
                   {"id": "ltminigames:lightning_arrow"},
                   {"id": "ltminigames:lightning_arrow"},
@@ -26,8 +26,24 @@
                     "multishot": 1
                   }
                 },
-                "damage": 464
+                "max_damage": 9
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "ltminigames:lightning_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 2, "max": 2}
             }
           ]
         }
