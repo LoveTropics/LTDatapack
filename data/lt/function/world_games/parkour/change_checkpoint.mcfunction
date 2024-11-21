@@ -1,0 +1,1 @@
+data modify gamedata lt:parkour @s[type=minecraft:player] number set from entity @e[type=minecraft:marker,sort=nearest,limit=1] data.number

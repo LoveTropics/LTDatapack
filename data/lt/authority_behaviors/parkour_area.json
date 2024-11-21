@@ -1,0 +1,4 @@
+{
+	"enter_commands": ["tag @s add in.parkour.area", "team join parkour @s"],
+	"exit_commands": ["tag @s remove in.parkour.area", "team leave @s"]
+}
