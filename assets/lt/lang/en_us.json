@@ -173,7 +173,6 @@
 	"lt.collectible.mini_disguise.philza.name": "Slightly Modiifed Rotten Flesh",
 	"lt.collectible.mini_disguise.philza.description": "Transform! Into a just a \"normal\" baby zombie",
 
-
 	"lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
 	"lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
 	"lt.utility_item.tropical_map.description.1": "Map with clickable teleport buttons to various",
@@ -449,7 +448,7 @@
 	"lt.item.steve_pick.name": "Steve's Pickaxe",
 	"lt.item.steve_pick.lore": "As a child, I yearned for the mines",
 
-	"lt.trash_counter": "Trash Counter",
+	"lt.trash_counter": "§9Trash Left:§6 (§2%s§6/§4100§6)",
 
 	"_todo_make_these_better_question": "Make these better?",
 	"ltminigames.minigame.donation.wind_charge_package": "Wind Charged",
