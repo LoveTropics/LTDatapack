@@ -276,6 +276,11 @@
 	"lt.world_games.elytra.win.subtitle": "I can't beeeeeelieve it!",
 	"lt.world_games.elytra.win.time": "You Elytra Course score was %s",
 	"lt.world_games.elytra.time": "Score: %s Checkpoints: %s",
+	"lt.world_games.elytra.info.1": "Elytra Course",
+	"lt.world_games.elytra.info.2": "Follow the Bees!",
+	"lt.world_games.elytra.info.3": "Fly through enough rings to complete the course.",
+	"lt.world_games.elytra.start.1": "Fly to the first bee to start the course!",
+	"lt.world_games.elytra.start.2": "Each ring will guide you toward the next.",
 
 	"lt.scavenger_hunt.clue": "Clue: %s\n%s",
 	"lt.scavenger_hunt.spacer.start": "___________________\n\n",

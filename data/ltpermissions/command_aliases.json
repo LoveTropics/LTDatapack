@@ -29,5 +29,9 @@
   "admin milestone one disable": "function lt:admin/milestone/disable {\"zone\":1}",
   "admin milestone two disable": "function lt:admin/milestone/disable {\"zone\":2}",
   "admin milestone three disable": "function lt:admin/milestone/disable {\"zone\":3}",
-  "admin milestone four disable": "function lt:admin/milestone/disable {\"zone\":4}"
+  "admin milestone four disable": "function lt:admin/milestone/disable {\"zone\":4}",
+  "admin games river unlock": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 1f",
+  "admin games river lock": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 0f",
+  "admin games philza unlock": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 1f",
+  "admin games philza lock": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 0f"
 }
