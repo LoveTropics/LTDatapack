@@ -3,7 +3,7 @@
     "minecraft:custom_name": "[{\"translate\":\"entity.minecraft.magma_cube\",\"color\":\"#5ABDA3\",\"italic\":false},{\"translate\":\" \"},{\"translate\":\"lt.collectible.hat.name.suffix\",\"color\":\"#5ABDA3\",\"italic\":false}]",
     "minecraft:lore": [
       "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}",
       "{\"text\":\" \"}",
       "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
       "[{\"text\": \" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.minecraft.magma_cube\",\"color\":\"blue\",\"italic\":false}]"

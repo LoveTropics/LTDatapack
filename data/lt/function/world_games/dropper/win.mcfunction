@@ -8,5 +8,6 @@ scoreboard players add Drops game.dropper.stats 1
 scoreboard players add @s game.dropper.stats_player_plays 1
 scoreboard players add @s game.dropper.stats_player_wins 1
 function lt:world_games/dropper/util/update_display
+collectible give @s lt:hat/magma_cube
 # scoreboard players set @s dropper.counter 0
 # function lt:game/dropper/gravity/reset
