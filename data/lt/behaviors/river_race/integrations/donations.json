@@ -14,5 +14,7 @@
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
 
-  "lt:river_race/integrations/disguises"
+  "lt:river_race/integrations/disguises",
+
+  {"type": "lt:integrations/packages/steve_pick", "donation_amount": 10.0}
 ]
