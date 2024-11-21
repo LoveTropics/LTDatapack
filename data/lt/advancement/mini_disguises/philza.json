@@ -4,15 +4,15 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:carrot",
+                    "items": "minecraft:rotten_flesh",
                     "components": {
-                        "minecraft:custom_data": "{MiniDisguise_Pig:1b,ParkourBlacklist:1b}"
+                        "minecraft:custom_data": "{MiniDisguise_Philza:1b,ParkourBlacklist:1b}"
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "lt:mini_disguises/pig"
+        "function": "lt:mini_disguises/philza"
     }
 }

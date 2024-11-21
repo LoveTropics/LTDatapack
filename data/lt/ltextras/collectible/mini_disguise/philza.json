@@ -1,0 +1,21 @@
+{
+  "components": {
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.philza.name\",\"color\":\"#BFEA00\",\"italic\":false}",
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.mini_disguise.philza.description\",\"color\":\"gray\"}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:custom_data": {
+      "ParkourBlacklist": true,
+      "MiniDisguise_Philza": true
+    },
+		"minecraft:food": {
+      "can_always_eat": true,
+			"nutrition": 1,
+			"saturation": 1
+		}
+  },
+  "item": "minecraft:rotten_flesh"
+}

@@ -168,6 +168,12 @@
 	"lt.collectible.rechargeable_windcharge.name": "Rechargeable Wind Charge",
 	"lt.collectible.rechargeable_windcharge.description": "Quick charge not included",
 
+	"lt.collectible.mini_disguise.pig.name": "Stickless Carrot",
+	"lt.collectible.mini_disguise.pig.description": "This is a harmless carrot right?",
+	"lt.collectible.mini_disguise.philza.name": "Slightly Modiifed Rotten Flesh",
+	"lt.collectible.mini_disguise.philza.description": "Transform! Into a just a \"normal\" baby zombie",
+
+
 	"lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",
 	"lt.utility_item.collectible_basket.description.2": "Collectibles are per-player and undroppable.",
 	"lt.utility_item.tropical_map.description.1": "Map with clickable teleport buttons to various",
