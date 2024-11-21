@@ -4,6 +4,7 @@
   {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0},
   "lt:integrations/packages/money_grows_on_trees",
   "lt:integrations/packages/team_coins",
+  "lt:river_race/integrations/feed_the_hungry",
 
   "lt:integrations/packages/mute_team_vc",
   "lt:integrations/packages/invert_controls",

@@ -1,0 +1,33 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "feed_the_hungry",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.feed_the_hungry"},
+  "description": {"translate": "ltminigames.minigame.donation.feed_the_hungry.description"},
+  "donation_amount": 15.0,
+  "apply_to_team": true,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.feed_the_hungry.toast",
+      "color": "light_purple"
+    },
+    "icon": { "effect": "minecraft:saturation" },
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "team_receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "minecraft:saturation",
+          "seconds": 60,
+          "amplifier": 0
+        }
+      ]
+    }
+  ]
+}
