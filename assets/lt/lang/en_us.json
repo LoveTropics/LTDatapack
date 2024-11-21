@@ -283,6 +283,7 @@
 	"lt.world_games.elytra.start.2": "Each ring will guide you toward the next.",
 
 	"lt.scavenger_hunt.clue": "Clue: %s\n%s",
+	"lt.scavenger_hunt": "Scavenger Hunt!!",
 	"lt.scavenger_hunt.spacer.start": "___________________\n\n",
 	"lt.scavenger_hunt.spacer.end": "\n\n___________________",
 	"lt.scavenger_hunt.order": "§4❗ §2You must complete the scavenger hunt in order.",
@@ -441,7 +442,6 @@
 
 	"lt.item.steve_pick.name": "Steve's Pickaxe",
 	"lt.item.steve_pick.lore": "As a child, I yearned for the mines",
-
 
 	"_todo_make_these_better_question": "Make these better?",
 	"ltminigames.minigame.donation.wind_charge_package": "Wind Charged",
