@@ -33,8 +33,20 @@
     "last_team": true
   },
   "lt:columns_of_chaos/end",
+  "ltminigames:time_survived_tracker",
   {
-    "type": "lt:fixed_rewards",
-    "coins": 5
+    "type": "ltminigames:game_finish",
+    "actions": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:give_reward",
+        "items": ["ltextras:tropicoin"],
+        "statistic_binding": {
+          "statistic": "time_survived",
+          "multiplier": 0.2
+        }
+      }
+    }
   }
 ]

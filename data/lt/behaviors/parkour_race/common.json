@@ -47,7 +47,16 @@
     "statistic_holder": "player"
   },
   {
+    "type": "ltminigames:events/game_over",
+    "actions": {
+      "type": "ltminigames:give_reward",
+      "items": [
+        {"id": "ltextras:tropicoin", "count": 5}
+      ]
+    }
+  },
+  {
     "type": "lt:fixed_rewards",
-    "coins": 5
+    "coins": 2
   }
 ]

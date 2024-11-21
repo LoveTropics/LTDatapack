@@ -52,21 +52,6 @@
       }
     },
     {
-      "type": "ltminigames:game_finish",
-      "actions": {
-        "type": "ltminigames:apply_to_player",
-        "target": "participants",
-        "actions": {
-          "type": "ltminigames:give_reward",
-          "items": ["ltextras:tropicoin"],
-          "statistic_binding": {
-            "statistic": "items_crafted",
-            "multiplier": 3
-          }
-        }
-      }
-    },
-    {
       "type": "ltminigames:events/game_over",
       "actions": {
         "type": "ltminigames:delayed",
@@ -92,8 +77,19 @@
     "lt:common/winner_fireworks",
     "lt:common/winner_glows",
     {
-      "type": "lt:fixed_rewards",
-      "coins": 5
+      "type": "ltminigames:game_finish",
+      "actions": {
+        "type": "ltminigames:apply_to_player",
+        "target": "all",
+        "actions": {
+          "type": "ltminigames:give_reward",
+          "items": ["ltextras:tropicoin"],
+          "statistic_binding": {
+            "statistic": "items_crafted",
+            "from_team": true
+          }
+        }
+      }
     }
   ]
 }

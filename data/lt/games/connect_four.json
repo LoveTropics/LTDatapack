@@ -103,14 +103,19 @@
       "target": "all"
     },
     {
+      "type": "ltminigames:events/game_over",
+      "actions": {
+        "type": "ltminigames:give_reward",
+        "items": [
+          {"id": "ltextras:tropicoin", "count": 5}
+        ]
+      }
+    },
+    {
       "type": "ltminigames:game_end_effects",
       "stop_delay": 140
     },
     "lt:common/winner_fireworks",
-    "lt:common/winner_glows",
-    {
-      "type": "lt:fixed_rewards",
-      "coins": 5
-    }
+    "lt:common/winner_glows"
   ]
 }

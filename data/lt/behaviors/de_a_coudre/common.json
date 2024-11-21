@@ -43,7 +43,19 @@
   },
   "lt:de_a_coudre/end",
   {
-    "type": "lt:fixed_rewards",
-    "coins": 5
+    "type": "ltminigames:game_finish",
+    "actions": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:give_reward",
+        "items": ["ltextras:tropicoin"],
+        "statistic_binding": {
+          "statistic": "points",
+          "multiplier": 0.1,
+          "from_team": true
+        }
+      }
+    }
   }
 ]
