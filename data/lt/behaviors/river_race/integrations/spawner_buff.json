@@ -1,0 +1,28 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "spawner_buff",
+  "package_type": "sabotage_package",
+  "category": "medium",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.spawner_buff"},
+  "description": {"translate": "ltminigames.minigame.donation.spawner_buff.description"},
+  "donation_amount": 50.0,
+  "apply_to_team": true,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.spawner_buff.toast",
+      "color": "red"
+    },
+    "icon": { "item": "minecraft:spawner" },
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "team_receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:river_race/modify_max_spawns",
+      "factor": 2.0,
+      "duration_ticks": 1200
+    }
+  ]
+}

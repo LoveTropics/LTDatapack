@@ -18,7 +18,11 @@
   },
   {
     "type": "ltminigames:river_race/setup",
-    "forward_direction": "east"
+    "forward_direction": "east",
+    "team_regions": {
+      "red": "red",
+      "blue": "blue"
+    }
   },
   {
     "type": "ltminigames:river_race/spawns",
