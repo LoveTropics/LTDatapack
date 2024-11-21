@@ -1,2 +1,2 @@
-execute as @a[tag=in.parkour.area] if score @s parkour.tp matches 1.. run function lt:world_games/parkour/teleport with gamedata lt:parkour @s[type=minecraft:player]
-#execute as @a if score @s parkour.tp matches 1.. run scoreboard players set @s parkour.tp 0
+execute as @a[tag=in.parkour.area] in tropicraft:tropics if score @s parkour.tp matches 1.. run function lt:world_games/parkour/teleport with gamedata lt:parkour @s[type=minecraft:player]
+execute as @a if score @s parkour.tp matches 1.. run scoreboard players set @s parkour.tp 0
