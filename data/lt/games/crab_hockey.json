@@ -40,6 +40,7 @@
       "face_region": "crab_spawn"
     },
     "lt:crab_hockey/equipment",
+    "lt:crab_hockey/intro",
     {
       "type": "ltminigames:progression",
       "named_points": {

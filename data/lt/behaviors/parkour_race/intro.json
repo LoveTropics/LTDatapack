@@ -1,0 +1,16 @@
+[
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "1": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.parkour_race.intro1",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    }
+  }
+]

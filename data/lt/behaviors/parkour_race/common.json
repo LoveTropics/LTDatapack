@@ -1,6 +1,7 @@
 [
   "ltminigames:spectator_chase",
   "lt:parkour_race/ruleset",
+  "lt:parkour_race/intro",
   {
     "type": "ltminigames:position_players",
     "teams": {

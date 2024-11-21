@@ -34,6 +34,20 @@
       "join_late_with_role": "spectator",
       "allow_rejoin": true
     },
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "all",
+      "actions": {
+        "1": {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.crafting_bee.intro1",
+            "color": "gold",
+            "italic": true
+          }
+        }
+      }
+    },
     "ltminigames:teams",
     {
       "type": "ltminigames:position_players",
