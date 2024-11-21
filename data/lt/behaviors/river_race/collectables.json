@@ -15,6 +15,10 @@
           "amount": -16,
           "operation": "add_value"
         }
+      },
+      {
+        "type": "ltminigames:set_glowing",
+        "glowing": true
       }
     ],
     "clear": [
@@ -22,6 +26,10 @@
         "type": "ltminigames:clear_attribute_modifier",
         "attribute": "minecraft:generic.max_health",
         "id": "lt:river_race/held_collectable"
+      },
+      {
+        "type": "ltminigames:set_glowing",
+        "glowing": false
       }
     ],
     "stack": false
