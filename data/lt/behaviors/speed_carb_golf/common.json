@@ -17,6 +17,18 @@
     "ticks": 10
   },
   {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 2,
+    "title": {
+      "translate": "ltminigames.minigame.speed_carb_golf",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  },
+  {
     "type": "ltminigames:speed_carb_golf",
     "possible_holes": {
       "lt:golf/2022/hole_1":  "202201",
