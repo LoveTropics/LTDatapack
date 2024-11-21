@@ -157,7 +157,7 @@
 		{
 			"type": "bitmap",
 			"file": "lt:font/other/collectible_basket.png",
-			"ascent": 8,
+			"ascent": 6,
 			"height": 7,
 			"chars": ["\uE045"]
 		},
