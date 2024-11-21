@@ -20,17 +20,64 @@
     "donation_amount": 15.0
   },
   {
-    "type": "lt:integrations/packages/disguise",
-    "id": "fiddler_crab",
-    "name": "ltminigames.minigame.donation.fiddler_crab",
-    "description": "ltminigames.minigame.donation.fiddler_crab.description",
-    "toast": "ltminigames.minigame.donation.fiddler_crab.toast",
-    "entity": {
-      "type": "tropicraft:fiddler_crab"
+    "type": "ltminigames:donation_package",
+    "id": "pvp_crabs",
+    "package_type": "sabotage_package",
+    "category": "large",
+    "player_select": "all",
+    "name": {"translate": "ltminigames.minigame.donation.pvp_crabs"},
+    "description": {"translate": "ltminigames.minigame.donation.pvp_crabs.description"},
+    "donation_amount": 30.0,
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.pvp_crabs.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": {
+          "id": "ltminigames:disguise",
+          "count": 1,
+          "components": {
+            "ltminigames:disguise": {
+              "entity": {
+                "type": "tropicraft:fiddler_crab"
+              }
+            }
+          }
+        }
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
     },
-    "seconds": 60,
-    "donation_amount": 8.0
+    "receive_actions": [
+      {
+        "type": "ltminigames:apply_for_time",
+        "apply": {
+          "target": "participants",
+          "actions": {
+            "type": "ltminigames:set_disguise",
+            "entity": {
+              "type": "tropicraft:fiddler_crab"
+            }
+          }
+        },
+        "clear": {
+          "target": "all",
+          "actions": {
+            "type": "ltminigames:clear_disguise",
+            "entity": {
+              "type": "tropicraft:fiddler_crab"
+            }
+          }
+        },
+        "nested": {
+          "type": "ltminigames:allow_player_knockback"
+        },
+        "seconds": 60
+      }
+    ]
   },
+
   {
     "type": "ltminigames:donation_package",
     "id": "plus_one_crab",

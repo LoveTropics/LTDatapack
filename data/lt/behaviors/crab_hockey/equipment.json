@@ -44,6 +44,15 @@
             }
           }
         }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+          "id": "lt:crab_hockey",
+          "amount": 0.75,
+          "operation": "add_value"
+        }
       }
     ]
   }
