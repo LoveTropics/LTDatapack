@@ -303,6 +303,8 @@
 	"lt.game.parkour.general.message.parkour_course": " parkour course.",
 	"lt.game.parkour.general.checkpoint_portal": "Checkpoint Portal",
 	"lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
+	"lt.game.parkour.general.drop_item": "Drop item to return to last checkpoint",
+	"lt.game.parkour.general.checkpoint": "Checkpoint Key",
 
 	"lt.game.parkour.general.billboard.checkpoint_portal": "Checkpoint Portal",
 	"lt.game.parkour.general.billboard.return_portal": "Return Portal",
@@ -589,7 +591,6 @@
 	"lt.river_race.trivia.question_26.b": "1 million",
 	"lt.river_race.trivia.question_26.c": "10 million",
 	"lt.river_race.trivia.question_26.d": "15 million",
-
 
 	"ltminigames.minigame.river_race.zone.the_cliff": "The Cliff"
 }
