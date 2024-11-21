@@ -48,6 +48,7 @@ execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
 
 # Parkour
 #execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
+function lt:world_games/parkour/on_second
 
 # Dropper
 function lt:world_games/dropper/on_tick
