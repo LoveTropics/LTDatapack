@@ -161,3 +161,7 @@ scoreboard objectives add quest.main.misc_eval dummy
 team add quest.npc.no_collide
 team modify quest.npc.no_collide collisionRule never
 team modify quest.npc.no_collide friendlyFire false
+
+
+# Mini Disguises
+scoreboard objectives add mini_disguises.clock dummy

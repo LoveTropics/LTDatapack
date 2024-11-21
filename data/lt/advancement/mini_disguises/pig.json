@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:carrot",
+                    "components": {
+                        "minecraft:custom_data": "{MiniDisguise_Pig:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lt:mini_disguises/pig"
+    }
+}
