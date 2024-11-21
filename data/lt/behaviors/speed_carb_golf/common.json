@@ -19,7 +19,7 @@
   {
     "type": "ltminigames:points_sidebar",
     "statistic": "points",
-    "order": "max",
+    "order": "min",
     "count": 2,
     "title": {
       "translate": "ltminigames.minigame.speed_carb_golf",

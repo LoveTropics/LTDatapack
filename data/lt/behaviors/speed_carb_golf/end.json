@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:place_by_statistic",
     "statistic": "points",
-    "order": "max"
+    "order": "min"
   },
   {
     "type": "ltminigames:events/game_over",
@@ -26,7 +26,7 @@
   {
     "type": "ltminigames:display_leaderboard_on_finish",
     "statistic": "points",
-    "order": "max",
+    "order": "min",
     "length": 5
   }
 ]
