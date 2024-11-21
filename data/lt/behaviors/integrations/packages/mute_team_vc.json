@@ -1,0 +1,23 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "mute_team_vc",
+  "package_type": "sabotage_package",
+  "category": "large",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.mute_team_vc"},
+  "description": {"translate": "ltminigames.minigame.donation.mute_team_vc.description"},
+  "donation_amount": 100.0,
+  "apply_to_team": true,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.mute_team_vc.toast",
+      "color": "red"
+    },
+    "icon": { "item": "minecraft:white_wool" },
+    "sentiment": "negative",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package"
+  ]
+}
