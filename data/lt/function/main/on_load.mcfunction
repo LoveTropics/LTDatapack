@@ -126,6 +126,7 @@ function lt:donation_effects/party_room/disco_floor/on_second
 
 # Scavenger Hunt
 scoreboard objectives add sh_seat dummy
+scoreboard objectives add stats.sh dummy
 
 # Stats
 scoreboard objectives add chair_sit_time dummy
