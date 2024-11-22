@@ -23,5 +23,6 @@
 	"admin effects random_mob enable": "scoreboard players set randomMob golf.events 1",
 	"admin effects random_mob disable": "scoreboard players set randomMob golf.events 0",
 	"admin events golf host_mode enable": "scoreboard players set hostMode golf.events 1",
-	"admin events golf host_mode disable": "scoreboard players set hostMode golf.events 0"
+	"admin events golf host_mode disable": "scoreboard players set hostMode golf.events 0",
+	"admin disguse_all shoebill": "execute as @a[current_world=true] run disguise as tropicraft:shoebill_stork"
 }
