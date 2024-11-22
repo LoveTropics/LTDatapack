@@ -462,7 +462,7 @@
 
 	"ltminigames.minigame.donation.more_friction": "Decrease Friction",
 	"ltminigames.minigame.donation.more_friction.description": "Decrease the friction of everyone and make everything more slippery",
-	"ltminigames.minigame.donation.more_friction.toast": "%sender% has decrease the friction!",
+	"ltminigames.minigame.donation.more_friction.toast": "%sender% has decreased the friction!",
 
 	"ltminigames.minigame.donation.steve_pick": "Steve's Pickaxe",
 	"ltminigames.minigame.donation.steve_pick.description": "Give a player an Efficiency 3 Diamond Pickaxe - that can only mine ores",
