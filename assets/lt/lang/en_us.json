@@ -620,10 +620,10 @@
 	"ltminigames.minigame.dodgeball.glowing_power_up": "Glowing Mode",
 	"ltminigames.minigame.dodgeball.glowing.subtitle": "Glowing Power-up",
 	"ltminigames.minigame.donation.dodgeball.rapid_fire.description": "Reduce the dodgeball cooldown for the next 30 seconds",
-	"ltminigames.minigame.donation.dodgeball.rapid_fire.toast": "%sender% has actived Rapid Fire for 30 seconds!",
+	"ltminigames.minigame.donation.dodgeball.rapid_fire.toast": "%sender% has activated Rapid Fire for 30 seconds!",
 	"ltminigames.minigame.donation.dodgeball.big_boom": "Big Boom Mode",
-	"ltminigames.minigame.donation.dodgeball.big_boom.description": "Give everyone more powerfull 'Exploding Dodgeballs' for 1 minute",
-	"ltminigames.minigame.donation.dodgeball.big_boom.toast": "%sender% has actived Big Booms for 1 minute!",
+	"ltminigames.minigame.donation.dodgeball.big_boom.description": "Give everyone more powerful 'Exploding Dodgeballs' for 1 minute",
+	"ltminigames.minigame.donation.dodgeball.big_boom.toast": "%sender% has activated Big Booms for 1 minute!",
 
 	"ltminigames.minigame.paint_party.intro1": "Welcome to Paint Party! Your goal is to paint the map with your team's color, by walking on the map and using the paintball gun.",
 	"ltminigames.minigame.paint_party.intro2": "Make sure to refill your paint by holding shift on your own color!",
