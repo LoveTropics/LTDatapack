@@ -7,11 +7,11 @@
 scoreboard players add @s quest.dia.target_line 1
 
 ## Standard Dialogue
-execute if score @s quest.dia.target_line matches 1 run tellraw @s [{"text":"???","color":"#B24D01"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.initial_contact.1","color": "gray"}]
+execute if score @s quest.dia.target_line matches 1 run tellraw @s [{"text":"???","color":"#E47E02"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.initial_contact.1","color": "gray"}]
 execute if score @s quest.dia.target_line matches 1 run playsound minecraft:entity.ender_eye.death master @s
 execute if score @s quest.dia.target_line matches 1 run scoreboard players set @s quest.dia.line_time 60
 
-execute if score @s quest.dia.target_line matches 2 run tellraw @s [{"text":"???","color":"#B24D01"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.initial_contact.2","color": "gray"}]
+execute if score @s quest.dia.target_line matches 2 run tellraw @s [{"text":"???","color":"#E47E02"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.initial_contact.2","color": "gray"}]
 execute if score @s quest.dia.target_line matches 2 run playsound minecraft:entity.ender_eye.death master @s
 execute if score @s quest.dia.target_line matches 2 run scoreboard players set @s quest.dia.line_time 35
 

@@ -10,7 +10,7 @@
 $scoreboard players set @s quest.dia.end_state $(end_state)
 
 # end_state == 0 | Cancel dialogue
-execute if score @s quest.dia.end_state matches 0 run tellraw @s [{"text":"Change Centara","color":"#B24D01"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.meet_leader.cancel","color": "gray"}]
+execute if score @s quest.dia.end_state matches 0 run tellraw @s [{"text":"Change Centara","color":"#E47E02"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.meet_leader.cancel","color": "gray"}]
 execute if score @s quest.dia.end_state matches 0 run playsound minecraft:entity.illusioner.ambient master @s
 execute if score @s quest.dia.end_state matches 0 run playsound minecraft:block.note_block.snare master @s
 

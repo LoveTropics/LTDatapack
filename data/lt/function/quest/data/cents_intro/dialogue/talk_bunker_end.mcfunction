@@ -10,7 +10,7 @@
 $scoreboard players set @s quest.dia.end_state $(end_state)
 
 # end_state == 0 | Cancel dialogue
-execute if score @s quest.dia.end_state matches 0 run tellraw @s [{"text":"Claire","color":"#B24D01"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.enter_bunker.cancel","color": "gray"}]
+execute if score @s quest.dia.end_state matches 0 run tellraw @s [{"text":"Claire","color":"#E47E02"},{"text": ": ","color": "gray"},{"translate": "lt.quest.cents_intro.enter_bunker.cancel","color": "gray"}]
 execute if score @s quest.dia.end_state matches 0 run playsound minecraft:entity.illusioner.ambient master @s ~ ~ ~ 1 2
 execute if score @s quest.dia.end_state matches 0 run playsound minecraft:block.note_block.snare master @s
 
