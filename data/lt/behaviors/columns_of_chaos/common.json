@@ -11,13 +11,13 @@
     ],
     "floor_region": "floor"
   },
+  "ltminigames:kills_tracker",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
     "drop_inventory": true
   },
-  "ltminigames:kills_tracker",
   {
     "type": "ltminigames:points_sidebar",
     "statistic": "kills",
