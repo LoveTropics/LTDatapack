@@ -1,1 +1,1 @@
-execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run fill -60 136 -73 -60 134 -71 air
+execute in tropicraft:tropics run fill -60 136 -73 -60 134 -71 minecraft:quartz_pillar
