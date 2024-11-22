@@ -67,7 +67,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"tropicraft:explosion_radius": 2,
-								"ltextras:cooldown_override": 20
+								"ltextras:cooldown_override": 5
 							}
 						}
 					],
@@ -93,7 +93,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"tropicraft:explosion_radius": 4,
-								"ltextras:cooldown_override": 20
+								"ltextras:cooldown_override": 5
 							}
 						}
 					],
