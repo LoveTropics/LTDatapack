@@ -8,12 +8,12 @@
 		"translate": "ltminigames.minigame.donation.dodgeball.rapid_fire"
 	},
 	"description": {
-		"translate": "ltminigames.minigame.donation.dodgeball.rapid_fire_package.description"
+		"translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.description"
 	},
 	"donation_amount": 5,
 	"notification": {
 		"message": {
-			"translate": "ltminigames.minigame.donation.boom_package.toast",
+			"translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.toast",
 			"color": "light_purple"
 		},
 		"icon": { "item": "tropicraft:exploding_coconut" },
