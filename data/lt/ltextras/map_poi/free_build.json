@@ -1,5 +1,5 @@
 {
-	"description": { "translate": "lt.poi.elytra" },
+	"description": { "translate": "lt.poi.free_build" },
 	"icon": {
 		"item": {
 			"id": "minecraft:diamond_pickaxe"
