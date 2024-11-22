@@ -1,0 +1,1 @@
+execute as @e[tag=spawn.effect.failgull] at @s run summon minecraft:falling_block ~ ~ ~4 {CancelDrop:true,BlockState:{Name:"minecraft:diorite"}}

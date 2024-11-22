@@ -1,0 +1,13 @@
+[
+    {
+      "predicate": {
+        "amount": {
+          "min": 1
+        }
+      },
+      "action": {
+        "type": "run_function",
+        "function": "lt:donation_effects/birds/bird"
+      }
+    }
+  ]
