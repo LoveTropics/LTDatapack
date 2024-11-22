@@ -50,7 +50,7 @@
 		"seconds": 30
 	},
 	{
-		"type": "lt:dodgeball/items/effect_power_up",
+		"type": "lt:dodgeball/items/attribute_for_others_power_up",
 		"item_tag": "{power_up: \"no_jump\"}",
 		"attribute": {
 			"id": "dodgeball.gravity",
@@ -65,7 +65,7 @@
 		"seconds": 5
 	},
 	{
-		"type": "lt:dodgeball/items/effect_power_up",
+		"type": "lt:dodgeball/items/attribute_for_others_power_up",
 		"item_tag": "{power_up: \"slowness\"}",
 		"attribute": {
 			"id": "dodgeball.slowness",
@@ -80,7 +80,7 @@
 		"seconds": 5
 	},
 	{
-		"type": "lt:dodgeball/items/effect_power_up",
+		"type": "lt:dodgeball/items/effect_for_others_power_up",
 		"item_tag": "{power_up: \"glowing\"}",
 		"effect": "minecraft:glowing",
 		"subtitle": {
