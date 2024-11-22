@@ -1,0 +1,11 @@
+{
+	"description": {"translate":"lt.poi.crab_hockey","fallback":"Crab Hockey"}	,
+	"icon": {
+		"item": {
+			"id": "minecraft:ice"
+		}
+	},
+	"pos": [-414, 136, -35],
+	"angle": 175,
+	"map": "lt:tropics"
+}
