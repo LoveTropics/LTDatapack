@@ -8,6 +8,7 @@
 # Run utility on tick functions
 function lt:utility/on_tick
 
+execute as @a[tag=!utility.player.joined] at @s run function lt:utility/player/first_join
 
 # Runs MiniGolf tick commands
 function lt:game/minigolf/core/on_tick
