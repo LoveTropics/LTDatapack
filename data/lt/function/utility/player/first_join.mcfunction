@@ -23,7 +23,7 @@ tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"text":"","colo
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"translate":"lt.utility.first_join.message.1","color":"#ff9900"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"            "},{"translate":"lt.utility.first_join.title","color":"#4eb61d"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"               "},{"text":"            ❤ ","color":"red"}]
-tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"          "},{"translate":"lt.info.wea.1","color":"#1c8a9b"}]
+tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"          "},{"translate":"lt.info.wea.1","color":"#21b8cf"}]
 tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 #function lt:collectible/give/utility/tropical_map
