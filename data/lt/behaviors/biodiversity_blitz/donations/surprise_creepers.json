@@ -19,10 +19,6 @@
   "receive_actions": [
     {
       "type": "ltminigames:countdown_action",
-      "target": {
-        "type": "ltminigames:player",
-        "value": "source"
-      },
       "warning": {
         "translate": "ltminigames.minigame.donation.surprise_creepers.warning",
         "color": "red"
