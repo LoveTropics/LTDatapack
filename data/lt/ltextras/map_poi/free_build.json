@@ -1,0 +1,10 @@
+{
+	"description": { "translate": "lt.poi.elytra" },
+	"icon": {
+		"item": {
+			"id": "minecraft:diamond_pickaxe"
+		}
+	},
+	"pos": [-442, 132, 54],
+	"map": "lt:tropics"
+}
