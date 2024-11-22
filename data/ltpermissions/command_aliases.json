@@ -19,5 +19,9 @@
 	"admin effects scale set_mode disabled": "scoreboard players set Enable events.hosts -1",
 	"admin effects scale set_mode scale_up": "scoreboard players set Enable events.hosts 1",
 	"admin effects scale set_mode scale_down": "scoreboard players set Enable events.hosts 2",
-	"admin effects scale reset_scale": "function lt:donation_effects/scale/reset"
+	"admin effects scale reset_scale": "function lt:donation_effects/scale/reset",
+	"admin effects random_mob enable": "scoreboard players set randomMob golf.events 1",
+	"admin effects random_mob disable": "scoreboard players set randomMob golf.events 0",
+	"admin events golf host_mode enable": "scoreboard players set hostMode golf.events 1",
+	"admin events golf host_mode disable": "scoreboard players set hostMode golf.events 0"
 }
