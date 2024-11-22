@@ -79,6 +79,9 @@
       "type": "ltminigames:set_difficulty",
       "difficulty": "normal"
     },
+    {
+      "type": "ltminigames:progression"
+    },
     "lt:biodiversity_blitz/plots",
     {
       "type": "ltminigames:biodiversity_blitz_wave_spawner",
