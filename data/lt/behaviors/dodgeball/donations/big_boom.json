@@ -4,14 +4,16 @@
 	"package_type": "care_package",
 	"category": "small",
 	"player_select": "all",
-	"name": { "translate": "ltminigames.minigame.donation.boom_package" },
-	"description": {
-		"translate": "ltminigames.minigame.donation.boom_package.description"
+	"name": {
+		"translate": "ltminigames.minigame.donation.dodgeball.boom_package"
 	},
-	"donation_amount": 10,
+	"description": {
+		"translate": "ltminigames.minigame.donation.boom_package.dodgeball.description"
+	},
+	"donation_amount": 5,
 	"notification": {
 		"message": {
-			"translate": "ltminigames.minigame.donation.boom_package.toast",
+			"translate": "ltminigames.minigame.donation.boom_package.dodgeball.toast",
 			"color": "light_purple"
 		},
 		"icon": { "item": "tropicraft:exploding_coconut" },

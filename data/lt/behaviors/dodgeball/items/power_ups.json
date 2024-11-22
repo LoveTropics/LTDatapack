@@ -7,17 +7,7 @@
 			"translate": "ltminigames.minigame.qottott.speed_power_up.subtitle",
 			"color": "aqua"
 		},
-		"seconds": 20
-	},
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"health\"}",
-		"effect": "minecraft:absorption",
-		"subtitle": {
-			"translate": "ltminigames.minigame.qottott.health_power_up.subtitle",
-			"color": "red"
-		},
-		"seconds": 20
+		"seconds": 30
 	},
 	{
 		"type": "lt:dodgeball/items/effect_power_up",
@@ -27,7 +17,7 @@
 			"translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
 			"color": "red"
 		},
-		"seconds": 20
+		"seconds": 30
 	},
 	{
 		"type": "lt:dodgeball/items/attribute_power_up",
@@ -42,7 +32,7 @@
 			"translate": "ltminigames.minigame.dodgeball.scale.subtitle",
 			"color": "red"
 		},
-		"seconds": 20
+		"seconds": 30
 	},
 	{
 		"type": "lt:dodgeball/items/attribute_power_up",
@@ -57,7 +47,7 @@
 			"translate": "ltminigames.minigame.gravity.scale.subtitle",
 			"color": "red"
 		},
-		"seconds": 20
+		"seconds": 30
 	},
 	{
 		"type": "ltminigames:power_up_indicator",
