@@ -1,0 +1,1 @@
+$summon minecraft:marker ~ ~ ~ {Tags:[lt.system.teleporter_cents],data:{x:$(x),y:$(y),z:$(z),rY:$(rY),rX:$(rX)}}

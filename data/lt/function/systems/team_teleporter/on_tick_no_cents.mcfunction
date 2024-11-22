@@ -1,0 +1,2 @@
+particle minecraft:portal ~ ~2 ~ 0 -1 0 0.1 1 force @a[tag=quest.no_cents_intro.office_access]
+execute as @a[distance=0..1] at @s run function lt:utility/tp with entity @n[tag=lt.system.teleporter_no_cents] data
