@@ -40,14 +40,54 @@
 		"attribute": {
 			"id": "dodgeball.gravity",
 			"name": "minecraft:generic.gravity",
+			"amount": -0.03,
+			"operation": "add_value"
+		},
+		"subtitle": {
+			"translate": "ltminigames.minigame.dodgeball.gravity.subtitle",
+			"color": "red"
+		},
+		"seconds": 30
+	},
+	{
+		"type": "lt:dodgeball/items/effect_power_up",
+		"item_tag": "{power_up: \"no_jump\"}",
+		"attribute": {
+			"id": "dodgeball.gravity",
+			"name": "minecraft:generic.gravity",
 			"amount": -0.07,
 			"operation": "add_value"
 		},
 		"subtitle": {
-			"translate": "ltminigames.minigame.gravity.scale.subtitle",
+			"translate": "ltminigames.minigame.dodgeball.no_jump.subtitle",
 			"color": "red"
 		},
-		"seconds": 30
+		"seconds": 5
+	},
+	{
+		"type": "lt:dodgeball/items/effect_power_up",
+		"item_tag": "{power_up: \"slowness\"}",
+		"attribute": {
+			"id": "dodgeball.slowness",
+			"name": "minecraft:generic.jump_strength",
+			"amount": -0.1,
+			"operation": "add_value"
+		},
+		"subtitle": {
+			"translate": "ltminigames.minigame.dodgeball.slowness.subtitle",
+			"color": "red"
+		},
+		"seconds": 5
+	},
+	{
+		"type": "lt:dodgeball/items/effect_power_up",
+		"item_tag": "{power_up: \"glowing\"}",
+		"effect": "minecraft:glowing",
+		"subtitle": {
+			"translate": "ltminigames.minigame.dodgeball.glowing.subtitle",
+			"color": "red"
+		},
+		"seconds": 5
 	},
 	{
 		"type": "ltminigames:power_up_indicator",
