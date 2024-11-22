@@ -15,6 +15,9 @@
 			"game_type": "adventure",
 			"join_late_with_role": "spectator"
 		},
-		"lt:dodgeball/common"
+		{
+			"type": "lt:dodgeball/common",
+			"equip_action": "lt:dodgeball/equip_ffa"
+		}
 	]
 }

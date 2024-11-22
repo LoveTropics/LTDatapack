@@ -15,6 +15,12 @@
 		"duration": 30
 	},
 	"lt:dodgeball/donations/disguises",
-	"lt:dodgeball/donations/rapid_fire",
-	"lt:dodgeball/donations/big_boom"
+	{
+		"type": "lt:dodgeball/donations/rapid_fire",
+		"equip_action": "$equip_action"
+	},
+	{
+		"type": "lt:dodgeball/donations/big_boom",
+		"equip_action": "$equip_action"
+	}
 ]

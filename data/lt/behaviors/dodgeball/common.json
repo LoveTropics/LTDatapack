@@ -4,7 +4,10 @@
 	"lt:dodgeball/phases",
 	"lt:dodgeball/map",
 	"lt:dodgeball/items",
-	"lt:dodgeball/donations",
+	{
+		"type": "lt:dodgeball/donations",
+		"equip_action": "$equip_action"
+	},
 	{
 		"type": "ltminigames:immediate_respawn",
 		"role": "participant",
@@ -35,23 +38,6 @@
 			{
 				"type": "ltminigames:run_commands",
 				"player": ["scoreboard players set @s dodgeball.packages 0"]
-			},
-			{
-				"type": "ltminigames:add_equipment",
-				"clear": true,
-				"items": [
-					{
-						"id": "tropicraft:exploding_coconut",
-						"count": 64,
-						"components": {
-							"unbreakable": {},
-							"ltextras:undroppable": {},
-							"tropicraft:destroys_blocks": false,
-							"tropicraft:explosion_radius": 2,
-							"ltextras:cooldown_override": 40
-						}
-					}
-				]
 			}
 		]
 	},
@@ -59,14 +45,7 @@
 		"type": "ltminigames:on_spawn",
 		"role": "participant",
 		"action": [
-			{
-				"type": "ltminigames:add_equipment",
-				"clear": true
-			},
-			{
-				"type": "ltminigames:give_loot",
-				"loot_table": "lt:dodgeball/dodgeball"
-			},
+			"$equip_action",
 			{
 				"type": "ltminigames:add_attribute_modifier",
 				"attribute": "minecraft:generic.max_health",

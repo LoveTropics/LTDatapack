@@ -32,7 +32,14 @@
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
-    "lt:dodgeball/common",
-    "lt:dodgeball/common_teams"
+    {
+      "type": "lt:dodgeball/common",
+      "equip_action": "lt:dodgeball/equip_teams"
+    },
+    {
+      "type": "ltminigames:sum_statistic",
+      "statistic": "points",
+      "for_team": true
+    }
   ]
 }

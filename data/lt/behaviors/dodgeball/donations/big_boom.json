@@ -24,13 +24,6 @@
 			"type": "ltminigames:run_commands",
 			"player": ["function lt:game/dodgeball/packages/big_boom/start"]
 		},
-		{
-			"type": "ltminigames:add_equipment",
-			"clear": true
-		},
-		{
-			"type": "ltminigames:give_loot",
-			"loot_table": "lt:dodgeball/dodgeball"
-		}
+		"$equip_action"
 	]
 }

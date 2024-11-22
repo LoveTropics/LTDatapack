@@ -1,0 +1,10 @@
+[
+  {
+    "type": "ltminigames:add_equipment",
+    "clear": true
+  },
+  {
+    "type": "ltminigames:give_loot",
+    "loot_table": "lt:dodgeball/dodgeball"
+  }
+]
