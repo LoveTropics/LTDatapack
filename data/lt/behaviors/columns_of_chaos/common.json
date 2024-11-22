@@ -7,7 +7,9 @@
     "pillar_height": 10,
     "item_interval": 10,
     "excluded_items": [
-      "ltextras:tropical_map"
+      "ltextras:tropical_map",
+      "ltextras:image",
+      "ltextras:invite"
     ],
     "floor_region": "floor"
   },
