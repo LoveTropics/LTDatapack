@@ -1,8 +1,9 @@
 {
   "components": {
     "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.milestone.5000.description\",\"color\":\"gray\",\"italic\":true}",
       "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.unicode.milestone\",\"color\":\"white\",\"italic\":false}",
       "{\"text\":\" \"}",
       "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
       "{\"translate\":\"lt.collectible.disguise.tooltip.subtract_player\",\"color\":\"blue\",\"italic\":false}",

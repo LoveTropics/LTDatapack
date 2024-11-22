@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "lt:milestone/fifteen_spider_monkey",
-    "lt:milestone/five_gibnut",
-    "lt:milestone/philza_baby_zombie",
-    "lt:milestone/ten_tropicreeper",
-    "lt:milestone/twenty_turtle"
+    "lt:disguise/shoebill_stork",
+    "lt:disguise/gibnut",
+    "lt:disguise/armadillo",
+    "lt:disguise/breeze",
+    "lt:disguise/white_winged_warbler"
   ]
 }
