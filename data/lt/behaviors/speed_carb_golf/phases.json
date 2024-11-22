@@ -48,14 +48,11 @@
             "color": "red"
           },
           "stay": 30
-        }
-      ]
+        },
+        "ltminigames:end_game"
+      ],
+      "close": "ltminigames:close_game"
     }
-  },
-  {
-    "type": "ltminigames:timed_close",
-    "end": "end",
-    "close": "close"
   },
   {
     "type": "ltminigames:phase_progress_bar",
