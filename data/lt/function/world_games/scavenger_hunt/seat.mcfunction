@@ -33,5 +33,6 @@ execute as @e[tag=sh_seat] at @s as @e[type=ltextras:seat,distance=..20] on pass
 execute as @e[tag=sh_seat] at @s as @e[type=ltextras:seat,distance=..20] on passengers at @s unless block ~ ~1 ~ ltextras:pink_seat unless block ~ ~1 ~ ltextras:gray_seat if score @s sh_seat matches 7 run scoreboard players set @s sh_seat 0
 
 
-execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run say :pogflip:
 execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run scoreboard players set @s sh_seat 0
+execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run fill -60 136 -73 -60 134 -71 air
+schedule function lt:world_games/scavenger_hunt/set_block
