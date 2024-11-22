@@ -647,7 +647,14 @@
 	"lt.quest.no_cents_item.no_cents_badge.description": "It's in pristine condition.",
 	"lt.quest.no_cents_item.no_cents_badge.description.2": "Oh my gosh and it's made of gold.",
 
+	"lt.quest.no_cents_item.cent_sensors": "Cent Sensors",
+	"lt.quest.no_cents_item.cent_sensors.description": "Identifies players with an allegiance to chaos: Team Cents.",
+	"lt.quest.no_cents_item.cent_sensors.description.2": "Top-secret, very high-tech. Keep them safe.",
+
 	"lt.quest.cents_item.badge": "Team Cents Operator Badge",
+	"lt.quest.cents_item.nonsense_sensors": "Nonsense Sensors",
+	"lt.quest.cents_item.nonsense_sensors.description": "Identifies players that might be full of nonsense: Team No Cents.",
+	"lt.quest.cents_item.nonsense_sensors.description.2": "Top-secret, very high-tech. Keep them safe.",
 
 	"lt.quest.cents_intro.initial_contact.1": "We like your Cents style. Come find us.",
 	"lt.quest.cents_intro.initial_contact.2": "Waterfall Club. Blue Skull booth.",

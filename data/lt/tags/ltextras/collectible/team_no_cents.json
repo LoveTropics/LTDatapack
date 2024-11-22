@@ -4,6 +4,8 @@
     "lt:team_no_cents/boots",
     "lt:team_no_cents/chestplate",
     "lt:team_no_cents/helmet",
-    "lt:team_no_cents/leggings"
+    "lt:team_no_cents/leggings",
+    "lt:team_no_cents/team_no_cents_badge",
+    "lt:team_no_cents/cent_sensors"
   ]
 }

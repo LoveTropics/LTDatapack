@@ -1,0 +1,13 @@
+{
+  "components": {
+    "minecraft:item_name": "{\"translate\":\"lt.quest.cents_item.nonsense_sensors\",\"color\":\"#E5B106\"}",
+    "minecraft:lore": [
+      "{\"translate\":\"lt.quest.cents_item.nonsense_sensors.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"translate\":\"lt.quest.cents_item.nonsense_sensors.description.2\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.quest\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:hide_additional_tooltip": {}
+  },
+  "item": "ltextras:orange_glasses"
+}
