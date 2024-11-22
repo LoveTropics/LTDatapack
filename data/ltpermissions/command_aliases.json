@@ -15,5 +15,9 @@
 	"admin games river enable": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 1f",
 	"admin games river disable": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 0f",
 	"admin games philza enable": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 1f",
-	"admin games philza disable": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 0f"
+	"admin games philza disable": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 0f",
+	"admin effects scale set_mode disabled": "scoreboard players set Enable events.hosts -1",
+	"admin effects scale set_mode scale_up": "scoreboard players set Enable events.hosts 1",
+	"admin effects scale set_mode scale_down": "scoreboard players set Enable events.hosts 2",
+	"admin effects scale reset_scale": "scoreboard players set Scale events.hosts 10"
 }
