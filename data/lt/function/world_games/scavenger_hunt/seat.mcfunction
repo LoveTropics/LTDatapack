@@ -35,4 +35,4 @@ execute as @e[tag=sh_seat] at @s as @e[type=ltextras:seat,distance=..20] on pass
 
 execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run scoreboard players set @s sh_seat 0
 execute as @e[tag=sh_seat] at @s as @a[distance=..20] if score @s sh_seat matches 8 run fill -60 136 -73 -60 134 -71 air
-schedule function lt:world_games/scavenger_hunt/set_block
+schedule function lt:world_games/scavenger_hunt/set_block 20s
