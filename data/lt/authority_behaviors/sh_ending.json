@@ -1,6 +1,7 @@
 {
 	"enter_commands": [
-		"execute if score @s scavenger_hunt_count matches 6.. run collectible give @s item cookie[enchantment_glint_override=true]"
+		"execute if score @s scavenger_hunt_count matches 6.. run collectible give @s item cookie[enchantment_glint_override=true]",
+		"scoreboard players set @s scavenger_hunt_count 7"
 	],
 	"exit_commands": []
 }
