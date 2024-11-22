@@ -35,6 +35,9 @@
       "allow_rejoin": true
     },
     {
+      "type": "ltminigames:progression"
+    },
+    {
       "type": "ltminigames:scheduled_actions",
       "target": "all",
       "actions": {
