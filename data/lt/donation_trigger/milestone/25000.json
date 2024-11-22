@@ -1,0 +1,14 @@
+[
+  {
+    "predicate": {
+      "total_exceeded": {
+        "amount": 25000,
+        "group": "all"
+      },
+      "action": {
+        "type": "run_function",
+        "function": "lt:donation_effects/milestone/25000"
+      }
+    }
+  }
+]

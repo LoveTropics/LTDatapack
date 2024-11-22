@@ -1,0 +1,1 @@
+collectible give @s lt:disguise/white_winged_warbler
