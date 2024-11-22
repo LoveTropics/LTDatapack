@@ -7,7 +7,18 @@
       "{\"text\":\" \"}",
       "{\"translate\":\"lt.collectible.unicode.quest\",\"color\":\"white\",\"italic\":false}"
     ],
-    "minecraft:hide_additional_tooltip": {}
+    "minecraft:hide_additional_tooltip": {},
+    "ltextras:player_sensor": {
+      "tag": "team.cents",
+      "appearance": {
+        "color": 13004561,
+        "face_decoration": {
+          "location": "ltextras:cents_marker",
+          "width": 112,
+          "height": 48
+        }
+      }
+    }
   },
   "item": "ltextras:blue_glasses"
 }
