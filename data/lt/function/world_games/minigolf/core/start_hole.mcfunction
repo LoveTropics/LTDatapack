@@ -19,4 +19,4 @@ $execute as @e[tag=hole$(hole)Crab,current_world=true] run function lt:world_gam
 $scoreboard players set @e[tag=hole$(hole)Crab,current_world=true] golf.timer 120
 $scoreboard players set @e[tag=hole$(hole)Crab,current_world=true] golf.hits 0
 $scoreboard players add hole$(hole) golf.stats 1
-$scoreboard players add totalHoles golf.stats 1
+scoreboard players add totalHoles golf.stats 1
