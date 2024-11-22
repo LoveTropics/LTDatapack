@@ -30,6 +30,7 @@
     "lt:river_race/common",
     "lt:river_race/merchant/zone_1",
     "lt:river_race/merchant/zone_2",
-    "lt:river_race/merchant/zone_3"
+    "lt:river_race/merchant/zone_3",
+    "lt:river_race/merchant/zone_4"
   ]
 }
