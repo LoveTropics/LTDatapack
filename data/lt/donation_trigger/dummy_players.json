@@ -7,7 +7,7 @@
 		},
 		"action": {
 			"type": "run_function",
-			"function": "lt:utility/hosts/update_leader"
+			"function": "lt:utility/hosts/update_leader_delay"
 		}
 	}
 ]

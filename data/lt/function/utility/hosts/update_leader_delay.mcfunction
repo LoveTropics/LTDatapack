@@ -1,0 +1,1 @@
+schedule function lt:utility/hosts/update_leader 1s
