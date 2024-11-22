@@ -9,7 +9,6 @@
       "[{\"text\": \" + \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"entity.minecraft.ender_dragon\",\"color\":\"blue\",\"italic\":false}]"
     ],
     "ltminigames:entity": {
-      "tag": {},
       "type": "minecraft:ender_dragon"
     }
   },

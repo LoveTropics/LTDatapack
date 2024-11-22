@@ -8,16 +8,16 @@
   },
   {
     "type": "lt:integrations/packages/slipperiness",
-    "donation_amount": 15.0
+    "donation_amount": 10.0
   },
   {
     "type": "lt:integrations/packages/big_leaps",
-    "donation_amount": 15.0, 
+    "donation_amount": 10.0, 
     "duration": 30
   },
   {
     "type": "lt:integrations/packages/wind_charge_offhand",
-    "donation_amount": 15.0
+    "donation_amount": 10.0
   },
   {
     "type": "ltminigames:donation_package",
