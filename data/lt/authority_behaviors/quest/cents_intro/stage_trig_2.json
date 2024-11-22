@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["function lt:quest/main/region_trigger {quest_id:\"cents_intro\",dialogue_id:\"talk_bunker\",is_zoneless:0,dialogue_blocked:1,required_stage:2}"],
+  "exit_commands": []
+}
