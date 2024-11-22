@@ -171,6 +171,8 @@
 	"lt.collectible.pen_knife.description": "Check back at the finale to see what this is used for",
 	"lt.collectible.spawn_chunk.description": "Just a chunk of spawn",
 	"lt.collectible.spawn_chunk.name": "Spawn Chunk",
+	"lt.collectible.mini_disguise.clear.name": "Disguised Milk?",
+	"lt.collectible.mini_disguise.clear.description": "Clear your disguise!",
 
 	"lt.collectible.mini_disguise.pig.name": "Stickless Carrot",
 	"lt.collectible.mini_disguise.pig.description": "This is a harmless carrot right?",
