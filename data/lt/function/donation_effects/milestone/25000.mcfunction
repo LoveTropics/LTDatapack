@@ -1,1 +1,1 @@
-collectible give @s lt:disguise/white_winged_warbler
+collectible give @a lt:disguise/white_winged_warbler
