@@ -3,7 +3,7 @@
   "dimension": "tropicraft:tropics",
   "min_x": -864,
   "min_z": -468,
-  "max_x": 348,
-  "max_z": 729,
+  "max_x": 336,
+  "max_z": 732,
   "texture": "ltextras:textures/map.png"
 }
