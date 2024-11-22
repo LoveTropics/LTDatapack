@@ -16,6 +16,6 @@ clear @s
 
 collectible clear @s
 
-execute as @s at @s run function lt:collectible/give/utility/collectible_basket
+execute at @s run collectible give @s lt:utility/collectible_basket
 
 execute in minecraft:overworld run tp @s 896 63 -134

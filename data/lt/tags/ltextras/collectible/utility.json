@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lt:utility/tropical_map",
+    "lt:utility/collectible_basket",
+    "lt:utility/collectible_compass"
+  ]
+}

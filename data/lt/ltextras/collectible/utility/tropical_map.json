@@ -1,0 +1,24 @@
+{
+  "components": {
+    "ltextras:map": "lt:tropics",
+    "minecraft:lore": [
+      "{\"translate\":\"lt.utility_item.tropical_map.description.1\",\"color\":\"gray\"}",
+      "{\"translate\":\"lt.utility_item.tropical_map.description.2\",\"color\":\"gray\"}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.utility\",\"color\":\"white\",\"italic\":false}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.generic.modifiers.on_interact\",\"color\":\"gray\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.tropical_map.tooltip.subtract_screen\",\"color\":\"blue\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.tropical_map.tooltip.add_map\",\"color\":\"blue\",\"italic\":false}"
+    ],
+    "minecraft:item_name": "{\"translate\":\"item.ltextras.tropical_map\",\"color\":\"yellow\"}",
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 10511680,
+      "show_in_tooltip": false
+    },
+    "ltextras:undroppable": {}
+  },
+  "item": "ltextras:tropical_map"
+}
