@@ -12,7 +12,7 @@ execute as @s at @s run function lt:quest/utility/setup_player
 #scoreboard players reset @s spawn_island.time
 
 #effect clear @s
-execute as @s at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 1 1.5
+execute as @s at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 0.20 1.5
 # LT23 join functions:
 
 title @s times 15 135 15
