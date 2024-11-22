@@ -1,0 +1,31 @@
+{
+  "components": {
+    "minecraft:lore": [
+      "{\"translate\":\"lt.collectible.spawn_chunk.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}"
+    ],
+    "minecraft:enchantments": {
+      "show_in_tooltip": false,
+      "levels": {}
+    },
+    "minecraft:unbreakable": {
+      "show_in_tooltip": false
+    },
+    "minecraft:custom_name": "{\"translate\":\"lt.collectible.spawn_chunk.name\",\"color\":\"#5ABDA3\",\"italic\":false}",
+    "minecraft:custom_data": {
+      "ILikeSpawn": true
+    },
+    "minecraft:hide_additional_tooltip": {},
+    "minecraft:dyed_color": {
+      "rgb": 16772589,
+      "show_in_tooltip": false
+    },
+		"minecraft:food": {
+      "can_always_eat": true, 
+			"nutrition": 1,
+			"saturation": 1
+		}
+  },
+  "item": "tropicraft:dagger"
+}

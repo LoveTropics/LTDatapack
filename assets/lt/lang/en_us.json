@@ -169,6 +169,8 @@
 	"lt.collectible.rechargeable_windcharge.description": "Quick charge not included",
 	"lt.collectible.pen_knife.name": "Pen Knife",
 	"lt.collectible.pen_knife.description": "Check back at the finale to see what this is used for",
+	"lt.collectible.spawn_chunk.description": "Just a chunk of spawn",
+	"lt.collectible.spawn_chunk.name": "Spawn Chunk",
 
 	"lt.collectible.mini_disguise.pig.name": "Stickless Carrot",
 	"lt.collectible.mini_disguise.pig.description": "This is a harmless carrot right?",
