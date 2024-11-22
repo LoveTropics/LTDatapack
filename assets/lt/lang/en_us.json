@@ -168,10 +168,11 @@
 	"lt.collectible.rechargeable_windcharge.name": "Rechargeable Wind Charge",
 	"lt.collectible.rechargeable_windcharge.description": "Quick charge not included",
 	"lt.collectible.pen_knife.name": "Pen Knife",
+	"lt.collectible.pen_knife.description": "Check back at the finale to see what this is used for",
 
 	"lt.collectible.mini_disguise.pig.name": "Stickless Carrot",
 	"lt.collectible.mini_disguise.pig.description": "This is a harmless carrot right?",
-	"lt.collectible.mini_disguise.philza.name": "Slightly Modiifed Rotten Flesh",
+	"lt.collectible.mini_disguise.philza.name": "Slightly Modifed Rotten Flesh",
 	"lt.collectible.mini_disguise.philza.description": "Transform! Into a just a \"normal\" baby zombie",
 
 	"lt.utility_item.collectible_basket.description.1": "Stores your personal collection of collectibles.",

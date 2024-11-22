@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"dark_blue\",\"translate\":\"lt.item.steve_pick.name\",\"italic\":false}",
+                                "minecraft:item_name": "{\"color\":\"#0EAEAE\",\"translate\":\"lt.item.steve_pick.name\",\"italic\":false}",
                                 "minecraft:tool": {
                                     "rules": [
                                         {
