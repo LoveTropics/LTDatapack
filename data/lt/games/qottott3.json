@@ -9,6 +9,8 @@
     "load_from": "lt:cotott3",
     "dimension_type": "lt:raised_clouds"
   },
+  "hide_from_list": true,
+
   "behaviors": [
     "lt:qottott/common"
   ]

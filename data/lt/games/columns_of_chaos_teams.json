@@ -15,6 +15,7 @@
       "lt:teams/red_blue"
     ]
   },
+  "hide_from_list": true,
 
   "name": {"translate": "ltminigames.minigame.columns_of_chaos_teams"},
   "statistics_key": "columns_of_chaos",

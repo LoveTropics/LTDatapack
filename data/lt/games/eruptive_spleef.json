@@ -7,6 +7,8 @@
   },
   "minimum_participants": 1,
   "maximum_participants": 24,
+  "hide_from_list": true,
+
   "behaviors": [
     {
       "type": "lt:common/playing",

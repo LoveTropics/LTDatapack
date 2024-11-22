@@ -15,6 +15,7 @@
       "lt:teams/red_blue"
     ]
   },
+  "hide_from_list": true,
 
   "name": {"translate": "ltminigames.minigame.speed_carb_golf"},
   "statistics_key": "speed_carb_golf",
