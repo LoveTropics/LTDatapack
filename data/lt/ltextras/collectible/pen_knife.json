@@ -1,7 +1,9 @@
 {
   "components": {
     "minecraft:lore": [
-      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+      "{\"translate\":\"lt.collectible.pen_knife.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"text\":\" \"}",
+      "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}"
     ],
     "minecraft:enchantments": {
       "show_in_tooltip": false,
