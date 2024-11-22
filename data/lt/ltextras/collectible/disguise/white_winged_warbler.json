@@ -1,7 +1,7 @@
 {
   "components": {
     "minecraft:lore": [
-      "{\"translate\":\"lt.collectible.milestone.15000.description\",\"color\":\"gray\",\"italic\":true}",
+      "{\"translate\":\"lt.collectible.milestone.25000.description\",\"color\":\"gray\",\"italic\":true}",
       "{\"text\":\" \"}",
       "{\"translate\":\"lt.collectible.unicode.milestone\",\"color\":\"white\",\"italic\":false}",
       "{\"text\":\" \"}",
