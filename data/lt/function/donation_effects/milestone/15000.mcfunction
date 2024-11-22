@@ -1,1 +1,1 @@
-collectible give @a lt:disguise/gibnut
+collectible give @a lt:disguise/armadillo
