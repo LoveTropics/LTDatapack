@@ -1,7 +1,7 @@
 #execute as @p if score @s scavenger_hunt_count matches 3.. run give @s minecraft:written_book[minecraft:written_book_content={resolved:1b,author:"The Puzzle Whisperer",pages:[{raw:'{"translate":"lt.scavenger_hunt.clue.04","with":[{"translate":"lt.scavenger_hunt.clue","with":[{"text":"4"},{"translate":"lt.scavenger_hunt.spacer.start"}]},{"translate":"lt.scavenger_hunt.spacer.end"}]}'}],title:{raw:"Clue 04"}},ltextras:undroppable={}]
 execute as @p if score @s scavenger_hunt_count matches 3.. run collectible give @s item minecraft:written_book[minecraft:written_book_content={resolved:1b,author:"The Puzzle Whisperer",pages:[{raw:'{"translate":"lt.scavenger_hunt.clue.04","with":[{"translate":"lt.scavenger_hunt.clue","with":[{"text":"4"},{"translate":"lt.scavenger_hunt.spacer.start"}]},{"translate":"lt.scavenger_hunt.spacer.end"}]}'}],title:{raw:"Clue 04"}}]
 execute as @p if score @s scavenger_hunt_count matches 3 run scoreboard players add clue_4 stats.sh 1
-execute as @p if score @s scavenger_hunt_count matches 3 run collectible give @s lt:disguise/allay
+execute as @p if score @s scavenger_hunt_count matches 3.. run collectible give @s lt:disguise/allay
 execute as @p if score @s scavenger_hunt_count matches 3.. run scoreboard players set @s scavenger_hunt_count 4
 execute as @p unless score @s scavenger_hunt_count matches 3.. run tellraw @s {"translate":"lt.scavenger_hunt.order"}
 execute as @p unless score @s scavenger_hunt_count matches 3.. run playsound ltminigames:incorrect voice @s
