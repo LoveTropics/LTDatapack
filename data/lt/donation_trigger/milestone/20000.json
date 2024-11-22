@@ -4,11 +4,11 @@
       "total_exceeded": {
         "amount": 20000,
         "group": "all"
-      },
-      "action": {
-        "type": "run_function",
-        "function": "lt:donation_effects/milestone/20000"
       }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:donation_effects/milestone/20000"
     }
   }
 ]
