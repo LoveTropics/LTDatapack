@@ -36,5 +36,6 @@
 		}
 	},
 	"lt:dodgeball/death",
-	"ltminigames:quiet_explosions"
+	"ltminigames:quiet_explosions",
+	"ltminigames:cancel_self_damage"
 ]
