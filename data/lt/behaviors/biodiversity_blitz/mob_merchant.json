@@ -52,9 +52,11 @@
           "id": "minecraft:gold_nugget",
           "count": 1,
           "tag": {
-            "components": [
-              "{\"text\": \"Send a zombified piglin to the other side!\",\"color\":\"red\"}"
-            ],
+            "components": {
+              "lore": [
+                "{\"text\": \"Send a zombified piglin to the other side!\",\"color\":\"red\"}"
+              ]
+            },
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "pigman": 1
             }
