@@ -142,6 +142,8 @@
 				"tools": "allow",
 				"about": "allow",
 				"spawn": "allow",
+				"admin": "deny",
+				"config": "deny",
 				"((?!title|tellraw|give).)*": "deny"
 			},
 			"command_feedback": false
