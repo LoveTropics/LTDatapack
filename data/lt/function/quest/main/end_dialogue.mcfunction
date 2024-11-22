@@ -6,4 +6,3 @@ $execute as @s at @s run function lt:quest/data/$(quest_id)/dialogue/$(dialogue_
 tag @s remove quest.main.in_dialogue
 scoreboard players reset @s quest.dia.line_time
 scoreboard players reset @s quest.dia.target_line
-scoreboard players reset @s quest.dia.state

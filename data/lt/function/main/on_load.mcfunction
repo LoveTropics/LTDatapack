@@ -141,21 +141,24 @@ scoreboard objectives add world_game.elytra.tracker dummy
 scoreboard objectives add world_game.elytra.clock dummy
 scoreboard objectives add world_game.elytra.scores dummy
 
-##
-# Quest System Variables
-##
+
+## Quest System General Variables
+
 # What line should be sent by the dialogue system
 scoreboard objectives add quest.dia.target_line dummy
 # How long until the next dialogue line/stage should be processed
 scoreboard objectives add quest.dia.line_time dummy
-# What state the dialogue is currently in
-scoreboard objectives add quest.dia.state dummy
 # What state the dialogue ended with
 scoreboard objectives add quest.dia.end_state dummy
 # Generic var for comparing quest stages
 scoreboard objectives add quest.main.stage_eval dummy
 # Generic var for comparing misc things within quests (E.g. checking whether player is in dialogue)
 scoreboard objectives add quest.main.misc_eval dummy
+
+## Setup quest specific variables
+
+# cents_intro start time_delay
+scoreboard objectives add quest.cents_intro_delay dummy
 
 ## Setup teams for quests (NPC only)
 team add quest.npc.no_collide
