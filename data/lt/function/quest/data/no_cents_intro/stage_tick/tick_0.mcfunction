@@ -1,0 +1,2 @@
+execute if score @s quest.no_cents_intro_delay matches 0.. run scoreboard players remove @s quest.no_cents_intro_delay 1
+execute if score @s quest.no_cents_intro_delay matches 0 run function lt:quest/main/start_dialogue {quest_id:"no_cents_intro",dialogue_id:"first_contact",is_zoneless:1}

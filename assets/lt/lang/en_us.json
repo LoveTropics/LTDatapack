@@ -638,7 +638,7 @@
 	"lt.quest.generic.collectible_added": "A new quest collectible has been added to your basket.",
 
 	"lt.quest.cents_item.mysterious_note.name": "Mysterious Note",
-	"lt.quest.cents_item.mysterious_note.description": "An note with messily scrawled coordinates and words.",
+	"lt.quest.cents_item.mysterious_note.description": "A note with messily scrawled coordinates and words.",
 	"lt.quest.cents_item.mysterious_note.description.2": "How'd this get in your inventory?",
 	"lt.quest.cents_item.mysterious_note.content": "Waterfall Club.\nBlue Skull booth.\n\n-227 161 -117",
 
@@ -648,10 +648,6 @@
 	"lt.quest.cents_item.cents_badge.name": "Team Cents Badge",
 	"lt.quest.cents_item.cents_badge.description": "It's a little banged up, and not so shiny,",
 	"lt.quest.cents_item.cents_badge.description.2": "but then again so is spare change.",
-
-	"lt.quest.no_cents_item.no_cents_badge.name": "Team No Cents Badge",
-	"lt.quest.no_cents_item.no_cents_badge.description": "It's in pristine condition.",
-	"lt.quest.no_cents_item.no_cents_badge.description.2": "Oh my gosh and it's made of gold.",
 
 	"lt.quest.no_cents_item.cent_sensors": "Cent Sensors",
 	"lt.quest.no_cents_item.cent_sensors.description": "Identifies players with an allegiance to chaos: Team Cents.",
@@ -706,6 +702,41 @@
 	"lt.quest.cents_intro.meet_leader.16": "We'll contact you again once our plan is finalized.",
 	"lt.quest.cents_intro.meet_leader.17": "For now, take this badge and go spread the word. Team Cents forever!",
 	"lt.quest.cents_intro.meet_leader.cancel": "Where are you going?! Team Cents needs you!",
+
+	"lt.quest.no_cents_item.no_cents_badge.name": "Team No Cents Badge",
+	"lt.quest.no_cents_item.no_cents_badge.description": "It's in pristine condition.",
+	"lt.quest.no_cents_item.no_cents_badge.description.2": "Oh my gosh and it's made of gold.",
+
+	"lt.quest.no_cents_item.buisness_card.name": "Team No Cents Buisness Card",
+	"lt.quest.no_cents_item.buisness_card.description": "Pristinely printed in 12 point Times New Roman.",
+	"lt.quest.no_cents_item.buisness_card.description.2": "Can paper even be this white??",
+	"lt.quest.no_cents_item.buisness_card.content": "Team No Cents. Ref: 98514\nInvitation to join the cause.\n\n29 133 -96",
+
+	"lt.quest.no_cents_intro.initial_contact.1": "So you're a No Centless kind of person 'eh? You'll fit right in.",
+	"lt.quest.no_cents_intro.initial_contact.2": "Find our campaign office near Parkour Cove and show them this card.",
+
+	"lt.quest.no_cents_intro.meet_secretary.1": "Hey, you found us! ",
+	"lt.quest.no_cents_intro.meet_secretary.2": "Welcome to the Team No Cents HQ - we run a tight ship here!",
+	"lt.quest.no_cents_intro.meet_secretary.3": "We're looking for unique individuals to help us win the battle against…",
+	"lt.quest.no_cents_intro.meet_secretary.4": "We don't say their name here…",
+	"lt.quest.no_cents_intro.meet_secretary.5": "Anyway - Leader Count Sense-less will want to speak to you soon. He should be in the planning office somewhere …",
+	"lt.quest.no_cents_intro.meet_secretary.6": "I'll give you a badge that gives you access. ",
+	"lt.quest.no_cents_intro.meet_secretary.7": "When you find him, show him the badge and he'll know what's up.",
+	"lt.quest.no_cents_intro.meet_secretary.cancel": "W-wuh where are you going! Come back! I can be less sensible if that's the problem???",
+
+	"lt.quest.no_cents_intro.meet_leader.1": "Well hello there… another volunteer for our important cause!",
+	"lt.quest.no_cents_intro.meet_leader.2": "I'm Count Sense-less, the leader of the mighty No Cents Campaign!",
+	"lt.quest.no_cents_intro.meet_leader.3": "I see Sam has already given you your badge, it's so good to have new volunteers.",
+	"lt.quest.no_cents_intro.meet_leader.4": "We're in the midst of.. a bit of a battle against… well you know.",
+	"lt.quest.no_cents_intro.meet_leader.5": "And we need every bit of help we can get!",
+	"lt.quest.no_cents_intro.meet_leader.6": "It's always good to have another no nonsense person, ce-… the others simply can't have a place at the table!",
+	"lt.quest.no_cents_intro.meet_leader.7": "But, I suppose you already know that…",
+	"lt.quest.no_cents_intro.meet_leader.8": "There's plenty to do so don't be shy.",
+	"lt.quest.no_cents_intro.meet_leader.9": "Ask around in the office and I'm sure we can find you a job.",
+	"lt.quest.no_cents_intro.meet_leader.10": "If not, then I'll make sure the next mission that comes through gets assigned directly to you!",
+	"lt.quest.no_cents_intro.meet_leader.11": "Thank you again for volunteering with us!",
+	"lt.quest.no_cents_intro.meet_leader.cancel": "Hey wait, come back! This'll be noted on your record!!",
+
 
 	"lt.shop.barry": "Barry's Hat Shop",
 	"lt.hockey_stick": "Hockey Stick"

@@ -159,6 +159,8 @@ scoreboard objectives add quest.main.misc_eval dummy
 
 # cents_intro start time_delay
 scoreboard objectives add quest.cents_intro_delay dummy
+# no_cents_intro start time_delay
+scoreboard objectives add quest.no_cents_intro_delay dummy
 
 ## Setup teams for quests (NPC only)
 team add quest.npc.no_collide
