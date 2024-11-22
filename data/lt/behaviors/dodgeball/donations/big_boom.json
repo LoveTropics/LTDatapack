@@ -1,0 +1,36 @@
+{
+	"type": "ltminigames:donation_package",
+	"id": "big_boom",
+	"package_type": "care_package",
+	"category": "small",
+	"player_select": "all",
+	"name": { "translate": "ltminigames.minigame.donation.boom_package" },
+	"description": {
+		"translate": "ltminigames.minigame.donation.boom_package.description"
+	},
+	"donation_amount": 10,
+	"notification": {
+		"message": {
+			"translate": "ltminigames.minigame.donation.boom_package.toast",
+			"color": "light_purple"
+		},
+		"icon": { "item": "tropicraft:exploding_coconut" },
+		"sentiment": "positive",
+		"sound": "ltminigames:package_receive"
+	},
+	"receive_actions": [
+		"ltminigames:give_player_head_package",
+		{
+			"type": "ltminigames:run_commands",
+			"player": ["function lt:game/dodgeball/packages/big_boom/start"]
+		},
+		{
+			"type": "ltminigames:add_equipment",
+			"clear": true
+		},
+		{
+			"type": "ltminigames:give_loot",
+			"loot_table": "lt:dodgeball/dodgeball"
+		}
+	]
+}

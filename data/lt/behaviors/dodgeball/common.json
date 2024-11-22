@@ -29,9 +29,13 @@
 	},
 	"lt:common/announce_game_over",
 	{
-		"type": "ltminigames:on_spawn",
+		"type": "ltminigames:set_role",
 		"role": "participant",
 		"action": [
+			{
+				"type": "ltminigames:run_commands",
+				"player": ["scoreboard players set @s dodgeball.packages 0"]
+			},
 			{
 				"type": "ltminigames:add_equipment",
 				"clear": true,
@@ -48,6 +52,20 @@
 						}
 					}
 				]
+			}
+		]
+	},
+	{
+		"type": "ltminigames:on_spawn",
+		"role": "participant",
+		"action": [
+			{
+				"type": "ltminigames:add_equipment",
+				"clear": true
+			},
+			{
+				"type": "ltminigames:give_loot",
+				"loot_table": "lt:dodgeball/dodgeball"
 			},
 			{
 				"type": "ltminigames:add_attribute_modifier",

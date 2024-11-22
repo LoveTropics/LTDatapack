@@ -14,5 +14,7 @@
 		"donation_amount": 15.0,
 		"duration": 30
 	},
-	"lt:dodgeball/donations/disguises"
+	"lt:dodgeball/donations/disguises",
+	"lt:dodgeball/donations/rapid_fire",
+	"lt:dodgeball/donations/big_boom"
 ]
