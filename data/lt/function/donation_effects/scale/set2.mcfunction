@@ -1,0 +1,1 @@
+$attribute @ minecraft:scale base set $(scale)
