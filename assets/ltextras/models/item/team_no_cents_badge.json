@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "ltextras:item/team_no_cents_badge"
+    }
+  }
