@@ -315,6 +315,7 @@
 	"lt.game.parkour.general.actionbar.notify": "You are in a parkour region. | Collectible basket disabled.",
 	"lt.game.parkour.general.drop_item": "Drop item to return to last checkpoint",
 	"lt.game.parkour.general.checkpoint": "Checkpoint Key",
+	"lt.game.parkour.general.checkpoint_reached": "Checkpoint Reached",
 
 	"lt.game.parkour.general.billboard.checkpoint_portal": "Checkpoint Portal",
 	"lt.game.parkour.general.billboard.return_portal": "Return Portal",

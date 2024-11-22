@@ -18,3 +18,5 @@ $data modify entity @e[tag=hole$(hole)Crab,limit=1,current_world=true] Owner set
 $execute as @e[tag=hole$(hole)Crab,current_world=true] run function lt:world_games/minigolf/events/random_mob/check
 $scoreboard players set @e[tag=hole$(hole)Crab,current_world=true] golf.timer 120
 $scoreboard players set @e[tag=hole$(hole)Crab,current_world=true] golf.hits 0
+$scoreboard players add hole$(hole) golf.stats 1
+$scoreboard players add totalHoles golf.stats 1
