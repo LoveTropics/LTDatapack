@@ -1,2 +1,2 @@
 particle minecraft:portal ~ ~2 ~ 0 -1 0 0.1 1 force @a[tag=quest.cents_intro.bunker_access]
-execute as @a[distance=0..1] at @s run function lt:utility/tp with entity @n[tag=lt.system.teleporter_cents] data
+execute as @a[distance=0..1,tag=quest.cents_intro.bunker_access] at @s run function lt:utility/tp with entity @n[tag=lt.system.teleporter_cents] data
