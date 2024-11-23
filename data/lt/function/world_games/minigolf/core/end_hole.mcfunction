@@ -3,6 +3,8 @@ $execute at @e[tag=hole$(ForcedAge)End,current_world=true] run summon firework_r
 $title @p[tag=hole$(ForcedAge)Player,current_world=true] actionbar [{"translate":"lt.golf.end_hole","color":"red","with":[{"text":"$(ForcedAge)"}, {"score":{"name":"@e[tag=hole$(ForcedAge)Crab]","objective":"golf.hits"}}]}]
 $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] at @s run playsound minecraft:item.goat_horn.sound.0 voice @s
 
+tell DinnerBeef test message
+
 # Stores The Score
 # # Stores The Current PLayer High Score
 $execute as @p[tag=hole$(ForcedAge)Player,current_world=true] at @s store result score @s golf.data run data get gamedata lt:golf @s[type=player] hole$(ForcedAge)
