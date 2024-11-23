@@ -3,16 +3,16 @@
     "type": "ltminigames:setup_teams",
     "teams": [
       {
-        "key": "red",
-        "name": {"translate": "ltminigames.minigame.teams.red"},
-        "dye": "red",
-        "text": "red"
-      },
-      {
         "key": "blue",
         "name": {"translate": "ltminigames.minigame.teams.blue"},
         "dye": "blue",
         "text": "blue"
+      },
+      {
+        "key": "red",
+        "name": {"translate": "ltminigames.minigame.teams.red"},
+        "dye": "red",
+        "text": "red"
       }
     ]
   }
