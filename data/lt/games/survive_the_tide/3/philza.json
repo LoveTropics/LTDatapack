@@ -26,7 +26,7 @@
         "teams": [
           {
             "key": "host",
-            "name": "Host",
+            "name": "BOLAS",
             "dye": "red",
             "text": "red",
             "assign_roles": ["live"]
@@ -56,7 +56,7 @@
       "type":  "lt:survive_the_tide/3/map",
       "tide": 190
     },
-    {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0, "host": 40.0}},
+    {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0, "host": 30.0}},
     "lt:survive_the_tide/3/phases",
     {
       "type": "lt:survive_the_tide/mode/teams",
