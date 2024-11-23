@@ -22,7 +22,10 @@
 	"admin effects scale reset_scale": "function lt:donation_effects/scale/reset",
 	"admin effects random_mob enable": "scoreboard players set randomMob golf.events 1",
 	"admin effects random_mob disable": "scoreboard players set randomMob golf.events 0",
+	"admin events golf host_mode disable": "scoreboard players set hostMode golf.events 0",
 	"admin events golf host_mode enable": "scoreboard players set hostMode golf.events 1",
+	"admin events golf host_mode gegy": "scoreboard players set hostMode golf.events 2",
+	"admin disguse_all shoebill": "execute as @a[current_world=true] run disguise as tropicraft:shoebill_stork"
 	"admin events golf host_mode disable": "scoreboard players set hostMode golf.events 0",
 	"admin disguse_all shoebill": "execute as @a[current_world=true] run disguise as tropicraft:shoebill_stork",
 	"admin gegy": "function lt:gegy/spawn_fly"
