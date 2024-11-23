@@ -15,7 +15,6 @@
       "lt:teams/red_blue"
     ]
   },
-  "hide_from_list": true,
 
   "name": {"translate": "ltminigames.minigame.parkour_race_teams"},
   "statistics_key": "parkour_race",
