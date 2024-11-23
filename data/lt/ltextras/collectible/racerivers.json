@@ -1,0 +1,56 @@
+{
+    "components": {
+		"minecraft:profile": {
+			"name": "",
+			"properties": [
+				{
+					"name": "textures",
+                    "value": "ewogICJ0aW1lc3RhbXAiIDogMTczMjM2ODI1NTY1OSwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseUZpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hN2E0YmJlMjYzMmQxNmRkMmZkMzY2YzE2ZDI4NjI3ZTc0NTBjNWYxMzgyZTZjNWI5NDc0YTc0YjBmZjE0OTZhIgogICAgfQogIH0KfQ==",
+                    "signature": "f1nvTo+vWapMxU82ptiJi02IUdVxIjd5c3vunpuzJZ9POD0Si3UJO57ZowdDqBqaZyZe3G0Gl+W97rwoigC6hDyYKieMQCfEzBvooW+kMYpItLtkSFlLjfrVy/U9Gpg72VC7b4azLFcduY9l65I0FtsjVhVMVM9f5otQhzHmr3E6WXc7JJxA1zIVygsEMqxTY2fUyJOkK3F5UyXGfY/5UWE0bmGCwGR7ktU2wNrnmpIaR/M7+UCm4+McpS9oYrygWy8MynfAwvDbNj8tCRHzWvRaswJQuRVcLW8qgTg7waJUitYP+Wikm095Iah9WJDwIP69VboGR6fl58XEolvBn+VIzI2wi92RxInpreiPhSPIkLK+MuFGYXL96SWNJFPeJe43tX7Z6d8Ces7OZDug0c2z72FuVrExhfMyqybFmKViItj6nMke1E/dJ/2uUqOZcyvHj991zrq9tNhrNZgrmQDVLMcAamABzlPoFhkYIv8EGV8fn+d8ArBDqmQ1LNL6wZBUcx4rU1qBvs5XOxkZ4Ac9n7+1k0oIXbzx1dfRF44ZjPUfEizqiMccK/8rXTE21apSAFI3seXsAb28OaS8y92brUHRrQJ4MetTSLfNH1w7W9bSvVT9MQY8j/7htb/kaGBpPs9BiI4TKxCBLLKBpP/yg63GLji9I9qY6Nvoq5o="
+				}
+			],
+			"id": [16819103, 15682760, -1083070866, -568531152]
+		},
+        "minecraft:lore": [
+            "{\"text\":\" \"}",
+            "{\"translate\":\"lt.collectible.unicode.secret\",\"color\":\"white\",\"italic\":false}",
+            "{\"text\":\" \"}",
+            "{\"translate\":\"item.modifiers.head\",\"color\":\"gray\",\"italic\":false}",
+            "{\"translate\":\"lt.collectible.disguise.tooltip.subtract_player\",\"color\":\"blue\",\"italic\":false}",
+            "[{\"text\":\" + \",\"color\":\"blue\",\"italic\":false},{\"text\":\"Race Rivers\",\"color\":\"blue\",\"italic\":false}]"
+        ],
+        "minecraft:enchantments": {
+            "show_in_tooltip": false,
+            "levels": {}
+        },
+        "ltminigames:disguise": {
+            "custom_name": {
+                "text": "Race Rivers",
+                "color": "#ffdc25"
+            },
+            "skin_profile": {
+                "id": [
+                    277381062,
+                    -1089189397,
+                    -1954945749,
+                    -1392651190
+                ],
+                "properties": [
+                    {
+                        "name": "textures",
+                        "value": "ewogICJ0aW1lc3RhbXAiIDogMTczMjM2ODI1NTY1OSwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseUZpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hN2E0YmJlMjYzMmQxNmRkMmZkMzY2YzE2ZDI4NjI3ZTc0NTBjNWYxMzgyZTZjNWI5NDc0YTc0YjBmZjE0OTZhIgogICAgfQogIH0KfQ==",
+                        "signature": "f1nvTo+vWapMxU82ptiJi02IUdVxIjd5c3vunpuzJZ9POD0Si3UJO57ZowdDqBqaZyZe3G0Gl+W97rwoigC6hDyYKieMQCfEzBvooW+kMYpItLtkSFlLjfrVy/U9Gpg72VC7b4azLFcduY9l65I0FtsjVhVMVM9f5otQhzHmr3E6WXc7JJxA1zIVygsEMqxTY2fUyJOkK3F5UyXGfY/5UWE0bmGCwGR7ktU2wNrnmpIaR/M7+UCm4+McpS9oYrygWy8MynfAwvDbNj8tCRHzWvRaswJQuRVcLW8qgTg7waJUitYP+Wikm095Iah9WJDwIP69VboGR6fl58XEolvBn+VIzI2wi92RxInpreiPhSPIkLK+MuFGYXL96SWNJFPeJe43tX7Z6d8Ces7OZDug0c2z72FuVrExhfMyqybFmKViItj6nMke1E/dJ/2uUqOZcyvHj991zrq9tNhrNZgrmQDVLMcAamABzlPoFhkYIv8EGV8fn+d8ArBDqmQ1LNL6wZBUcx4rU1qBvs5XOxkZ4Ac9n7+1k0oIXbzx1dfRF44ZjPUfEizqiMccK/8rXTE21apSAFI3seXsAb28OaS8y92brUHRrQJ4MetTSLfNH1w7W9bSvVT9MQY8j/7htb/kaGBpPs9BiI4TKxCBLLKBpP/yg63GLji9I9qY6Nvoq5o="
+                    }
+                ]
+            }
+        },
+        "minecraft:custom_name": "[{\"text\":\"Race Rivers test\",\"color\":\"#ffdc25\",\"italic\":false}]",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:dyed_color": {
+            "rgb": 10511680,
+            "show_in_tooltip": false
+        }
+    },
+    "item": "minecraft:player_head"
+}
