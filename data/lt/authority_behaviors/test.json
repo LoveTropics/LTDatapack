@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["tellraw @s \"Enter\""],
+  "exit_commands": ["tellraw @s \"Exit\""]
+}
