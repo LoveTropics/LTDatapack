@@ -57,7 +57,7 @@
       "type":  "lt:survive_the_tide/3/map",
       "tide": 190
     },
-    {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0}},
+    {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 4.0, "host": 40.0}},
     "lt:survive_the_tide/3/phases",
     "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/3/weather",
