@@ -78,7 +78,7 @@ execute as @s if data entity @s {profile:{id:[I;571400467,2001030148,-1746918587
 execute as @s if data entity @s {profile:{id:[I;1136400850,1419657815,-2082778962,-1695050563]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"NotActuallyTerry"},small:true}},ltminigames:size=0.5]
 
 # JaneyLaney -2024
-execute as @s if data entity @s {profile:{id:[I;664726165,612188496,-1761333497,-211121024]}} run item replace entity @s weapon with minecraft:cake
+execute as @s if data entity @s {profile:{id:[I;664726165,612188496,-1761333497,-211121024]}} run item replace entity @s armor.head with minecraft:cake
 
 # Linkzzey -2024
 execute as @s if data entity @s {profile:{id:[I;1818565733,1967997921,-1492476074,2075951117]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:chicken"},ltminigames:size=2]
