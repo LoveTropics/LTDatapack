@@ -1,6 +1,16 @@
 {
 	"replace": false,
 	"values": [
+		"weather2:anemometer",
+		"weather2:sand_layer",
+		"weather2:tornado_sensor",
+		"weather2:tornado_siren",
+		"weather2:weather_deflector",
+		"weather2:weather_forecast",
+		"weather2:weather_forecast",
+		"weather2:weather_item",
+		"weather2:wind_turbine",
+		"weather2:wind_vane",
 		"#c:armors",
 		"#c:music_discs",
 		"#c:tools",
