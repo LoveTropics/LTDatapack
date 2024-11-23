@@ -120,6 +120,8 @@
 			}
 		}
 	},
+	"dinners": {
+	},
 	"everyone": {
 		"overrides": {
 			"commands": {
