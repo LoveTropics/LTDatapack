@@ -122,6 +122,11 @@
 	},
 	"dinners": {
 	},
+	"river_race_red": {
+
+	},
+	"river_race_blue": {},
+
 	"everyone": {
 		"overrides": {
 			"commands": {
