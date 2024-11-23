@@ -4,6 +4,7 @@
 
 ## Quest Tags
 tag @s add in_quest.cents_intro
+tag @s add quest.cents_intro
 ##
 
 ## Quest Data
