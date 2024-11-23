@@ -13,7 +13,7 @@
         "color": "light_purple"
       },
       "icon": {
-        "item": {"id": "ltminigames:disguise", "count": 1, "components": {"ltminigames:disguise": {"entity": "dummyplayers:dummy_player"}}}
+        "item": {"id": "ltminigames:disguise", "count": 1, "components": {"ltminigames:disguise": {"entity": { "type": "dummyplayers:dummy_player" }}}}
       },
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"
