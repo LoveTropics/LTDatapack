@@ -455,6 +455,7 @@
 
 	"lt.item.steve_pick.name": "Steve's Pickaxe",
 	"lt.item.steve_pick.lore": "As a child, I yearned for the mines",
+	"lt.item.steve_pick.lore_2": "This pick can only mine ores",
 
 	"lt.trash_counter": "§9Trash Left:§6 (§%s§6/§4100§6)",
 

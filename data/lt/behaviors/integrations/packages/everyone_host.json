@@ -24,7 +24,7 @@
         "target": "participants",
         "actions": {
             "type": "ltminigames:run_commands",
-            "player": ["disguise skin as @p[tag=fake_host]"]
+            "player": ["disguise skin as @p[role=live]"]
         }
       },
       "clear": {
