@@ -120,7 +120,7 @@
 					"custom_data": {
 						"power_up": "glowing"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.glowing_subtitle\", \"color\": \"red\"}"
+					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.glowing.subtitle\", \"color\": \"red\"}"
 				}
 			}
 		],
