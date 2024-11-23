@@ -55,5 +55,10 @@
     },
     "seconds": 120,
     "donation_amount": 30.0
+  },
+  {
+    "type": "lt:integrations/packages/everyone_host",
+    "seconds": 120,
+    "donation_amount": 50.0
   }
 ]
