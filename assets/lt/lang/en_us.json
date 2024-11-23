@@ -299,7 +299,7 @@
 	"lt.scavenger_hunt.spacer.start": "___________________\n\n",
 	"lt.scavenger_hunt.spacer.end": "\n\n___________________",
 	"lt.scavenger_hunt.order": "§4❗ §2You must complete the scavenger hunt in order.",
-	"lt.scavenger_hunt.win": "Great Job! You've completed the scavenger hunt! Come back anytime by playing holes 4 and 2 in order again!",
+	"lt.scavenger_hunt.win": "Great Job! You've completed the scavenger hunt!",
 	"lt.scavenger_hunt.clue.01": "%s While there might be a show,\n I lie just below those you go.\n Though some might think I am real,\n I am far from the real deal.%s",
 	"lt.scavenger_hunt.clue.02": "%s Party hard, party not at all,\n for those who close to a drink,\n might take a seat, near what they seek%s",
 	"lt.scavenger_hunt.clue.03": "%s Beneath the place where skates glide, \nand fans erupt with roaring pride, \nsearch below where shadows fall, \nunder the planks, you'll find it all %s",
@@ -700,7 +700,7 @@
 	"lt.quest.cents_intro.meet_leader.10": "It's gonna take guts! It's gonna take guile! But we've got both by the boatload!",
 	"lt.quest.cents_intro.meet_leader.11": "Hoo-rah!",
 	"lt.quest.cents_intro.meet_leader.12": "§lHOO-RAH!",
-	"lt.quest.cents_intro.meet_leader.13": "Haha, alright I like the energy!", 
+	"lt.quest.cents_intro.meet_leader.13": "Haha, alright I like the energy!",
 	"lt.quest.cents_intro.meet_leader.14new": "Oh and take these. The badge is for style, and the glasses are a nifty gadget we call the Nonsense Sensors.",
 	"lt.quest.cents_intro.meet_leader.14": "The plans not ready, but our people are working on it as we speak.",
 	"lt.quest.cents_intro.meet_leader.15new": "Put 'em on and they'll reveal the fools who joined team No Cents.",
@@ -746,7 +746,6 @@
 	"lt.quest.no_cents_intro.meet_leader.10": "If not, then I'll make sure the next mission that comes through gets assigned directly to you!",
 	"lt.quest.no_cents_intro.meet_leader.11": "Thank you again for volunteering with us!",
 	"lt.quest.no_cents_intro.meet_leader.cancel": "Hey wait, come back! This'll be noted on your record!!",
-
 
 	"lt.shop.barry": "Barry's Hat Shop",
 	"lt.hockey_stick": "Hockey Stick"
