@@ -35,26 +35,26 @@ execute if score @s quest.dia.target_line matches 7 run tellraw @s [{"text":"Cou
 execute if score @s quest.dia.target_line matches 7 run playsound minecraft:entity.illusioner.ambient master @s
 execute if score @s quest.dia.target_line matches 7 run scoreboard players set @s quest.dia.line_time 60
 
-execute if score @s quest.dia.target_line matches 8 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.8","color": "gray"}]
+execute if score @s quest.dia.target_line matches 8 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.8new","color": "gray"}]
 execute if score @s quest.dia.target_line matches 8 run playsound minecraft:entity.illusioner.ambient master @s
 execute if score @s quest.dia.target_line matches 8 run scoreboard players set @s quest.dia.line_time 60
 
-execute if score @s quest.dia.target_line matches 9 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.9","color": "gray"}]
+execute if score @s quest.dia.target_line matches 9 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.9new","color": "gray"}]
 execute if score @s quest.dia.target_line matches 9 run playsound minecraft:entity.illusioner.ambient master @s
 execute if score @s quest.dia.target_line matches 9 run scoreboard players set @s quest.dia.line_time 60
 
-execute if score @s quest.dia.target_line matches 10 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.10","color": "gray"}]
+execute if score @s quest.dia.target_line matches 10 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.10new","color": "gray"}]
 execute if score @s quest.dia.target_line matches 10 run playsound minecraft:entity.illusioner.ambient master @s
 execute if score @s quest.dia.target_line matches 10 run scoreboard players set @s quest.dia.line_time 60
 
-execute if score @s quest.dia.target_line matches 11 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.11","color": "gray"}]
-execute if score @s quest.dia.target_line matches 11 run playsound minecraft:entity.illusioner.ambient master @s
-execute if score @s quest.dia.target_line matches 11 run scoreboard players set @s quest.dia.line_time 60
+#execute if score @s quest.dia.target_line matches 11 run tellraw @s [{"text":"Count Sense-less","color":"#2BB6E4"},{"text": ": ","color": "gray"},{"translate": "lt.quest.no_cents_intro.meet_leader.11","color": "gray"}]
+#execute if score @s quest.dia.target_line matches 11 run playsound minecraft:entity.illusioner.ambient master @s
+#execute if score @s quest.dia.target_line matches 11 run scoreboard players set @s quest.dia.line_time 60
 
 
 
 
 ## How the dialogue gets ended
 # Sets the target end_state active_dialogue value to whichever int you're using as the success state.
-execute if score @s quest.dia.target_line matches 12 run data modify gamedata lt:quest/active_dialogue @s[type=player] end_state set value 1
-execute if score @s quest.dia.target_line matches 12 run function lt:quest/main/end_dialogue with gamedata lt:quest/active_dialogue @s[type=player]
+execute if score @s quest.dia.target_line matches 11 run data modify gamedata lt:quest/active_dialogue @s[type=player] end_state set value 1
+execute if score @s quest.dia.target_line matches 11 run function lt:quest/main/end_dialogue with gamedata lt:quest/active_dialogue @s[type=player]
