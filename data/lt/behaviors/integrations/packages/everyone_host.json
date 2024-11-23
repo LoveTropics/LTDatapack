@@ -25,13 +25,13 @@
         "actions": {
             "type": "ltminigames:run_commands",
             "player": ["disguise skin as @p[tag=fake_host]"]
-          }
+        }
       },
       "clear": {
         "target": "all",
         "actions": {
-          "type": "ltminigames:clear_disguise",
-          "entity": "$entity"
+            "type": "ltminigames:run_commands",
+            "player": ["disguise skin clear"]
         }
       },
       "seconds": "$seconds"
