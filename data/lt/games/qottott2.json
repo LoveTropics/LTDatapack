@@ -3,7 +3,7 @@
   "statistics_key": "qottott",
   "backend_id": "lt:qottott",
   "minimum_participants": 3,
-  "maximum_participants": 40,
+  "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:qottott2",

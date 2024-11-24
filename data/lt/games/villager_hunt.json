@@ -4,7 +4,7 @@
   "backend_id": "lt:villager_hunt",
 
   "minimum_participants": 2,
-  "maximum_participants": 40,
+  "maximum_participants": 1000,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",

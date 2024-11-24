@@ -25,7 +25,7 @@
     ]
   },
   "minimum_participants": 4,
-  "maximum_participants": 32,
+  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:turtle_race/standard",

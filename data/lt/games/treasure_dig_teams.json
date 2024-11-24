@@ -23,7 +23,7 @@
     "load_from": "lt:treasure_dig_teams"
   },
   "minimum_participants": 1,
-  "maximum_participants": 24,
+  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",

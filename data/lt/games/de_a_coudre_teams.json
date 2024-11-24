@@ -24,7 +24,7 @@
     "load_from": "lt:de_a_coudre"
   },
   "minimum_participants": 1,
-  "maximum_participants": 24,
+  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",

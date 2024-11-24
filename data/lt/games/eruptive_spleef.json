@@ -6,7 +6,7 @@
     "load_from": "lt:eruptive_spleef"
   },
   "minimum_participants": 1,
-  "maximum_participants": 24,
+  "maximum_participants": 1000,
 
   "behaviors": [
     {

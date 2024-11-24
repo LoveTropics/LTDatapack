@@ -2,7 +2,7 @@
   "name": "Waiting Lobby",
   "statistics_key": "waiting_lobby",
   "minimum_participants": 1,
-  "maximum_participants": 100,
+  "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:waiting_lobby",

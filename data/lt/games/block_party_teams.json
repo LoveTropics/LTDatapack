@@ -23,7 +23,7 @@
     "load_from": "lt:block_party_teams"
   },
   "minimum_participants": 1,
-  "maximum_participants": 32,
+  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",

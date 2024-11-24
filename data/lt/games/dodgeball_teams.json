@@ -19,7 +19,7 @@
   "statistics_key": "dodgeball_teams",
   "backend_id": "lt:dodgeball",
   "minimum_participants": 2,
-  "maximum_participants": 40,
+  "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:dodgeball",

@@ -23,7 +23,7 @@
     "load_from": "lt:pillars_of_wealth"
   },
   "minimum_participants": 1,
-  "maximum_participants": 30,
+  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",
