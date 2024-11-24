@@ -1,2 +1,3 @@
 execute as @e[tag=info.add] at @s run data modify entity @s[type=minecraft:text_display] view_range set value 1
 execute as @e[tag=info.add] at @s run data modify entity @s[type=minecraft:text_display] start_interpolation set value 0
+execute as @e[tag=ad.spawn] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["ad.gegy"],CustomName:"''",CustomNameVisible:false,"neoforge:attachments": {"ltminigames:player_disguise": {custom_name:"''", scale:5f, entity: {tag: {collectible: "lt:gegy_potato"}, type: "ltextras:collectible"}}}}
