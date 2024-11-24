@@ -197,7 +197,7 @@
           "items": ["ltextras:tropicoin"],
           "statistic_binding": {
             "statistic": "points",
-            "multiplier": 0.1,
+            "multiplier": 0.25,
             "from_team": true
           }
         }
