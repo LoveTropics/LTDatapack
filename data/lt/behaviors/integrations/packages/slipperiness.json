@@ -2,7 +2,7 @@
     "type": "lt:integrations/packages/attribute",
     "id": "slipperiness",
     "name": "ltminigames.minigame.donation.more_friction",
-    "description": "ltminigames.minigame.donation..more_friction.description",
+    "description": "ltminigames.minigame.donation.more_friction.description",
     "toast": "ltminigames.minigame.donation.more_friction.toast",
     "icon": "minecraft:ice",
     "donation_amount": "$donation_amount",
@@ -15,4 +15,3 @@
       "operation": "add_value"
     }
   }
-  
