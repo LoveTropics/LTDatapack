@@ -48,7 +48,7 @@
         "items": ["ltextras:tropicoin"],
         "statistic_binding": {
           "statistic": "time_survived",
-          "multiplier": 0.2
+          "multiplier": 0.05
         }
       }
     }
