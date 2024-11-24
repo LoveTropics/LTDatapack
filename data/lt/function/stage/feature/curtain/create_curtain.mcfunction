@@ -1,0 +1,1 @@
+execute align xyz run summon marker ~ ~ ~ {Tags:["stage.curtain"]}

@@ -99,3 +99,6 @@ function lt:map/generic/launch_pad/on_tick
 
 # Quest System
 function lt:quest/main/on_tick
+
+# Stage on_tick
+function lt:stage/stage_tick

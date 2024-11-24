@@ -173,3 +173,6 @@ scoreboard objectives add mini_disguises.clock dummy
 
 # Flying Gegy 
 scoreboard objectives add turtle_tracker dummy
+## Stage system variables
+scoreboard objectives add stage.global dummy
+scoreboard objectives add stage.curtain dummy
