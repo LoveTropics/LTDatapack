@@ -55,7 +55,7 @@ function lt:world_games/parkour/on_second
 function lt:world_games/dropper/on_tick
 
 # Build Mode Tools
-execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if data entity @s ForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools
+execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if data entity @s NeoForgeData.PlayerPersisted.gamemodebuild{active:1b} run function lt:utility/buildmode/give_tools
 
 # Make interaction blocker invisible
 execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker] invisibility infinite 1 true
