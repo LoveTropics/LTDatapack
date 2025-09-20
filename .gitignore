@@ -3,3 +3,6 @@
 
 /data/lt/maps
 .idea/
+*.code-workspace
+
+.vscode/

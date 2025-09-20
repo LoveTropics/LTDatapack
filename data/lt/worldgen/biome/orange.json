@@ -1,15 +1,15 @@
 {
-    "temperature": 2.0,
-    "downfall": 1.5,
-    "has_precipitation": false,
-    "effects": {
-        "sky_color": 16742520,
-        "fog_color": 16742520,
-        "water_color": 16742520,
-        "water_fog_color": 16742520
-    },
-    "spawners": {},
-    "spawn_costs": {},
-    "carvers": {},
-    "features": []
+	"temperature": 2.0,
+	"downfall": 1.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 16742520,
+		"fog_color": 16742520,
+		"water_color": 16742520,
+		"water_fog_color": 16742520
+	},
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": [],
+	"features": []
 }
