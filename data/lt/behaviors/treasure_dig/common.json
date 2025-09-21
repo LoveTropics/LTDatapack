@@ -22,7 +22,7 @@
     "points_map": {
       "minecraft:diamond": 3,
       "minecraft:gold_nugget": 2,
-      "minecraft:iron_nugget":1
+      "minecraft:iron_nugget": 1
     }
   },
   {
@@ -36,7 +36,7 @@
           "components": {
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "minecraft:can_break": { "blocks":  ["tropicraft:volcanic_sand"]}
+            "minecraft:can_break": {"blocks": ["tropicraft:volcanic_sand"]}
           }
         }
       ]

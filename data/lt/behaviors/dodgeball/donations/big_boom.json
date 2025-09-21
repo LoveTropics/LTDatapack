@@ -1,31 +1,31 @@
 {
-	"type": "ltminigames:donation_package",
-	"id": "big_boom",
-	"package_type": "care_package",
-	"category": "small",
-	"player_select": "all",
-	"name": {
-		"translate": "ltminigames.minigame.donation.dodgeball.big_boom"
-	},
-	"description": {
-		"translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
-	},
-	"donation_amount": 5,
-	"notification": {
-		"message": {
-			"translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
-			"color": "light_purple"
-		},
-		"icon": { "item": "tropicraft:exploding_coconut" },
-		"sentiment": "positive",
-		"sound": "ltminigames:package_receive"
-	},
-	"receive_actions": [
-		"ltminigames:give_player_head_package",
-		{
-			"type": "ltminigames:run_commands",
-			"player": ["function lt:game/dodgeball/packages/big_boom/start"]
-		},
-		"$equip_action"
-	]
+  "type": "ltminigames:donation_package",
+  "id": "big_boom",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "all",
+  "name": {
+    "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
+  },
+  "description": {
+    "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
+  },
+  "donation_amount": 5,
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
+      "color": "light_purple"
+    },
+    "icon": {"item": "tropicraft:exploding_coconut"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:run_commands",
+      "player": ["function lt:game/dodgeball/packages/big_boom/start"]
+    },
+    "$equip_action"
+  ]
 }

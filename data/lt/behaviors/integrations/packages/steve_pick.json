@@ -1,26 +1,26 @@
 {
-    "type": "ltminigames:donation_package",
-    "id": "steve_pick",
-    "package_type": "care_package",
-    "category": "small",
-    "player_select": "specific",
-    "name": {"translate": "ltminigames.minigame.donation.steve_pick"},
-    "description": {"translate": "ltminigames.minigame.donation.steve_pick.description"},
-    "donation_amount": "$donation_amount",
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.steve_pick.toast",
-        "color": "light_purple"
-      },
-      "icon": {"item": "minecraft:diamond_pickaxe"},
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+  "type": "ltminigames:donation_package",
+  "id": "steve_pick",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": {"translate": "ltminigames.minigame.donation.steve_pick"},
+  "description": {"translate": "ltminigames.minigame.donation.steve_pick.description"},
+  "donation_amount": "$donation_amount",
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.steve_pick.toast",
+      "color": "light_purple"
     },
-    "receive_actions": [
-      "ltminigames:give_player_head_package",
-      {
-        "type": "ltminigames:give_loot",
-        "loot_table": "lt:packages/steve_pick"
-      }
-    ]
-  }
+    "icon": {"item": "minecraft:diamond_pickaxe"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": [
+    "ltminigames:give_player_head_package",
+    {
+      "type": "ltminigames:give_loot",
+      "loot_table": "lt:packages/steve_pick"
+    }
+  ]
+}

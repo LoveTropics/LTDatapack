@@ -1,104 +1,104 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:iron_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "damage": 242
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "minecraft:iron_chestplate",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "damage": 242
+              }
+            }
+          ]
         },
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "minecraft:golden_carrot",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 7
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:golden_apple"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "ltminigames:super_sunscreen"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "ltminigames:acid_repellent_umbrella"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "tropicraft:man_o_war_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.slime_bomb","italic":false},
-                                "entity_data": {
-                                    "id": "tropicraft:man_o_war",
-                                    "NoGravity": true,
-                                    "Silent": true,
-                                    "Invulnerable": true,
-                                    "PersistenceRequired": true,
-                                    "Tags": ["game.stt.jelly_bomb"]
-                                },
-                                "can_place_on": {}
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ltminigames:super_sunscreen"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ltminigames:acid_repellent_umbrella"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:man_o_war_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.slime_bomb", "italic": false},
+                "entity_data": {
+                  "id": "tropicraft:man_o_war",
+                  "NoGravity": true,
+                  "Silent": true,
+                  "Invulnerable": true,
+                  "PersistenceRequired": true,
+                  "Tags": ["game.stt.jelly_bomb"]
+                },
+                "can_place_on": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

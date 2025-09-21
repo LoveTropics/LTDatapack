@@ -12,7 +12,7 @@
       "translate": "ltminigames.minigame.donation.surprise_creepers.toast",
       "color": "red"
     },
-    "icon": { "item": "minecraft:creeper_spawn_egg" },
+    "icon": {"item": "minecraft:creeper_spawn_egg"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

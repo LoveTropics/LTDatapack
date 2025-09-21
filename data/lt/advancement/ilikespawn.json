@@ -1,17 +1,17 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "components": {
-                        "minecraft:custom_data": "{ILikeSpawn:1b}"
-                    }
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{ILikeSpawn:1b}"
+          }
         }
-    },
-    "rewards": {
-        "function": "lt:effects/spawn"
+      }
     }
+  },
+  "rewards": {
+    "function": "lt:effects/spawn"
+  }
 }

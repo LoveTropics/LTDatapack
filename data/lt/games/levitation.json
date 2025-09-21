@@ -1,6 +1,5 @@
 {
   "name": {"translate": "ltminigames.minigame.levitation"},
-
   "statistics_key": "levitation",
   "map": {
     "type": "ltminigames:load_map",

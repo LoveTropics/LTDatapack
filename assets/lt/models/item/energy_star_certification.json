@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "ltextras:item/energy_star_certification"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ltextras:item/energy_star_certification"
   }
+}

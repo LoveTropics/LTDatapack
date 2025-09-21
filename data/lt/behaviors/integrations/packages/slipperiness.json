@@ -1,17 +1,17 @@
 {
-    "type": "lt:integrations/packages/attribute",
-    "id": "slipperiness",
-    "name": "ltminigames.minigame.donation.more_friction",
-    "description": "ltminigames.minigame.donation.more_friction.description",
-    "toast": "ltminigames.minigame.donation.more_friction.toast",
-    "icon": "minecraft:ice",
-    "donation_amount": "$donation_amount",
-    "seconds": 30,
-    "attribute": {
-      "type": "ltextras:friction",
-      "id": "ltminigames:more_friction",
-      "name": "more_friction_package",
-      "amount": 0.045,
-      "operation": "add_value"
-    }
+  "type": "lt:integrations/packages/attribute",
+  "id": "slipperiness",
+  "name": "ltminigames.minigame.donation.more_friction",
+  "description": "ltminigames.minigame.donation.more_friction.description",
+  "toast": "ltminigames.minigame.donation.more_friction.toast",
+  "icon": "minecraft:ice",
+  "donation_amount": "$donation_amount",
+  "seconds": 30,
+  "attribute": {
+    "type": "ltextras:friction",
+    "id": "ltminigames:more_friction",
+    "name": "more_friction_package",
+    "amount": 0.045,
+    "operation": "add_value"
   }
+}

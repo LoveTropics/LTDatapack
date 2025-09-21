@@ -4,15 +4,11 @@
     "distance_threshold": 48.0,
     "donation_amount": 15.0
   },
-
   {"type": "lt:integrations/packages/everything", "donation_amount": 100.0},
-
   "lt:integrations/packages/hunger",
   "lt:integrations/packages/helpful_effects",
-
   "lt:biodiversity_blitz/donations/disguises",
   "lt:integrations/packages/acid_rain",
-
   "lt:biodiversity_blitz/donations/surprise_creepers",
   "lt:biodiversity_blitz/donations/equalize_currency"
 ]

@@ -13,7 +13,7 @@
         "translate": "ltminigames.minigame.donation.speed_boost_1_package.toast",
         "color": "green"
       },
-      "icon": { "effect": "minecraft:speed" },
+      "icon": {"effect": "minecraft:speed"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
@@ -40,7 +40,7 @@
         "translate": "ltminigames.minigame.donation.speed_boost_5_package.toast",
         "color": "green"
       },
-      "icon": { "effect": "minecraft:speed" },
+      "icon": {"effect": "minecraft:speed"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
@@ -67,7 +67,7 @@
         "translate": "ltminigames.minigame.donation.speed_boost_30_package.toast",
         "color": "green"
       },
-      "icon": { "effect": "minecraft:speed" },
+      "icon": {"effect": "minecraft:speed"},
       "sentiment": "positive",
       "sound": "ltminigames:package_receive"
     },
@@ -80,7 +80,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:donation_package",
     "id": "slowness_1_package",
@@ -95,7 +94,7 @@
         "translate": "ltminigames.minigame.donation.slowness_1_package.toast",
         "color": "red"
       },
-      "icon": { "effect": "minecraft:slowness" },
+      "icon": {"effect": "minecraft:slowness"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -122,7 +121,7 @@
         "translate": "ltminigames.minigame.donation.slowness_5_package.toast",
         "color": "red"
       },
-      "icon": { "effect": "minecraft:slowness" },
+      "icon": {"effect": "minecraft:slowness"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },
@@ -149,7 +148,7 @@
         "translate": "ltminigames.minigame.donation.slowness_30_package.toast",
         "color": "red"
       },
-      "icon": { "effect": "minecraft:slowness" },
+      "icon": {"effect": "minecraft:slowness"},
       "sentiment": "negative",
       "sound": "ltminigames:sabotage_receive"
     },

@@ -71,7 +71,7 @@
   {
     "type": "ltminigames:scheduled_actions",
     "actions": {
-      "30":   {
+      "30": {
         "type": "ltminigames:set_extending_blocks",
         "region": ["paracord"],
         "set": "ltextras:paracord",

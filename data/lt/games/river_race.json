@@ -5,7 +5,6 @@
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "hide_from_list": true,
-
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",

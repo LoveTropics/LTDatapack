@@ -1,7 +1,7 @@
 {
-    "asset_id": "lt:no_cents",
-    "description": {
-        "translate": "trim_pattern.lt.no_cents"
-    },
-    "template_item": "ltminigames:osa_point"
+  "asset_id": "lt:no_cents",
+  "description": {
+    "translate": "trim_pattern.lt.no_cents"
+  },
+  "template_item": "ltminigames:osa_point"
 }

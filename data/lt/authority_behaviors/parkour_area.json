@@ -1,15 +1,15 @@
 {
-	"enter_commands": [
-		"tag @s add in.parkour.area",
-		"team join parkour @s",
-		"function lt:game/parkour/map/test_for_items",
-		"execute unless entity @s[gamemode=spectator] run collectible lock @s",
-		"function lt:world_games/parkour/give_key"
-	],
-	"exit_commands": [
-		"tag @s remove in.parkour.area",
-		"team leave @s",
-		"collectible unlock @s",
-		"clear @s minecraft:trial_key"
-	]
+  "enter_commands": [
+    "tag @s add in.parkour.area",
+    "team join parkour @s",
+    "function lt:game/parkour/map/test_for_items",
+    "execute unless entity @s[gamemode=spectator] run collectible lock @s",
+    "function lt:world_games/parkour/give_key"
+  ],
+  "exit_commands": [
+    "tag @s remove in.parkour.area",
+    "team leave @s",
+    "collectible unlock @s",
+    "clear @s minecraft:trial_key"
+  ]
 }

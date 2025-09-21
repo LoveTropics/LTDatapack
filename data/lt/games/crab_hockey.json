@@ -1,6 +1,5 @@
 {
-  "name": { "translate": "ltminigames.minigame.crab_hockey" },
-
+  "name": {"translate": "ltminigames.minigame.crab_hockey"},
   "statistics_key": "hockey",
   "map": {
     "type": "ltminigames:load_map",

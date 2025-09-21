@@ -1,80 +1,85 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:diamond_chestplate",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        },
-                        {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:netherite_sword"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:wooden_hoe",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.teeter_yeeter_boogaloo","color":"#9CD43E","bold":true,"italic":false},
-                                "lore": [
-                                    {"translate":"lt.loot_table.teeter_yeeter_boogaloo.lore","color":"dark_aqua","italic":false}
-                                ],
-                                "damage": 58,
-                                "enchantments": {
-                                        "knockback": 5
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "weight": 1,
-                    "value": "lt:stt3/tier_4/ranged"
-                }
-            ]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
         },
         {
-            "rolls": {
-                "min": 2,
-                "max": 3
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_apple"
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_sword"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:wooden_hoe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {
+                  "translate": "lt.loot_table.teeter_yeeter_boogaloo",
+                  "color": "#9CD43E",
+                  "bold": true,
+                  "italic": false
                 },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_pearl"
-                },
-                {
-                    "type": "loot_table",
-                    "weight": 1,
-                    "value": "lt:stt3/tier_4/potion"
+                "lore": [
+                  {"translate": "lt.loot_table.teeter_yeeter_boogaloo.lore", "color": "dark_aqua", "italic": false}
+                ],
+                "damage": 58,
+                "enchantments": {
+                  "knockback": 5
                 }
-            ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "lt:stt3/tier_4/ranged"
         }
-    ]
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "lt:stt3/tier_4/potion"
+        }
+      ]
+    }
+  ]
 }

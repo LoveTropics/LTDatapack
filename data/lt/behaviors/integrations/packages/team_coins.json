@@ -13,7 +13,7 @@
       "translate": "ltminigames.minigame.donation.team_coins.toast",
       "color": "light_purple"
     },
-    "icon": { "item": "ltextras:tropicoin" },
+    "icon": {"item": "ltextras:tropicoin"},
     "sentiment": "positive",
     "sound": "ltminigames:package_receive"
   },

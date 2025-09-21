@@ -1,13 +1,13 @@
 [
-    {
-      "predicate": {
-        "amount": {
-          "min": 25.0
-        }
-      },
-      "action": {
-        "type": "run_function",
-        "function": "lt:donation_effects/crab_gold"
+  {
+    "predicate": {
+      "amount": {
+        "min": 25.0
       }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:donation_effects/crab_gold"
     }
-  ]
+  }
+]

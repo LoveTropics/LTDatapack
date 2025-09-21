@@ -1,67 +1,73 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:crossbow",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 30,
-                                "max": 30
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:firework_rocket",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.super_rocket","color":"red","italic":false},
-                                "lore": [
-                                    {"translate":"lt.loot_table.super_rocket.lore","color":"blue","italic":false}
-                                ],
-                                "fireworks": {
-                                    "explosions": [
-                                        {"shape": "small_ball", "colors": [5079041]},
-                                        {"shape": "small_ball", "colors": [162984]},
-                                        {"shape": "small_ball", "colors": [5079041]},
-                                        {"shape": "small_ball", "colors": [162984]},
-                                        {"shape": "small_ball", "colors": [5079041]},
-                                        {"shape": "small_ball", "colors": [162984]},
-                                        {"shape": "star", "has_twinkle": true, "has_trail": true, "colors": [16753152], "fade_colors": [11869469]}
-                                    ]
-                                },
-                                "minecraft:tooltip_display": {
-                                    "minecraft:hidden_components": [
-                                        "minecraft:fireworks"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 5
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 30
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.super_rocket", "color": "red", "italic": false},
+                "lore": [
+                  {"translate": "lt.loot_table.super_rocket.lore", "color": "blue", "italic": false}
+                ],
+                "fireworks": {
+                  "explosions": [
+                    {"shape": "small_ball", "colors": [5079041]},
+                    {"shape": "small_ball", "colors": [162984]},
+                    {"shape": "small_ball", "colors": [5079041]},
+                    {"shape": "small_ball", "colors": [162984]},
+                    {"shape": "small_ball", "colors": [5079041]},
+                    {"shape": "small_ball", "colors": [162984]},
+                    {
+                      "shape": "star",
+                      "has_twinkle": true,
+                      "has_trail": true,
+                      "colors": [16753152],
+                      "fade_colors": [11869469]
+                    }
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "minecraft:hidden_components": [
+                    "minecraft:fireworks"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

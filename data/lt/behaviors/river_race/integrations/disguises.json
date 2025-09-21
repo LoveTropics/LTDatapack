@@ -11,7 +11,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise_and_extra",
     "id": "this_will_be_a_breeze",
@@ -31,7 +30,6 @@
       }
     }
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "seriously_shoebill",

@@ -1,10 +1,8 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_4"},
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
-
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_4",
-
   "minimum_participants": 3,
   "maximum_participants": 1000,
   "waiting": {

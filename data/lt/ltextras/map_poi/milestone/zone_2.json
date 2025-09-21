@@ -1,18 +1,18 @@
 {
-	"description": { 
-        "translate": "lt.poi.milestone_area",
-        "with": [
-            { 
-                "text": "2" 
-            }
-        ]
-    },
-	"icon": {
-		"item": {
-			"id": "tropicraft:mahogany_sapling"
-		}
-	},
-	"pos": [-261.0, 133, 277.0],
-	"angle": 90,
-	"map": "lt:tropics"
+  "description": {
+    "translate": "lt.poi.milestone_area",
+    "with": [
+      {
+        "text": "2"
+      }
+    ]
+  },
+  "icon": {
+    "item": {
+      "id": "tropicraft:mahogany_sapling"
+    }
+  },
+  "pos": [-261.0, 133, 277.0],
+  "angle": 90,
+  "map": "lt:tropics"
 }

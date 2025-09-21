@@ -1,56 +1,56 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 1
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:iron_chestplate",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:iron_leggings",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:iron_helmet",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:diamond_boots",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                }
-            ]
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

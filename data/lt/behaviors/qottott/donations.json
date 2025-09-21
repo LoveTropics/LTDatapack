@@ -3,19 +3,14 @@
     "type": "ltminigames:block_packages_during_phase",
     "block_periods": [{"start": 0.0, "end": "start"}, {"start": "end", "end": "close"}]
   },
-
   {"type": "lt:integrations/packages/everything", "donation_amount": 100.0},
-
   "lt:qottott/donations/disguises",
   {"type": "lt:integrations/packages/big_leaps", "donation_amount": 8.0, "duration": 120},
-
   {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 8.0},
-
   "lt:integrations/packages/extreme_knockback",
   {"type": "lt:integrations/packages/boom", "donation_amount": 8.0},
   {"type": "lt:integrations/packages/undying", "donation_amount": 5.0},
   {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 8.0},
-
   "lt:qottott/donations/global_leaky_pockets",
   "lt:qottott/donations/leaky_pockets"
 ]

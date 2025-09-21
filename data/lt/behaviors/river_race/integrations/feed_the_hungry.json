@@ -13,7 +13,7 @@
       "translate": "ltminigames.minigame.donation.feed_the_hungry.toast",
       "color": "light_purple"
     },
-    "icon": { "effect": "minecraft:saturation" },
+    "icon": {"effect": "minecraft:saturation"},
     "sentiment": "positive",
     "sound": "ltminigames:package_receive"
   },

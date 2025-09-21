@@ -6,7 +6,9 @@
     "item": {
       "id": "minecraft:jack_o_lantern",
       "components": {
-        "lore": [{"translate": "ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip","color":"aqua"}],
+        "lore": [
+          {"translate": "ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip", "color": "aqua"}
+        ],
         "ltminigames:shift_lore": [
           {
             "translate": "ltminigames.minigame.biodiversity_blitz.plant.jack_o_lantern.tooltip.extra1",

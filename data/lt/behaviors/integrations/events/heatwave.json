@@ -10,7 +10,7 @@
       "translate": "ltminigames.minigame.event.heatwave_event.toast",
       "color": "light_purple"
     },
-    "icon": { "item": "ltminigames:super_sunscreen" },
+    "icon": {"item": "ltminigames:super_sunscreen"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

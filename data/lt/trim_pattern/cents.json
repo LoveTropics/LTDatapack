@@ -1,7 +1,7 @@
 {
-    "asset_id": "lt:cents",
-    "description": {
-        "translate": "trim_pattern.lt.cents"
-    },
-    "template_item": "ltextras:tropicoin"
+  "asset_id": "lt:cents",
+  "description": {
+    "translate": "trim_pattern.lt.cents"
+  },
+  "template_item": "ltextras:tropicoin"
 }

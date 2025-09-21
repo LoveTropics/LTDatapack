@@ -1,22 +1,22 @@
 {
-	"type": "lt:dodgeball/items/power_up",
-	"item_tag": "$item_tag",
-	"seconds": "$seconds",
-	"subtitle": "$subtitle",
-	"apply": {
-		"type": "ltminigames:apply_to_player",
-		"target": "participants_except_source",
-		"actions": {
-			"type": "ltminigames:give_effect",
-			"effects": [
-				{
-					"type": "$effect",
-					"seconds": "$seconds",
-					"amplifier": 0,
-					"particles": false,
-					"show_icon": true
-				}
-			]
-		}
-	}
+  "type": "lt:dodgeball/items/power_up",
+  "item_tag": "$item_tag",
+  "seconds": "$seconds",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants_except_source",
+    "actions": {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "$effect",
+          "seconds": "$seconds",
+          "amplifier": 0,
+          "particles": false,
+          "show_icon": true
+        }
+      ]
+    }
+  }
 }

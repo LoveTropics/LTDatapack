@@ -1,7 +1,7 @@
 {
   "condition": "minecraft:entity_properties",
   "entity": "this",
-  "predicate": { 
-    "nbt": "{FallFlying:1b}" 
-}
+  "predicate": {
+    "nbt": "{FallFlying:1b}"
+  }
 }

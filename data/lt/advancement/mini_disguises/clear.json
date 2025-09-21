@@ -1,18 +1,18 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": "minecraft:milk_bucket",
-                    "components": {
-                        "minecraft:custom_data": "{MiniDisguise_Clear:1b,ParkourBlacklist:1b}"
-                    }
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket",
+          "components": {
+            "minecraft:custom_data": "{MiniDisguise_Clear:1b,ParkourBlacklist:1b}"
+          }
         }
-    },
-    "rewards": {
-        "function": "lt:mini_disguises/clear"
+      }
     }
+  },
+  "rewards": {
+    "function": "lt:mini_disguises/clear"
+  }
 }

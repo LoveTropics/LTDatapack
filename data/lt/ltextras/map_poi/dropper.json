@@ -1,11 +1,11 @@
 {
-	"description": { "translate": "lt.poi.dropper" },
-	"icon": {
-		"item": {
-			"id": "minecraft:dropper"
-		}
-	},
-	"pos": [-284, 185, -256],
-	"angle": 160,
-	"map": "lt:tropics"
+  "description": {"translate": "lt.poi.dropper"},
+  "icon": {
+    "item": {
+      "id": "minecraft:dropper"
+    }
+  },
+  "pos": [-284, 185, -256],
+  "angle": 160,
+  "map": "lt:tropics"
 }

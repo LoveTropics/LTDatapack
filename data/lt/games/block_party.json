@@ -1,6 +1,5 @@
 {
   "name": {"translate": "ltminigames.minigame.block_party"},
-
   "statistics_key": "block_party",
   "map": {
     "type": "ltminigames:load_map",
@@ -14,7 +13,7 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-   "ltminigames:last_remaining_win_trigger",
+    "ltminigames:last_remaining_win_trigger",
     {
       "type": "ltminigames:block_party",
       "floor": "blocks",

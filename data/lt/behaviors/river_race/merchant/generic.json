@@ -76,7 +76,7 @@
           "id": "tropicraft:exploding_coconut",
           "count": 2,
           "components": {
-            "item_name": {"translate":"lt.item.damaging_coconut"},
+            "item_name": {"translate": "lt.item.damaging_coconut"},
             "tropicraft:destroys_blocks": false
           }
         }
@@ -90,7 +90,7 @@
           "id": "tropicraft:exploding_coconut",
           "count": 1,
           "components": {
-            "item_name": {"translate":"lt.item.explosive_coconut"},
+            "item_name": {"translate": "lt.item.explosive_coconut"},
             "tropicraft:destroys_blocks": true
           }
         }

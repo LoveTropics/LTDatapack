@@ -1,23 +1,23 @@
 {
-	"type": "lt:dodgeball/items/power_up",
-	"item_tag": "$item_tag",
-	"subtitle": "$subtitle",
-	"apply": {
-		"type": "ltminigames:apply_for_time",
-		"seconds": "$seconds",
-		"apply": {
-			"type": "ltminigames:add_attribute_modifier",
-			"attribute": "$attribute.name",
-			"modifier": {
-				"id": "$attribute.id",
-				"amount": "$attribute.amount",
-				"operation": "$attribute.operation"
-			}
-		},
-		"clear": {
-			"type": "ltminigames:clear_attribute_modifier",
-			"id": "$attribute.id",
-			"attribute": "$attribute.name"
-		}
-	}
+  "type": "lt:dodgeball/items/power_up",
+  "item_tag": "$item_tag",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:apply_for_time",
+    "seconds": "$seconds",
+    "apply": {
+      "type": "ltminigames:add_attribute_modifier",
+      "attribute": "$attribute.name",
+      "modifier": {
+        "id": "$attribute.id",
+        "amount": "$attribute.amount",
+        "operation": "$attribute.operation"
+      }
+    },
+    "clear": {
+      "type": "ltminigames:clear_attribute_modifier",
+      "id": "$attribute.id",
+      "attribute": "$attribute.name"
+    }
+  }
 }

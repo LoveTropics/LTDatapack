@@ -1,6 +1,6 @@
 {
-	"enter_commands": [
-		"execute at @e[type=marker,tag=theatretp,limit=1] run teleport @s ~ ~ ~ -90 0"
-	],
-	"exit_commands": []
+  "enter_commands": [
+    "execute at @e[type=marker,tag=theatretp,limit=1] run teleport @s ~ ~ ~ -90 0"
+  ],
+  "exit_commands": []
 }

@@ -1,18 +1,18 @@
 {
-	"description": { 
-        "translate": "lt.poi.milestone_area",
-        "with": [
-            { 
-                "text": "1" 
-            }
-        ]
-    },
-	"icon": {
-		"item": {
-			"id": "ltminigames:plastic_bottle"
-		}
-	},
-	"pos": [-184.0, 135, 235.0],
-	"angle": 0,
-	"map": "lt:tropics"
+  "description": {
+    "translate": "lt.poi.milestone_area",
+    "with": [
+      {
+        "text": "1"
+      }
+    ]
+  },
+  "icon": {
+    "item": {
+      "id": "ltminigames:plastic_bottle"
+    }
+  },
+  "pos": [-184.0, 135, 235.0],
+  "angle": 0,
+  "map": "lt:tropics"
 }

@@ -1,7 +1,7 @@
 {
-    "asset_id": "lt:tropics",
-    "description": {
-        "translate": "trim_pattern.lt.tropics"
-    },
-    "template_item": "minecraft:heart_of_the_sea"
+  "asset_id": "lt:tropics",
+  "description": {
+    "translate": "trim_pattern.lt.tropics"
+  },
+  "template_item": "minecraft:heart_of_the_sea"
 }

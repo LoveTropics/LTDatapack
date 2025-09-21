@@ -1,146 +1,146 @@
 [
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:cents",
-                "color": "green"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 1
-            }
-        ]
-    },
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:no_cents",
-                "color": "red"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 2
-            }
-        ]
-    },
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:col",
-                "color": "red"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 3
-            }
-        ]
-    },
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:love_heart",
-                "color": "red"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 4
-            }
-        ]
-    },
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:love_heart_new",
-                "color": "red"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 5
-            }
-        ]
-    },
-    {
-        "function": "minecraft:set_banner_pattern",
-        "patterns": [
-            {
-                "pattern": "lt:pog",
-                "color": "yellow"
-            }
-        ],
-        "append": false,
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Banner"
-                    },
-                    "score": "main.random"
-                },
-                "range": 6
-            }
-        ]
-    }
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:cents",
+        "color": "green"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:no_cents",
+        "color": "red"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:col",
+        "color": "red"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 3
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:love_heart",
+        "color": "red"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 4
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:love_heart_new",
+        "color": "red"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_banner_pattern",
+    "patterns": [
+      {
+        "pattern": "lt:pog",
+        "color": "yellow"
+      }
+    ],
+    "append": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Banner"
+          },
+          "score": "main.random"
+        },
+        "range": 6
+      }
+    ]
+  }
 ]

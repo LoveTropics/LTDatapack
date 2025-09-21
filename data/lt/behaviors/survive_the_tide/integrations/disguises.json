@@ -11,7 +11,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "cubera_confusion",
@@ -24,7 +23,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "armor_standardization",
@@ -40,7 +38,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "player_dummy_package",

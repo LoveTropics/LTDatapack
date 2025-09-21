@@ -1,113 +1,113 @@
 [
-	"ltminigames:spectator_chase",
-	"lt:dodgeball/ruleset",
-	"lt:dodgeball/phases",
-	"lt:dodgeball/map",
-	"lt:dodgeball/items",
-	{
-		"type": "lt:dodgeball/donations",
-		"equip_action": "$equip_action"
-	},
-	{
-		"type": "ltminigames:immediate_respawn",
-		"role": "participant",
-		"drop_inventory": false,
-		"respawn_action": "lt:dodgeball/respawn",
-		"clear_kill_tracker": true
-	},
-	{
-		"type": "ltminigames:place_by_statistic",
-		"statistic": "points",
-		"order": "max"
-	},
-	{
-		"type": "ltminigames:display_leaderboard_on_finish",
-		"statistic": "points",
-		"order": "max",
-		"length": 6
-	},
-	"lt:common/announce_game_over",
-	{
-		"type": "ltminigames:set_role",
-		"role": "participant",
-		"action": [
-			{
-				"type": "ltminigames:run_commands",
-				"player": ["scoreboard players set @s dodgeball.packages 0"]
-			}
-		]
-	},
-	{
-		"type": "ltminigames:on_spawn",
-		"role": "participant",
-		"action": [
-			"$equip_action",
-			{
-				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:max_health",
-				"modifier": {
-					"id": "lt:dodgeball_health",
-					"amount": -19,
-					"operation": "add_value"
-				}
-			},
-			{
-				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:step_height",
-				"modifier": {
-					"id": "lt:dodgeball_step",
-					"amount": 0.4,
-					"operation": "add_value"
-				}
-			},
-			{
-				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:movement_speed",
-				"modifier": {
-					"id": "lt:dodgeball_speed",
-					"amount": 0.025,
-					"operation": "add_value"
-				}
-			}
-		]
-	},
-	{
-		"type": "ltminigames:points_sidebar",
-		"statistic": "points",
-		"order": "max",
-		"count": 10,
-		"title": {
-			"translate": "lt.minigame.dodgeball",
-			"color": "light_purple",
-			"bold": true
-		},
-		"header": []
-	},
-	{
-		"type": "ltminigames:game_end_effects",
-		"podium": {
-			"winner_regions": ["winner"],
-			"loser_region": "player_spawn"
-		}
-	},
-	{
-		"type": "ltminigames:game_finish",
-		"actions": {
-			"type": "ltminigames:apply_to_player",
-			"target": "participants",
-			"actions": {
-				"type": "ltminigames:give_reward",
-				"items": [
-					{
-						"id": "ltextras:tropicoin",
-						"count": 1
-					}
-				],
-				"statistic_binding": {
-					"statistic": "points",
-					"multiplier": 0.1
-				}
-			}
-		}
-	}
+  "ltminigames:spectator_chase",
+  "lt:dodgeball/ruleset",
+  "lt:dodgeball/phases",
+  "lt:dodgeball/map",
+  "lt:dodgeball/items",
+  {
+    "type": "lt:dodgeball/donations",
+    "equip_action": "$equip_action"
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "drop_inventory": false,
+    "respawn_action": "lt:dodgeball/respawn",
+    "clear_kill_tracker": true
+  },
+  {
+    "type": "ltminigames:place_by_statistic",
+    "statistic": "points",
+    "order": "max"
+  },
+  {
+    "type": "ltminigames:display_leaderboard_on_finish",
+    "statistic": "points",
+    "order": "max",
+    "length": 6
+  },
+  "lt:common/announce_game_over",
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "action": [
+      {
+        "type": "ltminigames:run_commands",
+        "player": ["scoreboard players set @s dodgeball.packages 0"]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "action": [
+      "$equip_action",
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:max_health",
+        "modifier": {
+          "id": "lt:dodgeball_health",
+          "amount": -19,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:step_height",
+        "modifier": {
+          "id": "lt:dodgeball_step",
+          "amount": 0.4,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:movement_speed",
+        "modifier": {
+          "id": "lt:dodgeball_speed",
+          "amount": 0.025,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 10,
+    "title": {
+      "translate": "lt.minigame.dodgeball",
+      "color": "light_purple",
+      "bold": true
+    },
+    "header": []
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "podium": {
+      "winner_regions": ["winner"],
+      "loser_region": "player_spawn"
+    }
+  },
+  {
+    "type": "ltminigames:game_finish",
+    "actions": {
+      "type": "ltminigames:apply_to_player",
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:give_reward",
+        "items": [
+          {
+            "id": "ltextras:tropicoin",
+            "count": 1
+          }
+        ],
+        "statistic_binding": {
+          "statistic": "points",
+          "multiplier": 0.1
+        }
+      }
+    }
+  }
 ]

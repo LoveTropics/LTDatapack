@@ -12,7 +12,7 @@
       "translate": "ltminigames.minigame.donation.swap.toast",
       "color": "red"
     },
-    "icon": { "effect": "minecraft:unluck" },
+    "icon": {"effect": "minecraft:unluck"},
     "sound": "ltminigames:sabotage_receive"
   },
   "receive_actions": [

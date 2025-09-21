@@ -1,13 +1,13 @@
 [
-	{
-		"predicate": {
-			"amount": {
-				"min": 0.01
-			}
-		},
-		"action": {
-			"type": "run_function",
-			"function": "lt:utility/hosts/update_leader_delay"
-		}
-	}
+  {
+    "predicate": {
+      "amount": {
+        "min": 0.01
+      }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:utility/hosts/update_leader_delay"
+    }
+  }
 ]

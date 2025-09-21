@@ -22,7 +22,7 @@
     {
       "type": "ltminigames:scheduled_actions",
       "target": "all",
-      "actions":  {
+      "actions": {
         "1": {
           "type": "ltminigames:spectator_activity",
           "style": "red"

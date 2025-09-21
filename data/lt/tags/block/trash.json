@@ -1,13 +1,13 @@
 {
-	"replace": false,
-	"values": [
-		"ltminigames:can",
-		"ltminigames:chip_bag",
-		"ltminigames:cola_standing",
-		"ltminigames:cola",
-		"ltminigames:plastic_bag",
-		"ltminigames:plastic_bottle",
-		"ltminigames:plastic_rings",
-		"ltminigames:straw"
-	]
+  "replace": false,
+  "values": [
+    "ltminigames:can",
+    "ltminigames:chip_bag",
+    "ltminigames:cola_standing",
+    "ltminigames:cola",
+    "ltminigames:plastic_bag",
+    "ltminigames:plastic_bottle",
+    "ltminigames:plastic_rings",
+    "ltminigames:straw"
+  ]
 }

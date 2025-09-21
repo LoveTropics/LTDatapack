@@ -2,10 +2,8 @@
   "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
   "subtitle": "Philza Minecraft",
   "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
-
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_3_teams",
-
   "minimum_participants": 3,
   "maximum_participants": 1000,
   "waiting": {
@@ -53,7 +51,7 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type":  "lt:survive_the_tide/3/map",
+      "type": "lt:survive_the_tide/3/map",
       "tide": 190
     },
     {"type": "ltminigames:set_max_health", "max_health_by_team": {"everyone": 6.0, "host": 40.0}},

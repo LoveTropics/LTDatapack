@@ -1,232 +1,232 @@
 [
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:amethyst",
-                "pattern": "lt:tropics"
-            }
-        },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 1
-            }
-        ]
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:copper",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 2
-            }
-        ]
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:copper",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:diamond",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 3
-            }
-        ]
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:diamond",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:emerald",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 4
-            }
-        ]
+        "range": 3
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:gold",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 5
-            }
-        ]
+        "range": 4
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:gold",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:iron",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 6
-            }
-        ]
+        "range": 5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:iron",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:lapis",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 7
-            }
-        ]
+        "range": 6
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:lapis",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:netherite",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 8
-            }
-        ]
+        "range": 7
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:netherite",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:quartz",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 9
-            }
-        ]
+        "range": 8
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:quartz",
+        "pattern": "lt:tropics"
+      }
     },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:trim": {
-                "material": "minecraft:redstone",
-                "pattern": "lt:tropics"
-            }
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
         },
-        "conditions": [
-            {
-                "condition": "minecraft:value_check",
-                "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "Armor"
-                    },
-                    "score": "main.random"
-                },
-                "range": 10
-            }
-        ]
-    }
+        "range": 9
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:redstone",
+        "pattern": "lt:tropics"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "Armor"
+          },
+          "score": "main.random"
+        },
+        "range": 10
+      }
+    ]
+  }
 ]

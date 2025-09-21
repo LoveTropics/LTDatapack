@@ -1,113 +1,113 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "tropicraft:exploding_coconut",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 64
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"tropicraft:explosion_radius": 2,
-								"ltextras:cooldown_override": 40
-							}
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"dodgeball.packages": 0
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "tropicraft:exploding_coconut",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 64
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"tropicraft:explosion_radius": 4,
-								"ltextras:cooldown_override": 40
-							}
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"dodgeball.packages": 1
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "tropicraft:exploding_coconut",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 64
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"tropicraft:explosion_radius": 2,
-								"ltextras:cooldown_override": 5
-							}
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"dodgeball.packages": 2
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "tropicraft:exploding_coconut",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 64
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"tropicraft:explosion_radius": 4,
-								"ltextras:cooldown_override": 5
-							}
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"dodgeball.packages": 3
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:exploding_coconut",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "tropicraft:explosion_radius": 2,
+                "ltextras:cooldown_override": 40
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "dodgeball.packages": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:exploding_coconut",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "tropicraft:explosion_radius": 4,
+                "ltextras:cooldown_override": 40
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "dodgeball.packages": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:exploding_coconut",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "tropicraft:explosion_radius": 2,
+                "ltextras:cooldown_override": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "dodgeball.packages": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:exploding_coconut",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "tropicraft:explosion_radius": 4,
+                "ltextras:cooldown_override": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "dodgeball.packages": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,57 +1,57 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:chainmail_helmet",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:chainmail_chestplate",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:chainmail_boots",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                },
-                {   
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "name": "minecraft:chainmail_leggings",
-                    "functions": [
-                       {
-                            "function": "minecraft:reference",
-                            "name": "lt:armor"
-                       }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "lt:armor"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

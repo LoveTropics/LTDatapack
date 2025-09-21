@@ -1,152 +1,152 @@
 [
-	{
-		"type": "ltminigames:item_dropper",
-		"loot": [
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "speed"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.qottott.speed_power_up", "color": "aqua"}
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "scale"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.scale_power_up", "color": "red"}
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "gravity"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.gravity_power_up", "color": "red"}
-				}
-			}
-		],
-		"region": "buff_spawn",
-		"announcement": {
-			"type": "ltminigames:apply_to_player",
-			"target": "all",
-			"actions": {
-				"type": "ltminigames:send_message",
-				"message": {
-					"translate": "ltminigames.minigame.qottott.spawn.power_up",
-					"color": "aqua"
-				}
-			}
-		},
-		"interval_ticks": {
-			"type": "minecraft:uniform",
-			"min_inclusive": 300,
-			"max_inclusive": 600
-		},
-		"beacon": true,
-		"sound": {
-			"sound": "block.beacon.activate",
-			"source": "block",
-			"volume": 2.0,
-			"pitch": 2.0
-		}
-	},
-	{
-		"type": "ltminigames:item_dropper",
-		"loot": [
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "multiplier"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.coin_multiplier_power_up", "color": "red"}
-				}
-			}
-		],
-		"region": "sword_spawner",
-		"announcement": {
-			"type": "ltminigames:apply_to_player",
-			"target": "all",
-			"actions": {
-				"type": "ltminigames:send_message",
-				"message": {
-					"translate": "ltminigames.minigame.qottott.spawn.power_up",
-					"color": "aqua"
-				}
-			}
-		},
-		"interval_ticks": {
-			"type": "minecraft:uniform",
-			"min_inclusive": 300,
-			"max_inclusive": 600
-		},
-		"beacon": true,
-		"sound": {
-			"sound": "block.beacon.activate",
-			"source": "block",
-			"volume": 2.0,
-			"pitch": 2.0
-		}
-	},
-	{
-		"type": "ltminigames:item_dropper",
-		"loot": [
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "no_jump"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.no_jump_power_up", "color": "aqua"}
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "slowness"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.slowness_power_up", "color": "red"}
-				}
-			},
-			{
-				"id": "minecraft:enchanted_golden_apple",
-				"components": {
-					"custom_data": {
-						"power_up": "glowing"
-					},
-					"custom_name": {"translate": "ltminigames.minigame.dodgeball.glowing.subtitle", "color": "red"}
-				}
-			}
-		],
-		"region": "coin_dispenser_level_3",
-		"announcement": {
-			"type": "ltminigames:apply_to_player",
-			"target": "all",
-			"actions": {
-				"type": "ltminigames:send_message",
-				"message": {
-					"translate": "ltminigames.minigame.qottott.spawn.power_up",
-					"color": "aqua"
-				}
-			}
-		},
-		"interval_ticks": {
-			"type": "minecraft:uniform",
-			"min_inclusive": 300,
-			"max_inclusive": 600
-		},
-		"beacon": true,
-		"sound": {
-			"sound": "block.beacon.activate",
-			"source": "block",
-			"volume": 2.0,
-			"pitch": 2.0
-		}
-	}
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "speed"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.qottott.speed_power_up", "color": "aqua"}
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "scale"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.scale_power_up", "color": "red"}
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "gravity"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.gravity_power_up", "color": "red"}
+        }
+      }
+    ],
+    "region": "buff_spawn",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 300,
+      "max_inclusive": 600
+    },
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "multiplier"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.coin_multiplier_power_up", "color": "red"}
+        }
+      }
+    ],
+    "region": "sword_spawner",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 300,
+      "max_inclusive": 600
+    },
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "no_jump"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.no_jump_power_up", "color": "aqua"}
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "slowness"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.slowness_power_up", "color": "red"}
+        }
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "components": {
+          "custom_data": {
+            "power_up": "glowing"
+          },
+          "custom_name": {"translate": "ltminigames.minigame.dodgeball.glowing.subtitle", "color": "red"}
+        }
+      }
+    ],
+    "region": "coin_dispenser_level_3",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 300,
+      "max_inclusive": 600
+    },
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
+  }
 ]

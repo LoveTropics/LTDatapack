@@ -1,21 +1,21 @@
 [
-	{
-		"type": "lt:paint_party/items/effect_power_up",
-		"item_tag": "{power_up: \"speed\"}",
-		"effect": "ltminigames:speed_power_up",
-		"subtitle": {
-			"translate": "ltminigames.minigame.paint_party.speed_power_up.subtitle",
-			"color": "aqua"
-		},
-		"seconds": 20
-	},
-	{
-		"type": "lt:paint_party/items/exploding_coconuts",
-		"item_tag": "{power_up: \"coconut_powerup\"}",
-		"subtitle": {
-			"translate": "ltminigames.minigame.paint_party.coconut_power_up.subtitle",
-			"color": "aqua"
-		},
-		"seconds": 20
-	}
+  {
+    "type": "lt:paint_party/items/effect_power_up",
+    "item_tag": "{power_up: \"speed\"}",
+    "effect": "ltminigames:speed_power_up",
+    "subtitle": {
+      "translate": "ltminigames.minigame.paint_party.speed_power_up.subtitle",
+      "color": "aqua"
+    },
+    "seconds": 20
+  },
+  {
+    "type": "lt:paint_party/items/exploding_coconuts",
+    "item_tag": "{power_up: \"coconut_powerup\"}",
+    "subtitle": {
+      "translate": "ltminigames.minigame.paint_party.coconut_power_up.subtitle",
+      "color": "aqua"
+    },
+    "seconds": 20
+  }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:on_damage",
-    "actions":  [
+    "actions": [
       {
         "type": "ltminigames:spectator_activity",
         "style": "red"

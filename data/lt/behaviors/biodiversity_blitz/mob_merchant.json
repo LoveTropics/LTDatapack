@@ -16,7 +16,7 @@
           "id": "minecraft:rotten_flesh",
           "count": 1,
           "components": {
-            "lore": [{"text": "Send a husk to the other side!","color":"red"}],
+            "lore": [{"text": "Send a husk to the other side!", "color": "red"}],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "husk": 1
             }
@@ -32,7 +32,7 @@
           "id": "minecraft:iron_nugget",
           "count": 1,
           "components": {
-            "lore": [{"text": "Send a pillager to the other side!","color":"red"}],
+            "lore": [{"text": "Send a pillager to the other side!", "color": "red"}],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "pillager": 1
             }
@@ -49,7 +49,7 @@
           "count": 1,
           "tag": {
             "components": {
-              "lore": [{"text": "Send a zombified piglin to the other side!","color":"red"}]
+              "lore": [{"text": "Send a zombified piglin to the other side!", "color": "red"}]
             },
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "pigman": 1
@@ -66,7 +66,7 @@
           "id": "minecraft:iron_axe",
           "count": 1,
           "components": {
-            "lore": [{"text": "Send a vindicator to the other side!","color":"red"}],
+            "lore": [{"text": "Send a vindicator to the other side!", "color": "red"}],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "vindicator": 1
             }
@@ -82,7 +82,7 @@
           "id": "minecraft:carrot_on_a_stick",
           "count": 1,
           "components": {
-            "lore": [{"text": "Send a zoglin to the other side!","color":"red"}],
+            "lore": [{"text": "Send a zoglin to the other side!", "color": "red"}],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "zoglin": 1
             }
@@ -98,7 +98,7 @@
           "id": "minecraft:gunpowder",
           "count": 1,
           "components": {
-            "lore": [{"text": "Send a creeper to the other side!","color":"red"}],
+            "lore": [{"text": "Send a creeper to the other side!", "color": "red"}],
             "ltminigames:bb_mobs_to_send_to_enemies": {
               "creeper": 1
             }

@@ -5,7 +5,10 @@
     "action": [
       {
         "type": "ltminigames:run_commands",
-        "player": ["function lt:world_games/hockey/util/give_stick", "function lt:world_games/hockey/util/set_attributes"]
+        "player": [
+          "function lt:world_games/hockey/util/give_stick",
+          "function lt:world_games/hockey/util/set_attributes"
+        ]
       },
       {
         "type": "ltminigames:add_equipment",

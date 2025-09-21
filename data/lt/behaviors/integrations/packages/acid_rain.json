@@ -12,7 +12,7 @@
       "translate": "ltminigames.minigame.donation.acid_rain.toast",
       "color": "light_purple"
     },
-    "icon": { "item": "minecraft:water_bucket" },
+    "icon": {"item": "minecraft:water_bucket"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

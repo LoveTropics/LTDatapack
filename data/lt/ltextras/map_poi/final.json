@@ -1,11 +1,11 @@
 {
-	"description": { "translate": "lt.poi.finale_area" },
-	"icon": {
-		"item": {
-			"id": "minecraft:firework_rocket"
-		}
-	},
-	"pos": [-703.5, 127, -112.5],
-	"angle": -160,
-	"map": "lt:tropics"
+  "description": {"translate": "lt.poi.finale_area"},
+  "icon": {
+    "item": {
+      "id": "minecraft:firework_rocket"
+    }
+  },
+  "pos": [-703.5, 127, -112.5],
+  "angle": -160,
+  "map": "lt:tropics"
 }

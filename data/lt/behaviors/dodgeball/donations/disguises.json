@@ -1,27 +1,26 @@
 [
-	{
-		"type": "lt:integrations/packages/disguise",
-		"id": "tapir_party",
-		"name": "ltminigames.minigame.donation.tapir_party",
-		"description": "ltminigames.minigame.donation.tapir_party.description",
-		"toast": "ltminigames.minigame.donation.tapir_party.toast",
-		"entity": {
-			"type": "tropicraft:tapir"
-		},
-		"seconds": 60,
-		"donation_amount": 5.0
-	},
-
-	{
-		"type": "lt:integrations/packages/disguise",
-		"id": "manatee_madness",
-		"name": "ltminigames.minigame.donation.manatee_madness",
-		"description": "ltminigames.minigame.donation.manatee_madness.description",
-		"toast": "ltminigames.minigame.donation.manatee_madness.toast",
-		"entity": {
-			"type": "tropicraft:manatee"
-		},
-		"seconds": 60,
-		"donation_amount": 5.0
-	}
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "tapir_party",
+    "name": "ltminigames.minigame.donation.tapir_party",
+    "description": "ltminigames.minigame.donation.tapir_party.description",
+    "toast": "ltminigames.minigame.donation.tapir_party.toast",
+    "entity": {
+      "type": "tropicraft:tapir"
+    },
+    "seconds": 60,
+    "donation_amount": 5.0
+  },
+  {
+    "type": "lt:integrations/packages/disguise",
+    "id": "manatee_madness",
+    "name": "ltminigames.minigame.donation.manatee_madness",
+    "description": "ltminigames.minigame.donation.manatee_madness.description",
+    "toast": "ltminigames.minigame.donation.manatee_madness.toast",
+    "entity": {
+      "type": "tropicraft:manatee"
+    },
+    "seconds": 60,
+    "donation_amount": 5.0
+  }
 ]

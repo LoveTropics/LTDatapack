@@ -1,12 +1,12 @@
 {
   "replace": false,
-    "values": [
-      "snow_block",
-      "snow",
-      "sand",
-      {
-        "id": "weather2:sand_layer",
-        "required": false
-      }
-    ]
+  "values": [
+    "snow_block",
+    "snow",
+    "sand",
+    {
+      "id": "weather2:sand_layer",
+      "required": false
+    }
+  ]
 }

@@ -1,5 +1,4 @@
 {
-    "enter_commands": ["function lt:game/parkour/map/crystal_cave/enter"],
-    "exit_commands": ["function lt:game/parkour/map/crystal_cave/exit"]
-  }
-  
+  "enter_commands": ["function lt:game/parkour/map/crystal_cave/enter"],
+  "exit_commands": ["function lt:game/parkour/map/crystal_cave/exit"]
+}

@@ -1,13 +1,13 @@
 [
-	{
-		"predicate": {
-			"amount": {
-				"min": 0.01
-			}
-		},
-		"action": {
-			"type": "run_function",
-			"function": "lt:world_games/minigolf/events/random_mob/test"
-		}
-	}
+  {
+    "predicate": {
+      "amount": {
+        "min": 0.01
+      }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:world_games/minigolf/events/random_mob/test"
+    }
+  }
 ]

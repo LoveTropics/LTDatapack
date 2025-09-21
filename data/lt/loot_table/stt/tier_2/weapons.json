@@ -1,71 +1,71 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 1 
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "minecraft:trident",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "enchantments": {
-                                  "loyalty": 3
-                                },
-                                "attribute_modifiers": [
-                                    {
-                                        "type": "attack_damage",
-                                        "id": "lt:trident_attack_boost",
-                                        "amount": 3.0,
-                                        "operation": "add_value"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "enchantments": {
+                  "loyalty": 3
                 },
-                {
-                    "type": "minecraft:item",
-                    "weight": 4,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "enchantments": {
-                                  "punch": 1
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "enchantments": {
-                                        "power": 1
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:stone_sword"
+                "attribute_modifiers": [
+                  {
+                    "type": "attack_damage",
+                    "id": "lt:trident_attack_boost",
+                    "amount": 3.0,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "enchantments": {
+                  "punch": 1
                 }
-            ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "enchantments": {
+                  "power": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone_sword"
         }
-    ]
+      ]
+    }
+  ]
 }

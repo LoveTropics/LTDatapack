@@ -15,7 +15,7 @@
     },
     {
       "type": "ltminigames:spawn_particles_around_player",
-      "particles": [{ "type": "wax_on" }],
+      "particles": [{"type": "wax_on"}],
       "repeats": 25,
       "position": [0.0, 0.9, 0.0],
       "offset": [1.0, 1.0, 1.0],

@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 81,
-		"description": "Datapack for the Love Tropics server, including minigame configuration"
-	}
+  "pack": {
+    "pack_format": 81,
+    "description": "Datapack for the Love Tropics server, including minigame configuration"
+  }
 }

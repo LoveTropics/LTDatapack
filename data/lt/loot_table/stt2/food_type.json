@@ -1,197 +1,207 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
         {
-            "rolls": {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
                 "min": 1,
-                "max": 4
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:carrot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:cooked_beef",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:bread",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:melon_slice",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:golden_carrot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:cooked_chicken",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
+                "max": 3
+              }
+            }
+          ]
         },
         {
-            "rolls": {
-                "min": 0,
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:melon_slice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
                 "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.health_boost","color":"light_purple","italic":false}
-                            }
-                        },
-                        {
-                            "function": "set_potion",
-                            "id": "healing"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.strength_boost","color":"red","italic":false},
-                                "lore": [
-                                    {"translate":"lt.loot_table.strength_boost.lore","color":"dark_gray","italic":true,"strikethrough":true}
-                                ],
-                                "potion_contents": {
-                                    "custom_effects": [
-                                        {
-                                            "id": "strength",
-                                            "amplifier": 0,
-                                            "duration": 900,
-                                            "show_particles": false
-                                        }
-                                    ],
-                                    "custom_color": 7305732
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:golden_apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.speed_boost","color":"aqua","italic":false},
-                                "lore": [
-                                    {"translate":"lt.loot_table.speed_boost.lore","color":"dark_gray","italic":true,"strikethrough":true}
-                                ],
-                                "potion_contents": {
-                                    "custom_effects": [
-                                        {
-                                            "id": "speed",
-                                            "amplifier": 2,
-                                            "duration": 600
-                                        }
-                                    ],
-                                    "custom_color": 65535
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.health_boost", "color": "light_purple", "italic": false}
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "healing"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.strength_boost", "color": "red", "italic": false},
+                "lore": [
+                  {
+                    "translate": "lt.loot_table.strength_boost.lore",
+                    "color": "dark_gray",
+                    "italic": true,
+                    "strikethrough": true
+                  }
+                ],
+                "potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "strength",
+                      "amplifier": 0,
+                      "duration": 900,
+                      "show_particles": false
+                    }
+                  ],
+                  "custom_color": 7305732
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.speed_boost", "color": "aqua", "italic": false},
+                "lore": [
+                  {
+                    "translate": "lt.loot_table.speed_boost.lore",
+                    "color": "dark_gray",
+                    "italic": true,
+                    "strikethrough": true
+                  }
+                ],
+                "potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "speed",
+                      "amplifier": 2,
+                      "duration": 600
+                    }
+                  ],
+                  "custom_color": 65535
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

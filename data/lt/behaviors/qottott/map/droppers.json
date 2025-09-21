@@ -24,7 +24,7 @@
     "loot": {
       "id": "ltextras:tropicoin",
       "count": 1,
-        "components": {
+      "components": {
         "custom_data": {
           "source": "dropper"
         }
@@ -44,7 +44,7 @@
     "loot": {
       "id": "ltextras:tropicoin",
       "count": 1,
-        "components": {
+      "components": {
         "custom_data": {
           "source": "dropper"
         }
@@ -146,8 +146,8 @@
             "type": "tropicraft:fiddler_crab"
           },
           "ltminigames:size": 4.5,
-          "custom_name": {"translate":"ltminigames.minigame.qottott.cash_crab","italic":false},
-          "lore": [{"translate":"ltminigames.minigame.qottott.cash_crab.description","color":"blue"}],
+          "custom_name": {"translate": "ltminigames.minigame.qottott.cash_crab", "italic": false},
+          "lore": [{"translate": "ltminigames.minigame.qottott.cash_crab.description", "color": "blue"}],
           "attribute_modifiers": [
             {
               "id": "ltminigames:coin_drops",

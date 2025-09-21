@@ -1,4 +1,4 @@
 {
-	"enter_commands": ["tag @s add in.golf.area"],
-	"exit_commands": ["tag @s remove in.golf.area"]
+  "enter_commands": ["tag @s add in.golf.area"],
+  "exit_commands": ["tag @s remove in.golf.area"]
 }

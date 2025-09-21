@@ -12,7 +12,7 @@
       "translate": "ltminigames.minigame.donation.equalize_currency.toast",
       "color": "gold"
     },
-    "icon": { "item": "ltminigames:osa_point" },
+    "icon": {"item": "ltminigames:osa_point"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

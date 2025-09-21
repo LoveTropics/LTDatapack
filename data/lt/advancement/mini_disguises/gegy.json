@@ -1,18 +1,18 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": "minecraft:poisonous_potato",
-                    "components": {
-                        "minecraft:custom_data": "{MiniDisguise_Gegy:1b}"
-                    }
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:custom_data": "{MiniDisguise_Gegy:1b}"
+          }
         }
-    },
-    "rewards": {
-        "function": "lt:mini_disguises/gegy"
+      }
     }
+  },
+  "rewards": {
+    "function": "lt:mini_disguises/gegy"
+  }
 }

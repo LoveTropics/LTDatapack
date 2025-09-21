@@ -1,105 +1,105 @@
 [
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"speed\"}",
-		"effect": "ltminigames:speed_power_up",
-		"subtitle": {
-			"translate": "ltminigames.minigame.qottott.speed_power_up.subtitle",
-			"color": "aqua"
-		},
-		"seconds": 30
-	},
-	{
-		"type": "lt:dodgeball/items/effect_power_up",
-		"item_tag": "{power_up: \"multiplier\"}",
-		"effect": "ltminigames:coin_multiplier_power_up",
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
-			"color": "red"
-		},
-		"seconds": 30
-	},
-	{
-		"type": "lt:dodgeball/items/attribute_power_up",
-		"item_tag": "{power_up: \"scale\"}",
-		"attribute": {
-			"id": "dodgeball.scale",
-			"name": "minecraft:scale",
-			"amount": -0.5,
-			"operation": "add_value"
-		},
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.scale.subtitle",
-			"color": "red"
-		},
-		"seconds": 30
-	},
-	{
-		"type": "lt:dodgeball/items/attribute_power_up",
-		"item_tag": "{power_up: \"gravity\"}",
-		"attribute": {
-			"id": "dodgeball.gravity",
-			"name": "minecraft:gravity",
-			"amount": -0.03,
-			"operation": "add_value"
-		},
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.gravity.subtitle",
-			"color": "red"
-		},
-		"seconds": 30
-	},
-	{
-		"type": "lt:dodgeball/items/attribute_for_others_power_up",
-		"item_tag": "{power_up: \"no_jump\"}",
-		"attribute": {
-			"id": "dodgeball.gravity",
-			"name": "minecraft:gravity",
-			"amount": -0.07,
-			"operation": "add_value"
-		},
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.no_jump.subtitle",
-			"color": "red"
-		},
-		"seconds": 5
-	},
-	{
-		"type": "lt:dodgeball/items/attribute_for_others_power_up",
-		"item_tag": "{power_up: \"slowness\"}",
-		"attribute": {
-			"id": "dodgeball.slowness",
-			"name": "minecraft:jump_strength",
-			"amount": -0.1,
-			"operation": "add_value"
-		},
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.slowness.subtitle",
-			"color": "red"
-		},
-		"seconds": 5
-	},
-	{
-		"type": "lt:dodgeball/items/effect_for_others_power_up",
-		"item_tag": "{power_up: \"glowing\"}",
-		"effect": "minecraft:glowing",
-		"subtitle": {
-			"translate": "ltminigames.minigame.dodgeball.glowing.subtitle",
-			"color": "red"
-		},
-		"seconds": 5
-	},
-	{
-		"type": "ltminigames:power_up_indicator",
-		"effect": "ltminigames:coin_multiplier_power_up",
-		"text": {
-			"translate": "ltminigames.minigame.qottott.power_up.generic",
-			"color": "gold"
-		},
-		"sound": {
-			"sound": "minecraft:block.respawn_anchor.deplete",
-			"volume": 0.2,
-			"pitch": 2.0
-		}
-	}
+  {
+    "type": "lt:dodgeball/items/effect_power_up",
+    "item_tag": "{power_up: \"speed\"}",
+    "effect": "ltminigames:speed_power_up",
+    "subtitle": {
+      "translate": "ltminigames.minigame.qottott.speed_power_up.subtitle",
+      "color": "aqua"
+    },
+    "seconds": 30
+  },
+  {
+    "type": "lt:dodgeball/items/effect_power_up",
+    "item_tag": "{power_up: \"multiplier\"}",
+    "effect": "ltminigames:coin_multiplier_power_up",
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
+      "color": "red"
+    },
+    "seconds": 30
+  },
+  {
+    "type": "lt:dodgeball/items/attribute_power_up",
+    "item_tag": "{power_up: \"scale\"}",
+    "attribute": {
+      "id": "dodgeball.scale",
+      "name": "minecraft:scale",
+      "amount": -0.5,
+      "operation": "add_value"
+    },
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.scale.subtitle",
+      "color": "red"
+    },
+    "seconds": 30
+  },
+  {
+    "type": "lt:dodgeball/items/attribute_power_up",
+    "item_tag": "{power_up: \"gravity\"}",
+    "attribute": {
+      "id": "dodgeball.gravity",
+      "name": "minecraft:gravity",
+      "amount": -0.03,
+      "operation": "add_value"
+    },
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.gravity.subtitle",
+      "color": "red"
+    },
+    "seconds": 30
+  },
+  {
+    "type": "lt:dodgeball/items/attribute_for_others_power_up",
+    "item_tag": "{power_up: \"no_jump\"}",
+    "attribute": {
+      "id": "dodgeball.gravity",
+      "name": "minecraft:gravity",
+      "amount": -0.07,
+      "operation": "add_value"
+    },
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.no_jump.subtitle",
+      "color": "red"
+    },
+    "seconds": 5
+  },
+  {
+    "type": "lt:dodgeball/items/attribute_for_others_power_up",
+    "item_tag": "{power_up: \"slowness\"}",
+    "attribute": {
+      "id": "dodgeball.slowness",
+      "name": "minecraft:jump_strength",
+      "amount": -0.1,
+      "operation": "add_value"
+    },
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.slowness.subtitle",
+      "color": "red"
+    },
+    "seconds": 5
+  },
+  {
+    "type": "lt:dodgeball/items/effect_for_others_power_up",
+    "item_tag": "{power_up: \"glowing\"}",
+    "effect": "minecraft:glowing",
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.glowing.subtitle",
+      "color": "red"
+    },
+    "seconds": 5
+  },
+  {
+    "type": "ltminigames:power_up_indicator",
+    "effect": "ltminigames:coin_multiplier_power_up",
+    "text": {
+      "translate": "ltminigames.minigame.qottott.power_up.generic",
+      "color": "gold"
+    },
+    "sound": {
+      "sound": "minecraft:block.respawn_anchor.deplete",
+      "volume": 0.2,
+      "pitch": 2.0
+    }
+  }
 ]

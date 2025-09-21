@@ -13,7 +13,7 @@
       "translate": "ltminigames.minigame.donation.mute_team_vc.toast",
       "color": "red"
     },
-    "icon": { "item": "minecraft:white_wool" },
+    "icon": {"item": "minecraft:white_wool"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

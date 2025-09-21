@@ -1,89 +1,89 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:spectral_arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": {"translate":"lt.loot_table.poision_tipped_arrow","italic":false},
-                                "potion_contents": {
-                                    "custom_effects": [
-                                        {
-                                            "id": "poison",
-                                            "amplifier": 0,
-                                            "duration": 160
-                                        }
-                                    ],
-                                    "custom_color": 6212628
-                                }
-                            }
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
         },
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:crossbow",
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": {
-                                "min": 0.8,
-                                "max": 1
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": {
-                                "min": 0.85,
-                                "max": 1
-                            }
-                        }
-                    ]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": {"translate": "lt.loot_table.poision_tipped_arrow", "italic": false},
+                "potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "poison",
+                      "amplifier": 0,
+                      "duration": 160
+                    }
+                  ],
+                  "custom_color": 6212628
                 }
-            ]
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.85,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

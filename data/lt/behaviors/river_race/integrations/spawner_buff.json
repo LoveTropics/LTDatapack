@@ -13,7 +13,7 @@
       "translate": "ltminigames.minigame.donation.spawner_buff.toast",
       "color": "red"
     },
-    "icon": { "item": "minecraft:spawner" },
+    "icon": {"item": "minecraft:spawner"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

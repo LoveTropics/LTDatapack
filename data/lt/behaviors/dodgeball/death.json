@@ -1,34 +1,34 @@
 [
-	{
-		"type": "ltminigames:on_death",
-		"exclude_self": true,
-		"killed_action": [
-			{
-				"type": "ltminigames:spawn_particles_around_player",
-				"particles": [{ "type": "glow" }, { "type": "firework" }],
-				"count": 15,
-				"repeats": 5,
-				"radius": 0.3
-			},
-			{
-				"type": "ltminigames:play_sound",
-				"sound": "entity.player.big_fall",
-				"source": "player",
-				"broadcast": true
-			}
-		],
-		"killer_action": [
-			{
-				"type": "ltminigames:play_sound",
-				"sound": "minecraft:block.note_block.chime",
-				"source": "player",
-				"pitch": 2.0
-			},
-			{
-				"type": "ltminigames:give_points",
-				"statistic": "points",
-				"amount": 1
-			}
-		]
-	}
+  {
+    "type": "ltminigames:on_death",
+    "exclude_self": true,
+    "killed_action": [
+      {
+        "type": "ltminigames:spawn_particles_around_player",
+        "particles": [{"type": "glow"}, {"type": "firework"}],
+        "count": 15,
+        "repeats": 5,
+        "radius": 0.3
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.player.big_fall",
+        "source": "player",
+        "broadcast": true
+      }
+    ],
+    "killer_action": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.note_block.chime",
+        "source": "player",
+        "pitch": 2.0
+      },
+      {
+        "type": "ltminigames:give_points",
+        "statistic": "points",
+        "amount": 1
+      }
+    ]
+  }
 ]

@@ -12,7 +12,7 @@
       "translate": "ltminigames.minigame.donation.invert_controls_package.toast",
       "color": "red"
     },
-    "icon": { "effect": "minecraft:nausea" },
+    "icon": {"effect": "minecraft:nausea"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },

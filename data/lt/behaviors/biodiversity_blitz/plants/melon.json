@@ -6,7 +6,7 @@
     "item": {
       "id": "minecraft:melon",
       "components": {
-        "lore": [{"translate": "ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip","color":"aqua"}],
+        "lore": [{"translate": "ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip", "color": "aqua"}],
         "ltminigames:shift_lore": [
           {
             "translate": "ltminigames.minigame.biodiversity_blitz.plant.melon.tooltip.extra1",

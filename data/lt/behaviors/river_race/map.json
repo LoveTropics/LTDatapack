@@ -126,7 +126,7 @@
     ]
   },
   {
-    "type":"ltminigames:river_race_progress",
+    "type": "ltminigames:river_race_progress",
     "top_team": "blue",
     "bottom_team": "red",
     "map_fitting_region": "overhead_map",

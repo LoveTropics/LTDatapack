@@ -1,41 +1,41 @@
 [
-	"ltminigames:disable_hunger",
-	"ltminigames:disable_throwing_items",
-	{
-		"type": "ltminigames:set_game_rules",
-		"rules": {
-			"doDaylightCycle": "false",
-			"doWeatherCycle": "false",
-			"doMobSpawning": "false",
-			"announceAdvancements": "false",
-			"fallDamage": "false",
-			"doTileDrops": "false",
-			"doFireTick": "false",
-			"naturalRegeneration": "false",
-			"mobGriefing": "false"
-		}
-	},
-	"ltminigames:disable_tnt_block_destruction",
-	{
-		"type": "ltminigames:damage_in_water",
-		"interval": 2,
-		"amount": 1000.0
-	},
-	{
-		"type": "ltminigames:cancel_player_damage",
-		"period": {
-			"start": "end",
-			"end": "close"
-		}
-	},
-	{
-		"type": "ltminigames:scale_explosion_knockback",
-		"factor": 0.0,
-		"exploder": {
-			"type": "tropicraft:exploding_coconut"
-		}
-	},
-	"lt:dodgeball/death",
-	"ltminigames:quiet_explosions",
-	"ltminigames:cancel_self_damage"
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "doFireTick": "false",
+      "naturalRegeneration": "false",
+      "mobGriefing": "false"
+    }
+  },
+  "ltminigames:disable_tnt_block_destruction",
+  {
+    "type": "ltminigames:damage_in_water",
+    "interval": 2,
+    "amount": 1000.0
+  },
+  {
+    "type": "ltminigames:cancel_player_damage",
+    "period": {
+      "start": "end",
+      "end": "close"
+    }
+  },
+  {
+    "type": "ltminigames:scale_explosion_knockback",
+    "factor": 0.0,
+    "exploder": {
+      "type": "tropicraft:exploding_coconut"
+    }
+  },
+  "lt:dodgeball/death",
+  "ltminigames:quiet_explosions",
+  "ltminigames:cancel_self_damage"
 ]

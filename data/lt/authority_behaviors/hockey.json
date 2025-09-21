@@ -1,5 +1,12 @@
 {
-    "enter_commands": ["tag @s add in_game.hockey", "collectible lock @s", "clear @s *[minecraft:custom_data={ParkourBlacklist:1b}]"],
-    "exit_commands": ["tag @s remove in_game.hockey", "collectible unlock @s", "execute if entity @s[gamemode=adventure] run gamemode survival"]
-  }
-  
+  "enter_commands": [
+    "tag @s add in_game.hockey",
+    "collectible lock @s",
+    "clear @s *[minecraft:custom_data={ParkourBlacklist:1b}]"
+  ],
+  "exit_commands": [
+    "tag @s remove in_game.hockey",
+    "collectible unlock @s",
+    "execute if entity @s[gamemode=adventure] run gamemode survival"
+  ]
+}

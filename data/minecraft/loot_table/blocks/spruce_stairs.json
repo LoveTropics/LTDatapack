@@ -16,12 +16,12 @@
         }
       ],
       "rolls": 1.0,
-        "conditions": [
-          {
-            "condition": "minecraft:reference",
-            "name": "lt:is_river_race"
-          }
-        ]
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "lt:is_river_race"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/mangrove_planks"

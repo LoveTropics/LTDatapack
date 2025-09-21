@@ -15,7 +15,6 @@
       "lt:teams/red_blue"
     ]
   },
-
   "name": {"translate": "ltminigames.minigame.block_party_teams"},
   "statistics_key": "block_party",
   "map": {

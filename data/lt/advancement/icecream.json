@@ -1,17 +1,17 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "components": {
-                        "minecraft:custom_data": "{IceCream:1b}"
-                    }
-                }
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{IceCream:1b}"
+          }
         }
-    },
-    "rewards": {
-        "function": "lt:effects/icecream"
+      }
     }
+  },
+  "rewards": {
+    "function": "lt:effects/icecream"
+  }
 }

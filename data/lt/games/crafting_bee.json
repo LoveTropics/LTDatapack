@@ -15,16 +15,13 @@
       "lt:teams/red_blue"
     ]
   },
-
   "name": {"translate": "ltminigames.minigame.crafting_bee"},
-
   "statistics_key": "crafting_bee",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:crafting_bee",
     "dimension_type": "lt:raised_clouds"
   },
-
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "behaviors": [

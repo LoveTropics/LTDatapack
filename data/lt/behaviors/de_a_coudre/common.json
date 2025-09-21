@@ -22,7 +22,11 @@
         "bonus": "minecraft:redstone_block"
       },
       "blue": {
-        "blocks": ["minecraft:blue_stained_glass", "minecraft:light_blue_stained_glass", "minecraft:lime_stained_glass"],
+        "blocks": [
+          "minecraft:blue_stained_glass",
+          "minecraft:light_blue_stained_glass",
+          "minecraft:lime_stained_glass"
+        ],
         "bonus": "minecraft:diamond_block"
       }
     },

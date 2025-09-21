@@ -1,8 +1,8 @@
 {
-	"type": "ltminigames:only_tick_in_period",
-	"period": {
-		"start": "start",
-		"end": "end"
-	},
-	"behavior": ["lt:dodgeball/items/power_ups"]
+  "type": "ltminigames:only_tick_in_period",
+  "period": {
+    "start": "start",
+    "end": "end"
+  },
+  "behavior": ["lt:dodgeball/items/power_ups"]
 }

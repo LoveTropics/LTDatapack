@@ -1,14 +1,14 @@
 [
-	{
-		"predicate": {
-			"amount": {
-				"min": 69.0,
-				"max": 99.0
-			}
-		},
-		"action": {
-			"type": "run_function",
-			"function": "lt:donation_effects/party_room/aquarium/show"
-		}
-	}
+  {
+    "predicate": {
+      "amount": {
+        "min": 69.0,
+        "max": 99.0
+      }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:donation_effects/party_room/aquarium/show"
+    }
+  }
 ]

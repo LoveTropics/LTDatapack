@@ -1,8 +1,7 @@
 {
-  "name": { "translate": "ltminigames.minigame.villager_hunt" },
+  "name": {"translate": "ltminigames.minigame.villager_hunt"},
   "statistics_key": "villager_hunt",
   "backend_id": "lt:villager_hunt",
-
   "minimum_participants": 2,
   "maximum_participants": 1000,
   "waiting": {
@@ -14,7 +13,7 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": { "spawn": "spawn" }
+        "regions": {"spawn": "spawn"}
       },
       "lt:teams/red_blue"
     ]

@@ -1,4 +1,6 @@
 {
-  "enter_commands": ["function lt:quest/main/region_trigger {quest_id:\"cents_intro\",dialogue_id:\"meet_agent\",is_zoneless:0,dialogue_blocked:1,required_stage:1}"],
+  "enter_commands": [
+    "function lt:quest/main/region_trigger {quest_id:\"cents_intro\",dialogue_id:\"meet_agent\",is_zoneless:0,dialogue_blocked:1,required_stage:1}"
+  ],
   "exit_commands": []
 }

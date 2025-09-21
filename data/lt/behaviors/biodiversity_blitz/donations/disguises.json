@@ -11,7 +11,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "basilisk_lizard_party",
@@ -24,7 +23,6 @@
     "seconds": 120,
     "donation_amount": 20.0
   },
-
   {
     "type": "lt:integrations/packages/disguise",
     "id": "manatee_madness",

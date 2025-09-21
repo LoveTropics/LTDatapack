@@ -10,7 +10,7 @@
       "translate": "ltminigames.minigame.event.acid_rain_event.toast",
       "color": "light_purple"
     },
-    "icon": { "item": "ltminigames:acid_repellent_umbrella" },
+    "icon": {"item": "ltminigames:acid_repellent_umbrella"},
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },
