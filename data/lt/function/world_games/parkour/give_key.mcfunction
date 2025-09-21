@@ -1,1 +1,1 @@
-give @s minecraft:trial_key[ltextras:undroppable={},enchantment_glint_override=true,custom_name='{"translate":"lt.game.parkour.general.checkpoint"}',lore=['{"translate":"lt.game.parkour.general.drop_item"}']]
+give @s minecraft:trial_key[ltextras:undroppable={},enchantment_glint_override=true,custom_name={"translate":"lt.game.parkour.general.checkpoint"},lore=[{"translate":"lt.game.parkour.general.drop_item"}]]

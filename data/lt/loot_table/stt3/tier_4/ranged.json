@@ -52,7 +52,7 @@
                   ]
                 },
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:fireworks"
                   ]
                 }

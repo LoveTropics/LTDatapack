@@ -37,7 +37,7 @@
       "italic": false
     },
     "minecraft:tooltip_display": {
-      "minecraft:hidden_components": [
+      "hidden_components": [
         "minecraft:enchantments",
         "minecraft:dyed_color",
         "minecraft:unbreakable"

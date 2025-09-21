@@ -35,7 +35,7 @@
               "components": {
                 "can_place_on": {},
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -60,7 +60,7 @@
               "components": {
                 "can_place_on": {},
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -205,7 +205,7 @@
                   {}
                 ],
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -225,7 +225,7 @@
                   {}
                 ],
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -245,7 +245,7 @@
                   {}
                 ],
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -272,7 +272,7 @@
                   {}
                 ],
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }
@@ -299,7 +299,7 @@
                   {}
                 ],
                 "minecraft:tooltip_display": {
-                  "minecraft:hidden_components": [
+                  "hidden_components": [
                     "minecraft:can_place_on"
                   ]
                 }

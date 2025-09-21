@@ -65,7 +65,7 @@
     ],
     "minecraft:enchantment_glint_override": true,
     "minecraft:tooltip_display": {
-      "minecraft:hidden_components": [
+      "hidden_components": [
         "minecraft:enchantments",
         "minecraft:dyed_color",
         "minecraft:unbreakable"

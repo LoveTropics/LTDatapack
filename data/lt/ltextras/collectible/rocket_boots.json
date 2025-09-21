@@ -50,10 +50,12 @@
       "pattern": "minecraft:eye"
     },
     "minecraft:tooltip_display": {
-      "minecraft:hidden_components": [
+      "hidden_components": [
         "minecraft:enchantments",
         "minecraft:dyed_color",
-        "minecraft:unbreakable"
+        "minecraft:unbreakable",
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
       ]
     },
     "minecraft:dyed_color": 10511680

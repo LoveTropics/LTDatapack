@@ -4,10 +4,10 @@ function lt:game/qottott/kit/reset_attributes
 # Kit Thesis (High Knockback, High Speed, No Damage, Low Health)
 
 # Chest (Color) FF7700
-item replace entity @s armor.chest with minecraft:leather_chestplate[tooltip_display={hidden_components:["minecraft:dyed_color", "minecraft:enchantments", "minecraft:unbreakable", "minecraft:trim"]},minecraft:enchantments={"minecraft:binding_curse":1},minecraft:unbreakable={},minecraft:custom_name='{"translate":"ltminigames.minigame.qottott.kit.brawler","color":"#FF7700","italic":false}',minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:coast"},minecraft:dyed_color=16742144] 1
+item replace entity @s armor.chest with minecraft:leather_chestplate[tooltip_display={hidden_components:["minecraft:dyed_color", "minecraft:enchantments", "minecraft:unbreakable", "minecraft:trim"]},minecraft:enchantments={"minecraft:binding_curse":1},minecraft:unbreakable={},minecraft:custom_name={"translate":"ltminigames.minigame.qottott.kit.brawler","color":"#FF7700","italic":false},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:coast"},minecraft:dyed_color=16742144] 1
 
 # Weapon (Knockback, Damage)
-item replace entity @s weapon.mainhand with minecraft:stick[tooltip_display={hidden_components:["minecraft:dyed_color", "minecraft:enchantments", "minecraft:unbreakable", "minecraft:trim"]},minecraft:enchantments={"minecraft:knockback":50},minecraft:custom_name='{"translate":"lt.game.qottott.class.brawler.weapon_name","color":"#FF7700","italic":false}',minecraft:dyed_color=10511680] 1
+item replace entity @s weapon.mainhand with minecraft:stick[tooltip_display={hidden_components:["minecraft:dyed_color", "minecraft:enchantments", "minecraft:unbreakable", "minecraft:trim"]},minecraft:enchantments={"minecraft:knockback":50},minecraft:custom_name={"translate":"lt.game.qottott.class.brawler.weapon_name","color":"#FF7700","italic":false},minecraft:dyed_color=10511680] 1
 
 
 # Effects

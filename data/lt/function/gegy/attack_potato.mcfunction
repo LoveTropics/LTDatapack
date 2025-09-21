@@ -1,2 +1,2 @@
-summon tropicraft:turtle ~ ~ ~ {Tags:["kill_on_no_players"],Invulnerable:true,NoAI:true,DeathLootTable:"minecraft:empty",attributes:[{base:1.65,id:"minecraft:movement_speed"},{id:"minecraft:gravity",base:0}],LongsForTheSky:true,"neoforge:attachments": {"ltminigames:player_disguise": {entity: {tag: {collectible: "lt:gegy_potato"}, type: "ltextras:collectible"}}}}
-ride @s mount @e[type=tropicraft:turtle,tag=kill_on_no_players,limit=1,sort=nearest]
+summon minecraft:happy_ghast ~ ~ ~ {Tags:["kill_on_no_players"],Invulnerable:true,NoAI:true,DeathLootTable:"minecraft:empty",attributes:[{base:1.65,id:"minecraft:movement_speed"},{id:"minecraft:gravity",base:0}],LongsForTheSky:true,"neoforge:attachments": {"ltminigames:player_disguise": {entity: {tag: {collectible: "lt:gegy_potato"}, type: "ltextras:collectible"}}}}
+ride @s mount @e[type=minecraft:happy_ghast,tag=kill_on_no_players,limit=1,sort=nearest]
