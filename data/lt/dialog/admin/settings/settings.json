@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Game Settings",
+  "external_title": "Game Settings",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:admin/admin"
+    }
+  },
+  "columns": 1,
+  "dialogs": [
+    "lt:admin/settings/golf"
+  ]
+}

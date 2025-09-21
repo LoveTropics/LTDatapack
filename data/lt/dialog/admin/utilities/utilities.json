@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Utilities",
+  "external_title": "Utilities",
+  "body": [],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:admin/admin"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Update Hosts",
+        "color": "gold"
+      },
+      "tooltip": {
+        "text": "Updates the dummy players near spawn. So the players know the current host of the event",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:utility/hosts/hosts_dummy"
+      }
+    },
+    {
+      "label": {
+        "text": "Toggle Markers",
+        "color": "gold"
+      },
+      "tooltip": {
+        "text": "Spawns Particles on markers 15 blocks around the player",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:utility/toggle_marker_visibilty"
+      }
+    },
+    {
+      "label": {
+        "text": "Fly The Potato!!",
+        "color": "gold"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:gegy/spawn_fly"
+      }
+    }
+  ]
+}

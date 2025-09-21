@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Golf Settings",
+  "external_title": "Golf Settings",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "time",
+      "label": "Golf Time",
+      "start": 1,
+      "end": 240,
+      "step": 1,
+      "initial": 120
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "mode",
+      "label": "Crab Mode",
+      "options": [
+        {
+          "id": "1",
+          "display": "Normal",
+          "initial": true
+        },
+        {
+          "id": "2",
+          "display": "Host"
+        },
+        {
+          "id": "3",
+          "display": "Gegy Potoato"
+        },
+        {
+          "id": "4",
+          "display": "Gold"
+        }
+      ]
+    }
+  ],
+  "can_close_with_escape": true,
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/function lt:dialog/settings/golf/time {golf_time:$(time),golf_mode:$(mode)}"
+    }
+  },
+  "no": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:admin/settings/settings"
+    }
+  }
+}

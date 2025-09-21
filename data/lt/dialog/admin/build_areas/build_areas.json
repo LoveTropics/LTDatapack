@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Build Areas",
+  "external_title": "Build Areas",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:admin/admin"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "Enable Build Area 1",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/enable {\\\"zone\\\":1}"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Build Area 1",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/disable {\\\"zone\\\":1}"
+      }
+    },
+    {
+      "label": {
+        "text": "Enable Build Area 2",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/enable {\\\"zone\\\":2}"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Build Area 2",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/disable {\\\"zone\\\":2}"
+      }
+    },
+    {
+      "label": {
+        "text": "Enable Build Area 3",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/enable {\\\"zone\\\":3}"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Build Area 3",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/disable {\\\"zone\\\":3}"
+      }
+    },
+    {
+      "label": {
+        "text": "Enable Build Area 4",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/enable {\\\"zone\\\":4}"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Build Area 4",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/disable {\\\"zone\\\":4}"
+      }
+    }
+  ]
+}

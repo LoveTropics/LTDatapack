@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:confirmation",
+	"title": {
+		"translate": "lt.dialog.rules.title"
+	},
+	"external_title": "Server Rules",
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.intro",
+				"color": "aqua",
+				"bold": true
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.one",
+				"color": "aqua"
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.two",
+				"color": "aqua"
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.three",
+				"color": "aqua"
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.four",
+				"color": "aqua"
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.five",
+				"color": "aqua"
+			}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {
+				"translate": "lt.rules.info.six",
+				"color": "aqua"
+			}
+		}
+	],
+	"inputs": [],
+	"can_close_with_escape": false,
+	"yes": {
+		"label": {
+			"translate": "lt.dialog.rules.agree"
+		}
+	},
+	"no": {
+		"label": {
+			"translate": "lt.dialog.rules.disgree"
+		}
+	}
+}

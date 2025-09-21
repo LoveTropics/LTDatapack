@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Admin Menu",
+  "external_title": "Admin Setting",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": "Exit"
+  },
+  "columns": 1,
+  "dialogs": [
+    "lt:admin/settings/settings",
+    "lt:admin/build_areas/build_areas",
+    "lt:admin/utilities/utilities"
+  ]
+}
