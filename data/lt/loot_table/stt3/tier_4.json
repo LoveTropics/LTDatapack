@@ -34,15 +34,13 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.teeter_yeeter_boogaloo\",\"color\":\"#9CD43E\",\"bold\":true,\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.teeter_yeeter_boogaloo","color":"#9CD43E","bold":true,"italic":false},
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.teeter_yeeter_boogaloo.lore\",\"color\":\"dark_aqua\",\"italic\":false}"
+                                    {"translate":"lt.loot_table.teeter_yeeter_boogaloo.lore","color":"dark_aqua","italic":false}
                                 ],
                                 "damage": 58,
                                 "enchantments": {
-                                    "levels": {
                                         "knockback": 5
-                                    }
                                 }
                             }
                         }

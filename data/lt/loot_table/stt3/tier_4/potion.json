@@ -14,9 +14,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "[{\"translate\":\"lt.loot_table.gilded\",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\" \"},{\"translate\":\"lt.loot_table.tonic_gloriousness\",\"color\":\"#E80000\",\"bold\":false,\"italic\":false}]",
+                                "custom_name": [{"translate":"lt.loot_table.gilded","color":"gold","bold":true,"italic":false},{"text":" "},{"translate":"lt.loot_table.tonic_gloriousness","color":"#E80000","bold":false,"italic":false}],
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.tonic_gloriousness.lore\",\"color\":\"gray\"}"
+                                    {"translate":"lt.loot_table.tonic_gloriousness.lore","color":"gray"}
                                 ],
                                 "enchantment_glint_override": true,
                                 "potion_contents": {
@@ -46,9 +46,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "[{\"translate\":\"lt.loot_table.gilded\",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\" \"},{\"translate\":\"lt.loot_table.remedial_invigoration\",\"color\":\"#FF00F7\",\"bold\":false,\"italic\":false}]",
+                                "custom_name": [{"translate":"lt.loot_table.gilded","color":"gold","bold":true,"italic":false},{"text":" "},{"translate":"lt.loot_table.remedial_invigoration","color":"#FF00F7","bold":false,"italic":false}],
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.tonic_gloriousness.lore\",\"color\":\"gray\"}"
+                                    {"translate":"lt.loot_table.tonic_gloriousness.lore","color":"gray"}
                                 ],
                                 "enchantment_glint_override": true,
                                 "potion_contents": {
@@ -73,9 +73,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "[{\"text\":\"Gilded \",\"color\":\"gold\",\"bold\":true,\"italic\":false},{\"text\":\"Splash Tincture of Mal-intent\",\"color\":\"#FF7519\",\"bold\":false,\"italic\":false}]",
+                                "custom_name": [{"text":"Gilded ","color":"gold","bold":true,"italic":false},{"text":"Splash Tincture of Mal-intent","color":"#FF7519","bold":false,"italic":false}],
                                 "lore": [
-                                    "{\"text\":\"It's not better than a non gilded potion. But you can sell it at a higher markup now.\",\"color\":\"gray\"}"
+                                    {"text":"It's not better than a non gilded potion. But you can sell it at a higher markup now.","color":"gray"}
                                 ],
                                 "enchantment_glint_override": true,
                                 "potion_contents": {

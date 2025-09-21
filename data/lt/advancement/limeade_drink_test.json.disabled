@@ -4,14 +4,14 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "tropicraft:limeade"
-          ]
+          "components": {
+            "tropicraft:cocktail": "{drink:\"tropicraft:limeade\"}"
+          }
         }
       }
     }
   },
   "rewards": {
-      "function": "lt:club/get_drunk"
+    "function": "lt:club/get_drunk"
   }
 }

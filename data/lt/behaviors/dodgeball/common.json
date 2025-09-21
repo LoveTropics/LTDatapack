@@ -44,7 +44,7 @@
 			"$equip_action",
 			{
 				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:generic.max_health",
+				"attribute": "minecraft:max_health",
 				"modifier": {
 					"id": "lt:dodgeball_health",
 					"amount": -19,
@@ -53,7 +53,7 @@
 			},
 			{
 				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:generic.step_height",
+				"attribute": "minecraft:step_height",
 				"modifier": {
 					"id": "lt:dodgeball_step",
 					"amount": 0.4,
@@ -62,7 +62,7 @@
 			},
 			{
 				"type": "ltminigames:add_attribute_modifier",
-				"attribute": "minecraft:generic.movement_speed",
+				"attribute": "minecraft:movement_speed",
 				"modifier": {
 					"id": "lt:dodgeball_speed",
 					"amount": 0.025,

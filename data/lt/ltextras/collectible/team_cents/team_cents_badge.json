@@ -1,17 +1,41 @@
 {
   "components": {
-    "minecraft:custom_name": "{\"translate\":\"lt.quest.cents_item.cents_badge.name\",\"color\":\"#E5B106\",\"italic\":false}",
+    "minecraft:custom_name": {
+      "translate": "lt.quest.cents_item.cents_badge.name",
+      "color": "#E5B106",
+      "italic": false
+    },
     "minecraft:enchantment_glint_override": true,
     "minecraft:lore": [
-      "{\"translate\":\"lt.quest.cents_item.cents_badge.description\",\"color\":\"gray\",\"italic\":true}",
-      "{\"translate\":\"lt.quest.cents_item.cents_badge.description.2\",\"color\":\"gray\",\"italic\":true}",
-      "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.quest\",\"color\":\"white\",\"italic\":false}"
+      {
+        "translate": "lt.quest.cents_item.cents_badge.description",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "translate": "lt.quest.cents_item.cents_badge.description.2",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "lt.collectible.unicode.quest",
+        "color": "white",
+        "italic": false
+      }
     ],
-    "minecraft:hide_additional_tooltip": {},
-    "minecraft:custom_model_data": 7,
+    "minecraft:tooltip_display": {
+      "minecraft:hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:dyed_color",
+        "minecraft:unbreakable"
+      ]
+    },
+    "item_model": "ltextras:item/team_cents_badge",
     "ltextras:image": {
-      "texture":"lt:textures/item/quest/team_cents_badge.png",
+      "texture": "lt:textures/item/quest/team_cents_badge.png",
       "width": 128.0,
       "height": 128.0
     }

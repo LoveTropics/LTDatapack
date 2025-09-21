@@ -9,7 +9,7 @@
     "actions": [
       {
         "type": "ltminigames:add_attribute_modifier",
-        "attribute": "minecraft:generic.gravity",
+        "attribute": "minecraft:gravity",
         "modifier": {
           "id": "lt:de_a_coudre/end_effects",
           "amount": -0.8,

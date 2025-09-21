@@ -6,14 +6,20 @@
     "item": {
       "id": "tropicraft:magic_mushroom",
       "components": {
-          "lore": [
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.magic_mushroom.tooltip\",\"color\": \"aqua\"}",
-            "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
-          ]
+        "lore": [
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.magic_mushroom.tooltip",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
+        ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "magic_mushroom",

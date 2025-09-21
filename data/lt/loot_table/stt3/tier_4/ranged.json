@@ -30,9 +30,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.super_rocket\",\"color\":\"red\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.super_rocket","color":"red","italic":false},
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.super_rocket.lore\",\"color\":\"blue\",\"italic\":false}"
+                                    {"translate":"lt.loot_table.super_rocket.lore","color":"blue","italic":false}
                                 ],
                                 "fireworks": {
                                     "explosions": [
@@ -43,8 +43,12 @@
                                         {"shape": "small_ball", "colors": [5079041]},
                                         {"shape": "small_ball", "colors": [162984]},
                                         {"shape": "star", "has_twinkle": true, "has_trail": true, "colors": [16753152], "fade_colors": [11869469]}
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
+                                },
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:fireworks"
+                                    ]
                                 }
                             }
                         },

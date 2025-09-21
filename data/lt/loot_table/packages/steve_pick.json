@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"color\":\"#0EAEAE\",\"translate\":\"lt.item.steve_pick.name\",\"italic\":false}",
+                                "minecraft:item_name": {"color":"#0EAEAE","translate":"lt.item.steve_pick.name","italic":false},
                                 "minecraft:tool": {
                                     "rules": [
                                         {
@@ -29,8 +29,8 @@
                                     "damage_per_block": 1
                                 },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"lt.item.steve_pick.lore\"}",
-                                    "{\"translate\":\"lt.item.steve_pick.lore_2\"}"
+                                    {"translate":"lt.item.steve_pick.lore"},
+                                    {"translate":"lt.item.steve_pick.lore_2"}
                                 ],
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 3

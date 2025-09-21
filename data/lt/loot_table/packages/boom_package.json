@@ -18,7 +18,7 @@
 						{
 							"function": "set_components",
 							"components": {
-								"custom_name": "{\"translate\":\"lt.loot_table.coconut_boom\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+								"custom_name": {"translate":"lt.loot_table.coconut_boom","color":"red","bold":true,"italic":false},
 								"tropicraft:explosion_radius": 0.6
 							}
 						}

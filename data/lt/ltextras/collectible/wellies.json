@@ -1,36 +1,56 @@
 {
   "components": {
     "minecraft:lore": [
-      "{\"translate\":\"lt.collectible.wellies.description\",\"color\":\"gray\"}",
-      "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}",
-      "{\"text\":\" \"}",
-      "{\"translate\":\"item.modifiers.feet\",\"color\":\"gray\",\"italic\":false}",
-      "{\"translate\":\"lt.collectible.wellies.tooltip.add_movement_effenicy\",\"color\":\"blue\",\"italic\":false}"
+      {
+        "translate": "lt.collectible.wellies.description",
+        "color": "gray"
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "lt.collectible.unicode.reward",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "item.modifiers.feet",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "lt.collectible.wellies.tooltip.add_movement_effenicy",
+        "color": "blue",
+        "italic": false
+      }
     ],
     "minecraft:enchantments": {
-      "show_in_tooltip": false,
-      "levels": {
-        "lt:wellies": 1
-      }
+      "lt:wellies": 1
     },
-    "minecraft:unbreakable": {
-      "show_in_tooltip": false
+    "minecraft:unbreakable": {},
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.wellies.name",
+      "color": "#005958",
+      "italic": false
     },
-    "minecraft:custom_name": "{\"translate\":\"lt.collectible.wellies.name\",\"color\":\"#005958\",\"italic\":false}",
     "minecraft:custom_data": {
       "ParkourBlacklist": true
     },
     "minecraft:trim": {
       "material": "minecraft:redstone",
-      "pattern": "lt:tropics",
-      "show_in_tooltip": false
+      "pattern": "lt:tropics"
     },
-    "minecraft:hide_additional_tooltip": {},
-    "minecraft:dyed_color": {
-      "rgb": 16767257,
-      "show_in_tooltip": false
-    }
+    "minecraft:tooltip_display": {
+      "minecraft:hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:dyed_color",
+        "minecraft:unbreakable"
+      ]
+    },
+    "minecraft:dyed_color": 16767257
   },
   "item": "minecraft:leather_boots"
 }

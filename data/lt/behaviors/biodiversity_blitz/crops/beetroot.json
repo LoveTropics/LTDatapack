@@ -7,13 +7,19 @@
       "id": "minecraft:beetroot_seeds",
       "components": {
         "lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.beetroot.tooltip\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.beetroot.tooltip",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "beetroot",

@@ -7,18 +7,36 @@
       "id": "tropicraft:tea_mangrove_propagule",
       "components": {
         "lore": [
-          "{\"text\": \"Grows into a tea mangrove and produces pianguas.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "text": "Grows into a tea mangrove and produces pianguas.",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ],
         "ltminigames:shift_lore": [
-          "{\"text\": \"Grows into a Tea mangrove after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-          "{\"text\": \"When placed near mud, the mud will turn into mud blocks with pianguas.\",\"color\": \"gold\",\"italic\": true}",
-          "{\"text\": \"Right clicking mud blocks with pianguas will drop the pianguas, which can be sold at the Shop for points.\",\"color\": \"gold\",\"italic\": true}"
+          {
+            "text": "Grows into a Tea mangrove after a growth cycle.",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "When placed near mud, the mud will turn into mud blocks with pianguas.",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "Right clicking mud blocks with pianguas will drop the pianguas, which can be sold at the Shop for points.",
+            "color": "gold",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove",
@@ -28,7 +46,11 @@
       {
         "type": "ltminigames:place_feature_plant",
         "feature": "tropicraft:tea_mangrove",
-        "blocks": ["#minecraft:logs", "#minecraft:leaves", "#tropicraft:roots"]
+        "blocks": [
+          "#minecraft:logs",
+          "#minecraft:leaves",
+          "#tropicraft:roots"
+        ]
       },
       {
         "type": "ltminigames:drop_plant_item",
@@ -45,7 +67,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "tea_mangrove_propagule",

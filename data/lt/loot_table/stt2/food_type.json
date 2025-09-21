@@ -110,7 +110,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.health_boost\",\"color\":\"light_purple\",\"italic\":false}"
+                                "custom_name": {"translate":"lt.loot_table.health_boost","color":"light_purple","italic":false}
                             }
                         },
                         {
@@ -131,9 +131,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.strength_boost\",\"color\":\"red\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.strength_boost","color":"red","italic":false},
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.strength_boost.lore\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
+                                    {"translate":"lt.loot_table.strength_boost.lore","color":"dark_gray","italic":true,"strikethrough":true}
                                 ],
                                 "potion_contents": {
                                     "custom_effects": [
@@ -173,9 +173,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.speed_boost\",\"color\":\"aqua\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.speed_boost","color":"aqua","italic":false},
                                 "lore": [
-                                    "{\"translate\":\"lt.loot_table.speed_boost.lore\",\"color\":\"dark_gray\",\"italic\":true,\"strikethrough\":true}"
+                                    {"translate":"lt.loot_table.speed_boost.lore","color":"dark_gray","italic":true,"strikethrough":true}
                                 ],
                                 "potion_contents": {
                                     "custom_effects": [

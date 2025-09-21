@@ -7,13 +7,19 @@
       "id": "tropicraft:bromeliad",
       "components": {
         "lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.bromeliad.tooltip\",\"color\":\"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.bromeliad.tooltip",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "bromeliad",

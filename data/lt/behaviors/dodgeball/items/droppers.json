@@ -8,7 +8,7 @@
 					"custom_data": {
 						"power_up": "speed"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.qottott.speed_power_up\", \"color\": \"aqua\"}"
+					"custom_name": {"translate": "ltminigames.minigame.qottott.speed_power_up", "color": "aqua"}
 				}
 			},
 			{
@@ -17,7 +17,7 @@
 					"custom_data": {
 						"power_up": "scale"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.scale_power_up\", \"color\": \"red\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.scale_power_up", "color": "red"}
 				}
 			},
 			{
@@ -26,7 +26,7 @@
 					"custom_data": {
 						"power_up": "gravity"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.gravity_power_up\", \"color\": \"red\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.gravity_power_up", "color": "red"}
 				}
 			}
 		],
@@ -64,7 +64,7 @@
 					"custom_data": {
 						"power_up": "multiplier"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.coin_multiplier_power_up\", \"color\": \"red\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.coin_multiplier_power_up", "color": "red"}
 				}
 			}
 		],
@@ -102,7 +102,7 @@
 					"custom_data": {
 						"power_up": "no_jump"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.no_jump_power_up\", \"color\": \"aqua\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.no_jump_power_up", "color": "aqua"}
 				}
 			},
 			{
@@ -111,7 +111,7 @@
 					"custom_data": {
 						"power_up": "slowness"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.slowness_power_up\", \"color\": \"red\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.slowness_power_up", "color": "red"}
 				}
 			},
 			{
@@ -120,7 +120,7 @@
 					"custom_data": {
 						"power_up": "glowing"
 					},
-					"custom_name": "{\"translate\": \"ltminigames.minigame.dodgeball.glowing.subtitle\", \"color\": \"red\"}"
+					"custom_name": {"translate": "ltminigames.minigame.dodgeball.glowing.subtitle", "color": "red"}
 				}
 			}
 		],

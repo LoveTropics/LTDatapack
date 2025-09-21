@@ -15,16 +15,14 @@
             {
               "function": "set_components",
               "components": {
-                "item_name": "{\"translate\":\"lt.loot_table.lightning_crossbow\",\"color\":\"dark_green\",\"bold\":true}",
+                "item_name": {"translate":"lt.loot_table.lightning_crossbow","color":"dark_green","bold":true},
                 "charged_projectiles": [
                   {"id": "ltminigames:lightning_arrow"},
                   {"id": "ltminigames:lightning_arrow"},
                   {"id": "ltminigames:lightning_arrow"}
                 ],
                 "enchantments": {
-                  "levels": {
                     "multishot": 1
-                  }
                 },
                 "max_damage": 9
               }

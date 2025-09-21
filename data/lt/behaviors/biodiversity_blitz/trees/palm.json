@@ -7,17 +7,31 @@
       "id": "tropicraft:palm_sapling",
       "components": {
         "lore": [
-          "{\"text\": \"Grows into a palm tree which drops coconut bombs on entities.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "text": "Grows into a palm tree which drops coconut bombs on entities.",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ],
         "ltminigames:shift_lore": [
-          "{\"text\": \"Grows into a palm tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-          "{\"text\": \"Drops coconut bombs on any mobs underneath. These explosions can damage you, but not your plants.\",\"color\": \"gold\",\"italic\": true}"
+          {
+            "text": "Grows into a palm tree after a growth cycle.",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "Drops coconut bombs on any mobs underneath. These explosions can damage you, but not your plants.",
+            "color": "gold",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "palm_tree",
@@ -30,7 +44,10 @@
           "type": "tropicraft:normal_palm_tree",
           "config": {}
         },
-        "blocks": ["#minecraft:logs", "#minecraft:leaves"]
+        "blocks": [
+          "#minecraft:logs",
+          "#minecraft:leaves"
+        ]
       },
       {
         "type": "ltminigames:drop_plant_item",
@@ -53,7 +70,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "palm_sapling",

@@ -27,7 +27,7 @@
     "action": [
       {
         "type": "ltminigames:add_attribute_modifier",
-        "attribute": "minecraft:generic.max_health",
+        "attribute": "minecraft:max_health",
         "modifier": {
           "id": "lt:villager_hunt",
           "amount": -10,

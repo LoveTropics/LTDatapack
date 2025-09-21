@@ -31,9 +31,10 @@
       "id": "minecraft:tnt",
       "count": 64,
       "components": {
-        "can_place_on": {
-          "predicates": [
-            {}
+        "can_place_on": {},
+        "minecraft:tooltip_display": {
+          "minecraft:hidden_components": [
+            "minecraft:can_place_on"
           ]
         }
       }

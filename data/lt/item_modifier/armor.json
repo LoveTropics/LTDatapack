@@ -4,8 +4,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:amethyst",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -28,8 +27,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:copper",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -52,8 +50,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:diamond",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -76,8 +73,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:emerald",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -100,8 +96,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:gold",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -124,8 +119,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:iron",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -148,8 +142,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:lapis",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -172,8 +165,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:netherite",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -196,8 +188,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:quartz",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [
@@ -220,8 +211,7 @@
         "components": {
             "minecraft:trim": {
                 "material": "minecraft:redstone",
-                "pattern": "lt:tropics",
-                "show_in_tooltip": true
+                "pattern": "lt:tropics"
             }
         },
         "conditions": [

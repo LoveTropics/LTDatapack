@@ -7,13 +7,19 @@
       "id": "ltminigames:bramble",
       "components": {
         "lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.sweet_berry_bush.tooltip",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "bramble",

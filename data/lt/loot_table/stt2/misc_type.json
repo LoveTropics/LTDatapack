@@ -15,10 +15,7 @@
                             "function": "set_components",
                             "components": {
                                 "can_break": {
-                                    "predicates": [
-                                        {"blocks": ["snow_block", "snow", "sand", "weather2:sand_layer"]}
-                                    ],
-                                    "show_in_tooltip": false
+                                    "blocks": "#lt:stt_2_break"
                                 }
                             }
                         },
@@ -36,9 +33,11 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": {},
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         },
@@ -59,9 +58,11 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": {},
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         },
@@ -98,7 +99,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.unstable_explosive\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.unstable_explosive","color":"red","bold":true,"italic":false},
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [
@@ -122,7 +123,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.poison_vile\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.poison_vile","color":"dark_green","bold":true,"italic":false},
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [
@@ -161,7 +162,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.slow_bomb\",\"color\":\"gray\",\"bold\":true,\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.slow_bomb","color":"gray","bold":true,"italic":false},
                                 "potion_contents": {
                                     "potion": "harming",
                                     "custom_effects": [
@@ -190,9 +191,13 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": [
+                                    {}
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         }
@@ -204,11 +209,15 @@
                     "name": "minecraft:water_bucket",
                     "functions": [
                         {
-                           "function": "set_components",
+                            "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": [
+                                    {}
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         }
@@ -220,11 +229,15 @@
                     "name": "minecraft:creeper_spawn_egg",
                     "functions": [
                         {
-                           "function": "set_components",
+                            "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": [
+                                    {}
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         },
@@ -243,11 +256,15 @@
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                           "function": "set_components",
+                            "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": [
+                                    {}
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         },
@@ -266,11 +283,15 @@
                     "name": "minecraft:blaze_spawn_egg",
                     "functions": [
                         {
-                           "function": "set_components",
+                            "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": [
+                                    {}
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         },
@@ -316,7 +337,7 @@
                         }
                     ]
                 }
-              ]
-          }
+            ]
+        }
     ]
 }

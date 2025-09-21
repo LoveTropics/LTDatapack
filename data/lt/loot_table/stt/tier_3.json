@@ -5,11 +5,6 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "weight": 2,
-                    "value": "lt:stt/tier_3/potato_cannon"
-                },
-                {
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_sword",
@@ -89,7 +84,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.slime_bomb\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.slime_bomb","italic":false},
                                 "entity_data": {
                                     "id": "tropicraft:man_o_war",
                                     "NoGravity": true,

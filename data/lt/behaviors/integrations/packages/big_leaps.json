@@ -8,7 +8,7 @@
   "donation_amount": "$donation_amount",
   "seconds": "$duration",
   "attribute": {
-    "type": "minecraft:generic.gravity",
+    "type": "minecraft:gravity",
     "id": "ltminigames:low_gravity",
     "name": "low_gravity_package",
     "amount": -0.6,

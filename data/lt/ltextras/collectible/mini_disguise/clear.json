@@ -1,21 +1,34 @@
 {
   "components": {
-    "minecraft:custom_name": "{\"translate\":\"lt.collectible.mini_disguise.clear.name\",\"color\":\"#BFEA00\",\"italic\":false}",
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.mini_disguise.clear.name",
+      "color": "#BFEA00",
+      "italic": false
+    },
     "minecraft:enchantment_glint_override": true,
     "minecraft:lore": [
-      "{\"translate\":\"lt.collectible.mini_disguise.clear.description\",\"color\":\"gray\"}",
-      "{\"text\":\" \"}",
-      "{\"translate\":\"lt.collectible.unicode.reward\",\"color\":\"white\",\"italic\":false}"
+      {
+        "translate": "lt.collectible.mini_disguise.clear.description",
+        "color": "gray"
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "lt.collectible.unicode.reward",
+        "color": "white",
+        "italic": false
+      }
     ],
     "minecraft:custom_data": {
       "ParkourBlacklist": true,
       "MiniDisguise_Clear": true
     },
-		"minecraft:food": {
+    "minecraft:food": {
       "can_always_eat": true,
-			"nutrition": 1,
-			"saturation": 1
-		}
+      "nutrition": 1,
+      "saturation": 1
+    }
   },
   "item": "minecraft:milk_bucket"
 }

@@ -143,19 +143,19 @@
           ],
           "attributes": [
             {
-              "id": "minecraft:generic.max_health",
+              "id": "minecraft:max_health",
               "base": 500
             },
             {
-              "id": "minecraft:generic.knockback_resistance",
+              "id": "minecraft:knockback_resistance",
               "base": 0.75
             },
             {
-              "id": "minecraft:generic.movement_speed",
+              "id": "minecraft:movement_speed",
               "base": 0
             },
             {
-              "id": "minecraft:generic.scale",
+              "id": "minecraft:scale",
               "base": 1.5
             }
           ]

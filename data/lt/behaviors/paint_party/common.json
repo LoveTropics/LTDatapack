@@ -50,7 +50,7 @@
       },
       {
         "type": "ltminigames:add_attribute_modifier",
-        "attribute": "minecraft:generic.step_height",
+        "attribute": "minecraft:step_height",
         "modifier": {
           "id": "lt:paint_party/step_height",
           "amount": 0.5,

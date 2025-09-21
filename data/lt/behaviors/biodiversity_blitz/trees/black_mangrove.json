@@ -7,13 +7,19 @@
       "id": "tropicraft:black_mangrove_propagule",
       "components": {
         "lore": [
-          "{\"text\": \"Grows into a black mangrove.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "text": "Grows into a black mangrove.",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove",
@@ -23,7 +29,11 @@
       {
         "type": "ltminigames:place_feature_plant",
         "feature": "tropicraft:black_mangrove",
-        "blocks": ["#minecraft:logs", "#minecraft:leaves", "#tropicraft:roots"]
+        "blocks": [
+          "#minecraft:logs",
+          "#minecraft:leaves",
+          "#tropicraft:roots"
+        ]
       },
       {
         "type": "ltminigames:drop_plant_item",
@@ -40,7 +50,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "black_mangrove_propagule",

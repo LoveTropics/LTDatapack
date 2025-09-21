@@ -7,17 +7,31 @@
       "id": "minecraft:oak_sapling",
       "components": {
         "lore": [
-          "{\"text\": \"Grows into an oak tree and rarely drops golden apples.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "text": "Grows into an oak tree and rarely drops golden apples.",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ],
         "ltminigames:shift_lore": [
-          "{\"text\": \"Grows into an oak tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-          "{\"text\": \"Golden apples drop from the leaves every few minutes.\",\"color\": \"gold\",\"italic\": true}"
+          {
+            "text": "Grows into an oak tree after a growth cycle.",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "Golden apples drop from the leaves every few minutes.",
+            "color": "gold",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_tree",
@@ -43,14 +57,19 @@
               "type": "minecraft:simple_state_provider",
               "state": {
                 "Name": "minecraft:oak_log",
-                "Properties": {"axis": "y"}
+                "Properties": {
+                  "axis": "y"
+                }
               }
             },
             "foliage_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
                 "Name": "minecraft:oak_leaves",
-                "Properties": {"persistent": "false", "distance": "7"}
+                "Properties": {
+                  "persistent": "false",
+                  "distance": "7"
+                }
               }
             },
             "dirt_provider": {
@@ -73,7 +92,10 @@
             }
           }
         },
-        "blocks": ["#minecraft:logs", "#minecraft:leaves"]
+        "blocks": [
+          "#minecraft:logs",
+          "#minecraft:leaves"
+        ]
       },
       {
         "type": "ltminigames:drop_plant_item",
@@ -92,7 +114,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "oak_sapling",

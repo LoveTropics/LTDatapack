@@ -21,7 +21,7 @@
         "minecraft:attributes": [
             {
                 "id": "lt:wellies_boosts",
-                "attribute": "minecraft:generic.movement_efficiency",
+                "attribute": "minecraft:movement_efficiency",
                 "amount": 10,
                 "operation": "add_value"
             }

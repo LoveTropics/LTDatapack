@@ -6,18 +6,27 @@
     "item": {
       "id": "minecraft:pumpkin",
       "components": {
-        "lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip\",\"color\":\"aqua\"}"
-        ],
+        "lore": [{"translate": "ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip","color":"aqua"}],
         "ltminigames:shift_lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra1\",\"color\": \"gold\",\"italic\": true}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra2\",\"color\": \"gold\",\"italic\": true}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra3\",\"color\": \"gold\",\"italic\": true}"
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra1",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra2",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.pumpkin.tooltip.extra3",
+            "color": "gold",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "pumpkin",

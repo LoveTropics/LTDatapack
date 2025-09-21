@@ -1,8 +1,8 @@
 disguise as minecraft:zombie {IsBaby:1b}
-item replace entity @s armor.head with golden_helmet[enchantments={levels:{binding_curse:1}},custom_data={mini_disguises_clear:1b}]
-item replace entity @s armor.chest with golden_chestplate[enchantments={levels:{binding_curse:1}},custom_data={mini_disguises_clear:1b}]
-item replace entity @s armor.legs with golden_leggings[enchantments={levels:{binding_curse:1}},custom_data={mini_disguises_clear:1b}]
-item replace entity @s armor.feet with golden_boots[enchantments={levels:{binding_curse:1}},custom_data={mini_disguises_clear:1b}]
+item replace entity @s armor.head with golden_helmet[enchantments={binding_curse:1},custom_data={mini_disguises_clear:1b}]
+item replace entity @s armor.chest with golden_chestplate[enchantments={binding_curse:1},custom_data={mini_disguises_clear:1b}]
+item replace entity @s armor.legs with golden_leggings[enchantments={binding_curse:1},custom_data={mini_disguises_clear:1b}]
+item replace entity @s armor.feet with golden_boots[enchantments={binding_curse:1},custom_data={mini_disguises_clear:1b}]
 effect give @s minecraft:speed 60 10 true
 scoreboard players set @s mini_disguises.clock 60
 advancement revoke @s only lt:mini_disguises/philza

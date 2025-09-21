@@ -7,14 +7,23 @@
       "id": "tropicraft:canna",
       "components": {
         "lore": [
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip1\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip2\",\"color\": \"red\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip1",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.canna.tooltip2",
+            "color": "red"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "canna",

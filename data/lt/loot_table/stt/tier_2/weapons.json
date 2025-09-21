@@ -16,13 +16,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "enchantments": {
-                                    "levels": {
-                                        "loyalty": 3
-                                    }
+                                  "loyalty": 3
                                 },
                                 "attribute_modifiers": [
                                     {
-                                        "type": "generic.attack_damage",
+                                        "type": "attack_damage",
                                         "id": "lt:trident_attack_boost",
                                         "amount": 3.0,
                                         "operation": "add_value"
@@ -41,9 +39,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "enchantments": {
-                                    "levels": {
-                                        "punch": 1
-                                    }
+                                  "punch": 1
                                 }
                             }
                         }
@@ -58,9 +54,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "enchantments": {
-                                    "levels": {
                                         "power": 1
-                                    }
                                 }
                             }
                         }

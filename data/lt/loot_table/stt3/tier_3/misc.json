@@ -35,9 +35,11 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": {},
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         }
@@ -58,9 +60,11 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_place_on": {
-                                    "predicates": [{}],
-                                    "show_in_tooltip": false
+                                "can_place_on": {},
+                                "minecraft:tooltip_display": {
+                                    "minecraft:hidden_components": [
+                                        "minecraft:can_place_on"
+                                    ]
                                 }
                             }
                         }
@@ -74,7 +78,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.tonic_gloriousness\",\"color\":\"#E80000\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.tonic_gloriousness","color":"#E80000","italic":false},
                                 "potion_contents": {
                                     "custom_effects": [
                                         {
@@ -102,12 +106,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "can_break": {
-                                    "predicates": [
-                                        {"blocks": ["snow_block", "snow", "sand", "weather2:sand_layer"]}
-                                    ],
-                                    "show_in_tooltip": false
-                                }
+                              "can_break": {
+                                "blocks": "#lt:stt_2_break"
+                              }
                             }
                         },
                         {

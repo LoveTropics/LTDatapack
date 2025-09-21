@@ -7,17 +7,31 @@
       "id": "minecraft:birch_sapling",
       "components": {
         "lore": [
-          "{\"text\": \"Grows into a birch tree.\",\"color\": \"aqua\"}",
-          "{\"translate\": \"ltminigames.minigame.biodiversity_blitz.plant.provides_currency\",\"color\": \"light_purple\",\"italic\": true}"
+          {
+            "text": "Grows into a birch tree.",
+            "color": "aqua"
+          },
+          {
+            "translate": "ltminigames.minigame.biodiversity_blitz.plant.provides_currency",
+            "color": "light_purple",
+            "italic": true
+          }
         ],
         "ltminigames:shift_lore": [
-          "{\"text\": \"Grows into a birch tree after a growth cycle.\",\"color\": \"gold\",\"italic\": true}",
-          "{\"text\": \"They don't have any special behaviors, but they contribute to biodiversity.\",\"color\": \"gold\",\"italic\": true}"
+          {
+            "text": "Grows into a birch tree after a growth cycle.",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "They don't have any special behaviors, but they contribute to biodiversity.",
+            "color": "gold",
+            "italic": true
+          }
         ]
       }
     }
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_tree",
@@ -43,14 +57,19 @@
               "type": "minecraft:simple_state_provider",
               "state": {
                 "Name": "minecraft:birch_log",
-                "Properties": {"axis": "y"}
+                "Properties": {
+                  "axis": "y"
+                }
               }
             },
             "foliage_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
                 "Name": "minecraft:birch_leaves",
-                "Properties": {"persistent": "false", "distance": "7"}
+                "Properties": {
+                  "persistent": "false",
+                  "distance": "7"
+                }
               }
             },
             "dirt_provider": {
@@ -73,7 +92,10 @@
             }
           }
         },
-        "blocks": ["#minecraft:logs", "#minecraft:leaves"]
+        "blocks": [
+          "#minecraft:logs",
+          "#minecraft:leaves"
+        ]
       },
       {
         "type": "ltminigames:drop_plant_item",
@@ -85,7 +107,6 @@
       }
     ]
   },
-
   {
     "type": "ltminigames:biodiversity_blitz_plant",
     "id": "birch_sapling",

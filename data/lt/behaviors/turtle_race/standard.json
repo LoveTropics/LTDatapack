@@ -30,7 +30,7 @@
         "attributes": [
           {
             "base": 1.65,
-            "id": "minecraft:generic.movement_speed"
+            "id": "minecraft:movement_speed"
           }
         ],
         "NoBrakesOnThisTrain": true,

@@ -21,9 +21,7 @@
                 "components": {
                   "unbreakable": {},
                   "enchantments": {
-                    "levels": {
-                      "thorns": 6
-                    }
+                    "thorns": 6
                   }
                 }
               },

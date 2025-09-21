@@ -50,7 +50,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"lt.loot_table.greater_poision_tipped\",\"italic\":false}",
+                                "custom_name": {"translate":"lt.loot_table.greater_poision_tipped","italic":false},
                                 "potion_contents": {
                                     "custom_effects": [
                                         {
