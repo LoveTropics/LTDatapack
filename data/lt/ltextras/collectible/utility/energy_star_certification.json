@@ -33,11 +33,11 @@
         "minecraft:unbreakable"
       ]
     },
-    "item_model": "ltextras:item/energy_star_certification",
+    "item_model": "lt:item/energy_star_certification",
     "ltextras:image": {
-      "texture": "lt:textures/item/icon/energy_star_certification.png",
-      "width": 347.0,
-      "height": 356.0
+      "texture": "lt:textures/item/energy_star_certification.png",
+      "width": 64.0,
+      "height": 64.0
     }
   },
   "item": "ltextras:invite"
