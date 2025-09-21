@@ -7,8 +7,6 @@
       "red": 0.27,
       "green": 0.26,
       "blue": 0.26,
-      "fog_type": "terrain",
-      "fog_shape": "sphere",
       "near_distance": 20.0,
       "far_distance": 140.0
     }
