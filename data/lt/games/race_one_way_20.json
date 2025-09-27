@@ -3,7 +3,7 @@
     "translate": "ltminigames.minigame.turtle_race"
   },
   "subtitle": "One-Way - LT20",
-  "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_2.png",
+  "icon": "ltminigames:minigames/turtle_race/turtle_icon_2",
   "statistics_key": "race_standard_20",
   "backend_id": "lt:turtle_race",
   "map": {

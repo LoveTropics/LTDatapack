@@ -1,6 +1,6 @@
 {
   "name": {"translate": "ltminigames.minigame.survive_the_tide_4"},
-  "icon": "ltminigames:textures/gui/minigames/survive_the_tide/icon.png",
+  "icon": "ltminigames:minigames/survive_the_tide/icon",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_4",
   "minimum_participants": 3,
