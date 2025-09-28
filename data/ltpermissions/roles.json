@@ -170,12 +170,5 @@
     "overrides": {
       "command_feedback": true
     }
-  },
-  "we": {
-    "overrides": {
-      "commands": {
-        "/": false
-      }
-    }
   }
 }
