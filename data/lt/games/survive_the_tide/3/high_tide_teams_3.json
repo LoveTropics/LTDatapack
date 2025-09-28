@@ -2,7 +2,7 @@
   "name": {
     "translate": "ltminigames.minigame.survive_the_tide_3",
     "color": "blue",
-    "with": [
+    "extra": [
       " ",
       {
         "translate": "ltminigames.minigame.teams_3",
