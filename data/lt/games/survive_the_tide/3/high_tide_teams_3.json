@@ -1,6 +1,19 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "3 Teams / High Tide",
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_3",
+    "color": "blue",
+    "with": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_3",
+        "color": "dark_green"
+      }
+    ]
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.high",
+    "color": "red"
+  },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_3_teams",

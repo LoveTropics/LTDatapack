@@ -6,3 +6,5 @@
 *.code-workspace
 
 .vscode/
+
+assets/ltminigames/lang/en_us.json

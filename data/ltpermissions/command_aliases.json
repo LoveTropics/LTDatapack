@@ -1,17 +1,6 @@
 {
   "tools": "function lt:utility/buildmode/checker",
   "spawn": "warp lt:spawn",
-  "admin toggle markers": "function lt:utility/toggle_marker_visibilty",
-  "admin update-hosts": "function lt:utility/hosts/hosts_dummy",
-  "admin book": "function lt:admin/admin_book",
-  "admin milestone 1 enable": "function lt:admin/milestone/enable {\"zone\":1}",
-  "admin milestone 2 enable": "function lt:admin/milestone/enable {\"zone\":2}",
-  "admin milestone 3 enable": "function lt:admin/milestone/enable {\"zone\":3}",
-  "admin milestone 4 enable": "function lt:admin/milestone/enable {\"zone\":4}",
-  "admin milestone 1 disable": "function lt:admin/milestone/disable {\"zone\":1}",
-  "admin milestone 2 disable": "function lt:admin/milestone/disable {\"zone\":2}",
-  "admin milestone 3 disable": "function lt:admin/milestone/disable {\"zone\":3}",
-  "admin milestone 4 disable": "function lt:admin/milestone/disable {\"zone\":4}",
   "admin games river enable": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 1f",
   "admin games river disable": "execute as @e[type=minecraft:text_display,tag=info.game.unlock_river] at @s run data modify entity @s view_range set value 0f",
   "admin games philza enable": "execute as @e[type=minecraft:text_display,tag=info.game.columns_of_chaos] at @s run data modify entity @s view_range set value 1f",
@@ -26,5 +15,5 @@
   "admin events golf host_mode enable": "scoreboard players set hostMode golf.events 1",
   "admin events golf host_mode gegy": "scoreboard players set hostMode golf.events 2",
   "admin disguse_all shoebill": "execute as @a[current_world=true] run disguise as tropicraft:shoebill_stork",
-  "admin gegy": "function lt:gegy/spawn_fly"
+  "admin": "dialog show @s lt:admin/admin"
 }

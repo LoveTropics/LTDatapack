@@ -1,6 +1,8 @@
 {
   "organiser": {
-    "includes": ["administration"],
+    "includes": [
+      "administration"
+    ],
     "overrides": {
       "name_decoration": {
         "style": "#2ecc71"
@@ -8,7 +10,9 @@
     }
   },
   "live": {
-    "includes": ["host"],
+    "includes": [
+      "host"
+    ],
     "overrides": {
       "name_decoration": {
         "prefix": {
@@ -32,7 +36,9 @@
     }
   },
   "mojangsta": {
-    "includes": ["privileged"],
+    "includes": [
+      "privileged"
+    ],
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
@@ -40,7 +46,11 @@
     }
   },
   "moderator": {
-    "includes": ["moderation", "privileged", "building"],
+    "includes": [
+      "moderation",
+      "privileged",
+      "building"
+    ],
     "overrides": {
       "name_decoration": {
         "style": "#3498db"
@@ -48,7 +58,9 @@
     }
   },
   "builder": {
-    "includes": ["building"],
+    "includes": [
+      "building"
+    ],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
@@ -56,7 +68,9 @@
     }
   },
   "modder": {
-    "includes": ["privileged"],
+    "includes": [
+      "privileged"
+    ],
     "overrides": {
       "name_decoration": {
         "style": "#9b6565"
@@ -120,10 +134,8 @@
       }
     }
   },
-  "dinners": {
-  },
-  "river_race_red": {
-  },
+  "dinners": {},
+  "river_race_red": {},
   "river_race_blue": {},
   "everyone": {
     "overrides": {
@@ -157,6 +169,13 @@
   "commander": {
     "overrides": {
       "command_feedback": true
+    }
+  },
+  "we": {
+    "overrides": {
+      "commands": {
+        "/": false
+      }
     }
   }
 }

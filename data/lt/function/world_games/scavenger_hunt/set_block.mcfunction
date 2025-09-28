@@ -1,1 +1,0 @@
-execute in tropicraft:tropics run fill -60 136 -73 -60 134 -71 minecraft:quartz_pillar

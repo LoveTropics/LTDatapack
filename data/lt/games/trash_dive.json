@@ -1,13 +1,16 @@
 {
-  "name": {"translate": "ltminigames.minigame.trash_dive"},
+  "name": {
+    "translate": "ltminigames.minigame.trash_dive",
+    "color": "dark_green"
+  },
   "statistics_key": "trash_dive",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:trash_dive",
     "dimension_type": "tropicraft:tropics"
   },
-  "minimum_participants": 1,
-  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -16,7 +19,9 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": ["spawn"]
+      "all": [
+        "spawn"
+      ]
     },
     {
       "type": "ltminigames:immediate_respawn",
@@ -41,12 +46,25 @@
       "statistic": "trash_collected",
       "order": "max",
       "count": 5,
-      "title": {"translate": "ltminigames.minigame.trash_dive.sidebar.title", "color": "blue", "bold": true},
+      "title": {
+        "translate": "ltminigames.minigame.trash_dive.sidebar.title",
+        "color": "blue",
+        "bold": true
+      },
       "header": [
-        {"translate": "ltminigames.minigame.trash_dive.sidebar.instruction", "color": "green"},
-        {"translate": "ltminigames.minigame.trash_dive.sidebar.collected", "color": "gray"},
+        {
+          "translate": "ltminigames.minigame.trash_dive.sidebar.instruction",
+          "color": "green"
+        },
+        {
+          "translate": "ltminigames.minigame.trash_dive.sidebar.collected",
+          "color": "gray"
+        },
         "",
-        {"translate": "ltminigames.minigame.trash_dive.sidebar.top_players", "color": "green"}
+        {
+          "translate": "ltminigames.minigame.trash_dive.sidebar.top_players",
+          "color": "green"
+        }
       ]
     },
     {
@@ -129,4 +147,3 @@
     "ltminigames:disable_throwing_items"
   ]
 }
-

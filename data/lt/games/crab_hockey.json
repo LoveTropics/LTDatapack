@@ -1,10 +1,16 @@
 {
-  "name": {"translate": "ltminigames.minigame.crab_hockey"},
-  "statistics_key": "hockey",
-  "map": {
-    "type": "ltminigames:load_map",
-    "load_from": "lt:crab_hockey"
+  "name": {
+    "translate": "ltminigames.minigame.crab_hockey",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
   },
+  "statistics_key": "hockey",
   "minimum_participants": 1,
   "waiting": {
     "map": {
@@ -22,6 +28,10 @@
       "lt:teams/red_blue"
     ]
   },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:crab_hockey"
+  },
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -32,10 +42,16 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "red": ["red"],
-        "blue": ["blue"]
+        "red": [
+          "red"
+        ],
+        "blue": [
+          "blue"
+        ]
       },
-      "spectators": ["spectators"],
+      "spectators": [
+        "spectators"
+      ],
       "face_region": "crab_spawn"
     },
     "lt:crab_hockey/equipment",
@@ -86,7 +102,10 @@
       "type": "ltminigames:phase_progress_bar",
       "entries": [
         {
-          "period": [0, "start"],
+          "period": [
+            0,
+            "start"
+          ],
           "text": {
             "translate": "ltminigames.minigame.get_ready",
             "color": "yellow"
@@ -96,7 +115,10 @@
           "include_time": true
         },
         {
-          "period": ["start", "end"],
+          "period": [
+            "start",
+            "end"
+          ],
           "text": {
             "translate": "ltminigames.minigame.crab_hockey",
             "color": "red"
@@ -114,11 +136,26 @@
           "type": "ltminigames:set_statistic",
           "statistic": "crabs",
           "by_player_count": [
-            [0, 1],
-            [6, 1],
-            [7, 2],
-            [8, 2],
-            [10, 3]
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              10,
+              3
+            ]
           ]
         }
       ]
@@ -165,7 +202,10 @@
         "blue": "blue_goal"
       },
       "statistic": "points",
-      "score_period": ["start", "end"]
+      "score_period": [
+        "start",
+        "end"
+      ]
     },
     {
       "type": "ltminigames:place_by_statistic",
@@ -193,7 +233,9 @@
         "target": "all",
         "actions": {
           "type": "ltminigames:give_reward",
-          "items": ["ltextras:tropicoin"],
+          "items": [
+            "ltextras:tropicoin"
+          ],
           "statistic_binding": {
             "statistic": "points",
             "multiplier": 0.25,
@@ -207,9 +249,12 @@
       "statistic": "points",
       "order": "max",
       "count": 2,
-      "title": {"translate": "ltminigames.minigame.crab_hockey", "color": "light_purple", "bold": true},
-      "header": [
-      ]
+      "title": {
+        "translate": "ltminigames.minigame.crab_hockey",
+        "color": "light_purple",
+        "bold": true
+      },
+      "header": []
     },
     "lt:crab_hockey/donations",
     "ltminigames:cancel_player_damage",

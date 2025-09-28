@@ -2,7 +2,7 @@
   "enter_commands": [
     "clear @s elytra",
     "tag @s add in.dropper",
-    "team join dropper @s",
+    "team join world_game.dropper @s",
     "collectible lock @s",
     "effect give @s minecraft:invisibility infinite 255 true"
   ],

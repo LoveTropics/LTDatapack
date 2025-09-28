@@ -1,6 +1,19 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "DINNER MODE",
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_3",
+    "color": "blue",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.dinner",
+        "color": "aqua"
+      }
+    ]
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.high",
+    "color": "red"
+  },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "hide_from_list": true,
   "statistics_key": "survive_the_tide",
@@ -28,7 +41,9 @@
             "name": "THE DINNERS",
             "dye": "red",
             "text": "red",
-            "assign_roles": ["dinners"]
+            "assign_roles": [
+              "dinners"
+            ]
           },
           {
             "key": "everyone",

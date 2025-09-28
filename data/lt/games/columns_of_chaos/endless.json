@@ -1,0 +1,60 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.columns_of_chaos",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "subtitle": [
+    {
+      "translate": "ltminigames.minigame.endless",
+      "color": "red"
+    },
+    {
+      "text": "",
+      "color": "gray"
+    }
+  ],
+  "statistics_key": "columns_of_chaos",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:pillars_of_wealth"
+  },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "survival",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    "lt:columns_of_chaos/common",
+    {
+      "type": "lt:integrations/packages/everyone_host",
+      "seconds": 120,
+      "donation_amount": 20.0
+    }
+  ]
+}

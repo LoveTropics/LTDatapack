@@ -1,10 +1,3 @@
-# Run ticking functions for carnival games
-#execute if score game.carnival.color_bop.active main.global matches 1 run function lt:game/carnival/color_bop/on_tick
-
-# Run ticking functions for party games
-###execute if score game.party.block_party.active main.global matches 1 run function lt:game/party/block_party/on_tick
-#execute if score game.party.spleef.active main.global matches 1 run function lt:game/party/spleef/on_tick
-
 # Run utility on tick functions
 function lt:utility/on_tick
 
@@ -55,7 +48,7 @@ function lt:world_games/parkour/on_second
 function lt:world_games/dropper/on_tick
 
 # Build Mode Tools
-execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if data entity @s[buildmode=false] run function lt:utility/buildmode/give_tools
+execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
 
 # Make interaction blocker invisible
 execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker] invisibility infinite 1 true
@@ -65,11 +58,6 @@ execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker
 execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.return_items_portal,distance=..0.85] run function lt:utility/return_items
 # Particle for above
 execute in tropicraft:tropics positioned 2329.53 131.5 2396.50 run particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0.01 1 force @a[distance=..10]
-
-
-# Scavenger Hunt
-#execute in tropicraft:tropics as @a[tag=!scavengerHunt01,current_world=true] run execute if data entity @s ForgeCaps.ltextras:collectibles.collectibles[].tag{title:"Clue 01"} run tag @s add scavengerHunt01
-function lt:world_games/scavenger_hunt/seat
 
 # Crab Golf
 function lt:world_games/minigolf/core/on_tick

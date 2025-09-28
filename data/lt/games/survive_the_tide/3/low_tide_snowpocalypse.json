@@ -1,6 +1,18 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_3"},
-  "subtitle": "Low Tide - SNOWPOCALYPSE",
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_3",
+    "color": "blue"
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.snow",
+    "color": "red",
+    "extra": [
+      " / ",
+      {
+        "translate": "ltminigames.minigame.low"
+      }
+    ]
+  },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_3",
@@ -15,7 +27,9 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": {"spawn": "spawn"}
+        "regions": {
+          "spawn": "spawn"
+        }
       }
     ]
   },

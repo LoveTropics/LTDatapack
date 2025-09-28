@@ -1,0 +1,55 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.turtle_race",
+    "color": "light_purple"
+  },
+  "subtitle": [
+    {
+      "translate": "ltminigames.minigame.laps",
+      "color": "red",
+      "extra": [
+        " 1",
+        {
+          "text": "",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "text": "",
+      "color": "gray"
+    }
+  ],
+  "icon": "ltminigames:textures/gui/minigames/turtle_race/turtle_icon_2.png",
+  "statistics_key": "race_standard_20",
+  "backend_id": "lt:turtle_race",
+  "minimum_participants": 4,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:turtle_race_20",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:turtle_race/standard",
+      "track_point_count": 90,
+      "lap_count": 1
+    }
+  ]
+}

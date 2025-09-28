@@ -1,4 +1,18 @@
 {
+  "name": {
+    "translate": "ltminigames.minigame.crafting_bee",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "crafting_bee",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
@@ -15,15 +29,11 @@
       "lt:teams/red_blue"
     ]
   },
-  "name": {"translate": "ltminigames.minigame.crafting_bee"},
-  "statistics_key": "crafting_bee",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:crafting_bee",
     "dimension_type": "lt:raised_clouds"
   },
-  "minimum_participants": 1,
-  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -52,17 +62,25 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "red": ["red"],
-        "blue": ["blue"]
+        "red": [
+          "red"
+        ],
+        "blue": [
+          "blue"
+        ]
       },
-      "spectators": ["spectators"]
+      "spectators": [
+        "spectators"
+      ]
     },
     "lt:crafting_bee_recipes",
     {
       "type": "ltminigames:set_client_state",
       "state": {
         "type": "ltminigames:hide_recipe_book",
-        "message": {"translate": "ltminigames.minigame.crafting_bee.dont_cheat"}
+        "message": {
+          "translate": "ltminigames.minigame.crafting_bee.dont_cheat"
+        }
       }
     },
     {
@@ -97,7 +115,9 @@
         "target": "all",
         "actions": {
           "type": "ltminigames:give_reward",
-          "items": ["ltextras:tropicoin"],
+          "items": [
+            "ltextras:tropicoin"
+          ],
           "statistic_binding": {
             "statistic": "items_crafted",
             "from_team": true

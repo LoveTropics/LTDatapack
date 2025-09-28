@@ -1,12 +1,15 @@
 {
-  "name": {"translate": "ltminigames.minigame.levitation"},
+  "name": {
+    "translate": "ltminigames.minigame.levitation",
+    "color": "dark_green"
+  },
   "statistics_key": "levitation",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:levitation"
   },
-  "minimum_participants": 1,
-  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -30,7 +33,11 @@
       "actions": {
         "rise": {
           "type": "ltminigames:set_blocks",
-          "replace": {"blocks": ["minecraft:light_blue_stained_glass"]},
+          "replace": {
+            "blocks": [
+              "minecraft:light_blue_stained_glass"
+            ]
+          },
           "set": "minecraft:air",
           "region": "barrier"
         }

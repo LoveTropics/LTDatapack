@@ -1,11 +1,21 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_1"},
-  "subtitle": "Philza Minecraft",
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_1",
+    "color": "green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.organisers",
+        "color": "#29a75f"
+      }
+    ]
+  },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_1_teams",
   "minimum_participants": 3,
   "maximum_participants": 1000,
+  "hide_from_list": true,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
@@ -27,7 +37,10 @@
             "name": "Organisers",
             "dye": "red",
             "text": "red",
-            "assign_roles": ["organiser", "dinners"]
+            "assign_roles": [
+              "organiser",
+              "dinners"
+            ]
           },
           {
             "key": "everyone",
