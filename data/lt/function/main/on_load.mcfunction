@@ -94,9 +94,6 @@ function lt:donation_effects/party_room/disco_floor/on_second
 # Scavenger Hunt
 scoreboard objectives add world_game.scavenger_hunt.stats dummy
 
-# Stats
-scoreboard objectives add stats.death_count deathCount {"text": "The Death Count", "color": "red"}
-
 # On Second
 schedule function lt:main/on_second 1s replace
 
@@ -141,3 +138,7 @@ scoreboard objectives add turtle_tracker dummy
 ## Stage system variables
 scoreboard objectives add stage.global dummy
 scoreboard objectives add stage.curtain dummy
+
+
+#Stage
+function lt:stage/curtain/tick

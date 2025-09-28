@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Curtain Placer"
+  },
+  "pause": false,
+  "external_title": "Server Rules",
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "name",
+      "label": "Name"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "x",
+      "label": "X",
+      "start": 0,
+      "end": 20,
+      "step": 1,
+      "initial": 0
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "y",
+      "label": "Y",
+      "start": 1,
+      "end": 20,
+      "step": 1,
+      "initial": 1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "z",
+      "label": "Z",
+      "start": 0,
+      "end": 20,
+      "step": 1,
+      "initial": 0
+    }
+  ],
+  "can_close_with_escape": true,
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function lt:stage/curtain/set_data {x:$(x),y:$(y),z:$(z),name:$(name)}"
+    }
+  },
+  "no": {
+    "label": "Cancel",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "kill @e[type=minecraft:marker,distance=..10,limit=1,tag=utility.stage.curtain.in_setup]"
+    }
+  }
+}
