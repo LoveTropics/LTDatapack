@@ -1,5 +1,5 @@
 # Play sound to indicate server is reloaded
-execute as @a[tag=main.operator] at @s run playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 2 1.5
+execute as @a[role=commander] at @s run playsound minecraft:block.note_block.basedrum master @s ~ ~ ~ 2 1.5
 
 # Put a message in chat to indicate server is reloaded
 tellraw @a[role=commander] [{"text":"<@>","color":"gray"}, {"text":" Reload: ","color":"yellow"}, {"score":{"name":"reloads","objective":"main.stats"}, "color": "red"}]
@@ -10,6 +10,7 @@ scoreboard objectives add main.random dummy "Random Numbers"
 # Stat Scoreboards
 scoreboard objectives add main.stats dummy "Server Stats"
 scoreboard objectives add player.deathCount deathCount "Death Count"
+scoreboard objectives add player.chair_sit_time dummy "Chair Sit Time"
 scoreboard objectives add player.jump minecraft.custom:minecraft.jump "Jump Count"
 scoreboard objectives add player.play_time minecraft.custom:minecraft.play_time "Play Time"
 scoreboard objectives add player.fly_one_cm minecraft.custom:minecraft.fly_one_cm "Fly One Centimeter"
@@ -70,6 +71,9 @@ scoreboard objectives add system.elevator dummy
 
 # Dropper
 scoreboard objectives add world_game.dropper.stats dummy "Dropper Stats"
+scoreboard objectives add world_game.dropper.stats.plays dummy "Dropper Plays"
+scoreboard objectives add world_game.dropper.stats.fails dummy "Dropper Fails"
+scoreboard objectives add world_game.dropper.stats.wins dummy "Dropper Wins"
 team add world_game.dropper
 team modify world_game.dropper collisionRule never
 team modify world_game.dropper seeFriendlyInvisibles true
