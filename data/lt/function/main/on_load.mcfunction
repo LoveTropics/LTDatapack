@@ -176,3 +176,6 @@ scoreboard objectives add turtle_tracker dummy
 ## Stage system variables
 scoreboard objectives add stage.global dummy
 scoreboard objectives add stage.curtain dummy
+
+# Forklifts
+function lt:forklift/on_load
