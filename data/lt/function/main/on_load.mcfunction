@@ -142,3 +142,6 @@ scoreboard objectives add stage.curtain dummy
 
 #Stage
 function lt:stage/curtain/tick
+
+# Forklifts
+function lt:forklift/on_load

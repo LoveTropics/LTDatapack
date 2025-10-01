@@ -1,0 +1,1 @@
+$execute as @s at @s run tp @e[type=block_display,tag=forklift_bd_root,nbt={data:{forklift_id:$(forklift_id)}}] @s
