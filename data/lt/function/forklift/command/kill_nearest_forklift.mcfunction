@@ -1,1 +1,0 @@
-execute as @e[type=camel,tag=forklift_vehicle,sort=nearest,limit=1,distance=..10] run function lt:forklift/internal_kill_nearest_forklift with entity @s data.forklift_id
