@@ -1,0 +1,1 @@
+execute as @e[type=camel,tag=forklift_vehicle] at @s run function lt:forklift/find_forklift_pair with entity @s data.forklift_id

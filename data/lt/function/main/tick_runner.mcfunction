@@ -90,3 +90,6 @@ function lt:quest/main/on_tick
 
 # Stage on_tick
 function lt:stage/stage_tick
+
+# Forklifts
+function lt:forklift/on_tick

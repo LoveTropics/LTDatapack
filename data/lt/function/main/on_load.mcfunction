@@ -139,6 +139,8 @@ scoreboard objectives add turtle_tracker dummy
 scoreboard objectives add stage.global dummy
 scoreboard objectives add stage.curtain dummy
 
-
 #Stage
 function lt:stage/curtain/tick
+
+# Forklifts
+function lt:forklift/on_load
