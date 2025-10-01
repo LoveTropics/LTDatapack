@@ -1,15 +1,16 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.spleef"
+    "translate": "ltminigames.minigame.spleef",
+    "color": "dark_green"
   },
   "icon": "ltminigames:minigames/spleef/icon",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
   "statistics_key": "spleef_standard",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:spleef"
   },
-  "minimum_participants": 1,
-  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -22,7 +23,9 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": ["spawn"]
+      "all": [
+        "spawn"
+      ]
     },
     "ltminigames:spectator_chase",
     {
@@ -54,13 +57,19 @@
                 "tool": {
                   "rules": [
                     {
-                      "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"],
+                      "blocks": [
+                        "minecraft:obsidian",
+                        "ltextras:delighted_obsidian"
+                      ],
                       "speed": 5000
                     }
                   ]
                 },
                 "can_break": {
-                  "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
+                  "blocks": [
+                    "minecraft:obsidian",
+                    "ltextras:delighted_obsidian"
+                  ]
                 }
               }
             }

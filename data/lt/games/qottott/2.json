@@ -1,0 +1,28 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.qottott",
+    "color": "light_purple"
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.qottott.map.2",
+    "color": "red",
+    "extra": [
+      {
+        "text": "",
+        "color": "gray"
+      }
+    ]
+  },
+  "statistics_key": "qottott",
+  "backend_id": "lt:qottott",
+  "minimum_participants": 3,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:qottott2",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "behaviors": [
+    "lt:qottott/common"
+  ]
+}

@@ -1,5 +1,15 @@
 {
-  "name": {"translate": "ltminigames.minigame.villager_hunt"},
+  "name": {
+    "translate": "ltminigames.minigame.villager_hunt",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
   "statistics_key": "villager_hunt",
   "backend_id": "lt:villager_hunt",
   "minimum_participants": 2,
@@ -13,7 +23,9 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": {"spawn": "spawn"}
+        "regions": {
+          "spawn": "spawn"
+        }
       },
       "lt:teams/red_blue"
     ]
@@ -32,8 +44,12 @@
     "ltminigames:teams",
     {
       "type": "ltminigames:position_players",
-      "participants": ["spawn"],
-      "spectators": ["spectators"]
+      "participants": [
+        "spawn"
+      ],
+      "spectators": [
+        "spectators"
+      ]
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",

@@ -1,4 +1,18 @@
 {
+  "name": {
+    "translate": "ltminigames.minigame.paint_party",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "paint_party",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
@@ -15,14 +29,10 @@
       "lt:teams/red_blue"
     ]
   },
-  "name": {"translate": "ltminigames.minigame.paint_party"},
-  "statistics_key": "paint_party",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:paint_party"
   },
-  "minimum_participants": 1,
-  "maximum_participants": 1000,
   "behaviors": [
     {
       "type": "lt:common/playing",

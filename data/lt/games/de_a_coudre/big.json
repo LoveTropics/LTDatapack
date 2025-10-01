@@ -1,0 +1,58 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.de_a_coudre",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.big",
+    "color": "red",
+    "extra": [
+      {
+        "text": "",
+        "color": "gray"
+      }
+    ]
+  },
+  "statistics_key": "de_a_coudre",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:de_a_coudre_big"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:teams",
+      "player_collision": false
+    },
+    "lt:de_a_coudre/common"
+  ]
+}

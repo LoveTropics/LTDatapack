@@ -1,0 +1,92 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.eruptive_spleef",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "eruptive_spleef_teams",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:eruptive_spleef"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "blue": [
+          "blue_spawn"
+        ],
+        "red": [
+          "red_spawn"
+        ]
+      },
+      "face_region": "center",
+      "split_by_team": true,
+      "all": "center",
+      "spectators": [
+        "center"
+      ]
+    },
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "last_team": true
+    },
+    "lt:eruptive_spleef/ruleset",
+    "lt:eruptive_spleef/equipment",
+    "lt:eruptive_spleef/lava",
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200
+    },
+    "lt:common/announce_game_over",
+    "ltminigames:time_survived_tracker",
+    {
+      "type": "ltminigames:game_finish",
+      "actions": {
+        "type": "ltminigames:apply_to_player",
+        "target": "all",
+        "actions": {
+          "type": "ltminigames:give_reward",
+          "items": [
+            "ltextras:tropicoin"
+          ],
+          "statistic_binding": {
+            "statistic": "time_survived",
+            "multiplier": 0.2
+          }
+        }
+      }
+    }
+  ]
+}

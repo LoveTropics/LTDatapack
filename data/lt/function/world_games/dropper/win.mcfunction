@@ -3,10 +3,10 @@ execute as @s at @s run playsound minecraft:event.raid.horn voice @s ~ ~ ~ 100 1
 give @s[tag=!dropper.win.coins] ltextras:tropicoin 20
 give @s[tag=dropper.win.coins] ltextras:tropicoin 1
 tag @s add dropper.win.coins
-scoreboard players add Success game.dropper.stats 1
-scoreboard players add Drops game.dropper.stats 1
-scoreboard players add @s game.dropper.stats_player_plays 1
-scoreboard players add @s game.dropper.stats_player_wins 1
+scoreboard players add Success world_game.dropper.stats 1
+scoreboard players add Drops world_game.dropper.stats 1
+scoreboard players add @s world_game.dropper.stats.plays 1
+scoreboard players add @s world_game.dropper.stats.wins 1
 function lt:world_games/dropper/util/update_display
 collectible give @s lt:hat/magma_cube
 # scoreboard players set @s dropper.counter 0

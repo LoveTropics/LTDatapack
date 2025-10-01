@@ -1,5 +1,15 @@
 {
-  "name": {"translate": "ltminigames.minigame.biodiversity_blitz_teams"},
+  "name": {
+    "translate": "ltminigames.minigame.biodiversity_blitz",
+    "color": "light_purple",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
   "statistics_key": "biodiversity_blitz",
   "minimum_participants": 1,
   "maximum_participants": 1000,
@@ -12,7 +22,9 @@
     "behaviors": [
       {
         "type": "lt:common/waiting",
-        "regions": {"spawn": "spawn"}
+        "regions": {
+          "spawn": "spawn"
+        }
       },
       "lt:teams/red_blue"
     ]
@@ -65,7 +77,10 @@
           "components": {
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "trim": {"material": "gold", "pattern": "wild"}
+            "trim": {
+              "material": "gold",
+              "pattern": "wild"
+            }
           }
         },
         "color_by_team": true
@@ -180,8 +195,16 @@
     "lt:biodiversity_blitz/rewards",
     {
       "type": "ltminigames:bb_in_game_scoreboard",
-      "start": [9.3, 150.0, -18.0],
-      "end": [9.3, 146.0, -24.0],
+      "start": [
+        9.3,
+        150.0,
+        -18.0
+      ],
+      "end": [
+        9.3,
+        146.0,
+        -24.0
+      ],
       "side": true,
       "left_team": "blue",
       "right_team": "red"

@@ -1,6 +1,15 @@
 {
-  "name": {"translate": "ltminigames.minigame.survive_the_tide_2"},
-  "subtitle": "3 Teams",
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_2",
+    "color": "yellow",
+    "with": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_3",
+        "color": "dark_green"
+      }
+    ]
+  },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_2_teams",

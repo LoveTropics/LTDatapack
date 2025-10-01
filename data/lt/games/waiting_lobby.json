@@ -3,6 +3,7 @@
   "statistics_key": "waiting_lobby",
   "minimum_participants": 1,
   "maximum_participants": 1000,
+  "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:waiting_lobby",
@@ -15,7 +16,9 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": ["spawn"]
+      "all": [
+        "spawn"
+      ]
     },
     "ltminigames:disable_hunger",
     {
