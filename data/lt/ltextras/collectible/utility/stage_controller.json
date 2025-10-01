@@ -8,8 +8,6 @@
       "{\"text\":\" \"}",
       "{\"translate\":\"lt.collectible.unicode.utility\",\"color\":\"white\",\"italic\":false}"
     ],
-    "minecraft:hide_additional_tooltip": {},
-    "minecraft:custom_model_data": 5,
     "ltextras:image": {
       "texture":"lt:textures/item/quest/paper_white_half.png",
       "width": 164.0,
