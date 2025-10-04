@@ -1,0 +1,1 @@
+execute as @s at @s run kill @e[type=#lt:kill_nearest_allowed,type=!minecraft:player,limit=1,sort=nearest,distance=..8]

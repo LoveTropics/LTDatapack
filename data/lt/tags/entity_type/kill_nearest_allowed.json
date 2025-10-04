@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#minecraft:aquatic",
+    "#minecraft:arthropod",
+    "#minecraft:boat",
+    "#minecraft:illager",
+    "#minecraft:raiders",
+    "#minecraft:undead",
+    "#minecraft:wither_friends",
+    "#minecraft:followable_friendly_mobs",
+    "#minecraft:fall_damage_immune",
+    "#minecraft:can_equip_saddle",
+    "#minecraft:can_equip_harness",
+    "#minecraft:can_breathe_under_water",
+    "minecraft:armor_stand",
+    "minecraft:area_effect_cloud",
+    "minecraft:armor_stand",
+    "tropicraft:ashen",
+    "tropicraft:beach_float",
+    "tropicraft:brown_basilisk_lizard",
+    "tropicraft:chair",
+    "tropicraft:cowktail",
+    "tropicraft:cubera",
+    "tropicraft:dolphin",
+    "tropicraft:eagle_ray"
+  ]
+}
