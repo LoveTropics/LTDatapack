@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ltextras:item/paper_blank_icon"
+    "layer0": "lt:item/paper_blank_icon"
   }
 }
