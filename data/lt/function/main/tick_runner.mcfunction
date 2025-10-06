@@ -93,3 +93,7 @@ function lt:stage/stage_tick
 
 # Forklifts
 function lt:forklift/on_tick
+
+
+#Turtle Clash (Temp)
+function lt:game/turtle_clash/tick

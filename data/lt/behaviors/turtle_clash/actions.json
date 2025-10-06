@@ -1,0 +1,68 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 1
+    }
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:hide_name_tags"
+    }
+  },
+  {
+    "type": "ltminigames:turtle_rider",
+    "turtle": {
+      "type": "tropicraft:turtle",
+      "tag": {
+        "Invulnerable": true,
+        "NoAI": true,
+        "attributes": [
+          {
+            "base": 1.65,
+            "id": "minecraft:movement_speed"
+          }
+        ],
+        "NoBrakesOnThisTrain": false,
+        "LongsForTheSky": true,
+        "DeathLootTable": "minecraft:empty"
+      }
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "scoreboard players set @s game.turtle_clash 3",
+            "execute on vehicle at @s run function lt:game/turtle_clash/summon with entity @s",
+            "tag @s add game.turtle_clash",
+            "give @a minecraft:bow",
+            "give @a minecraft:arrow 64"
+          ]
+        },
+        {
+          "type": "ltminigames:show_title",
+          "message": {
+            "translate": "ltminigames.minigame.go",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        }
+      ]
+    }
+  }
+]
