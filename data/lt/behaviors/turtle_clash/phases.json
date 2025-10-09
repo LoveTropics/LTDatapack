@@ -1,0 +1,87 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "release_players": 15,
+      "end": 300,
+      "close": 315
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "start:": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "text": "Game started",
+            "color": "gold"
+          }
+        }
+      ],
+      "release_players": [
+        {
+          "type": "ltminigames:set_blocks",
+          "region": [
+            "red_wall",
+            "blue_wall",
+            "green_wall",
+            "yellow_wall"
+          ],
+          "replace": {
+            "blocks": "ltextras:edgeless_black_stained_glass"
+          },
+          "set": "air"
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "text": "Walls Open",
+            "color": "gold"
+          }
+        }
+      ],
+      "end": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        "ltminigames:end_game"
+      ],
+      "close": "ltminigames:close_game"
+    }
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": 0.0,
+          "end": "start"
+        },
+        "text": {
+          "translate": "lt.minigame.dodgeball",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "start",
+          "end": "end"
+        },
+        "text": {
+          "translate": "lt.minigame.dodgeball",
+          "color": "green"
+        },
+        "color": "green",
+        "include_time": true
+      }
+    ]
+  }
+]
