@@ -24,6 +24,15 @@
           }
         },
         "color_by_team": true,
+        "items": [
+          {
+            "id": "minecraft:bow",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
+            }
+          }
+        ],
         "hotbar_team_items": {
           "red": {
             "id": "minecraft:red_wool",
@@ -42,33 +51,37 @@
         }
       },
       {
-        "type": "ltminigames:scheduled_actions",
-        "target": "all",
-        "actions": {
-          "start": [
-            {
-              "type": "ltminigames:run_commands",
-              "player": [
-                "scoreboard players set @s game.turtle_clash 3",
-                "execute on vehicle at @s run function lt:game/turtle_clash/summon with entity @s",
-                "tag @s add game.turtle_clash",
-                "give @a minecraft:bow",
-                "give @a minecraft:arrow 64"
-              ]
-            },
-            {
-              "type": "ltminigames:show_title",
-              "message": {
-                "translate": "ltminigames.minigame.go",
-                "color": "green"
-              }
-            },
-            {
-              "type": "ltminigames:play_sound",
-              "sound": "minecraft:block.respawn_anchor.deplete"
-            }
-          ]
-        }
+        "type": "ltminigames:permanent_item",
+        "item": {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        "interval": 100
+      },
+      {
+        "type": "ltminigames:permanent_item",
+        "item": {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        "interval": 100
+      },
+      {
+        "type": "ltminigames:permanent_item",
+        "item": {
+          "id": "minecraft:arrow",
+          "count": 1
+        },
+        "interval": 100
+      },
+      {
+        "type": "ltminigames:run_commands",
+        "player": [
+          "scoreboard objectives add game.turtle_clash dummy",
+          "scoreboard players set @s game.turtle_clash 3",
+          "execute on vehicle at @s run function lt:game/turtle_clash/summon with entity @s",
+          "tag @s add game.turtle_clash"
+        ]
       }
     ]
   }

@@ -1,31 +1,22 @@
 [
-  {
-    "type": "lt:common/playing",
-    "game_type": "adventure",
-    "join_late_with_role": "spectator"
-  },
-  "ltminigames:teams",
-  {
-    "type": "ltminigames:last_remaining_win_trigger",
-    "last_team": true
-  },
-  "ltminigames:disable_hunger",
+  "lt:turtle_clash/ruleset",
   "lt:turtle_clash/equipment",
   "lt:turtle_clash/actions",
   "lt:turtle_clash/phases",
-  "lt:survive_the_tide/mode/teams/glow",
-  "ltminigames:spectator_chase",
+  "ltminigames:teams",
   {
-    "type": "ltminigames:set_game_rules",
-    "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "fallDamage": "false",
-      "announceAdvancements": "false",
-      "doImmediateRespawn": "true",
-      "naturalRegeneration": "false"
-    }
+    "type": "ltminigames:set_time_speed",
+    "factor": 4
+  },
+  {
+    "type": "ltminigames:only_tick_in_period",
+    "period": {
+      "start": "start",
+      "end": "end"
+    },
+    "behavior": [
+      "lt:turtle_clash/items"
+    ]
   },
   {
     "type": "ltminigames:game_end_effects",

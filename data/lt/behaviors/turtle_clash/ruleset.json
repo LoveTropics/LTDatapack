@@ -1,0 +1,25 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "last_team": true
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true",
+      "naturalRegeneration": "false"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:spectator_chase"
+]

@@ -3,7 +3,9 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "release_players": 15,
+      "release_players": 3,
+      "anti_gravity_start": 100,
+      "anti_gravity_end": 150,
       "end": 300,
       "close": 315
     }
@@ -12,16 +14,13 @@
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
-      "start:": [
-        {
-          "type": "ltminigames:send_message",
-          "message": {
-            "text": "Game started",
-            "color": "gold"
-          }
-        }
-      ],
       "release_players": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "tag @s add game.turtle_clash2"
+          ]
+        },
         {
           "type": "ltminigames:set_blocks",
           "region": [
@@ -43,6 +42,38 @@
           }
         }
       ],
+      "anti_gravity_start": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True"
+          ]
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "Anti Grav Started",
+            "color": "gold",
+            "italic": true
+          }
+        }
+      ],
+      "anti_gravity_end": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False"
+          ]
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "Anti Grav Ended",
+            "color": "gold",
+            "italic": true
+          }
+        }
+      ],
       "end": [
         {
           "type": "ltminigames:play_sound",
@@ -60,11 +91,10 @@
       {
         "period": {
           "start": 0.0,
-          "end": "start"
+          "end": "release_players"
         },
         "text": {
-          "translate": "lt.minigame.dodgeball",
-          "color": "yellow"
+          "text": "Get Ready"
         },
         "color": "yellow",
         "reversed": true,
@@ -72,14 +102,38 @@
       },
       {
         "period": {
-          "start": "start",
+          "start": "release_players",
+          "end": "anti_gravity_start"
+        },
+        "text": {
+          "text": "Anti Grav Starts"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "anti_gravity_start",
+          "end": "anti_gravity_end"
+        },
+        "text": {
+          "text": "Anti Grav End"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "anti_gravity_end",
           "end": "end"
         },
         "text": {
-          "translate": "lt.minigame.dodgeball",
-          "color": "green"
+          "text": "Time Left"
         },
-        "color": "green",
+        "color": "yellow",
+        "reversed": true,
         "include_time": true
       }
     ]

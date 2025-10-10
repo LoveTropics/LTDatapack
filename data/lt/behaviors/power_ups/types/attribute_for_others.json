@@ -1,0 +1,27 @@
+{
+  "type": "lt:power_ups/power_up",
+  "item_tag": "$item_tag",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants_except_source",
+    "actions": {
+      "type": "ltminigames:apply_for_time",
+      "seconds": "$seconds",
+      "apply": {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "$attribute.name",
+        "modifier": {
+          "id": "$attribute.id",
+          "amount": "$attribute.amount",
+          "operation": "$attribute.operation"
+        }
+      },
+      "clear": {
+        "type": "ltminigames:clear_attribute_modifier",
+        "id": "$attribute.id",
+        "attribute": "$attribute.name"
+      }
+    }
+  }
+}

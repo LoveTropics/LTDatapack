@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
-    "respawn_as": "overlord",
+    "respawn_as": "spectator",
     "drop_inventory": false
   },
   {
@@ -25,7 +25,7 @@
           }
         ],
         "NoBrakesOnThisTrain": false,
-        "LongsForTheSky": true,
+        "LongsForTheSky": false,
         "DeathLootTable": "minecraft:empty"
       }
     }
