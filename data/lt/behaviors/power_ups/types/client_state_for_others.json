@@ -1,0 +1,25 @@
+{
+  "type": "lt:power_ups/power_up",
+  "item_tag": "$item_tag",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants_except_source",
+    "actions": {
+      "type": "ltminigames:apply_for_time",
+      "seconds": "$seconds",
+      "apply": {
+        "type": "ltminigames:apply_client_state",
+        "state": {
+          "type": "$state"
+        }
+      },
+      "clear": {
+        "type": "ltminigames:remove_client_state",
+        "state": {
+          "type": "$state"
+        }
+      }
+    }
+  }
+}

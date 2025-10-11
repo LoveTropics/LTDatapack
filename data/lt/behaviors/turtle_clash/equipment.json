@@ -59,22 +59,6 @@
         "interval": 100
       },
       {
-        "type": "ltminigames:permanent_item",
-        "item": {
-          "id": "minecraft:arrow",
-          "count": 1
-        },
-        "interval": 100
-      },
-      {
-        "type": "ltminigames:permanent_item",
-        "item": {
-          "id": "minecraft:arrow",
-          "count": 1
-        },
-        "interval": 100
-      },
-      {
         "type": "ltminigames:run_commands",
         "player": [
           "scoreboard objectives add game.turtle_clash dummy",

@@ -3,43 +3,66 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "release_players": 3,
-      "anti_gravity_start": 100,
-      "anti_gravity_end": 150,
+      "release_players": 10,
+      "anti_gravity_start": 150,
+      "anti_gravity_warring": 240,
+      "anti_gravity_end": 250,
       "end": 300,
-      "close": 315
+      "close": 310
     }
   },
   {
     "type": "ltminigames:scheduled_actions",
     "target": "all",
     "actions": {
-      "release_players": [
+      "start": [
         {
-          "type": "ltminigames:run_commands",
-          "player": [
-            "tag @s add game.turtle_clash2"
-          ]
+          "type": "ltminigames:set_blocks",
+          "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
+          "replace": {
+            "blocks": "air"
+          },
+          "set": "barrier"
         },
         {
           "type": "ltminigames:set_blocks",
-          "region": [
-            "red_wall",
-            "blue_wall",
-            "green_wall",
-            "yellow_wall"
-          ],
+          "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
           "replace": {
-            "blocks": "ltextras:edgeless_black_stained_glass"
+            "blocks": "water"
+          },
+          "set": "ltextras:water_barrier"
+        }
+      ],
+      "release_players": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["tag @s add game.turtle_clash2"]
+        },
+        {
+          "type": "ltminigames:set_blocks",
+          "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
+          "replace": {
+            "blocks": "minecraft:barrier"
           },
           "set": "air"
         },
         {
-          "type": "ltminigames:send_message",
-          "message": {
-            "text": "Walls Open",
+          "type": "ltminigames:set_blocks",
+          "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
+          "replace": {
+            "blocks": "ltextras:water_barrier"
+          },
+          "set": "water"
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "CLASH!!!",
             "color": "gold"
-          }
+          },
+          "fade_in": 5,
+          "stay": 20,
+          "fade_out": 5
         }
       ],
       "anti_gravity_start": [
@@ -50,12 +73,38 @@
           ]
         },
         {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "Anti Grav Started",
-            "color": "gold",
-            "italic": true
-          }
+          "type": "ltminigames:play_sound",
+          "sound": "lt:turtle_clash.anti_gravity"
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "Anti Gravity Mode",
+            "color": "gold"
+          },
+          "subtitle": {
+            "translate": "Take to The Skies!!",
+            "color": "gray"
+          },
+          "fade_in": 5,
+          "stay": 20,
+          "fade_out": 5
+        }
+      ],
+      "anti_gravity_warring": [
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "Anti Gravity Mode Ending",
+            "color": "gold"
+          },
+          "subtitle": {
+            "translate": "Take to The Water!!",
+            "color": "gray"
+          },
+          "fade_in": 5,
+          "stay": 20,
+          "fade_out": 5
         }
       ],
       "anti_gravity_end": [
@@ -66,12 +115,14 @@
           ]
         },
         {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "Anti Grav Ended",
-            "color": "gold",
-            "italic": true
-          }
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "Game Over",
+            "color": "gold"
+          },
+          "fade_in": 5,
+          "stay": 20,
+          "fade_out": 5
         }
       ],
       "end": [

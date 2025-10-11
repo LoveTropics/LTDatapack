@@ -10,6 +10,26 @@
     "seconds": 30
   },
   {
+    "type": "lt:power_ups/types/client_state_for_others",
+    "item": "invert_controls",
+    "subtitle": {
+      "translate": "Invert Controls",
+      "color": "aqua"
+    },
+    "seconds": 5,
+    "state": "ltminigames:invert_controls"
+  },
+  {
+    "type": "lt:power_ups/types/client_state_for_others",
+    "item": "disable_movement",
+    "subtitle": {
+      "translate": "Movement Disabled",
+      "color": "aqua"
+    },
+    "seconds": 5,
+    "state": "ltminigames:disable_player_movement"
+  },
+  {
     "type": "ltminigames:power_up_indicator",
     "effect": "ltminigames:coin_multiplier_power_up",
     "text": {
