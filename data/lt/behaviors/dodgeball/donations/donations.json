@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ltminigames:block_packages_during_phase",
+    "block_periods": [
+      { "start": 0.0, "end": "start" },
+      { "start": "end", "end": "close" }
+    ]
+  },
+  { "type": "lt:integrations/packages/everything", "donation_amount": 15.0 },
+  {
+    "type": "lt:integrations/packages/big_leaps",
+    "donation_amount": 5.0,
+    "duration": 30
+  },
+  "lt:dodgeball/donations/packages/disguises",
+  {
+    "type": "lt:dodgeball/donations/packages/rapid_fire",
+    "equip_action": "$equip_action"
+  },
+  {
+    "type": "lt:dodgeball/donations/packages/big_boom",
+    "equip_action": "$equip_action"
+  }
+]

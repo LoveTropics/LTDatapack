@@ -5,14 +5,26 @@
   "lt:dodgeball/map",
   "lt:dodgeball/items",
   {
-    "type": "lt:dodgeball/donations",
+    "type": "lt:dodgeball/donations/donations",
     "equip_action": "$equip_action"
   },
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "drop_inventory": false,
-    "respawn_action": "lt:dodgeball/respawn",
+    "respawn_action": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "block.anvil.land",
+        "source": "player",
+        "volume": 0.75
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "entity.player.big_fall",
+        "source": "player"
+      }
+    ],
     "clear_kill_tracker": true
   },
   {
@@ -109,5 +121,18 @@
         }
       }
     }
+  },
+  {
+    "type": "ltminigames:only_tick_in_period",
+    "period": {
+      "start": "start",
+      "end": "end"
+    },
+    "behavior": ["lt:dodgeball/power_ups/items", "lt:dodgeball/power_ups/droppers"]
+  },
+  {
+    "type": "ltminigames:position_players",
+    "all": ["player_spawn"],
+    "angle": 90.0
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "type": "lt:dodgeball/items/effect_power_up",
-    "item_tag": "{power_up: \"speed\"}",
+    "type": "lt:power_ups/types/effect",
+    "item_tag": "speed",
     "effect": "ltminigames:speed_power_up",
     "subtitle": {
       "translate": "ltminigames.minigame.qottott.speed_power_up.subtitle",
@@ -10,8 +10,8 @@
     "seconds": 30
   },
   {
-    "type": "lt:dodgeball/items/effect_power_up",
-    "item_tag": "{power_up: \"multiplier\"}",
+    "type": "lt:power_ups/types/effect",
+    "item_tag": "multiplier",
     "effect": "ltminigames:coin_multiplier_power_up",
     "subtitle": {
       "translate": "ltminigames.minigame.dodgeball.multiplier.subtitle",
@@ -20,8 +20,8 @@
     "seconds": 30
   },
   {
-    "type": "lt:dodgeball/items/attribute_power_up",
-    "item_tag": "{power_up: \"scale\"}",
+    "type": "lt:power_ups/types/attribute",
+    "item_tag": "scale",
     "attribute": {
       "id": "dodgeball.scale",
       "name": "minecraft:scale",
@@ -35,8 +35,8 @@
     "seconds": 30
   },
   {
-    "type": "lt:dodgeball/items/attribute_power_up",
-    "item_tag": "{power_up: \"gravity\"}",
+    "type": "lt:power_ups/types/attribute",
+    "item_tag": "gravity",
     "attribute": {
       "id": "dodgeball.gravity",
       "name": "minecraft:gravity",
@@ -50,8 +50,8 @@
     "seconds": 30
   },
   {
-    "type": "lt:dodgeball/items/attribute_for_others_power_up",
-    "item_tag": "{power_up: \"no_jump\"}",
+    "type": "lt:power_ups/types/attribute_for_others",
+    "item_tag": "no_jump",
     "attribute": {
       "id": "dodgeball.gravity",
       "name": "minecraft:gravity",
@@ -65,8 +65,8 @@
     "seconds": 5
   },
   {
-    "type": "lt:dodgeball/items/attribute_for_others_power_up",
-    "item_tag": "{power_up: \"slowness\"}",
+    "type": "lt:power_ups/types/attribute_for_others",
+    "item_tag": "slowness",
     "attribute": {
       "id": "dodgeball.slowness",
       "name": "minecraft:jump_strength",
@@ -80,8 +80,8 @@
     "seconds": 5
   },
   {
-    "type": "lt:dodgeball/items/effect_for_others_power_up",
-    "item_tag": "{power_up: \"glowing\"}",
+    "type": "lt:power_ups/types/effect_for_others",
+    "item_tag": "glowing",
     "effect": "minecraft:glowing",
     "subtitle": {
       "translate": "ltminigames.minigame.dodgeball.glowing.subtitle",

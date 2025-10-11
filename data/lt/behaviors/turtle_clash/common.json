@@ -15,7 +15,8 @@
       "end": "end"
     },
     "behavior": [
-      "lt:turtle_clash/items"
+      "lt:turtle_clash/power_ups/items",
+      "lt:turtle_clash/power_ups/droppers"
     ]
   },
   {

@@ -1,5 +1,9 @@
 [
   {
+    "type": "ltminigames:set_time_speed",
+    "factor": 4
+  },
+  {
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,

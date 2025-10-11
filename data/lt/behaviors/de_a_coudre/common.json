@@ -7,6 +7,10 @@
       "blue": ["spawn_blue"],
       "red": ["spawn_red"]
     },
+    "test": {
+      "type": "ltminigames:area_empty",
+      "region": "hole"
+    },
     "face_region": "hole",
     "split_by_team": true,
     "all": "spectator_spawn",
