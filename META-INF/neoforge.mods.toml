@@ -1,5 +1,3 @@
-modLoader = "lowcodefml"
-loaderVersion = "[2,)"
 authors = "LoveTropics"
 license = "ARR"
 
