@@ -74,7 +74,7 @@
         },
         {
           "type": "ltminigames:play_sound",
-          "sound": "lt:turtle_clash.anti_gravity"
+          "sound": "ltminigames:correct"
         },
         {
           "type": "ltminigames:show_title",

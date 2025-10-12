@@ -2,8 +2,6 @@
   "ltminigames:spectator_chase",
   "lt:dodgeball/ruleset",
   "lt:dodgeball/phases",
-  "lt:dodgeball/map",
-  "lt:dodgeball/items",
   {
     "type": "lt:dodgeball/donations/donations",
     "equip_action": "$equip_action"

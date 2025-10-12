@@ -16,9 +16,7 @@
       },
       "clear": {
         "type": "ltminigames:remove_client_state",
-        "state": {
-          "type": "$state"
-        }
+        "state": "$state"
       }
     }
   }
