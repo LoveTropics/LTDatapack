@@ -3,16 +3,16 @@
   "games": [
     "lt:crafting_bee",
     "lt:connect_four",
-    "lt:block_party_teams",
-    "lt:de_a_coudre_teams",
+    "lt:block_party/teams",
+    "lt:de_a_coudre/normal",
     "lt:crab_hockey",
-    "lt:columns_of_chaos_teams",
-    "lt:treasure_dig_teams",
+    "lt:columns_of_chaos/normal",
+    "lt:lt:treasure_dig",
     "lt:villager_hunt",
-    "lt:eruptive_spleef_teams",
+    "lt:eruptive_spleef/teams",
     "lt:paint_party",
-    "lt:parkour_race_teams",
-    "lt:dodgeball_teams"
+    "lt:parkour_race",
+    "lt:dodgeball/teams"
   ],
   "games_per_round": 4
 }

@@ -62,68 +62,42 @@
     "id": "zone_1",
     "next_id": "zone_2",
     "region": "zone_1",
-    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.1"},
-    "display_name": {"translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red"},
+    "ordinal_name": { "translate": "ltminigames.minigame.river_race.zone.1" },
+    "display_name": { "translate": "ltminigames.minigame.river_race.zone.east_africa", "color": "red" },
     "color": "red",
-    "colliders": [
-      "red_river_1",
-      "blue_river_1"
-    ],
-    "microgames": [
-      "lt:de_a_coudre_teams",
-      "lt:crafting_bee",
-      "lt:paint_party",
-      "lt:connect_four"
-    ]
+    "colliders": ["red_river_1", "blue_river_1"],
+    "microgames": ["lt:de_a_coudre/normal", "lt:crafting_bee", "lt:paint_party", "lt:connect_four"]
   },
   {
     "type": "lt:river_race/map/zone",
     "id": "zone_2",
     "next_id": "zone_3",
     "region": "zone_2",
-    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.2"},
-    "display_name": {"translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow"},
+    "ordinal_name": { "translate": "ltminigames.minigame.river_race.zone.2" },
+    "display_name": { "translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow" },
     "color": "yellow",
-    "colliders": [
-      "red_river_2",
-      "blue_river_2"
-    ],
-    "microgames": [
-      "lt:treasure_dig_teams",
-      "lt:villager_hunt",
-      "lt:eruptive_spleef_teams",
-      "lt:speed_carb_golf"
-    ]
+    "colliders": ["red_river_2", "blue_river_2"],
+    "microgames": ["lt:treasure_dig", "lt:villager_hunt", "lt:eruptive_spleef/teams", "lt:speed_carb_golf"]
   },
   {
     "type": "lt:river_race/map/zone",
     "id": "zone_3",
     "next_id": "zone_4",
     "region": "zone_3",
-    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.3"},
-    "display_name": {"translate": "ltminigames.minigame.river_race.zone.niger_delta", "color": "green"},
+    "ordinal_name": { "translate": "ltminigames.minigame.river_race.zone.3" },
+    "display_name": { "translate": "ltminigames.minigame.river_race.zone.niger_delta", "color": "green" },
     "color": "green",
-    "colliders": [
-      "red_river_3",
-      "blue_river_3"
-    ],
-    "microgames": [
-      "lt:block_party_teams",
-      "lt:parkour_race_teams",
-      "lt:dodgeball_teams",
-      "lt:columns_of_chaos_teams"
-    ]
+    "colliders": ["red_river_3", "blue_river_3"],
+    "microgames": ["lt:block_party/teams", "lt:parkour_race", "lt:dodgeball/teams", "lt:columns_of_chaos/normal"]
   },
   {
     "type": "lt:river_race/map/final_zone",
     "id": "zone_4",
     "region": "zone_4",
-    "ordinal_name": {"translate": "ltminigames.minigame.river_race.zone.4"},
-    "display_name": {"translate": "ltminigames.minigame.river_race.zone.the_cliff", "color": "blue"},
+    "ordinal_name": { "translate": "ltminigames.minigame.river_race.zone.4" },
+    "display_name": { "translate": "ltminigames.minigame.river_race.zone.the_cliff", "color": "blue" },
     "color": "blue",
-    "microgames": [
-      "lt:crab_hockey"
-    ]
+    "microgames": ["lt:crab_hockey"]
   },
   {
     "type": "ltminigames:river_race_progress",
