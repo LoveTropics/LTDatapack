@@ -34,7 +34,7 @@
         "minecraft:trim"
       ]
     },
-    "item_model": "lt:item/team_no_cents_badge",
+    "item_model": "lt:team_no_cents_badge",
     "ltextras:image": {
       "texture": "lt:textures/item/quest/team_no_cents_badge.png",
       "width": 128.0,

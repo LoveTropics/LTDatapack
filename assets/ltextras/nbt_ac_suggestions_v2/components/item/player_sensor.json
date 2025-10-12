@@ -1,0 +1,42 @@
+{
+  "id": "item/ltextras:player_sensor",
+  "type": "compound",
+  "tags": [
+    {
+      "tag": "tag",
+      "type": "list/string"
+    },
+    {
+      "tag": "roles",
+      "type": "list/string"
+    },
+    {
+      "tag": "appearance",
+      "type": "compound",
+      "tags": [
+        {
+          "tag": "color",
+          "type": "int"
+        },
+        {
+          "tag": "face_decoration",
+          "type": "tag",
+          "tags": [
+            {
+              "tag": "location",
+              "type": "string"
+            },
+            {
+              "tag": "width",
+              "type": "int"
+            },
+            {
+              "tag": "height",
+              "type": "int"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

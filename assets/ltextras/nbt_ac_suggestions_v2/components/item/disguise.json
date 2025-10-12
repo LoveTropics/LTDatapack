@@ -1,0 +1,81 @@
+{
+  "id": "item/ltminigames:disguise",
+  "type": "compound",
+  "always_relevant": true,
+  "tags": [
+    {
+      "tag": "entity",
+      "type": "compound",
+      "tags": [
+        {
+          "tag": "type",
+          "type": "string",
+          "subtype": "registry_key/minecraft:entity_type",
+          "recommended": true
+        },
+        {
+          "tag": "tag",
+          "type": "compound"
+        },
+        {
+          "tag": "apply_attributes",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "tag": "scale",
+      "type": "float"
+    },
+    {
+      "tag": "change_size",
+      "type": "boolean"
+    },
+    {
+      "tag": "custom_name",
+      "type": "compound",
+      "subtype": "json_text_compound"
+    },
+    {
+      "tag": "skin_profile",
+      "type": "compound",
+
+      "tags":
+      [
+        {
+          "tag": "name",
+          "type": "string"
+        },
+
+        {
+          "tag": "id",
+          "type": "uuid"
+        },
+
+        {
+          "tag": "properties",
+          "type": "list/compound",
+
+          "tags":
+          [
+            {
+              "tag": "name",
+              "type": "string"
+            },
+
+            {
+              "tag": "value",
+              "type": "string"
+            },
+
+            {
+              "tag": "signature",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+
+    }
+  ]
+}

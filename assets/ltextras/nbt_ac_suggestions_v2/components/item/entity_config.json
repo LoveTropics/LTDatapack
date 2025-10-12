@@ -1,0 +1,20 @@
+{
+  "id": "item/ltminigames:entity",
+  "type": "compound",
+  "tags": [
+    {
+      "tag": "type",
+      "type": "string",
+      "subtype": "registry_key/minecraft:entity_type",
+      "recommended": true
+    },
+    {
+      "tag": "tag",
+      "type": "compound"
+    },
+    {
+      "tag": "apply_attributes",
+      "type": "boolean"
+    }
+  ]
+}
