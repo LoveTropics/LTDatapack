@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["build disable @s", "execute if entity @s[gamemode=survival] run fly disable"],
+  "exit_commands": ["build enable @s", "fly enable"]
+}

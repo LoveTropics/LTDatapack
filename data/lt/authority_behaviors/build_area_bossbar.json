@@ -1,4 +1,0 @@
-{
-  "enter_commands": ["bossbar players add lt:trash_counter @s"],
-  "exit_commands": ["bossbar players remove lt:trash_counter @s"]
-}
