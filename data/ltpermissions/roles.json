@@ -1,8 +1,6 @@
 {
   "organiser": {
-    "includes": [
-      "administration"
-    ],
+    "includes": ["administration"],
     "overrides": {
       "name_decoration": {
         "style": "#2ecc71"
@@ -10,9 +8,7 @@
     }
   },
   "live": {
-    "includes": [
-      "host"
-    ],
+    "includes": ["host"],
     "overrides": {
       "name_decoration": {
         "prefix": {
@@ -36,10 +32,7 @@
     }
   },
   "mojangsta": {
-    "includes": [
-      "moderation",
-      "trusted"
-    ],
+    "includes": ["moderation", "trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
@@ -47,10 +40,7 @@
     }
   },
   "moderator": {
-    "includes": [
-      "moderation",
-      "privileged"
-    ],
+    "includes": ["moderation", "privileged"],
     "overrides": {
       "name_decoration": {
         "style": "#3498db"
@@ -65,10 +55,7 @@
     }
   },
   "modder": {
-    "includes": [
-      "moderation",
-      "trusted"
-    ],
+    "includes": ["moderation", "trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#9b6565"
@@ -103,9 +90,7 @@
     }
   },
   "trusted": {
-    "includes": [
-      "privileged"
-    ],
+    "includes": ["privileged"],
     "overrides": {
       "commands": {
         "fly": "allow",
