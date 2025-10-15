@@ -16,8 +16,26 @@
       "translate": "Invert Controls",
       "color": "aqua"
     },
-    "seconds": 5,
+    "seconds": 30,
     "state": "ltminigames:invert_controls"
+  },
+  {
+    "type": "lt:power_ups/types/give_item",
+    "item": "arrow",
+    "subtitle": {
+      "translate": "Extra Arrow",
+      "color": "aqua"
+    },
+    "seconds": 30,
+    "data": [
+      {
+        "id": "minecraft:arrow",
+        "components": {
+          "unbreakable": {},
+          "ltextras:undroppable": {}
+        }
+      }
+    ]
   },
   {
     "type": "lt:power_ups/types/client_state_for_others",

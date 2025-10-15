@@ -1,0 +1,9 @@
+{
+  "type": "lt:power_ups/power_up",
+  "item_tag": "$item_tag",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:add_equipment",
+    "items": "$data"
+  }
+}

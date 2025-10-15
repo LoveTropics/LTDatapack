@@ -62,18 +62,12 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "red": [
-          "red"
-        ],
-        "blue": [
-          "blue"
-        ]
+        "red": ["red"],
+        "blue": ["blue"]
       },
-      "spectators": [
-        "spectators"
-      ]
+      "spectators": ["spectators"]
     },
-    "lt:crafting_bee_recipes",
+    "lt:crafting_bee/recipes",
     {
       "type": "ltminigames:set_client_state",
       "state": {
@@ -115,9 +109,7 @@
         "target": "all",
         "actions": {
           "type": "ltminigames:give_reward",
-          "items": [
-            "ltextras:tropicoin"
-          ],
+          "items": ["ltextras:tropicoin"],
           "statistic_binding": {
             "statistic": "items_crafted",
             "from_team": true
