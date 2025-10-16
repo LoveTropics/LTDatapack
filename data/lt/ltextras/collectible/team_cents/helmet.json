@@ -30,7 +30,9 @@
         "minecraft:enchantments",
         "minecraft:dyed_color",
         "minecraft:unbreakable",
-        "minecraft:trim"
+        "minecraft:trim",
+        "minecraft:equippable",
+        "minecraft:attribute_modifiers"
       ]
     },
     "minecraft:dyed_color": 3949738

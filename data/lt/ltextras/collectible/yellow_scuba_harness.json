@@ -10,6 +10,16 @@
       {"text": " "},
       {"translate": "item.modifiers.chest", "color": "gray", "italic": false},
       {"translate": "lt.collectible.yellow_scuba_harness.tooltip.add_air", "color": "blue", "italic": false}
-    ]
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:dyed_color",
+        "minecraft:unbreakable",
+        "minecraft:equippable",
+        "minecraft:attribute_modifiers",
+        "tropicraft:scuba_air"
+      ]
+    }
   }
 }

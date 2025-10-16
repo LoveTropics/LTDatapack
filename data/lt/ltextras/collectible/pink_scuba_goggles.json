@@ -41,7 +41,8 @@
         "minecraft:enchantments",
         "minecraft:dyed_color",
         "minecraft:unbreakable",
-        "minecraft:attribute_modifiers"
+        "minecraft:attribute_modifiers",
+        "tropicraft:scuba_air"
       ]
     },
     "minecraft:dyed_color": 10511680

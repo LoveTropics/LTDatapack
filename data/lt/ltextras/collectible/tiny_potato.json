@@ -35,7 +35,8 @@
       "hidden_components": [
         "minecraft:enchantments",
         "minecraft:dyed_color",
-        "minecraft:unbreakable"
+        "minecraft:unbreakable",
+        "minecraft:attribute_modifiers"
       ]
     },
     "minecraft:dyed_color": 10511680

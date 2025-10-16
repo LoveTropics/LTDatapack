@@ -1,6 +1,6 @@
 {
   "components": {
-    "ltextras:cooldown_override": 6000,
+    "ltextras:cooldown_override": 1500,
     "minecraft:custom_name": {
       "translate": "lt.collectible.mini_disguise.philza.name",
       "color": "#BFEA00",
