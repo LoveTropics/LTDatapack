@@ -1,0 +1,24 @@
+{
+  "name": {
+    "translate": "room_3",
+    "color": "dark_green"
+  },
+  "minimum_participants": 2,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:escape_race_rooms",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:escape_race/one_team",
+    {
+      "type": "lt:escape_race/rooms/3"
+    }
+  ]
+}
