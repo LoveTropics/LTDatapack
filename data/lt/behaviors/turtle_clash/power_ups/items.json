@@ -21,7 +21,7 @@
   },
   {
     "type": "lt:power_ups/types/give_item",
-    "item": "arrow",
+    "item_tag": "arrow",
     "subtitle": {
       "translate": "Extra Arrow",
       "color": "aqua"
