@@ -1,0 +1,17 @@
+particle minecraft:heart ^ ^1 ^1
+particle minecraft:heart ^ ^1 ^2
+particle minecraft:heart ^ ^1 ^3
+particle minecraft:heart ^ ^1 ^4
+particle minecraft:heart ^ ^1 ^5
+particle minecraft:heart ^ ^1 ^6
+particle minecraft:heart ^ ^1 ^7
+particle minecraft:heart ^ ^1 ^8
+particle minecraft:heart ^ ^1 ^9
+particle minecraft:heart ^ ^1 ^10
+particle minecraft:heart ^ ^1 ^11
+particle minecraft:heart ^ ^1 ^12
+particle minecraft:heart ^ ^1 ^13
+particle minecraft:heart ^ ^1 ^14
+particle minecraft:heart ^ ^1 ^15
+particle minecraft:heart ^ ^1 ^16
+particle minecraft:heart ^ ^1 ^17
