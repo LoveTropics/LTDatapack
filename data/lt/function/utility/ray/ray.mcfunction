@@ -1,0 +1,17 @@
+$particle $(particle) ^ ^1 ^1
+$particle $(particle) ^ ^1 ^2
+$particle $(particle) ^ ^1 ^3
+$particle $(particle) ^ ^1 ^4
+$particle $(particle) ^ ^1 ^5
+$particle $(particle) ^ ^1 ^6
+$particle $(particle) ^ ^1 ^7
+$particle $(particle) ^ ^1 ^8
+$particle $(particle) ^ ^1 ^9
+$particle $(particle) ^ ^1 ^10
+$particle $(particle) ^ ^1 ^11
+$particle $(particle) ^ ^1 ^12
+$particle $(particle) ^ ^1 ^13
+$particle $(particle) ^ ^1 ^14
+$particle $(particle) ^ ^1 ^15
+$particle $(particle) ^ ^1 ^16
+$particle $(particle) ^ ^1 ^17

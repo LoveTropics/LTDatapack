@@ -1,0 +1,17 @@
+particle ltextras:emitted_hearts_particle ^ ^1 ^1
+particle ltextras:emitted_hearts_particle ^ ^1 ^2
+particle ltextras:emitted_hearts_particle ^ ^1 ^3
+particle ltextras:emitted_hearts_particle ^ ^1 ^4
+particle ltextras:emitted_hearts_particle ^ ^1 ^5
+particle ltextras:emitted_hearts_particle ^ ^1 ^6
+particle ltextras:emitted_hearts_particle ^ ^1 ^7
+particle ltextras:emitted_hearts_particle ^ ^1 ^8
+particle ltextras:emitted_hearts_particle ^ ^1 ^9
+particle ltextras:emitted_hearts_particle ^ ^1 ^10
+particle ltextras:emitted_hearts_particle ^ ^1 ^11
+particle ltextras:emitted_hearts_particle ^ ^1 ^12
+particle ltextras:emitted_hearts_particle ^ ^1 ^13
+particle ltextras:emitted_hearts_particle ^ ^1 ^14
+particle ltextras:emitted_hearts_particle ^ ^1 ^15
+particle ltextras:emitted_hearts_particle ^ ^1 ^16
+particle ltextras:emitted_hearts_particle ^ ^1 ^17
