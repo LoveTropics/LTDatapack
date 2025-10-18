@@ -11,7 +11,7 @@
   },
   {
     "type": "lt:power_ups/types/client_state_for_others",
-    "item": "invert_controls",
+    "item_tag": "invert_controls",
     "subtitle": {
       "translate": "Invert Controls",
       "color": "aqua"
@@ -39,7 +39,7 @@
   },
   {
     "type": "lt:power_ups/types/client_state_for_others",
-    "item": "disable_movement",
+    "item_tag": "disable_movement",
     "subtitle": {
       "translate": "Movement Disabled",
       "color": "aqua"
