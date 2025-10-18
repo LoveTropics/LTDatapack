@@ -6,7 +6,7 @@
         "id": "minecraft:enchanted_golden_apple",
         "components": {
           "custom_data": {
-            "power_up": "glowing"
+            "power_up": "arrow"
           },
           "custom_name": {
             "translate": "ltminigames.minigame.qottott.speed_power_up",
