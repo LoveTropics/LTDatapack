@@ -59,5 +59,15 @@
       "volume": 0.2,
       "pitch": 2.0
     }
+  },
+  {
+    "type": "lt:power_ups/types/effect_for_others",
+    "item_tag": "glowing",
+    "effect": "minecraft:glowing",
+    "subtitle": {
+      "translate": "ltminigames.minigame.dodgeball.glowing.subtitle",
+      "color": "red"
+    },
+    "seconds": 5
   }
 ]
