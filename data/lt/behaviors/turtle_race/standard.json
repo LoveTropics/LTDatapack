@@ -128,11 +128,7 @@
       }
     },
     "podium": {
-      "winner_regions": [
-        "winner_1",
-        "winner_2",
-        "winner_3"
-      ],
+      "winner_regions": ["winner_1", "winner_2", "winner_3"],
       "loser_region": "loser_spawn"
     }
   },
@@ -147,7 +143,9 @@
       "doMobSpawning": "false",
       "announceAdvancements": "false",
       "doTileDrops": "false",
-      "doEntityDrops": "false"
+      "doEntityDrops": "false",
+      "commandBlockOutput": "false",
+      "locatorBar": "false"
     }
   },
   "lt:turtle_race/rewards"
