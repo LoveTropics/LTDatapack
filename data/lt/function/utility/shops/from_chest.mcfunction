@@ -1,0 +1,9 @@
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 0, "slot2": 1, "recipe":0, "return": 0, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 2, "slot2": 3, "recipe":1, "return": 1, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 4, "slot2": 5, "recipe":2, "return": 2, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 6, "slot2": 7, "recipe":3, "return": 3, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 8, "slot2": 9, "recipe":4, "return": 4, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 10, "slot2": 11, "recipe":5, "return": 5, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 12, "slot2": 13, "recipe":6, "return": 6, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 14, "slot2": 15, "recipe":7, "return": 7, "pos": "$(pos)"}
+$function lt:utility/shops/from_slots {"entity": $(entity), "slot1": 16, "slot2": 17, "recipe":8, "return": 8, "pos": "$(pos)"}

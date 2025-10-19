@@ -37,9 +37,6 @@ execute if entity @e[tag=stage.shark] run function lt:stage/feature/sharks/main
 execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
 execute in tropicraft:tropics run function lt:club/on_tick
 
-# Runs collectible specific on_tick (mostly just for organizations sake)
-execute in tropicraft:tropics run function lt:collectible/mechanic/on_tick
-
 # Parkour
 #execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
 function lt:world_games/parkour/on_second
