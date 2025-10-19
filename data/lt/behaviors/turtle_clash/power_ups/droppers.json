@@ -11,7 +11,8 @@
           "custom_name": {
             "translate": "fly.self",
             "color": "aqua"
-          }
+          },
+          "ltextras:gravity": 0
         }
       }
     ],
@@ -52,7 +53,8 @@
           "custom_name": {
             "translate": "fly.team",
             "color": "aqua"
-          }
+          },
+          "ltextras:gravity": 0
         }
       }
     ],
