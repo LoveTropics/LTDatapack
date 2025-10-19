@@ -44,12 +44,29 @@
       "translate": "Anti Grav Self",
       "color": "aqua"
     },
-    "seconds": 30,
+    "seconds": 5,
     "start_command": [
       "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True"
     ],
     "end_command": [
       "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False"
+    ]
+  },
+  {
+    "type": "lt:power_ups/types/command_for_time",
+    "item_tag": "fly_team",
+    "subtitle": {
+      "translate": "Anti Grav Self",
+      "color": "aqua"
+    },
+    "seconds": 5,
+    "start_command": [
+      "execute if items entity @s hotbar.8 minecraft:blue_wool as @a[current_world=true] if entity @s if items entity @s hotbar.8 minecraft:blue_wool execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True",
+      "execute if items entity @s hotbar.8 minecraft:red_wool as @a[current_world=true] if entity @s if items entity @s hotbar.8 minecraft:red_wool execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True"
+    ],
+    "end_command": [
+      "execute if items entity @s hotbar.8 minecraft:blue_wool as @a[current_world=true] if entity @s if items entity @s hotbar.8 minecraft:blue_wool execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False",
+      "execute if items entity @s hotbar.8 minecraft:red_wool as @a[current_world=true] if entity @s if items entity @s hotbar.8 minecraft:red_wool execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False"
     ]
   }
 ]
