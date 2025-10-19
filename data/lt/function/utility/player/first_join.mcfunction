@@ -1,5 +1,5 @@
-execute in tropicraft:tropics run tp @s -243 153 -14 -143.70 -7.80
-execute in tropicraft:tropics run spawnpoint @s -243 153 -14
+execute in tropicraft:tropics run tp @s 1169.50 170.00 -1240.50 0 0
+execute in tropicraft:tropics run spawnpoint @s 1169.50 170.00 -1240.50
 
 # Add every tag applied at first join
 tag @s add utility.player.joined
