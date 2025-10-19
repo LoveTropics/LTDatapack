@@ -1,0 +1,9 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://gegy.dev/assets/important.mp4"
+    }
+  ]
+}
