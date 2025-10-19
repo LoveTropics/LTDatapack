@@ -4,9 +4,6 @@
     "named_points": {
       "start": 0,
       "release_players": 10,
-      "anti_gravity_start": 150,
-      "anti_gravity_warring": 240,
-      "anti_gravity_end": 250,
       "end": 300,
       "close": 310
     }
@@ -65,66 +62,6 @@
           "fade_out": 5
         }
       ],
-      "anti_gravity_start": [
-        {
-          "type": "ltminigames:run_commands",
-          "player": [
-            "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True"
-          ]
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:correct"
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "Anti Gravity Mode",
-            "color": "gold"
-          },
-          "subtitle": {
-            "translate": "Take to The Skies!!",
-            "color": "gray"
-          },
-          "fade_in": 5,
-          "stay": 20,
-          "fade_out": 5
-        }
-      ],
-      "anti_gravity_warring": [
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "Anti Gravity Mode Ending",
-            "color": "gold"
-          },
-          "subtitle": {
-            "translate": "Take to The Water!!",
-            "color": "gray"
-          },
-          "fade_in": 5,
-          "stay": 20,
-          "fade_out": 5
-        }
-      ],
-      "anti_gravity_end": [
-        {
-          "type": "ltminigames:run_commands",
-          "player": [
-            "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False"
-          ]
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "Game Over",
-            "color": "gold"
-          },
-          "fade_in": 5,
-          "stay": 20,
-          "fade_out": 5
-        }
-      ],
       "end": [
         {
           "type": "ltminigames:play_sound",
@@ -154,30 +91,6 @@
       {
         "period": {
           "start": "release_players",
-          "end": "anti_gravity_start"
-        },
-        "text": {
-          "text": "Anti Grav Starts"
-        },
-        "color": "yellow",
-        "reversed": true,
-        "include_time": true
-      },
-      {
-        "period": {
-          "start": "anti_gravity_start",
-          "end": "anti_gravity_end"
-        },
-        "text": {
-          "text": "Anti Grav End"
-        },
-        "color": "yellow",
-        "reversed": true,
-        "include_time": true
-      },
-      {
-        "period": {
-          "start": "anti_gravity_end",
           "end": "end"
         },
         "text": {

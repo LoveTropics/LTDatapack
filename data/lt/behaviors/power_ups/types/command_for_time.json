@@ -1,0 +1,17 @@
+{
+  "type": "lt:power_ups/power_up",
+  "item_tag": "$item_tag",
+  "subtitle": "$subtitle",
+  "apply": {
+    "type": "ltminigames:apply_for_time",
+    "seconds": "$seconds",
+    "apply": {
+      "type": "ltminigames:run_commands",
+      "player": "$start_command"
+    },
+    "clear": {
+      "type": "ltminigames:run_commands",
+      "player": "$end_command"
+    }
+  }
+}

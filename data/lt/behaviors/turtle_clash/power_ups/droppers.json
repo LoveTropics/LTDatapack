@@ -6,10 +6,10 @@
         "id": "minecraft:enchanted_golden_apple",
         "components": {
           "custom_data": {
-            "power_up": "test"
+            "power_up": "fly_self"
           },
           "custom_name": {
-            "translate": "ltminigames.minigame.qottott.speed_power_up",
+            "translate": "fly.self",
             "color": "aqua"
           }
         }
@@ -22,7 +22,7 @@
       "actions": {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.qottott.spawn.power_up",
+          "translate": "Fly Self",
           "color": "aqua"
         }
       }

@@ -1,7 +1,6 @@
 {
   "type": "lt:power_ups/power_up",
   "item_tag": "$item_tag",
-  "seconds": "$seconds",
   "subtitle": "$subtitle",
   "apply": {
     "type": "ltminigames:run_commands",

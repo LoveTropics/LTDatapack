@@ -1,15 +1,5 @@
 [
   {
-    "type": "lt:power_ups/types/effect",
-    "item_tag": "speed",
-    "effect": "ltminigames:speed_power_up",
-    "subtitle": {
-      "translate": "ltminigames.minigame.qottott.speed_power_up.subtitle",
-      "color": "aqua"
-    },
-    "seconds": 30
-  },
-  {
     "type": "lt:power_ups/types/client_state_for_others",
     "item_tag": "invert_controls",
     "subtitle": {
@@ -18,6 +8,16 @@
     },
     "seconds": 30,
     "state": "ltminigames:invert_controls"
+  },
+  {
+    "type": "lt:power_ups/types/client_state_for_others",
+    "item_tag": "disable_movement",
+    "subtitle": {
+      "translate": "Movement Disabled",
+      "color": "aqua"
+    },
+    "seconds": 5,
+    "state": "ltminigames:disable_player_movement"
   },
   {
     "type": "lt:power_ups/types/give_item",
@@ -38,45 +38,18 @@
     ]
   },
   {
-    "type": "lt:power_ups/types/client_state_for_others",
-    "item_tag": "disable_movement",
+    "type": "lt:power_ups/types/command_for_time",
+    "item_tag": "fly_self",
     "subtitle": {
-      "translate": "Movement Disabled",
+      "translate": "Anti Grav Self",
       "color": "aqua"
     },
-    "seconds": 5,
-    "state": "ltminigames:disable_player_movement"
-  },
-  {
-    "type": "ltminigames:power_up_indicator",
-    "effect": "ltminigames:coin_multiplier_power_up",
-    "text": {
-      "translate": "ltminigames.minigame.qottott.power_up.generic",
-      "color": "gold"
-    },
-    "sound": {
-      "sound": "minecraft:block.respawn_anchor.deplete",
-      "volume": 0.2,
-      "pitch": 2.0
-    }
-  },
-  {
-    "type": "lt:power_ups/types/effect_for_others",
-    "item_tag": "glowing",
-    "effect": "minecraft:glowing",
-    "subtitle": {
-      "translate": "ltminigames.minigame.dodgeball.glowing.subtitle",
-      "color": "red"
-    },
-    "seconds": 5
-  },
-  {
-    "type": "lt:power_ups/types/command",
-    "item_tag": "test",
-    "command": ["say this is a test message"],
-    "subtitle": {
-      "translate": "command",
-      "color": "red"
-    }
+    "seconds": 30,
+    "start_command": [
+      "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value True"
+    ],
+    "end_command": [
+      "execute on vehicle run data modify entity @s[type=tropicraft:turtle] LongsForTheSky set value False"
+    ]
   }
 ]
