@@ -39,5 +39,46 @@
       "volume": 2.0,
       "pitch": 2.0
     }
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "ltminigames:net",
+        "components": {
+          "custom_data": {
+            "power_up": "fly_team"
+          },
+          "custom_name": {
+            "translate": "fly.team",
+            "color": "aqua"
+          }
+        }
+      }
+    ],
+    "region": "powerups_water",
+    "announcement": {
+      "type": "ltminigames:apply_to_player",
+      "target": "all",
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Fly Team",
+          "color": "aqua"
+        }
+      }
+    },
+    "interval_ticks": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 300,
+      "max_inclusive": 600
+    },
+    "beacon": true,
+    "sound": {
+      "sound": "block.beacon.activate",
+      "source": "block",
+      "volume": 2.0,
+      "pitch": 2.0
+    }
   }
 ]
