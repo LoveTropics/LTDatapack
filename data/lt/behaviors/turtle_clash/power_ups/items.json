@@ -69,5 +69,14 @@
       "color": "red"
     },
     "seconds": 5
+  },
+  {
+    "type": "lt:power_ups/types/command",
+    "item_tag": "test",
+    "command": ["say this is a test message"],
+    "subtitle": {
+      "translate": "command",
+      "color": "red"
+    }
   }
 ]
