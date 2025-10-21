@@ -1,2 +1,0 @@
-execute as @e[tag=info.add] at @s run data modify entity @s[type=minecraft:text_display] view_range set value 0
-kill @e[tag=ad.gegy]

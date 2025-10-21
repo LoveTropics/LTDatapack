@@ -1,2 +1,0 @@
-execute as @e[tag=stage.dj,limit=1] at @s if score anim_state stage.dj matches 1 if score @s stage.dj matches 2.. run function lt:stage/feature/dj/animation/dance
-execute as @e[tag=stage.dj,limit=1] at @s if score @s stage.dj matches 1 run function lt:stage/feature/dj/animation/dance_activate
