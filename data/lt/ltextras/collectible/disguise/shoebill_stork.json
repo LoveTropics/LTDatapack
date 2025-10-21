@@ -40,10 +40,9 @@
         }
       ]
     ],
-    "ltminigames:disguise": {
+    "peekaboo:disguise": {
       "entity": {
-        "tag": {},
-        "type": "tropicraft:shoebill_stork"
+        "id": "tropicraft:shoebill_stork"
       }
     },
     "minecraft:custom_name": [
@@ -71,5 +70,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "ltminigames:disguise"
+  "item": "peekaboo:disguise"
 }

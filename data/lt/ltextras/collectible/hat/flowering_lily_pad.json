@@ -45,14 +45,12 @@
         }
       ]
     ],
-    "ltminigames:entity": {
-      "tag": {
-        "BlockState": {
-          "Name": "tropicraft:flowering_lily_pad"
-        }
+    "peekaboo:entity": {
+      "BlockState": {
+        "Name": "tropicraft:flowering_lily_pad"
       },
-      "type": "minecraft:falling_block"
+      "id": "minecraft:falling_block"
     }
   },
-  "item": "ltminigames:mob_hat"
+  "item": "peekaboo:mob_hat"
 }

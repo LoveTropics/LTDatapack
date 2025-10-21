@@ -3,13 +3,13 @@ execute as @s run data modify entity @s HandItems set value [{},{}]
 execute as @s run data modify entity @s ArmorItems set value [{},{},{},{}]
 
 # DinnerBeef - Debug
-execute as @s if data entity @s {profile:{id:[I;-1485293637,-1100069853,-1638540787,-1475363801]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
+execute as @s if data entity @s {profile:{id:[I;-1485293637,-1100069853,-1638540787,-1475363801]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"tropicraft:fiddler_crab"},ltminigames:size=2]
 
 # Direwolf20 - 2023
-execute as @s if data entity @s {profile:[I;-1145537090,1762607621,-1111133441,-1192508771]} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"direwolf20"},small:true}}]
+execute as @s if data entity @s {profile:[I;-1145537090,1762607621,-1111133441,-1192508771]} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"direwolf20"},small:true}}]
 
 # Cojomax99 - 2023/2024
-execute as @s if data entity @s {profile:{id:[I;-1505211345,-855292401,-2116995351,764383134]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"cojomax99"},small:true}},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{id:[I;-1505211345,-855292401,-2116995351,764383134]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"cojomax99"},small:true}},ltminigames:size=0.5]
 
 # Ph1LzA - 2023/2024
 execute as @s if data entity @s {profile:{id:[I;-2074783607,-1378793039,-1569882079,654983408]}} run item replace entity @s weapon with tropicraft:exploding_coconut
@@ -21,13 +21,13 @@ execute as @s if data entity @s {profile:{id:[I;1029004137,1135038304,-201722886
 execute as @s if data entity @s {profile:{id:[I;1671137399,1213023590,-2113455186,2027551008]}} run item replace entity @s weapon with ltminigames:osa_point
 
 # LogicPro - 2023
-execute as @s if data entity @s {profile:{id:[I;-1023112197,1296125024,-2119703515,741123856]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"logicpro"},small:true}},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{id:[I;-1023112197,1296125024,-2119703515,741123856]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"logicpro"},small:true}},ltminigames:size=0.5]
 
 # MandaLin - 2023/2024
-execute as @s if data entity @s {profile:{id:[I;895672764,-1602335584,-1985475681,864027637]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:slime"},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{id:[I;895672764,-1602335584,-1985475681,864027637]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"minecraft:slime"},ltminigames:size=0.5]
 
 # iskall85 - 2023
-execute as @s if data entity @s {profile:{id:[I;2127779963,-430553463,-1865021215,497744135]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"iskall85"},small:true}},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{id:[I;2127779963,-430553463,-1865021215,497744135]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"iskall85"},small:true}},ltminigames:size=0.5]
 
 # slicedlime -2023/2024
 execute as @s if data entity @s {profile:{id:[I;-1674917544,1575568808,-1935589086,-347337826]}} run item replace entity @s weapon with ltextras:sliced_lime
@@ -75,19 +75,19 @@ execute as @s if data entity @s {profile:{id:[I;1651221373,-2028256057,-18165152
 execute as @s if data entity @s {profile:{id:[I;571400467,2001030148,-1746918587,-1943922051]}} run item replace entity @s weapon with tropicraft:music_disc_summering
 
 # NotActuallyTerry -2023/2024
-execute as @s if data entity @s {profile:{id:[I;1136400850,1419657815,-2082778962,-1695050563]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"NotActuallyTerry"},small:true}},ltminigames:size=0.5]
+execute as @s if data entity @s {profile:{id:[I;1136400850,1419657815,-2082778962,-1695050563]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"dummyplayers:dummy_player",tag:{profile:{name:"NotActuallyTerry"},small:true}},ltminigames:size=0.5]
 
 # JaneyLaney -2024
 execute as @s if data entity @s {profile:{id:[I;664726165,612188496,-1761333497,-211121024]}} run item replace entity @s armor.head with minecraft:cake
 
 # Linkzzey -2024
-execute as @s if data entity @s {profile:{id:[I;1818565733,1967997921,-1492476074,2075951117]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:chicken"},ltminigames:size=2]
+execute as @s if data entity @s {profile:{id:[I;1818565733,1967997921,-1492476074,2075951117]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"minecraft:chicken"},ltminigames:size=2]
 
 # iChun -2024
-execute as @s if data entity @s {profile:{id:[I;192219632,609763680,-1662965902,-1180411198]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:pig"},ltminigames:size=2]
+execute as @s if data entity @s {profile:{id:[I;192219632,609763680,-1662965902,-1180411198]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"minecraft:pig"},ltminigames:size=2]
 
 # Ulraf -2024
-execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s armor.head with ltminigames:mob_hat[ltminigames:entity={type:"minecraft:panda"},ltminigames:size=2]
+execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={type:"minecraft:panda"},ltminigames:size=2]
 
 # Pokepugx -2024 
 execute as @s if data entity @s {profile:{id:[I;-940075919,1596542026,-1771682510,-1660820420]}} run item replace entity @s weapon with minecraft:cake

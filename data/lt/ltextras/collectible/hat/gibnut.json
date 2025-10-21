@@ -45,10 +45,9 @@
         }
       ]
     ],
-    "ltminigames:entity": {
-      "tag": {},
-      "type": "tropicraft:gibnut"
+    "peekaboo:entity": {
+      "id": "tropicraft:gibnut"
     }
   },
-  "item": "ltminigames:mob_hat"
+  "item": "peekaboo:mob_hat"
 }

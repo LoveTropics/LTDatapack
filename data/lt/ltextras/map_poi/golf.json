@@ -2,10 +2,10 @@
   "description": {"translate": "lt.poi.crab_golf"},
   "icon": {
     "item": {
-      "id": "ltminigames:plushie",
+      "id": "peekaboo:plushie",
       "components": {
-        "ltminigames:entity": {
-          "type": "tropicraft:fiddler_crab"
+        "peekaboo:entity": {
+          "id": "tropicraft:fiddler_crab"
         },
         "ltminigames:size": 2
       }

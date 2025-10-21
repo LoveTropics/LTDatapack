@@ -45,10 +45,9 @@
         }
       ]
     ],
-    "ltminigames:entity": {
-      "tag": {},
-      "type": "tropicraft:slender_harvest_mouse"
+    "peekaboo:entity": {
+      "id": "tropicraft:slender_harvest_mouse"
     }
   },
-  "item": "ltminigames:mob_hat"
+  "item": "peekaboo:mob_hat"
 }

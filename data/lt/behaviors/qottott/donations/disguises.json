@@ -6,7 +6,7 @@
     "description": "ltminigames.minigame.donation.tapir_party.description",
     "toast": "ltminigames.minigame.donation.tapir_party.toast",
     "entity": {
-      "type": "tropicraft:tapir"
+      "id": "tropicraft:tapir"
     },
     "seconds": 60,
     "donation_amount": 8.0
@@ -18,7 +18,7 @@
     "description": "ltminigames.minigame.donation.manatee_madness.description",
     "toast": "ltminigames.minigame.donation.manatee_madness.toast",
     "entity": {
-      "type": "tropicraft:manatee"
+      "id": "tropicraft:manatee"
     },
     "seconds": 60,
     "donation_amount": 8.0

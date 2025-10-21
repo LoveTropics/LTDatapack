@@ -2,7 +2,7 @@
 summon ltextras:collectible ~ ~ ~ {  \
     Tags: ["disguises.player.cloned"], \
     collectible: { \
-        item: "ltminigames:disguise", \
+        item: "peekaboo:disguise", \
         components: { \
             "minecraft:lore": [\
                         '{"translate":"lt.collectible.player_clone.description","color":"gray","italic":true}',\
@@ -30,7 +30,7 @@ summon ltextras:collectible ~ ~ ~ {  \
                             }\
                         ]'\
                 ],\
-                "ltminigames:disguise":{\
+                "peekaboo:disguise":{\
                     entity:{type:"dummyplayers:dummy_player"\
                 }\
             }\

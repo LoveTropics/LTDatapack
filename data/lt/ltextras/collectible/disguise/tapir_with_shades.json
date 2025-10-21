@@ -40,12 +40,10 @@
         }
       ]
     ],
-    "ltminigames:disguise": {
+    "peekaboo:disguise": {
       "entity": {
-        "tag": {
-          "undercover": true
-        },
-        "type": "tropicraft:tapir"
+        "undercover": true,
+        "id": "tropicraft:tapir"
       }
     },
     "minecraft:custom_name": [
@@ -73,5 +71,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "ltminigames:disguise"
+  "item": "peekaboo:disguise"
 }

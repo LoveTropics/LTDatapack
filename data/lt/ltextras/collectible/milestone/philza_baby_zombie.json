@@ -40,50 +40,48 @@
         }
       ]
     ],
-    "ltminigames:disguise": {
+    "peekaboo:disguise": {
       "entity": {
-        "tag": {
-          "IsBaby": 1,
-          "ArmorItems": [
-            {
-              "id": "minecraft:golden_boots",
-              "Count": 1,
-              "tag": {
-                "Enchantments": [
-                  {}
-                ]
-              }
-            },
-            {
-              "id": "minecraft:golden_leggings",
-              "Count": 1,
-              "tag": {
-                "Enchantments": [
-                  {}
-                ]
-              }
-            },
-            {
-              "id": "minecraft:golden_chestplate",
-              "Count": 1,
-              "tag": {
-                "Enchantments": [
-                  {}
-                ]
-              }
-            },
-            {
-              "id": "minecraft:golden_helmet",
-              "Count": 1,
-              "tag": {
-                "Enchantments": [
-                  {}
-                ]
-              }
+        "IsBaby": 1,
+        "ArmorItems": [
+          {
+            "id": "minecraft:golden_boots",
+            "Count": 1,
+            "tag": {
+              "Enchantments": [
+                {}
+              ]
             }
-          ]
-        },
-        "type": "minecraft:zombie"
+          },
+          {
+            "id": "minecraft:golden_leggings",
+            "Count": 1,
+            "tag": {
+              "Enchantments": [
+                {}
+              ]
+            }
+          },
+          {
+            "id": "minecraft:golden_chestplate",
+            "Count": 1,
+            "tag": {
+              "Enchantments": [
+                {}
+              ]
+            }
+          },
+          {
+            "id": "minecraft:golden_helmet",
+            "Count": 1,
+            "tag": {
+              "Enchantments": [
+                {}
+              ]
+            }
+          }
+        ],
+        "id": "minecraft:zombie"
       }
     },
     "minecraft:custom_name": [
@@ -111,5 +109,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "ltminigames:disguise"
+  "item": "peekaboo:disguise"
 }
