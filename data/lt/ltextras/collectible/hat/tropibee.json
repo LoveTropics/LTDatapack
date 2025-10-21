@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "tropicraft:tropibee"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "tropicraft:tropibee"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

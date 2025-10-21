@@ -40,9 +40,9 @@
         }
       ]
     ],
-    "peekaboo:disguise": {
+    "ltminigames:disguise": {
       "entity": {
-        "id": "minecraft:armadillo"
+        "type": "minecraft:armadillo"
       }
     },
     "minecraft:custom_name": [
@@ -70,5 +70,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "peekaboo:disguise"
+  "item": "ltminigames:disguise"
 }

@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:frog"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:frog"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

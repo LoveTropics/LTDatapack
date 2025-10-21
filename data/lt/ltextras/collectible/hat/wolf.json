@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:wolf"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:wolf"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

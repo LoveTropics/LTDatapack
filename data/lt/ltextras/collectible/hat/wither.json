@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:wither"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:wither"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

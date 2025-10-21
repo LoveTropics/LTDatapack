@@ -3,10 +3,18 @@
   "type": "compound",
   "tags": [
     {
-      "tag": "id",
+      "tag": "type",
       "type": "string",
       "subtype": "registry_key/minecraft:entity_type",
       "recommended": true
+    },
+    {
+      "tag": "tag",
+      "type": "compound"
+    },
+    {
+      "tag": "apply_attributes",
+      "type": "boolean"
     }
   ]
 }

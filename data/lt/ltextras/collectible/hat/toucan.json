@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "tropicraft:toucan"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "tropicraft:toucan"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

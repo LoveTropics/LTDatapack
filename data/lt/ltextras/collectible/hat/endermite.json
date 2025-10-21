@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:endermite"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:endermite"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "tropicraft:turtle"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "tropicraft:turtle"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

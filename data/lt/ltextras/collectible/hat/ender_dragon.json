@@ -45,9 +45,9 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:ender_dragon"
+    "ltminigames:entity": {
+      "type": "minecraft:ender_dragon"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

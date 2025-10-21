@@ -6,7 +6,7 @@
     "description": "ltminigames.minigame.donation.glorious_gibnuts.description",
     "toast": "ltminigames.minigame.donation.glorious_gibnuts.toast",
     "entity": {
-      "id": "tropicraft:gibnut"
+      "type": "tropicraft:gibnut"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -18,7 +18,7 @@
     "description": "ltminigames.minigame.donation.this_will_be_a_breeze.description",
     "toast": "ltminigames.minigame.donation.this_will_be_a_breeze.toast",
     "entity": {
-      "id": "minecraft:breeze"
+      "type": "minecraft:breeze"
     },
     "seconds": 120,
     "donation_amount": 25.0,
@@ -37,7 +37,7 @@
     "description": "ltminigames.minigame.donation.seriously_shoebill.description",
     "toast": "ltminigames.minigame.donation.seriously_shoebill.toast",
     "entity": {
-      "id": "tropicraft:shoebill_stork"
+      "type": "tropicraft:shoebill_stork"
     },
     "seconds": 120,
     "donation_amount": 20.0

@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:item_picked_up",
     "item": {
-      "items": ["peekaboo:plushie"]
+      "items": ["ltminigames:plushie"]
     },
     "action": [
       {
@@ -44,7 +44,7 @@
     "killer_predicate": {
       "equipment": {
         "mainhand": {
-          "items": ["peekaboo:plushie"]
+          "items": ["ltminigames:plushie"]
         }
       }
     },
@@ -57,7 +57,7 @@
         "not_predicate": {
           "equipment": {
             "mainhand": {
-              "items": ["peekaboo:plushie"]
+              "items": ["ltminigames:plushie"]
             }
           }
         }
@@ -65,7 +65,7 @@
     ],
     "killer_action": {
       "type": "ltminigames:run_commands",
-      "player": "clear @s peekaboo:plushie"
+      "player": "clear @s ltminigames:plushie"
     }
   },
   {
@@ -73,7 +73,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "items": ["peekaboo:plushie"]
+          "items": ["ltminigames:plushie"]
         }
       }
     },

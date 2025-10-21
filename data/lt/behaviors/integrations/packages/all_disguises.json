@@ -6,7 +6,7 @@
     "description": "ltminigames.minigame.donation.tapir_party.description",
     "toast": "ltminigames.minigame.donation.tapir_party.toast",
     "entity": {
-      "id": "tropicraft:tapir"
+      "type": "tropicraft:tapir"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -18,7 +18,7 @@
     "description": "ltminigames.minigame.donation.driftwood_dazzle.description",
     "toast": "ltminigames.minigame.donation.driftwood_dazzle.toast",
     "entity": {
-      "id": "ltminigames:driftwood"
+      "type": "ltminigames:driftwood"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -30,7 +30,7 @@
     "description": "ltminigames.minigame.donation.cubera_confusion.description",
     "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
     "entity": {
-      "id": "tropicraft:cubera"
+      "type": "tropicraft:cubera"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -42,7 +42,7 @@
     "description": "ltminigames.minigame.donation.armor_standardization.description",
     "toast": "ltminigames.minigame.donation.armor_standardization.toast",
     "entity": {
-      "id": "minecraft:armor_stand",
+      "type": "minecraft:armor_stand",
       "tag": {
         "ShowArms": true
       }
@@ -57,7 +57,7 @@
     "description": "ltminigames.minigame.donation.basilisk_lizard_party.description",
     "toast": "ltminigames.minigame.donation.basilisk_lizard_party.toast",
     "entity": {
-      "id": "tropicraft:brown_basilisk_lizard"
+      "type": "tropicraft:brown_basilisk_lizard"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -69,7 +69,7 @@
     "description": "ltminigames.minigame.donation.manatee_madness.description",
     "toast": "ltminigames.minigame.donation.manatee_madness.toast",
     "entity": {
-      "id": "tropicraft:manatee"
+      "type": "tropicraft:manatee"
     },
     "seconds": 120,
     "donation_amount": 20.0

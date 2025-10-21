@@ -45,10 +45,12 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "standing": true,
-      "id": "tropicraft:spider_monkey"
+    "ltminigames:entity": {
+      "tag": {
+        "standing": true
+      },
+      "type": "tropicraft:spider_monkey"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "tropicraft:hummingbird"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "tropicraft:hummingbird"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

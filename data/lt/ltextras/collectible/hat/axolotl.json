@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:axolotl"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:axolotl"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

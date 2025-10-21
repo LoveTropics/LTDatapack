@@ -35,9 +35,10 @@
         }
       ]
     ],
-    "peekaboo:disguise": {
+    "ltminigames:disguise": {
       "entity": {
-        "id": "tropicraft:slender_harvest_mouse"
+        "tag": {},
+        "type": "tropicraft:slender_harvest_mouse"
       }
     },
     "minecraft:custom_name": [
@@ -65,5 +66,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "peekaboo:disguise"
+  "item": "ltminigames:disguise"
 }

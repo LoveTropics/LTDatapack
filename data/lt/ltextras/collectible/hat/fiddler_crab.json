@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "tropicraft:fiddler_crab"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "tropicraft:fiddler_crab"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

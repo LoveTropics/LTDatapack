@@ -35,12 +35,12 @@
       },
       "icon": {
         "item": {
-          "id": "peekaboo:disguise",
+          "id": "ltminigames:disguise",
           "count": 1,
           "components": {
-            "peekaboo:disguise": {
+            "ltminigames:disguise": {
               "entity": {
-                "id": "tropicraft:fiddler_crab"
+                "type": "tropicraft:fiddler_crab"
               }
             }
           }
@@ -57,7 +57,7 @@
           "actions": {
             "type": "ltminigames:set_disguise",
             "entity": {
-              "id": "tropicraft:fiddler_crab"
+              "type": "tropicraft:fiddler_crab"
             }
           }
         },
@@ -66,7 +66,7 @@
           "actions": {
             "type": "ltminigames:clear_disguise",
             "entity": {
-              "id": "tropicraft:fiddler_crab"
+              "type": "tropicraft:fiddler_crab"
             }
           }
         },
@@ -92,7 +92,7 @@
         "color": "light_purple"
       },
       "icon": {
-        "item": {"id": "peekaboo:plushie", "components": {"peekaboo:entity": {"id": "tropicraft:fiddler_crab"}}}
+        "item": {"id": "ltminigames:plushie", "components": {"ltminigames:entity": {"type": "tropicraft:fiddler_crab"}}}
       },
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"
@@ -121,7 +121,7 @@
         "color": "light_purple"
       },
       "icon": {
-        "item": {"id": "peekaboo:plushie", "components": {"peekaboo:entity": {"id": "tropicraft:fiddler_crab"}}}
+        "item": {"id": "ltminigames:plushie", "components": {"ltminigames:entity": {"type": "tropicraft:fiddler_crab"}}}
       },
       "sentiment": "neutral",
       "sound": "ltminigames:sabotage_receive"

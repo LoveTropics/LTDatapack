@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:magma_cube"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:magma_cube"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

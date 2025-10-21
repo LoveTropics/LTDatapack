@@ -6,7 +6,7 @@
     "description": "ltminigames.minigame.donation.tapir_party.description",
     "toast": "ltminigames.minigame.donation.tapir_party.toast",
     "entity": {
-      "id": "tropicraft:tapir"
+      "type": "tropicraft:tapir"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -18,7 +18,7 @@
     "description": "ltminigames.minigame.donation.cubera_confusion.description",
     "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
     "entity": {
-      "id": "tropicraft:cubera"
+      "type": "tropicraft:cubera"
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -30,8 +30,10 @@
     "description": "ltminigames.minigame.donation.armor_standardization.description",
     "toast": "ltminigames.minigame.donation.armor_standardization.toast",
     "entity": {
-      "id": "minecraft:armor_stand",
-      "ShowArms": true
+      "type": "minecraft:armor_stand",
+      "tag": {
+        "ShowArms": true
+      }
     },
     "seconds": 120,
     "donation_amount": 20.0
@@ -43,7 +45,9 @@
     "description": "ltminigames.minigame.donation.player_dummy_package.description",
     "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
     "entity": {
-      "id": "dummyplayers:dummy_player",
+      "type": "dummyplayers:dummy_player",
+      "tag": {
+      },
       "apply_donor_name": true
     },
     "seconds": 120,

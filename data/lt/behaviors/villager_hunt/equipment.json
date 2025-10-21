@@ -6,7 +6,7 @@
       {
         "type": "ltminigames:set_disguise",
         "entity": {
-          "id": "minecraft:villager"
+          "type": "minecraft:villager"
         }
       },
       {

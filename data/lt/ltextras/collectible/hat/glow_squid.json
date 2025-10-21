@@ -45,9 +45,10 @@
         }
       ]
     ],
-    "peekaboo:entity": {
-      "id": "minecraft:glow_squid"
+    "ltminigames:entity": {
+      "tag": {},
+      "type": "minecraft:glow_squid"
     }
   },
-  "item": "peekaboo:mob_hat"
+  "item": "ltminigames:mob_hat"
 }

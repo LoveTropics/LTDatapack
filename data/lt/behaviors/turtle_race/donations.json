@@ -168,7 +168,7 @@
     "description": "ltminigames.minigame.donation.whos_the_turtle_now.description",
     "toast": "ltminigames.minigame.donation.whos_the_turtle_now.toast",
     "entity": {
-      "id": "tropicraft:turtle"
+      "type": "tropicraft:turtle"
     },
     "seconds": 60,
     "donation_amount": 10.0
