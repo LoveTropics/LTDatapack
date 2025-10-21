@@ -15,10 +15,10 @@
     },
     "icon": {
       "item": {
-        "id": "ltminigames:plushie",
+        "id": "peekaboo:plushie",
         "components": {
-          "ltminigames:entity": {
-            "type": "minecraft:silverfish"
+          "peekaboo:entity": {
+            "id": "minecraft:silverfish"
           }
         }
       }

@@ -45,12 +45,10 @@
         }
       ]
     ],
-    "ltminigames:entity": {
-      "tag": {
-        "Variant": 2
-      },
-      "type": "minecraft:parrot"
+    "peekaboo:entity": {
+      "Variant": 2,
+      "id": "minecraft:parrot"
     }
   },
-  "item": "ltminigames:mob_hat"
+  "item": "peekaboo:mob_hat"
 }

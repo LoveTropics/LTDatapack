@@ -13,7 +13,7 @@
       "color": "light_purple"
     },
     "icon": {
-      "item": {"id": "ltminigames:disguise", "count": 1, "components": {"ltminigames:disguise": {"entity": "$entity"}}}
+      "item": {"id": "peekaboo:disguise", "count": 1, "components": {"peekaboo:disguise": {"entity": "$entity"}}}
     },
     "sentiment": "neutral",
     "sound": "ltminigames:sabotage_receive"

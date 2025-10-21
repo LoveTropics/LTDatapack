@@ -1,7 +1,7 @@
 {
   "components": {
     "enchantments": {
-      "lt:slimey":1
+      "lt:slimey": 1
     },
     "minecraft:lore": [
       {
@@ -43,10 +43,9 @@
         }
       ]
     ],
-    "ltminigames:disguise": {
+    "peekaboo:disguise": {
       "entity": {
-        "tag": {},
-        "type": "minecraft:slime"
+        "id": "minecraft:slime"
       },
       "scale": 2
     },
@@ -75,5 +74,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "ltminigames:disguise"
+  "item": "peekaboo:disguise"
 }

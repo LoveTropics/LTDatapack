@@ -137,13 +137,13 @@
     "type": "ltminigames:item_dropper",
     "loot": [
       {
-        "id": "ltminigames:plushie",
+        "id": "peekaboo:plushie",
         "components": {
           "custom_data": {
             "cash_crab": true
           },
-          "ltminigames:entity": {
-            "type": "tropicraft:fiddler_crab"
+          "peekaboo:entity": {
+            "id": "tropicraft:fiddler_crab"
           },
           "ltminigames:size": 4.5,
           "custom_name": {"translate": "ltminigames.minigame.qottott.cash_crab", "italic": false},

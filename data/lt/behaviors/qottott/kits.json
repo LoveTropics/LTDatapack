@@ -5,27 +5,25 @@
       "region": "kit_1b",
       "angle": 0.0,
       "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
-          "HandItems": [{"id": "minecraft:wooden_sword", "components": {"enchantment_glint_override": true}}, {}],
-          "ArmorItems": [
-            {},
-            {},
-            {
-              "id": "minecraft:leather_chestplate",
-              "components": {
-                "enchantment_glint_override": true,
-                "dyed_color": 16082146,
-                "trim": {
-                  "material": "minecraft:amethyst",
-                  "pattern": "minecraft:wayfinder"
-                }
+        "id": "minecraft:armor_stand",
+        "ShowArms": true,
+        "HandItems": [{"id": "minecraft:wooden_sword", "components": {"enchantment_glint_override": true}}, {}],
+        "ArmorItems": [
+          {},
+          {},
+          {
+            "id": "minecraft:leather_chestplate",
+            "components": {
+              "enchantment_glint_override": true,
+              "dyed_color": 16082146,
+              "trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:wayfinder"
               }
-            },
-            {}
-          ]
-        }
+            }
+          },
+          {}
+        ]
       },
       "apply": "lt:qottott/kits/opportunist"
     },
@@ -33,27 +31,25 @@
       "region": "kit_2b",
       "angle": 0.0,
       "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
-          "HandItems": [{"id": "minecraft:wooden_axe", "components": {"enchantment_glint_override": true}}, {}],
-          "ArmorItems": [
-            {},
-            {},
-            {
-              "id": "minecraft:leather_chestplate",
-              "components": {
-                "enchantment_glint_override": true,
-                "dyed_color": 65527,
-                "trim": {
-                  "material": "minecraft:quartz",
-                  "pattern": "minecraft:vex"
-                }
+        "id": "minecraft:armor_stand",
+        "ShowArms": true,
+        "HandItems": [{"id": "minecraft:wooden_axe", "components": {"enchantment_glint_override": true}}, {}],
+        "ArmorItems": [
+          {},
+          {},
+          {
+            "id": "minecraft:leather_chestplate",
+            "components": {
+              "enchantment_glint_override": true,
+              "dyed_color": 65527,
+              "trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:vex"
               }
-            },
-            {}
-          ]
-        }
+            }
+          },
+          {}
+        ]
       },
       "apply": "lt:qottott/kits/fighter"
     },
@@ -61,27 +57,25 @@
       "region": "kit_3b",
       "angle": 0.0,
       "entity": {
-        "type": "minecraft:armor_stand",
-        "tag": {
-          "ShowArms": true,
-          "HandItems": [{"id": "minecraft:stick", "components": {"enchantment_glint_override": true}}, {}],
-          "ArmorItems": [
-            {},
-            {},
-            {
-              "id": "minecraft:leather_chestplate",
-              "components": {
-                "enchantment_glint_override": true,
-                "dyed_color": 16742144,
-                "trim": {
-                  "material": "minecraft:redstone",
-                  "pattern": "minecraft:coast"
-                }
+        "id": "minecraft:armor_stand",
+        "ShowArms": true,
+        "HandItems": [{"id": "minecraft:stick", "components": {"enchantment_glint_override": true}}, {}],
+        "ArmorItems": [
+          {},
+          {},
+          {
+            "id": "minecraft:leather_chestplate",
+            "components": {
+              "enchantment_glint_override": true,
+              "dyed_color": 16742144,
+              "trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:coast"
               }
-            },
-            {}
-          ]
-        }
+            }
+          },
+          {}
+        ]
       },
       "apply": "lt:qottott/kits/brawler"
     }

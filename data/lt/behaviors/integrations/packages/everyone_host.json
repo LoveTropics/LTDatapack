@@ -14,9 +14,9 @@
     },
     "icon": {
       "item": {
-        "id": "ltminigames:disguise",
+        "id": "peekaboo:disguise",
         "count": 1,
-        "components": {"ltminigames:disguise": {"entity": {"type": "dummyplayers:dummy_player"}}}
+        "components": {"peekaboo:disguise": {"entity": {"id": "dummyplayers:dummy_player"}}}
       }
     },
     "sentiment": "neutral",

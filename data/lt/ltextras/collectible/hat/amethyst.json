@@ -45,14 +45,12 @@
         }
       ]
     ],
-    "ltminigames:entity": {
-      "tag": {
-        "BlockState": {
-          "Name": "minecraft:amethyst_cluster"
-        }
+    "peekaboo:entity": {
+      "BlockState": {
+        "Name": "minecraft:amethyst_cluster"
       },
-      "type": "minecraft:falling_block"
+      "id": "minecraft:falling_block"
     }
   },
-  "item": "ltminigames:mob_hat"
+  "item": "peekaboo:mob_hat"
 }
