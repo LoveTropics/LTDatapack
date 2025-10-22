@@ -1,0 +1,74 @@
+{
+  "description": {
+    "translate": "lt.enchant.silmey"
+  },
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.05
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_ground": true
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:levitation",
+              "min_duration": 0.75,
+              "max_duration": 1.5,
+              "min_amplifier": 3,
+              "max_amplifier": 4
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:block.slime_block.step",
+              "volume": 1,
+              "pitch": 1
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:item_slime"
+              },
+              "horizontal_position": {
+                "type": "entity_position"
+              },
+              "vertical_position": {
+                "type": "entity_position"
+              },
+              "horizontal_velocity": {},
+              "vertical_velocity": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

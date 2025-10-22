@@ -25,14 +25,6 @@ execute as @e[type=minecraft:area_effect_cloud,nbt={Color:266808},tag=!game.stt.
 # Make jelly bombs work
 execute as @e[tag=game.stt.jelly_bomb] at @s run function lt:game/stt/entity/jelly_bomb
 
-# back to map teleporters
-execute as @e[tag=map.teleporter] at @s run particle minecraft:portal ~ ~1 ~ 0.1 0.35 0.1 0.025 1 force @a[distance=..15]
-execute as @e[tag=map.teleporter] at @s run execute as @a[distance=..0.75] at @s run function lt:map/back_to_map
-
-# Stage stuff
-execute if entity @e[tag=stage.dj] run function lt:stage/feature/dj/main
-execute if entity @e[tag=stage.shark] run function lt:stage/feature/sharks/main
-
 # Club Stuff
 execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
 execute in tropicraft:tropics run function lt:club/on_tick
@@ -46,10 +38,6 @@ function lt:world_games/dropper/on_tick
 
 # Build Mode Tools
 execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
-
-# Make interaction blocker invisible
-execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker] invisibility infinite 1 true
-execute in tropicraft:tropics run effect give @e[type=slime,tag=interact_blocker] regeneration infinite 50 true
 
 # Spawn return items system.
 execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.return_items_portal,distance=..0.85] run function lt:utility/return_items
@@ -84,9 +72,6 @@ function lt:map/generic/launch_pad/on_tick
 
 # Quest System
 function lt:quest/main/on_tick
-
-# Stage on_tick
-function lt:stage/stage_tick
 
 # Forklifts
 function lt:forklift/on_tick
