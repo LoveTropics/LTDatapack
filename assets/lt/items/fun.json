@@ -1,0 +1,52 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "ss",
+    "cases": [
+      {
+        "when": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18",
+          "20",
+          "22",
+          "24",
+          "26",
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "46",
+          "48",
+          "50",
+          "52",
+          "54",
+          "56",
+          "58",
+          "60"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/blackstone",
+          "tints": []
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/black_candle_cake"
+    }
+  }
+}
