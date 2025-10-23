@@ -1,11 +1,10 @@
 {
-  "id": "item/ltminigames:entity",
+  "id": "item/peekaboo:entity",
   "type": "compound",
   "subtype": "tag/entity/*",
   "with": "id",
 
-  "tags":
-  [
+  "tags": [
     {
       "tag": "id",
       "type": "string",
