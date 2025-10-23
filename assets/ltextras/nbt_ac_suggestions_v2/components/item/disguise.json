@@ -6,6 +6,8 @@
     {
       "tag": "entity",
       "type": "compound",
+      "subtype": "tag/entity/*",
+      "with": "id",
       "tags": [
         {
           "tag": "id",

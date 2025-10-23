@@ -1,7 +1,11 @@
 {
   "id": "item/ltminigames:entity",
   "type": "compound",
-  "tags": [
+  "subtype": "tag/entity/*",
+  "with": "id",
+
+  "tags":
+  [
     {
       "tag": "id",
       "type": "string",
