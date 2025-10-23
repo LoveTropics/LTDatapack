@@ -28,6 +28,10 @@
       "commands": {
         "fly": "allow",
         "gamemode": "allow"
+      },
+      "waypoint_icon": {
+        "style": "lt:host",
+        "color": [1.0, 0.2, 0.0]
       }
     }
   },
