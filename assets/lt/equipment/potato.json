@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "lt:potato"
+      }
+    ],
+    "wings": [
+      {
+        "texture": "lt:polytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

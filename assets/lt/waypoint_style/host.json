@@ -1,10 +1,4 @@
 {
   "near_distance": 64,
-  "sprites": [
-    "lt:host",
-    "lt:host",
-    "lt:host",
-    "lt:host",
-    "lt:host"
-  ]
+  "sprites": ["lt:host", "lt:host", "lt:host", "lt:host", "lt:host"]
 }
