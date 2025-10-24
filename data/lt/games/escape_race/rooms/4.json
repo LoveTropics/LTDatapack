@@ -7,7 +7,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race_rooms",
+    "load_from": "lt:escape_race_room_4",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [

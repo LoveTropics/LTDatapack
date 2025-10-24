@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "team_spawn",
+    "spectators": "spec_spawn"
+  },
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "phone_call": 120,
+      "end": 11000
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "participants",
+    "actions": {
+      "start": {
+        "type": "ltminigames:run_commands",
+        "player": [
+          "give @s minecraft:light_gray_stained_glass_pane[max_stack_size=1] 36",
+          "item replace entity @s hotbar.0 with air"
+        ]
+      },
+      "phone_call": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": [
+            "playsound lt:games.escape_race.terry_phone_call_one voice"
+          ]
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "text": "AHHHH TERY PHONE CALL",
+            "color": "gold"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/4/spawn_item",
+    "time": 60,
+    "start": "start",
+    "end": "phone_call"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/spawn_item",
+    "time": 40,
+    "start": "phone_call",
+    "end": "end"
+  },
+  {
+    "type": "ltminigames:periodic_actions",
+    "interval": 1,
+    "actions": [
+      {
+        "type": "ltminigames:run_commands",
+        "global": [
+          "execute as @e[type=item,current_world=true] at @s if block ~ ~-1 ~ minecraft:magenta_glazed_terracotta[facing=west] run data modify entity @s Motion set value [0.1,0,0]",
+          "execute as @e[type=item,current_world=true] at @s if block ~ ~-1 ~ minecraft:magenta_glazed_terracotta[facing=south] run data modify entity @s Motion set value [0,0,-0.1]"
+        ]
+      }
+    ]
+  }
+]

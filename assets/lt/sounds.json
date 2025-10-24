@@ -1,5 +1,30 @@
 {
   "turtle_clash.anti_gravity": {
-    "sounds": [{ "name": "lt:games/turtle_clash/awildfilli_gravitacional" }]
+    "sounds": [
+      {
+        "name": "lt:games/turtle_clash/awildfilli_gravitacional"
+      }
+    ]
+  },
+  "games.escape_race.phone_call": {
+    "sounds": [
+      {
+        "name": "lt:games/escape_race/phone_call"
+      }
+    ]
+  },
+  "games.escape_race.phone_end": {
+    "sounds": [
+      {
+        "name": "lt:games/escape_race/phone_end"
+      }
+    ]
+  },
+  "games.escape_race.terry_phone_call_one": {
+    "sounds": [
+      {
+        "name": "lt:games/escape_race/terry_phone_call_one"
+      }
+    ]
   }
 }
