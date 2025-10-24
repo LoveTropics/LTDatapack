@@ -7,6 +7,13 @@
       }
     }
   },
+  "administration": {
+    "overrides": {
+      "commands": {
+        ".*": "allow"
+      }
+    }
+  },
   "live": {
     "includes": ["host"],
     "overrides": {
@@ -17,7 +24,11 @@
         },
         "style": "#e91e63"
       },
-      "host": true
+      "host": true,
+      "waypoint_icon": {
+        "style": "lt:host",
+        "color": [1.0, 0.2, 0.0]
+      }
     }
   },
   "host": {
@@ -28,41 +39,30 @@
       "commands": {
         "fly": "allow",
         "gamemode": "allow"
-      },
-      "waypoint_icon": {
-        "style": "lt:host",
-        "color": [1.0, 0.2, 0.0]
       }
     }
   },
   "mojangsta": {
-    "includes": ["moderation", "trusted"],
+    "includes": ["trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
       }
     }
   },
-  "moderator": {
-    "includes": ["moderation", "privileged"],
+  "modder": {
+    "includes": ["trusted"],
     "overrides": {
       "name_decoration": {
-        "style": "#3498db"
+        "style": "#9b6565"
       }
     }
   },
   "builder": {
+    "includes": ["fake_op"],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
-      }
-    }
-  },
-  "modder": {
-    "includes": ["moderation", "trusted"],
-    "overrides": {
-      "name_decoration": {
-        "style": "#9b6565"
       }
     }
   },
@@ -73,10 +73,36 @@
       }
     }
   },
-  "administration": {
+  "fake_op": {
     "overrides": {
       "commands": {
-        ".*": "allow"
+        "/.*": "allow",
+        "map join .*": "allow",
+        "map leave .*": "allow",
+        "fly": "allow",
+        "give": "allow",
+        "gamemode .*": "allow",
+        "clear": "allow",
+        "tp .*": "allow"
+      }
+    }
+  },
+  "moderator": {
+    "includes": ["moderation"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#3498db"
+      }
+    }
+  },
+  "trusted": {
+    "includes": ["moderation"],
+    "overrides": {
+      "commands": {
+        "fly": "allow",
+        "give": "allow",
+        "game": "allow",
+        "gamemode .*": "allow"
       }
     }
   },
@@ -89,24 +115,7 @@
         "pardon": "allow",
         "pardon-ip": "allow",
         "banlist": "allow",
-        "unban": "allow"
-      }
-    }
-  },
-  "trusted": {
-    "includes": ["privileged"],
-    "overrides": {
-      "commands": {
-        "fly": "allow",
-        "give": "allow",
-        "game": "allow",
-        "gamemode .*": "allow"
-      }
-    }
-  },
-  "privileged": {
-    "overrides": {
-      "commands": {
+        "unban": "allow",
         "tp": "allow"
       }
     }
