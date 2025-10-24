@@ -45,7 +45,7 @@
     "type": "ltminigames:item_dropper",
     "loot": [
       {
-        "id": "ltminigames:net",
+        "id": "minecraft:feather",
         "components": {
           "custom_data": {
             "power_up": "fly_team"

@@ -145,7 +145,7 @@
           "peekaboo:entity": {
             "id": "tropicraft:fiddler_crab"
           },
-          "ltminigames:size": 4.5,
+          "peekaboo:size": 4.5,
           "custom_name": {"translate": "ltminigames.minigame.qottott.cash_crab", "italic": false},
           "lore": [{"translate": "ltminigames.minigame.qottott.cash_crab.description", "color": "blue"}],
           "attribute_modifiers": [
