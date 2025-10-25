@@ -1,7 +1,8 @@
 {
   "name": {
     "translate": "ltminigames.minigame.turtle_race",
-    "color": "light_purple"
+    "color": "light_purple",
+    "extra": [" - 2021"]
   },
   "subtitle": [
     {
