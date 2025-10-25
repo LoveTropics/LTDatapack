@@ -9,6 +9,7 @@
   },
   "administration": {
     "overrides": {
+      "bypass_whitelist": true,
       "commands": {
         ".*": "allow"
       }
@@ -110,6 +111,7 @@
   },
   "moderation": {
     "overrides": {
+      "bypass_whitelist": true,
       "commands": {
         "kick": "allow",
         "ban": "allow",
