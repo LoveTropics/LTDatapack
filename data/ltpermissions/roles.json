@@ -62,6 +62,7 @@
   "builder": {
     "includes": ["fake_op"],
     "overrides": {
+      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#a95cdd"
       }
