@@ -1,0 +1,8 @@
+$data modify entity @e[tag=wheel_1,limit=1] data.lang set value $(1)
+$data modify entity @e[tag=wheel_2,limit=1] data.lang set value $(2)
+$data modify entity @e[tag=wheel_3,limit=1] data.lang set value $(3)
+$data modify entity @e[tag=wheel_4,limit=1] data.lang set value $(4)
+$data modify entity @e[tag=wheel_5,limit=1] data.lang set value $(5)
+$data modify entity @e[tag=wheel_6,limit=1] data.lang set value $(6)
+$data modify entity @e[tag=wheel_7,limit=1] data.lang set value $(7)
+$data modify entity @e[tag=wheel_8,limit=1] data.lang set value $(8)
