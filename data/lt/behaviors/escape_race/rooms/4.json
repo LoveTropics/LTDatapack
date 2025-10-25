@@ -1,5 +1,17 @@
 [
   {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true",
+      "commandBlockOutput": "false"
+    }
+  },
+  {
     "type": "lt:common/playing",
     "game_type": "adventure",
     "join_late_with_role": "spectator"
