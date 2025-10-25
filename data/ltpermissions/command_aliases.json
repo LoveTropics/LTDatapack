@@ -17,8 +17,9 @@
   "admin disguse_all shoebill": "execute as @a[current_world=true] run disguise as tropicraft:shoebill_stork",
   "admin": "dialog show @s lt:admin/admin",
   "admin gegy": "function lt:gegy/spawn_fly",
-	"forklift kill nearest": "execute as @s at @s run function lt:forklift/command/kill_nearest_forklift",
-	"forklift kill all": "execute as @s at @s run function lt:forklift/command/kill_all_forklifts",
-	"forklift summon": "execute as @s at @s run function lt:forklift/command/spawn_forklift",
-	"kn": "execute as @s at @s run function lt:utility/command/kill_nearest"
+  "forklift kill nearest": "execute as @s at @s run function lt:forklift/command/kill_nearest_forklift",
+  "forklift kill all": "execute as @s at @s run function lt:forklift/command/kill_all_forklifts",
+  "forklift summon": "execute as @s at @s run function lt:forklift/command/spawn_forklift",
+  "kn": "execute as @s at @s run function lt:utility/command/kill_nearest",
+  "scope": "function lt:utility/scope"
 }
