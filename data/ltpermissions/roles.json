@@ -51,7 +51,7 @@
     "overrides": {
       "bypass_whitelist": true,
       "name_decoration": {
-        "style": "#9b6565"
+        "style": "#DEB22F"
       }
     }
   },
