@@ -3,6 +3,7 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
+        "bypass_whitelist": true,
         "style": "#2ecc71"
       }
     }
@@ -34,6 +35,7 @@
   },
   "host": {
     "overrides": {
+      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#e91e63"
       },
@@ -46,6 +48,7 @@
   "mojangsta": {
     "includes": ["trusted"],
     "overrides": {
+      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#d84283"
       }
@@ -54,6 +57,7 @@
   "modder": {
     "includes": ["trusted"],
     "overrides": {
+      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#9b6565"
       }
@@ -91,6 +95,7 @@
     }
   },
   "moderator": {
+    "bypass_whitelist": true,
     "includes": ["moderation"],
     "overrides": {
       "name_decoration": {
@@ -112,7 +117,6 @@
   },
   "moderation": {
     "overrides": {
-      "bypass_whitelist": true,
       "commands": {
         "kick": "allow",
         "ban": "allow",
