@@ -8,14 +8,6 @@
       }
     }
   },
-  "administration": {
-    "overrides": {
-      "bypass_whitelist": true,
-      "commands": {
-        ".*": "allow"
-      }
-    }
-  },
   "live": {
     "includes": ["host"],
     "overrides": {
@@ -55,11 +47,19 @@
     }
   },
   "modder": {
-    "includes": ["trusted"],
+    "includes": ["trusted", "administration"],
     "overrides": {
       "bypass_whitelist": true,
       "name_decoration": {
         "style": "#9b6565"
+      }
+    }
+  },
+  "administration": {
+    "overrides": {
+      "bypass_whitelist": true,
+      "commands": {
+        ".*": "allow"
       }
     }
   },
