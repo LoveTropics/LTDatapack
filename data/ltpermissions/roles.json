@@ -57,6 +57,7 @@
   },
   "administration": {
     "overrides": {
+      "op_level": 4,
       "bypass_whitelist": true,
       "commands": {
         ".*": "allow"
