@@ -13,9 +13,8 @@
             "base": 8
           }
         ],
-        "ArmorItems": [
-          {},
-          {
+        "equipment": {
+          "head": {
             "id": "minecraft:leather_helmet",
             "count": 1,
             "components": {
@@ -24,10 +23,8 @@
                 "thorns": 6
               }
             }
-          },
-          {},
-          {}
-        ]
+          }
+        }
       }
     },
     "regions_to_spawn_at": ["spawn"],
