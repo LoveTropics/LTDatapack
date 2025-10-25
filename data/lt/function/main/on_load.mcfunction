@@ -97,6 +97,8 @@ scoreboard objectives add world_game.scavenger_hunt.stats dummy
 # On Second
 schedule function lt:main/on_second 1s replace
 
+## Wheel Of Doom
+schedule function lt:world_games/wheel_of_doom/on_run 10t replace
 
 #Elytra
 scoreboard objectives add world_game.elytra.tracker dummy
