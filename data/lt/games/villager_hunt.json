@@ -69,7 +69,8 @@
         "fallDamage": "false",
         "announceAdvancements": "false",
         "doImmediateRespawn": "true",
-        "naturalRegeneration": "false"
+        "naturalRegeneration": "false",
+        "locatorBar": "false"
       }
     },
     {
