@@ -75,6 +75,7 @@
   },
   "fake_op": {
     "overrides": {
+      "worldedit_allowed": true,
       "commands": {
         "/.*": "allow",
         "map join .*": "allow",
@@ -102,7 +103,8 @@
         "fly": "allow",
         "give": "allow",
         "game": "allow",
-        "gamemode .*": "allow"
+        "gamemode .*": "allow",
+        "tp": "allow"
       }
     }
   },
@@ -115,8 +117,7 @@
         "pardon": "allow",
         "pardon-ip": "allow",
         "banlist": "allow",
-        "unban": "allow",
-        "tp": "allow"
+        "unban": "allow"
       }
     }
   },
