@@ -1,3 +1,4 @@
+scoreboard objectives add wheel.data dummy
 execute as @e[tag=wheel] at @s run fill ~-2 ~2 ~-2 ~2 ~2 ~2 ltextras:edgeless_white_stained_glass replace ltextras:edgeless_red_stained_glass
 scoreboard players add random_number wheel.data 0
 execute store result score random_number wheel.data run random value 1..16
