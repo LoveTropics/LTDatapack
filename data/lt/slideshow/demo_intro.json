@@ -1,0 +1,9 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://cdn.discordapp.com/attachments/1287842246980276225/1414327426137329825/EscapeRaceIntroDemo.mp4?ex=68ff1b4f&is=68fdc9cf&hm=be42992ca86bd28415018c45fb7f9473ac0b45b5fdf08007160bed4312dc2137&"
+    }
+  ]
+}
