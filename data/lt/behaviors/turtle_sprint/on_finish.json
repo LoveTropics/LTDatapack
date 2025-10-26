@@ -1,0 +1,17 @@
+[
+  {
+    "type": "ltminigames:play_sound",
+    "sound": "minecraft:entity.arrow.hit_player"
+  },
+  {
+    "type": "ltminigames:run_commands",
+    "player": ["tag @s add turtle_sprint_winner"]
+  },
+  {
+    "type": "ltminigames:run_commands",
+    "player": [
+      "execute as @a[current_world=true,tag=turtle_sprint_winner] at @s run kill @e[current_world=true,distance=0.1..,gamemode=adventure]"
+    ]
+  },
+  "ltminigames:set_total_time"
+]

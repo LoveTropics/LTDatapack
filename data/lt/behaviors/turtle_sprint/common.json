@@ -1,0 +1,30 @@
+[
+  "ltminigames:spectator_chase",
+  "lt:turtle_sprint/ruleset",
+  "lt:turtle_sprint/intro",
+  {
+    "type": "ltminigames:position_players",
+    "participants": "player_spawn",
+    "spectators": "finish",
+    "angle": -180.0
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "finish": "lt:turtle_sprint/on_finish"
+    },
+    "interval": 1
+  },
+  "lt:common/announce_game_over",
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 600
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  "ltminigames:last_remaining_win_trigger"
+]

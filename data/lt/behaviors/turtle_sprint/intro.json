@@ -1,0 +1,53 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "release_players": 4,
+      "release_turtle": 5
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:disable_player_movement"
+          }
+        }
+      ],
+      "release_players": [
+        {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:disable_player_movement"
+        }
+      ],
+      "release_turtle": [
+        {
+          "type": "ltminigames:spawn_entity_at_regions",
+          "entity": {
+            "type": "tropicraft:turtle",
+            "tag": {
+              "Invulnerable": true,
+              "NoAI": true,
+              "attributes": [
+                {
+                  "base": 1.65,
+                  "id": "minecraft:movement_speed"
+                }
+              ],
+              "NoBrakesOnThisTrain": true,
+              "DeathLootTable": "minecraft:empty"
+            }
+          },
+          "regions_to_spawn_at": ["turtle_spawn"],
+          "entity_count_per_region": 1,
+          "at_heightmap": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": {
+    "translate": "Turtle Sprint",
+    "color": "dark_green"
+  },
+  "statistics_key": "turtle_sprint",
+  "minimum_participants": 1,
+  "maximum_participants": 11,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:turtle_sprint"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:turtle_sprint/common"
+  ]
+}
