@@ -1,0 +1,9 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://unreal.codes/2025/10/26/1761519572256-forklift.mp4"
+    }
+  ]
+}
