@@ -1,6 +1,6 @@
 # Run utility on tick functions
 function lt:utility/on_tick
-kill @e[type=ltminigames:vending_machine]
+
 execute as @a[tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/player/first_join
 
 # Runs MiniGolf tick commands
