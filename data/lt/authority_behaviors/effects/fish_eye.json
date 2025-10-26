@@ -1,0 +1,7 @@
+{
+  "enter_commands": [
+    "effect give @s ltextras:fish_eye infinite 255 true",
+    "effect give @s minecraft:conduit_power infinite 255 true"
+  ],
+  "exit_commands": ["effect clear @s ltextras:fish_eye", "effect clear @s minecraft:conduit_power"]
+}
