@@ -61,17 +61,17 @@
     "type": "ltminigames:terry_trash",
     "loot_table": "lt:escape_race/random_trash",
     "item_spawn_region": "item_spawn",
-    "spawnTime": 80,
-    "trash_types": {
-      "plastic_bag": {
+    "spawn_time": 80,
+    "trash_data": {
+      "can": {
         "required_amount": 10,
         "process_region": "trash_type_1_process"
       },
-      "can": {
+      "plastic_bottle": {
         "required_amount": 10,
         "process_region": "trash_type_2_process"
       },
-      "plastic_rings": {
+      "chip_bag": {
         "required_amount": 10,
         "process_region": "trash_type_3_process"
       }
