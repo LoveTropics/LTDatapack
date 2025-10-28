@@ -61,6 +61,7 @@
     "type": "ltminigames:terry_trash",
     "loot_table": "lt:escape_race/random_trash",
     "item_spawn_region": "item_spawn",
+    "spawnTime": 80,
     "trash_types": {
       "plastic_bag": {
         "required_amount": 10,
