@@ -32,7 +32,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ltminigames:can",
+          "name": "ltminigames:cola_standing",
           "weight": 10,
           "functions": [
             {
