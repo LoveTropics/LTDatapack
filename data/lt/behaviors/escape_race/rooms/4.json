@@ -58,16 +58,23 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/4/spawn_item",
-    "time": 60,
-    "start": "start",
-    "end": "phone_call"
-  },
-  {
-    "type": "lt:escape_race/rooms/4/spawn_item",
-    "time": 40,
-    "start": "phone_call",
-    "end": "end"
+    "type": "ltminigames:terry_trash",
+    "loot_table": "lt:escape_race/random_trash",
+    "item_spawn_region": "item_spawn",
+    "trash_types": {
+      "plastic_bag": {
+        "required_amount": 10,
+        "process_region": "trash_type_1_process"
+      },
+      "can": {
+        "required_amount": 10,
+        "process_region": "trash_type_2_process"
+      },
+      "plastic_rings": {
+        "required_amount": 10,
+        "process_region": "trash_type_3_process"
+      }
+    }
   },
   {
     "type": "ltminigames:periodic_actions",
