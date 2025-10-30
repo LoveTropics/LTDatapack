@@ -13,5 +13,13 @@
       "execute as @a[current_world=true,tag=turtle_sprint_winner] at @s run kill @e[current_world=true,distance=0.1..,gamemode=adventure]"
     ]
   },
+  {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants_except_source",
+    "actions": {
+      "type": "ltminigames:run_commands",
+      "player": ["say test"]
+    }
+  },
   "ltminigames:set_total_time"
 ]
