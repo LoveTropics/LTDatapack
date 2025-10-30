@@ -1,0 +1,18 @@
+{
+  "type": "ltminigames:events",
+  "events": {
+    "player_participate": {
+      "type": "ltminigames:set_tab_list_order",
+      "order": 1
+    },
+
+    "player_stop_participate": {
+      "type": "ltminigames:set_tab_list_order",
+      "order": 0
+    },
+    "player_remove": {
+      "type": "ltminigames:set_tab_list_order",
+      "order": 0
+    }
+  }
+}

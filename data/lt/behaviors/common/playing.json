@@ -11,5 +11,6 @@
     "role": "$join_late_with_role",
     "allow_rejoin": "$allow_rejoin"
   },
-  "ltminigames:set_winner_statistic"
+  "ltminigames:set_winner_statistic",
+  "lt:common/hoist_participants_tab_list"
 ]
