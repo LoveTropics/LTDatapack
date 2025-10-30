@@ -4,7 +4,7 @@
     "color": "dark_green"
   },
   "statistics_key": "turtle_sprint",
-  "minimum_participants": 1,
+  "minimum_participants": 2,
   "maximum_participants": 11,
   "map": {
     "type": "ltminigames:load_map",
