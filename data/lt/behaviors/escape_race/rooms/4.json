@@ -13,7 +13,7 @@
   },
   {
     "type": "lt:common/playing",
-    "game_type": "adventure",
+    "game_type": "survival",
     "join_late_with_role": "spectator"
   },
   {
@@ -61,7 +61,7 @@
     "type": "ltminigames:terry_trash",
     "loot_table": "lt:escape_race/random_trash",
     "item_spawn_region": "item_spawn",
-    "spawn_time": 120,
+    "spawn_time": 80,
     "trash_data": {
       "plastic_bag": {
         "required_amount": 10,
@@ -75,7 +75,18 @@
         "required_amount": 10,
         "process_region": "trash_type_3_process"
       }
-    }
+    },
+    "trash_password": [
+      "can",
+      "can",
+      "can",
+      "can",
+      "can",
+      "can"
+    ],
+    "terry_time": 120,
+    "trash_location": "trash_password",
+    "button_location": "button_password"
   },
   {
     "type": "ltminigames:periodic_actions",
