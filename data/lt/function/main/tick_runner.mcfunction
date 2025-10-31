@@ -72,6 +72,8 @@ function lt:map/generic/launch_pad/on_tick
 
 # Quest System
 function lt:quest/main/on_tick
+execute as @e[type=minecraft:marker,tag=utility.stage.curtain,tag=!utility.stage.curtain.setup] at @s run function lt:stage/curtain/dialog
+
 
 # Forklifts
 function lt:forklift/on_tick
