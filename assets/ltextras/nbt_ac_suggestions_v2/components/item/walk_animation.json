@@ -1,0 +1,7 @@
+{
+  "id": "item/ltextras:walk_animation",
+  "type": "string",
+  "subtype": "ordered_enum/default;fabulous",
+  "always_relevant": true
+}
+

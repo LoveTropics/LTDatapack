@@ -1,0 +1,29 @@
+{
+  "id": "item/ltextras:walk_sound",
+  "type": "compound",
+  "always_relevant": true,
+  "tags": [
+    {
+      "tag": "sound",
+      "type": "string",
+      "subtype": "registry_key/minecraft:sound_event"
+    },
+    {
+      "tag": "cooldown",
+      "type": "float"
+    },
+    {
+      "tag": "volume",
+      "type": "float"
+    },
+    {
+      "tag": "pitch",
+      "type": "float"
+    },
+    {
+      "tag": "play_other_sounds",
+      "type": "boolean"
+    }
+  ]
+}
+

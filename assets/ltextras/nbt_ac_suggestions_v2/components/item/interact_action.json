@@ -1,0 +1,27 @@
+{
+  "id": "item/ltextras:interact_action",
+  "type": "compound",
+  "always_relevant": true,
+  "tags": [
+    {
+      "tag": "cancel_event",
+      "type": "boolean"
+    },
+    {
+      "tag": "click_events",
+      "type": "compound",
+      "subtype": "click_event/*",
+      "with": "action",
+
+      "tags":
+      [
+        {
+          "tag": "action",
+          "type": "string",
+          "subtype": "enum/open_url;open_file;run_command;suggest_command;change_page;copy_to_clipboard"
+        }
+      ]
+    }
+  ]
+}
+
