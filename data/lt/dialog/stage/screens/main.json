@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Main Screen"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "video_id",
+      "label": "Video ID"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "audio_radius",
+      "label": "Volume",
+      "start": 0,
+      "end": 128,
+      "step": 1,
+      "initial": 64
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Rise",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/screen/action/rise {name:\"main\",amount:90}"
+      }
+    },
+    {
+      "label": "Lower",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/screen/action/lower {name:\"main\",amount:90}"
+      }
+    },
+    {
+      "label": "Play Video",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "function lt:stage/screen/action/play_video {name:\"main\",video_id:\"$(video_id)\"}"
+      }
+    },
+    {
+      "label": "Clear Video",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/screen/action/play_video {name:\"main\",video_id:\"lt:clear\"}"
+      }
+    },
+    {
+      "label": "Change Volume",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "function lt:stage/screen/action/change_volume {name:\"main\",audio_radius:$(audio_radius)}"
+      }
+    },
+    {
+      "label": "Go Back"
+    }
+  ]
+}
