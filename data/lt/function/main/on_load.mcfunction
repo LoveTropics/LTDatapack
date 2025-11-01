@@ -142,7 +142,7 @@ scoreboard objectives add stage.global dummy
 scoreboard objectives add stage.curtain dummy
 
 #Stage
-function lt:stage/curtain/tick
+function lt:stage/on_tick_10
 
 # Forklifts
 function lt:forklift/on_load
