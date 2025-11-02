@@ -1,0 +1,66 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.escape_race",
+    "color": "gold",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "escape_race",
+  "backend_id": "lt:escape_race",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "hide_from_list": false,
+  "is_multi_game": true,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      {
+        "type": "ltminigames:setup_teams",
+        "teams": [
+          {
+            "key": "blue",
+            "name": {
+              "translate": "ltminigames.minigame.teams.blue"
+            },
+            "dye": "blue",
+            "text": "blue"
+          },
+          {
+            "key": "red",
+            "name": {
+              "translate": "ltminigames.minigame.teams.red"
+            },
+            "dye": "red",
+            "text": "red"
+          }
+        ]
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:escape_race",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "behaviors": [
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:escape_race/break_bucks"
+    }
+  ]
+}
