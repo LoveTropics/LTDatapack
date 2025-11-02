@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Add Video",
+  "body": [],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "label",
+      "label": "Label"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "video_id",
+      "label": "Video ID"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/data modify storage lt:stage screen.videos append value {\"label\":\"$(label)\",\"action\":{\"type\":\"minecraft:run_command\",\"command\":\"function lt:stage/screen/action/play_video {name:\\\"main\\\",video_id:\\\"$(video_id)\\\"}\"}}"
+    }
+  },
+  "no": {
+    "label": "No"
+  }
+}

@@ -1,10 +1,19 @@
 {
   "type": "minecraft:multi_action",
-  "title": "",
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": "Main Screen"
-  },
+  "title": "Main Screen",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "SNLT24 Intro",
+        "color": "aqua",
+        "click_event": {
+          "action": "run_command",
+          "command": "function lt:stage/screen/action/play_video {name:\"main\",video_id:\"lt:snlt25_intro\"}"
+        }
+      }
+    }
+  ],
   "inputs": [
     {
       "type": "minecraft:text",
