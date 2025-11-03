@@ -25,8 +25,21 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "phone_call": 120,
-      "end": 11000
+      "intro_phone_call": 10,
+      "trash_phase_one": 20,
+      "code_unlock": 60,
+      "trash_phase_two": 115,
+      "trash_phase_three": 150,
+      "trash_phase_four": 210,
+      "trash_phase_five": 270,
+      "trash_phase_six": 330,
+      "trash_phase_seven": 390,
+      "trash_phase_eight": 450,
+      "announce_two_minutes_left": 480,
+      "trash_phase_nine": 510,
+      "announce_30_seconds_left": 570,
+      "announce_5_seconds_left": 595,
+      "end": 600
     }
   },
   {
@@ -40,19 +53,52 @@
           "item replace entity @s hotbar.0 with air"
         ]
       },
-      "phone_call": [
+      "intro": [
         {
-          "type": "ltminigames:run_commands",
-          "player": [
-            "playsound lt:games.escape_race.terry_phone_call_one voice"
-          ]
-        },
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.welcome"
+        }
+      ],
+      "trash_phase_two": [
         {
-          "type": "ltminigames:send_message",
-          "message": {
-            "text": "AHHHH TERY PHONE CALL",
-            "color": "gold"
-          }
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.dirty_trash"
+        }
+      ],
+      "trash_phase_four": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.food_contamination"
+        }
+      ],
+      "trash_phase_five": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.coconut_bombs"
+        }
+      ],
+      "trash_phase_seven": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.chemical_contamination"
+        }
+      ],
+      "announce_two_minutes_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.two_minutes"
+        }
+      ],
+      "announce_30_seconds_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.thirty_seconds"
+        }
+      ],
+      "announce_5_seconds_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.terry_trash.five_seconds"
         }
       ]
     }
@@ -61,7 +107,44 @@
     "type": "ltminigames:terry_trash",
     "loot_table": "lt:escape_race/random_trash",
     "item_spawn_region": "item_spawn",
-    "spawn_time": 80,
+    "spawn_times": {
+      "trash_phase_one": {
+        "trash_rate": 200,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_two": {
+        "trash_rate": 180,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_three": {
+        "trash_rate": 160,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_four": {
+        "trash_rate": 140,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_five": {
+        "trash_rate": 120,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_six": {
+        "trash_rate": 100,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_seven": {
+        "trash_rate": 80,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_eight": {
+        "trash_rate": 60,
+        "table": "lt:escape_race/random_trash"
+      },
+      "trash_phase_nine": {
+        "trash_rate": 40,
+        "table": "lt:escape_race/random_trash"
+      }
+    },
     "trash_data": {
       "plastic_bag": {
         "required_amount": 10,
@@ -84,7 +167,6 @@
       "can",
       "can"
     ],
-    "terry_time": 120,
     "trash_location": "trash_password",
     "button_location": "button_password"
   },
