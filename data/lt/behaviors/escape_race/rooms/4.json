@@ -107,6 +107,7 @@
     "type": "ltminigames:terry_trash",
     "loot_table": "lt:escape_race/random_trash",
     "item_spawn_region": "item_spawn",
+    "bad_trash_location": "missed_trash",
     "spawn_times": {
       "trash_phase_one": {
         "trash_rate": 200,
