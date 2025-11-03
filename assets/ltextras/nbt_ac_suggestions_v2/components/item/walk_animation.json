@@ -1,7 +1,7 @@
 {
   "id": "item/ltextras:walk_animation",
   "type": "string",
-  "subtype": "ordered_enum/default;fabulous;flail;hovering",
+  "subtype": "ordered_enum/default;fabulous;flail;hovering;shuffle",
   "always_relevant": true
 }
 

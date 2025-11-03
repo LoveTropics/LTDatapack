@@ -693,5 +693,9 @@
   "ltminigames.minigame.qottott.map.2": "Map: STT 4",
   "ltminigames.minigame.escape_race": "Escape Race",
   "lt.enchant.silmey": "Slimey",
-  "lt.collectible.milestone.slimey_slime.description": "Warning may contain excessive slime"
+  "lt.collectible.milestone.slimey_slime.description": "Warning may contain excessive slime",
+  "lt.collectible.hover_boots.name": "Hover Boots",
+  "lt.collectible.hover_boots.description": "Touch grass? Never heard of it.",
+  "lt.collectible.hover_boots.tooltip.leg_movement": "- Leg Movement",
+  "lt.collectible.hover_boots.tooltip.space_between_ground": "+ Space Between Ground"
 }

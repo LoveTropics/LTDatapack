@@ -1,0 +1,57 @@
+{
+  "components": {
+    "minecraft:lore": [
+      {
+        "translate": "lt.collectible.hover_boots.description",
+        "color": "gray"
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "lt.collectible.unicode.purchased",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "item.modifiers.feet",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "lt.collectible.hover_boots.tooltip.leg_movement",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "translate": "lt.collectible.hover_boots.tooltip.space_between_ground",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.hover_boots.name",
+      "color": "#5ABDA3",
+      "italic": false
+    },
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:custom_data": {
+      "ParkourBlacklist": true
+    },
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:dyed_color",
+        "minecraft:unbreakable",
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:dyed_color": 1481884,
+    "ltextras:walk_animation": "hovering"
+  },
+  "item": "minecraft:leather_boots"
+}
