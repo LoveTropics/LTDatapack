@@ -6,39 +6,42 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ltminigames:plastic_bottle",
+          "name": "ltextras:dented_can",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1
+                "minecraft:max_stack_size": 1,
+                "ltextras:undroppable": true
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "ltminigames:chip_bag",
+          "name": "ltextras:lubricant_jar",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1
+                "minecraft:max_stack_size": 1,
+                "ltextras:undroppable": true
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "ltminigames:cola_standing",
+          "name": "ltextras:paper_bag",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1
+                "minecraft:max_stack_size": 1,
+                "ltextras:undroppable": true
               }
             }
           ]
