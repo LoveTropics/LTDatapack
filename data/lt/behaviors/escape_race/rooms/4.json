@@ -13,7 +13,7 @@
   },
   {
     "type": "lt:common/playing",
-    "game_type": "survival",
+    "game_type": "adventure",
     "join_late_with_role": "spectator"
   },
   {
@@ -49,7 +49,7 @@
       "start": {
         "type": "ltminigames:run_commands",
         "player": [
-          "give @s minecraft:light_gray_stained_glass_pane[max_stack_size=1] 36",
+          "give @s minecraft:light_gray_stained_glass_pane[max_stack_size=1,ltextras:undroppable=true] 36",
           "item replace entity @s hotbar.0 with air"
         ]
       },
@@ -105,68 +105,80 @@
   },
   {
     "type": "ltminigames:terry_trash",
-    "loot_table": "lt:escape_race/random_trash",
+    "loot_table": "lt:escape_race/trash/phase_one",
     "item_spawn_region": "item_spawn",
     "bad_trash_location": "missed_trash",
+    "recycling_locations": [
+      {
+        "process_region": "trash_type_1_process",
+        "item_predicate": {
+          "components": {
+            "minecraft:item_model": "ltextras:dented_can"
+          }
+        }
+      },
+      {
+        "process_region": "trash_type_2_process",
+        "item_predicate": {
+          "components": {
+            "minecraft:item_model": "ltextras:paper_bag"
+          }
+        }
+      },
+      {
+        "process_region": "trash_type_3_process",
+        "item_predicate": {
+          "components": {
+            "minecraft:item_model": "ltextras:lubricant_jar"
+          }
+        }
+      }
+    ],
     "spawn_times": {
       "trash_phase_one": {
         "trash_rate": 200,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_one",
         "next_channel": "trash_phase_two"
       },
       "trash_phase_two": {
         "trash_rate": 180,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_two",
         "next_channel": "trash_phase_three"
       },
       "trash_phase_three": {
         "trash_rate": 160,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_two",
         "next_channel": "trash_phase_four"
       },
       "trash_phase_four": {
         "trash_rate": 140,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_three",
         "next_channel": "trash_phase_five"
       },
       "trash_phase_five": {
         "trash_rate": 120,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_three",
         "next_channel": "trash_phase_six"
       },
       "trash_phase_six": {
         "trash_rate": 100,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_three",
         "next_channel": "trash_phase_seven"
       },
       "trash_phase_seven": {
         "trash_rate": 80,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_three",
         "next_channel": "trash_phase_eight"
       },
       "trash_phase_eight": {
         "trash_rate": 60,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_four",
         "next_channel": "trash_phase_nine"
       },
       "trash_phase_nine": {
         "trash_rate": 40,
-        "table": "lt:escape_race/random_trash",
+        "table": "lt:escape_race/trash/phase_four",
         "next_channel": "end"
-      }
-    },
-    "trash_data": {
-      "plastic_bag": {
-        "required_amount": 10,
-        "process_region": "trash_type_1_process"
-      },
-      "can": {
-        "required_amount": 10,
-        "process_region": "trash_type_2_process"
-      },
-      "plastic_rings": {
-        "required_amount": 10,
-        "process_region": "trash_type_3_process"
       }
     },
     "trash_password": [
@@ -179,18 +191,5 @@
     ],
     "trash_location": "trash_password",
     "button_location": "button_password"
-  },
-  {
-    "type": "ltminigames:periodic_actions",
-    "interval": 1,
-    "actions": [
-      {
-        "type": "ltminigames:run_commands",
-        "global": [
-          "execute as @e[type=item,current_world=true] at @s if block ~ ~-1 ~ minecraft:magenta_glazed_terracotta[facing=west] run data modify entity @s Motion set value [0.1,0,0]",
-          "execute as @e[type=item,current_world=true] at @s if block ~ ~-1 ~ minecraft:magenta_glazed_terracotta[facing=south] run data modify entity @s Motion set value [0,0,-0.1]"
-        ]
-      }
-    ]
   }
 ]
