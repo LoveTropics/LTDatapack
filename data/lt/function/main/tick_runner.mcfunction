@@ -71,7 +71,8 @@ execute in tropicraft:tropics run function lt:world_games/elytra/on_tick
 function lt:map/generic/launch_pad/on_tick
 
 # Quest System
-function lt:quest/main/on_tick
+# Turned Quest System off for now - UnReal
+#function lt:quest/main/on_tick
 
 # Stage
 function lt:stage/on_tick
