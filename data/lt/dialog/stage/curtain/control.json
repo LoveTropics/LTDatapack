@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Curtain Control",
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:stage/control"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Rise Curtain",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/curtain/action/rise",
+          "name": "stage"
+        }
+      }
+    },
+    {
+      "label": "Lower Curtain",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/curtain/action/lower",
+          "name": "stage"
+        }
+      }
+    }
+  ]
+}

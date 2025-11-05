@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Big Screen",
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:stage/control"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Rise Screen",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/screen/action/rise",
+          "name": "big",
+          "amount": 90
+        }
+      }
+    },
+    {
+      "label": "Lower Screen",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/screen/action/lower",
+          "name": "big",
+          "amount": 90
+        }
+      }
+    },
+    {
+      "label": "Play Video",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/dialog/dialog/screen/big/video/play with storage lt:stage videos"
+      }
+    },
+    {
+      "label": "Clear Video",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/screen/action/play_video",
+          "name": "big",
+          "video_id": "clear:clear"
+        }
+      }
+    },
+    {
+      "label": "Change Volume",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/dialog/dialog/screen/big/video/volume with entity @e[type=multimedia:screen,tag=utility.stage.screen.name.big,limit=1]"
+      }
+    }
+  ]
+}

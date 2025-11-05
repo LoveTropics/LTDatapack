@@ -21,5 +21,6 @@
   "forklift kill all": "execute as @s at @s run function lt:forklift/command/kill_all_forklifts",
   "forklift summon": "execute as @s at @s run function lt:forklift/command/spawn_forklift",
   "kn": "execute as @s at @s run function lt:utility/command/kill_nearest",
-  "scope": "function lt:utility/scope"
+  "scope": "function lt:utility/scope",
+  "stage": "dialog show @s lt:stage/control"
 }

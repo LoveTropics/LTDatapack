@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Add Video",
+  "body": [],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "video_name",
+      "label": "Video Name"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "video_id",
+      "label": "Video ID"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "yes": {
+    "label": "Add Video",
+    "action": {
+      "type": "minecraft:dynamic/custom",
+      "id": "ltextras:run_function",
+      "additions": {
+        "function": "lt:stage/dialog/command/screen/video/add"
+      }
+    }
+  },
+  "no": {
+    "label": "Go Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "lt:stage/control"
+    }
+  }
+}

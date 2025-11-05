@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Stage Control",
+  "can_close_with_escape": true,
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Curtain Control",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "lt:stage/curtain/control"
+      }
+    },
+    {
+      "label": "Screen Control",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": {
+          "type": "minecraft:dialog_list",
+          "title": "Pick Screen",
+          "exit_action": {
+            "label": "Go Back",
+            "action": {
+              "type": "minecraft:show_dialog",
+              "dialog": "lt:stage/control"
+            }
+          },
+          "dialogs": ["lt:stage/screen/main", "lt:stage/screen/big"]
+        }
+      }
+    },
+    {
+      "label": "Add Video",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "lt:stage/screen/video/add"
+      }
+    }
+  ]
+}
