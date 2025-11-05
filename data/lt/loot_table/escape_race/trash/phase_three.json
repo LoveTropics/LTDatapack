@@ -13,7 +13,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true
+                "ltextras:undroppable": {}
               }
             }
           ]
@@ -27,7 +27,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true
+                "ltextras:undroppable": {}
               }
             }
           ]
@@ -41,7 +41,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true
+                "ltextras:undroppable": {}
               }
             }
           ]
@@ -58,7 +58,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/can",
                 "minecraft:dyed_color": 14424088
               }
@@ -74,7 +74,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/lubricant",
                 "minecraft:dyed_color": 14424088
               }
@@ -90,7 +90,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/bag",
                 "minecraft:dyed_color": 14424088
               }
@@ -108,7 +108,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/can",
                 "minecraft:dyed_color": 2478617
               }
@@ -124,7 +124,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/lubricant",
                 "minecraft:dyed_color": 2478617
               }
@@ -140,7 +140,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": true,
+                "ltextras:undroppable": {},
                 "minecraft:item_model": "lt/trash/bag",
                 "minecraft:dyed_color": 2478617
               }
