@@ -12,8 +12,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": {}
+                "minecraft:max_stack_size": 1
               }
             }
           ]
@@ -26,8 +25,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": {}
+                "minecraft:max_stack_size": 1
               }
             }
           ]
@@ -40,8 +38,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:max_stack_size": 1,
-                "ltextras:undroppable": {}
+                "minecraft:max_stack_size": 1
               }
             }
           ]
