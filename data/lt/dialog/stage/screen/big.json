@@ -21,7 +21,7 @@
         "additions": {
           "function": "lt:stage/screen/action/rise",
           "name": "big",
-          "amount": 90
+          "amount": 240
         }
       }
     },
@@ -33,7 +33,7 @@
         "additions": {
           "function": "lt:stage/screen/action/lower",
           "name": "big",
-          "amount": 90
+          "amount": 240
         }
       }
     },
