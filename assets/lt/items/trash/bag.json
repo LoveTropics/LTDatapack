@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "ltextras:item/paper_bag",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": 5721164
+      }
+    ]
+  }
+}
