@@ -7,7 +7,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race_rooms",
+    "load_from": "lt:escape_race_room_5",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
@@ -19,6 +19,25 @@
     "lt:escape_race/one_team",
     {
       "type": "lt:escape_race/rooms/5"
+    },
+    {
+      "type": "ltminigames:block_in_region",
+      "region": "test",
+      "predicate": {
+        "blocks": ["minecraft:diamond_block"]
+      },
+      "actions": {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.win",
+          "color": "gold"
+        }
+      }
+    },
+    {
+      "type": "ltminigames:position_players",
+      "participants": "spawn",
+      "spectators": "spawn"
     }
   ]
 }
