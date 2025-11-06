@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:white_concrete",
-    "minecraft:blue_concrete"
+    "minecraft:amethyst_block"
   ]
 }

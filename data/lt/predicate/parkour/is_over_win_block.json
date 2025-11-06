@@ -5,7 +5,7 @@
     "type": "minecraft:player",
     "stepping_on": {
       "block": {
-        "blocks": "minecraft:redstone_block"
+        "blocks": "tropicraft:chunk"
       }
     }
   }
