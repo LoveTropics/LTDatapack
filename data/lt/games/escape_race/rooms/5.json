@@ -21,18 +21,36 @@
       "type": "lt:escape_race/rooms/5"
     },
     {
+      "type": "ltminigames:while_in_region",
+      "regions": {
+        "test": {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.win",
+            "color": "gold"
+          }
+        }
+      },
+      "interval": 2
+    },
+    {
       "type": "ltminigames:block_in_region",
       "region": "test",
       "predicate": {
         "blocks": ["minecraft:diamond_block"]
       },
-      "actions": {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "ltminigames.minigame.win",
-          "color": "gold"
+      "actions": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.win",
+            "color": "gold"
+          }
+        },
+        {
+          "end": "ltminigames:end_game"
         }
-      }
+      ]
     },
     {
       "type": "ltminigames:position_players",
