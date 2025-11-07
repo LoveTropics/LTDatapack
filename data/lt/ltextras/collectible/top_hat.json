@@ -1,0 +1,38 @@
+{
+  "components": {
+    "minecraft:lore": [
+      {
+        "translate": "lt.collectible.top_hat.description",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "lt.collectible.unicode.purchased",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.top_hat.name",
+      "color": "#BFEA00",
+      "italic": false
+    },
+    "minecraft:item_model": "lt:top_hat",
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:enchantments",
+        "minecraft:dyed_color",
+        "minecraft:unbreakable"
+      ]
+    },
+    "minecraft:equippable": {
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "slot": "head"
+    }
+  },
+  "item": "minecraft:leather_helmet"
+}
