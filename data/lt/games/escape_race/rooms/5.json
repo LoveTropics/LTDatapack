@@ -46,9 +46,6 @@
             "translate": "ltminigames.minigame.win",
             "color": "gold"
           }
-        },
-        {
-          "end": "ltminigames:end_game"
         }
       ]
     },
