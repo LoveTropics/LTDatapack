@@ -93,7 +93,8 @@
         "give": "allow",
         "gamemode .*": "allow",
         "clear": "allow",
-        "tp .*": "allow"
+        "tp .*": "allow",
+        "effect": "allow"
       }
     }
   },
