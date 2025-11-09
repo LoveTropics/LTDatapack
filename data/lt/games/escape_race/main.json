@@ -58,7 +58,7 @@
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
-    "ltminigames:teams",
+    "lt:escape_race/common",
     {
       "type": "ltminigames:escape_race/break_bucks"
     }

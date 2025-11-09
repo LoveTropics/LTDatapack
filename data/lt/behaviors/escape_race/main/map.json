@@ -1,0 +1,10 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": [
+        "break_room"
+    ],
+    "spectators": ["break_room"],
+    "face_region": "center"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "ltminigames:set_difficulty",
+    "difficulty": "normal"
+  },
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true
+  },
+  "ltminigames:spectator_chase",
+  "ltminigames:teams",
+  "lt:escape_race/main/map",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    },
+    "drop_inventory": false,
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player"
+    ]
+  },
+  "ltminigames:rewards_from_microgame"
+]
