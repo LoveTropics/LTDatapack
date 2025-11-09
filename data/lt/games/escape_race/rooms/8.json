@@ -7,7 +7,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race_rooms",
+    "load_from": "lt:escape_race_room_8",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
@@ -16,9 +16,21 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    "lt:escape_race/one_team",
     {
-      "type": "lt:escape_race/rooms/8"
+      "type": "ltminigames:position_players",
+      "participants": "spawn",
+      "spectators": "spawn"
+    },
+    {
+      "type": "ltminigames:on_entity_interaction",
+      "source_predicate": { "type": "minecraft:player" },
+      "target_predicate": { "type": "tropicraft:shoebill_stork" },
+      "source_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["say test"]
+        }
+      ]
     }
   ]
 }
