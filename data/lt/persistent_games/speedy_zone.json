@@ -1,5 +1,5 @@
 {
-  "dimension": "minecraft:overworld",
+  "dimension": "tropicraft:tropics",
   "behaviors": [
     {
       "type": "ltminigames:game_region",
