@@ -1,0 +1,10 @@
+{
+  "dimension": "minecraft:overworld",
+  "behaviors": [
+    {
+      "type": "ltminigames:game_region",
+      "region": "speedy"
+    },
+    "ltminigames:make_speedy"
+  ]
+}
