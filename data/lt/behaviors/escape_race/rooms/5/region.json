@@ -1,0 +1,48 @@
+[
+  {
+    "type": "ltminigames:block_in_region",
+    "region": "$region",
+    "run_once": true,
+    "predicate": {
+      "blocks": ["$block"]
+    },
+    "actions": [
+      {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:correct"
+        }
+      },
+      {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "Block Placed",
+            "color": "gold"
+          },
+          "fade_in": 10,
+          "stay": 60,
+          "fade_out": 10
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:item_dropper",
+    "loot": [
+      {
+        "id": "$block",
+        "components": {
+          "can_place_on": [{ "blocks": ["tropicraft:mud"] }]
+        }
+      }
+    ],
+    "region": "$region_spawn",
+    "interval_ticks": 1,
+    "beacon": false
+  }
+]

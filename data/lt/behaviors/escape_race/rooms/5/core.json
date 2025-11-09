@@ -1,0 +1,43 @@
+[
+  {
+    "type": "lt:escape_race/rooms/5/region",
+    "block": "minecraft:magenta_wool",
+    "region": "1_spot",
+    "region_spawn": "1_spawn"
+  },
+  {
+    "type": "lt:escape_race/rooms/5/region",
+    "block": "minecraft:pink_wool",
+    "region": "2_spot",
+    "region_spawn": "2_spawn"
+  },
+  {
+    "type": "lt:escape_race/rooms/5/region",
+    "block": "minecraft:light_blue_wool",
+    "region": "3_spot",
+    "region_spawn": "3_spawn"
+  },
+  {
+    "type": "ltminigames:block_in_region",
+    "region": "spot",
+    "run_once": true,
+    "all_match": true,
+    "predicate": {
+      "blocks": "#minecraft:wool"
+    },
+    "actions": [
+      {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "GG",
+            "color": "gold",
+            "italic": true
+          }
+        }
+      }
+    ]
+  }
+]

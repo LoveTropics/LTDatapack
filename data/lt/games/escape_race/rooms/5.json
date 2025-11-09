@@ -16,43 +16,12 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    "lt:escape_race/one_team",
-    {
-      "type": "lt:escape_race/rooms/5"
-    },
-    {
-      "type": "ltminigames:while_in_region",
-      "regions": {
-        "test": {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "ltminigames.minigame.win",
-            "color": "gold"
-          }
-        }
-      },
-      "interval": 2
-    },
-    {
-      "type": "ltminigames:block_in_region",
-      "region": "test",
-      "predicate": {
-        "blocks": ["minecraft:diamond_block"]
-      },
-      "actions": [
-        {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "ltminigames.minigame.win",
-            "color": "gold"
-          }
-        }
-      ]
-    },
     {
       "type": "ltminigames:position_players",
       "participants": "spawn",
       "spectators": "spawn"
-    }
+    },
+    "lt:escape_race/one_team",
+    "lt:escape_race/rooms/5/core"
   ]
 }
