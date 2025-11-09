@@ -1,0 +1,17 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:game_region",
+      "region": "test"
+    },
+    {
+      "type": "ltminigames:send_message",
+      "message": {
+        "translate": "ltminigames.minigame.biodiversity_blitz.teams.intro2",
+        "color": "gold",
+        "italic": true
+      }
+    }
+  ]
+}
