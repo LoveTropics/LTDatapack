@@ -2,6 +2,7 @@
   "track": "minecraft:ward",
   "name": "ward",
   "display_name": "ward",
+  "icon":{"id": "minecraft:music_disc_ward"},
   "ticks": {
     "3080": { "forward": true, "left": false, "back": false, "right": false },
     "3089": { "forward": false, "left": false, "back": true, "right": false },
