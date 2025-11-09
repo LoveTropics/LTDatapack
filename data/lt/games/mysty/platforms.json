@@ -19,7 +19,7 @@
     "ltminigames:last_remaining_win_trigger",
     {
       "type": "ltminigames:block_party",
-      "floor": "blocks",
+      "floor": "floor",
       "blocks": [
         "minecraft:red_mushroom_block",
         "minecraft:shroomlight",
