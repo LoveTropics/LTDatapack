@@ -3,7 +3,8 @@
   "slides": [
     {
       "type": "video",
-      "file": "https://gegy.dev/assets/snlt.mp4"
+      "file": "https://gegy.dev/assets/snlt.mp4",
+      "duration": 180.0
     }
   ]
 }
