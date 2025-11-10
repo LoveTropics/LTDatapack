@@ -21,8 +21,8 @@
     "spectators": "point_1"
   },
   {
-    "type": "ltminigames:turtle_rider",
-    "turtle": {
+    "type": "ltminigames:rider",
+    "entity": {
       "type": "tropicraft:turtle",
       "tag": {
         "Invulnerable": true,
