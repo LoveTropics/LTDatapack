@@ -1,11 +1,11 @@
 {
-  "description": {"translate": "lt.poi.theater"},
+  "description": { "translate": "lt.poi.theater" },
   "icon": {
     "item": {
       "id": "ltextras:curtain"
     }
   },
-  "pos": [-179.5, 133, -260.0],
-  "angle": -90,
+  "pos": [1246, 175, -921],
+  "angle": 0,
   "map": "lt:tropics"
 }

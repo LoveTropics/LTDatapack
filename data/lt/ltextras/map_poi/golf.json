@@ -1,5 +1,5 @@
 {
-  "description": {"translate": "lt.poi.crab_golf"},
+  "description": { "translate": "lt.poi.crab_golf" },
   "icon": {
     "item": {
       "id": "peekaboo:plushie",
@@ -11,7 +11,7 @@
       }
     }
   },
-  "pos": [117, 133, -47],
-  "angle": -90,
+  "pos": [1113, 160, -1146],
+  "angle": 90,
   "map": "lt:tropics"
 }
