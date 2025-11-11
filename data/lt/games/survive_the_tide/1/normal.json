@@ -8,6 +8,7 @@
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "minimum_participants": 3,
   "maximum_participants": 1000,
+  "intro_slideshow": "lt:stt_intro",
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
