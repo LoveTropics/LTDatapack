@@ -1,0 +1,27 @@
+{
+  "id": "item/ltextras:fire_extinguisher",
+  "type": "compound",
+  "tags": [
+    {
+      "tag": "impulse_on_hit",
+      "type": "float"
+    },
+    {
+      "tag": "impulse_on_miss",
+      "type": "float"
+    },
+    {
+      "tag": "durability_loss_per_tick",
+      "type": "int"
+    },
+    {
+      "tag": "should_extinguish",
+      "type": "boolean"
+    },
+    {
+      "tag": "shoot_dist",
+      "type": "float"
+    }
+  ]
+}
+
