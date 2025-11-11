@@ -1,0 +1,10 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://gegy.dev/assets/lt/video.mkv",
+      "duration": 75.0
+    }
+  ]
+}
