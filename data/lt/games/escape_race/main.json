@@ -54,7 +54,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race",
+    "load_from": "lt:escape_race_warehouse_rush",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [

@@ -1,10 +1,17 @@
 [
   {
     "type": "ltminigames:position_players",
-    "participants": [
-        "break_room"
-    ],
-    "spectators": ["break_room"],
-    "face_region": "center"
+    "participants": "spawn"
+  },
+  {
+    "type": "ltminigames:escape_race/warehouse_setup",
+    "rooms": [
+      {
+        "entranceRegion": "room_entrance_1",
+        "cost": 10,
+        "facing": 0,
+        "displayName": {"text":  "Test Room"}
+      }
+    ]
   }
 ]
