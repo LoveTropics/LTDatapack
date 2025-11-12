@@ -1,0 +1,10 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://unreal.codes/2025/11/12/1762985598820-IMG_1555.png",
+      "duration": 6000.0
+    }
+  ]
+}
