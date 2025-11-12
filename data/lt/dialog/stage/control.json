@@ -26,7 +26,7 @@
               "dialog": "lt:stage/control"
             }
           },
-          "dialogs": ["lt:stage/screen/main", "lt:stage/screen/big"]
+          "dialogs": ["lt:stage/screen/main", "lt:stage/screen/big", "lt:stage/screen/back"]
         }
       }
     },

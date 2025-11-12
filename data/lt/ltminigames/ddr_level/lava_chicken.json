@@ -1,1 +1,32 @@
-{"track":"minecraft:lava_chicken","icon":{"id": "minecraft:music_disc_lava_chicken"},"name":"LavaChicken","display_name":"LavaChicken","ticks":{"88":{"forward":false,"left":true,"back":false,"right":false},"34":{"forward":false,"left":true,"back":false,"right":false},"57":{"forward":true,"left":false,"back":false,"right":false},"26":{"forward":true,"left":false,"back":false,"right":false},"130":{"forward":true,"left":false,"back":false,"right":false},"132":{"forward":false,"left":true,"back":false,"right":false},"100":{"forward":false,"left":false,"back":false,"right":true},"122":{"forward":false,"left":false,"back":true,"right":false},"134":{"forward":false,"left":false,"back":true,"right":false},"113":{"forward":false,"left":false,"back":false,"right":true},"104":{"forward":true,"left":false,"back":false,"right":false},"126":{"forward":false,"left":false,"back":false,"right":true},"106":{"forward":false,"left":true,"back":false,"right":false},"139":{"forward":false,"left":false,"back":false,"right":true},"91":{"forward":false,"left":false,"back":true,"right":false},"118":{"forward":true,"left":false,"back":false,"right":false},"81":{"forward":false,"left":false,"back":false,"right":true},"119":{"forward":false,"left":true,"back":false,"right":false},"109":{"forward":false,"left":false,"back":true,"right":false},"50":{"forward":false,"left":false,"back":false,"right":true},"72":{"forward":false,"left":false,"back":true,"right":false},"41":{"forward":false,"left":false,"back":true,"right":false},"64":{"forward":false,"left":true,"back":false,"right":false},"86":{"forward":true,"left":false,"back":false,"right":false}}}
+{
+  "track": "minecraft:lava_chicken",
+  "icon": { "id": "minecraft:music_disc_lava_chicken" },
+  "name": "LavaChicken",
+  "display_name": "LavaChicken",
+  "ticks": {
+    "88": { "forward": false, "left": true, "back": false, "right": false },
+    "34": { "forward": false, "left": true, "back": false, "right": false },
+    "57": { "forward": true, "left": false, "back": false, "right": false },
+    "26": { "forward": true, "left": false, "back": false, "right": false },
+    "130": { "forward": true, "left": false, "back": false, "right": false },
+    "132": { "forward": false, "left": true, "back": false, "right": false },
+    "100": { "forward": false, "left": false, "back": false, "right": true },
+    "122": { "forward": false, "left": false, "back": true, "right": false },
+    "134": { "forward": false, "left": false, "back": true, "right": false },
+    "113": { "forward": false, "left": false, "back": false, "right": true },
+    "104": { "forward": true, "left": false, "back": false, "right": false },
+    "126": { "forward": false, "left": false, "back": false, "right": true },
+    "106": { "forward": false, "left": true, "back": false, "right": false },
+    "139": { "forward": false, "left": false, "back": false, "right": true },
+    "91": { "forward": false, "left": false, "back": true, "right": false },
+    "118": { "forward": true, "left": false, "back": false, "right": false },
+    "81": { "forward": false, "left": false, "back": false, "right": true },
+    "119": { "forward": false, "left": true, "back": false, "right": false },
+    "109": { "forward": false, "left": false, "back": true, "right": false },
+    "50": { "forward": false, "left": false, "back": false, "right": true },
+    "72": { "forward": false, "left": false, "back": true, "right": false },
+    "41": { "forward": false, "left": false, "back": true, "right": false },
+    "64": { "forward": false, "left": true, "back": false, "right": false },
+    "86": { "forward": true, "left": false, "back": false, "right": false }
+  }
+}

@@ -1,2 +1,3 @@
 $data modify storage lt:stage videos.main append value {"label":"$(video_name)","action":{"type":"minecraft:run_command","command":"function lt:stage/screen/action/play_video {name:\"main\",video_id:\"$(video_id)\"}"}}
 $data modify storage lt:stage videos.big append value {"label":"$(video_name)","action":{"type":"minecraft:run_command","command":"function lt:stage/screen/action/play_video {name:\"big\",video_id:\"$(video_id)\"}"}}
+$data modify storage lt:stage videos.back append value {"label":"$(video_name)","action":{"type":"minecraft:run_command","command":"function lt:stage/screen/action/play_video {name:\"back\",video_id:\"$(video_id)\"}"}}

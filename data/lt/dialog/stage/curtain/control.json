@@ -14,7 +14,7 @@
   "columns": 2,
   "actions": [
     {
-      "label": "Rise Curtain",
+      "label": "Rise Main Curtain",
       "action": {
         "type": "minecraft:dynamic/custom",
         "id": "ltextras:run_function",
@@ -25,13 +25,35 @@
       }
     },
     {
-      "label": "Lower Curtain",
+      "label": "Lower Main Curtain",
       "action": {
         "type": "minecraft:dynamic/custom",
         "id": "ltextras:run_function",
         "additions": {
           "function": "lt:stage/curtain/action/lower",
           "name": "stage"
+        }
+      }
+    },
+    {
+      "label": "Rise Back Curtain",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/curtain/action/rise",
+          "name": "back"
+        }
+      }
+    },
+    {
+      "label": "Lower Back Curtain",
+      "action": {
+        "type": "minecraft:dynamic/custom",
+        "id": "ltextras:run_function",
+        "additions": {
+          "function": "lt:stage/curtain/action/lower",
+          "name": "back"
         }
       }
     }
