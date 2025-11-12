@@ -1,0 +1,10 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://pachamama.org/hubfs/identity/logos/logo.png",
+      "duration": 500.0
+    }
+  ]
+}
