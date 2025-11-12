@@ -1,0 +1,10 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://unreal.codes/2025/11/12/1762985252227-lt25-escape-race-teaser-test2.png",
+      "duration": 6000.0
+    }
+  ]
+}
