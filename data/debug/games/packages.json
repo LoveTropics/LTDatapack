@@ -15,7 +15,6 @@
       "participant": "creative",
       "spectator": "spectator"
     },
-    "ltminigames:assign_player_roles",
     {
       "type": "ltminigames:join_late_with_role",
       "role": "participant"
