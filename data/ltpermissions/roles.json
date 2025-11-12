@@ -8,6 +8,15 @@
       }
     }
   },
+  "alt_account": {
+    "includes": ["administration"],
+    "overrides": {
+      "name_decoration": {
+        "bypass_whitelist": true,
+        "style": "#31a2ac"
+      }
+    }
+  },
   "live": {
     "includes": ["host"],
     "overrides": {
