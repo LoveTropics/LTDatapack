@@ -12,6 +12,10 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
+        "prefix": {
+          "text": "[ALT] ",
+          "color": "red"
+        },
         "bypass_whitelist": true,
         "style": "#31a2ac"
       }
