@@ -13,7 +13,7 @@
   {
     "type": "ltminigames:bind_controls",
     "scopes": {
-      "initiator": {
+      "admins": {
         "start_microgames": [
           "lt:river_race/start_microgames"
         ]
