@@ -24,8 +24,7 @@
       },
       "countdown": 5,
       "actions": {
-        "type": "ltminigames:swap_players",
-        "distance_threshold": "$donation_threshold"
+        "type": "ltminigames:swap_players"
       }
     }
   ]
