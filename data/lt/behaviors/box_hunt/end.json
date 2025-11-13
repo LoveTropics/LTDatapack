@@ -1,0 +1,18 @@
+[
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "pitch": 0.2
+      }
+    ],
+    "target": "all"
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 100
+  },
+  "lt:common/game_over_title"
+]

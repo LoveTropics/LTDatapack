@@ -1,0 +1,91 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.box_hunt",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "box_hunt",
+  "backend_id": "lt:box_hunt",
+  "minimum_participants": 2,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/hiders_seekers"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:box_hunt",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "hiders": ["boxes_spawn"],
+        "seekers": ["hunters_spawn"]
+      },
+      "spectators": [
+        "boxes_spawn"
+      ]
+    },
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "last_team": true
+    },
+    {
+      "type": "ltminigames:update_word_boxes_in_world",
+      "block_entity_type": "ltextras:word_box"
+    },
+    "ltminigames:disable_hunger",
+    "lt:box_hunt/equipment",
+    "lt:box_hunt/actions",
+    "lt:survive_the_tide/mode/teams/glow",
+    "ltminigames:spectator_chase",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true",
+        "naturalRegeneration": "false",
+        "locatorBar": "false"
+      }
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200
+    },
+    "lt:common/announce_game_over",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
+  ]
+}

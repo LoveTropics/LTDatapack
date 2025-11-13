@@ -8,10 +8,56 @@
     "rooms": [
       {
         "entranceRegion": "room_entrance_1",
+        "cost": 5,
+        "facing": 0,
+        "displayName": {"text":  "Lt Searge's Gym"}
+      },
+      {
+        "entranceRegion": "room_entrance_2",
+        "cost": 20,
+        "facing": 180,
+        "displayName": {"text":  "Turn On The Lights!"}
+      },
+      {
+        "entranceRegion": "room_entrance_3",
         "cost": 10,
         "facing": 0,
-        "displayName": {"text":  "Test Room"}
+        "displayName": {"text":  "Turn On The Lights!"}
+      },
+      {
+        "entranceRegion": "room_entrance_4",
+        "cost": 15,
+        "facing": 180,
+        "displayName": {"text":  "Terry's Trash Trawling"}
+      },
+      {
+        "entranceRegion": "room_entrance_5",
+        "cost": 10,
+        "facing": 0,
+        "displayName": {"text":  "Doge-A-Gule"}
+      },
+      {
+        "entranceRegion": "room_entrance_6",
+        "cost": 10,
+        "facing": 180,
+        "displayName": {"text":  "Pipe Plundering"}
       }
     ]
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:spawn_entity_at_regions",
+      "entity": {
+        "type": "ltextras:forklift",
+        "tag": {
+          "RequiresCertification": true
+        }
+      },
+      "regions_to_spawn_at": ["forklift_spawn"],
+      "entity_count_per_region": 1,
+      "at_heightmap": false
+    }
   }
+
 ]

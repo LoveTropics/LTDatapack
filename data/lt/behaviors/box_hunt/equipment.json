@@ -1,0 +1,46 @@
+[
+  {
+    "type": "ltminigames:on_spawn_teams",
+    "role": "participant",
+    "actions": {
+      "hiders": [
+        {
+          "type": "ltminigames:disguise_as_player_box"
+        }
+      ],
+      "seekers": [
+        {
+          "type": "ltminigames:add_equipment",
+          "head": {
+            "id": "minecraft:leather_helmet",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "trim": {
+                "material": "gold",
+                "pattern": "wild"
+              }
+            }
+          },
+          "chest": {
+            "id": "minecraft:leather_chestplate",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
+            }
+          },
+          "color_by_team": false,
+          "hotbar_team_items": {
+            "seekers": {
+              "id": "minecraft:stone_sword",
+              "components": {
+                "item_name": "Box Finder",
+                "ltextras:undroppable": {}
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

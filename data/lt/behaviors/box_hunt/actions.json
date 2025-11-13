@@ -1,0 +1,90 @@
+[
+  "lt:box_hunt/freeze",
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 1,
+      "released": 30,
+      "end": 150
+    }
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:hide_name_tags"
+    }
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "action": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:max_health",
+        "modifier": {
+          "id": "lt:box_hunt",
+          "amount": -10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "actions": {
+      "600": [
+        {
+          "type": "ltminigames:show_title",
+          "message": {
+            "translate": "ltminigames.minigame.go",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        }
+      ],
+      "end": "ltminigames:end_game",
+      "close": "ltminigames:close_game"
+    }
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": "start",
+          "end": "released"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.box_hunt.hiding",
+          "color": "yellow"
+        },
+        "color": "yellow",
+        "reversed": true,
+        "include_time": true
+      },
+      {
+        "period": {
+          "start": "released",
+          "end": "end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.box_hunt.seeking",
+          "color": "green"
+        },
+        "color": "green",
+        "reversed": true,
+        "include_time": true
+      }
+    ]
+  }
+]

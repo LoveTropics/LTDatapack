@@ -701,5 +701,8 @@
   "lt.collectible.hover_boots.tooltip.leg_movement": "- Leg Movement",
   "lt.collectible.hover_boots.tooltip.space_between_ground": "+ Space Between Ground",
   "lt.text.global_stats": "Global Stats",
-  "lt.text.player_stats": "Player Stats"
+  "lt.text.player_stats": "Player Stats",
+  "ltminigames.minigame.box_hunt": "Box Hunt",
+  "ltminigames.minigame.box_hunt.hiding": "Hiders hiding!",
+  "ltminigames.minigame.box_hunt.seeking": "Seekers seeking!"
 }
