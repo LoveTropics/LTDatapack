@@ -78,7 +78,7 @@ function lt:map/generic/launch_pad/on_tick
 function lt:stage/on_tick
 
 # Forklifts
-function lt:forklift/on_tick
+#function lt:forklift/on_tick
 
 
 #Turtle Clash (Temp)
