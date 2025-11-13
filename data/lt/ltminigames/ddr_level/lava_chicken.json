@@ -3,6 +3,7 @@
   "icon": { "id": "minecraft:music_disc_lava_chicken" },
   "name": "LavaChicken",
   "display_name": "LavaChicken",
+  "difficulty": "hard",
   "ticks": {
     "88": { "forward": false, "left": true, "back": false, "right": false },
     "34": { "forward": false, "left": true, "back": false, "right": false },
