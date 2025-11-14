@@ -1,0 +1,70 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": "player_spawn",
+    "spectators": "spectator_spawn"
+  },
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  "ltminigames:progression",
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "participants",
+    "actions": {
+      "15": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:netherite_shovel",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "enchantment_glint_override": true,
+              "tool": {
+                "rules": [
+                  {
+                    "blocks": ["minecraft:snow_block"],
+                    "speed": 5000
+                  }
+                ]
+              },
+              "can_break": {
+                "blocks": ["minecraft:snow_block"]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ltminigames:spleef",
+    "forced_progression_seconds": 300,
+    "floors": 1,
+    "floor_material": "minecraft:snow_block",
+    "floor_breaking_material": "minecraft:ice",
+    "flavor_text": "volcano",
+    "break_count": 10,
+    "break_interval": 40
+  },
+  {
+    "type": "ltminigames:cancel_player_damage",
+    "knockback": false
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator"
+  }
+]

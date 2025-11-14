@@ -1,0 +1,25 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.spleef",
+    "color": "dark_green"
+  },
+  "icon": "ltminigames:minigames/spleef/icon",
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty_spleef_normal"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:force_load_region",
+      "region": "force_load"
+    },
+    "lt:mysty/spleef/common"
+  ]
+}
