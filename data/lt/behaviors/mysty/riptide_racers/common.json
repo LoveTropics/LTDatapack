@@ -87,5 +87,14 @@
     "title": { "translate": "ltminigames.minigame.parkour_race_teams", "color": "yellow", "bold": true },
     "header": [{ "translate": "ltminigames.minigame.sidebar.race_course", "color": "gray" }, ""],
     "statistic_holder": "player"
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:disable_riptide_collision"
+    }
+  },
+  {
+    "type": "ltminigames:cancel_player_attacks"
   }
 ]
