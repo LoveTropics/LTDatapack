@@ -1,0 +1,91 @@
+[
+  "ltminigames:spectator_chase",
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "ltminigames:immediate_respawn",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "player_spawn",
+    "spectators": "spectator_spawn"
+  },
+  {
+    "type": "ltminigames:checkpoints",
+    "region": "checkpoint",
+    "angle": -180.0
+  },
+  {
+    "type": "ltminigames:kill_in_void",
+    "void_below_region": "void"
+  },
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "action": {
+      "type": "ltminigames:add_equipment",
+      "items": [
+        {
+          "id": "minecraft:trident",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "enchantments": { "riptide": 3 }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "finish": [
+        {
+          "type": "ltminigames:set_player_role",
+          "role": "spectator"
+        },
+        {
+          "type": "ltminigames:apply_to_player",
+          "target": "all",
+          "actions": [
+            {
+              "type": "ltminigames:play_sound",
+              "sound": "minecraft:entity.arrow.hit_player"
+            },
+            {
+              "type": "ltminigames:send_message",
+              "message": {
+                "translate": "ltminigames.minigame.player_completed_course",
+                "color": "gold"
+              }
+            }
+          ]
+        },
+        "ltminigames:set_total_time"
+      ]
+    },
+    "interval": 2
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 600
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "total_time",
+    "order": "min",
+    "count": 10,
+    "title": { "translate": "ltminigames.minigame.parkour_race_teams", "color": "yellow", "bold": true },
+    "header": [{ "translate": "ltminigames.minigame.sidebar.race_course", "color": "gray" }, ""],
+    "statistic_holder": "player"
+  }
+]

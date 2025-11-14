@@ -1,0 +1,20 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mysty.platforms",
+    "color": "dark_green"
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty_trident_1"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:mysty/riptide_racers/common"
+  ]
+}
