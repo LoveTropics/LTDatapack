@@ -27,7 +27,7 @@
         "type": "minecraft:player",
         "equipment": {
           "mainhand": {
-            "items": "minecraft:cake"
+            "items": "ltextras:high_heels"
           }
         }
       },
@@ -35,7 +35,7 @@
       "target_actions": [
         {
           "type": "ltminigames:run_commands",
-          "player": ["say NOOOO THESE SHOES SUCK"]
+          "player": ["item replace entity @s armor.feet with ltextras:high_heels"]
         }
       ],
       "source_actions": [
