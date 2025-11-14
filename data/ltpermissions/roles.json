@@ -2,8 +2,8 @@
   "organiser": {
     "includes": ["administration"],
     "overrides": {
+      "bypass_whitelist": true,
       "name_decoration": {
-        "bypass_whitelist": true,
         "style": "#2ecc71"
       }
     }
@@ -16,9 +16,9 @@
           "text": "[ALT] ",
           "color": "red"
         },
-        "bypass_whitelist": true,
         "style": "#31a2ac"
-      }
+      },
+      "bypass_whitelist": true
     }
   },
   "live": {
@@ -194,6 +194,17 @@
   "commander": {
     "overrides": {
       "command_feedback": true
+    }
+  },
+  "event": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[EVENT] ",
+          "color": "#CF27F5"
+        },
+        "style": "#CF27F5"
+      }
     }
   }
 }
