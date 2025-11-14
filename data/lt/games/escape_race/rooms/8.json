@@ -23,12 +23,73 @@
     },
     {
       "type": "ltminigames:on_entity_interaction",
-      "source_predicate": { "type": "minecraft:player" },
+      "source_predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:cake"
+          }
+        }
+      },
       "target_predicate": { "type": "tropicraft:shoebill_stork" },
+      "target_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["say NOOOO THESE SHOES SUCK"]
+        }
+      ],
       "source_actions": [
         {
           "type": "ltminigames:run_commands",
-          "player": ["say test"]
+          "player": ["clear @s minecraft:cake"]
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:on_entity_interaction",
+      "source_predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:stone"
+          }
+        }
+      },
+      "target_predicate": { "type": "tropicraft:shoebill_stork" },
+      "target_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["say NOOOO THESE SHOES SUCK"]
+        }
+      ],
+      "source_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["clear @s minecraft:stone"]
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:on_entity_interaction",
+      "source_predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+          "mainhand": {
+            "items": "ltextras:high_heels"
+          }
+        }
+      },
+      "target_predicate": { "type": "tropicraft:shoebill_stork" },
+      "target_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["say YOU FOUND MY SHOES"]
+        }
+      ],
+      "source_actions": [
+        {
+          "type": "ltminigames:run_commands",
+          "player": ["clear @s ltextras:high_heels"]
         }
       ]
     }
