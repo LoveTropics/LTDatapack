@@ -1,0 +1,23 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.turtle_race",
+    "color": "light_purple"
+  },
+  "icon": "ltminigames:gui/sprites/minigames/turtle_race/turtle_icon_1.png",
+  "statistics_key": "race_standard_21",
+  "backend_id": "lt:turtle_race",
+  "minimum_participants": 4,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:turtle_race_21",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:turtle_race/standard",
+      "track_point_count": 130,
+      "lap_count": 1
+    }
+  ]
+}

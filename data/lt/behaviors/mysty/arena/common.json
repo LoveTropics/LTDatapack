@@ -1,0 +1,31 @@
+[
+  "ltminigames:spectator_chase",
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "player_spawn",
+    "spectators": "spectator_spawn"
+  },
+  {
+    "type": "ltminigames:kill_in_void",
+    "void_below_region": "void"
+  }
+]

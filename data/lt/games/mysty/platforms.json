@@ -52,7 +52,7 @@
         "fallDamage": "false",
         "announceAdvancements": "false",
         "doImmediateRespawn": "true",
-        "locatorBar": false
+        "locatorBar": "false"
       }
     },
     "ltminigames:disable_hunger",

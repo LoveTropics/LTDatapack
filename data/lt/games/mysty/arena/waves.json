@@ -1,14 +1,15 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.mysty.platforms",
+    "translate": "ltminigames.minigame.spleef",
     "color": "dark_green"
   },
+  "icon": "ltminigames:minigames/spleef/icon",
+  "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
-  "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_trident_1"
+    "load_from": "lt:mysty/arena/waves"
   },
   "behaviors": [
     {
@@ -16,6 +17,8 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    "lt:mysty/riptide_racers/common"
+    {
+      "type": "lt:mysty/arena/common"
+    }
   ]
 }
