@@ -33,5 +33,6 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "minecraft:elytra"
+  "item": "minecraft:elytra",
+  "auto_equip": true
 }

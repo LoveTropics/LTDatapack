@@ -708,5 +708,11 @@
   "lt.charity.name": " The Pachamama  \nAlliance",
   "lt.dire.funny_text": "9x9!",
   "lt.collectible.dire_hat.name": "Direwolf20's 'Hat'",
-  "lt.collectible.dire_hat.description": "Warning: May cause extreme urge to build 9x9s"
+  "lt.collectible.dire_hat.description": "Warning: May cause extreme urge to build 9x9s",
+  "lt.collectible.gold_top_hat.name": "Golden Top Hat",
+  "lt.collectible.gold_top_hat.description": "A top hat made of pure gold",
+  "lt.collectible.silver_top_hat.name": "Silver Top Hat",
+  "lt.collectible.silver_top_hat.description": "A top hat made of pure silver",
+  "lt.collectible.bronze_top_hat.name": "Bronze Top Hat",
+  "lt.collectible.bronze_top_hat.description": "A top hat made of bronze"
 }
