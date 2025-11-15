@@ -1,0 +1,7 @@
+{
+  "parent": "lt:item/top_hat",
+  "textures": {
+    "0": "lt:item/top_hat_bronze",
+    "particle": "lt:item/top_hat_bronze"
+  }
+}
