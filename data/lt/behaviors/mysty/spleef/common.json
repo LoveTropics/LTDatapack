@@ -26,6 +26,15 @@
     }
   },
   {
+    "type": "ltminigames:block_break",
+    "action": [
+      {
+        "type": "ltminigames:give_loot",
+        "loot_table": "lt:mysty/snowball"
+      }
+    ]
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
