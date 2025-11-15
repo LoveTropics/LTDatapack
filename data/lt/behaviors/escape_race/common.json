@@ -25,5 +25,6 @@
       "ltminigames:extinguish_player"
     ]
   },
-  "ltminigames:rewards_from_microgame"
+  "ltminigames:rewards_from_microgame",
+  "lt:escape_race/powerups/upset_stomach"
 ]
