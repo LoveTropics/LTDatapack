@@ -1,6 +1,6 @@
 {
   "components": {
-    "ltextras:cooldown_override": 70,
+    "ltextras:cooldown_override": 230,
     "minecraft:custom_name": {
       "translate": "lt.collectible.infinite_ender_pearl.name",
       "color": "#BFEA00",
