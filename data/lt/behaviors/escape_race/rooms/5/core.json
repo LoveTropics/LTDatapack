@@ -1,19 +1,24 @@
 [
   {
+    "type": "ltminigames:periodic_actions",
+    "interval": 400,
+    "actions": ["lt:escape_race/rooms/5/rain"]
+  },
+  {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:magenta_wool",
+    "block": "minecraft:yellow_concrete",
     "region": "1_spot",
     "region_spawn": "1_spawn"
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:pink_wool",
+    "block": "minecraft:red_concrete",
     "region": "2_spot",
     "region_spawn": "2_spawn"
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:light_blue_wool",
+    "block": "minecraft:blue_concrete",
     "region": "3_spot",
     "region_spawn": "3_spawn"
   },
@@ -23,7 +28,7 @@
     "run_once": true,
     "all_match": true,
     "predicate": {
-      "blocks": "#minecraft:wool"
+      "blocks": "#c:concretes"
     },
     "actions": [
       {

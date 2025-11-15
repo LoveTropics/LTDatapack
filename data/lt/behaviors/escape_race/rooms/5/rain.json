@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:apply_to_player",
+    "target": "participants",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "WATCH OUT!!!",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:delayed",
+    "delay": 50,
+    "actions": [
+      {
+        "type": "ltminigames:apply_to_player",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:spawn_entities_at_regions_over_time",
+            "entity": {
+              "type": "ltextras:falling_propagule"
+            },
+            "entity_count": 100,
+            "ticks_to_spawn_for": 20,
+            "regions_to_spawn_at": ["rain"]
+          },
+          {
+            "type": "ltminigames:send_message",
+            "message": {
+              "translate": "RAIN",
+              "color": "gold",
+              "italic": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
