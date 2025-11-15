@@ -28,6 +28,7 @@
             },
             "entity_count": 100,
             "ticks_to_spawn_for": 20,
+            "at_heightmap": false,
             "regions_to_spawn_at": ["rain"]
           },
           {
