@@ -1,8 +1,9 @@
 [
   {
-    "type": "ltminigames:periodic_actions",
-    "interval": 400,
-    "actions": ["lt:escape_race/rooms/5/rain"]
+    "type": "lt:escape_race/rooms/5/rain",
+    "interval": 500,
+    "count": 1,
+    "ticks": 200
   },
   {
     "type": "lt:escape_race/rooms/5/region",
@@ -18,7 +19,7 @@
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:blue_concrete",
+    "block": "minecraft:green_concrete",
     "region": "3_spot",
     "region_spawn": "3_spawn"
   },

@@ -1,21 +1,7 @@
 [
   {
-    "type": "ltminigames:apply_to_player",
-    "target": "participants",
-    "actions": [
-      {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "WATCH OUT!!!",
-          "color": "gold",
-          "italic": true
-        }
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:delayed",
-    "delay": 50,
+    "type": "ltminigames:periodic_actions",
+    "interval": "$interval",
     "actions": [
       {
         "type": "ltminigames:apply_to_player",
@@ -26,21 +12,15 @@
             "entity": {
               "type": "ltextras:falling_propagule"
             },
-            "entity_count": 100,
-            "ticks_to_spawn_for": 20,
+            "entity_count": "$count",
+            "ticks_to_spawn_for": "$ticks",
             "at_heightmap": false,
             "regions_to_spawn_at": ["rain"]
-          },
-          {
-            "type": "ltminigames:send_message",
-            "message": {
-              "translate": "RAIN",
-              "color": "gold",
-              "italic": true
-            }
           }
         ]
       }
     ]
-  }
+  },
+
+  "ltminigames:quiet_explosions"
 ]
