@@ -4,11 +4,12 @@
     "color": "dark_green"
   },
   "icon": "ltminigames:minigames/spleef/icon",
+  "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_spleef_normal"
+    "load_from": "lt:mysty/spleef/normal"
   },
   "behaviors": [
     {
@@ -17,9 +18,10 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type": "ltminigames:force_load_region",
-      "region": "force_load"
-    },
-    "lt:mysty/spleef/common"
+      "type": "lt:mysty/spleef/common",
+      "floors": 1,
+      "break_count": 50,
+      "break_interval": 40
+    }
   ]
 }

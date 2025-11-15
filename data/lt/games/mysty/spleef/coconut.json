@@ -1,0 +1,45 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.spleef",
+    "color": "dark_green"
+  },
+  "icon": "ltminigames:minigames/spleef/icon",
+  "hide_from_list": true,
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty/spleef/coconut"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "lt:mysty/spleef/common",
+      "floors": 1,
+      "break_count": 50,
+      "break_interval": 40
+    },
+    "ltminigames:quiet_explosions",
+    {
+      "type": "ltminigames:set_role",
+      "role": "participant",
+      "action": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 32,
+            "components": {
+              "ltextras:undroppable": {},
+              "ltextras:cooldown_override": 10
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

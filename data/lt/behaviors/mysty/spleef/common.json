@@ -5,6 +5,7 @@
     "spectators": "spectator_spawn"
   },
   "ltminigames:spectator_chase",
+  "ltminigames:snowball_break_block",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
@@ -17,46 +18,54 @@
       "doImmediateRespawn": "true"
     }
   },
-  "ltminigames:progression",
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "game": 15,
+      "finish": 30000
+    }
+  },
   {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
-      "15": {
-        "type": "ltminigames:add_equipment",
-        "items": [
-          {
-            "id": "minecraft:netherite_shovel",
-            "components": {
-              "unbreakable": {},
-              "ltextras:undroppable": {},
-              "enchantment_glint_override": true,
-              "tool": {
-                "rules": [
-                  {
-                    "blocks": ["minecraft:snow_block"],
-                    "speed": 5000
-                  }
-                ]
-              },
-              "can_break": {
-                "blocks": ["minecraft:snow_block"]
+      "game": [
+        {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "minecraft:netherite_shovel",
+              "components": {
+                "unbreakable": {},
+                "ltextras:undroppable": {},
+                "enchantment_glint_override": true,
+                "tool": {
+                  "rules": [
+                    {
+                      "blocks": ["minecraft:snow_block"],
+                      "speed": 5000
+                    }
+                  ]
+                },
+                "can_break": {
+                  "blocks": ["minecraft:snow_block"]
+                }
               }
             }
-          }
-        ]
-      }
+          ]
+        }
+      ]
     }
   },
   {
     "type": "ltminigames:spleef",
-    "forced_progression_seconds": 300,
-    "floors": 1,
+    "forced_progression_seconds": 10,
+    "floors": "$floors",
     "floor_material": "minecraft:snow_block",
-    "floor_breaking_material": "minecraft:ice",
+    "floor_breaking_material": "minecraft:blue_ice",
     "flavor_text": "volcano",
-    "break_count": 10,
-    "break_interval": 40
+    "break_count": "$break_count",
+    "break_interval": "$break_interval"
   },
   {
     "type": "ltminigames:cancel_player_damage",

@@ -4,6 +4,7 @@
     "color": "dark_green"
   },
   "statistics_key": "block_party",
+  "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
@@ -65,9 +66,7 @@
         "target": "all",
         "actions": {
           "type": "ltminigames:give_reward",
-          "items": [
-            "ltextras:tropicoin"
-          ],
+          "items": ["ltextras:tropicoin"],
           "statistic_binding": {
             "statistic": "rounds_survived"
           }

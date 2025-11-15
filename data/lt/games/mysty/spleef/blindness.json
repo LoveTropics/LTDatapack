@@ -1,0 +1,49 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.spleef",
+    "color": "dark_green"
+  },
+  "icon": "ltminigames:minigames/spleef/icon",
+  "hide_from_list": true,
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty/spleef/blindness"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "lt:mysty/spleef/common",
+      "floors": 1,
+      "break_count": 50,
+      "break_interval": 40
+    },
+    {
+      "type": "ltminigames:set_role",
+      "role": "participant",
+      "action": {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:blindness",
+            "seconds": 99999,
+            "amplifier": 0,
+            "particles": false,
+            "show_icon": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "ltminigames:on_death",
+      "exclude_self": false,
+      "killed_action": [{ "type": "ltminigames:clear_effects" }],
+      "killer_action": []
+    }
+  ]
+}
