@@ -196,8 +196,44 @@
       "command_feedback": true
     }
   },
+  "event_streamer": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[STREAMER] ",
+          "color": "#F5A927"
+        },
+        "style": "#F5A927"
+      }
+    }
+  },
   "event": {
     "overrides": {
+      "commands": {
+        "help": "allow",
+        "game join": "allow",
+        "game spectate": "allow",
+        "game play": "allow",
+        "game leave": "allow",
+        "game register": "allow",
+        "me": "allow",
+        "w": "allow",
+        "tell": "allow",
+        "msg": "allow",
+        "chat": "allow",
+        "shout": "allow",
+        "spawnitems": "deny",
+        "tpa": "deny",
+        "tpaccept": "deny",
+        "warp": "deny",
+        "tools": "deny",
+        "about": "deny",
+        "spawn": "deny",
+        "admin": "deny",
+        "config": "deny",
+        "((?!title|tellraw|give).)*": "deny"
+      },
+      "command_feedback": false,
       "name_decoration": {
         "prefix": {
           "text": "[EVENT] ",
