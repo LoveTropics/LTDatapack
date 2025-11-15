@@ -2,6 +2,7 @@
   "ltminigames:spectator_chase",
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
+  "lt:mysty/packages/common",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",

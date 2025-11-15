@@ -3,6 +3,7 @@
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
   "ltminigames:immediate_respawn",
+  "lt:mysty/packages/common",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {

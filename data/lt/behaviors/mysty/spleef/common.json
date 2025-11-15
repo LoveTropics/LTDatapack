@@ -4,7 +4,7 @@
     "participants": "player_spawn",
     "spectators": "spectator_spawn"
   },
-  "lt:integrations/packages/player_tornado_baby",
+  "lt:mysty/packages/common",
   "ltminigames:spectator_chase",
   "ltminigames:snowball_break_block",
   {
