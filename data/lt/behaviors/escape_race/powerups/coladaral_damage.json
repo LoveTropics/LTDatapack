@@ -1,0 +1,22 @@
+{
+  "type": "ltminigames:item_used",
+  "source_actions": [
+    {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "ltminigames:coladaral_damage",
+          "seconds": 30,
+          "amplifier": 1,
+          "particles": false,
+          "show_icon": true
+        }
+      ]
+    }
+  ],
+  "item_used": {
+    "items": [
+      "ltminigames:coladaral_damage"
+    ]
+  }
+}
