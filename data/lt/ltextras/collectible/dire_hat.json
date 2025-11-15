@@ -1,0 +1,21 @@
+{
+  "item": "peekaboo:mob_hat",
+  "components": {
+    "peekaboo:entity": {
+      "Text": {
+        "translate": "lt.dire.funny_text"
+      },
+      "id": "ltextras:spinning_sign"
+    },
+    "peekaboo:size": 2.0,
+    "ltextras:collectible_display_info": {
+      "name": "dire_hat",
+      "description": true,
+      "rarity": "secret"
+    },
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.dire_hat.name",
+      "color": "#5ABDA3"
+    }
+  }
+}
