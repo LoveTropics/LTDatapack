@@ -1,0 +1,33 @@
+{
+  "type": "ltminigames:item_used",
+  "source_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "apply": {
+        "target": "all",
+        "actions": {
+          "type": "ltminigames:set_disguise",
+          "entity": {
+            "id": "tropicraft:tapir"
+          },
+          "changes_size": true
+        }
+      },
+      "clear": {
+        "target": "all",
+        "actions": {
+          "type": "ltminigames:clear_disguise",
+          "entity": {
+            "id": "tropicraft:tapir"
+          }
+        }
+      },
+      "seconds": 15
+    }
+  ],
+  "item_used": {
+    "items": [
+      "ltminigames:tapir_takeover"
+    ]
+  }
+}
