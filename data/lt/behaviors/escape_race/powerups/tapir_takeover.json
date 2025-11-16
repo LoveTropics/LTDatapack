@@ -2,27 +2,16 @@
   "type": "ltminigames:item_used",
   "source_actions": [
     {
-      "type": "ltminigames:apply_for_time",
-      "apply": {
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:set_disguise",
-          "entity": {
-            "id": "tropicraft:tapir"
-          },
-          "changes_size": true
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "ltminigames:tapir_takeover",
+          "seconds": 15,
+          "amplifier": 1,
+          "particles": false,
+          "show_icon": true
         }
-      },
-      "clear": {
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:clear_disguise",
-          "entity": {
-            "id": "tropicraft:tapir"
-          }
-        }
-      },
-      "seconds": 15
+      ]
     }
   ],
   "item_used": {
