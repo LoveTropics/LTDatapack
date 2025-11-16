@@ -252,12 +252,12 @@
         "style": "#CF27F5"
       },
       "join_access": {
-        "allows_joining": false,
+        "allows_joining": true,
         "not_whitelisted_message": {
           "text": "The Event has not started yet. Please wait until it begins."
         },
         "join_limit": {
-          "limit": 40,
+          "limit": 1,
           "message": {
             "text": "Some text about mysty event being full"
           }
