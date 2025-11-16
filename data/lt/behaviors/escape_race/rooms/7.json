@@ -5,50 +5,61 @@
     "spectators": "spawn"
   },
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "2": 2,
+      "3": 3,
+      "5": 5,
+      "6": 6,
+      "9": 9,
+      "13": 13,
+      "14": 14
+    }
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
     "actions": {
-      "2":     {
+      "2": {
         "type": "ltminigames:send_message",
-        "message": [
-          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"HELLOOOOOO?!\n "}
-        ]
+        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "HELLOOOOOO?!\n " }]
       },
       "3": {
         "type": "ltminigames:send_message",
-        "message": [
-          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"Is anybody there?!\n "}
-        ]
+        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "Is anybody there?!\n " }]
       },
-      "5":     {
+      "5": {
         "type": "ltminigames:send_message",
-        "message": [
-          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"I'VE BEEN TRAPPED!"}
-        ]
+        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "I'VE BEEN TRAPPED!" }]
       },
       "6": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text":"Izzy Illusioner: ","bold":true,"color":"red"},{"text":"Shut it you. Nobody's coming.\n "}
+          { "text": "Izzy Illusioner: ", "bold": true, "color": "red" },
+          { "text": "Shut it you. Nobody's coming.\n " }
         ]
       },
-      "9":
-        {
+      "9": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"Wait I can hear someone! Help me! Please! You've got to break me out of here!"}
+          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+          { "text": "Wait I can hear someone! Help me! Please! You've got to break me out of here!" }
         ]
       },
       "12": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text":"Izzy Illusioner: ","bold":true,"color":"red"},{"text":"Urgh. People.... The only way they're going to get you out of here is if they break this wall down! \n "}
+          { "text": "Izzy Illusioner: ", "bold": true, "color": "red" },
+          {
+            "text": "Urgh. People.... The only way they're going to get you out of here is if they break this wall down! \n "
+          }
         ]
       },
       "13": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text":"Gary Gibnut: ","bold":true,"color":"red"},{"text":"something something solve the puzzles, get the code for the forklift vault and smash me out!\n "}
+          { "text": "Gary Gibnut: ", "bold": true, "color": "red" },
+          { "text": "something something solve the puzzles, get the code for the forklift vault and smash me out!\n " }
         ]
       },
       "14": [
