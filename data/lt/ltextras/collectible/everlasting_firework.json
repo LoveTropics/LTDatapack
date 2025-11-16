@@ -1,6 +1,6 @@
 {
   "components": {
-    "ltextras:cooldown_override": 100,
+    "ltextras:cooldown_override": 50,
     "minecraft:custom_name": {
       "translate": "lt.collectible.everlasting_firework.name",
       "color": "#5ABDA3",
