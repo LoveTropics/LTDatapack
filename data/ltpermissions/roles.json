@@ -242,5 +242,9 @@
         "style": "#CF27F5"
       }
     }
+  },
+  "donator": {
+    "overrides": {
+    }
   }
 }
