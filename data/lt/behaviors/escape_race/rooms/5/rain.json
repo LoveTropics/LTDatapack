@@ -1,5 +1,10 @@
 [
   {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "drop_inventory": true
+  },
+  {
     "type": "ltminigames:on_damage",
     "predicate": {
       "type": "minecraft:player",
@@ -10,7 +15,10 @@
     "actions": [
       {
         "type": "ltminigames:run_commands",
-        "player": ["say test"]
+        "player": ["kill @s"]
+      },
+      {
+        "type": "ltminigames:clear_effects"
       }
     ]
   },

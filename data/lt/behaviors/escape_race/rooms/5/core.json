@@ -1,47 +1,24 @@
 [
   {
     "type": "lt:escape_race/rooms/5/rain",
-    "interval": 100,
+    "interval": 50,
     "max_delay": 70,
-    "count": 1,
-    "ticks": 30
+    "count": 120,
+    "ticks": 10
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:yellow_concrete",
-    "region": "1_spot",
-    "region_spawn": "1_spawn"
+    "item": "ltextras:blue_key",
+    "color": "blue"
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:red_concrete",
-    "region": "2_spot",
-    "region_spawn": "2_spawn"
+    "item": "ltextras:red_key",
+    "color": "red"
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:lime_concrete",
-    "region": "3_spot",
-    "region_spawn": "3_spawn"
-  },
-  {
-    "type": "ltminigames:block_in_region",
-    "region": "spot",
-    "run_once": true,
-    "all_match": true,
-    "predicate": {
-      "blocks": "#c:concretes"
-    },
-    "target": "participants",
-    "actions": [
-      {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "GG",
-          "color": "gold",
-          "italic": true
-        }
-      }
-    ]
+    "item": "ltextras:yellow_key",
+    "color": "yellow"
   }
 ]

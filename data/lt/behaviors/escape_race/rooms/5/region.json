@@ -1,13 +1,21 @@
 [
   {
-    "type": "ltminigames:block_in_region",
-    "region": "$region",
-    "run_once": true,
-    "predicate": {
-      "blocks": ["$block"]
+    "type": "ltminigames:item_put_in_item_frame",
+    "tags": ["$color"],
+    "item_predicate": {
+      "items": "$item"
     },
-    "target": "participants",
-    "actions": [
+    "matches": [
+      {
+        "type": "ltminigames:delayed",
+        "delay": 1,
+        "actions": [
+          {
+            "type": "ltminigames:run_commands",
+            "player": ["data modify entity @e[type=minecraft:item_frame,limit=1,sort=nearest] Fixed set value true"]
+          }
+        ]
+      },
       {
         "type": "ltminigames:play_sound",
         "sound": "ltminigames:correct"
@@ -15,12 +23,18 @@
       {
         "type": "ltminigames:show_title",
         "title": {
-          "translate": "Block Placed",
+          "translate": "Key Placed",
           "color": "gold"
         },
         "fade_in": 10,
         "stay": 60,
         "fade_out": 10
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "keys",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -28,13 +42,10 @@
     "type": "ltminigames:item_dropper",
     "loot": [
       {
-        "id": "$block",
-        "components": {
-          "can_place_on": [{ "blocks": ["$block"] }]
-        }
+        "id": "$item"
       }
     ],
-    "region": "$region_spawn",
+    "region": "$color",
     "interval_ticks": 1,
     "beacon": false
   }
