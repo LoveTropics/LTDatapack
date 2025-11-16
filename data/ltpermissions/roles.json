@@ -58,6 +58,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
+      },
+      "join_access": {
+        "allows_joining": false
       }
     }
   },
@@ -66,6 +69,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
+      },
+      "join_access": {
+        "allows_joining": false
       }
     }
   },
@@ -127,6 +133,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#3498db"
+      },
+      "join_access": {
+        "allows_joining": false
       }
     }
   },
@@ -139,6 +148,9 @@
         "game": "allow",
         "gamemode .*": "allow",
         "tp": "allow"
+      },
+      "join_access": {
+        "allows_joining": false
       }
     }
   },
@@ -201,7 +213,10 @@
         "config": "deny",
         "((?!title|tellraw|give).)*": "deny"
       },
-      "command_feedback": false
+      "command_feedback": false,
+      "join_access": {
+        "allows_joining": false
+      }
     }
   },
   "commander": {
