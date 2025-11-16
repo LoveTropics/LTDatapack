@@ -1,7 +1,7 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.spleef",
-    "color": "dark_green"
+    "translate": "ltminigames.minigame.mysty.spleef.blindness",
+    "color": "aqua"
   },
   "icon": "ltminigames:minigames/spleef/icon",
   "hide_from_list": true,

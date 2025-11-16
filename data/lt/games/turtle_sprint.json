@@ -1,8 +1,9 @@
 {
   "name": {
-    "translate": "Turtle Sprint",
+    "translate": "ltminigames.minigame.turtle_sprint",
     "color": "dark_green"
   },
+  "hide_from_list": true,
   "statistics_key": "turtle_sprint",
   "minimum_participants": 2,
   "maximum_participants": 11,

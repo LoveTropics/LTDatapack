@@ -1,7 +1,7 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.turtle_race",
-    "color": "light_purple"
+    "translate": "ltminigames.minigame.mysty.race.turtle",
+    "color": "dark_green"
   },
   "icon": "ltminigames:gui/sprites/minigames/turtle_race/turtle_icon_1.png",
   "statistics_key": "race_standard_21",

@@ -10,6 +10,7 @@
       }
     ]
   },
+  "hide_from_list": true,
   "statistics_key": "turtle_clash",
   "backend_id": "lt:turtle_clash",
   "minimum_participants": 2,
@@ -39,17 +40,11 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "blue": [
-          "blue_spawn"
-        ],
-        "red": [
-          "red_spawn"
-        ]
+        "blue": ["blue_spawn"],
+        "red": ["red_spawn"]
       },
       "split_by_team": true,
-      "spectators": [
-        "spectator_spawn"
-      ]
+      "spectators": ["spectator_spawn"]
     },
     "lt:turtle_clash/common"
   ]

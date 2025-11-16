@@ -26,9 +26,6 @@ execute as @s if data entity @s {profile:{id:[I;-1023112197,1296125024,-21197035
 # MandaLin - 2023/2024
 execute as @s if data entity @s {profile:{id:[I;895672764,-1602335584,-1985475681,864027637]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={id:"minecraft:slime"},peekaboo:size=0.5]
 
-# iskall85 - 2023
-execute as @s if data entity @s {profile:{id:[I;2127779963,-430553463,-1865021215,497744135]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={id:"dummyplayers:dummy_player",tag:{profile:{name:"iskall85"},small:true}},peekaboo:size=0.5]
-
 # slicedlime -2023/2024
 execute as @s if data entity @s {profile:{id:[I;-1674917544,1575568808,-1935589086,-347337826]}} run item replace entity @s weapon with ltextras:sliced_lime
 
@@ -47,7 +44,7 @@ execute as @s if data entity @s {profile:{id:[I;42250248,-361936331,-1457856371,
 # Pixlriffs -2023/2024
 execute as @s if data entity @s {profile:{id:[I;1985151379,-516600059,-1885570566,683693240]}} run item replace entity @s weapon with minecraft:redstone_torch
 
-# joehillssays -2023
+# joehillssays -2023/2024
 execute as @s if data entity @s {profile:{id:[I;1404757078,-608482257,-1938186610,-1033075838]}} run item replace entity @s weapon with tropicraft:large_bongo_drum
 
 # Rushmead -2023/2024

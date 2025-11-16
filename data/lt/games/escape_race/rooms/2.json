@@ -1,8 +1,9 @@
 {
   "name": {
-    "translate": "room_2",
+    "translate": "ltminigames.minigame.escape_race.room_2",
     "color": "dark_green"
   },
+  "hide_from_list": true,
   "minimum_participants": 2,
   "maximum_participants": 1000,
   "map": {
