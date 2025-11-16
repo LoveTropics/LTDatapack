@@ -714,5 +714,7 @@
   "lt.collectible.silver_top_hat.name": "Silver Top Hat",
   "lt.collectible.silver_top_hat.description": "A top hat made of pure silver",
   "lt.collectible.bronze_top_hat.name": "Bronze Top Hat",
-  "lt.collectible.bronze_top_hat.description": "A top hat made of bronze"
+  "lt.collectible.bronze_top_hat.description": "A top hat made of bronze",
+  "lt.item.drink": "Mystery Drink #%s",
+  "lt.collectible.approaching_nirvana.name": "Approaching Nirvana's Note Block"
 }

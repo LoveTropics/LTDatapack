@@ -1,30 +1,19 @@
 {
+  "item": "minecraft:piglin_head",
   "components": {
+    "ltextras:collectible_display_info": {
+      "name": "piglin_head",
+      "rarity": "purchased"
+    },
     "minecraft:custom_name": {
       "translate": "block.minecraft.piglin_head",
-      "color": "#5ABDA3",
-      "italic": false
+      "color": "#BFEA00"
     },
-    "minecraft:enchantment_glint_override": true,
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.secret",
-        "color": "white",
-        "italic": false
-      }
-    ],
     "minecraft:tooltip_display": {
       "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
         "minecraft:attribute_modifiers"
       ]
-    },
-    "minecraft:dyed_color": 10511680
+    }
   },
-  "item": "minecraft:piglin_head"
+  "auto_equip": false
 }
