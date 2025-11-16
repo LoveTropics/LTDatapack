@@ -116,6 +116,9 @@
         "clear": "allow",
         "tp .*": "allow",
         "effect": "allow"
+      },
+      "join_access": {
+        "allows_joining": true
       }
     }
   },
