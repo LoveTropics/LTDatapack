@@ -1,0 +1,24 @@
+{
+  "spawn_range": 8,
+  "total_mobs": 1,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 1,
+  "spawn_potentials": [
+    {
+      "weight": 0,
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie"
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 0,
+      "data": "minecraft:blocks/acacia_pressure_plate"
+    }
+  ]
+}

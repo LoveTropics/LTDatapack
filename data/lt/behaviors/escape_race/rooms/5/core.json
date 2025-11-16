@@ -1,9 +1,10 @@
 [
   {
     "type": "lt:escape_race/rooms/5/rain",
-    "interval": 500,
+    "interval": 100,
+    "max_delay": 70,
     "count": 1,
-    "ticks": 200
+    "ticks": 30
   },
   {
     "type": "lt:escape_race/rooms/5/region",
@@ -19,7 +20,7 @@
   },
   {
     "type": "lt:escape_race/rooms/5/region",
-    "block": "minecraft:green_concrete",
+    "block": "minecraft:lime_concrete",
     "region": "3_spot",
     "region_spawn": "3_spawn"
   },

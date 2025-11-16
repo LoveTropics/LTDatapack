@@ -37,7 +37,7 @@
       {
         "id": "$block",
         "components": {
-          "can_place_on": [{ "blocks": ["tropicraft:mud"] }]
+          "can_place_on": [{ "blocks": ["$block"] }]
         }
       }
     ],

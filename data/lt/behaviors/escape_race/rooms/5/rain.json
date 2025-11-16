@@ -1,21 +1,47 @@
 [
   {
+    "type": "ltminigames:on_damage",
+    "predicate": {
+      "type": "minecraft:player",
+      "effects": {
+        "ltextras:propaguled": {}
+      }
+    },
+    "actions": [
+      {
+        "type": "ltminigames:run_commands",
+
+        "player": ["say test"]
+      }
+    ]
+  },
+  {
     "type": "ltminigames:periodic_actions",
     "interval": "$interval",
     "actions": [
       {
-        "type": "ltminigames:apply_to_player",
-        "target": "participants",
+        "type": "ltminigames:delayed",
+        "delay": {
+          "type": "uniform",
+          "min_inclusive": 1,
+          "max_inclusive": "$max_delay"
+        },
         "actions": [
           {
-            "type": "ltminigames:spawn_entities_at_regions_over_time",
-            "entity": {
-              "type": "ltextras:falling_propagule"
-            },
-            "entity_count": "$count",
-            "ticks_to_spawn_for": "$ticks",
-            "at_heightmap": false,
-            "regions_to_spawn_at": ["rain"]
+            "type": "ltminigames:apply_to_player",
+            "target": "participants",
+            "actions": [
+              {
+                "type": "ltminigames:spawn_entities_at_regions_over_time",
+                "entity": {
+                  "type": "ltextras:falling_propagule"
+                },
+                "entity_count": "$count",
+                "ticks_to_spawn_for": "$ticks",
+                "at_heightmap": false,
+                "regions_to_spawn_at": ["rain"]
+              }
+            ]
           }
         ]
       }
