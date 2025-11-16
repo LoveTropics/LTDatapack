@@ -10,7 +10,6 @@
     "actions": [
       {
         "type": "ltminigames:run_commands",
-
         "player": ["say test"]
       }
     ]
