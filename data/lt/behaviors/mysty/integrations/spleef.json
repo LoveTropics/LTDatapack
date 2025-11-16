@@ -1,0 +1,7 @@
+[
+  { "type": "lt:mysty/integrations/common" },
+  { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "amount": 20, "count": 6 },
+  { "type": "lt:mysty/integrations/packages/effects/speed", "amount": 20, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/effects/slow_falling", "amount": 20, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 20, "seconds": 10, "amplifier": 1 }
+]

@@ -1,0 +1,17 @@
+{
+  "type": "lt:integrations/packages/attribute",
+  "id": "big_leaps",
+  "name": "ltminigames.minigame.donation.big_leaps",
+  "description": "ltminigames.minigame.donation.big_leaps.description",
+  "toast": "ltminigames.minigame.donation.big_leaps.toast",
+  "icon": "minecraft:rabbit_foot",
+  "donation_amount": "$amount",
+  "seconds": "$seconds",
+  "attribute": {
+    "type": "minecraft:gravity",
+    "id": "ltminigames:low_gravity",
+    "name": "low_gravity_package",
+    "amount": -0.6,
+    "operation": "add_multiplied_total"
+  }
+}

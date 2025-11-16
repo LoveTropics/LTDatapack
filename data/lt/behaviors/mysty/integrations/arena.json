@@ -1,0 +1,6 @@
+[
+  { "type": "lt:mysty/integrations/common" },
+  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 20, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/boom", "amount": 20 },
+  { "type": "lt:mysty/integrations/packages/player_boom", "amount": 20 }
+]

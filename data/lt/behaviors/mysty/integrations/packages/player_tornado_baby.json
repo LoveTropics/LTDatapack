@@ -6,7 +6,7 @@
   "player_select": "specific",
   "name": { "translate": "ltminigames.minigame.donation.player_tornado_baby" },
   "description": { "translate": "ltminigames.minigame.donation.player_tornado_baby.description" },
-  "donation_amount": 30.0,
+  "donation_amount": "$amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.player_tornado_baby.toast",
@@ -19,7 +19,7 @@
   "receive_actions": [
     {
       "type": "ltminigames:transform_player_tornado",
-      "time_ticks": 200,
+      "time_ticks": "$ticks",
       "baby": true
     },
     {

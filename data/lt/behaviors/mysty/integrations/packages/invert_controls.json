@@ -6,7 +6,7 @@
   "player_select": "all",
   "name": { "translate": "ltminigames.minigame.donation.invert_controls_package" },
   "description": { "translate": "ltminigames.minigame.donation.invert_controls_package.description" },
-  "donation_amount": 20.0,
+  "donation_amount": "$amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.invert_controls_package.toast",
@@ -33,7 +33,7 @@
         "type": "ltminigames:remove_client_state",
         "state": "ltminigames:invert_controls"
       },
-      "seconds": 20
+      "seconds": "$seconds"
     }
   ]
 }

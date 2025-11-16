@@ -4,9 +4,8 @@
     "participants": "player_spawn",
     "spectators": "spectator_spawn"
   },
-  "lt:mysty/packages/common",
-  "lt:mysty/packages/spleef",
   "ltminigames:spectator_chase",
+  "lt:mysty/integrations/spleef",
   "ltminigames:snowball_break_block",
   {
     "type": "ltminigames:set_game_rules",

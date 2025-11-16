@@ -4,15 +4,15 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "specific",
-  "name": {"translate": "ltminigames.minigame.donation.slowness_package"},
-  "description": {"translate": "ltminigames.minigame.donation.slowness_package.description"},
-  "donation_amount": 15.0,
+  "name": { "translate": "ltminigames.minigame.donation.slowness_package" },
+  "description": { "translate": "ltminigames.minigame.donation.slowness_package.description" },
+  "donation_amount": "$amount",
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.slowness_package.toast",
       "color": "red"
     },
-    "icon": {"effect": "minecraft:slowness"},
+    "icon": { "effect": "minecraft:slowness" },
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },
@@ -23,8 +23,8 @@
       "effects": [
         {
           "type": "minecraft:slowness",
-          "seconds": 120,
-          "amplifier": 4
+          "seconds": "$seconds",
+          "amplifier": "$amplifier"
         }
       ]
     }
