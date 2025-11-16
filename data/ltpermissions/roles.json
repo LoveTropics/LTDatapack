@@ -2,7 +2,6 @@
   "organiser": {
     "includes": ["administration"],
     "overrides": {
-      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#2ecc71"
       }
@@ -17,8 +16,7 @@
           "color": "red"
         },
         "style": "#31a2ac"
-      },
-      "bypass_whitelist": true
+      }
     }
   },
   "live": {
@@ -31,6 +29,9 @@
         },
         "style": "#e91e63"
       },
+      "join_access": {
+        "allows_joining": true
+      },
       "host": true,
       "waypoint_icon": {
         "style": "lt:host",
@@ -40,20 +41,21 @@
   },
   "host": {
     "overrides": {
-      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#e91e63"
       },
       "commands": {
         "fly": "allow",
         "gamemode": "allow"
+      },
+      "join_access": {
+        "allows_joining": true
       }
     }
   },
   "mojangsta": {
     "includes": ["trusted"],
     "overrides": {
-      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#d84283"
       }
@@ -62,7 +64,6 @@
   "modder": {
     "includes": ["trusted", "administration"],
     "overrides": {
-      "bypass_whitelist": true,
       "name_decoration": {
         "style": "#DEB22F"
       }
@@ -71,7 +72,9 @@
   "administration": {
     "overrides": {
       "op_level": 4,
-      "bypass_whitelist": true,
+      "join_access": {
+        "allows_joining": true
+      },
       "commands": {
         ".*": "allow"
       }
@@ -80,7 +83,9 @@
   "builder": {
     "includes": ["fake_op"],
     "overrides": {
-      "bypass_whitelist": true,
+      "join_access": {
+        "allows_joining": true
+      },
       "name_decoration": {
         "style": "#a95cdd"
       }
@@ -90,6 +95,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#30f0a7"
+      },
+      "join_access": {
+        "allows_joining": true
       }
     }
   },
@@ -112,7 +120,6 @@
     }
   },
   "moderator": {
-    "bypass_whitelist": true,
     "includes": ["moderation"],
     "overrides": {
       "name_decoration": {
@@ -142,6 +149,9 @@
         "pardon-ip": "allow",
         "banlist": "allow",
         "unban": "allow"
+      },
+      "join_access": {
+        "allows_joining": true
       }
     }
   },
@@ -204,6 +214,9 @@
           "color": "#F5A927"
         },
         "style": "#F5A927"
+      },
+      "join_access": {
+        "allows_joining": true
       }
     }
   },
@@ -240,11 +253,25 @@
           "color": "#CF27F5"
         },
         "style": "#CF27F5"
+      },
+      "join_access": {
+        "allows_joining": false,
+        "not_whitelisted_message": {
+          "text": "The Event has not started yet. Please wait until it begins."
+        },
+        "join_limit": {
+          "limit": 40,
+          "message": {
+            "text": "Some text about mysty event being full"
+          }
+        },
+        "enforce": {
+          "text": "Thanks you for playing!"
+        }
       }
     }
   },
   "donator": {
-    "overrides": {
-    }
+    "overrides": {}
   }
 }
