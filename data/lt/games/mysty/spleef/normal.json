@@ -20,8 +20,9 @@
     {
       "type": "lt:mysty/spleef/common",
       "floors": 3,
-      "break_count": 50,
-      "break_interval": 40
+      "forced_progression": 60,
+      "break_count": 25,
+      "break_interval": 50
     }
   ]
 }

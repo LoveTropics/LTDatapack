@@ -69,7 +69,7 @@
   },
   {
     "type": "ltminigames:spleef",
-    "forced_progression_seconds": 10,
+    "forced_progression_seconds": "$forced_progression",
     "floors": "$floors",
     "floor_material": "minecraft:snow_block",
     "floor_breaking_material": "minecraft:blue_ice",
