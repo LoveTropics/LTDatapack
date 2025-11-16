@@ -94,7 +94,7 @@
     "type": "ltminigames:phase_change",
     "phases": {
       "release_players": {
-        "type": "ltminigames:apply_to_player",
+        "type": "ltminigames:apply_to",
         "target": "participants",
         "actions": [
           {

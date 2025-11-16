@@ -32,17 +32,14 @@
     "predicate": {
       "blocks": "#c:concretes"
     },
+    "target": "participants",
     "actions": [
       {
-        "type": "ltminigames:apply_to_player",
-        "target": "participants",
-        "actions": {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "GG",
-            "color": "gold",
-            "italic": true
-          }
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "GG",
+          "color": "gold",
+          "italic": true
         }
       }
     ]

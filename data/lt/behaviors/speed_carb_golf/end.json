@@ -13,7 +13,7 @@
         "pitch": 0.2
       }
     ],
-    "target": "all"
+    "target": "all_players"
   },
   {
     "type": "ltminigames:game_end_effects",

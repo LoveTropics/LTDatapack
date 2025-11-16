@@ -31,7 +31,7 @@
       }
     },
     "clear": {
-      "target": "all",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:clear_disguise",
         "entity": "$entity"

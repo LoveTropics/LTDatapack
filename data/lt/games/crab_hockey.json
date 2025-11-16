@@ -77,7 +77,7 @@
     "lt:crab_hockey/waiting_period",
     {
       "type": "ltminigames:scheduled_actions",
-      "target": "all",
+      "target": "all_players",
       "actions": {
         "end": [
           {
@@ -135,6 +135,7 @@
         {
           "type": "ltminigames:set_statistic",
           "statistic": "crabs",
+          "scope": "global",
           "by_player_count": [
             [
               0,
@@ -228,19 +229,16 @@
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:game_finish",
+      "target": "all_players",
       "actions": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:give_reward",
-          "items": [
-            "ltextras:tropicoin"
-          ],
-          "statistic_binding": {
-            "statistic": "points",
-            "multiplier": 0.25,
-            "from_team": true
-          }
+        "type": "ltminigames:give_reward",
+        "items": [
+          "ltextras:tropicoin"
+        ],
+        "statistic_binding": {
+          "statistic": "points",
+          "multiplier": 0.25,
+          "from_team": true
         }
       }
     },

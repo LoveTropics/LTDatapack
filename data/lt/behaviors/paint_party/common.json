@@ -34,7 +34,7 @@
   {
     "type": "ltminigames:on_spawn",
     "role": "participant",
-    "action": [
+    "actions": [
       {
         "type": "ltminigames:add_equipment",
         "clear": true,
@@ -110,17 +110,14 @@
   "lt:paint_party/items",
   {
     "type": "ltminigames:game_finish",
+    "target": "participants",
     "actions": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
-      "actions": {
-        "type": "ltminigames:give_reward",
-        "items": ["ltextras:tropicoin"],
-        "statistic_binding": {
-          "statistic": "points",
-          "multiplier": 0.02,
-          "from_team": true
-        }
+      "type": "ltminigames:give_reward",
+      "items": ["ltextras:tropicoin"],
+      "statistic_binding": {
+        "statistic": "points",
+        "multiplier": 0.02,
+        "from_team": true
       }
     }
   }

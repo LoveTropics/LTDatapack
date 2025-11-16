@@ -8,7 +8,7 @@
       }
     }
   },
-  "action": [
+  "actions": [
     {
       "type": "ltminigames:play_sound",
       "sound": "block.respawn_anchor.charge",

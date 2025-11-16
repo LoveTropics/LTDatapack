@@ -54,7 +54,7 @@
     {
       "type": "ltminigames:set_role",
       "role": "participant",
-      "action": {
+      "actions": {
         "type": "ltminigames:add_equipment",
         "items": [
           {

@@ -1,7 +1,10 @@
 [
   {
-    "type": "ltminigames:apply_to_player",
-    "target": "participants_except_source",
+    "type": "ltminigames:apply_to",
+    "target": [
+      "participants",
+      {"type": "exclude", "excluding": "source"}
+    ],
     "actions": {
       "type": "ltminigames:run_commands",
       "player": ["kill @s"]

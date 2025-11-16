@@ -1,6 +1,6 @@
 {
   "type": "ltminigames:scheduled_actions",
-  "target": "all",
+  "target": "all_players",
   "actions": {
     "3": [
       {

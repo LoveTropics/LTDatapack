@@ -52,17 +52,14 @@
   "lt:de_a_coudre/end",
   {
     "type": "ltminigames:game_finish",
+    "target": "all_players",
     "actions": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
-      "actions": {
-        "type": "ltminigames:give_reward",
-        "items": ["ltextras:tropicoin"],
-        "statistic_binding": {
-          "statistic": "points",
-          "multiplier": 0.1,
-          "from_team": true
-        }
+      "type": "ltminigames:give_reward",
+      "items": ["ltextras:tropicoin"],
+      "statistic_binding": {
+        "statistic": "points",
+        "multiplier": 0.1,
+        "from_team": true
       }
     }
   }

@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:set_role",
     "role": "participant",
-    "action": [
+    "actions": [
       {
         "type": "ltminigames:run_commands",
         "player": [

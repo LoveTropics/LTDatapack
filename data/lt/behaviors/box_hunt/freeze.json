@@ -18,65 +18,60 @@
   {
     "type": "ltminigames:scheduled_actions",
     "channel": "freeze",
-    "target": "participants",
+    "target": {
+      "type": "specific_team",
+      "team": "seekers"
+    },
     "actions": {
-      "start": {
-        "type": "ltminigames:apply_to_team",
-        "target": "seekers",
-        "actions": [
-          {
-            "type": "ltminigames:set_client_state",
-            "state": {
-              "type": "ltminigames:fog",
-              "red": 0.27,
-              "green": 0.26,
-              "blue": 0.26,
-              "near_distance": 0.0,
-              "far_distance": 1.0
-            }
-          },
-          {
-            "type": "ltminigames:give_effect",
-            "effects": [
-              {
-                "type": "minecraft:blindness",
-                "seconds": 30,
-                "amplifier": 0
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:apply_client_state",
-            "state": {
-              "type": "ltminigames:disable_player_movement"
-            }
+      "start": [
+        {
+          "type": "ltminigames:set_client_state",
+          "state": {
+            "type": "ltminigames:fog",
+            "red": 0.27,
+            "green": 0.26,
+            "blue": 0.26,
+            "near_distance": 0.0,
+            "far_distance": 1.0
           }
-        ]
-      },
-      "unfreeze": {
-        "type": "ltminigames:apply_to_team",
-        "target": "seekers",
-        "actions": [
-          {
-            "type": "ltminigames:set_client_state",
-            "state": {
-              "type": "ltminigames:fog",
-              "red": 0.27,
-              "green": 0.26,
-              "blue": 0.26,
-              "near_distance": 0.0,
-              "far_distance": 120.0
+        },
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:blindness",
+              "seconds": 30,
+              "amplifier": 0
             }
-          },
-          {
-            "type": "ltminigames:clear_effects"
-          },
-          {
-            "type": "ltminigames:remove_client_state",
-            "state": "ltminigames:disable_player_movement"
+          ]
+        },
+        {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:disable_player_movement"
           }
-        ]
-      }
+        }
+      ],
+      "unfreeze": [
+        {
+          "type": "ltminigames:set_client_state",
+          "state": {
+            "type": "ltminigames:fog",
+            "red": 0.27,
+            "green": 0.26,
+            "blue": 0.26,
+            "near_distance": 0.0,
+            "far_distance": 120.0
+          }
+        },
+        {
+          "type": "ltminigames:clear_effects"
+        },
+        {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:disable_player_movement"
+        }
+      ]
     }
   }
 ]

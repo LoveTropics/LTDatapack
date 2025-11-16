@@ -46,7 +46,7 @@
     },
     {
       "type": "ltminigames:scheduled_actions",
-      "target": "all",
+      "target": "all_players",
       "actions": {
         "1": {
           "type": "ltminigames:send_message",
@@ -79,13 +79,10 @@
     },
     {
       "type": "ltminigames:events/game_over",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:delayed",
         "delay": 30,
-        "target": {
-          "type": "ltminigames:player",
-          "value": "all"
-        },
         "actions": [
           {
             "type": "ltminigames:play_sound",
@@ -104,16 +101,13 @@
     "lt:common/winner_glows",
     {
       "type": "ltminigames:game_finish",
+      "target": "all_players",
       "actions": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:give_reward",
-          "items": ["ltextras:tropicoin"],
-          "statistic_binding": {
-            "statistic": "items_crafted",
-            "from_team": true
-          }
+        "type": "ltminigames:give_reward",
+        "items": ["ltextras:tropicoin"],
+        "statistic_binding": {
+          "statistic": "items_crafted",
+          "from_team": true
         }
       }
     }

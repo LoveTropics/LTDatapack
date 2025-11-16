@@ -18,8 +18,8 @@
     ],
     "region": "powerups_water",
     "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:send_message",
         "message": {
@@ -60,8 +60,8 @@
     ],
     "region": "powerups_water",
     "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:send_message",
         "message": {

@@ -4,8 +4,8 @@
     "role": "spectator"
   },
   {
-    "type": "ltminigames:apply_to_player",
-    "target": "all",
+    "type": "ltminigames:apply_to",
+    "target": "all_players",
     "actions": [
       {
         "type": "ltminigames:play_sound",

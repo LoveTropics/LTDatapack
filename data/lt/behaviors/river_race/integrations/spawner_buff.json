@@ -17,12 +17,16 @@
     "sentiment": "negative",
     "sound": "ltminigames:sabotage_receive"
   },
-  "team_receive_actions": [
-    "ltminigames:give_player_head_package",
-    {
-      "type": "ltminigames:river_race/modify_max_spawns",
-      "factor": 2.0,
-      "duration_ticks": 1200
-    }
-  ]
+  "receive_actions": {
+    "type": "ltminigames:apply_to",
+    "target": "widen_to_team",
+    "actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:river_race/modify_max_spawns",
+        "factor": 2.0,
+        "duration_ticks": 1200
+      }
+    ]
+  }
 }

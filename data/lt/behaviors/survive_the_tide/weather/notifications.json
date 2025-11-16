@@ -4,8 +4,8 @@
     "events": {
       "acid_rain": [
         {
-          "type": "ltminigames:apply_to_player",
-          "target": "all",
+          "type": "ltminigames:apply_to",
+          "target": "all_players",
           "actions": [
             {
               "type": "ltminigames:notification_toast",
@@ -24,8 +24,8 @@
         }
       ],
       "hail": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
         "actions": [
           {
             "type": "ltminigames:notification_toast",
@@ -43,8 +43,8 @@
         ]
       },
       "heatwave": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
         "actions": [
           {
             "type": "ltminigames:notification_toast",
@@ -62,8 +62,8 @@
         ]
       },
       "sandstorm": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
         "actions": [
           {
             "type": "ltminigames:notification_toast",
@@ -82,8 +82,8 @@
       },
       "snowstorm": [
         {
-          "type": "ltminigames:apply_to_player",
-          "target": "all",
+          "type": "ltminigames:apply_to",
+          "target": "all_players",
           "actions": [
             {
               "type": "ltminigames:notification_toast",

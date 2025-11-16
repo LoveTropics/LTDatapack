@@ -26,22 +26,17 @@
           "min_inclusive": 1,
           "max_inclusive": "$max_delay"
         },
+        "target": "participants",
         "actions": [
           {
-            "type": "ltminigames:apply_to_player",
-            "target": "participants",
-            "actions": [
-              {
-                "type": "ltminigames:spawn_entities_at_regions_over_time",
-                "entity": {
-                  "type": "ltextras:falling_propagule"
-                },
-                "entity_count": "$count",
-                "ticks_to_spawn_for": "$ticks",
-                "at_heightmap": false,
-                "regions_to_spawn_at": ["rain"]
-              }
-            ]
+            "type": "ltminigames:spawn_entities_at_regions_over_time",
+            "entity": {
+              "type": "ltextras:falling_propagule"
+            },
+            "entity_count": "$count",
+            "ticks_to_spawn_for": "$ticks",
+            "at_heightmap": false,
+            "regions_to_spawn_at": ["rain"]
           }
         ]
       }

@@ -117,7 +117,7 @@
           "volume": 0.5
         }
       ],
-      "target": "all"
+      "target": "all_players"
     },
     {
       "type": "ltminigames:events/game_over",

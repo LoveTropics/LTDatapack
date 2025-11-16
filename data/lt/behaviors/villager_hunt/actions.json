@@ -24,7 +24,7 @@
   {
     "type": "ltminigames:on_spawn",
     "role": "participant",
-    "action": [
+    "actions": [
       {
         "type": "ltminigames:add_attribute_modifier",
         "attribute": "minecraft:max_health",
@@ -38,7 +38,7 @@
   },
   {
     "type": "ltminigames:scheduled_actions",
-    "target": "all",
+    "target": "all_players",
     "actions": {
       "start": [
         {

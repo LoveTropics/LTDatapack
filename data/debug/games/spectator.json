@@ -20,7 +20,7 @@
     "ltminigames:spectator_chase",
     {
       "type": "ltminigames:scheduled_actions",
-      "target": "all",
+      "target": "all_players",
       "actions": {
         "1": {
           "type": "ltminigames:spectator_activity",

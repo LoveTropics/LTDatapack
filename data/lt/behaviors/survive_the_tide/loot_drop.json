@@ -3,8 +3,8 @@
     "type": "ltminigames:phase_change",
     "phases": {
       "loot_drop": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
         "actions": [
           {
             "type": "ltminigames:notification_toast",

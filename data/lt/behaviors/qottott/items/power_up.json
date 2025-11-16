@@ -6,7 +6,7 @@
       "minecraft:custom_data": "$item_tag"
     }
   },
-  "action": [
+  "actions": [
     {
       "type": "ltminigames:give_points",
       "statistic": "points",

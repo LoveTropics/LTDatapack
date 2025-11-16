@@ -25,7 +25,7 @@
   {
     "type": "ltminigames:scheduled_actions",
     "channel": "$timer",
-    "target": "all",
+    "target": "all_players",
     "actions": {
       "end": {
         "type": "ltminigames:end_game",

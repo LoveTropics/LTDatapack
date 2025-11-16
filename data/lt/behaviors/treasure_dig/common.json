@@ -28,7 +28,7 @@
   {
     "type": "ltminigames:set_role",
     "role": "participant",
-    "action": {
+    "actions": {
       "type": "ltminigames:add_equipment",
       "items": [
         {
@@ -57,17 +57,14 @@
   "lt:treasure_dig/end",
   {
     "type": "ltminigames:game_finish",
+    "target": "participants",
     "actions": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
-      "actions": {
-        "type": "ltminigames:give_reward",
-        "items": ["ltextras:tropicoin"],
-        "statistic_binding": {
-          "statistic": "points",
-          "multiplier": 0.1,
-          "from_team": true
-        }
+      "type": "ltminigames:give_reward",
+      "items": ["ltextras:tropicoin"],
+      "statistic_binding": {
+        "statistic": "points",
+        "multiplier": 0.1,
+        "from_team": true
       }
     }
   }

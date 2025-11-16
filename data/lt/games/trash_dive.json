@@ -92,7 +92,7 @@
     },
     {
       "type": "ltminigames:scheduled_actions",
-      "target": "all",
+      "target": "all_players",
       "actions": {
         "end": "ltminigames:end_game",
         "close": "ltminigames:close_game"
@@ -130,7 +130,7 @@
     {
       "type": "ltminigames:set_role",
       "role": "participant",
-      "action": {
+      "actions": {
         "type": "ltminigames:add_equipment",
         "feet": "tropicraft:pink_scuba_flippers"
       }

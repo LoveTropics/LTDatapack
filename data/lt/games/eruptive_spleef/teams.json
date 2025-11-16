@@ -73,18 +73,15 @@
     "ltminigames:time_survived_tracker",
     {
       "type": "ltminigames:game_finish",
+      "target": "all_players",
       "actions": {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
-        "actions": {
-          "type": "ltminigames:give_reward",
-          "items": [
-            "ltextras:tropicoin"
-          ],
-          "statistic_binding": {
-            "statistic": "time_survived",
-            "multiplier": 0.2
-          }
+        "type": "ltminigames:give_reward",
+        "items": [
+          "ltextras:tropicoin"
+        ],
+        "statistic_binding": {
+          "statistic": "time_survived",
+          "multiplier": 0.2
         }
       }
     }

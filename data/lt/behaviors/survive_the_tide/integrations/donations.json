@@ -30,37 +30,37 @@
   {
     "type": "ltminigames:donation_threshold",
     "threshold": 20.0,
-    "actions": {
-      "type": "ltminigames:target_player",
-      "id": "84555089-add1-49b1-a26d-8021270a40f0",
-      "actions": [
-        {
-          "type": "ltminigames:spawn_entities_around_players",
-          "entity": {
-            "type": "minecraft:zombie",
-            "tag": {
-              "IsBaby": true,
-              "ArmorItems": [
-                {},
-                {},
-                {
-                  "id": "minecraft:golden_chestplate",
-                  "components": {"unbreakable": {}}
-                },
-                {
-                  "id": "minecraft:golden_helmet",
-                  "components": {"unbreakable": {}}
-                }
-              ]
-            }
-          },
-          "entity_count_per_player": 4,
-          "spawn_distance_min": 5,
-          "spawn_distance_max": 10,
-          "spawn_range_y": 10,
-          "spawn_try_rate": 1
-        }
-      ]
-    }
+    "target": {
+      "type": "specific_player",
+      "id": "84555089-add1-49b1-a26d-8021270a40f0"
+    },
+    "actions": [
+      {
+        "type": "ltminigames:spawn_entities_around_players",
+        "entity": {
+          "type": "minecraft:zombie",
+          "tag": {
+            "IsBaby": true,
+            "ArmorItems": [
+              {},
+              {},
+              {
+                "id": "minecraft:golden_chestplate",
+                "components": {"unbreakable": {}}
+              },
+              {
+                "id": "minecraft:golden_helmet",
+                "components": {"unbreakable": {}}
+              }
+            ]
+          }
+        },
+        "entity_count_per_player": 4,
+        "spawn_distance_min": 5,
+        "spawn_distance_max": 10,
+        "spawn_range_y": 10,
+        "spawn_try_rate": 1
+      }
+    ]
   }
 ]

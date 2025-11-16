@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:scheduled_actions",
-    "target": "all",
+    "target": "all_players",
     "actions": {
       "1": {
         "type": "ltminigames:send_message",
@@ -29,17 +29,11 @@
       },
       "11": [
         {
-          "type": "ltminigames:apply_to_plot",
-          "target": "all",
-          "actions": [
-            {
-              "type": "ltminigames:bb_tutorial",
-              "diffusa": "commelina_diffusa",
-              "grass": "grass",
-              "wheat": "wheat",
-              "run_tutorial": false
-            }
-          ]
+          "type": "ltminigames:bb_tutorial",
+          "diffusa": "commelina_diffusa",
+          "grass": "grass",
+          "wheat": "wheat",
+          "run_tutorial": false
         }
       ],
       "15": {

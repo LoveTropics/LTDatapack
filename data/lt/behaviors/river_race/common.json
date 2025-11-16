@@ -29,7 +29,6 @@
     "type": "ltminigames:team_chat",
     "chat_type": "lt:team_chat"
   },
-  "ltminigames:river_race_overlord",
   "lt:river_race/map",
   "lt:river_race/questions",
   "lt:river_race/death",

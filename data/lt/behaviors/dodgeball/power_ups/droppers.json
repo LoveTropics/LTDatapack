@@ -32,8 +32,8 @@
     ],
     "region": "buff_spawn",
     "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:send_message",
         "message": {
@@ -70,8 +70,8 @@
     ],
     "region": "sword_spawner",
     "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:send_message",
         "message": {
@@ -126,8 +126,8 @@
     ],
     "region": "coin_dispenser_level_3",
     "announcement": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:send_message",
         "message": {

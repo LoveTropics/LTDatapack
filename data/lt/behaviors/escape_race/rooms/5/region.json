@@ -6,28 +6,21 @@
     "predicate": {
       "blocks": ["$block"]
     },
+    "target": "participants",
     "actions": [
       {
-        "type": "ltminigames:apply_to_player",
-        "target": "participants",
-        "actions": {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:correct"
-        }
+        "type": "ltminigames:play_sound",
+        "sound": "ltminigames:correct"
       },
       {
-        "type": "ltminigames:apply_to_player",
-        "target": "participants",
-        "actions": {
-          "type": "ltminigames:show_title",
-          "title": {
-            "translate": "Block Placed",
-            "color": "gold"
-          },
-          "fade_in": 10,
-          "stay": 60,
-          "fade_out": 10
-        }
+        "type": "ltminigames:show_title",
+        "title": {
+          "translate": "Block Placed",
+          "color": "gold"
+        },
+        "fade_in": 10,
+        "stay": 60,
+        "fade_out": 10
       }
     ]
   },

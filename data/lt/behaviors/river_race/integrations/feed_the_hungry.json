@@ -17,17 +17,21 @@
     "sentiment": "positive",
     "sound": "ltminigames:package_receive"
   },
-  "team_receive_actions": [
-    "ltminigames:give_player_head_package",
-    {
-      "type": "ltminigames:give_effect",
-      "effects": [
-        {
-          "type": "minecraft:saturation",
-          "seconds": 60,
-          "amplifier": 0
-        }
-      ]
-    }
-  ]
+  "receive_actions": {
+    "type": "ltminigames:apply_to",
+    "target": "widen_to_team",
+    "actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:saturation",
+            "seconds": 60,
+            "amplifier": 0
+          }
+        ]
+      }
+    ]
+  }
 }

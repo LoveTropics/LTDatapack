@@ -2,7 +2,7 @@
   "type": "ltminigames:phase_change",
   "phases": {
     "release_players": {
-      "type": "ltminigames:apply_to_player",
+      "type": "ltminigames:apply_to",
       "target": "participants",
       "actions": [
         {
@@ -14,8 +14,8 @@
       ]
     },
     "pvp_enabled": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": [
         {
           "type": "ltminigames:show_title",
@@ -38,8 +38,8 @@
       ]
     },
     "icebergs_start": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:notification_toast",
         "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.icebergs_start"},
@@ -48,8 +48,8 @@
       }
     },
     "explosive_storm_start": {
-      "type": "ltminigames:apply_to_player",
-      "target": "all",
+      "type": "ltminigames:apply_to",
+      "target": "all_players",
       "actions": {
         "type": "ltminigames:notification_toast",
         "text": {"translate": "ltminigames.minigame.survive_the_tide.toast.explosive_storm_start"},

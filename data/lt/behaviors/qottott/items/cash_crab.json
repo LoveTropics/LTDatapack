@@ -4,7 +4,7 @@
     "item": {
       "items": ["peekaboo:plushie"]
     },
-    "action": [
+    "actions": [
       {
         "type": "ltminigames:play_sound",
         "sound": "block.respawn_anchor.charge",
@@ -27,8 +27,8 @@
         "subtitle": {"translate": "ltminigames.minigame.qottott.cash_crab.description", "color": "aqua"}
       },
       {
-        "type": "ltminigames:apply_to_player",
-        "target": "all",
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
         "actions": {
           "type": "ltminigames:play_sound",
           "sound": "minecraft:block.bell.resonate",
@@ -51,16 +51,27 @@
     "killed_action": [
       "lt:qottott/items/cash_crab/killed_effects",
       {
-        "type": "ltminigames:apply_to_players_around",
-        "distance": 9.0,
-        "action": "lt:qottott/items/cash_crab/area_effects",
-        "not_predicate": {
-          "equipment": {
-            "mainhand": {
-              "items": ["peekaboo:plushie"]
+        "type": "ltminigames:apply_to",
+        "target": [
+          {
+            "type": "players_around",
+            "distance": 9.0
+          },
+          {
+            "type": "exclude",
+            "excluding": {
+              "type": "filter_entities",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": ["peekaboo:plushie"]
+                  }
+                }
+              }
             }
           }
-        }
+        ],
+        "actions": "lt:qottott/items/cash_crab/area_effects"
       }
     ],
     "killer_action": {
