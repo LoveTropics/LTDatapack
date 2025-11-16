@@ -29,9 +29,6 @@
         },
         "style": "#e91e63"
       },
-      "join_access": {
-        "allows_joining": true
-      },
       "host": true,
       "waypoint_icon": {
         "style": "lt:host",
@@ -40,6 +37,7 @@
     }
   },
   "host": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#e91e63"
@@ -47,9 +45,6 @@
       "commands": {
         "fly": "allow",
         "gamemode": "allow"
-      },
-      "join_access": {
-        "allows_joining": true
       }
     }
   },
@@ -58,9 +53,6 @@
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
-      },
-      "join_access": {
-        "allows_joining": false
       }
     }
   },
@@ -69,25 +61,20 @@
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
-      },
-      "join_access": {
-        "allows_joining": false
       }
     }
   },
   "administration": {
+    "includes": ["whitelisted"],
     "overrides": {
       "op_level": 4,
-      "join_access": {
-        "allows_joining": true
-      },
       "commands": {
         ".*": "allow"
       }
     }
   },
   "builder": {
-    "includes": ["fake_op"],
+    "includes": ["fake_op", "whitelisted"],
     "overrides": {
       "join_access": {
         "allows_joining": true
@@ -98,6 +85,7 @@
     }
   },
   "helper": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#30f0a7"
@@ -108,6 +96,7 @@
     }
   },
   "fake_op": {
+    "includes": ["whitelisted"],
     "overrides": {
       "op_level": 2,
       "worldedit_allowed": true,
@@ -133,9 +122,6 @@
     "overrides": {
       "name_decoration": {
         "style": "#3498db"
-      },
-      "join_access": {
-        "allows_joining": false
       }
     }
   },
@@ -148,13 +134,11 @@
         "game": "allow",
         "gamemode .*": "allow",
         "tp": "allow"
-      },
-      "join_access": {
-        "allows_joining": false
       }
     }
   },
   "moderation": {
+    "includes": ["whitelisted"],
     "overrides": {
       "commands": {
         "kick": "allow",
@@ -164,9 +148,6 @@
         "pardon-ip": "allow",
         "banlist": "allow",
         "unban": "allow"
-      },
-      "join_access": {
-        "allows_joining": true
       }
     }
   },
@@ -225,6 +206,7 @@
     }
   },
   "event_streamer": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "prefix": {
@@ -232,9 +214,6 @@
           "color": "#F5A927"
         },
         "style": "#F5A927"
-      },
-      "join_access": {
-        "allows_joining": true
       }
     }
   },
@@ -290,6 +269,14 @@
     }
   },
   "donator": {
+    "includes": ["whitelisted"],
     "overrides": {}
+  },
+  "whitelisted": {
+    "overrides": {
+      "join_access": {
+        "allows_joining": true
+      }
+    }
   }
 }
