@@ -24,6 +24,8 @@
   },
   "receive_actions": {
     "type": "ltminigames:apply_for_time",
+    "mutex": "lt:disguise_package",
+    "force_acquire_mutex": true,
     "apply": {
       "target": "participants",
       "actions": {

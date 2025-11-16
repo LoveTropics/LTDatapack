@@ -52,6 +52,7 @@
     "receive_actions": [
       {
         "type": "ltminigames:apply_for_time",
+        "mutex": "lt:disguise_package",
         "apply": {
           "target": "participants",
           "actions": {
