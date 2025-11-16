@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": "spawn",
+    "spectators": "spawn"
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all",
+    "channel": "",
+    "actions": {
+      "2":     {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"HELLOOOOOO?!\n "}
+        ]
+      },
+      "3": {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"Is anybody there?!\n "}
+        ]
+      },
+      "5":     {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"I'VE BEEN TRAPPED!"}
+        ]
+      },
+      "6": {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Izzy Illusioner: ","bold":true,"color":"red"},{"text":"Shut it you. Nobody's coming.\n "}
+        ]
+      },
+      "9":
+        {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Gary Gibnut: ","bold":true,"color":"green"},{"text":"Wait I can hear someone! Help me! Please! You've got to break me out of here!"}
+        ]
+      },
+      "12": {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Izzy Illusioner: ","bold":true,"color":"red"},{"text":"Urgh. People.... The only way they're going to get you out of here is if they break this wall down! \n "}
+        ]
+      },
+      "13": {
+        "type": "ltminigames:send_message",
+        "message": [
+          {"text":"Gary Gibnut: ","bold":true,"color":"red"},{"text":"something something solve the puzzles, get the code for the forklift vault and smash me out!\n "}
+        ]
+      },
+      "14": [
+        {
+          "type": "ltminigames:set_blocks",
+          "set": "minecraft:redstone_block",
+          "region": "supply_door"
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": [
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "tropicraft:gibnut",
+          "Invulnerable": true,
+          "NoAI": true,
+          "CustomName": "Gary Gibnut",
+          "CustomNameVisible": true
+        },
+        "regions_to_spawn_at": ["gary"],
+        "entity_count_per_region": 1,
+        "at_heightmap": false
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "minecraft:illusioner",
+          "Invulnerable": true,
+          "NoAI": true,
+          "CustomName": "Izzy Illusioner",
+          "CustomNameVisible": true
+        },
+        "regions_to_spawn_at": ["izzy"],
+        "entity_count_per_region": 1,
+        "at_heightmap": false
+      }
+    ]
+  }
+]
