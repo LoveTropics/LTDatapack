@@ -7,7 +7,6 @@
   {
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
-    "channel": "",
     "actions": {
       "2":     {
         "type": "ltminigames:send_message",
