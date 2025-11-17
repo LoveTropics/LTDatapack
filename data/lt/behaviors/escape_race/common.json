@@ -30,5 +30,14 @@
   "lt:escape_race/powerups/coladaral_damage",
   "lt:escape_race/powerups/tapir_takeover",
   "lt:escape_race/powerups/shruggy_arms",
-  "lt:escape_race/powerups/ender_arms"
+  "lt:escape_race/powerups/ender_arms",
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:spawn_donors_in_region",
+      "regions": [
+        "room_entrance_2"
+      ]
+    }
+  }
 ]
