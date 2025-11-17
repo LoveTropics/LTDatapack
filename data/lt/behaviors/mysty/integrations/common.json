@@ -1,7 +1,7 @@
 [
   { "type": "lt:mysty/integrations/packages/forced_player_head", "amount": 10 },
   { "type": "lt:mysty/integrations/packages/invert_controls", "amount": 10, "seconds": 20 },
-  { "type": "lt:mysty/integrations/packages/meteor_storm", "amount": 10, "explosion_strength": 2 },
+  { "type": "lt:mysty/integrations/packages/meteor_storm", "amount": 10, "explosion_strength": "$explosion_strength" },
   {
     "type": "lt:mysty/integrations/packages/disguise",
     "id": "player_dummy_package",
