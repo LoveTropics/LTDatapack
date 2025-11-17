@@ -70,6 +70,11 @@
         "fade_in": 10,
         "stay": 60,
         "fade_out": 10
+      },
+      {
+        "type": "ltminigames:delayed",
+        "delay": 10,
+        "actions": ["ltminigames:close_game"]
       }
     ],
     "target": "all_players"
