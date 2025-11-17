@@ -746,5 +746,7 @@
   "ltminigames.minigame.donation.slow_falling_package.toast": "%sender% sent you a SLOW FALLING SABOTAGE for 30 Seconds!",
   "ltminigames.minigame.donation.speed_package": "Speed Package",
   "ltminigames.minigame.donation.speed_package.description": "Affect somebody with Slowness V for 2 minutes",
-  "ltminigames.minigame.donation.speed_package.toast": "%sender% sent you a SPEED SABOTAGE for 2 minutes!"
+  "ltminigames.minigame.donation.speed_package.toast": "%sender% sent you a SPEED SABOTAGE for 2 minutes!",
+  "painting.lt.scavenger_hunt.title": "Scavenger Hunt",
+  "painting.lt.scavenger_hunt.author": "Hexablu",
 }

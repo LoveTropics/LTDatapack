@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "lt.edu.text.1.title"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lt.edu.text.1"
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}
