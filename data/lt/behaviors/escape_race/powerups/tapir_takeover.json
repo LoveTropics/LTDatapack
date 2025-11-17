@@ -5,7 +5,7 @@
       "type": "ltminigames:give_effect",
       "effects": [
         {
-          "type": "ltminigames:tapir_takeover",
+          "type": "ltminigames:tapir_time",
           "seconds": 15,
           "amplifier": 1,
           "particles": false,
@@ -15,8 +15,6 @@
     }
   ],
   "item_used": {
-    "items": [
-      "ltminigames:tapir_takeover"
-    ]
+    "items": ["ltminigames:tapir_takeover"]
   }
 }
