@@ -1,0 +1,24 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "creative",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "ltminigames:build_battle",
+    "plot_name": "build_plot"
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  "ltminigames:immediate_respawn"
+]

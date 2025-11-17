@@ -1,0 +1,17 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mysty.build_battle",
+    "color": "dark_green"
+  },
+  "statistics_key": "build_battle",
+  "hide_from_list": true,
+  "minimum_participants": 1,
+  "maximum_participants": 64,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty/mysty_build_1"
+  },
+  "behaviors": [
+    "lt:mysty/build_battle/common"
+  ]
+}
