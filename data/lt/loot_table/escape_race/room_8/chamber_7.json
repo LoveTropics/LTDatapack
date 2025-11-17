@@ -1,24 +1,45 @@
 {
-  "spawn_range": 8,
-  "total_mobs": 1,
-  "total_mobs_added_per_player": 1,
-  "simultaneous_mobs": 1,
-  "simultaneous_mobs_added_per_player": 1,
-  "ticks_between_spawn": 1,
-  "spawn_potentials": [
+  "type": "minecraft:empty",
+  "pools": [
     {
-      "weight": 0,
-      "data": {
-        "entity": {
-          "id": "minecraft:zombie"
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stone"
         }
-      }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "race.room_8.temp": 6
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "race.room_8.temp": 6
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
-  "loot_tables_to_eject": [
-    {
-      "weight": 0,
-      "data": "minecraft:blocks/acacia_pressure_plate"
-    }
-  ]
+  "functions": []
 }

@@ -1,4 +1,21 @@
 [
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "doFireTick": "false",
+      "naturalRegeneration": "false",
+      "mobGriefing": "false"
+    }
+  },
   {
     "type": "lt:escape_race/rooms/5/rain",
     "interval": 50,

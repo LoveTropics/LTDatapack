@@ -29,12 +29,6 @@
         "fade_in": 10,
         "stay": 60,
         "fade_out": 10
-      },
-      {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "keys",
-        "amount": 1,
-        "scope": "global"
       }
     ]
   },

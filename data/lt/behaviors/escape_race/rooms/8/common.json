@@ -1,0 +1,46 @@
+[
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "true",
+      "announceAdvancements": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "doFireTick": "false",
+      "naturalRegeneration": "false",
+      "mobGriefing": "false"
+    }
+  },
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 1
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all_players",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:set_blocks",
+          "region": ["spawner_1"],
+          "set": {
+            "blocks": "minecraft:trial_spawner",
+            "components": {
+              "minecraft:block_entity_data": {
+                "id": "minecraft:trial_spawner",
+                "normal_config": "lt:excape_race/room_8/chamber_7"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -19,8 +19,11 @@
     },
     {
       "type": "ltminigames:position_players",
-      "participants": "spawn",
-      "spectators": "spawn"
+      "participants": "team_spawn",
+      "spectators": "team_spawn"
+    },
+    {
+      "type": "lt:escape_race/rooms/8/common"
     },
     {
       "type": "ltminigames:on_entity_interaction",
