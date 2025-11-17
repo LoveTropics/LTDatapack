@@ -4,6 +4,7 @@
   "ltminigames:disable_throwing_items",
   "lt:mysty/integrations/arena",
   "ltminigames:last_remaining_win_trigger",
+  "ltminigames:place_by_death_order",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
@@ -73,7 +74,7 @@
       },
       {
         "type": "ltminigames:delayed",
-        "delay": 10,
+        "delay": 100,
         "actions": ["ltminigames:close_game"]
       }
     ],

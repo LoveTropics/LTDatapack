@@ -8,7 +8,7 @@
   "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty/race/riptide"
+    "load_from": "lt:mysty_trident_1"
   },
   "behaviors": [
     {

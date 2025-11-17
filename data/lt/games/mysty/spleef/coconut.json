@@ -9,7 +9,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty/spleef/coconut"
+    "load_from": "lt:mysty_spleef_tree"
   },
   "behaviors": [
     {
