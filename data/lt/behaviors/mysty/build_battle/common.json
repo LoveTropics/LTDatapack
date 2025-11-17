@@ -6,7 +6,8 @@
   },
   {
     "type": "ltminigames:build_battle",
-    "plot_name": "build_plot"
+    "plot_name": "build_plot",
+    "build_time": 200
   },
   {
     "type": "ltminigames:set_game_rules",
