@@ -21,6 +21,7 @@
     "entity": {
       "type": "minecraft:acacia_boat",
       "tag": {
+        "Rotation": [90, 0, 0],
         "Invulnerable": true
       }
     }

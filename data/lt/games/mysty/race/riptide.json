@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.mysty.race.riptide",
     "color": "aqua"
   },
-  "minimum_participants": 1,
   "maximum_participants": 1000,
   "hide_from_list": true,
   "map": {
