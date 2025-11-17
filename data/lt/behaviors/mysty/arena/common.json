@@ -3,6 +3,7 @@
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
   "lt:mysty/integrations/arena",
+  "ltminigames:last_remaining_win_trigger",
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
@@ -39,7 +40,7 @@
         "ltextras:undroppable": {}
       }
     },
-    "interval": 32
+    "interval": 640
   },
   {
     "type": "ltminigames:scale_damage",
@@ -56,5 +57,27 @@
     "exploder": {
       "type": "tropicraft:exploding_coconut"
     }
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_equipment",
+        "clear": true,
+        "items": [
+          {
+            "id": "minecraft:wooden_hoe",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "enchantments": {
+                "knockback": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
