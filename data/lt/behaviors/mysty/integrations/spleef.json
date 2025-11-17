@@ -6,7 +6,7 @@
   { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 20, "seconds": 10, "amplifier": 1 },
   {
     "type": "lt:mysty/integrations/packages/player_tornado_baby",
-    "amount": "20",
-    "ticks": "200"
+    "amount": 20,
+    "ticks": 200
   }
 ]

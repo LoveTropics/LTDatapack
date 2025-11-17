@@ -53,7 +53,7 @@
         "ltextras:undroppable": {}
       }
     },
-    "interval": 640
+    "interval": 400
   },
   {
     "type": "ltminigames:events/game_over",
