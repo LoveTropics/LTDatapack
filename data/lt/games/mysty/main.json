@@ -1,12 +1,27 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.mysty.platforms",
+    "translate": "ltminigames.minigame.mysty_event",
     "color": "aqua"
   },
   "statistics_key": "mysty_event",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
   "map": {
     "type": "ltminigames:void"
   },
