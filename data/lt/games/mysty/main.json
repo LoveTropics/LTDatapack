@@ -1,0 +1,35 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mysty.platforms",
+    "color": "aqua"
+  },
+  "statistics_key": "mysty_event",
+  "hide_from_list": true,
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "map": {
+    "type": "ltminigames:void"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    {
+      "type": "ltminigames:minigame_competition",
+      "games": [
+        "lt:mysty/arena/island",
+        "lt:mysty/arena/platforms",
+        "lt:mysty/arena/waves",
+        "lt:mysty/race/riptide",
+        "lt:mysty/race/turtle",
+        "lt:mysty/spleef/blindness",
+        "lt:mysty/spleef/coconut",
+        "lt:mysty/spleef/normal",
+        "lt:mysty/platforms"
+      ],
+      "shuffle": true
+    }
+  ]
+}
