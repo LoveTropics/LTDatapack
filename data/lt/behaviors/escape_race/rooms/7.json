@@ -1,16 +1,5 @@
 [
   {
-      "type": "ltminigames:show_title",
-      "title": {
-        "text": "◌̗",
-        "font": "lt:ui",
-        "color": "black"
-      },
-      "fade_in": 0,
-      "stay": 2,
-      "fade_out": 2
-  },
-  {
     "type": "ltminigames:position_players",
     "participants": "spawn",
     "spectators": "spawn"
@@ -37,6 +26,17 @@
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
     "actions": {
+      "0": {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "◌̗",
+          "font": "lt:ui",
+          "color": "black"
+        },
+        "fade_in": 0,
+        "stay": 2,
+        "fade_out": 2
+      },
       "2": {
         "type": "ltminigames:send_message",
         "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "HELLOOOOOO?!\n ","color": "white"  }]
