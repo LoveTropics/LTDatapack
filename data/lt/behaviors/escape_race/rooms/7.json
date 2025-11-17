@@ -10,6 +10,19 @@
     }
   },
   {
+    "type": "ltminigames:increase_random_tick_rate_in_region",
+    "regions": [
+      "farmland"
+    ],
+    "increased_tick_rate": 2
+  },
+  {
+    "type": "ltminigames:prevent_crop_growth_in_region",
+    "regions": [
+      "no_grow"
+    ]
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
     "actions": {
