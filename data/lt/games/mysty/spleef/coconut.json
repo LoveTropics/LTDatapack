@@ -26,21 +26,27 @@
     },
     "ltminigames:quiet_explosions",
     {
-      "type": "ltminigames:set_role",
-      "role": "participant",
-      "actions": {
-        "type": "ltminigames:add_equipment",
-        "items": [
-          {
-            "id": "tropicraft:exploding_coconut",
-            "count": 32,
-            "components": {
-              "ltextras:undroppable": {},
-              "ltextras:cooldown_override": 10
-            }
+      "type": "ltminigames:delayed",
+      "delay": 200,
+      "actions": [
+        {
+          "type": "ltminigames:set_role",
+          "role": "participant",
+          "actions": {
+            "type": "ltminigames:add_equipment",
+            "items": [
+              {
+                "id": "tropicraft:exploding_coconut",
+                "count": 32,
+                "components": {
+                  "ltextras:undroppable": {},
+                  "ltextras:cooldown_override": 10
+                }
+              }
+            ]
           }
-        ]
-      }
+        }
+      ]
     }
   ]
 }
