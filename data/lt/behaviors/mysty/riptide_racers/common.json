@@ -92,7 +92,7 @@
   {
     "type": "ltminigames:set_client_state",
     "state": {
-      "type": "ltminigames:disable_riptide_collision"
+      "type": "ltminigames:disable_player_collision"
     }
   },
   {

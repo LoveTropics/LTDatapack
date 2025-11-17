@@ -44,8 +44,7 @@
         "lt:mysty/spleef/normal",
         "lt:mysty/platforms",
         "lt:mysty/build_battle"
-      ],
-      "shuffle": true
+      ]
     }
   ]
 }
