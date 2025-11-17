@@ -37,6 +37,31 @@
       "type": "ltminigames:spawn_donors_in_region",
       "regions": [
         "room_entrance_2"
+      ],
+      "scales": [
+        {
+          "scale": 10,
+          "amount": {
+            "min": 0,
+            "max": 5
+          },
+          "color": "0xffff0000"
+        },
+        {
+          "scale": 4,
+          "amount": {
+            "min": 5,
+            "max": 50
+          }
+        },
+        {
+          "scale": 3,
+          "amount": {
+            "min": 50,
+            "max": 500000
+          },
+          "color": "0xffffff00"
+        }
       ]
     }
   }
