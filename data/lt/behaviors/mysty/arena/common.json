@@ -28,5 +28,33 @@
   {
     "type": "ltminigames:kill_in_void",
     "void_below_region": "void"
+  },
+  {
+    "type": "ltminigames:permanent_item",
+    "item": {
+      "id": "tropicraft:exploding_coconut",
+      "count": 1,
+      "components": {
+        "tropicraft:explosion_radius": 2,
+        "ltextras:undroppable": {}
+      }
+    },
+    "interval": 32
+  },
+  {
+    "type": "ltminigames:scale_damage",
+    "factor": 0.0,
+    "source": {
+      "direct_entity": {
+        "type": "tropicraft:exploding_coconut"
+      }
+    }
+  },
+  {
+    "type": "ltminigames:scale_explosion_knockback",
+    "factor": 2.25,
+    "exploder": {
+      "type": "tropicraft:exploding_coconut"
+    }
   }
 ]
