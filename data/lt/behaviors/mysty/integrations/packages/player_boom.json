@@ -1,6 +1,6 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "boom_package",
+  "id": "player_boom_package",
   "package_type": "care_package",
   "category": "small",
   "player_select": "specific",
