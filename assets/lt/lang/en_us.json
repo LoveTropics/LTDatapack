@@ -749,4 +749,9 @@
   "ltminigames.minigame.donation.speed_package.toast": "%sender% sent you a SPEED SABOTAGE for 2 minutes!",
   "painting.lt.scavenger_hunt.title": "Scavenger Hunt",
   "painting.lt.scavenger_hunt.author": "Hexablu",
+  "ltminigames.minigame.donation.speed_package.toast": "%sender% sent you a SPEED SABOTAGE for 2 minutes!",
+  "lt.collectible.high_heels.name": "Fabulous High Heels",
+  "lt.collectible.high_heels.description": "It time for peak fashion!",
+  "lt.collectible.big_boot_big_steps.name": "Big Boot of Big Step",
+  "lt.collectible.big_boot_big_steps.description": "Two shoes? Who needs two shoes?"
 }
