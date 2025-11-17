@@ -38,7 +38,7 @@
       "spawn_height": 20,
       "spawn_rate_base": 20,
       "spawn_rate_random": 12,
-      "explosion_strength": 0
+      "explosion_strength": "$explosion_strength"
     }
   ]
 }
