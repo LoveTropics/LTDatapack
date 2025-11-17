@@ -1,5 +1,16 @@
 [
   {
+      "type": "ltminigames:show_title",
+      "title": {
+        "text": "◌̗",
+        "font": "lt:ui",
+        "color": "black"
+      },
+      "fade_in": 0,
+      "stay": 2,
+      "fade_out": 2
+  },
+  {
     "type": "ltminigames:position_players",
     "participants": "spawn",
     "spectators": "spawn"

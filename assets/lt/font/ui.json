@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "ascent": 250,
+            "chars": [
+                "\u0317"
+            ],
+            "file": "lt:ui/black.png",
+            "height": 1500
+        }
+    ]
+}
