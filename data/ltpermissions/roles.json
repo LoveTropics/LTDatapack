@@ -88,7 +88,7 @@
     "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
-        "style": "#30f0a7"
+        "style": "#30c6f0"
       },
       "join_access": {
         "allows_joining": true
