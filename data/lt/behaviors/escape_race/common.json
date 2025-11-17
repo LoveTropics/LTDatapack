@@ -31,6 +31,7 @@
   "lt:escape_race/powerups/tapir_takeover",
   "lt:escape_race/powerups/shruggy_arms",
   "lt:escape_race/powerups/ender_arms",
+  "lt:escape_race/powerups/invert_controls",
   {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
@@ -45,7 +46,7 @@
             "min": 0,
             "max": 5
           },
-          "color": "0xffff0000"
+          "color": -16711936
         },
         {
           "scale": 4,
@@ -60,7 +61,7 @@
             "min": 50,
             "max": 500000
           },
-          "color": "0xffffff00"
+          "color": -16776961
         }
       ]
     }

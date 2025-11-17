@@ -1,0 +1,29 @@
+{
+  "type": "ltminigames:item_used",
+  "source_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "apply": {
+        "target": [
+          "all_players"
+        ],
+        "actions": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:invert_controls"
+          }
+        }
+      },
+      "clear": {
+        "type": "ltminigames:remove_client_state",
+        "state": "ltminigames:invert_controls"
+      },
+      "seconds": 20
+    }
+  ],
+  "item_used": {
+    "items": [
+      "ltminigames:control_inverter"
+    ]
+  }
+}

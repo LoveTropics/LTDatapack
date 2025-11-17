@@ -5,7 +5,7 @@
       "type": "ltminigames:give_effect",
       "effects": [
         {
-          "type": "ltextras:mm_long_arms",
+          "type": "ltextras:mm_ender_arms",
           "seconds": 30,
           "amplifier": 1,
           "particles": false,

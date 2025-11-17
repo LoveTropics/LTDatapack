@@ -5,7 +5,7 @@
       "type": "ltminigames:give_effect",
       "effects": [
         {
-          "type": "ltextras:mm_small_arms",
+          "type": "ltextras:mm_shruggy_arms",
           "seconds": 30,
           "amplifier": 1,
           "particles": false,
