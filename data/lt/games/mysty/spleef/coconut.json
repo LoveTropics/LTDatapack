@@ -26,13 +26,11 @@
     },
     "ltminigames:quiet_explosions",
     {
-      "type": "ltminigames:delayed",
-      "delay": 200,
-      "actions": [
-        {
-          "type": "ltminigames:set_role",
-          "role": "participant",
-          "actions": {
+      "type": "ltminigames:scheduled_actions",
+      "target": "participants",
+      "actions": {
+        "game": [
+          {
             "type": "ltminigames:add_equipment",
             "items": [
               {
@@ -45,8 +43,8 @@
               }
             ]
           }
-        }
-      ]
+        ]
+      }
     }
   ]
 }
