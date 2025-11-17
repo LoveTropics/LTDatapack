@@ -1,13 +1,13 @@
 [
   {
-    "type": "lt:common/playing",
-    "game_type": "creative",
-    "join_late_with_role": "spectator"
-  },
-  {
     "type": "ltminigames:build_battle",
     "plot_name": "build_plot",
     "build_time": 200
+  },
+  "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:position_players",
+    "spectators": "build_plot"
   },
   {
     "type": "ltminigames:set_game_rules",

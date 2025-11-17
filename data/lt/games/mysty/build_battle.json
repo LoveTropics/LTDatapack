@@ -11,7 +11,13 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:mysty_build_1"
   },
+
   "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "creative",
+      "join_late_with_role": "spectator"
+    },
     "lt:mysty/build_battle/common"
   ]
 }
