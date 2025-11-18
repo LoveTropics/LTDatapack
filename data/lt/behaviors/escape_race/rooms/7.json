@@ -10,6 +10,9 @@
     }
   },
   {
+    "type": "ltminigames:prevent_trampling_crops"
+  },
+  {
     "type": "ltminigames:increase_random_tick_rate_in_region",
     "regions": [
       "farm_land"
@@ -105,7 +108,8 @@
         },
         "regions_to_spawn_at": ["gary"],
         "entity_count_per_region": 1,
-        "at_heightmap": false
+        "at_heightmap": false,
+        "face_region": "spawn"
       },
       {
         "type": "ltminigames:spawn_entity_at_regions",
@@ -120,7 +124,8 @@
         },
         "regions_to_spawn_at": ["izzy"],
         "entity_count_per_region": 1,
-        "at_heightmap": false
+        "at_heightmap": false,
+        "face_region": "spawn"
       }
     ]
   }

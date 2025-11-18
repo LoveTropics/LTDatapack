@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 27,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ltextras:orange_glasses",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ltextras:painting_overlay": [
+                  {
+                    "painting": "lt:forklift_1",
+                    "display_text": "3"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

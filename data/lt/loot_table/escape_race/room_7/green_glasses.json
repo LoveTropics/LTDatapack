@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 27,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ltextras:green_glasses",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "ltextras:painting_overlay": [
+                  {
+                    "painting": "lt:forklift_5",
+                    "display_text": "-15"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
