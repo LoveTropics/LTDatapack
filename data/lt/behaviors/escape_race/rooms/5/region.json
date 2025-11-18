@@ -14,7 +14,7 @@
       },
       {
         "type": "ltminigames:delayed",
-        "delay": 1,
+        "delay": 2,
         "actions": [
           {
             "type": "ltminigames:run_commands",
