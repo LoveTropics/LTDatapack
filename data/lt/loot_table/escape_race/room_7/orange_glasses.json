@@ -15,6 +15,12 @@
                   {
                     "painting": "lt:forklift_3",
                     "display_text": "20"
+                  },
+                  {
+                    "painting": "lt:terry_vacation_1",
+                    "display_itemstack": {
+                      "id": "minecraft:bow"
+                    }
                   }
                 ]
               }
