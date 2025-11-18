@@ -58,12 +58,17 @@
   {
     "type": "ltminigames:periodic_actions",
     "interval": 400,
-    "actions": [
+    "actions": "ltminigames:kill",
+    "target": [
+      "all_entities",
       {
-        "type": "ltminigames:kill_entities",
-        "entity_predicate": {
+        "type": "filter_entities",
+        "predicate": {
           "type": "minecraft:villager"
-        },
+        }
+      },
+      {
+        "type": "limit_entities",
         "count": 25
       }
     ]
