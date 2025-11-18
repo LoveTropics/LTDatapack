@@ -34,6 +34,18 @@
     "show_title": true
   },
   {
+    "type": "ltminigames:on_damage",
+    "predicate": {
+      "type": "minecraft:player"
+    },
+    "actions": [
+      {
+        "type": "ltminigames:run_commands",
+        "player": ["execute on vehicle run tp ~ ~20 ~"]
+      }
+    ]
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
     "actions": {
@@ -71,7 +83,7 @@
       "end": 50,
       "prefix": "point_"
     },
-    "lap_count": 1,
+    "lap_count": 3,
     "winner_count": 3,
     "start_time": 200,
     "finish_region": "finish",
@@ -89,7 +101,6 @@
   },
   "lt:common/game_over_title",
   "ltminigames:spectator_chase",
-  "ltminigames:cancel_player_damage",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
@@ -102,5 +113,9 @@
       "commandBlockOutput": "false",
       "locatorBar": "false"
     }
+  },
+  {
+    "type": "ltminigames:set_day_time",
+    "time": 13000
   }
 ]

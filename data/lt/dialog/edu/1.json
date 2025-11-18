@@ -26,13 +26,6 @@
         "translate": "lt.edu.text.1_3"
       },
       "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.1_4"
-      },
-      "width": 200
     }
   ],
   "inputs": [],

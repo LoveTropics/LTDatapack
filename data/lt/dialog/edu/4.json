@@ -33,13 +33,6 @@
         "translate": "lt.edu.text.4_4"
       },
       "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.4_5"
-      },
-      "width": 200
     }
   ],
   "inputs": [],
