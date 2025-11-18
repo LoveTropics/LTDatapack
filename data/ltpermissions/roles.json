@@ -117,16 +117,8 @@
       }
     }
   },
-  "moderator": {
-    "includes": ["moderation"],
-    "overrides": {
-      "name_decoration": {
-        "style": "#3498db"
-      }
-    }
-  },
   "trusted": {
-    "includes": ["moderation"],
+    "includes": ["privileged"],
     "overrides": {
       "commands": {
         "fly": "allow",
@@ -137,7 +129,15 @@
       }
     }
   },
-  "moderation": {
+  "moderator": {
+    "includes": ["privileged"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#3498db"
+      }
+    }
+  },
+  "privileged": {
     "includes": ["whitelisted"],
     "overrides": {
       "commands": {
@@ -158,52 +158,16 @@
       }
     }
   },
-  "in_tutorial": {
-    "overrides": {
-      "commands": {
-        ".*": "deny"
-      }
-    }
-  },
   "dinners": {},
   "river_race_red": {},
   "river_race_blue": {},
-  "everyone": {
-    "overrides": {
-      "commands": {
-        "help": "allow",
-        "game join": "allow",
-        "game spectate": "allow",
-        "game play": "allow",
-        "game leave": "allow",
-        "game register": "allow",
-        "me": "allow",
-        "w": "allow",
-        "tell": "allow",
-        "msg": "allow",
-        "chat": "allow",
-        "shout": "allow",
-        "spawnitems": "allow",
-        "tpa": "allow",
-        "tpaccept": "allow",
-        "warp": "allow",
-        "tools": "allow",
-        "about": "allow",
-        "spawn": "allow",
-        "admin": "deny",
-        "config": "deny",
-        "((?!title|tellraw|give).)*": "deny"
-      },
-      "command_feedback": false,
-      "join_access": {
-        "allows_joining": false
-      }
-    }
-  },
   "commander": {
     "overrides": {
       "command_feedback": true
     }
+  },
+  "donator": {
+    "includes": ["whitelisted"]
   },
   "event_streamer": {
     "includes": ["whitelisted"],
@@ -219,6 +183,40 @@
   },
   "event": {
     "overrides": {
+      "command_feedback": false,
+      "name_decoration": {
+        "prefix": {
+          "text": "[EVENT] ",
+          "color": "#CF27F5"
+        },
+        "style": "#CF27F5"
+      },
+      "join_access": {
+        "allows_joining": false,
+        "not_whitelisted_message": {
+          "translate": "lt.whitelist.mysty_event.not_started"
+        },
+        "join_limit": {
+          "limit": 40,
+          "message": {
+            "translate": "lt.whitelist.mysty_event.full"
+          }
+        },
+        "enforce": {
+          "translate": "lt.whitelist.mysty_event.ended"
+        }
+      }
+    }
+  },
+  "whitelisted": {
+    "overrides": {
+      "join_access": {
+        "allows_joining": true
+      }
+    }
+  },
+  "everyone": {
+    "overrides": {
       "commands": {
         "help": "allow",
         "game join": "allow",
@@ -232,50 +230,22 @@
         "msg": "allow",
         "chat": "allow",
         "shout": "allow",
-        "spawnitems": "deny",
-        "tpa": "deny",
-        "tpaccept": "deny",
-        "warp": "deny",
-        "tools": "deny",
-        "about": "deny",
-        "spawn": "deny",
         "admin": "deny",
         "config": "deny",
-        "((?!title|tellraw|give).)*": "deny"
+        "((?!title|tellraw|give).)*": "deny",
+        "spawnitems": "allow",
+        "tpa": "allow",
+        "tpaccept": "allow",
+        "warp": "allow",
+        "tools": "allow",
+        "spawn": "allow"
       },
       "command_feedback": false,
-      "name_decoration": {
-        "prefix": {
-          "text": "[EVENT] ",
-          "color": "#CF27F5"
-        },
-        "style": "#CF27F5"
+      "join_access": {
+        "allows_joining": false
       },
-      "join_access": {
-        "allows_joining": false,
-        "not_whitelisted_message": {
-          "text": "The Event has not started yet. Please wait until it begins."
-        },
-        "join_limit": {
-          "limit": 40,
-          "message": {
-            "text": "Some text about mysty event being full"
-          }
-        },
-        "enforce": {
-          "text": "Thanks you for playing!"
-        }
-      }
-    }
-  },
-  "donator": {
-    "includes": ["whitelisted"],
-    "overrides": {}
-  },
-  "whitelisted": {
-    "overrides": {
-      "join_access": {
-        "allows_joining": true
+      "not_whitelisted_message": {
+        "translate": "lt.whitelist.not_whitelisted"
       }
     }
   }

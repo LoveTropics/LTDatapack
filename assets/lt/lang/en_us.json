@@ -777,5 +777,9 @@
   "lt.edu.text.4_2": "They study forest structure, species relationships, soil health, and water systems while working with elders to identify culturally important plants and trees.",
   "lt.edu.text.4_3": "The module includes designing small-scale reforestation plots, conducting biodiversity surveys, and using tools like GPS or drones for monitoring.",
   "lt.edu.text.4_4": "Learners develop their own conservation projects—from mapping seedlings to planning forest recovery zones.",
-  "lt.edu.text.4_5": "Emphasis is placed on protecting sacred sites, restoring damaged areas, and building long-term community-led conservation strategies."
+  "lt.edu.text.4_5": "Emphasis is placed on protecting sacred sites, restoring damaged areas, and building long-term community-led conservation strategies.",
+  "lt.whitelist.not_whitelisted": "You are not whitelisted to join this server. If you have donated any see this message please reach out help support in Discord. https://discord.gg/DbzMR8J",
+  "lt.whitelist.mysty_event.not_started": "The Mysticat's Tropical Uninvitational event has not started yet. Please check back later.",
+  "lt.whitelist.mysty_event.ended": "The Mysticat's Tropical Uninvitational event has ended. Thank you for participating! If you wish to keep playing, you can donate...",
+  "lt.whitelist.mysty_event.full": "The Mysticat's Tropical Uninvitational event is currently full"
 }
