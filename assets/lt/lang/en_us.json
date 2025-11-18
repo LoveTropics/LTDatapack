@@ -781,5 +781,10 @@
   "lt.whitelist.not_whitelisted": "You are not whitelisted! If you have already donated over $10, please check that you have entered your Minecraft username at https://lovetropics.org/. If you're still having troubles, we're happy to help on our Discord: https://discord.gg/DbzMR8J",
   "lt.whitelist.mysty_event.not_started": "You have signed up for Mysticat's Tropical Uninvitational, which will be starting at Friday the 21st at 5PM EDT / 10PM GMT! You may join the server now by donating $10 or higher at https://lovetropics.org/, or checking back when the segment starts.",
   "lt.whitelist.mysty_event.ended": "Mysticat's Tropical Uninvitational has come to a close - thanks for playing! If you want, you can still join us with a donation of $10 or higher at https://lovetropics.org/.",
-  "lt.whitelist.mysty_event.full": "Mysticat's Tropical Uninvitational has started, but is currently full - sorry!"
+  "lt.whitelist.mysty_event.full": "Mysticat's Tropical Uninvitational has started, but is currently full - sorry!",
+  "ltminigames.minigame.spleef.flavor.mysty.forced_progression": "The %s level has become unstable. It will now crumble below your feet!",
+  "ltminigames.minigame.spleef.flavor.mysty.layer_countdown": "Next layer crumble in %s",
+  "ltminigames.minigame.spleef.flavor.mysty.win": "%s has won Spleef!",
+  "ltminigames.minigame.spleef.flavor.mysty.winners": "%s have won Spleef! We have multiple winners!!!",
+  "ltminigames.minigame.spleef.flavor.mysty.eliminated": "You fell into the volcano"
 }
