@@ -7,7 +7,8 @@
     },
     "minecraft:custom_name": {
       "translate": "block.minecraft.piglin_head",
-      "color": "#BFEA00"
+      "color": "#BFEA00",
+      "italic": false
     },
     "minecraft:tooltip_display": {
       "hidden_components": [
