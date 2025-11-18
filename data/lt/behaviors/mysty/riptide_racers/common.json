@@ -96,6 +96,16 @@
     }
   },
   {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:sound_volume_modifier",
+      "volumes": {
+        "ambient.underwater.enter": 0.3,
+        "ambient.underwater.exit": 0.3
+      }
+    }
+  },
+  {
     "type": "ltminigames:cancel_player_attacks"
   }
 ]
