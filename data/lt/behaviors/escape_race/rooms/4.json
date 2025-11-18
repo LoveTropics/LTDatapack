@@ -21,6 +21,7 @@
     "participants": "team_spawn",
     "spectators": "spec_spawn"
   },
+  "ltminigames:force_hands",
   {
     "type": "ltminigames:progression",
     "named_points": {
