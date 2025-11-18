@@ -35,12 +35,7 @@
       "trash_phase_five": 270,
       "trash_phase_six": 330,
       "trash_phase_seven": 390,
-      "trash_phase_eight": 450,
-      "announce_two_minutes_left": 480,
-      "trash_phase_nine": 510,
-      "announce_30_seconds_left": 570,
-      "announce_5_seconds_left": 595,
-      "end": 600
+      "end": 450
     }
   },
   {
@@ -103,7 +98,7 @@
         }
       ],
       "end": [
-        "ltminigames:close_game"
+        "ltminigames:end_game"
       ]
     }
   },
