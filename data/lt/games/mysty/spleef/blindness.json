@@ -39,12 +39,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "ltminigames:on_death",
-      "exclude_self": false,
-      "killed_action": [{ "type": "ltminigames:clear_effects" }],
-      "killer_action": []
     }
   ]
 }

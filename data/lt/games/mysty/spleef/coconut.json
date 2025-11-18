@@ -19,7 +19,7 @@
     },
     {
       "type": "lt:mysty/spleef/common",
-      "floors": 3,
+      "floors": 5,
       "forced_progression": 60,
       "break_count": 25,
       "break_interval": 50
@@ -36,7 +36,7 @@
             "items": [
               {
                 "id": "tropicraft:exploding_coconut",
-                "count": 32,
+                "count": 12,
                 "components": {
                   "ltextras:undroppable": {},
                   "ltextras:cooldown_override": 10

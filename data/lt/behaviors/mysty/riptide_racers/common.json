@@ -32,19 +32,31 @@
   {
     "type": "ltminigames:set_role",
     "role": "participant",
-    "actions": {
-      "type": "ltminigames:add_equipment",
-      "items": [
-        {
-          "id": "minecraft:trident",
-          "components": {
-            "unbreakable": {},
-            "ltextras:undroppable": {},
-            "enchantments": { "riptide": 3 }
+    "actions": [
+      {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:trident",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "enchantments": { "riptide": 3 }
+            }
           }
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:water_breathing",
+            "seconds": -1,
+            "amplifier": 10
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "ltminigames:while_in_region",
@@ -85,8 +97,8 @@
     "statistic": "total_time",
     "order": "min",
     "count": 10,
-    "title": { "translate": "ltminigames.minigame.parkour_race_teams", "color": "yellow", "bold": true },
-    "header": [{ "translate": "ltminigames.minigame.sidebar.race_course", "color": "gray" }, ""],
+    "title": { "translate": "ltminigames:item_put_in_item_frame", "color": "yellow", "bold": true },
+    "header": [{ "translate": "ltminigames:item_put_in_item_frame", "color": "gray" }, ""],
     "statistic_holder": "player"
   },
   {

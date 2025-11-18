@@ -15,7 +15,6 @@
       "type": "minecraft:snowball"
     }
   },
-  "ltminigames:projectile_break_block",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
@@ -82,7 +81,7 @@
     "floors": "$floors",
     "floor_material": "minecraft:snow_block",
     "floor_breaking_material": "minecraft:blue_ice",
-    "flavor_text": "volcano",
+    "flavor_text": "mysty",
     "break_count": "$break_count",
     "break_interval": "$break_interval"
   },
@@ -93,7 +92,18 @@
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
-    "respawn_as": "spectator"
+    "respawn_as": "spectator",
+    "respawn_action": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "block.anvil.land",
+        "source": "player",
+        "volume": 0.75
+      },
+      {
+        "type": "ltminigames:clear_effects"
+      }
+    ]
   },
   {
     "type": "ltminigames:set_client_state",
