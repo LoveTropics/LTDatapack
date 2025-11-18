@@ -6,7 +6,16 @@
   },
   "ltminigames:spectator_chase",
   "lt:mysty/integrations/spleef",
-  "ltminigames:snowball_break_block",
+  {
+    "type": "ltminigames:projectile_break_block",
+    "block": {
+      "blocks": ["minecraft:snow_block"]
+    },
+    "projectile": {
+      "type": "minecraft:snowball"
+    }
+  },
+  "ltminigames:projectile_break_block",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
