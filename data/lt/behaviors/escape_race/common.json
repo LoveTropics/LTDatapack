@@ -11,6 +11,18 @@
     "allow_rejoin": true
   },
   "ltminigames:spectator_chase",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "locatorBar": "false"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:cancel_player_damage",
   "lt:escape_race/main/map",
   {
     "type": "ltminigames:immediate_respawn",
