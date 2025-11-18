@@ -1,13 +1,36 @@
 {
   "type": "minecraft:notice",
   "title": {
-    "translate": "lt.edu.text.1.title"
+    "translate": "lt.edu.text.1.title",
+    "color": "aqua",
+    "bold": true
   },
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "lt.edu.text.1"
+        "translate": "lt.edu.text.1_1"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lt.edu.text.1_2"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lt.edu.text.1_3"
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "lt.edu.text.1_4"
       },
       "width": 200
     }
