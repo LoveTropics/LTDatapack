@@ -5,14 +5,14 @@ summon ltextras:collectible ~ ~ ~ {  \
         item: "peekaboo:disguise", \
         components: { \
             "minecraft:lore": [\
-                        '{"translate":"lt.collectible.player_clone.description","color":"gray","italic":true}',\
-                        '{"text":" "}',\
-                        '{"translate":"lt.collectible.unicode.secret","color":"white","italic":false}',\
-                        '{"text":" "}',\
-                        '{"translate":"item.modifiers.head","color":"gray","italic":false}',\
-                        '{"translate":"lt.collectible.disguise.tooltip.subtract_player","color":"blue","italic":false}',\
-                        '{"translate":"lt.collectible.player_clone.tooltip.add_horror","color":"blue","italic":false}' ,\
-                        '[\
+                        {"translate":"lt.collectible.player_clone.description","color":"gray","italic":true},\
+                        {"text":" "},\
+                        {"translate":"lt.collectible.unicode.secret","color":"white","italic":false},\
+                        {"text":" "},\
+                        {"translate":"item.modifiers.head","color":"gray","italic":false},\
+                        {"translate":"lt.collectible.disguise.tooltip.subtract_player","color":"blue","italic":false},\
+                        {"translate":"lt.collectible.player_clone.tooltip.add_horror","color":"blue","italic":false} ,\
+                        [\
                             {\
                                 "text":" + ",  \                          
                                 "color": "blue", \                           
@@ -28,10 +28,10 @@ summon ltextras:collectible ~ ~ ~ {  \
                                 "color": "blue",\
                                 "italic":false\
                             }\
-                        ]'\
+                        ]\
                 ],\
                 "peekaboo:disguise":{\
-                    entity:{type:"dummyplayers:dummy_player"\
+                    entity:{id:"dummyplayers:dummy_player"\
                 }\
             }\
         }\
