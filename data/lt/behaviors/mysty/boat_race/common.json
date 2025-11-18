@@ -14,14 +14,14 @@
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
-    "spectators": "point_1"
+    "spectators": "point_1",
+    "face_region": "finish"
   },
   {
     "type": "ltminigames:rider",
     "entity": {
       "type": "minecraft:acacia_boat",
       "tag": {
-        "Rotation": [90, 0],
         "Invulnerable": true
       }
     }
