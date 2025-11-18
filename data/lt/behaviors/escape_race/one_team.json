@@ -1,5 +1,4 @@
 [
-  "ltminigames:teams",
   {
     "type": "ltminigames:setup_teams",
     "teams": [

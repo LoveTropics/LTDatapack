@@ -1,4 +1,5 @@
 [
+  "ltminigames:teams",
   {
     "type": "ltminigames:set_difficulty",
     "difficulty": "normal"

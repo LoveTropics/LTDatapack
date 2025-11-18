@@ -7,40 +7,46 @@
     "type": "ltminigames:escape_race/warehouse_setup",
     "rooms": [
       {
-        "entranceRegion": "room_entrance_1",
+        "entrance_region": "room_entrance_1",
         "cost": 5,
         "facing": 0,
-        "displayName": {"text":  "Lt Searge's Gym"}
+        "display_name": {"text": "Lt Searge's Gym"},
+        "game": "lt:waiting_lobby"
       },
       {
-        "entranceRegion": "room_entrance_2",
+        "entrance_region": "room_entrance_2",
         "cost": 20,
         "facing": 180,
-        "displayName": {"text":  "Turn On The Lights!"}
+        "display_name": {"text": "Turn On The Lights!"},
+        "game": "lt:escape_race/rooms/2"
       },
       {
-        "entranceRegion": "room_entrance_3",
+        "entrance_region": "room_entrance_3",
         "cost": 10,
         "facing": 0,
-        "displayName": {"text":  "Turn On The Lights!"}
+        "display_name": {"text": "Turn On The Lights!"},
+        "game": "lt:waiting_lobby"
       },
       {
-        "entranceRegion": "room_entrance_4",
+        "entrance_region": "room_entrance_4",
         "cost": 15,
         "facing": 180,
-        "displayName": {"text":  "Terry's Trash Trawling"}
+        "display_name": {"text": "Terry's Trash Trawling"},
+        "game": "lt:escape_race/rooms/4"
       },
       {
-        "entranceRegion": "room_entrance_5",
+        "entrance_region": "room_entrance_5",
         "cost": 10,
         "facing": 0,
-        "displayName": {"text":  "Doge-A-Gule"}
+        "display_name": {"text": "Doge-A-Gule"},
+        "game": "lt:escape_race/rooms/5"
       },
       {
-        "entranceRegion": "room_entrance_6",
+        "entrance_region": "room_entrance_6",
         "cost": 10,
         "facing": 180,
-        "displayName": {"text":  "Pipe Plundering"}
+        "display_name": {"text": "Pipe Plundering"},
+        "game": "lt:escape_race/rooms/6"
       }
     ]
   },

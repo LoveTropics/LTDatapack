@@ -11,6 +11,22 @@
     "load_from": "lt:escape_race_room_5",
     "dimension_type": "lt:raised_clouds"
   },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:escape_race/one_team"
+    ]
+  },
   "behaviors": [
     {
       "type": "lt:common/playing",
@@ -22,7 +38,6 @@
       "participants": "spawn",
       "spectators": "spawn"
     },
-    "lt:escape_race/one_team",
     "lt:escape_race/rooms/5/core"
   ]
 }
