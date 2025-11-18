@@ -56,49 +56,49 @@
       "intro": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.welcome"
+          "sound": "ltminigames:escape_race.terry_trash.sound_1"
         }
       ],
       "trash_phase_two": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.dirty_trash"
+          "sound": "ltminigames:escape_race.terry_trash.sound_2"
         }
       ],
       "trash_phase_four": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.food_contamination"
+          "sound": "ltminigames:escape_race.terry_trash.sound_3"
         }
       ],
       "trash_phase_five": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.coconut_bombs"
+          "sound": "ltminigames:escape_race.terry_trash.sound_4"
         }
       ],
       "trash_phase_seven": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.chemical_contamination"
+          "sound": "ltminigames:escape_race.terry_trash.sound_5"
         }
       ],
       "announce_two_minutes_left": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.two_minutes"
+          "sound": "ltminigames:escape_race.terry_trash.sound_6"
         }
       ],
       "announce_30_seconds_left": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.thirty_seconds"
+          "sound": "ltminigames:escape_race.terry_trash.sound_6"
         }
       ],
       "announce_5_seconds_left": [
         {
           "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.five_seconds"
+          "sound": "ltminigames:escape_race.terry_trash.sound_6"
         }
       ],
       "end": [
@@ -111,6 +111,124 @@
     "loot_table": "lt:escape_race/trash/phase_one",
     "item_spawn_region": "item_spawn",
     "bad_trash_location": "missed_trash",
+    "code_checks": [
+      {
+        "block_region": "code_block_1",
+        "light_region": "code_light_1",
+        "block_predicate": {
+          "nbt": {
+            "item": {
+              "id": "minecraft:stone"
+            }
+          }
+        },
+        "good_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "true"
+          }
+        },
+        "bad_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "false"
+          }
+        },
+        "clear_state": {
+          "Name": "ltextras:display_block",
+          "Properties": {
+            "facing": "east"
+          }
+        }
+      },
+      {
+        "block_region": "code_block_2",
+        "light_region": "code_light_2",
+        "block_predicate": {
+          "nbt": {
+            "item": {
+              "id": "minecraft:stone"
+            }
+          }
+        },
+        "good_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "true"
+          }
+        },
+        "bad_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "false"
+          }
+        },
+        "clear_state": {
+          "Name": "ltextras:display_block",
+          "Properties": {
+            "facing": "east"
+          }
+        }
+      },
+      {
+        "block_region": "code_block_3",
+        "light_region": "code_light_3",
+        "block_predicate": {
+          "nbt": {
+            "item": {
+              "id": "minecraft:stone"
+            }
+          }
+        },
+        "good_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "true"
+          }
+        },
+        "bad_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "false"
+          }
+        },
+        "clear_state": {
+          "Name": "ltextras:display_block",
+          "Properties": {
+            "facing": "east"
+          }
+        }
+      },
+      {
+        "block_region": "code_block_4",
+        "light_region": "code_light_4",
+        "block_predicate": {
+          "nbt": {
+            "item": {
+              "id": "minecraft:stone"
+            }
+          }
+        },
+        "good_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "true"
+          }
+        },
+        "bad_code": {
+          "Name": "minecraft:waxed_copper_bulb",
+          "Properties": {
+            "lit": "false"
+          }
+        },
+        "clear_state": {
+          "Name": "ltextras:display_block",
+          "Properties": {
+            "facing": "east"
+          }
+        }
+      }
+    ],
     "recycling_locations": [
       {
         "process_region": "trash_type_1_process",
@@ -184,15 +302,6 @@
         "next_channel": "end"
       }
     },
-    "trash_password": [
-      "can",
-      "can",
-      "can",
-      "can",
-      "can",
-      "can"
-    ],
-    "trash_location": "trash_password",
-    "button_location": "button_password"
+    "check_lever": "check_lever"
   }
 ]
