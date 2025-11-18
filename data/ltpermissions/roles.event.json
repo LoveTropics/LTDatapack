@@ -11,10 +11,6 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
-        "prefix": {
-          "text": "[ALT] ",
-          "color": "red"
-        },
         "style": "#31a2ac"
       }
     }
@@ -57,7 +53,7 @@
     }
   },
   "modder": {
-    "includes": ["trusted", "administration"],
+    "includes": ["trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
@@ -74,7 +70,7 @@
     }
   },
   "builder": {
-    "includes": ["fake_op", "whitelisted"],
+    "includes": ["whitelisted"],
     "overrides": {
       "join_access": {
         "allows_joining": true
