@@ -7,6 +7,12 @@
     },
     "matches": [
       {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "team"
+      },
+      {
         "type": "ltminigames:delayed",
         "delay": 1,
         "actions": [

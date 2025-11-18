@@ -17,6 +17,31 @@
     }
   },
   {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 3,
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "THIS IS GREAT WIN MESSAGE THAT NEEDS A LANG KEY",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      {
+        "type": "ltminigames:delayed",
+        "delay": 10,
+        "actions": [
+          {
+            "type": "ltminigames:end_game",
+            "win_by_source": "player"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "type": "lt:escape_race/rooms/5/rain",
     "interval": 50,
     "max_delay": 70,
