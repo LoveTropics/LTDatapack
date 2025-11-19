@@ -50,10 +50,13 @@
     "target": "all_players",
     "actions": {
       "start": {
-        "type": "ltminigames:apply_client_state",
-        "state": {
-          "type": "ltminigames:disable_player_movement"
-        }
+        "actions": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:disable_player_movement"
+          }
+        },
+        "target": "participants"
       },
       "go": [
         {
