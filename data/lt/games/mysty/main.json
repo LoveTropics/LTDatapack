@@ -33,6 +33,14 @@
       "join_late_with_role": "spectator"
     },
     {
+      "type": "ltminigames:in_sub_games",
+      "include_top": true,
+      "behavior": {
+        "type": "ltminigames:add_overlords",
+        "roles": ["event_overlord"]
+      }
+    },
+    {
       "type": "ltminigames:position_players",
       "all": ["spawn"]
     },

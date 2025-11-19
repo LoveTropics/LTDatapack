@@ -181,6 +181,18 @@
       }
     }
   },
+  "event_overlord": {
+    "overrides": {
+      "op_level": 2,
+      "name_decoration": {
+        "prefix": {
+          "text": "[OVERLORD] ",
+          "color": "#f44627"
+        },
+        "style": "#f44627"
+      }
+    }
+  },
   "event": {
     "overrides": {
       "command_feedback": false,
