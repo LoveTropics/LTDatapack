@@ -21,6 +21,12 @@
           "color": "gold"
         },
         "action_bar": true
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "ltminigames:coins",
+        "source": "player",
+        "pitch": 1.0
       }
     ]
   }
