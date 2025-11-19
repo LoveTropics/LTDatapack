@@ -4,7 +4,6 @@
     "color": "dark_green"
   },
   "hide_from_list": true,
-  "minimum_participants": 2,
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
@@ -34,7 +33,7 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type": "lt:escape_race/rooms/2"
+      "type": "lt:escape_race/rooms/2/common_2"
     }
   ]
 }

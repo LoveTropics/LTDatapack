@@ -1,14 +1,13 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.escape_race.room_9",
+    "translate": "ltminigames.minigame.escape_race.room_3",
     "color": "dark_green"
   },
   "hide_from_list": true,
-  "minimum_participants": 2,
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race_room_9",
+    "load_from": "lt:escape_race_room_3",
     "dimension_type": "lt:raised_clouds"
   },
   "waiting": {
@@ -34,7 +33,7 @@
       "join_late_with_role": "spectator"
     },
     {
-      "type": "lt:escape_race/rooms/9"
+      "type": "lt:escape_race/rooms/3/common_3"
     }
   ]
 }

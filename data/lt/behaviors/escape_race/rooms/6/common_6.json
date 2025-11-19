@@ -53,7 +53,7 @@
     ]
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_1",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -87,7 +87,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_2",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -121,7 +121,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_3",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -155,7 +155,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_4",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_5",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -223,7 +223,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_6",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
@@ -257,7 +257,7 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/8/spawners",
+    "type": "lt:escape_race/rooms/6/spawners",
     "region_name": "spawner_7",
     "item_id": "ltextras:high_heels",
     "message": "EWWW THESE SHOES SUCKS",
