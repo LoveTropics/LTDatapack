@@ -6,7 +6,7 @@
       "hole": 1,
       "main_region": "golf_hole_1",
       "start_region": "golf_hole_1_crab",
-      "hole_region": "golf_hole_1_win",
+      "hole_region": "golf_hole_1_end",
       "button_region": "golf_hole_1_start"
     },
     {
@@ -14,7 +14,7 @@
       "hole": 2,
       "main_region": "golf_hole_2",
       "start_region": "golf_hole_2_crab",
-      "hole_region": "golf_hole_2_win",
+      "hole_region": "golf_hole_2_end",
       "button_region": "golf_hole_2_start"
     },
     {
@@ -22,7 +22,7 @@
       "hole": 3,
       "main_region": "golf_hole_3",
       "start_region": "golf_hole_3_crab",
-      "hole_region": "golf_hole_3_win",
+      "hole_region": "golf_hole_3_end",
       "button_region": "golf_hole_3_start"
     },
     {
@@ -30,7 +30,7 @@
       "hole": 4,
       "main_region": "golf_hole_4",
       "start_region": "golf_hole_4_crab",
-      "hole_region": "golf_hole_4_win",
+      "hole_region": "golf_hole_4_end",
       "button_region": "golf_hole_4_start"
     },
     {
@@ -38,7 +38,7 @@
       "hole": 5,
       "main_region": "golf_hole_5",
       "start_region": "golf_hole_5_crab",
-      "hole_region": "golf_hole_5_win",
+      "hole_region": "golf_hole_5_end",
       "button_region": "golf_hole_5_start"
     },
     {
@@ -46,7 +46,7 @@
       "hole": 6,
       "main_region": "golf_hole_6",
       "start_region": "golf_hole_6_crab",
-      "hole_region": "golf_hole_6_win",
+      "hole_region": "golf_hole_6_end",
       "button_region": "golf_hole_6_start"
     },
     {
@@ -54,7 +54,7 @@
       "hole": 7,
       "main_region": "golf_hole_7",
       "start_region": "golf_hole_7_crab",
-      "hole_region": "golf_hole_7_win",
+      "hole_region": "golf_hole_7_end",
       "button_region": "golf_hole_7_start"
     },
     {
@@ -62,7 +62,7 @@
       "hole": 8,
       "main_region": "golf_hole_8",
       "start_region": "golf_hole_8_crab",
-      "hole_region": "golf_hole_8_win",
+      "hole_region": "golf_hole_8_end",
       "button_region": "golf_hole_8_start"
     },
     {
@@ -70,7 +70,7 @@
       "hole": 9,
       "main_region": "golf_hole_9",
       "start_region": "golf_hole_9_crab",
-      "hole_region": "golf_hole_9_win",
+      "hole_region": "golf_hole_9_end",
       "button_region": "golf_hole_9_start"
     },
     {
@@ -78,7 +78,7 @@
       "hole": 5000,
       "main_region": "golf_hole_5k",
       "start_region": "golf_hole_5k_crab",
-      "hole_region": "golf_hole_5k_win",
+      "hole_region": "golf_hole_5k_end",
       "button_region": "golf_hole_5k_start"
     },
     {
@@ -86,7 +86,7 @@
       "hole": 1000,
       "main_region": "golf_hole_10k",
       "start_region": "golf_hole_10k_crab",
-      "hole_region": "golf_hole_10k_win",
+      "hole_region": "golf_hole_10k_end",
       "button_region": "golf_hole_10k_start"
     },
     {
@@ -94,7 +94,7 @@
       "hole": 15000,
       "main_region": "golf_hole_15k",
       "start_region": "golf_hole_15k_crab",
-      "hole_region": "golf_hole_15k_win",
+      "hole_region": "golf_hole_15k_end",
       "button_region": "golf_hole_15k_start"
     },
     {
@@ -102,7 +102,7 @@
       "hole": 20000,
       "main_region": "golf_hole_20k",
       "start_region": "golf_hole_20k_crab",
-      "hole_region": "golf_hole_20k_win",
+      "hole_region": "golf_hole_20k_end",
       "button_region": "golf_hole_20k_start"
     },
     {
@@ -110,7 +110,7 @@
       "hole": 25000,
       "main_region": "golf_hole_25k",
       "start_region": "golf_hole_25k_crab",
-      "hole_region": "golf_hole_25k_win",
+      "hole_region": "golf_hole_25k_end",
       "button_region": "golf_hole_25k_start"
     },
     {
