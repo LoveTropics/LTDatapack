@@ -115,6 +115,7 @@
       "commands": {
         "/.*": "allow",
         "/regen .*": "deny",
+        "/mash *": "allow",
         "map join .*": "allow",
         "map leave .*": "allow",
         "fly": "allow",
