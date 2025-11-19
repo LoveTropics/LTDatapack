@@ -172,6 +172,10 @@
           }
         }
       ]
+    },
+    {
+      "type": "ltminigames:crab_golf_crab",
+      "nbt": "{RollingDownTown:true,Silent:true,Health:500f,Tags:[\"golfCrab_\"],attributes:[{id:\"minecraft:max_health\",base:500},{id:\"minecraft:knockback_resistance\",base:0.75},{id:\"minecraft:movement_speed\",base:0}],Team:\"anticrabcollision\"}"
     }
   ]
 }
