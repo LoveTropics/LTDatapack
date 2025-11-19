@@ -59,16 +59,6 @@
       },
       "global": false
     },
-    {
-      "type": "ltminigames:game_finish",
-      "target": "all_players",
-      "actions": {
-        "type": "ltminigames:give_reward",
-        "items": ["ltextras:tropicoin"],
-        "statistic_binding": {
-          "statistic": "rounds_survived"
-        }
-      }
-    }
+    "lt:mysty/coins_on_death"
   ]
 }

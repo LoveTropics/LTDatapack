@@ -17,7 +17,13 @@
     {
       "type": "lt:turtle_race/standard",
       "track_point_count": 130,
-      "lap_count": 1
+      "lap_count": 1,
+      "finish_action": {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "from_participant_count": true,
+        "scope": "player"
+      }
     },
     {
       "type": "ltminigames:hide_players",

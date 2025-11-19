@@ -116,7 +116,8 @@
           "duration": 40
         }
       ]
-    }
+    },
+    "finish_action": "$finish_action"
   },
   {
     "type": "ltminigames:game_end_effects",

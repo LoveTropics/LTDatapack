@@ -133,7 +133,13 @@
     "winner_count": 25,
     "start_time": 200,
     "finish_region": "finish",
-    "checkpoint_regions": {}
+    "checkpoint_regions": {},
+    "finish_action": {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "points",
+      "from_participant_count": true,
+      "scope": "player"
+    }
   },
   {
     "type": "ltminigames:game_end_effects",
