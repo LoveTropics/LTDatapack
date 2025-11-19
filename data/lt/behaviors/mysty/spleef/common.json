@@ -110,5 +110,6 @@
     "state": {
       "type": "ltminigames:disable_player_collision"
     }
-  }
+  },
+  "ltminigames:disable_crafting"
 ]
