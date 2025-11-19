@@ -40,8 +40,7 @@
         "delay": 10,
         "actions": [
           {
-            "type": "ltminigames:end_game",
-            "win_by_source": "player"
+            "type": "ltminigames:close_game"
           }
         ]
       }
