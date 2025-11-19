@@ -44,6 +44,7 @@
       "end": 530
     }
   },
+  "ltminigames:force_hands",
   {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
