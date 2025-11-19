@@ -2,6 +2,7 @@
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
   "lt:common/spectator",
+  "ltminigames:teams",
   {
     "type": "ltminigames:progression",
     "named_points": {

@@ -1,4 +1,5 @@
 [
+  "ltminigames:teams",
   {
     "type": "ltminigames:position_players",
     "participants": "spawn",
@@ -6,24 +7,19 @@
   },
   {
     "type": "ltminigames:progression",
-    "named_points": {
-    }
+    "named_points": {}
   },
   {
     "type": "ltminigames:prevent_trampling_crops"
   },
   {
     "type": "ltminigames:increase_random_tick_rate_in_region",
-    "regions": [
-      "farm_land"
-    ],
+    "regions": ["farm_land"],
     "increased_tick_rate": 2
   },
   {
     "type": "ltminigames:prevent_crop_growth_in_region",
-    "regions": [
-      "no_grow"
-    ]
+    "regions": ["no_grow"]
   },
   {
     "type": "ltminigames:scheduled_actions",
@@ -42,28 +38,40 @@
       },
       "2": {
         "type": "ltminigames:send_message",
-        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "HELLOOOOOO?!\n ","color": "white"  }]
+        "message": [
+          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+          { "text": "HELLOOOOOO?!\n ", "color": "white" }
+        ]
       },
       "3": {
         "type": "ltminigames:send_message",
-        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "Is anybody there?!\n ","color": "white"  }]
+        "message": [
+          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+          { "text": "Is anybody there?!\n ", "color": "white" }
+        ]
       },
       "5": {
         "type": "ltminigames:send_message",
-        "message": [{ "text": "Gary Gibnut: ", "bold": true, "color": "green" }, { "text": "I'VE BEEN TRAPPED!\n","color": "white"  }]
+        "message": [
+          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+          { "text": "I'VE BEEN TRAPPED!\n", "color": "white" }
+        ]
       },
       "6": {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Izzy Illusioner: ", "bold": true, "color": "red" },
-          { "text": "Shut it you. Nobody's coming.\n ","color": "white"  }
+          { "text": "Shut it you. Nobody's coming.\n ", "color": "white" }
         ]
       },
       "9": {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          { "text": "Wait I can hear someone! Help me! Please! You've got to break me out of here!\n","color": "white"  }
+          {
+            "text": "Wait I can hear someone! Help me! Please! You've got to break me out of here!\n",
+            "color": "white"
+          }
         ]
       },
       "12": {
@@ -80,7 +88,10 @@
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          { "text": "something something solve the puzzles, get the code for the forklift vault and smash me out!\n ","color": "white"  }
+          {
+            "text": "something something solve the puzzles, get the code for the forklift vault and smash me out!\n ",
+            "color": "white"
+          }
         ]
       },
       "14": [
