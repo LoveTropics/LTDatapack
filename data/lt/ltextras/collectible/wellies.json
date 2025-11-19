@@ -49,7 +49,8 @@
         "minecraft:dyed_color",
         "minecraft:unbreakable",
         "minecraft:equippable",
-        "minecraft:attribute_modifiers"
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
       ]
     },
     "minecraft:dyed_color": 16767257
