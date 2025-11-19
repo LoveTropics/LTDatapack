@@ -45,7 +45,7 @@
       "last_team": true
     },
     {
-      "type": "ltminigames:block_party",
+      "type": "lt:block_party/simple",
       "floor": "blocks",
       "blocks": [
         "minecraft:red_mushroom_block",
@@ -69,21 +69,6 @@
       "interval": 80,
       "knockback_after_round": 5
     },
-    {
-      "type": "ltminigames:set_game_rules",
-      "rules": {
-        "doDaylightCycle": "false",
-        "doWeatherCycle": "false",
-        "doMobSpawning": "false",
-        "fallDamage": "false",
-        "announceAdvancements": "false",
-        "doImmediateRespawn": "true"
-      }
-    },
-    "ltminigames:disable_hunger",
-    "lt:common/spectator",
-    "ltminigames:disable_throwing_items",
-    "lt:common/announce_game_over",
     {
       "type": "ltminigames:game_finish",
       "target": "all_players",

@@ -1,0 +1,56 @@
+[
+  {
+    "type": "ltminigames:block_party",
+    "floor": "$floor",
+    "blocks": "$blocks",
+    "quad_size": "$quad_size",
+    "max_time": "$max_time",
+    "time_decay_rounds": "$time_decay_rounds",
+    "interval": "$interval",
+    "knockback_after_round": "$knockback_after_round"
+  },
+  {
+    "type": "ltminigames:kill_in_void",
+    "void_below_region": "void"
+  },
+  {
+    "type": "ltminigames:on_death",
+    "killed_action": {
+      "target": "all_players",
+      "actions": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.eliminated_template",
+            "color": "gray"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:entity.arrow.hit_player"
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "locatorBar": "false"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "lt:common/spectator",
+  "ltminigames:disable_throwing_items",
+  "lt:common/announce_game_over"
+]
