@@ -170,5 +170,11 @@
   {
     "type": "ltminigames:set_day_time",
     "time": 13000
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:disable_player_collision"
+    }
   }
 ]
