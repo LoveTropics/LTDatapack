@@ -92,6 +92,26 @@
         "type": "minecraft:run_command",
         "command": "function lt:admin/milestone/disable {\\\"zone\\\":4}"
       }
+    },
+    {
+      "label": {
+        "text": "Enable Build Area 5",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/enable {\\\"zone\\\":5}"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Build Area 5",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:admin/milestone/disable {\\\"zone\\\":5}"
+      }
     }
   ]
 }

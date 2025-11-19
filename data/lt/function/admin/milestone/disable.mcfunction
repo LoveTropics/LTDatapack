@@ -1,2 +1,4 @@
-$protect exclusion add role milestone_build_$(zone) everyone
+build disable @a
+execute as @a[gamemode=survival] run fly disable
+$protect exclusion add role build_area_$(zone) everyone
 $poi disable lt:milestone/zone_$(zone)

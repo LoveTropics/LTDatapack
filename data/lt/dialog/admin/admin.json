@@ -8,9 +8,5 @@
     "label": "Exit"
   },
   "columns": 1,
-  "dialogs": [
-    "lt:admin/settings/settings",
-    "lt:admin/build_areas/build_areas",
-    "lt:admin/utilities/utilities"
-  ]
+  "dialogs": ["lt:admin/build_areas/build_areas", "lt:admin/utilities/utilities"]
 }
