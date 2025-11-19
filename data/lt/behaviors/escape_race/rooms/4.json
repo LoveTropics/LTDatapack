@@ -26,72 +26,60 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "intro_phone_call": 10,
-      "trash_phase_one": 20,
-      "code_unlock": 60,
-      "trash_phase_two": 115,
-      "trash_phase_three": 150,
-      "trash_phase_four": 210,
-      "trash_phase_five": 270,
-      "trash_phase_six": 330,
-      "trash_phase_seven": 390,
-      "end": 450
+      "phone_call_intro": 10,
+      "trash_start": 20,
+      "phone_call_code": 90,
+      "trash_phase_two": 90,
+      "trash_phase_three": 115,
+      "trash_phase_four": 150,
+      "phone_call_boom": 200,
+      "trash_phase_five": 200,
+      "trash_phase_six": 230,
+      "trash_phase_seven": 300,
+      "trash_phase_eight": 330,
+      "phone_call_two_minutes": 360,
+      "trash_phase_nine": 450,
+      "phone_call_30_seconds": 480,
+      "phone_call_5_seconds": 505,
+      "stop": 510,
+      "end": 530
     }
   },
   {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
-      "start": {
-        "type": "ltminigames:run_commands",
-        "player": [
-          "give @s minecraft:light_gray_stained_glass_pane[max_stack_size=1,ltextras:undroppable=true] 36",
-          "item replace entity @s hotbar.0 with air"
-        ]
-      },
-      "intro": [
+      "phone_call_intro": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_1"
         }
       ],
-      "trash_phase_two": [
+      "phone_call_code": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_2"
         }
       ],
-      "trash_phase_four": [
+      "phone_call_boom": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_3"
         }
       ],
-      "trash_phase_five": [
+      "phone_call_two_minutes": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_4"
         }
       ],
-      "trash_phase_seven": [
+      "phone_call_30_seconds": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_5"
         }
       ],
-      "announce_two_minutes_left": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_6"
-        }
-      ],
-      "announce_30_seconds_left": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_6"
-        }
-      ],
-      "announce_5_seconds_left": [
+      "phone_call_5_seconds": [
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.terry_trash.sound_6"
