@@ -111,5 +111,15 @@
       "type": "ltminigames:disable_player_collision"
     }
   },
-  "ltminigames:disable_crafting"
+  "ltminigames:disable_crafting",
+  {
+    "type": "ltminigames:projectile_knockback",
+    "projectile": {
+      "type": "minecraft:snowball"
+    },
+    "target": {
+      "type": "minecraft:player"
+    },
+    "strength": 0.4
+  }
 ]
