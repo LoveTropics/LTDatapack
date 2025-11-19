@@ -10,43 +10,43 @@
         "entrance_region": "room_entrance_1",
         "cost": 5,
         "facing": 0,
-        "display_name": {"translate": "ltminigames.minigame.escape_race.room_2"},
-        "game": "lt:escape_race/rooms/2"
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_1"},
+        "game": "lt:escape_race/rooms/1"
       },
       {
         "entrance_region": "room_entrance_2",
         "cost": 20,
         "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_2"},
+        "game": "lt:escape_race/rooms/2"
+      },
+      {
+        "entrance_region": "room_entrance_3",
+        "cost": 10,
+        "facing": 0,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_3"},
+        "game": "lt:escape_race/rooms/3"
+      },
+      {
+        "entrance_region": "room_entrance_4",
+        "cost": 15,
+        "facing": 180,
         "display_name": {"translate": "ltminigames.minigame.escape_race.room_4"},
         "game": "lt:escape_race/rooms/4"
       },
       {
-        "entrance_region": "room_entrance_3",
+        "entrance_region": "room_entrance_5",
         "cost": 10,
         "facing": 0,
         "display_name": {"translate": "ltminigames.minigame.escape_race.room_5"},
         "game": "lt:escape_race/rooms/5"
       },
       {
-        "entrance_region": "room_entrance_4",
-        "cost": 15,
-        "facing": 180,
-        "display_name": {"translate": "ltminigames.minigame.escape_race.room_6"},
-        "game": "lt:escape_race/rooms/6"
-      },
-      {
-        "entrance_region": "room_entrance_5",
-        "cost": 10,
-        "facing": 0,
-        "display_name": {"translate": "ltminigames.minigame.escape_race.room_7"},
-        "game": "lt:escape_race/rooms/7"
-      },
-      {
         "entrance_region": "room_entrance_6",
         "cost": 10,
         "facing": 180,
-        "display_name": {"translate": "ltminigames.minigame.escape_race.room_8"},
-        "game": "lt:escape_race/rooms/8"
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_6"},
+        "game": "lt:escape_race/rooms/6"
       }
     ]
   },
