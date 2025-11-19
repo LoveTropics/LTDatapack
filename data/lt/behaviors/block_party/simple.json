@@ -7,7 +7,8 @@
     "max_time": "$max_time",
     "time_decay_rounds": "$time_decay_rounds",
     "interval": "$interval",
-    "knockback_after_round": "$knockback_after_round"
+    "knockback_after_round": "$knockback_after_round",
+    "max_lives": "$max_lives"
   },
   {
     "type": "ltminigames:kill_in_void",

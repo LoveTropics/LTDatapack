@@ -41,7 +41,23 @@
       "max_time": 280,
       "time_decay_rounds": 10,
       "interval": 80,
-      "knockback_after_round": 5
+      "knockback_after_round": 5,
+      "max_lives": 3
+    },
+    {
+      "type": "ltminigames:statistic_boss_bar",
+      "statistic": "lives",
+      "max_value": 3,
+      "reversed": false,
+      "title": {
+        "translate": "ltminigames.minigame.block_party.lives_left"
+      },
+      "color": "red",
+      "style": "progress",
+      "value_style": {
+        "color": "red"
+      },
+      "global": false
     },
     {
       "type": "ltminigames:game_finish",
