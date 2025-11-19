@@ -739,6 +739,7 @@
   "ltminigames.minigame.mysty_event": "Mysticat's Tropical Uninvitational",
   "ltminigames.minigame.donation.blindness_package": "Blindness Package",
   "ltminigames.minigame.mysty.race.riptide.header": "Race to complete the fastest!",
+  "ltminigames.minigame.mysty.platforms.header": "Player lives left",
   "ltminigames.minigame.mysty.add_coins": "+%change% coin(s)!",
   "ltminigames.minigame.mysty.coins": "%s coins",
   "ltminigames.minigame.mysty.sidebar": "Coins Leaderboard",

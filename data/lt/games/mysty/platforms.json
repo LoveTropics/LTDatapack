@@ -59,6 +59,15 @@
       },
       "global": false
     },
+    {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "lives",
+      "order": "max",
+      "count": 6,
+      "title": { "translate": "ltminigames.minigame.mysty.platforms", "color": "yellow", "bold": true },
+      "header": [{ "translate": "ltminigames.minigame.mysty.platforms.header", "color": "gray" }, ""],
+      "statistic_holder": "player"
+    },
     "lt:mysty/coins_on_death"
   ]
 }
