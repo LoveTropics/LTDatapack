@@ -13,6 +13,7 @@
   "statistics_key": "speed_carb_golf",
   "minimum_participants": 1,
   "maximum_participants": 1000,
+  "hide_from_list": false,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
