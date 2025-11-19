@@ -247,7 +247,7 @@
       },
       "trash_phase_two": {
         "trash_rate": 180,
-        "table": "lt:escape_race/trash/phase_two",
+        "table": "lt:escape_race/trash/phase_one",
         "next_channel": "trash_phase_three"
       },
       "trash_phase_three": {
@@ -262,27 +262,27 @@
       },
       "trash_phase_five": {
         "trash_rate": 120,
-        "table": "lt:escape_race/trash/phase_three",
+        "table": "lt:escape_race/trash/phase_four",
         "next_channel": "trash_phase_six"
       },
       "trash_phase_six": {
         "trash_rate": 100,
-        "table": "lt:escape_race/trash/phase_three",
+        "table": "lt:escape_race/trash/phase_four",
         "next_channel": "trash_phase_seven"
       },
       "trash_phase_seven": {
         "trash_rate": 80,
-        "table": "lt:escape_race/trash/phase_three",
+        "table": "lt:escape_race/trash/phase_five",
         "next_channel": "trash_phase_eight"
       },
       "trash_phase_eight": {
         "trash_rate": 60,
-        "table": "lt:escape_race/trash/phase_four",
+        "table": "lt:escape_race/trash/phase_five",
         "next_channel": "trash_phase_nine"
       },
       "trash_phase_nine": {
         "trash_rate": 40,
-        "table": "lt:escape_race/trash/phase_four",
+        "table": "lt:escape_race/trash/phase_five",
         "next_channel": "end"
       }
     },
