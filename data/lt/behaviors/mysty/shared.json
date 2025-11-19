@@ -1,0 +1,12 @@
+[
+  {
+    "type": "ltminigames:add_overlords",
+    "roles": ["event_overlord"]
+  },
+  {
+    "type": "ltminigames:statistic_overlay",
+    "icon": "ltextras:tropicoin",
+    "translation_key": "ltminigames.minigame.mysty.coins",
+    "statistic": "points"
+  }
+]

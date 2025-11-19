@@ -35,10 +35,7 @@
     {
       "type": "ltminigames:in_sub_games",
       "include_top": true,
-      "behavior": {
-        "type": "ltminigames:add_overlords",
-        "roles": ["event_overlord"]
-      }
+      "behavior": "lt:mysty/shared"
     },
     {
       "type": "ltminigames:position_players",
@@ -46,6 +43,7 @@
     },
     {
       "type": "ltminigames:minigame_competition",
+      "share_statistics": ["points"],
       "queue": [
         {"game": "lt:mysty/spleef/normal"},
         {"game": "lt:mysty/spleef/coconut"},
@@ -64,6 +62,18 @@
         {"lobby": {}},
         {"game": "lt:mysty/build_battle"}
       ]
+    },
+    {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "points",
+      "order": "max",
+      "count": 10,
+      "title": {
+        "translate": "ltminigames.minigame.mysty.sidebar",
+        "color": "yellow",
+        "bold": true
+      },
+      "header": []
     }
   ]
 }
