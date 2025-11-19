@@ -237,6 +237,12 @@
             "minecraft:item_model": "ltextras:lubricant_jar"
           }
         }
+      },
+      {
+        "process_region": "trash_type_3_process",
+        "item_predicate": {
+          "item": ["tropicraft:exploding_coconut"]
+        }
       }
     ],
     "spawn_times": {

@@ -142,45 +142,14 @@
 
         {
           "type": "minecraft:item",
-          "name": "ltextras:dented_can",
-          "weight": 10,
+          "name": "tropicraft:exploding_coconut",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1,
-                "minecraft:item_model": "lt:trash/can",
-                "minecraft:dyed_color": 6109736
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ltextras:lubricant_jar",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:max_stack_size": 1,
-                "minecraft:item_model": "lt:trash/lubricant",
-                "minecraft:dyed_color": 6109736
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ltextras:paper_bag",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:max_stack_size": 1,
-                "minecraft:item_model": "lt:trash/bag",
-                "minecraft:dyed_color": 6109736
+                "tropicraft:explosion_radius": 0
               }
             }
           ]
