@@ -19,3 +19,4 @@ tag @a remove p_host_04
 tag @a remove p_host_05
 tag @a remove p_host_06
 execute as @e[tag=hostDummy] at @s run function lt:utility/hosts/easter_eggs
+execute in tropicraft:tropics as @a[current_world=true] run function lt:utility/waypoint

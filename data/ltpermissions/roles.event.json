@@ -4,6 +4,10 @@
     "overrides": {
       "name_decoration": {
         "style": "#2ecc71"
+      },
+      "waypoint_icon": {
+        "style": "lt:turtle",
+        "color": [1.0, 0.2, 0.0]
       }
     }
   },
@@ -27,7 +31,7 @@
       },
       "host": true,
       "waypoint_icon": {
-        "style": "lt:host",
+        "style": "lt:live",
         "color": [1.0, 0.2, 0.0]
       }
     }
@@ -41,6 +45,10 @@
       "commands": {
         "fly": "allow",
         "gamemode": "allow"
+      },
+      "waypoint_icon": {
+        "style": "lt:host",
+        "color": [1.0, 0.2, 0.0]
       }
     }
   },
@@ -49,6 +57,10 @@
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
+      },
+      "waypoint_icon": {
+        "style": "lt:mojang",
+        "color": [1.0, 0.2, 0.0]
       }
     }
   },
