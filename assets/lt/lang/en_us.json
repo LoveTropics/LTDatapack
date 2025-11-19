@@ -738,6 +738,7 @@
   "ltminigames.minigame.mysty.platforms": "Perilous Platforms",
   "ltminigames.minigame.mysty_event": "Mysticat's Tropical Uninvitational",
   "ltminigames.minigame.donation.blindness_package": "Blindness Package",
+  "ltminigames.minigame.mysty.race.riptide.header": "Race to complete the fastest!",
   "ltminigames.minigame.donation.blindness_package.description": "Affect somebody with Blindness V for 30 Seconds",
   "ltminigames.minigame.donation.blindness_package.toast": "%sender% sent you a BLINDNESS SABOTAGE for 30 Seconds!",
   "ltminigames.minigame.donation.levitation_package": "Levitation Package",

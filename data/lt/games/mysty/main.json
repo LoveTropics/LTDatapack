@@ -23,7 +23,8 @@
     ]
   },
   "map": {
-    "type": "ltminigames:void"
+    "type": "ltminigames:load_map",
+    "load_from": "lt:mysty_lobby"
   },
   "behaviors": [
     {
@@ -32,19 +33,28 @@
       "join_late_with_role": "spectator"
     },
     {
+      "type": "ltminigames:position_players",
+      "all": ["spawn"]
+    },
+    {
       "type": "ltminigames:minigame_competition",
-      "games": [
-        "lt:mysty/spleef/normal",
-        "lt:mysty/spleef/coconut",
-        "lt:mysty/spleef/blindness",
-        "lt:mysty/race/riptide",
-        "lt:mysty/race/turtle",
-        "lt:mysty/arena/platforms",
-        "lt:mysty/arena/waves",
-        "lt:mysty/arena/island",
-        "lt:mysty/race/ice_boat",
-        "lt:mysty/platforms",
-        "lt:mysty/build_battle"
+      "queue": [
+        {"game": "lt:mysty/spleef/normal"},
+        {"game": "lt:mysty/spleef/coconut"},
+        {"game": "lt:mysty/spleef/blindness"},
+        {"lobby": {}},
+        {"game": "lt:mysty/race/riptide"},
+        {"game": "lt:mysty/race/turtle"},
+        {"lobby": {}},
+        {"game": "lt:mysty/arena/platforms"},
+        {"game": "lt:mysty/arena/waves"},
+        {"game": "lt:mysty/arena/island"},
+        {"lobby": {}},
+        {"game": "lt:mysty/race/ice_boat"},
+        {"lobby": {}},
+        {"game": "lt:mysty/platforms"},
+        {"lobby": {}},
+        {"game": "lt:mysty/build_battle"}
       ]
     }
   ]

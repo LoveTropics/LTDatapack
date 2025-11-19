@@ -18,7 +18,8 @@
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
-    "spectators": "spectator_spawn"
+    "spectators": "spectator_spawn",
+    "face_region": "spawn_facing"
   },
   {
     "type": "ltminigames:checkpoints",
@@ -97,8 +98,8 @@
     "statistic": "total_time",
     "order": "min",
     "count": 10,
-    "title": { "translate": "ltminigames:item_put_in_item_frame", "color": "yellow", "bold": true },
-    "header": [{ "translate": "ltminigames:item_put_in_item_frame", "color": "gray" }, ""],
+    "title": { "translate": "ltminigames.minigame.mysty.race.riptide", "color": "yellow", "bold": true },
+    "header": [{ "translate": "ltminigames.minigame.mysty.race.riptide.header", "color": "gray" }, ""],
     "statistic_holder": "player"
   },
   {
