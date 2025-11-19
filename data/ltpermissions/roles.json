@@ -6,8 +6,7 @@
         "style": "#2ecc71"
       },
       "waypoint_icon": {
-        "style": "lt:turtle",
-        "color": [1.0, 0.2, 0.0]
+        "style": "lt:turtle"
       }
     }
   },
