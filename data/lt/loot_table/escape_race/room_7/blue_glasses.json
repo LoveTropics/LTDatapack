@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ltextras:orange_glasses",
+          "name": "ltextras:blue_glasses",
           "functions": [
             {
               "function": "minecraft:set_components",
