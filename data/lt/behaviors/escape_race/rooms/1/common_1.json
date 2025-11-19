@@ -1,1 +1,63 @@
-["ltminigames:teams"]
+[
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "lt:common/spectator",
+  "ltminigames:teams",
+  {
+    "type": "ltminigames:position_players",
+    "participants": "team_spawn",
+    "spectators": "team_spawn"
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "doFireTick": "false",
+      "naturalRegeneration": "false",
+      "mobGriefing": "false",
+      "commandBlockOutput": "false"
+    }
+  },
+  {
+    "type": "ltminigames:block_in_region",
+    "region": "should_end",
+    "run_once": true,
+    "predicate": {
+      "blocks": "minecraft:waxed_copper_bulb",
+      "state": {
+        "lit": "true"
+      }
+    },
+    "target": "participants",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "GG",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:spawn_entity_at_regions",
+      "entity": {
+        "type": "minecraft:warden",
+        "tag": {
+          "AvoidDarkness": true
+        }
+      },
+      "regions_to_spawn_at": ["warden"],
+      "entity_count_per_region": 1,
+      "at_heightmap": false
+    }
+  }
+]
