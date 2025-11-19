@@ -6,7 +6,8 @@
         "style": "#2ecc71"
       },
       "waypoint_icon": {
-        "style": "lt:turtle"
+        "style": "lt:turtle",
+        "color": [0.18, 0.8, 0.443]
       }
     }
   },
@@ -35,7 +36,7 @@
       "host": true,
       "waypoint_icon": {
         "style": "lt:live",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.9137, 0.1176, 0.3882]
       }
     }
   },
@@ -51,7 +52,7 @@
       },
       "waypoint_icon": {
         "style": "lt:host",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.914, 0.118, 0.388]
       }
     }
   },
@@ -62,7 +63,8 @@
         "style": "#d84283"
       },
       "waypoint_icon": {
-        "style": "lt:mojang"
+        "style": "lt:mojang",
+        "color": [0.847, 0.2588, 0.5137]
       }
     }
   },
