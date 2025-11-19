@@ -1,0 +1,12 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "blank",
+      "body": "Pickup and Wear The EDU Glass to watch the video!",
+      "duration": 100.0,
+      "transition_out": 0.0
+    }
+  ]
+}
