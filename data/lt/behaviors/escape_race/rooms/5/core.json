@@ -3,6 +3,11 @@
   "ltminigames:disable_throwing_items",
   "ltminigames:spectator_chase",
   {
+    "type": "ltminigames:position_players",
+    "participants": "spawn",
+    "spectators": "spawn"
+  },
+  {
     "type": "ltminigames:set_game_rules",
     "rules": {
       "doDaylightCycle": "false",

@@ -3,6 +3,17 @@
   "ltminigames:disable_throwing_items",
   "ltminigames:spectator_chase",
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 2
+    }
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "team_spawn",
+    "spectators": "team_spawn"
+  },
+  {
     "type": "ltminigames:set_game_rules",
     "rules": {
       "doDaylightCycle": "false",
@@ -17,16 +28,266 @@
     }
   },
   {
-    "type": "ltminigames:progression",
-    "named_points": {
-      "start": 1
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 7,
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "YOU FOUND THE RIGHT SHOES!!!",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      {
+        "type": "ltminigames:delayed",
+        "delay": 10,
+        "actions": [
+          {
+            "type": "ltminigames:end_game",
+            "win_by_source": "player"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_1",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
     }
   },
   {
-    "type": "ltminigames:scheduled_actions",
-    "target": "all_players",
-    "actions": {
-      "start": []
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_2",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_3",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_4",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_5",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_6",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lt:escape_race/rooms/8/spawners",
+    "region_name": "spawner_7",
+    "item_id": "ltextras:high_heels",
+    "message": "EWWW THESE SHOES SUCKS",
+    "spawner_data": {
+      "spawn_range": 8,
+      "total_mobs": 1,
+      "total_mobs_added_per_player": 1,
+      "simultaneous_mobs": 1,
+      "simultaneous_mobs_added_per_player": 1,
+      "ticks_between_spawn": 1,
+      "spawn_potentials": [
+        {
+          "weight": 1,
+          "data": {
+            "entity": {
+              "id": "minecraft:pig"
+            },
+            "custom_spawn_rules": {
+              "block_light_limit": [0, 15],
+              "sky_light_limit": [0, 15]
+            }
+          }
+        }
+      ],
+      "loot_tables_to_eject": [
+        {
+          "weight": 1,
+          "data": "minecraft:blocks/cake"
+        }
+      ]
     }
   }
 ]

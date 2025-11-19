@@ -33,11 +33,6 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    {
-      "type": "ltminigames:position_players",
-      "participants": "spawn",
-      "spectators": "spawn"
-    },
     "lt:escape_race/rooms/5/core"
   ]
 }

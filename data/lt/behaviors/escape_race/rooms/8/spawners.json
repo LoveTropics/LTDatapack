@@ -1,0 +1,52 @@
+[
+  {
+    "type": "ltminigames:scheduled_actions",
+    "actions": {
+      "start": {
+        "type": "ltminigames:set_blocks",
+        "region": "$region_name",
+        "set": "minecraft:trial_spawner",
+        "block_entity_data": {
+          "normal_config": "$spawner_data"
+        }
+      }
+    }
+  },
+
+  {
+    "type": "ltminigames:on_entity_interaction",
+    "source_predicate": {
+      "type": "minecraft:player",
+      "equipment": {
+        "mainhand": {
+          "items": "$item_id"
+        }
+      }
+    },
+    "target_predicate": { "type": "tropicraft:shoebill_stork" },
+    "target_actions": [
+      {
+        "type": "ltminigames:add_equipment",
+        "feet": {
+          "id": "$item_id"
+        }
+      }
+    ],
+    "source_actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "$message",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  }
+]
