@@ -4,21 +4,171 @@
     {
       "type": "ltminigames:crab_golf_hole",
       "hole": 1,
-      "main_region":  "golf_hole_1",
+      "main_region": "golf_hole_1",
       "start_region": "golf_hole_1_crab",
-      "hole_region":  "golf_hole_1_win",
+      "hole_region": "golf_hole_1_win",
       "button_region": "golf_hole_1_start"
     },
-
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 2,
+      "main_region": "golf_hole_2",
+      "start_region": "golf_hole_2_crab",
+      "hole_region": "golf_hole_2_win",
+      "button_region": "golf_hole_2_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 3,
+      "main_region": "golf_hole_3",
+      "start_region": "golf_hole_3_crab",
+      "hole_region": "golf_hole_3_win",
+      "button_region": "golf_hole_3_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 4,
+      "main_region": "golf_hole_4",
+      "start_region": "golf_hole_4_crab",
+      "hole_region": "golf_hole_4_win",
+      "button_region": "golf_hole_4_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 5,
+      "main_region": "golf_hole_5",
+      "start_region": "golf_hole_5_crab",
+      "hole_region": "golf_hole_5_win",
+      "button_region": "golf_hole_5_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 6,
+      "main_region": "golf_hole_6",
+      "start_region": "golf_hole_6_crab",
+      "hole_region": "golf_hole_6_win",
+      "button_region": "golf_hole_6_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 7,
+      "main_region": "golf_hole_7",
+      "start_region": "golf_hole_7_crab",
+      "hole_region": "golf_hole_7_win",
+      "button_region": "golf_hole_7_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 8,
+      "main_region": "golf_hole_8",
+      "start_region": "golf_hole_8_crab",
+      "hole_region": "golf_hole_8_win",
+      "button_region": "golf_hole_8_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 9,
+      "main_region": "golf_hole_9",
+      "start_region": "golf_hole_9_crab",
+      "hole_region": "golf_hole_9_win",
+      "button_region": "golf_hole_9_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 5000,
+      "main_region": "golf_hole_5k",
+      "start_region": "golf_hole_5k_crab",
+      "hole_region": "golf_hole_5k_win",
+      "button_region": "golf_hole_5k_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 1000,
+      "main_region": "golf_hole_10k",
+      "start_region": "golf_hole_10k_crab",
+      "hole_region": "golf_hole_10k_win",
+      "button_region": "golf_hole_10k_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 15000,
+      "main_region": "golf_hole_15k",
+      "start_region": "golf_hole_15k_crab",
+      "hole_region": "golf_hole_15k_win",
+      "button_region": "golf_hole_15k_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 20000,
+      "main_region": "golf_hole_20k",
+      "start_region": "golf_hole_20k_crab",
+      "hole_region": "golf_hole_20k_win",
+      "button_region": "golf_hole_20k_start"
+    },
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 25000,
+      "main_region": "golf_hole_25k",
+      "start_region": "golf_hole_25k_crab",
+      "hole_region": "golf_hole_25k_win",
+      "button_region": "golf_hole_25k_start"
+    },
     {
       "type": "ltminigames:crab_golf_clubs",
       "clubs": [
         {
           "id": "minecraft:stone_hoe",
           "components": {
-            "custom_name": {"translate": "lt.golf.gentle_putter", "color": "light_purple"},
+            "custom_name": { "translate": "lt.golf.gentle_putter", "color": "light_purple" },
+            "lore": [{ "translate": "lt.golf.gentle_putter.info", "color": "white" }],
             "unbreakable": {},
-            "ltextras:undroppable": {}
+            "ltextras:undroppable": {},
+            "enchantments": { "knockback": 1 },
+            "tooltip_display": { "hidden_components": ["enchantments"] }
+          }
+        },
+        {
+          "id": "minecraft:golden_hoe",
+          "components": {
+            "custom_name": { "translate": "lt.golf.soft_putter", "color": "light_purple" },
+            "lore": [{ "translate": "lt.golf.soft_putter.info", "color": "white" }],
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "enchantments": { "knockback": 2 },
+            "tooltip_display": { "hidden_components": ["enchantments"] }
+          }
+        },
+        {
+          "id": "minecraft:iron_hoe",
+          "components": {
+            "custom_name": { "translate": "lt.golf.putter", "color": "light_purple" },
+            "lore": [{ "translate": "lt.golf.putter.info", "color": "white" }],
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "enchantments": { "knockback": 3 },
+            "tooltip_display": { "hidden_components": ["enchantments"] }
+          }
+        },
+        {
+          "id": "minecraft:diamond_hoe",
+          "components": {
+            "custom_name": { "translate": "lt.golf.powerful_driver", "color": "light_purple" },
+            "lore": [{ "translate": "lt.golf.powerful_driver.info", "color": "white" }],
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "enchantments": { "knockback": 4 },
+            "tooltip_display": { "hidden_components": ["enchantments"] }
+          }
+        },
+        {
+          "id": "minecraft:netherite_hoe",
+          "components": {
+            "custom_name": { "translate": "lt.golf.potent_driver", "color": "light_purple" },
+            "lore": [{ "translate": "lt.golf.potent_driver.info", "color": "white" }],
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "enchantments": { "knockback": 5 },
+            "tooltip_display": { "hidden_components": ["enchantments"] }
           }
         }
       ]
