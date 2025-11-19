@@ -30,7 +30,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "allow_rejoin": true
     },
     {
       "type": "lt:escape_race/rooms/1/common_1"

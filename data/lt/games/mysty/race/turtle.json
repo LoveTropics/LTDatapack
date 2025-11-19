@@ -25,6 +25,8 @@
         "scope": "player"
       }
     },
+    "lt:mysty/shared",
+    "lt:mysty/integrations/common",
     {
       "type": "ltminigames:hide_players",
       "roles_to_hide_by_role": {

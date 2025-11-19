@@ -15,7 +15,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_late_with_role": "participant"
+      "join_late_with_role": "participant",
+      "allow_rejoin": true
     },
     {
       "type": "ltminigames:position_players",

@@ -130,8 +130,8 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "end": 300,
-      "close": 310
+      "end": 360,
+      "close": 370
     }
   },
   {
