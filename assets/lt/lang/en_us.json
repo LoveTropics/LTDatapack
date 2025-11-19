@@ -782,5 +782,6 @@
   "ltminigames.minigame.spleef.flavor.mysty.layer_countdown": "Next layer crumble in %s",
   "ltminigames.minigame.spleef.flavor.mysty.win": "%s has won Spleef!",
   "ltminigames.minigame.spleef.flavor.mysty.winners": "%s have won Spleef! We have multiple winners!!!",
-  "ltminigames.minigame.spleef.flavor.mysty.eliminated": "You fell into the volcano"
+  "ltminigames.minigame.spleef.flavor.mysty.eliminated": "You fell into the volcano",
+  "t.collectible.edu_glasses.name": "Education Glasses"
 }
