@@ -21,13 +21,12 @@
     "participants": "team_spawn",
     "spectators": "spec_spawn"
   },
-  "ltminigames:force_hands",
   {
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
       "phone_call_intro": 10,
-      "trash_start": 20,
+      "trash_phase_one": 20,
       "phone_call_code": 90,
       "trash_phase_two": 90,
       "trash_phase_three": 115,
