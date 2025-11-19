@@ -785,5 +785,8 @@
   "ltminigames.minigame.spleef.flavor.mysty.win": "%s has won Spleef!",
   "ltminigames.minigame.spleef.flavor.mysty.winners": "%s have won Spleef! We have multiple winners!!!",
   "ltminigames.minigame.spleef.flavor.mysty.eliminated": "You fell into the volcano",
-  "t.collectible.edu_glasses.name": "Education Glasses"
+  "lt.collectible.edu_glasses.name": "Education Glasses",
+  "ltminigames.minigame.donation.player_dummy_package": "Mini Warden Package",
+  "ltminigames.minigame.donation.player_dummy_package.description": "Turn every player in the game into a Mini Warden",
+  "ltminigames.minigame.donation.player_dummy_package.toast": "Everyone is a Mini Warden"
 }

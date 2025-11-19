@@ -3,7 +3,8 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "go": 10
+      "go": 10,
+      "end": 100000
     }
   },
   {
@@ -48,7 +49,7 @@
   },
   {
     "type": "ltminigames:scheduled_actions",
-    "target": "all_players",
+    "target": "participants",
     "actions": {
       "start": {
         "actions": {
@@ -81,6 +82,47 @@
     }
   },
   {
+    "type": "ltminigames:only_tick_in_period",
+    "period": {
+      "start": "go",
+      "end": "end"
+    },
+    "behavior": [
+      {
+        "type": "ltminigames:permanent_item",
+        "item": {
+          "id": "minecraft:crossbow",
+          "count": 1,
+          "components": {
+            "charged_projectiles": [
+              {
+                "id": "minecraft:firework_rocket",
+                "count": 1,
+                "components": {
+                  "minecraft:fireworks": {
+                    "flight_duration": 2,
+                    "explosions": [
+                      {
+                        "shape": "small_ball",
+                        "has_twinkle": true,
+                        "has_trail": true,
+                        "colors": [7427327, 16744576, 7602175, 14395135, 15723519, 16752765, 16711680],
+                        "fade_colors": [10742527, 8018431, 14548846, 16770168, 16763791]
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "minecraft:damage": 500,
+            "ltextras:undroppable": {}
+          }
+        },
+        "interval": 1
+      }
+    ]
+  },
+  {
     "type": "ltminigames:race_track",
     "path": {
       "start": 1,
@@ -88,7 +130,7 @@
       "prefix": "point_"
     },
     "lap_count": 3,
-    "winner_count": 3,
+    "winner_count": 25,
     "start_time": 200,
     "finish_region": "finish",
     "checkpoint_regions": {}
@@ -105,6 +147,7 @@
   },
   "lt:common/game_over_title",
   "lt:common/spectator",
+  "ltminigames:disable_hunger",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
