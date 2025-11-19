@@ -84,7 +84,8 @@
     "floor_breaking_material": "minecraft:blue_ice",
     "flavor_text": "mysty",
     "break_count": "$break_count",
-    "break_interval": "$break_interval"
+    "break_interval": "$break_interval",
+    "break_effects": false
   },
   {
     "type": "ltminigames:cancel_player_damage",
