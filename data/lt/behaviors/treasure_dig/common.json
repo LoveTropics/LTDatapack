@@ -1,7 +1,7 @@
 [
   "lt:treasure_dig/ruleset",
   "lt:treasure_dig/phases",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "teams": {

@@ -22,5 +22,5 @@
     }
   },
   "ltminigames:disable_hunger",
-  "ltminigames:spectator_chase"
+  "lt:common/spectator"
 ]

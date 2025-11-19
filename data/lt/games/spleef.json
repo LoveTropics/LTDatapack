@@ -27,7 +27,7 @@
         "spawn"
       ]
     },
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "ltminigames:set_game_rules",
       "rules": {

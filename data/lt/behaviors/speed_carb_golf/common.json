@@ -1,7 +1,7 @@
 [
   "lt:speed_carb_golf/ruleset",
   "lt:speed_carb_golf/phases",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "teams": {

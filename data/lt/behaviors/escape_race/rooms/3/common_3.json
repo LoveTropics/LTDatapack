@@ -1,7 +1,7 @@
 [
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "participants": "spawn",

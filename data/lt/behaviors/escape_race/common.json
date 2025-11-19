@@ -10,7 +10,7 @@
     "join_late_with_role": "spectator",
     "allow_rejoin": true
   },
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {

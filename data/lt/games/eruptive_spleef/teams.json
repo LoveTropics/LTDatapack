@@ -57,7 +57,7 @@
         "center"
       ]
     },
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "ltminigames:last_remaining_win_trigger",
       "last_team": true

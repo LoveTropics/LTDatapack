@@ -1,6 +1,6 @@
 [
   "lt:de_a_coudre/ruleset",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "teams": {

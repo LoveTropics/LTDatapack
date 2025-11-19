@@ -4,7 +4,7 @@
     "game_type": "adventure",
     "join_late_with_role": "participant"
   },
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   "lt:qottott/ruleset",
   "lt:qottott/phases",
   "lt:qottott/sidebar",

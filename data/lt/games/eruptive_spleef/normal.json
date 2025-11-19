@@ -27,7 +27,7 @@
         "center"
       ]
     },
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     "ltminigames:last_remaining_win_trigger",
     "lt:eruptive_spleef/ruleset",
     "lt:eruptive_spleef/equipment",

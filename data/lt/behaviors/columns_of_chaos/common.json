@@ -1,7 +1,7 @@
 [
   "lt:columns_of_chaos/ruleset",
   "lt:columns_of_chaos/freeze",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:columns_of_chaos",
     "pillar_height": 10,

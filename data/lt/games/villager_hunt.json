@@ -59,7 +59,7 @@
     "lt:villager_hunt/equipment",
     "lt:villager_hunt/actions",
     "lt:survive_the_tide/mode/teams/glow",
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "ltminigames:set_game_rules",
       "rules": {

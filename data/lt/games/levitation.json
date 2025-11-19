@@ -126,7 +126,7 @@
       "knockback": true
     },
     "ltminigames:immediate_respawn",
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "ltminigames:scheduled_actions",
       "target": "all_players",

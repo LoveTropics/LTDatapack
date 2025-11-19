@@ -100,7 +100,7 @@
     }
   },
   "lt:common/game_over_title",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {

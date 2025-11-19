@@ -139,7 +139,7 @@
       "type": "ltminigames:set_xp_to_statistic",
       "statistic": "trash_collected"
     },
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "lt:fixed_rewards",
       "coins": 10

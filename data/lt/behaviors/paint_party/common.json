@@ -2,7 +2,7 @@
   "lt:paint_party/ruleset",
   "lt:paint_party/phases",
   "lt:paint_party/intro",
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "teams": {

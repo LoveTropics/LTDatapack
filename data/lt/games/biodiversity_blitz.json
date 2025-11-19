@@ -191,7 +191,7 @@
         }
       }
     },
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     "lt:biodiversity_blitz/rewards",
     {
       "type": "ltminigames:bb_in_game_scoreboard",

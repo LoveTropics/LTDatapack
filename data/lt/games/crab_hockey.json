@@ -226,7 +226,7 @@
       }
     },
     "ltminigames:immediate_respawn",
-    "ltminigames:spectator_chase",
+    "lt:common/spectator",
     {
       "type": "ltminigames:game_finish",
       "target": "all_players",

@@ -1,5 +1,5 @@
 [
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   "lt:turtle_sprint/ruleset",
   "lt:turtle_sprint/intro",
   {

@@ -4,7 +4,7 @@
     "plot_name": "build_plot",
     "build_time": 200
   },
-  "ltminigames:spectator_chase",
+  "lt:common/spectator",
   {
     "type": "ltminigames:position_players",
     "spectators": "build_plot"
