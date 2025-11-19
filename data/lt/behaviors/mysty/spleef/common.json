@@ -5,6 +5,7 @@
     "spectators": "spectator_spawn"
   },
   "lt:common/spectator",
+  "lt:mysty/shared",
   "lt:mysty/integrations/spleef",
   {
     "type": "ltminigames:projectile_break_block",

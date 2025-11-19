@@ -12,15 +12,6 @@
       "statistic": "points",
       "amount": 1,
       "scope": "player"
-    },
-    {
-      "type": "ltminigames:send_message",
-      "message": {
-        "translate": "ltminigames.minigame.mysty.add_coins",
-        "with": [1],
-        "color": "gold"
-      },
-      "action_bar": true
     }
   ]
 }

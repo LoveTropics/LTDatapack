@@ -2,6 +2,7 @@
   "lt:common/spectator",
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
+  "lt:mysty/shared",
   "lt:mysty/integrations/arena",
   "ltminigames:last_remaining_win_trigger",
   "ltminigames:place_by_death_order",

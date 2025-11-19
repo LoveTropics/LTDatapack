@@ -5,6 +5,7 @@
     "build_time": 200
   },
   "lt:common/spectator",
+  "lt:mysty/shared",
   {
     "type": "ltminigames:position_players",
     "spectators": "build_plot"

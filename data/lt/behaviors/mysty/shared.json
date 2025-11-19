@@ -8,5 +8,20 @@
     "icon": "ltextras:tropicoin",
     "translation_key": "ltminigames.minigame.mysty.coins",
     "statistic": "points"
+  },
+  {
+    "type": "ltminigames:statistic_notifier",
+    "statistic": "points",
+    "only_increase": true,
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.mysty.add_coins",
+          "color": "gold"
+        },
+        "action_bar": true
+      }
+    ]
   }
 ]

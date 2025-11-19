@@ -17,6 +17,7 @@
     "spectators": "point_1",
     "face_region": "finish"
   },
+  "lt:mysty/shared",
   {
     "type": "ltminigames:rider",
     "entity": {

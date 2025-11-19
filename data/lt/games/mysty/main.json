@@ -32,11 +32,7 @@
       "game_type": "adventure",
       "join_late_with_role": "spectator"
     },
-    {
-      "type": "ltminigames:in_sub_games",
-      "include_top": true,
-      "behavior": "lt:mysty/shared"
-    },
+    "lt:mysty/shared",
     {
       "type": "ltminigames:position_players",
       "all": ["spawn"]

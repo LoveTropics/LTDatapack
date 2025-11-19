@@ -3,6 +3,7 @@
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
   "ltminigames:immediate_respawn",
+  "lt:mysty/shared",
   "lt:mysty/integrations/common",
   {
     "type": "ltminigames:set_game_rules",
@@ -68,6 +69,18 @@
           "role": "spectator"
         },
         {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "points",
+          "amount": 1,
+          "scope": "player"
+        },
+        {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "points",
+          "from_participant_count": true,
+          "scope": "player"
+        },
+        {
           "type": "ltminigames:apply_to",
           "target": "all_players",
           "actions": [
@@ -103,6 +116,61 @@
     "statistic_holder": "player"
   },
   {
+    "type": "ltminigames:place_by_statistic",
+    "statistic": "total_time",
+    "order": "min"
+  },
+  {
+    "type": "ltminigames:display_leaderboard_on_finish",
+    "statistic": "total_time",
+    "order": "min",
+    "length": 6
+  },
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "end": 300,
+      "close": 310
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all_players",
+    "actions": {
+      "end": "ltminigames:end_game",
+      "close": "ltminigames:close_game"
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "end",
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
+    "type": "ltminigames:phase_progress_bar",
+    "entries": [
+      {
+        "period": {
+          "start": "start",
+          "end": "end"
+        },
+        "text": {
+          "translate": "ltminigames.minigame.mysty.race.riptide",
+          "color": "green"
+        },
+        "color": "green",
+        "include_time": true,
+        "reversed": true
+      }
+    ]
+  },
+  {
     "type": "ltminigames:set_client_state",
     "state": {
       "type": "ltminigames:disable_player_collision"
@@ -118,7 +186,5 @@
       }
     }
   },
-  {
-    "type": "ltminigames:cancel_player_attacks"
-  }
+  "ltminigames:cancel_player_attacks"
 ]
