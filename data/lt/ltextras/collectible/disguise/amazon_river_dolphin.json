@@ -1,0 +1,49 @@
+{
+  "item": "peekaboo:disguise",
+  "components": {
+    "peekaboo:disguise": {
+      "entity": {
+        "id": "ltextras:amazon_river_dolphin"
+      },
+      "hide_shadow": true
+    },
+    "ltextras:collectible_display_info": {
+      "name": "amazing_river_dolphin",
+      "rarity": "purchased",
+      "additional_lore": [
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray"
+        },
+        {
+          "translate": "lt.collectible.disguise.tooltip.subtract_player",
+          "color": "blue"
+        },
+        {
+          "text": " + ",
+          "extra": [
+            {
+              "translate": "entity.ltextras.amazon_river_dolphin"
+            }
+          ],
+          "color": "blue"
+        }
+      ]
+    },
+    "minecraft:custom_name": {
+      "text": "",
+      "extra": [
+        {
+          "translate": "entity.ltextras.amazon_river_dolphin"
+        },
+        " ",
+        {
+          "translate": "lt.collectible.disguise.name.suffix"
+        }
+      ],
+      "italic": false,
+      "color": "#BFEA00"
+    }
+  },
+  "auto_equip": false
+}

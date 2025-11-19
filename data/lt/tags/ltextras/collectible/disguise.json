@@ -1,12 +1,21 @@
 {
   "replace": false,
   "values": [
+    "lt:disguise/allay",
+    "lt:disguise/amazon_river_dolphin",
+    "lt:disguise/armadillo",
+    "lt:disguise/breeze",
+    "lt:disguise/enderman",
     "lt:disguise/fiddler_crab",
+    "lt:disguise/forklift",
     "lt:disguise/frog",
+    "lt:disguise/gibnut",
     "lt:disguise/shoebill_stork",
     "lt:disguise/slender_mouse",
+    "lt:disguise/slimey_slime",
     "lt:disguise/tapir_with_shades",
     "lt:disguise/tropibee",
-    "lt:disguise/slimey_slime"
+    "lt:disguise/tropicreeper",
+    "lt:disguise/white_winged_warbler"
   ]
 }

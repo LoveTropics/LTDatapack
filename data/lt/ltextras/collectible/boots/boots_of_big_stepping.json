@@ -1,32 +1,23 @@
 {
+  "item": "minecraft:chainmail_boots",
   "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.boots_of_big_stepping.description",
-        "color": "gray"
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.secret",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.feet",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.boots_of_big_stepping.tooltip.add_step_height",
-        "color": "blue",
-        "italic": false
-      }
-    ],
+    "ltextras:collectible_display_info": {
+      "name": "boots_of_big_stepping",
+      "description": true,
+      "rarity": "purchased",
+      "additional_lore": [
+        {
+          "translate": "item.modifiers.feet",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.boots_of_big_stepping.tooltip.add_step_height",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
     "minecraft:attribute_modifiers": [
       {
         "amount": 3.0,
@@ -39,7 +30,7 @@
     "minecraft:unbreakable": {},
     "minecraft:custom_name": {
       "translate": "lt.collectible.boots_of_big_stepping.name",
-      "color": "#5ABDA3",
+      "color": "#BFEA00",
       "italic": false
     },
     "minecraft:enchantment_glint_override": true,
@@ -56,5 +47,5 @@
     },
     "minecraft:dyed_color": 10511680
   },
-  "item": "minecraft:chainmail_boots"
+  "auto_equip": false
 }

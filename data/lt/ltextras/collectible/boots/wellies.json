@@ -1,39 +1,30 @@
 {
+  "item": "minecraft:leather_boots",
   "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.wellies.description",
-        "color": "gray"
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.reward",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.feet",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.wellies.tooltip.add_movement_effenicy",
-        "color": "blue",
-        "italic": false
-      }
-    ],
+    "ltextras:collectible_display_info": {
+      "name": "wellies",
+      "description": true,
+      "rarity": "purchased",
+      "additional_lore": [
+        {
+          "translate": "item.modifiers.feet",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.wellies.tooltip.add_movement_effenicy",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
     "minecraft:enchantments": {
       "lt:wellies": 1
     },
     "minecraft:unbreakable": {},
     "minecraft:custom_name": {
       "translate": "lt.collectible.wellies.name",
-      "color": "#005958",
+      "color": "#BFEA00",
       "italic": false
     },
     "minecraft:custom_data": {
@@ -55,5 +46,5 @@
     },
     "minecraft:dyed_color": 16767257
   },
-  "item": "minecraft:leather_boots"
+  "auto_equip": false
 }
