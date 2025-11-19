@@ -121,5 +121,6 @@
       "type": "minecraft:player"
     },
     "strength": 0.4
-  }
+  },
+  "lt:mysty/spleef/coins"
 ]

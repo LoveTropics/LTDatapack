@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:set_role",
+  "from_role": "participant",
+  "role": "spectator",
+  "target": [
+    "participants",
+    {"type": "exclude", "excluding": "source"}
+  ],
+  "actions": [
+    {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "points",
+      "amount": 1,
+      "scope": "player"
+    },
+    {
+      "type": "ltminigames:send_message",
+      "message": {
+        "translate": "ltminigames.minigame.mysty.add_coins",
+        "with": [1],
+        "color": "gold"
+      },
+      "action_bar": true
+    }
+  ]
+}
