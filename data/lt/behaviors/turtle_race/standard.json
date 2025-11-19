@@ -126,8 +126,12 @@
         "text": "%winner% completed the race in the shortest amount of time and won the game!",
         "color": "gray"
       }
-    },
-    "podium": {
+    }
+  },
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": {
+      "type": "ltminigames:setup_podium",
       "winner_regions": ["winner_1", "winner_2", "winner_3"],
       "loser_region": "loser_spawn"
     }

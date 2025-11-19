@@ -38,8 +38,12 @@
     "respawn_action": "lt:qottott/respawn"
   },
   {
-    "type": "ltminigames:game_end_effects",
-    "podium": {
+    "type": "ltminigames:game_end_effects"
+  },
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": {
+      "type": "ltminigames:setup_podium",
       "winner_regions": ["winner"],
       "loser_region": "lobby_spawn"
     }
