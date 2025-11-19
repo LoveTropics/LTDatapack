@@ -34,14 +34,15 @@
     {
       "type": "ltminigames:minigame_competition",
       "games": [
-        "lt:mysty/arena/island",
-        "lt:mysty/arena/platforms",
-        "lt:mysty/arena/waves",
+        "lt:mysty/spleef/normal",
+        "lt:mysty/spleef/coconut",
+        "lt:mysty/spleef/blindness",
         "lt:mysty/race/riptide",
         "lt:mysty/race/turtle",
-        "lt:mysty/spleef/blindness",
-        "lt:mysty/spleef/coconut",
-        "lt:mysty/spleef/normal",
+        "lt:mysty/arena/platforms",
+        "lt:mysty/arena/waves",
+        "lt:mysty/arena/island",
+        "lt:mysty/race/ice_boat",
         "lt:mysty/platforms",
         "lt:mysty/build_battle"
       ]
