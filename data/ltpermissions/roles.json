@@ -61,6 +61,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
+      },
+      "waypoint_icon": {
+        "style": "lt:mojang"
       }
     }
   },
@@ -69,10 +72,6 @@
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
-      },
-      "waypoint_icon": {
-        "style": "lt:mojang",
-        "color": [1.0, 0.2, 0.0]
       }
     }
   },
