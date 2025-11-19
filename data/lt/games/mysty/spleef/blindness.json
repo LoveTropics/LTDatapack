@@ -39,6 +39,13 @@
           }
         ]
       }
+    },
+    {
+      "type": "ltminigames:set_role",
+      "role": "spectator",
+      "actions": {
+        "type": "ltminigames:clear_effects"
+      }
     }
   ]
 }
