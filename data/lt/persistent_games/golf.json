@@ -1,0 +1,27 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:crab_golf_hole",
+      "hole": 1,
+      "main_region":  "golf_hole_1",
+      "start_region": "golf_hole_1_crab",
+      "hole_region":  "golf_hole_1_win",
+      "button_region": "golf_hole_1_start"
+    },
+
+    {
+      "type": "ltminigames:crab_golf_clubs",
+      "clubs": [
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "custom_name": {"translate": "lt.golf.gentle_putter", "color": "light_purple"},
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        }
+      ]
+    }
+  ]
+}
