@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Clue 5"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "I shine above the rest.\nEven though I am in a little crest\nThose you come from behind\nWill find they grind"
+  },
+  "after_action": "close"
+}

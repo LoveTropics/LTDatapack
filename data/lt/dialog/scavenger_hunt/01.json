@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Clue 1"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Up, up, up you must go. \nBefore you go down below. \nOne of three, I am all but free. \nFrom those who fly around me."
+  },
+  "after_action": "close"
+}

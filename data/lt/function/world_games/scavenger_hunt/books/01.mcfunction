@@ -1,3 +1,3 @@
-collectible give @s item minecraft:written_book[minecraft:written_book_content={resolved:1b,author:"The Puzzle Whisperer",pages:[{raw:'{"translate":"lt.scavenger_hunt.clue.01","with":[{"translate":"lt.scavenger_hunt.clue","with":[{"text":"1"},{"translate":"lt.scavenger_hunt.spacer.start"}]},{"translate":"lt.scavenger_hunt.spacer.end"}]}'}],title:{raw:"Clue 01"}}]
+collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:"lt:scavenger_hunt/01"},cancel_event:true},written_book_content={resolved:true,author:"The Puzzle Whisperer",pages:[{text:"1"}],title:"Clue 1"}]
 execute as @p unless score @s scavenger_hunt_count matches 1.. run scoreboard players add clue_1 world_game.scavenger_hunt.stats 1
 execute as @p unless score @s scavenger_hunt_count matches 1.. run scoreboard players set @s scavenger_hunt_count 1

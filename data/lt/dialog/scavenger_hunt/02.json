@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Clue 2"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "At the start of this entire thing\nMight bring what you cling\nTake a step back.\nAnd look for a block that fell through the cracks."
+  },
+  "after_action": "close"
+}

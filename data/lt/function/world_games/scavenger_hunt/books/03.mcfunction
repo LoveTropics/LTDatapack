@@ -1,5 +1,4 @@
-execute as @p if score @s scavenger_hunt_count matches 2.. run collectible give @s item minecraft:written_book[minecraft:written_book_content={resolved:1b,author:"The Puzzle Whisperer",pages:[{raw:'{"translate":"lt.scavenger_hunt.clue.03","with":[{"translate":"lt.scavenger_hunt.clue","with":[{"text":"3"},{"translate":"lt.scavenger_hunt.spacer.start"}]},{"translate":"lt.scavenger_hunt.spacer.end"}]}'}],title:{raw:"Clue 03"}}]
-execute as @p if score @s scavenger_hunt_count matches 2 run scoreboard players add clue_3 world_game.scavenger_hunt.stats 1
+execute as @p if score @s scavenger_hunt_count matches 2.. run collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:"lt:scavenger_hunt/03"},cancel_event:true},written_book_content={resolved:true,author:"The Puzzle Whisperer",pages:[{text:"1"}],title:"Clue 3"}]
 execute as @p if score @s scavenger_hunt_count matches 2.. run scoreboard players set @s scavenger_hunt_count 3
 execute as @p unless score @s scavenger_hunt_count matches 2.. run tellraw @s {"translate":"lt.scavenger_hunt.order"}
 execute as @p unless score @s scavenger_hunt_count matches 2.. run playsound ltminigames:incorrect voice @s

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Clue 3"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "My loving eyes watch over all those you play.\nEven thoughs who sway.\nJump from beneath me, and you'll be bequeathed."
+  },
+  "after_action": "close"
+}

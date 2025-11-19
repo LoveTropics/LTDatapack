@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Clue 4"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "While many might come through me.\nTo find me from the of three\nOnly those who scream loudest\nWill find what they are most proudest"
+  },
+  "after_action": "close"
+}
