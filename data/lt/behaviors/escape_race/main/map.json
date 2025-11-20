@@ -57,7 +57,10 @@
       "entity": {
         "type": "ltextras:forklift",
         "tag": {
-          "RequiresCertification": true
+          "RequiresCertification": true,
+          "SlowPredicate": {
+            "blocks": ["ltextras:warehouse_floor"]
+          }
         }
       },
       "regions_to_spawn_at": ["forklift_spawn"],

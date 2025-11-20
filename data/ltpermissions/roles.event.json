@@ -200,7 +200,13 @@
         },
         "style": "#F5A927"
       },
-      "host": true
+      "host": true,
+      "join_access": {
+        "allows_joining": false,
+        "not_whitelisted_message": {
+          "translate": "lt.whitelist.mysty_event.not_started"
+        }
+      }
     }
   },
   "event": {
