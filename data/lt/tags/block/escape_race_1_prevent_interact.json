@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#minecraft:trapdoors",
-    "minecraft:decorated_pot"
+    "minecraft:decorated_pot",
+    "minecraft:blast_furnace"
   ]
 }
