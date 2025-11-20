@@ -191,7 +191,8 @@
           "color": "#F5A927"
         },
         "style": "#F5A927"
-      }
+      },
+      "host": true
     }
   },
   "event_overlord": {

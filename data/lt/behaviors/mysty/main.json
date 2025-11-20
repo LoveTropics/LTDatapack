@@ -1,10 +1,4 @@
 [
-  {
-    "type": "lt:common/playing",
-    "game_type": "adventure",
-    "join_late_with_role": "spectator",
-    "allow_rejoin": true
-  },
   "lt:mysty/global",
   {
     "type": "ltminigames:set_game_rules",
@@ -56,6 +50,12 @@
         "loser_region": "spawn"
       }
     ]
+  },
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true
   },
   {
     "type": "ltminigames:custom_command",
