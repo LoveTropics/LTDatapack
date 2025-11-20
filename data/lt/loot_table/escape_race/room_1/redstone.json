@@ -15,9 +15,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:can_place_on": {
+                "minecraft:can_place_on": [{
                   "blocks": "#lt:escape_race_1_floor"
-                }
+                }]
               }
             }
           ]
