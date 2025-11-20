@@ -61,6 +61,7 @@
     "lt:escape_race/common",
     {
       "type": "ltminigames:escape_race/break_bucks"
-    }
+    },
+    "ltminigames:microgames"
   ]
 }

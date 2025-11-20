@@ -9,6 +9,7 @@
     "join_late_with_role": "spectator",
     "allow_rejoin": true
   },
+  "ltminigames:microgames",
   "lt:common/spectator",
   {
     "type": "ltminigames:bind_controls",
