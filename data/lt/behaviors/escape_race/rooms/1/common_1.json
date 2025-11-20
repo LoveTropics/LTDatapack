@@ -24,6 +24,16 @@
     }
   },
   {
+    "type": "ltminigames:distribute_loot",
+    "region": "pots",
+    "block_entity_type": "minecraft:decorated_pot",
+    "item": {
+      "id": "minecraft:redstone",
+      "count": 1
+    },
+    "count": 300
+  },
+  {
     "type": "ltminigames:block_in_region",
     "region": "should_end",
     "run_once": true,
@@ -33,17 +43,27 @@
         "lit": "true"
       }
     },
-    "target": "participants",
+    "target": "all_players",
     "actions": [
+      "ltminigames:end_game",
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "GG",
+          "translate": "You have braved the dark and Turned on the Lights, well done!",
           "color": "gold",
           "italic": true
         }
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "volume": 0.5
       }
     ]
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 100
   },
   {
     "type": "ltminigames:phase_triggers/start",
@@ -52,7 +72,10 @@
       "entity": {
         "type": "minecraft:warden",
         "tag": {
-          "AvoidDarkness": true
+          "AvoidDarkness": true,
+          "CustomName": "Lil' Terror",
+          "CustomNameVisible": true,
+          "PersistenceRequired": true
         }
       },
       "regions_to_spawn_at": ["warden"],
