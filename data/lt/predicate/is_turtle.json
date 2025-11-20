@@ -4,7 +4,7 @@
   "predicate": {
     "vehicle": {
       "type": "tropicraft:turtle",
-      "team": "antiCrabCollision"
+      "team": "anticrabcollision"
     }
   }
 }
