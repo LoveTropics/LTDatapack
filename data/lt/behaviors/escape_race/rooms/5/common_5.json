@@ -22,7 +22,7 @@
   },
   {
     "type": "ltminigames:increase_random_tick_rate_in_region",
-    "regions": ["farm_land"],
+    "regions": ["farmland"],
     "increased_tick_rate": 2
   },
   {
