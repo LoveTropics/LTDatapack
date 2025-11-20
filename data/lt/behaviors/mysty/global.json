@@ -10,6 +10,11 @@
     "statistic": "points"
   },
   {
+    "type": "ltminigames:statistic_tag",
+    "statistic": "points",
+    "icon": "ltextras:tropicoin"
+  },
+  {
     "type": "ltminigames:point_control_commands",
     "statistic": "points",
     "subcommand": ["competition", "coins"]
