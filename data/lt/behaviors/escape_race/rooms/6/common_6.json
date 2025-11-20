@@ -153,28 +153,94 @@
           "entity": {
             "type": "minecraft:item",
             "tag": {
-              "Item":
-                {
-                  "id": "minecraft:trident",
+              "Item":{
+                "tags": {
                   "components": {
-                    "unbreakable": {},
-                    "ltextras:undroppable": {},
-                    "item_name": {
-                      "text": "The Orb™"
-                    },
-                    "rarity": "epic",
-                    "attribute_modifiers": [{ "id": "scale", "type": "scale", "amount": -0.35, "operation": "add_value" }],
-                    "item_model": "minecraft:heart_of_the_sea",
-                    "lore": [
-                      { "color": "gray", "text": "See's all. Including your personal information." },
-                      { "color": "gray", "text": "Release waiver on page 3." }
-                    ],
-                    "enchantment_glint_override": false,
-                    "enchantments": { "channeling": 1, "impaling": 3, "loyalty": 3 },
-                    "weapon": {"disable_blocking_for_seconds":0,"item_damage_per_attack":1.5},
-                    "tooltip_display": {"hidden_components":["enchantments"]}
+                    "tags": {
+                      "minecraft:item_name": {
+                        "value": "The Orb™"
+                      },
+                      "minecraft:item_model": {
+                        "value": "minecraft:heart_of_the_sea"
+                      },
+                      "minecraft:lore": [
+                        {
+                          "tags": {
+                            "color": {
+                              "value": "gray"
+                            },
+                            "text": {
+                              "value": "Sees all. Including your personal information."
+                            }
+                          }
+                        },
+                        {
+                          "tags": {
+                            "color": {
+                              "value": "gray"
+                            },
+                            "text": {
+                              "value": "Release waiver on page 3."
+                            }
+                          }
+                        }
+                      ],
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "tags": {
+                            "amount": {
+                              "value": -0.35
+                            },
+                            "id": {
+                              "value": "minecraft:scale"
+                            },
+                            "type": {
+                              "value": "minecraft:scale"
+                            },
+                            "operation": {
+                              "value": "add_value"
+                            }
+                          }
+                        }
+                      ],
+                      "minecraft:enchantments": {
+                        "tags": {
+                          "minecraft:loyalty": {
+                            "value": 3
+                          },
+                          "minecraft:impaling": {
+                            "value": 3
+                          },
+                          "minecraft:channeling": {
+                            "value": 1
+                          }
+                        }
+                      },
+                      "minecraft:tooltip_display": {
+                        "tags": {
+                          "hidden_components": [
+                            {
+                              "value": "minecraft:enchantments"
+                            }
+                          ]
+                        }
+                      },
+                      "minecraft:rarity": {
+                        "value": "epic"
+                      },
+                      "minecraft:enchantment_glint_override": {
+                        "value": 0
+                      }
+                    }
+                  },
+                  "count": {
+                    "value": 1
+                  },
+                  "id": {
+                    "value": "minecraft:trident"
                   }
                 }
+              }
             }
           },
           "regions_to_spawn_at": ["item_2"],
@@ -190,41 +256,61 @@
                 "id": "minecraft:lingering_potion",
                 "count": 99,
                 "components": {
-                  "unbreakable": {},
-                  "ltextras:undroppable": {},
-                  "attribute_modifiers": [
+                  "minecraft:attribute_modifiers": [
                     {
-                      "id": "jump_strength",
-                      "type": "jump_strength",
+                      "type": "minecraft:jump_strength",
+                      "id": "minecraft:jump_strength",
                       "amount": 0.5,
                       "operation": "add_value",
-                      "slot": "mainhand",
-                      "display": { "type": "default" }
+                      "slot": "mainhand"
                     },
                     {
-                      "id": "fall_damage_multiplier",
-                      "type": "fall_damage_multiplier",
-                      "amount": -1,
+                      "type": "minecraft:fall_damage_multiplier",
+                      "id": "minecraft:fall_damage_multiplier",
+                      "amount": -1.0,
                       "operation": "add_value",
-                      "slot": "mainhand",
-                      "display": { "type": "default" }
+                      "slot": "mainhand"
                     }
                   ],
-                  "rarity": "epic",
-                  "lore": [
-                    { "color": "gray", "text": "It shouldn't be legal. Like for real." },
-                    { "color": "gray", "text": "And if it gets on your skin? It's over." },
-                    { "color": "gray", "text": "I mean even the bottle is dangerous, for Terry's sake!" }
+                  "minecraft:rarity": "epic",
+                  "minecraft:lore": [
+                    {
+                      "text": "It shouldn\u0027t be legal. Like for real.",
+                      "color": "gray"
+                    },
+                    {
+                      "text": "And if it gets on your skin? It\u0027s over.",
+                      "color": "gray"
+                    },
+                    {
+                      "text": "I mean even the bottle is dangerous, for Terry\u0027s sake!",
+                      "color": "gray"
+                    }
                   ],
-                  "use_cooldown": { "seconds": 2 },
-                  "custom_name": { "color": "light_purple", "italic": false, "text": "Shoe Shine of Supreme Suffering" },
-                  "weapon": { "disable_blocking_for_seconds": 0, "item_damage_per_attack": 4 },
-                  "potion_contents": {
+                  "minecraft:use_cooldown": {
+                    "seconds": 2.0
+                  },
+                  "minecraft:custom_name": {
+                    "text": "Shoe Shine of Supreme Suffering",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  "minecraft:weapon": {
+                    "item_damage_per_attack": 4
+                  },
+                  "minecraft:potion_contents": {
                     "potion": "minecraft:awkward",
                     "custom_color": 3346690,
-                    "custom_effects": [{ "id": "minecraft:wither", "amplifier": 1, "duration": 360, "show_particles": true, "show_icon": true }]
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:wither",
+                        "show_icon": true,
+                        "amplifier": 1,
+                        "duration": 360
+                      }
+                    ]
                   },
-                  "max_stack_size": 99
+                  "minecraft:max_stack_size": 99
                 }
               }
             }
