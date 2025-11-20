@@ -7,4 +7,5 @@ execute if score @s world_game.turtle.clock < @s world_game.turtle.scores run ex
 tellraw @s {"translate":"lt.world_games.turtle.win.time","with":[{"score":{"name":"@s","objective":"world_game.turtle.clock"}},{"score":{"name":"@s","objective":"world_game.turtle.scores"}}]}
 tag @s remove world_game.turtle_active
 tp @s 964 137 -1218 0 0
+collectible give @s lt:hat/turtle
 function lt:world_games/turtle/reset
