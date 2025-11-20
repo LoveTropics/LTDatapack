@@ -15,7 +15,7 @@
   "behaviors": [
     {
       "type": "lt:common/playing",
-      "game_type": "creative",
+      "game_type": "survival",
       "join_late_with_role": "spectator"
     },
     "lt:mysty/build_battle/common"

@@ -21,5 +21,24 @@
       "doImmediateRespawn": "true"
     }
   },
-  "ltminigames:immediate_respawn"
+  "ltminigames:immediate_respawn",
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "neoforge:creative_flight",
+        "modifier": {
+          "id": "lt:build_battle_flight",
+          "amount": 1.0,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:run_commands",
+        "player": "build enableAndActivate @s"
+      }
+    ]
+  }
 ]
