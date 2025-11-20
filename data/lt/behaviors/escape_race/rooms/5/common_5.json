@@ -102,13 +102,20 @@
           }
         ]
       },
-      "14": [
-        {
-          "type": "ltminigames:set_blocks",
-          "set": "minecraft:redstone_block",
-          "region": "supply_door"
-        }
-      ]
+      "15": {
+        "type": "ltminigames:set_blocks",
+        "region": ["paracord_hatch"],
+        "set": "air",
+        "notify_neighbors": true
+      },
+      "20": {
+        "type": "ltminigames:set_extending_blocks",
+        "region": ["paracord"],
+        "set": "ltextras:paracord",
+        "direction": "down",
+        "duration": 50,
+        "notify_neighbors": true
+      }
     }
   },
   {
