@@ -14,7 +14,9 @@
   "lt:parkour_race/equipment",
   {
     "type": "ltminigames:checkpoints",
-    "region": "checkpoint",
+    "checkpoints": [
+      {"region": "checkpoint"}
+    ],
     "angle": -180.0
   },
   {
