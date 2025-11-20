@@ -1,0 +1,19 @@
+{
+  "type": "ltminigames:on_entity_interaction",
+  "item_used": {
+    "items": "$item_id"
+  },
+  "target_predicate": {
+    "type": "tropicraft:shoebill_stork"
+  },
+  "target_actions": [
+    {
+      "type": "ltminigames:add_equipment",
+      "feet": {
+        "id": "$item_id"
+      }
+    }
+  ],
+  "source_actions": "$actions",
+  "consume": true
+}

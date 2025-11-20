@@ -1,0 +1,40 @@
+[
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "minecraft:leather_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "ltextras:high_heels",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh what beautiful shoes! Thank you!",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      {
+        "type": "ltminigames:delayed",
+        "delay": 20,
+        "actions": [
+          {
+            "type": "ltminigames:end_game",
+            "win_by_source": "player"
+          }
+        ]
+      }
+    ]
+  }
+]
