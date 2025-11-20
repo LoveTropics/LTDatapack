@@ -23,6 +23,12 @@
     }
   },
   {
+    "type": "ltminigames:prevent_block_interaction",
+    "block_predicate": {
+      "blocks": "#minecraft:trapdoors"
+    }
+  },
+  {
     "type": "ltminigames:set_client_state",
     "state": {
       "type": "ltminigames:hide_name_tags"
