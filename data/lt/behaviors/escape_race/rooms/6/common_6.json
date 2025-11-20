@@ -1,6 +1,7 @@
 [
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
+  "ltminigames:immediate_respawn",
   "lt:common/spectator",
   "ltminigames:teams",
   {
@@ -191,51 +192,37 @@
       {
         "id": "minecraft:leather_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "tropicraft:fire_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "minecraft:golden_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "tropicraft:scale_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "minecraft:netherite_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "ltextras:big_boots",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       },
       {
         "id": "ltextras:high_heals",
         "count": 1,
-        "components": {
-          "ltextras:gravity": -0.01
-        }
+        "components": {}
       }
     ],
     "target_cooldown_length": 36000,

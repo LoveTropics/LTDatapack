@@ -10,7 +10,11 @@
     {
       "type": "ltminigames:add_equipment",
       "feet": {
-        "id": "$item_id"
+        "id": "$item_id",
+        "components": {
+          "ltextras:gravity": -0.01,
+          "ltextras:undroppable": {}
+        }
       }
     }
   ],
