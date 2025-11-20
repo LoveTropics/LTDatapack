@@ -107,6 +107,24 @@
         "clear": true,
         "items": [
           {
+            "id": "minecraft:snowball",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "ltextras:dented_can",
+              "minecraft:item_name": "Dented Throwing Can",
+              "minecraft:lore": [
+                {
+                  "text": "Makes a loud, distracting clang on impact.",
+                  "color": "gray"
+                }
+              ],
+              "minecraft:rarity": "uncommon",
+              "minecraft:use_cooldown": {
+                "seconds": 5.0
+              }
+            }
+          },
+          {
             "id": "minecraft:stone_pickaxe",
             "components": {
               "unbreakable": {},
