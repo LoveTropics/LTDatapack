@@ -1,7 +1,8 @@
 [
   {
     "type": "ltminigames:position_players",
-    "participants": "spawn"
+    "participants": "spawn",
+    "spectators": "spawn"
   },
   {
     "type": "ltminigames:escape_race/warehouse_setup",
