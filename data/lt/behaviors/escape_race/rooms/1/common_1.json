@@ -24,6 +24,12 @@
     }
   },
   {
+    "type": "ltminigames:prevent_block_interaction",
+    "block_predicate": {
+      "blocks": "#lt:escape_race_1_prevent_interact"
+    }
+  },
+  {
     "type": "ltminigames:distribute_loot",
     "region": "pots",
     "block_entity_type": "minecraft:decorated_pot",
