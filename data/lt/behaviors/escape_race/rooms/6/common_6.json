@@ -278,32 +278,44 @@
       {
         "id": "minecraft:leather_boots",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "tropicraft:fire_boots",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "minecraft:golden_boots",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "tropicraft:scale_boots",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "minecraft:netherite_boots",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "ltextras:big_boot",
         "count": 1,
-        "components": {}
+        "components": {
+          "!equippable": {}
+        }
       },
       {
         "id": "ltextras:high_heels",
