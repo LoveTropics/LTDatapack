@@ -10,6 +10,11 @@
     "named_points": {}
   },
   {
+    "type": "ltminigames:cancel_player_damage",
+    "knockback": true
+  },
+  "ltminigames:immediate_respawn",
+  {
     "type": "ltminigames:prevent_trampling_crops"
   },
   {
