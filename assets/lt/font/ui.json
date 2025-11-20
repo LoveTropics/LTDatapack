@@ -11,12 +11,12 @@
         },
         {
           "type": "bitmap",
-          "ascent": 250,
+          "ascent": 15,
           "chars": [
             "\u0355"
           ],
           "file": "lt:font/other/vacation_day.png",
-          "height": 1500
+          "height": 16
         }
     ]
 }

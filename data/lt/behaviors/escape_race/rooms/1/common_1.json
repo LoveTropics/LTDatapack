@@ -91,6 +91,12 @@
         "type": "ltminigames:play_sound",
         "sound": "minecraft:block.end_portal.spawn",
         "volume": 0.5
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 5,
+        "scope": "player"
       }
     ]
   },
