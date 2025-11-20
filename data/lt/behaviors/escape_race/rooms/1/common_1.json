@@ -109,7 +109,20 @@
         },
         "regions_to_spawn_at": ["warden"],
         "entity_count_per_region": 1,
-        "at_heightmap": false
+        "at_heightmap": false,
+        "entity_spawn_actions": [
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:speed",
+                "seconds": 999999,
+                "amplifier": 0,
+                "particles": false
+              }
+            ]
+          }
+        ]
       }
   }
 ]
