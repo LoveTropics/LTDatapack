@@ -10,6 +10,11 @@
     "statistic": "points"
   },
   {
+    "type": "ltminigames:point_control_commands",
+    "statistic": "points",
+    "subcommand": ["competition", "coins"]
+  },
+  {
     "type": "ltminigames:statistic_notifier",
     "statistic": "points",
     "only_increase": true,
