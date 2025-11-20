@@ -4,11 +4,16 @@
     "item_id": "minecraft:leather_boots",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these simple things SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "These are far too plain... hmm planes.. maybe we should have plane shoes... I'll get the Lab on it.\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -18,11 +23,16 @@
     "item_id": "tropicraft:fire_boots",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these burning flip-flops SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "Ouchies! These are red hot! Terry's worst idea yet...\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -32,11 +42,16 @@
     "item_id": "minecraft:golden_boots",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these yellow looking things SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "These are too sparkly, not for me. Have you seen my complexion?!\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -46,11 +61,16 @@
     "item_id": "tropicraft:scale_boots",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these scale covered potatoes SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "Scaly shoes?! You're crazy! Maybe I'm crazy.... I should ask Terry.\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -60,11 +80,16 @@
     "item_id": "minecraft:netherite_boots",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these expensive clogs SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "Hmm no these are definitely not my favourite, they're so heavy and sluggish. Next!\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -74,11 +99,16 @@
     "item_id": "ltextras:big_boot",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh my, how disgusting - you call these big ugly things SHOES?",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "Nuh uh uh, not this! This is one big boot, definitely not my favourite...\n","bold": false, "color": "red" }
+          ]
         }
       }
     ]
@@ -88,11 +118,16 @@
     "item_id": "ltextras:high_heels",
     "actions": [
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "Oh what beautiful shoes! Thank you!",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:apply_to",
+        "target": [
+          "participants"
+        ],
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+            { "text": "Now these... these are my favourite! Excellent work! Here have a pair, and strut your stuff!\n","bold": false, "color": "green" }
+          ]
         }
       },
       {
