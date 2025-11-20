@@ -96,7 +96,7 @@
         "type": "ltminigames:increment_statistic",
         "statistic": "vacation_days",
         "amount": 5,
-        "scope": "player"
+        "scope": "team"
       }
     ]
   },
