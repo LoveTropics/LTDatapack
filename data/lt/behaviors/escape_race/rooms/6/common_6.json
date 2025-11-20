@@ -24,7 +24,7 @@
   {
     "type": "ltminigames:progression",
     "channel": "talk_to_bill",
-    "named_points": {"start": 0, "end": "10"},
+    "named_points": {"start": 0, "end": "40"},
     "start": false
   },
   {
@@ -32,42 +32,42 @@
     "target": "all_players",
     "channel": "talk_to_bill",
     "actions": {
-      "2": {
+      "1": {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "color": "white" }
-        ]
-      },
-      "3": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Oh hello there! I haven't seen you around these parts before.... I'm Bill Shoebill, Head of Uniform at EscapeRace. Or is it Head of Shoes... Hmm, I should ask Terry.\n ", "color": "white" }
-        ]
-      },
-      "4": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Oh sorry, I was talking to you wasn't I... Anyway, I wonder if you could help me, I've lost my favourite shoes somewhere around here...\n", "color": "white" }
+          { "text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ","bold": false, "color": "white" }
         ]
       },
       "5": {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "I can't possibly find them since my department has become over-run with angry mobs.... I wonder where they came from, maybe I should ask Terry...\n", "color": "white" }
+          { "text": "Oh hello there! I haven't seen you around these parts before.... I'm Bill Shoebill, Head of Uniform at EscapeRace. Or is it Head of Shoes... Hmm, I should ask Terry.\n ","bold": false, "color": "white" }
         ]
       },
-      "6": {
+      "17": {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Anyway, find me my favourite shoes and I'll let you back out!\n", "color": "white" }
+          { "text": "Oh sorry, I was talking to you wasn't I... Anyway, I wonder if you could help me, I've lost my favourite shoes somewhere around here...\n","bold": false, "color": "white" }
         ]
       },
-      "7": [
+      "24": {
+        "type": "ltminigames:send_message",
+        "message": [
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+          { "text": "I can't possibly find them since my department has become over-run with angry mobs.... I wonder where they came from, maybe I should ask Terry...\n","bold": false, "color": "white" }
+        ]
+      },
+      "32": {
+        "type": "ltminigames:send_message",
+        "message": [
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+          { "text": "Anyway, find me my favourite shoes and I'll let you back out!\n","bold": false, "color": "white" }
+        ]
+      },
+      "37": [
         {
           "type": "ltminigames:nicely_break_region_of_blocks",
           "region": "open_door"
@@ -90,6 +90,7 @@
   },
   {
     "type": "ltminigames:while_in_region",
+    "interval": "1",
     "regions": {
       "speak_to_bill": [
         {
