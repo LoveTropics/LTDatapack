@@ -154,9 +154,6 @@
                     "Item": {
                       "id": "minecraft:written_book",
                       "components": {
-                        "custom_name": {
-                          "text": "Note to self"
-                        },
                         "written_book_contents": {
                           "author": "Bill Shoebill",
                           "title": "Note to self",
