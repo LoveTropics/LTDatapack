@@ -1,4 +1,5 @@
 execute if score @s world_game.turtle.tracker < NeedPoints world_game.turtle.tracker run return run function lt:world_games/turtle/fail_no_enough
+execute as vehicle run tag @s remove remove_on_dismount
 execute as vehicle run kill @s
 title @s subtitle {"translate": "lt.world_games.turtle.win.subtitle", "color": "gold"}
 title @s title {"translate": "lt.world_games.turtle.win.title", "color": "gold"}

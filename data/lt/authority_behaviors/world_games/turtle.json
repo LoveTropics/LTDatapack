@@ -1,0 +1,4 @@
+{
+  "enter_commands": ["function lt:world_games/turtle/summon_turtle"],
+  "exit_commands": []
+}
