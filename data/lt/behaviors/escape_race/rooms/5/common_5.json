@@ -10,10 +10,13 @@
     "named_points": {}
   },
   {
-    "type": "ltminigames:cancel_player_damage",
-    "knockback": true
+    "type": "ltminigames:prevent_block_interaction",
+    "block_predicate": {
+      "blocks": "#minecraft:trapdoors"
+    }
   },
   "ltminigames:immediate_respawn",
+  "ltminigames:disable_hunger",
   {
     "type": "ltminigames:prevent_trampling_crops"
   },
