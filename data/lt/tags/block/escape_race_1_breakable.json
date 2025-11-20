@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_wire",
+    "minecraft:decorated_pot",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom"
+  ]
+}
