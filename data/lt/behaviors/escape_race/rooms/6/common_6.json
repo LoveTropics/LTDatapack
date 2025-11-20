@@ -97,7 +97,7 @@
                     {
                       "id": "gravity",
                       "type": "gravity",
-                      "amount": 1,
+                      "amount": 0.1,
                       "operation": "add_value",
                       "slot": "mainhand",
                       "display": {"type": "default"}
@@ -171,7 +171,7 @@
                     ],
                     "enchantment_glint_override": false,
                     "enchantments": { "channeling": 1, "impaling": 3, "loyalty": 3 },
-                    "enchantable": 1,
+                    "enchantable": true,
                     "weapon": {"disable_blocking_for_seconds":0,"item_damage_per_attack":1.5},
                     "tooltip_display": {"hidden_components":["enchantments"]}
                   }
@@ -187,9 +187,9 @@
           "entity": {
             "type": "minecraft:item",
             "tag": {
-              "Item":
-              {
+              "Item":{
                 "id": "minecraft:lingering_potion",
+                "count": 99,
                 "components": {
                   "unbreakable": {},
                   "ltextras:undroppable": {},
