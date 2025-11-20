@@ -9,24 +9,6 @@ execute if block ~ ~ ~ ltextras:checkpoint[stage=6] run function lt:world_games/
 execute if block ~ ~ ~ ltextras:checkpoint[stage=7] run function lt:world_games/turtle/add_score {"checkpoint":"7"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=8] run function lt:world_games/turtle/add_score {"checkpoint":"8"}
 execute if block ~ ~ ~ ltextras:checkpoint[stage=9] run function lt:world_games/turtle/add_score {"checkpoint":"9"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=10] run function lt:world_games/turtle/add_score {"checkpoint":"10"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=11] run function lt:world_games/turtle/add_score {"checkpoint":"11"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=12] run function lt:world_games/turtle/add_score {"checkpoint":"12"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=13] run function lt:world_games/turtle/add_score {"checkpoint":"13"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=14] run function lt:world_games/turtle/add_score {"checkpoint":"14"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=15] run function lt:world_games/turtle/add_score {"checkpoint":"15"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=16] run function lt:world_games/turtle/add_score {"checkpoint":"16"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=17] run function lt:world_games/turtle/add_score {"checkpoint":"17"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=18] run function lt:world_games/turtle/add_score {"checkpoint":"18"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=19] run function lt:world_games/turtle/add_score {"checkpoint":"19"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=20] run function lt:world_games/turtle/add_score {"checkpoint":"20"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=21] run function lt:world_games/turtle/add_score {"checkpoint":"21"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=22] run function lt:world_games/turtle/add_score {"checkpoint":"22"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=23] run function lt:world_games/turtle/add_score {"checkpoint":"23"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=24] run function lt:world_games/turtle/add_score {"checkpoint":"24"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=25] run function lt:world_games/turtle/add_score {"checkpoint":"25"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=26] run function lt:world_games/turtle/add_score {"checkpoint":"26"}
-execute if block ~ ~ ~ ltextras:checkpoint[stage=27] run function lt:world_games/turtle/add_score {"checkpoint":"27"}
-execute if score @s world_game.turtle.tracker matches 23.. if block ~ ~ ~ ltextras:checkpoint[stage=28] run function lt:world_games/turtle/on_win
+execute if score @s world_game.turtle.tracker matches 2.. if block ~ ~ ~ ltextras:checkpoint[stage=10] run function lt:world_games/turtle/on_win
 scoreboard players add @s world_game.turtle.clock 1
 title @s actionbar {"translate":"lt.world_games.turtle.time","with":[{"score":{"name":"@s","objective":"world_game.turtle.clock"}},{"score":{"name":"@s","objective":"world_game.turtle.tracker"}}]}
