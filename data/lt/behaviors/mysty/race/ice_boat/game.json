@@ -12,13 +12,13 @@
     "game_type": "adventure",
     "join_late_with_role": "spectator"
   },
+  "lt:mysty/global",
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
     "spectators": "point_1",
     "face_region": "finish"
   },
-  "lt:mysty/shared",
   {
     "type": "ltminigames:rider",
     "entity": {
@@ -153,28 +153,5 @@
   },
   "lt:common/game_over_title",
   "lt:common/spectator",
-  "ltminigames:disable_hunger",
-  {
-    "type": "ltminigames:set_game_rules",
-    "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "doTileDrops": "false",
-      "doEntityDrops": "false",
-      "commandBlockOutput": "false",
-      "locatorBar": "false"
-    }
-  },
-  {
-    "type": "ltminigames:set_day_time",
-    "time": 13000
-  },
-  {
-    "type": "ltminigames:set_client_state",
-    "state": {
-      "type": "ltminigames:disable_player_collision"
-    }
-  }
+  "lt:mysty/race/ice_boat/ruleset"
 ]

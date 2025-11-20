@@ -5,44 +5,15 @@
     "spectators": "spectator_spawn"
   },
   "lt:common/spectator",
-  "lt:mysty/shared",
+  "lt:mysty/global",
   "lt:mysty/integrations/spleef",
-  {
-    "type": "ltminigames:projectile_break_block",
-    "block": {
-      "blocks": ["minecraft:snow_block"]
-    },
-    "projectile": {
-      "type": "minecraft:snowball"
-    }
-  },
-  {
-    "type": "ltminigames:set_game_rules",
-    "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "fallDamage": "false",
-      "doTileDrops": "false",
-      "announceAdvancements": "false",
-      "doImmediateRespawn": "true"
-    }
-  },
+  "lt:mysty/spleef/ruleset",
   {
     "type": "ltminigames:progression",
     "named_points": {
       "game": 15,
       "finish": 30000
     }
-  },
-  {
-    "type": "ltminigames:block_break",
-    "actions": [
-      {
-        "type": "ltminigames:give_loot",
-        "loot_table": "lt:mysty/snowball"
-      }
-    ]
   },
   {
     "type": "ltminigames:scheduled_actions",
@@ -88,10 +59,6 @@
     "break_effects": false
   },
   {
-    "type": "ltminigames:cancel_player_damage",
-    "knockback": false
-  },
-  {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
@@ -106,23 +73,6 @@
         "type": "ltminigames:clear_effects"
       }
     ]
-  },
-  {
-    "type": "ltminigames:set_client_state",
-    "state": {
-      "type": "ltminigames:disable_player_collision"
-    }
-  },
-  "ltminigames:disable_crafting",
-  {
-    "type": "ltminigames:projectile_knockback",
-    "projectile": {
-      "type": "minecraft:snowball"
-    },
-    "target": {
-      "type": "minecraft:player"
-    },
-    "strength": 0.4
   },
   "lt:mysty/coins_on_death"
 ]

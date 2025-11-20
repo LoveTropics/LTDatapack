@@ -1,0 +1,10 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "lt:mysty/arena/common"
+  }
+]

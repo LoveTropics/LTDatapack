@@ -1,0 +1,59 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true
+  },
+  "lt:mysty/global",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false"
+    }
+  },
+  {
+    "type": "ltminigames:position_players",
+    "all": ["spawn"]
+  },
+  "ltminigames:immediate_respawn",
+  "ltminigames:cancel_player_damage",
+  {
+    "type": "ltminigames:minigame_competition",
+    "share_statistics": ["points"],
+    "queue": [
+      {"game": "lt:mysty/spleef/normal"},
+      {"game": "lt:mysty/spleef/coconut"},
+      {"game": "lt:mysty/spleef/blindness"},
+      {"lobby": {}},
+      {"game": "lt:mysty/race/riptide"},
+      {"game": "lt:mysty/race/turtle"},
+      {"lobby": {}},
+      {"game": "lt:mysty/arena/platforms"},
+      {"game": "lt:mysty/arena/waves"},
+      {"game": "lt:mysty/arena/island"},
+      {"lobby": {}},
+      {"game": "lt:mysty/race/ice_boat"},
+      {"lobby": {}},
+      {"game": "lt:mysty/platforms"},
+      {"lobby": {}},
+      {"game": "lt:mysty/build_battle"}
+    ]
+  },
+  {
+    "type": "ltminigames:points_sidebar",
+    "statistic": "points",
+    "order": "max",
+    "count": 10,
+    "title": {
+      "translate": "ltminigames.minigame.mysty.sidebar",
+      "color": "yellow",
+      "bold": true
+    },
+    "header": []
+  }
+]

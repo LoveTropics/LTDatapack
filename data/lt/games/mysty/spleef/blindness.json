@@ -11,41 +11,5 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:mysty_spleef_3"
   },
-  "behaviors": [
-    {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator"
-    },
-    {
-      "type": "lt:mysty/spleef/common",
-      "floors": 3,
-      "forced_progression": 60,
-      "break_count": 25,
-      "break_interval": 50
-    },
-    {
-      "type": "ltminigames:set_role",
-      "role": "participant",
-      "actions": {
-        "type": "ltminigames:give_effect",
-        "effects": [
-          {
-            "type": "minecraft:blindness",
-            "seconds": 99999,
-            "amplifier": 0,
-            "particles": false,
-            "show_icon": false
-          }
-        ]
-      }
-    },
-    {
-      "type": "ltminigames:set_role",
-      "role": "spectator",
-      "actions": {
-        "type": "ltminigames:clear_effects"
-      }
-    }
-  ]
+  "behaviors": "lt:mysty/spleef/blindness"
 }

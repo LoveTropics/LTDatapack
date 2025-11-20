@@ -10,9 +10,5 @@
     "load_from": "lt:mysty_iceboat_1",
     "dimension_type": "tropicraft:tropics"
   },
-  "behaviors": [
-    {
-      "type": "lt:mysty/boat_race/common"
-    }
-  ]
+  "behaviors": "lt:mysty/race/ice_boat/game"
 }

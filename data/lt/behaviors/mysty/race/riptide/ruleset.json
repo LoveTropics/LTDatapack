@@ -1,0 +1,33 @@
+[
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "fallDamage": "false",
+      "announceAdvancements": "false",
+      "doImmediateRespawn": "true"
+    }
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:disable_player_collision"
+    }
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:sound_volume_modifier",
+      "volumes": {
+        "ambient.underwater.enter": 0.3,
+        "ambient.underwater.exit": 0.3
+      }
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "ltminigames:immediate_respawn",
+  "ltminigames:cancel_player_attacks"
+]

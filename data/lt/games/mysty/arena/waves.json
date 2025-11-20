@@ -11,14 +11,5 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:mysty_arena_2"
   },
-  "behaviors": [
-    {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator"
-    },
-    {
-      "type": "lt:mysty/arena/common"
-    }
-  ]
+  "behaviors": "lt:mysty/arena/waves"
 }

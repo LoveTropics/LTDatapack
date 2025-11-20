@@ -1,0 +1,26 @@
+[
+  "ltminigames:disable_hunger",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "doTileDrops": "false",
+      "doEntityDrops": "false",
+      "commandBlockOutput": "false",
+      "locatorBar": "false"
+    }
+  },
+  {
+    "type": "ltminigames:set_day_time",
+    "time": 13000
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:disable_player_collision"
+    }
+  }
+]

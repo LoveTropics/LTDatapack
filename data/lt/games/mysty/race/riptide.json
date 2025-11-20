@@ -10,12 +10,5 @@
     "load_from": "lt:mysty_trident_1",
     "dimension_type": "lt:no_clouds"
   },
-  "behaviors": [
-    {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator"
-    },
-    "lt:mysty/riptide_racers/common"
-  ]
+  "behaviors": "lt:mysty/race/riptide/game"
 }

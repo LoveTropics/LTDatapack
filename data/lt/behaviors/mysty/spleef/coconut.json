@@ -1,0 +1,37 @@
+[
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "lt:mysty/spleef/common",
+    "floors": 5,
+    "forced_progression": 60,
+    "break_count": 25,
+    "break_interval": 50
+  },
+  "ltminigames:quiet_explosions",
+  "ltminigames:disable_tnt_block_destruction",
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "participants",
+    "actions": {
+      "game": [
+        {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "tropicraft:exploding_coconut",
+              "count": 12,
+              "components": {
+                "ltextras:undroppable": {},
+                "ltextras:cooldown_override": 10
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

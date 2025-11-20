@@ -4,7 +4,7 @@
     "plots_name": "build_plot"
   },
   "lt:common/spectator",
-  "lt:mysty/shared",
+  "lt:mysty/global",
   {
     "type": "ltminigames:position_players",
     "spectators": "build_plot"
