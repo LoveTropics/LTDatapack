@@ -29,12 +29,7 @@
     "block_entity_type": "minecraft:decorated_pot",
     "item": {
       "id": "minecraft:redstone",
-      "count": 1,
-      "components": {
-        "minecraft:can_place_on": [{
-          "blocks": "#lt:escape_race_1_floor"
-        }]
-      }
+      "count": 1
     },
     "count": 300
   },
