@@ -32,7 +32,7 @@
       "count": 1,
       "components": {
         "minecraft:can_place_on": {
-          "blocks": ["#lt:escape_race_1_floor"]
+          "blocks": "#lt:escape_race_1_floor"
         }
       }
     },
@@ -85,7 +85,7 @@
               "unbreakable": {},
               "ltextras:undroppable": {},
               "minecraft:can_break": {
-                "blocks": ["#lt:escape_race_1_breakable"]
+                "blocks": "#lt:escape_race_1_breakable"
               }
             }
           }
