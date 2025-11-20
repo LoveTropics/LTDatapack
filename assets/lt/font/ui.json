@@ -8,6 +8,15 @@
             ],
             "file": "lt:font/other/black.png",
             "height": 1500
+        },
+        {
+          "type": "bitmap",
+          "ascent": 250,
+          "chars": [
+            "\u0355"
+          ],
+          "file": "lt:font/other/vacation_day.png",
+          "height": 1500
         }
     ]
 }
