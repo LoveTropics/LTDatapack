@@ -86,143 +86,153 @@
       },
       "37": [
         {
-          "type": "ltminigames:item_dropper",
-          "loot": [
-            {
-              "id": "minecraft:mace",
-              "components": {
-                "attribute_modifiers": [
-                  {
-                    "id": "gravity",
-                    "type": "gravity",
-                    "amount": 1,
-                    "operation": "add_value",
-                    "slot": "mainhand",
-                    "display": {"type": "default"}
+          "type": "ltminigames:spawn_entity_at_regions",
+          "entity": {
+            "type": "minecraft:item",
+            "tag": {
+              "Item": {
+                "id": "minecraft:mace",
+                "components": {
+                  "attribute_modifiers": [
+                    {
+                      "id": "gravity",
+                      "type": "gravity",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "mainhand",
+                      "display": {"type": "default"}
+                    },
+                    {
+                      "id": "jump_strength",
+                      "type": "jump_strength",
+                      "amount": -0.9,
+                      "operation": "add_value",
+                      "slot": "mainhand",
+                      "display": {"type": "default"}
+                    },
+                    {
+                      "id": "movement_speed",
+                      "type": "movement_speed",
+                      "amount": -0.075,
+                      "operation": "add_value",
+                      "slot": "mainhand",
+                      "display": {"type": "default"}
+                    }
+                  ],
+                  "unbreakable": {},
+                  "blocks_attacks": {
+                    "block_delay_seconds": 0.1,
+                    "bypassed_by": "#is_projectile",
+                    "damage_reductions": [{"base": 3, "factor": 0.5, "horizontal_blocking_angle": 65}],
+                    "block_sound": "item.shield.block",
+                    "disabled_sound": "item.shield.break"
                   },
-                  {
-                    "id": "jump_strength",
-                    "type": "jump_strength",
-                    "amount": -0.9,
-                    "operation": "add_value",
-                    "slot": "mainhand",
-                    "display": {"type": "default"}
-                  },
-                  {
-                    "id": "movement_speed",
-                    "type": "movement_speed",
-                    "amount": -0.075,
-                    "operation": "add_value",
-                    "slot": "mainhand",
-                    "display": {"type": "default"}
+                  "rarity": "epic",
+                  "item_name": [
+                    "Monumentally Massive Mace",
+                    {"color": "gray", "italic": true, "text": " (For Shoes)"}
+                  ],
+                  "lore": [
+                    {"color": "gray", "text": "Sometimes as a Cobbler,"},
+                    {"color": "gray", "text": "you need delicate precision."},
+                    {"color": "dark_gray", "text": "This isn't for that."}
+                  ],
+                  "weapon": {
+                    "disable_blocking_for_seconds": 2, "item_damage_per_attack": 8
                   }
-                ],
-                "unbreakable": {},
-                "blocks_attacks": {
-                  "block_delay_seconds": 0.1,
-                  "bypassed_by": "#is_projectile",
-                  "damage_reductions": [{"base": 3, "factor": 0.5, "horizontal_blocking_angle": 65}],
-                  "block_sound": "item.shield.block",
-                  "disabled_sound": "item.shield.break"
-                },
-                "rarity": "epic",
-                "item_name": [
-                  "Monumentally Massive Mace",
-                  {"color": "gray", "italic": true, "text": " (For Shoes)"}
-                ],
-                "lore": [
-                  {"color": "gray", "text": "Sometimes as a Cobbler,"},
-                  {"color": "gray", "text": "you need delicate precision."},
-                  {"color": "dark_gray", "text": "This isn't for that."}
-                ],
-                "weapon": {
-                  "disable_blocking_for_seconds": 2, "item_damage_per_attack": 8
                 }
               }
             }
-          ],
-          "region": "item_1",
-          "interval_ticks": 1,
-          "beacon": false
+          },
+          "regions_to_spawn_at": ["item_1"],
+          "entity_count_per_region": 1,
+          "at_heightmap": false
         },
         {
-          "type": "ltminigames:item_dropper",
-          "loot": [
-            {
-              "id": "minecraft:trident",
-              "components": {
-                "unbreakable": {},
-                "ltextras:undroppable": {},
-                "item_name": {
-                  "text": "The Orb™"
-                },
-                "rarity": "epic",
-                "attribute_modifiers": [{ "id": "scale", "type": "scale", "amount": -0.35, "operation": "add_value" }],
-                "item_model": "minecraft:heart_of_the_sea",
-                "lore": [
-                  { "color": "gray", "text": "See's all. Including your personal information." },
-                  { "color": "gray", "text": "Release waiver on page 3." }
-                ],
-                "enchantment_glint_override": false,
-                "enchantments": { "channeling": 1, "impaling": 3, "loyalty": 3 },
-                "enchantable": 1,
-                "weapon": {"disable_blocking_for_seconds":0,"item_damage_per_attack":1.5},
-                "tooltip_display": {"hidden_components":["enchantments"]}
-              }
-            }
-          ],
-          "region": "item_2",
-          "interval_ticks": 1,
-          "beacon": false
-        },
-        {
-          "type": "ltminigames:item_dropper",
-          "count": 99,
-          "loot": [
-            {
-              "id": "minecraft:lingering_potion",
-              "components": {
-                "unbreakable": {},
-                "ltextras:undroppable": {},
-                "attribute_modifiers": [
-                  {
-                    "id": "jump_strength",
-                    "type": "jump_strength",
-                    "amount": 0.5,
-                    "operation": "add_value",
-                    "slot": "mainhand",
-                    "display": { "type": "default" }
-                  },
-                  {
-                    "id": "fall_damage_multiplier",
-                    "type": "fall_damage_multiplier",
-                    "amount": -1,
-                    "operation": "add_value",
-                    "slot": "mainhand",
-                    "display": { "type": "default" }
+          "type": "ltminigames:spawn_entity_at_regions",
+          "entity": {
+            "type": "minecraft:item",
+            "tag": {
+              "Item":
+                {
+                  "id": "minecraft:trident",
+                  "components": {
+                    "unbreakable": {},
+                    "ltextras:undroppable": {},
+                    "item_name": {
+                      "text": "The Orb™"
+                    },
+                    "rarity": "epic",
+                    "attribute_modifiers": [{ "id": "scale", "type": "scale", "amount": -0.35, "operation": "add_value" }],
+                    "item_model": "minecraft:heart_of_the_sea",
+                    "lore": [
+                      { "color": "gray", "text": "See's all. Including your personal information." },
+                      { "color": "gray", "text": "Release waiver on page 3." }
+                    ],
+                    "enchantment_glint_override": false,
+                    "enchantments": { "channeling": 1, "impaling": 3, "loyalty": 3 },
+                    "enchantable": 1,
+                    "weapon": {"disable_blocking_for_seconds":0,"item_damage_per_attack":1.5},
+                    "tooltip_display": {"hidden_components":["enchantments"]}
                   }
-                ],
-                "rarity": "epic",
-                "lore": [
-                  { "color": "gray", "text": "It shouldn't be legal. Like for real." },
-                  { "color": "gray", "text": "And if it gets on your skin? It's over." },
-                  { "color": "gray", "text": "I mean even the bottle is dangerous, for Terry's sake!" }
-                ],
-                "use_cooldown": { "seconds": 2 },
-                "custom_name": { "color": "light_purple", "italic": false, "text": "Shoe Shine of Supreme Suffering" },
-                "weapon": { "disable_blocking_for_seconds": 0, "item_damage_per_attack": 4 },
-                "potion_contents": {
-                  "potion": "minecraft:awkward",
-                  "custom_color": 3346690,
-                  "custom_effects": [{ "id": "minecraft:wither", "amplifier": 1, "duration": 360, "show_particles": true, "show_icon": true }]
-                },
-                "max_stack_size": 99
+                }
+            }
+          },
+          "regions_to_spawn_at": ["item_2"],
+          "entity_count_per_region": 1,
+          "at_heightmap": false
+        },
+        {
+          "type": "ltminigames:spawn_entity_at_regions",
+          "entity": {
+            "type": "minecraft:item",
+            "tag": {
+              "Item":
+              {
+                "id": "minecraft:lingering_potion",
+                "components": {
+                  "unbreakable": {},
+                  "ltextras:undroppable": {},
+                  "attribute_modifiers": [
+                    {
+                      "id": "jump_strength",
+                      "type": "jump_strength",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "mainhand",
+                      "display": { "type": "default" }
+                    },
+                    {
+                      "id": "fall_damage_multiplier",
+                      "type": "fall_damage_multiplier",
+                      "amount": -1,
+                      "operation": "add_value",
+                      "slot": "mainhand",
+                      "display": { "type": "default" }
+                    }
+                  ],
+                  "rarity": "epic",
+                  "lore": [
+                    { "color": "gray", "text": "It shouldn't be legal. Like for real." },
+                    { "color": "gray", "text": "And if it gets on your skin? It's over." },
+                    { "color": "gray", "text": "I mean even the bottle is dangerous, for Terry's sake!" }
+                  ],
+                  "use_cooldown": { "seconds": 2 },
+                  "custom_name": { "color": "light_purple", "italic": false, "text": "Shoe Shine of Supreme Suffering" },
+                  "weapon": { "disable_blocking_for_seconds": 0, "item_damage_per_attack": 4 },
+                  "potion_contents": {
+                    "potion": "minecraft:awkward",
+                    "custom_color": 3346690,
+                    "custom_effects": [{ "id": "minecraft:wither", "amplifier": 1, "duration": 360, "show_particles": true, "show_icon": true }]
+                  },
+                  "max_stack_size": 99
+                }
               }
             }
-          ],
-          "region": "item_3",
-          "interval_ticks": 1,
-          "beacon": false
+          },
+          "regions_to_spawn_at": ["item_3"],
+          "entity_count_per_region": 1,
+          "at_heightmap": false
         },
         {
           "type": "ltminigames:nicely_break_region_of_blocks",
