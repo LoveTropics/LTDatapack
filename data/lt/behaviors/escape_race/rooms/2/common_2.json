@@ -86,7 +86,8 @@
           "sound": "ltminigames:escape_race.terry_trash.sound_6"
         }
       ],
-      "end": ["ltminigames:end_game"]
+      "stop": ["ltminigames:end_game"],
+      "end": ["ltminigames:close_game"]
     }
   },
   {
@@ -101,7 +102,7 @@
         "block_predicate": {
           "nbt": {
             "item": {
-              "id": "minecraft:stone"
+              "id": "ltextras:lubricant_jar"
             }
           }
         },
@@ -130,7 +131,7 @@
         "block_predicate": {
           "nbt": {
             "item": {
-              "id": "minecraft:stone"
+              "id": "ltextras:paper_bag"
             }
           }
         },
@@ -159,7 +160,7 @@
         "block_predicate": {
           "nbt": {
             "item": {
-              "id": "minecraft:stone"
+              "id": "ltextras:dented_can"
             }
           }
         },
@@ -288,7 +289,7 @@
       "trash_phase_nine": {
         "trash_rate": 3,
         "table": "lt:escape_race/trash/phase_five",
-        "next_channel": "end"
+        "next_channel": "stop"
       }
     },
     "check_lever": "check_lever"
