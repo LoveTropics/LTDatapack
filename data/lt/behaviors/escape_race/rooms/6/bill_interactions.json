@@ -5,14 +5,16 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "These are far too plain... hmm planes.. maybe we should have plane shoes... I'll get the Lab on it.\n","bold": false, "color": "red" }
+            {
+              "text": "These are far too plain... hmm planes.. maybe we should have plane shoes... I'll get the Lab on it.\n",
+              "bold": false,
+              "color": "red"
+            }
           ]
         }
       }
@@ -24,14 +26,12 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "Ouchies! These are red hot! Terry's worst idea yet...\n","bold": false, "color": "red" }
+            { "text": "Ouchies! These are red hot! Terry's worst idea yet...\n", "bold": false, "color": "red" }
           ]
         }
       }
@@ -43,14 +43,16 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "These are too sparkly, not for me. Have you seen my complexion?!\n","bold": false, "color": "red" }
+            {
+              "text": "These are too sparkly, not for me. Have you seen my complexion?!\n",
+              "bold": false,
+              "color": "red"
+            }
           ]
         }
       }
@@ -62,14 +64,16 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "Scaly shoes?! You're crazy! Maybe I'm crazy.... I should ask Terry.\n","bold": false, "color": "red" }
+            {
+              "text": "Scaly shoes?! You're crazy! Maybe I'm crazy.... I should ask Terry.\n",
+              "bold": false,
+              "color": "red"
+            }
           ]
         }
       }
@@ -81,14 +85,16 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "Hmm no these are definitely not my favourite, they're so heavy and sluggish. Next!\n","bold": false, "color": "red" }
+            {
+              "text": "Hmm no these are definitely not my favourite, they're so heavy and sluggish. Next!\n",
+              "bold": false,
+              "color": "red"
+            }
           ]
         }
       }
@@ -100,14 +106,12 @@
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": [
           {
             "type": "ltminigames:send_message",
             "message": [
-              {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+              { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
               {
                 "text": "Nuh uh uh, not this! This is one big boot, definitely not my favourite...\n",
                 "bold": false,
@@ -122,7 +126,7 @@
               {
                 "type": "ltminigames:send_message",
                 "message": [
-                  {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+                  { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
                   {
                     "text": "Huh, what's this I found in my pocket....\n",
                     "bold": false,
@@ -173,19 +177,17 @@
     ]
   },
   {
-    "type": "lt:escape_race/rooms/6/on_bill_winning_interaction",
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
     "item_id": "ltextras:high_heels",
     "actions": [
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "all_players"
-        ],
+        "target": ["all_players"],
         "actions": [
           {
             "type": "ltminigames:send_message",
             "message": [
-              {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+              { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
               {
                 "text": "Now these... these are my favourite! Excellent work! Here have a pair, and strut your stuff!\n",
                 "bold": false,
@@ -197,9 +199,7 @@
       },
       {
         "type": "ltminigames:apply_to",
-        "target": [
-          "participants"
-        ],
+        "target": ["participants"],
         "actions": [
           {
             "type": "ltminigames:add_equipment",
