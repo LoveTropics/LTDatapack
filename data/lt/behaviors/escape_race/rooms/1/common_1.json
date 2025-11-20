@@ -16,7 +16,7 @@
       "doMobSpawning": "false",
       "announceAdvancements": "false",
       "fallDamage": "false",
-      "doTileDrops": "false",
+      "doTileDrops": "true",
       "doFireTick": "false",
       "naturalRegeneration": "false",
       "mobGriefing": "false",
