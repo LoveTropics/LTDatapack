@@ -14,8 +14,7 @@
     },
     "actions": [
       {
-        "type": "ltminigames:run_commands",
-        "player": ["kill @s"]
+        "type": "ltminigames:swap_players"
       },
       {
         "type": "ltminigames:clear_effects"
