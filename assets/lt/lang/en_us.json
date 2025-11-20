@@ -743,6 +743,7 @@
   "ltminigames.minigame.mysty.add_coins": "+%change% coin(s)!",
   "ltminigames.minigame.mysty.coins": "%s coins",
   "ltminigames.minigame.mysty.sidebar": "Coins Leaderboard",
+  "ltminigames.minigame.mysty.results": "Mysticat's Tropical Uninvitation has completed! Here are the top 5 players:",
   "ltminigames.minigame.donation.blindness_package.description": "Affect somebody with Blindness V for 30 Seconds",
   "ltminigames.minigame.donation.blindness_package.toast": "%sender% sent you a BLINDNESS SABOTAGE for 30 Seconds!",
   "ltminigames.minigame.donation.levitation_package": "Levitation Package",

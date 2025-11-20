@@ -1,0 +1,34 @@
+[
+  {
+    "type": "ltminigames:give_reward",
+    "collectibles": ["lt:mysty/silver"]
+  },
+  {
+    "type": "ltminigames:add_equipment",
+    "head": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "minecraft:item_model": "lt:top_hat_silver",
+        "ltextras:collectible_display_info": {
+          "name": "silver_top_hat",
+          "description": true,
+          "rarity": "reward"
+        },
+        "minecraft:custom_name": {
+          "translate": "lt.collectible.silver_top_hat.name",
+          "color": "#005958",
+          "italic": false
+        },
+        "!minecraft:attribute_modifiers": {},
+        "minecraft:equippable": {
+          "slot": "head"
+        },
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:unbreakable"
+          ]
+        }
+      }
+    }
+  }
+]
