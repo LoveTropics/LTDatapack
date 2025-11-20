@@ -6,6 +6,11 @@
       "type": "video",
       "file": "https://dist.creeper.host/lovetropics/pachamama_alliance_origins.mp4",
       "duration": 177.0
+    },
+    {
+      "type": "video",
+      "file": "https://dist.creeper.host/lovetropics/eva_school.mp4",
+      "duration": 284.625
     }
   ]
 }
