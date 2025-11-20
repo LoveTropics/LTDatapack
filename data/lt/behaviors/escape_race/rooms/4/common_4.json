@@ -1,1 +1,70 @@
-["ltminigames:teams"]
+[
+  "ltminigames:teams",
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:flint_and_steel",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "item_name": {
+                "text": "Plumbers Flint 'n Steel"
+              },
+              "rarity": "uncommon",
+              "can_place_on": [
+                {
+                  "blocks": [
+                    "ltextras:plumbers_tnt"
+                  ]
+                }
+              ],
+              "can_break": [
+                {
+                  "blocks": [
+                    "ltextras:plumbers_tnt"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "tropicraft:pink_scuba_goggles",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {}
+            }
+          }
+        ],
+        "chest": {
+          "id": "tropicraft:pink_scuba_harness",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "tropicraft:scuba_air": 15000
+          }
+        },
+        "feet": {
+          "id": "tropicraft:pink_scuba_flippers",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "neoforge:swim_speed",
+        "modifier": {
+          "id": "lt:escape_race_room_4",
+          "amount": 0.25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+]
