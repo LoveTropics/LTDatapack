@@ -1,2 +1,2 @@
-tellraw @s "You Failed the Elytra Course!"
-function lt:world_games/elytra/reset
+tellraw @s "You Failed the turtle Course!"
+function lt:world_games/turtle/reset
