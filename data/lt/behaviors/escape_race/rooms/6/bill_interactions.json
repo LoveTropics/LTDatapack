@@ -103,13 +103,70 @@
         "target": [
           "participants"
         ],
-        "actions": {
-          "type": "ltminigames:send_message",
-          "message": [
-            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "Nuh uh uh, not this! This is one big boot, definitely not my favourite...\n","bold": false, "color": "red" }
-          ]
-        }
+        "actions": [
+          {
+            "type": "ltminigames:send_message",
+            "message": [
+              {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+              {
+                "text": "Nuh uh uh, not this! This is one big boot, definitely not my favourite...\n",
+                "bold": false,
+                "color": "red"
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:delayed",
+            "delay": 60,
+            "actions": [
+              {
+                "type": "ltminigames:send_message",
+                "message": [
+                  {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+                  {
+                    "text": "Huh, what's this I found in my pocket....\n",
+                    "bold": false,
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "ltminigames:set_blocks",
+                "region": ["barrel_lid"],
+                "set": {
+                  "Name": "minecraft:spruce_trapdoor",
+                  "Properties": {
+                    "facing": "west",
+                    "half": "bottom",
+                    "open": true
+                  }
+                }
+              },
+              {
+                "type": "ltminigames:spawn_entity_at_regions",
+                "entity": {
+                  "type": "minecraft:item",
+                  "tag": {
+                    "Item": {
+                      "id": "minecraft:book",
+                      "components": {
+                        "custom_name": {
+                          "text": "Note to self"
+                        },
+                        "written_book_contents": {
+                          "text": "Remember that I put my favourite shoes in my secret barrel behind my chair!"
+                        }
+                      }
+                    }
+                  }
+                },
+                "regions_to_spawn_at": ["pocket"],
+                "entity_count_per_region": 1,
+                "at_heightmap": false
+              }
+            ]
+          }
+        ]
       }
     ]
   },
