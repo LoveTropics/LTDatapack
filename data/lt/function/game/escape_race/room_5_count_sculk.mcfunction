@@ -1,0 +1,1 @@
+$execute positioned -288.52 3.00 -65.44 run fill ~ ~ ~ ~$(value) ~ ~ minecraft:redstone_block
