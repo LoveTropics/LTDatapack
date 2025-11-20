@@ -6,6 +6,26 @@
       "hiders": [
         {
           "type": "ltminigames:disguise_as_player_box"
+        },
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:slowness",
+              "seconds": 999999,
+              "amplifier": 1,
+              "particles": false
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:add_attribute_modifier",
+          "attribute": "minecraft:max_health",
+          "modifier": {
+            "id": "lt:box_hunt",
+            "amount": -10,
+            "operation": "add_value"
+          }
         }
       ],
       "seekers": [
@@ -35,7 +55,8 @@
               "id": "minecraft:stone_sword",
               "components": {
                 "item_name": "Box Finder",
-                "ltextras:undroppable": {}
+                "ltextras:undroppable": {},
+                "minecraft:can_break": {"blocks": ["ltextras:word_box"]}
               }
             }
           }

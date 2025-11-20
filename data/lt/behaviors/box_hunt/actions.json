@@ -15,25 +15,18 @@
     "drop_inventory": false
   },
   {
+    "type": "ltminigames:hit_block_cause_damage",
+    "team": "seekers",
+    "damage": 1,
+    "block_predicate": {
+      "blocks": "ltextras:word_box"
+    }
+  },
+  {
     "type": "ltminigames:set_client_state",
     "state": {
       "type": "ltminigames:hide_name_tags"
     }
-  },
-  {
-    "type": "ltminigames:on_spawn",
-    "role": "participant",
-    "actions": [
-      {
-        "type": "ltminigames:add_attribute_modifier",
-        "attribute": "minecraft:max_health",
-        "modifier": {
-          "id": "lt:box_hunt",
-          "amount": -10,
-          "operation": "add_value"
-        }
-      }
-    ]
   },
   {
     "type": "ltminigames:scheduled_actions",
