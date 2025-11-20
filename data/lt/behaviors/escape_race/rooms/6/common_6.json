@@ -154,91 +154,89 @@
             "type": "minecraft:item",
             "tag": {
               "Item":{
-                "tags": {
-                  "components": {
-                    "tags": {
-                      "minecraft:item_name": {
-                        "value": "The Orb™"
-                      },
-                      "minecraft:item_model": {
-                        "value": "minecraft:heart_of_the_sea"
-                      },
-                      "minecraft:lore": [
-                        {
-                          "tags": {
-                            "color": {
-                              "value": "gray"
-                            },
-                            "text": {
-                              "value": "Sees all. Including your personal information."
-                            }
-                          }
-                        },
-                        {
-                          "tags": {
-                            "color": {
-                              "value": "gray"
-                            },
-                            "text": {
-                              "value": "Release waiver on page 3."
-                            }
-                          }
-                        }
-                      ],
-                      "minecraft:attribute_modifiers": [
-                        {
-                          "tags": {
-                            "amount": {
-                              "value": -0.35
-                            },
-                            "id": {
-                              "value": "minecraft:scale"
-                            },
-                            "type": {
-                              "value": "minecraft:scale"
-                            },
-                            "operation": {
-                              "value": "add_value"
-                            }
-                          }
-                        }
-                      ],
-                      "minecraft:enchantments": {
+                "components": {
+                  "tags": {
+                    "minecraft:item_name": {
+                      "value": "The Orb™"
+                    },
+                    "minecraft:item_model": {
+                      "value": "minecraft:heart_of_the_sea"
+                    },
+                    "minecraft:lore": [
+                      {
                         "tags": {
-                          "minecraft:loyalty": {
-                            "value": 3
+                          "color": {
+                            "value": "gray"
                           },
-                          "minecraft:impaling": {
-                            "value": 3
-                          },
-                          "minecraft:channeling": {
-                            "value": 1
+                          "text": {
+                            "value": "Sees all. Including your personal information."
                           }
                         }
                       },
-                      "minecraft:tooltip_display": {
+                      {
                         "tags": {
-                          "hidden_components": [
-                            {
-                              "value": "minecraft:enchantments"
-                            }
-                          ]
+                          "color": {
+                            "value": "gray"
+                          },
+                          "text": {
+                            "value": "Release waiver on page 3."
+                          }
                         }
-                      },
-                      "minecraft:rarity": {
-                        "value": "epic"
-                      },
-                      "minecraft:enchantment_glint_override": {
-                        "value": 0
                       }
+                    ],
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "tags": {
+                          "amount": {
+                            "value": -0.35
+                          },
+                          "id": {
+                            "value": "minecraft:scale"
+                          },
+                          "type": {
+                            "value": "minecraft:scale"
+                          },
+                          "operation": {
+                            "value": "add_value"
+                          }
+                        }
+                      }
+                    ],
+                    "minecraft:enchantments": {
+                      "tags": {
+                        "minecraft:loyalty": {
+                          "value": 3
+                        },
+                        "minecraft:impaling": {
+                          "value": 3
+                        },
+                        "minecraft:channeling": {
+                          "value": 1
+                        }
+                      }
+                    },
+                    "minecraft:tooltip_display": {
+                      "tags": {
+                        "hidden_components": [
+                          {
+                            "value": "minecraft:enchantments"
+                          }
+                        ]
+                      }
+                    },
+                    "minecraft:rarity": {
+                      "value": "epic"
+                    },
+                    "minecraft:enchantment_glint_override": {
+                      "value": 0
                     }
-                  },
-                  "count": {
-                    "value": 1
-                  },
-                  "id": {
-                    "value": "minecraft:trident"
                   }
+                },
+                "count": {
+                  "value": 1
+                },
+                "id": {
+                  "value": "minecraft:trident"
                 }
               }
             }
