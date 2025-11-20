@@ -28,15 +28,13 @@
       "mobGriefing": "false"
     }
   },
-
   "lt:escape_race/rooms/6/bill_interactions",
-
   {
     "type": "ltminigames:ordered_trial_spawner",
     "spawner_regions": {
       "spawner_1": {
         "spawn_range": 8,
-        "total_mobs": 1,
+        "total_mobs": 6,
         "total_mobs_added_per_player": 1,
         "simultaneous_mobs": 1,
         "simultaneous_mobs_added_per_player": 1,
@@ -46,7 +44,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -68,7 +66,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -90,7 +88,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -112,7 +110,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -134,7 +132,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -156,7 +154,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -178,7 +176,7 @@
             "weight": 1,
             "data": {
               "entity": {
-                "id": "minecraft:pig"
+                "id": "minecraft:zombie"
               },
               "custom_spawn_rules": {
                 "block_light_limit": [0, 15],
@@ -190,13 +188,55 @@
       }
     },
     "loot_tables": [
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "minecraft:leather_boots", "count": 1},
-      {"id": "ltextras:high_heels", "count": 1}
+      {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "tropicraft:fire_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "minecraft:golden_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "tropicraft:scale_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "ltextras:big_boots",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      },
+      {
+        "id": "ltextras:high_heals",
+        "count": 1,
+        "components": {
+          "ltextras:gravity": -0.01
+        }
+      }
     ],
     "target_cooldown_length": 36000,
     "required_player_range": 14

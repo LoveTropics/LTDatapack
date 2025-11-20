@@ -50,7 +50,7 @@
     "type": "lt:escape_race/rooms/3/rain",
     "interval": 50,
     "max_delay": 70,
-    "count": 120,
+    "count": 240,
     "ticks": 10
   },
   {

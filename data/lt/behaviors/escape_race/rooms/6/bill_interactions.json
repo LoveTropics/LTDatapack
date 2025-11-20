@@ -15,6 +15,76 @@
   },
   {
     "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "tropicraft:fire_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "minecraft:golden_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "tropicraft:scale_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "minecraft:netherite_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "item_id": "ltextras:big_boots",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "color": "gold",
+          "italic": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/6/on_bill_interaction",
     "item_id": "ltextras:high_heels",
     "actions": [
       {
