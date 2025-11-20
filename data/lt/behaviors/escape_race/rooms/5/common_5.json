@@ -104,6 +104,106 @@
     }
   },
   {
+    "type": "ltminigames:item_frame_code",
+    "item_frames": [
+      {
+        "item_frame_region": "code_frame_1",
+        "light_region": "code_light_1",
+        "item_predicate": {
+          "items": ["minecraft:iron_ingot"]
+        }
+      },
+      {
+        "item_frame_region": "code_frame_2",
+        "light_region": "code_light_2",
+        "item_predicate": {
+          "items": ["minecraft:nether_star"]
+        }
+      },
+      {
+        "item_frame_region": "code_frame_3",
+        "light_region": "code_light_3",
+        "item_predicate": {
+          "items": ["minecraft:clock"]
+        }
+      }
+    ],
+    "button_region": "code_button",
+    "lockout_ticks": 600,
+    "lockout_cleared": [
+      {
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            {"text": "Code lockout cleared!", "bold": true, "color": "green"}
+          ]
+        },
+        "target": "all_players",
+        "type": "ltminigames:apply_to"
+      }
+    ],
+    "incorrect_code": [
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Incorrect Code!",
+          "color": "red"
+        },
+        "subtitle": {
+          "text": "Code submission now locked out for 30 seconds...",
+          "color": "white"
+        },
+        "stay": 40
+      },
+      {
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            {"text": "Incorrect Code Attempted! ", "bold": true, "color": "red"},
+            {"text": "Code submission now locked out for 30 seconds...", "bold": false, "color": "white"}
+          ]
+        },
+        "target": "all_players",
+        "type": "ltminigames:apply_to"
+      }
+    ],
+    "correct_code": [
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Correct Code!",
+          "color": "green"
+        },
+        "stay": 40
+      },
+      {
+        "type": "ltminigames:nicely_break_region_of_blocks",
+        "region": "forklift_vault_door"
+      },
+      {
+        "actions": {
+          "type": "ltminigames:send_message",
+          "message": [
+            {"text": "GG!", "bold": true, "color": "green"}
+          ]
+        },
+        "target": "all_players",
+        "type": "ltminigames:apply_to"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "end_room": [
+        {
+          "type": "ltminigames:close_game"
+        }
+      ]
+    },
+    "interval": 5
+  },
+  {
     "type": "ltminigames:phase_triggers/start",
     "actions": [
       {
