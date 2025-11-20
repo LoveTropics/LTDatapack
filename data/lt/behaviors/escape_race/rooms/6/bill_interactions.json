@@ -160,7 +160,9 @@
                         "written_book_contents": {
                           "author": "Bill Shoebill",
                           "title": "Note to self",
-                          "pages": ["Remember that I put my favourite shoes in my secret barrel behind my chair!"]
+                          "pages": [
+                            { "text": "Remember that I put my favourite shoes in my secret barrel behind my chair!" }
+                          ]
                         }
                       }
                     }
