@@ -173,28 +173,48 @@
     ]
   },
   {
-    "type": "lt:escape_race/rooms/6/on_bill_interaction",
+    "type": "lt:escape_race/rooms/6/on_bill_winning_interaction",
     "item_id": "ltextras:high_heels",
     "actions": [
       {
         "type": "ltminigames:apply_to",
         "target": [
+          "all_players"
+        ],
+        "actions": [
+          {
+            "type": "ltminigames:send_message",
+            "message": [
+              {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+              {
+                "text": "Now these... these are my favourite! Excellent work! Here have a pair, and strut your stuff!\n",
+                "bold": false,
+                "color": "green"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "ltminigames:apply_to",
+        "target": [
           "participants"
         ],
-        "actions": {
-          "type": "ltminigames:send_message",
-          "message": [
-            { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-            { "text": "Now these... these are my favourite! Excellent work! Here have a pair, and strut your stuff!\n","bold": false, "color": "green" }
-          ]
-        }
+        "actions": [
+          {
+            "type": "ltminigames:add_equipment",
+            "feet": {
+              "id": "ltextras:high_heels"
+            }
+          }
+        ]
       },
       {
         "type": "ltminigames:delayed",
-        "delay": 20,
+        "delay": 200,
         "actions": [
           {
-            "type": "ltminigames:end_game",
+            "type": "ltminigames:close_game",
             "win_by_source": "player"
           }
         ]
