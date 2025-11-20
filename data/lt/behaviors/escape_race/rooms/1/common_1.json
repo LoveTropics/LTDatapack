@@ -29,7 +29,12 @@
     "block_entity_type": "minecraft:decorated_pot",
     "item": {
       "id": "minecraft:redstone",
-      "count": 1
+      "count": 1,
+      "components": {
+        "minecraft:can_place_on": {
+          "blocks": ["#lt:escape_race_1_floor"]
+        }
+      }
     },
     "count": 300
   },
@@ -67,21 +72,43 @@
     "stop_delay": 100
   },
   {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_equipment",
+        "clear": true,
+        "items": [
+          {
+            "id": "minecraft:stone_pickaxe",
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "minecraft:can_break": {
+                "blocks": ["#lt:escape_race_1_breakable"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
-      "type": "ltminigames:spawn_entity_at_regions",
-      "entity": {
-        "type": "minecraft:warden",
-        "tag": {
-          "AvoidDarkness": true,
-          "CustomName": "Lil' Terror",
-          "CustomNameVisible": true,
-          "PersistenceRequired": true
-        }
-      },
-      "regions_to_spawn_at": ["warden"],
-      "entity_count_per_region": 1,
-      "at_heightmap": false
-    }
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "minecraft:warden",
+          "tag": {
+            "AvoidDarkness": true,
+            "CustomName": "Lil' Terror",
+            "CustomNameVisible": true,
+            "PersistenceRequired": true
+          }
+        },
+        "regions_to_spawn_at": ["warden"],
+        "entity_count_per_region": 1,
+        "at_heightmap": false
+      }
   }
 ]
