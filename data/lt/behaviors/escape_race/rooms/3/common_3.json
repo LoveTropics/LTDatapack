@@ -48,10 +48,10 @@
   },
   {
     "type": "lt:escape_race/rooms/3/rain",
-    "interval": 50,
+    "interval": 10,
     "max_delay": 70,
     "count": 240,
-    "ticks": 3
+    "ticks": 10
   },
   {
     "type": "lt:escape_race/rooms/3/region",
