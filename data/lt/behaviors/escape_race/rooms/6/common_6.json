@@ -78,17 +78,22 @@
           "region": "open_door"
         },
         {
-          "type": "ltminigames:add_equipment",
-          "clear": true,
-          "items": [
-            {
-              "id": "minecraft:stone_sword",
-              "components": {
-                "unbreakable": {},
-                "ltextras:undroppable": {}
+
+          "type": "ltminigames:apply_to",
+          "target": "participants",
+          "actions": {
+            "type": "ltminigames:add_equipment",
+            "clear": true,
+            "items": [
+              {
+                "id": "minecraft:stone_sword",
+                "components": {
+                  "unbreakable": {},
+                  "ltextras:undroppable": {}
+                }
               }
-            }
-          ]
+            ]
+          }
         }
       ]
     }
