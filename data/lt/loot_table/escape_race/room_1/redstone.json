@@ -26,7 +26,7 @@
       "conditions": [
         {
           "condition": "ltminigames:is_minigame",
-          "minigame_id": "escape_race/room/1"
+          "minigame_id": "escape_race/rooms/1"
         }
       ]
     }

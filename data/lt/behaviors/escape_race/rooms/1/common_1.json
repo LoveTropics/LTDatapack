@@ -8,6 +8,7 @@
     "participants": "team_spawn",
     "spectators": "team_spawn"
   },
+  "ltminigames:prevent_trapdoor_triggers",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
