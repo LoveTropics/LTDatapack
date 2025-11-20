@@ -3,6 +3,14 @@
   "values": [
     "#minecraft:trapdoors",
     "minecraft:decorated_pot",
-    "minecraft:blast_furnace"
+    "minecraft:blast_furnace",
+    "minecraft:crafter",
+    "minecraft:smithing_table",
+    "minecraft:lectern",
+    "minecraft:chiseled_bookshelf",
+    "minecraft:brewing_stand",
+    "minecraft:grindstone",
+    "minecraft:hopper",
+    "minecraft:furnace"
   ]
 }
