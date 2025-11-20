@@ -39,6 +39,7 @@
       "doImmediateRespawn": "true"
     }
   },
+  "ltminigames:disable_hunger",
   {
     "type": "ltminigames:cancel_player_damage",
     "knockback": false

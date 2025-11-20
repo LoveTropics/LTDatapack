@@ -1,5 +1,8 @@
 [
   "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
+  "ltminigames:immediate_respawn",
+  "ltminigames:cancel_player_attacks",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {

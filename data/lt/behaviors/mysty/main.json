@@ -16,12 +16,13 @@
       "announceAdvancements": "false"
     }
   },
+  "ltminigames:disable_hunger",
+  "ltminigames:cancel_player_damage",
+  "ltminigames:immediate_respawn",
   {
     "type": "ltminigames:position_players",
     "all": ["spawn"]
   },
-  "ltminigames:immediate_respawn",
-  "ltminigames:cancel_player_damage",
   {
     "type": "ltminigames:minigame_competition",
     "share_statistics": ["points"],
