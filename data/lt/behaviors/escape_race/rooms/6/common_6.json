@@ -155,77 +155,41 @@
             "tag": {
               "Item":{
                 "components": {
-                  "minecraft:item_name": {
-                    "value": "The Orb™"
-                  },
-                  "minecraft:item_model": {
-                    "value": "minecraft:heart_of_the_sea"
-                  },
+                  "minecraft:item_name": "The Orb™",
+                  "minecraft:item_model": "minecraft:heart_of_the_sea",
                   "minecraft:lore": [
                     {
-                      "color": {
-                        "value": "gray"
-                      },
-                      "text": {
-                        "value": "Sees all. Including your personal information."
-                      }
+                      "color": "gray",
+                      "text":"Sees all. Including your personal information."
                     },
                     {
-                      "color": {
-                        "value": "gray"
-                      },
-                      "text": {
-                        "value": "Release waiver on page 3."
-                      }
+                      "color": "gray",
+                      "text": "Release waiver on page 3."
                     }
                   ],
                   "minecraft:attribute_modifiers": [
                     {
-                      "amount": {
-                        "value": -0.35
-                      },
-                      "id": {
-                        "value": "minecraft:scale"
-                      },
-                      "type": {
-                        "value": "minecraft:scale"
-                      },
-                      "operation": {
-                        "value": "add_value"
-                      }
+                      "amount": -0.35,
+                      "id": "minecraft:scale",
+                      "type": "minecraft:scale",
+                      "operation": "add_value"
                     }
                   ],
                   "minecraft:enchantments": {
-                    "minecraft:loyalty": {
-                      "value": 3
-                    },
-                    "minecraft:impaling": {
-                      "value": 3
-                    },
-                    "minecraft:channeling": {
-                      "value": 1
-                    }
+                    "minecraft:loyalty": 3,
+                    "minecraft:impaling": 3,
+                    "minecraft:channeling": 1
                   },
                   "minecraft:tooltip_display": {
                     "hidden_components": [
-                      {
-                        "value": "minecraft:enchantments"
-                      }
+                      "minecraft:enchantments"
                     ]
                   },
-                  "minecraft:rarity": {
-                    "value": "epic"
-                  },
-                  "minecraft:enchantment_glint_override": {
-                    "value": 0
-                  }
+                  "minecraft:rarity": "epic",
+                  "minecraft:enchantment_glint_override": 0
                 },
-                "count": {
-                  "value": 1
-                },
-                "id": {
-                  "value": "minecraft:trident"
-                }
+                "count": 1,
+                "id": "minecraft:trident"
               }
             }
           },
