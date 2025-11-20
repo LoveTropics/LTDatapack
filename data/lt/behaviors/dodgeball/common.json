@@ -98,11 +98,20 @@
   },
   {
     "type": "ltminigames:events/game_over",
-    "actions": {
-      "type": "ltminigames:setup_podium",
-      "winner_regions": ["winner"],
-      "loser_region": "player_spawn"
-    }
+    "actions": [
+      {
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:set_player_role"
+        }
+      },
+      {
+        "type": "ltminigames:setup_podium",
+        "winner_regions": ["winner"],
+        "loser_region": "player_spawn"
+      }
+    ]
   },
   {
     "type": "ltminigames:game_finish",
