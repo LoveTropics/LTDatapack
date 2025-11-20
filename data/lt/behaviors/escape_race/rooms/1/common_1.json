@@ -33,6 +33,7 @@
     },
     "count": 300
   },
+  "ltminigames:immediate_respawn",
   {
     "type": "ltminigames:block_in_region",
     "region": "should_end",

@@ -6,7 +6,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these simple things SHOES?",
           "color": "gold",
           "italic": true
         }
@@ -20,7 +20,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these burning flip-flops SHOES?",
           "color": "gold",
           "italic": true
         }
@@ -34,7 +34,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these yellow looking things SHOES?",
           "color": "gold",
           "italic": true
         }
@@ -48,7 +48,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these scale covered potatoes SHOES?",
           "color": "gold",
           "italic": true
         }
@@ -62,7 +62,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these expensive clogs SHOES?",
           "color": "gold",
           "italic": true
         }
@@ -71,12 +71,12 @@
   },
   {
     "type": "lt:escape_race/rooms/6/on_bill_interaction",
-    "item_id": "ltextras:big_boots",
+    "item_id": "ltextras:big_boot",
     "actions": [
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Oh my, how disgusting - you call these SHOES?",
+          "translate": "Oh my, how disgusting - you call these big ugly things SHOES?",
           "color": "gold",
           "italic": true
         }
