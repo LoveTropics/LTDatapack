@@ -21,7 +21,8 @@
       "doFireTick": "false",
       "naturalRegeneration": "false",
       "mobGriefing": "false",
-      "commandBlockOutput": "false"
+      "commandBlockOutput": "false",
+      "locatorBar": "false"
     }
   },
   {
@@ -36,9 +37,7 @@
       "minecraft:blocks/redstone_wire": {
         "id": "minecraft:redstone",
         "components": {
-          "minecraft:can_place_on": [
-            {"blocks": "#lt:escape_race_1_floor"}
-          ]
+          "minecraft:can_place_on": [{ "blocks": "#lt:escape_race_1_floor" }]
         }
       },
       "minecraft:blocks/decorated_pot": {
@@ -55,9 +54,7 @@
     "item": {
       "id": "minecraft:redstone",
       "components": {
-        "minecraft:can_place_on": [
-          {"blocks": "#lt:escape_race_1_floor"}
-        ]
+        "minecraft:can_place_on": [{ "blocks": "#lt:escape_race_1_floor" }]
       }
     },
     "count": 300
@@ -120,32 +117,32 @@
   {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
-        "type": "ltminigames:spawn_entity_at_regions",
-        "entity": {
-          "type": "minecraft:warden",
-          "tag": {
-            "AvoidDarkness": true,
-            "CustomName": "Lil' Terror",
-            "CustomNameVisible": true,
-            "PersistenceRequired": true
-          }
-        },
-        "regions_to_spawn_at": ["warden"],
-        "entity_count_per_region": 1,
-        "at_heightmap": false,
-        "entity_spawn_actions": [
-          {
-            "type": "ltminigames:give_effect",
-            "effects": [
-              {
-                "type": "minecraft:speed",
-                "seconds": 999999,
-                "amplifier": 0,
-                "particles": false
-              }
-            ]
-          }
-        ]
-      }
+      "type": "ltminigames:spawn_entity_at_regions",
+      "entity": {
+        "type": "minecraft:warden",
+        "tag": {
+          "AvoidDarkness": true,
+          "CustomName": "Lil' Terror",
+          "CustomNameVisible": true,
+          "PersistenceRequired": true
+        }
+      },
+      "regions_to_spawn_at": ["warden"],
+      "entity_count_per_region": 1,
+      "at_heightmap": false,
+      "entity_spawn_actions": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:speed",
+              "seconds": 999999,
+              "amplifier": 0,
+              "particles": false
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
