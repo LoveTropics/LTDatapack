@@ -246,47 +246,47 @@
     ],
     "spawn_times": {
       "trash_phase_one": {
-        "trash_rate": 200,
+        "trash_rate": 80,
         "table": "lt:escape_race/trash/phase_one",
         "next_channel": "trash_phase_two"
       },
       "trash_phase_two": {
-        "trash_rate": 180,
+        "trash_rate": 60,
         "table": "lt:escape_race/trash/phase_one",
         "next_channel": "trash_phase_three"
       },
       "trash_phase_three": {
-        "trash_rate": 160,
+        "trash_rate": 40,
         "table": "lt:escape_race/trash/phase_two",
         "next_channel": "trash_phase_four"
       },
       "trash_phase_four": {
-        "trash_rate": 140,
+        "trash_rate": 25,
         "table": "lt:escape_race/trash/phase_three",
         "next_channel": "trash_phase_five"
       },
       "trash_phase_five": {
-        "trash_rate": 120,
+        "trash_rate": 15,
         "table": "lt:escape_race/trash/phase_four",
         "next_channel": "trash_phase_six"
       },
       "trash_phase_six": {
-        "trash_rate": 100,
+        "trash_rate": 10,
         "table": "lt:escape_race/trash/phase_four",
         "next_channel": "trash_phase_seven"
       },
       "trash_phase_seven": {
-        "trash_rate": 80,
+        "trash_rate": 8,
         "table": "lt:escape_race/trash/phase_five",
         "next_channel": "trash_phase_eight"
       },
       "trash_phase_eight": {
-        "trash_rate": 60,
+        "trash_rate": 6,
         "table": "lt:escape_race/trash/phase_five",
         "next_channel": "trash_phase_nine"
       },
       "trash_phase_nine": {
-        "trash_rate": 40,
+        "trash_rate": 3,
         "table": "lt:escape_race/trash/phase_five",
         "next_channel": "end"
       }
