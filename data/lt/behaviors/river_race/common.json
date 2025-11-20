@@ -10,6 +10,10 @@
     "allow_rejoin": true
   },
   "ltminigames:microgames",
+  {
+    "type": "ltminigames:microgame_scoring",
+    "statistic": "break_bucks"
+  },
   "lt:common/spectator",
   {
     "type": "ltminigames:bind_controls",
@@ -47,8 +51,10 @@
     ]
   },
   "lt:river_race/collectables",
+  "ltminigames:victory_points",
   {
-    "type": "ltminigames:victory_points",
+    "type": "ltminigames:microgame_scoring",
+    "statistic": "victory_points",
     "special_points_per_game": {
       "lt:crab_hockey": 7
     }
