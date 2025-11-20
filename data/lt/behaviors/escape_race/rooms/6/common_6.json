@@ -29,7 +29,7 @@
   {
     "type": "ltminigames:progression",
     "channel": "talk_to_bill",
-    "named_points": {"start": 0, "end": "40"},
+    "named_points": { "start": 0, "end": 40 },
     "start": false
   },
   {
@@ -40,14 +40,14 @@
       "1": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
-          {"text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "bold": false, "color": "white"}
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+          { "text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "bold": false, "color": "white" }
         ]
       },
       "5": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
           {
             "text": "Oh hello there! I haven't seen you around these parts before.... I'm Bill Shoebill, Head of Uniform at EscapeRace. Or is it Head of Shoes... Hmm, I should ask Terry.\n ",
             "bold": false,
@@ -58,7 +58,7 @@
       "17": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
           {
             "text": "Oh sorry, I was talking to you wasn't I... Anyway, I wonder if you could help me, I've lost my favourite shoes somewhere around here...\n",
             "bold": false,
@@ -69,7 +69,7 @@
       "24": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
           {
             "text": "I can't possibly find them since my department has become over-run with angry mobs.... I wonder where they came from, maybe I should ask Terry...\n",
             "bold": false,
@@ -80,8 +80,8 @@
       "32": {
         "type": "ltminigames:send_message",
         "message": [
-          {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
-          {"text": "Anyway, find me my favourite shoes and I'll let you back out!\n", "bold": false, "color": "white"}
+          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
+          { "text": "Anyway, find me my favourite shoes and I'll let you back out!\n", "bold": false, "color": "white" }
         ]
       },
       "37": [
@@ -100,7 +100,7 @@
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": {"type": "default"}
+                      "display": { "type": "default" }
                     },
                     {
                       "id": "jump_strength",
@@ -108,7 +108,7 @@
                       "amount": -0.9,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": {"type": "default"}
+                      "display": { "type": "default" }
                     },
                     {
                       "id": "movement_speed",
@@ -116,29 +116,30 @@
                       "amount": -0.075,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": {"type": "default"}
+                      "display": { "type": "default" }
                     }
                   ],
                   "unbreakable": {},
                   "blocks_attacks": {
                     "block_delay_seconds": 0.1,
                     "bypassed_by": "#is_projectile",
-                    "damage_reductions": [{"base": 3, "factor": 0.5, "horizontal_blocking_angle": 65}],
+                    "damage_reductions": [{ "base": 3, "factor": 0.5, "horizontal_blocking_angle": 65 }],
                     "block_sound": "item.shield.block",
                     "disabled_sound": "item.shield.break"
                   },
                   "rarity": "epic",
                   "item_name": [
                     "Monumentally Massive Mace",
-                    {"color": "gray", "italic": true, "text": " (For Shoes)"}
+                    { "color": "gray", "italic": true, "text": " (For Shoes)" }
                   ],
                   "lore": [
-                    {"color": "gray", "text": "Sometimes as a Cobbler,"},
-                    {"color": "gray", "text": "you need delicate precision."},
-                    {"color": "dark_gray", "text": "This isn't for that."}
+                    { "color": "gray", "text": "Sometimes as a Cobbler," },
+                    { "color": "gray", "text": "you need delicate precision." },
+                    { "color": "dark_gray", "text": "This isn't for that." }
                   ],
                   "weapon": {
-                    "disable_blocking_for_seconds": 2, "item_damage_per_attack": 8
+                    "disable_blocking_for_seconds": 2,
+                    "item_damage_per_attack": 8
                   }
                 }
               }
@@ -153,14 +154,14 @@
           "entity": {
             "type": "minecraft:item",
             "tag": {
-              "Item":{
+              "Item": {
                 "components": {
                   "minecraft:item_name": "The Orb™",
                   "minecraft:item_model": "minecraft:heart_of_the_sea",
                   "minecraft:lore": [
                     {
                       "color": "gray",
-                      "text":"Sees all. Including your personal information."
+                      "text": "Sees all. Including your personal information."
                     },
                     {
                       "color": "gray",
@@ -181,9 +182,7 @@
                     "minecraft:channeling": 1
                   },
                   "minecraft:tooltip_display": {
-                    "hidden_components": [
-                      "minecraft:enchantments"
-                    ]
+                    "hidden_components": ["minecraft:enchantments"]
                   },
                   "minecraft:rarity": "epic",
                   "minecraft:enchantment_glint_override": 0
@@ -202,7 +201,7 @@
           "entity": {
             "type": "minecraft:item",
             "tag": {
-              "Item":{
+              "Item": {
                 "id": "minecraft:lingering_potion",
                 "count": 99,
                 "components": {
@@ -278,7 +277,7 @@
   },
   {
     "type": "ltminigames:while_in_region",
-    "interval": "1",
+    "interval": 1,
     "regions": {
       "speak_to_bill": [
         {
