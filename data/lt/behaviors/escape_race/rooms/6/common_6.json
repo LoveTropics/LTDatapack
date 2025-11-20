@@ -1,6 +1,5 @@
 [
   "ltminigames:disable_hunger",
-  "ltminigames:disable_throwing_items",
   "ltminigames:immediate_respawn",
   "lt:common/spectator",
   "ltminigames:teams",
