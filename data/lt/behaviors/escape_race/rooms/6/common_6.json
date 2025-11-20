@@ -299,7 +299,8 @@
       "doTileDrops": "false",
       "doFireTick": "false",
       "naturalRegeneration": "false",
-      "mobGriefing": "false"
+      "mobGriefing": "false",
+      "locatorBar": "false"
     }
   },
   "lt:escape_race/rooms/6/bill_interactions",
