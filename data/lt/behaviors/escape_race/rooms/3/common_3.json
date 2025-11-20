@@ -51,7 +51,7 @@
     "interval": 50,
     "max_delay": 70,
     "count": 240,
-    "ticks": 10
+    "ticks": 3
   },
   {
     "type": "lt:escape_race/rooms/3/region",
