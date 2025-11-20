@@ -790,5 +790,11 @@
   "lt.collectible.edu_glasses.name": "Education Glasses",
   "ltminigames.minigame.donation.player_dummy_package": "Mini Warden Package",
   "ltminigames.minigame.donation.player_dummy_package.description": "Turn every player in the game into a Mini Warden",
-  "ltminigames.minigame.donation.player_dummy_package.toast": "Everyone is a Mini Warden"
+  "ltminigames.minigame.donation.player_dummy_package.toast": "Everyone is a Mini Warden",
+  "lt.world_games.turtle.start": "You've started the Turtle Race Course!",
+  "lt.world_games.turtle.fail_checkpoints": "You've missed too many checkpoints! Try again!",
+  "lt.world_games.turtle.win.title": "Course Complete!",
+  "lt.world_games.turtle.win.subtitle": "You are a speedy turtle racer!!",
+  "lt.world_games.turtle.win.time": "Your Turtle Race score was %s, High Score is %s",
+  "lt.world_games.turtle.time": "Score: %s Checkpoints: %s"
 }

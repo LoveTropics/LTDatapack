@@ -11,4 +11,5 @@ execute if block ~ ~ ~ ltextras:checkpoint[stage=8] run function lt:world_games/
 execute if block ~ ~ ~ ltextras:checkpoint[stage=9] run function lt:world_games/turtle/add_score {"checkpoint":"9"}
 execute if score @s world_game.turtle.tracker matches 2.. if block ~ ~ ~ ltextras:checkpoint[stage=10] run function lt:world_games/turtle/on_win
 scoreboard players add @s world_game.turtle.clock 1
+effect give @s minecraft:water_breathing 30 255 true
 title @s actionbar {"translate":"lt.world_games.turtle.time","with":[{"score":{"name":"@s","objective":"world_game.turtle.clock"}},{"score":{"name":"@s","objective":"world_game.turtle.tracker"}}]}
