@@ -38,9 +38,9 @@
       ],
       "quad_size": 3,
       "max_time": 280,
-      "time_decay_rounds": 10,
+      "time_decay_rounds": 5,
       "interval": 80,
-      "knockback_after_round": 5
+      "knockback_after_round": 3
     },
     {
       "type": "ltminigames:game_finish",

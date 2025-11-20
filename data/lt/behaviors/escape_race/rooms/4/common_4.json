@@ -66,5 +66,11 @@
         }
       }
     ]
+  },
+  {
+    "type": "ltminigames:modify_loot_tables",
+    "replace": {
+      "ltextras:blocks/plumbers_tnt": "lt:escape_race/room_4/plumbers_tnt"
+    }
   }
 ]

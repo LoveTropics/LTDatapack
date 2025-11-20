@@ -27,12 +27,6 @@
             }
           ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "ltminigames:is_minigame",
-          "minigame_id": "escape_race/room/4"
-        }
       ]
     }
   ]
