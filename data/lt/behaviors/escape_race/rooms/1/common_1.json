@@ -147,7 +147,6 @@
         "tag": {
           "AvoidDarkness": true,
           "CustomName": "Lil' Terror",
-          "CustomNameVisible": true,
           "PersistenceRequired": true,
           "attributes": [
             {
