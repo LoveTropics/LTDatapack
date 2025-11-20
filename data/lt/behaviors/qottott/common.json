@@ -19,10 +19,17 @@
     "order": "max"
   },
   {
-    "type": "ltminigames:display_leaderboard_on_finish",
-    "statistic": "points",
-    "order": "max",
-    "length": 6
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:display_leaderboard",
+        "statistic": "points",
+        "order": "max",
+        "length": 6,
+        "header": "ltminigames.minigame.results"
+      }
+    ],
+    "target": "all_players"
   },
   "lt:qottott/items",
   "lt:qottott/rewards",

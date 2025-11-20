@@ -5,25 +5,26 @@
     "order": "max"
   },
   {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 100
+  },
+  "lt:common/announce_game_over",
+  {
     "type": "ltminigames:events/game_over",
     "actions": [
       {
         "type": "ltminigames:play_sound",
         "sound": "minecraft:block.end_portal.spawn",
         "pitch": 0.2
+      },
+      {
+        "type": "ltminigames:display_leaderboard",
+        "statistic": "kills",
+        "order": "max",
+        "length": 5,
+        "header": "ltminigames.minigame.results"
       }
     ],
     "target": "all_players"
-  },
-  {
-    "type": "ltminigames:game_end_effects",
-    "stop_delay": 100
-  },
-  "lt:common/announce_game_over",
-  {
-    "type": "ltminigames:display_leaderboard_on_finish",
-    "statistic": "kills",
-    "order": "max",
-    "length": 5
   }
 ]

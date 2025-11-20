@@ -21,9 +21,16 @@
   },
   "lt:common/game_over_title",
   {
-    "type": "ltminigames:display_leaderboard_on_finish",
-    "statistic": "points",
-    "order": "max",
-    "length": 5
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:display_leaderboard",
+        "statistic": "points",
+        "order": "max",
+        "length": 5,
+        "header": "ltminigames.minigame.results"
+      }
+    ],
+    "target": "all_players"
   }
 ]
