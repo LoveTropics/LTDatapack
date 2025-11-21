@@ -32,6 +32,9 @@
         "statistic": "points",
         "amount": 1,
         "scope": "team"
+      },
+      {
+        "type": "ltminigames:escape_race/room4_water_level"
       }
     ]
   }
