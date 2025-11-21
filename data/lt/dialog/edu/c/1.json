@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "The Forest as a Living, Conscious Being",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "For many Indigenous Amazonian nations, the forest is a living relative, not just land or resources. Trees, rivers, mountains and animals each have their own spirit or guardian. People hunt, fish and gather with respect, knowing the forest is alive and aware. Damaging nature is seen as harming a family member."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: A Kichwa person may ask permission from Nunguli, a forest guardian, before cutting a tree. The Waorani ask Oni Waemo before entering certain groves."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

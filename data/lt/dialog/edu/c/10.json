@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Respect for the Unseen World",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "There are beings and forces that can’t be seen but are part of everyday life. People make sure to stay in good relationships with these spirits through rituals, songs and respect."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: Spirit imbalance may cause illness, and healers work to restore harmony using plants, tobacco smoke and song"
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Dreams as Guidance",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Dreams are an important source of wisdom. They help guide decisions about travel, hunting, family and community life. People learn to understand the messages dreams bring."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: A dream about a certain animal might warn someone of danger during a journey."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

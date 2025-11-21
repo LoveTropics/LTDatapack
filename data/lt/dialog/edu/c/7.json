@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Territory as Identity",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Land isn’t something that is owned — it’s a living place full of memory, ancestors, and responsibilities. Protecting territory is protecting culture, language and community life."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: Sacred waterfalls, groves, or mountains are treated with special care, just like important family members."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

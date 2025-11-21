@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Pachamama Alliance",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "The Pachamama Alliance (started in 1995) is an organization that supports Amazonian Indigenous peoples in protecting their lands and cultures. The Escuela Viva de la Amazonía or Living School of the Amazon (EVA), launched in 2023, is a youth leadership program that teaches Indigenous young people how to care for their territories using both traditional knowledge and modern tools. Together they help strengthen communities and protect the Amazon. Take the path to your left, to visit the Pachamama Longhouse and Village to learn more!"
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Everything Is Connected",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Indigenous nations see humans, plants, animals and spirits as part of one large, interconnected family. Every action affects the whole system. Respect, sharing and balance guide daily life — whether it’s hunting, farming, or gathering plants."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: Achuar hunters speak to the spirit of an animal they have hunted, thanking it and acknowledging their connection."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

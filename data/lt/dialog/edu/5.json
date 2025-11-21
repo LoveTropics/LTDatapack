@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Longhouses",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Traditional longhouses in Amazonian cultures such as the Shuar and Achuar are large communal buildings with tall, steep palm-thatch roofs and open sides. Designed so smoke from the central fire rises into the tall roof and escapes naturally through the thatch. These structures serve as the heart of community life—used for meetings, ceremonies, storytelling and shared meals. The shape and design of longhouses often reflect spiritual beliefs such as the high roof symbolizing connection to the spirit world."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

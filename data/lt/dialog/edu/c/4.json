@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Plants as Teachers and Helpers",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Certain plants are seen as teachers that offer wisdom, healing, and protection. People learn from plants through ceremonies, guided dreams, or special diets. Plants are both medicine and spiritual guides."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Example: Ayahuasca (natem) is used for visions and learning; guayusa tea is shared early in the early morning while families talk about their dreams."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "Knowledge Keepers and Spiritual Guides",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Elders are the keepers of stories, traditions, and spiritual knowledge. They teach younger generations how to understand the forest, how to read signs in nature, and how to maintain balance in the community. Their lessons often come through stories, songs, dreams and personal experience, not textbooks."
+      },
+      "width": 200
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " Example: In Shuar communities, healers learn from plants and dreams through special diets and ceremonies."
+      },
+      "width": 200
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close"
+}
