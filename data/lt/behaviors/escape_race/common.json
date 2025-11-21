@@ -86,6 +86,74 @@
           },
           "color": 12582656
         }
+      ],
+      "donor_boot_items": [
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "fabulous"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "flail"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "hovering"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shuffle"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "upsidedown"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shrunk"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "enlarged"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shruggy_arms"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "ender_arms"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "stiff_legs"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "hop_walk"
+          }
+        }
       ]
     }
   },
