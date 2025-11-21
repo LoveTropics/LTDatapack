@@ -208,7 +208,9 @@
     {
       "type": "ltminigames:crab_golf_win",
       "firework": "{LifeTime:10,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{explosions:[{shape:small_ball,colors:[I;14602026]}]}}}}",
-      "reward": "ltextras:tropicoin"
+      "reward": {
+        "id": "ltextras:tropicoin"
+      }
     }
   ]
 }
