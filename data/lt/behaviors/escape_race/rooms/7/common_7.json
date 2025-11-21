@@ -7,6 +7,68 @@
     "join_late_with_role": "spectator"
   },
   {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "red": ["red_spawn"],
+      "blue": ["blue_spawn"]
+    },
+    "spectators": ["spectator_spawn"]
+  },
+  {
+    "type": "ltminigames:checkpoints",
+    "checkpoints": [
+      {
+        "region": "checkpoint_left_1",
+        "spawn_region": "spawn_left_1",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_right_1",
+        "spawn_region": "spawn_right_1",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_left_2",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_right_2",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_left_3",
+        "spawn_region": "spawn_left_3",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_right_3",
+        "spawn_region": "spawn_right_3",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_left_4",
+        "spawn_region": "spawn_left_4",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_right_4",
+        "spawn_region": "spawn_right_4",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_left_5",
+        "spawn_region": "spawn_left_5",
+        "face_region": "spawn_facing"
+      },
+      {
+        "region": "checkpoint_right_5",
+        "spawn_region": "spawn_right_5",
+        "face_region": "spawn_facing"
+      }
+    ],
+    "angle": -180.0
+  },
+  {
     "type": "ltminigames:escape_race/terry_boss",
     "entity_predicate": {
       "type": "minecraft:zombie"

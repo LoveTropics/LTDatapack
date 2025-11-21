@@ -8,7 +8,7 @@
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:escape_race_room_2",
-    "dimension_type": "lt:raised_clouds"
+    "dimension_type": "lt:no_clouds"
   },
   "waiting": {
     "map": {
