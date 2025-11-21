@@ -1,0 +1,11 @@
+{
+  "description": { "translate": "lt.poi.parkour" },
+  "icon": {
+    "item": {
+      "id": "ltminigames:parkour_teleporter"
+    }
+  },
+  "pos": [1400, 168, -860],
+  "angle": -90,
+  "map": "lt:tropics"
+}
