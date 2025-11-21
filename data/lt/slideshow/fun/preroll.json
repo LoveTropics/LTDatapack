@@ -1,0 +1,11 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://dist.creeper.host/lovetropics/preroll_lowerq.mp4",
+      "duration": 719.291666
+    }
+  ]
+}
