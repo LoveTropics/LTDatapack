@@ -133,14 +133,14 @@
         "item_frame_region": "code_frame_2",
         "light_region": "code_light_2",
         "item_predicate": {
-          "items": ["minecraft:nether_star"]
+          "items": ["ltextras:battery"]
         }
       },
       {
         "item_frame_region": "code_frame_3",
         "light_region": "code_light_3",
         "item_predicate": {
-          "items": ["minecraft:clock"]
+          "items": ["ltextras:steering_wheel"]
         }
       }
     ],
