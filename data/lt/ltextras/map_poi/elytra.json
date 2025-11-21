@@ -1,11 +1,11 @@
 {
-  "description": {"translate": "lt.poi.elytra"},
+  "description": { "translate": "lt.poi.elytra" },
   "icon": {
     "item": {
       "id": "minecraft:elytra"
     }
   },
-  "pos": [-17, 190, -280],
-  "angle": 90,
+  "pos": [1167, 229, -1109],
+  "angle": 0,
   "map": "lt:tropics"
 }

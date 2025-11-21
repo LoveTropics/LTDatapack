@@ -1,0 +1,17 @@
+{
+  "description": { "translate": "lt.poi.turtle" },
+  "icon": {
+    "item": {
+      "id": "peekaboo:plushie",
+      "components": {
+        "peekaboo:entity": {
+          "id": "tropicraft:turtle"
+        },
+        "peekaboo:size": 2
+      }
+    }
+  },
+  "pos": [984, 137, -1214],
+  "angle": 90,
+  "map": "lt:tropics"
+}

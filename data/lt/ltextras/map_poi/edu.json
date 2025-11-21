@@ -1,11 +1,11 @@
 {
-  "description": {"translate": "lt.poi.education_area"},
+  "description": { "translate": "lt.poi.education_area" },
   "icon": {
     "item": {
       "id": "minecraft:written_book"
     }
   },
-  "pos": [-109, 128, 47.8],
-  "angle": 170,
+  "pos": [129, 153, -1150],
+  "angle": -90,
   "map": "lt:tropics"
 }
