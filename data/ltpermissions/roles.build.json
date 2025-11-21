@@ -7,7 +7,7 @@
       },
       "waypoint_icon": {
         "style": "lt:turtle",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.18, 0.8, 0.443]
       }
     }
   },
@@ -15,6 +15,10 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
+        "prefix": {
+          "text": "[ALT] ",
+          "color": "red"
+        },
         "style": "#31a2ac"
       }
     }
@@ -32,7 +36,7 @@
       "host": true,
       "waypoint_icon": {
         "style": "lt:live",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.9137, 0.1176, 0.3882]
       }
     }
   },
@@ -48,7 +52,7 @@
       },
       "waypoint_icon": {
         "style": "lt:host",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.914, 0.118, 0.388]
       }
     }
   },
@@ -60,12 +64,12 @@
       },
       "waypoint_icon": {
         "style": "lt:mojang",
-        "color": [1.0, 0.2, 0.0]
+        "color": [0.847, 0.2588, 0.5137]
       }
     }
   },
   "modder": {
-    "includes": ["trusted"],
+    "includes": ["trusted", "administration"],
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
@@ -82,7 +86,7 @@
     }
   },
   "builder": {
-    "includes": ["whitelisted"],
+    "includes": ["fake_op", "whitelisted"],
     "overrides": {
       "join_access": {
         "allows_joining": true
@@ -107,18 +111,11 @@
     "includes": ["whitelisted"],
     "overrides": {
       "op_level": 2,
-      "worldedit_allowed": true,
       "commands": {
-        "/.*": "allow",
-        "/regen .*": "deny",
-        "mask .*": "allow",
-        "map join .*": "allow",
-        "map leave .*": "allow",
         "fly": "allow",
         "give": "allow",
         "gamemode .*": "allow",
         "clear": "allow",
-        "tp .*": "allow",
         "effect": "allow"
       },
       "join_access": {
@@ -178,20 +175,7 @@
   "donator": {
     "includes": ["whitelisted"]
   },
-  "event_overlord": {
-    "overrides": {
-      "op_level": 2,
-      "name_decoration": {
-        "prefix": {
-          "text": "[OVERLORD] ",
-          "color": "#f44627"
-        },
-        "style": "#f44627"
-      }
-    }
-  },
   "event_streamer": {
-    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "prefix": {
@@ -206,6 +190,18 @@
         "not_whitelisted_message": {
           "translate": "lt.whitelist.mysty_event.not_started"
         }
+      }
+    }
+  },
+  "event_overlord": {
+    "overrides": {
+      "op_level": 2,
+      "name_decoration": {
+        "prefix": {
+          "text": "[OVERLORD] ",
+          "color": "#f44627"
+        },
+        "style": "#f44627"
       }
     }
   },
