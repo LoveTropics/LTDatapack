@@ -60,7 +60,7 @@
               {
                 "type": "ltminigames:send_message",
                 "message": {
-                  "text": "Right gang, it's time to get to the break-room! It's a state mandated break...",
+                  "text": "Right gang, it's time to get to the break-room! It's a state-mandated break...",
                   "color": "green",
                   "italic": true
                 }
@@ -212,7 +212,7 @@
               {
                 "type": "ltminigames:send_message",
                 "message": {
-                  "text": "THat's the end of Day 1... get back to the break room ASAP!",
+                  "text": "That's the end of Day 1... get back to the break room ASAP!",
                   "color": "green",
                   "italic": true
                 }
@@ -521,5 +521,29 @@
       }
     },
     "starting_stage": "breakroom_1"
+  },
+  {
+    "type": "ltminigames:escape_race/stage_bar",
+    "bar_by_stage": {
+      "room_racing_1": {
+        "title": "Race rooms! (Terry calls in %time%)",
+        "color": "green",
+        "reversed": true
+      },
+      "room_racing_2": {
+        "title": "Race rooms! (Terry calls in %time%)",
+        "color": "green",
+        "reversed": true
+      },
+      "room_racing_3": {
+        "title": "Race rooms! (Terry calls in %time%)",
+        "color": "green",
+        "reversed": true
+      },
+      "race_to_bus": {
+        "title": "Time for the final room - run to the bus!",
+        "color": "red"
+      }
+    }
   }
 ]
