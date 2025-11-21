@@ -200,7 +200,11 @@
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
-            {"text": "GG!", "bold": true, "color": "green"}
+            { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+            {
+              "text": "Great! You've got the forklift, now drive it straight at me!\n ",
+              "color": "white"
+            }
           ]
         },
         "target": "all_players",
@@ -210,6 +214,7 @@
   },
   {
     "type": "ltminigames:while_in_region",
+    "run_once": "once",
     "regions": {
       "end_room": [
         {

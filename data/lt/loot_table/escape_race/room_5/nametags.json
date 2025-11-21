@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:nametags",
+          "name": "minecraft:nametag",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ltextras:button",
+          "name": "minecraft:spruce_button",
           "functions": [
             {
               "function": "minecraft:set_count",

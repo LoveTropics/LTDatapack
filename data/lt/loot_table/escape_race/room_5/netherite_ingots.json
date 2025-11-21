@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingots",
+          "name": "minecraft:netherite_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ltextras:string",
+          "name": "minecraft:string",
           "functions": [
             {
               "function": "minecraft:set_count",
