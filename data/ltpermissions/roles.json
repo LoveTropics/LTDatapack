@@ -82,6 +82,7 @@
     }
   },
   "builder": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
@@ -89,6 +90,7 @@
     }
   },
   "helper": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#30c6f0"
@@ -139,6 +141,7 @@
     }
   },
   "privileged": {
+    "includes": ["whitelisted"],
     "overrides": {
       "commands": {
         "kick": "allow",
