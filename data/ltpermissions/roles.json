@@ -60,7 +60,7 @@
       },
       "waypoint_icon": {
         "style": "lt:mojang",
-        "color": [0.0, 0.0, 0.0]
+        "color": [1.0, 1.0, 1.0]
       }
     }
   },
