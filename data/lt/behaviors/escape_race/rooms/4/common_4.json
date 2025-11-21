@@ -21,10 +21,10 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "announceAdvancements": "false",
-      "fallDamage": "false",
+      "fallDamage": "true",
       "doTileDrops": "true",
       "doFireTick": "false",
-      "naturalRegeneration": "true",
+      "naturalRegeneration": "false",
       "mobGriefing": "false"
     }
   },
@@ -46,16 +46,12 @@
               "rarity": "uncommon",
               "can_place_on": [
                 {
-                  "blocks": [
-                    "ltextras:plumbers_tnt"
-                  ]
+                  "blocks": ["ltextras:plumbers_tnt"]
                 }
               ],
               "can_break": [
                 {
-                  "blocks": [
-                    "ltextras:plumbers_tnt"
-                  ]
+                  "blocks": ["ltextras:plumbers_tnt"]
                 }
               ]
             }
@@ -65,6 +61,29 @@
             "components": {
               "unbreakable": {},
               "ltextras:undroppable": {}
+            }
+          },
+          {
+            "id": "minecraft:crossbow",
+            "count": 1,
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "enchantments": { "quick_charge": 3, "piercing": 4, "infinity": 1 },
+              "item_name": "Pipe Piercer",
+              "rarity": "uncommon",
+              "lore": [{ "color": "gray", "text": "Safety around pipes not guaranteed." }]
+            }
+          },
+          {
+            "id": "minecraft:arrow",
+            "count": 1,
+            "components": {
+              "unbreakable": {},
+              "ltextras:undroppable": {},
+              "item_name": "Pipe Piercing Arrow",
+              "rarity": "uncommon",
+              "lore": [{ "color": "gray", "text": "Piercing capabilities untested." }]
             }
           }
         ],
@@ -92,6 +111,106 @@
           "amount": 0.25,
           "operation": "add_value"
         }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": [
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "tropicraft:piranha",
+          "tag": {
+            "CustomName": "Unemployed Piranha",
+            "PersistenceRequired": true,
+            "attributes": [
+              {
+                "base": 1,
+                "id": "neoforge:nametag_distance"
+              }
+            ]
+          }
+        },
+        "regions_to_spawn_at": ["piranha_spawn_small"],
+        "entity_count_per_region": 2,
+        "at_heightmap": false
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "tropicraft:piranha",
+          "tag": {
+            "CustomName": "Unemployed Piranha",
+            "PersistenceRequired": true,
+            "attributes": [
+              {
+                "base": 6,
+                "id": "neoforge:nametag_distance"
+              }
+            ]
+          }
+        },
+        "regions_to_spawn_at": ["piranha_spawn_large"],
+        "entity_count_per_region": 2,
+        "at_heightmap": false
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "minecraft:drowned",
+          "tag": {
+            "CustomName": "Unfortunate Employee",
+            "PersistenceRequired": true,
+            "attributes": [
+              {
+                "base": 3,
+                "id": "neoforge:nametag_distance"
+              }
+            ]
+          }
+        },
+        "regions_to_spawn_at": ["surface_squad_small"],
+        "entity_count_per_region": 2,
+        "at_heightmap": false
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "minecraft:drowned",
+          "tag": {
+            "CustomName": "Unfortunate Employee",
+            "PersistenceRequired": true,
+            "attributes": [
+              {
+                "base": 3,
+                "id": "neoforge:nametag_distance"
+              }
+            ]
+          }
+        },
+        "regions_to_spawn_at": ["surface_squad_large"],
+        "entity_count_per_region": 3,
+        "at_heightmap": false
+      },
+      {
+        "type": "ltminigames:spawn_entity_at_regions",
+        "entity": {
+          "type": "minecraft:bogged",
+          "tag": {
+            "CustomName": "Unfortunate Contractor",
+            "PersistenceRequired": true,
+            "attributes": [
+              {
+                "base": 3,
+                "id": "neoforge:nametag_distance"
+              }
+            ]
+          }
+        },
+        "regions_to_spawn_at": ["surface_squad_large"],
+        "entity_count_per_region": 2,
+        "at_heightmap": false
       }
     ]
   },
@@ -154,14 +273,222 @@
     "actions": [
       {
         "type": "ltminigames:show_title",
-        "title": {
-          "translate": "1 / 7",
-          "color": "white",
-          "italic": true
-        },
+        "title": [
+          {
+            "text": "1",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
         "subtitle": {
           "translate": "Blocker Cleared",
-          "color": "gold"
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 2,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "2",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 3,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "3",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 4,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "4",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 5,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "5",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 6,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "6",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "aqua"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 7,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": [
+          {
+            "text": "7",
+            "color": "yellow",
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "7",
+            "color": "white",
+            "italic": false
+          }
+        ],
+        "subtitle": {
+          "translate": "All Blockers Cleared",
+          "color": "aqua"
+        }
+      },
+      {
+        "type": "ltminigames:set_blocks",
+        "region": ["remove_after_end"],
+        "replace": {
+          "blocks": "minecraft:barrier"
+        },
+        "set": {
+          "Name": "minecraft:air"
         }
       }
     ]
