@@ -521,6 +521,18 @@
         "color": "green",
         "reversed": true
       },
+      "racing_wind_down_1": {
+        "title": "Time to finish up!",
+        "color": "yellow"
+      },
+      "racing_wind_down_2": {
+        "title": "Time to finish up!",
+        "color": "yellow"
+      },
+      "racing_wind_down_3": {
+        "title": "Time to finish up!",
+        "color": "yellow"
+      },
       "race_to_bus": {
         "title": "Time for the final room - run to the bus!",
         "color": "red"
