@@ -146,6 +146,16 @@
       },
       "breakroom_2": {
         "next_stage": "room_racing_2",
+        "start_actions": [
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "Break Time",
+              "color": "green"
+            },
+            "stay": 60
+          }
+        ],
         "end_actions": [
           {
             "type": "ltminigames:nicely_break_region_of_blocks",
@@ -406,6 +416,16 @@
       },
       "breakroom_4": {
         "next_stage": "race_to_bus",
+        "start_actions": [
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "Break Time",
+              "color": "green"
+            },
+            "stay": 60
+          }
+        ],
         "end_actions": [
           {
             "type": "ltminigames:nicely_break_region_of_blocks",
@@ -452,18 +472,45 @@
       },
       "race_to_bus": {
         "next_stage": "start_kapok",
-        "start_actions": []
+        "start_actions": [
+          {
+            "type": "ltminigames:show_title",
+            "title": {
+              "text": "Race to the bus!",
+              "color": "green"
+            },
+            "stay": 60
+          },
+          {
+            "type": "ltminigames:escape_race/close_rooms",
+            "rooms": [
+              "room_entrance_1",
+              "room_entrance_2",
+              "room_entrance_3",
+              "room_entrance_4",
+              "room_entrance_5",
+              "room_entrance_6"
+            ]
+          }
+        ]
       },
       "start_kapok": {
         "next_stage": "breakroom_finale",
-        "start_actions": [],
+        "start_actions": [
+          {
+            "type": "ltminigames:escape_race/join_team_into_room",
+            "room": "super_special_seven"
+          }
+        ],
         "timer_length_ticks": 24000
       },
       "breakroom_finale": {
         "next_stage": "reveal_winner"
       },
       "reveal_winner": {
-        "start_actions": []
+        "start_actions": [
+          {"type":  "ltminigames:escape_race/reveal_winner"}
+        ]
       }
     },
     "starting_stage": "breakroom_1"
