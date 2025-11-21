@@ -13,7 +13,8 @@
       "red": ["red_spawn"],
       "blue": ["blue_spawn"]
     },
-    "spectators": ["spectator_spawn"]
+    "spectators": ["spectator_spawn"],
+    "face_region": "spawn_facing"
   },
   "ltminigames:disable_hunger",
   {

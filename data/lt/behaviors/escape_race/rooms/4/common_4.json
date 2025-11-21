@@ -498,5 +498,17 @@
         }
       }
     ]
+  },
+  {
+    "type": "ltminigames:rising_fluid_by_statistic",
+    "statistic": "points",
+    "fill_type": "water",
+    "statistic_to_level": {
+      "0": "water_level_0",
+      "2": "water_level_1",
+      "5": "water_level_2",
+      "7": "water_level_3"
+    },
+    "step_interval": 10
   }
 ]
