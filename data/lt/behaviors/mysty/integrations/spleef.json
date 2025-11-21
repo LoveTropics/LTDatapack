@@ -5,11 +5,6 @@
   { "type": "lt:mysty/integrations/packages/effects/slow_falling", "amount": 10, "seconds": 10, "amplifier": 1 },
   { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 15, "seconds": 10, "amplifier": 1 },
   {
-    "type": "lt:mysty/integrations/packages/player_tornado_baby",
-    "amount": 15,
-    "ticks": 200
-  },
-  {
     "type": "lt:mysty/integrations/packages/disguise",
     "id": "mini_warden_package",
     "name": "Mini Wardens!",
