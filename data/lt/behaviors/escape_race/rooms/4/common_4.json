@@ -1,5 +1,33 @@
 [
   "ltminigames:teams",
+  "ltminigames:disable_hunger",
+  "lt:common/spectator",
+  "ltminigames:prevent_trapdoor_triggers",
+  {
+    "type": "ltminigames:position_players",
+    "participants": "spawn_region",
+    "spectators": "spec"
+  },
+  {
+    "type": "ltminigames:prevent_block_interaction",
+    "block_predicate": {
+      "blocks": "#lt:escape_race_4_prevent_interact"
+    }
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "fallDamage": "false",
+      "doTileDrops": "false",
+      "doFireTick": "false",
+      "naturalRegeneration": "true",
+      "mobGriefing": "false"
+    }
+  },
   {
     "type": "ltminigames:set_role",
     "role": "participant",
@@ -72,5 +100,19 @@
     "replace": {
       "ltextras:blocks/plumbers_tnt": "lt:escape_race/room_4/plumbers_tnt"
     }
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_1"
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 2,
+    "actions": [
+      {
+        // Fill layer
+      }
+    ]
   }
 ]

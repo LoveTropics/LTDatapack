@@ -1,0 +1,42 @@
+[
+  {
+    "type": "ltminigames:block_in_region",
+    "region": "$region",
+    "run_once": true,
+    "predicate": {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:block_state_property",
+        "block": "minecraft:mud"
+      }
+    },
+    "target": "all_players",
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "Mud Blocker Cleared!",
+          "color": "gold",
+          "italic": true
+        }
+      },
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "volume": 0.5
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  }
+]
