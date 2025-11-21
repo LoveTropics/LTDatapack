@@ -13,7 +13,7 @@
         "options": {
           "type": "ltextras:emitted_hearts_particle"
         },
-        "count": 8,
+        "count": 14,
         "range": 20,
         "offset": [0, 12, 0]
       }
