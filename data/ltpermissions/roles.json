@@ -209,6 +209,7 @@
       "name_decoration": {
         "text": "[EVENT] ",
         "prefix": {
+          "text": "[EVENT] ",
           "color": "#CF27F5"
         },
         "style": "#CF27F5"
