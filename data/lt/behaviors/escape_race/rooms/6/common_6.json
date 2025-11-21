@@ -104,7 +104,7 @@
                     {
                       "id": "jump_strength",
                       "type": "jump_strength",
-                      "amount": -0.9,
+                      "amount": 0.075,
                       "operation": "add_value",
                       "slot": "mainhand",
                       "display": { "type": "default" }
@@ -112,10 +112,25 @@
                     {
                       "id": "movement_speed",
                       "type": "movement_speed",
-                      "amount": -0.075,
+                      "amount": -0.02,
                       "operation": "add_value",
                       "slot": "mainhand",
                       "display": { "type": "default" }
+                    },
+                    {
+                      "id": "attack_damage",
+                      "type": "attack_damage",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "slot": "hand",
+                      "display": { "type": "default" }
+                    },
+                    {
+                      "type": "minecraft:fall_damage_multiplier",
+                      "id": "minecraft:fall_damage_multiplier",
+                      "amount": -1.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
                     }
                   ],
                   "unbreakable": {},
@@ -127,10 +142,7 @@
                     "disabled_sound": "item.shield.break"
                   },
                   "rarity": "epic",
-                  "item_name": [
-                    "Monumentally Massive Mace",
-                    { "color": "gray", "italic": true, "text": " (For Shoes)" }
-                  ],
+                  "item_name": ["Monumentally Massive Mace", { "color": "gray", "italic": true, "text": " (For Shoes)" }],
                   "lore": [
                     { "color": "gray", "text": "Sometimes as a Cobbler," },
                     { "color": "gray", "text": "you need delicate precision." },
@@ -138,7 +150,7 @@
                   ],
                   "weapon": {
                     "disable_blocking_for_seconds": 2,
-                    "item_damage_per_attack": 8
+                    "item_damage_per_attack": 6
                   }
                 }
               }
@@ -201,7 +213,7 @@
             "type": "minecraft:item",
             "tag": {
               "Item": {
-                "id": "minecraft:lingering_potion",
+                "id": "minecraft:splash_potion",
                 "count": 99,
                 "components": {
                   "minecraft:attribute_modifiers": [
@@ -218,8 +230,17 @@
                       "amount": -1.0,
                       "operation": "add_value",
                       "slot": "mainhand"
+                    },
+                    {
+                      "id": "attack_damage",
+                      "type": "attack_damage",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "hand",
+                      "display": { "type": "default" }
                     }
                   ],
+                  "ltextras:infinite": {},
                   "minecraft:rarity": "epic",
                   "minecraft:lore": [
                     {
@@ -236,25 +257,25 @@
                     }
                   ],
                   "minecraft:use_cooldown": {
-                    "seconds": 2.0
+                    "seconds": 1.0
                   },
                   "minecraft:custom_name": {
                     "text": "Shoe Shine of Supreme Suffering",
                     "italic": false,
                     "color": "light_purple"
                   },
-                  "minecraft:weapon": {
-                    "item_damage_per_attack": 4
+                  "minecraft:enchantments": {
+                    "minecraft:knockback": 3
                   },
                   "minecraft:potion_contents": {
                     "potion": "minecraft:awkward",
                     "custom_color": 3346690,
                     "custom_effects": [
                       {
-                        "id": "minecraft:wither",
+                        "id": "minecraft:instant_damage",
                         "show_icon": true,
                         "amplifier": 1,
-                        "duration": 360
+                        "duration": 10
                       }
                     ]
                   },
@@ -612,7 +633,10 @@
                 "id": "minecraft:ravager",
                 "Passengers": [
                   {
-                    "id": "minecraft:pillager"
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
                   }
                 ]
               }
