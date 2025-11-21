@@ -51,5 +51,11 @@
         "player": "build enableAndActivate @s"
       }
     ]
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:break_delay"
+    }
   }
 ]
