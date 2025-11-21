@@ -1,1 +1,10 @@
-["ltminigames:teams"]
+[
+  "ltminigames:teams",
+  {
+    "type": "ltminigames:escape_race/terry_boss",
+    "entity_predicate": {
+      "type": "minecraft:zombie"
+    },
+    "damage_amount": 5
+  }
+]
