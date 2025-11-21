@@ -77,7 +77,7 @@
     "display_name": { "translate": "ltminigames.minigame.river_race.zone.india", "color": "yellow" },
     "color": "yellow",
     "colliders": ["red_river_2", "blue_river_2"],
-    "microgames": ["lt:treasure_dig", "lt:villager_hunt", "lt:eruptive_spleef/teams", "lt:box_hunt"]
+    "microgames": ["lt:treasure_dig", "lt:villager_hunt", "lt:eruptive_spleef/teams"]
   },
   {
     "type": "lt:river_race/map/zone",
