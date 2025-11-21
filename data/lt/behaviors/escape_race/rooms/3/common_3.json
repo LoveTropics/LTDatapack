@@ -1,12 +1,5 @@
 [
-  "ltminigames:teams",
-  "lt:common/spectator",
-  {
-    "type": "lt:common/playing",
-    "game_type": "adventure",
-    "join_late_with_role": "spectator",
-    "allow_rejoin": true
-  },
+  "lt:escape_race/rooms/common",
   {
     "type": "ltminigames:position_players",
     "participants": "spawn",

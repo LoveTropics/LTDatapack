@@ -1,0 +1,48 @@
+[
+  {
+    "type": "ltminigames:statistic_overlay",
+    "icon": "ltminigames:vacation_day",
+    "translation_key": "ltminigames.minigame.escape_race.overlay.vacation_days",
+    "statistic": "vacation_days",
+    "value_change_rate": 1,
+    "scope": "team"
+  },
+  {
+    "type": "ltminigames:statistic_notifier",
+    "statistic": "vacation_days",
+    "only_increase": true,
+    "actions": [
+      {
+        "type": "ltminigames:send_message",
+        "message": {
+          "translate": "ltminigames.minigame.escape_race.vacation_days_changed",
+          "color": "green"
+        },
+        "action_bar": true
+      }
+    ],
+    "scope": "team",
+    "increase_sound": {
+      "sound": "block.note_block.harp",
+      "step": 1,
+      "initial_delay": 5,
+      "interval": 3,
+      "start_pitch": 1.0,
+      "end_pitch": 2.0
+    }
+  },
+  {
+    "type": "ltminigames:statistic_notifier",
+    "statistic": "break_bucks",
+    "only_increase": true,
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "ltminigames:coins",
+        "source": "player",
+        "pitch": 1.0
+      }
+    ],
+    "scope": "team"
+  }
+]

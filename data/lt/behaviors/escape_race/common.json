@@ -11,6 +11,7 @@
     "allow_rejoin": true
   },
   "lt:common/spectator",
+  "lt:escape_race/global",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
