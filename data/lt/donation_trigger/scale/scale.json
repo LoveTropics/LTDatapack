@@ -2,7 +2,7 @@
   {
     "predicate": {
       "amount": {
-        "min": 1
+        "min": 10000000
       }
     },
     "action": {
