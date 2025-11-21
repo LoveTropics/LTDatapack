@@ -22,18 +22,18 @@
       "winner_rotation": -135,
       "teleporters": [
         {
-          "in": "golf_hole_2_blue_in",
-          "out": "golf_hole_2_blue_out",
+          "out": "golf_hole_2_blue_in",
+          "in": "golf_hole_2_blue_out",
           "needs_stop": true
         },
         {
-          "in": "golf_hole_2_orange_in",
-          "out": "golf_hole_2_orange_out",
+          "out": "golf_hole_2_orange_in",
+          "in": "golf_hole_2_orange_out",
           "needs_stop": true
         },
         {
-          "in": "golf_hole_2_white_in",
-          "out": "golf_hole_2_white_out",
+          "out": "golf_hole_2_white_in",
+          "in": "golf_hole_2_white_out",
           "needs_stop": true
         }
       ]
