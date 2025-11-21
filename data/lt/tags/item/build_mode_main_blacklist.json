@@ -45,10 +45,22 @@
     "#c:music_discs",
     "#c:tools",
     "#minecraft:boats",
-    "dummyplayers:dummy_player",
-    "ltdonations:donation_goal_redstone",
-    "ltdonations:donation_redstone",
-    "ltdonations:donation",
+    {
+      "id": "dummyplayers:dummy_player",
+      "required": false
+    },
+    {
+      "id": "ltdonations:donation_goal_redstone",
+      "required": false
+    },
+    {
+      "id": "ltdonations:donation_redstone",
+      "required": false
+    },
+    {
+      "id": "ltdonations:donation",
+      "required": false
+    },
     "ltextras:buoy",
     "ltextras:checkpoint",
     "ltextras:collectible_basket",
