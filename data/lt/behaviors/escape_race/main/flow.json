@@ -1,71 +1,271 @@
 [
   {
-    "type": "ltminigames:custom_command",
-    "path": ["door", "open"],
-    "argument": "none",
-    "actions": [
-      {
-        "type": "ltminigames:nicely_break_region_of_blocks",
-        "region": "warehouse_door"
-      },
-      {
-        "type": "ltminigames:apply_to",
-        "target": "all_players",
-        "actions": [
+    "type": "ltminigames:escape_race/named_stages",
+    "stages": {
+      "breakroom_1": {
+        "next_stage": "room_racing_1",
+        "end_actions": [
           {
-            "type": "ltminigames:delayed",
-            "delay": 20,
+            "type": "ltminigames:nicely_break_region_of_blocks",
+            "region": "warehouse_door"
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
             "actions": [
               {
-                "type": "ltminigames:play_sound",
-                "sound": "minecraft:block.bell.use",
-                "pitch": 0.2
-              }
-            ]
-          },{
-            "type": "ltminigames:delayed",
-            "delay": 40,
-            "actions": [
-              {
-                "type": "ltminigames:play_sound",
-                "sound": "minecraft:block.bell.use",
-                "pitch": 0.2
-              }
-            ]
-          },{
-            "type": "ltminigames:delayed",
-            "delay": 60,
-            "actions": [
-              {
-                "type": "ltminigames:play_sound",
-                "sound": "minecraft:block.bell.use",
-                "pitch": 0.2
+                "type": "ltminigames:delayed",
+                "delay": 20,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
+              },{
+                "type": "ltminigames:delayed",
+                "delay": 40,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
+              },{
+                "type": "ltminigames:delayed",
+                "delay": 60,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:custom_command",
-    "path": ["door", "close"],
-    "argument": "none",
-    "actions": [
-      {
-        "type": "ltminigames:set_blocks",
-        "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
-        "replace": {
-          "blocks": "minecraft:air"
-        },
-        "set": {
-          "Name": "minecraft:iron_bars",
-          "Properties": {
-            "north": "true",
-            "south": "true"
+      },
+      "room_racing_1": {
+        "timer_length_ticks": 12000,
+        "auto_move_on": true,
+        "next_stage": "racing_wind_down_1",
+        "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players_and_subphases",
+            "actions": [
+              {
+                "type": "ltminigames:send_message",
+                "message": {
+                  "text": "Right gang, it's time to get to the break-room! It's a state mandated break...",
+                  "color": "green",
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "racing_wind_down_1": {
+        "next_stage": "microgames_1",
+        "end_auto_progress": false,
+        "end_actions": [
+          {
+            "type": "ltminigames:escape_race/early_exit_room",
+            "post_close_actions": {
+                "type": "ltminigames:delayed",
+                "delay": 20,
+                "actions": [
+                  {
+                    "type": "ltminigames:send_message",
+                    "message": {
+                      "text": "You took too long! Your room has been exited early. It's time to play Microgames!",
+                      "color": "green",
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "ltminigames:teleport_to_region",
+                    "region": "spawn"
+                  },
+                  {
+                    "type": "ltminigames:delayed",
+                    "delay": 20,
+                    "actions": [
+                      {
+                        "type": "ltminigames:escape_race/named_stages/progress",
+                        "skip_end_actions": true
+                      }
+                    ]
+                  }
+                ]
+            }
+          },
+          {
+            "type": "ltminigames:set_blocks",
+            "region": ["warehouse_door"],
+            "replace": {
+              "blocks": "minecraft:air"
+            },
+            "set": {
+              "Name": "minecraft:iron_bars",
+              "Properties": {
+                "north": "true",
+                "south": "true"
+              }
+            }
+          }
+        ]
+      },
+      "microgames_1": {
+        "next_stage": "breakroom_2",
+        "start_actions": {
+          "type": "ltminigames:start_microgames",
+          "games": [
+            "lt:crafting_bee",
+            "lt:connect_four",
+            "lt:block_party/teams",
+            "lt:de_a_coudre/normal",
+            "lt:crab_hockey",
+            "lt:columns_of_chaos/normal",
+            "lt:treasure_dig",
+            "lt:villager_hunt",
+            "lt:eruptive_spleef/teams",
+            "lt:paint_party",
+            "lt:parkour_race",
+            "lt:dodgeball/teams"
+          ],
+          "games_per_round": 4,
+          "on_complete": {
+            "type": "ltminigames:escape_race/named_stages/progress"
           }
         }
+      },
+      "breakroom_2": {
+        "next_stage": "room_racing_2",
+        "end_actions": [
+          {
+            "type": "ltminigames:nicely_break_region_of_blocks",
+            "region": "warehouse_door"
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "ltminigames:delayed",
+                "delay": 20,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
+              },{
+                "type": "ltminigames:delayed",
+                "delay": 40,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
+              },{
+                "type": "ltminigames:delayed",
+                "delay": 60,
+                "actions": [
+                  {
+                    "type": "ltminigames:play_sound",
+                    "sound": "minecraft:block.bell.use",
+                    "pitch": 0.2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "room_racing_2": {
+        "timer_length_ticks": 12000,
+        "auto_move_on": true,
+        "next_stage": "racing_wind_down_2",
+        "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players_and_subphases",
+            "actions": [
+              {
+                "type": "ltminigames:send_message",
+                "message": {
+                  "text": "THat's the end of Day 1... get back to the break room ASAP!",
+                  "color": "green",
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "racing_wind_down_2": {
+        "next_stage": "proper_break",
+        "end_auto_progress": false,
+        "end_actions": [
+          {
+            "type": "ltminigames:escape_race/early_exit_room",
+            "post_close_actions": {
+              "type": "ltminigames:delayed",
+              "delay": 20,
+              "actions": [
+                {
+                  "type": "ltminigames:send_message",
+                  "message": {
+                    "text": "You took too long! Your room has been exited early. It's time for a quick break!",
+                    "color": "green",
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "ltminigames:teleport_to_region",
+                  "region": "spawn"
+                },
+                {
+                  "type": "ltminigames:delayed",
+                  "delay": 20,
+                  "actions": [
+                    {
+                      "type": "ltminigames:escape_race/named_stages/progress",
+                      "skip_end_actions": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "ltminigames:set_blocks",
+            "region": ["warehouse_door"],
+            "replace": {
+              "blocks": "minecraft:air"
+            },
+            "set": {
+              "Name": "minecraft:iron_bars",
+              "Properties": {
+                "north": "true",
+                "south": "true"
+              }
+            }
+          }
+        ]
+      },
+      "proper_break": {
+
       }
-    ]
+    },
+    "starting_stage": "breakroom_1"
   }
 ]
