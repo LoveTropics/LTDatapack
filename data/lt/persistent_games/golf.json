@@ -93,8 +93,8 @@
       "winner_rotation": -135,
       "teleporters": [
         {
-          "in": "golf_hole_6_teleporter_in",
-          "out": "golf_hole_6_teleporter_out",
+          "out": "golf_hole_6_teleporter_in",
+          "in": "golf_hole_6_teleporter_out",
           "needs_stop": false
         }
       ]
