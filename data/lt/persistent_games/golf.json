@@ -32,8 +32,8 @@
           "needs_stop": true
         },
         {
-          "in": "golf_hole_2_orange_in",
-          "out": "golf_hole_2_orange_out",
+          "in": "golf_hole_2_white_in",
+          "out": "golf_hole_2_white_out",
           "needs_stop": true
         }
       ]
