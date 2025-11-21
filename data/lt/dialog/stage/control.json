@@ -36,6 +36,13 @@
         "type": "minecraft:show_dialog",
         "dialog": "lt:stage/screen/video/add"
       }
+    },
+    {
+      "label": "Other",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function lt:stage/screen/other"
+      }
     }
   ]
 }
