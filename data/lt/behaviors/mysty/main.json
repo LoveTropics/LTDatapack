@@ -126,6 +126,12 @@
       "color": "yellow",
       "bold": true
     },
-    "header": []
+    "header": [
+      {
+        "text": "live.lovetropics.org/donate",
+        "color": "white",
+        "underlined": true
+      }
+    ]
   }
 ]

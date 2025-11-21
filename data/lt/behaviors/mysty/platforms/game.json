@@ -53,7 +53,14 @@
     "order": "max",
     "count": 6,
     "title": { "translate": "ltminigames.minigame.mysty.platforms", "color": "yellow", "bold": true },
-    "header": [{ "translate": "ltminigames.minigame.mysty.platforms.header", "color": "gray" }, ""],
+    "header": [
+      { "translate": "ltminigames.minigame.mysty.platforms.header", "color": "gray" },
+      {
+        "text": "live.lovetropics.org/donate",
+        "color": "white",
+        "underlined": true
+      }
+    ],
     "statistic_holder": "player"
   },
   "lt:mysty/coins_on_death"

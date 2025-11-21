@@ -104,7 +104,14 @@
     "order": "min",
     "count": 10,
     "title": { "translate": "ltminigames.minigame.mysty.race.riptide", "color": "yellow", "bold": true },
-    "header": [{ "translate": "ltminigames.minigame.mysty.race.riptide.header", "color": "gray" }, ""],
+    "header": [
+      { "translate": "ltminigames.minigame.mysty.race.riptide.header", "color": "gray" },
+      {
+        "text": "live.lovetropics.org/donate",
+        "color": "white",
+        "underlined": true
+      }
+    ],
     "statistic_holder": "player"
   },
   {
