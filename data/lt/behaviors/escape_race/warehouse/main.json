@@ -1,0 +1,172 @@
+[
+  "ltminigames:teams",
+  {
+    "type": "ltminigames:set_difficulty",
+    "difficulty": "normal"
+  },
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true
+  },
+  "lt:common/spectator",
+  "lt:escape_race/global",
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "doDaylightCycle": "false",
+      "doWeatherCycle": "false",
+      "doMobSpawning": "false",
+      "announceAdvancements": "false",
+      "locatorBar": "false"
+    }
+  },
+  "ltminigames:disable_hunger",
+  "ltminigames:cancel_player_damage",
+  "lt:escape_race/warehouse/map",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    },
+    "drop_inventory": false,
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player"
+    ]
+  },
+  "lt:escape_race/powerups/ender_arms",
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:spawn_donors_in_region",
+      "regions": [
+        "room_entrance_1",
+        "room_entrance_2"
+      ],
+      "scales": [
+        {
+          "scale": 0.9,
+          "amount": {
+            "min": 0,
+            "max": 5
+          },
+          "color": -16711936
+        },
+        {
+          "scale": 2,
+          "amount": {
+            "min": 5,
+            "max": 50
+          }
+        },
+        {
+          "scale": 4,
+          "amount": {
+            "min": 50,
+            "max": 100
+          },
+          "color": -16776961
+        },
+        {
+          "scale": 6,
+          "amount": {
+            "min": 100,
+            "max": 1000
+          },
+          "color": 16711935
+        },
+        {
+          "scale": 10,
+          "amount": {
+            "min": 1000,
+            "max": 100000
+          },
+          "color": 12582656
+        }
+      ],
+      "donor_boot_items": [
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "fabulous"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "flail"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "hovering"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shuffle"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "upsidedown"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shrunk"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "enlarged"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "shruggy_arms"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "ender_arms"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "stiff_legs"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "ltextras:walk_animation": "hop_walk"
+          }
+        }
+      ]
+    }
+  },
+  "ltminigames:escape_race/vacation_days",
+  "lt:escape_race/packages/donations",
+  "lt:escape_race/warehouse/flow",
+  {
+    "type": "ltminigames:escape_race/break_bucks",
+    "particle_spread_x": 1.5,
+    "particle_spread_y": 1.5,
+    "particle_spread_z": 1.5,
+    "buck_divider": 5
+  },
+  "ltminigames:microgames"
+]

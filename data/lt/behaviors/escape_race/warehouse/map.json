@@ -1,0 +1,81 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "participants": "spawn",
+    "spectators": "spawn"
+  },
+  {
+    "type": "ltminigames:escape_race/warehouse_setup",
+    "rooms": {
+      "room_entrance_1": {
+        "entrance_region": "room_entrance_1",
+        "cost": 5,
+        "facing": 0,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_1"},
+        "game": "lt:escape_race/rooms/1"
+      },
+      "room_entrance_2": {
+        "entrance_region": "room_entrance_2",
+        "cost": 20,
+        "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_2"},
+        "game": "lt:escape_race/rooms/2"
+      },
+      "room_entrance_3": {
+        "entrance_region": "room_entrance_3",
+        "cost": 10,
+        "facing": 0,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_3"},
+        "game": "lt:escape_race/rooms/3"
+      },
+      "room_entrance_4": {
+        "entrance_region": "room_entrance_4",
+        "cost": 15,
+        "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_4"},
+        "game": "lt:escape_race/rooms/4"
+      },
+      "room_entrance_5": {
+        "entrance_region": "room_entrance_5",
+        "cost": 10,
+        "facing": 0,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_5"},
+        "game": "lt:escape_race/rooms/5"
+      },
+      "room_entrance_6": {
+        "entrance_region": "room_entrance_6",
+        "cost": 10,
+        "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_6"},
+        "game": "lt:escape_race/rooms/6"
+      },
+      "super_special_seven": {
+        "cost": 0,
+        "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_7"},
+        "game": "lt:escape_race/rooms/7",
+        "all_teams": true,
+        "copy_inventory": true
+      }
+    }
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:spawn_entity_at_regions",
+      "entity": {
+        "type": "ltextras:forklift",
+        "tag": {
+          "RequiresCertification": true,
+          "SlowPredicate": {
+            "blocks": ["ltextras:warehouse_floor"]
+          }
+        }
+      },
+      "regions_to_spawn_at": ["forklift_spawn"],
+      "entity_count_per_region": 1,
+      "at_heightmap": false
+    }
+  }
+
+]
