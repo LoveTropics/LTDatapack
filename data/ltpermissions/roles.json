@@ -207,6 +207,7 @@
     "overrides": {
       "command_feedback": false,
       "name_decoration": {
+        "text": "[EVENT] ",
         "prefix": {
           "color": "#CF27F5"
         },
