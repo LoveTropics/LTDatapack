@@ -83,9 +83,6 @@
   },
   "builder": {
     "overrides": {
-      "join_access": {
-        "allows_joining": true
-      },
       "name_decoration": {
         "style": "#a95cdd"
       }
@@ -95,9 +92,6 @@
     "overrides": {
       "name_decoration": {
         "style": "#30c6f0"
-      },
-      "join_access": {
-        "allows_joining": true
       }
     }
   },
