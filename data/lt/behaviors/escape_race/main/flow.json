@@ -424,6 +424,13 @@
               "color": "green"
             },
             "stay": 60
+          },
+          {
+            "type": "ltminigames:set_blocks",
+            "region": ["bus_placer"],
+            "set": {
+              "Name": "minecraft:redstone_block"
+            }
           }
         ],
         "end_actions": [
