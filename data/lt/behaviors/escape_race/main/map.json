@@ -48,6 +48,12 @@
         "facing": 180,
         "display_name": {"translate": "ltminigames.minigame.escape_race.room_6"},
         "game": "lt:escape_race/rooms/6"
+      },
+      {
+        "cost": 10,
+        "facing": 180,
+        "display_name": {"translate": "ltminigames.minigame.escape_race.room_7"},
+        "game": "lt:escape_race/rooms/7"
       }
     ]
   },

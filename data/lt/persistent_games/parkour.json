@@ -35,7 +35,8 @@
         "parkour_checkpoint_24",
         "parkour_checkpoint_25",
         "parkour_checkpoint_26"
-      ]
+      ],
+      "win_checkpoint": "parkour_checkpoint_26"
     }
   ]
 }
