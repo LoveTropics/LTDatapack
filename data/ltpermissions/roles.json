@@ -104,7 +104,6 @@
       "worldedit_allowed": true,
       "commands": {
         "/.*": "allow",
-        "/regen .*": "deny",
         "mask .*": "allow",
         "map join .*": "allow",
         "map leave .*": "allow",
@@ -113,7 +112,8 @@
         "gamemode .*": "allow",
         "clear": "allow",
         "tp .*": "allow",
-        "effect": "allow"
+        "effect": "allow",
+        "/regen .*": "deny"
       },
       "join_access": {
         "allows_joining": true
