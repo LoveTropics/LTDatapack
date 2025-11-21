@@ -52,6 +52,12 @@
         "timer_length_ticks": 12000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_1",
+        "start_actions": [
+          {
+            "type": "ltminigames:escape_race/block_rooms",
+            "blocked": false
+          }
+        ],
         "end_actions": [
           {
             "type": "ltminigames:apply_to",
@@ -185,6 +191,12 @@
         "timer_length_ticks": 12000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_2",
+        "start_actions": [
+          {
+            "type": "ltminigames:escape_race/block_rooms",
+            "blocked": false
+          }
+        ],
         "end_actions": [
           {
             "type": "ltminigames:apply_to",
@@ -303,6 +315,12 @@
         "timer_length_ticks": 12000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_3",
+        "start_actions": [
+          {
+            "type": "ltminigames:escape_race/block_rooms",
+            "blocked": false
+          }
+        ],
         "end_actions": [
           {
             "type": "ltminigames:apply_to",
