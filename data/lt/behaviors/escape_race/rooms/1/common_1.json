@@ -18,7 +18,7 @@
       "fallDamage": "false",
       "doTileDrops": "true",
       "doFireTick": "false",
-      "naturalRegeneration": "false",
+      "naturalRegeneration": "true",
       "mobGriefing": "false",
       "commandBlockOutput": "false",
       "locatorBar": "false"
