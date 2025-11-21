@@ -37,12 +37,7 @@
       "ltminigames:extinguish_player"
     ]
   },
-  "lt:escape_race/powerups/upset_stomach",
-  "lt:escape_race/powerups/coladaral_damage",
-  "lt:escape_race/powerups/tapir_takeover",
-  "lt:escape_race/powerups/shruggy_arms",
   "lt:escape_race/powerups/ender_arms",
-  "lt:escape_race/powerups/invert_controls",
   {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
@@ -77,5 +72,6 @@
       ]
     }
   },
-  "ltminigames:escape_race/vacation_days"
+  "ltminigames:escape_race/vacation_days",
+  "lt:escape_race/packages/donations"
 ]

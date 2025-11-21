@@ -6,5 +6,6 @@
       "type": "minecraft:zombie"
     },
     "damage_amount": 5
-  }
+  },
+  "lt:escape_race/rooms/7/donations"
 ]
