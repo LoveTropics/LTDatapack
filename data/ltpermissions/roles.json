@@ -112,13 +112,10 @@
     "overrides": {
       "op_level": 2,
       "commands": {
-        "map join .*": "allow",
-        "map leave .*": "allow",
         "fly": "allow",
         "give": "allow",
         "gamemode .*": "allow",
         "clear": "allow",
-        "tp .*": "allow",
         "effect": "allow"
       },
       "join_access": {
