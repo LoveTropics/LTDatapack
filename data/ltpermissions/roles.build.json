@@ -209,6 +209,10 @@
     "overrides": {
       "command_feedback": false,
       "name_decoration": {
+        "prefix": {
+          "text": "[EVENT] ",
+          "color": "#CF27F5"
+        },
         "style": "#CF27F5"
       },
       "join_access": {

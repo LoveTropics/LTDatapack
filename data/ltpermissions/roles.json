@@ -60,7 +60,7 @@
       },
       "waypoint_icon": {
         "style": "lt:mojang",
-        "color": [0.847, 0.2588, 0.5137]
+        "color": [0.0, 0.0, 0.0]
       }
     }
   },
@@ -208,7 +208,6 @@
       "command_feedback": false,
       "name_decoration": {
         "prefix": {
-          "text": "[EVENT] ",
           "color": "#CF27F5"
         },
         "style": "#CF27F5"
