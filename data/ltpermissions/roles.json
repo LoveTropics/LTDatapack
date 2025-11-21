@@ -196,7 +196,7 @@
       },
       "host": true,
       "join_access": {
-        "allows_joining": false,
+        "allows_joining": true,
         "not_whitelisted_message": {
           "translate": "lt.whitelist.mysty_event.not_started"
         }
@@ -215,7 +215,7 @@
         "style": "#CF27F5"
       },
       "join_access": {
-        "allows_joining": false,
+        "allows_joining": true,
         "not_whitelisted_message": {
           "translate": "lt.whitelist.mysty_event.not_started"
         },
