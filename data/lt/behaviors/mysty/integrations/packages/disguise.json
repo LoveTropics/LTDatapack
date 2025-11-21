@@ -26,6 +26,7 @@
       "actions": {
         "type": "ltminigames:set_disguise",
         "entity": "$entity",
+        "scale": "$scale",
         "changes_size": false,
         "apply_donor_name": "$apply_donor_name",
         "only_if_no_disguise": true

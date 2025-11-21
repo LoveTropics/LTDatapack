@@ -12,12 +12,13 @@
   {
     "type": "lt:mysty/integrations/packages/disguise",
     "id": "mini_warden_package",
-    "name": "ltminigames.minigame.donation.mini_warden",
-    "description": "ltminigames.minigame.donation.mini_warden.description",
-    "toast": "ltminigames.minigame.donation.mini_warden.toast",
+    "name": "Mini Wardens!",
+    "description": "Disguise every player as a small Warden",
+    "toast": "Everyone is a mini-Warden!",
     "entity": {
       "id": "minecraft:warden"
     },
+    "scale": 0.5,
     "seconds": 120,
     "donation_amount": 20
   }
