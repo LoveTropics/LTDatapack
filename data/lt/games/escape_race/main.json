@@ -60,7 +60,11 @@
   "behaviors": [
     "lt:escape_race/common",
     {
-      "type": "ltminigames:escape_race/break_bucks"
+      "type": "ltminigames:escape_race/break_bucks",
+      "particle_spread_x": 1.5,
+      "particle_spread_y": 1.5,
+      "particle_spread_z": 1.5,
+      "buck_divider": 5
     },
     "ltminigames:microgames"
   ]
