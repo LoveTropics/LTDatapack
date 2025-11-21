@@ -1,0 +1,71 @@
+[
+  {
+    "type": "ltminigames:custom_command",
+    "path": ["door", "open"],
+    "argument": "none",
+    "actions": [
+      {
+        "type": "ltminigames:nicely_break_region_of_blocks",
+        "region": "warehouse_door"
+      },
+      {
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
+        "actions": [
+          {
+            "type": "ltminigames:delayed",
+            "delay": 20,
+            "actions": [
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "minecraft:block.bell.use",
+                "pitch": 0.2
+              }
+            ]
+          },{
+            "type": "ltminigames:delayed",
+            "delay": 40,
+            "actions": [
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "minecraft:block.bell.use",
+                "pitch": 0.2
+              }
+            ]
+          },{
+            "type": "ltminigames:delayed",
+            "delay": 60,
+            "actions": [
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "minecraft:block.bell.use",
+                "pitch": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:custom_command",
+    "path": ["door", "close"],
+    "argument": "none",
+    "actions": [
+      {
+        "type": "ltminigames:set_blocks",
+        "region": ["red_wall", "blue_wall", "green_wall", "yellow_wall"],
+        "replace": {
+          "blocks": "minecraft:air"
+        },
+        "set": {
+          "Name": "minecraft:iron_bars",
+          "Properties": {
+            "north": "true",
+            "south": "true"
+          }
+        }
+      }
+    ]
+  }
+]
