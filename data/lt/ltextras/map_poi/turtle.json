@@ -7,7 +7,7 @@
         "peekaboo:entity": {
           "id": "tropicraft:turtle"
         },
-        "peekaboo:size": 2
+        "peekaboo:size": 0.5
       }
     }
   },
