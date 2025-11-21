@@ -85,7 +85,7 @@
           "statistic": "trash_collected",
           "order": "max",
           "length": 5,
-          "header": "ltminigames.minigame.results"
+          "header": { "translate": "ltminigames.minigame.results" }
         }
       ],
       "target": "all_players"

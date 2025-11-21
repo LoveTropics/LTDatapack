@@ -36,6 +36,8 @@
       {"lobby": {}},
       {"game": "lt:mysty/platforms"},
       {"lobby": {}},
+      {"game": "lt:mysty/columns_of_chaos"},
+      {"lobby": {}},
       {"game": "lt:mysty/build_battle"}
     ],
     "return_to_lobby_actions": [

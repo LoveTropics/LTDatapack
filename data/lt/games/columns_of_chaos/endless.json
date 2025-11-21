@@ -50,7 +50,10 @@
       "join_late_with_role": "spectator"
     },
     "ltminigames:teams",
-    "lt:columns_of_chaos/common",
+    {
+      "type": "lt:columns_of_chaos/common",
+      "team_based": true
+    },
     {
       "type": "lt:integrations/packages/everyone_host",
       "seconds": 120,

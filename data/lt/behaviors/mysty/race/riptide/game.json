@@ -120,7 +120,7 @@
         "statistic": "total_time",
         "order": "min",
         "length": 6,
-        "header": "ltminigames.minigame.results"
+        "header": { "translate": "ltminigames.minigame.results" }
       }
     ],
     "target": "all_players"

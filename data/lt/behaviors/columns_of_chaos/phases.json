@@ -3,7 +3,7 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "end": 300
+      "end": "$total_seconds"
     }
   },
   {

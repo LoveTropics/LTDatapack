@@ -38,7 +38,7 @@
         "statistic": "points",
         "order": "max",
         "length": 6,
-        "header": "ltminigames.minigame.results"
+        "header": { "translate": "ltminigames.minigame.results" }
       }
     ],
     "target": "all_players"

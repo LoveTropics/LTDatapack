@@ -34,7 +34,7 @@
   },
   {
     "type": "ltminigames:last_remaining_win_trigger",
-    "last_team": true
+    "last_team": "$team_based"
   },
   "lt:columns_of_chaos/end",
   "ltminigames:time_survived_tracker",

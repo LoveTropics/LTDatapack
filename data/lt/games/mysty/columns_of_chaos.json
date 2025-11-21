@@ -1,16 +1,10 @@
 {
   "name": {
     "translate": "ltminigames.minigame.columns_of_chaos",
-    "color": "dark_green",
-    "extra": [
-      " ",
-      {
-        "translate": "ltminigames.minigame.teams_2",
-        "color": "gold"
-      }
-    ]
+    "color": "dark_green"
   },
   "statistics_key": "columns_of_chaos",
+  "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
@@ -39,15 +33,13 @@
       "game_type": "survival",
       "join_late_with_role": "spectator"
     },
-    "ltminigames:teams",
     {
       "type": "lt:columns_of_chaos/common",
-      "team_based": true
+      "team_based": false
     },
     {
       "type": "lt:columns_of_chaos/phases",
-      "total_seconds": 300
-    },
-    "lt:columns_of_chaos/phases"
+      "total_seconds": 600
+    }
   ]
 }
