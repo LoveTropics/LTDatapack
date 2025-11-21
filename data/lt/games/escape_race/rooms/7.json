@@ -23,18 +23,8 @@
           "spawn": "spawn"
         }
       },
-      "lt:escape_race/one_team"
+      "lt:teams/red_blue"
     ]
   },
-  "behaviors": [
-    {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator",
-      "allow_rejoin": true
-    },
-    {
-      "type": "lt:escape_race/rooms/7/common_7"
-    }
-  ]
+  "behaviors": "lt:escape_race/rooms/7/common_7"
 }

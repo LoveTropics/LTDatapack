@@ -26,15 +26,5 @@
       "lt:escape_race/one_team"
     ]
   },
-  "behaviors": [
-    {
-      "type": "lt:common/playing",
-      "game_type": "adventure",
-      "join_late_with_role": "spectator",
-      "allow_rejoin": true
-    },
-    {
-      "type": "lt:escape_race/rooms/3/common_3"
-    }
-  ]
+  "behaviors": "lt:escape_race/rooms/3/common_3"
 }

@@ -4,7 +4,8 @@
   {
     "type": "lt:common/playing",
     "game_type": "adventure",
-    "join_late_with_role": "spectator"
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true
   },
   {
     "type": "ltminigames:position_players",
@@ -13,6 +14,14 @@
       "blue": ["blue_spawn"]
     },
     "spectators": ["spectator_spawn"]
+  },
+  "ltminigames:disable_hunger",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    }
   },
   {
     "type": "ltminigames:checkpoints",
