@@ -17,7 +17,9 @@
       "fallDamage": "true",
       "doTileDrops": "false",
       "doFireTick": "false",
-      "mobGriefing": "$mob_griefing"
+      "mobGriefing": "$mob_griefing",
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:tnt_auto_fuse"

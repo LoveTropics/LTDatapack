@@ -204,7 +204,8 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "locatorBar": "false"
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
       }
     }
   ]

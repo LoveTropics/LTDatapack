@@ -18,7 +18,8 @@
       "announceAdvancements": "false",
       "doImmediateRespawn": "true",
       "naturalRegeneration": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_hunger",

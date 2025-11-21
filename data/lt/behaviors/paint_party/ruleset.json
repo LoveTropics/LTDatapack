@@ -9,7 +9,8 @@
       "doTileDrops": "false",
       "doFireTick": "false",
       "announceAdvancements": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_hunger",

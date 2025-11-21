@@ -16,7 +16,9 @@
       "doMobSpawning": "false",
       "fallDamage": "false",
       "announceAdvancements": "false",
-      "doImmediateRespawn": "true"
+      "doImmediateRespawn": "true",
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:immediate_respawn",

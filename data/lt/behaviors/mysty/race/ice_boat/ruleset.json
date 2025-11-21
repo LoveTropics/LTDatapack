@@ -12,8 +12,8 @@
       "announceAdvancements": "false",
       "doTileDrops": "false",
       "doEntityDrops": "false",
-      "commandBlockOutput": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   {

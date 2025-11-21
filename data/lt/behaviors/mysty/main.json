@@ -7,7 +7,9 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "fallDamage": "false",
-      "announceAdvancements": "false"
+      "announceAdvancements": "false",
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_hunger",
@@ -21,24 +23,24 @@
     "type": "ltminigames:minigame_competition",
     "share_statistics": ["points"],
     "queue": [
-      {"game": "lt:mysty/spleef/normal"},
-      {"game": "lt:mysty/spleef/coconut"},
-      {"game": "lt:mysty/spleef/blindness"},
-      {"lobby": {}},
-      {"game": "lt:mysty/race/riptide"},
-      {"game": "lt:mysty/race/turtle"},
-      {"lobby": {}},
-      {"game": "lt:mysty/arena/platforms"},
-      {"game": "lt:mysty/arena/waves"},
-      {"game": "lt:mysty/arena/island"},
-      {"lobby": {}},
-      {"game": "lt:mysty/race/ice_boat"},
-      {"lobby": {}},
-      {"game": "lt:mysty/platforms"},
-      {"lobby": {}},
-      {"game": "lt:mysty/columns_of_chaos"},
-      {"lobby": {}},
-      {"game": "lt:mysty/build_battle"}
+      { "game": "lt:mysty/spleef/normal" },
+      { "game": "lt:mysty/spleef/coconut" },
+      { "game": "lt:mysty/spleef/blindness" },
+      { "lobby": {} },
+      { "game": "lt:mysty/race/riptide" },
+      { "game": "lt:mysty/race/turtle" },
+      { "lobby": {} },
+      { "game": "lt:mysty/arena/platforms" },
+      { "game": "lt:mysty/arena/waves" },
+      { "game": "lt:mysty/arena/island" },
+      { "lobby": {} },
+      { "game": "lt:mysty/race/ice_boat" },
+      { "lobby": {} },
+      { "game": "lt:mysty/platforms" },
+      { "lobby": {} },
+      { "game": "lt:mysty/columns_of_chaos" },
+      { "lobby": {} },
+      { "game": "lt:mysty/build_battle" }
     ],
     "return_to_lobby_actions": [
       {
@@ -93,7 +95,7 @@
             "statistic": "points",
             "order": "max",
             "length": 5,
-            "header": {"translate": "ltminigames.minigame.mysty.results"}
+            "header": { "translate": "ltminigames.minigame.mysty.results" }
           }
         ]
       },
@@ -108,13 +110,8 @@
         "repetitions": 5,
         "actions": {
           "type": "ltminigames:apply_to",
-          "target": [
-            "participants",
-            {"type": "limit_entities", "count": 5}
-          ],
-          "actions": [
-            "ltminigames:spawn_fireworks"
-          ]
+          "target": ["participants", { "type": "limit_entities", "count": 5 }],
+          "actions": ["ltminigames:spawn_fireworks"]
         }
       }
     ]

@@ -26,7 +26,8 @@
       "announceAdvancements": "false",
       "doImmediateRespawn": "true",
       "doTileDrops": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   {

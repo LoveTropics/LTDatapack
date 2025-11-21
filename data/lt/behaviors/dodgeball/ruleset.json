@@ -13,7 +13,8 @@
       "doFireTick": "false",
       "naturalRegeneration": "false",
       "mobGriefing": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_tnt_block_destruction",

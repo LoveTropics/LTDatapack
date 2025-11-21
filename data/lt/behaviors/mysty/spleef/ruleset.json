@@ -36,7 +36,9 @@
       "fallDamage": "false",
       "doTileDrops": "false",
       "announceAdvancements": "false",
-      "doImmediateRespawn": "true"
+      "doImmediateRespawn": "true",
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_hunger",

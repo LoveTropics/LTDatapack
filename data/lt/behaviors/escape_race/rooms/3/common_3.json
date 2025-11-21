@@ -18,7 +18,9 @@
       "doTileDrops": "false",
       "doFireTick": "false",
       "naturalRegeneration": "false",
-      "mobGriefing": "false"
+      "mobGriefing": "false",
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   {

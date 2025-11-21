@@ -117,7 +117,8 @@
         "fallDamage": "false",
         "announceAdvancements": "false",
         "doImmediateRespawn": "true",
-        "locatorBar": "false"
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
       }
     },
     {

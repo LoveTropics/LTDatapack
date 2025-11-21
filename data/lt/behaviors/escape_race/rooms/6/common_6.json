@@ -142,7 +142,10 @@
                     "disabled_sound": "item.shield.break"
                   },
                   "rarity": "epic",
-                  "item_name": ["Monumentally Massive Mace", { "color": "gray", "italic": true, "text": " (For Shoes)" }],
+                  "item_name": [
+                    "Monumentally Massive Mace",
+                    { "color": "gray", "italic": true, "text": " (For Shoes)" }
+                  ],
                   "lore": [
                     { "color": "gray", "text": "Sometimes as a Cobbler," },
                     { "color": "gray", "text": "you need delicate precision." },
@@ -320,7 +323,8 @@
       "doFireTick": "false",
       "naturalRegeneration": "false",
       "mobGriefing": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "lt:escape_race/rooms/6/bill_interactions",

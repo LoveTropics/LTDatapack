@@ -23,9 +23,7 @@
     },
     {
       "type": "ltminigames:position_players",
-      "all": [
-        "spawn"
-      ]
+      "all": ["spawn"]
     },
     "lt:common/spectator",
     {
@@ -37,7 +35,9 @@
         "fallDamage": "false",
         "doTileDrops": "false",
         "announceAdvancements": "false",
-        "doImmediateRespawn": "true"
+        "doImmediateRespawn": "true",
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
       }
     },
     "ltminigames:progression",
@@ -57,19 +57,13 @@
                 "tool": {
                   "rules": [
                     {
-                      "blocks": [
-                        "minecraft:obsidian",
-                        "ltextras:delighted_obsidian"
-                      ],
+                      "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"],
                       "speed": 5000
                     }
                   ]
                 },
                 "can_break": {
-                  "blocks": [
-                    "minecraft:obsidian",
-                    "ltextras:delighted_obsidian"
-                  ]
+                  "blocks": ["minecraft:obsidian", "ltextras:delighted_obsidian"]
                 }
               }
             }

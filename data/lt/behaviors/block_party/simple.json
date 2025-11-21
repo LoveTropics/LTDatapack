@@ -47,7 +47,8 @@
       "doMobSpawning": "false",
       "fallDamage": "false",
       "announceAdvancements": "false",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:disable_hunger",

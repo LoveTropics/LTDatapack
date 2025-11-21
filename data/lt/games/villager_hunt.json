@@ -44,12 +44,8 @@
     "ltminigames:teams",
     {
       "type": "ltminigames:position_players",
-      "participants": [
-        "spawn"
-      ],
-      "spectators": [
-        "spectators"
-      ]
+      "participants": ["spawn"],
+      "spectators": ["spectators"]
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
@@ -70,7 +66,8 @@
         "announceAdvancements": "false",
         "doImmediateRespawn": "true",
         "naturalRegeneration": "false",
-        "locatorBar": "false"
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
       }
     },
     {

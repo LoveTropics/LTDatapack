@@ -19,7 +19,8 @@
       "doTileDrops": "false",
       "announceAdvancements": "false",
       "doImmediateRespawn": "true",
-      "locatorBar": "false"
+      "locatorBar": "false",
+      "commandBlockOutput": "false"
     }
   },
   "ltminigames:immediate_respawn",

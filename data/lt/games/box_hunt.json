@@ -48,9 +48,7 @@
         "hiders": ["boxes_spawn"],
         "seekers": ["hunters_spawn"]
       },
-      "spectators": [
-        "boxes_spawn"
-      ]
+      "spectators": ["boxes_spawn"]
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
@@ -75,7 +73,8 @@
         "announceAdvancements": "false",
         "doImmediateRespawn": "true",
         "naturalRegeneration": "false",
-        "locatorBar": "false"
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
       }
     },
     {
