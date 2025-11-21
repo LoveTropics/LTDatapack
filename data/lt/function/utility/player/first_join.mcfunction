@@ -1,7 +1,7 @@
 execute in tropicraft:tropics run tp @s 1169 170 -1240 0 0
 execute in tropicraft:tropics run spawnpoint @s 1169 170 -1240
 # Set There WayPoint
-function lt:utility/waypoint
+execute as @s run function lt:utility/waypoint
 
 # Add every tag applied at first join
 tag @s add utility.player.joined
