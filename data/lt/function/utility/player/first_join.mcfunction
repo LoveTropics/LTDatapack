@@ -11,13 +11,13 @@ execute as @s at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 
 # Join Messages:
 title @s times 15 135 15
 title @s title {"translate":"lt.utility.first_join.title","color":"#ff9900"}
-title @s subtitle [{"translate":"lt.utility.first_join.subtitle.1","color":"#4eb61d"},{"text":" ❤ ","color":"red"},{"translate":"lt.info.wea.1","color":"#21b8cf"}]
+title @s subtitle [{"translate":"lt.utility.first_join.subtitle.1","color":"#4eb61d"},{"text":" ❤ ","color":"red"},{"translate":"lt.charity.name_2","color":"#21b8cf"}]
 execute as @s at @s positioned ~ ~ ~ run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.5 1
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"text":"","color":"#00718E"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"translate":"lt.utility.first_join.message.1","color":"#ff9900"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"            "},{"translate":"lt.utility.first_join.title","color":"#4eb61d"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"               "},{"text":"            ❤ ","color":"red"}]
-tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"          "},{"translate":"lt.info.wea.1","color":"#21b8cf"}]
+tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"          "},{"translate":"lt.charity.name_2","color":"#21b8cf"}]
 tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 collectible give @s lt:utility/tropical_map

@@ -803,6 +803,7 @@
   "lt.world_games.turtle.time": "Score: %s Checkpoints: %s",
   "lt.collectible.scope_scopers.name": "Scope Scopers",
   "lt.collectible.scope_scopers.description": "There's scope everywhere for those with eyes to see it",
-  "lt.collectible.scope_scopeers.description_2": " + Scope Creep. Especially at the theatre ... or so I'm told. "
+  "lt.collectible.scope_scopeers.description_2": " + Scope Creep. Especially at the theatre ... or so I'm told. ",
+  "lt.charity.name_2": "Pachamama Alliance"
 
 }
