@@ -5,7 +5,7 @@
   "ltminigames:prevent_trapdoor_triggers",
   {
     "type": "ltminigames:position_players",
-    "participants": "spawn_region",
+    "participants": "spawn_start",
     "spectators": "spec"
   },
   {
@@ -22,7 +22,7 @@
       "doMobSpawning": "false",
       "announceAdvancements": "false",
       "fallDamage": "false",
-      "doTileDrops": "false",
+      "doTileDrops": "true",
       "doFireTick": "false",
       "naturalRegeneration": "true",
       "mobGriefing": "false"
@@ -102,16 +102,67 @@
     }
   },
   {
-    "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_1"
-  },
-  {
     "type": "ltminigames:statistic_threshold",
     "statistic": "points",
     "threshold": 2,
     "actions": [
       {
-        // Fill layer
+        "type": "ltminigames:set_extending_blocks",
+        "region": ["water_flood_1"],
+        "set": "minecraft:water",
+        "replace": {
+          "blocks": ["minecraft:air"]
+        },
+        "direction": "north",
+        "duration": 50,
+        "notify_neighbors": true
+      }
+    ]
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_1"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_2"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_3"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_4"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_5"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_6"
+  },
+  {
+    "type": "lt:escape_race/rooms/4/mud_check",
+    "region": "mud_7"
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "points",
+    "threshold": 1,
+    "actions": [
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "translate": "1 / 7",
+          "color": "white",
+          "italic": true
+        },
+        "subtitle": {
+          "translate": "Blocker Cleared",
+          "color": "gold"
+        }
       }
     ]
   }

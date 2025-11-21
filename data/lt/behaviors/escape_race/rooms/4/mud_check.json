@@ -4,18 +4,14 @@
     "region": "$region",
     "run_once": true,
     "predicate": {
-      "condition": "minecraft:inverted",
-      "term": {
-        "condition": "minecraft:block_state_property",
-        "block": "minecraft:mud"
-      }
+      "blocks": ["minecraft:air", "minecraft:water", "minecraft:cave_air"]
     },
     "target": "all_players",
     "actions": [
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "Mud Blocker Cleared!",
+          "translate": "Blocker Cleared",
           "color": "gold",
           "italic": true
         }
