@@ -13,7 +13,7 @@
       "apply_donor_name": true
     },
     "seconds": 120,
-    "donation_amount": 20.0
+    "donation_amount": 10.0
   },
   {
     "type": "lt:mysty/integrations/packages/disguise",

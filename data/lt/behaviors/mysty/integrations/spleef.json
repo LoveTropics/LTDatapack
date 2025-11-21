@@ -1,12 +1,12 @@
 [
   { "type": "lt:mysty/integrations/common", "explosion_strength": 1 },
-  { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "amount": 20, "count": 6 },
-  { "type": "lt:mysty/integrations/packages/effects/speed", "amount": 20, "seconds": 10, "amplifier": 1 },
-  { "type": "lt:mysty/integrations/packages/effects/slow_falling", "amount": 20, "seconds": 10, "amplifier": 1 },
-  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 25, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "amount": 5, "count": 6 },
+  { "type": "lt:mysty/integrations/packages/effects/speed", "amount": 5, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/effects/slow_falling", "amount": 10, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 15, "seconds": 10, "amplifier": 1 },
   {
     "type": "lt:mysty/integrations/packages/player_tornado_baby",
-    "amount": 30,
+    "amount": 15,
     "ticks": 200
   },
   {
