@@ -43,11 +43,12 @@
     "actions": {
       "type": "ltminigames:spawn_donors_in_region",
       "regions": [
+        "room_entrance_1",
         "room_entrance_2"
       ],
       "scales": [
         {
-          "scale": 10,
+          "scale": 0.9,
           "amount": {
             "min": 0,
             "max": 5
@@ -55,19 +56,35 @@
           "color": -16711936
         },
         {
-          "scale": 4,
+          "scale": 2,
           "amount": {
             "min": 5,
             "max": 50
           }
         },
         {
-          "scale": 3,
+          "scale": 4,
           "amount": {
             "min": 50,
-            "max": 500000
+            "max": 100
           },
           "color": -16776961
+        },
+        {
+          "scale": 6,
+          "amount": {
+            "min": 100,
+            "max": 1000
+          },
+          "color": 16711935
+        },
+        {
+          "scale": 10,
+          "amount": {
+            "min": 1000,
+            "max": 100000
+          },
+          "color": 12582656
         }
       ]
     }
