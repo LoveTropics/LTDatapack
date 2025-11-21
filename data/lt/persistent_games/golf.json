@@ -22,18 +22,18 @@
       "winner_rotation": -135,
       "teleporters": [
         {
-          "in": "golf_hole_4_blue_in",
-          "out": "golf_hole_4_blue_out",
+          "in": "golf_hole_2_blue_in",
+          "out": "golf_hole_2_blue_out",
           "needs_stop": true
         },
         {
-          "in": "golf_hole_4_orange_in",
-          "out": "golf_hole_4_orange_out",
+          "in": "golf_hole_2_orange_in",
+          "out": "golf_hole_2_orange_out",
           "needs_stop": true
         },
         {
-          "in": "golf_hole_4_orange_in",
-          "out": "golf_hole_4_orange_out",
+          "in": "golf_hole_2_orange_in",
+          "out": "golf_hole_2_orange_out",
           "needs_stop": true
         }
       ]
@@ -76,8 +76,8 @@
       "winner_rotation": -45,
       "teleporters": [
         {
-          "in": "golf_hole_4_teleporter_in",
-          "out": "golf_hole_4_teleporter_out",
+          "in": "golf_hole_5_teleporter_in",
+          "out": "golf_hole_5_teleporter_out",
           "needs_stop": false
         }
       ]
@@ -93,8 +93,8 @@
       "winner_rotation": -135,
       "teleporters": [
         {
-          "in": "golf_hole_4_teleporter_in",
-          "out": "golf_hole_4_teleporter_out",
+          "in": "golf_hole_6_teleporter_in",
+          "out": "golf_hole_6_teleporter_out",
           "needs_stop": false
         }
       ]
