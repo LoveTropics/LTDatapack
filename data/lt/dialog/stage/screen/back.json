@@ -50,9 +50,8 @@
         "type": "minecraft:dynamic/custom",
         "id": "ltextras:run_function",
         "additions": {
-          "function": "lt:stage/screen/action/play_video",
-          "name": "back",
-          "video_id": "clear:clear"
+          "function": "lt:stage/screen/action/clear",
+          "name": "back"
         }
       }
     },

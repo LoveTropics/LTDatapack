@@ -31,9 +31,8 @@
         "type": "minecraft:dynamic/custom",
         "id": "ltextras:run_function",
         "additions": {
-          "function": "lt:stage/screen/action/lower",
-          "name": "main",
-          "amount": 90
+          "function": "lt:stage/screen/action/clear",
+          "name": "main"
         }
       }
     },
