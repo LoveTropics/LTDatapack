@@ -17,6 +17,7 @@
       "fallDamage": "true",
       "doTileDrops": "false",
       "doFireTick": "false",
+      "doMobLoot": "false",
       "mobGriefing": "$mob_griefing",
       "locatorBar": "false",
       "commandBlockOutput": "false"
