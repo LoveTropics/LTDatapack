@@ -1,0 +1,41 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:game_region",
+      "region": "parkour"
+    },
+    {
+      "type": "ltminigames:parkour",
+      "default_checkpoint": "parkour_checkpoint_1",
+      "checkpoints": [
+        "parkour_checkpoint_1",
+        "parkour_checkpoint_2",
+        "parkour_checkpoint_3",
+        "parkour_checkpoint_4",
+        "parkour_checkpoint_5",
+        "parkour_checkpoint_6",
+        "parkour_checkpoint_7",
+        "parkour_checkpoint_8",
+        "parkour_checkpoint_9",
+        "parkour_checkpoint_10",
+        "parkour_checkpoint_11",
+        "parkour_checkpoint_12",
+        "parkour_checkpoint_13",
+        "parkour_checkpoint_14",
+        "parkour_checkpoint_15",
+        "parkour_checkpoint_16",
+        "parkour_checkpoint_17",
+        "parkour_checkpoint_18",
+        "parkour_checkpoint_19",
+        "parkour_checkpoint_20",
+        "parkour_checkpoint_21",
+        "parkour_checkpoint_22",
+        "parkour_checkpoint_23",
+        "parkour_checkpoint_24",
+        "parkour_checkpoint_25",
+        "parkour_checkpoint_26"
+      ]
+    }
+  ]
+}

@@ -7,7 +7,9 @@
       "main_region": "golf_hole_1",
       "start_region": "golf_hole_1_crab",
       "hole_region": "golf_hole_1_end",
-      "button_region": "golf_hole_1_start"
+      "button_region": "golf_hole_1_start",
+      "winner_region": "golf_hole_1_winner",
+      "winner_rotation": 30
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -15,7 +17,9 @@
       "main_region": "golf_hole_2",
       "start_region": "golf_hole_2_crab",
       "hole_region": "golf_hole_2_end",
-      "button_region": "golf_hole_2_start"
+      "button_region": "golf_hole_2_start",
+      "winner_region": "golf_hole_2_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -23,7 +27,9 @@
       "main_region": "golf_hole_3",
       "start_region": "golf_hole_3_crab",
       "hole_region": "golf_hole_3_end",
-      "button_region": "golf_hole_3_start"
+      "button_region": "golf_hole_3_start",
+      "winner_region": "golf_hole_3_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -31,7 +37,9 @@
       "main_region": "golf_hole_4",
       "start_region": "golf_hole_4_crab",
       "hole_region": "golf_hole_4_end",
-      "button_region": "golf_hole_4_start"
+      "button_region": "golf_hole_4_start",
+      "winner_region": "golf_hole_4_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -39,7 +47,9 @@
       "main_region": "golf_hole_5",
       "start_region": "golf_hole_5_crab",
       "hole_region": "golf_hole_5_end",
-      "button_region": "golf_hole_5_start"
+      "button_region": "golf_hole_5_start",
+      "winner_region": "golf_hole_5_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -47,7 +57,9 @@
       "main_region": "golf_hole_6",
       "start_region": "golf_hole_6_crab",
       "hole_region": "golf_hole_6_end",
-      "button_region": "golf_hole_6_start"
+      "button_region": "golf_hole_6_start",
+      "winner_region": "golf_hole_6_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -55,7 +67,9 @@
       "main_region": "golf_hole_7",
       "start_region": "golf_hole_7_crab",
       "hole_region": "golf_hole_7_end",
-      "button_region": "golf_hole_7_start"
+      "button_region": "golf_hole_7_start",
+      "winner_region": "golf_hole_7_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -63,7 +77,9 @@
       "main_region": "golf_hole_8",
       "start_region": "golf_hole_8_crab",
       "hole_region": "golf_hole_8_end",
-      "button_region": "golf_hole_8_start"
+      "button_region": "golf_hole_8_start",
+      "winner_region": "golf_hole_8_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -71,7 +87,9 @@
       "main_region": "golf_hole_9",
       "start_region": "golf_hole_9_crab",
       "hole_region": "golf_hole_9_end",
-      "button_region": "golf_hole_9_start"
+      "button_region": "golf_hole_9_start",
+      "winner_region": "golf_hole_9_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -79,7 +97,9 @@
       "main_region": "golf_hole_5k",
       "start_region": "golf_hole_5k_crab",
       "hole_region": "golf_hole_5k_end",
-      "button_region": "golf_hole_5k_start"
+      "button_region": "golf_hole_5k_start",
+      "winner_region": "golf_hole_5k_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -87,7 +107,9 @@
       "main_region": "golf_hole_10k",
       "start_region": "golf_hole_10k_crab",
       "hole_region": "golf_hole_10k_end",
-      "button_region": "golf_hole_10k_start"
+      "button_region": "golf_hole_10k_start",
+      "winner_region": "golf_hole_10k_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -95,7 +117,9 @@
       "main_region": "golf_hole_15k",
       "start_region": "golf_hole_15k_crab",
       "hole_region": "golf_hole_15k_end",
-      "button_region": "golf_hole_15k_start"
+      "button_region": "golf_hole_15k_start",
+      "winner_region": "golf_hole_15k_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -103,7 +127,9 @@
       "main_region": "golf_hole_20k",
       "start_region": "golf_hole_20k_crab",
       "hole_region": "golf_hole_20k_end",
-      "button_region": "golf_hole_20k_start"
+      "button_region": "golf_hole_20k_start",
+      "winner_region": "golf_hole_20k_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_hole",
@@ -111,7 +137,9 @@
       "main_region": "golf_hole_25k",
       "start_region": "golf_hole_25k_crab",
       "hole_region": "golf_hole_25k_end",
-      "button_region": "golf_hole_25k_start"
+      "button_region": "golf_hole_25k_start",
+      "winner_region": "golf_hole_25k_winner",
+      "winner_rotation": 0
     },
     {
       "type": "ltminigames:crab_golf_clubs",
@@ -178,7 +206,9 @@
       "nbt": "{RollingDownTown:true,Silent:true,Health:500f,Tags:[\"golfCrab_\"],attributes:[{id:\"minecraft:max_health\",base:500},{id:\"minecraft:knockback_resistance\",base:0.75},{id:\"minecraft:movement_speed\",base:0}],Team:\"anticrabcollision\"}"
     },
     {
-      "type": "ltminigames:crab_golf_win"
+      "type": "ltminigames:crab_golf_win",
+      "firework": "{LifeTime:10,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{explosions:[{shape:small_ball,colors:[I;14602026]}]}}}}",
+      "reward": "ltextras:tropicoin"
     }
   ]
 }
