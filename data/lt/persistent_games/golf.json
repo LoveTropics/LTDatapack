@@ -249,7 +249,7 @@
       "reward": {
         "id": "ltextras:tropicoin"
       },
-      "on_start": "",
+      "on_start": "function lt:world_games/golf/start",
       "on_end": ""
     }
   ]
