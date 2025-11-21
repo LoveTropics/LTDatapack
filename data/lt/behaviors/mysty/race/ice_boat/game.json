@@ -36,18 +36,6 @@
     "show_title": true
   },
   {
-    "type": "ltminigames:on_damage",
-    "predicate": {
-      "type": "minecraft:player"
-    },
-    "actions": [
-      {
-        "type": "ltminigames:run_commands",
-        "player": ["execute on vehicle run tp ~ ~20 ~"]
-      }
-    ]
-  },
-  {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
@@ -80,47 +68,6 @@
         }
       ]
     }
-  },
-  {
-    "type": "ltminigames:only_tick_in_period",
-    "period": {
-      "start": "go",
-      "end": "end"
-    },
-    "behavior": [
-      {
-        "type": "ltminigames:permanent_item",
-        "item": {
-          "id": "minecraft:crossbow",
-          "count": 1,
-          "components": {
-            "charged_projectiles": [
-              {
-                "id": "minecraft:firework_rocket",
-                "count": 1,
-                "components": {
-                  "minecraft:fireworks": {
-                    "flight_duration": 2,
-                    "explosions": [
-                      {
-                        "shape": "small_ball",
-                        "has_twinkle": true,
-                        "has_trail": true,
-                        "colors": [7427327, 16744576, 7602175, 14395135, 15723519, 16752765, 16711680],
-                        "fade_colors": [10742527, 8018431, 14548846, 16770168, 16763791]
-                      }
-                    ]
-                  }
-                }
-              }
-            ],
-            "minecraft:damage": 500,
-            "ltextras:undroppable": {}
-          }
-        },
-        "interval": 1
-      }
-    ]
   },
   {
     "type": "ltminigames:race_track",
