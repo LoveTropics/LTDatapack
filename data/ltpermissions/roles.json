@@ -93,7 +93,6 @@
     }
   },
   "helper": {
-    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#30c6f0"
