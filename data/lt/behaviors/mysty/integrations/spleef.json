@@ -3,10 +3,10 @@
   { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "amount": 20, "count": 6 },
   { "type": "lt:mysty/integrations/packages/effects/speed", "amount": 20, "seconds": 10, "amplifier": 1 },
   { "type": "lt:mysty/integrations/packages/effects/slow_falling", "amount": 20, "seconds": 10, "amplifier": 1 },
-  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 40, "seconds": 10, "amplifier": 1 },
+  { "type": "lt:mysty/integrations/packages/chosen_creeper", "amount": 25, "seconds": 10, "amplifier": 1 },
   {
     "type": "lt:mysty/integrations/packages/player_tornado_baby",
-    "amount": 50,
+    "amount": 30,
     "ticks": 200
   },
   {
@@ -19,6 +19,6 @@
       "id": "minecraft:warden"
     },
     "seconds": 120,
-    "donation_amount": 25.0
+    "donation_amount": 20
   }
 ]
