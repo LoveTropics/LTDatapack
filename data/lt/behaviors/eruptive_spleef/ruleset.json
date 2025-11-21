@@ -6,7 +6,8 @@
       "doWeatherCycle": "false",
       "doMobSpawning": "false",
       "fallDamage": "false",
-      "announceAdvancements": "false"
+      "announceAdvancements": "false",
+      "locatorBar": "false"
     }
   },
   "ltminigames:disable_hunger",
