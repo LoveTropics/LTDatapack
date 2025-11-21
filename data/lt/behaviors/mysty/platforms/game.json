@@ -6,6 +6,7 @@
   },
   "lt:mysty/global",
   "ltminigames:last_remaining_win_trigger",
+  "lt:mysty/integrations/common",
   {
     "type": "lt:block_party/simple",
     "floor": "floor",
