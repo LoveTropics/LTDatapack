@@ -37,7 +37,7 @@ function lt:world_games/parkour/on_second
 function lt:world_games/dropper/on_tick
 
 # Build Mode Tools
-execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
+#execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
 
 # Spawn return items system.
 execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.return_items_portal,distance=..0.85] run function lt:utility/return_items

@@ -20,7 +20,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/enable {\\\"zone\\\":1}"
+        "command": "protect exclusion remove role build_area_1 everyone"
       }
     },
     {
@@ -30,7 +30,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/disable {\\\"zone\\\":1}"
+        "command": "protect exclusion add role build_area_1 everyone"
       }
     },
     {
@@ -40,7 +40,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/enable {\\\"zone\\\":2}"
+        "command": "protect exclusion remove role build_area_2 everyone"
       }
     },
     {
@@ -50,7 +50,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/disable {\\\"zone\\\":2}"
+        "command": "protect exclusion add role build_area_2 everyone"
       }
     },
     {
@@ -60,7 +60,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/enable {\\\"zone\\\":3}"
+        "command": "protect exclusion remove role build_area_3 everyone"
       }
     },
     {
@@ -70,7 +70,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/disable {\\\"zone\\\":3}"
+        "command": "protect exclusion add role build_area_3 everyone"
       }
     },
     {
@@ -80,7 +80,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/enable {\\\"zone\\\":4}"
+        "command": "protect exclusion remove role build_area_4 everyone"
       }
     },
     {
@@ -90,7 +90,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/disable {\\\"zone\\\":4}"
+        "command": "protect exclusion add role build_area_4 everyone"
       }
     },
     {
@@ -100,7 +100,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/enable {\\\"zone\\\":5}"
+        "command": "protect exclusion remove role build_area_5 everyone"
       }
     },
     {
@@ -110,7 +110,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:admin/milestone/disable {\\\"zone\\\":5}"
+        "command": "protect exclusion add role build_area_5 everyone"
       }
     }
   ]
