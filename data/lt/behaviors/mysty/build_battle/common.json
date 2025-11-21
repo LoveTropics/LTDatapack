@@ -1,8 +1,7 @@
 [
   {
     "type": "ltminigames:build_battle",
-    "plots_name": "build_plot",
-    "build_time": 400
+    "plots_name": "build_plot"
   },
   "lt:common/spectator",
   "lt:mysty/global",
