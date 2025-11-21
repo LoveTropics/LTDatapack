@@ -1,5 +1,11 @@
 [
   "ltminigames:teams",
+  "lt:common/spectator",
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
@@ -11,11 +17,6 @@
       "doImmediateRespawn": "true",
       "commandBlockOutput": "false"
     }
-  },
-  {
-    "type": "lt:common/playing",
-    "game_type": "adventure",
-    "join_late_with_role": "spectator"
   },
   {
     "type": "ltminigames:position_players",

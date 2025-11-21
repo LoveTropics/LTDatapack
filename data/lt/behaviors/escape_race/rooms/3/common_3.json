@@ -1,13 +1,18 @@
 [
-  "ltminigames:disable_hunger",
-  "ltminigames:disable_throwing_items",
-  "lt:common/spectator",
   "ltminigames:teams",
+  "lt:common/spectator",
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
   {
     "type": "ltminigames:position_players",
     "participants": "spawn",
     "spectators": "spawn"
   },
+  "ltminigames:disable_hunger",
+  "ltminigames:disable_throwing_items",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {

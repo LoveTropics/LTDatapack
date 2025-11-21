@@ -1,7 +1,12 @@
 [
-  "ltminigames:disable_hunger",
-  "lt:common/spectator",
   "ltminigames:teams",
+  "lt:common/spectator",
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  "ltminigames:disable_hunger",
   {
     "type": "ltminigames:position_players",
     "participants": "team_spawn",

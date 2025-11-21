@@ -1,4 +1,11 @@
 [
+  "ltminigames:teams",
+  "lt:common/spectator",
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
   "ltminigames:disable_hunger",
   {
     "type": "ltminigames:immediate_respawn",
@@ -7,8 +14,6 @@
       "color": "gray"
     }
   },
-  "lt:common/spectator",
-  "ltminigames:teams",
   {
     "type": "ltminigames:progression",
     "named_points": {
