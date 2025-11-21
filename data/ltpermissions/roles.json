@@ -237,6 +237,17 @@
       }
     }
   },
+  "ddr_chef": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[DDR Chef] ",
+          "color": "#CF27F5"
+        },
+        "style": "#CF27F5"
+      }
+    }
+  },
   "everyone": {
     "overrides": {
       "commands": {
