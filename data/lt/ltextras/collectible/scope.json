@@ -1,0 +1,40 @@
+{
+  "item": "minecraft:leather_helmet",
+  "components": {
+    "minecraft:item_model": "lt:huge_glasses",
+    "minecraft:equippable": {
+      "slot": "head"
+    },
+    "ltextras:collectible_display_info": {
+      "name": "scope_scopers",
+      "description": true,
+      "rarity": "secret",
+      "additional_lore": [
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.scope_scopeers.description_2",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "minecraft:custom_name": {
+      "translate": "lt.collectible.scope_scopers.name",
+      "color": "#5ABDA3",
+      "italic": false
+    },
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "multimedia:slideshow_viewer": [
+      "lt:fun/cojoroll"
+    ]
+  },
+  "auto_equip": false
+}
