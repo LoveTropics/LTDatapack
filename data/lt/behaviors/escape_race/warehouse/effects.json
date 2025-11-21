@@ -1,0 +1,41 @@
+[
+  {
+    "type": "ltminigames:stand_on_block",
+    "predicate": {
+      "blocks": [
+        "ltextras:warehouse_floor",
+        "ltextras:warehouse_road"
+      ]
+    },
+    "apply": [
+
+    ],
+    "clear": [
+      {
+        "type": "ltminigames:clear_effects",
+        "effects": [
+          "minecraft:slowness"
+        ]
+      }
+    ],
+    "tick": [
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:slowness",
+            "seconds": 10,
+            "amplifier": 2,
+            "particles": false
+          }
+        ]
+      },
+      {
+        "type": "ltminigames:damage_player",
+        "source": "minecraft:cactus",
+        "amount": 1
+      }
+    ],
+    "tick_frequency": 30
+  }
+]
