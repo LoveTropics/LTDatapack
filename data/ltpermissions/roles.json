@@ -111,11 +111,7 @@
     "includes": ["whitelisted"],
     "overrides": {
       "op_level": 2,
-      "worldedit_allowed": true,
       "commands": {
-        "/.*": "allow",
-        "/regen .*": "deny",
-        "mask .*": "allow",
         "map join .*": "allow",
         "map leave .*": "allow",
         "fly": "allow",
