@@ -23,12 +23,6 @@
       },
       {
         "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
-      },
-      {
-        "type": "ltminigames:increment_statistic",
         "statistic": "points",
         "amount": 1,
         "scope": "global"
