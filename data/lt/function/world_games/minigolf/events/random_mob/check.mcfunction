@@ -1,2 +1,0 @@
-execute as @s if score hostMode golf.events matches 1 run function lt:world_games/minigolf/events/random_mob/host with entity @p[role=live,limit=1,sort=random]
-execute as @s if score hostMode golf.events matches 2 run disguise as ltextras:collectible {"collectible":"lt:gegy_potato"}

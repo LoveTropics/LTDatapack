@@ -1,1 +1,0 @@
-execute if score randomMob golf.events matches 1 as @a[role=live] run function lt:world_games/minigolf/events/random_mob/random

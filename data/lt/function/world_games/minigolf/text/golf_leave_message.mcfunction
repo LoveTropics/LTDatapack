@@ -1,1 +1,0 @@
-title @s actionbar [{"translate":"lt.golf.leave_game","color":"red"}]
