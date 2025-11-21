@@ -1,0 +1,11 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://dist.creeper.host/lovetropics/the_cojoroll.mp4",
+      "duration": 32.208333
+    }
+  ]
+}
