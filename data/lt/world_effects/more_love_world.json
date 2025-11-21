@@ -1,0 +1,38 @@
+[
+  {
+    "type": "sky_color",
+    "red": 254,
+    "green": 142,
+    "blue": 134,
+    "fade_length": 4
+  },
+  {
+    "type": "particles",
+    "particles": [
+      {
+        "options": {
+          "type": "ltextras:emitted_hearts_particle"
+        },
+        "count": 14,
+        "range": 20,
+        "offset": [0, 12, 0]
+      },
+      {
+        "options": {
+          "type": "ltextras:team_cents"
+        },
+        "count": 14,
+        "range": 20,
+        "offset": [0, 12, 0]
+      },
+      {
+        "options": {
+          "type": "ltextras:team_no_cents"
+        },
+        "count": 14,
+        "range": 20,
+        "offset": [0, 12, 0]
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "predicate": {
+      "amount": {
+        "min": 1000.0
+      }
+    },
+    "action": {
+      "type": "run_function",
+      "function": "lt:donation_effects/sky_effects/more_love_world"
+    }
+  }
+]
