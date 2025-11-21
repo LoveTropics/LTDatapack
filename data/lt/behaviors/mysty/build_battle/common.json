@@ -38,6 +38,15 @@
         }
       },
       {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:block_break_speed",
+        "modifier": {
+          "id": "lt:build_battle_break_speed",
+          "amount": 1024.0,
+          "operation": "add_value"
+        }
+      },
+      {
         "type": "ltminigames:run_commands",
         "player": "build enableAndActivate @s"
       }
