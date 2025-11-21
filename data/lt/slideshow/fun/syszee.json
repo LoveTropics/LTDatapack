@@ -1,0 +1,11 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://gegy.dev/assets/lt/painting.png",
+      "duration": 100.0
+    }
+  ]
+}
