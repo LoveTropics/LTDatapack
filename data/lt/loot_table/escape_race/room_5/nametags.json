@@ -6,23 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clock",
+          "name": "minecraft:nametags",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 17,
                 "max": 49
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:can_place_on": [
-                  {
-                    "blocks": "minecraft:farmland"
-                  }
-                ]
               }
             }
           ]

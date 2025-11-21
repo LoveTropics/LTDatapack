@@ -1,0 +1,127 @@
+[
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_1",
+    "loot_table": "lt:escape_race/room_5/nametags"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_2",
+    "loot_table": "lt:escape_race/room_5/nether_stars"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_3",
+    "loot_table": "lt:escape_race/room_5/paper"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_4",
+    "loot_table": "lt:escape_race/room_5/wrench"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_5",
+    "loot_table": "lt:escape_race/room_5/orange_glasses"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_6",
+    "loot_table": "lt:escape_race/room_5/hose"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_7",
+    "loot_table": "lt:escape_race/room_5/netherite_ingots"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_8",
+    "loot_table": "lt:escape_race/room_5/iron_ingots"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_9",
+    "loot_table": "lt:escape_race/room_5/beetroot_seeds"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_10",
+    "loot_table": "lt:escape_race/room_5/gearbox"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_11",
+    "loot_table": "lt:escape_race/room_5/clocks"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_12",
+    "loot_table": "lt:escape_race/room_5/wheat_seeds"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_13",
+    "loot_table": "lt:escape_race/room_5/pump"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_14",
+    "loot_table": "lt:escape_race/room_5/string"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_15",
+    "loot_table": "lt:escape_race/room_5/batteries"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_16",
+    "loot_table": "lt:escape_race/room_5/carrot_seeds"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_17",
+    "loot_table": "lt:escape_race/room_5/bolt"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_18",
+    "loot_table": "lt:escape_race/room_5/button"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_19",
+    "loot_table": "lt:escape_race/room_5/green_glasses"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_20",
+    "loot_table": "lt:escape_race/room_5/potato_seeds"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_21",
+    "loot_table": "lt:escape_race/room_5/plastic_sheets"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_22",
+    "loot_table": "lt:escape_race/room_5/foot_pedal"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_23",
+    "loot_table": "lt:escape_race/room_5/bulbs"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_24",
+    "loot_table": "lt:escape_race/room_5/blue_glasses"
+  },
+  {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "barrel_25",
+    "loot_table": "lt:escape_race/room_5/steering_wheel"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 27,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ltextras:bolt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 17,
+                "max": 49
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
