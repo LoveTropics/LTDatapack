@@ -10,6 +10,7 @@
     ],
     "actions": {
       "type": "ltminigames:apply_for_time",
+      "split_by_player": true,
       "seconds": "$seconds",
       "apply": {
         "type": "ltminigames:add_attribute_modifier",

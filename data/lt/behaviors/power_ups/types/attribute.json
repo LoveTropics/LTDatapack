@@ -5,6 +5,7 @@
   "apply": {
     "type": "ltminigames:apply_for_time",
     "seconds": "$seconds",
+    "split_by_player": true,
     "apply": {
       "type": "ltminigames:add_attribute_modifier",
       "attribute": "$attribute.name",

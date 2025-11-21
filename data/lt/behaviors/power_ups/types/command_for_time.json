@@ -4,6 +4,7 @@
   "subtitle": "$subtitle",
   "apply": {
     "type": "ltminigames:apply_for_time",
+    "split_by_player": true,
     "seconds": "$seconds",
     "apply": {
       "type": "ltminigames:run_commands",

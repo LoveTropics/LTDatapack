@@ -30,8 +30,11 @@
         }
       },
       "clear": {
-        "type": "ltminigames:remove_client_state",
-        "state": "ltminigames:invert_controls"
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:invert_controls"
+        }
       },
       "seconds": 60
     }
