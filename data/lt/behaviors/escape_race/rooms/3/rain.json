@@ -14,10 +14,6 @@
     },
     "actions": [
       {
-        "type": "ltminigames:damage_player",
-        "amount": 6
-      },
-      {
         "type": "ltminigames:clear_effects"
       }
     ]
