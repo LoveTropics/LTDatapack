@@ -10,10 +10,6 @@
     "allow_rejoin": true
   },
   "ltminigames:microgames",
-  {
-    "type": "ltminigames:microgame_scoring",
-    "statistic": "break_bucks"
-  },
   "lt:common/spectator",
   {
     "type": "ltminigames:bind_controls",

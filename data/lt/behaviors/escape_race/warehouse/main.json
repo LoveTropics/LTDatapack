@@ -174,5 +174,10 @@
   },
   "ltminigames:microgames",
   "lt:escape_race/warehouse/effects",
-  "lt:escape_race/warehouse/add_equipment"
+  "lt:escape_race/warehouse/add_equipment",
+  {
+    "type": "ltminigames:microgame_scoring",
+    "statistic": "break_bucks",
+    "points_per_game_won": [100, 100, 100]
+  }
 ]

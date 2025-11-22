@@ -26,6 +26,16 @@
         "statistic": "points",
         "amount": 1,
         "scope": "global"
+      },
+      {
+        "type": "ltminigames:highlight_blocks",
+        "regions": ["$region"],
+        "highlight": false
+      },
+      {
+        "type": "ltminigames:highlight_blocks",
+        "regions": "$highlight_regions",
+        "highlight": true
       }
     ]
   }

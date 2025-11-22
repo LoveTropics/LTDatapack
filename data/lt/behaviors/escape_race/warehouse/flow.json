@@ -112,7 +112,13 @@
           },
           "lt:escape_race/warehouse/idling_in_warehouse_2"
         ],
-        "actions": ["lt:escape_race/warehouse/wind_down_start"]
+        "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players_and_subphases",
+            "actions": ["lt:escape_race/warehouse/wind_down_start"]
+          }
+        ]
       },
       "racing_wind_down_3": {
         "next_stage": "microgames_2",
@@ -246,15 +252,15 @@
         "reversed": true
       },
       "racing_wind_down_1": {
-        "title": "Time to finish up!",
+        "title": "Time to head back!",
         "color": "yellow"
       },
       "racing_wind_down_2": {
-        "title": "Time to finish up!",
+        "title": "Time to head back!",
         "color": "yellow"
       },
       "racing_wind_down_3": {
-        "title": "Time to finish up!",
+        "title": "Time to head back!",
         "color": "yellow"
       },
       "race_to_bus": {

@@ -47,6 +47,14 @@
     }
   },
   {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": {
+      "type": "ltminigames:highlight_blocks",
+      "regions": ["mud_1"],
+      "highlight": true
+    }
+  },
+  {
     "type": "ltminigames:set_role",
     "role": "participant",
     "actions": [
@@ -258,27 +266,33 @@
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_1"
+    "region": "mud_1",
+    "highlight_regions": ["mud_2"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_2"
+    "region": "mud_2",
+    "highlight_regions": ["mud_3"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_3"
+    "region": "mud_3",
+    "highlight_regions": ["mud_4", "mud_5"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_4"
+    "region": "mud_4",
+    "highlight_regions": ["mud_6"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_5"
+    "region": "mud_5",
+    "highlight_regions": ["mud_6"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
-    "region": "mud_6"
+    "region": "mud_6",
+    "highlight_regions": ["mud_7"]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
@@ -314,10 +328,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       },
       {
         "type": "ltminigames:simple_dialog",
@@ -365,10 +385,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       },
       {
         "type": "ltminigames:simple_dialog",
@@ -416,10 +442,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       }
     ]
   },
@@ -453,10 +485,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       }
     ]
   },
@@ -490,10 +528,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       },
       {
         "type": "ltminigames:simple_dialog",
@@ -541,10 +585,16 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
       }
     ]
   },
@@ -588,12 +638,23 @@
         }
       },
       {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 2,
-        "scope": "team"
-      }
+        "type": "ltminigames:apply_to",
+        "target": "participants",
+        "actions": [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 2,
+            "scope": "team"
+          }
+        ]
+      },
+      "ltminigames:end_game"
     ]
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 200
   },
   {
     "type": "ltminigames:rising_fluid_by_statistic",
