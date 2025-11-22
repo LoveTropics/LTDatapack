@@ -7,5 +7,13 @@
     "join_late_with_role": "spectator",
     "allow_rejoin": true
   },
-  "lt:escape_race/global"
+  "lt:escape_race/global",
+  {
+    "type": "ltminigames:immediate_respawn",
+    "death_message": {
+      "text": "☠ %message%",
+      "color": "gray"
+    },
+    "drop_inventory": "$drop_inventory"
+  }
 ]

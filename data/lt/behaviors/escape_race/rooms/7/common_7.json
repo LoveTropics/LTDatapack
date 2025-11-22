@@ -11,13 +11,6 @@
   },
   "ltminigames:disable_hunger",
   {
-    "type": "ltminigames:immediate_respawn",
-    "death_message": {
-      "text": "☠ %message%",
-      "color": "gray"
-    }
-  },
-  {
     "type": "ltminigames:checkpoints",
     "checkpoints": [
       {

@@ -1,5 +1,8 @@
 [
-  "lt:escape_race/rooms/common",
+  {
+    "type": "lt:escape_race/rooms/common",
+    "drop_inventory": true
+  },
   "ltminigames:disable_hunger",
   {
     "type": "ltminigames:position_players",
@@ -56,14 +59,6 @@
       }
     },
     "count": 300
-  },
-  {
-    "type": "ltminigames:immediate_respawn",
-    "death_message": {
-      "text": "☠ %message%",
-      "color": "gray"
-    },
-    "drop_inventory": true
   },
   {
     "type": "ltminigames:block_in_region",
