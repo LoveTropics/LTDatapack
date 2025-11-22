@@ -164,5 +164,6 @@
     "buck_divider": 5
   },
   "ltminigames:microgames",
-  "lt:escape_race/warehouse/effects"
+  "lt:escape_race/warehouse/effects",
+  "lt:escape_race/warehouse/add_equipment"
 ]

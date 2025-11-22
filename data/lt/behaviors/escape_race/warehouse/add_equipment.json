@@ -1,0 +1,26 @@
+{
+  "type": "ltminigames:on_spawn",
+  "role": "participant",
+  "actions": {
+    "type": "ltminigames:cycle_action_by_entity",
+    "actions_by_entity": [
+      {
+        "type": "ltminigames:add_equipment",
+        "head": {
+          "id": "ltextras:hard_hat",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        },
+        "chest": {
+          "id": "ltextras:reflective_vest",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        }
+      }
+    ]
+  }
+}
