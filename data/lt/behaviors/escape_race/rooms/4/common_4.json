@@ -622,5 +622,24 @@
       }
     },
     "count": 32
+  },
+  {
+    "type": "ltminigames:distribute_loot",
+    "region": "flood_area",
+    "block_entity_type": "minecraft:barrel",
+    "item": {
+      "id": "ltextras:plumbers_tnt",
+      "components": {
+        "minecraft:can_place_on": [
+          {
+            "blocks": [
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots"
+            ]
+          }
+        ]
+      }
+    },
+    "count": 32
   }
 ]
