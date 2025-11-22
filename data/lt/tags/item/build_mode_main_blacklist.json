@@ -518,6 +518,8 @@
     "tropicraft:white_winged_warbler_spawn_egg",
     "tropicraft:koa_spawn_egg",
     "minecraft:happy_ghast_spawn_egg",
-    "minecraft:creaking_spawn_egg"
+    "minecraft:creaking_spawn_egg",
+    "minecraft:blue_egg",
+    "minecraft:brown_egg"
   ]
 }
