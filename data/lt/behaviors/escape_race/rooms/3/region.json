@@ -39,7 +39,7 @@
       {
         "type": "ltminigames:increment_statistic",
         "statistic": "vacation_days",
-        "amount": 2,
+        "amount": 5,
         "scope": "team"
       }
     ]

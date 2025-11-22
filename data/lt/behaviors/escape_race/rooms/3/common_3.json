@@ -31,7 +31,7 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "THIS IS GREAT WIN MESSAGE THAT NEEDS A LANG KEY",
+          "translate": "You did it! You could have a career as a ",
           "color": "gold",
           "italic": true
         }
