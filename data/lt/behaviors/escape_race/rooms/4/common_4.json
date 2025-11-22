@@ -295,6 +295,12 @@
           "translate": "Blocker Cleared",
           "color": "aqua"
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
       }
     ]
   },
@@ -363,6 +369,12 @@
           "translate": "Blocker Cleared",
           "color": "aqua"
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
       }
     ]
   },
@@ -394,6 +406,12 @@
           "translate": "Blocker Cleared",
           "color": "aqua"
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
       }
     ]
   },
@@ -462,6 +480,12 @@
           "translate": "Blocker Cleared",
           "color": "aqua"
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
       }
     ]
   },
@@ -507,7 +531,7 @@
       {
         "type": "ltminigames:increment_statistic",
         "statistic": "vacation_days",
-        "amount": 3,
+        "amount": 2,
         "scope": "team"
       }
     ]
