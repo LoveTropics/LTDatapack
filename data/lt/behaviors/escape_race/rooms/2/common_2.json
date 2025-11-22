@@ -291,20 +291,6 @@
   },
   {
     "type": "ltminigames:statistic_threshold",
-    "statistic": "missed_trash",
-    "threshold": 25,
-    "actions": [
-
-      {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": -1,
-        "scope": "team"
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:statistic_threshold",
     "statistic": "recycled_trash",
     "threshold": 25,
     "actions": [

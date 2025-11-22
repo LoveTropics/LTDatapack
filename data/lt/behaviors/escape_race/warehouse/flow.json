@@ -4,7 +4,10 @@
     "stages": {
       "breakroom_1": {
         "next_stage": "room_racing_1",
-        "end_actions": ["lt:escape_race/warehouse/break_room_end"]
+        "end_actions": [
+          "lt:escape_race/warehouse/break_room_end",
+          "lt:escape_race/warehouse/doors_open_1"
+        ]
       },
       "room_racing_1": {
         "timer_length_ticks": 12000,
@@ -20,16 +23,7 @@
           {
             "type": "ltminigames:apply_to",
             "target": "all_players_and_subphases",
-            "actions": [
-              {
-                "type": "ltminigames:send_message",
-                "message": {
-                  "text": "Right gang, it's time to get to the break-room! It's a state-mandated break...",
-                  "color": "green",
-                  "italic": true
-                }
-              }
-            ]
+            "actions": ["lt:escape_race/warehouse/wind_down_start"]
           }
         ]
       },
@@ -73,7 +67,10 @@
             "stay": 60
           }
         ],
-        "end_actions": ["lt:escape_race/warehouse/break_room_end"]
+        "end_actions": [
+          "lt:escape_race/warehouse/break_room_end",
+          "lt:escape_race/warehouse/doors_open_2"
+        ]
       },
       "room_racing_2": {
         "timer_length_ticks": 12000,
@@ -89,16 +86,7 @@
           {
             "type": "ltminigames:apply_to",
             "target": "all_players_and_subphases",
-            "actions": [
-              {
-                "type": "ltminigames:send_message",
-                "message": {
-                  "text": "That's the end of Day 1... get back to the break room ASAP!",
-                  "color": "green",
-                  "italic": true
-                }
-              }
-            ]
+            "actions": ["lt:escape_race/warehouse/wind_down_start"]
           }
         ]
       },
@@ -108,6 +96,7 @@
       },
       "proper_break": {
         "next_stage": "room_racing_3",
+        "start_actions": ["lt:escape_race/warehouse/time_to_sleep"],
         "end_actions": ["lt:escape_race/warehouse/break_room_end"]
       },
       "room_racing_3": {
@@ -120,22 +109,7 @@
             "blocked": false
           }
         ],
-        "end_actions": [
-          {
-            "type": "ltminigames:apply_to",
-            "target": "all_players_and_subphases",
-            "actions": [
-              {
-                "type": "ltminigames:send_message",
-                "message": {
-                  "text": "Come on then, back to the break room.... Microgames await!",
-                  "color": "green",
-                  "italic": true
-                }
-              }
-            ]
-          }
-        ]
+        "actions": ["lt:escape_race/warehouse/wind_down_start"]
       },
       "racing_wind_down_3": {
         "next_stage": "microgames_2",

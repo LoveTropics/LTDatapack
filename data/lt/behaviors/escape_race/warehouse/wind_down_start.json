@@ -1,0 +1,16 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players_and_subphases",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "0": {
+        "speaker": "terry",
+        "line": "Alright, listen-up team - it's time for a state-mandated break... Damn labor rules...",
+        "sound": "ltminigames:escape_race.warehouse.3"
+      }
+    }
+  }
+]

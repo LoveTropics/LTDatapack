@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players_and_subphases",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {
+        "speaker": "terry",
+        "line": "Do NOT run over the workers! We are running out! I repeat - we are running out of workers!",
+        "sound": "ltminigames:escape_race.warehouse.13"
+      },
+      "13": {
+        "speaker": "terry",
+        "line": "Terry out."
+      }
+    }
+  }
+]

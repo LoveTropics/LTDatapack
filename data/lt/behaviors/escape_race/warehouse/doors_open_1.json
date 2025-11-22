@@ -1,0 +1,16 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players_and_subphases",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {
+        "speaker": "terry",
+        "line": "If you don't have a certificate - don't drive the forklifts! I have made that mistake for the last shift...",
+        "sound": "ltminigames:escape_race.warehouse.4"
+      }
+    }
+  }
+]

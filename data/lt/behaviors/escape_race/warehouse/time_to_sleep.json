@@ -1,0 +1,21 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players_and_subphases",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "0": {
+        "speaker": "terry",
+        "line": "That's enough for today - time to sleep!",
+        "sound": "ltminigames:escape_race.warehouse.6"
+      },
+      "4": {
+        "speaker": "terry",
+        "line": "No, of course they can't go home - that's why I fitted the DDR machines with bunk bed!",
+        "sound": "ltminigames:escape_race.warehouse.6"
+      }
+    }
+  }
+]
