@@ -44,5 +44,6 @@
       }
     ],
     "scope": "team"
-  }
+  },
+  "lt:escape_race/packages/donations"
 ]
