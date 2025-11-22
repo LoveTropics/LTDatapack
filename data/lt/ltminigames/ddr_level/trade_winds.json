@@ -1,5 +1,5 @@
 {
-  "display_name": "trade_wands_by_fwhip",
+  "display_name": "Trade Winds",
   "ticks": {
     "1538": { "forward": false, "back": true, "left": false, "right": false },
     "2050": { "forward": false, "back": false, "left": true, "right": false },
@@ -377,5 +377,5 @@
   },
   "difficulty": "easy",
   "track": "tropicraft:trade_winds",
-  "icon": { "id": "minecraft:music_disc_pigstep", "count": 1 }
+  "icon": { "id": "tropicraft:music_disc_trade_winds", "count": 1 }
 }
