@@ -1,1 +1,1 @@
-execute in tropicraft:tropics run worldeffect apply lt:love_world 10s
+execute in tropicraft:tropics run worldeffect apply lt:love_world 60s
