@@ -1,0 +1,909 @@
+[
+  {
+    "type": "ltminigames:ordered_trial_spawner",
+    "spawner_regions": {
+      "left_spawner_1": {
+        "spawn_range": 8,
+        "total_mobs": 10,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 5,
+        "spawn_potentials": [
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:bogged",
+                "CustomName": "Wade Bogged",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:movement_speed",
+                    "base": 0.31,
+                    "modifiers": []
+                  }
+                ],
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  },
+                  "mainhand": {
+                    "id": "minecraft:bow",
+                    "components": {}
+                  }
+                },
+                "Passengers": [
+                  {
+                    "id": "minecraft:bee",
+                    "AngerTime": 500,
+                    "HasNectar": false,
+                    "HasStung": false,
+                    "Anger": 5000
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:skeleton",
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  },
+                  "mainhand": {
+                    "id": "minecraft:bow",
+                    "components": {}
+                  }
+                },
+                "CustomName": "Suave Skeleton",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_2": {
+        "spawn_range": 8,
+        "total_mobs": 20,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 6,
+        "simultaneous_mobs_added_per_player": 1,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:cave_spider",
+                "CustomName": "Christopher Cave Spider",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:spider",
+                "CustomName": "Sally Spider",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_3": {
+        "spawn_range": 8,
+        "total_mobs": 12,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 6,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:magma_cube",
+                "CustomName": "Maggie Magma Cube",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 5
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:magma_cube",
+                "CustomName": "Maggie Magma Cube",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 4
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:slime",
+                "CustomName": "Solveig Slime",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 5
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:slime",
+                "CustomName": "Solveig Slime",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 3
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_4": {
+        "spawn_range": 10,
+        "total_mobs": 16,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 9,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 15,
+        "spawn_potentials": [
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:zombie",
+                "CustomName": "Zombie",
+                "CustomNameVisible": true,
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:husk",
+                "CustomName": "Harry Husk",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_5": {
+        "spawn_range": 8,
+        "total_mobs": 7,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 5,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:vindicator",
+                "CustomName": "Vinny Vindicator",
+                "CustomNameVisible": true,
+                "equipment": {
+                  "mainhand": {
+                    "id": "minecraft:golden_axe",
+                    "components": {
+                      "minecraft:unbreakable": {}
+                    },
+                    "count": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:evoker",
+                "CustomName": "Edwin Evoker",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_6": {
+        "spawn_range": 8,
+        "total_mobs": 12,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 4,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:blaze",
+                "CustomName": "Bridget Blaze",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:breeze",
+                "CustomName": "Billy Breeze",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_7": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_8": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_9": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "left_spawner_10": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+
+      "right_spawner_1": {
+        "spawn_range": 8,
+        "total_mobs": 10,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 5,
+        "spawn_potentials": [
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:bogged",
+                "CustomName": "Wade Bogged",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:movement_speed",
+                    "base": 0.31,
+                    "modifiers": []
+                  }
+                ],
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  },
+                  "mainhand": {
+                    "id": "minecraft:bow",
+                    "components": {}
+                  }
+                },
+                "Passengers": [
+                  {
+                    "id": "minecraft:bee",
+                    "AngerTime": 500,
+                    "HasNectar": false,
+                    "HasStung": false,
+                    "Anger": 5000
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:skeleton",
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  },
+                  "mainhand": {
+                    "id": "minecraft:bow",
+                    "components": {}
+                  }
+                },
+                "CustomName": "Suave Skeleton",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_2": {
+        "spawn_range": 8,
+        "total_mobs": 20,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 6,
+        "simultaneous_mobs_added_per_player": 1,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:cave_spider",
+                "CustomName": "Christopher Cave Spider",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:spider",
+                "CustomName": "Sally Spider",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_3": {
+        "spawn_range": 8,
+        "total_mobs": 12,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 6,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:magma_cube",
+                "CustomName": "Maggie Magma Cube",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 5
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:magma_cube",
+                "CustomName": "Maggie Magma Cube",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 4
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:slime",
+                "CustomName": "Solveig Slime",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 5
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:slime",
+                "CustomName": "Solveig Slime",
+                "CustomNameVisible": true,
+                "attributes": [
+                  {
+                    "id": "minecraft:scale",
+                    "base": 3
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_4": {
+        "spawn_range": 10,
+        "total_mobs": 16,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 9,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 15,
+        "spawn_potentials": [
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:zombie",
+                "CustomName": "Zombie",
+                "CustomNameVisible": true,
+                "equipment": {
+                  "head": {
+                    "id": "tropicraft:nigel_stache",
+                    "components": {
+                      "unbreakable": {}
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:husk",
+                "CustomName": "Harry Husk",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_5": {
+        "spawn_range": 8,
+        "total_mobs": 7,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 5,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:vindicator",
+                "CustomName": "Vinny Vindicator",
+                "CustomNameVisible": true,
+                "equipment": {
+                  "mainhand": {
+                    "id": "minecraft:golden_axe",
+                    "components": {
+                      "minecraft:unbreakable": {}
+                    },
+                    "count": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:evoker",
+                "CustomName": "Edwin Evoker",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_6": {
+        "spawn_range": 8,
+        "total_mobs": 12,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 4,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 10,
+        "spawn_potentials": [
+          {
+            "weight": 2,
+            "data": {
+              "entity": {
+                "id": "minecraft:blaze",
+                "CustomName": "Bridget Blaze",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 3,
+            "data": {
+              "entity": {
+                "id": "minecraft:breeze",
+                "CustomName": "Billy Breeze",
+                "CustomNameVisible": true
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_7": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_8": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_9": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "right_spawner_10": {
+        "spawn_range": 8,
+        "total_mobs": 15,
+        "total_mobs_added_per_player": 0,
+        "simultaneous_mobs": 3,
+        "simultaneous_mobs_added_per_player": 0,
+        "ticks_between_spawn": 40,
+        "spawn_potentials": [
+          {
+            "weight": 4,
+            "data": {
+              "entity": {
+                "id": "minecraft:silverfish",
+                "CustomName": "Scott Silverfish",
+                "CustomNameVisible": true
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "entity": {
+                "id": "minecraft:ravager",
+                "Passengers": [
+                  {
+                    "id": "minecraft:pillager",
+                    "components": {
+                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "loot_tables": [
+      {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "tropicraft:fire_boots",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "minecraft:golden_boots",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "tropicraft:scale_boots",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "ltextras:big_boot",
+        "count": 1,
+        "components": {
+          "!equippable": {}
+        }
+      },
+      {
+        "id": "ltextras:high_heels",
+        "count": 1,
+        "components": {}
+      }
+    ],
+    "target_cooldown_length": 36000,
+    "required_player_range": 14
+  }
+]
