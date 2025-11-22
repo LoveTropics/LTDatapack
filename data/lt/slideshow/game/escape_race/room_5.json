@@ -1,0 +1,25 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_5.png",
+      "header": "Rescue Gary Gibnut",
+      "body": "Gary Gibnut recently received a promotion that Izzy Illusioner wanted. In retribution, Izzy has trapped Gary behind a series of puzzles and illusions.",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_5_1.png",
+      "header": "Each room contains clues that add up to a solution.",
+      "body": "Sometimes...it's not about what you see, but what you don't see.",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "Is it all an illusion?",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

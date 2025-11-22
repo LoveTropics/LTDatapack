@@ -5,7 +5,14 @@
       "type": "image",
       "file": "https://cdn.lovetropics.org/uploads/escape_race_4.png",
       "header": "Penelope Piranha's Pipe Plundering",
-      "body": "",
+      "body": "The pipes have clogged! Terry needs you to go unclog them. Beware the bodies of the former employe- drowneds and boggeds that were definitely always there...",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_4_3.png",
+      "header": "Find the Mud. Activate the Plumbers TNT.",
+      "body": "Every time you find a blockage of mud, clear it with Plumbers TNT that you'll find scattered around the pipes.",
       "duration": 8.0
     },
     {

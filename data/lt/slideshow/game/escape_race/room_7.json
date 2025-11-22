@@ -1,0 +1,46 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_7_2.png",
+      "header": "The Grand Kapok Adventure",
+      "body": "Terry, as bad a boss as he is, felt his employees deserved some greenery. He felt especially inspired by the Kapok trees of the Amazon.",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_7_1.png",
+      "header": "Level 1: Climb",
+      "body": "Parkour your way up the first level of the tree",
+      "duration": 6.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_7_3.png",
+      "header": "Level 2: Comb",
+      "body": "Take the honey from the nests, you never know what you might find. And continue to climb!",
+      "duration": 6.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_7_4.png",
+      "header": "Level 3, 4, 5: Fight",
+      "body": "You know how this goes...Survive. Adapt. Overcome. And don't question why your boss has dozens of scary mobs lying around the tree meant to relax employees.",
+      "duration": 6.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_7_terry.png",
+      "header": "Performance Review",
+      "body": "",
+      "duration": 6.0
+    },
+    {
+      "type": "blank",
+      "header": "Good luck",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

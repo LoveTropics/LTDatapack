@@ -1,0 +1,25 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_6.png",
+      "header": "Bill Shoebill's Lost Shoes",
+      "body": "Bill Shoebill is the head of ...some department... at the warehouse. But he seems to have misplaced his favorite pair of shoes...can you help him find them?",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_room_6_1.png",
+      "header": "Kill the mobs",
+      "body": "Each room has one pair of shoes within a Trial Spawner...maybe Bill will enjoy the shoes within? Only one way to find out...",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "Happy Cobbling!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}
