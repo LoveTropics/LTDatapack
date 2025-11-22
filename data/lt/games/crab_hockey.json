@@ -11,7 +11,7 @@
     ]
   },
   "statistics_key": "hockey",
-  "hide_from_list": true,
+  "hide_from_list": false,
   "minimum_participants": 1,
   "waiting": {
     "map": {
