@@ -1,0 +1,25 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_2.png",
+      "header": "Terry's Trash Trawling",
+      "body": "Warehouses generate a lot of waste. Your boss Terry is displeased and wants you to help sort it out.",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_2_2.png",
+      "header": "Sort the Trash",
+      "body": "Warehouses generate a lot of waste. Your boss Terry is displeased and wants you to help sort it out.",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "Happy sorting!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

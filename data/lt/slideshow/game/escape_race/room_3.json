@@ -1,0 +1,25 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_3.png",
+      "header": "Dodge-a-gule",
+      "body": "Terry is having the lab test some new projectiles and they want to test if they are suitable for children. So naturally, he chose you to help him figure that out.",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_3_2.png",
+      "header": "Dodge and weave",
+      "body": "Gather the keys, put them in the locks, and dodge the falling propagules. You get vacation days for each lock you manage to open.",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "Get the keys, hug the trees!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

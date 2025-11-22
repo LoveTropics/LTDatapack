@@ -1,0 +1,18 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_4.png",
+      "header": "Penelope Piranha's Pipe Plundering",
+      "body": "",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

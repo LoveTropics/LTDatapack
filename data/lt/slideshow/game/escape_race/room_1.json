@@ -1,0 +1,25 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_1.png",
+      "header": "Turn the Lights On",
+      "body": "Your boss Terry installed the DDR machines in the break room with the ulterior motive to power the warehouse, but never bothered to pay for electricians to come and set that up.",
+      "duration": 8.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/escape_race_1_1.png",
+      "header": "Turn the Lights On",
+      "body": "Destroy the pots to get redstone, connect the blocky repeaters, and turn the lights on while avoiding upsetting Terry's Lil' Terrors.",
+      "duration": 8.0
+    },
+    {
+      "type": "blank",
+      "header": "Good luck!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}
