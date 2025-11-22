@@ -43,7 +43,7 @@
       "terry": {"name": {"text": "Terry", "color": "yellow"}}
     },
     "entries": {
-      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_4.1"}
+      "5": {"speaker": "terry", "line": "they said what?! What do we pay them for? I'll be frozen in **bleep** before I settle! Alright, let's try this again. Welcome .. new contractors. Today we have an exciting, new chall- They're full of mud. The pipes. And the lab says that's a bad thing. The last crew left with some explosives, use that. Don't get blown up, or do, you signed the contract.", "sound": "ltminigames:escape_race.room_4.1"}
     }
   },
   {
@@ -328,7 +328,8 @@
         "entries": {
           "0": {
             "speaker": "terry",
-            "sound": "ltminigames:escape_race.room_4.2"
+            "sound": "ltminigames:escape_race.room_4.2",
+            "line": "Hey, look at that, pressures going back up, good work. forgot to mention, lab said there might be some minor hydrological events from all that blasting. Just keep it in mind."
           }
         }
       }
@@ -378,7 +379,8 @@
         "entries": {
           "0": {
             "speaker": "terry",
-            "sound": "ltminigames:escape_race.room_4.3"
+            "sound": "ltminigames:escape_race.room_4.3",
+            "line": "Almost there, just past halfway. Excellent work in there ... [Contractor First Name].  Ugh, who spilled ...  that doesn't look right "
           }
         }
       }
@@ -502,7 +504,8 @@
         "entries": {
           "0": {
             "speaker": "terry",
-            "sound": "ltminigames:escape_race.room_4.4"
+            "sound": "ltminigames:escape_race.room_4.4",
+            "line": "Put the put the  put the mud back, our pipes can't take this press-"
           }
         }
       }
