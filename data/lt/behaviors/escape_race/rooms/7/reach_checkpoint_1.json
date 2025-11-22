@@ -1,4 +1,11 @@
-{
+[
+  {
+    "type": "ltminigames:increment_statistic",
+    "statistic": "vacation_days",
+    "amount": 1,
+    "scope": "team"
+  },
+  {
   "type": "ltminigames:simple_dialog",
   "speakers": {
     "terry": {"name": {"text": "Terry", "color": "yellow"}}
@@ -11,3 +18,4 @@
     }
   }
 }
+]

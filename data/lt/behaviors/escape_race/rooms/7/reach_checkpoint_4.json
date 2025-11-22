@@ -1,13 +1,21 @@
-{
-  "type": "ltminigames:simple_dialog",
-  "speakers": {
-    "terry": {"name": {"text": "Terry", "color": "yellow"}}
+[
+  {
+    "type": "ltminigames:increment_statistic",
+    "statistic": "vacation_days",
+    "amount": 4,
+    "scope": "team"
   },
-  "entries": {
-    "0": {
-      "speaker": "terry",
-      "line": "Last chance! Any further, and this ends badly for all of you. Terry out.",
-      "sound": "ltminigames:escape_race.room_7.9"
+  {
+    "type": "ltminigames:simple_dialog",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "0": {
+        "speaker": "terry",
+        "line": "Last chance! Any further, and this ends badly for all of you. Terry out.",
+        "sound": "ltminigames:escape_race.room_7.9"
+      }
     }
   }
-}
+]

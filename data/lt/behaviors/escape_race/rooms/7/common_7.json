@@ -1,5 +1,6 @@
 [
   "lt:escape_race/rooms/common",
+  "ltminigames:escape_race/vacation_days",
   {
     "type": "ltminigames:position_players",
     "teams": {
@@ -100,7 +101,8 @@
     "entity_predicate": {
       "type": "minecraft:zombie"
     },
-    "damage_amount": 5
+    "damage_amount": 100,
+    "days_to_give": 1
   },
   "lt:escape_race/rooms/7/trial_spawners",
   "lt:escape_race/rooms/7/donations"
