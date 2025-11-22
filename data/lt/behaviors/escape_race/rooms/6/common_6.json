@@ -28,7 +28,7 @@
   {
     "type": "ltminigames:progression",
     "channel": "talk_to_bill",
-    "named_points": { "start": 0, "end": 40 },
+    "named_points": { "start": 0, "end": 60 },
     "start": false
   },
   {
@@ -49,7 +49,7 @@
           "sound": "ltminigames:escape_race.bill_shoebill.00_hmm_i_wonder"
         }
       ],
-      "5": [{
+      "7": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -64,7 +64,7 @@
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.01_oh_hello_there"
         }],
-      "17": [{
+      "21": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -79,7 +79,7 @@
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.02_oh_sorry"
         }],
-      "24": [{
+      "32": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -94,7 +94,7 @@
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.03_i_can_t_possibly"
         }],
-      "32": [{
+      "44": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -105,7 +105,7 @@
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.04_anyway_find_me"
         }],
-      "37": [
+      "52": [
         {
           "type": "ltminigames:spawn_entity_at_regions",
           "entity": {
