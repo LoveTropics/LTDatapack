@@ -34,6 +34,81 @@
   "lt:escape_race/rooms/5/barrels",
   "ltminigames:disable_hunger",
   {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": {
+      "type": "ltminigames:cycle_action_by_entity",
+      "actions_by_entity": [
+        {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "ltextras:orange_glasses",
+              "count": 1,
+              "components": {
+                "ltextras:painting_overlay": [
+                  {
+                    "display_text": "20",
+                    "painting": "lt:forklift_3"
+                  },
+                  {
+                    "display_itemstack": {"id": "minecraft:bow", "count": 1},
+                    "painting": "lt:terry_vacation_1"
+                  }
+                ],
+                "minecraft:item_name": "Odd Orange Opticals"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "ltextras:green_glasses",
+              "count": 1,
+              "components": {
+                "ltextras:painting_overlay": [
+                  {
+                    "display_text": "-15",
+                    "painting": "lt:forklift_5"
+                  },
+                  {
+                    "display_itemstack": {"id": "minecraft:baked_potato", "count": 1},
+                    "painting": "lt:terry_vacation_2"
+                  }
+                ],
+                "minecraft:item_name": "Grand Green Glasses"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:add_equipment",
+          "items": [
+            {
+              "id": "ltextras:blue_glasses",
+              "count": 1,
+              "components": {
+                "ltextras:painting_overlay": [
+                  {
+                    "display_text": "3",
+                    "painting": "lt:forklift_1"
+                  },
+                  {
+                    "display_itemstack": {"id": "minecraft:ender_pearl", "count": 1},
+                    "painting": "lt:terry_vacation_3"
+                  }
+                ],
+                "minecraft:item_name": "Breathtaking Blue Bifocals"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "type": "ltminigames:prevent_trampling_crops"
   },
   {
