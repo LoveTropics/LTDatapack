@@ -1,0 +1,18 @@
+{
+  "type": "ltminigames:simple_dialog",
+  "speakers": {
+    "terry": {"name": {"text": "Terry", "color": "yellow"}}
+  },
+  "entries": {
+    "0": {
+      "speaker": "terry",
+      "line": "If you come any closer - I'll be honest with you - I'll have to stick my Little Terrors onto you.",
+      "sound": "ltminigames:escape_race.room_7.8"
+    },
+    "8": {
+      "speaker": "terry",
+      "line": "They what?? The union? Well then fire them!! Protected class??",
+      "sound": "ltminigames:escape_race.room_7.8"
+    }
+  }
+}

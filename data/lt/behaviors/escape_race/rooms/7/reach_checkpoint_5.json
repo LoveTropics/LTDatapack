@@ -1,0 +1,27 @@
+{
+  "type": "ltminigames:simple_dialog",
+  "speakers": {
+    "terry": {"name": {"text": "Terry", "color": "yellow"}},
+    "phone": {"name": {"text": "Phone", "color": "gray"}},
+    "bill_shoebill": {"name": {"text": "Bill Shoebill", "color": "gray"}}
+  },
+  "entries": {
+    "0": {
+      "speaker": "terry",
+      "line": "Made your choices? I see.",
+      "sound": "ltminigames:escape_race.room_7.10"
+    },
+    "1.5": {
+      "speaker": "phone",
+      "line": "*rings*"
+    },
+    "5": {
+      "speaker": "bill_shoebill",
+      "line": "Hey boss, small hiccup, out a fuel. Yeah tree won't budge."
+    },
+    "12": {
+      "speaker": "terry",
+      "line": "Well then, I guess we're doing this the old fashioned way. Unfortunately for you, the boys in the lab cooked a little something up before I fired them."
+    }
+  }
+}

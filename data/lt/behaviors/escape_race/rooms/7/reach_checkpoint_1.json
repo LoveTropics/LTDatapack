@@ -1,0 +1,13 @@
+{
+  "type": "ltminigames:simple_dialog",
+  "speakers": {
+    "terry": {"name": {"text": "Terry", "color": "yellow"}}
+  },
+  "entries": {
+    "0": {
+      "speaker": "terry",
+      "line": "Listen up! There's 100 Break Bucks for the next person to betray their coworker. I'll even throw in a raise.",
+      "sound": "ltminigames:escape_race.room_7.6"
+    }
+  }
+}

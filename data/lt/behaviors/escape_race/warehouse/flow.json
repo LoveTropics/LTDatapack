@@ -167,12 +167,31 @@
         "next_stage": "start_kapok",
         "start_actions": [
           {
-            "type": "ltminigames:show_title",
-            "title": {
-              "text": "Race to the bus!",
-              "color": "green"
+            "type": "ltminigames:simple_dialog",
+            "target": "all_players_and_subphases",
+            "speakers": {
+              "terry": {"name": {"text": "Terry", "color": "yellow"}},
+              "race_room": {"name": {"text": "Race Room", "color": "aqua"}}
             },
-            "stay": 60
+            "entries": {
+              "0": {
+                "speaker": "terry",
+                "line": "Listen up folks, the bean counters say we're out of money. That means, you're out of vacation time. No more-",
+                "sound": "ltminigames:escape_race.room_7.1"
+              },
+              "9": {
+                "speaker": "race_room",
+                "line": "It's me! Race Room! I'm starting a union! A union to kill Terry!"
+              },
+              "14": {
+                "speaker": "race_room",
+                "line": "So who's with me? Everyone - to the Escape-mobile!"
+              },
+              "20": {
+                "speaker": "race_room",
+                "line": "...it's at the end of the warehouse."
+              }
+            }
           },
           {
             "type": "ltminigames:escape_race/close_rooms",
@@ -239,7 +258,7 @@
         "color": "yellow"
       },
       "race_to_bus": {
-        "title": "Time for the final room - run to the bus!",
+        "title": "Time to unionize - to the Escape-mobile!",
         "color": "red"
       }
     }

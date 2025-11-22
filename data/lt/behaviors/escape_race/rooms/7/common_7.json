@@ -11,55 +11,86 @@
   },
   "ltminigames:disable_hunger",
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+    }
+  },
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players",
+    "progress_channel": "main",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {
+        "speaker": "terry",
+        "line": "Hey - can I get an Extra Large Three Cheese please? Yeah, 1031 Big Tree Avenue. Yup. Big one going through the roof. Can't miss it!",
+        "sound": "ltminigames:escape_race.room_7.5"
+      }
+    }
+  },
+  {
     "type": "ltminigames:checkpoints",
+    "teams": true,
     "checkpoints": [
       {
         "region": "checkpoint_left_1",
         "spawn_region": "spawn_left_1",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_1"]
       },
       {
         "region": "checkpoint_right_1",
         "spawn_region": "spawn_right_1",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_1"]
       },
       {
         "region": "checkpoint_left_2",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_2"]
       },
       {
         "region": "checkpoint_right_2",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_2"]
       },
       {
         "region": "checkpoint_left_3",
         "spawn_region": "spawn_left_3",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_3"]
       },
       {
         "region": "checkpoint_right_3",
         "spawn_region": "spawn_right_3",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_3"]
       },
       {
         "region": "checkpoint_left_4",
         "spawn_region": "spawn_left_4",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_4"]
       },
       {
         "region": "checkpoint_right_4",
         "spawn_region": "spawn_right_4",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_4"]
       },
       {
         "region": "checkpoint_left_5",
         "spawn_region": "spawn_left_5",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_5"]
       },
       {
         "region": "checkpoint_right_5",
         "spawn_region": "spawn_right_5",
-        "face_region": "spawn_facing"
+        "face_region": "spawn_facing",
+        "reached_actions": ["lt:escape_race/rooms/7/reach_checkpoint_5"]
       }
     ],
     "angle": -180.0

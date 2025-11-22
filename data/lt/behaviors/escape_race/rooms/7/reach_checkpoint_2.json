@@ -1,0 +1,21 @@
+{
+  "type": "ltminigames:simple_dialog",
+  "speakers": {
+    "terry": {"name": {"text": "Terry", "color": "yellow"}}
+  },
+  "entries": {
+    "0": {
+      "speaker": "terry",
+      "line": "Team work! I respect it. I was on a team once, but now I'm here. And you could be too!",
+      "sound": "ltminigames:escape_race.room_7.7"
+    },
+    "9": {
+      "speaker": "terry",
+      "line": "Hypothetically of course. Not literally. I'll be cold in the ground before anyone claims my seat."
+    },
+    "17": {
+      "speaker": "terry",
+      "line": "Stop now. Terry out."
+    }
+  }
+}
