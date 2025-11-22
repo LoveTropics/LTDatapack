@@ -36,7 +36,7 @@
             "name": "Host",
             "dye": "red",
             "text": "red",
-            "assign_roles": ["event_streamer", "live"]
+            "assign_roles": ["live"]
           },
           {
             "key": "everyone",
