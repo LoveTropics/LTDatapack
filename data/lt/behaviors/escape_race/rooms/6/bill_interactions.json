@@ -17,6 +17,12 @@
             }
           ]
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -34,6 +40,12 @@
             { "text": "Ouchies! These are red hot! Terry's worst idea yet...\n", "bold": false, "color": "red" }
           ]
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -55,6 +67,12 @@
             }
           ]
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -76,6 +94,12 @@
             }
           ]
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -97,6 +121,12 @@
             }
           ]
         }
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -172,6 +202,12 @@
             ]
           }
         ]
+      },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
       }
     ]
   },
@@ -215,7 +251,13 @@
           {
             "type": "ltminigames:close_game",
             "win_by_source": "player"
-          }
+          },
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "points",
+        "amount": 1,
+        "scope": "global"
+      }
         ]
       }
     ]
