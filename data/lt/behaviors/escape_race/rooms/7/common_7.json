@@ -98,10 +98,8 @@
   },
   {
     "type": "ltminigames:escape_race/terry_boss",
-    "entity_predicate": {
-      "type": "minecraft:zombie"
-    },
-    "damage_amount": 100,
+    "entity_predicate": "lt:terry_boss",
+    "damage_amount": 100
     "days_to_give": 1
   },
   "lt:escape_race/rooms/7/trial_spawners",
