@@ -14,7 +14,8 @@
     },
     "actions": [
       {
-        "type": "ltminigames:swap_players"
+        "type": "ltminigames:damage_player",
+        "amount": 6
       },
       {
         "type": "ltminigames:clear_effects"
