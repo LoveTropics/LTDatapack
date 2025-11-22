@@ -98,9 +98,7 @@
   },
   {
     "type": "ltminigames:escape_race/terry_boss",
-    "entity_predicate": {
-      "nbt": "{Tags:[\"terry_boss\"]}"
-    },
+    "entity_predicate": "{Tags:[\"terry_boss\"]}",
     "damage_amount": 100,
     "days_to_give": 1
   },
