@@ -1,0 +1,29 @@
+[
+  "ltminigames:escape_race/early_exit_room",
+  {
+    "type": "ltminigames:teleport_to_region",
+    "region": "spawn"
+  },
+  {
+    "type": "ltminigames:send_message",
+    "message": {
+      "text": "You took too long! Your room has been exited early. It's time to play Microgames!",
+      "color": "green",
+      "italic": true
+    }
+  },
+  {
+    "type": "ltminigames:set_blocks",
+    "region": ["warehouse_door"],
+    "replace": {
+      "blocks": "minecraft:air"
+    },
+    "set": {
+      "Name": "minecraft:iron_bars",
+      "Properties": {
+        "north": "true",
+        "south": "true"
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "ltminigames:nicely_break_region_of_blocks",
+    "region": "warehouse_door"
+  },
+  {
+    "type": "ltminigames:delayed_sequence",
+    "target": "all_players",
+    "actions": {
+      "0":  {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "Go go go!",
+          "color": "green"
+        },
+        "subtitle": {
+          "text": "It's time to race those rooms!",
+          "color": "white"
+        },
+        "stay": 60
+      },
+      "40":  {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.bell.use",
+        "pitch": 0.2
+      },
+      "60": {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.bell.use",
+        "pitch": 0.2
+      }
+    }
+  }
+]
