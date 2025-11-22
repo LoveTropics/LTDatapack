@@ -65,7 +65,7 @@
       "type": "ltminigames:set_max_health",
       "max_health_by_team": {
         "everyone": 6.0,
-        "host": 40.0
+        "host": 20.0
       }
     },
     "lt:survive_the_tide/1/phases",
