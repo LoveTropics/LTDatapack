@@ -65,7 +65,7 @@
     "region": "progress_redstone_1",
     "run_once": true,
     "predicate": {
-      "blocks": "minecraft:redstone",
+      "blocks": "minecraft:redstone_wire",
       "state": {
         "power": 12
       }
