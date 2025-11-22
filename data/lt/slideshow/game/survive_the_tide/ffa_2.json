@@ -1,0 +1,32 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt2_slide_1.png",
+      "header": "Survive the Tide II",
+      "body": "Free for all - every player for themselves\nDo whatever it takes to be the last player standing\nWho will you be when the tide rises?",
+      "duration": 7.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt2_slide_2.png",
+      "header": "Survive the Tide II",
+      "body": "Find chests with weapons, potions, food, and other items that can be used to counter the harsh effects of nature",
+      "duration": 7.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt2_slide_3.png",
+      "header": "Survive the Tide II",
+      "body": "Collect gear, fight off nature and other players as you move upwards ahead of the rising tide to remain alive",
+      "duration": 7.0
+    },
+    {
+      "type": "blank",
+      "header": "Good luck!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 [
-  "lt:survive_the_tide/intro",
   {
     "type": "ltminigames:set_client_state",
     "state": {

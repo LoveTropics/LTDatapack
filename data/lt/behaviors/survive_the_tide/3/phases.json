@@ -3,15 +3,15 @@
     "type": "ltminigames:progression",
     "named_points": {
       "start": 0,
-      "release_players": 30,
-      "pvp_enabled": 120,
-      "mid_game": 480,
-      "loot_drop": 650,
-      "high_tide": 720,
-      "explosive_storm_start": 950,
-      "explosive_storm_mid": 1100,
-      "explosive_storm_end": 1250,
-      "end": 1250
+      "release_players": 1,
+      "pvp_enabled": 90,
+      "mid_game": 450,
+      "loot_drop": 620,
+      "high_tide": 690,
+      "explosive_storm_start": 920,
+      "explosive_storm_mid": 1070,
+      "explosive_storm_end": 1220,
+      "end": 1220
     },
     "max_time_step": 2,
     "fixed_time_step": {

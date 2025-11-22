@@ -1,5 +1,4 @@
 [
-  "lt:survive_the_tide/intro",
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "white_glazed_terracotta",

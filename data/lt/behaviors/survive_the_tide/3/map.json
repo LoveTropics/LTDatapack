@@ -1,5 +1,4 @@
 [
-  "lt:survive_the_tide/intro",
   {
     "type": "ltminigames:fill_chests_by_marker",
     "marker": "white_glazed_terracotta",
@@ -71,7 +70,7 @@
   {
     "type": "ltminigames:scheduled_actions",
     "actions": {
-      "30": {
+      "5": {
         "type": "ltminigames:set_extending_blocks",
         "region": ["paracord"],
         "set": "ltextras:paracord",
@@ -79,7 +78,7 @@
         "duration": 100,
         "notify_neighbors": true
       },
-      "50": {
+      "25": {
         "type": "ltminigames:set_blocks",
         "region": ["helicopter", "paracord"],
         "set": "air",

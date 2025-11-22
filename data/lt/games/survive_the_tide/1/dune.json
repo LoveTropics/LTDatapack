@@ -10,6 +10,7 @@
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_1",
   "icon": "ltminigames:minigames/survive_the_tide/icon",
+  "intro_slideshow": "lt:game/survive_the_tide/ffa_1",
   "minimum_participants": 3,
   "maximum_participants": 1000,
   "waiting": {

@@ -18,6 +18,7 @@
   "hide_from_list": true,
   "statistics_key": "survive_the_tide",
   "backend_id": "lt:survive_the_tide_3_teams",
+  "intro_slideshow": "lt:game/survive_the_tide/teams_3",
   "minimum_participants": 3,
   "maximum_participants": 1000,
   "waiting": {
