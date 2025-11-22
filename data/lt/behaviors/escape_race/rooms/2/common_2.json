@@ -184,7 +184,7 @@
         "block_predicate": {
           "nbt": {
             "item": {
-              "id": "minecraft:stone"
+              "id": "ltextras:paper_bag"
             }
           }
         },
