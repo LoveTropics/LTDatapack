@@ -36,14 +36,20 @@
     "target": "all_players",
     "channel": "talk_to_bill",
     "actions": {
-      "1": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "bold": false, "color": "white" }
-        ]
-      },
-      "5": {
+      "1": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
+            {"text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "bold": false, "color": "white"}
+          ]
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.bill_shoebill.00_hmm_i_wonder"
+        }
+      ],
+      "5": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -54,7 +60,11 @@
           }
         ]
       },
-      "17": {
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.bill_shoebill.01_oh_hello_there"
+        }],
+      "17": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -65,7 +75,11 @@
           }
         ]
       },
-      "24": {
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.bill_shoebill.02_oh_sorry"
+        }],
+      "24": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -76,13 +90,21 @@
           }
         ]
       },
-      "32": {
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.bill_shoebill.03_i_can_t_possibly"
+        }],
+      "32": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
           { "text": "Anyway, find me my favourite shoes and I'll let you back out!\n", "bold": false, "color": "white" }
         ]
       },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.bill_shoebill.04_anyway_find_me"
+        }],
       "37": [
         {
           "type": "ltminigames:spawn_entity_at_regions",

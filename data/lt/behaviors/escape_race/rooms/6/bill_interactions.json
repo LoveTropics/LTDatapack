@@ -6,7 +6,7 @@
       {
         "type": "ltminigames:apply_to",
         "target": ["participants"],
-        "actions": {
+        "actions": [{
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -16,7 +16,11 @@
               "color": "red"
             }
           ]
-        }
+        },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.05_these_are_far_too_plane"
+          }]
       },
       {
         "type": "ltminigames:increment_statistic",
@@ -33,13 +37,17 @@
       {
         "type": "ltminigames:apply_to",
         "target": ["participants"],
-        "actions": {
+        "actions": [{
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
             { "text": "Ouchies! These are red hot! Terry's worst idea yet...\n", "bold": false, "color": "red" }
           ]
-        }
+        },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.06_ouchies"
+          }]
       },
       {
         "type": "ltminigames:increment_statistic",
@@ -56,7 +64,7 @@
       {
         "type": "ltminigames:apply_to",
         "target": ["participants"],
-        "actions": {
+        "actions": [{
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -66,7 +74,11 @@
               "color": "red"
             }
           ]
-        }
+        },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.07_these_are_too_sparkly"
+          }]
       },
       {
         "type": "ltminigames:increment_statistic",
@@ -83,7 +95,7 @@
       {
         "type": "ltminigames:apply_to",
         "target": ["participants"],
-        "actions": {
+        "actions": [{
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -93,7 +105,11 @@
               "color": "red"
             }
           ]
-        }
+        },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.08_scaly_shoes_"
+          }]
       },
       {
         "type": "ltminigames:increment_statistic",
@@ -110,7 +126,7 @@
       {
         "type": "ltminigames:apply_to",
         "target": ["participants"],
-        "actions": {
+        "actions": [{
           "type": "ltminigames:send_message",
           "message": [
             { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
@@ -120,7 +136,11 @@
               "color": "red"
             }
           ]
-        }
+        },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.09_hmm_no_these"
+          }]
       },
       {
         "type": "ltminigames:increment_statistic",
@@ -150,6 +170,10 @@
             ]
           },
           {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.10_nuh_uh_uh"
+          },
+          {
             "type": "ltminigames:delayed",
             "delay": 40,
             "actions": [
@@ -163,6 +187,10 @@
                     "color": "white"
                   }
                 ]
+              },
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "ltminigames:escape_race.bill_shoebill.11_huh_what_s_this"
               },
               {
                 "type": "ltminigames:set_blocks",
@@ -229,6 +257,10 @@
                 "color": "green"
               }
             ]
+          },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.bill_shoebill.12_now_these"
           }
         ]
       },
