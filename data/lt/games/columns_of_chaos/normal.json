@@ -47,7 +47,6 @@
     {
       "type": "lt:columns_of_chaos/phases",
       "total_seconds": 300
-    },
-    "lt:columns_of_chaos/phases"
+    }
   ]
 }
