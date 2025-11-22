@@ -221,18 +221,41 @@
       {
         "actions": [
           {
-            "type": "ltminigames:send_message",
-            "message": [
-              { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-              {
-                "text": "Great! You've got the forklift, now drive it straight at me!\n ",
-                "color": "white"
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:play_sound",
-            "sound": "ltminigames:escape_race.room_5.sound_6"
+            "type": "ltminigames:delayed_sequence",
+            "actions": {
+              "0": [
+                {
+                  "type": "ltminigames:send_message",
+                  "message": [
+                    { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+                    {
+                      "text": "Great! You've got the forklift, now drive it straight at me!\n ",
+                      "color": "white"
+                    }
+                  ]
+                },
+                {
+                  "type": "ltminigames:play_sound",
+                  "sound": "ltminigames:escape_race.room_5.sound_6"
+                }
+              ],
+              "80": [
+                {
+                  "type": "ltminigames:send_message",
+                  "message": [
+                    { "text": "Izzy Illager: ", "bold": true, "color": "red" },
+                    {
+                      "text": "That promotion was mine and you stole it from me! After everything we've been through... I'll never be head of forklifts now.\n ",
+                      "color": "white"
+                    }
+                  ]
+                },
+                {
+                  "type": "ltminigames:play_sound",
+                  "sound": "ltminigames:escape_race.room_5.izzy.sound_2"
+                }
+              ]
+            }
           }
         ],
         "target": "all_players",
