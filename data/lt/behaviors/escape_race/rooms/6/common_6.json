@@ -336,6 +336,7 @@
       "fallDamage": "false",
       "doTileDrops": "false",
       "doFireTick": "false",
+      "doMobLoot": "false",
       "naturalRegeneration": "false",
       "mobGriefing": "false",
       "locatorBar": "false",
