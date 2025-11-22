@@ -229,6 +229,107 @@
     ]
   },
   {
+    "type": "ltminigames:block_in_region",
+    "region": "farm_land",
+    "run_once": true,
+    "predicate": {
+      "blocks": ["#lt:escape_race_5_crops"]
+    },
+    "target": "all_players",
+    "actions": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:block_in_region",
+    "region": "redstone_lamp",
+    "run_once": true,
+    "predicate": {
+      "blocks": "minecraft:waxed_copper_bulb",
+      "state": {
+        "lit": "true"
+      }
+    },
+    "target": "all_players",
+    "actions": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:apply_to",
+    "target": [
+      {
+        "type": "filter_entities",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "items": ["ltextras:orange_glasses"]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "wearing_glasses",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "wearing_glasses",
+    "threshold": 1,
+    "actions": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:statistic_threshold",
+    "statistic": "code_items",
+    "threshold": 1,
+    "actions": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "vacation_days",
+        "amount": 2,
+        "scope": "team"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:item_put_in_item_frame",
+    "tags": ["code_1", "code_2", "code_3"],
+    "item_predicate": {
+      "items": ["minecraft:iron_ingot", "ltextras:battery", "ltextras:steering_wheel"]
+    },
+    "matches": [
+      {
+        "type": "ltminigames:increment_statistic",
+        "statistic": "code_items",
+        "amount": 1,
+        "scope": "team"
+      }
+    ]
+  },
+  {
     "type": "ltminigames:while_in_region",
     "run_once": "once",
     "regions": {
