@@ -1,0 +1,258 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "id": "slowness_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "ltminigames.minigame.donation.slowness_package"},
+    "description": {"translate": "ltminigames.minigame.donation.slowness_package.description"},
+    "donation_amount": 15.0,
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.slowness_package.toast",
+        "color": "red"
+      },
+      "icon": {"effect": "minecraft:slowness"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:slowness",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_upsidedown_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Upsidedown"},
+    "description": {"translate": "Applies the Upsidedown model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Upsidedown",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_upsidedown"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_upsidedown",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_enlarged_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Enlarged"},
+    "description": {"translate": "Applies the Enlarged model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Enlarged",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_enlarged"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_enlarged",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_flai_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Flail"},
+    "description": {"translate": "Applies the Flail model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Flail",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_flail"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_flail",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_hop_walk_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Hop Walk"},
+    "description": {"translate": "Applies the Hop Walk model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Hop Walk",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_hop_walk"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_hop_walk",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_hovering_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Hovering"},
+    "description": {"translate": "Applies the Hovering model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Upsidedown",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_hovering"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_hovering",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_shuffle",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Shuffle"},
+    "description": {"translate": "Applies the Shuffle model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Shuffle",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_shuffle"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_shuffle",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mm_stiff_legs_package",
+    "package_type": "care_package",
+    "category": "small",
+    "player_select": "specific",
+    "name": {"translate": "Model Modifier - Stiff Legs"},
+    "description": {"translate": "Applies the Stiff Legs model modifier to a player for 60 seconds."},
+    "donation_amount": 5.0,
+    "notification": {
+      "message": {
+        "translate": "Model Modifier - Stiff Legs",
+        "color": "red"
+      },
+      "icon": {"effect": "ltextras:mm_stiff_legs"},
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": [
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "ltextras:mm_stiff_legs",
+            "seconds": 60,
+            "amplifier": 4
+          }
+        ]
+      }
+    ]
+  }
+]
