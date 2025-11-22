@@ -48,6 +48,26 @@
     ]
   },
   {
+    "type": "ltminigames:spawn_entity_at_regions",
+    "entity": {
+      "type": "minecraft:guardian",
+      "tag": {
+        "Invulnerable": true,
+        "CustomName": "Terry's Assistant",
+        "PersistenceRequired": true,
+        "attributes": [
+          {
+            "base": 6,
+            "id": "neoforge:nametag_distance"
+          }
+        ]
+      }
+    },
+    "regions_to_spawn_at": ["guardians"],
+    "entity_count_per_region": 3,
+    "at_heightmap": false
+  },
+  {
     "type": "lt:escape_race/rooms/3/rain",
     "interval": 50,
     "max_delay": 55,
