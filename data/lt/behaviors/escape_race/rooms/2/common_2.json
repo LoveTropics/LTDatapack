@@ -1,5 +1,6 @@
 [
   "lt:escape_race/rooms/common",
+  "ltminigames:disable_hunger",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
