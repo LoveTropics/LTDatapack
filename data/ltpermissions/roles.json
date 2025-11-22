@@ -44,7 +44,12 @@
       },
       "commands": {
         "fly": "allow",
-        "gamemode": "allow"
+        "gamemode": "allow",
+        "game join": "allow",
+        "game spectate": "allow",
+        "game play": "allow",
+        "game leave": "allow",
+        "game register": "allow"
       },
       "waypoint_icon": {
         "style": "lt:host",
@@ -238,11 +243,6 @@
     "overrides": {
       "commands": {
         "help": "allow",
-        "game join": "allow",
-        "game spectate": "allow",
-        "game play": "allow",
-        "game leave": "allow",
-        "game register": "allow",
         "me": "allow",
         "w": "allow",
         "tell": "allow",
