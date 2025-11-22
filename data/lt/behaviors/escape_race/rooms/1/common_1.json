@@ -62,6 +62,49 @@
   },
   {
     "type": "ltminigames:block_in_region",
+    "region": "progress_redstone_1",
+    "run_once": true,
+    "predicate": {
+      "blocks": "minecraft:redstone",
+      "state": {
+        "power": 12
+      }
+    },
+    "actions": [
+      {
+        "actions": {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "vacation_days",
+          "amount": 5,
+          "scope": "team"
+        },
+        "target": [
+          "participants",
+          {
+            "type": "limit_entities",
+            "count": 1
+          }
+        ],
+        "type": "ltminigames:apply_to"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:while_in_region",
+    "regions": {
+      "progress_reach_area_1":  [
+          {
+            "type": "ltminigames:increment_statistic",
+            "statistic": "vacation_days",
+            "amount": 5,
+            "scope": "team"
+          }
+      ]
+    },
+    "run_once": true
+  },
+  {
+    "type": "ltminigames:block_in_region",
     "region": "should_end",
     "run_once": true,
     "predicate": {
