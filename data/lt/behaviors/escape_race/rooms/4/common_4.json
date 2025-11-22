@@ -603,5 +603,24 @@
       "7": "water_level_3"
     },
     "step_interval": 10
+  },
+  {
+    "type": "ltminigames:distribute_loot",
+    "region": "flood_area",
+    "block_entity_type": "minecraft:chest",
+    "item": {
+      "id": "minecraft:redstone",
+      "components": {
+        "minecraft:can_place_on": [
+          {
+            "blocks": [
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots"
+            ]
+          }
+        ]
+      }
+    },
+    "count": 32
   }
 ]
