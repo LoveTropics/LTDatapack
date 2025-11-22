@@ -33,6 +33,7 @@
   },
   "lt:escape_race/rooms/5/barrels",
   "ltminigames:disable_hunger",
+  "ltminigames:cancel_player_attacks",
   {
     "type": "ltminigames:on_spawn",
     "role": "participant",
