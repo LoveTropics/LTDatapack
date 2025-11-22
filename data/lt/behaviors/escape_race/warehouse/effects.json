@@ -25,15 +25,10 @@
           {
             "type": "minecraft:slowness",
             "seconds": 10,
-            "amplifier": 2,
+            "amplifier": 3,
             "particles": false
           }
         ]
-      },
-      {
-        "type": "ltminigames:damage_player",
-        "source": "minecraft:cactus",
-        "amount": 1
       }
     ],
     "tick_frequency": 30
