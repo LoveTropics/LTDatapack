@@ -124,79 +124,40 @@
     "type": "ltminigames:scheduled_actions",
     "target": "all_players",
     "actions": {
-      "0": {
-        "type": "ltminigames:show_title",
-        "title": {
-          "text": "◌̗",
-          "font": "lt:ui",
-          "color": "black"
-        },
-        "fade_in": 0,
-        "stay": 2,
-        "fade_out": 2
-      },
-      "2": [{
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          { "text": "HELLOOOOOO?!\n ", "color": "white" }
-        ]
-      }, {
-        "type": "ltminigames:play_sound",
-        "sound": "ltminigames:escape_race.room_5.sound_1"
-      }
-      ],
-      "3": [
+      "0": [
         {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          { "text": "Is anybody there?!\n ", "color": "white" }
-        ]
-        }, {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.room_5.sound_2"
-        }
-      ],
-      "5": [
-        {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          { "text": "I'VE BEEN TRAPPED!\n", "color": "white" }
-        ]
-        }, {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.room_5.sound_3"
-        }
-      ],
-      "6": [
-        {
-          "type": "ltminigames:send_message",
-          "message": [
-            {"text": "Izzy Illusioner: ", "bold": true, "color": "red"},
-            {"text": "Hey, shut it you. Nobody's coming.... Oh... except... you.. People! The only way they're going to get you out of here is if they break this wall down!\n ", "color": "white"}
-          ]
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "◌̗",
+            "font": "lt:ui",
+            "color": "black"
+          },
+          "fade_in": 0,
+          "stay": 2,
+          "fade_out": 2
         },
         {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.room_5.izzy.sound_1"
-        }
-      ],
-      "13": [
-        {
-          "type": "ltminigames:send_message",
-          "message": [
-            { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-            {
-              "text": "Izzy might look tough, but it's all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!\n ",
-              "color": "white"
+          "type": "ltminigames:simple_dialog",
+          "target": "all_players",
+          "speakers": {
+            "gary": {"name": {"text": "Gary Gibnut", "color": "green"}},
+            "izzy": {"name": {"text": "Izzy Illusioner", "color": "red"}}
+          },
+          "entries": {
+            "2": {"speaker": "gary", "line": "HELLOOOOOO?!", "sound": "ltminigames:escape_race.room_5.sound_1"},
+            "3": {"speaker": "gary", "line": "Is anybody there?!", "sound": "ltminigames:escape_race.room_5.sound_2"},
+            "5": {"speaker": "gary", "line": "I'VE BEEN TRAPPED!", "sound": "ltminigames:escape_race.room_5.sound_3"},
+            "6": {
+              "speaker": "izzy",
+              "line": "Hey, shut it you. Nobody's coming.... Oh... except... you.. People! The only way they're going to get you out of here is if they break this wall down!",
+              "sound": "ltminigames:escape_race.room_5.izzy.sound_1"
+            },
+            "13": {
+              "speaker": "gary",
+              "line": "Izzy might look tough, but it's all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!",
+              "sound": "ltminigames:escape_race.room_5.sound_5"
             }
-          ]
-        },
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.room_5.sound_5"
+          }
         }
       ],
       "15": {
@@ -293,45 +254,17 @@
         "region": "forklift_vault_door"
       },
       {
-        "actions": [
-          {
-            "type": "ltminigames:delayed_sequence",
-            "actions": {
-              "0": [
-                {
-                  "type": "ltminigames:send_message",
-                  "message": [
-                    { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-                    {
-                      "text": "Great! You've got the forklift, now drive it straight at me!\n ",
-                      "color": "white"
-                    }
-                  ]
-                },
-                {
-                  "type": "ltminigames:play_sound",
-                  "sound": "ltminigames:escape_race.room_5.sound_6"
-                }
-              ],
-              "80": [
-                {
-                  "type": "ltminigames:send_message",
-                  "message": [
-                    { "text": "Izzy Illager: ", "bold": true, "color": "red" },
-                    {
-                      "text": "That promotion was mine and you stole it from me! After everything we've been through... I'll never be head of forklifts now.\n ",
-                      "color": "white"
-                    }
-                  ]
-                },
-                {
-                  "type": "ltminigames:play_sound",
-                  "sound": "ltminigames:escape_race.room_5.izzy.sound_2"
-                }
-              ]
-            }
+        "actions":  {
+          "type": "ltminigames:simple_dialog",
+          "speakers": {
+            "gary": {"name": {"text": "Gary Gibnut", "color": "green"}},
+            "izzy": {"name": {"text": "Izzy Illusioner", "color": "red"}}
+          },
+          "entries": {
+            "0": {"speaker": "gary", "line": "Great! You've got the forklift, now drive it straight at me!?!", "sound": "ltminigames:escape_race.room_5.sound_6"},
+            "4": {"speaker": "izzy", "line": "That promotion was mine and you stole it from me! After everything we've been through... I'll never be head of forklifts now.", "sound": "ltminigames:escape_race.room_5.izzy.sound_2"}
           }
-        ],
+        },
         "target": "all_players",
         "type": "ltminigames:apply_to"
       }
