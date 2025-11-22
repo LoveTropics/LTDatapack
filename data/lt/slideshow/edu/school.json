@@ -1,0 +1,11 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/school.png",
+      "duration": 100.0
+    }
+  ]
+}
