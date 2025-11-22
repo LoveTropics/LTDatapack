@@ -154,7 +154,6 @@
     }
   },
   "ltminigames:escape_race/vacation_days",
-  "lt:escape_race/packages/donations",
   "lt:escape_race/warehouse/flow",
   {
     "type": "ltminigames:escape_race/break_bucks",
