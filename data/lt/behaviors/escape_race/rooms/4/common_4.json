@@ -609,7 +609,7 @@
     "region": "flood_area",
     "block_entity_type": "minecraft:chest",
     "item": {
-      "id": "minecraft:redstone",
+      "id": "ltextras:plumbers_tnt",
       "components": {
         "minecraft:can_place_on": [
           {
