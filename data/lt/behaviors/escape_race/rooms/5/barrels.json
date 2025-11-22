@@ -12,7 +12,7 @@
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_3",
-    "loot_table": "lt:escape_race/room_5/paper"
+    "loot_table": "lt:escape_race/room_5/arrows"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
@@ -22,7 +22,7 @@
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_5",
-    "loot_table": "lt:escape_race/room_5/orange_glasses"
+    "loot_table": "lt:escape_race/room_5/amethyst_shards"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
@@ -67,12 +67,12 @@
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_14",
-    "loot_table": "lt:escape_race/room_5/string"
+    "loot_table": "lt:escape_race/room_5/batteries"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_15",
-    "loot_table": "lt:escape_race/room_5/batteries"
+    "loot_table": "lt:escape_race/room_5/ender_pearls"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
@@ -87,12 +87,12 @@
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_18",
-    "loot_table": "lt:escape_race/room_5/button"
+    "loot_table": "lt:escape_race/room_5/bows"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_19",
-    "loot_table": "lt:escape_race/room_5/green_glasses"
+    "loot_table": "lt:escape_race/room_5/beach_floats"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
@@ -112,16 +112,16 @@
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_23",
-    "loot_table": "lt:escape_race/room_5/bulbs"
+    "loot_table": "lt:escape_race/room_5/steering_wheel"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_24",
-    "loot_table": "lt:escape_race/room_5/blue_glasses"
+    "loot_table": "lt:escape_race/room_5/baked_potatoes"
   },
   {
     "type": "ltminigames:fill_container_in_region_with_loot_table",
     "region": "barrel_25",
-    "loot_table": "lt:escape_race/room_5/steering_wheel"
+    "loot_table": "lt:escape_race/room_5/bulbs"
   }
 ]

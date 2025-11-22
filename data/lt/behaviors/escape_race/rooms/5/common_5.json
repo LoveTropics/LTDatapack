@@ -375,40 +375,21 @@
     ]
   },
   {
-    "type": "ltminigames:apply_to",
-    "target": [
-      {
-        "type": "filter_entities",
-        "predicate": {
-          "equipment": {
-            "head": {
-              "items": ["ltextras:orange_glasses"]
-            }
-          }
+    "type": "ltminigames:events/player/tick",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": ["ltextras:orange_glasses", "ltextras:blue_glasses", "ltextras:green_glasses"]
         }
       }
-    ],
-    "actions": [
-      {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "wearing_glasses",
-        "amount": 1,
-        "scope": "team"
-      }
-    ]
-  },
-  {
-    "type": "ltminigames:statistic_threshold",
-    "statistic": "wearing_glasses",
-    "threshold": 1,
-    "actions": [
-      {
-        "type": "ltminigames:increment_statistic",
-        "statistic": "vacation_days",
-        "amount": 1,
-        "scope": "team"
-      }
-    ]
+    },
+    "actions": {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "vacation_days",
+      "amount": 1,
+      "scope": "team"
+    },
+    "max_runs": 1
   },
   {
     "type": "ltminigames:statistic_threshold",

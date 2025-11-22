@@ -6,8 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:string",
+          "name": "minecraft:baked_potato",
           "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0.0,
+                  "can_always_eat": true
+                }
+              }
+            },
             {
               "function": "minecraft:set_count",
               "count": {

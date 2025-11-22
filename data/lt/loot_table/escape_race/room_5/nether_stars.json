@@ -14,16 +14,6 @@
                 "min": 17,
                 "max": 49
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:can_place_on": [
-                  {
-                    "blocks": "minecraft:farmland"
-                  }
-                ]
-              }
             }
           ]
         }
