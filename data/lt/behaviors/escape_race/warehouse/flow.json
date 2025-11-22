@@ -10,7 +10,7 @@
         ]
       },
       "room_racing_1": {
-        "timer_length_ticks": 12000,
+        "timer_length_ticks": 18000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_1",
         "start_actions": [
@@ -37,20 +37,9 @@
         "start_actions": {
           "type": "ltminigames:start_microgames",
           "games": [
-            "lt:crafting_bee",
-            "lt:connect_four",
-            "lt:block_party/teams",
-            "lt:de_a_coudre/normal",
-            "lt:crab_hockey",
-            "lt:columns_of_chaos/normal",
-            "lt:treasure_dig",
-            "lt:villager_hunt",
-            "lt:eruptive_spleef/teams",
-            "lt:paint_party",
-            "lt:parkour_race",
-            "lt:dodgeball/teams"
+            "lt:columns_of_chaos/normal"
           ],
-          "games_per_round": 4,
+          "games_per_round": 1,
           "on_complete": {
             "type": "ltminigames:escape_race/named_stages/progress"
           }
@@ -74,7 +63,7 @@
         ]
       },
       "room_racing_2": {
-        "timer_length_ticks": 12000,
+        "timer_length_ticks": 18000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_2",
         "start_actions": [
@@ -102,7 +91,7 @@
         "end_actions": ["lt:escape_race/warehouse/break_room_end"]
       },
       "room_racing_3": {
-        "timer_length_ticks": 12000,
+        "timer_length_ticks": 18000,
         "auto_move_on": true,
         "next_stage": "racing_wind_down_3",
         "start_actions": [
@@ -129,20 +118,9 @@
         "start_actions": {
           "type": "ltminigames:start_microgames",
           "games": [
-            "lt:crafting_bee",
-            "lt:connect_four",
-            "lt:block_party/teams",
-            "lt:de_a_coudre/normal",
-            "lt:crab_hockey",
-            "lt:columns_of_chaos/normal",
-            "lt:treasure_dig",
-            "lt:villager_hunt",
-            "lt:eruptive_spleef/teams",
-            "lt:paint_party",
-            "lt:parkour_race",
-            "lt:dodgeball/teams"
+            "lt:connect_four"
           ],
-          "games_per_round": 4,
+          "games_per_round": 1,
           "on_complete": {
             "type": "ltminigames:escape_race/named_stages/progress"
           }
