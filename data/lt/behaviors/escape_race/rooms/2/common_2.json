@@ -24,8 +24,17 @@
     "named_points": {
       "start": 0,
       "phone_call_intro": 10,
+      "phone_call_intro_1": 16,
+      "phone_call_intro_2": 21,
+      "phone_call_intro_3": 30,
+      "phone_call_intro_4": 38,
+      "phone_call_intro_5": 46,
+      "phone_call_intro_6": 51,
       "trash_phase_one": 20,
       "phone_call_code": 90,
+      "phone_call_code_1": 97,
+      "phone_call_code_2": 111,
+      "phone_call_code_3": 117,
       "trash_phase_two": 90,
       "trash_phase_three": 115,
       "trash_phase_four": 150,
@@ -44,45 +53,34 @@
   },
   "ltminigames:force_hands",
   {
+    "type": "ltminigames:simple_dialog",
+    "progress_channel": "main",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "phone_call_intro": {"speaker": "terry", "line": "Hey, is this thing on? Can you hear me? Yes, excellent. That's going to be important.", "sound": "ltminigames:escape_race.terry_trash.sound_1"},
+      "phone_call_intro_1": {"speaker": "terry", "line": "Look, I'll keep it short - the lawyers tell me we messed up."},
+      "phone_call_intro_2": {"speaker": "terry", "line": "Turns out, when you promise a recycling initiative for tax breaks, you actually have to follow up on that. Stupid, I know."},
+      "phone_call_intro_3": {"speaker": "terry", "line": "Anyways, that's where you come in. We've got trash, you've got hands. And the room has bins. Couldn't make it any easier if you tried."},
+      "phone_call_intro_4": {"speaker": "terry", "line": "Wait, what if the bins had hands? That's good - get the lab on that."},
+      "phone_call_intro_5": {"speaker": "terry", "line": "Anyways, in the meantime, we'll have to make do with you. Good luck!"},
+      "phone_call_intro_6": {"speaker": "terry", "line": "Hands! Bins! Right away!"},
+      "phone_call_code": {"speaker": "terry", "line": "If they can't reach, then make them longer. No, not the bins - the arms!", "sound": "ltminigames:escape_race.terry_trash.sound_2"},
+      "phone_call_code_1": {"speaker": "terry", "line": "Wait- the red light means on? Then what does the green mean? Off? Who chose that? Me? Get out!"},
+      "phone_call_code_2": {"speaker": "terry", "line": "Also - important update: we found out what those lights on the walls do. Turns out, they're a code."},
+      "phone_call_code_3": {"speaker": "terry", "line": "Put trash in the slots, pull the switch, and see what's right. If that doesn't work... blame the lab."},
+      "phone_call_boom": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_3"},
+      "phone_call_two_minutes": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_4"},
+      "phone_call_30_seconds": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_5"},
+      "phone_call_5_seconds": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_6"}
+    }
+  },
+  {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
-      "phone_call_intro": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_1"
-        }
-      ],
-      "phone_call_code": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_2"
-        }
-      ],
-      "phone_call_boom": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_3"
-        }
-      ],
-      "phone_call_two_minutes": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_4"
-        }
-      ],
-      "phone_call_30_seconds": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_5"
-        }
-      ],
-      "phone_call_5_seconds": [
-        {
-          "type": "ltminigames:play_sound",
-          "sound": "ltminigames:escape_race.terry_trash.sound_6"
-        }
-      ],
       "stop": ["ltminigames:end_game"],
       "end": ["ltminigames:close_game"]
     }
