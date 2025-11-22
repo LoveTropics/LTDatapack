@@ -1,0 +1,16 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "45": {
+        "speaker": "terry",
+        "line": "Stop slacking! There's work to do.",
+        "sound": "ltminigames:escape_race.warehouse.7"
+      }
+    }
+  }
+]

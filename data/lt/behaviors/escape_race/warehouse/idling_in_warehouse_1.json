@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ltminigames:simple_dialog",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "45": {
+        "speaker": "terry",
+        "line": "We're on a deadline here, folks! And these rooms won't sort themselves.",
+        "sound": "ltminigames:escape_race.warehouse.5"
+      },
+      "49": {
+        "speaker": "terry",
+        "line": "Trust me, we've tried."
+      }
+    }
+  }
+]

@@ -30,6 +30,22 @@
     }
   },
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+    }
+  },
+  {
+    "type": "ltminigames:simple_dialog",
+    "progress_channel": "main",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_4.1"}
+    }
+  },
+  {
     "type": "ltminigames:set_role",
     "role": "participant",
     "actions": [
@@ -301,6 +317,19 @@
         "statistic": "vacation_days",
         "amount": 2,
         "scope": "team"
+      },
+      {
+        "type": "ltminigames:simple_dialog",
+        "target": "all_players",
+        "speakers": {
+          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+        },
+        "entries": {
+          "0": {
+            "speaker": "terry",
+            "sound": "ltminigames:escape_race.room_4.2"
+          }
+        }
       }
     ]
   },
@@ -338,6 +367,19 @@
         "statistic": "vacation_days",
         "amount": 2,
         "scope": "team"
+      },
+      {
+        "type": "ltminigames:simple_dialog",
+        "target": "all_players",
+        "speakers": {
+          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+        },
+        "entries": {
+          "0": {
+            "speaker": "terry",
+            "sound": "ltminigames:escape_race.room_4.3"
+          }
+        }
       }
     ]
   },
@@ -449,6 +491,19 @@
         "statistic": "vacation_days",
         "amount": 2,
         "scope": "team"
+      },
+      {
+        "type": "ltminigames:simple_dialog",
+        "target": "all_players",
+        "speakers": {
+          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+        },
+        "entries": {
+          "0": {
+            "speaker": "terry",
+            "sound": "ltminigames:escape_race.room_4.4"
+          }
+        }
       }
     ]
   },

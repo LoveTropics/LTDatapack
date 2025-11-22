@@ -33,6 +33,22 @@
     }
   },
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+    }
+  },
+  {
+    "type": "ltminigames:simple_dialog",
+    "progress_channel": "main",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_1.intro.1"}
+    }
+  },
+  {
     "type": "ltminigames:modify_loot_tables",
     "replace": {
       "minecraft:blocks/redstone_wire": {
@@ -117,11 +133,21 @@
     "actions": [
       "ltminigames:end_game",
       {
-        "type": "ltminigames:send_message",
-        "message": {
-          "translate": "You have braved the dark and Turned on the Lights, well done!",
-          "color": "gold",
-          "italic": true
+        "type": "ltminigames:simple_dialog",
+        "target": "all_players",
+        "speakers": {
+          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+        },
+        "entries": {
+          "3": {
+            "speaker": "terry",
+            "line": "Good work! Someone that finally got the job done.",
+            "sound": "ltminigames:escape_race.room_1.win"
+          },
+          "7": {
+            "speaker": "terry",
+            "line": "The bean counters tell me that the feeding costs for Little Terror are the cause for the books not balancing. Can't think why that would be."
+          }
         }
       },
       {
@@ -139,7 +165,7 @@
   },
   {
     "type": "ltminigames:game_end_effects",
-    "stop_delay": 100
+    "stop_delay": 360
   },
   {
     "type": "ltminigames:on_spawn",

@@ -17,7 +17,8 @@
           {
             "type": "ltminigames:escape_race/block_rooms",
             "blocked": false
-          }
+          },
+          "lt:escape_race/warehouse/idling_in_warehouse_1"
         ],
         "end_actions": [
           {
@@ -80,7 +81,8 @@
           {
             "type": "ltminigames:escape_race/block_rooms",
             "blocked": false
-          }
+          },
+          "lt:escape_race/warehouse/idling_in_warehouse_2"
         ],
         "end_actions": [
           {
@@ -107,7 +109,8 @@
           {
             "type": "ltminigames:escape_race/block_rooms",
             "blocked": false
-          }
+          },
+          "lt:escape_race/warehouse/idling_in_warehouse_2"
         ],
         "actions": ["lt:escape_race/warehouse/wind_down_start"]
       },

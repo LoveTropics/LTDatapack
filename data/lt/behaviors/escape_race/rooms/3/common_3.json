@@ -24,6 +24,23 @@
     }
   },
   {
+    "type": "ltminigames:progression",
+    "named_points": {
+    }
+  },
+  {
+    "type": "ltminigames:simple_dialog",
+    "progress_channel": "main",
+    "target": "all_players",
+    "speakers": {
+      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+    },
+    "entries": {
+      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_3.intro.1"},
+      "32": {"speaker": "terry", "sound": "ltminigames:escape_race.room_3.intro.2"}
+    }
+  },
+  {
     "type": "ltminigames:statistic_threshold",
     "statistic": "points",
     "threshold": 3,

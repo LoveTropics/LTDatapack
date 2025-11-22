@@ -48,7 +48,10 @@
     "type": "ltminigames:item_dropper",
     "loot": [
       {
-        "id": "$item"
+        "id": "$item",
+        "components": {
+          "ltextras:max_picked_up": 1
+        }
       }
     ],
     "region": "$color",

@@ -8,8 +8,18 @@
     "entries": {
       "5": {
         "speaker": "terry",
+        "line": "I don't recommend walking on the warehouse floor. It's a bit spiky.",
+        "sound": "ltminigames:escape_race.warehouse.2"
+      },
+      "18": {
+        "speaker": "terry",
         "line": "If you don't have a certificate - don't drive the forklifts! I have made that mistake for the last shift...",
         "sound": "ltminigames:escape_race.warehouse.4"
+      },
+      "35": {
+        "speaker": "terry",
+        "line": "Legal tell me you aren't covered by the company health insurance... so just bear that in mind.",
+        "sound": "ltminigames:escape_race.room_1.generic"
       }
     }
   }
