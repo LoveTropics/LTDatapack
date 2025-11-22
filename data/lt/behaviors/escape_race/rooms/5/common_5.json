@@ -61,64 +61,70 @@
         "stay": 2,
         "fade_out": 2
       },
-      "2": {
+      "2": [{
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
           { "text": "HELLOOOOOO?!\n ", "color": "white" }
         ]
-      },
-      "3": {
+      }, {
+        "type": "ltminigames:play_sound",
+        "sound": "ltminigames:escape_race.room_5.sound_1"
+      }
+      ],
+      "3": [
+        {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
           { "text": "Is anybody there?!\n ", "color": "white" }
         ]
-      },
-      "5": {
+        }, {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.room_5.sound_2"
+        }
+      ],
+      "5": [
+        {
         "type": "ltminigames:send_message",
         "message": [
           { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
           { "text": "I'VE BEEN TRAPPED!\n", "color": "white" }
         ]
-      },
-      "6": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Izzy Illusioner: ", "bold": true, "color": "red" },
-          { "text": "Shut it you. Nobody's coming.\n ", "color": "white" }
-        ]
-      },
-      "9": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          {
-            "text": "Wait I can hear someone! Help me! Please! You've got to break me out of here!\n",
-            "color": "white"
-          }
-        ]
-      },
-      "12": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Izzy Illusioner: ", "bold": true, "color": "red" },
-          {
-            "text": "Urgh. People.... The only way they're going to get you out of here is if they break this wall down! \n ",
-            "color": "white"
-          }
-        ]
-      },
-      "13": {
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-          {
-            "text": "Izzy might look tough, but it's all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!\n ",
-            "color": "white"
-          }
-        ]
-      },
+        }, {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.room_5.sound_3"
+        }
+      ],
+      "6": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {"text": "Izzy Illusioner: ", "bold": true, "color": "red"},
+            {"text": "Hey, shut it you. Nobody's coming.... Oh... except... you.. People! The only way they're going to get you out of here is if they break this wall down!\n ", "color": "white"}
+          ]
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.room_5.izzy.sound_1"
+        }
+      ],
+      "13": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+            {
+              "text": "Izzy might look tough, but it's all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!\n ",
+              "color": "white"
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "ltminigames:escape_race.room_5.sound_5"
+        }
+      ],
       "15": {
         "type": "ltminigames:set_blocks",
         "region": ["paracord_hatch"],
@@ -213,16 +219,22 @@
         "region": "forklift_vault_door"
       },
       {
-        "actions": {
-          "type": "ltminigames:send_message",
-          "message": [
-            { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
-            {
-              "text": "Great! You've got the forklift, now drive it straight at me!\n ",
-              "color": "white"
-            }
-          ]
-        },
+        "actions": [
+          {
+            "type": "ltminigames:send_message",
+            "message": [
+              { "text": "Gary Gibnut: ", "bold": true, "color": "green" },
+              {
+                "text": "Great! You've got the forklift, now drive it straight at me!\n ",
+                "color": "white"
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "ltminigames:escape_race.room_5.sound_6"
+          }
+        ],
         "target": "all_players",
         "type": "ltminigames:apply_to"
       }
@@ -334,6 +346,21 @@
     "run_once": "once",
     "regions": {
       "end_room": [
+        {
+          "type": "ltminigames:apply_to",
+          "target": ["participants"],
+          "actions": [
+            {
+              "type": "ltminigames:fade_to_black"
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "vacation_days",
+          "amount": 1,
+          "scope": "team"
+        },
         {
           "type": "ltminigames:close_game"
         }
