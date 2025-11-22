@@ -317,8 +317,11 @@
         "delay": 200,
         "actions": [
           {
-            "type": "ltminigames:close_game",
+            "type": "ltminigames:end_game",
             "win_by_source": "player"
+          },
+          {
+            "type": "ltminigames:close_game"
           },
           {
             "type": "ltminigames:increment_statistic",
