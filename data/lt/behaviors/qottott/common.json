@@ -37,10 +37,6 @@
   {
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
-    "death_message": {
-      "text": "☠ %message%",
-      "color": "gray"
-    },
     "drop_inventory": false,
     "respawn_action": "lt:qottott/respawn"
   },
