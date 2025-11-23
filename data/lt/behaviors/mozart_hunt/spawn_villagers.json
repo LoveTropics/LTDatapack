@@ -31,7 +31,8 @@
             "disguise": {
               "entity": {
                 "id": "dummyplayers:dummy_player",
-                "profile": "Mozart"
+                "profile": "Mozart",
+                "NoBasePlate": true
               }
             }
           }

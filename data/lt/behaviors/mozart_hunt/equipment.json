@@ -7,9 +7,13 @@
         "type": "ltminigames:set_disguise",
         "entity": {
           "id": "dummyplayers:dummy_player",
-          "profile": "Mozart"
+          "profile": "Mozart",
+          "NoBasePlate": true
         },
-        "custom_name": "Wolfgang Amadeus Mozart"
+        "custom_name": {
+          "text": "Wolfgang Amadeus Mozart",
+          "color": "white"
+        }
       },
       {
         "type": "ltminigames:add_equipment",
