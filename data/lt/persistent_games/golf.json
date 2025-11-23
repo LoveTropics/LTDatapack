@@ -174,7 +174,7 @@
       "hole_region": "golf_hole_20k_end",
       "button_region": "golf_hole_20k_start",
       "winner_region": "golf_hole_20k_winner",
-      "winner_rotation": 0
+      "winner_rotation": -135
     },
     {
       "type": "ltminigames:crab_golf_hole",
