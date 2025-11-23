@@ -23,7 +23,9 @@
     "entity": {
       "type": "ltextras:forklift",
       "tag": {
-        "ShouldPickupEntities": false
+        "ShouldPickupEntities": false,
+        "SpeedBoostStrength": 0.15,
+        "SpeedBoostTicks": 9999999
       }
     }
   },
