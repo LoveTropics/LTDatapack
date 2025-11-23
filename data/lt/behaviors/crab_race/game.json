@@ -27,9 +27,22 @@
         "attributes": [
           {
             "id": "minecraft:movement_speed",
-            "base": 5.0
+            "base": 7.0
+          },
+          {
+            "id": "minecraft:step_height",
+            "base": 0.0
           }
-        ]
+        ],
+        "neoforge:attachments": {
+          "peekaboo:disguise": {
+            "disguise": {
+              "entity": {
+                "id": "tropicraft:fiddler_crab"
+              }
+            }
+          }
+        }
       }
     }
   },
