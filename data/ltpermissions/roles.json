@@ -1,6 +1,6 @@
 {
   "organiser": {
-    "includes": ["administration"],
+    "includes": ["administration", "whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#2ecc71"
@@ -107,7 +107,6 @@
     }
   },
   "fake_op": {
-    "includes": ["whitelisted"],
     "overrides": {
       "op_level": 2,
       "worldedit_allowed": true,
@@ -150,7 +149,6 @@
     }
   },
   "privileged": {
-    "includes": ["whitelisted"],
     "overrides": {
       "commands": {
         "kick": "allow",
@@ -179,7 +177,6 @@
     }
   },
   "donator": {
-    "includes": ["whitelisted"]
   },
   "event_overlord": {
     "overrides": {
@@ -198,7 +195,7 @@
     "overrides": {
       "host": true,
       "join_access": {
-        "allows_joining": true,
+        "allows_joining": false,
         "not_whitelisted_message": {
           "translate": "lt.whitelist.mysty_event.not_started"
         }
