@@ -64,6 +64,15 @@
       }
     }
   },
+  "game_manager": {
+    "includes": ["trusted"],
+    "overrides": {
+      "op_level": 2,
+      "commands": {
+        "game .*": "allow"
+      }
+    }
+  },
   "modder": {
     "includes": ["trusted"],
     "overrides": {
