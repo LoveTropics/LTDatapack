@@ -1,5 +1,7 @@
 {
-  "name": "Speedrun Bingo!",
+  "name": {
+    "translate": "Speedrun Bingo!"
+  },
   "statistics_key": "bingo",
   "maximum_participants": 1,
   "map": {
