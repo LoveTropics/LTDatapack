@@ -157,7 +157,14 @@
       "hole_region": "golf_hole_15k_end",
       "button_region": "golf_hole_15k_start",
       "winner_region": "golf_hole_15k_winner",
-      "winner_rotation": -45
+      "winner_rotation": -45,
+      "teleporters": [
+        {
+          "out": "golf_hole_15k_teleporter_in",
+          "in": "golf_hole_15k_teleporter_out",
+          "needs_stop": false
+        }
+      ]
     },
     {
       "type": "ltminigames:crab_golf_hole",
