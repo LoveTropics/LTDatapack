@@ -4,8 +4,8 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "specific",
-  "name": "Shrink player",
-  "description": "Makes the player just a bit smaller",
+  "name": {"translate": "Shrink player"},
+  "description": {"translate": "Makes the player just a bit smaller"},
   "donation_amount": 10.0,
   "notification": {
     "message": {

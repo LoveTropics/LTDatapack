@@ -4,8 +4,10 @@
   "package_type": "care_package",
   "category": "small",
   "player_select": "specific",
-  "name": "Extra Life",
-  "description": "Gives an additional respawn to our beloved host that we absolutely want to survive this game!",
+  "name": {"translate": "Extra Life"},
+  "description": {
+    "translate": "Gives an additional respawn to our beloved host that we absolutely want to survive this game!"
+  },
   "donation_amount": 50.0,
   "notification": {
     "message": {

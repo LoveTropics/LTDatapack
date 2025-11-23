@@ -4,8 +4,10 @@
   "package_type": "care_package",
   "category": "small",
   "player_select": "specific",
-  "name": "Modify Model",
-  "description": "Adds a random model modifier - maybe they will get taller, maybe start flailing around? Who knows! And it compounds!",
+  "name": {"translate": "Modify Model"},
+  "description": {
+    "translate": "Adds a random model modifier - maybe they will get taller, maybe start flailing around? Who knows! And it compounds!"
+  },
   "donation_amount": 10.0,
   "notification": {
     "message": {

@@ -4,8 +4,8 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "specific",
-  "name": "Grow player",
-  "description": "Makes the player just a bit bigger",
+  "name": {"translate": "Grow player"},
+  "description": {"translate": "Makes the player just a bit bigger"},
   "donation_amount": 10.0,
   "notification": {
     "message": {
