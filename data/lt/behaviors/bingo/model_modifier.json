@@ -1,0 +1,36 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "model_modifier",
+  "package_type": "care_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": "Modify Model",
+  "description": "Adds a random model modifier - maybe they will get taller, maybe start flailing around? Who knows! And it compounds!",
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "text": "Your model has been modified!",
+      "color": "light_purple"
+    },
+    "icon": {"item": "ltminigames:ender_arms"},
+    "sentiment": "positive",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": {
+    "type": "ltminigames:randomize",
+    "options": [
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s fabulous"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s flail"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s hovering"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s shuffle"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s upsidedown"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s shrunk"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s enlarged"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s raised_high_heels"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s shruggy_arms"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s ender_arms"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s stiff_legs"]}, "weight": 1},
+      {"data": {"type": "ltminigames:run_commands", "player": ["modelmodifer add @s hop_walk"]}, "weight": 1}
+    ]
+  }
+}
