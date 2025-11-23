@@ -5,7 +5,7 @@
   "category": "small",
   "player_select": "all",
   "name": { "text": "Mozart Mode" },
-  "description": { "translate": "Make Everyone Mozart" },
+  "description": { "text": "Make Everyone Mozart" },
   "donation_amount": 10,
   "notification": {
     "message": {
