@@ -269,7 +269,7 @@
       "join_access": {
         "allows_joining": false,
         "not_whitelisted_message": {
-          "translate": "lt.whitelist.not_whitelisted"
+          "text": "Event is Over :cry:"
         }
       }
     }
