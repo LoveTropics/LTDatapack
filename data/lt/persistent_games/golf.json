@@ -174,7 +174,24 @@
       "hole_region": "golf_hole_20k_end",
       "button_region": "golf_hole_20k_start",
       "winner_region": "golf_hole_20k_winner",
-      "winner_rotation": -135
+      "winner_rotation": -135,
+      "teleporters": [
+        {
+          "out": "golf_hole_20k_1_teleporter_in",
+          "in": "golf_hole_20k_1_teleporter_out",
+          "needs_stop": false
+        },
+        {
+          "out": "golf_hole_20k_2_teleporter_in",
+          "in": "golf_hole_20k_2_teleporter_out",
+          "needs_stop": false
+        },
+        {
+          "out": "golf_hole_20k_3_teleporter_in",
+          "in": "golf_hole_20k_3_teleporter_out",
+          "needs_stop": false
+        }
+      ]
     },
     {
       "type": "ltminigames:crab_golf_hole",
