@@ -1,0 +1,83 @@
+{
+  "name": {
+    "translate": "Mozart Hunt",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      }
+    ]
+  },
+  "statistics_key": "villager_hunt",
+  "backend_id": "lt:villager_hunt",
+  "minimum_participants": 2,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:villager_hunt",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "participants": ["spawn"],
+      "spectators": ["spectators"]
+    },
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "last_team": true
+    },
+    "ltminigames:disable_hunger",
+    "lt:mozart_hunt/equipment",
+    "lt:mozart_hunt/actions",
+    "lt:survive_the_tide/mode/teams/glow",
+    "lt:common/spectator",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "doDaylightCycle": "false",
+        "doWeatherCycle": "false",
+        "doMobSpawning": "false",
+        "fallDamage": "false",
+        "announceAdvancements": "false",
+        "doImmediateRespawn": "true",
+        "naturalRegeneration": "false",
+        "locatorBar": "false",
+        "commandBlockOutput": "false"
+      }
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200
+    },
+    "lt:common/announce_game_over",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    }
+  ]
+}

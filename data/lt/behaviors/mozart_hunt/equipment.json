@@ -1,0 +1,53 @@
+[
+  {
+    "type": "ltminigames:set_role",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:set_disguise",
+        "entity": {
+          "id": "dummyplayers:dummy_player",
+          "profile": "Mozart"
+        }
+      },
+      {
+        "type": "ltminigames:add_equipment",
+        "head": {
+          "id": "minecraft:leather_helmet",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "trim": {
+              "material": "gold",
+              "pattern": "wild"
+            }
+          }
+        },
+        "chest": {
+          "id": "minecraft:leather_chestplate",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        },
+        "color_by_team": true,
+        "hotbar_team_items": {
+          "red": {
+            "id": "minecraft:red_wool",
+            "components": {
+              "item_name": "\"Red Team\"",
+              "ltextras:undroppable": {}
+            }
+          },
+          "blue": {
+            "id": "minecraft:blue_wool",
+            "components": {
+              "item_name": "\"Blue Team\"",
+              "ltextras:undroppable": {}
+            }
+          }
+        }
+      }
+    ]
+  }
+]

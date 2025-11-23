@@ -1,0 +1,45 @@
+[
+  {
+    "type": "ltminigames:spawn_entity_at_regions",
+    "entity": {
+      "type": "minecraft:villager",
+      "tag": {
+        "Health": 5000,
+        "IsBaby": false,
+        "PersistenceRequired": true,
+        "attributes": [
+          {
+            "id": "generic.max_health",
+            "base": 8
+          }
+        ],
+        "equipment": {
+          "head": {
+            "id": "minecraft:leather_helmet",
+            "count": 1,
+            "components": {
+              "unbreakable": {},
+              "enchantments": {
+                "thorns": 6
+              }
+            }
+          }
+        },
+        "CustomName": "Wolfgang Amadeus Mozart",
+        "neoforge:attachments": {
+          "peekaboo:disguise": {
+            "disguise": {
+              "entity": {
+                "id": "dummyplayers:dummy_player",
+                "profile": "Mozart"
+              }
+            }
+          }
+        }
+      }
+    },
+    "regions_to_spawn_at": ["spawn"],
+    "entity_count_per_region": 150,
+    "at_heightmap": false
+  }
+]

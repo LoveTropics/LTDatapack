@@ -1,0 +1,76 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 1
+    }
+  },
+  {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": false
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:hide_name_tags"
+    }
+  },
+  {
+    "type": "ltminigames:phase_triggers/start",
+    "actions": "lt:mozart_hunt/spawn_villagers"
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:max_health",
+        "modifier": {
+          "id": "lt:villager_hunt",
+          "amount": -10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all_players",
+    "actions": {
+      "start": [
+        {
+          "type": "ltminigames:show_title",
+          "message": {
+            "translate": "ltminigames.minigame.go",
+            "color": "green"
+          }
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.respawn_anchor.deplete"
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:periodic_actions",
+    "interval": 400,
+    "actions": "ltminigames:kill",
+    "target": [
+      "all_entities",
+      {
+        "type": "filter_entities",
+        "predicate": {
+          "type": "minecraft:villager"
+        }
+      },
+      {
+        "type": "limit_entities",
+        "count": 25
+      }
+    ]
+  }
+]
