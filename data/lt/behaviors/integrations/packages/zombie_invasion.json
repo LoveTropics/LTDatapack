@@ -6,7 +6,7 @@
   "player_select": "all",
   "name": {"translate": "ltminigames.minigame.donation.zombie_invasion_package"},
   "description": {"translate": "ltminigames.minigame.donation.zombie_invasion_package.description"},
-  "donation_amount": 50.0,
+  "donation_amount": 25.0,
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.zombie_invasion_package.toast",

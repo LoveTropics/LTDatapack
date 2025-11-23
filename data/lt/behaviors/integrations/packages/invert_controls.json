@@ -6,7 +6,7 @@
   "player_select": "all",
   "name": {"translate": "ltminigames.minigame.donation.invert_controls_package"},
   "description": {"translate": "ltminigames.minigame.donation.invert_controls_package.description"},
-  "donation_amount": 50.0,
+  "donation_amount": 30.0,
   "notification": {
     "message": {
       "translate": "ltminigames.minigame.donation.invert_controls_package.toast",

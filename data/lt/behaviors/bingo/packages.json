@@ -1,3 +1,11 @@
 [
-  "lt:bingo/respawn"
+  "lt:bingo/respawn",
+  "lt:integrations/packages/sharknado",
+  "lt:integrations/packages/invert_controls",
+  "lt:survive_the_tide/integrations/disguises",
+  "lt:integrations/packages/lightning_storm",
+  "lt:integrations/packages/zombie_invasion",
+  "lt:integrations/packages/meteor_storm",
+  "lt:integrations/packages/sharknado",
+  {"type": "lt:integrations/packages/everything", "donation_amount": 250.0}
 ]
