@@ -39,6 +39,23 @@
       "spawn_rate_base": 20,
       "spawn_rate_random": 12,
       "explosion_strength": 2
+    },
+    {
+      "type": "ltminigames:add_equipment",
+      "items": [
+        {
+          "id": "ltextras:fire_extinguisher",
+          "components": {
+            "ltextras:fire_extinguisher": {
+              "durability_loss_per_tick": 1,
+              "impulse_on_hit": 0.75,
+              "impulse_on_miss": 0.75,
+              "shoot_dist": 1,
+              "should_extinguish": false
+            }
+          }
+        }
+      ]
     }
   ]
 }
