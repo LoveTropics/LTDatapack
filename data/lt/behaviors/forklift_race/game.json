@@ -1,0 +1,103 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "named_points": {
+      "start": 0,
+      "go": 10,
+      "end": 100000
+    }
+  },
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
+  {
+    "type": "ltminigames:position_players",
+    "participants": "player_spawn",
+    "spectators": "point_1",
+    "face_region": "finish"
+  },
+  {
+    "type": "ltminigames:rider",
+    "entity": {
+      "type": "ltextras:forklift",
+      "tag": {
+        "ShouldPickupEntities": false
+      }
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "target": "go",
+    "sound": "minecraft:entity.arrow.hit_player",
+    "seconds": 3,
+    "show_title": true
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "participants",
+    "actions": {
+      "start": {
+        "actions": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:disable_player_movement"
+          }
+        },
+        "target": "participants"
+      },
+      "go": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "entity.arrow.hit_player",
+          "pitch": 1.5
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.turtle_race.go",
+            "color": "green"
+          },
+          "stay": 40
+        },
+        {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:disable_player_movement"
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:race_track",
+    "path": {
+      "start": 1,
+      "end": 50,
+      "prefix": "point_"
+    },
+    "lap_count": 3,
+    "winner_count": 25,
+    "start_time": 200,
+    "finish_region": "finish",
+    "checkpoint_regions": {},
+    "finish_action": {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "points",
+      "from_participant_count": true,
+      "scope": "player"
+    }
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 400,
+    "scheduled_messages": {
+      "0": {
+        "text": "%winner% completed the race in the shortest amount of time and won the game!",
+        "color": "gray"
+      }
+    }
+  },
+  "lt:common/game_over_title",
+  "lt:common/spectator",
+  "lt:forklift_race/ruleset"
+]
