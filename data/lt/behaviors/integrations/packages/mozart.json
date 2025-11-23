@@ -4,12 +4,12 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "all",
-  "name": { "text": "Mozart Mode" },
-  "description": { "text": "Make Everyone Mozart" },
+  "name": { "translate": "Mozart Mode" },
+  "description": { "translate": "Make Everyone Mozart" },
   "donation_amount": 10,
   "notification": {
     "message": {
-      "text": "Mozart Mode",
+      "translate": "Mozart Mode",
       "color": "light_purple"
     },
     "icon": {
