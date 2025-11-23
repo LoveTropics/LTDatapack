@@ -24,8 +24,7 @@
       "type": "ltextras:forklift",
       "tag": {
         "ShouldPickupEntities": false,
-        "SpeedBoostStrength": 0.15,
-        "SpeedBoostTicks": 9999999
+        "SpeedBoostStrength": 0.15
       }
     }
   },
@@ -66,6 +65,10 @@
         {
           "type": "ltminigames:remove_client_state",
           "state": "ltminigames:disable_player_movement"
+        },
+        {
+          "type": "ltminigames:run_commands",
+          "player": "execute on vehicle run data modify entity @s SpeedBoostTicks set value 9999999"
         }
       ]
     }
