@@ -1,0 +1,23 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "shrink_player",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "specific",
+  "name": "Shrink player",
+  "description": "Makes the player just a bit smaller",
+  "donation_amount": 10.0,
+  "notification": {
+    "message": {
+      "text": "You have shrink!",
+      "color": "light_purple"
+    },
+    "icon": {"item": "ltminigames:ender_arms"},
+    "sentiment": "negative",
+    "sound": "ltminigames:package_receive"
+  },
+  "receive_actions": {
+    "type": "ltminigames:resize",
+    "multiplier": 0.8
+  }
+}
