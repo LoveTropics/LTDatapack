@@ -2,19 +2,19 @@
   "lt:integrations/packages/its_been_fun",
   {
     "type": "ltminigames:block_packages_during_phase",
-    "block_periods": [{"start": "start", "end": "pvp_enabled"}]
+    "block_periods": [{ "start": "start", "end": "pvp_enabled" }]
   },
-  {"type": "lt:integrations/packages/everything", "donation_amount": 250.0},
+  { "type": "lt:integrations/packages/everything", "donation_amount": 250.0 },
   "lt:integrations/packages/slowness",
   "lt:integrations/packages/hunger",
   "lt:integrations/packages/knockback",
-  {"type": "lt:integrations/packages/boom", "donation_amount": 20.0},
-  {"type": "lt:integrations/packages/undying", "donation_amount": 40.0},
-  {"type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0},
+  { "type": "lt:integrations/packages/boom", "donation_amount": 20.0 },
+  { "type": "lt:integrations/packages/undying", "donation_amount": 40.0 },
+  { "type": "lt:integrations/packages/lightning_crossbow", "donation_amount": 10.0 },
   "lt:integrations/packages/random_creeper",
   "lt:integrations/packages/chosen_creeper",
-  {"type": "lt:integrations/packages/swap_players", "donation_amount": 20.0},
-  {"type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0},
+  { "type": "lt:integrations/packages/swap_players", "donation_amount": 20.0 },
+  { "type": "lt:integrations/packages/lightning_strike", "donation_amount": 20.0 },
   "lt:integrations/packages/lightning_storm",
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
@@ -22,11 +22,12 @@
   "lt:integrations/packages/forced_player_head",
   "lt:integrations/packages/puffer_package",
   "lt:survive_the_tide/integrations/disguises",
-  {"type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0, "duration": 120},
+  { "type": "lt:integrations/packages/big_leaps", "donation_amount": 15.0, "duration": 120 },
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",
   "lt:integrations/packages/sharknado",
   "lt:integrations/packages/invert_controls",
+  "lt:integrations/packages/mozart",
   {
     "type": "ltminigames:donation_threshold",
     "threshold": 20.0,
@@ -46,11 +47,11 @@
               {},
               {
                 "id": "minecraft:golden_chestplate",
-                "components": {"unbreakable": {}}
+                "components": { "unbreakable": {} }
               },
               {
                 "id": "minecraft:golden_helmet",
-                "components": {"unbreakable": {}}
+                "components": { "unbreakable": {} }
               }
             ]
           }
