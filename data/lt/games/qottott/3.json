@@ -14,7 +14,6 @@
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
-    "lt:qottott/common",
-    "ltminigames:allow_single_fall"
+    "lt:qottott/common"
   ]
 }
