@@ -12,6 +12,20 @@
             "ltextras:undroppable": {},
             "can_place_on": {"blocks": ["tnt"]}
           }
+        },
+        {
+          "id": "ltextras:fire_extinguisher",
+          "components": {
+            "ltextras:fire_extinguisher": {
+              "durability_loss_per_tick": 0,
+              "impulse_on_hit": 0.75,
+              "impulse_on_miss": 0.75,
+              "shoot_dist": 1,
+              "should_extinguish": false
+            },
+            "ltextras:undroppable": {},
+            "can_place_on": {"blocks": ["tnt"]}
+          }
         }
       ],
       "head": {
