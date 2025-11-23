@@ -18,7 +18,10 @@
             "id": "ltextras:high_heels",
             "components": {
               "unbreakable": {},
-              "ltextras:undroppable": {}
+              "ltextras:undroppable": {},
+              "enchantments": {
+                "thorns": 6
+              }
             }
           }
         },
