@@ -8,7 +8,8 @@
         "entity": {
           "id": "dummyplayers:dummy_player",
           "profile": "Mozart"
-        }
+        },
+        "custom_name": "Wolfgang Amadeus Mozart"
       },
       {
         "type": "ltminigames:add_equipment",
@@ -25,6 +26,13 @@
         },
         "chest": {
           "id": "minecraft:leather_chestplate",
+          "components": {
+            "unbreakable": {},
+            "ltextras:undroppable": {}
+          }
+        },
+        "feet": {
+          "id": "ltextras:high_heels",
           "components": {
             "unbreakable": {},
             "ltextras:undroppable": {}
