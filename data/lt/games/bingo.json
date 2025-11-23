@@ -84,7 +84,7 @@
           },
           "template": [
             {
-              "text": "Bingo! Time: "
+              "text": "live.lovetropics.org/donate - Time: "
             },
             {
               "text": "%time%",
