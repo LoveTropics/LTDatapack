@@ -7,6 +7,7 @@
   "lt:integrations/packages/zombie_invasion",
   "lt:integrations/packages/meteor_storm",
   "lt:integrations/packages/sharknado",
-  {"type": "lt:integrations/packages/everything", "donation_amount": 250.0},
-  "lt:bingo/model_modifier"
+  { "type": "lt:integrations/packages/everything", "donation_amount": 250.0 },
+  "lt:bingo/model_modifier",
+  "lt:integrations/packages/mozart"
 ]

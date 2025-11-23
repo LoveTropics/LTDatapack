@@ -1,0 +1,75 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "mozart_mode",
+  "package_type": "sabotage_package",
+  "category": "small",
+  "player_select": "all",
+  "name": { "text": "Mozart Mode" },
+  "description": { "translate": "Make Everyone Mozart" },
+  "donation_amount": 10,
+  "notification": {
+    "message": {
+      "text": "Mozart Mode",
+      "color": "light_purple"
+    },
+    "icon": {
+      "item": {
+        "id": "peekaboo:disguise",
+        "count": 1,
+        "components": {
+          "peekaboo:disguise": {
+            "entity": {
+              "id": "dummyplayers:dummy_player",
+              "profile": "Mozart",
+              "NoBasePlate": true
+            }
+          }
+        }
+      }
+    },
+    "sentiment": "neutral",
+    "sound": "ltminigames:sabotage_receive"
+  },
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:disguise_package",
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:set_disguise",
+          "entity": {
+            "id": "dummyplayers:dummy_player",
+            "profile": "Mozart",
+            "NoBasePlate": true
+          },
+          "changes_size": false,
+          "apply_donor_name": "$apply_donor_name",
+          "only_if_no_disguise": true
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:clear_disguise",
+          "entity": {
+            "id": "dummyplayers:dummy_player",
+            "profile": "Mozart",
+            "NoBasePlate": true
+          }
+        }
+      },
+      "seconds": 180
+    },
+    {
+      "type": "ltminigames:add_equipment",
+      "feet": {
+        "id": "ltextras:high_heels",
+        "components": {
+          "unbreakable": {},
+          "ltextras:undroppable": {}
+        }
+      }
+    }
+  ]
+}
