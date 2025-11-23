@@ -14,14 +14,11 @@
           }
         ],
         "equipment": {
-          "head": {
-            "id": "minecraft:leather_helmet",
-            "count": 1,
+          "feet": {
+            "id": "ltextras:high_heels",
             "components": {
               "unbreakable": {},
-              "enchantments": {
-                "thorns": 6
-              }
+              "ltextras:undroppable": {}
             }
           }
         },

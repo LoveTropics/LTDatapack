@@ -17,24 +17,6 @@
       },
       {
         "type": "ltminigames:add_equipment",
-        "head": {
-          "id": "minecraft:leather_helmet",
-          "components": {
-            "unbreakable": {},
-            "ltextras:undroppable": {},
-            "trim": {
-              "material": "gold",
-              "pattern": "wild"
-            }
-          }
-        },
-        "chest": {
-          "id": "minecraft:leather_chestplate",
-          "components": {
-            "unbreakable": {},
-            "ltextras:undroppable": {}
-          }
-        },
         "feet": {
           "id": "ltextras:high_heels",
           "components": {
@@ -42,7 +24,6 @@
             "ltextras:undroppable": {}
           }
         },
-        "color_by_team": true,
         "hotbar_team_items": {
           "red": {
             "id": "minecraft:red_wool",
