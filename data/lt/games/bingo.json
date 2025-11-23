@@ -42,7 +42,7 @@
       "type": "ltminigames:immediate_respawn",
       "role": "participant",
       "respawn_as": "spectator",
-      "drop_inventory": true,
+      "drop_inventory": false,
       "death_message": {
         "text": "☠ %message%",
         "color": "gray"

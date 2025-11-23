@@ -63,6 +63,7 @@
     },
     {
       "type": "ltminigames:add_equipment",
+      "clear": false,
       "feet": {
         "id": "ltextras:high_heels",
         "components": {
