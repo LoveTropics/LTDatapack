@@ -1,41 +1,43 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.team_no_cents.generic.description",
-        "color": "gray",
-        "italic": true
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.reward",
-        "color": "white",
+  "item": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:lore": [
+        {
+          "translate": "lt.collectible.team_no_cents.generic.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.reward",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:unbreakable": {},
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.team_no_cents.helmet.name",
+        "color": "#005958",
         "italic": false
-      }
-    ],
-    "minecraft:unbreakable": {},
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.team_no_cents.helmet.name",
-      "color": "#005958",
-      "italic": false
-    },
-    "minecraft:trim": {
-      "material": "gold",
-      "pattern": "wild"
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:trim",
-        "minecraft:equippable",
-        "minecraft:attribute_modifiers"
-      ]
-    },
-    "minecraft:dyed_color": 16772589
-  },
-  "item": "minecraft:leather_helmet"
+      },
+      "minecraft:trim": {
+        "material": "gold",
+        "pattern": "wild"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:trim",
+          "minecraft:equippable",
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:dyed_color": 16772589
+    }
+  }
 }

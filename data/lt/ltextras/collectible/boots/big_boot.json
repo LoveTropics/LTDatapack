@@ -1,15 +1,17 @@
 {
-  "item": "ltextras:big_boot",
-  "components": {
-    "ltextras:collectible_display_info": {
-      "name": "big_boot_big_steps",
-      "description": true,
-      "rarity": "purchased"
-    },
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.big_boot_big_steps.name",
-      "color": "#BFEA00",
-      "italic": false
+  "item": {
+    "id": "ltextras:big_boot",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "big_boot_big_steps",
+        "description": true,
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.big_boot_big_steps.name",
+        "color": "#BFEA00",
+        "italic": false
+      }
     }
   },
   "auto_equip": false

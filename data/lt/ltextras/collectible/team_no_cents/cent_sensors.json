@@ -1,45 +1,50 @@
 {
-  "components": {
-    "minecraft:item_name": {"translate": "lt.quest.no_cents_item.cent_sensors", "color": "#E5B106"},
-    "minecraft:lore": [
-      {
-        "translate": "lt.quest.no_cents_item.cent_sensors.description",
-        "color": "gray",
-        "italic": true
+  "item": {
+    "id": "ltextras:blue_glasses",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "lt.quest.no_cents_item.cent_sensors",
+        "color": "#E5B106"
       },
-      {
-        "translate": "lt.quest.no_cents_item.cent_sensors.description.2",
-        "color": "gray",
-        "italic": true
+      "minecraft:lore": [
+        {
+          "translate": "lt.quest.no_cents_item.cent_sensors.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "translate": "lt.quest.no_cents_item.cent_sensors.description.2",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.quest",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:trim"
+        ]
       },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.quest",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:trim"
-      ]
-    },
-    "ltextras:player_sensor": {
-      "tag": "team.cents",
-      "appearance": {
-        "color": 13004561,
-        "face_decoration": {
-          "location": "ltextras:cents_marker",
-          "width": 112,
-          "height": 48
+      "ltextras:player_sensor": {
+        "tag": "team.cents",
+        "appearance": {
+          "color": 13004561,
+          "face_decoration": {
+            "location": "ltextras:cents_marker",
+            "width": 112,
+            "height": 48
+          }
         }
       }
     }
-  },
-  "item": "ltextras:blue_glasses"
+  }
 }

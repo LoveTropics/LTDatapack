@@ -1,55 +1,57 @@
 {
-  "item": "minecraft:leather_boots",
-  "components": {
-    "ltextras:collectible_display_info": {
-      "name": "rocket_boots",
-      "description": true,
-      "rarity": "purchased",
-      "additional_lore": [
-        {
-          "translate": "item.modifiers.feet",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.rocket_boots.tooltip.add_velocity",
-          "color": "blue",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.rocket_boots.tooltip.add_reckless_abandon",
-          "color": "blue",
-          "italic": false
-        }
-      ]
-    },
-    "minecraft:enchantments": {
-      "lt:rocket_boots": 1
-    },
-    "minecraft:unbreakable": {},
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.rocket_boots.name",
-      "color": "#BFEA00",
-      "italic": false
-    },
-    "minecraft:custom_data": {
-      "ParkourBlacklist": true
-    },
-    "minecraft:trim": {
-      "material": "minecraft:redstone",
-      "pattern": "lt:tropics"
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:equippable",
-        "minecraft:attribute_modifiers",
-        "minecraft:trim"
-      ]
-    },
-    "minecraft:dyed_color": 16767257
+  "item": {
+    "id": "minecraft:leather_boots",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "rocket_boots",
+        "description": true,
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.feet",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.rocket_boots.tooltip.add_velocity",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.rocket_boots.tooltip.add_reckless_abandon",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      },
+      "minecraft:enchantments": {
+        "lt:rocket_boots": 1
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.rocket_boots.name",
+        "color": "#BFEA00",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "ParkourBlacklist": true
+      },
+      "minecraft:trim": {
+        "material": "minecraft:redstone",
+        "pattern": "lt:tropics"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:equippable",
+          "minecraft:attribute_modifiers",
+          "minecraft:trim"
+        ]
+      },
+      "minecraft:dyed_color": 16767257
+    }
   },
   "auto_equip": false
 }

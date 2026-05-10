@@ -1,69 +1,71 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.purchased",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.head",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.disguise.tooltip.subtract_player",
-        "color": "blue",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "minecraft:lore": [
         {
-          "text": " + ",
-          "color": "blue",
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.purchased",
+          "color": "white",
           "italic": false
         },
         {
-          "translate": "entity.minecraft.enderman",
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.disguise.tooltip.subtract_player",
           "color": "blue",
           "italic": false
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "entity.minecraft.enderman",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "minecraft:enderman"
         }
-      ]
-    ],
-    "peekaboo:disguise": {
-      "entity": {
-        "id": "minecraft:enderman"
-      }
-    },
-    "minecraft:custom_name": [
-      {
-        "translate": "entity.minecraft.enderman",
-        "color": "#BFEA00",
-        "italic": false
       },
-      {
-        "text": " "
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.minecraft.enderman",
+          "color": "#BFEA00",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
       },
-      {
-        "translate": "lt.collectible.disguise.name.suffix",
-        "color": "#BFEA00",
-        "italic": false
-      }
-    ],
-    "minecraft:enchantment_glint_override": true,
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "peekaboo:disguise"
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

@@ -1,74 +1,76 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.milestone.15000.description",
-        "color": "gray",
-        "italic": true
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.milestone",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.head",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.disguise.tooltip.subtract_player",
-        "color": "blue",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "minecraft:lore": [
         {
-          "text": " + ",
-          "color": "blue",
+          "translate": "lt.collectible.milestone.15000.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.milestone",
+          "color": "white",
           "italic": false
         },
         {
-          "translate": "entity.minecraft.armadillo",
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.disguise.tooltip.subtract_player",
           "color": "blue",
           "italic": false
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "entity.minecraft.armadillo",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "minecraft:armadillo"
         }
-      ]
-    ],
-    "peekaboo:disguise": {
-      "entity": {
-        "id": "minecraft:armadillo"
-      }
-    },
-    "minecraft:custom_name": [
-      {
-        "translate": "entity.minecraft.armadillo",
-        "color": "#DB6634",
-        "italic": false
       },
-      {
-        "text": " "
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.minecraft.armadillo",
+          "color": "#DB6634",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#DB6634",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
       },
-      {
-        "translate": "lt.collectible.disguise.name.suffix",
-        "color": "#DB6634",
-        "italic": false
-      }
-    ],
-    "minecraft:enchantment_glint_override": true,
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "peekaboo:disguise"
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

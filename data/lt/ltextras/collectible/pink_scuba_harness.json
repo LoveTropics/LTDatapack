@@ -1,45 +1,47 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.purchased",
-        "color": "white",
+  "item": {
+    "id": "tropicraft:pink_scuba_harness",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.purchased",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.chest",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.yellow_scuba_harness.tooltip.add_air",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "ltextras:undroppable": {},
+      "minecraft:custom_name": {
+        "translate": "item.tropicraft.pink_scuba_harness",
+        "color": "#BFEA00",
         "italic": false
       },
-      {
-        "text": " "
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:attribute_modifiers",
+          "tropicraft:scuba_air"
+        ]
       },
-      {
-        "translate": "item.modifiers.chest",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.yellow_scuba_harness.tooltip.add_air",
-        "color": "blue",
-        "italic": false
-      }
-    ],
-    "ltextras:undroppable": {},
-    "minecraft:custom_name": {
-      "translate": "item.tropicraft.pink_scuba_harness",
-      "color": "#BFEA00",
-      "italic": false
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:attribute_modifiers",
-        "tropicraft:scuba_air"
-      ]
-    },
-    "minecraft:dyed_color": 10511680,
-    "tropicraft:scuba_air": 9216000
-  },
-  "item": "tropicraft:pink_scuba_harness"
+      "minecraft:dyed_color": 10511680,
+      "tropicraft:scuba_air": 9216000
+    }
+  }
 }

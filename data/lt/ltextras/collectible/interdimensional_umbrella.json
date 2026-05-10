@@ -1,48 +1,50 @@
 {
-  "components": {
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.interdimensional_umbrella.name",
-      "color": "#5ABDA3",
-      "italic": false
-    },
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.interdimensional_umbrella.description",
-        "color": "gray"
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.secret",
-        "color": "white",
+  "item": {
+    "id": "ltminigames:acid_repellent_umbrella",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.interdimensional_umbrella.name",
+        "color": "#5ABDA3",
         "italic": false
       },
-      {
-        "text": " "
+      "minecraft:lore": [
+        {
+          "translate": "lt.collectible.interdimensional_umbrella.description",
+          "color": "gray"
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.secret",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.generic.modifiers.hold_both_hands",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.interdimensional_umbrella.tooltip.add_slow_fall",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ParkourBlacklist": true
       },
-      {
-        "translate": "lt.collectible.generic.modifiers.hold_both_hands",
-        "color": "gray",
-        "italic": false
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
       },
-      {
-        "translate": "lt.collectible.interdimensional_umbrella.tooltip.add_slow_fall",
-        "color": "blue",
-        "italic": false
-      }
-    ],
-    "minecraft:custom_data": {
-      "ParkourBlacklist": true
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "ltminigames:acid_repellent_umbrella"
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

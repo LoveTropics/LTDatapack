@@ -1,51 +1,53 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.purchased",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.feet",
-        "color": "gray",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "tropicraft:pink_scuba_flippers",
+    "components": {
+      "minecraft:lore": [
         {
-          "text": " + ",
-          "color": "blue",
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.purchased",
+          "color": "white",
           "italic": false
         },
         {
-          "translate": "attribute.name.swim_speed",
-          "color": "blue",
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.feet",
+          "color": "gray",
           "italic": false
-        }
-      ]
-    ],
-    "ltextras:undroppable": {},
-    "minecraft:custom_name": {
-      "translate": "item.tropicraft.pink_scuba_flippers",
-      "color": "#BFEA00",
-      "italic": false
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:attribute_modifiers",
-        "tropicraft:scuba_air"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "tropicraft:pink_scuba_flippers"
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "attribute.name.swim_speed",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "ltextras:undroppable": {},
+      "minecraft:custom_name": {
+        "translate": "item.tropicraft.pink_scuba_flippers",
+        "color": "#BFEA00",
+        "italic": false
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:attribute_modifiers",
+          "tropicraft:scuba_air"
+        ]
+      },
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

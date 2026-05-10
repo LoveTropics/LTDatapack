@@ -1,19 +1,18 @@
 {
-  "item": "ltextras:high_heels",
-  "components": {
-    "ltextras:collectible_display_info": {
-      "name": "high_heels",
-      "description": true,
-      "rarity": "purchased"
-    },
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.high_heels.name",
-      "color": "#BFEA00",
-      "italic": false
+  "item": {
+    "id": "ltextras:high_heels",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "high_heels",
+        "description": true,
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.high_heels.name",
+        "color": "#BFEA00",
+        "italic": false
+      }
     }
   },
   "auto_equip": false
 }
-
-
-

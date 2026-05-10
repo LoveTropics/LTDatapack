@@ -1,55 +1,57 @@
 {
-  "item": "minecraft:leather_boots",
-  "components": {
-    "ltextras:collectible_display_info": {
-      "name": "moon_boots",
-      "description": true,
-      "rarity": "purchased",
-      "additional_lore": [
+  "item": {
+    "id": "minecraft:leather_boots",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "moon_boots",
+        "description": true,
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.feet",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.moon_boots.tooltip.subtract_gravity",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      },
+      "minecraft:attribute_modifiers": [
         {
-          "translate": "item.modifiers.feet",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.moon_boots.tooltip.subtract_gravity",
-          "color": "blue",
-          "italic": false
+          "amount": -0.9,
+          "slot": "feet",
+          "id": "minecraft:fe4324c2-4961-4c49-8793-54e0864c087c",
+          "type": "minecraft:gravity",
+          "operation": "add_multiplied_total"
         }
-      ]
-    },
-    "minecraft:attribute_modifiers": [
-      {
-        "amount": -0.9,
-        "slot": "feet",
-        "id": "minecraft:fe4324c2-4961-4c49-8793-54e0864c087c",
-        "type": "minecraft:gravity",
-        "operation": "add_multiplied_total"
-      }
-    ],
-    "minecraft:unbreakable": {},
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.moon_boots.name",
-      "color": "#BFEA00",
-      "italic": false
-    },
-    "minecraft:custom_data": {
-      "ParkourBlacklist": true
-    },
-    "minecraft:trim": {
-      "material": "minecraft:gold",
-      "pattern": "minecraft:snout"
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:trim",
-        "minecraft:attribute_modifiers",
-        "minecraft:unbreakable"
-      ]
-    },
-    "minecraft:dyed_color": 16772589
+      ],
+      "minecraft:unbreakable": {},
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.moon_boots.name",
+        "color": "#BFEA00",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "ParkourBlacklist": true
+      },
+      "minecraft:trim": {
+        "material": "minecraft:gold",
+        "pattern": "minecraft:snout"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:trim",
+          "minecraft:attribute_modifiers",
+          "minecraft:unbreakable"
+        ]
+      },
+      "minecraft:dyed_color": 16772589
+    }
   },
   "auto_equip": false
 }

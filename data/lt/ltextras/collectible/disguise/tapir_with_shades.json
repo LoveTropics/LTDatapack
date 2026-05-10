@@ -1,75 +1,77 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.tapir_with_shades.description",
-        "color": "gray",
-        "italic": true
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.purchased",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.head",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "translate": "lt.collectible.disguise.tooltip.subtract_player",
-        "color": "blue",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "minecraft:lore": [
         {
-          "text": " + ",
-          "color": "blue",
+          "translate": "lt.collectible.tapir_with_shades.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.purchased",
+          "color": "white",
           "italic": false
         },
         {
-          "translate": "entity.tropicraft.tapir",
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "lt.collectible.disguise.tooltip.subtract_player",
           "color": "blue",
           "italic": false
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "entity.tropicraft.tapir",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "peekaboo:disguise": {
+        "entity": {
+          "undercover": true,
+          "id": "tropicraft:tapir"
         }
-      ]
-    ],
-    "peekaboo:disguise": {
-      "entity": {
-        "undercover": true,
-        "id": "tropicraft:tapir"
-      }
-    },
-    "minecraft:custom_name": [
-      {
-        "translate": "lt.collectible.tapir_with_shades.name",
-        "color": "#BFEA00",
-        "italic": false
       },
-      {
-        "text": " "
+      "minecraft:custom_name": [
+        {
+          "translate": "lt.collectible.tapir_with_shades.name",
+          "color": "#BFEA00",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
       },
-      {
-        "translate": "lt.collectible.disguise.name.suffix",
-        "color": "#BFEA00",
-        "italic": false
-      }
-    ],
-    "minecraft:enchantment_glint_override": true,
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "peekaboo:disguise"
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

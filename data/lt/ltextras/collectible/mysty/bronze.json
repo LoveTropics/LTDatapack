@@ -1,27 +1,28 @@
 {
-  "item": "minecraft:leather_helmet",
-  "components": {
-    "minecraft:item_model": "lt:top_hat_bronze",
-    "ltextras:collectible_display_info": {
-      "name": "bronze_top_hat",
-      "description": true,
-      "rarity": "reward"
-    },
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.bronze_top_hat.name",
-      "color": "#005958",
-      "italic": false
-    },
-    "!minecraft:attribute_modifiers": {},
-    "minecraft:equippable": {
-      "slot": "head"
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:unbreakable"
-      ]
+  "item": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:item_model": "lt:top_hat_bronze",
+      "ltextras:collectible_display_info": {
+        "name": "bronze_top_hat",
+        "description": true,
+        "rarity": "reward"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.bronze_top_hat.name",
+        "color": "#005958",
+        "italic": false
+      },
+      "!minecraft:attribute_modifiers": {},
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:unbreakable"
+        ]
+      }
     }
   },
   "auto_equip": true
 }
-

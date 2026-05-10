@@ -1,17 +1,19 @@
 {
-  "item": "minecraft:note_block",
-  "components": {
-    "minecraft:equippable": {
-      "slot": "head"
-    },
-    "ltextras:collectible_display_info": {
-      "name": "approaching_nirvana",
-      "rarity": "secret"
-    },
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.approaching_nirvana.name",
-      "color": "#5ABDA3",
-      "italic": false
+  "item": {
+    "id": "minecraft:note_block",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "approaching_nirvana",
+        "rarity": "secret"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.approaching_nirvana.name",
+        "color": "#5ABDA3",
+        "italic": false
+      }
     }
   },
   "auto_equip": false

@@ -1,56 +1,58 @@
 {
-  "components": {
-    "minecraft:custom_name": [
-      {
-        "translate": "block.minecraft.amethyst_cluster",
-        "color": "#5ABDA3",
-        "italic": false
-      },
-      {
-        "translate": " "
-      },
-      {
-        "translate": "lt.collectible.hat.name.suffix",
-        "color": "#5ABDA3",
-        "italic": false
-      }
-    ],
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.secret",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.head",
-        "color": "gray",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "peekaboo:mob_hat",
+    "components": {
+      "minecraft:custom_name": [
         {
-          "text": " + ",
-          "color": "blue",
+          "translate": "block.minecraft.amethyst_cluster",
+          "color": "#5ABDA3",
           "italic": false
         },
         {
-          "translate": "entity.minecraft.falling_block",
-          "color": "blue",
+          "translate": " "
+        },
+        {
+          "translate": "lt.collectible.hat.name.suffix",
+          "color": "#5ABDA3",
           "italic": false
         }
-      ]
-    ],
-    "peekaboo:entity": {
-      "BlockState": {
-        "Name": "minecraft:amethyst_cluster"
-      },
-      "id": "minecraft:falling_block"
+      ],
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.secret",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "entity.minecraft.falling_block",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "peekaboo:entity": {
+        "BlockState": {
+          "Name": "minecraft:amethyst_cluster"
+        },
+        "id": "minecraft:falling_block"
+      }
     }
-  },
-  "item": "peekaboo:mob_hat"
+  }
 }

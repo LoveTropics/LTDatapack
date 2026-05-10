@@ -1,44 +1,49 @@
 {
-  "components": {
-    "minecraft:item_name": {"translate": "lt.quest.cents_item.nonsense_sensors", "color": "#E5B106"},
-    "minecraft:lore": [
-      {
-        "translate": "lt.quest.cents_item.nonsense_sensors.description",
-        "color": "gray",
-        "italic": true
+  "item": {
+    "id": "ltextras:orange_glasses",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "lt.quest.cents_item.nonsense_sensors",
+        "color": "#E5B106"
       },
-      {
-        "translate": "lt.quest.cents_item.nonsense_sensors.description.2",
-        "color": "gray",
-        "italic": true
+      "minecraft:lore": [
+        {
+          "translate": "lt.quest.cents_item.nonsense_sensors.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "translate": "lt.quest.cents_item.nonsense_sensors.description.2",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.quest",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
       },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.quest",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "ltextras:player_sensor": {
-      "tag": "team.no_cents",
-      "appearance": {
-        "color": 2779872,
-        "face_decoration": {
-          "location": "ltextras:no_cents_marker",
-          "width": 112,
-          "height": 48
+      "ltextras:player_sensor": {
+        "tag": "team.no_cents",
+        "appearance": {
+          "color": 2779872,
+          "face_decoration": {
+            "location": "ltextras:no_cents_marker",
+            "width": 112,
+            "height": 48
+          }
         }
       }
     }
-  },
-  "item": "ltextras:orange_glasses"
+  }
 }

@@ -1,53 +1,55 @@
 {
-  "components": {
-    "minecraft:custom_name": [
-      {
-        "translate": "entity.minecraft.axolotl",
-        "color": "#BFEA00",
-        "italic": false
-      },
-      {
-        "translate": " "
-      },
-      {
-        "translate": "lt.collectible.hat.name.suffix",
-        "color": "#BFEA00",
-        "italic": false
-      }
-    ],
-    "minecraft:lore": [
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.purchased",
-        "color": "white",
-        "italic": false
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "item.modifiers.head",
-        "color": "gray",
-        "italic": false
-      },
-      [
+  "item": {
+    "id": "peekaboo:mob_hat",
+    "components": {
+      "minecraft:custom_name": [
         {
-          "text": " + ",
-          "color": "blue",
+          "translate": "entity.minecraft.axolotl",
+          "color": "#BFEA00",
           "italic": false
         },
         {
-          "translate": "entity.minecraft.axolotl",
-          "color": "blue",
+          "translate": " "
+        },
+        {
+          "translate": "lt.collectible.hat.name.suffix",
+          "color": "#BFEA00",
           "italic": false
         }
-      ]
-    ],
-    "peekaboo:entity": {
-      "id": "minecraft:axolotl"
+      ],
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.purchased",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "item.modifiers.head",
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "text": " + ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "translate": "entity.minecraft.axolotl",
+            "color": "blue",
+            "italic": false
+          }
+        ]
+      ],
+      "peekaboo:entity": {
+        "id": "minecraft:axolotl"
+      }
     }
-  },
-  "item": "peekaboo:mob_hat"
+  }
 }

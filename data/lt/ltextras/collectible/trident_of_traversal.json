@@ -1,46 +1,48 @@
 {
-  "components": {
-    "minecraft:lore": [
-      {
-        "translate": "lt.collectible.trident_of_traversal.description.1",
-        "color": "gray"
+  "item": {
+    "id": "minecraft:trident",
+    "components": {
+      "minecraft:lore": [
+        {
+          "translate": "lt.collectible.trident_of_traversal.description.1",
+          "color": "gray"
+        },
+        {
+          "translate": "lt.collectible.trident_of_traversal.description.2",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.secret",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "minecraft:riptide": 5
       },
-      {
-        "translate": "lt.collectible.trident_of_traversal.description.2",
-        "color": "gray",
+      "minecraft:unbreakable": {},
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.trident_of_traversal.name",
+        "color": "#5ABDA3",
         "italic": false
       },
-      {
-        "text": " "
+      "minecraft:custom_data": {
+        "ParkourBlacklist": true
       },
-      {
-        "translate": "lt.collectible.unicode.secret",
-        "color": "white",
-        "italic": false
-      }
-    ],
-    "minecraft:enchantments": {
-      "minecraft:riptide": 5
-    },
-    "minecraft:unbreakable": {},
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.trident_of_traversal.name",
-      "color": "#5ABDA3",
-      "italic": false
-    },
-    "minecraft:custom_data": {
-      "ParkourBlacklist": true
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable",
-        "minecraft:weapon",
-        "minecraft:attribute_modifiers"
-      ]
-    },
-    "minecraft:dyed_color": 10511680
-  },
-  "item": "minecraft:trident"
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable",
+          "minecraft:weapon",
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:dyed_color": 10511680
+    }
+  }
 }

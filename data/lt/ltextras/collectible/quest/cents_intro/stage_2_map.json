@@ -1,53 +1,55 @@
 {
-  "components": {
-    "minecraft:custom_name": {
-      "translate": "lt.quest.cents_item.ageing_map.name",
-      "color": "#E5B106",
-      "italic": false
-    },
-    "minecraft:enchantment_glint_override": true,
-    "minecraft:lore": [
-      {
-        "translate": "lt.quest.cents_item.ageing_map.description",
-        "color": "gray",
-        "italic": true
-      },
-      {
-        "text": " "
-      },
-      {
-        "translate": "lt.collectible.unicode.quest",
-        "color": "white",
+  "item": {
+    "id": "ltextras:invite",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "lt.quest.cents_item.ageing_map.name",
+        "color": "#E5B106",
         "italic": false
-      }
-    ],
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:enchantments",
-        "minecraft:dyed_color",
-        "minecraft:unbreakable"
-      ]
-    },
-    "item_model": "ltextras:item/map",
-    "ltextras:image": {
-      "texture": "lt:textures/item/quest/cents_intro_bunker_map.png",
-      "width": 167.0,
-      "height": 206.0,
-      "text": [
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
         {
-          "max_width": 167.0,
-          "align_horizontal": "center",
-          "align_vertical": "center",
-          "line_spacing": 18.0,
-          "x": 81.0,
-          "y": 194.0,
-          "text": {
-            "color": "red",
-            "text": "-326 173 -76"
-          }
+          "translate": "lt.quest.cents_item.ageing_map.description",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.unicode.quest",
+          "color": "white",
+          "italic": false
         }
-      ]
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
+      },
+      "item_model": "ltextras:item/map",
+      "ltextras:image": {
+        "texture": "lt:textures/item/quest/cents_intro_bunker_map.png",
+        "width": 167.0,
+        "height": 206.0,
+        "text": [
+          {
+            "max_width": 167.0,
+            "align_horizontal": "center",
+            "align_vertical": "center",
+            "line_spacing": 18.0,
+            "x": 81.0,
+            "y": 194.0,
+            "text": {
+              "color": "red",
+              "text": "-326 173 -76"
+            }
+          }
+        ]
+      }
     }
-  },
-  "item": "ltextras:invite"
+  }
 }

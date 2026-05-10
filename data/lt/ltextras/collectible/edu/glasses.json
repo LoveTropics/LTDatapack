@@ -1,17 +1,19 @@
 {
-  "item": "tropicraft:cool_shades",
-  "components": {
-    "minecraft:custom_name": {
-      "translate": "lt.collectible.edu_glasses.name",
-      "color": "#5ABDA3",
-      "italic": false
-    },
-    "multimedia:slideshow_viewer": [
-      "lt:edu/pachamama_alliance_origins"
-    ],
-    "ltextras:collectible_display_info": {
-      "name": "edu_glasses",
-      "rarity": "secret"
+  "item": {
+    "id": "tropicraft:cool_shades",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.edu_glasses.name",
+        "color": "#5ABDA3",
+        "italic": false
+      },
+      "multimedia:slideshow_viewer": [
+        "lt:edu/pachamama_alliance_origins"
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "edu_glasses",
+        "rarity": "secret"
+      }
     }
   },
   "auto_equip": false

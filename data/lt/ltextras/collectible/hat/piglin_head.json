@@ -1,19 +1,21 @@
 {
-  "item": "minecraft:piglin_head",
-  "components": {
-    "ltextras:collectible_display_info": {
-      "name": "piglin_head",
-      "rarity": "purchased"
-    },
-    "minecraft:custom_name": {
-      "translate": "block.minecraft.piglin_head",
-      "color": "#BFEA00",
-      "italic": false
-    },
-    "minecraft:tooltip_display": {
-      "hidden_components": [
-        "minecraft:attribute_modifiers"
-      ]
+  "item": {
+    "id": "minecraft:piglin_head",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "piglin_head",
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "block.minecraft.piglin_head",
+        "color": "#BFEA00",
+        "italic": false
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
     }
   },
   "auto_equip": false

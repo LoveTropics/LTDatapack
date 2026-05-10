@@ -1,47 +1,49 @@
 {
-  "item": "peekaboo:disguise",
-  "components": {
-    "peekaboo:disguise": {
-      "entity": {
-        "id": "tropicraft:tropicreeper"
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "tropicraft:tropicreeper"
+        }
+      },
+      "ltextras:collectible_display_info": {
+        "name": "tropicreeper",
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray"
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue"
+          },
+          {
+            "text": " + ",
+            "extra": [
+              {
+                "translate": "entity.tropicraft.tropicreeper"
+              }
+            ],
+            "color": "blue"
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "",
+        "extra": [
+          {
+            "translate": "entity.tropicraft.tropicreeper"
+          },
+          " ",
+          {
+            "translate": "lt.collectible.disguise.name.suffix"
+          }
+        ],
+        "italic": false,
+        "color": "#BFEA00"
       }
-    },
-    "ltextras:collectible_display_info": {
-      "name": "tropicreeper",
-      "rarity": "purchased",
-      "additional_lore": [
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray"
-        },
-        {
-          "translate": "lt.collectible.disguise.tooltip.subtract_player",
-          "color": "blue"
-        },
-        {
-          "text": " + ",
-          "extra": [
-            {
-              "translate": "entity.tropicraft.tropicreeper"
-            }
-          ],
-          "color": "blue"
-        }
-      ]
-    },
-    "minecraft:custom_name": {
-      "text": "",
-      "extra": [
-        {
-          "translate": "entity.tropicraft.tropicreeper"
-        },
-        " ",
-        {
-          "translate": "lt.collectible.disguise.name.suffix"
-        }
-      ],
-      "italic": false,
-      "color": "#BFEA00"
     }
   },
   "auto_equip": false

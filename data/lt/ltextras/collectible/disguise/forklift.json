@@ -1,48 +1,50 @@
 {
-  "item": "peekaboo:disguise",
-  "components": {
-    "peekaboo:disguise": {
-      "entity": {
-        "id": "ltextras:forklift"
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "ltextras:forklift"
+        },
+        "scale": 0.75
       },
-      "scale": 0.75
-    },
-    "ltextras:collectible_display_info": {
-      "name": "forklift",
-      "rarity": "reward",
-      "additional_lore": [
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray"
-        },
-        {
-          "translate": "lt.collectible.disguise.tooltip.subtract_player",
-          "color": "blue"
-        },
-        {
-          "text": " + ",
-          "extra": [
-            {
-              "translate": "entity.ltextras.forklift"
-            }
-          ],
-          "color": "blue"
-        }
-      ]
-    },
-    "minecraft:custom_name": {
-      "text": "",
-      "extra": [
-        {
-          "translate": "entity.ltextras.forklift"
-        },
-        " ",
-        {
-          "translate": "lt.collectible.disguise.name.suffix"
-        }
-      ],
-      "italic": false,
-      "color": "#005958"
+      "ltextras:collectible_display_info": {
+        "name": "forklift",
+        "rarity": "reward",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray"
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue"
+          },
+          {
+            "text": " + ",
+            "extra": [
+              {
+                "translate": "entity.ltextras.forklift"
+              }
+            ],
+            "color": "blue"
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "",
+        "extra": [
+          {
+            "translate": "entity.ltextras.forklift"
+          },
+          " ",
+          {
+            "translate": "lt.collectible.disguise.name.suffix"
+          }
+        ],
+        "italic": false,
+        "color": "#005958"
+      }
     }
   },
   "auto_equip": false
