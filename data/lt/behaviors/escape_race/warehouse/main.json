@@ -15,12 +15,12 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:advance_weather": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "ltminigames:disable_hunger",
@@ -34,14 +34,20 @@
       "color": "gray"
     },
     "drop_inventory": false,
-    "respawn_action": ["ltminigames:clear_effects", "ltminigames:extinguish_player"]
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player"
+    ]
   },
   "lt:escape_race/powerups/ender_arms",
   {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
       "type": "ltminigames:spawn_donors_in_region",
-      "regions": ["room_entrance_1", "room_entrance_2"],
+      "regions": [
+        "room_entrance_1",
+        "room_entrance_2"
+      ],
       "scales": [
         {
           "scale": 0.9,
@@ -179,6 +185,10 @@
   {
     "type": "ltminigames:microgame_scoring",
     "statistic": "break_bucks",
-    "points_per_game_won": [100, 100, 100]
+    "points_per_game_won": [
+      100,
+      100,
+      100
+    ]
   }
 ]

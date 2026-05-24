@@ -9,3 +9,5 @@
 
 assets/ltminigames/lang/en_us.json
 *.iml
+
+*.DS_Store

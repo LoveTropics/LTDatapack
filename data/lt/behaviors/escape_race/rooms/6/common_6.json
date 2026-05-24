@@ -21,7 +21,10 @@
   {
     "type": "ltminigames:progression",
     "channel": "talk_to_bill",
-    "named_points": { "start": 0, "end": 60 },
+    "named_points": {
+      "start": 0,
+      "end": 60
+    },
     "start": false
   },
   {
@@ -33,8 +36,16 @@
         {
           "type": "ltminigames:send_message",
           "message": [
-            {"text": "Bill Shoebill: ", "bold": true, "color": "green"},
-            {"text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ", "bold": false, "color": "white"}
+            {
+              "text": "Bill Shoebill: ",
+              "bold": true,
+              "color": "green"
+            },
+            {
+              "text": "Hmmm I wonder if we mix the clog with the cocoa bean-\n ",
+              "bold": false,
+              "color": "white"
+            }
           ]
         },
         {
@@ -42,62 +53,90 @@
           "sound": "ltminigames:escape_race.bill_shoebill.00_hmm_i_wonder"
         }
       ],
-      "7": [{
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          {
-            "text": "Oh hello there! I haven't seen you around these parts before.... I'm Bill Shoebill, Head of Uniform at EscapeRace. Or is it Head of Shoes... Hmm, I should ask Terry.\n ",
-            "bold": false,
-            "color": "white"
-          }
-        ]
-      },
+      "7": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "Bill Shoebill: ",
+              "bold": true,
+              "color": "green"
+            },
+            {
+              "text": "Oh hello there! I haven\u0027t seen you around these parts before.... I\u0027m Bill Shoebill, Head of Uniform at EscapeRace. Or is it Head of Shoes... Hmm, I should ask Terry.\n ",
+              "bold": false,
+              "color": "white"
+            }
+          ]
+        },
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.01_oh_hello_there"
-        }],
-      "21": [{
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          {
-            "text": "Oh sorry, I was talking to you wasn't I... Anyway, I wonder if you could help me, I've lost my favourite shoes somewhere around here...\n",
-            "bold": false,
-            "color": "white"
-          }
-        ]
-      },
+        }
+      ],
+      "21": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "Bill Shoebill: ",
+              "bold": true,
+              "color": "green"
+            },
+            {
+              "text": "Oh sorry, I was talking to you wasn\u0027t I... Anyway, I wonder if you could help me, I\u0027ve lost my favourite shoes somewhere around here...\n",
+              "bold": false,
+              "color": "white"
+            }
+          ]
+        },
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.02_oh_sorry"
-        }],
-      "32": [{
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          {
-            "text": "I can't possibly find them since my department has become over-run with angry mobs.... I wonder where they came from, maybe I should ask Terry...\n",
-            "bold": false,
-            "color": "white"
-          }
-        ]
-      },
+        }
+      ],
+      "32": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "Bill Shoebill: ",
+              "bold": true,
+              "color": "green"
+            },
+            {
+              "text": "I can\u0027t possibly find them since my department has become over-run with angry mobs.... I wonder where they came from, maybe I should ask Terry...\n",
+              "bold": false,
+              "color": "white"
+            }
+          ]
+        },
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.03_i_can_t_possibly"
-        }],
-      "44": [{
-        "type": "ltminigames:send_message",
-        "message": [
-          { "text": "Bill Shoebill: ", "bold": true, "color": "green" },
-          { "text": "Anyway, find me my favourite shoes and I'll let you back out!\n", "bold": false, "color": "white" }
-        ]
-      },
+        }
+      ],
+      "44": [
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "Bill Shoebill: ",
+              "bold": true,
+              "color": "green"
+            },
+            {
+              "text": "Anyway, find me my favourite shoes and I\u0027ll let you back out!\n",
+              "bold": false,
+              "color": "white"
+            }
+          ]
+        },
         {
           "type": "ltminigames:play_sound",
           "sound": "ltminigames:escape_race.bill_shoebill.04_anyway_find_me"
-        }],
+        }
+      ],
       "52": [
         {
           "type": "ltminigames:spawn_entity_at_regions",
@@ -114,7 +153,9 @@
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": { "type": "default" }
+                      "display": {
+                        "type": "default"
+                      }
                     },
                     {
                       "id": "jump_strength",
@@ -122,7 +163,9 @@
                       "amount": 0.075,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": { "type": "default" }
+                      "display": {
+                        "type": "default"
+                      }
                     },
                     {
                       "id": "movement_speed",
@@ -130,7 +173,9 @@
                       "amount": -0.02,
                       "operation": "add_value",
                       "slot": "mainhand",
-                      "display": { "type": "default" }
+                      "display": {
+                        "type": "default"
+                      }
                     },
                     {
                       "id": "attack_damage",
@@ -138,7 +183,9 @@
                       "amount": 8,
                       "operation": "add_value",
                       "slot": "hand",
-                      "display": { "type": "default" }
+                      "display": {
+                        "type": "default"
+                      }
                     },
                     {
                       "type": "minecraft:fall_damage_multiplier",
@@ -152,19 +199,38 @@
                   "blocks_attacks": {
                     "block_delay_seconds": 0.1,
                     "bypassed_by": "#is_projectile",
-                    "damage_reductions": [{ "base": 3, "factor": 0.5, "horizontal_blocking_angle": 65 }],
+                    "damage_reductions": [
+                      {
+                        "base": 3,
+                        "factor": 0.5,
+                        "horizontal_blocking_angle": 65
+                      }
+                    ],
                     "block_sound": "item.shield.block",
                     "disabled_sound": "item.shield.break"
                   },
                   "rarity": "epic",
                   "item_name": [
                     "Monumentally Massive Mace",
-                    { "color": "gray", "italic": true, "text": " (For Shoes)" }
+                    {
+                      "color": "gray",
+                      "italic": true,
+                      "text": " (For Shoes)"
+                    }
                   ],
                   "lore": [
-                    { "color": "gray", "text": "Sometimes as a Cobbler," },
-                    { "color": "gray", "text": "you need delicate precision." },
-                    { "color": "dark_gray", "text": "This isn't for that." }
+                    {
+                      "color": "gray",
+                      "text": "Sometimes as a Cobbler,"
+                    },
+                    {
+                      "color": "gray",
+                      "text": "you need delicate precision."
+                    },
+                    {
+                      "color": "dark_gray",
+                      "text": "This isn\u0027t for that."
+                    }
                   ],
                   "weapon": {
                     "disable_blocking_for_seconds": 2,
@@ -174,7 +240,9 @@
               }
             }
           },
-          "regions_to_spawn_at": ["item_1"],
+          "regions_to_spawn_at": [
+            "item_1"
+          ],
           "entity_count_per_region": 1,
           "at_heightmap": false
         },
@@ -211,7 +279,9 @@
                     "minecraft:channeling": 1
                   },
                   "minecraft:tooltip_display": {
-                    "hidden_components": ["minecraft:enchantments"]
+                    "hidden_components": [
+                      "minecraft:enchantments"
+                    ]
                   },
                   "minecraft:rarity": "epic",
                   "minecraft:enchantment_glint_override": 0
@@ -221,7 +291,9 @@
               }
             }
           },
-          "regions_to_spawn_at": ["item_2"],
+          "regions_to_spawn_at": [
+            "item_2"
+          ],
           "entity_count_per_region": 1,
           "at_heightmap": false
         },
@@ -255,7 +327,9 @@
                       "amount": 4,
                       "operation": "add_value",
                       "slot": "hand",
-                      "display": { "type": "default" }
+                      "display": {
+                        "type": "default"
+                      }
                     }
                   ],
                   "ltextras:infinite": {},
@@ -302,7 +376,9 @@
               }
             }
           },
-          "regions_to_spawn_at": ["item_3"],
+          "regions_to_spawn_at": [
+            "item_3"
+          ],
           "entity_count_per_region": 1,
           "at_heightmap": false
         },
@@ -329,18 +405,17 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "true",
-      "announceAdvancements": "false",
-      "fallDamage": "false",
-      "doTileDrops": "false",
-      "doFireTick": "false",
-      "doMobLoot": "false",
-      "naturalRegeneration": "false",
-      "mobGriefing": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": false,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": true,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:mob_drops": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "lt:escape_race/rooms/6/bill_interactions",
@@ -655,7 +730,12 @@
                   {
                     "id": "minecraft:pillager",
                     "components": {
-                      "equipment": { "mainhand": { "id": "minecraft:crossbow", "count": 1 } }
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:crossbow",
+                          "count": 1
+                        }
+                      }
                     }
                   }
                 ]

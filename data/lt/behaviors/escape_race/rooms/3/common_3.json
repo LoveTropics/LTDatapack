@@ -10,34 +10,43 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "false",
-      "doTileDrops": "false",
-      "doFireTick": "false",
-      "naturalRegeneration": "false",
-      "mobGriefing": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": false,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   {
     "type": "ltminigames:progression",
-    "named_points": {
-    }
+    "named_points": {}
   },
   {
     "type": "ltminigames:simple_dialog",
     "progress_channel": "main",
     "target": "all_players",
     "speakers": {
-      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+      "terry": {
+        "name": {
+          "text": "Terry",
+          "color": "yellow"
+        }
+      }
     },
     "entries": {
-      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_3.intro.1"},
-      "32": {"speaker": "terry", "sound": "ltminigames:escape_race.room_3.intro.2"}
+      "5": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.room_3.intro.1"
+      },
+      "32": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.room_3.intro.2"
+      }
     }
   },
   {
@@ -69,7 +78,7 @@
       "type": "minecraft:guardian",
       "tag": {
         "Invulnerable": true,
-        "CustomName": "Terry's Assistant",
+        "CustomName": "Terry\u0027s Assistant",
         "PersistenceRequired": true,
         "attributes": [
           {
@@ -79,7 +88,9 @@
         ]
       }
     },
-    "regions_to_spawn_at": ["guardians"],
+    "regions_to_spawn_at": [
+      "guardians"
+    ],
     "entity_count_per_region": 3,
     "at_heightmap": false
   },

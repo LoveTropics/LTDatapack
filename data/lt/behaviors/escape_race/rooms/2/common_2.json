@@ -4,14 +4,14 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "fallDamage": "false",
-      "announceAdvancements": "false",
-      "doImmediateRespawn": "true",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:immediate_respawn": true,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   {
@@ -57,32 +57,88 @@
     "progress_channel": "main",
     "target": "all_players",
     "speakers": {
-      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+      "terry": {
+        "name": {
+          "text": "Terry",
+          "color": "yellow"
+        }
+      }
     },
     "entries": {
-      "phone_call_intro": {"speaker": "terry", "line": "Hey, is this thing on? Can you hear me? Yes, excellent. That's going to be important.", "sound": "ltminigames:escape_race.terry_trash.sound_1"},
-      "phone_call_intro_1": {"speaker": "terry", "line": "Look, I'll keep it short - the lawyers tell me we messed up."},
-      "phone_call_intro_2": {"speaker": "terry", "line": "Turns out, when you promise a recycling initiative for tax breaks, you actually have to follow up on that. Stupid, I know."},
-      "phone_call_intro_3": {"speaker": "terry", "line": "Anyways, that's where you come in. We've got trash, you've got hands. And the room has bins. Couldn't make it any easier if you tried."},
-      "phone_call_intro_4": {"speaker": "terry", "line": "Wait, what if the bins had hands? That's good - get the lab on that."},
-      "phone_call_intro_5": {"speaker": "terry", "line": "Anyways, in the meantime, we'll have to make do with you. Good luck!"},
-      "phone_call_intro_6": {"speaker": "terry", "line": "Hands! Bins! Right away!"},
-      "phone_call_code": {"speaker": "terry", "line": "If they can't reach, then make them longer. No, not the bins - the arms!", "sound": "ltminigames:escape_race.terry_trash.sound_2"},
-      "phone_call_code_1": {"speaker": "terry", "line": "Wait- the red light means on? Then what does the green mean? Off? Who chose that? Me? Get out!"},
-      "phone_call_code_2": {"speaker": "terry", "line": "Also - important update: we found out what those lights on the walls do. Turns out, they're a code."},
-      "phone_call_code_3": {"speaker": "terry", "line": "Put trash in the slots, pull the switch, and see what's right. If that doesn't work... blame the lab."},
-      "phone_call_boom": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_3"},
-      "phone_call_two_minutes": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_4"},
-      "phone_call_30_seconds": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_5"},
-      "phone_call_5_seconds": {"speaker": "terry", "sound": "ltminigames:escape_race.terry_trash.sound_6"}
+      "phone_call_intro": {
+        "speaker": "terry",
+        "line": "Hey, is this thing on? Can you hear me? Yes, excellent. That\u0027s going to be important.",
+        "sound": "ltminigames:escape_race.terry_trash.sound_1"
+      },
+      "phone_call_intro_1": {
+        "speaker": "terry",
+        "line": "Look, I\u0027ll keep it short - the lawyers tell me we messed up."
+      },
+      "phone_call_intro_2": {
+        "speaker": "terry",
+        "line": "Turns out, when you promise a recycling initiative for tax breaks, you actually have to follow up on that. Stupid, I know."
+      },
+      "phone_call_intro_3": {
+        "speaker": "terry",
+        "line": "Anyways, that\u0027s where you come in. We\u0027ve got trash, you\u0027ve got hands. And the room has bins. Couldn\u0027t make it any easier if you tried."
+      },
+      "phone_call_intro_4": {
+        "speaker": "terry",
+        "line": "Wait, what if the bins had hands? That\u0027s good - get the lab on that."
+      },
+      "phone_call_intro_5": {
+        "speaker": "terry",
+        "line": "Anyways, in the meantime, we\u0027ll have to make do with you. Good luck!"
+      },
+      "phone_call_intro_6": {
+        "speaker": "terry",
+        "line": "Hands! Bins! Right away!"
+      },
+      "phone_call_code": {
+        "speaker": "terry",
+        "line": "If they can\u0027t reach, then make them longer. No, not the bins - the arms!",
+        "sound": "ltminigames:escape_race.terry_trash.sound_2"
+      },
+      "phone_call_code_1": {
+        "speaker": "terry",
+        "line": "Wait- the red light means on? Then what does the green mean? Off? Who chose that? Me? Get out!"
+      },
+      "phone_call_code_2": {
+        "speaker": "terry",
+        "line": "Also - important update: we found out what those lights on the walls do. Turns out, they\u0027re a code."
+      },
+      "phone_call_code_3": {
+        "speaker": "terry",
+        "line": "Put trash in the slots, pull the switch, and see what\u0027s right. If that doesn\u0027t work... blame the lab."
+      },
+      "phone_call_boom": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.terry_trash.sound_3"
+      },
+      "phone_call_two_minutes": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.terry_trash.sound_4"
+      },
+      "phone_call_30_seconds": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.terry_trash.sound_5"
+      },
+      "phone_call_5_seconds": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.terry_trash.sound_6"
+      }
     }
   },
   {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "actions": {
-      "stop": ["ltminigames:end_game"],
-      "end": ["ltminigames:close_game"]
+      "stop": [
+        "ltminigames:end_game"
+      ],
+      "end": [
+        "ltminigames:close_game"
+      ]
     }
   },
   {
@@ -236,7 +292,9 @@
       {
         "process_region": "trash_type_3_process",
         "item_predicate": {
-          "item": ["tropicraft:exploding_coconut"]
+          "item": [
+            "tropicraft:exploding_coconut"
+          ]
         }
       }
     ],
@@ -352,5 +410,4 @@
       }
     ]
   }
-
 ]

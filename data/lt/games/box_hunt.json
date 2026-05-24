@@ -45,10 +45,16 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "hiders": ["boxes_spawn"],
-        "seekers": ["hunters_spawn"]
+        "hiders": [
+          "boxes_spawn"
+        ],
+        "seekers": [
+          "hunters_spawn"
+        ]
       },
-      "spectators": ["boxes_spawn"]
+      "spectators": [
+        "boxes_spawn"
+      ]
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
@@ -66,15 +72,15 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "doDaylightCycle": "false",
-        "doWeatherCycle": "false",
-        "doMobSpawning": "false",
-        "fallDamage": "false",
-        "announceAdvancements": "false",
-        "doImmediateRespawn": "true",
-        "naturalRegeneration": "false",
-        "locatorBar": "false",
-        "commandBlockOutput": "false"
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:spawn_mobs": false,
+        "minecraft:immediate_respawn": true,
+        "minecraft:natural_health_regeneration": false,
+        "minecraft:advance_weather": false,
+        "minecraft:fall_damage": false,
+        "minecraft:advance_time": false,
+        "minecraft:show_advancement_messages": false
       }
     },
     {

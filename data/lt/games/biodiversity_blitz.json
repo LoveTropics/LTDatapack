@@ -48,8 +48,8 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "randomTickSpeed": "0",
-        "announceAdvancements": "false"
+        "minecraft:random_tick_speed": 0,
+        "minecraft:show_advancement_messages": false
       }
     },
     {
@@ -187,7 +187,7 @@
           "color": "gray"
         },
         "20": {
-          "text": "Gosh, just look at %winner%'s garden!",
+          "text": "Gosh, just look at %winner%\u0027s garden!",
           "color": "gray"
         }
       }
@@ -196,8 +196,16 @@
     "lt:biodiversity_blitz/rewards",
     {
       "type": "ltminigames:bb_in_game_scoreboard",
-      "start": [9.3, 150.0, -18.0],
-      "end": [9.3, 146.0, -24.0],
+      "start": [
+        9.3,
+        150.0,
+        -18.0
+      ],
+      "end": [
+        9.3,
+        146.0,
+        -24.0
+      ],
       "side": true,
       "left_team": "blue",
       "right_team": "red"
@@ -205,8 +213,8 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "locatorBar": "false",
-        "commandBlockOutput": "false"
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false
       }
     }
   ]

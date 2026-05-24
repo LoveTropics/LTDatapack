@@ -13,17 +13,16 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "false",
-      "doTileDrops": "true",
-      "doFireTick": "false",
-      "naturalRegeneration": "true",
-      "mobGriefing": "false",
-      "commandBlockOutput": "false",
-      "locatorBar": "false"
+      "minecraft:block_drops": true,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:natural_health_regeneration": true,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   {
@@ -34,18 +33,25 @@
   },
   {
     "type": "ltminigames:progression",
-    "named_points": {
-    }
+    "named_points": {}
   },
   {
     "type": "ltminigames:simple_dialog",
     "progress_channel": "main",
     "target": "all_players",
     "speakers": {
-      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+      "terry": {
+        "name": {
+          "text": "Terry",
+          "color": "yellow"
+        }
+      }
     },
     "entries": {
-      "5": {"speaker": "terry", "sound": "ltminigames:escape_race.room_1.intro.1"}
+      "5": {
+        "speaker": "terry",
+        "sound": "ltminigames:escape_race.room_1.intro.1"
+      }
     }
   },
   {
@@ -54,7 +60,11 @@
       "minecraft:blocks/redstone_wire": {
         "id": "minecraft:redstone",
         "components": {
-          "minecraft:can_place_on": [{ "blocks": "#lt:escape_race_1_floor" }]
+          "minecraft:can_place_on": [
+            {
+              "blocks": "#lt:escape_race_1_floor"
+            }
+          ]
         }
       },
       "minecraft:blocks/decorated_pot": {
@@ -71,7 +81,11 @@
     "item": {
       "id": "minecraft:redstone",
       "components": {
-        "minecraft:can_place_on": [{ "blocks": "#lt:escape_race_1_floor" }]
+        "minecraft:can_place_on": [
+          {
+            "blocks": "#lt:escape_race_1_floor"
+          }
+        ]
       }
     },
     "count": 300
@@ -82,7 +96,7 @@
     "run_once": true,
     "predicate": {
       "blocks": "minecraft:redstone_wire",
-      "state": {
+      "properties": {
         "power": 12
       }
     },
@@ -108,16 +122,16 @@
   {
     "type": "ltminigames:while_in_region",
     "regions": {
-      "progress_reach_area_1":  [
-          {
-            "type": "ltminigames:increment_statistic",
-            "statistic": "vacation_days",
-            "amount": 5,
-            "scope": "team"
-          }
+      "progress_reach_area_1": [
+        {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "vacation_days",
+          "amount": 5,
+          "scope": "team"
+        }
       ]
     },
-    "run_once": true
+    "run_once": "once"
   },
   {
     "type": "ltminigames:block_in_region",
@@ -136,7 +150,12 @@
         "type": "ltminigames:simple_dialog",
         "target": "all_players",
         "speakers": {
-          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+          "terry": {
+            "name": {
+              "text": "Terry",
+              "color": "yellow"
+            }
+          }
         },
         "entries": {
           "3": {
@@ -146,7 +165,7 @@
           },
           "7": {
             "speaker": "terry",
-            "line": "The bean counters tell me that the feeding costs for Little Terror are the cause for the books not balancing. Can't think why that would be."
+            "line": "The bean counters tell me that the feeding costs for Little Terror are the cause for the books not balancing. Can\u0027t think why that would be."
           }
         }
       },
@@ -215,7 +234,7 @@
         "type": "minecraft:warden",
         "tag": {
           "AvoidDarkness": true,
-          "CustomName": "Lil' Terror",
+          "CustomName": "Lil\u0027 Terror",
           "PersistenceRequired": true,
           "attributes": [
             {
@@ -225,7 +244,9 @@
           ]
         }
       },
-      "regions_to_spawn_at": ["warden"],
+      "regions_to_spawn_at": [
+        "warden"
+      ],
       "entity_count_per_region": 1,
       "at_heightmap": false,
       "entity_spawn_actions": [

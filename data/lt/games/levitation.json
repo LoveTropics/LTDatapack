@@ -34,7 +34,9 @@
         "rise": {
           "type": "ltminigames:set_blocks",
           "replace": {
-            "blocks": ["minecraft:light_blue_stained_glass"]
+            "blocks": [
+              "minecraft:light_blue_stained_glass"
+            ]
           },
           "set": "minecraft:air",
           "region": "barrier"
@@ -72,7 +74,7 @@
       "type": "ltminigames:phase_triggers/stop",
       "actions": {
         "type": "ltminigames:run_commands",
-        "global": "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+        "global": "kill @e[current_world\u003dtrue,type\u003dminecraft:fishing_bobber]"
       }
     },
     {
@@ -82,8 +84,8 @@
           {
             "type": "ltminigames:run_commands",
             "player": [
-              "tellraw @a[tag=levitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
-              "kill @e[current_world=true,type=minecraft:fishing_bobber]"
+              "tellraw @a[tag\u003dlevitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
+              "kill @e[current_world\u003dtrue,type\u003dminecraft:fishing_bobber]"
             ]
           },
           "ltminigames:close_game"
@@ -111,14 +113,14 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "doDaylightCycle": "false",
-        "doWeatherCycle": "false",
-        "doMobSpawning": "false",
-        "fallDamage": "false",
-        "announceAdvancements": "false",
-        "doImmediateRespawn": "true",
-        "locatorBar": "false",
-        "commandBlockOutput": "false"
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:spawn_mobs": false,
+        "minecraft:immediate_respawn": true,
+        "minecraft:advance_weather": false,
+        "minecraft:fall_damage": false,
+        "minecraft:advance_time": false,
+        "minecraft:show_advancement_messages": false
       }
     },
     {

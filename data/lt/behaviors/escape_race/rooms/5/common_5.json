@@ -18,17 +18,16 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "false",
-      "doTileDrops": "true",
-      "doFireTick": "false",
-      "naturalRegeneration": "false",
-      "mobGriefing": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": true,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "lt:escape_race/rooms/5/barrels",
@@ -53,7 +52,10 @@
                     "painting": "lt:forklift_3"
                   },
                   {
-                    "display_itemstack": {"id": "minecraft:bow", "count": 1},
+                    "display_itemstack": {
+                      "id": "minecraft:bow",
+                      "count": 1
+                    },
                     "painting": "lt:terry_vacation_1"
                   }
                 ],
@@ -75,7 +77,10 @@
                     "painting": "lt:forklift_5"
                   },
                   {
-                    "display_itemstack": {"id": "minecraft:baked_potato", "count": 1},
+                    "display_itemstack": {
+                      "id": "minecraft:baked_potato",
+                      "count": 1
+                    },
                     "painting": "lt:terry_vacation_2"
                   }
                 ],
@@ -97,7 +102,10 @@
                     "painting": "lt:forklift_1"
                   },
                   {
-                    "display_itemstack": {"id": "minecraft:ender_pearl", "count": 1},
+                    "display_itemstack": {
+                      "id": "minecraft:ender_pearl",
+                      "count": 1
+                    },
                     "painting": "lt:terry_vacation_3"
                   }
                 ],
@@ -114,12 +122,16 @@
   },
   {
     "type": "ltminigames:increase_random_tick_rate_in_region",
-    "regions": ["farmland"],
+    "regions": [
+      "farmland"
+    ],
     "increased_tick_rate": 2
   },
   {
     "type": "ltminigames:prevent_crop_growth_in_region",
-    "regions": ["no_grow"]
+    "regions": [
+      "no_grow"
+    ]
   },
   {
     "type": "ltminigames:scheduled_actions",
@@ -141,21 +153,43 @@
           "type": "ltminigames:simple_dialog",
           "target": "all_players",
           "speakers": {
-            "gary": {"name": {"text": "Gary Gibnut", "color": "green"}},
-            "izzy": {"name": {"text": "Izzy Illusioner", "color": "red"}}
+            "gary": {
+              "name": {
+                "text": "Gary Gibnut",
+                "color": "green"
+              }
+            },
+            "izzy": {
+              "name": {
+                "text": "Izzy Illusioner",
+                "color": "red"
+              }
+            }
           },
           "entries": {
-            "2": {"speaker": "gary", "line": "HELLOOOOOO?!", "sound": "ltminigames:escape_race.room_5.sound_1"},
-            "3": {"speaker": "gary", "line": "Is anybody there?!", "sound": "ltminigames:escape_race.room_5.sound_2"},
-            "5": {"speaker": "gary", "line": "I'VE BEEN TRAPPED!", "sound": "ltminigames:escape_race.room_5.sound_3"},
+            "2": {
+              "speaker": "gary",
+              "line": "HELLOOOOOO?!",
+              "sound": "ltminigames:escape_race.room_5.sound_1"
+            },
+            "3": {
+              "speaker": "gary",
+              "line": "Is anybody there?!",
+              "sound": "ltminigames:escape_race.room_5.sound_2"
+            },
+            "5": {
+              "speaker": "gary",
+              "line": "I\u0027VE BEEN TRAPPED!",
+              "sound": "ltminigames:escape_race.room_5.sound_3"
+            },
             "6": {
               "speaker": "izzy",
-              "line": "Hey, shut it you. Nobody's coming.... Oh... except... you.. People! The only way they're going to get you out of here is if they break this wall down!",
+              "line": "Hey, shut it you. Nobody\u0027s coming.... Oh... except... you.. People! The only way they\u0027re going to get you out of here is if they break this wall down!",
               "sound": "ltminigames:escape_race.room_5.izzy.sound_1"
             },
             "13": {
               "speaker": "gary",
-              "line": "Izzy might look tough, but it's all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!",
+              "line": "Izzy might look tough, but it\u0027s all...an illusion! She trapped me behind a few puzzles!! Get the code for the forklift vault and smash me out!",
               "sound": "ltminigames:escape_race.room_5.sound_5"
             }
           }
@@ -163,13 +197,17 @@
       ],
       "15": {
         "type": "ltminigames:set_blocks",
-        "region": ["paracord_hatch"],
+        "region": [
+          "paracord_hatch"
+        ],
         "set": "air",
         "notify_neighbors": true
       },
       "20": {
         "type": "ltminigames:set_extending_blocks",
-        "region": ["paracord"],
+        "region": [
+          "paracord"
+        ],
         "set": "ltextras:paracord",
         "direction": "down",
         "duration": 50,
@@ -184,21 +222,27 @@
         "item_frame_region": "code_frame_1",
         "light_region": "code_light_1",
         "item_predicate": {
-          "items": ["minecraft:iron_ingot"]
+          "items": [
+            "minecraft:iron_ingot"
+          ]
         }
       },
       {
         "item_frame_region": "code_frame_2",
         "light_region": "code_light_2",
         "item_predicate": {
-          "items": ["ltextras:battery"]
+          "items": [
+            "ltextras:battery"
+          ]
         }
       },
       {
         "item_frame_region": "code_frame_3",
         "light_region": "code_light_3",
         "item_predicate": {
-          "items": ["ltextras:steering_wheel"]
+          "items": [
+            "ltextras:steering_wheel"
+          ]
         }
       }
     ],
@@ -209,7 +253,11 @@
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
-            {"text": "Code lockout cleared!", "bold": true, "color": "green"}
+            {
+              "text": "Code lockout cleared!",
+              "bold": true,
+              "color": "green"
+            }
           ]
         },
         "target": "all_players",
@@ -233,8 +281,16 @@
         "actions": {
           "type": "ltminigames:send_message",
           "message": [
-            {"text": "Incorrect Code Attempted! ", "bold": true, "color": "red"},
-            {"text": "Code submission now locked out for 30 seconds...", "bold": false, "color": "white"}
+            {
+              "text": "Incorrect Code Attempted! ",
+              "bold": true,
+              "color": "red"
+            },
+            {
+              "text": "Code submission now locked out for 30 seconds...",
+              "bold": false,
+              "color": "white"
+            }
           ]
         },
         "target": "all_players",
@@ -255,15 +311,33 @@
         "region": "forklift_vault_door"
       },
       {
-        "actions":  {
+        "actions": {
           "type": "ltminigames:simple_dialog",
           "speakers": {
-            "gary": {"name": {"text": "Gary Gibnut", "color": "green"}},
-            "izzy": {"name": {"text": "Izzy Illusioner", "color": "red"}}
+            "gary": {
+              "name": {
+                "text": "Gary Gibnut",
+                "color": "green"
+              }
+            },
+            "izzy": {
+              "name": {
+                "text": "Izzy Illusioner",
+                "color": "red"
+              }
+            }
           },
           "entries": {
-            "0": {"speaker": "gary", "line": "Great! You've got the forklift, now drive it straight at me!?!", "sound": "ltminigames:escape_race.room_5.sound_6"},
-            "4": {"speaker": "izzy", "line": "That promotion was mine and you stole it from me! After everything we've been through... I'll never be head of forklifts now.", "sound": "ltminigames:escape_race.room_5.izzy.sound_2"}
+            "0": {
+              "speaker": "gary",
+              "line": "Great! You\u0027ve got the forklift, now drive it straight at me!?!",
+              "sound": "ltminigames:escape_race.room_5.sound_6"
+            },
+            "4": {
+              "speaker": "izzy",
+              "line": "That promotion was mine and you stole it from me! After everything we\u0027ve been through... I\u0027ll never be head of forklifts now.",
+              "sound": "ltminigames:escape_race.room_5.izzy.sound_2"
+            }
           }
         },
         "target": "all_players",
@@ -276,7 +350,7 @@
     "region": "farm_land",
     "run_once": true,
     "predicate": {
-      "blocks": ["#lt:escape_race_5_crops"]
+      "blocks": "#lt:escape_race_5_crops"
     },
     "target": "all_players",
     "actions": [
@@ -323,9 +397,17 @@
   },
   {
     "type": "ltminigames:item_put_in_item_frame",
-    "tags": ["code_1", "code_2", "code_3"],
+    "tags": [
+      "code_1",
+      "code_2",
+      "code_3"
+    ],
     "item_predicate": {
-      "items": ["minecraft:iron_ingot", "ltextras:battery", "ltextras:steering_wheel"]
+      "items": [
+        "minecraft:iron_ingot",
+        "ltextras:battery",
+        "ltextras:steering_wheel"
+      ]
     },
     "matches": [
       {
@@ -343,7 +425,9 @@
       "end_room": [
         {
           "type": "ltminigames:apply_to",
-          "target": ["participants"],
+          "target": [
+            "participants"
+          ],
           "actions": [
             {
               "type": "ltminigames:fade_to_black"
@@ -377,7 +461,9 @@
             "CustomNameVisible": true
           }
         },
-        "regions_to_spawn_at": ["gary"],
+        "regions_to_spawn_at": [
+          "gary"
+        ],
         "entity_count_per_region": 1,
         "at_heightmap": false,
         "face_region": "spawn"
@@ -393,7 +479,9 @@
             "CustomNameVisible": true
           }
         },
-        "regions_to_spawn_at": ["izzy"],
+        "regions_to_spawn_at": [
+          "izzy"
+        ],
         "entity_count_per_region": 1,
         "at_heightmap": false,
         "face_region": "spawn"

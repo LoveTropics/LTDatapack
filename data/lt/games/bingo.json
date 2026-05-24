@@ -27,9 +27,9 @@
       "type": "ltminigames:set_game_rules",
       "apply_defaults": true,
       "rules": {
-        "announceAdvancements": "false",
-        "locatorBar": "false",
-        "commandBlockOutput": "false"
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:show_advancement_messages": false
       }
     },
     {
@@ -47,7 +47,11 @@
         "text": "☠ %message%",
         "color": "gray"
       },
-      "respawn_action": ["ltminigames:clear_effects", "ltminigames:extinguish_player", "ltminigames:reset_hunger"],
+      "respawn_action": [
+        "ltminigames:clear_effects",
+        "ltminigames:extinguish_player",
+        "ltminigames:reset_hunger"
+      ],
       "lives": "lives"
     },
     "ltminigames:minecraft",
@@ -62,11 +66,43 @@
     {
       "type": "ltminigames:bingo",
       "grid": [
-        ["minecraft:golden_apple", "minecraft:glow_berries", "minecraft:sea_pickle", "minecraft:raw_gold", "minecraft:goat_horn"],
-        ["minecraft:poisonous_potato", "minecraft:crossbow", "tropicraft:white_chair", "minecraft:brush", "minecraft:bamboo_chest_raft"],
-        ["minecraft:spyglass", "minecraft:campfire", "minecraft:pufferfish", "minecraft:diamond", "minecraft:name_tag"],
-        ["minecraft:cookie", "minecraft:black_bundle", "minecraft:cake", "minecraft:target", "minecraft:crafter"],
-        ["minecraft:golden_pickaxe", "minecraft:tnt", "tropicraft:palm_log", {"items": "#c:music_discs"}, "minecraft:magenta_candle"]
+        [
+          "minecraft:golden_apple",
+          "minecraft:glow_berries",
+          "minecraft:sea_pickle",
+          "minecraft:raw_gold",
+          "minecraft:goat_horn"
+        ],
+        [
+          "minecraft:poisonous_potato",
+          "minecraft:crossbow",
+          "tropicraft:white_chair",
+          "minecraft:brush",
+          "minecraft:bamboo_chest_raft"
+        ],
+        [
+          "minecraft:spyglass",
+          "minecraft:campfire",
+          "minecraft:pufferfish",
+          "minecraft:diamond",
+          "minecraft:name_tag"
+        ],
+        [
+          "minecraft:cookie",
+          "minecraft:black_bundle",
+          "minecraft:cake",
+          "minecraft:target",
+          "minecraft:crafter"
+        ],
+        [
+          "minecraft:golden_pickaxe",
+          "minecraft:tnt",
+          "tropicraft:palm_log",
+          {
+            "items": "#c:music_discs"
+          },
+          "minecraft:magenta_candle"
+        ]
       ]
     },
     {

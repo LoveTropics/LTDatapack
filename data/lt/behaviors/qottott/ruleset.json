@@ -4,17 +4,16 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "true",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "true",
-      "doTileDrops": "false",
-      "doFireTick": "false",
-      "naturalRegeneration": "false",
-      "mobGriefing": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": false,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": true,
+      "minecraft:advance_time": true,
+      "minecraft:show_advancement_messages": false
     }
   },
   "ltminigames:disable_tnt_block_destruction",
@@ -56,7 +55,11 @@
     "type": "ltminigames:give_items_to_killer",
     "item_predicate": [
       {
-        "items": ["tropicraft:exploding_coconut", "minecraft:wooden_hoe", "minecraft:crossbow"]
+        "items": [
+          "tropicraft:exploding_coconut",
+          "minecraft:wooden_hoe",
+          "minecraft:crossbow"
+        ]
       }
     ]
   },

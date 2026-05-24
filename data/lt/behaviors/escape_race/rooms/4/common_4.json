@@ -16,41 +16,50 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "true",
-      "doTileDrops": "true",
-      "doFireTick": "false",
-      "doMobLoot": "false",
-      "naturalRegeneration": "false",
-      "mobGriefing": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": true,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:mob_drops": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": true,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   {
     "type": "ltminigames:progression",
-    "named_points": {
-    }
+    "named_points": {}
   },
   {
     "type": "ltminigames:simple_dialog",
     "progress_channel": "main",
     "target": "all_players",
     "speakers": {
-      "terry": {"name": {"text": "Terry", "color": "yellow"}}
+      "terry": {
+        "name": {
+          "text": "Terry",
+          "color": "yellow"
+        }
+      }
     },
     "entries": {
-      "5": {"speaker": "terry", "line": "they said what?! What do we pay them for? I'll be frozen in **bleep** before I settle! Alright, let's try this again. Welcome .. new contractors. Today we have an exciting, new chall- They're full of mud. The pipes. And the lab says that's a bad thing. The last crew left with some explosives, use that. Don't get blown up, or do, you signed the contract.", "sound": "ltminigames:escape_race.room_4.1"}
+      "5": {
+        "speaker": "terry",
+        "line": "they said what?! What do we pay them for? I\u0027ll be frozen in **bleep** before I settle! Alright, let\u0027s try this again. Welcome .. new contractors. Today we have an exciting, new chall- They\u0027re full of mud. The pipes. And the lab says that\u0027s a bad thing. The last crew left with some explosives, use that. Don\u0027t get blown up, or do, you signed the contract.",
+        "sound": "ltminigames:escape_race.room_4.1"
+      }
     }
   },
   {
     "type": "ltminigames:phase_triggers/start",
     "actions": {
       "type": "ltminigames:highlight_blocks",
-      "regions": ["mud_1"],
+      "regions": [
+        "mud_1"
+      ],
       "highlight": true
     }
   },
@@ -67,17 +76,21 @@
               "unbreakable": {},
               "ltextras:undroppable": {},
               "item_name": {
-                "text": "Plumbers Flint 'n Steel"
+                "text": "Plumbers Flint \u0027n Steel"
               },
               "rarity": "uncommon",
               "can_place_on": [
                 {
-                  "blocks": ["ltextras:plumbers_tnt"]
+                  "blocks": [
+                    "ltextras:plumbers_tnt"
+                  ]
                 }
               ],
               "can_break": [
                 {
-                  "blocks": ["ltextras:plumbers_tnt"]
+                  "blocks": [
+                    "ltextras:plumbers_tnt"
+                  ]
                 }
               ]
             }
@@ -95,10 +108,19 @@
             "components": {
               "unbreakable": {},
               "ltextras:undroppable": {},
-              "enchantments": { "quick_charge": 3, "piercing": 4, "infinity": 1 },
+              "enchantments": {
+                "quick_charge": 3,
+                "piercing": 4,
+                "infinity": 1
+              },
               "item_name": "Pipe Piercer",
               "rarity": "uncommon",
-              "lore": [{ "color": "gray", "text": "Safety around pipes not guaranteed." }]
+              "lore": [
+                {
+                  "color": "gray",
+                  "text": "Safety around pipes not guaranteed."
+                }
+              ]
             }
           },
           {
@@ -109,7 +131,12 @@
               "ltextras:undroppable": {},
               "item_name": "Pipe Piercing Arrow",
               "rarity": "uncommon",
-              "lore": [{ "color": "gray", "text": "Piercing capabilities untested." }]
+              "lore": [
+                {
+                  "color": "gray",
+                  "text": "Piercing capabilities untested."
+                }
+              ]
             }
           }
         ],
@@ -158,7 +185,9 @@
             ]
           }
         },
-        "regions_to_spawn_at": ["piranha_spawn_small"],
+        "regions_to_spawn_at": [
+          "piranha_spawn_small"
+        ],
         "entity_count_per_region": 2,
         "at_heightmap": false
       },
@@ -177,7 +206,9 @@
             ]
           }
         },
-        "regions_to_spawn_at": ["piranha_spawn_large"],
+        "regions_to_spawn_at": [
+          "piranha_spawn_large"
+        ],
         "entity_count_per_region": 2,
         "at_heightmap": false
       },
@@ -196,7 +227,9 @@
             ]
           }
         },
-        "regions_to_spawn_at": ["surface_squad_small"],
+        "regions_to_spawn_at": [
+          "surface_squad_small"
+        ],
         "entity_count_per_region": 2,
         "at_heightmap": false
       },
@@ -215,7 +248,9 @@
             ]
           }
         },
-        "regions_to_spawn_at": ["surface_squad_large"],
+        "regions_to_spawn_at": [
+          "surface_squad_large"
+        ],
         "entity_count_per_region": 3,
         "at_heightmap": false
       },
@@ -234,7 +269,9 @@
             ]
           }
         },
-        "regions_to_spawn_at": ["surface_squad_large"],
+        "regions_to_spawn_at": [
+          "surface_squad_large"
+        ],
         "entity_count_per_region": 2,
         "at_heightmap": false
       }
@@ -253,10 +290,14 @@
     "actions": [
       {
         "type": "ltminigames:set_extending_blocks",
-        "region": ["water_flood_1"],
+        "region": [
+          "water_flood_1"
+        ],
         "set": "minecraft:water",
         "replace": {
-          "blocks": ["minecraft:air"]
+          "blocks": [
+            "minecraft:air"
+          ]
         },
         "direction": "north",
         "duration": 50,
@@ -267,32 +308,45 @@
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_1",
-    "highlight_regions": ["mud_2"]
+    "highlight_regions": [
+      "mud_2"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_2",
-    "highlight_regions": ["mud_3"]
+    "highlight_regions": [
+      "mud_3"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_3",
-    "highlight_regions": ["mud_4", "mud_5"]
+    "highlight_regions": [
+      "mud_4",
+      "mud_5"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_4",
-    "highlight_regions": ["mud_6"]
+    "highlight_regions": [
+      "mud_6"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_5",
-    "highlight_regions": ["mud_6"]
+    "highlight_regions": [
+      "mud_6"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
     "region": "mud_6",
-    "highlight_regions": ["mud_7"]
+    "highlight_regions": [
+      "mud_7"
+    ]
   },
   {
     "type": "lt:escape_race/rooms/4/mud_check",
@@ -343,7 +397,12 @@
         "type": "ltminigames:simple_dialog",
         "target": "all_players",
         "speakers": {
-          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+          "terry": {
+            "name": {
+              "text": "Terry",
+              "color": "yellow"
+            }
+          }
         },
         "entries": {
           "0": {
@@ -400,13 +459,18 @@
         "type": "ltminigames:simple_dialog",
         "target": "all_players",
         "speakers": {
-          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+          "terry": {
+            "name": {
+              "text": "Terry",
+              "color": "yellow"
+            }
+          }
         },
         "entries": {
           "0": {
             "speaker": "terry",
             "sound": "ltminigames:escape_race.room_4.3",
-            "line": "Almost there, just past halfway. Excellent work in there ... [Contractor First Name].  Ugh, who spilled ...  that doesn't look right "
+            "line": "Almost there, just past halfway. Excellent work in there ... [Contractor First Name].  Ugh, who spilled ...  that doesn\u0027t look right "
           }
         }
       }
@@ -543,13 +607,18 @@
         "type": "ltminigames:simple_dialog",
         "target": "all_players",
         "speakers": {
-          "terry": {"name": {"text": "Terry", "color": "yellow"}}
+          "terry": {
+            "name": {
+              "text": "Terry",
+              "color": "yellow"
+            }
+          }
         },
         "entries": {
           "0": {
             "speaker": "terry",
             "sound": "ltminigames:escape_race.room_4.4",
-            "line": "Put the put the  put the mud back, our pipes can't take this press-"
+            "line": "Put the put the  put the mud back, our pipes can\u0027t take this press-"
           }
         }
       }
@@ -629,7 +698,9 @@
       },
       {
         "type": "ltminigames:set_blocks",
-        "region": ["remove_after_end"],
+        "region": [
+          "remove_after_end"
+        ],
         "replace": {
           "blocks": "minecraft:barrier"
         },

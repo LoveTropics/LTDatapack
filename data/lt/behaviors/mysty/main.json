@@ -3,13 +3,13 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "fallDamage": "false",
-      "announceAdvancements": "false",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "ltminigames:disable_hunger",
@@ -17,30 +17,70 @@
   "ltminigames:immediate_respawn",
   {
     "type": "ltminigames:position_players",
-    "all": ["spawn"]
+    "all": [
+      "spawn"
+    ]
   },
   {
     "type": "ltminigames:minigame_competition",
-    "share_statistics": ["points"],
+    "share_statistics": [
+      "points"
+    ],
     "queue": [
-      { "game": "lt:mysty/spleef/normal" },
-      { "game": "lt:mysty/spleef/coconut" },
-      { "game": "lt:mysty/spleef/blindness" },
-      { "lobby": {} },
-      { "game": "lt:mysty/race/riptide" },
-      { "game": "lt:mysty/race/turtle" },
-      { "lobby": {} },
-      { "game": "lt:mysty/arena/platforms" },
-      { "game": "lt:mysty/arena/waves" },
-      { "game": "lt:mysty/arena/island" },
-      { "lobby": {} },
-      { "game": "lt:mysty/race/ice_boat" },
-      { "lobby": {} },
-      { "game": "lt:mysty/platforms" },
-      { "lobby": {} },
-      { "game": "lt:mysty/columns_of_chaos" },
-      { "lobby": {} },
-      { "game": "lt:mysty/build_battle" }
+      {
+        "game": "lt:mysty/spleef/normal"
+      },
+      {
+        "game": "lt:mysty/spleef/coconut"
+      },
+      {
+        "game": "lt:mysty/spleef/blindness"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/race/riptide"
+      },
+      {
+        "game": "lt:mysty/race/turtle"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/arena/platforms"
+      },
+      {
+        "game": "lt:mysty/arena/waves"
+      },
+      {
+        "game": "lt:mysty/arena/island"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/race/ice_boat"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/platforms"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/columns_of_chaos"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/build_battle"
+      }
     ],
     "return_to_lobby_actions": [
       {
@@ -50,7 +90,11 @@
       },
       {
         "type": "ltminigames:setup_podium",
-        "winner_regions": ["winner_1", "winner_2", "winner_3"],
+        "winner_regions": [
+          "winner_1",
+          "winner_2",
+          "winner_3"
+        ],
         "loser_region": "spawn"
       }
     ]
@@ -63,7 +107,10 @@
   },
   {
     "type": "ltminigames:custom_command",
-    "path": ["competition", "score"],
+    "path": [
+      "competition",
+      "score"
+    ],
     "permission_level": "overlord",
     "argument": "none",
     "actions": [
@@ -74,12 +121,22 @@
       },
       {
         "type": "ltminigames:setup_podium",
-        "winner_regions": ["winner_1", "winner_2", "winner_3"],
+        "winner_regions": [
+          "winner_1",
+          "winner_2",
+          "winner_3"
+        ],
         "loser_region": "spawn",
         "winner_actions": [
-          ["lt:mysty/winner/first_place"],
-          ["lt:mysty/winner/second_place"],
-          ["lt:mysty/winner/third_place"]
+          [
+            "lt:mysty/winner/first_place"
+          ],
+          [
+            "lt:mysty/winner/second_place"
+          ],
+          [
+            "lt:mysty/winner/third_place"
+          ]
         ],
         "loser_actions": {
           "type": "ltminigames:add_equipment",
@@ -95,7 +152,9 @@
             "statistic": "points",
             "order": "max",
             "length": 5,
-            "header": { "translate": "ltminigames.minigame.mysty.results" }
+            "header": {
+              "translate": "ltminigames.minigame.mysty.results"
+            }
           }
         ]
       },
@@ -110,8 +169,16 @@
         "repetitions": 5,
         "actions": {
           "type": "ltminigames:apply_to",
-          "target": ["participants", { "type": "limit_entities", "count": 5 }],
-          "actions": ["ltminigames:spawn_fireworks"]
+          "target": [
+            "participants",
+            {
+              "type": "limit_entities",
+              "count": 5
+            }
+          ],
+          "actions": [
+            "ltminigames:spawn_fireworks"
+          ]
         }
       }
     ]

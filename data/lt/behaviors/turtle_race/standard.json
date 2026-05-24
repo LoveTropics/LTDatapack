@@ -141,7 +141,11 @@
       },
       {
         "type": "ltminigames:setup_podium",
-        "winner_regions": ["winner_1", "winner_2", "winner_3"],
+        "winner_regions": [
+          "winner_1",
+          "winner_2",
+          "winner_3"
+        ],
         "loser_region": "loser_spawn"
       }
     ]
@@ -152,14 +156,14 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "doTileDrops": "false",
-      "doEntityDrops": "false",
-      "commandBlockOutput": "false",
-      "locatorBar": "false"
+      "minecraft:block_drops": false,
+      "minecraft:entity_drops": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:advance_weather": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "lt:turtle_race/rewards"

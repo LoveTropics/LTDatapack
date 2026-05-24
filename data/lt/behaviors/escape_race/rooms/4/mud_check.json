@@ -31,11 +31,6 @@
         "type": "ltminigames:highlight_blocks",
         "regions": ["$region"],
         "highlight": false
-      },
-      {
-        "type": "ltminigames:highlight_blocks",
-        "regions": "$highlight_regions",
-        "highlight": true
       }
     ]
   }

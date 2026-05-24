@@ -10,17 +10,16 @@
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
-      "doDaylightCycle": "false",
-      "doWeatherCycle": "false",
-      "doMobSpawning": "false",
-      "announceAdvancements": "false",
-      "fallDamage": "true",
-      "doTileDrops": "false",
-      "doFireTick": "false",
-      "doMobLoot": "false",
-      "mobGriefing": "$mob_griefing",
-      "locatorBar": "false",
-      "commandBlockOutput": "false"
+      "minecraft:block_drops": false,
+      "minecraft:mob_griefing": false,
+      "minecraft:command_blocks_work": false,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:mob_drops": false,
+      "minecraft:advance_weather": false,
+      "minecraft:fall_damage": true,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false
     }
   },
   "ltminigames:tnt_auto_fuse"

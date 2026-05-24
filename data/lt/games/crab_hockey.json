@@ -44,10 +44,16 @@
     {
       "type": "ltminigames:position_players",
       "teams": {
-        "red": ["red"],
-        "blue": ["blue"]
+        "red": [
+          "red"
+        ],
+        "blue": [
+          "blue"
+        ]
       },
-      "spectators": ["spectators"],
+      "spectators": [
+        "spectators"
+      ],
       "face_region": "crab_spawn"
     },
     "lt:crab_hockey/equipment",
@@ -98,7 +104,10 @@
       "type": "ltminigames:phase_progress_bar",
       "entries": [
         {
-          "period": [0, "start"],
+          "period": [
+            0,
+            "start"
+          ],
           "text": {
             "translate": "ltminigames.minigame.get_ready",
             "color": "yellow"
@@ -108,7 +117,10 @@
           "include_time": true
         },
         {
-          "period": ["start", "end"],
+          "period": [
+            "start",
+            "end"
+          ],
           "text": {
             "translate": "ltminigames.minigame.crab_hockey",
             "color": "red"
@@ -127,11 +139,26 @@
           "statistic": "crabs",
           "scope": "global",
           "by_player_count": [
-            [0, 1],
-            [6, 1],
-            [7, 2],
-            [8, 2],
-            [10, 3]
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              10,
+              3
+            ]
           ]
         }
       ]
@@ -178,7 +205,10 @@
         "blue": "blue_goal"
       },
       "statistic": "points",
-      "score_period": ["start", "end"]
+      "score_period": [
+        "start",
+        "end"
+      ]
     },
     {
       "type": "ltminigames:place_by_statistic",
@@ -189,14 +219,14 @@
     {
       "type": "ltminigames:set_game_rules",
       "rules": {
-        "doDaylightCycle": "false",
-        "doWeatherCycle": "false",
-        "doMobSpawning": "false",
-        "fallDamage": "false",
-        "announceAdvancements": "false",
-        "doImmediateRespawn": "true",
-        "locatorBar": "false",
-        "commandBlockOutput": "false"
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:spawn_mobs": false,
+        "minecraft:immediate_respawn": true,
+        "minecraft:advance_weather": false,
+        "minecraft:fall_damage": false,
+        "minecraft:advance_time": false,
+        "minecraft:show_advancement_messages": false
       }
     },
     "ltminigames:immediate_respawn",
@@ -206,7 +236,9 @@
       "target": "all_players",
       "actions": {
         "type": "ltminigames:give_reward",
-        "items": ["ltextras:tropicoin"],
+        "items": [
+          "ltextras:tropicoin"
+        ],
         "statistic_binding": {
           "statistic": "points",
           "multiplier": 0.25,
