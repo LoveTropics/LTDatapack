@@ -64,7 +64,7 @@
       {
         "type": "filter_entities",
         "predicate": {
-          "type": "minecraft:villager"
+          "minecraft:entity_type": "minecraft:villager"
         }
       },
       {

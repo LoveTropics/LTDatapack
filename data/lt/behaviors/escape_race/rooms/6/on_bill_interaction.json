@@ -4,7 +4,7 @@
     "items": "$item_id"
   },
   "target_predicate": {
-    "type": "tropicraft:shoebill_stork"
+    "minecraft:entity_type": "tropicraft:shoebill_stork"
   },
   "target_actions": [
     {

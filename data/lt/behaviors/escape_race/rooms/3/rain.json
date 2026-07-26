@@ -7,7 +7,7 @@
   {
     "type": "ltminigames:on_damage",
     "predicate": {
-      "type": "minecraft:player",
+      "minecraft:entity_type": "minecraft:player",
       "effects": {
         "ltextras:propaguled": {}
       }

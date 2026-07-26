@@ -270,10 +270,10 @@
       "type": "ltminigames:scale_explosion_knockback",
       "factor": 3.0,
       "exploded": {
-        "type": "tropicraft:fiddler_crab"
+        "minecraft:entity_type": "tropicraft:fiddler_crab"
       },
       "exploder": {
-        "type": "minecraft:wind_charge"
+        "minecraft:entity_type": "minecraft:wind_charge"
       }
     }
   ]

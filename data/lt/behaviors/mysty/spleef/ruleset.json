@@ -22,7 +22,7 @@
   {
     "type": "ltminigames:projectile_knockback",
     "projectile": {
-      "type": "minecraft:snowball"
+      "minecraft:entity_type": "minecraft:snowball"
     },
     "target": {
       "type": "minecraft:player"

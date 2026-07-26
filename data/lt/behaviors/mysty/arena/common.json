@@ -83,7 +83,7 @@
     "factor": 0.0,
     "source": {
       "direct_entity": {
-        "type": "tropicraft:exploding_coconut"
+        "minecraft:entity_type": "tropicraft:exploding_coconut"
       }
     }
   },
@@ -91,7 +91,7 @@
     "type": "ltminigames:scale_explosion_knockback",
     "factor": 2.25,
     "exploder": {
-      "type": "tropicraft:exploding_coconut"
+      "minecraft:entity_type": "tropicraft:exploding_coconut"
     }
   },
   {
