@@ -16,7 +16,7 @@
       ]
     },
     "projectile": {
-      "type": "minecraft:snowball"
+      "minecraft:entity_type": "minecraft:snowball"
     }
   },
   {
@@ -25,7 +25,7 @@
       "minecraft:entity_type": "minecraft:snowball"
     },
     "target": {
-      "type": "minecraft:player"
+      "minecraft:entity_type": "minecraft:player"
     },
     "strength": 0.4
   },
