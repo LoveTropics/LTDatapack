@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 107.1,
+    "min_format": 107.1,
+    "max_format": 107.1,
     "description": "Datapack for the Love Tropics server, including minigame configuration"
   }
 }
