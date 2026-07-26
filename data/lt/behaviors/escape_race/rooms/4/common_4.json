@@ -180,7 +180,7 @@
             "attributes": [
               {
                 "base": 1,
-                "id": "neoforge:nametag_distance"
+                "id": "minecraft:name_tag_distance"
               }
             ]
           }
@@ -201,7 +201,7 @@
             "attributes": [
               {
                 "base": 6,
-                "id": "neoforge:nametag_distance"
+                "id": "minecraft:name_tag_distance"
               }
             ]
           }
@@ -222,7 +222,7 @@
             "attributes": [
               {
                 "base": 3,
-                "id": "neoforge:nametag_distance"
+                "id": "minecraft:name_tag_distance"
               }
             ]
           }
@@ -243,7 +243,7 @@
             "attributes": [
               {
                 "base": 3,
-                "id": "neoforge:nametag_distance"
+                "id": "minecraft:name_tag_distance"
               }
             ]
           }
@@ -264,7 +264,7 @@
             "attributes": [
               {
                 "base": 3,
-                "id": "neoforge:nametag_distance"
+                "id": "minecraft:name_tag_distance"
               }
             ]
           }

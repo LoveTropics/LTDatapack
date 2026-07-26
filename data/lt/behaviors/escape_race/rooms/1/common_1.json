@@ -239,7 +239,7 @@
           "attributes": [
             {
               "base": 4,
-              "id": "neoforge:nametag_distance"
+              "id": "minecraft:name_tag_distance"
             }
           ]
         }
