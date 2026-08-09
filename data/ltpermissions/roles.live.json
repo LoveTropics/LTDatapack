@@ -15,11 +15,16 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
-        "prefix": {
-          "text": "[ALT] ",
-          "color": "red"
-        },
         "style": "#31a2ac"
+      }
+    }
+  },
+  "administration": {
+    "includes": ["whitelisted"],
+    "overrides": {
+      "op_level": 4,
+      "commands": {
+        ".*": "allow"
       }
     }
   },
@@ -69,69 +74,18 @@
     }
   },
   "modder": {
-    "includes": ["trusted", "administration"],
+    "includes": ["privileged"],
     "overrides": {
       "name_decoration": {
         "style": "#DEB22F"
       }
     }
   },
-  "administration": {
-    "includes": ["whitelisted"],
-    "overrides": {
-      "op_level": 4,
-      "commands": {
-        ".*": "allow"
-      }
-    }
-  },
+  "pro_builder": {},
   "builder": {
-    "includes": ["fake_op", "whitelisted"],
     "overrides": {
-      "join_access": {
-        "allows_joining": true
-      },
       "name_decoration": {
         "style": "#a95cdd"
-      }
-    }
-  },
-  "helper": {
-    "includes": ["whitelisted"],
-    "overrides": {
-      "name_decoration": {
-        "style": "#30c6f0"
-      },
-      "join_access": {
-        "allows_joining": true
-      }
-    }
-  },
-  "fake_op": {
-    "includes": ["whitelisted"],
-    "overrides": {
-      "op_level": 2,
-      "commands": {
-        "fly": "allow",
-        "give": "allow",
-        "gamemode .*": "allow",
-        "clear": "allow",
-        "effect": "allow"
-      },
-      "join_access": {
-        "allows_joining": true
-      }
-    }
-  },
-  "trusted": {
-    "includes": ["privileged"],
-    "overrides": {
-      "commands": {
-        "fly": "allow",
-        "give": "allow",
-        "game": "allow",
-        "gamemode .*": "allow",
-        "tp": "allow"
       }
     }
   },
@@ -140,6 +94,26 @@
     "overrides": {
       "name_decoration": {
         "style": "#3498db"
+      }
+    }
+  },
+  "worldedit": {},
+  "game_controller": {
+    "overrides": {
+      "commands": {
+        "game": "allow"
+      }
+    }
+  },
+  "trusted": {
+    "includes": ["privileged"],
+    "overrides": {
+      "op_level": 2,
+      "commands": {
+        "fly": "allow",
+        "give": "allow",
+        "gamemode .*": "allow",
+        "tp": "allow"
       }
     }
   },
@@ -157,13 +131,6 @@
       }
     }
   },
-  "build_mode": {
-    "overrides": {
-      "commands": {
-        "fly": "allow"
-      }
-    }
-  },
   "dinners": {},
   "river_race_red": {},
   "river_race_blue": {},
@@ -174,63 +141,6 @@
   },
   "donator": {
     "includes": ["whitelisted"]
-  },
-  "event_streamer": {
-    "overrides": {
-      "name_decoration": {
-        "prefix": {
-          "text": "[STREAMER] ",
-          "color": "#F5A927"
-        },
-        "style": "#F5A927"
-      },
-      "host": true,
-      "join_access": {
-        "allows_joining": false,
-        "not_whitelisted_message": {
-          "translate": "lt.whitelist.mysty_event.not_started"
-        }
-      }
-    }
-  },
-  "event_overlord": {
-    "overrides": {
-      "op_level": 2,
-      "name_decoration": {
-        "prefix": {
-          "text": "[OVERLORD] ",
-          "color": "#f44627"
-        },
-        "style": "#f44627"
-      }
-    }
-  },
-  "event": {
-    "overrides": {
-      "command_feedback": false,
-      "name_decoration": {
-        "prefix": {
-          "text": "[EVENT] ",
-          "color": "#CF27F5"
-        },
-        "style": "#CF27F5"
-      },
-      "join_access": {
-        "allows_joining": false,
-        "not_whitelisted_message": {
-          "translate": "lt.whitelist.mysty_event.not_started"
-        },
-        "join_limit": {
-          "limit": 40,
-          "message": {
-            "translate": "lt.whitelist.mysty_event.full"
-          }
-        },
-        "enforce": {
-          "translate": "lt.whitelist.mysty_event.ended"
-        }
-      }
-    }
   },
   "whitelisted": {
     "overrides": {
