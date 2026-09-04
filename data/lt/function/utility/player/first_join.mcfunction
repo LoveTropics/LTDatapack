@@ -1,5 +1,5 @@
-execute in tropicraft:tropics run tp @s 1169 170 -1240 0 0
-execute in tropicraft:tropics run spawnpoint @s 1169 170 -1240
+execute in tropicraft:tropics run tp @s -684 188 -1684
+execute in tropicraft:tropics run spawnpoint @s -684 188 -1684
 # Set There WayPoint
 execute as @s run function lt:utility/waypoint
 
@@ -22,3 +22,4 @@ tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 collectible give @s lt:utility/tropical_map
 give @s ltextras:tropicoin 10
+ 
