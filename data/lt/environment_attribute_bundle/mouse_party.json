@@ -1,0 +1,11 @@
+{
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "minecraft:note"
+      },
+      "count": 4,
+      "range": 10
+    }
+  ]
+}

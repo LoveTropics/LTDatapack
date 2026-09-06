@@ -1,0 +1,11 @@
+{
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "ltextras:team_cents"
+      },
+      "count": 4,
+      "range": 10
+    }
+  ]
+}

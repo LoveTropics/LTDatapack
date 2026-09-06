@@ -1,0 +1,12 @@
+{
+  "minecraft:visual/sky_color": "#5ebfa1",
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "minecraft:heart"
+      },
+      "count": 4,
+      "range": 10
+    }
+  ]
+}

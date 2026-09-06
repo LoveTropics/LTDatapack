@@ -1,0 +1,12 @@
+{
+  "minecraft:visual/sky_color": "#28ff6e",
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "minecraft:falling_spore_blossom"
+      },
+      "count": 4,
+      "range": 10
+    }
+  ]
+}

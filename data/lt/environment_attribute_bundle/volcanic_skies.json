@@ -1,0 +1,13 @@
+{
+  "minecraft:visual/sky_color": "#ff6e28",
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "minecraft:lava"
+      },
+      "count": 4,
+      "range": 20,
+      "offset": [0, 12, 0]
+    }
+  ]
+}

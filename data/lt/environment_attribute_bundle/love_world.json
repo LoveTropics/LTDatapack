@@ -1,0 +1,13 @@
+{
+  "minecraft:visual/sky_color": "#5ebfa1",
+  "ltextras:extra_particles": [
+    {
+      "options": {
+        "type": "ltextras:emitted_hearts_particle"
+      },
+      "count": 14,
+      "range": 20,
+      "offset": [0, 12, 0]
+    }
+  ]
+}
