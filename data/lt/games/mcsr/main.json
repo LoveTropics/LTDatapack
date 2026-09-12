@@ -1,0 +1,43 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mcsr"
+  },
+  "statistics_key": "mcsr",
+  "backend_id": "lt:mcsr",
+  "maximum_participants": 6,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:waiting_lobby",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator",
+      "allow_rejoin": true
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": "spawn"
+    },
+    "ltminigames:disable_hunger",
+    {
+      "type": "ltminigames:cancel_player_damage",
+      "knockback": true
+    },
+    {
+      "type": "ltminigames:set_game_rules",
+      "apply_defaults": true,
+      "rules": {
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:show_advancement_messages": false
+      }
+    },
+    {
+      "type": "ltminigames:mcsr/player_worlds",
+      "world": "lt:mcsr/world"
+    }
+  ]
+}
