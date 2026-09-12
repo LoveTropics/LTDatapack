@@ -1,0 +1,70 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mcsr"
+  },
+  "statistics_key": "mcsr",
+  "hide_from_list": true,
+  "map": {
+    "type": "ltminigames:generator",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "preset": "minecraft:overworld"
+      },
+      "settings": "minecraft:overworld"
+    },
+    "dimension": "minecraft:overworld",
+    "spawn_region": "spawn",
+    "nether": {
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      },
+      "dimension": "minecraft:the_nether"
+    },
+    "end": {
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      },
+      "dimension": "minecraft:the_end"
+    }
+  },
+  "behaviors": [
+    {
+      "type": "ltminigames:set_game_types",
+      "participant": "survival",
+      "spectator": "spectator"
+    },
+    {
+      "type": "ltminigames:join_late_with_role",
+      "role": "spectator",
+      "allow_rejoin": true
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": "spawn"
+    },
+    {
+      "type": "ltminigames:set_difficulty",
+      "difficulty": "normal"
+    },
+    {
+      "type": "ltminigames:immediate_respawn",
+      "drop_inventory": true,
+      "respawn_action": [
+        "ltminigames:clear_effects",
+        "ltminigames:extinguish_player",
+        "ltminigames:reset_hunger"
+      ]
+    }
+  ]
+}
