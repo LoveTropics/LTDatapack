@@ -7,7 +7,7 @@
   "maximum_participants": 50,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_iceboat_1",
+    "load_from": "lt:games/mysty/mysty_iceboat_1",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": "lt:forklift_race/game"

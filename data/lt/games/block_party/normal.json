@@ -8,7 +8,16 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:block_party"
+    "load_from": "lt:games/block_party"
+  },
+  "waiting": {
+    "map": {
+      "dimension_type": "",
+      "load_from": "",
+      "type": ""
+    },
+    "behaviors": [
+    ]
   },
   "behaviors": [
     {

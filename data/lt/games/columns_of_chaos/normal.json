@@ -15,12 +15,12 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:pillars_of_wealth"
+    "load_from": "lt:games/pillars_of_wealth"
   },
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [

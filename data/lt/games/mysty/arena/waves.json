@@ -9,7 +9,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_arena_2"
+    "load_from": "lt:games/mysty/mysty_arena_2"
   },
   "behaviors": "lt:mysty/arena/waves"
 }

@@ -19,7 +19,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -56,7 +56,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:escape_race_warehouse",
+    "load_from": "lt:games/escape_race/escape_race_warehouse",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": "lt:escape_race/warehouse/main"

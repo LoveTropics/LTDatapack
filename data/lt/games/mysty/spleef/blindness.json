@@ -9,7 +9,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_spleef_3"
+    "load_from": "lt:games/mysty/mysty_spleef_3"
   },
   "behaviors": "lt:mysty/spleef/blindness"
 }

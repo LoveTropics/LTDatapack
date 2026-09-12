@@ -16,7 +16,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -31,7 +31,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:block_party_teams"
+    "load_from": "lt:games/block_party_teams"
   },
   "behaviors": [
     {

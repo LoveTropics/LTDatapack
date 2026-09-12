@@ -17,7 +17,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -32,7 +32,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:dodgeball",
+    "load_from": "lt:games/dodgeball",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [

@@ -9,7 +9,7 @@
   "statistics_key": "spleef_standard",
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:spleef"
+    "load_from": "lt:games/spleef"
   },
   "behaviors": [
     {

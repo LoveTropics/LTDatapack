@@ -12,7 +12,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -27,7 +27,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:stt4"
+    "load_from": "lt:games/survive_the_tide/survive_the_tide_4"
   },
   "behaviors": [
     {

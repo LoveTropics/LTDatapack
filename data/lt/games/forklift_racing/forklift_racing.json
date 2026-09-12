@@ -7,7 +7,7 @@
   "maximum_participants": 50,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:forklift_race",
+    "load_from": "lt:games/forklift_race",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": "lt:forklift_race/game"

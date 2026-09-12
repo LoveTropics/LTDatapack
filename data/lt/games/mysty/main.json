@@ -9,7 +9,7 @@
   "maximum_participants": 50,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_lobby"
+    "load_from": "lt:games/mysty/mysty_lobby"
   },
   "behaviors": "lt:mysty/main"
 }

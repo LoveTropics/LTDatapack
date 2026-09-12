@@ -7,7 +7,7 @@
   "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:mysty_trident_1",
+    "load_from": "lt:games/mysty/mysty_trident_1",
     "dimension_type": "lt:no_clouds"
   },
   "behaviors": "lt:mysty/race/riptide/game"

@@ -9,7 +9,7 @@
   "maximum_participants": 11,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:turtle_sprint"
+    "load_from": "lt:games/turtle_sprint"
   },
   "behaviors": [
     {

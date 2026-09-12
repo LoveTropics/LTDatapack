@@ -10,7 +10,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:turtle_race_21",
+    "load_from": "lt:games/turtle_race_21",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": "lt:mysty/race/turtle/game"

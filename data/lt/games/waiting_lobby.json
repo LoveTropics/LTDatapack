@@ -6,7 +6,7 @@
   "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:waiting_lobby",
+    "load_from": "lt:games/waiting_lobby",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": [

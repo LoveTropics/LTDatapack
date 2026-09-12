@@ -8,7 +8,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:eruptive_spleef"
+    "load_from": "lt:games/eruptive_spleef"
   },
   "behaviors": [
     {

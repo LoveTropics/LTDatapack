@@ -19,7 +19,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:qottott2",
+    "load_from": "lt:games/mysty/qottott2",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [

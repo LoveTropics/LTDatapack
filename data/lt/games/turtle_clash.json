@@ -18,7 +18,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -33,7 +33,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:turtle_clash",
+    "load_from": "lt:games/turtle_clash",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": [

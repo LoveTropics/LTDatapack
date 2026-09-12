@@ -10,7 +10,7 @@
   "hide_from_list": false,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:cotott3",
+    "load_from": "lt:games/mysty/cotott3",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [

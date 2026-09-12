@@ -17,7 +17,7 @@
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
-      "load_from": "lt:waiting_lobby",
+      "load_from": "lt:games/waiting_lobby",
       "dimension_type": "tropicraft:tropics"
     },
     "behaviors": [
@@ -32,7 +32,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:de_a_coudre"
+    "load_from": "lt:games/de_a_coudre"
   },
   "behaviors": [
     {
