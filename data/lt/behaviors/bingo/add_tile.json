@@ -5,35 +5,40 @@
       {
         "data": {
           "type": "lt:bingo/add_pickup_tile",
-          "item": "minecraft:acacia_log"
+          "item": "minecraft:acacia_log",
+          "reward": 8
         },
         "weight": 1
       },
       {
         "data": {
           "type": "lt:bingo/add_pickup_tile",
-          "item": "minecraft:stick"
+          "item": "minecraft:stick",
+          "reward": 10
         },
         "weight": 1
       },
       {
         "data": {
           "type": "lt:bingo/add_pickup_tile",
-          "item": "minecraft:dark_oak_boat"
+          "item": "minecraft:dark_oak_boat",
+          "reward": 15
         },
         "weight": 1
       },
       {
         "data": {
           "type": "lt:bingo/add_pickup_tile",
-          "item": "minecraft:iron_sword"
+          "item": "minecraft:iron_sword",
+          "reward": 10
         },
         "weight": 1
       },
       {
         "data": {
           "type": "lt:bingo/add_pickup_tile",
-          "item": "minecraft:iron_ingot"
+          "item": "minecraft:iron_ingot",
+          "reward": 6
         },
         "weight": 1
       }

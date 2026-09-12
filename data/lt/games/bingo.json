@@ -21,6 +21,12 @@
       "type": "ltminigames:bingo",
       "rows": 3,
       "columns": 3,
+      "position_reward_multipler": [
+        1.35,
+        1.2,
+        1.1,
+        1
+      ],
       "on_tile_completed": [
         "lt:bingo/add_tile"
       ],
