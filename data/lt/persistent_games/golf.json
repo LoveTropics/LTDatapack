@@ -1,5 +1,5 @@
 {
-  "dimension": "tropicraft:tropics",
+  "dimension": "lt:build_world",
   "behaviors": [
     {
       "type": "ltminigames:crab_golf_hole",
