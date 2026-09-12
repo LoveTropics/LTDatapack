@@ -12,6 +12,7 @@
         }
       ]
     },
+    "reward": "$reward",
     "trigger": [
       {
         "type": "ltminigames:item_picked_up",
