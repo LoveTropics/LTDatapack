@@ -1,0 +1,42 @@
+[
+  {
+    "type": "ltminigames:randomize",
+    "options": [
+      {
+        "data": {
+          "type": "lt:bingo/add_pickup_tile",
+          "item": "minecraft:acacia_log"
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "type": "lt:bingo/add_pickup_tile",
+          "item": "minecraft:stick"
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "type": "lt:bingo/add_pickup_tile",
+          "item": "minecraft:dark_oak_boat"
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "type": "lt:bingo/add_pickup_tile",
+          "item": "minecraft:iron_sword"
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "type": "lt:bingo/add_pickup_tile",
+          "item": "minecraft:iron_ingot"
+        },
+        "weight": 1
+      }
+    ]
+  }
+]

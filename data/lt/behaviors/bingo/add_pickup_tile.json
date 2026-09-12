@@ -1,0 +1,30 @@
+[
+  {
+    "type": "ltminigames:bingo/add_tile",
+    "icon": {
+      "id": "$item"
+    },
+    "title": {
+      "text": "Pick up ",
+      "extra": [
+        {
+          "text": "$item"
+        }
+      ]
+    },
+    "trigger": [
+      {
+        "type": "ltminigames:item_picked_up",
+        "item": {
+          "items": ["$item"]
+        },
+        "actions": [
+          {
+            "type": "ltminigames:bingo/complete_tile"
+          }
+        ],
+        "consume": false
+      }
+    ]
+  }
+]

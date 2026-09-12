@@ -1,6 +1,6 @@
 {
   "name": {
-    "translate": "Speedrun Bingo!"
+    "translate": "Bingo!"
   },
   "statistics_key": "bingo",
   "maximum_participants": 1,
@@ -18,121 +18,25 @@
   },
   "behaviors": [
     {
-      "type": "lt:common/playing",
-      "game_type": "survival",
-      "join_late_with_role": "spectator",
-      "allow_rejoin": true
-    },
-    {
-      "type": "ltminigames:set_game_rules",
-      "apply_defaults": true,
-      "rules": {
-        "minecraft:command_blocks_work": false,
-        "minecraft:locator_bar": false,
-        "minecraft:show_advancement_messages": false
-      }
-    },
-    {
-      "type": "ltminigames:set_difficulty",
-      "difficulty": "normal"
-    },
-    "lt:common/spectator",
-    "lt:bingo/packages",
-    {
-      "type": "ltminigames:immediate_respawn",
-      "role": "participant",
-      "respawn_as": "spectator",
-      "drop_inventory": false,
-      "death_message": {
-        "text": "☠ %message%",
-        "color": "gray"
-      },
-      "respawn_action": [
-        "ltminigames:clear_effects",
-        "ltminigames:extinguish_player",
-        "ltminigames:reset_hunger"
-      ],
-      "lives": "lives"
-    },
-    "ltminigames:minecraft",
-    {
-      "type": "ltminigames:statistic_overlay",
-      "icon": "minecraft:enchanted_golden_apple",
-      "translation_key": "%s Lives Left",
-      "statistic": "lives",
-      "value_change_rate": 1,
-      "scope": "player"
-    },
-    {
       "type": "ltminigames:bingo",
-      "grid": [
-        [
-          "minecraft:golden_apple",
-          "minecraft:glow_berries",
-          "minecraft:sea_pickle",
-          "minecraft:raw_gold",
-          "minecraft:goat_horn"
-        ],
-        [
-          "minecraft:poisonous_potato",
-          "minecraft:crossbow",
-          "tropicraft:white_chair",
-          "minecraft:brush",
-          "minecraft:bamboo_chest_raft"
-        ],
-        [
-          "minecraft:spyglass",
-          "minecraft:campfire",
-          "minecraft:pufferfish",
-          "minecraft:diamond",
-          "minecraft:name_tag"
-        ],
-        [
-          "minecraft:cookie",
-          "minecraft:black_bundle",
-          "minecraft:cake",
-          "minecraft:target",
-          "minecraft:crafter"
-        ],
-        [
-          "minecraft:golden_pickaxe",
-          "minecraft:tnt",
-          "tropicraft:palm_log",
-          {
-            "items": "#c:music_discs"
-          },
-          "minecraft:magenta_candle"
-        ]
+      "rows": 3,
+      "columns": 3,
+      "on_tile_completed": [
+        "lt:bingo/add_tile"
+      ],
+      "on_bingo": [
+        "ltminigames:close_game"
       ]
     },
     {
-      "type": "ltminigames:progression",
-      "named_points": {
-        "start": 0,
-        "end": 7200
-      }
-    },
-    {
-      "type": "ltminigames:phase_progress_bar",
-      "entries": [
-        {
-          "period": {
-            "start": "start",
-            "end": "end"
-          },
-          "template": [
-            {
-              "text": "live.lovetropics.org/donate - Time: "
-            },
-            {
-              "text": "%time%",
-              "color": "aqua"
-            }
-          ],
-          "text_since_start": true,
-          "color": "yellow",
-          "reversed": true
-        }
+      "type": "ltminigames:custom_command",
+      "path": [
+        "add_tile"
+      ],
+      "permission_level": "overlord",
+      "argument": "none",
+      "actions": [
+        "lt:bingo/add_tile"
       ]
     }
   ]
