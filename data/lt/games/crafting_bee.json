@@ -71,7 +71,7 @@
     {
       "type": "ltminigames:set_client_state",
       "state": {
-        "type": "ltminigames:hide_recipe_book",
+        "type": "ltminigames:disable_recipe_book",
         "message": {
           "translate": "ltminigames.minigame.crafting_bee.dont_cheat"
         }
