@@ -235,7 +235,7 @@
             "lore": [{ "translate": "lt.golf.putter.info", "color": "white" }],
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "enchantments": { "knockback": 3 },
+            "enchantments": { "knockback": 8 },
             "tooltip_display": { "hidden_components": ["enchantments"] }
           }
         },
@@ -246,7 +246,7 @@
             "lore": [{ "translate": "lt.golf.powerful_driver.info", "color": "white" }],
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "enchantments": { "knockback": 4 },
+            "enchantments": { "knockback": 10 },
             "tooltip_display": { "hidden_components": ["enchantments"] }
           }
         },
@@ -257,7 +257,7 @@
             "lore": [{ "translate": "lt.golf.potent_driver.info", "color": "white" }],
             "unbreakable": {},
             "ltextras:undroppable": {},
-            "enchantments": { "knockback": 5 },
+            "enchantments": { "knockback": 12 },
             "tooltip_display": { "hidden_components": ["enchantments"] }
           }
         }
