@@ -39,32 +39,19 @@
       "type": "ltminigames:mcsr/player_worlds",
       "world": "lt:mcsr/world"
     },
-    {
-      "type": "ltminigames:bingo",
-      "rows": 5,
-      "columns": 5,
-      "position_reward_multipler": [
-        1.5,
-        1.25,
-        1.1,
-        1.0
-      ]
-    },
+    "lt:mcsr/bingo",
     {
       "type": "ltminigames:custom_command",
       "path": [
-        "add_tile"
+        "unlock_tiles"
       ],
       "permission_level": "overlord",
       "argument": "none",
       "actions": [
-        "lt:mcsr/add_tile"
-      ]
-    },
-    {
-      "type": "ltminigames:phase_triggers/start",
-      "actions": [
-        "lt:mcsr/sample_tiles"
+        {
+          "type": "ltminigames:bingo/unlock_tiles",
+          "count": 3
+        }
       ]
     }
   ]
