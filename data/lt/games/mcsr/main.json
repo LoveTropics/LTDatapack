@@ -38,6 +38,28 @@
     {
       "type": "ltminigames:mcsr/player_worlds",
       "world": "lt:mcsr/world"
+    },
+    {
+      "type": "ltminigames:bingo",
+      "rows": 5,
+      "columns": 5,
+      "position_reward_multipler": [
+        1.5,
+        1.25,
+        1.1,
+        1.0
+      ]
+    },
+    {
+      "type": "ltminigames:custom_command",
+      "path": [
+        "add_tile"
+      ],
+      "permission_level": "overlord",
+      "argument": "none",
+      "actions": [
+        "lt:mcsr/add_tile"
+      ]
     }
   ]
 }
