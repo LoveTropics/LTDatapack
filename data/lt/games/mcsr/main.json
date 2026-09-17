@@ -7,7 +7,7 @@
   "maximum_participants": 6,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:waiting_lobby",
+    "load_from": "lt:games/waiting_lobby",
     "dimension_type": "tropicraft:tropics"
   },
   "behaviors": [
@@ -59,6 +59,12 @@
       "argument": "none",
       "actions": [
         "lt:mcsr/add_tile"
+      ]
+    },
+    {
+      "type": "ltminigames:phase_triggers/start",
+      "actions": [
+        "lt:mcsr/sample_tiles"
       ]
     }
   ]
