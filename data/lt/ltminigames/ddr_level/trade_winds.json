@@ -1,5 +1,6 @@
 {
   "display_name": "Trade Winds",
+  "author": "fWhip",
   "ticks": {
     "1538": { "forward": false, "back": true, "left": false, "right": false },
     "2050": { "forward": false, "back": false, "left": true, "right": false },
