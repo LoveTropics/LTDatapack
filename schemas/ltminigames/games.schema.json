@@ -1,0 +1,464 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$defs": {
+    "item": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "components": {
+          "type": "object",
+          "properties": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "can_place_on": {}
+          }
+        },
+        "additionalProperties": true,
+        "required": ["id"]
+      }
+    },
+    "items": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        },
+        {
+          "type": "string",
+          "$ref": "#/$defs/item"
+        }
+      ]
+    },
+    "gamemodes": {
+      "type": "string",
+      "enum": [
+        "spectator",
+        "creative",
+        "adventure",
+        "survival"
+      ]
+    },
+    "actions": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": true,
+          "anyOf": [
+            {
+              "$comment": "ltminigames:send_message",
+              "properties": {
+                "type": {
+                  "const": "ltminigames:send_message"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "message"
+              ]
+            },
+            {
+              "$comment": "ltminigames:give_reward",
+              "properties": {
+                "type": {
+                  "const": "ltminigames:give_reward"
+                },
+                "items": {
+                  "$ref": "#/$defs/items"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "message"
+              ]
+            },
+            {
+              "not": {
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "ltminigames:send_message",
+                      "ltminigames:give_reward"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "map": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "examples": [
+            "ltminigames:load_map"
+          ]
+        },
+        "load_from": {
+          "type": "string"
+        },
+        "dimension_type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": true
+    },
+    "text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "translate": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string",
+              "enum": [
+                "black",
+                "dark_blue",
+                "dark_green",
+                "dark_aqua",
+                "dark_red",
+                "dark_purple",
+                "gold",
+                "gray",
+                "dark_gray",
+                "blue",
+                "green",
+                "aqua",
+                "red",
+                "light_purple",
+                "yellow",
+                "white"
+              ]
+            },
+            "extra": {},
+            "with": {}
+          }
+        }
+      ]
+    },
+    "behaviors": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "$ref": "#/$defs/actions"
+        },
+        {
+          "$comment": "LT-Minigames",
+          "type": "string",
+          "examples": [
+            "ltminigames:teams"
+          ]
+        },
+        {
+          "$comment": "LT-Datapack",
+          "type": "string",
+          "examples": [
+            "lt:teams:red_blue"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": true,
+          "anyOf": [
+            {
+              "$comment": "ltminigames:last_remaining_win_trigger",
+              "properties": {
+                "type": {
+                  "const": "ltminigames:last_remaining_win_trigger"
+                },
+                "last_team": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "$comment": "ltminigames:game_finish",
+              "properties": {
+                "type": {
+                  "const": "ltminigames:game_finish"
+                },
+                "target": {
+                  "type": "string",
+                  "examples": [
+                    "all_players"
+                  ]
+                },
+                "actions": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/$defs/actions"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/actions"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "$comment": "lt:common/waiting",
+              "properties": {
+                "type": {
+                  "const": "lt:common/waiting"
+                },
+                "regions": {
+                  "type": "object",
+                  "properties": {
+                    "spawn": {
+                      "type": "string",
+                      "default": "spawn"
+                    }
+                  },
+                  "required": [
+                    "spawn"
+                  ],
+                  "additionalProperties": true
+                }
+              },
+              "required": [
+                "regions"
+              ]
+            },
+            {
+              "$comment": "lt:common/playing",
+              "properties": {
+                "type": {
+                  "const": "lt:common/playing"
+                },
+                "game_type": {
+                  "$ref": "#/$defs/gamemodes"
+                },
+                "join_late_with_role": {
+                  "$ref": "#/$defs/gamemodes"
+                }
+              },
+              "required": [
+                "type",
+                "game_type",
+                "join_late_with_role"
+              ]
+            },
+            {
+              "$comment": "lt:block_party/simple",
+              "properties": {
+                "type": {
+                  "const": "lt:block_party/simple"
+                },
+                "floor": {
+                  "type": "string",
+                  "default": "blocks"
+                },
+                "blocks": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "Properties": {
+                            "type": "object",
+                            "properties": {
+                              "persistent": {
+                                "type": "string",
+                                "enum": [
+                                  "false",
+                                  "true"
+                                ]
+                              }
+                            },
+                            "additionalProperties": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "quad_size": {
+                  "type": "integer"
+                },
+                "max_time": {
+                  "type": "integer"
+                },
+                "time_decay_rounds": {
+                  "type": "integer"
+                },
+                "interval": {
+                  "type": "integer"
+                },
+                "knockback_after_round": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "floor",
+                "blocks",
+                "quad_size",
+                "max_time",
+                "time_decay_rounds",
+                "interval",
+                "knockback_after_round"
+              ]
+            },
+            {
+              "not": {
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "lt:common/waiting",
+                      "ltminigames:last_remaining_win_trigger",
+                      "lt:block_party/simple"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "properties": {
+    "name": {
+      "description": "String / Text Component of Game",
+      "$ref": "#/$defs/text"
+    },
+    "backend_id": {
+      "type": "string"
+    },
+    "statistics_key": {
+      "type": "string"
+    },
+    "minimum_participants": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maximum_participants": {
+      "type": "integer"
+    },
+    "waiting": {
+      "type": "object",
+      "properties": {
+        "map": {
+          "$ref": "#/$defs/map"
+        },
+        "behaviors": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/behaviors"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/behaviors"
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "map",
+        "behaviors"
+      ]
+    },
+    "map": {
+      "$ref": "#/$defs/map"
+    },
+    "behaviors": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/behaviors"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/behaviors"
+          }
+        }
+      ]
+    },
+    "hide_from_list": {
+      "type": "boolean"
+    },
+    "is_multi_game": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "subtitle": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/text"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text"
+          }
+        }
+      ]
+    },
+    "intro_slideshow": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "map",
+    "behaviors"
+  ]
+}
