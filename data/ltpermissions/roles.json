@@ -201,7 +201,7 @@
       "join_access": {
         "allows_joining": false,
         "not_whitelisted_message": {
-          "message": "You are not whitelisted on the server. Please reach out in discord if should be whitelisted."
+          "text": "You are not whitelisted on the server. Please reach out in discord if should be whitelisted."
         }
       }
     }
