@@ -1,0 +1,46 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.ddr_showdown",
+    "color": "dark_green"
+  },
+  "statistics_key": "ddr_showdown",
+  "minimum_participants": 1,
+  "maximum_participants": 150,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/dance_off"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:common/spectator",
+    {
+      "type": "ltminigames:ddr_showdown",
+      "levels": [
+        "lt:lava_chicken"
+      ]
+    },
+    {
+      "type": "ltminigames:statistic_overlay",
+      "icon": "ltextras:tropicoin",
+      "translation_key": "ltminigames.minigame.ddr_showdown.score",
+      "statistic": "ddr_score"
+    },
+    {
+      "type": "ltminigames:points_sidebar",
+      "statistic": "ddr_score",
+      "order": "max",
+      "count": 10,
+      "title": {
+        "translate": "ltminigames.minigame.ddr_showdown.sidebar",
+        "color": "aqua"
+      },
+      "header": []
+    },
+    "lt:ddr_showdown/ruleset",
+    "lt:ddr_showdown/end"
+  ]
+}
