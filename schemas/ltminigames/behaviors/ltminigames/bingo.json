@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:bingo"
+    },
+    "rows": {
+      "type": "integer"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "position_reward_multipler": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "on_tile_completed": {
+      "$ref": "../../properties/actions.json"
+    },
+    "on_bingo": {
+      "$comment": "IDK - VSCode does like this being a path for some reason",
+      "$ref": "https://raw.githubusercontent.com/LoveTropics/LTDatapack/refs/heads/lt26/schemas/ltminigames/properties/actions.schema.json"
+    }
+  },
+  "required": [
+    "type"
+  ],
+  "additionalProperties": false
+}
