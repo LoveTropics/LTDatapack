@@ -1,4 +1,4 @@
-execute as @e[tag=disguises.data_entity] run function lt:utility/dummy_players/set_from_player with entity @p[tag=diguises.cloned.target]
+execute as @e[tag=disguises.data_entity] run dummyplayer modify @s entity @p[tag=diguises.cloned.target]
 particle minecraft:portal ~ ~ ~ 0 1 0 0.5 1000
 
 #data modify entity @e[tag=diguises.cloned.target,limit=1] collectible.components.peekaboo:disguise.entity.tag set value {}

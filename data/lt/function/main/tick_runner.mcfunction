@@ -29,10 +29,6 @@ execute as @e[tag=game.stt.jelly_bomb] at @s run function lt:game/stt/entity/jel
 execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
 execute in tropicraft:tropics run function lt:club/on_tick
 
-# Parkour
-#execute in tropicraft:tropics if entity @a[tag=parkour.player] run function lt:game/parkour/on_tick
-function lt:world_games/parkour/on_second
-
 # Dropper
 function lt:world_games/dropper/on_tick
 
