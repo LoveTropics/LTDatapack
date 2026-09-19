@@ -3,17 +3,13 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:teams"
+      "const": "ltminigames:clear_effects"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:teams"
-        },
-        "player_collision": {
-          "type": "boolean",
-          "default": false
+          "const": "ltminigames:clear_effects"
         }
       },
       "required": [
@@ -23,3 +19,4 @@
     }
   ]
 }
+

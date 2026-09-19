@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "anyOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:teams"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:teams"
+        },
+        "player_collision": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

@@ -6,19 +6,19 @@
       "const": "ltminigames:position_players"
     },
     "spectators": {
-      "$ref": "../../properties/regions.schema.json"
+      "$ref": "../../properties/regions.json"
     },
     "face_region": {
-      "$ref": "../../properties/regions.schema.json"
+      "$ref": "../../properties/regions.json"
     },
     "all": {
-      "$ref": "../../properties/regions.schema.json"
+      "$ref": "../../properties/regions.json"
     },
     "participants": {
-      "$ref": "../../properties/regions.schema.json"
+      "$ref": "../../properties/regions.json"
     },
     "additionalProperties": {
-      "$ref": "../../properties/regions.schema.json"
+      "$ref": "../../properties/regions.json"
     }
   },
   "required": [

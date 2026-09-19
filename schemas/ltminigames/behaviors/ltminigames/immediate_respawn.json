@@ -8,19 +8,19 @@
           "const": "ltminigames:immediate_respawn"
         },
         "role": {
-          "$ref": "../../properties/game_roles.schema.json"
+          "$ref": "../../properties/game_roles.json"
         },
         "respawn_as": {
-          "$ref": "../../properties/game_roles.schema.json"
+          "$ref": "../../properties/game_roles.json"
         },
         "death_message": {
-          "$ref": "../../properties/text.schema.json"
+          "$ref": "../../properties/text.json"
         },
         "drop_inventory": {
           "type": "boolean"
         },
         "respawn_action": {
-          "$ref": "../../properties/actions.schema.json"
+          "$ref": "../../properties/actions.json"
         }
       },
       "required": [

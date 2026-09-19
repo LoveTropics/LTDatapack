@@ -6,13 +6,13 @@
       "const": "ltminigames:set_game_types"
     },
     "all": {
-      "$ref": "../../properties/gamemodes.schema.json"
+      "$ref": "../../properties/gamemodes.json"
     },
     "participant": {
-      "$ref": "../../properties/gamemodes.schema.json"
+      "$ref": "../../properties/gamemodes.json"
     },
     "spectator": {
-      "$ref": "../../properties/gamemodes.schema.json"
+      "$ref": "../../properties/gamemodes.json"
     },
     "additionalProperties": false
   },

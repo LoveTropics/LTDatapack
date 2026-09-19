@@ -4,10 +4,10 @@
   "properties": {
     "name": {
       "description": "String / Text Component of Game",
-      "$ref": "./properties/text.schema.json"
+      "$ref": "properties/text.json"
     },
     "subtitle": {
-      "$ref": "./properties/text.schema.json"
+      "$ref": "properties/text.json"
     },
     "icon": {
       "type": "string"
@@ -38,10 +38,10 @@
       "type": "object",
       "properties": {
         "map": {
-          "$ref": "./properties/map.schema.json"
+          "$ref": "properties/map.json"
         },
         "behaviors": {
-          "$ref": "./behaviors/behaviors.schema.json"
+          "$ref": "behaviors/behaviors.json"
         }
       },
       "required": [
@@ -50,10 +50,10 @@
       ]
     },
     "map": {
-      "$ref": "./properties/map.schema.json"
+      "$ref": "properties/map.json"
     },
     "behaviors": {
-      "$ref": "./behaviors/behaviors.schema.json"
+      "$ref": "behaviors/behaviors.json"
     }
   },
   "required": [

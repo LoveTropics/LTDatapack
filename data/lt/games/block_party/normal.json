@@ -10,15 +10,6 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:games/block_party"
   },
-  "waiting": {
-    "map": {
-      "dimension_type": "",
-      "load_from": "",
-      "type": ""
-    },
-    "behaviors": [
-    ]
-  },
   "behaviors": [
     {
       "type": "lt:common/playing",

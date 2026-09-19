@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:reset_hunger"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:reset_hunger"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}
+

@@ -3,18 +3,19 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:send_message"
+      "const": "ltminigames:join_late_with_role"
     },
-    "message": {
-      "$ref": "../../properties/text.schema.json"
+    "role": {
+      "$ref": "../../properties/game_roles.json"
     },
-    "action_bar": {
-      "type": "boolean"
+    "allow_region": {
+      "type": "boolean",
+      "default": true
     },
     "additionalProperties": false
   },
   "required": [
     "type",
-    "message"
+    "role"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_max_health"
+    },
+    "max_health_by_team": {
+      "everyone": {
+        "type": "number"
+      },
+      "host": {
+        "type": "number"
+      },
+      "additionalProperties": {
+        "type": "number"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "max_health_by_team"
+  ]
+}

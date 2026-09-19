@@ -12,7 +12,7 @@
           "type": "string"
         },
         "name": {
-          "$ref": "../../properties/text.schema.json"
+          "$ref": "../../properties/text.json"
         },
         "dye": {
           "$comment": "TODO - ENUM COLORS",

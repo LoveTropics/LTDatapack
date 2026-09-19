@@ -6,13 +6,13 @@
       "const": "ltminigames:give_reward"
     },
     "items": {
-      "$ref": "../../../ltminigames/properties/items.schema.json"
+      "$ref": "../../properties/items.json"
     },
     "message": {
-      "$ref": "../../../ltminigames/properties/text.schema.json"
+      "$ref": "../../properties/text.json"
     },
     "statistic_binding": {
-      "$ref": "../../../ltminigames/properties/statistic_binding.schema.json"
+      "$ref": "../../properties/statistic_binding.json"
     },
     "collectibles": {
       "type": "array"

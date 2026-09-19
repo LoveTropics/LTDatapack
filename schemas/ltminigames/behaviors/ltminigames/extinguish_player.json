@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:extinguish_player"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:extinguish_player"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}
+

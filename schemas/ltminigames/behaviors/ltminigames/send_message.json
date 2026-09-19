@@ -3,17 +3,18 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:game_finish"
+      "const": "ltminigames:send_message"
     },
-    "target": {
-      "$ref": "../../properties/target.schema.json"
+    "message": {
+      "$ref": "../../properties/text.json"
     },
-    "actions": {
-      "$ref": "../../properties/actions.schema.json"
+    "action_bar": {
+      "type": "boolean"
     },
     "additionalProperties": false
   },
   "required": [
-    "type"
+    "type",
+    "message"
   ]
 }

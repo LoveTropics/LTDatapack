@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "behaviors.json",
+  "$defs": {
+    "behaviors": {
+      "oneOf": [
+        {
+          "$ref": "lt/anything.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/send_message.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/give_reward.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/last_remaining_win_trigger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/game_finish.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/teams.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/sum_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/position_players.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/game_end_effects.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/time_survived_tracker.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/setup_teams.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/disable_hunger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/cancel_player_damage.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_game_types.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/join_late_with_role.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_game_rules.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_difficulty.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/immediate_respawn.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/player_worlds.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/bingo.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/custom_command.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/phase_triggers/start.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/clear_effects.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/extinguish_player.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/reset_hunger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_max_health.json"
+        }
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/behaviors"
+      }
+    },
+    {
+      "$ref": "#/$defs/behaviors"
+    }
+  ]
+}
