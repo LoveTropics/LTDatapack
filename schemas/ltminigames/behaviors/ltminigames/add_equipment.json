@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:add_equipment"
+    },
+    "items": {
+      "$ref": "../../properties/items.json"
+    },
+    "head": {
+      "$comment": "TODO - Other Slots"
+    },
+    "color_by_team": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

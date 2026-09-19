@@ -3,15 +3,16 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:team_chat"
     },
-    "world": {
-      "type": "string"
-    }
+    "chat_type": {
+      "type": "string",
+      "default": "lt:team_chat"
+    },
+    "additionalProperties": false
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }

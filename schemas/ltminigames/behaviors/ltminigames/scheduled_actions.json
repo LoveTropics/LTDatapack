@@ -3,13 +3,15 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:game_finish"
+      "const": "ltminigames:scheduled_actions"
     },
     "target": {
       "$ref": "../../properties/target.json"
     },
     "actions": {
-      "$ref": "../../properties/actions.json"
+      "additionalProperties": {
+        "$ref": "../../properties/actions.json"
+      }
     }
   },
   "additionalProperties": false,
@@ -17,3 +19,4 @@
     "type"
   ]
 }
+

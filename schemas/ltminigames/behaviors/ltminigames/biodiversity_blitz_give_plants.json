@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:biodiversity_blitz_give_plants"
+    },
+    "plants": {
+      "type": "array",
+      "items": {
+        "item": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

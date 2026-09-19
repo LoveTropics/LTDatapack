@@ -27,11 +27,11 @@
       ]
     },
     "actions": {
-      "$ref": "https://raw.githubusercontent.com/LoveTropics/LTDatapack/refs/heads/lt26/schemas/ltminigames/properties/actions.schema.json"
+      "$ref": "../../properties/actions.json"
     }
   },
+  "additionalProperties": false,
   "required": [
     "type"
-  ],
-  "additionalProperties": false
+  ]
 }

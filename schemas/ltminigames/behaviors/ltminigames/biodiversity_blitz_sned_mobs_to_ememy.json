@@ -3,15 +3,14 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:biodiversity_blitz_send_mobs_to_enemy"
     },
-    "world": {
-      "type": "string"
+    "item": {
+      "$ref": "../../properties/items.json"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }

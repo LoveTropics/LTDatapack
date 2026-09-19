@@ -3,13 +3,13 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:time_survived_tracker"
+      "const": "ltminigames:biodiversity_blitz"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:time_survived_tracker"
+          "const": "ltminigames:biodiversity_blitz"
         }
       },
       "additionalProperties": false,

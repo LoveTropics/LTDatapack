@@ -3,15 +3,15 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:biodiversity_blitz_currency_win_trigger"
     },
-    "world": {
-      "type": "string"
+    "threshold_currency": {
+      "type": "integer"
     }
   },
   "additionalProperties": false,
   "required": [
     "type",
-    "world"
+    "threshold_currency"
   ]
 }

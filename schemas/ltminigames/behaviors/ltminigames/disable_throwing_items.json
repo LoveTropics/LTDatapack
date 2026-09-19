@@ -3,13 +3,13 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:time_survived_tracker"
+      "const": "ltminigames:disable_throwing_items"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:time_survived_tracker"
+          "const": "ltminigames:disable_throwing_items"
         }
       },
       "additionalProperties": false,

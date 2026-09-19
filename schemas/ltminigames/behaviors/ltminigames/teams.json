@@ -16,10 +16,10 @@
           "default": false
         }
       },
+      "additionalProperties": false,
       "required": [
         "type"
-      ],
-      "additionalProperties": false
+      ]
     }
   ]
 }

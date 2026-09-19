@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:bb_in_game_scoreboard"
+    },
+    "initial_currency": {
+      "type": "integer"
+    },
+    "start": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "end": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "side": {
+      "type": "boolean"
+    },
+    "left_team": {
+      "type": "string",
+      "default": "blue"
+    },
+    "right_team": {
+      "type": "string",
+      "default": "red"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

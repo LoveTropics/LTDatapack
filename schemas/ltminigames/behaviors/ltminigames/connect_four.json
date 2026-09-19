@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$defs": {
+    "blocks": {
+      "powder": {
+        "$comment": "TODO - Make Single Block",
+        "type": "string"
+      },
+      "solid": {
+        "$comment": "TODO - Make Single Block",
+        "type": "string"
+      },
+      "highlighted": {
+        "$comment": "TODO - Make Single Block",
+        "type": "string"
+      }
+    }
+  },
+  "properties": {
+    "type": {
+      "const": "ltminigames:connect_four"
+    },
+    "team_blocks": {
+      "type": "object",
+      "properties": {
+        "red": {
+          "$ref": "#/$defs/blocks"
+        },
+        "blue": {
+          "$ref": "#/$defs/blocks"
+        }
+      },
+      "additionalProperties": false
+    },
+    "team_timers": {
+      "properties": {
+        "red": {
+          "type": "string",
+          "default": "red_timer"
+        },
+        "blue": {
+          "type": "string",
+          "default": "blue_timer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "placing_region": {
+      "type": "string"
+    },
+    "separator": {
+      "$comment": "TODO - Block",
+      "type": "string"
+    },
+    "blocker": {
+      "$comment": "TODO - Block",
+      "type": "string"
+    },
+    "grid_width": {
+      "type": "integer"
+    },
+    "grid_height": {
+      "type": "integer"
+    },
+    "connect": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "team_blocks"
+  ]
+}
+

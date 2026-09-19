@@ -3,15 +3,18 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:phase_triggers/start"
+      "const": "ltminigames:events/game_over"
     },
     "actions": {
+      "$comment": "IDK - VSCode does like this being a path for some reason",
       "$ref": "../../../properties/actions.json"
+    },
+    "target": {
+      "$comment": "Seems like vscode breaks if calling back twice"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "actions"
+    "type"
   ]
 }

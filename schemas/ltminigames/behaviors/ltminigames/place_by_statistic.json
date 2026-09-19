@@ -3,15 +3,17 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:place_by_statistic"
     },
-    "world": {
+    "statistic": {
+      "type": "string"
+    },
+    "order": {
       "type": "string"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }

@@ -3,15 +3,21 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:play_sound"
     },
-    "world": {
+    "sound": {
       "type": "string"
+    },
+    "volume": {
+      "type": "number"
+    },
+    "pitch": {
+      "type": "number"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }
+

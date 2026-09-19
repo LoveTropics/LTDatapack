@@ -3,15 +3,17 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:sum_statistic"
+      "const": "ltminigames:scale_explosion_knockback"
     },
-    "statistic": {
-      "type": "string"
+    "factor": {
+      "type": "number"
     },
-    "for_team": {
-      "type": "boolean"
+    "exploded": {
+      "$comment": "What?"
     },
-    "additionalProperties": false
+    "exploder": {
+      "$comment": "What?"
+    }
   },
   "additionalProperties": false,
   "required": [

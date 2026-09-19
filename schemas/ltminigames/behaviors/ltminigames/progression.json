@@ -3,13 +3,19 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:time_survived_tracker"
+      "const": "ltminigames:progression"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:time_survived_tracker"
+          "const": "ltminigames:progression"
+        },
+        "named_points": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
         }
       },
       "additionalProperties": false,
@@ -19,4 +25,3 @@
     }
   ]
 }
-

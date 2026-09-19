@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_client_state"
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "$ref": "../../properties/states.json"
+        },
+        "message": {
+          "$ref": "../../properties/text.json"
+        }
+      },
+      "if": {
+        "properties": {
+          "type": {
+            "const": "ltminigames:disable_recipe_book"
+          }
+        },
+        "required": ["type"]
+      },
+      "then": {
+        "required": ["message"]
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["type", "state"],
+  "additionalProperties": false
+}

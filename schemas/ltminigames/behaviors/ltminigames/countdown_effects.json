@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:countdown_effects"
+    },
+    "target": {
+      "type": "string"
+    },
+    "sound": {
+      "type": "string"
+    },
+    "seconds": {
+      "type": "integer"
+    },
+    "pitch": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "number"
+        },
+        "end": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

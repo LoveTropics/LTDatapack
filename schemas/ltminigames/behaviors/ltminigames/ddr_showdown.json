@@ -3,15 +3,18 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:ddr_showdown"
     },
-    "world": {
-      "type": "string"
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }
+

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:biodiversity_blitz_wave_spawner"
+    },
+    "interval_seconds": {
+      "type": "integer"
+    },
+    "warn_seconds": {
+      "type": "integer"
+    },
+    "difficulty_factors": {
+      "type": "object",
+      "properties": {
+        "easy": {
+          "type": "number"
+        },
+        "normal": {
+          "type": "number"
+        },
+        "hard": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "size_curve_always": {
+      "type": "boolean"
+    },
+    "size_curve": {
+      "type": "object",
+      "properties": {
+        "lower": {
+          "type": "number"
+        },
+        "upper": {
+          "type": "number"
+        },
+        "base": {
+          "type": "number"
+        },
+        "scale": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "first_message": {
+      "$ref": "../../properties/text.json"
+    },
+    "children": {
+      "$ref": "../../properties/actions.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

@@ -23,6 +23,7 @@
           "$ref": "../../properties/actions.json"
         }
       },
+      "additionalProperties": false,
       "required": [
         "type"
       ]

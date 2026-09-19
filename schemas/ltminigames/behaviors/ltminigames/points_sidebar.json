@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:points_sidebar"
+    },
+    "statistic": {
+      "type": "string"
+    },
+    "order": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "title": {
+      "$ref": "../../properties/text.json"
+    },
+    "header": {
+      "$ref": "../../properties/text.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

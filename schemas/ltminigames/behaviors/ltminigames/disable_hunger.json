@@ -12,10 +12,10 @@
           "const": "ltminigames:disable_hunger"
         }
       },
+      "additionalProperties": false,
       "required": [
         "type"
-      ],
-      "additionalProperties": false
+      ]
     }
   ]
 }

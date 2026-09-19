@@ -12,10 +12,10 @@
           "const": "ltminigames:reset_hunger"
         }
       },
+      "additionalProperties": false,
       "required": [
         "type"
-      ],
-      "additionalProperties": false
+      ]
     }
   ]
 }

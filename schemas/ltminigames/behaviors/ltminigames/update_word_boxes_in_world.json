@@ -3,15 +3,15 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:update_word_boxes_in_world"
     },
-    "world": {
-      "type": "string"
+    "block_entity_type": {
+      "type": "string",
+      "default": "ltextras:word_box"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }

@@ -3,15 +3,20 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:remove_from_block"
     },
-    "world": {
+    "in": {
+      "type": "string"
+    },
+    "out": {
+      "type": "string"
+    },
+    "drop": {
       "type": "string"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }

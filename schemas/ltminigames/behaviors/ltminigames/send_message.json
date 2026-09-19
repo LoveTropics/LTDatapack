@@ -13,6 +13,7 @@
     },
     "additionalProperties": false
   },
+  "additionalProperties": false,
   "required": [
     "type",
     "message"

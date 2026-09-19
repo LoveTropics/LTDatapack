@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:score_mob_in_goal"
+    },
+    "target_count_statistic": {
+      "type": "string"
+    },
+    "spawn_region": {
+      "type": "string"
+    },
+    "scoring_entity": {
+      "$comment": "TODO - Make Entity"
+    },
+    "team_goal_regions": {
+      "red": {
+        "type": "string"
+      },
+      "blue": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "statistic": {
+      "type": "string"
+    },
+    "score_period": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

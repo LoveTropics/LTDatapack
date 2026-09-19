@@ -12,10 +12,10 @@
           "const": "ltminigames:clear_effects"
         }
       },
+      "additionalProperties": false,
       "required": [
         "type"
-      ],
-      "additionalProperties": false
+      ]
     }
   ]
 }

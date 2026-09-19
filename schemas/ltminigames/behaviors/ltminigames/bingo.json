@@ -22,11 +22,11 @@
     },
     "on_bingo": {
       "$comment": "IDK - VSCode does like this being a path for some reason",
-      "$ref": "https://raw.githubusercontent.com/LoveTropics/LTDatapack/refs/heads/lt26/schemas/ltminigames/properties/actions.schema.json"
+      "$ref": "../behaviors/behaviors.json"
     }
   },
+  "additionalProperties": false,
   "required": [
     "type"
-  ],
-  "additionalProperties": false
+  ]
 }

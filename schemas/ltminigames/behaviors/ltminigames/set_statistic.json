@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_statistic"
+    },
+    "statistic": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "by_player_count": {
+      "$comment": "Understand This More - Mainly Hockey",
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

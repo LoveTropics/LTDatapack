@@ -3,15 +3,17 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/player_worlds"
+      "const": "ltminigames:show_title"
     },
-    "world": {
-      "type": "string"
+    "title": {
+      "$ref": "../../properties/text.json"
+    },
+    "stay": {
+      "type": "number"
     }
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "world"
+    "type"
   ]
 }
