@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:game_end_effects"
+    },
+    "stop_delay": {
+      "type": "integer"
+    },
+    "scheduled_messages": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "../../properties/text.schema.json"
+      }
+    },
+    "additionalProperties": false
+  },
+  "required": [
+    "type",
+    "stop_delay"
+  ]
+}

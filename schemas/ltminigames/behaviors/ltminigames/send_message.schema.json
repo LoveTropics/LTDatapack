@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:send_message"
+    },
+    "message": {
+      "$ref": "../../properties/text.schema.json"
+    },
+    "action_bar": {
+      "type": "boolean"
+    },
+    "additionalProperties": false
+  },
+  "required": [
+    "type",
+    "message"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:give_reward"
+    },
+    "items": {
+      "$ref": "../../../ltminigames/properties/items.schema.json"
+    },
+    "message": {
+      "$ref": "../../../ltminigames/properties/text.schema.json"
+    },
+    "statistic_binding": {
+      "$ref": "../../../ltminigames/properties/statistic_binding.schema.json"
+    },
+    "collectibles": {
+      "type": "array"
+    },
+    "additionalProperties": false
+  },
+  "required": [
+    "type",
+    "items"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_game_types"
+    },
+    "all": {
+      "$ref": "../../properties/gamemodes.schema.json"
+    },
+    "participant": {
+      "$ref": "../../properties/gamemodes.schema.json"
+    },
+    "spectator": {
+      "$ref": "../../properties/gamemodes.schema.json"
+    },
+    "additionalProperties": false
+  },
+  "required": [
+    "type"
+  ]
+}

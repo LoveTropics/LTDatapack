@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_game_rules"
+    },
+    "apply_defaults": {
+      "$comment": "TODO -?",
+      "type": "boolean"
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "minecraft:advance_time": {
+          "type": "boolean"
+        },
+        "minecraft:advance_weather": {
+          "type": "boolean"
+        },
+        "minecraft:allow_entering_nether_using_portals": {
+          "type": "boolean"
+        },
+        "minecraft:block_drops": {
+          "type": "boolean"
+        },
+        "minecraft:block_explosion_drop_decay": {
+          "type": "boolean"
+        },
+        "minecraft:command_block_output": {
+          "type": "boolean"
+        },
+        "minecraft:command_blocks_work": {
+          "type": "boolean"
+        },
+        "minecraft:drowning_damage": {
+          "type": "boolean"
+        },
+        "minecraft:elytra_movement_check": {
+          "type": "boolean"
+        },
+        "minecraft:ender_pearls_vanish_on_death": {
+          "type": "boolean"
+        },
+        "minecraft:entity_drops": {
+          "type": "boolean"
+        },
+        "minecraft:fall_damage": {
+          "type": "boolean"
+        },
+        "minecraft:fire_damage": {
+          "type": "boolean"
+        },
+        "minecraft:fire_spread_radius_around_player": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": -1
+        },
+        "minecraft:forgive_dead_players": {
+          "type": "boolean"
+        },
+        "minecraft:freeze_damage": {
+          "type": "boolean"
+        },
+        "minecraft:global_sound_events": {
+          "type": "boolean"
+        },
+        "minecraft:immediate_respawn": {
+          "type": "boolean"
+        },
+        "minecraft:keep_inventory": {
+          "type": "boolean"
+        },
+        "minecraft:lava_source_conversion": {
+          "type": "boolean"
+        },
+        "minecraft:limited_crafting": {
+          "type": "boolean"
+        },
+        "minecraft:locator_bar": {
+          "type": "boolean"
+        },
+        "minecraft:log_admin_commands": {
+          "type": "boolean"
+        },
+        "minecraft:max_block_modifications": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 1
+        },
+        "minecraft:minecraft:max_command_forks": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:max_command_sequence_length": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:max_entity_cramming": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:max_snow_accumulation_height": {
+          "type": "number",
+          "maximum": 8,
+          "minimum": 1
+        },
+        "minecraft:mob_drops": {
+          "type": "boolean"
+        },
+        "minecraft:mob_explosion_drop_decay": {
+          "type": "boolean"
+        },
+        "minecraft:mob_griefing": {
+          "type": "boolean"
+        },
+        "minecraft:natural_health_regeneration": {
+          "type": "boolean"
+        },
+        "minecraft:player_movement_check": {
+          "type": "boolean"
+        },
+        "minecraft:players_nether_portal_creative_delay": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:players_nether_portal_default_delay": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:players_sleeping_percentage": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:projectiles_can_break_blocks": {
+          "type": "boolean"
+        },
+        "minecraft:pvp": {
+          "type": "boolean"
+        },
+        "minecraft:raids": {
+          "type": "boolean"
+        },
+        "minecraft:random_tick_speed": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:reduced_debug_info": {
+          "type": "number",
+          "maximum": 999999999,
+          "minimum": 0
+        },
+        "minecraft:respawn_radius": {
+          "type": "boolean"
+        },
+        "minecraft:send_command_feedback": {
+          "type": "boolean"
+        },
+        "minecraft:show_advancement_messages": {
+          "type": "boolean"
+        },
+        "minecraft:show_death_messages": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_mobs": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_monsters": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_patrols": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_phantoms": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_wandering_traders": {
+          "type": "boolean"
+        },
+        "minecraft:spawn_wardens": {
+          "type": "boolean"
+        },
+        "minecraft:spawner_blocks_work": {
+          "type": "boolean"
+        },
+        "minecraft:spectators_generate_chunks": {
+          "type": "boolean"
+        },
+        "minecraft:spread_vines": {
+          "type": "boolean"
+        },
+        "minecraft:tnt_explodes": {
+          "type": "boolean"
+        },
+        "minecraft:tnt_explosion_drop_decay": {
+          "type": "boolean"
+        },
+        "minecraft:universal_anger": {
+          "type": "boolean"
+        },
+        "minecraft:water_source_conversion": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "rules"
+  ]
+}

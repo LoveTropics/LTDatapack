@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "behaviors": {
+      "oneOf": [
+        {
+          "$ref": "./lt/anything.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/send_message.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/give_reward.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/last_remaining_win_trigger.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/game_finish.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/teams.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/sum_statistic.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/position_players.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/game_end_effects.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/time_survived_tracker.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/setup_teams.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/disable_hunger.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/cancel_player_damage_schema.json"
+        },
+        {
+          "$ref": "./ltminigames/set_game_types_schema.json"
+        },
+        {
+          "$ref": "./ltminigames/join_late_with_role_schema.json"
+        },
+        {
+          "$ref": "./ltminigames/set_game_rules.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/set_difficulty.schema.json"
+        },
+        {
+          "$ref": "./ltminigames/immediate_respawn.schema.json"
+        }
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/behaviors"
+      }
+    },
+    {
+      "$ref": "#/$defs/behaviors"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:position_players"
+    },
+    "spectators": {
+      "$ref": "../../properties/regions.schema.json"
+    },
+    "face_region": {
+      "$ref": "../../properties/regions.schema.json"
+    },
+    "all": {
+      "$ref": "../../properties/regions.schema.json"
+    },
+    "participants": {
+      "$ref": "../../properties/regions.schema.json"
+    },
+    "additionalProperties": {
+      "$ref": "../../properties/regions.schema.json"
+    }
+  },
+  "required": [
+    "type"
+  ]
+}

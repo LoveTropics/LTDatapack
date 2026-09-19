@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "anyOf": [
+    {
+      "type": "string",
+      "pattern": "^lt:"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "pattern": "^lt:"
+        }
+      },
+      "required": ["type"],
+      "if": {
+        "properties": {
+          "type": {
+            "pattern": "^lt:"
+          }
+        }
+      },
+      "then": {
+        "additionalProperties": true
+      },
+      "else": {
+        "additionalProperties": false
+      }
+    }
+  ]
+}

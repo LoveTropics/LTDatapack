@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Map Loading Type",
+      "type": "string",
+      "enum": [
+        "ltminigames:load_map",
+        "ltminigames:generator"
+      ]
+    }
+  },
+  "if": {
+    "properties": {
+      "type": {
+        "const": "ltminigames:load_map"
+      }
+    }
+  },
+  "then": {
+    "properties": {
+      "load_from": {
+        "type": "string",
+        "pattern": "^lt:"
+      },
+      "dimension_type": {
+        "type": "string",
+        "enum": [
+          "lt:no_clouds",
+          "lt:raised_clouds",
+          "minecraft:the_end",
+          "minecraft:the_end",
+          "tropicraft:tropics"
+        ]
+      }
+    },
+    "required": [
+      "load_from"
+    ]
+  },
+  "else": {
+    "if": {
+      "properties": {
+        "type": {
+          "const": "ltminigames:generator"
+        }
+      }
+    },
+    "then": {
+      "properties": {
+        "generator": {
+          "$comment": "TODO"
+        },
+        "dimension": {
+          "$comment": "TODO"
+        },
+        "spawn_region": {
+          "$comment": "TODO"
+        },
+        "nether": {
+          "$comment": "TODO"
+        },
+        "end": {
+          "$comment": "TODO"
+        }
+      }
+    }
+  },
+  "required": [
+    "type"
+  ]
+}

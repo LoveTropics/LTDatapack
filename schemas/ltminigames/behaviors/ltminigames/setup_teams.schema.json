@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:setup_teams"
+    },
+    "teams": {
+      "type": "array",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "name": {
+          "$ref": "../../properties/text.schema.json"
+        },
+        "dye": {
+          "$comment": "TODO - ENUM COLORS",
+          "type": "string"
+        },
+        "text": {
+          "$comment": "TODO - What this do?",
+          "type": "string"
+        },
+        "assign_roles": {
+          "type": "array",
+          "properties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "teams"
+  ]
+}

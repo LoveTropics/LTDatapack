@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "text": {
+      "$comment": "TODO",
+      "type": "object",
+      "properties": {
+        "translate": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "italic": {
+          "type": "boolean"
+        },
+        "color": {
+          "type": "string",
+          "enum": [
+            "black",
+            "dark_blue",
+            "dark_green",
+            "dark_aqua",
+            "dark_red",
+            "dark_purple",
+            "gold",
+            "gray",
+            "dark_gray",
+            "blue",
+            "green",
+            "aqua",
+            "red",
+            "light_purple",
+            "yellow",
+            "white"
+          ]
+        },
+        "extra": {},
+        "with": {},
+        "additionalProperties": true
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "string"
+    },
+    {
+      "type": "object",
+      "$ref": "#/$defs/text"
+    },
+    {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "#/$defs/text"
+          }
+        ]
+      }
+    }
+  ]
+}

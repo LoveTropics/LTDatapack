@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "anyOf": [
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:immediate_respawn"
+        },
+        "role": {
+          "$ref": "../../properties/game_roles.schema.json"
+        },
+        "respawn_as": {
+          "$ref": "../../properties/game_roles.schema.json"
+        },
+        "death_message": {
+          "$ref": "../../properties/text.schema.json"
+        },
+        "drop_inventory": {
+          "type": "boolean"
+        },
+        "respawn_action": {
+          "$ref": "../../properties/actions.schema.json"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    {
+      "type": "string",
+      "const": "ltminigames:immediate_respawn"
+    }
+  ]
+}

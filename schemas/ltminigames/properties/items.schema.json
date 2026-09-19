@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "components": {
+          "type": "object",
+          "properties": {
+            "unbreakable": {},
+            "ltextras:undroppable": {},
+            "can_place_on": {}
+          }
+        },
+        "additionalProperties": true,
+        "required": ["id"]
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "#/$defs/items"
+          }
+        ]
+      }
+    },
+    {
+      "$ref": "#/$defs/items"
+    },
+    {
+      "type": "string"
+    }
+  ]
+}
