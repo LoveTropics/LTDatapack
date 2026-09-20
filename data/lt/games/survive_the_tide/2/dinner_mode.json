@@ -35,7 +35,6 @@
             "key": "dinners",
             "name": "THE DINNERS",
             "dye": "red",
-            "text": "red",
             "assign_roles": [
               "dinners"
             ]
@@ -43,8 +42,7 @@
           {
             "key": "everyone",
             "name": "Everyone Else",
-            "dye": "cyan",
-            "text": "aqua"
+            "dye": "cyan"
           }
         ]
       }

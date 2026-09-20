@@ -35,16 +35,14 @@
             "name": {
               "translate": "ltminigames.minigame.teams.blue"
             },
-            "dye": "blue",
-            "text": "blue"
+            "dye": "blue"
           },
           {
             "key": "red",
             "name": {
               "translate": "ltminigames.minigame.teams.red"
             },
-            "dye": "red",
-            "text": "red"
+            "dye": "red"
           }
         ]
       }

@@ -5,8 +5,7 @@
       {
         "key": "blue",
         "name": { "translate": "ltminigames.minigame.teams.blue" },
-        "dye": "blue",
-        "text": "blue"
+        "dye": "blue"
       }
     ]
   }

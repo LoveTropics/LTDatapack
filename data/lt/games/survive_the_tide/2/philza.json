@@ -34,14 +34,12 @@
             "key": "host",
             "name": "Host",
             "dye": "red",
-            "text": "red",
             "assign_roles": ["live"]
           },
           {
             "key": "everyone",
             "name": "Everyone Else",
-            "dye": "cyan",
-            "text": "aqua"
+            "dye": "cyan"
           }
         ]
       }

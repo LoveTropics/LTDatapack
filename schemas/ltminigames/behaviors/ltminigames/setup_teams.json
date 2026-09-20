@@ -18,10 +18,6 @@
           "$comment": "TODO - ENUM COLORS",
           "type": "string"
         },
-        "text": {
-          "$comment": "TODO - What this do?",
-          "type": "string"
-        },
         "assign_roles": {
           "type": "array",
           "properties": {

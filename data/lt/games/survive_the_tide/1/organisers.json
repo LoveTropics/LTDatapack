@@ -35,7 +35,6 @@
             "key": "organisers",
             "name": "Organisers",
             "dye": "red",
-            "text": "red",
             "assign_roles": [
               "organiser",
               "dinners"
@@ -44,8 +43,7 @@
           {
             "key": "everyone",
             "name": "Everyone Else",
-            "dye": "cyan",
-            "text": "aqua"
+            "dye": "cyan"
           }
         ]
       }

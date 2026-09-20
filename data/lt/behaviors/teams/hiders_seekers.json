@@ -5,14 +5,12 @@
       {
         "key": "hiders",
         "name": {"translate": "ltminigames.minigame.teams.hiders"},
-        "dye": "cyan",
-        "text": "aqua"
+        "dye": "cyan"
       },
       {
         "key": "seekers",
         "name": {"translate": "ltminigames.minigame.teams.seekers"},
-        "dye": "red",
-        "text": "red"
+        "dye": "red"
       }
     ],
     "max_sizes": {

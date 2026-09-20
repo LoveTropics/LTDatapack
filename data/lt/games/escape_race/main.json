@@ -36,7 +36,6 @@
               "translate": "ltminigames.minigame.teams.blue"
             },
             "dye": "blue",
-            "text": "blue",
             "assign_roles": ["river_race_blue"]
           },
           {
@@ -45,7 +44,6 @@
               "translate": "ltminigames.minigame.teams.red"
             },
             "dye": "red",
-            "text": "red",
             "assign_roles": ["river_race_red"]
           }
         ]
