@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.block_party",
     "color": "dark_green"
   },
-  "statistics_key": "block_party",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
@@ -14,7 +13,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "block_party"
     },
     "ltminigames:last_remaining_win_trigger",
     {

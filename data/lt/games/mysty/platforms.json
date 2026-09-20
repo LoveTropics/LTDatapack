@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.mysty.platforms",
     "color": "aqua"
   },
-  "statistics_key": "block_party",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,

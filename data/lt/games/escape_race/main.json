@@ -10,8 +10,6 @@
       }
     ]
   },
-  "statistics_key": "escape_race",
-  "backend_id": "lt:escape_race",
   "minimum_participants": 1,
   "maximum_participants": 6,
   "hide_from_list": false,

@@ -2,7 +2,6 @@
   "name": {
     "translate": "ltminigames.minigame.mcsr"
   },
-  "statistics_key": "mcsr",
   "hide_from_list": true,
   "map": {
     "type": "ltminigames:generator",

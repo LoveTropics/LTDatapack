@@ -2,7 +2,9 @@
   {
     "type": "lt:common/playing",
     "game_type": "adventure",
-    "join_late_with_role": "participant"
+    "join_late_with_role": "participant",
+    "backend_id": "lt:qottott",
+    "statistics_key": "qottott"
   },
   "lt:common/spectator",
   "lt:qottott/ruleset",

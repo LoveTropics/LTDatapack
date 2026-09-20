@@ -15,12 +15,6 @@
     "intro_slideshow": {
       "type": "string"
     },
-    "backend_id": {
-      "type": "string"
-    },
-    "statistics_key": {
-      "type": "string"
-    },
     "minimum_participants": {
       "type": "integer",
       "minimum": 1

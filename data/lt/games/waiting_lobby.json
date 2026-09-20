@@ -1,6 +1,5 @@
 {
   "name": "Waiting Lobby",
-  "statistics_key": "waiting_lobby",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "hide_from_list": true,

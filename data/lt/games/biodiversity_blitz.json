@@ -10,7 +10,6 @@
       }
     ]
   },
-  "statistics_key": "biodiversity_blitz",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
@@ -38,7 +37,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "biodiversity_blitz"
     },
     "ltminigames:teams",
     {

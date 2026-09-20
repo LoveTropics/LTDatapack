@@ -2,7 +2,6 @@
   "name": {
     "translate": "Bingo!"
   },
-  "statistics_key": "bingo",
   "maximum_participants": 1,
   "map": {
     "type": "ltminigames:generator",

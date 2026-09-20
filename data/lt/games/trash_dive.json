@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.trash_dive",
     "color": "dark_green"
   },
-  "statistics_key": "trash_dive",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
@@ -16,7 +15,8 @@
       "type": "lt:common/playing",
       "game_type": "survival",
       "join_late_with_role": "participant",
-      "allow_rejoin": true
+      "allow_rejoin": true,
+      "statistics_key": "trash_dive"
     },
     {
       "type": "ltminigames:position_players",

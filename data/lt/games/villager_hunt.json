@@ -10,8 +10,6 @@
       }
     ]
   },
-  "statistics_key": "villager_hunt",
-  "backend_id": "lt:villager_hunt",
   "minimum_participants": 2,
   "maximum_participants": 1000,
   "waiting": {
@@ -39,7 +37,9 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:villager_hunt",
+      "statistics_key": "villager_hunt"
     },
     "ltminigames:teams",
     {

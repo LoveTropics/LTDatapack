@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.columns_of_chaos",
     "color": "dark_green"
   },
-  "statistics_key": "columns_of_chaos",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
@@ -31,7 +30,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "columns_of_chaos"
     },
     {
       "type": "lt:columns_of_chaos/common",

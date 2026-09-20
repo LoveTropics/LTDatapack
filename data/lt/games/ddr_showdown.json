@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.ddr_showdown",
     "color": "dark_green"
   },
-  "statistics_key": "ddr_showdown",
   "minimum_participants": 1,
   "maximum_participants": 150,
   "map": {
@@ -14,7 +13,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "ddr_showdown"
     },
     "lt:common/spectator",
     {

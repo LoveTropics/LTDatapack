@@ -10,7 +10,6 @@
       }
     ]
   },
-  "statistics_key": "speed_carb_golf",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "hide_from_list": false,
@@ -39,7 +38,8 @@
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
-      "allow_rejoin": true
+      "allow_rejoin": true,
+      "statistics_key": "speed_carb_golf"
     },
     "ltminigames:teams",
     "lt:speed_carb_golf/common"

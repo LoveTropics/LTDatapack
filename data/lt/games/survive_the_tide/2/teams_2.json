@@ -11,8 +11,6 @@
     ]
   },
   "icon": "ltminigames:minigames/survive_the_tide/icon",
-  "statistics_key": "survive_the_tide",
-  "backend_id": "lt:survive_the_tide_2_teams",
   "intro_slideshow": "lt:game/survive_the_tide/teams_2",
   "minimum_participants": 3,
   "maximum_participants": 1000,
@@ -40,7 +38,9 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:survive_the_tide_2_teams",
+      "statistics_key": "survive_the_tide"
     },
     "lt:survive_the_tide/2/map",
     "lt:survive_the_tide/2/phases",

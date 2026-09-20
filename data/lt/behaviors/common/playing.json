@@ -1,5 +1,9 @@
 [
-  "ltminigames:setup_integrations",
+  {
+    "type": "ltminigames:setup_integrations",
+    "backend_id": "$backend_id",
+    "statistics_key": "$statistics_key"
+  },
   {
     "type": "ltminigames:set_game_types",
     "participant": "$game_type",

@@ -3,8 +3,6 @@
     "translate": "lt.minigame.dodgeball",
     "color": "dark_green"
   },
-  "statistics_key": "dodgeball",
-  "backend_id": "lt:dodgeball",
   "minimum_participants": 2,
   "maximum_participants": 1000,
   "map": {
@@ -16,7 +14,9 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:dodgeball",
+      "statistics_key": "dodgeball"
     },
     {
       "type": "lt:dodgeball/common",

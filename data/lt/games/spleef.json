@@ -6,7 +6,6 @@
   "icon": "ltminigames:minigames/spleef/icon",
   "minimum_participants": 1,
   "maximum_participants": 1000,
-  "statistics_key": "spleef_standard",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/spleef"
@@ -15,7 +14,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "spleef_standard"
     },
     {
       "type": "ltminigames:force_load_region",

@@ -11,8 +11,6 @@
     ]
   },
   "hide_from_list": true,
-  "statistics_key": "turtle_clash",
-  "backend_id": "lt:turtle_clash",
   "minimum_participants": 2,
   "maximum_participants": 1000,
   "waiting": {

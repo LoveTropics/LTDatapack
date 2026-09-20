@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.mysty_event",
     "color": "aqua"
   },
-  "statistics_key": "mysty_event",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 50,

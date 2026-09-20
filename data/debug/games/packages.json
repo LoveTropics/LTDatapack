@@ -1,6 +1,5 @@
 {
   "name": {"text": "Debug: Packages"},
-  "backend_id": "lt:survive_the_tide_1",
   "map": {
     "type": "ltminigames:inline",
     "dimension": "minecraft:overworld"

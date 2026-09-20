@@ -20,7 +20,6 @@
       }
     ]
   },
-  "statistics_key": "de_a_coudre",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "waiting": {
@@ -47,7 +46,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "de_a_coudre"
     },
     {
       "type": "ltminigames:teams",

@@ -10,8 +10,6 @@
       }
     ]
   },
-  "statistics_key": "river_race",
-  "backend_id": "lt:river_race",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "hide_from_list": true,

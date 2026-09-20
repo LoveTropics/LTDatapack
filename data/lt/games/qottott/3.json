@@ -3,8 +3,6 @@
     "translate": "ltminigames.minigame.qottott",
     "color": "light_purple"
   },
-  "statistics_key": "qottott",
-  "backend_id": "lt:qottott",
   "minimum_participants": 3,
   "maximum_participants": 1000,
   "hide_from_list": false,

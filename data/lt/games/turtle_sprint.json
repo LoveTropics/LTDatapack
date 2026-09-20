@@ -4,7 +4,6 @@
     "color": "dark_green"
   },
   "hide_from_list": true,
-  "statistics_key": "turtle_sprint",
   "minimum_participants": 2,
   "maximum_participants": 11,
   "map": {
@@ -15,7 +14,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "adventure",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "turtle_sprint"
     },
     "lt:turtle_sprint/common"
   ]

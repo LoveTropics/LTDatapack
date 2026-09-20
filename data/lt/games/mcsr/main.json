@@ -2,8 +2,6 @@
   "name": {
     "translate": "ltminigames.minigame.mcsr"
   },
-  "statistics_key": "mcsr",
-  "backend_id": "lt:mcsr",
   "maximum_participants": 6,
   "map": {
     "type": "ltminigames:load_map",
@@ -15,7 +13,9 @@
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
-      "allow_rejoin": true
+      "allow_rejoin": true,
+      "backend_id": "lt:mcsr",
+      "statistics_key": "mcsr"
     },
     {
       "type": "ltminigames:position_players",

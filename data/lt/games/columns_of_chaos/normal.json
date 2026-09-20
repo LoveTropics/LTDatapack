@@ -10,7 +10,6 @@
       }
     ]
   },
-  "statistics_key": "columns_of_chaos",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "map": {
@@ -37,7 +36,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "columns_of_chaos"
     },
     "ltminigames:teams",
     {

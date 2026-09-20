@@ -9,7 +9,9 @@
   {
     "type": "lt:common/playing",
     "game_type": "adventure",
-    "join_late_with_role": "spectator"
+    "join_late_with_role": "spectator",
+    "backend_id": "lt:turtle_race",
+    "statistics_key": "race_standard"
   },
   {
     "type": "ltminigames:force_load_region",

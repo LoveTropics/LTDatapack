@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.mysty.build_battle",
     "color": "dark_green"
   },
-  "statistics_key": "build_battle",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 64,
@@ -16,7 +15,8 @@
     {
       "type": "lt:common/playing",
       "game_type": "survival",
-      "join_late_with_role": "spectator"
+      "join_late_with_role": "spectator",
+      "statistics_key": "build_battle"
     },
     "lt:mysty/build_battle/common"
   ]

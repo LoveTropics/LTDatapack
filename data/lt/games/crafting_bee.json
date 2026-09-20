@@ -10,7 +10,6 @@
       }
     ]
   },
-  "statistics_key": "crafting_bee",
   "minimum_participants": 1,
   "maximum_participants": 1000,
   "waiting": {
@@ -39,7 +38,8 @@
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
-      "allow_rejoin": true
+      "allow_rejoin": true,
+      "statistics_key": "crafting_bee"
     },
     {
       "type": "ltminigames:progression"

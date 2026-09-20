@@ -8,7 +8,9 @@
     "type": "lt:common/playing",
     "game_type": "adventure",
     "join_late_with_role": "spectator",
-    "allow_rejoin": true
+    "allow_rejoin": true,
+    "backend_id": "lt:escape_race",
+    "statistics_key": "escape_race"
   },
   "lt:common/spectator",
   "lt:escape_race/global",
