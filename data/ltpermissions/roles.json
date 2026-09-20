@@ -164,6 +164,7 @@
       "command_feedback": true
     }
   },
+  "event_overlord": {},
   "donator": {},
   "whitelisted": {
     "overrides": {
