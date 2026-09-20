@@ -39,19 +39,17 @@
       },
       {
         "type": "ltminigames:setup_teams",
-        "teams": [
-          {
-            "key": "host",
+        "teams": {
+          "host": {
             "name": "Host",
             "dye": "red",
             "assign_roles": ["live"]
           },
-          {
-            "key": "everyone",
+          "everyone": {
             "name": "Everyone Else",
             "dye": "cyan"
           }
-        ]
+        }
       }
     ]
   },

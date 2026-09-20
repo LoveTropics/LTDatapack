@@ -1,20 +1,16 @@
 [
   {
     "type": "ltminigames:setup_teams",
-    "teams": [
-      {
-        "key": "hiders",
+    "teams": {
+      "hiders": {
         "name": {"translate": "ltminigames.minigame.teams.hiders"},
         "dye": "cyan"
       },
-      {
-        "key": "seekers",
+      "seekers": {
         "name": {"translate": "ltminigames.minigame.teams.seekers"},
-        "dye": "red"
+        "dye": "red",
+        "max_size": "$start_seekers"
       }
-    ],
-    "max_sizes": {
-      "seekers": "$start_seekers"
     }
   }
 ]

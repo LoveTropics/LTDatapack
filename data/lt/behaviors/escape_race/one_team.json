@@ -1,12 +1,11 @@
 [
   {
     "type": "ltminigames:setup_teams",
-    "teams": [
-      {
-        "key": "blue",
+    "teams": {
+      "blue": {
         "name": { "translate": "ltminigames.minigame.teams.blue" },
         "dye": "blue"
       }
-    ]
+    }
   }
 ]

@@ -34,21 +34,17 @@
       },
       {
         "type": "ltminigames:setup_teams",
-        "teams": [
-          {
-            "key": "dinners",
+        "teams": {
+          "dinners": {
             "name": "THE DINNERS",
             "dye": "red",
-            "assign_roles": [
-              "dinners"
-            ]
+            "assign_roles": ["dinners"]
           },
-          {
-            "key": "everyone",
+          "everyone": {
             "name": "Everyone Else",
             "dye": "cyan"
           }
-        ]
+        }
       }
     ]
   },

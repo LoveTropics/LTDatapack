@@ -30,9 +30,8 @@
       },
       {
         "type": "ltminigames:setup_teams",
-        "teams": [
-          {
-            "key": "organisers",
+        "teams": {
+          "organisers": {
             "name": "Organisers",
             "dye": "red",
             "assign_roles": [
@@ -40,12 +39,11 @@
               "dinners"
             ]
           },
-          {
-            "key": "everyone",
+          "everyone": {
             "name": "Everyone Else",
             "dye": "cyan"
           }
-        ]
+        }
       }
     ]
   },

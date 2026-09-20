@@ -27,25 +27,7 @@
           "spawn": "spawn"
         }
       },
-      {
-        "type": "ltminigames:setup_teams",
-        "teams": [
-          {
-            "key": "blue",
-            "name": {
-              "translate": "ltminigames.minigame.teams.blue"
-            },
-            "dye": "blue"
-          },
-          {
-            "key": "red",
-            "name": {
-              "translate": "ltminigames.minigame.teams.red"
-            },
-            "dye": "red"
-          }
-        ]
-      }
+      "lt:teams/red_blue"
     ]
   },
   "map": {

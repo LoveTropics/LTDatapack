@@ -6,26 +6,25 @@
       "const": "ltminigames:setup_teams"
     },
     "teams": {
-      "type": "array",
-      "properties": {
-        "key": {
-          "type": "string"
-        },
-        "name": {
-          "$ref": "../../properties/text.json"
-        },
-        "dye": {
-          "$comment": "TODO - ENUM COLORS",
-          "type": "string"
-        },
-        "assign_roles": {
-          "type": "array",
-          "properties": {
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "$ref": "../../properties/text.json"
+          },
+          "dye": {
+            "$comment": "TODO - ENUM COLORS",
             "type": "string"
-          }
+          },
+          "assign_roles": {
+            "type": "array",
+            "properties": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
         }
-      },
-      "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false,
