@@ -106,10 +106,7 @@
             }
           }
         },
-        "blocks": [
-          "#minecraft:logs",
-          "#minecraft:leaves"
-        ]
+        "blocks": "#lt:plants"
       },
       {
         "type": "ltminigames:drop_plant_item",

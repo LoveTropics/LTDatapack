@@ -12,6 +12,7 @@
     "tropicraft:golden_leather_fern",
     "minecraft:fern",
     "tropicraft:pineapple",
-    "minecraft:large_fern"
+    "minecraft:large_fern",
+    "#tropicraft:roots"
   ]
 }

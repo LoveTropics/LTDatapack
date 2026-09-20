@@ -44,10 +44,7 @@
           "type": "tropicraft:normal_palm_tree",
           "config": {}
         },
-        "blocks": [
-          "#minecraft:logs",
-          "#minecraft:leaves"
-        ]
+        "blocks": "#lt:plants"
       },
       {
         "type": "ltminigames:drop_plant_item",

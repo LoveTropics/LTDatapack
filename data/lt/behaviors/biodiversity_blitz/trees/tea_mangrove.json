@@ -46,11 +46,7 @@
       {
         "type": "ltminigames:place_feature_plant",
         "feature": "tropicraft:tea_mangrove",
-        "blocks": [
-          "#minecraft:logs",
-          "#minecraft:leaves",
-          "#tropicraft:roots"
-        ]
+        "blocks": "#lt:plants"
       },
       {
         "type": "ltminigames:drop_plant_item",
