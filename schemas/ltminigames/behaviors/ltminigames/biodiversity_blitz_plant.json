@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "TODO - Behaviors? not actions?",
+  "properties": {
+    "type": {
+      "const": "ltminigames:biodiversity_blitz_plant"
+    },
+    "id": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "value": {
+      "type": "number"
+    },
+    "behaviors": {
+      "type": "array",
+      "$ref": "../../properties/actions.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

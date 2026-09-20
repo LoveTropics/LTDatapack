@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:tips_and_tricks"
+    },
+    "time_between_tips": {
+      "type": "integer"
+    },
+    "texts": {
+      "type": "array",
+      "items": {
+        "$ref": "../../properties/text.json"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

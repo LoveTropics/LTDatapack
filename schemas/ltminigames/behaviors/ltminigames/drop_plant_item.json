@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "TODO - Behaviors? not actions?",
+  "properties": {
+    "type": {
+      "const": "ltminigames:drop_plant_item"
+    },
+    "plant": {
+      "$comment": "TODO - Block",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

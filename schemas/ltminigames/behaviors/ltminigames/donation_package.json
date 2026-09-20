@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "TODO - Explain This one good",
+  "properties": {
+    "type": {
+      "const": "ltminigames:donation_package"
+    },
+    "id": {
+      "type": "string"
+    },
+    "package_type": {
+      "anyOf": [
+        {
+          "const": "sabotage_package"
+        },
+        {
+          "const": "care_package"
+        }
+      ]
+    },
+    "category": {
+      "anyOf": [
+        {
+          "const": "large"
+        }
+      ]
+    },
+    "player_select": {
+      "$ref": "../../properties/target.json"
+    },
+    "name": {
+      "$ref": "../../properties/text.json"
+    },
+    "description": {
+      "$ref": "../../properties/text.json"
+    },
+    "donation_amount": {
+      "type": "number"
+    },
+    "notification": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "$ref": "../../properties/text.json"
+        },
+        "icon": {
+          "type": "object",
+          "properties": {
+            "item": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "sentiment": {
+          "anyOf": [
+            {
+              "const": "negative"
+            }
+          ]
+        },
+        "sound": {
+          "type": "string"
+        }
+      }
+    },
+    "receive_actions": {
+      "$ref": "../../properties/actions.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

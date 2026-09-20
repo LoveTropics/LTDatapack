@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:randomize"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "../../properties/actions.json"
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "data",
+          "weight"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "type",
+    "options"
+  ],
+  "additionalProperties": false
+}

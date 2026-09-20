@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:bingo/complete_tile"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:bingo/complete_tile"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ]
+    }
+  ]
+}
+

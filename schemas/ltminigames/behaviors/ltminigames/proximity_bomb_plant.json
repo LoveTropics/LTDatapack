@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:proximity_bomb_plant"
+    },
+    "radius": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

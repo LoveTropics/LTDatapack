@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:countdown_action"
+    },
+    "warning": {
+      "$ref": "../../properties/text.json"
+    },
+    "countdown": {
+      "type": "integer"
+    },
+    "actions": {
+      "$ref": "../../properties/actions.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

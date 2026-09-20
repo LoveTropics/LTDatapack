@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:bingo/add_tile"
+    },
+    "icon": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": ["string"]
+        }
+      }
+    },
+    "title": {
+      "$comment": "TODO - FIX"
+    },
+    "item": {
+      "$ref": "../../../properties/items.json"
+    },
+    "reward": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "trigger": {
+      "$comment": "TODO - FIX"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

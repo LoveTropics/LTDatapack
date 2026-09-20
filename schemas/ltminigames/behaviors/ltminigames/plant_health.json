@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:plant_health"
+    },
+    "health": {
+      "type": "integer"
+    },
+    "not_pathfindable": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

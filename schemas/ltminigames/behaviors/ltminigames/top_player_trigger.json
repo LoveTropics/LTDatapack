@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:top_player_trigger"
+    },
+    "by_place": {
+      "type": "array",
+      "items": {
+        "$ref": "../../properties/actions.json"
+      }
+    },
+    "fallback": {
+      "$comment": "TODO - FIX"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

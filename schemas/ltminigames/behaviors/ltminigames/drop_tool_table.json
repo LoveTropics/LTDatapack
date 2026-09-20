@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "TODO - Help Understand ID",
+  "properties": {
+    "type": {
+      "const": "ltminigames:drop_loot_table"
+    },
+    "id": {
+      "type": "string"
+    },
+    "loot_table": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

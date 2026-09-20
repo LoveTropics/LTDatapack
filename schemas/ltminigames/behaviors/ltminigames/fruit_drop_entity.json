@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:fruit_drop_entity"
+    },
+    "range": {
+      "type": "integer"
+    },
+    "interval": {
+      "type": "integer"
+    },
+    "fruit": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

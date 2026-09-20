@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "$comment": "TODO - ????",
+      "const": "ltminigames:item_picked_up"
+    },
+    "item": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "$ref": "../../properties/items.json"
+        }
+      }
+    },
+    "actions": {
+      "$ref": "../../properties/actions.json"
+    },
+    "consume": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

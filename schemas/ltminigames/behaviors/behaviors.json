@@ -219,6 +219,114 @@
         },
         {
           "$ref": "../behaviors/ltminigames/display_leadboard.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/bingo/add_title.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/item_picked_up.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/bingo/complete_tile.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/randomize.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_single_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/drop_plant_item.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/drop_tool_table.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/plant_health.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/aging_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_plant_item.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/donation_package.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/equalize_currency.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/countdown_action.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spawn_suprise_wave.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_double_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/effect_adding_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/lightning_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/watery_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/flaming_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/scare_trap_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mushroom_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/proximity_bomb_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/barrier_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/berries_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_feature_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/grow_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/pianguas.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/idle_drop_time.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/fruit_drop_entity.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/grow_coconuts.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/bb_tutorial.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_assign_plots.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/top_player_trigger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/tips_and_tricks.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/add_weather.json"
         }
       ]
     }

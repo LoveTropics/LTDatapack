@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$defs": {
+    "plot": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "forward": {
+          "type": "string"
+        }
+      },
+      "required": ["key", "forward"],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "type": {
+      "const": "ltminigames:biodiversity_blitz_assign_plots"
+    },
+    "teams_mode": {
+      "type": "boolean"
+    },
+    "regions": {
+      "type": "object",
+      "properties": {
+        "plot": {"type": "string"},
+        "spawn": {"type": "string"},
+        "shop": {"type": "string"},
+        "plant_shop": {"type": "string"},
+        "mob_shop": {"type": "string"},
+        "mob_spawns": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "plots": {
+      "type": "object",
+      "properties": {
+        "red": {
+          "$ref": "#/$defs/plot"
+        },
+        "blue": {
+          "$ref": "#/$defs/plot"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": ["type"]
+}

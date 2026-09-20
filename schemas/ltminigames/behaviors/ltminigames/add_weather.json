@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:add_weather"
+    },
+    "event_effects": {
+      "type": "object",
+      "properties": {
+        "acid_rain": {
+          "type": "object",
+          "properties": {
+            "damage": {
+              "type": "object",
+              "properties": {
+                "rate": {
+                  "type": "integer"
+                },
+                "amount": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            },
+            "repellent": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "$comment": "TODO - Item",
+                  "type": "string"
+                },
+                "rate": {
+                  "type": "integer"
+                },
+                "amount": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

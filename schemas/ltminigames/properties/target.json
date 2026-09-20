@@ -5,6 +5,7 @@
     {
       "type": "string",
       "enum": [
+        "all",
         "all_players",
         "participants"
       ]

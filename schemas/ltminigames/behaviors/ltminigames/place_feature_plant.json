@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:place_feature_plant"
+    },
+    "feature": {
+      "type": ["object", "string"]
+    },
+    "blocks": {
+      "$comment": "TODO - Blocks",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "Todo - ???",
+  "properties": {
+    "type": {
+      "const": "ltminigames:bb_tutorial"
+    },
+    "diffusa": {
+      "type": "string"
+    },
+    "grass": {
+      "type": "string"
+    },
+    "wheat": {
+      "type": "string"
+    },
+    "run_tutorial": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+
