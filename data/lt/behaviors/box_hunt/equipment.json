@@ -1,67 +1,68 @@
 [
   {
-    "type": "ltminigames:on_spawn_teams",
+    "type": "ltminigames:on_spawn",
     "role": "participant",
     "actions": {
-      "hiders": [
-        {
-          "type": "ltminigames:disguise_as_player_box"
-        },
-        {
-          "type": "ltminigames:give_effect",
-          "effects": [
-            {
-              "type": "minecraft:slowness",
-              "seconds": 999999,
-              "amplifier": 1,
-              "particles": false
-            }
-          ]
-        },
-        {
-          "type": "ltminigames:add_attribute_modifier",
-          "attribute": "minecraft:max_health",
-          "modifier": {
-            "id": "lt:box_hunt",
-            "amount": -10,
-            "operation": "add_value"
-          }
-        }
-      ],
-      "seekers": [
-        {
-          "type": "ltminigames:add_equipment",
-          "head": {
-            "id": "minecraft:leather_helmet",
-            "components": {
-              "unbreakable": {},
-              "ltextras:undroppable": {},
-              "trim": {
-                "material": "gold",
-                "pattern": "wild"
+      "type": "ltminigames:team_dispatch",
+      "by_team": {
+        "hiders": [
+          "ltminigames:disguise_as_player_box",
+          {
+            "type": "ltminigames:give_effect",
+            "effects": [
+              {
+                "type": "minecraft:slowness",
+                "seconds": 999999,
+                "amplifier": 1,
+                "particles": false
               }
-            }
+            ]
           },
-          "chest": {
-            "id": "minecraft:leather_chestplate",
-            "components": {
-              "unbreakable": {},
-              "ltextras:undroppable": {}
+          {
+            "type": "ltminigames:add_attribute_modifier",
+            "attribute": "minecraft:max_health",
+            "modifier": {
+              "id": "lt:box_hunt",
+              "amount": -10,
+              "operation": "add_value"
             }
-          },
-          "color_by_team": false,
-          "hotbar_team_items": {
-            "seekers": {
-              "id": "minecraft:stone_sword",
+          }
+        ],
+        "seekers": [
+          {
+            "type": "ltminigames:add_equipment",
+            "head": {
+              "id": "minecraft:leather_helmet",
               "components": {
-                "item_name": "Box Finder",
+                "unbreakable": {},
                 "ltextras:undroppable": {},
-                "minecraft:can_break": {"blocks": ["ltextras:word_box"]}
+                "trim": {
+                  "material": "gold",
+                  "pattern": "wild"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:leather_chestplate",
+              "components": {
+                "unbreakable": {},
+                "ltextras:undroppable": {}
+              }
+            },
+            "color_by_team": false,
+            "hotbar_team_items": {
+              "seekers": {
+                "id": "minecraft:stone_sword",
+                "components": {
+                  "item_name": "Box Finder",
+                  "ltextras:undroppable": {},
+                  "minecraft:can_break": {"blocks": ["ltextras:word_box"]}
+                }
               }
             }
           }
-        }
-      ]
+        ]
+      }
     }
   }
 ]
