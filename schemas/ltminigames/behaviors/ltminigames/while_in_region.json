@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:while_in_region"
+    },
+    "regions": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "../../properties/actions.json"
+      }
+    },
+    "interval": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

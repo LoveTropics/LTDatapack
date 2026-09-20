@@ -11,6 +11,9 @@
     "head": {
       "$comment": "TODO - Other Slots"
     },
+    "feet": {
+      "$comment": "TODO - Other Slots"
+    },
     "color_by_team": {
       "type": "boolean"
     }

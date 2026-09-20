@@ -183,6 +183,42 @@
         },
         {
           "$ref": "../behaviors/ltminigames/statistic_overlay.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/phase_triggers/stop.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/run_commands.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/while_in_region.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_blocks.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/events.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/give_effect.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/force_load_region.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spleef.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_xp_to_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/trash_collection.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_trash.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/display_leadboard.json"
         }
       ]
     }

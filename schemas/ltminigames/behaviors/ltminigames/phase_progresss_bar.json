@@ -6,22 +6,33 @@
       "const": "ltminigames:phase_progress_bar"
     },
     "entries": {
+      "$comment": "TOD0 - ?????",
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
           "period": {
-            "type": "array",
-            "items": {
-              "oneOf": [
-                {
+            "anyOf": [
+              {
+                "type": "object",
+                "items": {
                   "type": "string"
-                },
-                {
-                  "type": "integer"
                 }
-              ]
-            }
+              },
+              {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "integer"
+                    }
+                  ]
+                }
+              }
+            ]
           },
           "text": {
             "$ref": "./../../properties/text.json"

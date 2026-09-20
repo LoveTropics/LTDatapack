@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:trash_collection"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:trash_collection"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ]
+    }
+  ]
+}
+

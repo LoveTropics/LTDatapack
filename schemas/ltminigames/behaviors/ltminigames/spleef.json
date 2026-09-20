@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:spleef"
+    },
+    "forced_progression_seconds": {
+      "type": "integer"
+    },
+    "floors": {
+      "type": "integer"
+    },
+    "floor_material": {
+      "type": "string"
+    },
+    "floor_breaking_material": {
+      "type": "string"
+    },
+    "flavor_text": {
+      "$comment": "TODO - ?",
+      "type": "string"
+    },
+    "break_count": {
+      "type": "integer"
+    },
+    "break_interval": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

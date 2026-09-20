@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:place_trash"
+    },
+    "positionData": {
+      "type": "string"
+    },
+    "centerY": {
+      "type": "integer"
+    },
+    "range": {
+      "type": "integer"
+    },
+    "density": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

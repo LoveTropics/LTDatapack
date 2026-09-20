@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$comment": "TODO - Move Effect / LIst them all",
+  "properties": {
+    "type": {
+      "const": "ltminigames:give_effect"
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "seconds": {
+            "oneOf": [
+              {
+                "type": "string",
+                "const": "infinite"
+              },
+              {
+                "type": "integer",
+                "maximum": 999999,
+                "minimum": 1
+              }
+            ]
+          },
+          "amplifier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 255
+          },
+          "particles": {
+            "type": "boolean"
+          },
+          "show_icon": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

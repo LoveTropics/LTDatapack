@@ -8,7 +8,7 @@
     "role": {
       "$ref": "../../properties/game_roles.json"
     },
-    "allow_region": {
+    "allow_rejoin": {
       "type": "boolean",
       "default": true
     },

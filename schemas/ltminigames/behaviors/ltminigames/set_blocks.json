@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:set_blocks"
+    },
+    "replace": {
+      "type": "object",
+      "$comment": "TODO",
+      "properties": {
+        "blocks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "set": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
+

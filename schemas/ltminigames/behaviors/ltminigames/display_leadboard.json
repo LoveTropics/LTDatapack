@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:display_leaderboard"
+    },
+    "statistic": {
+      "type": "string"
+    },
+    "order": {
+      "type": "string"
+    },
+    "length": {
+      "type": "integer"
+    },
+    "header": {
+      "$ref": "../../properties/text.json"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}
