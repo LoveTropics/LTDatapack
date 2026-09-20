@@ -57,5 +57,6 @@
   },
   "lt:river_race/integrations/donations",
   "lt:river_race/end",
-  "ltminigames:rewards_from_microgame"
+  "ltminigames:rewards_from_microgame",
+  "lt:river_race/loot"
 ]

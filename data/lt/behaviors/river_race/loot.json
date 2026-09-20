@@ -1,0 +1,42 @@
+{
+  "type": "ltminigames:modify_loot_tables",
+  "replace": {
+    "ltextras:blocks/black_concrete_powder_fake": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "ltextras:blocks/moss_block_slab": {
+      "id": "minecraft:dirt"
+    },
+    "tropicraft:blocks/mud": {
+      "id": "minecraft:dirt"
+    },
+    "tropicraft:blocks/chunk": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "tropicraft:blocks/chunk_slab": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "tropicraft:blocks/black_mangrove_roots": {
+      "id": "minecraft:mangrove_log"
+    },
+    "tropicraft:blocks/black_mangrove_wood": {
+      "id": "minecraft:mangrove_log"
+    },
+    "tropicraft:blocks/red_mangrove_wood": {
+      "id": "minecraft:mangrove_log"
+    },
+    "tropicraft:blocks/light_mangrove_roots": {
+      "id": "minecraft:mangrove_log"
+    },
+    "tropicraft:blocks/jocote_log": {
+      "id": "minecraft:mangrove_log"
+    },
+    "tropicraft:blocks/mangrove_slab": {
+      "id": "minecraft:mangrove_planks"
+    },
+    "tropicraft:blocks/mangrove_stairs": {
+      "id": "minecraft:mangrove_planks",
+      "count": 2
+    }
+  }
+}
