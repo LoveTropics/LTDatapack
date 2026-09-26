@@ -3,13 +3,16 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:delayed"
+      "const": "ltminigames:hit_block_cause_damage"
     },
-    "delay": {
-      "$comment": "Make time better"
+    "team": {
+      "type": "string"
     },
-    "actions": {
-      "$ref": "../../properties/actions.json"
+    "damage": {
+      "type": "integer"
+    },
+    "block_predicate": {
+      "$comment": "TODO - Block"
     }
   },
   "additionalProperties": false,

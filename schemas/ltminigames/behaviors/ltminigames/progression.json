@@ -14,8 +14,15 @@
         "named_points": {
           "type": "object",
           "additionalProperties": {
-            "type": "number"
+            "type": ["number", "string"],
+            "pattern": "^\\$.*"
           }
+        },
+        "channel": {
+          "type": "string"
+        },
+        "start": {
+          "type": "boolean"
         }
       },
       "additionalProperties": false,

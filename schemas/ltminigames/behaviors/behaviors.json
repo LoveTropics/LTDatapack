@@ -2,241 +2,124 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "behaviors.json",
   "$defs": {
-    "behaviors": {
+    "behavior": {
       "oneOf": [
         {
           "$ref": "lt/anything.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/send_message.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/give_reward.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/last_remaining_win_trigger.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/game_finish.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/teams.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/sum_statistic.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/position_players.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/game_end_effects.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/time_survived_tracker.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/setup_teams.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/disable_hunger.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/cancel_player_damage.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_game_types.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/join_late_with_role.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_game_rules.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_difficulty.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/immediate_respawn.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/mcsr/player_worlds.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/bingo.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/custom_command.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/phase_triggers/start.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/clear_effects.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/extinguish_player.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/reset_hunger.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_max_health.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/close_game.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/team_chat.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_role.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_time_speed.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/progression.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_wave_spawner.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_sned_mobs_to_ememy.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_currency.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/remove_from_block.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_client_state.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_give_plants.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_currency_win_trigger.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/bb_in_game_scoreboard.json"
+          "$ref": "../behaviors/ltminigames/add_attribute_modifier.json"
         },
         {
           "$ref": "../behaviors/ltminigames/add_equipment.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/update_word_boxes_in_world.json"
+          "$ref": "../behaviors/ltminigames/add_weather.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/disable_throwing_items.json"
+          "$ref": "../behaviors/ltminigames/aging_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/ddr_showdown.json"
+          "$ref": "../behaviors/ltminigames/apply_client_state.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/connect_four.json"
+          "$ref": "../behaviors/ltminigames/barrier_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/events/game_over.json"
+          "$ref": "../behaviors/ltminigames/bb_in_game_scoreboard.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/play_sound.json"
+          "$ref": "../behaviors/ltminigames/bb_tutorial.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/countdown_effects.json"
+          "$ref": "../behaviors/ltminigames/berries_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/scheduled_actions.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/show_title.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/end_game.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/phase_progresss_bar.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_statistic.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/score_mob_in_goal.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/points_sidebar.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/place_by_statistic.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_client_state.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/scale_explosion_knockback.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/delayed.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/statistic_overlay.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/phase_triggers/stop.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/run_commands.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/while_in_region.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_blocks.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/events.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/give_effect.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/force_load_region.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/spleef.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/set_xp_to_statistic.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/trash_collection.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/place_trash.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/display_leadboard.json"
+          "$ref": "../behaviors/ltminigames/bingo.json"
         },
         {
           "$ref": "../behaviors/ltminigames/bingo/add_title.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/item_picked_up.json"
-        },
-        {
           "$ref": "../behaviors/ltminigames/bingo/complete_tile.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/randomize.json"
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_assign_plots.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_client_state.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_currency.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_currency_win_trigger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_give_plants.json"
         },
         {
           "$ref": "../behaviors/ltminigames/biodiversity_blitz_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/place_single_plant.json"
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_plant_item.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_sned_mobs_to_ememy.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/biodiversity_blitz_wave_spawner.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/block_party.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/cancel_player_damage.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/clear_effects.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/close_game.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/columns_of_chaos.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/connect_four.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/countdown_action.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/countdown_effects.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/custom_command.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/ddr_showdown.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/delayed.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/disable_hunger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/disable_throwing_items.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/disguise_as_player_box.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/display_leadboard.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/donation_package.json"
         },
         {
           "$ref": "../behaviors/ltminigames/drop_plant_item.json"
@@ -245,88 +128,271 @@
           "$ref": "../behaviors/ltminigames/drop_tool_table.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/plant_health.json"
+          "$ref": "../behaviors/ltminigames/effect_adding_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/aging_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_plant_item.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/donation_package.json"
+          "$ref": "../behaviors/ltminigames/end_game.json"
         },
         {
           "$ref": "../behaviors/ltminigames/equalize_currency.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/countdown_action.json"
+          "$ref": "../behaviors/ltminigames/events.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/spawn_suprise_wave.json"
+          "$ref": "../behaviors/ltminigames/events/game_over.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/place_double_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/effect_adding_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/lightning_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/watery_plant.json"
+          "$ref": "../behaviors/ltminigames/extinguish_player.json"
         },
         {
           "$ref": "../behaviors/ltminigames/flaming_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/scare_trap_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/mushroom_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/proximity_bomb_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/barrier_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/berries_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/place_feature_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/grow_plant.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/pianguas.json"
-        },
-        {
-          "$ref": "../behaviors/ltminigames/idle_drop_time.json"
+          "$ref": "../behaviors/ltminigames/force_load_region.json"
         },
         {
           "$ref": "../behaviors/ltminigames/fruit_drop_entity.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/game_end_effects.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/game_finish.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/give_effect.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/give_reward.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/grow_coconuts.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/bb_tutorial.json"
+          "$ref": "../behaviors/ltminigames/grow_plant.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/biodiversity_blitz_assign_plots.json"
+          "$ref": "../behaviors/ltminigames/hide_players.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/top_player_trigger.json"
+          "$ref": "../behaviors/ltminigames/hit_block_cause_damage.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/idle_drop_time.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/immediate_respawn.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/item_picked_up.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/join_late_with_role.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/kill_in_void.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/kills_tracker.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/last_remaining_win_trigger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/lightning_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/player_worlds.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mushroom_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/on_death.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/on_spawn.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/phase_progresss_bar.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/phase_triggers/start.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/phase_triggers/stop.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/pianguas.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_by_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_double_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_feature_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_single_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/place_trash.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/plant_health.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/play_sound.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/points_sidebar.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/position_players.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/prevent_block_interaction.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/progression.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/proximity_bomb_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/randomize.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/remove_client_state.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/remove_from_block.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/reset_hunger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/run_commands.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/scale_explosion_knockback.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/scare_trap_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/scheduled_actions.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/score_mob_in_goal.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/send_message.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_blocks.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_client_state.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_difficulty.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_entity_highlight_color.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_game_rules.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_game_types.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_glowing.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_max_health.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_role.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_tab_list_order.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_time_speed.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_winner_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/set_xp_to_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/setup_integrations.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/setup_teams.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/show_title.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spawn_fireworks.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spawn_suprise_wave.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spectator_chase.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/spleef.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/statistic_boss_bar.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/statistic_overlay.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/sum_statistic.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/team_chat.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/team_dispatch.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/teams.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/time_survived_tracker.json"
         },
         {
           "$ref": "../behaviors/ltminigames/tips_and_tricks.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/add_weather.json"
+          "$ref": "../behaviors/ltminigames/top_player_trigger.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/trash_collection.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/update_word_boxes_in_world.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/watery_plant.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/while_in_region.json"
         }
       ]
     }
@@ -335,11 +401,11 @@
     {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/behaviors"
+        "$ref": "#/$defs/behavior"
       }
     },
     {
-      "$ref": "#/$defs/behaviors"
+      "$ref": "#/$defs/behavior"
     }
   ]
 }

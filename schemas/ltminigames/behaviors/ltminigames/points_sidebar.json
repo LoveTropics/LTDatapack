@@ -19,6 +19,9 @@
     },
     "header": {
       "$ref": "../../properties/text.json"
+    },
+    "statistic_holder": {
+      "type": "string"
     }
   },
   "additionalProperties": false,

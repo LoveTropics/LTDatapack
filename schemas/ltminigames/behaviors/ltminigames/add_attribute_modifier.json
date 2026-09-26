@@ -3,34 +3,27 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:countdown_effects"
+      "const": "ltminigames:add_attribute_modifier"
     },
-    "target": {
+    "attribute": {
+      "$comment": "TODO - ENUM",
       "type": "string"
     },
-    "sound": {
-      "type": "string"
-    },
-    "seconds": {
-      "type": "integer"
-    },
-    "pitch": {
+    "modifier": {
       "type": "object",
       "properties": {
-        "start": {
+        "id": {
+          "type": "string"
+        },
+        "amount": {
           "type": "number"
         },
-        "end": {
-          "type": "number"
+        "operation": {
+          "type": "string",
+          "enum": ["add_value"]
         }
       },
       "additionalProperties": false
-    },
-    "channel": {
-      "type": "string"
-    },
-    "show_title": {
-      "type": "boolean"
     }
   },
   "additionalProperties": false,
@@ -38,4 +31,3 @@
     "type"
   ]
 }
-

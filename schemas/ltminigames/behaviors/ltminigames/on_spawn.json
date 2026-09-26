@@ -3,10 +3,10 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:delayed"
+      "const": "ltminigames:on_spawn"
     },
-    "delay": {
-      "$comment": "Make time better"
+    "role": {
+      "$ref": "../../properties/game_roles.json"
     },
     "actions": {
       "$ref": "../../properties/actions.json"

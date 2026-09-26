@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:delayed"
+      "const": "ltminigames:set_entity_highlight_color"
     },
-    "delay": {
-      "$comment": "Make time better"
-    },
-    "actions": {
-      "$ref": "../../properties/actions.json"
+    "color": {
+      "type": ["integer", "array"],
+      "items": {
+        "type": "integer"
+      }
     }
   },
   "additionalProperties": false,

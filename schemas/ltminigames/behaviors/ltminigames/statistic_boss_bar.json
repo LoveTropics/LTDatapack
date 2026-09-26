@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:statistic_boss_bar"
+    },
+    "statistic": {
+      "type": "string"
+    },
+    "max_value": {
+      "type": "integer"
+    },
+    "reversed": {
+      "type": "boolean"
+    },
+    "title": {
+      "$ref": "../../properties/text.json"
+    },
+    "color": {
+      "$comment": "TODO - ENUM COLORS",
+      "type": "string"
+    },
+    "style": {
+      "anyOf": [
+        {
+          "const": "progress"
+        },
+        {
+          "const": "notched_10"
+        },
+        {
+          "const": "notched_12"
+        },
+        {
+          "const": "notched_20"
+        }
+      ]
+    },
+    "value_style": {
+      "type": "object",
+      "properties": {
+        "color": {
+          "$comment": "TODO - Color ENUM",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "global": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

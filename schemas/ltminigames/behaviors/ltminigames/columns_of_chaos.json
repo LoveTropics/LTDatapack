@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:columns_of_chaos"
+    },
+    "pillar_height": {
+      "type": "integer"
+    },
+    "item_interval": {
+      "type": "integer"
+    },
+    "excluded_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "floor_region": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

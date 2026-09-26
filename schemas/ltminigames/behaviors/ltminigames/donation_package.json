@@ -4,7 +4,8 @@
   "$comment": "TODO - Explain This one good",
   "properties": {
     "type": {
-      "const": "ltminigames:donation_package"
+      "const": "ltminigames:donation_package",
+      "description": "Trigger Actions From Donations"
     },
     "id": {
       "type": "string"
@@ -57,6 +58,9 @@
           "anyOf": [
             {
               "const": "negative"
+            },
+            {
+              "const": "positive"
             }
           ]
         },

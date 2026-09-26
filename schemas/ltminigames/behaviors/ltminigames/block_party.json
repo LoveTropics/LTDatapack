@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:block_party"
+    },
+    "floor": {
+      "type": "string"
+    },
+    "blocks": {
+      "$comment": "TODO - BLOCKS"
+    },
+    "quad_size": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "max_time": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "time_decay_rounds": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "knockback_after_round": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "interval": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    },
+    "max_lives": {
+      "type": ["integer", "string"],
+      "pattern": "^\\$.*"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

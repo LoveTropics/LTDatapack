@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:on_death"
+    },
+    "killed_action": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "$ref": "../../properties/target.json"
+        },
+        "actions": {
+          "$ref": "../../properties/actions.json"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

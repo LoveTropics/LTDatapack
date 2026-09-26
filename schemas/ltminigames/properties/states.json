@@ -1,8 +1,64 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "string",
-  "enum": [
-    "ltminigames:disable_bobbing",
-    "ltminigames:disable_recipe_book"
+  "$comment": "MAKE BETTEr",
+  "oneOf": [
+    {
+      "type": "string",
+      "enum": [
+        "ltminigames:disable_bobbing",
+        "ltminigames:hide_name_tags",
+        "ltminigames:disable_player_movement"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ltminigames:disable_bobbing",
+            "ltminigames:hide_name_tags",
+            "ltminigames:disable_player_movement"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:disable_recipe_book"
+        },
+        "message": {
+          "$ref": "../properties/text.json"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:fog"
+        },
+        "red": {
+          "type": "number"
+        },
+        "green": {
+          "type": "number"
+        },
+        "blue": {
+          "type": "number"
+        },
+        "near_distance": {
+          "type": "number"
+        },
+        "far_distance": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
   ]
 }

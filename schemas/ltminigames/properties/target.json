@@ -1,6 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "string",
   "oneOf": [
     {
       "type": "string",
@@ -9,6 +8,19 @@
         "all_players",
         "participants"
       ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["specific_team"]
+        },
+        "team": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
     }
   ]
 }

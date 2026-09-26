@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "$comment": "TODO - ??",
   "properties": {
     "type": {
       "const": "ltminigames:phase_progress_bar"
@@ -46,10 +47,16 @@
           },
           "include_time": {
             "type": "boolean"
-          }
-        },
-        "additionalProperties": false
+          },
+          "template": {
+            "$ref": "../../properties/text.json"
+          },
+          "additionalProperties": false
+        }
       }
+    },
+    "channel": {
+      "type": "string"
     }
   },
   "additionalProperties": false,

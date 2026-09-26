@@ -3,13 +3,10 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:delayed"
+      "const": "ltminigames:set_tab_list_order"
     },
-    "delay": {
-      "$comment": "Make time better"
-    },
-    "actions": {
-      "$ref": "../../properties/actions.json"
+    "order": {
+      "type": "integer"
     }
   },
   "additionalProperties": false,

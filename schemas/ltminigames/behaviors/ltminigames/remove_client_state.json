@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:set_client_state"
+      "const": "ltminigames:remove_client_state"
     },
     "state": {
       "$ref": "../../properties/states.json"

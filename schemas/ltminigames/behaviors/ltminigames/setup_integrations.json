@@ -1,15 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "$comment": "Understand Better",
   "properties": {
     "type": {
-      "const": "ltminigames:delayed"
+      "const": "ltminigames:setup_integrations"
     },
-    "delay": {
-      "$comment": "Make time better"
+    "backend_id": {
+      "type": "string"
     },
-    "actions": {
-      "$ref": "../../properties/actions.json"
+    "statistics_key": {
+      "type": "string"
     }
   },
   "additionalProperties": false,

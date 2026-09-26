@@ -14,8 +14,14 @@
     "feet": {
       "$comment": "TODO - Other Slots"
     },
+    "chest": {
+      "$comment": "TODO - Other Slots"
+    },
     "color_by_team": {
       "type": "boolean"
+    },
+    "hotbar_team_items": {
+      "$comment": "TODO"
     }
   },
   "additionalProperties": false,

@@ -1,10 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "string",
-  "enum": [
-    "spectator",
-    "creative",
-    "adventure",
-    "survival"
+  "oneOf": [
+    {
+      "enum": [
+        "spectator",
+        "creative",
+        "adventure",
+        "survival"
+      ]
+    },
+    {
+      "type": "string",
+      "pattern": "^\\$.*"
+    }
   ]
 }

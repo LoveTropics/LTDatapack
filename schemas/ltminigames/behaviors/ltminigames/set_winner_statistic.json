@@ -3,18 +3,16 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:last_remaining_win_trigger"
+      "const": "ltminigames:set_winner_statistic"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:last_remaining_win_trigger"
+          "const": "ltminigames:set_winner_statistic"
         },
-        "last_team": {
-          "type": ["boolean", "string"],
-          "pattern": "^\\$.*",
-          "default": false
+        "knockback": {
+          "type": "boolean"
         }
       },
       "additionalProperties": false,

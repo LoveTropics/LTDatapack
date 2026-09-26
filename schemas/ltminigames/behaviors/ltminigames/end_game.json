@@ -10,6 +10,9 @@
       "properties": {
         "type": {
           "const": "ltminigames:end_game"
+        },
+        "winning_team": {
+          "type": "string"
         }
       },
       "additionalProperties": false,

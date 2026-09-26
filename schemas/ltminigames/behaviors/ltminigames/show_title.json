@@ -10,6 +10,18 @@
     },
     "stay": {
       "type": "number"
+    },
+    "message": {
+      "$ref": "../../properties/text.json"
+    },
+    "subtitle": {
+      "$ref": "../../properties/text.json"
+    },
+    "fade_in": {
+      "type": "integer"
+    },
+    "fade_out": {
+      "type": "integer"
     }
   },
   "additionalProperties": false,

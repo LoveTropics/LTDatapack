@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:hide_players"
+    },
+    "roles_to_hide_by_role": {
+      "type": "object",
+      "properties": {
+        "spectator": {
+          "type": "array",
+          "items": {
+            "$ref": "../../properties/game_roles.json"
+          }
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "../../properties/game_roles.json"
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type"
+  ]
+}

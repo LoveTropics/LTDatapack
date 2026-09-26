@@ -3,15 +3,11 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:scheduled_actions"
+      "const": "ltminigames:team_dispatch"
     },
-    "target": {
-      "$ref": "../../properties/target.json"
-    },
-    "channel": {
-      "type": "string"
-    },
-    "actions": {
+    "by_team": {
+      "type": "object",
+      "examples": ["seekers", "hiders"],
       "additionalProperties": {
         "$ref": "../../properties/actions.json"
       }
@@ -22,4 +18,3 @@
     "type"
   ]
 }
-

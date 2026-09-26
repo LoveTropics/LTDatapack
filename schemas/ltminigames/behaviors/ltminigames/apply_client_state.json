@@ -1,9 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "$comment": "Apply / Set / Remove??",
   "properties": {
     "type": {
-      "const": "ltminigames:set_client_state"
+      "const": "ltminigames:apply_client_state"
     },
     "state": {
       "$ref": "../../properties/states.json"

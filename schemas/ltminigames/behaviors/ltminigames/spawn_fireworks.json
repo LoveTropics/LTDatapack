@@ -3,18 +3,13 @@
   "oneOf": [
     {
       "type": "string",
-      "const": "ltminigames:last_remaining_win_trigger"
+      "const": "ltminigames:spawn_fireworks"
     },
     {
       "type": "object",
       "properties": {
         "type": {
-          "const": "ltminigames:last_remaining_win_trigger"
-        },
-        "last_team": {
-          "type": ["boolean", "string"],
-          "pattern": "^\\$.*",
-          "default": false
+          "const": "ltminigames:spawn_fireworks"
         }
       },
       "additionalProperties": false,
@@ -24,3 +19,4 @@
     }
   ]
 }
+

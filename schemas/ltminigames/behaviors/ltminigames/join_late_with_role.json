@@ -9,7 +9,8 @@
       "$ref": "../../properties/game_roles.json"
     },
     "allow_rejoin": {
-      "type": "boolean",
+      "type": ["boolean", "string"],
+      "pattern": "^\\$.*",
       "default": true
     },
     "additionalProperties": false
