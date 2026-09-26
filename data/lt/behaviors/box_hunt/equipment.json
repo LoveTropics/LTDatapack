@@ -56,7 +56,11 @@
                 "components": {
                   "item_name": "Box Finder",
                   "ltextras:undroppable": {},
-                  "minecraft:can_break": {"blocks": ["ltextras:word_box"]}
+                  "minecraft:can_break": {
+                    "blocks": [
+                      "ltextras:word_box"
+                    ]
+                  }
                 }
               }
             }
