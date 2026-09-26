@@ -21,7 +21,7 @@
       "type": "ltminigames:spawn_tornado",
       "tornado": {
         "entity_spawn_settings": {
-          "type": "tropicraft:hammerhead"
+          "entity": "tropicraft:hammerhead"
         }
       }
     },
