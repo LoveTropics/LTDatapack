@@ -19,7 +19,11 @@
   "receive_actions": [
     {
       "type": "ltminigames:spawn_tornado",
-      "sharknado": true
+      "tornado": {
+        "entity_spawn_settings": {
+          "type": "tropicraft:hammerhead"
+        }
+      }
     },
     {
       "type": "ltminigames:show_title",
