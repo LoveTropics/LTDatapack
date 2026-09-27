@@ -547,6 +547,9 @@
         "title": {
           "text": "Craft a cake"
         },
+        "clue": {
+          "text": "Some say it is a lie"
+        },
         "reward": 20,
         "trigger": [
           {
@@ -569,6 +572,9 @@
         "title": {
           "text": "Craft a golden apple"
         },
+        "clue": {
+          "text": "A forbidden fruit, gilded"
+        },
         "reward": 25,
         "trigger": [
           {
@@ -590,6 +596,9 @@
         },
         "title": {
           "text": "Get a diamond"
+        },
+        "clue": {
+          "text": "The gem that hides near the bottom of the world"
         },
         "reward": 20,
         "trigger": [
@@ -679,6 +688,9 @@
         "title": {
           "text": "Get nether wart"
         },
+        "clue": {
+          "text": "The fungus of hell"
+        },
         "reward": 25,
         "trigger": [
           {
@@ -723,6 +735,9 @@
         "title": {
           "text": "Get a blaze rod"
         },
+        "clue": {
+          "text": "What keeps the fortress guardians burning"
+        },
         "reward": 30,
         "trigger": [
           {
@@ -744,6 +759,9 @@
         },
         "title": {
           "text": "Get a ghast tear"
+        },
+        "clue": {
+          "text": "The sorrow of a floating giant"
         },
         "reward": 35,
         "trigger": [
