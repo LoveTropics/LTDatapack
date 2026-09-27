@@ -40,7 +40,11 @@
       "world": "lt:mcsr/world"
     },
     "lt:mcsr/bingo",
-    "ltminigames:mcsr/finish",
+    {
+      "type": "ltminigames:mcsr/finish",
+      "dragon_kill": true,
+      "full_bnigo_card": true
+    },
     {
       "type": "ltminigames:progression",
       "named_points": {
