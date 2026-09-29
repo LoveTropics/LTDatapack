@@ -62,13 +62,13 @@
       "winner_rotation": -135,
       "teleporters": [
         {
-          "out": "golf_hole_6_white_in",
-          "in": "golf_hole_6_white_out",
+          "out": "golf_hole_6_white_out",
+          "in": "golf_hole_6_white_in",
           "needs_stop": true
         },
         {
-          "out": "golf_hole_6_pink_in",
-          "in": "golf_hole_6_pink_out",
+          "out": "golf_hole_6_pink_out",
+          "in": "golf_hole_6_pink_in",
           "needs_stop": true
         }
       ]
@@ -84,23 +84,23 @@
       "winner_rotation": 45,
       "teleporters": [
         {
-          "out": "golf_hole_7_white_in",
-          "in": "golf_hole_7_white_out",
+          "out": "golf_hole_7_white_out",
+          "in": "golf_hole_7_white_in",
           "needs_stop": true
         },
         {
-          "out": "golf_hole_7_magenta_in",
-          "in": "golf_hole_7_magenta_out",
+          "out": "golf_hole_7_magenta_out",
+          "in": "golf_hole_7_magenta_in",
           "needs_stop": true
         },
         {
-          "out": "golf_hole_7_orange_in",
-          "in": "golf_hole_7_orange_out",
+          "out": "golf_hole_7_orange_out",
+          "in": "golf_hole_7_orange_in",
           "needs_stop": true
         },
         {
-          "out": "golf_hole_7_cyan_in",
-          "in": "golf_hole_7_cyan_out",
+          "out": "golf_hole_7_cyan_out",
+          "in": "golf_hole_7_cyan_in",
           "needs_stop": true
         }
       ]
@@ -126,13 +126,13 @@
       "winner_rotation": 45,
       "teleporters": [
         {
-          "out": "golf_hole_9_white_in",
-          "in": "golf_hole_9_white_out",
+          "out": "golf_hole_9_white_out",
+          "in": "golf_hole_9_white_in",
           "needs_stop": true
         },
         {
-          "out": "golf_hole_9_pink_in",
-          "in": "golf_hole_9_pink_out",
+          "out": "golf_hole_9_pink_out",
+          "in": "golf_hole_9_pink_in",
           "needs_stop": true
         }
       ]
