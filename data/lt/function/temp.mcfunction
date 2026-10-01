@@ -1,0 +1,11 @@
+map import lt:games/mysty/arenas/island
+map import lt:games/mysty/arenas/redstone
+map import lt:games/mysty/arenas/waves
+map import lt:games/mysty/racing/iceboat
+map import lt:games/mysty/racing/trident
+map import lt:games/mysty/spleef/flat
+map import lt:games/mysty/spleef/normal
+map import lt:games/mysty/spleef/tree
+map import lt:games/mysty/block_party
+map import lt:games/mysty/build_battle
+map import lt:games/mysty/lobby

@@ -8,7 +8,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:games/mysty/pillars_of_wealth"
+    "load_from": "lt:games/pillars_of_wealth"
   },
   "waiting": {
     "map": {

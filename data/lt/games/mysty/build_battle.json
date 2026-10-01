@@ -8,9 +8,8 @@
   "maximum_participants": 64,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:games/mysty/mysty_build_1"
+    "load_from": "lt:games/mysty/build_battle"
   },
-
   "behaviors": [
     {
       "type": "lt:common/playing",
