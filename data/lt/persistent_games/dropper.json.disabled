@@ -1,0 +1,26 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:game_region",
+      "region": "dropper_zone"
+    },
+    {
+      "type": "ltminigames:dropper",
+      "id": "dropper",
+      "win_blocks": [
+        "minecraft:red_wool"
+      ],
+      "first_win_reward": {
+        "item": {
+          "id": "ltextras:tropicoin",
+          "count": 20
+        },
+        "collectable": "lt:hat/magma_cube"
+      },
+      "win_reward": {
+        "item": "ltextras:tropicoin"
+      }
+    }
+  ]
+}
