@@ -53,17 +53,8 @@ scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
 scoreboard objectives add collectible.rocket_boots.time dummy
 
 # Crab Golf
-function lt:world_games/minigolf/core/on_second
 team add anticrabcollision
 team modify anticrabcollision collisionRule never
-scoreboard objectives add golf.data dummy
-scoreboard objectives add golf.events dummy
-scoreboard objectives add golf.global dummy
-scoreboard objectives add golf.hits dummy
-scoreboard objectives add golf.timer dummy
-
-# Elevator
-scoreboard objectives add system.elevator dummy
 
 # Party Room
 scoreboard objectives add party_room.items dummy
@@ -74,9 +65,6 @@ scoreboard objectives add world_game.scavenger_hunt.stats dummy
 
 # On Second
 schedule function lt:main/on_second 1s replace
-
-## Wheel Of Doom
-schedule function lt:world_games/wheel_of_doom/on_run 10t replace
 
 #Elytra
 scoreboard objectives add world_game.elytra.tracker dummy

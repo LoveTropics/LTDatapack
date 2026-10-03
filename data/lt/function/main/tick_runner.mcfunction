@@ -3,9 +3,6 @@ function lt:utility/on_tick
 
 execute as @a[tag=!utility.player.joined,tag=!ltminigames.isolated] at @s run function lt:utility/player/first_join
 
-# Runs MiniGolf tick commands
-function lt:game/minigolf/core/on_tick
-
 # ಠ‿↼ - it's offical now 'cause its in the datapack
 execute as @a[tag=awwww] at @s if entity @a[tag=awww,distance=..7] run function lt:utility/uwu/lunosus
 
@@ -31,9 +28,6 @@ execute in tropicraft:tropics run function lt:club/on_tick
 
 # Build Mode Tools
 #execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
-
-# Crab Golf
-function lt:world_games/minigolf/core/on_tick
 
 #Systems
 function lt:systems/on_tick
@@ -65,6 +59,3 @@ function lt:stage/on_tick
 # Forklifts
 #function lt:forklift/on_tick
 
-
-#Turtle Clash (Temp)
-function lt:game/turtle_clash/tick
