@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {Tags:["world_game.hockey.enter"]}

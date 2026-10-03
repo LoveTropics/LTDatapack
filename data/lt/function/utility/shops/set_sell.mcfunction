@@ -1,1 +1,0 @@
-$data modify entity $(entity) Offers.Recipes[$(slot)].sell set from entity @s Inventory[0]

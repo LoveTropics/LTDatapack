@@ -48,10 +48,6 @@ scoreboard objectives add stats.disguise dummy
 #Reset player cloning cooldown
 function lt:diguises/clone/stages/stage_reset
 
-#In World 'events'
-scoreboard objectives add events.mouse_party dummy
-scoreboard objectives add events.parrot_party dummy
-
 # Collectible Mechanic Scoreboards
 scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
 scoreboard objectives add collectible.rocket_boots.time dummy
@@ -68,24 +64,6 @@ scoreboard objectives add golf.timer dummy
 
 # Elevator
 scoreboard objectives add system.elevator dummy
-
-# Dropper
-scoreboard objectives add world_game.dropper.stats dummy "Dropper Stats"
-scoreboard objectives add world_game.dropper.stats.plays dummy "Dropper Plays"
-scoreboard objectives add world_game.dropper.stats.fails dummy "Dropper Fails"
-scoreboard objectives add world_game.dropper.stats.wins dummy "Dropper Wins"
-team add world_game.dropper
-team modify world_game.dropper collisionRule never
-team modify world_game.dropper seeFriendlyInvisibles true
-
-# Hockey
-scoreboard objectives add game.hockey dummy "Hockey"
-scoreboard objectives add game.hockey_scores dummy "Hockey Scores"
-scoreboard players set WinScore game.hockey 10
-team add hockey.red "Red Hockey Team"
-team add hockey.blue "Blue Hockey Team"
-team modify hockey.red collisionRule always
-team modify hockey.blue collisionRule always
 
 # Party Room
 scoreboard objectives add party_room.items dummy

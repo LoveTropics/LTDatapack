@@ -1,1 +1,0 @@
-$data modify entity $(entity) Offers.Recipes append value {buy:{id:"ltextras:tropicoin",Count:$(cost)},sell:{id:"minecraft:diamond_sword",Count:1b},maxUses:999999,experience:0}

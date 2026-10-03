@@ -29,16 +29,8 @@ execute as @e[tag=game.stt.jelly_bomb] at @s run function lt:game/stt/entity/jel
 execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
 execute in tropicraft:tropics run function lt:club/on_tick
 
-# Dropper
-function lt:world_games/dropper/on_tick
-
 # Build Mode Tools
 #execute in tropicraft:tropics as @a[tag=building,tag=!given_tools,current_world=true] at @s if entity @s[buildmode=true] run function lt:utility/buildmode/give_tools
-
-# Spawn return items system.
-execute in tropicraft:tropics as @a at @s if entity @e[type=marker,tag=utility.return_items_portal,distance=..0.85] run function lt:utility/return_items
-# Particle for above
-execute in tropicraft:tropics positioned 2329.53 131.5 2396.50 run particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0.01 1 force @a[distance=..10]
 
 # Crab Golf
 function lt:world_games/minigolf/core/on_tick
@@ -46,14 +38,8 @@ function lt:world_games/minigolf/core/on_tick
 #Systems
 function lt:systems/on_tick
 
-
-# Hockey
-function lt:world_games/hockey/on_tick
-
-
 # Marker finder
 execute as @e[type=marker] at @s run particle minecraft:portal ~ ~ ~ 0 0 0 0 1 force @a[tag=ilikemarkers,distance=0..15]
-
 
 #Random values
 execute store result score Banner main.random run random value 1..6
