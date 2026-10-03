@@ -53,7 +53,7 @@
         ]
       },
       "minecraft:dyed_color": 1481884,
-      "ltextras:walk_animation": "hovering"
+      "ltextras:model_modifier": "ltextras:hovering"
     }
   }
 }
