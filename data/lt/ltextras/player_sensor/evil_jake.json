@@ -1,0 +1,21 @@
+{
+  "players": ["4ad8f82b-0572-4c1e-98d1-9db29482d235"],
+  "appearance": {
+    "decorations": [
+      {
+        "face_anchor": [0.25, 0.5],
+        "sprite": "ltextras:evil_jake_marker_left",
+        "fixed_size": false,
+        "size": [0.4, 0.8],
+        "offset": [-0.3, -0.4]
+      },
+      {
+        "face_anchor": [0.75, 0.5],
+        "sprite": "ltextras:evil_jake_marker_right",
+        "fixed_size": false,
+        "size": [0.4, 0.8],
+        "offset": [-0.1, -0.4]
+      }
+    ]
+  }
+}

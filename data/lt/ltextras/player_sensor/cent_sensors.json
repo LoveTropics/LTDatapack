@@ -1,0 +1,14 @@
+{
+  "tag": "team.cents",
+  "appearance": {
+    "marker_box_color": 13004561,
+    "decorations": [
+      {
+        "sprite": "ltextras:cents_marker",
+        "fixed_size": true,
+        "size": [112, 48],
+        "offset": [-56, -48]
+      }
+    ]
+  }
+}

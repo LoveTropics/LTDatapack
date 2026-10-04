@@ -33,17 +33,7 @@
           "minecraft:unbreakable"
         ]
       },
-      "ltextras:player_sensor": {
-        "tag": "team.no_cents",
-        "appearance": {
-          "color": 2779872,
-          "face_decoration": {
-            "location": "ltextras:no_cents_marker",
-            "width": 112,
-            "height": 48
-          }
-        }
-      }
+      "ltextras:player_sensor": "lt:nonsense_sensors"
     }
   }
 }

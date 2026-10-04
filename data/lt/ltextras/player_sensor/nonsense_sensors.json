@@ -1,0 +1,14 @@
+{
+  "tag": "team.no_cents",
+  "appearance": {
+    "marker_box_color": 2779872,
+    "decorations": [
+      {
+        "sprite": "ltextras:no_cents_marker",
+        "fixed_size": true,
+        "size": [112, 48],
+        "offset": [-56, -48]
+      }
+    ]
+  }
+}

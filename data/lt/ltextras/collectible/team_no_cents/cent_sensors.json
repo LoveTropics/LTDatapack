@@ -34,17 +34,7 @@
           "minecraft:trim"
         ]
       },
-      "ltextras:player_sensor": {
-        "tag": "team.cents",
-        "appearance": {
-          "color": 13004561,
-          "face_decoration": {
-            "location": "ltextras:cents_marker",
-            "width": 112,
-            "height": 48
-          }
-        }
-      }
+      "ltextras:player_sensor": "lt:cent_sensors"
     }
   }
 }
