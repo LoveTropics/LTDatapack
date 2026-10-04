@@ -7,7 +7,17 @@
         "type": "ltminigames:set_disguise",
         "entity": {
           "id": "dummyplayers:dummy_player",
-          "profile": "Mozart",
+          "profile": {
+            "id": "1847d13d-7b5d-442b-b351-c708c2402b62",
+            "name": "Mozart",
+            "properties": [
+              {
+                "name": "textures",
+                "signature": "eCCmwvn6mKV5N1tOHgscg4cHVCiIy/OnzkXP4KwsUuv4LsotTBmzGufRlRTp1I5CNBWjWXRw7dggRemUPjfn/gzOGv+zNBgf6C+uOlK/L7G7rU5MdKccdPN/CeuJQ73gfMuAet3za5bhyMldpiEoLt+4TxOiQZCw6mMrWL0LpCtYMrzYIIrPgenV0LmOEc3RsKTKHmNEci9YPDpAObkIpwGShg0SAxz7aYwy4s8I85Wsj9yrki/p39Wx6bqulwwIZFPJAD58fR0pAnfgnN8e1gywwNBfrahFBxg/RqAlegOb4HfnHja8gPvglbhPaRiR+bLPKPIRKLEJU8Y6QyQUuUTxE++NZ4H921XzEDP1IClI/upuSWf9hdeN6Xo3vwOP7ajo6QPSz3u+968l6Fab4flSdwC5wOiTmuLHxADWl5WVwlK73SIuLSI93xySfKClD06qgmBz7vakLpDf2PPnjWFtxu+6d4bvt8qwhvimNUXnNPHzRzGEhivvJwUlvtIir56dDlu0s7/hbaw3EpkZFpJ0kQDDdQDavgdzKlCvFVN8U5cgXXpexAY3m4pmrM0cu/Jx2K4HUDXkSpzmC3cZbUZjesrBv3FN4NxDx22Mp6aUVlvt/WHd9QZtUxUQAoQmg7zcRMZSRGkdbnYwHjsyY81tJN/iOkJZ5+qbrKUZXaA=",
+                "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTE0MzczNDUxMSwKICAicHJvZmlsZUlkIiA6ICIxODQ3ZDEzZDdiNWQ0NDJiYjM1MWM3MDhjMjQwMmI2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3phcnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNmOTkxNjlmNWU3NmRjZmQ2YmE3NWNhODRjOGE3ODZjMTY5ODFiZTFhMTg3MWE1MDEwMTk2ZTg3ZWI3MWMwIgogICAgfQogIH0KfQ=="
+              }
+            ]
+          },
           "NoBasePlate": true
         },
         "custom_name": {
