@@ -1,1 +1,0 @@
-mount @s tropicraft:turtle {Invulnerable:true,NoAI:true,DeathLootTable:"minecraft:empty",attributes:[{base:1.65,id:"minecraft:movement_speed"},{id:"minecraft:gravity",base:0}],LongsForTheSky:true,"neoforge:attachments": {"peekaboo:disguise": {disguise:{entity: {collectible: "lt:gegy_potato", id:"ltextras:collectible"}}}}}

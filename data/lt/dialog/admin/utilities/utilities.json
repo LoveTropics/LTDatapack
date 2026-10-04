@@ -49,7 +49,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "function lt:gegy/spawn_fly"
+        "command": "mount lt:gegy_potato"
       }
     }
   ]
