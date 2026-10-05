@@ -1,12 +1,28 @@
 {
   "name": {
-    "translate": "aaaaaa",
-    "color": "green"
+    "translate": "aaaaa_teams",
+    "color": "blue"
+  },
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
   },
   "donation_type": "participant_contributions",
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "minimum_participants": 1,
-  "maximum_participants": 7,
+  "maximum_participants": 5,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/survive_the_tide/survive_the_tide_1",
@@ -17,12 +33,12 @@
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
-      "statistics_key": "survive_the_tide_aaa",
-      "backend_id": "lt:survive_the_tide_1_aaa"
+      "statistics_key": "survive_the_tide_aaaaaaaa",
+      "backend_id": "lt:survive_the_tide_1_aaaaaaaa"
     },
     "lt:survive_the_tide/1/map",
     "lt:survive_the_tide/1/phases",
-    "lt:survive_the_tide/mode/ffa",
+    "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/1/weather",
     "lt:survive_the_tide/common_direct_donation_test"
   ]
