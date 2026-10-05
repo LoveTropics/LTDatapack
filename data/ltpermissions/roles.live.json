@@ -174,7 +174,9 @@
     "overrides": {
       "commands": {
         "game": "deny",
-        "config": "deny"
+        "config": "deny",
+        "admin": "deny",
+        "((?!title|tellraw|give).)*": "deny"
       },
       "command_feedback": false,
       "join_access": {
