@@ -17,7 +17,7 @@
   "maximum_participants": 1000,
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:games/mysty/kottot",
+    "load_from": "lt:games/kottot",
     "dimension_type": "lt:raised_clouds"
   },
   "behaviors": [
