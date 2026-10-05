@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:diamond"
+  },
+  "gives": {
+    "id": "minecraft:cake",
+    "components": {
+      "ltextras:collectible": {
+        "id": "lt:gegy_potato"
+      }
+    }
+  }
+}
