@@ -196,7 +196,8 @@
   "everyone": {
     "overrides": {
       "commands": {
-        ".*": "deny"
+        "game": "deny",
+        "config": "deny"
       },
       "command_feedback": false,
       "join_access": {
