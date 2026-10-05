@@ -168,13 +168,6 @@
   "donator": {},
   "whitelisted": {
     "overrides": {
-      "join_access": {
-        "allows_joining": true
-      }
-    }
-  },
-  "everyone": {
-    "overrides": {
       "commands": {
         "help": "allow",
         "game join": "allow",
@@ -188,15 +181,22 @@
         "msg": "allow",
         "chat": "allow",
         "shout": "allow",
-        "admin": "deny",
-        "config": "deny",
-        "((?!title|tellraw|give).)*": "deny",
         "spawnitems": "allow",
         "tpa": "allow",
         "tpaccept": "allow",
         "warp": "allow",
         "tools": "allow",
         "spawn": "allow"
+      },
+      "join_access": {
+        "allows_joining": true
+      }
+    }
+  },
+  "everyone": {
+    "overrides": {
+      "commands": {
+        ".*": "deny"
       },
       "command_feedback": false,
       "join_access": {
