@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "ltextras:tropicoin",
+    "count": 8
+  },
+  "gives": {
+    "id": "minecraft:cake",
+    "components": {
+      "ltextras:collectible": {
+        "id": "lt:masks/ashen_mask_square_horn"
+      }
+    }
+  },
+  "max_uses": 9999999,
+  "xp": 0
+}
