@@ -4,14 +4,22 @@
     "role": "participant",
     "actions": [
       {
-        "type": "ltminigames:run_commands",
-        "player": [
-          "function lt:world_games/hockey/util/give_stick",
-          "function lt:world_games/hockey/util/set_attributes"
-        ]
-      },
-      {
         "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:wooden_hoe",
+            "components": {
+              "item_name": {
+                "translate": "lt.hockey_stick"
+              },
+              "unbreakable": {},
+              "enchantments": {
+                "knockback": 5
+              },
+              "ltextras:undroppable": {}
+            }
+          }
+        ],
         "head": {
           "id": "minecraft:leather_helmet",
           "components": {
@@ -54,6 +62,33 @@
         "modifier": {
           "id": "lt:crab_hockey",
           "amount": 0.75,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:jump_strength",
+        "modifier": {
+          "id": "lt:no_jump",
+          "amount": -0.15,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "ltextras:friction",
+        "modifier": {
+          "id": "lt:h_extra",
+          "amount": 0.075,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:scale",
+        "modifier": {
+          "id": "lt:scale",
+          "amount": -0.75,
           "operation": "add_value"
         }
       }
