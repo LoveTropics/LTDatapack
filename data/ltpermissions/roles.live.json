@@ -139,6 +139,9 @@
       "command_feedback": true
     }
   },
+  "shield_bypass": {
+    "overrides": {"shield_bypass": true}
+  },
   "event_overlord": {},
   "donator": {
     "includes": ["whitelisted"]
