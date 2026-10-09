@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "ltextras:tropicoin",
+    "count": 24
+  },
+  "gives": {
+    "id": "minecraft:cake",
+    "components": {
+      "ltextras:collectible": {
+        "id": "lt:boots/hover_boots"
+      }
+    }
+  },
+  "max_uses": 9999999,
+  "xp": 0
+}

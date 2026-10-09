@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "lt:boots/big_boot",
+    "lt:boots/boots_of_big_stepping",
+    "lt:boots/high_heals",
+    "lt:boots/hover_boots",
+    "lt:boots/moon_boots",
+    "lt:boots/rocket_boots",
+    "lt:boots/wellies"
+  ]
+}

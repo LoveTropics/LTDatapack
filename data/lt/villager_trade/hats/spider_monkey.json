@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "ltextras:tropicoin",
+    "count": 32
+  },
+  "gives": {
+    "id": "minecraft:cake",
+    "components": {
+      "ltextras:collectible": {
+        "id": "lt:hat/spider_monkey"
+      }
+    }
+  },
+  "max_uses": 9999999,
+  "xp": 0
+}
