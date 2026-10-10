@@ -41,6 +41,10 @@
       "id": "#minecraft:trim_templates",
       "required": false
     },
+    {
+      "id": "ltmaps_editor:edit_region",
+      "required": false
+    },
     "#c:armors",
     "#c:music_discs",
     "#c:tools",
@@ -93,7 +97,6 @@
     "ltminigames:cola",
     "ltminigames:dirty_sand",
     "peekaboo:disguise",
-    "ltminigames:edit_region",
     "ltminigames:lightning_arrow",
     "ltminigames:loot_dispenser",
     "peekaboo:mob_hat",
