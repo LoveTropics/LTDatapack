@@ -1,28 +1,17 @@
 {
   "item": {
-    "id": "minecraft:leather_helmet",
+    "id": "ltextras:huge_glasses",
     "components": {
-      "minecraft:lore": [
-        {
-          "translate": "lt.collectible.huge_glasses.description",
-          "color": "gray",
-          "italic": true
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        }
-      ],
+      "ltextras:collectible_display_info": {
+        "name": "huge_glasses",
+        "description": true,
+        "rarity": "purchased"
+      },
       "minecraft:custom_name": {
         "translate": "lt.collectible.huge_glasses.name",
         "color": "#BFEA00",
         "italic": false
       },
-      "minecraft:item_model": "lt:huge_glasses",
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:attribute_modifiers",
@@ -30,10 +19,6 @@
           "minecraft:dyed_color",
           "minecraft:unbreakable"
         ]
-      },
-      "minecraft:equippable": {
-        "equip_sound": "minecraft:item.armor.equip_leather",
-        "slot": "head"
       }
     }
   }
