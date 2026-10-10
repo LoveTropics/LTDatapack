@@ -9,7 +9,7 @@
       "type": "ltminigames:dropper",
       "id": "dropper",
       "win_blocks": [
-        "minecraft:red_wool"
+        "minecraft:bedrock"
       ],
       "first_win_reward": {
         "item": {
