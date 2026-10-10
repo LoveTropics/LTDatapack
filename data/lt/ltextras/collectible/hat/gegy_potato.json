@@ -22,16 +22,6 @@
           -568531152
         ]
       },
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        }
-      ],
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:enchantments",
@@ -53,6 +43,10 @@
         ],
         "nutrition": 1,
         "saturation": 1
+      },
+      "ltextras:collectible_display_info": {
+        "name": "gegy_potato",
+        "rarity": "secret"
       }
     }
   }

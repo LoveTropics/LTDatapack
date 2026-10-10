@@ -1,0 +1,56 @@
+{
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "tropicraft:shoebill_stork"
+        }
+      },
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.tropicraft.shoebill_stork",
+          "color": "#5ABDA3",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#5ABDA3",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "milestone.5000",
+        "rarity": "milestone",
+        "description": true,
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.tropicraft.shoebill_stork",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

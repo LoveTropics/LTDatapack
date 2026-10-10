@@ -1,1 +1,1 @@
-collectible give @a lt:disguise/armadillo
+collectible give @a lt:milestone/armadillo

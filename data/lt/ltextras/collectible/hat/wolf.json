@@ -17,38 +17,31 @@
           "italic": false
         }
       ],
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.minecraft.wolf",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:entity": {
         "id": "minecraft:wolf"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "wolf",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.minecraft.wolf",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
       }
     }
   }

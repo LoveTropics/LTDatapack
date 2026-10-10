@@ -1,0 +1,24 @@
+{
+  "item": {
+    "id": "tropicraft:dagger",
+    "components": {
+      "minecraft:unbreakable": {},
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.pen_knife.name",
+        "color": "#5ABDA3",
+        "italic": false
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:unbreakable",
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "ltextras:collectible_display_info": {
+        "name": "pen_knife",
+        "rarity": "secret",
+        "description": true
+      }
+    }
+  }
+}

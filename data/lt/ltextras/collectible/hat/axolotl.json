@@ -17,38 +17,31 @@
           "italic": false
         }
       ],
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.minecraft.axolotl",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:entity": {
         "id": "minecraft:axolotl"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "axolotl",
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.minecraft.axolotl",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
       }
     }
   }

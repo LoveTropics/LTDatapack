@@ -5,7 +5,6 @@
     "lt:team_cents/chestplate",
     "lt:team_cents/helmet",
     "lt:team_cents/leggings",
-    "lt:team_cents/team_cents_badge",
-    "lt:team_cents/nonsense_sensors"
+    "lt:team_cents/sensors"
   ]
 }

@@ -17,38 +17,31 @@
           "italic": false
         }
       ],
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.tropicraft.tropibee",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:entity": {
         "id": "tropicraft:tropibee"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "cat",
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.tropicraft.tropibee",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
       }
     }
   }

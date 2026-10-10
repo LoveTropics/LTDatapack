@@ -2,41 +2,6 @@
   "item": {
     "id": "peekaboo:disguise",
     "components": {
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.disguise.tooltip.subtract_player",
-          "color": "blue",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.minecraft.enderman",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:disguise": {
         "entity": {
           "id": "minecraft:enderman"
@@ -65,7 +30,35 @@
           "minecraft:unbreakable"
         ]
       },
-      "minecraft:dyed_color": 10511680
+      "minecraft:dyed_color": 10511680,
+      "ltextras:collectible_display_info": {
+        "name": "enderman",
+        "rarity": "purchased",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.minecraft.enderman",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
     }
   }
 }

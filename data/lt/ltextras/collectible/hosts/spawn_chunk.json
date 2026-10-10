@@ -2,21 +2,6 @@
   "item": {
     "id": "tropicraft:chunk",
     "components": {
-      "minecraft:lore": [
-        {
-          "translate": "lt.collectible.spawn_chunk.description",
-          "color": "gray",
-          "italic": true
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.reward",
-          "color": "white",
-          "italic": false
-        }
-      ],
       "minecraft:unbreakable": {},
       "minecraft:custom_name": {
         "translate": "lt.collectible.spawn_chunk.name",
@@ -38,6 +23,11 @@
         "can_always_eat": true,
         "nutrition": 1,
         "saturation": 1
+      },
+      "ltextras:collectible_display_info": {
+        "name": "spawn_chunk",
+        "rarity": "reward",
+        "description": true
       }
     }
   }

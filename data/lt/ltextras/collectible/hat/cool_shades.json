@@ -2,21 +2,6 @@
   "item": {
     "id": "tropicraft:cool_shades",
     "components": {
-      "minecraft:lore": [
-        {
-          "translate": "lt.collectible.cool_shades.description",
-          "color": "gray",
-          "italic": true
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        }
-      ],
       "minecraft:custom_name": {
         "translate": "lt.collectible.cool_shades.name",
         "color": "#5ABDA3",
@@ -30,7 +15,12 @@
           "minecraft:unbreakable"
         ]
       },
-      "minecraft:dyed_color": 10511680
+      "minecraft:dyed_color": 10511680,
+      "ltextras:collectible_display_info": {
+        "name": "cool_shades",
+        "rarity": "secret",
+        "description": true
+      }
     }
   }
 }

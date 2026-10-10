@@ -698,7 +698,7 @@
   "ltminigames.minigame.qottott.map.2": "Karte: ÜdF 4",
   "ltminigames.minigame.escape_race": "Ausbruch-Rennen",
   "lt.enchant.silmey": "Schleimig",
-  "lt.collectible.milestone.slimey_slime.description": "Achtung: Kann exzessiv viel Schleim enthalten",
+  "lt.collectible.slimey_slime.description": "Achtung: Kann exzessiv viel Schleim enthalten",
   "lt.collectible.hover_boots.name": "Schwebestiefel",
   "lt.collectible.hover_boots.description": "Gras berühren? Nie von gehört.",
   "lt.collectible.hover_boots.tooltip.leg_movement": "- Beinbeweglichkeit",

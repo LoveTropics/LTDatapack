@@ -7,7 +7,7 @@
     "id": "minecraft:cake",
     "components": {
       "ltextras:collectible": {
-        "id": "lt:top_hat"
+        "id": "lt:hat/top_hat"
       }
     }
   },

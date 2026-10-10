@@ -17,41 +17,34 @@
           "italic": false
         }
       ],
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.minecraft.falling_block",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:entity": {
         "BlockState": {
           "Name": "minecraft:amethyst_cluster"
         },
         "id": "minecraft:falling_block"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "amethyst",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.minecraft.falling_block",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
       }
     }
   }

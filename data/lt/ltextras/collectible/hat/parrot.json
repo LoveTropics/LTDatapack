@@ -17,39 +17,32 @@
           "italic": false
         }
       ],
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.minecraft.parrot",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:entity": {
         "Variant": 2,
         "id": "minecraft:parrot"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "parrot",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.minecraft.parrot",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
       }
     }
   }

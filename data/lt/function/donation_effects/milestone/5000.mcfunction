@@ -1,1 +1,1 @@
-collectible give @a lt:disguise/shoebill_stork
+collectible give @a lt:milestone/shoebill_stork

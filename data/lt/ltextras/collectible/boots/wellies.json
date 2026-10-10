@@ -28,9 +28,6 @@
         "color": "#BFEA00",
         "italic": false
       },
-      "minecraft:custom_data": {
-        "ParkourBlacklist": true
-      },
       "minecraft:trim": {
         "material": "minecraft:redstone",
         "pattern": "lt:tropics"
@@ -38,14 +35,12 @@
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:enchantments",
-          "minecraft:dyed_color",
           "minecraft:unbreakable",
           "minecraft:equippable",
           "minecraft:attribute_modifiers",
           "minecraft:trim"
         ]
-      },
-      "minecraft:dyed_color": 16767257
+      }
     }
   },
   "auto_equip": false

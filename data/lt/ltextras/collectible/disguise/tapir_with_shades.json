@@ -2,46 +2,6 @@
   "item": {
     "id": "peekaboo:disguise",
     "components": {
-      "minecraft:lore": [
-        {
-          "translate": "lt.collectible.tapir_with_shades.description",
-          "color": "gray",
-          "italic": true
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.disguise.tooltip.subtract_player",
-          "color": "blue",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "translate": "entity.tropicraft.tapir",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:disguise": {
         "entity": {
           "undercover": true,
@@ -71,7 +31,36 @@
           "minecraft:unbreakable"
         ]
       },
-      "minecraft:dyed_color": 10511680
+      "minecraft:dyed_color": 10511680,
+      "ltextras:collectible_display_info": {
+        "name": "tapir_with_shades",
+        "rarity": "purchased",
+        "description": true,
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.tropicraft.tapir",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
     }
   }
 }

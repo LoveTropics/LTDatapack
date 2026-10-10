@@ -7,16 +7,6 @@
         "color": "#BFEA00",
         "italic": false
       },
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.purchased",
-          "color": "white",
-          "italic": false
-        }
-      ],
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:enchantments",
@@ -26,7 +16,11 @@
           "minecraft:attribute_modifiers"
         ]
       },
-      "minecraft:dyed_color": 10511680
+      "minecraft:dyed_color": 10511680,
+      "ltextras:collectible_display_info": {
+        "name": "ashen_mask_horn_monkey",
+        "rarity": "purchased"
+      }
     }
   }
 }

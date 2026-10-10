@@ -18,41 +18,6 @@
           -568531152
         ]
       },
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "item.modifiers.head",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": "lt.collectible.disguise.tooltip.subtract_player",
-          "color": "blue",
-          "italic": false
-        },
-        [
-          {
-            "text": " + ",
-            "color": "blue",
-            "italic": false
-          },
-          {
-            "text": "Race Rivers",
-            "color": "blue",
-            "italic": false
-          }
-        ]
-      ],
       "peekaboo:disguise": {
         "custom_name": {
           "text": "Race Rivers",
@@ -80,14 +45,34 @@
         "italic": false
       },
       "minecraft:enchantment_glint_override": true,
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:enchantments",
-          "minecraft:dyed_color",
-          "minecraft:unbreakable"
+      "ltextras:collectible_display_info": {
+        "name": "racerivers",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "text": "Race Rivers",
+              "color": "blue",
+              "italic": false
+            }
+          ]
         ]
-      },
-      "minecraft:dyed_color": 10511680
+      }
     }
   }
 }

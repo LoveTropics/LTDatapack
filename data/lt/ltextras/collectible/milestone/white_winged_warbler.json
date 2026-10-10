@@ -1,0 +1,56 @@
+{
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "tropicraft:white_winged_warbler"
+        }
+      },
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.tropicraft.white_winged_warbler",
+          "color": "#DB6634",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#DB6634",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "milestone.25000",
+        "rarity": "milestone",
+        "description": true,
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.tropicraft.white_winged_warbler",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

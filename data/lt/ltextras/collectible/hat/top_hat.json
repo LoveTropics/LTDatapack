@@ -1,0 +1,27 @@
+{
+  "item": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.top_hat.name",
+        "color": "#BFEA00",
+        "italic": false
+      },
+      "minecraft:item_model": "lt:top_hat",
+      "minecraft:equippable": {
+        "equip_sound": "minecraft:item.armor.equip_leather",
+        "slot": "head"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "top_hat",
+        "rarity": "purchased",
+        "description": true
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+  }
+}

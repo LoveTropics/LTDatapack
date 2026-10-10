@@ -23,25 +23,15 @@
           -1619792483
         ]
       },
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        }
-      ],
+      "ltextras:collectible_display_info": {
+        "name": "tiny_potato",
+        "rarity": "secret"
+      },
       "minecraft:tooltip_display": {
         "hidden_components": [
-          "minecraft:enchantments",
-          "minecraft:dyed_color",
-          "minecraft:unbreakable",
           "minecraft:attribute_modifiers"
         ]
-      },
-      "minecraft:dyed_color": 10511680
+      }
     }
   }
 }

@@ -2,20 +2,6 @@
   "item": {
     "id": "minecraft:elytra",
     "components": {
-      "minecraft:lore": [
-        {
-          "translate": "lt.collectible.eternal_elytra.description",
-          "color": "gray"
-        },
-        {
-          "text": " "
-        },
-        {
-          "translate": "lt.collectible.unicode.secret",
-          "color": "white",
-          "italic": false
-        }
-      ],
       "minecraft:unbreakable": {},
       "minecraft:custom_name": {
         "translate": "lt.collectible.eternal_elytra.name",
@@ -29,11 +15,15 @@
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:enchantments",
-          "minecraft:dyed_color",
-          "minecraft:unbreakable"
+          "minecraft:unbreakable",
+          "minecraft:attribute_modifiers"
         ]
       },
-      "minecraft:dyed_color": 10511680
+      "ltextras:collectible_display_info": {
+        "name": "eternal_elytra",
+        "rarity": "secret",
+        "description": true
+      }
     }
   },
   "auto_equip": true

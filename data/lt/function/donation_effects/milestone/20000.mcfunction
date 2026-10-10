@@ -1,1 +1,1 @@
-collectible give @a lt:disguise/breeze
+collectible give @a lt:milestone/breeze
