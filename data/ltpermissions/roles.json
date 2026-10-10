@@ -80,6 +80,9 @@
   "modder": {
     "includes": ["pro_builder", "game_controller"],
     "overrides": {
+      "commands": {
+        "shield": "allow"
+      },
       "name_decoration": {
         "style": "#DEB22F"
       }
