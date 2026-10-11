@@ -1,0 +1,34 @@
+{
+  "wants": {
+    "id": "ltextras:tropicoin",
+    "count": 4
+  },
+  "gives": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:potion_contents"
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Potion of Stiff Legs",
+        "italic": false
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 3585535,
+        "custom_effects": [
+          {
+            "id": "ltextras:mm_stiff_legs",
+            "duration": 600,
+            "show_particles": false,
+            "show_icon": true
+          }
+        ]
+      }
+    }
+  },
+  "max_uses": 9999999,
+  "xp": 0
+}

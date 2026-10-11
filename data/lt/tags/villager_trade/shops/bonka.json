@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lt:drinks/flail",
+    "lt:drinks/hovering",
+    "lt:drinks/shrunk",
+    "lt:drinks/stiff_legs",
+    "lt:drinks/upsidedown"
+  ]
+}
