@@ -1,0 +1,13 @@
+{
+  "id": "tropicraft:turtle",
+  "Invulnerable": true,
+  "NoAI": true,
+  "DeathLootTable": "minecraft:empty",
+  "attributes": [
+    {
+      "base": 1.65,
+      "id": "minecraft:movement_speed"
+    }
+  ],
+  "NoBrakesOnThisTrain": true
+}
