@@ -1,0 +1,110 @@
+{
+  "type": "ltminigames:mcsr/shop",
+  "offers": [
+    {
+      "icon": "minecraft:iron_pickaxe",
+      "name": {"text": "Iron Pickaxe"},
+      "description": {"text": "Skip straight to mining iron"},
+      "cost": 5,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["minecraft:iron_pickaxe"]
+      }
+    },
+    {
+      "icon": "minecraft:water_bucket",
+      "name": {"text": "Water Bucket"},
+      "description": {"text": "For portals, falls and lava"},
+      "cost": 5,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["minecraft:water_bucket"]
+      }
+    },
+    {
+      "icon": {"id": "minecraft:cooked_beef", "count": 16},
+      "name": {"text": "Steak"},
+      "cost": 3,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{"id": "minecraft:cooked_beef", "count": 16}]
+      }
+    },
+    {
+      "icon": "minecraft:golden_apple",
+      "name": {"text": "Golden Apple"},
+      "cost": 10,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["minecraft:golden_apple"]
+      }
+    },
+    {
+      "icon": "minecraft:sugar",
+      "name": {"text": "Speed Boost"},
+      "description": {"text": "Speed II for 2 minutes"},
+      "cost": 10,
+      "actions": {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:speed",
+            "seconds": 120,
+            "amplifier": 1
+          }
+        ]
+      }
+    },
+    {
+      "icon": "minecraft:iron_chestplate",
+      "name": {"text": "Iron Armor"},
+      "description": {"text": "A full set of iron armor"},
+      "cost": 20,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "head": "minecraft:iron_helmet",
+        "chest": "minecraft:iron_chestplate",
+        "legs": "minecraft:iron_leggings",
+        "feet": "minecraft:iron_boots"
+      }
+    },
+    {
+      "icon": {"id": "minecraft:obsidian", "count": 10},
+      "name": {"text": "Obsidian"},
+      "description": {"text": "Enough for a Nether portal"},
+      "cost": 15,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{"id": "minecraft:obsidian", "count": 10}]
+      }
+    },
+    {
+      "icon": "minecraft:white_bed",
+      "name": {"text": "Beds"},
+      "description": {"text": "Three beds, the fastest way to deal with a dragon"},
+      "cost": 15,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["minecraft:white_bed", "minecraft:white_bed", "minecraft:white_bed"]
+      }
+    },
+    {
+      "icon": {"id": "minecraft:blaze_rod", "count": 2},
+      "name": {"text": "Blaze Rods"},
+      "cost": 25,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{"id": "minecraft:blaze_rod", "count": 2}]
+      }
+    },
+    {
+      "icon": {"id": "minecraft:ender_pearl", "count": 4},
+      "name": {"text": "Ender Pearls"},
+      "cost": 20,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{"id": "minecraft:ender_pearl", "count": 4}]
+      }
+    }
+  ]
+}

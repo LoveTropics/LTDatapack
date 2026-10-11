@@ -40,6 +40,7 @@
       "world": "lt:mcsr/world"
     },
     "lt:mcsr/bingo",
+    "lt:mcsr/shop",
     {
       "type": "ltminigames:mcsr/finish",
       "dragon_kill": true,
@@ -116,6 +117,22 @@
         {
           "type": "ltminigames:bingo/unlock_tiles",
           "count": 3
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:custom_command",
+      "path": [
+        "give_tropicoins"
+      ],
+      "permission_level": "overlord",
+      "argument": "player",
+      "actions": [
+        {
+          "type": "ltminigames:increment_statistic",
+          "statistic": "tropicoins",
+          "amount": 10,
+          "scope": "player"
         }
       ]
     }
