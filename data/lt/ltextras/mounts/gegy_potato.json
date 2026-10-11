@@ -18,7 +18,7 @@
     "peekaboo:disguise": {
       "disguise": {
         "entity": {
-          "collectible": "lt:gegy_potato",
+          "collectible": "lt:hat/gegy_potato",
           "id": "ltextras:collectible"
         }
       }

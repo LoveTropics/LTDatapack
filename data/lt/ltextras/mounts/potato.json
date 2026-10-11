@@ -1,0 +1,27 @@
+{
+  "id": "tropicraft:turtle",
+  "Invulnerable": true,
+  "NoAI": true,
+  "NoBrakesOnThisTrain": true,
+  "DeathLootTable": "minecraft:empty",
+  "attributes": [
+    {
+      "id": "minecraft:movement_speed",
+      "base": 1.65
+    },
+    {
+      "id": "minecraft:gravity",
+      "base": 0
+    }
+  ],
+  "neoforge:attachments": {
+    "peekaboo:disguise": {
+      "disguise": {
+        "entity": {
+          "collectible": "lt:hat/tiny_potato",
+          "id": "ltextras:collectible"
+        }
+      }
+    }
+  }
+}
