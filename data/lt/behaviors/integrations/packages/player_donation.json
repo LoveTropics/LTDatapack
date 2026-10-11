@@ -20,7 +20,7 @@
     {
       "type": "ltminigames:give_items_amount_based",
       "item": "ltextras:tropicoin",
-      "amount": "$amount"
+      "per_amount": "$per_amount"
     },
     {
       "type": "ltminigames:show_title",
