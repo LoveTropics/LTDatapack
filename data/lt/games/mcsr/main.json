@@ -3,6 +3,7 @@
     "translate": "ltminigames.minigame.mcsr"
   },
   "maximum_participants": 6,
+  "donation_type": "participant_contributions",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/waiting_lobby",
@@ -41,6 +42,7 @@
     },
     "lt:mcsr/bingo",
     "lt:mcsr/shop",
+    "lt:mcsr/donations",
     {
       "type": "ltminigames:mcsr/finish",
       "dragon_kill": true,
