@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lt:disguises/enderman",
+    "lt:hats/ender_dragon",
+    "lt:hats/endermite",
+    "lt:hats/wither"
+  ]
+}
