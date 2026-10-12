@@ -96,6 +96,14 @@
       }
     }
   },
+  "pantheon": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#ffb005"
+      }
+    }
+  },
   "creator": {
     "includes": ["whitelisted"],
     "overrides": {
