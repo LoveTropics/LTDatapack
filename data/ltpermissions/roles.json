@@ -50,18 +50,57 @@
     }
   },
   "host": {
-    "includes": ["whitelisted"],
+    "includes": ["creator"],
     "overrides": {
       "name_decoration": {
         "style": "#e91e63"
       },
       "commands": {
-        "fly": "allow",
         "gamemode": "allow"
       },
       "waypoint_icon": {
         "style": "lt:host",
         "color": [0.914, 0.118, 0.388]
+      }
+    }
+  },
+  "hardcore": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#FF5555"
+      }
+    }
+  },
+  "girlypop": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#AA336A"
+      }
+    }
+  },
+  "speedrun": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#00ffe5"
+      }
+    }
+  },
+  "hoedown": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#ffb005"
+      }
+    }
+  },
+  "creator": {
+    "includes": ["whitelisted"],
+    "overrides": {
+      "commands": {
+        "fly": "allow"
       }
     }
   },
