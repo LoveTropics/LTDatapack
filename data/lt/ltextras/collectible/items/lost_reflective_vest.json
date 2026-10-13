@@ -1,0 +1,15 @@
+{
+  "item": {
+    "id": "ltextras:reflective_vest",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "lost_vest",
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.lost_vest.name",
+        "color": "#BFEA00"
+      }
+    }
+  }
+}

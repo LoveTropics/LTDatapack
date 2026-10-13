@@ -804,6 +804,8 @@
   "lt.collectible.scope_scopers.name": "Scope Scopers",
   "lt.collectible.scope_scopers.description": "There's scope everywhere for those with eyes to see it",
   "lt.collectible.scope_scopeers.description_2": " + Scope Creep. Especially at the theatre ... or so I'm told. ",
-  "lt.charity.name_2": "Pachamama Alliance"
+  "lt.charity.name_2": "Pachamama Alliance",
+  "lt.collectible.lost_hard_hat.name": "Race River's Lost Hard Hat",
+  "lt.collectible.lost_vest.name": "Race River's Reflective Vest"
 
 }

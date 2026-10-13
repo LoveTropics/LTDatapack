@@ -1,0 +1,15 @@
+{
+  "item": {
+    "id": "ltextras:hard_hat",
+    "components": {
+      "ltextras:collectible_display_info": {
+        "name": "lost_hard_hat",
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.lost_hard_hat.name",
+        "color": "#BFEA00"
+      }
+    }
+  }
+}
