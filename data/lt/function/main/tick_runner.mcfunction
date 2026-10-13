@@ -45,10 +45,6 @@ execute in tropicraft:tropics run function lt:world_games/turtle/on_tick
 # TODO: Ask gegy if theres an easy way to only have certain functions be ran on_tick when a game requires them.
 function lt:map/generic/launch_pad/on_tick
 
-# Quest System
-# Turned Quest System off for now - UnReal
-#function lt:quest/main/on_tick
-
 # Stage
 function lt:stage/on_tick
 

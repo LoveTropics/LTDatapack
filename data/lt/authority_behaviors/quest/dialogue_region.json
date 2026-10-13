@@ -1,4 +1,0 @@
-{
-  "enter_commands": [],
-  "exit_commands": ["function lt:quest/utility/dialogue_region_exit"]
-}

@@ -8,7 +8,8 @@
       },
       "minecraft:custom_name": {
         "translate": "lt.collectible.lost_vest.name",
-        "color": "#BFEA00"
+        "color": "#BFEA00",
+        "italic": false
       }
     }
   }
