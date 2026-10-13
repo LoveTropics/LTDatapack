@@ -95,67 +95,67 @@
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "fabulous"
+            "ltextras:model_modifier": "ltextras:fabulous"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "flail"
+            "ltextras:model_modifier": "ltextras:flail"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "hovering"
+            "ltextras:model_modifier": "ltextras:hovering"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "shuffle"
+            "ltextras:model_modifier": "ltextras:shuffle"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "upsidedown"
+            "ltextras:model_modifier": "ltextras:upsidedown"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "shrunk"
+            "ltextras:model_modifier": "ltextras:shrunk"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "enlarged"
+            "ltextras:model_modifier": "ltextras:enlarged"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "shruggy_arms"
+            "ltextras:model_modifier": "ltextras:shruggy_arms"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "ender_arms"
+            "ltextras:model_modifier": "ltextras:ender_arms"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "stiff_legs"
+            "ltextras:model_modifier": "ltextras:stiff_legs"
           }
         },
         {
           "id": "minecraft:leather_boots",
           "components": {
-            "ltextras:walk_animation": "hop_walk"
+            "ltextras:model_modifier": "ltextras:hop_walk"
           }
         }
       ]
