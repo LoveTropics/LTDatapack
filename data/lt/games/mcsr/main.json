@@ -2,8 +2,24 @@
   "name": {
     "translate": "ltminigames.minigame.mcsr"
   },
+  "minimum_participants": 1,
   "maximum_participants": 6,
   "donation_type": "participant_contributions",
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/waiting_lobby",
