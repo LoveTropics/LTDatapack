@@ -1,0 +1,10 @@
+{
+  "type": "ltextras:operation",
+  "operation": "add",
+  "parts": {
+    "left_leg": {"y": -12, "x": 4},
+    "right_leg": {"y": -12, "x": -4},
+    "left_arm": {"y": 12, "x": -4},
+    "right_arm": {"y": 12, "x": 4}
+  }
+}
