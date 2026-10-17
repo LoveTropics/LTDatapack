@@ -1,0 +1,23 @@
+{
+  "type": "ltminigames:apply_for_time",
+  "mutex": "lt:disguise_package",
+  "apply": {
+    "target": "participants",
+    "actions": {
+      "type": "ltminigames:set_disguise",
+      "entity": "$entity",
+      "scale": "$scale",
+      "changes_size": false,
+      "apply_donor_name": "$apply_donor_name",
+      "only_if_no_disguise": true
+    }
+  },
+  "clear": {
+    "target": "all_players",
+    "actions": {
+      "type": "ltminigames:clear_disguise",
+      "entity": "$entity"
+    }
+  },
+  "seconds": "$seconds"
+}

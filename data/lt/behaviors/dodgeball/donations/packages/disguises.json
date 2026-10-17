@@ -1,96 +1,21 @@
-[
-  {
-    "type": "ltminigames:donation_package",
-    "id": "disguise_package",
-    "package_type": "sabotage_package",
-    "category": "small",
-    "player_select": "all",
-    "name": {
-      "translate": "Random Disguise"
-    },
-    "description": {
-      "translate": "Random Disguise"
-    },
-    "donation_amount": 10,
-    "notification": {
-      "message": {
-        "translate": "Toast Message",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": {
-          "id": "ltdonations:donation"
-        }
-      },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
-    },
-    "receive_actions": [
-      {
-        "type": "ltminigames:randomize",
-        "options": [
-          {
-            "data": {
-              "type": "ltminigames:apply_for_time",
-              "mutex": "lt:disguise_package",
-              "apply": {
-                "target": "participants",
-                "actions": {
-                  "type": "ltminigames:set_disguise",
-                  "entity": {
-                    "id": "minecraft:pig"
-                  },
-                  "scale": 1,
-                  "changes_size": false,
-                  "apply_donor_name": false,
-                  "only_if_no_disguise": true
-                }
-              },
-              "clear": {
-                "target": "all_players",
-                "actions": {
-                  "type": "ltminigames:clear_disguise",
-                  "entity": {
-                    "id": "minecraft:pig"
-                  }
-                }
-              },
-              "seconds": 10
+{
+  "type": "lt:integrations/packages/random_disguise",
+  "amount": 10,
+  "actions": [
+    {
+      "type": "ltminigames:randomize",
+      "options": [
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "minecraft:sheep"
             },
-            "weight": 1
+            "seconds": 10
           },
-          {
-            "data": {
-              "type": "ltminigames:apply_for_time",
-              "mutex": "lt:disguise_package",
-              "apply": {
-                "target": "participants",
-                "actions": {
-                  "type": "ltminigames:set_disguise",
-                  "entity": {
-                    "id": "minecraft:sheep"
-                  },
-                  "scale": 1,
-                  "changes_size": false,
-                  "apply_donor_name": true,
-                  "only_if_no_disguise": true
-                }
-              },
-              "clear": {
-                "target": "all_players",
-                "actions": {
-                  "type": "ltminigames:clear_disguise",
-                  "entity": {
-                    "id": "minecraft:sheep"
-                  }
-                }
-              },
-              "seconds": 10
-            },
-            "weight": 1
-          }
-        ]
-      }
-    ]
-  }
-]
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

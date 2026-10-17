@@ -1,57 +1,73 @@
-[
-  {
-    "type": "lt:integrations/packages/disguise",
-    "id": "tapir_party",
-    "name": "ltminigames.minigame.donation.tapir_party",
-    "description": "ltminigames.minigame.donation.tapir_party.description",
-    "toast": "ltminigames.minigame.donation.tapir_party.toast",
-    "entity": {
-      "id": "tropicraft:tapir"
-    },
-    "seconds": 120,
-    "donation_amount": 20.0
-  },
-  {
-    "type": "lt:integrations/packages/disguise",
-    "id": "cubera_confusion",
-    "name": "ltminigames.minigame.donation.cubera_confusion",
-    "description": "ltminigames.minigame.donation.cubera_confusion.description",
-    "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
-    "entity": {
-      "id": "tropicraft:cubera"
-    },
-    "seconds": 120,
-    "donation_amount": 20.0
-  },
-  {
-    "type": "lt:integrations/packages/disguise",
-    "id": "armor_standardization",
-    "name": "ltminigames.minigame.donation.armor_standardization",
-    "description": "ltminigames.minigame.donation.armor_standardization.description",
-    "toast": "ltminigames.minigame.donation.armor_standardization.toast",
-    "entity": {
-      "id": "minecraft:armor_stand",
-      "ShowArms": true
-    },
-    "seconds": 120,
-    "donation_amount": 20.0
-  },
-  {
-    "type": "lt:integrations/packages/disguise",
-    "id": "player_dummy_package",
-    "name": "ltminigames.minigame.donation.player_dummy_package",
-    "description": "ltminigames.minigame.donation.player_dummy_package.description",
-    "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
-    "entity": {
-      "id": "dummyplayers:dummy_player",
-      "apply_donor_name": true
-    },
-    "seconds": 120,
-    "donation_amount": 30.0
-  },
-  {
-    "type": "lt:integrations/packages/everyone_host",
-    "seconds": 120,
-    "donation_amount": 50.0
-  }
-]
+{
+  "type": "lt:integrations/packages/random_disguise",
+  "amount": 10,
+  "actions": [
+    {
+      "type": "ltminigames:randomize",
+      "options": [
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "tropicraft:tapir"
+            },
+            "seconds": 10
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "tropicraft:cubera"
+            },
+            "seconds": 10
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "minecraft:armor_stand",
+              "ShowArms": true
+            },
+            "seconds": 10
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "dummyplayers:dummy_player",
+              "apply_donor_name": true
+            },
+            "seconds": 10
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise",
+            "entity": {
+              "id": "dummyplayers:dummy_player",
+              "profile": "Mozart",
+              "NoBasePlate": true
+            },
+            "seconds": 10
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "type": "lt:integrations/actions/disguise_host",
+            "seconds": 10
+          },
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}
+

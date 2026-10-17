@@ -1,0 +1,30 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "id": "disguise_package",
+    "package_type": "sabotage_package",
+    "category": "small",
+    "player_select": "all",
+    "name": {
+      "translate": "Random Disguise"
+    },
+    "description": {
+      "translate": "Random Disguise"
+    },
+    "donation_amount": "$amount",
+    "notification": {
+      "message": {
+        "translate": "Toast Message",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": {
+          "id": "ltdonations:donation"
+        }
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    },
+    "receive_actions": "$actions"
+  }
+]
