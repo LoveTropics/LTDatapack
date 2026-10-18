@@ -179,7 +179,8 @@
         "effects": [
           {
             "type": "minecraft:blindness",
-            "seconds": 30
+            "seconds": 30,
+            "amplifier": 0
           }
         ]
       }
