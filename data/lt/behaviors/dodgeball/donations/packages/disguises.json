@@ -1,5 +1,6 @@
 {
   "type": "lt:integrations/packages/random_disguise",
+  "package_type": "auto",
   "amount": 10,
   "actions": [
     {

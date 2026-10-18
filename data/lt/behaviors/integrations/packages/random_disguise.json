@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:donation_package",
     "id": "disguise_package",
-    "package_type": "sabotage_package",
+    "package_type": "$package_type",
     "category": "small",
     "player_select": "all",
     "name": {

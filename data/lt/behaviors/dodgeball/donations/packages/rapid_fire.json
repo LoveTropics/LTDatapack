@@ -1,7 +1,8 @@
 {
   "type": "ltminigames:donation_package",
   "id": "rapid_fire",
-  "package_type": "care_package",
+  "package_type": "auto",
+  "donation_type": "package",
   "category": "small",
   "player_select": "all",
   "name": {

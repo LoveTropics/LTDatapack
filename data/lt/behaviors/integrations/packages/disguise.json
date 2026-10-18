@@ -2,6 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "$id",
   "package_type": "sabotage_package",
+  "donation_type": "package",
   "category": "small",
   "player_select": "all",
   "name": {"translate": "$name"},
