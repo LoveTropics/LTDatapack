@@ -105,6 +105,84 @@
         "type": "ltminigames:add_equipment",
         "items": [{"id": "minecraft:ender_pearl", "count": 4}]
       }
+    },
+    {
+      "icon": "ltminigames:control_inverter",
+      "name": {"text": "Invert Controls"},
+      "description": {"text": "Flip another player's controls for 30 seconds"},
+      "cost": 15,
+      "target": "pick",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "split_by_player": true,
+        "seconds": 30,
+        "mutex": "lt:mcsr/controls",
+        "apply": {
+          "type": "ltminigames:apply_client_state",
+          "state": {"type": "ltminigames:invert_controls"}
+        },
+        "clear": {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:invert_controls"
+        }
+      }
+    },
+    {
+      "icon": "minecraft:leather_boots",
+      "name": {"text": "Moonwalk"},
+      "description": {"text": "Swap another player's forward and backward for 45 seconds"},
+      "cost": 12,
+      "target": "pick",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "split_by_player": true,
+        "seconds": 45,
+        "mutex": "lt:mcsr/controls",
+        "apply": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:remap_movement",
+            "keys": {"forward": "backward", "backward": "forward"}
+          }
+        },
+        "clear": {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:remap_movement"
+        }
+      }
+    },
+    {
+      "icon": "minecraft:wooden_pickaxe",
+      "name": {"text": "Butterfingers"},
+      "description": {"text": "Mining Fatigue II for 60 seconds"},
+      "cost": 10,
+      "target": "pick",
+      "actions": {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:mining_fatigue",
+            "seconds": 60,
+            "amplifier": 1
+          }
+        ]
+      }
+    },
+    {
+      "icon": "minecraft:black_dye",
+      "name": {"text": "Blackout"},
+      "description": {"text": "Darkness for 30 seconds on a random player"},
+      "cost": 6,
+      "target": "random",
+      "actions": {
+        "type": "ltminigames:give_effect",
+        "effects": [
+          {
+            "type": "minecraft:darkness",
+            "seconds": 30
+          }
+        ]
+      }
     }
   ]
 }
