@@ -190,6 +190,76 @@
     },
     {
       "type": "bitmap",
+      "file": "lt:font/loot/ammo.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE049"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/armor_1.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE050"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/armor_2.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE051"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/armor_3.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE052"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/armor.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE053"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/food.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE054"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/healing.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE055"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/unique.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE056"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/utility.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE057"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/weapon.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE058"]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:font/ascii_sga.png",
       "ascent": 7,
       "chars": [
