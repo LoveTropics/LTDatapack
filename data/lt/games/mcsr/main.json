@@ -62,7 +62,7 @@
     {
       "type": "ltminigames:mcsr/finish",
       "dragon_kill": true,
-      "full_bnigo_card": true
+      "full_bingo_card": true
     },
     {
       "type": "ltminigames:progression",
