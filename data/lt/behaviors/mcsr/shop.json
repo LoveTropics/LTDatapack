@@ -108,8 +108,8 @@
     },
     {
       "icon": "ltminigames:control_inverter",
-      "name": {"text": "Invert Controls"},
-      "description": {"text": "Flip another player's controls for 30 seconds"},
+      "name": {"text": "Upside-Down Camera"},
+      "description": {"text": "Flip another player's camera up and down for 30 seconds"},
       "cost": 15,
       "target": "pick",
       "actions": {
@@ -171,14 +171,14 @@
     {
       "icon": "minecraft:black_dye",
       "name": {"text": "Blackout"},
-      "description": {"text": "Darkness for 30 seconds on a random player"},
+      "description": {"text": "Blinds a random player for 30 seconds"},
       "cost": 6,
       "target": "random",
       "actions": {
         "type": "ltminigames:give_effect",
         "effects": [
           {
-            "type": "minecraft:darkness",
+            "type": "minecraft:blindness",
             "seconds": 30
           }
         ]
