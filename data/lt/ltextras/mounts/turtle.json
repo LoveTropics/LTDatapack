@@ -5,7 +5,7 @@
   "DeathLootTable": "minecraft:empty",
   "attributes": [
     {
-      "base": 1.65,
+      "base": 1,
       "id": "minecraft:movement_speed"
     }
   ],
