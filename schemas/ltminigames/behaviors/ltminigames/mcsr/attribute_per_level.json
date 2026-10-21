@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:mcsr/attribute_per_level"
+    },
+    "modifier": {
+      "type": "string"
+    },
+    "attribute": {
+      "type": "string"
+    },
+    "amount_per_level": {
+      "type": "number"
+    },
+    "operation": {
+      "enum": [
+        "add_value",
+        "add_multiplied_base",
+        "add_multiplied_total"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "modifier",
+    "attribute",
+    "amount_per_level"
+  ]
+}

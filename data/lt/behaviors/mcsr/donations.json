@@ -24,6 +24,11 @@
       "scope": "player"
     },
     {
+      "type": "ltminigames:mcsr/change_modifier",
+      "modifier": "pearl_deviation",
+      "amount": 1
+    },
+    {
       "type": "ltminigames:show_title",
       "subtitle": {
         "translate": "ltminigames.minigame.donation.player_donation.title",

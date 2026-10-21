@@ -203,7 +203,22 @@
           "$ref": "../behaviors/ltminigames/lightning_plant.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/mcsr/attribute_per_level.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/change_modifier.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/ender_pearl_deviation.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/modifiers.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/mcsr/player_worlds.json"
+        },
+        {
+          "$ref": "../behaviors/ltminigames/mcsr/reveal_modifier.json"
         },
         {
           "$ref": "../behaviors/ltminigames/mushroom_plant.json"

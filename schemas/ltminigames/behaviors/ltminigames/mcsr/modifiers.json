@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:mcsr/modifiers"
+    },
+    "modifiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "icon": {},
+          "name": {
+            "$ref": "../../../properties/text.json"
+          },
+          "description": {
+            "$ref": "../../../properties/text.json"
+          },
+          "riddle": {
+            "$ref": "../../../properties/text.json"
+          },
+          "base_level": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "max_level": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "icon",
+          "name",
+          "description",
+          "riddle",
+          "max_level"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "modifiers"
+  ]
+}

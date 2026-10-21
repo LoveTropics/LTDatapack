@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:mcsr/change_modifier"
+    },
+    "modifier": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "per_donated_amount": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "modifier"
+  ]
+}

@@ -64,6 +64,18 @@
         "ltminigames:extinguish_player",
         "ltminigames:reset_hunger"
       ]
+    },
+    {
+      "type": "ltminigames:mcsr/ender_pearl_deviation",
+      "modifier": "pearl_deviation",
+      "degrees_per_level": 1.0
+    },
+    {
+      "type": "ltminigames:mcsr/attribute_per_level",
+      "modifier": "heavy",
+      "attribute": "minecraft:gravity",
+      "amount_per_level": 0.05,
+      "operation": "add_multiplied_base"
     }
   ]
 }

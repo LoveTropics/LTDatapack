@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:mcsr/ender_pearl_deviation"
+    },
+    "modifier": {
+      "type": "string"
+    },
+    "degrees_per_level": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "modifier",
+    "degrees_per_level"
+  ]
+}

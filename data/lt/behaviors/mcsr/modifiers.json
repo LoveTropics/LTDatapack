@@ -1,0 +1,22 @@
+{
+  "type": "ltminigames:mcsr/modifiers",
+  "modifiers": [
+    {
+      "id": "pearl_deviation",
+      "icon": "minecraft:ender_pearl",
+      "name": {"text": "Wonky Pearls"},
+      "description": {"text": "Thrown ender pearls veer off course, by 1 degree per level"},
+      "riddle": {"text": "Aim true all you like, the void has other plans"},
+      "base_level": 2,
+      "max_level": 30
+    },
+    {
+      "id": "heavy",
+      "icon": "minecraft:anvil",
+      "name": {"text": "Heavy Bones"},
+      "description": {"text": "Gravity is 5% stronger per level"},
+      "riddle": {"text": "The ground is getting clingy"},
+      "max_level": 10
+    }
+  ]
+}
