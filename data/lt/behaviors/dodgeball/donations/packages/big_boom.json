@@ -2,7 +2,7 @@
   {
     "type": "ltminigames:donation_package",
     "id": "big_boom",
-    "package_type": "care_package",
+    "package_type": "auto",
     "donation_type": "package",
     "category": "small",
     "player_select": "all",
