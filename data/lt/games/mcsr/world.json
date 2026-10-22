@@ -74,7 +74,7 @@
       "type": "ltminigames:mcsr/attribute_per_level",
       "modifier": "heavy",
       "attribute": "minecraft:gravity",
-      "amount_per_level": 0.05,
+      "amount_per_level": 0.02,
       "operation": "add_multiplied_base"
     }
   ]

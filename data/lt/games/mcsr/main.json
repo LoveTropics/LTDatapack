@@ -154,47 +154,6 @@
           "scope": "player"
         }
       ]
-    },
-    {
-      "type": "ltminigames:custom_command",
-      "path": [
-        "strengthen_heavy"
-      ],
-      "permission_level": "overlord",
-      "argument": "none",
-      "actions": [
-        {
-          "type": "ltminigames:mcsr/change_modifier",
-          "modifier": "heavy",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "type": "ltminigames:custom_command",
-      "path": [
-        "strengthen_pearls"
-      ],
-      "permission_level": "overlord",
-      "argument": "none",
-      "actions": [
-        {
-          "type": "ltminigames:mcsr/change_modifier",
-          "modifier": "pearl_deviation",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "ltminigames:custom_command",
-      "path": [
-        "reveal_rule"
-      ],
-      "permission_level": "overlord",
-      "argument": "player",
-      "actions": [
-        "ltminigames:mcsr/reveal_modifier"
-      ]
     }
   ]
 }

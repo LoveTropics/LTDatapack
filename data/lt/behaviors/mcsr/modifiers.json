@@ -14,7 +14,7 @@
       "id": "heavy",
       "icon": "minecraft:anvil",
       "name": {"text": "Heavy Bones"},
-      "description": {"text": "Gravity is 5% stronger per level"},
+      "description": {"text": "Gravity is 2% stronger per level"},
       "riddle": {"text": "The ground is getting clingy"},
       "max_level": 10
     }
