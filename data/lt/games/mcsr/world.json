@@ -84,7 +84,13 @@
       "swap_sides_level": 3,
       "fake_lines_per_level": 0.5,
       "garble_chance_per_level": 0.05,
-      "rescramble_chance_per_level": 0.1
+      "rescramble_chance_per_level": 0.1,
+      "extra_lines": [
+        {"level": 2, "line": "Minecraft Dungeons 2 playtime: 0 hours"},
+        {"level": 4, "line": "Minecraft Dungeons 2 playtime: 2909 hours"},
+        {"level": 3, "line": "Scope: Normal"},
+        {"level": 5, "line": "Scope: Expanded"}
+      ]
     }
   ]
 }

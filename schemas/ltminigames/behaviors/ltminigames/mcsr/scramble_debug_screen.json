@@ -27,6 +27,26 @@
     "rescramble_chance_per_level": {
       "type": "number",
       "minimum": 0
+    },
+    "extra_lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "line": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "level",
+          "line"
+        ]
+      }
     }
   },
   "additionalProperties": false,
