@@ -71,7 +71,8 @@
         "minecraft:advance_weather": false,
         "minecraft:fall_damage": false,
         "minecraft:advance_time": false,
-        "minecraft:show_advancement_messages": false
+        "minecraft:show_advancement_messages": false,
+        "ltextras:named_death_log_messages": false
       }
     },
     {
