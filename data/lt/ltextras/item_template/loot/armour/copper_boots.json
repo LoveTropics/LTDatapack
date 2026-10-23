@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "type": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 1, 
+      "name": "copper_boots",
+      "description_lines": 0
+    }
+  ],
+  "item": {
+    "id": "minecraft:copper_boots",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

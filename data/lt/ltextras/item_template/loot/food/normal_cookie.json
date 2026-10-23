@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "type": "ltextras:stt_loot",
+      "category": "food", 
+      "name": "normal_cookie", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_3_nutrition", 
+        "add_plastic_waste" 
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.3,
+        "animation": "eat",
+        "has_consume_particles": true
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 0.5,
+        "can_always_eat": false
+      }
+    }
+  }
+}

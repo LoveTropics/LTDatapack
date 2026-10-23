@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "type": "ltextras:stt_loot",
+      "category": "food", 
+      "name": "tropi_cookie", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_6_nutrition", 
+        "add_food_ish_grade_dye" 
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:tropi_cookies",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.7,
+        "animation": "eat",
+        "has_consume_particles": true
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 2.5,
+        "can_always_eat": false
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/food/tropi_cookie",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

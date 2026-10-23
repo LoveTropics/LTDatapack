@@ -1,0 +1,16 @@
+{
+  "modifiers": [
+    {
+      "type": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 1, 
+      "name": "copper_leggings"
+    }
+  ],
+  "item": {
+    "id": "minecraft:copper_leggings",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

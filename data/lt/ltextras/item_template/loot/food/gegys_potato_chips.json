@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "type": "ltextras:stt_loot",
+      "category": "food", 
+      "name": "gegys_potato_chips", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_8_nutrition", 
+        "add_trans_fats" 
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:gegy_potato_chips",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 2.0,
+        "animation": "eat",
+        "has_consume_particles": true
+      },
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 4,
+        "can_always_eat": false
+      }
+    }
+  }
+}
