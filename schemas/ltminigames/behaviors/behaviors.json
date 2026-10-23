@@ -221,6 +221,9 @@
           "$ref": "../behaviors/ltminigames/mcsr/reveal_modifier.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/mcsr/scramble_debug_screen.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/mushroom_plant.json"
         },
         {

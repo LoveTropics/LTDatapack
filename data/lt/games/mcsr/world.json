@@ -76,6 +76,15 @@
       "attribute": "minecraft:gravity",
       "amount_per_level": 0.02,
       "operation": "add_multiplied_base"
+    },
+    {
+      "type": "ltminigames:mcsr/scramble_debug_screen",
+      "modifier": "bugged_debug",
+      "shuffle_level": 1,
+      "swap_sides_level": 3,
+      "fake_lines_per_level": 0.5,
+      "garble_chance_per_level": 0.05,
+      "rescramble_chance_per_level": 0.1
     }
   ]
 }

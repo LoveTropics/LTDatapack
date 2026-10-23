@@ -17,6 +17,14 @@
       "description": {"text": "Gravity is 2% stronger per level"},
       "riddle": {"text": "The ground is getting clingy"},
       "max_level": 10
+    },
+    {
+      "id": "bugged_debug",
+      "icon": "minecraft:compass",
+      "name": {"text": "Bugged Debug"},
+      "description": {"text": "The F3 screen gets shuffled, swapped around, filled with fake lines and garbled numbers"},
+      "riddle": {"text": "Your instruments have started lying to you"},
+      "max_level": 10
     }
   ]
 }
