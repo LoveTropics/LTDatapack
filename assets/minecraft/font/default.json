@@ -191,72 +191,219 @@
     {
       "type": "bitmap",
       "file": "lt:font/loot/ammo.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE049"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/armor_1.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE050"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/armor_2.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE051"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/armor_3.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE052"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/armor.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE053"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/food.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE054"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/healing.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE055"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/unique.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE056"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/utility.png",
-      "ascent": 7,
-      "height": 9,
+      "ascent": 5,
+      "height": 5,
       "chars": ["\uE057"]
     },
     {
       "type": "bitmap",
       "file": "lt:font/loot/weapon.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": ["\uE058"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/generic/divider.png",
       "ascent": 7,
       "height": 9,
-      "chars": ["\uE058"]
+      "chars": ["\uE060"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/ammo.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE061"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/ammo_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE062"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/armour.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE063"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/armour_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE064"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/armour_icon_1.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE065"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/armour_icon_2.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE066"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/armour_icon_3.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE067"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/food.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE068"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/food_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE069"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/healing.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE070"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/healing_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE071"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/unique.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE072"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/unique_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE073"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/utility.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE074"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/utility_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE075"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/weapon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE076"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/weapon_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE077"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/weapon_icon_1.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE078"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/weapon_icon_2.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE079"]
+    },
+    {
+      "type": "bitmap",
+      "file": "lt:font/loot/lozenge/weapon_icon_3.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE080"]
     },
     {
       "type": "bitmap",
