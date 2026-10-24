@@ -12,7 +12,7 @@
   },
   "minimum_participants": 1,
   "maximum_participants": 6,
-  "hide_from_list": false,
+  "hide_from_list": true,
   "is_multi_game": true,
   "waiting": {
     "map": {

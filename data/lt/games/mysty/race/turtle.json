@@ -6,6 +6,7 @@
   "icon": "ltminigames:minigames/turtle_race/turtle_icon_1",
   "minimum_participants": 4,
   "maximum_participants": 1000,
+  "hide_from_list": true,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/turtle_race_21",
