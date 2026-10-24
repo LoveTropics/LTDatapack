@@ -1,7 +1,7 @@
 {
   "modifiers": [
     {
-      "type": "ltextras:stt_loot",
+      "function": "ltextras:stt_loot",
       "category": "food", 
       "name": "normal_cookie", 
       "description_lines": 1, 

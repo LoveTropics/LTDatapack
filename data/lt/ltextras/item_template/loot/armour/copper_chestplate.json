@@ -1,7 +1,7 @@
 {
   "modifiers": [
     {
-      "type": "ltextras:stt_loot",
+      "function": "ltextras:stt_loot",
       "category": "armour", 
       "tier": 1, 
       "name": "copper_chestplate"

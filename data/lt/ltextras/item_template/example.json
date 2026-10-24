@@ -1,0 +1,8 @@
+{
+  "modifiers": [
+    "lt:armor"
+  ],
+  "item": {
+    "id": "minecraft:leather_chestplate"
+  }
+}
