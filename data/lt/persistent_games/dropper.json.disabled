@@ -9,8 +9,7 @@
       "type": "ltminigames:dropper",
       "id": "dropper",
       "win_blocks": [
-        "ltextras:imposter_cyan_concrete_powder",
-        "minecraft:sand"
+        "minecraft:bedrock"
       ],
       "first_win_reward": {
         "item": {
