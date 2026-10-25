@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "peekaboo:mob_hat",
+    "components": {
+      "peekaboo:entity": {
+        "id": "tropicraft:umbrella"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "umbrella_hat",
+        "rarity": "purchased"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.umbrella_hat.name",
+        "color": "#BFEA00"
+      }
+    }
+  }
+}
