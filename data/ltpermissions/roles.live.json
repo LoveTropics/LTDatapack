@@ -20,16 +20,19 @@
     }
   },
   "administration": {
-    "includes": ["whitelisted"],
+    "includes": ["whitelisted", "voice"],
     "overrides": {
       "op_level": 4,
       "commands": {
         ".*": "allow"
+      },
+      "permission_nodes": {
+        "voicechat.admin": true
       }
     }
   },
   "live": {
-    "includes": ["host"],
+    "includes": ["host", "voice"],
     "overrides": {
       "name_decoration": {
         "prefix": {
@@ -152,6 +155,14 @@
       }
     }
   },
+  "voice": {
+    "overrides": {
+      "permission_nodes": {
+        "voicechat.speak": true,
+        "voicechat.groups": true
+      }
+    }
+  },
   "trusted": {
     "includes": ["privileged"],
     "overrides": {
@@ -234,6 +245,12 @@
         "not_whitelisted_message": {
           "translate": "lt.whitelist.not_whitelisted"
         }
+      },
+      "permission_nodes": {
+        "voicechat.listen": true,
+        "voicechat.speak": false,
+        "voicechat.groups": false,
+        "voicechat.admin": false
       }
     }
   }

@@ -26,16 +26,19 @@
     }
   },
   "administration": {
-    "includes": ["whitelisted"],
+    "includes": ["whitelisted", "voice"],
     "overrides": {
       "op_level": 4,
       "commands": {
         ".*": "allow"
+      },
+      "permission_nodes": {
+        "voicechat.admin": true
       }
     }
   },
   "live": {
-    "includes": ["host"],
+    "includes": ["host", "voice"],
     "overrides": {
       "chat/no_chat": true,
       "name_decoration": {
@@ -184,6 +187,14 @@
       }
     }
   },
+  "voice": {
+    "overrides": {
+      "permission_nodes": {
+        "voicechat.speak": true,
+        "voicechat.groups": true
+      }
+    }
+  },
   "trusted": {
     "includes": ["privileged"],
     "overrides": {
@@ -264,6 +275,12 @@
         "not_whitelisted_message": {
           "text": "You are not whitelisted on the server. Please reach out in discord if should be whitelisted."
         }
+      },
+      "permission_nodes": {
+        "voicechat.listen": true,
+        "voicechat.speak": false,
+        "voicechat.groups": false,
+        "voicechat.admin": false
       }
     }
   }
