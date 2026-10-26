@@ -37,6 +37,7 @@
   "live": {
     "includes": ["host"],
     "overrides": {
+      "chat/no_chat": true,
       "name_decoration": {
         "prefix": {
           "text": "▶ ",
