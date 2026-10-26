@@ -187,6 +187,12 @@
       }
     }
   },
+  "voice_broadcast": {
+    "includes": ["voice"],
+    "overrides": {
+      "broadcast_voice": true
+    }
+  },
   "voice": {
     "overrides": {
       "permission_nodes": {
