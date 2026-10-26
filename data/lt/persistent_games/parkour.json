@@ -27,16 +27,9 @@
         "parkour_checkpoint_16",
         "parkour_checkpoint_17",
         "parkour_checkpoint_18",
-        "parkour_checkpoint_19",
-        "parkour_checkpoint_20",
-        "parkour_checkpoint_21",
-        "parkour_checkpoint_22",
-        "parkour_checkpoint_23",
-        "parkour_checkpoint_24",
-        "parkour_checkpoint_25",
-        "parkour_checkpoint_26"
+        "parkour_checkpoint_19"
       ],
-      "win_checkpoint": "parkour_checkpoint_26"
+      "win_checkpoint": "parkour_checkpoint_19"
     }
   ]
 }
