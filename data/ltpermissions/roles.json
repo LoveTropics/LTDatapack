@@ -2,8 +2,6 @@
   "organiser": {
     "includes": ["administration"],
     "overrides": {
-      "chat/moderator": true,
-      "chat/organiser": true,
       "name_decoration": {
         "style": "#2ecc71"
       },
@@ -162,7 +160,6 @@
   "moderator": {
     "includes": ["privileged"],
     "overrides": {
-      "chat/moderator": true,
       "name_decoration": {
         "style": "#3498db"
       }
