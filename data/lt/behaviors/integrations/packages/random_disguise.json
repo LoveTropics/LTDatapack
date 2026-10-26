@@ -12,19 +12,9 @@
       "translate": "Random Disguise"
     },
     "donation_amount": "$amount",
-    "notification": {
-      "message": {
-        "translate": "Toast Message",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": {
-          "id": "ltdonations:donation"
-        }
-      },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
-    },
-    "receive_actions": "$actions"
+    "receive_actions": {
+      "type": "ltminigames:randomize",
+      "options": "$options"
+    }
   }
 ]

@@ -2,72 +2,77 @@
   "type": "lt:integrations/packages/random_disguise",
   "package_type": "sabotage_package",
   "amount": 10,
-  "actions": [
+  "options": [
     {
-      "type": "ltminigames:randomize",
-      "options": [
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "tropicraft:tapir"
-            },
-            "seconds": 10
-          },
-          "weight": 10
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "ltminigames.minigame.donation.tapir_party",
+        "toast": "ltminigames.minigame.donation.tapir_party.toast",
+        "entity": {
+          "id": "tropicraft:tapir"
         },
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "tropicraft:cubera"
-            },
-            "seconds": 10
-          },
-          "weight": 10
+        "seconds": 10
+      },
+      "weight": 10
+    },
+    {
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "ltminigames.minigame.donation.cubera_confusion",
+        "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
+        "entity": {
+          "id": "tropicraft:cubera"
         },
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "minecraft:armor_stand",
-              "ShowArms": true
-            },
-            "seconds": 10
-          },
-          "weight": 10
+        "seconds": 10
+      },
+      "weight": 10
+    },
+    {
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "ltminigames.minigame.donation.armor_standardization",
+        "toast": "ltminigames.minigame.donation.armor_standardization.toast",
+        "entity": {
+          "id": "minecraft:armor_stand",
+          "ShowArms": true
         },
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "dummyplayers:dummy_player",
-              "apply_donor_name": true
-            },
-            "seconds": 10
-          },
-          "weight": 10
+        "seconds": 10
+      },
+      "weight": 10
+    },
+    {
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "ltminigames.minigame.donation.player_dummy_package",
+        "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
+        "entity": {
+          "id": "dummyplayers:dummy_player",
+          "apply_donor_name": true
         },
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "dummyplayers:dummy_player",
-              "profile": "Mozart",
-              "NoBasePlate": true
-            },
-            "seconds": 10
-          },
-          "weight": 2
+        "seconds": 10
+      },
+      "weight": 10
+    },
+    {
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "ltminigames.minigame.donation.mozart_mode",
+        "toast": "ltminigames.minigame.donation.mozart_mode.toast",
+        "entity": {
+          "id": "dummyplayers:dummy_player",
+          "profile": "Mozart",
+          "NoBasePlate": true
         },
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise_host",
-            "seconds": 10
-          },
-          "weight": 10
-        }
-      ]
+        "seconds": 10
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "type": "lt:integrations/packages/options/disguise_host",
+        "seconds": 10
+      },
+      "weight": 10
     }
   ]
 }

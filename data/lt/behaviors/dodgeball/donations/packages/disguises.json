@@ -2,21 +2,18 @@
   "type": "lt:integrations/packages/random_disguise",
   "package_type": "care_package",
   "amount": 10,
-  "actions": [
+  "options": [
     {
-      "type": "ltminigames:randomize",
-      "options": [
-        {
-          "data": {
-            "type": "lt:integrations/actions/disguise",
-            "entity": {
-              "id": "minecraft:sheep"
-            },
-            "seconds": 10
-          },
-          "weight": 1
-        }
-      ]
+      "data": {
+        "type": "lt:integrations/packages/options/disguise",
+        "name": "SHEEP TODO",
+        "toast": "SHEEP TODO",
+        "entity": {
+          "id": "minecraft:sheep"
+        },
+        "seconds": 10
+      },
+      "weight": 1
     }
   ]
 }
