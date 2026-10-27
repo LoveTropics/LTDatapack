@@ -17,7 +17,7 @@
   },
   {
     "type": "ltminigames:donation_package",
-    "id": "big_boom",
+    "id": "the_auto_package",
     "package_type": "auto",
     "name": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
