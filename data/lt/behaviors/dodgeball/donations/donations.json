@@ -14,5 +14,55 @@
   {
     "type": "lt:dodgeball/donations/packages/big_boom",
     "equip_action": "$equip_action"
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "big_boom",
+    "package_type": "auto",
+    "name": {
+      "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
+    },
+    "description": {
+      "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
+    },
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    },
+    "receive_actions": [
+      {
+        "type": "ltminigames:randomize",
+        "options": [
+          {
+            "data": {
+              "type": "ltminigames:run_commands",
+              "global": "execute as DinnerBeef run game package big_boom"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "ltminigames:run_commands",
+              "global": "execute as DinnerBeef run game package disguise_package"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "ltminigames:run_commands",
+              "global": "execute as DinnerBeef run game package rapid_fire"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
   }
 ]

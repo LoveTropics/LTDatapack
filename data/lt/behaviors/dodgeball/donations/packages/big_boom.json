@@ -2,9 +2,7 @@
   {
     "type": "ltminigames:donation_package",
     "id": "big_boom",
-    "package_type": "auto",
-    "donation_type": "package",
-    "category": "small",
+    "package_type": "chat_event",
     "player_select": "all",
     "name": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
@@ -12,7 +10,6 @@
     "description": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
     },
-    "donation_amount": 5,
     "notification": {
       "message": {
         "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
@@ -25,7 +22,6 @@
       "sound": "ltminigames:package_receive"
     },
     "receive_actions": [
-      "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:run_commands",
         "player": [

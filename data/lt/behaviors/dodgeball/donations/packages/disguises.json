@@ -1,7 +1,6 @@
 {
   "type": "lt:integrations/packages/random_disguise",
-  "package_type": "care_package",
-  "amount": 10,
+  "package_type": "chat_event",
   "options": [
     {
       "data": {
