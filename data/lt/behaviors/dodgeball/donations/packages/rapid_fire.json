@@ -21,7 +21,7 @@
   "receive_actions": [
     {
       "type": "ltminigames:run_commands",
-      "player": ["function lt:game/dodgeball/packages/rapid_fire/start"]
+      "entity": ["function lt:game/dodgeball/packages/rapid_fire/start"]
     },
     "$equip_action"
   ]

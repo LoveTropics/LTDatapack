@@ -48,7 +48,7 @@
       },
       {
         "type": "ltminigames:run_commands",
-        "player": "build enableAndActivate @s"
+        "entity": "build enableAndActivate @s"
       }
     ]
   },

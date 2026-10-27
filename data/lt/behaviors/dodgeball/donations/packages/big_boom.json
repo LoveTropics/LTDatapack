@@ -24,7 +24,7 @@
     "receive_actions": [
       {
         "type": "ltminigames:run_commands",
-        "player": [
+        "entity": [
           "function lt:game/dodgeball/packages/big_boom/start"
         ]
       },

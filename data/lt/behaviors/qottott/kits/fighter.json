@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:run_commands",
-    "player": "function lt:game/qottott/kit/fighter"
+    "entity": "function lt:game/qottott/kit/fighter"
   },
   {
     "type": "ltminigames:play_sound",

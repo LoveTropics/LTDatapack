@@ -4,6 +4,6 @@
   "subtitle": "$subtitle",
   "apply": {
     "type": "ltminigames:run_commands",
-    "player": "$command"
+    "entity": "$command"
   }
 }

@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:run_commands",
-    "player": "function lt:game/qottott/kit/opportunist"
+    "entity": "function lt:game/qottott/kit/opportunist"
   },
   {
     "type": "ltminigames:play_sound",

@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:run_commands",
-    "player": "function lt:game/qottott/kit/brawler"
+    "entity": "function lt:game/qottott/kit/brawler"
   },
   {
     "type": "ltminigames:play_sound",

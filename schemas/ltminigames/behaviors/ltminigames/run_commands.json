@@ -5,10 +5,19 @@
     "type": {
       "const": "ltminigames:run_commands"
     },
-    "global": {
-      "type": "string"
+    "regions": {
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array"
+          }
+        ]
+      }
     },
-    "player": {
+    "entity": {
       "items": {
         "anyOf": [
           {

@@ -95,7 +95,7 @@
     "regions": {
       "got_stuck_help": {
         "type": "ltminigames:run_commands",
-        "player": "tp @s 51 54 137"
+        "entity": "tp @s 51 54 137"
       }
     },
     "interval": 100

@@ -68,7 +68,7 @@
         },
         {
           "type": "ltminigames:run_commands",
-          "player": "execute on vehicle run data modify entity @s SpeedBoostTicks set value 9999999"
+          "entity": "execute on vehicle run data modify entity @s SpeedBoostTicks set value 9999999"
         }
       ]
     }

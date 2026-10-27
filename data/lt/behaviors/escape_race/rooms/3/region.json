@@ -18,7 +18,7 @@
         "actions": [
           {
             "type": "ltminigames:run_commands",
-            "player": ["data modify entity @e[type=minecraft:item_frame,limit=1,sort=nearest] Fixed set value true"]
+            "entity": ["data modify entity @e[type=minecraft:item_frame,limit=1,sort=nearest] Fixed set value true"]
           }
         ]
       },

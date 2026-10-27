@@ -61,12 +61,12 @@
           },
           {
             "type": "ltminigames:run_commands",
-            "player": "tag @s add levitation.yes"
+            "entity": "tag @s add levitation.yes"
           }
         ],
         "player_remove": {
           "type": "ltminigames:run_commands",
-          "player": "tag @s remove levitation.yes"
+          "entity": "tag @s remove levitation.yes"
         }
       }
     },
@@ -74,7 +74,11 @@
       "type": "ltminigames:phase_triggers/stop",
       "actions": {
         "type": "ltminigames:run_commands",
-        "global": "kill @e[current_world\u003dtrue,type\u003dminecraft:fishing_bobber]"
+        "regions": {
+          "end": [
+            "kill @e[current_world\u003dtrue,type\u003dminecraft:fishing_bobber]"
+          ]
+        }
       }
     },
     {
@@ -83,7 +87,7 @@
         "end": [
           {
             "type": "ltminigames:run_commands",
-            "player": [
+            "entity": [
               "tellraw @a[tag\u003dlevitation.yes] [{\"selector\":\"@s\",\"extra\":[{\"text\":\" has won the game!\"}]}]",
               "kill @e[current_world\u003dtrue,type\u003dminecraft:fishing_bobber]"
             ]

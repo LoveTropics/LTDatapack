@@ -50,7 +50,7 @@
     "actions": [
       {
         "type": "ltminigames:run_commands",
-        "player": ["scoreboard players set @s dodgeball.packages 0"]
+        "entity": ["scoreboard players set @s dodgeball.packages 0"]
       }
     ]
   },

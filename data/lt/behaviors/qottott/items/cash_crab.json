@@ -76,7 +76,7 @@
     ],
     "killer_action": {
       "type": "ltminigames:run_commands",
-      "player": "clear @s peekaboo:plushie"
+      "entity": "clear @s peekaboo:plushie"
     }
   },
   {

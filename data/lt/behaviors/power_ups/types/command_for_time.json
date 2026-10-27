@@ -8,11 +8,11 @@
     "seconds": "$seconds",
     "apply": {
       "type": "ltminigames:run_commands",
-      "player": "$start_command"
+      "entity": "$start_command"
     },
     "clear": {
       "type": "ltminigames:run_commands",
-      "player": "$end_command"
+      "entity": "$end_command"
     }
   }
 }

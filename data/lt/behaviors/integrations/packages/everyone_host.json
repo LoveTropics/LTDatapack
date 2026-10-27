@@ -30,14 +30,14 @@
       "target": "participants",
       "actions": {
         "type": "ltminigames:run_commands",
-        "player": ["disguise skin as @p[role=live]", "disguise name as {\"selector\":\"@p[role=live]\"}"]
+        "entity": ["disguise skin as @p[role=live]", "disguise name as {\"selector\":\"@p[role=live]\"}"]
       }
     },
     "clear": {
       "target": "all_players",
       "actions": {
         "type": "ltminigames:run_commands",
-        "player": ["disguise skin clear", "disguise name clear"]
+        "entity": ["disguise skin clear", "disguise name clear"]
       }
     },
     "seconds": "$seconds"
