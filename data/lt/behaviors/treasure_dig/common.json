@@ -13,12 +13,15 @@
     "spectators": ["spectator_spawn"]
   },
   {
-    "type": "ltminigames:treasure_dig",
-    "chests_region": "chests",
-    "loot_tables": {
+    "type": "ltminigames:fill_container_in_region_with_loot_table",
+    "region": "chests",
+    "block_loot_tables": {
       "minecraft:chest": "lt:river_race/micro_game/treasure_dig_1",
       "minecraft:trapped_chest": "lt:river_race/micro_game/treasure_dig_2"
-    },
+    }
+  },
+  {
+    "type": "ltminigames:treasure_dig",
     "points_map": {
       "minecraft:diamond": 3,
       "minecraft:gold_nugget": 2,
