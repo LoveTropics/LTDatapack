@@ -272,7 +272,8 @@
         "game": "deny",
         "config": "deny",
         "admin": "deny",
-        "((?!title|tellraw|give).)*": "deny"
+        "((?!title|tellraw|give).)*": "deny",
+        "voicechat": "deny"
       },
       "command_feedback": false,
       "join_access": {
