@@ -9,6 +9,7 @@
       "type": "ltminigames:parkour",
       "default_checkpoint": "parkour_checkpoint_1",
       "checkpoints": [
+        "parkour_checkpoint_0",
         "parkour_checkpoint_1",
         "parkour_checkpoint_2",
         "parkour_checkpoint_3",
