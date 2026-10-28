@@ -7,7 +7,7 @@
     },
     {
       "type": "ltminigames:parkour",
-      "default_checkpoint": "parkour_checkpoint_1",
+      "default_checkpoint": "parkour_checkpoint_0",
       "checkpoints": [
         "parkour_checkpoint_0",
         "parkour_checkpoint_1",
