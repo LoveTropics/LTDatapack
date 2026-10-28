@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "everything",
   "package_type": "sabotage_package",
-  "category": "large",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.everything"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.everything.description"
-  },
+  "target": "all_players",
   "donation_amount": "$donation_amount",
   "receive_actions": [
     {
@@ -20,15 +13,10 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.everything.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:cod_bucket"
       },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "neutral"
     }
   ]
 }

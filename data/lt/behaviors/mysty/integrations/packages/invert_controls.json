@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "invert_controls_package",
   "package_type": "sabotage_package",
-  "category": "medium",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.invert_controls_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.invert_controls_package.description"
-  },
+  "target": "all_players",
   "donation_amount": "$amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -35,15 +28,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.invert_controls_package.toast",
-        "color": "red"
-      },
       "icon": {
         "effect": "minecraft:nausea"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

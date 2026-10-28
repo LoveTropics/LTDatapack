@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "everyone_host",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.everyone_host"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.everyone_host.description"
-  },
+  "target": "all_players",
   "donation_amount": "$donation_amount",
   "receive_actions": [
     {
@@ -40,10 +33,6 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.everyone_host.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": {
           "id": "peekaboo:disguise",
@@ -57,8 +46,7 @@
           }
         }
       },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "neutral"
     }
   ]
 }

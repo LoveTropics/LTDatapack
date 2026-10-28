@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "slow_falling_package",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.slow_falling_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.slow_falling_package.description"
-  },
+  "target": "player",
   "donation_amount": "$amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -25,15 +18,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.slow_falling_package.toast",
-        "color": "red"
-      },
       "icon": {
         "effect": "minecraft:slow_falling"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

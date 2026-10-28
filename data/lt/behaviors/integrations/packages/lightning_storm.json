@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "lightning_storm",
   "package_type": "sabotage_package",
-  "category": "large",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.lightning_storm"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.lightning_storm.description"
-  },
+  "target": "all_players",
   "donation_amount": 20.0,
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -39,15 +32,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.lightning_storm.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:flint_and_steel"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

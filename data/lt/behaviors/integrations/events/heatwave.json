@@ -2,13 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "heatwave_event",
   "package_type": "chat_event",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.event.heatwave_event"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.event.heatwave_event.description"
-  },
+  "target": "all_players",
   "receive_actions": [
     {
       "type": "ltminigames:weather_event",
@@ -17,15 +11,10 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.event.heatwave_event.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "ltminigames:super_sunscreen"
       },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "negative"
     }
   ]
 }

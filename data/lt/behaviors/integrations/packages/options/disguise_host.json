@@ -35,8 +35,7 @@
           "components": {"peekaboo:disguise": {"entity": {"id": "dummyplayers:dummy_player"}}}
         }
       },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "neutral"
     }
   ]
 }

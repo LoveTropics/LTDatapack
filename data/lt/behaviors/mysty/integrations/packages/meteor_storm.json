@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "meteor_storm_package",
   "package_type": "sabotage_package",
-  "category": "large",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.meteor_storm_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.meteor_storm_package.description"
-  },
+  "target": "all_players",
   "donation_amount": "$amount",
   "receive_actions": [
     {
@@ -37,15 +30,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.meteor_storm_package.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:fire_charge"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

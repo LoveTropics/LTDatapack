@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "$id",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "all",
-  "name": {
-    "translate": "$name"
-  },
-  "description": {
-    "translate": "$description"
-  },
+  "target": "all_players",
   "donation_amount": "$donation_amount",
   "receive_actions": [
     {
@@ -52,8 +45,7 @@
           }
         }
       },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "neutral"
     }
   ]
 }

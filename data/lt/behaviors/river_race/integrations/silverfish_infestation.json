@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "silverfish_infestation",
   "package_type": "sabotage_package",
-  "category": "large",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.silverfish_infestation"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.silverfish_infestation.description"
-  },
+  "target": "player",
   "donation_amount": 50.0,
   "apply_to_team": true,
   "receive_actions": [
@@ -27,10 +20,6 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.silverfish_infestation.toast",
-        "color": "red"
-      },
       "icon": {
         "item": {
           "id": "peekaboo:plushie",
@@ -40,9 +29,7 @@
             }
           }
         }
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "steve_pick",
   "package_type": "care_package",
-  "category": "small",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.steve_pick"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.steve_pick.description"
-  },
+  "target": "player",
   "donation_amount": "$donation_amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -19,15 +12,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.steve_pick.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "minecraft:diamond_pickaxe"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

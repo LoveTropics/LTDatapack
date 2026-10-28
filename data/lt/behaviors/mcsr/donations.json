@@ -2,15 +2,8 @@
   "type": "ltminigames:donation_package",
   "id": "player_donation",
   "package_type": "care_package",
-  "category": "large",
-  "player_select": "specific",
+  "target": "player",
   "include_sub_phases": true,
-  "name": {
-    "translate": "ltminigames.minigame.donation.player_donation"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.player_donation.description"
-  },
   "receive_actions": [
     {
       "type": "ltminigames:increment_statistic",
@@ -33,15 +26,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.player_donation.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "ltextras:tropicoin"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

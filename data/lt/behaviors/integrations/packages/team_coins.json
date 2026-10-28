@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "team_coins",
   "package_type": "care_package",
-  "category": "small",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.team_coins"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.team_coins.description"
-  },
+  "target": "player",
   "donation_amount": 20.0,
   "apply_to_team": true,
   "receive_actions": [
@@ -25,15 +18,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.team_coins.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "ltextras:tropicoin"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

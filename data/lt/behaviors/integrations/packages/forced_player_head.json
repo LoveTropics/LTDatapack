@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "forced_player_head_package",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.forced_player_head_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.forced_player_head_package.description"
-  },
+  "target": "all_players",
   "donation_amount": 5.0,
   "receive_actions": [
     {
@@ -18,15 +11,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.forced_player_head_package.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:player_head"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

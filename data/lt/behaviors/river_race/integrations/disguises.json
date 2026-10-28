@@ -2,8 +2,6 @@
   {
     "type": "lt:integrations/packages/disguise",
     "id": "glorious_gibnuts",
-    "name": "ltminigames.minigame.donation.glorious_gibnuts",
-    "description": "ltminigames.minigame.donation.glorious_gibnuts.description",
     "toast": "ltminigames.minigame.donation.glorious_gibnuts.toast",
     "entity": {
       "id": "tropicraft:gibnut"
@@ -14,8 +12,6 @@
   {
     "type": "lt:integrations/packages/disguise_and_extra",
     "id": "this_will_be_a_breeze",
-    "name": "ltminigames.minigame.donation.this_will_be_a_breeze",
-    "description": "ltminigames.minigame.donation.this_will_be_a_breeze.description",
     "toast": "ltminigames.minigame.donation.this_will_be_a_breeze.toast",
     "entity": {
       "id": "minecraft:breeze"
@@ -33,8 +29,6 @@
   {
     "type": "lt:integrations/packages/disguise",
     "id": "seriously_shoebill",
-    "name": "ltminigames.minigame.donation.seriously_shoebill",
-    "description": "ltminigames.minigame.donation.seriously_shoebill.description",
     "toast": "ltminigames.minigame.donation.seriously_shoebill.toast",
     "entity": {
       "id": "tropicraft:shoebill_stork"

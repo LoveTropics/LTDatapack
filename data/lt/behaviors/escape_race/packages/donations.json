@@ -3,23 +3,15 @@
     "type": "ltminigames:donation_package",
     "id": "mute_team_vc",
     "package_type": "sabotage_package",
-    "category": "large",
-    "player_select": "specific",
-    "name": {"translate": "ltminigames.minigame.donation.mute_team_vc"},
-    "description": {"translate": "ltminigames.minigame.donation.mute_team_vc.description"},
+    "target": "player",
     "donation_amount": 50.0,
     "apply_to_team": true,
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.mute_team_vc.toast",
-        "color": "red"
-      },
-      "icon": {"item": "minecraft:white_wool"},
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
-    },
     "receive_actions": [
-      "ltminigames:give_player_head_package"
+      "ltminigames:give_player_head_package",
+      {
+        "type": "ltminigames:notify_package",
+        "icon": {"item": "minecraft:white_wool"}
+      }
     ]
   },
   {
@@ -34,25 +26,17 @@
     "type": "ltminigames:donation_package",
     "id": "knockback_package",
     "package_type": "care_package",
-    "category": "small",
-    "player_select": "specific",
-    "name": {"translate": "ltminigames.minigame.donation.knockback_package"},
-    "description": {"translate": "ltminigames.minigame.donation.knockback_package.description"},
+    "target": "player",
     "donation_amount": 20.0,
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.knockback_package.toast",
-        "color": "light_purple"
-      },
-      "icon": {"item": "minecraft:stick"},
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
-    },
     "receive_actions": [
       "ltminigames:give_player_head_package",
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/yeeter_package"
+      },
+      {
+        "type": "ltminigames:notify_package",
+        "icon": {"item": "minecraft:stick"}
       }
     ]
   }

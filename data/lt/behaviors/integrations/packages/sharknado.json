@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "sharknado",
   "package_type": "sabotage_package",
-  "category": "large",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.sharknado"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.sharknado.description"
-  },
+  "target": "all_players",
   "donation_amount": 50.0,
   "receive_actions": [
     {
@@ -30,15 +23,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.sharknado.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "minecraft:milk_bucket"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

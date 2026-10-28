@@ -34,8 +34,7 @@
       "icon": {
         "item": {"id": "peekaboo:disguise", "count": 1, "components": {"peekaboo:disguise": {"entity": "$entity"}}}
       },
-      "sentiment": "neutral",
-      "sound": "ltminigames:sabotage_receive"
+      "sentiment": "neutral"
     }
   ]
 }

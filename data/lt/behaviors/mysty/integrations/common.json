@@ -5,8 +5,6 @@
   {
     "type": "lt:mysty/integrations/packages/disguise",
     "id": "player_dummy_package",
-    "name": "ltminigames.minigame.donation.player_dummy_package",
-    "description": "ltminigames.minigame.donation.player_dummy_package.description",
     "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
     "entity": {
       "id": "dummyplayers:dummy_player",
@@ -18,8 +16,8 @@
   {
     "type": "lt:mysty/integrations/packages/disguise",
     "id": "player_crab_package",
-    "name": "ltminigames.minigame.donation.crab_package",
-    "description": "ltminigames.minigame.donation.crab.description",
+    "name": {"translate": "ltminigames.minigame.donation.crab_package"},
+    "description": {"translate": "ltminigames.minigame.donation.crab.description"},
     "toast": "ltminigames.minigame.donation.crab.toast",
     "entity": {
       "id": "tropicraft:fiddler_crab"

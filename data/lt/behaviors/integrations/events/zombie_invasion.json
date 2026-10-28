@@ -2,13 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "zombie_invasion_event",
   "package_type": "chat_event",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.event.zombie_invasion_event"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.event.zombie_invasion_event.description"
-  },
+  "target": "all_players",
   "receive_actions": [
     {
       "type": "ltminigames:show_title",
@@ -50,10 +44,6 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.event.zombie_invasion_event.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:zombie_head"
       },

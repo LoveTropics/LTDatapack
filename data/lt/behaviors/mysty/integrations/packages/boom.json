@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "boom_package",
   "package_type": "care_package",
-  "category": "small",
-  "player_select": "all",
-  "name": {
-    "translate": "ltminigames.minigame.donation.boom_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.boom_package.description"
-  },
+  "target": "all_players",
   "donation_amount": "$amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -19,15 +12,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.boom_package.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "tropicraft:exploding_coconut"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

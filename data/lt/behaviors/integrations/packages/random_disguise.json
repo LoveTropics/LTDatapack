@@ -3,8 +3,7 @@
     "type": "ltminigames:donation_package",
     "id": "disguise_package",
     "package_type": "$package_type",
-    "category": "small",
-    "player_select": "all",
+    "target": "all_players",
     "name": {
       "translate": "Random Disguise"
     },

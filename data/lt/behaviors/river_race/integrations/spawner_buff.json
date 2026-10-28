@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "spawner_buff",
   "package_type": "sabotage_package",
-  "category": "medium",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.spawner_buff"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.spawner_buff.description"
-  },
+  "target": "player",
   "donation_amount": 50.0,
   "apply_to_team": true,
   "receive_actions": [
@@ -27,15 +20,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.spawner_buff.toast",
-        "color": "red"
-      },
       "icon": {
         "item": "minecraft:spawner"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

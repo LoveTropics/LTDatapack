@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "money_grows_on_trees",
   "package_type": "care_package",
-  "category": "medium",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.money_grows_on_trees"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.money_grows_on_trees.description"
-  },
+  "target": "player",
   "donation_amount": 80.0,
   "apply_to_team": true,
   "receive_actions": [
@@ -22,15 +15,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.money_grows_on_trees.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "ltextras:tropicoin"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

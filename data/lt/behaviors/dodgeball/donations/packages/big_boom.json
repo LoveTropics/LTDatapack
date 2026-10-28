@@ -3,23 +3,12 @@
     "type": "ltminigames:donation_package",
     "id": "big_boom",
     "package_type": "chat_event",
-    "player_select": "all",
+    "target": "all_players",
     "name": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
     },
     "description": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
-    },
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": "tropicraft:exploding_coconut"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
     },
     "receive_actions": [
       {
@@ -28,7 +17,18 @@
           "function lt:game/dodgeball/packages/big_boom/start"
         ]
       },
-      "$equip_action"
+      "$equip_action",
+      {
+        "type": "ltminigames:notify_package",
+        "message": {
+          "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
+          "color": "light_purple"
+        },
+        "icon": {
+          "item": "tropicraft:exploding_coconut"
+        },
+        "sentiment": "positive"
+      }
     ]
   }
 ]

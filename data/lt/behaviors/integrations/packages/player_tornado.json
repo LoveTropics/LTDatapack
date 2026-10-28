@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "player_tornado",
   "package_type": "care_package",
-  "category": "large",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.player_tornado"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.player_tornado.description"
-  },
+  "target": "player",
   "donation_amount": 50.0,
   "receive_actions": [
     {
@@ -27,15 +20,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.player_tornado.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "minecraft:milk_bucket"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

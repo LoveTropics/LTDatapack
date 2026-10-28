@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "puffer_package",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.puffer_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.puffer_package.description"
-  },
+  "target": "player",
   "donation_amount": 10.0,
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -31,9 +24,7 @@
       },
       "icon": {
         "item": "minecraft:pufferfish"
-      },
-      "sentiment": "negative",
-      "sound": "ltminigames:sabotage_receive"
+      }
     }
   ]
 }

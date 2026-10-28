@@ -25,17 +25,7 @@
     "description": {
       "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
     },
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": "tropicraft:exploding_coconut"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
-    },
+    "target": "all_players",
     "receive_actions": [
       {
         "type": "ltminigames:randomize",
@@ -62,6 +52,17 @@
             "weight": 1
           }
         ]
+      },
+      {
+        "type": "ltminigames:notify_package",
+        "message": {
+          "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
+          "color": "light_purple"
+        },
+        "icon": {
+          "item": "tropicraft:exploding_coconut"
+        },
+        "sentiment": "positive"
       }
     ]
   }

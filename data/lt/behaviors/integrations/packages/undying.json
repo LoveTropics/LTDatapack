@@ -2,14 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "undying_package",
   "package_type": "care_package",
-  "category": "large",
-  "player_select": "specific",
-  "name": {
-    "translate": "ltminigames.minigame.donation.undying_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.undying_package.description"
-  },
+  "target": "player",
   "donation_amount": "$donation_amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
@@ -19,15 +12,9 @@
     },
     {
       "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.undying_package.toast",
-        "color": "light_purple"
-      },
       "icon": {
         "item": "minecraft:totem_of_undying"
-      },
-      "sentiment": "positive",
-      "sound": "ltminigames:package_receive"
+      }
     }
   ]
 }

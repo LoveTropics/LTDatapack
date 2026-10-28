@@ -2,8 +2,7 @@
   "type": "ltminigames:donation_package",
   "id": "swap_players_package",
   "package_type": "sabotage_package",
-  "category": "small",
-  "player_select": "all",
+  "target": "all_players",
   "name": {
     "translate": "ltminigames.minigame.donation.swap"
   },
