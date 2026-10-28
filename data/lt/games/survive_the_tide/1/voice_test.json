@@ -1,0 +1,53 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_1",
+    "color": "green",
+    "extra": [
+      " (Voice test)"
+    ]
+  },
+  "icon": "ltminigames:minigames/survive_the_tide/icon",
+  "minimum_participants": 3,
+  "maximum_participants": 1000,
+  "intro_slideshow": "lt:game/survive_the_tide/ffa_1",
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/survive_the_tide/survive_the_tide_1",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:survive_the_tide_1",
+      "statistics_key": "survive_the_tide"
+    },
+    "lt:survive_the_tide/1/map",
+    "lt:survive_the_tide/1/phases",
+    "lt:survive_the_tide/mode/ffa",
+    "lt:survive_the_tide/1/weather",
+    "lt:survive_the_tide/common",
+
+    {
+      "type": "ltgames_voice:voice_chat",
+      "open_to_everyone": true
+    },
+    "lt:integrations/packages/bad_mic"
+  ]
+}
