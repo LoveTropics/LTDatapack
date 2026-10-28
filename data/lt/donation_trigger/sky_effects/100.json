@@ -7,7 +7,7 @@
     },
     "action": {
       "type": "run_function",
-      "function": "lt:donation_effects/sky_effects/love_world"
+      "function": "lt:donation_effects/sky_effects/1000"
     }
   }
 ]
