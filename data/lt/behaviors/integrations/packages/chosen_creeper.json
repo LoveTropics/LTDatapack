@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "medium",
   "player_select": "specific",
-  "name": {"translate": "ltminigames.minigame.donation.chosen_creeper_package"},
-  "description": {"translate": "ltminigames.minigame.donation.chosen_creeper_package.description"},
-  "donation_amount": 25.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.chosen_creeper_package.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:creeper_head"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.chosen_creeper_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.chosen_creeper_package.description"
+  },
+  "donation_amount": 25.0,
   "receive_actions": [
     "ltminigames:give_player_head_package",
     {
@@ -27,6 +22,18 @@
         }
       },
       "distance": 3.0
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.chosen_creeper_package.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:creeper_head"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "specific",
-  "name": {"translate": "ltminigames.minigame.donation.meteor_strike_package"},
-  "description": {"translate": "ltminigames.minigame.donation.meteor_strike_package.description"},
-  "donation_amount": 35.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.meteor_strike_package.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:fire_charge"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.meteor_strike_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.meteor_strike_package.description"
+  },
+  "donation_amount": 35.0,
   "receive_actions": [
     {
       "type": "ltminigames:shoot_projectiles_at_player",
@@ -26,6 +21,18 @@
       "spawn_rate_base": 20,
       "spawn_rate_random": 20,
       "explosion_strength": 2
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.meteor_strike_package.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:fire_charge"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

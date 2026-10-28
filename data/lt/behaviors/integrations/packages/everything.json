@@ -4,22 +4,31 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.everything"},
-  "description": {"translate": "ltminigames.minigame.donation.everything.description"},
-  "donation_amount": "$donation_amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.everything.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:cod_bucket"},
-    "sentiment": "neutral",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.everything"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.everything.description"
+  },
+  "donation_amount": "$donation_amount",
   "receive_actions": [
     {
       "type": "ltminigames:trigger_every_package",
-      "exclude": ["its_been_fun"]
+      "exclude": [
+        "its_been_fun"
+      ]
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.everything.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:cod_bucket"
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

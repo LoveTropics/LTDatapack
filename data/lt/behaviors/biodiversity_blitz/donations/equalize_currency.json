@@ -4,19 +4,26 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.equalize_currency"},
-  "description": {"translate": "ltminigames.minigame.donation.equalize_currency.description"},
-  "donation_amount": 20.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.equalize_currency.toast",
-      "color": "gold"
-    },
-    "icon": {"item": "ltminigames:osa_point"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.equalize_currency"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.equalize_currency.description"
+  },
+  "donation_amount": 20.0,
   "receive_actions": [
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.equalize_currency.toast",
+        "color": "gold"
+      },
+      "icon": {
+        "item": "ltminigames:osa_point"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
+    },
     "ltminigames:equalize_currency"
   ]
 }

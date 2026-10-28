@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "specific",
-  "name": {"translate": "ltminigames.minigame.donation.lightning_strike"},
-  "description": {"translate": "ltminigames.minigame.donation.lightning_strike.description"},
-  "donation_amount": "$donation_amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.lightning_strike.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:flint_and_steel"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.lightning_strike"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.lightning_strike.description"
+  },
+  "donation_amount": "$donation_amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
     {
@@ -24,6 +19,18 @@
         "type": "ltminigames:quiet_lightning_bolt"
       },
       "damage_player_amount": 7.0
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.lightning_strike.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:flint_and_steel"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

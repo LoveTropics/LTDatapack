@@ -3,16 +3,11 @@
   "id": "zombie_invasion_event",
   "package_type": "chat_event",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.event.zombie_invasion_event"},
-  "description": {"translate": "ltminigames.minigame.event.zombie_invasion_event.description"},
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.event.zombie_invasion_event.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:zombie_head"},
-    "sentiment": "negative",
-    "sound": "entity.wither.spawn"
+  "name": {
+    "translate": "ltminigames.minigame.event.zombie_invasion_event"
+  },
+  "description": {
+    "translate": "ltminigames.minigame.event.zombie_invasion_event.description"
   },
   "receive_actions": [
     {
@@ -52,6 +47,18 @@
       "spawn_distance_max": 20,
       "spawn_range_y": 10,
       "spawn_try_rate": 10
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.event.zombie_invasion_event.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:zombie_head"
+      },
+      "sentiment": "negative",
+      "sound": "entity.wither.spawn"
     }
   ]
 }

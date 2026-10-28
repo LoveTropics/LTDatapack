@@ -4,18 +4,13 @@
   "package_type": "care_package",
   "category": "small",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.wind_charge_package"},
-  "description": {"translate": "ltminigames.minigame.donation.wind_charge_package.description"},
-  "donation_amount": "$donation_amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.wind_charge_package.toast",
-      "color": "light_purple"
-    },
-    "icon": {"item": "minecraft:wind_charge"},
-    "sentiment": "positive",
-    "sound": "ltminigames:package_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.wind_charge_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.wind_charge_package.description"
+  },
+  "donation_amount": "$donation_amount",
   "receive_actions": [
     {
       "type": "ltminigames:add_equipment",
@@ -26,6 +21,18 @@
           "ltextras:undroppable": {}
         }
       }
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.wind_charge_package.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "minecraft:wind_charge"
+      },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
     }
   ]
 }

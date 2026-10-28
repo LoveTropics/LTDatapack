@@ -4,28 +4,37 @@
   "package_type": "sabotage_package",
   "category": "medium",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.global_leaky_pockets"},
-  "description": {"translate": "ltminigames.minigame.donation.global_leaky_pockets.description"},
-  "donation_amount": 15.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.global_leaky_pockets.toast",
-      "color": "light_purple"
-    },
-    "icon": {"item": "ltextras:tropicoin"},
-    "sentiment": "neutral",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.global_leaky_pockets"
   },
-  "receive_actions": {
-    "type": "ltminigames:give_effect",
-    "effects": [
-      {
-        "type": "ltminigames:leaky_pockets",
-        "seconds": 30,
-        "amplifier": 1,
-        "particles": false,
-        "show_icon": true
-      }
-    ]
-  }
+  "description": {
+    "translate": "ltminigames.minigame.donation.global_leaky_pockets.description"
+  },
+  "donation_amount": 15.0,
+  "receive_actions": [
+    {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "ltminigames:leaky_pockets",
+          "seconds": 30,
+          "amplifier": 1,
+          "particles": false,
+          "show_icon": true
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.global_leaky_pockets.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "ltextras:tropicoin"
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    }
+  ]
 }

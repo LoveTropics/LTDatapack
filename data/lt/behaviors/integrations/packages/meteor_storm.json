@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.meteor_storm_package"},
-  "description": {"translate": "ltminigames.minigame.donation.meteor_storm_package.description"},
-  "donation_amount": 25.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.meteor_storm_package.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:fire_charge"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.meteor_storm_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.meteor_storm_package.description"
+  },
+  "donation_amount": 25.0,
   "receive_actions": [
     {
       "type": "ltminigames:show_title",
@@ -56,6 +51,18 @@
           }
         }
       ]
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.meteor_storm_package.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:fire_charge"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

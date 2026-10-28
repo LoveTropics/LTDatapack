@@ -3,16 +3,11 @@
   "id": "meteor_shower_event",
   "package_type": "chat_event",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.event.meteor_shower_event"},
-  "description": {"translate": "ltminigames.minigame.event.meteor_shower_event.description"},
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.event.meteor_shower_event.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:fire_charge"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.event.meteor_shower_event"
+  },
+  "description": {
+    "translate": "ltminigames.minigame.event.meteor_shower_event.description"
   },
   "receive_actions": [
     {
@@ -37,6 +32,18 @@
       "spawn_rate_base": 10,
       "spawn_rate_random": 10,
       "explosion_strength": 2
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.event.meteor_shower_event.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:fire_charge"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

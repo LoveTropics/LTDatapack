@@ -4,23 +4,30 @@
   "package_type": "care_package",
   "category": "small",
   "player_select": "specific",
-  "name": { "translate": "ltminigames.minigame.donation.boom_package" },
-  "description": { "translate": "ltminigames.minigame.donation.boom_package.description" },
-  "donation_amount": "$amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.boom_package.toast",
-      "color": "light_purple"
-    },
-    "icon": { "item": "tropicraft:exploding_coconut" },
-    "sentiment": "positive",
-    "sound": "ltminigames:package_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.boom_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.boom_package.description"
+  },
+  "donation_amount": "$amount",
   "receive_actions": [
     "ltminigames:give_player_head_package",
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/boom_package"
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.boom_package.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
     }
   ]
 }

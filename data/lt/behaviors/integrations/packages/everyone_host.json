@@ -4,42 +4,61 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.everyone_host"},
-  "description": {"translate": "ltminigames.minigame.donation.everyone_host.description"},
-  "donation_amount": "$donation_amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.everyone_host.toast",
-      "color": "light_purple"
-    },
-    "icon": {
-      "item": {
-        "id": "peekaboo:disguise",
-        "count": 1,
-        "components": {"peekaboo:disguise": {"entity": {"id": "dummyplayers:dummy_player"}}}
-      }
-    },
-    "sentiment": "neutral",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.everyone_host"
   },
-  "receive_actions": {
-    "type": "ltminigames:apply_for_time",
-    "mutex": "lt:disguise_package",
-    "force_acquire_mutex": true,
-    "apply": {
-      "target": "participants",
-      "actions": {
-        "type": "ltminigames:run_commands",
-        "entity": ["disguise skin as @p[role=live]", "disguise name as {\"selector\":\"@p[role=live]\"}"]
-      }
+  "description": {
+    "translate": "ltminigames.minigame.donation.everyone_host.description"
+  },
+  "donation_amount": "$donation_amount",
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:disguise_package",
+      "force_acquire_mutex": true,
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:run_commands",
+          "entity": [
+            "disguise skin as @p[role\u003dlive]",
+            "disguise name as {\"selector\":\"@p[role\u003dlive]\"}"
+          ]
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:run_commands",
+          "entity": [
+            "disguise skin clear",
+            "disguise name clear"
+          ]
+        }
+      },
+      "seconds": "$seconds"
     },
-    "clear": {
-      "target": "all_players",
-      "actions": {
-        "type": "ltminigames:run_commands",
-        "entity": ["disguise skin clear", "disguise name clear"]
-      }
-    },
-    "seconds": "$seconds"
-  }
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.everyone_host.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": {
+          "id": "peekaboo:disguise",
+          "count": 1,
+          "components": {
+            "peekaboo:disguise": {
+              "entity": {
+                "id": "dummyplayers:dummy_player"
+              }
+            }
+          }
+        }
+      },
+      "sentiment": "neutral",
+      "sound": "ltminigames:sabotage_receive"
+    }
+  ]
 }

@@ -9,20 +9,25 @@
   "description": {
     "translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.description"
   },
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.toast",
-      "color": "light_purple"
-    },
-    "icon": {"item": "tropicraft:exploding_coconut"},
-    "sentiment": "positive",
-    "sound": "ltminigames:package_receive"
-  },
   "receive_actions": [
     {
       "type": "ltminigames:run_commands",
-      "entity": ["function lt:game/dodgeball/packages/rapid_fire/start"]
+      "entity": [
+        "function lt:game/dodgeball/packages/rapid_fire/start"
+      ]
     },
-    "$equip_action"
+    "$equip_action",
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
+    }
   ]
 }

@@ -3,16 +3,11 @@
   "id": "lightning_storm_event",
   "package_type": "chat_event",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.event.lightning_storm_event"},
-  "description": {"translate": "ltminigames.minigame.event.lightning_storm_event.description"},
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.event.lightning_storm_event.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:fire_charge"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.event.lightning_storm_event"
+  },
+  "description": {
+    "translate": "ltminigames.minigame.event.lightning_storm_event.description"
   },
   "receive_actions": [
     {
@@ -35,7 +30,21 @@
       },
       "entity_count": 20,
       "ticks_to_spawn_for": 800,
-      "regions_to_spawn_at": ["tide_area"]
+      "regions_to_spawn_at": [
+        "tide_area"
+      ]
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.event.lightning_storm_event.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:fire_charge"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

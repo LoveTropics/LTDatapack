@@ -4,17 +4,13 @@
   "package_type": "sabotage_package",
   "category": "small",
   "player_select": "all",
-  "name": { "translate": "ltminigames.minigame.donation.swap" },
-  "description": { "translate": "ltminigames.minigame.donation.swap.description" },
-  "donation_amount": "$amount",
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.swap.toast",
-      "color": "red"
-    },
-    "icon": { "effect": "minecraft:unluck" },
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.swap"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.swap.description"
+  },
+  "donation_amount": "$amount",
   "receive_actions": [
     {
       "type": "ltminigames:countdown_action",
@@ -26,6 +22,17 @@
       "actions": {
         "type": "ltminigames:swap_players"
       }
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.swap.toast",
+        "color": "red"
+      },
+      "icon": {
+        "effect": "minecraft:unluck"
+      },
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

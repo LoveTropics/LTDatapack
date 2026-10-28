@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.surprise_creepers"},
-  "description": {"translate": "ltminigames.minigame.donation.surprise_creepers.description"},
-  "donation_amount": 20.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.surprise_creepers.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:creeper_spawn_egg"},
-    "sentiment": "negative",
-    "sound": "ltminigames:sabotage_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.surprise_creepers"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.surprise_creepers.description"
+  },
+  "donation_amount": 20.0,
   "receive_actions": [
     {
       "type": "ltminigames:countdown_action",
@@ -28,6 +23,18 @@
         "type": "ltminigames:spawn_surprise_wave",
         "wave_size": 3
       }
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.surprise_creepers.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:creeper_spawn_egg"
+      },
+      "sentiment": "negative",
+      "sound": "ltminigames:sabotage_receive"
     }
   ]
 }

@@ -4,18 +4,13 @@
   "package_type": "sabotage_package",
   "category": "large",
   "player_select": "all",
-  "name": {"translate": "ltminigames.minigame.donation.zombie_invasion_package"},
-  "description": {"translate": "ltminigames.minigame.donation.zombie_invasion_package.description"},
-  "donation_amount": 25.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.zombie_invasion_package.toast",
-      "color": "red"
-    },
-    "icon": {"item": "minecraft:zombie_head"},
-    "sentiment": "negative",
-    "sound": "entity.wither.spawn"
+  "name": {
+    "translate": "ltminigames.minigame.donation.zombie_invasion_package"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.zombie_invasion_package.description"
+  },
+  "donation_amount": 25.0,
   "receive_actions": [
     {
       "type": "ltminigames:show_title",
@@ -63,6 +58,18 @@
       "spawn_range_y": 10,
       "spawn_try_rate": 10,
       "max_entity_count": 150
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.zombie_invasion_package.toast",
+        "color": "red"
+      },
+      "icon": {
+        "item": "minecraft:zombie_head"
+      },
+      "sentiment": "negative",
+      "sound": "entity.wither.spawn"
     }
   ]
 }

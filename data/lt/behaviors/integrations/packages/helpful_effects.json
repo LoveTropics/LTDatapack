@@ -4,20 +4,17 @@
   "package_type": "care_package",
   "category": "small",
   "player_select": "specific",
-  "name": {"translate": "ltminigames.minigame.donation.helpful_effects"},
-  "description": {"translate": "ltminigames.minigame.donation.helpful_effects.description"},
-  "donation_amount": 5.0,
-  "notification": {
-    "message": {
-      "translate": "ltminigames.minigame.donation.helpful_effects.toast",
-      "color": "light_purple"
-    },
-    "icon": {"effect": "minecraft:regeneration"},
-    "sentiment": "positive",
-    "sound": "ltminigames:package_receive"
+  "name": {
+    "translate": "ltminigames.minigame.donation.helpful_effects"
   },
+  "description": {
+    "translate": "ltminigames.minigame.donation.helpful_effects.description"
+  },
+  "donation_amount": 5.0,
   "receive_actions": [
-    {"type": "ltminigames:give_player_head_package"},
+    {
+      "type": "ltminigames:give_player_head_package"
+    },
     {
       "type": "ltminigames:give_effect",
       "effects": [
@@ -37,6 +34,18 @@
           "amplifier": 1
         }
       ]
+    },
+    {
+      "type": "ltminigames:notify_package",
+      "message": {
+        "translate": "ltminigames.minigame.donation.helpful_effects.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "effect": "minecraft:regeneration"
+      },
+      "sentiment": "positive",
+      "sound": "ltminigames:package_receive"
     }
   ]
 }
