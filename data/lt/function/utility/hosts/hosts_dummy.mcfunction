@@ -1,6 +1,7 @@
 scoreboard objectives add global.utility dummy
 scoreboard players set count global.utility 0
 execute as @a[role=live] run scoreboard players add count global.utility 1
+execute as @a[role=live] run say @s
 tag @a[role=live,role=!river_race_blue,limit=1] add p_host_01
 tag @a[role=live,tag=!p_host_01,role=!river_race_blue,limit=1] add p_host_02
 tag @a[role=live,tag=!p_host_01,tag=!p_host_02,role=!river_race_blue,limit=1] add p_host_03
