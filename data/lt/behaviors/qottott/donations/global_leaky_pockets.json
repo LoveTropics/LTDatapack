@@ -16,13 +16,12 @@
           "show_icon": true
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltextras:tropicoin"
-      },
-      "sentiment": "neutral"
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltextras:tropicoin"
+    },
+    "sentiment": "neutral"
+  }
 }

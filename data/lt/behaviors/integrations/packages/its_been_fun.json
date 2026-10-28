@@ -17,12 +17,11 @@
       "entity": {
         "type": "minecraft:tnt"
       }
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:tnt"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:tnt"
+    }
+  }
 }

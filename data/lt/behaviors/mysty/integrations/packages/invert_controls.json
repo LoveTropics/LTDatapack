@@ -25,12 +25,11 @@
         }
       },
       "seconds": "$seconds"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "effect": "minecraft:nausea"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:nausea"
+    }
+  }
 }

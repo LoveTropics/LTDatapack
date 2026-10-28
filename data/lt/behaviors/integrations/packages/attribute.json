@@ -28,17 +28,16 @@
         }
       },
       "seconds": "$seconds"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "$toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": "$icon"
-      },
-      "sentiment": "neutral"
     }
-  ]
+  ],
+  "notification": {
+    "message": {
+      "translate": "$toast",
+      "color": "light_purple"
+    },
+    "icon": {
+      "item": "$icon"
+    },
+    "sentiment": "neutral"
+  }
 }

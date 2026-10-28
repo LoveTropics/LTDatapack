@@ -16,17 +16,16 @@
         "function lt:game/dodgeball/packages/rapid_fire/start"
       ]
     },
-    "$equip_action",
-    {
-      "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": "tropicraft:exploding_coconut"
-      },
-      "sentiment": "positive"
-    }
-  ]
+    "$equip_action"
+  ],
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.dodgeball.rapid_fire.toast",
+      "color": "light_purple"
+    },
+    "icon": {
+      "item": "tropicraft:exploding_coconut"
+    },
+    "sentiment": "positive"
+  }
 }

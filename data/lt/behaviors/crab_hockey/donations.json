@@ -2,8 +2,14 @@
   {
     "type": "ltminigames:block_packages_during_phase",
     "block_periods": [
-      [0, "start"],
-      ["end", "close"]
+      [
+        0,
+        "start"
+      ],
+      [
+        "end",
+        "close"
+      ]
     ]
   },
   {
@@ -51,24 +57,23 @@
           "type": "ltminigames:allow_player_knockback"
         },
         "seconds": 60
-      },
-      {
-        "type": "ltminigames:notify_package",
-        "icon": {
-          "item": {
-            "id": "peekaboo:disguise",
-            "count": 1,
-            "components": {
-              "peekaboo:disguise": {
-                "entity": {
-                  "id": "tropicraft:fiddler_crab"
-                }
+      }
+    ],
+    "notification": {
+      "icon": {
+        "item": {
+          "id": "peekaboo:disguise",
+          "count": 1,
+          "components": {
+            "peekaboo:disguise": {
+              "entity": {
+                "id": "tropicraft:fiddler_crab"
               }
             }
           }
         }
       }
-    ]
+    }
   },
   {
     "type": "ltminigames:donation_package",
@@ -85,15 +90,21 @@
           "scope": "global"
         },
         "target": "none"
-      },
-      {
-        "type": "ltminigames:notify_package",
-        "icon": {
-          "item": {"id": "peekaboo:plushie", "components": {"peekaboo:entity": {"id": "tropicraft:fiddler_crab"}}}
-        },
-        "sentiment": "neutral"
       }
-    ]
+    ],
+    "notification": {
+      "icon": {
+        "item": {
+          "id": "peekaboo:plushie",
+          "components": {
+            "peekaboo:entity": {
+              "id": "tropicraft:fiddler_crab"
+            }
+          }
+        }
+      },
+      "sentiment": "neutral"
+    }
   },
   {
     "type": "ltminigames:donation_package",
@@ -110,13 +121,19 @@
           "scope": "global"
         },
         "target": "none"
-      },
-      {
-        "type": "ltminigames:notify_package",
-        "icon": {
-          "item": {"id": "peekaboo:plushie", "components": {"peekaboo:entity": {"id": "tropicraft:fiddler_crab"}}}
+      }
+    ],
+    "notification": {
+      "icon": {
+        "item": {
+          "id": "peekaboo:plushie",
+          "components": {
+            "peekaboo:entity": {
+              "id": "tropicraft:fiddler_crab"
+            }
+          }
         }
       }
-    ]
+    }
   }
 ]

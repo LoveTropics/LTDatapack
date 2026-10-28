@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/steve_pick"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:diamond_pickaxe"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  }
 }

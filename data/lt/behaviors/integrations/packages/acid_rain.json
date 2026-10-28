@@ -9,12 +9,11 @@
       "type": "ltminigames:weather_event",
       "event": "acid_rain",
       "seconds": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:water_bucket"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    }
+  }
 }

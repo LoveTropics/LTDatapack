@@ -12,12 +12,11 @@
         "type": "ltminigames:quiet_lightning_bolt"
       },
       "damage_player_amount": 7.0
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:flint_and_steel"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    }
+  }
 }

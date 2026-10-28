@@ -51,13 +51,12 @@
       "spawn_range_y": 10,
       "spawn_try_rate": 10,
       "max_entity_count": 150
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:zombie_head"
-      },
-      "sound": "entity.wither.spawn"
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "sound": "entity.wither.spawn"
+  }
 }

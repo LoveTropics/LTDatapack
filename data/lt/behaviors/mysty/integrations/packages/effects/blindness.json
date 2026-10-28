@@ -15,12 +15,11 @@
           "amplifier": "$amplifier"
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "effect": "minecraft:blindness"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:blindness"
+    }
+  }
 }

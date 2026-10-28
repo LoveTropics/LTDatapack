@@ -15,16 +15,15 @@
       "entity": {
         "type": "minecraft:pufferfish"
       }
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.puffer_package",
-        "color": "red"
-      },
-      "icon": {
-        "item": "minecraft:pufferfish"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.puffer_package",
+      "color": "red"
+    },
+    "icon": {
+      "item": "minecraft:pufferfish"
+    }
+  }
 }

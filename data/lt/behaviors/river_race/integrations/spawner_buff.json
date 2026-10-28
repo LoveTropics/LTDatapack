@@ -17,12 +17,11 @@
           "duration_ticks": 1200
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:spawner"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:spawner"
+    }
+  }
 }

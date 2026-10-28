@@ -23,12 +23,11 @@
         "color": "gold"
       },
       "stay": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltextras:tropicoin"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltextras:tropicoin"
+    }
+  }
 }

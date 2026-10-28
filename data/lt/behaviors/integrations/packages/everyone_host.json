@@ -30,23 +30,22 @@
         }
       },
       "seconds": "$seconds"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": {
-          "id": "peekaboo:disguise",
-          "count": 1,
-          "components": {
-            "peekaboo:disguise": {
-              "entity": {
-                "id": "dummyplayers:dummy_player"
-              }
+    }
+  ],
+  "notification": {
+    "icon": {
+      "item": {
+        "id": "peekaboo:disguise",
+        "count": 1,
+        "components": {
+          "peekaboo:disguise": {
+            "entity": {
+              "id": "dummyplayers:dummy_player"
             }
           }
         }
-      },
-      "sentiment": "neutral"
-    }
-  ]
+      }
+    },
+    "sentiment": "neutral"
+  }
 }

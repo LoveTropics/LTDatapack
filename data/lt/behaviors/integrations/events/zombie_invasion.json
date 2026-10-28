@@ -41,14 +41,13 @@
       "spawn_distance_max": 20,
       "spawn_range_y": 10,
       "spawn_try_rate": 10
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:zombie_head"
-      },
-      "sentiment": "negative",
-      "sound": "entity.wither.spawn"
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "sentiment": "negative",
+    "sound": "entity.wither.spawn"
+  }
 }

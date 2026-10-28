@@ -14,12 +14,11 @@
       "spawn_rate_base": 20,
       "spawn_rate_random": 20,
       "explosion_strength": 2
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:fire_charge"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    }
+  }
 }

@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/wind_charge"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:wind_charge"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:wind_charge"
+    }
+  }
 }

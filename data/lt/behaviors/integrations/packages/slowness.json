@@ -15,12 +15,11 @@
           "amplifier": 4
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "effect": "minecraft:slowness"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:slowness"
+    }
+  }
 }

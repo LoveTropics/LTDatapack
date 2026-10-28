@@ -16,12 +16,11 @@
         }
       },
       "distance": 3.0
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:creeper_head"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    }
+  }
 }

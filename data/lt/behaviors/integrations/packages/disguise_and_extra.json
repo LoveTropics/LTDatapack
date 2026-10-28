@@ -27,25 +27,24 @@
       },
       "seconds": "$seconds"
     },
-    "$action",
-    {
-      "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "$toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": {
-          "id": "peekaboo:disguise",
-          "count": 1,
-          "components": {
-            "peekaboo:disguise": {
-              "entity": "$entity"
-            }
+    "$action"
+  ],
+  "notification": {
+    "message": {
+      "translate": "$toast",
+      "color": "light_purple"
+    },
+    "icon": {
+      "item": {
+        "id": "peekaboo:disguise",
+        "count": 1,
+        "components": {
+          "peekaboo:disguise": {
+            "entity": "$entity"
           }
         }
-      },
-      "sentiment": "neutral"
-    }
-  ]
+      }
+    },
+    "sentiment": "neutral"
+  }
 }

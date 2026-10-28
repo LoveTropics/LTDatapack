@@ -21,17 +21,16 @@
       "actions": {
         "type": "ltminigames:swap_players"
       }
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "message": {
-        "translate": "ltminigames.minigame.donation.swap.toast",
-        "color": "red"
-      },
-      "icon": {
-        "effect": "minecraft:unluck"
-      },
-      "sound": "ltminigames:sabotage_receive"
     }
-  ]
+  ],
+  "notification": {
+    "message": {
+      "translate": "ltminigames.minigame.donation.swap.toast",
+      "color": "red"
+    },
+    "icon": {
+      "effect": "minecraft:unluck"
+    },
+    "sound": "ltminigames:sabotage_receive"
+  }
 }

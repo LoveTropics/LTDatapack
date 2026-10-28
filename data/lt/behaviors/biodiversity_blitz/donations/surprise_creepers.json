@@ -16,12 +16,11 @@
         "type": "ltminigames:spawn_surprise_wave",
         "wave_size": 3
       }
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:creeper_spawn_egg"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:creeper_spawn_egg"
+    }
+  }
 }

@@ -7,12 +7,13 @@
     "donation_amount": 50.0,
     "apply_to_team": true,
     "receive_actions": [
-      "ltminigames:give_player_head_package",
-      {
-        "type": "ltminigames:notify_package",
-        "icon": {"item": "minecraft:white_wool"}
+      "ltminigames:give_player_head_package"
+    ],
+    "notification": {
+      "icon": {
+        "item": "minecraft:white_wool"
       }
-    ]
+    }
   },
   {
     "type": "lt:integrations/packages/swap_players",
@@ -33,11 +34,12 @@
       {
         "type": "ltminigames:give_loot",
         "loot_table": "lt:packages/yeeter_package"
-      },
-      {
-        "type": "ltminigames:notify_package",
-        "icon": {"item": "minecraft:stick"}
       }
-    ]
+    ],
+    "notification": {
+      "icon": {
+        "item": "minecraft:stick"
+      }
+    }
   }
 ]

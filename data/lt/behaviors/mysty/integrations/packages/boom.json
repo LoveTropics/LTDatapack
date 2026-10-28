@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/boom_package"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "tropicraft:exploding_coconut"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "tropicraft:exploding_coconut"
+    }
+  }
 }

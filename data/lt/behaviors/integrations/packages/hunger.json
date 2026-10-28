@@ -15,12 +15,11 @@
           "amplifier": 2
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "effect": "minecraft:hunger"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:hunger"
+    }
+  }
 }

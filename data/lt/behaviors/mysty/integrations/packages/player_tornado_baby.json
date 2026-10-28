@@ -17,12 +17,11 @@
         "color": "red"
       },
       "stay": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:milk_bucket"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
+    }
+  }
 }

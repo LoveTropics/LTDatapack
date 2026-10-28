@@ -8,13 +8,12 @@
       "type": "ltminigames:weather_event",
       "event": "heatwave",
       "seconds": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltminigames:super_sunscreen"
-      },
-      "sentiment": "negative"
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltminigames:super_sunscreen"
+    },
+    "sentiment": "negative"
+  }
 }

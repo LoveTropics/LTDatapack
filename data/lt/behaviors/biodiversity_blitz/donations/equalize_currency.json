@@ -5,12 +5,11 @@
   "target": "all_players",
   "donation_amount": 20.0,
   "receive_actions": [
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltminigames:osa_point"
-      }
-    },
     "ltminigames:equalize_currency"
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltminigames:osa_point"
+    }
+  }
 }

@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/extreme_yeeter_package"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:stick"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:stick"
+    }
+  }
 }

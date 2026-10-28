@@ -8,13 +8,12 @@
       "type": "ltminigames:weather_event",
       "event": "acid_rain",
       "seconds": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltminigames:acid_repellent_umbrella"
-      },
-      "sentiment": "negative"
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltminigames:acid_repellent_umbrella"
+    },
+    "sentiment": "negative"
+  }
 }

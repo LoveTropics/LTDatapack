@@ -29,12 +29,11 @@
       "regions_to_spawn_at": [
         "tide_area"
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:flint_and_steel"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    }
+  }
 }

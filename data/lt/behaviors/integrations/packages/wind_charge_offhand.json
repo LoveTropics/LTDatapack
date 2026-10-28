@@ -14,12 +14,11 @@
           "ltextras:undroppable": {}
         }
       }
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:wind_charge"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:wind_charge"
+    }
+  }
 }

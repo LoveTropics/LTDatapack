@@ -5,8 +5,8 @@
   "options": [
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "ltminigames.minigame.donation.tapir_party",
+        "type": "lt:integrations/packages/disguise",
+        "id": "tapir_party",
         "toast": "ltminigames.minigame.donation.tapir_party.toast",
         "entity": {
           "id": "tropicraft:tapir"
@@ -17,8 +17,8 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "ltminigames.minigame.donation.cubera_confusion",
+        "type": "lt:integrations/packages/disguise",
+        "id": "cubera_confusion",
         "toast": "ltminigames.minigame.donation.cubera_confusion.toast",
         "entity": {
           "id": "tropicraft:cubera"
@@ -29,8 +29,8 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "ltminigames.minigame.donation.armor_standardization",
+        "type": "lt:integrations/packages/disguise",
+        "id": "armor_standardization",
         "toast": "ltminigames.minigame.donation.armor_standardization.toast",
         "entity": {
           "id": "minecraft:armor_stand",
@@ -42,8 +42,8 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "ltminigames.minigame.donation.player_dummy_package",
+        "type": "lt:integrations/packages/disguise",
+        "id": "player_dummy_package",
         "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
         "entity": {
           "id": "dummyplayers:dummy_player",
@@ -55,8 +55,8 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "ltminigames.minigame.donation.mozart_mode",
+        "type": "lt:integrations/packages/disguise",
+        "id": "mozart_mode",
         "toast": "ltminigames.minigame.donation.mozart_mode.toast",
         "entity": {
           "id": "dummyplayers:dummy_player",
@@ -69,8 +69,7 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/options/disguise_host",
-        "seconds": 10
+        "type": "lt:integrations/packages/everyone_host"
       },
       "weight": 10
     }

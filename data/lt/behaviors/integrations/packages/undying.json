@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/no_die_package"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:totem_of_undying"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    }
+  }
 }

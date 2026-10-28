@@ -17,19 +17,18 @@
       "spawn_range_y": 5,
       "spawn_try_rate": 1,
       "max_entity_count": 60
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": {
-          "id": "peekaboo:plushie",
-          "components": {
-            "peekaboo:entity": {
-              "id": "minecraft:silverfish"
-            }
+    }
+  ],
+  "notification": {
+    "icon": {
+      "item": {
+        "id": "peekaboo:plushie",
+        "components": {
+          "peekaboo:entity": {
+            "id": "minecraft:silverfish"
           }
         }
       }
     }
-  ]
+  }
 }

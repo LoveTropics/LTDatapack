@@ -8,12 +8,11 @@
     {
       "type": "ltminigames:give_player_head_package",
       "forced": true
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "minecraft:player_head"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:player_head"
+    }
+  }
 }

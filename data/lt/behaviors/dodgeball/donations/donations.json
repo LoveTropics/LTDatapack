@@ -2,8 +2,14 @@
   {
     "type": "ltminigames:block_packages_during_phase",
     "block_periods": [
-      {"start": 0.0, "end": "start"},
-      {"start": "end", "end": "close"}
+      {
+        "start": 0.0,
+        "end": "start"
+      },
+      {
+        "start": "end",
+        "end": "close"
+      }
     ]
   },
   "lt:dodgeball/donations/packages/disguises",
@@ -52,18 +58,17 @@
             "weight": 1
           }
         ]
-      },
-      {
-        "type": "ltminigames:notify_package",
-        "message": {
-          "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
-          "color": "light_purple"
-        },
-        "icon": {
-          "item": "tropicraft:exploding_coconut"
-        },
-        "sentiment": "positive"
       }
-    ]
+    ],
+    "notification": {
+      "message": {
+        "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive"
+    }
   }
 ]

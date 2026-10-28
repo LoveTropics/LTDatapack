@@ -27,12 +27,11 @@
           "amplifier": 1
         }
       ]
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "effect": "minecraft:regeneration"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:regeneration"
+    }
+  }
 }

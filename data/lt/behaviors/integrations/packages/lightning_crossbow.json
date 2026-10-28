@@ -9,12 +9,11 @@
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/lightning_crossbow_package"
-    },
-    {
-      "type": "ltminigames:notify_package",
-      "icon": {
-        "item": "ltminigames:lightning_arrow"
-      }
     }
-  ]
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltminigames:lightning_arrow"
+    }
+  }
 }
