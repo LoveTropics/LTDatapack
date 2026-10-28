@@ -69,7 +69,8 @@
     },
     {
       "data": {
-        "type": "lt:integrations/packages/everyone_host"
+        "type": "lt:integrations/packages/everyone_host",
+        "seconds": 10
       },
       "weight": 10
     }
