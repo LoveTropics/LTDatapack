@@ -31,6 +31,16 @@
         }
       },
       "seconds": "$seconds"
+    },
+    "notification": {
+      "message": {
+        "translate": "TODO",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive"
     }
   }
 ]
