@@ -38,7 +38,9 @@
           },
           {
             "data": {
-              "type": "lt:dodgeball/donations/packages/disguises"
+              "type": "lt:integrations/packages/everyone_random_disguise",
+              "package_type": "sabotage_package",
+              "amount": 10
             },
             "weight": 1
           }

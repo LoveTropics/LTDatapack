@@ -1,0 +1,33 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "id": "disguise_package",
+    "package_type": "$package_type",
+    "target": "all_players",
+    "name": {
+      "translate": "Random Disguise"
+    },
+    "description": {
+      "translate": "Random Disguise"
+    },
+    "donation_amount": "$amount",
+    "receive_actions": {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:disguise",
+      "apply": {
+        "type": "ltminigames:set_random_disguise",
+        "disallowed": [
+          "ltextras:collectible",
+          "minecraft:ominous_item_spawner"
+        ]
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:clear_disguise"
+        }
+      },
+      "seconds": 60
+    }
+  }
+]
