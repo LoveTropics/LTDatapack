@@ -6,9 +6,8 @@
   {
     "type": "ltminigames:add_equipment",
     "head": {
-      "id": "minecraft:leather_helmet",
+      "id": "ltextras:gold_top_hat",
       "components": {
-        "minecraft:item_model": "lt:top_hat_gold",
         "ltextras:collectible_display_info": {
           "name": "gold_top_hat",
           "description": true,
@@ -18,15 +17,6 @@
           "translate": "lt.collectible.gold_top_hat.name",
           "color": "#005958",
           "italic": false
-        },
-        "!minecraft:attribute_modifiers": {},
-        "minecraft:equippable": {
-          "slot": "head"
-        },
-        "minecraft:tooltip_display": {
-          "hidden_components": [
-            "minecraft:unbreakable"
-          ]
         }
       }
     }
