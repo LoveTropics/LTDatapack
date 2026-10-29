@@ -21,7 +21,7 @@
         "target": "all_players",
         "actions": "$equip_action"
       },
-      "seconds": 60
+      "seconds": 30
     }
   ],
   "notification": {
