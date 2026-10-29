@@ -1,0 +1,11 @@
+{
+  "default_transition": 1.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://unreal.codes/10_event_backward.png",
+      "duration": 100
+    }
+  ]
+}
