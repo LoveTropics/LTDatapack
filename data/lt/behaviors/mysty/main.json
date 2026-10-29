@@ -200,6 +200,8 @@
         "color": "white",
         "underlined": true
       }
-    ]
+    ],
+    "show_placement": true,
+    "show_score": false
   }
 ]

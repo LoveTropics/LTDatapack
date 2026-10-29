@@ -22,6 +22,12 @@
     },
     "statistic_holder": {
       "type": "string"
+    },
+    "show_placement": {
+      "type": "boolean"
+    },
+    "show_score": {
+      "type": "boolean"
     }
   },
   "additionalProperties": false,
