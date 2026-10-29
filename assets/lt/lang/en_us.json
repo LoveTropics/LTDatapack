@@ -841,9 +841,9 @@
   "lt.loot_category.utility.name": "Utility",
   "lt.loot_category.weapon.name": "Weapon",
 
+  "lt.loot_modifier.add_4_health": "+ 4 Health",
   "lt.loot_modifier.add_8_health": "+ 8 Health",
   "lt.loot_modifier.add_quick_consume": "+ Quick Consume",
-  "lt.loot_modifier.sub_long_term_happiness": "- Long Term Happiness",
   "lt.loot_modifier.add_3_nutrition": "+ 3 Nutrition",
   "lt.loot_modifier.add_6_nutrition": "+ 6 Nutrition",
   "lt.loot_modifier.add_8_nutrition": "+ 8 Nutrition",
@@ -854,20 +854,156 @@
   "lt.loot_modifier.add_kinda_average": "+ Kinda Average",
   "lt.loot_modifier.add_pretty_cool": "+ Pretty Cool",
 
+  "lt.loot_modifier.add_return_to_sender": "+ Return to Sender",
+  "lt.loot_modifier.add_1_melee_damage": "+ 1 Melee Damage",
+  "lt.loot_modifier.add_8_ranged_damage": "+ 8 Ranged Damage",
+  "lt.loot_modifier.add_6_ranged_damage": "+ 6 Ranged Damage",
+  "lt.loot_modifier.add_fire_rate": "+ Fire Rate",
+  "lt.loot_modifier.add_3_ranged_damage": "+ 3 Ranged Damage",
+  "lt.loot_modifier.add_explosions": "+ Explosions",
+  "lt.loot_modifier.add_3_shots": "+ 3 Shots",
+  "lt.loot_modifier.add_30s_duration": "+ 30s Duration",
+  "lt.loot_modifier.add_speed_ii": "+ Speed II",
+  "lt.loot_modifier.add_jump_boost_ii": "+ Jump Boost II",
+  "lt.loot_modifier.add_increased_heartrate": "+ Increased Heartrate",
+  "lt.loot_modifier.add_15s_duration": "+ 15s Duration",
+  "lt.loot_modifier.add_strength_i": "+ Strength I",
+  "lt.loot_modifier.add_resistance_i": "+ Reistance I",
+  "lt.loot_modifier.add_swoll": "+ Swoll",
+  "lt.loot_modifier.add_full_of_bees": "+ Full of Bees",
+  "lt.loot_modifier.add_its_got_a_laser": "+ It's Got a Laser",
+  "lt.loot_modifier.add_uv_absorption": "+ UV Absorption",
+  "lt.loot_modifier.add_acid_resistant": "+ Acid Resistant",
+  "lt.loot_modifier.add_not_broken_yet": "+ Not Broken Yet",
+  "lt.loot_modifier.add_logistically_convenient": "+ Logistically Convenient",
+  "lt.loot_modifier.add_cruelty_free": "+ Cruelty Free",
+  "lt.loot_modifier.add_truly_insane_knockback": "+ Truly Insane Knockback",
+  "lt.loot_modifier.add_actual_cheats": "+ Actual Cheats",
+  "lt.loot_modifier.add_fabulousness": "+ Fabulousness",
+  "lt.loot_modifier.add_flight": "+ Flight",
+  "lt.loot_modifier.add_breezy": "+ Breezy",
+  "lt.loot_modifier.add_applys_in_mainhand": "+ Applys in Mainhand",
+  "lt.loot_modifier.add_applys_in_offhand": "+ Applys in Offhand",
+  "lt.loot_modifier.add_single_use": "+ Single Use",
+  "lt.loot_modifier.add_5_block_radius": "+ 5 Block Radius",
+  "lt.loot_modifier.add_7_block_radius": "+ 7 Block Radius",
+  "lt.loot_modifier.add_the_ability_to_take_no_damage": "+ The Ability to Take No Damage",
+  "lt.loot_modifier.add_attacker_weakened_on_hit": "+ Attacker Weakened On Hit",
+  "lt.loot_modifier.add_3_armor": "+ 3 Armor",
+  "lt.loot_modifier.add_4_melee_damage": "+ 4 Melee Damage",
+  "lt.loot_modifier.add_5_melee_damage": "+ 5 Melee Damage",
+  "lt.loot_modifier.add_6_melee_damage": "+ 6 Melee Damage",
+  "lt.loot_modifier.add_7_melee_damage": "+ 7 Melee Damage",
+  "lt.loot_modifier.add_9_melee_damage": "+ 9 Melee Damage",
+  "lt.loot_modifier.add_1_6_attack_speed": "+ 1.6 Attack Speed",
+  "lt.loot_modifier.add_0_8_attack_speed": "+ 0.8 Attack Speed",
+
+  "lt.loot_modifier.sub_long_term_happiness": "- Long Term Happiness",
+
+  "lt.loot_modifier.sub_draw_speed": "- Draw Speed",
+  "lt.loot_modifier.sub_gravity": "- Gravity",
+  "lt.loot_modifier.sub_liver_function": "- Liver Function",
+  "lt.loot_modifier.sub_theyre_angry": "- They're Angry",
+  "lt.loot_modifier.sub_the_ability_to_move": "- The Ability to Move",
+  "lt.loot_modifier.sub_will_break_soon": "- Will Break Soon",
+  "lt.loot_modifier.sub_zillennial_humor": "- Zillennial Humor",
+  "lt.loot_modifier.sub_long_term_usability": "- Long-Term Usability",
+  "lt.loot_modifier.sub_4s_cooldown": "- 4s Cooldown",
+  "lt.loot_modifier.sub_perhaps_too_fabulous": "- Perhaps Too Fabulous",
+  "lt.loot_modifier.sub_fragile": "- Fragile",
+  "lt.loot_modifier.sub_account_standing": "- Account Standing",
+  "lt.loot_modifier.sub_the_ability_to_see": "- The Ability to See",
+
+  "lt.loot.normal_cookie": "Normal Cookie",
+  "lt.loot.normal_cookie.description.1": "Processed and individually packaged.",
+
+  "lt.loot.tropi_cookie": "Tropi™ Cookie",
+  "lt.loot.tropi_cookie.description.1": "Ultra-processed and branded.",
+
+  "lt.loot.gegys_potato_chips": "Gegy's™ Potato Chips",
+  "lt.loot.gegys_potato_chips.description.1": "Produced from nearly certified poison-free potatoes!",
+
+  "lt.loot.nearly_very_broken_shield": "Nearly-Very-Broken Shield",
+  "lt.loot.nearly_very_broken_shield.description.1": "It really is on its last legs.",
+
+  "lt.loot.super_sunscreen": "Super Sunscreen™",
+  "lt.loot.super_sunscreen.description.1": "When heatwaves hit, 2/10 dermatologists recommend Super Sunscreen™!",
+
+  "lt.loot.acid_repellent_umbrella": "Acid Repellent Umbrella",
+  "lt.loot.acid_repellent_umbrella.description.1": "Walk in the acid rain? The Acid Repellent Umbrellas got you covered!",
+
+  "lt.loot.throwing_trident": "Throwing Trident",
+  "lt.loot.throwing_trident.description.1": "Poseidon would tremble … ifff he hadn't met an untimely end in the",
+  "lt.loot.throwing_trident.description.2": "rising tides. But that's climate change for ya'!",
+
+  "lt.loot.precision_bow": "Precision Bow",
+  "lt.loot.precision_bow.description.1": "Best in class at delivering three-hundred foot pounds of flint direct to your enemies face!",
+
+  "lt.loot.rapid_fire_crossbow": "Rapid-Fire Crossbow",
+  "lt.loot.rapid_fire_crossbow.description.1": "It's very fast, not very powerful, and is somehow mostly unaffected by gravity?",
+
+  "lt.loot.rpc": "RPC",
+  "lt.loot.rpc.description.1": "Rocket. Propelled. Crossbow.",
+
   "lt.loot.health_potion": "Health Potion",
   "lt.loot.health_potion.description.1": "It heals you!",
   "lt.loot.health_potion.description.2": "Not FDA certified.",
 
-  "lt.loot.normal_cookie": "Normal Cookie",
-  "lt.loot.normal_cookie.description.1": "Processed and individually packaged.",
-  "lt.loot.tropi_cookie": "Tropi™ Cookie",
-  "lt.loot.tropi_cookie.description.1": "Ultra-processed and branded.",
-  "lt.loot.gegys_potato_chips": "Gegy's™ Potato Chips",
-  "lt.loot.gegys_potato_chips.description.1": "Produced from nearly certified poison-free potatoes!",
+  "lt.loot.strong_health_potion": "Strong Health Potion",
+  "lt.loot.strong_health_potion.description.1": "It heals you more!",
+  "lt.loot.strong_health_potion.description.2": "Now FDA certified.",
 
+  "lt.loot.pc_energy": "P.C. Energy",
+  "lt.loot.pc_energy.description.1": "Legal in SEVEN countries.",
 
-  "lt.loot.copper_chestplate": "Copper Chestplate",
-  "lt.loot.copper_leggings": "Copper Leggings",
-  "lt.loot.copper_boots": "Copper Boots"
+  "lt.loot.colada_ral_damage": "Colada-ral Damage",
+  "lt.loot.colada_ral_damage.description.1": "It's a cup of steroids. Simple as.",
+  "lt.loot.colada_ral_damage.description.2": "Nice bamboo mug though.",
 
+  "lt.loot.lingering_potion_of_stoneskin": "Lingering Potion of Stoneskin",
+  "lt.loot.lingering_potion_of_stoneskin.description.1": "For when you don't want anyone to move!",
+
+  "lt.loot.lingering_potion_of_obfuscation": "Lingering Potion of Obfuscation",
+  "lt.loot.lingering_potion_of_obfuscation.description.1": "For when you don't want anyone to see!",
+  "lt.loot.lingering_potion_of_obfuscation.description.2": "Effectiveness against the blind may vary.",
+
+  "lt.loot.jar_of_angry_bees": "Jar of Angry Bees",
+  "lt.loot.jar_of_angry_bees.description.1": "They put Bees in a jar.",
+  "lt.loot.jar_of_angry_bees.description.2": "They are not happy about it.",
+
+  "lt.loot.jar_of_head_with_laser": "Jar of Head with Laser",
+  "lt.loot.jar_of_head_with_laser.description.1": "It's a head. It shoots a laser.",
+  "lt.loot.jar_of_head_with_laser.description.2": "Really it's just what's on the tin.",
+
+  "lt.loot.bomb_in_a_box": "Bomb in a Box",
+  "lt.loot.bomb_in_a_box.description.1": "So imagine a bomb, then imagine that bomb: in a box.",
+  "lt.loot.bomb_in_a_box.description.2": "See the vision now?",
+
+  "lt.loot.ender_pearl": "Ender Pearl",
+  "lt.loot.ender_pearl.description.1": "Usage may anger the level designer.",
+  "lt.loot.ender_pearl.description.2": "Use at own risk.",
+
+  "lt.loot.teeter_yeeter": "Teeter Yeeter",
+  "lt.loot.teeter_yeeter.description.1": "If a teeter were to get yeeted by a teeter yeeter how far would the teeter get yeeted.",
+  "lt.loot.teeter_yeeter.description.2": "Word is: pretty far.",
+
+  "lt.loot.ephemeral_elytra": "Ephemeral Elytra",
+  "lt.loot.ephemeral_elytra.description.1": "It's like a normal elytra that doesn't last as long.",
+
+  "lt.loot.glasses_that_give_you_wall_hacks": "Glasses That Give You Wall Hacks",
+  "lt.loot.glasses_that_give_you_wall_hacks.description.1": "Wear 'em. See 'em. Get permanently banned for cheating.",
+  "lt.loot.glasses_that_give_you_wall_hacks.description.2": "Or not, there's only way to find out, 'eh?",
+
+  "lt.loot.stylish_heels": "Stylish Heels",
+  "lt.loot.stylish_heels.description.1": "You? Fabulous. Your Enemies? Terrified.",
+  "lt.loot.stylish_heels.description.2": "The brand? Expensive.",
+
+  "lt.loot.durable_wind_charge": "Wind Charge",
+  "lt.loot.durable_wind_charge.description.1": "Now without charging!",
+
+  "lt.loot.arrow": "Arrow",
+  "lt.loot.arrow.description.1": "Achilles better be wearing boots.",
+
+  "lt.loot.firework_rocket": "Firework Rocket",
+  "lt.loot.firework_rocket.description.1": "Big damage, bigger CO2 emissions."
 }
