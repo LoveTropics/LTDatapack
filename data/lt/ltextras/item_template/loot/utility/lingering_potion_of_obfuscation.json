@@ -1,0 +1,41 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "lingering_potion_of_obfuscation", 
+      "description_lines": 0, 
+      "modifier_tooltips": [
+        "add_15s_duration",
+        "add_7_block_radius",
+        "sub_sight"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:lingering_potion",
+    "components": {
+      "ltextras:lingering_potion": {
+        "reaaplication_delay": 5,
+        "radius": 7.0, 
+        "radius_on_use": 0.0, 
+        "duration_on_use": 0.0,
+        "radius_per_tick": -0.0053, 
+        "wait_time": 40.0, 
+        "duration": 300
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 1315603,
+        "custom_effects": [
+          {
+            "id":"minecraft:blindness",
+            "amplifier": 0,
+            "duration": 200,
+            "show_particles":false,
+            "show_icon":true
+          }
+        ]
+      }
+    }
+  }
+}

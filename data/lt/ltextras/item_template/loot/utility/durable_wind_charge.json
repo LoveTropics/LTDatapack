@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility",
+      "name": "durable_wind_charge",
+      "description_lines": 1,
+      "modifier_tooltips": [
+        "add_breezy"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:wind_charge",
+    "components": {
+      "minecraft:max_stack_size": 16
+    }
+  }
+}

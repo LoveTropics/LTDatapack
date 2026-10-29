@@ -1,0 +1,21 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "unique", 
+      "name": "ephemeral_elytra", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_flight",
+        "sub_long_term_usability"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:max_damage": 15,
+      "minecraft:damage": 0
+    }
+  }
+}

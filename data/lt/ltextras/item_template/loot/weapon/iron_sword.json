@@ -1,0 +1,26 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "item.minecraft.iron_sword", 
+      "description_lines": 0,
+      "modifier_tooltips": [
+        "add_6_melee_damage",
+        "add_1_6_attack_speed"
+      ]
+    },
+    {
+      "function": "ltextras:stt_loot_weapon",
+      "attack_damage": 6.0,
+      "attack_speed": -2.4,
+      "unbreakable": true
+    }
+  ],
+  "item": {
+    "id": "minecraft:iron_sword", 
+    "components": {
+      
+    }
+  }
+}

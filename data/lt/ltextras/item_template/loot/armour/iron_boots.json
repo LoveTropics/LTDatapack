@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 2, 
+      "name": "item.minecraft.iron_boots",
+      "description_lines": 0
+    }
+  ],
+  "item": {
+    "id": "minecraft:iron_boots",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "ender_pearl", 
+      "description_lines": 2, 
+      "modifier_tooltips": [
+        "add_single_use"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:ender_pearl",
+    "components": {}
+  }
+}

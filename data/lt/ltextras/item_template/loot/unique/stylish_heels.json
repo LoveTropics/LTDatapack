@@ -1,0 +1,40 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "unique", 
+      "name": "stylish_heels", 
+      "description_lines": 2, 
+      "modifier_tooltips": [
+        "add_attacker_weakened_on_hit",
+        "add_3_armor",
+        "add_fabulousness",
+        "sub_perhaps_too_fabulous"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:high_heels",
+    "components": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "lt:fabulously_terrifying": 1
+      },
+      "minecraft:max_damage": 20,
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+            "type": "armor",
+            "id": "lt:stylish_heels_armor",
+            "amount": 3.0,
+            "operation": "add_value",
+            "slot": "feet",
+            "display": "hidden"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:enchantments", "minecraft:attribute_modifiers"]
+      }
+    }
+  }
+}

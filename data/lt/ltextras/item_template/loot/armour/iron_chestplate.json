@@ -1,0 +1,16 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 2, 
+      "name": "item.minecraft.iron_chestplate"
+    }
+  ],
+  "item": {
+    "id": "minecraft:iron_chestplate",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

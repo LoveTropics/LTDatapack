@@ -1,0 +1,26 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "item.minecraft.stone_sword", 
+      "description_lines": 0,
+      "modifier_tooltips": [
+        "add_5_melee_damage",
+        "add_1_6_attack_speed"
+      ]
+    },
+    {
+      "function": "ltextras:stt_loot_weapon",
+      "attack_damage": 5.0,
+      "attack_speed": -2.4,
+      "unbreakable": true
+    }
+  ],
+  "item": {
+    "id": "minecraft:stone_sword", 
+    "components": {
+      
+    }
+  }
+}

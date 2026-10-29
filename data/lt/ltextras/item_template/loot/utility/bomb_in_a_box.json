@@ -1,0 +1,28 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "bomb_in_a_box", 
+      "description_lines": 2, 
+      "modifier_tooltips": [
+        "add_logistically_convenient",
+        "sub_fragile"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:bat_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:tnt",
+        "CustomNameVisible": false,
+        "CustomName": "",
+        "block_state": {
+            "Name": "ltextras:word_box"
+        }
+      },
+      "minecraft:item_model": "ltextras:word_box"
+    }
+  }
+}

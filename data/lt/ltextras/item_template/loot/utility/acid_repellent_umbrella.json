@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "acid_repellent_umbrella", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_acid_resistant",
+        "add_applys_in_mainhand",
+        "add_applys_in_offhand"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltminigames:acid_repellent_umbrella",
+    "components": {}
+  }
+}

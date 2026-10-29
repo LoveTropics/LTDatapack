@@ -6,7 +6,7 @@
       "name": "health_potion", 
       "description_lines": 2, 
       "modifier_tooltips": [
-        "add_8_health", 
+        "add_4_health", 
         "add_quick_consume", 
         "sub_long_term_happiness" 
       ]
@@ -16,14 +16,15 @@
     "id": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {
-        "potion": "minecraft:strong_healing"
+        "potion": "minecraft:healing"
       },
       "minecraft:consumable": {
         "consume_seconds": 0.65,
         "animation": "drink",
         "sound": "entity.generic.drink",
         "has_consume_particles": true
-      }
+      },
+      "minecraft:max_stack_size": 4
     }
   }
 }

@@ -4,7 +4,7 @@
       "function": "ltextras:stt_loot",
       "category": "armour", 
       "tier": 1, 
-      "name": "copper_boots",
+      "name": "item.minecraft.copper_boots",
       "description_lines": 0
     }
   ],

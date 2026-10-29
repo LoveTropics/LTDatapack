@@ -4,7 +4,7 @@
       "function": "ltextras:stt_loot",
       "category": "armour", 
       "tier": 1, 
-      "name": "copper_leggings"
+      "name": "item.minecraft.copper_leggings"
     }
   ],
   "item": {

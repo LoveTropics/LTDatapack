@@ -1,0 +1,30 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "throwing_trident", 
+      "description_lines": 2, 
+      "modifier_tooltips": [
+        "add_return_to_sender",
+        "add_1_melee_damage",
+        "add_8_ranged_damage"
+      ]
+    },
+    {
+      "function": "ltextras:stt_loot_weapon",
+      "attack_damage": 1.0,
+      "attack_speed": 1.1,
+      "unbreakable": true
+    }
+  ],
+  "item": {
+    "id": "minecraft:trident",
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:loyalty": 2
+      },
+      "minecraft:enchantment_glint_override": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "unique", 
+      "name": "rpc", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_explosions",
+        "add_3_shots",
+        "sub_4s_cooldown"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:rocket_crossbow",
+    "components": {
+      "minecraft:item_model": "minecraft:crossbow",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "lingering_potion_of_stoneskin", 
+      "description_lines": 0, 
+      "modifier_tooltips": [
+        "add_30s_duration",
+        "add_5_block_radius",
+        "add_the_ability_to_take_no_damage",
+        "sub_the_ability_to_move"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:lingering_potion",
+    "components": {
+      "ltextras:lingering_potion": {
+        "reaaplication_delay": 5,
+        "radius": 5.0, 
+        "radius_on_use": 0.0, 
+        "duration_on_use": 0.0,
+        "radius_per_tick": -0.0053, 
+        "wait_time": 40.0, 
+        "duration": 600
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 7564653,
+        "custom_effects": [
+          {
+            "id":"minecraft:resistance",
+            "amplifier": 4,
+            "duration": 200,
+            "show_particles":false,
+            "show_icon":true
+          },
+          {
+            "id":"minecraft:slowness",
+            "amplifier": 4,
+            "duration": 200,
+            "show_particles":false,
+            "show_icon":true
+          }
+        ]
+      }
+    }
+  }
+}

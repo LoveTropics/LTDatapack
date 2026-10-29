@@ -1,0 +1,35 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "healing", 
+      "name": "pc_energy", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_15s_duration",
+        "add_strength_i",
+        "add_resistance_i",
+        "add_swoll"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:pc_energy",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 2.0,
+        "animation": "drink",
+        "sound": "item.honey_bottle.drink",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              { "id": "minecraft:speed", "amplifier": 1, "duration": 600, "show_particles": true, "show_icon": true, "ambient": true },
+              { "id": "minecraft:jump_boost", "amplifier": 1, "duration": 600, "show_particles": true, "show_icon": true, "ambient": true }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

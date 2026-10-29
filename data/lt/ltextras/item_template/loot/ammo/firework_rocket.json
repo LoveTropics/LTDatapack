@@ -1,0 +1,35 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "ammo", 
+      "name": "firework_rocket", 
+      "description_lines": 1,
+      "show_divider": false
+    }
+  ],
+  "item": {
+    "id": "minecraft:firework_rocket",
+    "components": {
+      "minecraft:fireworks": {
+        "flight_duration": 2,
+        "explosions": [
+          {
+            "shape": "small_ball",
+            "colors": [
+              16753964
+            ],
+            "fade_colors": [
+              5748024
+            ],
+            "has_trail": true,
+            "has_twinle": true
+          }
+        ]
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:fireworks"]
+      }
+    }
+  }
+}

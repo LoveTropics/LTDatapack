@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "ammo", 
+      "name": "arrow", 
+      "description_lines": 1,
+      "show_divider": false
+    }
+  ],
+  "item": {
+    "id": "minecraft:arrow",
+    "components": {}
+  }
+}

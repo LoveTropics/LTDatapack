@@ -1,0 +1,22 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "rapid_fire_crossbow", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_fire_rate",
+        "add_3_ranged_damage",
+        "sub_gravity"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:rapid_fire_crossbow",
+    "components": {
+      "minecraft:unbreakable": {},
+      "minecraft:item_model": "minecraft:crossbow"
+    }
+  }
+}

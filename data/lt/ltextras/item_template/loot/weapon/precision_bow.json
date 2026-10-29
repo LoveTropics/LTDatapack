@@ -1,0 +1,20 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "precision_bow", 
+      "description_lines": 1, 
+      "modifier_tooltips": [
+        "add_8_ranged_damage",
+        "sub_draw_speed"
+      ]
+    }
+  ],
+  "item": {
+    "id": "minecraft:bow",
+    "components": {
+      
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 2, 
+      "name": "item.minecraft.iron_leggings"
+    }
+  ],
+  "item": {
+    "id": "minecraft:iron_leggings",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

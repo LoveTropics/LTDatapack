@@ -1,0 +1,16 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 3, 
+      "name": "item.minecraft.diamond_chestplate"
+    }
+  ],
+  "item": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour", 
+      "tier": 3, 
+      "name": "item.minecraft.diamond_boots",
+      "description_lines": 0
+    }
+  ],
+  "item": {
+    "id": "minecraft:diamond_boots",
+    "components": {
+      "minecraft:unbreakable": {}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "weapon", 
+      "name": "item.minecraft.wooden_axe", 
+      "description_lines": 0,
+      "modifier_tooltips": [
+        "add_7_melee_damage",
+        "add_0_8_attack_speed"
+      ]
+    },
+    {
+      "function": "ltextras:stt_loot_weapon",
+      "attack_damage": 7.0,
+      "attack_speed": -3.2,
+      "unbreakable": true
+    }
+  ],
+  "item": {
+    "id": "minecraft:wooden_axe", 
+    "components": {}
+  }
+}

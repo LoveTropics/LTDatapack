@@ -1,0 +1,36 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "armour",
+      "name": "nearly_very_broken_shield",
+      "description_lines": 1,
+      "modifier_tooltips": ["add_not_broken_yet", "sub_will_break_soon"]
+    },
+    {
+      "function": "minecraft:set_damage",
+      "damage": {
+        "min": 0.0149,
+        "max": 0.0297
+      }
+    }
+  ],
+  "item": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:banner_patterns": [
+        {
+          "color": "lime",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "orange",
+          "pattern": "lt:logo_heart"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:banner_patterns"]
+      }
+    }
+  }
+}

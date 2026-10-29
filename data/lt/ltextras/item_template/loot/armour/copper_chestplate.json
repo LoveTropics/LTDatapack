@@ -4,7 +4,7 @@
       "function": "ltextras:stt_loot",
       "category": "armour", 
       "tier": 1, 
-      "name": "copper_chestplate"
+      "name": "item.minecraft.copper_chestplate"
     }
   ],
   "item": {
