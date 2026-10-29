@@ -1,0 +1,68 @@
+{
+  "type": "ltminigames:mutex_dispatch",
+  "entries": [
+    {
+      "if_claimed": ["lt:big_boom", "lt:rapid_fire"],
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 64,
+            "components": {
+              "tropicraft:explosion_radius": 4,
+              "ltextras:cooldown_override": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "if_claimed": ["lt:big_boom"],
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 64,
+            "components": {
+              "tropicraft:explosion_radius": 4,
+              "ltextras:cooldown_override": 40
+            }
+          }
+        ]
+      }
+    },
+    {
+      "if_claimed": ["lt:rapid_fire"],
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 64,
+            "components": {
+              "tropicraft:explosion_radius": 2,
+              "ltextras:cooldown_override": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 64,
+            "components": {
+              "tropicraft:explosion_radius": 2,
+              "ltextras:cooldown_override": 40
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

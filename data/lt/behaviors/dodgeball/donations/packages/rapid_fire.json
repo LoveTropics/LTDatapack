@@ -11,12 +11,18 @@
   },
   "receive_actions": [
     {
-      "type": "ltminigames:run_commands",
-      "entity": [
-        "function lt:game/dodgeball/packages/rapid_fire/start"
-      ]
-    },
-    "$equip_action"
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:rapid_fire",
+      "apply": {
+        "target": "all_players",
+        "actions": "$equip_action"
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": "$equip_action"
+      },
+      "seconds": 30
+    }
   ],
   "notification": {
     "message": {
