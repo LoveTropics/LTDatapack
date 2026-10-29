@@ -13,7 +13,8 @@
       "minecraft:advance_weather": false,
       "minecraft:fall_damage": true,
       "minecraft:advance_time": true,
-      "minecraft:show_advancement_messages": false
+      "minecraft:show_advancement_messages": false,
+      "tropicraft:unrestricted_exploding_coconuts": true
     }
   },
   "ltminigames:disable_tnt_block_destruction",

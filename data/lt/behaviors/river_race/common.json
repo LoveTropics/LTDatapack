@@ -1,5 +1,11 @@
 [
   {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "tropicraft:unrestricted_exploding_coconuts": true
+    }
+  },
+  {
     "type": "ltminigames:set_difficulty",
     "difficulty": "normal"
   },
