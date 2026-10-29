@@ -1,18 +1,6 @@
 {
-  "type": "lt:integrations/packages/random_disguise",
-  "package_type": "sabotage_package",
-  "options": [
-    {
-      "data": {
-        "type": "lt:integrations/packages/options/disguise",
-        "name": "SHEEP TODO",
-        "toast": "SHEEP TODO",
-        "entity": {
-          "id": "minecraft:sheep"
-        },
-        "seconds": 10
-      },
-      "weight": 1
-    }
+  "type": "ltminigames:set_random_disguise",
+  "disallowed": [
+    "ltextras:collectible"
   ]
 }
