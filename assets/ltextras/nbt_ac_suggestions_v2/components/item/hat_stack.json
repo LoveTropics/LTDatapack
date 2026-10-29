@@ -1,0 +1,26 @@
+{
+  "id": "item/ltextras:hat_stack",
+  "type": "list/compound",
+  "always_relevant": true,
+  "tags": [
+    {
+      "tag": "id",
+      "type": "string",
+      "subtype": "registry_key/minecraft:item",
+      "recommended": true
+    },
+    {
+      "tag": "width",
+      "type": "int"
+    },
+    {
+      "tag": "height",
+      "type": "int"
+    },
+    {
+      "tag": "bounciness",
+      "type": "int"
+    }
+  ]
+}
+
