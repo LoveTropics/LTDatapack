@@ -810,6 +810,8 @@
   "lt.collectible.lost_vest.name": "Race River's Reflective Vest",
   "lt.collectible.health_potion.name": " Health Potion",
   "lt.collectible.health_potion.description": "It heals you! Quality of contents not yet FDA-certified.",
+  "lt.hat.10_event.text": "It is your 10th event.",
+  "lt.collectible.10_event_hat.name": "A Hat for Your 10th Event",
   "lt.loot_category.ammo": "",
   "lt.loot_category.ammo.icon": "",
   "lt.loot_category.armour": "",
