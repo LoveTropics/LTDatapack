@@ -40,7 +40,7 @@
             "data": {
               "type": "lt:integrations/packages/everyone_random_disguise",
               "package_type": "sabotage_package",
-              "amount": 10
+              "seconds": 60
             },
             "weight": 1
           }

@@ -15,11 +15,14 @@
       "type": "ltminigames:apply_for_time",
       "mutex": "lt:disguise",
       "apply": {
-        "type": "ltminigames:set_random_disguise",
-        "disallowed": [
-          "ltextras:collectible",
-          "minecraft:ominous_item_spawner"
-        ]
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:set_random_disguise",
+          "disallowed": [
+            "ltextras:collectible",
+            "minecraft:ominous_item_spawner"
+          ]
+        }
       },
       "clear": {
         "target": "all_players",
@@ -27,7 +30,7 @@
           "type": "ltminigames:clear_disguise"
         }
       },
-      "seconds": 60
+      "seconds": "$seconds"
     }
   }
 ]
