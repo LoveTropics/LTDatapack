@@ -12,25 +12,10 @@
       }
     ]
   },
-  "lt:dodgeball/donations/packages/disguises",
-  {
-    "type": "lt:dodgeball/donations/packages/rapid_fire",
-    "equip_action": "$equip_action"
-  },
-  {
-    "type": "lt:dodgeball/donations/packages/big_boom",
-    "equip_action": "$equip_action"
-  },
   {
     "type": "ltminigames:donation_package",
     "id": "the_auto_package",
     "package_type": "auto",
-    "name": {
-      "translate": "ltminigames.minigame.donation.dodgeball.big_boom"
-    },
-    "description": {
-      "translate": "ltminigames.minigame.donation.dodgeball.big_boom.description"
-    },
     "target": "all_players",
     "receive_actions": [
       {
@@ -38,37 +23,26 @@
         "options": [
           {
             "data": {
-              "type": "ltminigames:run_commands",
-              "global": "execute as DinnerBeef run game package big_boom"
+              "type": "lt:dodgeball/donations/packages/rapid_fire",
+              "equip_action": "$equip_action"
             },
             "weight": 1
           },
           {
             "data": {
-              "type": "ltminigames:run_commands",
-              "global": "execute as DinnerBeef run game package disguise_package"
+              "type": "lt:dodgeball/donations/packages/big_boom",
+              "equip_action": "$equip_action"
             },
             "weight": 1
           },
           {
             "data": {
-              "type": "ltminigames:run_commands",
-              "global": "execute as DinnerBeef run game package rapid_fire"
+              "type": "lt:dodgeball/donations/packages/disguises"
             },
             "weight": 1
           }
         ]
       }
-    ],
-    "notification": {
-      "message": {
-        "translate": "ltminigames.minigame.donation.dodgeball.big_boom.toast",
-        "color": "light_purple"
-      },
-      "icon": {
-        "item": "tropicraft:exploding_coconut"
-      },
-      "sentiment": "positive"
-    }
+    ]
   }
 ]
