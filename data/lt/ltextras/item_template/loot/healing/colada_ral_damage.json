@@ -5,7 +5,12 @@
       "category": "healing",
       "name": "colada_ral_damage",
       "description_lines": 2,
-      "modifier_tooltips": ["add_30s_duration", "add_speed_ii", "add_jump_boost_ii", "add_increased_heartrate", "sub_liver_function"]
+      "modifier_tooltips": [
+        "add_30s_duration", 
+        "add_speed_ii", 
+        "add_jump_boost_ii", 
+        "add_swoll"
+      ]
     }
   ],
   "item": {

@@ -9,7 +9,8 @@
         "add_15s_duration",
         "add_strength_i",
         "add_resistance_i",
-        "add_swoll"
+        "add_increased_heartrate", 
+        "sub_liver_function"
       ]
     }
   ],
