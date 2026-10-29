@@ -1,6 +1,6 @@
 {
   "type": "lt:integrations/packages/random_disguise",
-  "package_type": "chat_event",
+  "package_type": "sabotage_package",
   "options": [
     {
       "data": {
