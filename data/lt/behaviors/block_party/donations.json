@@ -1,0 +1,23 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "id": "the_auto_package",
+    "package_type": "auto",
+    "target": "all_players",
+    "donation_amount": 0.0,
+    "receive_actions": [
+      {
+        "type": "ltminigames:randomize",
+        "options": [
+          {
+            "data": {
+              "type": "ltminigames:swap_players",
+              "donation_amount": 0.0
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+]

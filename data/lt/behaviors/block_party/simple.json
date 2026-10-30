@@ -51,6 +51,7 @@
       "minecraft:show_advancement_messages": false
     }
   },
+  "lt:block_party/donations",
   "ltminigames:disable_hunger",
   "lt:common/spectator",
   "ltminigames:disable_throwing_items",
