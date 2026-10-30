@@ -1,1 +1,17 @@
-{"length":2,"animations":[{"bone":"head","target":"rotation","keyframes":[{"timestamp":0,"target":[0,0,0],"interpolation":"linear"},{"timestamp":0.5,"target":[0,-15,0],"interpolation":"linear"},{"timestamp":1,"target":[0,0,0],"interpolation":"linear"},{"timestamp":1.5,"target":[0,15,0],"interpolation":"linear"},{"timestamp":2,"target":[0,0,0],"interpolation":"linear"}]}]}
+{
+  "length": 2,
+  "animations": [
+    {
+      "bone": "head",
+      "target": "rotation",
+      "keyframes": [
+        {"timestamp": 0, "target": [0, 0, 0], "interpolation": "linear"},
+        {"timestamp": 0.5, "target": [0, -15, 0], "interpolation": "linear"},
+        {"timestamp": 1, "target": [0, 0, 0], "interpolation": "linear"},
+        {"timestamp": 1.5, "target": [0, 15, 0], "interpolation": "linear"},
+        {"timestamp": 2, "target": [0, 0, 0], "interpolation": "linear"}
+      ]
+    }
+  ],
+  "loop": true
+}
