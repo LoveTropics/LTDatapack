@@ -141,20 +141,9 @@
       ]
     },
     {
-      "type": "ltminigames:custom_command",
-      "path": [
-        "give_tropicoins"
-      ],
-      "permission_level": "overlord",
-      "argument": "player",
-      "actions": [
-        {
-          "type": "ltminigames:increment_statistic",
-          "statistic": "tropicoins",
-          "amount": 10,
-          "scope": "player"
-        }
-      ]
+      "type": "ltminigames:point_control_commands",
+      "statistic": "tropicoins",
+      "subcommand": ["coins"]
     }
   ]
 }
