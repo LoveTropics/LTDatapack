@@ -19,19 +19,11 @@
       "effects": [
         {
           "type": "minecraft:blindness",
-          "seconds": 99999,
           "amplifier": 0,
           "particles": false,
           "show_icon": false
         }
       ]
-    }
-  },
-  {
-    "type": "ltminigames:set_role",
-    "role": "spectator",
-    "actions": {
-      "type": "ltminigames:clear_effects"
     }
   }
 ]

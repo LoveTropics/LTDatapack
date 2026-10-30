@@ -55,5 +55,29 @@
       "type": "ltminigames:disable_player_collision"
     }
   },
-  "ltminigames:disable_crafting"
+  "ltminigames:disable_crafting",
+  {
+    "type": "ltminigames:on_spawn",
+    "actions": {
+      "type": "ltminigames:give_effect",
+      "effects": [
+        {
+          "type": "minecraft:night_vision",
+          "amplifier": 0,
+          "particles": false,
+          "show_icon": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:set_role",
+    "role": "spectator",
+    "actions": [
+      {
+        "type": "ltminigames:clear_effects",
+        "effects": ["minecraft:blindness"]
+      }
+    ]
+  }
 ]

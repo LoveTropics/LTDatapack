@@ -1,4 +1,9 @@
 [
+  {
+    "type": "lt:common/playing",
+    "game_type": "adventure",
+    "join_late_with_role": "spectator"
+  },
   "lt:common/spectator",
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
@@ -50,7 +55,7 @@
         "ltextras:undroppable": {}
       }
     },
-    "interval": 400
+    "interval": 600
   },
   {
     "type": "ltminigames:events/game_over",

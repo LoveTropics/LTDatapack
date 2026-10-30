@@ -22,11 +22,36 @@
   {
     "type": "ltminigames:rider",
     "entity": {
-      "type": "minecraft:acacia_boat",
-      "tag": {
-        "Invulnerable": true
+      "type": "minecraft:acacia_boat"
+    },
+    "force": false,
+    "not_riding_effects": [
+      {
+        "type": "minecraft:slowness",
+        "seconds": 0.5,
+        "amplifier": 1,
+        "particles": false,
+        "show_icon": true
       }
-    }
+    ]
+  },
+  {
+    "type": "ltminigames:entity_timer",
+    "when_matching": {
+      "minecraft:entity_type": "minecraft:acacia_boat"
+    },
+    "when_not_matching": {
+      "minecraft:passenger": {
+      }
+    },
+    "after_ticks": 30,
+    "actions": "ltminigames:kill"
+  },
+  {
+    "type": "ltminigames:derby_fireworks",
+    "radius": 2.0,
+    "vertical_knockback": 1.3,
+    "horizontal_knockback": 0.6
   },
   {
     "type": "ltminigames:countdown_effects",
@@ -65,7 +90,8 @@
         {
           "type": "ltminigames:remove_client_state",
           "state": "ltminigames:disable_player_movement"
-        }
+        },
+        "lt:mysty/race/ice_boat/equipment"
       ]
     }
   },

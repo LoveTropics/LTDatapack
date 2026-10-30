@@ -68,9 +68,6 @@
         "sound": "block.anvil.land",
         "source": "player",
         "volume": 0.75
-      },
-      {
-        "type": "ltminigames:clear_effects"
       }
     ]
   },

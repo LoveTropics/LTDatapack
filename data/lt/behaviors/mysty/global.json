@@ -4,17 +4,6 @@
     "roles": ["event_overlord"]
   },
   {
-    "type": "ltminigames:statistic_overlay",
-    "icon": "ltextras:tropicoin",
-    "translation_key": "ltminigames.minigame.mysty.coins",
-    "statistic": "points"
-  },
-  {
-    "type": "ltminigames:statistic_tag",
-    "statistic": "points",
-    "icon": "ltextras:tropicoin"
-  },
-  {
     "type": "ltminigames:point_control_commands",
     "statistic": "points",
     "subcommand": ["competition", "coins"]

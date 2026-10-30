@@ -63,12 +63,6 @@
         {
           "type": "ltminigames:increment_statistic",
           "statistic": "points",
-          "amount": 1,
-          "scope": "player"
-        },
-        {
-          "type": "ltminigames:increment_statistic",
-          "statistic": "points",
           "from_participant_count": true,
           "scope": "player"
         },

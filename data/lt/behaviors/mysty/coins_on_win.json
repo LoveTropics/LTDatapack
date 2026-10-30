@@ -1,0 +1,11 @@
+{
+  "type": "ltminigames:events/game_over",
+  "actions": [
+    {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "points",
+      "amount": 5,
+      "scope": "player"
+    }
+  ]
+}

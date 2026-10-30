@@ -3,7 +3,6 @@
     "translate": "ltminigames.minigame.mysty.arena.normal",
     "color": "aqua"
   },
-  "icon": "ltminigames:minigames/spleef/icon",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
@@ -11,5 +10,5 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:games/mysty/arenas/island"
   },
-  "behaviors": "lt:mysty/arena/island"
+  "behaviors": "lt:mysty/arena/common"
 }

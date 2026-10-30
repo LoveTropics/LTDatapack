@@ -3,6 +3,7 @@
   "ltminigames:disable_throwing_items",
   "ltminigames:immediate_respawn",
   "ltminigames:cancel_player_attacks",
+  "ltminigames:cancel_player_damage",
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
@@ -19,6 +20,21 @@
   {
     "type": "ltminigames:set_day_time",
     "time": 13000
+  },
+  {
+    "type": "ltminigames:on_spawn",
+    "role": "participant",
+    "actions": [
+      {
+        "type": "ltminigames:add_attribute_modifier",
+        "attribute": "minecraft:jump_strength",
+        "modifier": {
+          "id": "lt:no_jumping",
+          "amount": -1,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
   },
   {
     "type": "ltminigames:set_client_state",
