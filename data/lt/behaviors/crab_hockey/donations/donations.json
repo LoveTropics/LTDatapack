@@ -1,0 +1,64 @@
+[
+  {
+    "type": "ltminigames:block_packages_during_phase",
+    "block_periods": [
+      [0, "start"],
+      ["end", "close"]
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "the_auto_package",
+    "package_type": "auto",
+    "target": "all_players",
+    "donation_amount": 0.0,
+    "receive_actions": [
+      {
+        "type": "ltminigames:randomize",
+        "options": [
+          {
+            "data": {
+              "type": "lt:integrations/packages/slipperiness"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:integrations/packages/big_leaps",
+              "duration": 30
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:integrations/packages/wind_charge_offhand"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:crab_hockey/donations/packages/pvp_crabs"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:crab_hockey/donations/packages/more_crabs",
+              "id": "plus_one_crab",
+              "amount": 1
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:crab_hockey/donations/packages/more_crabs",
+              "id": "plus_two_crab",
+              "amount": 2
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+]

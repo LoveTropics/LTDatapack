@@ -258,7 +258,7 @@
       },
       "header": []
     },
-    "lt:crab_hockey/donations",
+    "lt:crab_hockey/donations/donations",
     "ltminigames:cancel_player_damage",
     {
       "type": "ltminigames:set_client_state",

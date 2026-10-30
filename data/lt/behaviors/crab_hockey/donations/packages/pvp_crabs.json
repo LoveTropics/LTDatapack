@@ -1,0 +1,47 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "pvp_crabs",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "receive_actions": {
+    "type": "ltminigames:apply_for_time",
+    "mutex": "lt:disguise_package",
+    "apply": {
+      "target": "participants",
+      "actions": {
+        "type": "ltminigames:set_disguise",
+        "entity": {
+          "id": "tropicraft:fiddler_crab"
+        }
+      }
+    },
+    "clear": {
+      "target": "all_players",
+      "actions": {
+        "type": "ltminigames:clear_disguise",
+        "entity": {
+          "id": "tropicraft:fiddler_crab"
+        }
+      }
+    },
+    "nested": {
+      "type": "ltminigames:allow_player_knockback"
+    },
+    "seconds": 60
+  },
+  "notification": {
+    "icon": {
+      "item": {
+        "id": "peekaboo:disguise",
+        "count": 1,
+        "components": {
+          "peekaboo:disguise": {
+            "entity": {
+              "id": "tropicraft:fiddler_crab"
+            }
+          }
+        }
+      }
+    }
+  }
+}

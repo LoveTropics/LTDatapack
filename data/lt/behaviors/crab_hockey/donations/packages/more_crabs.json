@@ -1,0 +1,28 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "$id",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "receive_actions": {
+    "actions": {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "crabs",
+      "amount": "$amount",
+      "scope": "global"
+    },
+    "target": "none"
+  },
+  "notification": {
+    "icon": {
+      "item": {
+        "id": "peekaboo:plushie",
+        "components": {
+          "peekaboo:entity": {
+            "id": "tropicraft:fiddler_crab"
+          }
+        }
+      }
+    },
+    "sentiment": "neutral"
+  }
+}
