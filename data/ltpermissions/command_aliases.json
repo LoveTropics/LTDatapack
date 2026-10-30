@@ -23,5 +23,6 @@
   "kn": "execute as @s at @s run function lt:utility/command/kill_nearest",
   "scope": "function lt:utility/command/scope",
   "stage": "dialog show @s lt:stage/control",
-  "kill_nearest_armor_stand": "kill @n[type=minecraft:armor_stand]"
+  "kill_nearest_armor_stand": "kill @n[type=minecraft:armor_stand]",
+  "disguised_as": "data get entity @s \"neoforge:attachments\".\"peekaboo:disguise\".disguise.entity.id"
 }
