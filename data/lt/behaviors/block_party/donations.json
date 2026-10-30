@@ -11,8 +11,7 @@
         "options": [
           {
             "data": {
-              "type": "ltminigames:swap_players",
-              "donation_amount": 0.0
+              "type": "lt:integrations/packages/swap_players"
             },
             "weight": 1
           }
