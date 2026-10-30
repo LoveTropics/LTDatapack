@@ -1,0 +1,91 @@
+[
+  {
+    "type": "ltminigames:block_packages_during_phase",
+    "block_periods": [
+      {
+        "start": 0.0,
+        "end": "go"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "the_auto_package",
+    "package_type": "auto",
+    "target": "all_players",
+    "donation_amount": 0.0,
+    "receive_actions": [
+      {
+        "type": "ltminigames:randomize",
+        "options": [
+          {
+            "data": {
+              "type": "lt:integrations/packages/disguise",
+              "id": "whos_the_turtle_now",
+              "toast": "ltminigames.minigame.donation.whos_the_turtle_now.toast",
+              "entity": {
+                "id": "tropicraft:turtle"
+              },
+              "seconds": 5
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.2,
+              "duration": 20,
+              "id": "speed_1"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.5,
+              "duration": 20,
+              "id": "speed_2"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.7,
+              "duration": 20,
+              "id": "speed_3"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.7,
+              "duration": 20,
+              "id": "slow_1"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.7,
+              "duration": 20,
+              "id": "slow_2"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "type": "lt:turtle_race/donations/packages/speed",
+              "amount": 1.7,
+              "duration": 20,
+              "id": "slow_3"
+            },
+            "weight": 10
+          }
+        ]
+      }
+    ]
+  }
+]

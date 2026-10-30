@@ -1,0 +1,31 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "$id",
+  "package_type": "care_package",
+  "target": "all_players",
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:speed",
+      "apply": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:turtle_boost",
+          "amount": "$amount",
+          "duration": "$duration"
+        }
+      },
+      "clear": {
+        "type": "ltminigames:turtle_boost",
+        "amount": 0,
+        "duration": 0
+      },
+      "seconds": 30
+    }
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:speed"
+    }
+  }
+}

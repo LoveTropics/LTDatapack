@@ -5,7 +5,7 @@
       "go": 10
     }
   },
-  "lt:turtle_race/donations",
+  "lt:turtle_race/donations/donations",
   {
     "type": "lt:common/playing",
     "game_type": "adventure",
