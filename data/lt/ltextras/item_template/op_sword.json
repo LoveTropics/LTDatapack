@@ -4,8 +4,8 @@
     "components": {
       "enchantments": {
         "sharpness": 255, "smite": 255
-      }
-    },
-    "custom_name": {"color": "red", "italic": false, "text": "Hate Tropics"}
+      },
+      "custom_name": {"color": "red", "italic": false, "text": "Hate Tropics"}
+    }
   }
 }
