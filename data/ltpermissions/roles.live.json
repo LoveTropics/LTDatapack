@@ -19,6 +19,11 @@
       }
     }
   },
+  "commander": {
+    "overrides": {
+      "command_feedback": true
+    }
+  },
   "administration": {
     "includes": ["whitelisted", "voice"],
     "overrides": {
@@ -198,11 +203,6 @@
   "dinners": {},
   "river_race_red": {},
   "river_race_blue": {},
-  "commander": {
-    "overrides": {
-      "command_feedback": true
-    }
-  },
   "shield_bypass": {
     "overrides": {"shield_bypass": true}
   },
@@ -212,6 +212,7 @@
   },
   "whitelisted": {
     "overrides": {
+      "command_feedback": false,
       "commands": {
         "help": "allow",
         "game join": "allow",
