@@ -1,0 +1,49 @@
+{
+  "modifiers": [
+    {
+      "function": "ltextras:stt_loot",
+      "category": "utility", 
+      "name": "jar_of_head_with_laser", 
+      "description_lines": 2, 
+      "modifier_tooltips": [
+        "add_its_got_a_laser",
+        "sub_the_ability_to_move"
+      ]
+    }
+  ],
+  "item": {
+    "id": "ltextras:jar_of_mobs",
+    "components": {
+      "ltextras:jarred_mobs": {
+        "spawn_count": 1,
+        "spread": 0.0,
+        "entities": [
+          {
+            "id": "minecraft:guardian",
+            "active_effects": [
+              {
+                "id": "ltextras:transient_existence",
+                "amplifier": 0,
+                "duration": 800,
+                "show_particles": false
+              }
+            ],
+            "neoforge:attachments": {
+              "peekaboo:disguise": {
+                "disguise": {
+                  "entity": {
+                    "id": "tropicraft:eih"
+                  }
+                }
+              }
+            },
+            "NoGravity": true,
+            "Silent": true,
+            "DeathLootTable": ""
+          }
+        ]
+      },
+      "minecraft:item_model": "lt:jar_of_head_with_laser"
+    }
+  }
+}
