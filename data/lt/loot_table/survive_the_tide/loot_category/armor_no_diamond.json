@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/copper_chestplate",
+          "weight": 50
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/copper_leggings",
+          "weight": 50
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/copper_boots",
+          "weight": 50
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_chestplate",
+          "weight": 25
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_leggings",
+          "weight": 25
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_boots",
+          "weight": 25
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/nearly_very_broken_shield",
+          "weight": 18
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/nearly_very_broken_shield_2",
+          "weight": 18
+        }
+      ]
+    }
+  ]
+}

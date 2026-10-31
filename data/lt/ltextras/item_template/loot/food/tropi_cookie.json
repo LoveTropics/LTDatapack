@@ -23,7 +23,8 @@
         "nutrition": 6,
         "saturation": 2.5,
         "can_always_eat": false
-      }
+      },
+      "minecraft:max_stack_size": 16
     }
   }
 }

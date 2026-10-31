@@ -43,7 +43,8 @@
             "show_icon":true
           }
         ]
-      }
+      },
+      "minecraft:max_stack_size": 4
     }
   }
 }

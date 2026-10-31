@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/armor",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/weapons_and_ammo",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/food_and_health",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/utility_and_ammo",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

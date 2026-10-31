@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tier_3_standard",
+          "weight": 65
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tier_3_unique",
+          "weight": 35
+        }
+      ]
+    }
+  ]
+}

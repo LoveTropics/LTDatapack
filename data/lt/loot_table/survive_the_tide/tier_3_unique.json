@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/armor",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/weapons_and_ammo",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/utility_and_ammo",
+          "weight": 4
+        }
+        
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/unique",
+          "weight": 1
+        }
+        ]
+    }
+  ]
+}
