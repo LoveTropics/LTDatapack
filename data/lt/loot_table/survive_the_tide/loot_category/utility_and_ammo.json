@@ -88,6 +88,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/utility/jar_of_angry_bees",
+          "weight": 11
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/utility/jar_of_head_with_laser",
+          "weight": 11
         }
       ]
     }
