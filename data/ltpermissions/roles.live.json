@@ -212,6 +212,7 @@
   },
   "whitelisted": {
     "overrides": {
+      "command_feedback": false,
       "commands": {
         "help": "allow",
         "game join": "allow",
