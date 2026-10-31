@@ -28,6 +28,7 @@
   "administration": {
     "includes": ["whitelisted", "voice"],
     "overrides": {
+      "op_level": 4,
       "commands": {
         ".*": "allow"
       },
