@@ -19,10 +19,16 @@
       }
     }
   },
+  "commander": {
+    "overrides": {
+      "command_feedback": true
+    }
+  },
   "administration": {
     "includes": ["whitelisted", "voice"],
     "overrides": {
       "op_level": 4,
+      "command_feedback": false,
       "commands": {
         ".*": "allow"
       },
@@ -198,11 +204,6 @@
   "dinners": {},
   "river_race_red": {},
   "river_race_blue": {},
-  "commander": {
-    "overrides": {
-      "command_feedback": true
-    }
-  },
   "shield_bypass": {
     "overrides": {"shield_bypass": true}
   },
