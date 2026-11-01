@@ -169,5 +169,10 @@
         "reversed": true
       }
     ]
+  },
+  {
+    "type": "lt:common/winner_points",
+    "statistic": "points",
+    "amount": 5
   }
 ]

@@ -126,5 +126,10 @@
   },
   "lt:common/game_over_title",
   "lt:common/spectator",
-  "lt:mysty/race/ice_boat/ruleset"
+  "lt:mysty/race/ice_boat/ruleset",
+  {
+    "type": "lt:common/winner_points",
+    "statistic": "points",
+    "amount": 5
+  }
 ]

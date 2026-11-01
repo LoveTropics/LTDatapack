@@ -17,5 +17,10 @@
     "game_modes_to_hide_by_role": {
       "participant": ["adventure"]
     }
+  },
+  {
+    "type": "lt:common/winner_points",
+    "statistic": "points",
+    "amount": 5
   }
 ]
