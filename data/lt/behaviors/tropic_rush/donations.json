@@ -6,10 +6,7 @@
   "include_sub_phases": true,
   "receive_actions": [
     {
-      "type": "ltminigames:increment_statistic",
-      "statistic": "tropicoins",
-      "per_donated_amount": 1,
-      "scope": "player"
+      "type": "ltminigames:give_donated_tropicoins"
     },
     {
       "type": "ltminigames:tropic_rush/change_modifier",
