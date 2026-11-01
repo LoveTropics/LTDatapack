@@ -1,6 +1,6 @@
 [
   {
-    "type": "ltminigames:escape_race/named_stages",
+    "type": "ltminigames:named_stages",
     "stages": {
       "breakroom_1": {
         "next_stage": "room_racing_1",
@@ -41,7 +41,7 @@
           ],
           "games_per_round": 1,
           "on_complete": {
-            "type": "ltminigames:escape_race/named_stages/progress"
+            "type": "ltminigames:named_stages/progress"
           }
         }
       },
@@ -122,7 +122,7 @@
           ],
           "games_per_round": 1,
           "on_complete": {
-            "type": "ltminigames:escape_race/named_stages/progress"
+            "type": "ltminigames:named_stages/progress"
           }
         }
       },
@@ -212,7 +212,7 @@
     "starting_stage": "breakroom_1"
   },
   {
-    "type": "ltminigames:escape_race/stage_bar",
+    "type": "ltminigames:named_stages/stage_bar",
     "bar_by_stage": {
       "room_racing_1": {
         "title": "Race rooms! (Terry calls in %time%)",

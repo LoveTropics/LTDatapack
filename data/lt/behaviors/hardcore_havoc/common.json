@@ -15,5 +15,6 @@
     "type": "ltgames_voice:voice_chat",
     "open_to_everyone": false,
     "group_by_team": true
-  }
+  },
+  "lt:harcore_havoc/flow"
 ]

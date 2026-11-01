@@ -1,0 +1,150 @@
+[
+  {
+    "type": "ltminigames:named_stages",
+    "stages": {
+      "pre_start": {
+        "next_stage": "countdown",
+        "start_actions": [
+          {
+            "type": "ltminigames:apply_client_state",
+            "state": {
+              "type": "ltminigames:disable_player_movement"
+            }
+          }
+        ],
+        "end_actions": [
+          {
+            "type": "ltminigames:scheduled_actions",
+            "channel": "freeze",
+            "target": {
+              "type": "specific_team",
+              "team": "seekers"
+            },
+            "actions": {
+              "start": [],
+              "unfreeze": [
+                "ltminigames:named_stages/progress"
+              ]
+            }
+          },
+          {
+            "type": "ltminigames:countdown_effects",
+            "channel": "freeze",
+            "target": "unfreeze",
+            "sound": "minecraft:entity.arrow.hit_player",
+            "seconds": 10,
+            "show_title": true
+          }
+        ]
+      },
+      "countdown": {
+        "next_stage": "overworld_start",
+        "start_actions": [],
+        "end_actions": [
+          {
+            "type": "ltminigames:remove_client_state",
+            "state": "ltminigames:disable_player_movement"
+          }
+        ]
+      },
+      "overworld_start": {
+        "timer_length_ticks": 30000,
+        "auto_move_on": true,
+        "next_stage": "overworld_nether",
+        "start_actions": [
+          {
+            "type": "ltminigames:set_day_time_now",
+            "time_marker": "minecraft:day"
+          },
+          {
+            "type": "ltminigames:set_difficulty_now",
+            "difficulty": "easy"
+          }
+        ],
+        "end_actions": []
+      },
+      "overworld_nether": {
+        "timer_length_ticks": 18000,
+        "auto_move_on": true,
+        "next_stage": "overworld_normal",
+        "start_actions": [
+          {
+            "type": "ltminigames:set_day_time_now",
+            "time_marker": "minecraft:noon"
+          }
+        ],
+        "end_actions": []
+      },
+      "overworld_normal": {
+        "timer_length_ticks": 30000,
+        "auto_move_on": true,
+        "next_stage": "overworld_theend",
+        "start_actions": [
+          {
+            "type": "ltminigames:set_day_time_now",
+            "time_marker": "minecraft:night"
+          },
+          {
+            "type": "ltminigames:set_difficulty_now",
+            "difficulty": "normal"
+          }
+        ],
+        "end_actions": []
+      },
+      "overworld_theend": {
+        "timer_length_ticks": 18000,
+        "auto_move_on": true,
+        "next_stage": "overworld_endgame",
+        "start_actions": [],
+        "end_actions": []
+      },
+      "overworld_endgame": {
+        "timer_length_ticks": 24000,
+        "auto_move_on": true,
+        "next_stage": "award_show",
+        "start_actions": [
+          {
+            "type": "ltminigames:set_day_time_now",
+            "time": 23000
+          },
+          {
+            "type": "ltminigames:set_difficulty_now",
+            "difficulty": "hard"
+          }
+        ],
+        "end_actions": []
+      }
+    },
+    "starting_stage": "pre_start"
+  },
+  {
+    "type": "ltminigames:named_stages/stage_bar",
+    "bar_by_stage": {
+      "overworld_start": {
+        "title": "Difficulty: Easy. Nether opens in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "overworld_nether": {
+        "title": "Difficulty: Easy. Nether Open! Closing in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "overworld_normal": {
+        "title": "Difficulty: Normal. End opens in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "overworld_theend": {
+        "title": "Difficulty: Normal. End Open! Closing in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "overworld_endgame": {
+        "title": "Difficulty: Hard. Game over in %time%",
+        "color": "green",
+        "reversed": true
+      }
+    }
+  }
+]
