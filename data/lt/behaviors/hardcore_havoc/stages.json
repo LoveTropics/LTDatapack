@@ -1,7 +1,28 @@
 [
   {
+    "type": "ltminigames:progression",
+    "channel": "starting",
+    "start": false,
+    "named_points": {
+      "start": 1,
+      "unfreeze": 6
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "channel": "starting",
+    "target": "unfreeze",
+    "show_title": true,
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
     "type": "ltminigames:scheduled_actions",
-    "channel": "main",
+    "channel": "starting",
     "actions": {
       "start": [],
       "unfreeze": [
@@ -21,36 +42,39 @@
             "difficulty": "peaceful"
           },
           {
-            "type": "ltminigames:apply_client_state",
-            "state": {
-              "type": "ltminigames:disable_player_movement"
-            }
-          }
-        ],
-        "end_actions": []
-      },
-      "start": {
-        "next_stage": "overworld",
-        "auto_move_on": true,
-        "timer_length_ticks": 100,
-        "start_actions": [
-          {
-            "type": "ltminigames:countdown_effects",
-            "target": "start",
-            "sound": "minecraft:block.end_portal_frame.fill",
-            "seconds": 5,
-            "pitch": {
-              "start": 1.25,
-              "end": 0.25
-            }
+            "type": "ltminigames:apply_to",
+            "target": "participants",
+            "actions": [
+              {
+                "type": "ltminigames:apply_client_state",
+                "state": {
+                  "type": "ltminigames:disable_player_movement"
+                }
+              }
+            ]
           }
         ],
         "end_actions": [
           {
-            "type": "ltminigames:apply_client_state",
-            "state": {
-              "type": "ltminigames:disable_player_movement"
-            }
+            "type": "ltminigames:start_progress_channel",
+            "channel": "starting"
+          }
+        ]
+      },
+      "start": {
+        "next_stage": "overworld",
+        "auto_move_on": false,
+        "start_actions": [],
+        "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "participants",
+            "actions": [
+              {
+                "type": "ltminigames:remove_client_state",
+                "state": "ltminigames:disable_player_movement"
+              }
+            ]
           }
         ]
       },

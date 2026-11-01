@@ -9,8 +9,9 @@
     "last_team": true
   },
   {
-    "type": "ltminigames:set_difficulty",
-    "difficulty": "hard"
+    "type": "ltminigames:setup_world_border",
+    "center_region": "spectators",
+    "radius": 100
   },
   {
     "type": "ltminigames:set_game_rules",
