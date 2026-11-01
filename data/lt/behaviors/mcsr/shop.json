@@ -1,5 +1,5 @@
 {
-  "type": "ltminigames:mcsr/shop",
+  "type": "ltminigames:shop",
   "offers": [
     {
       "icon": "minecraft:iron_pickaxe",
@@ -112,6 +112,7 @@
       "description": {"text": "Flip another player's camera up and down for 30 seconds"},
       "cost": 15,
       "target": "pick",
+      "usable_by": "all",
       "actions": {
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
@@ -133,6 +134,7 @@
       "description": {"text": "Swap another player's forward and backward for 45 seconds"},
       "cost": 12,
       "target": "pick",
+      "usable_by": "all",
       "actions": {
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
@@ -157,6 +159,7 @@
       "description": {"text": "Mining Fatigue II for 60 seconds"},
       "cost": 10,
       "target": "pick",
+      "usable_by": "all",
       "actions": {
         "type": "ltminigames:give_effect",
         "effects": [
@@ -174,6 +177,7 @@
       "description": {"text": "Blinds a random player for 30 seconds"},
       "cost": 6,
       "target": "random",
+      "usable_by": "all",
       "actions": {
         "type": "ltminigames:give_effect",
         "effects": [

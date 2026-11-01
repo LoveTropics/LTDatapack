@@ -161,6 +161,9 @@
           "$ref": "../behaviors/ltminigames/game_finish.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/ghosts.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/give_effect.json"
         },
         {

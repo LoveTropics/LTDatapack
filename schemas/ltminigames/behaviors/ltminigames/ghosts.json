@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "string",
+      "const": "ltminigames:ghosts"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "ltminigames:ghosts"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ]
+    }
+  ]
+}

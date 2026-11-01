@@ -87,6 +87,7 @@
       },
       "spawn_region": "spawn"
     },
+    "ltminigames:ghosts",
     "lt:common/spectator",
     "lt:mcsr/bingo",
     "lt:mcsr/shop",
