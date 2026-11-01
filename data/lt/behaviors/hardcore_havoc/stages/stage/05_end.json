@@ -1,0 +1,12 @@
+{
+  "next_stage": "06_overworld_post_end",
+  "timer_length_ticks": 18000,
+  "auto_move_on": true,
+  "start_actions": [
+    {
+      "type": "ltminigames:set_day_time_now",
+      "time_marker": "minecraft:night"
+    }
+  ],
+  "end_actions": []
+}

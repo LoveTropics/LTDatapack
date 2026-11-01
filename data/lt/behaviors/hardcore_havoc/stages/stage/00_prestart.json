@@ -1,0 +1,17 @@
+{
+  "next_stage": "01_start",
+  "auto_move_on": false,
+  "start_actions": [
+    {
+      "type": "ltminigames:set_difficulty_now",
+      "difficulty": "peaceful"
+    },
+    {
+      "type": "ltminigames:apply_client_state",
+      "state": {
+        "type": "ltminigames:disable_player_movement"
+      }
+    }
+  ],
+  "end_actions": []
+}

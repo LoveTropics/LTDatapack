@@ -1,0 +1,33 @@
+[
+  {
+    "type": "ltgames_voice:voice_chat",
+    "open_to_everyone": false,
+    "group_by_team": true
+  },
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "last_team": true
+  },
+  {
+    "type": "ltminigames:set_difficulty",
+    "difficulty": "hard"
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "minecraft:command_blocks_work": true,
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": true,
+      "minecraft:natural_health_regeneration": false,
+      "minecraft:show_advancement_messages": true,
+      "command_block_output": false,
+      "tropicraft:unrestricted_exploding_coconuts": true
+    }
+  },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:health_tag"
+    }
+  }
+]

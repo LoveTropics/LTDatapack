@@ -1,0 +1,12 @@
+{
+  "next_stage": "04_overworld_post_nether",
+  "timer_length_ticks": 18000,
+  "auto_move_on": true,
+  "start_actions": [
+    {
+      "type": "ltminigames:set_day_time_now",
+      "time_marker": "minecraft:noon"
+    }
+  ],
+  "end_actions": []
+}

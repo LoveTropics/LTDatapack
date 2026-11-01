@@ -1,5 +1,4 @@
 [
-  "ltminigames:teams",
   {
     "type": "ltminigames:position_players",
     "teams": {
@@ -11,13 +10,10 @@
     "split_by_team": true,
     "spectators": ["spectators"]
   },
-  {
-    "type": "ltgames_voice:voice_chat",
-    "open_to_everyone": false,
-    "group_by_team": true
-  },
-  "lt:hardcore_havoc/flow",
-  "lt:hardcore_havoc/gamerules",
+  "ltminigames:teams",
+  "lt:hardcore_havoc/death",
+  "lt:hardcore_havoc/stages/stages",
+  "lt:hardcore_havoc/rules",
   "lt:hardcore_havoc/shop",
   "lt:hardcore_havoc/donations"
 ]

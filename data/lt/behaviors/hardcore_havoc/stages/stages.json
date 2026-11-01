@@ -1,0 +1,55 @@
+[
+  {
+    "type": "ltminigames:named_stages",
+    "stages": {
+      "00_prestart": "lt:hardcore_havoc/stages/stage/00_prestart",
+      "01_start": "lt:hardcore_havoc/stages/stage/01_start",
+      "02_overworld": "lt:hardcore_havoc/stages/stage/02_overworld",
+      "03_nether": "lt:hardcore_havoc/stages/stage/03_nether",
+      "04_overworld_post_nether": "lt:hardcore_havoc/stages/stage/04_overworld_post_nether",
+      "05_end": "lt:hardcore_havoc/stages/stage/05_end",
+      "06_overworld_post_end": "lt:hardcore_havoc/stages/stage/06_overworld_post_end"
+    },
+    "starting_stage": "00_prestart"
+  },
+  {
+    "type": "ltminigames:named_stages/stage_bar",
+    "bar_by_stage": {
+      "00_pre_start": {
+        "title": "Starting Soon",
+        "color": "green",
+        "reversed": true
+      },
+      "01_start": {
+        "title": "Starting in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "02_overworld": {
+        "title": "Difficulty: Easy. Nether opens in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "03_nether": {
+        "title": "Difficulty: Easy. Nether Open! Closing in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "04_overworld_post_nether": {
+        "title": "Difficulty: Normal. End opens in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "05_end": {
+        "title": "Difficulty: Normal. End Open! Closing in %time%",
+        "color": "green",
+        "reversed": true
+      },
+      "06_overworld_post_end": {
+        "title": "Difficulty: Hard. Game over in %time%",
+        "color": "green",
+        "reversed": true
+      }
+    }
+  }
+]
