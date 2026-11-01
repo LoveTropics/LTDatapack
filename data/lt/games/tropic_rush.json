@@ -97,7 +97,7 @@
     "lt:tropic_rush/donations",
     {
       "type": "ltminigames:tropic_rush/finish",
-      "dragon_kill": true,
+      "dragon_kill": false,
       "full_bingo_card": true
     },
     {
