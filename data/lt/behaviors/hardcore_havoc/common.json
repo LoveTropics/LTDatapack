@@ -16,5 +16,6 @@
     "open_to_everyone": false,
     "group_by_team": true
   },
-  "lt:harcore_havoc/flow"
+  "lt:hardcore_havoc/flow",
+  "lt:hardcore_havoc/gamerules"
 ]
