@@ -38,11 +38,6 @@
       "type": "ltminigames:position_players",
       "all": "spawn"
     },
-    "ltminigames:disable_hunger",
-    {
-      "type": "ltminigames:cancel_player_damage",
-      "knockback": true
-    },
     {
       "type": "ltminigames:set_game_rules",
       "apply_defaults": true,
@@ -92,6 +87,7 @@
       },
       "spawn_region": "spawn"
     },
+    "lt:common/spectator",
     "lt:mcsr/bingo",
     "lt:mcsr/shop",
     "lt:mcsr/modifiers",
