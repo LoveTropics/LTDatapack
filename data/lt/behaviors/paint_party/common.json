@@ -98,7 +98,8 @@
       "color": "yellow",
       "bold": true
     },
-    "header": []
+    "header": [],
+    "show_placement": false
   },
   {
     "type": "ltminigames:immediate_respawn",

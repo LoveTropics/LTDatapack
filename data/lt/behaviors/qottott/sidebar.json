@@ -8,5 +8,6 @@
     {"translate": "ltminigames.minigame.qottott.instruction", "color": "aqua"},
     "",
     {"translate": "ltminigames.minigame.qottott.sidebar.top_players", "color": "aqua"}
-  ]
+  ],
+  "show_placement": false
 }

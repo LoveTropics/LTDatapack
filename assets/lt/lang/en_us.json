@@ -583,6 +583,8 @@
   "ltminigames.minigame.donation.everyone_host": "Who's the host now?",
   "ltminigames.minigame.donation.everyone_host.description": "Disguise everyone as the host for 2 minutes",
   "ltminigames.minigame.donation.everyone_host.toast": "%sender% has disguised everyone as the host",
+  "ltminigames.minigame.block_party.pvp.subtitle": "PvP is enabled!",
+  "ltminigames.minigame.block_party.pvp.title": "Look out!",
   "lt.quest.generic.collectible_added": "A new quest collectible has been added to your basket.",
   "lt.quest.cents_item.mysterious_note.name": "Mysterious Note",
   "lt.quest.cents_item.mysterious_note.description": "A note with messily scrawled coordinates and words.",

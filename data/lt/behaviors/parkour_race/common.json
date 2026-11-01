@@ -47,7 +47,8 @@
       {"translate": "ltminigames.minigame.sidebar.race_course", "color": "gray"},
       ""
     ],
-    "statistic_holder": "player"
+    "statistic_holder": "player",
+    "show_placement": false
   },
   {
     "type": "ltminigames:events/game_over",

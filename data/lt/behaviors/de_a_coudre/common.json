@@ -47,7 +47,8 @@
       "color": "yellow",
       "bold": true
     },
-    "header": []
+    "header": [],
+    "show_placement": false
   },
   "lt:de_a_coudre/end",
   {

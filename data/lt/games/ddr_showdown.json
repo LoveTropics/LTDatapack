@@ -38,7 +38,8 @@
         "translate": "ltminigames.minigame.ddr_showdown.sidebar",
         "color": "aqua"
       },
-      "header": []
+      "header": [],
+      "show_placement": false
     },
     "lt:ddr_showdown/ruleset",
     "lt:ddr_showdown/end"

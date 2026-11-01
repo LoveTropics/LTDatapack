@@ -98,7 +98,8 @@
       "color": "light_purple",
       "bold": true
     },
-    "header": []
+    "header": [],
+    "show_placement": false
   },
   {
     "type": "ltminigames:game_end_effects"

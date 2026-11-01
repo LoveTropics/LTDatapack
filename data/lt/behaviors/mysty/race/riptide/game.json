@@ -106,7 +106,8 @@
         "underlined": true
       }
     ],
-    "statistic_holder": "player"
+    "statistic_holder": "player",
+    "show_placement": false
   },
   {
     "type": "ltminigames:place_by_statistic",

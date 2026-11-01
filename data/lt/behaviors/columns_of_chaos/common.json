@@ -30,7 +30,8 @@
       "color": "yellow",
       "bold": true
     },
-    "header": []
+    "header": [],
+    "show_placement": false
   },
   {
     "type": "ltminigames:last_remaining_win_trigger",

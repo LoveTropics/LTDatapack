@@ -31,8 +31,34 @@
     "max_time": 280,
     "time_decay_rounds": 10,
     "interval": 80,
-    "knockback_after_round": 3,
-    "max_lives": 3
+    "max_lives": 3,
+    "on_round": [
+      {
+        "index": 3,
+        "actions": [
+          {
+            "type": "ltminigames:add_equipment",
+            "mainhand": {
+              "id": "minecraft:fishing_rod",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            }
+          },
+          {
+            "type": "ltminigames:show_title",
+            "title": {"translate": "ltminigames.minigame.block_party.pvp.title", "color": "red"},
+            "subtitle": {"translate": "ltminigames.minigame.block_party.pvp.subtitle", "color": "gold"}
+          },
+          {
+            "type": "ltminigames:play_sound",
+            "sound": "block.glass.break",
+            "source": "player"
+          }
+        ],
+        "target": "participants"
+      }
+    ]
   },
   {
     "type": "ltminigames:statistic_boss_bar",
@@ -63,7 +89,8 @@
         "underlined": true
       }
     ],
-    "statistic_holder": "player"
+    "statistic_holder": "player",
+    "show_placement": false
   },
   "lt:mysty/coins_on_death",
   {
