@@ -1,0 +1,15 @@
+{
+  "type": "ltminigames:shop",
+  "offers": [
+    {
+      "icon": "minecraft:iron_pickaxe",
+      "name": {"text": "Iron Pickaxe"},
+      "description": {"text": "Skip straight to mining iron"},
+      "cost": 5,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["minecraft:iron_pickaxe"]
+      }
+    }
+  ]
+}

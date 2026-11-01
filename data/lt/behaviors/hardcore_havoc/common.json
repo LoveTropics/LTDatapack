@@ -17,5 +17,7 @@
     "group_by_team": true
   },
   "lt:hardcore_havoc/flow",
-  "lt:hardcore_havoc/gamerules"
+  "lt:hardcore_havoc/gamerules",
+  "lt:hardcore_havoc/shop",
+  "lt:hardcore_havoc/donations"
 ]
