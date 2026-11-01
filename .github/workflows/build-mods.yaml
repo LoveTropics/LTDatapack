@@ -18,5 +18,5 @@ jobs:
         with:
           name: lt
           path: |
-            lt-assets-$GITHUB_RUN_NUMBER.jar
-            lt-data-$GITHUB_RUN_NUMBER.jar
+            lt-assets-${{ github.run_number }}.jar
+            lt-data-${{ github.run_number }}.jar
