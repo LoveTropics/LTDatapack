@@ -2,8 +2,8 @@
   {
     "type": "ltminigames:named_stages",
     "stages": {
-      "00_prestart": {
-        "next_stage": "01_start",
+      "prestart": {
+        "next_stage": "start",
         "auto_move_on": false,
         "start_actions": [
           {
@@ -19,8 +19,8 @@
         ],
         "end_actions": []
       },
-      "01_start": {
-        "next_stage": "02_overworld",
+      "start": {
+        "next_stage": "overworld",
         "auto_move_on": true,
         "timer_length_ticks": 100,
         "start_actions": [
@@ -44,8 +44,8 @@
           }
         ]
       },
-      "02_overworld": {
-        "next_stage": "03_nether",
+      "overworld": {
+        "next_stage": "nether",
         "timer_length_ticks": 30000,
         "auto_move_on": true,
         "start_actions": [
@@ -56,8 +56,8 @@
         ],
         "end_actions": []
       },
-      "03_nether": {
-        "next_stage": "04_overworld_post_nether",
+      "nether": {
+        "next_stage": "overworld_post_nether",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
         "start_actions": [
@@ -68,8 +68,8 @@
         ],
         "end_actions": []
       },
-      "04_overworld_post_nether": {
-        "next_stage": "05_end",
+      "overworld_post_nether": {
+        "next_stage": "end",
         "timer_length_ticks": 30000,
         "auto_move_on": true,
         "start_actions": [
@@ -84,8 +84,8 @@
         ],
         "end_actions": []
       },
-      "05_end": {
-        "next_stage": "06_overworld_post_end",
+      "end": {
+        "next_stage": "overworld_post_end",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
         "start_actions": [
@@ -96,7 +96,7 @@
         ],
         "end_actions": []
       },
-      "06_overworld_post_end": {
+      "overworld_post_end": {
         "timer_length_ticks": 24000,
         "start_actions": [
           {
@@ -111,42 +111,42 @@
         "end_actions": []
       }
     },
-    "starting_stage": "00_prestart"
+    "starting_stage": "prestart"
   },
   {
     "type": "ltminigames:named_stages/stage_bar",
     "bar_by_stage": {
-      "00_pre_start": {
+      "pre_start": {
         "title": "Starting Soon",
         "color": "green",
         "reversed": true
       },
-      "01_start": {
+      "start": {
         "title": "Starting in %time%",
         "color": "green",
         "reversed": true
       },
-      "02_overworld": {
+      "overworld": {
         "title": "Difficulty: Easy. Nether opens in %time%",
         "color": "green",
         "reversed": true
       },
-      "03_nether": {
+      "nether": {
         "title": "Difficulty: Easy. Nether Open! Closing in %time%",
         "color": "green",
         "reversed": true
       },
-      "04_overworld_post_nether": {
+      "overworld_post_nether": {
         "title": "Difficulty: Normal. End opens in %time%",
         "color": "green",
         "reversed": true
       },
-      "05_end": {
+      "end": {
         "title": "Difficulty: Normal. End Open! Closing in %time%",
         "color": "green",
         "reversed": true
       },
-      "06_overworld_post_end": {
+      "overworld_post_end": {
         "title": "Difficulty: Hard. Game over in %time%",
         "color": "green",
         "reversed": true
