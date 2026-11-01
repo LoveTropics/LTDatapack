@@ -25,7 +25,12 @@
           "spawn": "spawn"
         }
       },
-      "lt:teams/red_blue_yellow_green"
+      "lt:teams/red_blue_yellow_green",
+      {
+        "type": "ltgames_voice:voice_chat",
+        "open_to_everyone": false,
+        "group_by_team": false
+      }
     ]
   },
   "map": {
