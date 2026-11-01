@@ -6,9 +6,9 @@
       "name": "pc_energy", 
       "description_lines": 1, 
       "modifier_tooltips": [
-        "add_15s_duration",
-        "add_strength_i",
-        "add_resistance_i",
+        "add_30s_duration", 
+        "add_speed_ii", 
+        "add_jump_boost_ii", 
         "add_increased_heartrate", 
         "sub_liver_function"
       ]

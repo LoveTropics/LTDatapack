@@ -6,9 +6,9 @@
       "name": "colada_ral_damage",
       "description_lines": 2,
       "modifier_tooltips": [
-        "add_30s_duration", 
-        "add_speed_ii", 
-        "add_jump_boost_ii", 
+        "add_15s_duration",
+        "add_strength_i",
+        "add_resistance_i",
         "add_swoll"
       ]
     }
