@@ -91,8 +91,7 @@
     "ltminigames:ghosts",
     "lt:common/spectator",
     "lt:tropic_rush/bingo",
-    "lt:tropic_rush/shop/care",
-    "lt:tropic_rush/shop/sabotage",
+    "lt:tropic_rush/shop",
     "lt:tropic_rush/modifiers",
     "lt:tropic_rush/donations",
     {
