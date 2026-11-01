@@ -2,10 +2,8 @@
   "ltminigames:spectator_chase",
   {
     "type": "ltminigames:hide_players",
-    "roles_to_hide_by_role": {
-      "spectator": [
-        "spectator"
-      ]
+    "game_modes_to_hide_by_role": {
+      "spectator": ["spectator"]
     }
   }
 ]

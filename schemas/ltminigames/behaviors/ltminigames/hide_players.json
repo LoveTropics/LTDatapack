@@ -5,7 +5,7 @@
     "type": {
       "const": "ltminigames:hide_players"
     },
-    "roles_to_hide_by_role": {
+    "game_modes_to_hide_by_role": {
       "type": "object",
       "properties": {
         "spectator": {
@@ -18,7 +18,7 @@
       "additionalProperties": {
         "type": "array",
         "items": {
-          "$ref": "../../properties/game_roles.json"
+          "$ref": "../../properties/gamemodes.json"
         }
       }
     }

@@ -14,8 +14,8 @@
   "lt:mysty/integrations/common",
   {
     "type": "ltminigames:hide_players",
-    "roles_to_hide_by_role": {
-      "participant": ["participant"]
+    "game_modes_to_hide_by_role": {
+      "participant": ["adventure"]
     }
   }
 ]
