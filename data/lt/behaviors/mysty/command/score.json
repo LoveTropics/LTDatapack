@@ -13,30 +13,6 @@
       "order": "max"
     },
     {
-      "type": "ltminigames:setup_podium",
-      "winner_regions": [
-        "winner_1",
-        "winner_2",
-        "winner_3"
-      ],
-      "loser_region": "spawn",
-      "winner_actions": [
-        [
-          "lt:mysty/winner/first_place"
-        ],
-        [
-          "lt:mysty/winner/second_place"
-        ],
-        [
-          "lt:mysty/winner/third_place"
-        ]
-      ],
-      "loser_actions": {
-        "type": "ltminigames:add_equipment",
-        "clear": true
-      }
-    },
-    {
       "type": "ltminigames:apply_to",
       "target": "all_players",
       "actions": [
@@ -46,7 +22,7 @@
           "order": "max",
           "length": 5,
           "header": {
-            "translate": "ltminigames.minigame.mysty.results"
+            "translate": "ltminigames.minigame.mysty.final_results"
           }
         }
       ]

@@ -6,7 +6,7 @@
   {
     "type": "ltminigames:point_control_commands",
     "statistic": "points",
-    "subcommand": ["competition", "coins"]
+    "subcommand": ["competition", "points"]
   },
   {
     "type": "ltminigames:statistic_notifier",
@@ -16,14 +16,14 @@
       {
         "type": "ltminigames:send_message",
         "message": {
-          "translate": "ltminigames.minigame.mysty.add_coins",
+          "translate": "ltminigames.minigame.mysty.add_points",
           "color": "gold"
         },
         "action_bar": true
       },
       {
         "type": "ltminigames:play_sound",
-        "sound": "ltminigames:coins",
+        "sound": "block.note_block.harp",
         "source": "player",
         "pitch": 1.0
       }

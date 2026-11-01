@@ -17,14 +17,15 @@
   "ltminigames:immediate_respawn",
   {
     "type": "ltminigames:position_players",
-    "all": [
-      "spawn"
-    ]
+    "all": ["spawn"]
   },
   {
     "type": "ltminigames:minigame_competition",
-    "share_statistics": [
-      "points"
+    "accumulate_statistics": [
+      {
+        "statistic": "points",
+        "minimum": 10
+      }
     ],
     "queue": [
       {
@@ -89,15 +90,32 @@
         "order": "max"
       },
       {
-        "type": "ltminigames:setup_podium",
-        "winner_regions": [
-          "winner_1",
-          "winner_2",
-          "winner_3"
-        ],
-        "loser_region": "spawn"
+        "type": "ltminigames:apply_to",
+        "target": "all_players",
+        "actions": [
+          {
+            "type": "ltminigames:display_leaderboard",
+            "statistic": "points",
+            "order": "max",
+            "length": 5,
+            "header": {
+              "translate": "ltminigames.minigame.mysty.leaderboard"
+            },
+            "show_placement": true,
+            "show_score": false
+          }
+        ]
       }
     ]
+  },
+  {
+    "type": "ltminigames:leaderboard_placeholder",
+    "id": "lt:mysty/leaderboard",
+    "statistic": "points",
+    "order": "max",
+    "length": 5,
+    "show_placement": true,
+    "show_score": false
   },
   {
     "type": "lt:common/playing",
@@ -106,25 +124,5 @@
     "allow_rejoin": true,
     "statistics_key": "mysty_event"
   },
-  "lt:mysty/command/score",
-  {
-    "type": "ltminigames:points_sidebar",
-    "statistic": "points",
-    "order": "max",
-    "count": 5,
-    "title": {
-      "translate": "ltminigames.minigame.mysty.sidebar",
-      "color": "yellow",
-      "bold": true
-    },
-    "header": [
-      {
-        "text": "live.lovetropics.org/donate",
-        "color": "white",
-        "underlined": true
-      }
-    ],
-    "show_placement": true,
-    "show_score": false
-  }
+  "lt:mysty/command/score"
 ]
