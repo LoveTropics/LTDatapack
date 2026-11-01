@@ -53,7 +53,7 @@
     "type": "ltminigames:points_sidebar",
     "statistic": "lives",
     "order": "max",
-    "count": 6,
+    "length": 6,
     "title": { "translate": "ltminigames.minigame.mysty.platforms", "color": "yellow", "bold": true },
     "header": [
       { "translate": "ltminigames.minigame.mysty.platforms.header", "color": "gray" },

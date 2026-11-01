@@ -92,7 +92,7 @@
     "type": "ltminigames:points_sidebar",
     "statistic": "points",
     "order": "max",
-    "count": 10,
+    "length": 10,
     "title": {
       "translate": "lt.minigame.dodgeball",
       "color": "light_purple",

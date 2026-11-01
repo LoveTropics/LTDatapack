@@ -11,7 +11,7 @@
     "order": {
       "type": "string"
     },
-    "count": {
+    "length": {
       "type": "integer"
     },
     "title": {

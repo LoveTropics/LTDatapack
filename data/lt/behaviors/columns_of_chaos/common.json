@@ -24,7 +24,7 @@
     "type": "ltminigames:points_sidebar",
     "statistic": "kills",
     "order": "max",
-    "count": 2,
+    "length": 2,
     "title": {
       "translate": "ltminigames.minigame.columns_of_chaos",
       "color": "yellow",

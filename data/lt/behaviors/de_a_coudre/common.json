@@ -41,7 +41,7 @@
     "type": "ltminigames:points_sidebar",
     "statistic": "points",
     "order": "max",
-    "count": 5,
+    "length": 5,
     "title": {
       "translate": "ltminigames.minigame.de_a_coudre",
       "color": "yellow",

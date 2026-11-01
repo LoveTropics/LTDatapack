@@ -41,7 +41,7 @@
     "type": "ltminigames:points_sidebar",
     "statistic": "total_time",
     "order": "min",
-    "count": 10,
+    "length": 10,
     "title": {"translate": "ltminigames.minigame.parkour_race_teams", "color": "yellow", "bold": true},
     "header": [
       {"translate": "ltminigames.minigame.sidebar.race_course", "color": "gray"},

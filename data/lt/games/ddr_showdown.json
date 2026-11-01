@@ -33,7 +33,7 @@
       "type": "ltminigames:points_sidebar",
       "statistic": "ddr_score",
       "order": "max",
-      "count": 10,
+      "length": 10,
       "title": {
         "translate": "ltminigames.minigame.ddr_showdown.sidebar",
         "color": "aqua"
