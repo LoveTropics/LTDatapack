@@ -1,5 +1,15 @@
 [
   {
+    "type": "ltminigames:scheduled_actions",
+    "channel": "main",
+    "actions": {
+      "start": [],
+      "unfreeze": [
+        "ltminigames:named_stages/progress"
+      ]
+    }
+  },
+  {
     "type": "ltminigames:named_stages",
     "stages": {
       "prestart": {
@@ -69,7 +79,7 @@
         "end_actions": []
       },
       "overworld_post_nether": {
-        "next_stage": "end",
+        "next_stage": "the_end",
         "timer_length_ticks": 30000,
         "auto_move_on": true,
         "start_actions": [
@@ -84,7 +94,7 @@
         ],
         "end_actions": []
       },
-      "end": {
+      "the_end": {
         "next_stage": "overworld_post_end",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
@@ -116,7 +126,7 @@
   {
     "type": "ltminigames:named_stages/stage_bar",
     "bar_by_stage": {
-      "pre_start": {
+      "prestart": {
         "title": "Starting Soon",
         "color": "green",
         "reversed": true
@@ -141,7 +151,7 @@
         "color": "green",
         "reversed": true
       },
-      "end": {
+      "the_end": {
         "title": "Difficulty: Normal. End Open! Closing in %time%",
         "color": "green",
         "reversed": true
