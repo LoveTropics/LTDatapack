@@ -40,7 +40,7 @@
         {
           "type": "ltextras:item_template",
           "template": "lt:loot/utility/ender_pearl",
-          "weight": 14
+          "weight": 8
         },
         {
           "type": "ltextras:item_template",
