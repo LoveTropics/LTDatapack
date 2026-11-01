@@ -13,6 +13,7 @@
     "center_region": "spectators",
     "radius": 100
   },
+  {"type":  "ltminigames:prevent_dimension_portals"},
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
