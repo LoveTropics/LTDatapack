@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 2,
-        "max": 5
+        "max": 4
       },
       "entries": [
         {
@@ -16,7 +16,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 2
               }
             }
           ]
@@ -30,7 +30,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -44,7 +44,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -58,7 +58,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -71,8 +71,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 6
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -86,7 +86,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
@@ -100,7 +100,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
