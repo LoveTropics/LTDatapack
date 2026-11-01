@@ -107,13 +107,6 @@
       }
     },
     {
-      "type": "ltminigames:scheduled_actions",
-      "target": "all_players",
-      "actions": {
-        "end": "ltminigames:end_game"
-      }
-    },
-    {
       "type": "ltminigames:phase_progress_bar",
       "entries": [
         {
