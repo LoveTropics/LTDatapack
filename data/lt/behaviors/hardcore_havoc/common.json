@@ -1,0 +1,18 @@
+[
+  {
+    "type": "ltminigames:position_players",
+    "teams": {
+      "blue": ["blue"],
+      "red": ["red"],
+      "yellow": ["yellow"],
+      "green": ["green"]
+    },
+    "split_by_team": true,
+    "spectators": ["spectators"]
+  },
+  {
+    "type": "ltgames_voice:voice_chat",
+    "open_to_everyone": false,
+    "group_by_team": true
+  }
+]
