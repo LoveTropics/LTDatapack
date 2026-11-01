@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/modifiers"
+      "const": "ltminigames:tropic_rush/modifiers"
     },
     "modifiers": {
       "type": "array",

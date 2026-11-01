@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/reveal_modifier"
+      "const": "ltminigames:tropic_rush/reveal_modifier"
     },
     "modifier": {
       "type": "string"

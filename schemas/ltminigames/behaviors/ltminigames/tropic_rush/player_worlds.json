@@ -3,19 +3,15 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/ender_pearl_deviation"
+      "const": "ltminigames:tropic_rush/player_worlds"
     },
-    "modifier": {
+    "world": {
       "type": "string"
-    },
-    "degrees_per_level": {
-      "type": "number"
     }
   },
   "additionalProperties": false,
   "required": [
     "type",
-    "modifier",
-    "degrees_per_level"
+    "world"
   ]
 }

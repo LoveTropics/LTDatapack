@@ -1,6 +1,7 @@
 {
   "name": {
-    "translate": "ltminigames.minigame.mcsr"
+    "translate": "ltminigames.minigame.tropic_rush",
+    "color": "light_purple"
   },
   "minimum_participants": 1,
   "maximum_participants": 6,
@@ -31,8 +32,8 @@
       "game_type": "survival",
       "join_late_with_role": "spectator",
       "allow_rejoin": true,
-      "backend_id": "lt:mcsr",
-      "statistics_key": "mcsr"
+      "backend_id": "lt:tropic_rush",
+      "statistics_key": "tropic_rush"
     },
     {
       "type": "ltminigames:position_players",
@@ -49,8 +50,8 @@
       }
     },
     {
-      "type": "ltminigames:mcsr/player_worlds",
-      "world": "lt:mcsr/world",
+      "type": "ltminigames:tropic_rush/player_worlds",
+      "world": "lt:tropic_rush/world",
       "map": {
         "type": "ltminigames:generator",
         "generator": {
@@ -89,12 +90,12 @@
     },
     "ltminigames:ghosts",
     "lt:common/spectator",
-    "lt:mcsr/bingo",
-    "lt:mcsr/shop",
-    "lt:mcsr/modifiers",
-    "lt:mcsr/donations",
+    "lt:tropic_rush/bingo",
+    "lt:tropic_rush/shop",
+    "lt:tropic_rush/modifiers",
+    "lt:tropic_rush/donations",
     {
-      "type": "ltminigames:mcsr/finish",
+      "type": "ltminigames:tropic_rush/finish",
       "dragon_kill": true,
       "full_bingo_card": true
     },
@@ -121,7 +122,7 @@
             "end": "end"
           },
           "text": {
-            "translate": "ltminigames.minigame.mcsr",
+            "translate": "ltminigames.minigame.tropic_rush",
             "color": "green"
           },
           "color": "green",
@@ -191,19 +192,19 @@
       ]
     },
     {
-      "type": "ltminigames:mcsr/ender_pearl_deviation",
+      "type": "ltminigames:tropic_rush/ender_pearl_deviation",
       "modifier": "pearl_deviation",
       "degrees_per_level": 1.0
     },
     {
-      "type": "ltminigames:mcsr/attribute_per_level",
+      "type": "ltminigames:tropic_rush/attribute_per_level",
       "modifier": "heavy",
       "attribute": "minecraft:gravity",
       "amount_per_level": 0.02,
       "operation": "add_multiplied_base"
     },
     {
-      "type": "ltminigames:mcsr/scramble_debug_screen",
+      "type": "ltminigames:tropic_rush/scramble_debug_screen",
       "modifier": "bugged_debug",
       "shuffle_level": 1,
       "swap_sides_level": 3,

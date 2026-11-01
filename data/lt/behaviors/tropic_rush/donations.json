@@ -12,7 +12,7 @@
       "scope": "player"
     },
     {
-      "type": "ltminigames:mcsr/change_modifier",
+      "type": "ltminigames:tropic_rush/change_modifier",
       "modifier": "pearl_deviation",
       "amount": 1
     },

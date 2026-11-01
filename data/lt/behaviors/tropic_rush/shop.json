@@ -117,7 +117,7 @@
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
         "seconds": 30,
-        "mutex": "lt:mcsr/controls",
+        "mutex": "lt:tropic_rush/controls",
         "apply": {
           "type": "ltminigames:apply_client_state",
           "state": {"type": "ltminigames:invert_controls"}
@@ -139,7 +139,7 @@
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
         "seconds": 45,
-        "mutex": "lt:mcsr/controls",
+        "mutex": "lt:tropic_rush/controls",
         "apply": {
           "type": "ltminigames:apply_client_state",
           "state": {

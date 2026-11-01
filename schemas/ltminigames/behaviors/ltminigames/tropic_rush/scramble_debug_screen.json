@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "const": "ltminigames:mcsr/scramble_debug_screen"
+      "const": "ltminigames:tropic_rush/scramble_debug_screen"
     },
     "modifier": {
       "type": "string"
