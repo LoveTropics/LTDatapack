@@ -41,7 +41,10 @@
         "lobby": {}
       },
       {
-        "game": "lt:mysty/race/riptide"
+        "game": "lt:mysty/race/riptide_1"
+      },
+      {
+        "game": "lt:mysty/race/riptide_2"
       },
       {
         "game": "lt:mysty/race/turtle"

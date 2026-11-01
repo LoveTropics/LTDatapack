@@ -1,0 +1,14 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mysty.race.riptide",
+    "color": "aqua"
+  },
+  "maximum_participants": 1000,
+  "hide_from_list": true,
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/mysty/racing/trident_2",
+    "dimension_type": "lt:no_clouds"
+  },
+  "behaviors": "lt:mysty/race/riptide/game"
+}
