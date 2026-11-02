@@ -37,7 +37,7 @@
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
-      "rejoin": "restore",
+      "rejoin": "respawn",
       "statistics_key": "paint_party"
     },
     "ltminigames:teams",

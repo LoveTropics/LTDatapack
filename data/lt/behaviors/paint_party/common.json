@@ -24,12 +24,7 @@
       "text": "☠ %message%",
       "color": "gray"
     },
-    "drop_inventory": false,
-    "respawn_action": [
-      "ltminigames:clear_effects",
-      "ltminigames:extinguish_player",
-      "ltminigames:reset_hunger"
-    ]
+    "drop_inventory": false
   },
   {
     "type": "ltminigames:on_spawn",
@@ -56,7 +51,10 @@
           "amount": 0.5,
           "operation": "add_value"
         }
-      }
+      },
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player",
+      "ltminigames:reset_hunger"
     ]
   },
   {
@@ -100,12 +98,6 @@
     },
     "header": [],
     "show_placement": false
-  },
-  {
-    "type": "ltminigames:immediate_respawn",
-    "role": "participant",
-    "respawn_as": "spectator",
-    "drop_inventory": false
   },
   "lt:paint_party/end",
   "lt:paint_party/items",

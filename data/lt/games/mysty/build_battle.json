@@ -15,7 +15,8 @@
       "type": "lt:common/playing",
       "game_type": "survival",
       "join_late_with_role": "spectator",
-      "statistics_key": "build_battle"
+      "statistics_key": "build_battle",
+      "rejoin": "respawn"
     },
     "lt:mysty/build_battle/common"
   ]
