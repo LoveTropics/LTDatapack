@@ -1,0 +1,27 @@
+{
+  "gamemodes": [
+    "survival",
+    "adventure",
+    "creative",
+    "spectator"
+  ],
+  "appearance": {
+    "walls_occlude": false,
+    "decorations": [
+      {
+        "face_anchor": [0.25, 0.5],
+        "sprite": "ltextras:evil_jake_marker_left",
+        "fixed_size": false,
+        "size": [0.4, 0.8],
+        "offset": [-0.3, -0.4]
+      },
+      {
+        "face_anchor": [0.75, 0.5],
+        "sprite": "ltextras:evil_jake_marker_right",
+        "fixed_size": false,
+        "size": [0.4, 0.8],
+        "offset": [-0.1, -0.4]
+      }
+    ]
+  }
+}
