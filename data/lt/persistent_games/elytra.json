@@ -21,11 +21,11 @@
         "race_completed": {
           "text": "Race completed!"
         },
-        "race_failed": {
-          "text": "Race failed! you stopped elyting"
+        "not_enough_checkpoints": {
+          "text": "You did not reach enough checkpoints to complete the race!"
         },
-        "race_started": {
-          "text": "Race started!"
+        "left_race_track": {
+          "text": "You left the race track!"
         }
       }
     }
