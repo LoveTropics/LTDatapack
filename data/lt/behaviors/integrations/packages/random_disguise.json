@@ -10,7 +10,7 @@
     "description": {
       "translate": "Random Disguise"
     },
-    "donation_amount": "$amount",
+    "donation_amount": "$donation_amount",
     "receive_actions": {
       "type": "ltminigames:apply_for_time",
       "mutex": "lt:disguise",
