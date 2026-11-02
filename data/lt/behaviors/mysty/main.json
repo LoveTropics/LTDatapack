@@ -208,7 +208,8 @@
         "weight": 1
       }
     ],
-    "donation_value_per_hat": 2.0
+    "donation_value_per_hat": 2.0,
+    "lose_on_win": 0.5
   },
   {
     "type": "ltminigames:sum_statistic",
