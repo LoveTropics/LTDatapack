@@ -34,8 +34,22 @@
     ]
   },
   "map": {
-    "type": "ltminigames:load_map",
-    "load_from": "lt:games/hardcore_havoc/overworld"
+    "type": "ltminigames:load_map_with_multiple_dimensions",
+    "dimensions": [
+      {
+        "load_from": "lt:games/hardcore_havoc/overworld",
+        "dimension_type": "minecraft:overworld",
+        "spawn_region": "spectators"
+      },
+      {
+        "load_from": "lt:games/hardcore_havoc/nether",
+        "dimension_type": "minecraft:the_nether"
+      },
+      {
+        "load_from": "lt:games/hardcore_havoc/end",
+        "dimension_type": "minecraft:the_end"
+      }
+    ]
   },
   "behaviors": [
     "lt:hardcore_havoc/common"
