@@ -58,7 +58,7 @@
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
-      "last_team": true
+      "holder": "team"
     },
     {
       "type": "ltminigames:update_word_boxes_in_world",

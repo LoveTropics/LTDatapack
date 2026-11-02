@@ -2,7 +2,8 @@
   {
     "type": "ltminigames:place_by_statistic",
     "statistic": "points",
-    "order": "max"
+    "order": "max",
+    "trigger_win": "team"
   },
   {
     "type": "ltminigames:events/game_over",

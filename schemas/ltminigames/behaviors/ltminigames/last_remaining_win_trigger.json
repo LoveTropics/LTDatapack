@@ -11,10 +11,8 @@
         "type": {
           "const": "ltminigames:last_remaining_win_trigger"
         },
-        "last_team": {
-          "type": ["boolean", "string"],
-          "pattern": "^\\$.*",
-          "default": false
+        "holder": {
+          "$ref": "../../properties/statistic_holder.json"
         }
       },
       "additionalProperties": false,

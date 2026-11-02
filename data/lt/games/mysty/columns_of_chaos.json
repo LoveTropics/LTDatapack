@@ -35,7 +35,7 @@
     },
     {
       "type": "lt:columns_of_chaos/common",
-      "team_based": false
+      "statistic_holder": "player"
     },
     {
       "type": "lt:columns_of_chaos/phases",

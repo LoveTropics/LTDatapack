@@ -2,7 +2,8 @@
   {
     "type": "ltminigames:place_by_statistic",
     "statistic": "kills",
-    "order": "max"
+    "order": "max",
+    "trigger_win": "$trigger_win"
   },
   {
     "type": "ltminigames:game_end_effects",

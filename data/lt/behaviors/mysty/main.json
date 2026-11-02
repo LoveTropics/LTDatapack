@@ -99,6 +99,7 @@
           {
             "type": "ltminigames:display_leaderboard",
             "statistic": "points",
+            "statistic_holder": "player",
             "order": "max",
             "length": 5,
             "header": {
@@ -115,6 +116,7 @@
     "type": "ltminigames:leaderboard_placeholder",
     "id": "lt:mysty/leaderboard",
     "statistic": "points",
+    "statistic_holder": "player",
     "order": "max",
     "length": 5,
     "show_placement": true,
@@ -214,6 +216,11 @@
     ],
     "hat_donation_value": 1.0,
     "share_with_sub_game": true
+  },
+  {
+    "type": "ltminigames:sum_statistic",
+    "statistic": "points",
+    "for_team": true
   },
   "lt:mysty/command/score"
 ]

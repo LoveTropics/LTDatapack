@@ -16,7 +16,10 @@
       "join_late_with_role": "spectator",
       "statistics_key": "block_party"
     },
-    "ltminigames:last_remaining_win_trigger",
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "holder": "team"
+    },
     {
       "type": "lt:block_party/simple",
       "floor": "blocks",

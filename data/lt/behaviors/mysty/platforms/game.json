@@ -6,7 +6,10 @@
     "statistics_key": "block_party"
   },
   "lt:mysty/global",
-  "ltminigames:last_remaining_win_trigger",
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "holder": "player"
+  },
   "lt:mysty/integrations/common",
   {
     "type": "lt:block_party/simple",
@@ -78,6 +81,7 @@
   {
     "type": "ltminigames:points_sidebar",
     "statistic": "lives",
+    "statistic_holder": "player",
     "order": "max",
     "length": 6,
     "title": { "translate": "ltminigames.minigame.mysty.platforms", "color": "yellow", "bold": true },
@@ -89,7 +93,6 @@
         "underlined": true
       }
     ],
-    "statistic_holder": "player",
     "show_placement": false
   },
   "lt:mysty/coins_on_death",

@@ -9,7 +9,10 @@
   "ltminigames:disable_throwing_items",
   "lt:mysty/global",
   "lt:mysty/integrations/arena",
-  "ltminigames:last_remaining_win_trigger",
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "holder": "player"
+  },
   "ltminigames:place_by_death_order",
   {
     "type": "ltminigames:immediate_respawn",

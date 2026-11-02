@@ -53,7 +53,7 @@
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
-      "last_team": true
+      "holder": "team"
     },
     "ltminigames:disable_hunger",
     "lt:mozart_hunt/equipment",

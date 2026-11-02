@@ -52,7 +52,7 @@
     "ltminigames:teams",
     {
       "type": "lt:columns_of_chaos/common",
-      "team_based": true
+      "statistic_holder": "team"
     }
   ]
 }

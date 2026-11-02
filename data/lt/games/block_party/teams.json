@@ -42,7 +42,7 @@
     "ltminigames:teams",
     {
       "type": "ltminigames:last_remaining_win_trigger",
-      "last_team": true
+      "holder": "team"
     },
     {
       "type": "lt:block_party/simple",

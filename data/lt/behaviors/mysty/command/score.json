@@ -10,7 +10,8 @@
     {
       "type": "ltminigames:place_by_statistic",
       "statistic": "points",
-      "order": "max"
+      "order": "max",
+      "trigger_win": "team"
     },
     {
       "type": "ltminigames:apply_to",
@@ -19,10 +20,21 @@
         {
           "type": "ltminigames:display_leaderboard",
           "statistic": "points",
+          "statistic_holder": "team",
           "order": "max",
           "length": 5,
           "header": {
             "translate": "ltminigames.minigame.mysty.final_results"
+          }
+        },
+        {
+          "type": "ltminigames:display_leaderboard",
+          "statistic": "points",
+          "statistic_holder": "player",
+          "order": "max",
+          "length": 5,
+          "header": {
+            "translate": "ltminigames.minigame.mysty.final_results.individual"
           }
         }
       ]

@@ -23,6 +23,7 @@
   {
     "type": "ltminigames:points_sidebar",
     "statistic": "kills",
+    "statistic_holder": "$statistic_holder",
     "order": "max",
     "length": 2,
     "title": {
@@ -35,9 +36,12 @@
   },
   {
     "type": "ltminigames:last_remaining_win_trigger",
-    "last_team": "$team_based"
+    "holder": "$statistic_holder"
   },
-  "lt:columns_of_chaos/end",
+  {
+    "type": "lt:columns_of_chaos/end",
+    "trigger_win": "$statistic_holder"
+  },
   "ltminigames:time_survived_tracker",
   {
     "type": "ltminigames:game_finish",

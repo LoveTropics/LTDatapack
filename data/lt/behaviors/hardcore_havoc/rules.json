@@ -6,7 +6,7 @@
   },
   {
     "type": "ltminigames:last_remaining_win_trigger",
-    "last_team": true
+    "holder": "team"
   },
   {
     "type": "ltminigames:setup_world_border",

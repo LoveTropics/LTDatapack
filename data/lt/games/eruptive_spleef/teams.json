@@ -60,7 +60,7 @@
     "lt:common/spectator",
     {
       "type": "ltminigames:last_remaining_win_trigger",
-      "last_team": true
+      "holder": "team"
     },
     "lt:eruptive_spleef/ruleset",
     "lt:eruptive_spleef/equipment",

@@ -28,7 +28,10 @@
       ]
     },
     "lt:common/spectator",
-    "ltminigames:last_remaining_win_trigger",
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "holder": "player"
+    },
     "lt:eruptive_spleef/ruleset",
     "lt:eruptive_spleef/equipment",
     "lt:eruptive_spleef/lava",
