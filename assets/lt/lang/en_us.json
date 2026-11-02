@@ -915,6 +915,7 @@
   "lt.loot_modifier.sub_fragile": "- Fragile",
   "lt.loot_modifier.sub_account_standing": "- Account Standing",
   "lt.loot_modifier.sub_the_ability_to_see": "- The Ability to See",
+  "lt.loot_modifier.sub_short_battery_life": "- Short Battery Life",
 
   "lt.loot.normal_cookie": "Normal Cookie",
   "lt.loot.normal_cookie.description.1": "Processed and individually packaged.",

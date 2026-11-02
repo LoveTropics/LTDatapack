@@ -9,7 +9,8 @@
       "description_lines": 2, 
       "modifier_tooltips": [
         "add_actual_cheats",
-        "sub_account_standing"
+        "sub_account_standing",
+        "sub_short_battery_life"
       ]
     }
   ],
@@ -17,10 +18,18 @@
     "id": "ltextras:wallhack_glasses",
     "components": {
         "minecraft:max_stack_size": 1,
-        "ltextras:player_sensor": "lt:nonsense_sensors",
+        "ltextras:player_sensor": "lt:wall_hacks_single",
         "minecraft:enchantment_glint_override": true,
-        "minecraft:max_damage": 25,
-        "minecraft:damage": 0
+        "minecraft:max_damage": 160,
+        "minecraft:damage": 0,
+        "ltextras:crumbling_item": {
+          "interval": 1.0,
+          "damage_amount": 1,
+          "in_non_equipment_slot": false,
+          "in_equipment_slots": [
+            "head"
+          ]
+        }
     }
   }
 }

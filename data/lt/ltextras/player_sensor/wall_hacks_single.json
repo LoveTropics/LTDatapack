@@ -1,0 +1,22 @@
+{
+  "gamemodes": [
+    "survival",
+    "adventure",
+    "creative"
+  ],
+  "appearance": {
+    "walls_occlude": false,
+    "allow_fade": false,
+    "only_when_occluded": true,
+    "decorations": [
+      {
+        "face_anchor": [0.5, 0.5],
+        "sprite": "ltextras:wall_hack_marker",
+        "fixed_size": false,
+        "ignore_face_view_angle": true,
+        "size": [0.5, 0.5],
+        "offset": [-0.25, -0.25]
+      }
+    ]
+  }
+}
