@@ -57,5 +57,30 @@
     "state": {
       "type": "ltminigames:break_delay"
     }
+  },
+  {
+    "type": "ltminigames:place_by_statistic",
+    "statistic": "points",
+    "order": "max",
+    "trigger_win": "player"
+  },
+  {
+    "type": "ltminigames:game_end_effects",
+    "stop_delay": 200
+  },
+  "lt:common/announce_game_over",
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:display_leaderboard",
+        "statistic": "points",
+        "statistic_holder": "player",
+        "order": "max",
+        "length": 5,
+        "header": { "translate": "ltminigames.minigame.results" }
+      }
+    ],
+    "target": "all_players"
   }
 ]
