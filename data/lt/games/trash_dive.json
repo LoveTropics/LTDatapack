@@ -15,7 +15,7 @@
       "type": "lt:common/playing",
       "game_type": "survival",
       "join_late_with_role": "participant",
-      "allow_rejoin": true,
+      "rejoin": "restore",
       "statistics_key": "trash_dive"
     },
     {

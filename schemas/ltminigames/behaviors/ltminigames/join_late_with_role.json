@@ -8,9 +8,8 @@
     "role": {
       "$ref": "../../properties/game_roles.json"
     },
-    "allow_rejoin": {
-      "type": ["boolean", "string"],
-      "pattern": "^\\$.*",
+    "rejoin": {
+      "$ref": "../../properties/rejoin_mode.json",
       "default": true
     },
     "additionalProperties": false

@@ -3,7 +3,7 @@
     "type": "lt:common/playing",
     "game_type": "survival",
     "join_late_with_role": "spectator",
-    "allow_rejoin": true,
+    "rejoin": "restore",
     "statistics_key": "hardcore_havoc"
   },
   {

@@ -13,7 +13,7 @@
     "type": "lt:common/playing",
     "game_type": "survival",
     "join_late_with_role": "spectator",
-    "allow_rejoin": true,
+    "rejoin": "restore",
     "backend_id": "lt:river_race",
     "statistics_key": "river_race"
   },
