@@ -1,0 +1,28 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.mysty.tidal_tussle.1",
+    "color": "green"
+  },
+  "hide_from_list": true,
+  "minimum_participants": 1,
+  "maximum_participants": 1000,
+  "intro_slideshow": "lt:game/survive_the_tide/ffa_1",
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/survive_the_tide/survive_the_tide_1",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator"
+    },
+    "lt:mysty/tidal_tussle/common",
+    "lt:survive_the_tide/1/map",
+    "lt:survive_the_tide/1/phases",
+    "lt:survive_the_tide/mode/ffa",
+    "lt:survive_the_tide/1/weather",
+    "lt:survive_the_tide/common"
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  "lt:mysty/global",
+  "lt:mysty/coins_on_death",
+  {
+    "type": "lt:common/winner_points",
+    "statistic": "points",
+    "amount": 5
+  },
+  {
+    "type": "lt:mysty/coins_on_kill",
+    "amount": 1
+  }
+]

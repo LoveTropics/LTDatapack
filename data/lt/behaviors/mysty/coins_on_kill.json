@@ -1,0 +1,12 @@
+{
+  "type": "ltminigames:on_death",
+  "exclude_self": true,
+  "killer_action": [
+    {
+      "type": "ltminigames:increment_statistic",
+      "statistic": "points",
+      "amount": "$amount",
+      "scope": "player"
+    }
+  ]
+}

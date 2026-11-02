@@ -10,22 +10,6 @@
     "type": "ltminigames:load_map",
     "load_from": "lt:games/pillars_of_wealth"
   },
-  "waiting": {
-    "map": {
-      "type": "ltminigames:load_map",
-      "load_from": "lt:games/waiting_lobby",
-      "dimension_type": "tropicraft:tropics"
-    },
-    "behaviors": [
-      {
-        "type": "lt:common/waiting",
-        "regions": {
-          "spawn": "spawn"
-        }
-      },
-      "lt:teams/red_blue"
-    ]
-  },
   "behaviors": [
     {
       "type": "lt:common/playing",

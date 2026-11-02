@@ -24,7 +24,7 @@
     "accumulate_statistics": [
       {
         "statistic": "points",
-        "minimum": 10
+        "return_to_lobby_minimum": 10
       }
     ],
     "queue": [
@@ -84,6 +84,18 @@
       },
       {
         "game": "lt:mysty/build_battle"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/tidal_tussle/1"
+      },
+      {
+        "game": "lt:mysty/tidal_tussle/2"
+      },
+      {
+        "game": "lt:mysty/tidal_tussle/3"
       }
     ],
     "return_to_lobby_actions": [
