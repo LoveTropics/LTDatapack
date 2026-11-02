@@ -224,7 +224,7 @@
         },
         "mode": "all_target",
         "aim_at_target": true,
-        "speed": 0.5
+        "speed": 2.5
       }
     },
     {
@@ -241,7 +241,7 @@
         },
         "mode": "all_target",
         "aim_at_target": true,
-        "speed": 0.5
+        "speed": 2.5
       }
     },
     {
