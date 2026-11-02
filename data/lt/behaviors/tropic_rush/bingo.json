@@ -1,7 +1,7 @@
 [
   {
     "type": "ltminigames:bingo",
-    "rows": 5,
+    "rows": 6,
     "columns": 5,
     "position_reward_multipler": [
       1.5,
@@ -9,7 +9,7 @@
       1.1,
       1.0
     ],
-    "initial_tiles": 25,
+    "initial_tiles": 30,
     "unlock_on_clear": 0,
     "tile_pool": [
       {
@@ -542,20 +542,62 @@
       },
       {
         "icon": {
-          "id": "minecraft:cake"
+          "id": "minecraft:glass"
         },
         "title": {
-          "text": "Craft a cake"
+          "text": "Get a glass block"
         },
-        "clue": {
-          "text": "Some say it is a lie"
-        },
-        "reward": 20,
+        "reward": 15,
         "trigger": [
           {
-            "type": "ltminigames:item_crafted",
+            "type": "ltminigames:while_in_inventory",
             "item": {
-              "items": "minecraft:cake"
+              "items": "minecraft:glass"
+            },
+            "apply": [
+              {
+                "type": "ltminigames:bingo/complete_tile"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "icon": {
+          "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {
+          "text": "Column Multiplier"
+        },
+        "reward": 2,
+        "trigger": [
+          {
+            "type": "ltminigames:while_in_inventory",
+            "item": {
+              "items": "minecraft:netherite_upgrade_smithing_template"
+            },
+            "apply": [
+              {
+                "type": "ltminigames:bingo/complete_tile"
+              }
+            ]
+          }
+        ],
+        "tile_type": "column_multiplier"
+      },
+      {
+        "icon": {
+          "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {
+          "text": "Column Multiplier"
+        },
+        "reward": 2,
+        "trigger": [
+          {
+            "type": "ltminigames:while_in_inventory",
+            "item": {
+              "items": "minecraft:netherite_upgrade_smithing_template"
             },
             "actions": [
               {
@@ -563,24 +605,22 @@
               }
             ]
           }
-        ]
+        ],
+        "tile_type": "column_multiplier"
       },
       {
         "icon": {
-          "id": "minecraft:golden_apple"
+          "id": "minecraft:netherite_upgrade_smithing_template"
         },
         "title": {
-          "text": "Craft a golden apple"
+          "text": "Column Multiplier"
         },
-        "clue": {
-          "text": "A forbidden fruit, gilded"
-        },
-        "reward": 25,
+        "reward": 2,
         "trigger": [
           {
-            "type": "ltminigames:item_crafted",
+            "type": "ltminigames:while_in_inventory",
             "item": {
-              "items": "minecraft:golden_apple"
+              "items": "minecraft:netherite_upgrade_smithing_template"
             },
             "actions": [
               {
@@ -588,209 +628,22 @@
               }
             ]
           }
-        ]
+        ],
+        "tile_type": "column_multiplier"
       },
       {
         "icon": {
-          "id": "minecraft:diamond"
+          "id": "minecraft:netherite_upgrade_smithing_template"
         },
         "title": {
-          "text": "Get a diamond"
+          "text": "Column Multiplier"
         },
-        "clue": {
-          "text": "The gem that hides near the bottom of the world"
-        },
-        "reward": 20,
+        "reward": 2,
         "trigger": [
           {
             "type": "ltminigames:while_in_inventory",
             "item": {
-              "items": "minecraft:diamond"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:obsidian"
-        },
-        "title": {
-          "text": "Get obsidian"
-        },
-        "reward": 20,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:obsidian"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:quartz"
-        },
-        "title": {
-          "text": "Get nether quartz"
-        },
-        "reward": 20,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:quartz"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:glowstone_dust"
-        },
-        "title": {
-          "text": "Get glowstone dust"
-        },
-        "reward": 20,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:glowstone_dust"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:nether_wart"
-        },
-        "title": {
-          "text": "Get nether wart"
-        },
-        "clue": {
-          "text": "The fungus of hell"
-        },
-        "reward": 25,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:nether_wart"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:ender_pearl"
-        },
-        "title": {
-          "text": "Get an ender pearl"
-        },
-        "reward": 25,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:ender_pearl"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:blaze_rod"
-        },
-        "title": {
-          "text": "Get a blaze rod"
-        },
-        "clue": {
-          "text": "What keeps the fortress guardians burning"
-        },
-        "reward": 30,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:blaze_rod"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:ghast_tear"
-        },
-        "title": {
-          "text": "Get a ghast tear"
-        },
-        "clue": {
-          "text": "The sorrow of a floating giant"
-        },
-        "reward": 35,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:ghast_tear"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "icon": {
-          "id": "minecraft:ender_eye"
-        },
-        "title": {
-          "text": "Craft an eye of ender"
-        },
-        "reward": 40,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:ender_eye"
+              "items": "minecraft:netherite_upgrade_smithing_template"
             },
             "actions": [
               {
@@ -798,7 +651,31 @@
               }
             ]
           }
-        ]
+        ],
+        "tile_type": "column_multiplier"
+      },
+      {
+        "icon": {
+          "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {
+          "text": "Column Multiplier"
+        },
+        "reward": 2,
+        "trigger": [
+          {
+            "type": "ltminigames:while_in_inventory",
+            "item": {
+              "items": "minecraft:netherite_upgrade_smithing_template"
+            },
+            "actions": [
+              {
+                "type": "ltminigames:bingo/complete_tile"
+              }
+            ]
+          }
+        ],
+        "tile_type": "column_multiplier"
       }
     ]
   }
