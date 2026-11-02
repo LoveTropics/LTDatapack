@@ -19,9 +19,6 @@ function lt:systems/on_tick
 # Marker finder
 execute as @e[type=marker] at @s run particle minecraft:portal ~ ~ ~ 0 0 0 0 1 force @a[tag=ilikemarkers,distance=0..15]
 
-# Elytra
-execute in tropicraft:tropics run function lt:world_games/elytra/on_tick
-
 # Turtle Race
 execute in tropicraft:tropics run function lt:world_games/turtle/on_tick
 

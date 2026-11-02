@@ -66,12 +66,6 @@ scoreboard objectives add world_game.scavenger_hunt.stats dummy
 # On Second
 schedule function lt:main/on_second 1s replace
 
-#Elytra
-scoreboard objectives add world_game.elytra.tracker dummy
-scoreboard objectives add world_game.elytra.clock dummy
-scoreboard objectives add world_game.elytra.scores dummy
-
-
 ## Stage system variables
 scoreboard objectives add stage.global dummy
 scoreboard objectives add stage.curtain dummy
