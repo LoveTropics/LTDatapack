@@ -66,8 +66,21 @@
   },
   {
     "type": "ltminigames:game_end_effects",
-    "stop_delay": 200
+    "stop_delay": 300
   },
+  {
+    "type": "ltminigames:events/game_over",
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "pitch": 0.2
+      }
+    ],
+    "target": "all_players"
+  },
+  "lt:common/winner_fireworks",
+  "lt:common/winner_glows",
   "lt:common/announce_game_over",
   {
     "type": "ltminigames:events/game_over",
