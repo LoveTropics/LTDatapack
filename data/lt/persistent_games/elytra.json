@@ -3,9 +3,9 @@
   "behaviors": [
     {
       "type": "ltminigames:race_track",
-      "id": "test",
-      "checkpoint_count": 5,
-      "required_checkpoint_count": 5,
+      "id": "elytra",
+      "checkpoint_count": 29,
+      "required_checkpoint_count": 25,
       "predicate": {
         "condition": "minecraft:entity_properties",
         "entity": "this",
@@ -13,7 +13,7 @@
           "nbt": "{FallFlying:1b}"
         }
       },
-      "end_region_query": "test_end",
+      "end_region_query": "elytra_30",
       "messages": {
         "checkpoint_reached": {
           "text": "Checkpoint reached!"
