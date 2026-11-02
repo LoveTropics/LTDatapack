@@ -35,7 +35,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:games/hardcore_havoc"
+    "load_from": "lt:games/hardcore_havoc/overworld"
   },
   "behaviors": [
     "lt:hardcore_havoc/common"
