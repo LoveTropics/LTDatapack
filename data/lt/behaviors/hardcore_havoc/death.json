@@ -1,5 +1,11 @@
 [
   {
+    "type": "ltminigames:immediate_respawn",
+    "role": "participant",
+    "respawn_as": "spectator",
+    "drop_inventory": true
+  },
+  {
     "type": "ltminigames:on_death",
     "killed_action": [
       {

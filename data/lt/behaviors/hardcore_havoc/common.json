@@ -1,5 +1,12 @@
 [
   {
+    "type": "lt:common/playing",
+    "game_type": "survival",
+    "join_late_with_role": "spectator",
+    "allow_rejoin": true,
+    "statistics_key": "hardcore_havoc"
+  },
+  {
     "type": "ltminigames:position_players",
     "teams": {
       "blue": ["blue"],
