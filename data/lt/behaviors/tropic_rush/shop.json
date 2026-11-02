@@ -260,7 +260,7 @@
           "type": "ltminigames:apply_client_state",
           "state": {
             "type": "ltminigames:remap_movement",
-            "keys": {"forward": "disable", "backward": "forward"}
+            "keys": {"forward": "disabled", "backward": "forward"}
           }
         },
         "clear": {
