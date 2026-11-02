@@ -1,0 +1,33 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:race_track",
+      "id": "test",
+      "checkpoint_count": 5,
+      "required_checkpoint_count": 5,
+      "predicate": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{FallFlying:1b}"
+        }
+      },
+      "end_region_query": "test_end",
+      "messages": {
+        "checkpoint_reached": {
+          "text": "Checkpoint reached!"
+        },
+        "race_completed": {
+          "text": "Race completed!"
+        },
+        "race_failed": {
+          "text": "Race failed! you stopped elyting"
+        },
+        "race_started": {
+          "text": "Race started!"
+        }
+      }
+    }
+  ]
+}
