@@ -6,7 +6,7 @@
   "donation_amount": 50.0,
   "receive_actions": [
     {
-      "type": "ltminigames:transform_player_tornado",
+      "type": "weather2:transform_player_tornado",
       "time_ticks": 500,
       "baby": false
     },

@@ -107,6 +107,8 @@
         "items": [{"id": "minecraft:ender_pearl", "count": 4}]
       }
     },
+
+
     {
       "icon": "minecraft:wooden_pickaxe",
       "name": {"text": "Butterfingers"},
@@ -214,12 +216,14 @@
       "target": "pick",
       "usable_by": "all",
       "actions": {
-        "type": "ltminigames:spawn_tornado",
+        "type": "weather2:spawn_tornado",
         "tornado": {
           "entity_spawn_settings": {
             "entity": "minecraft:piglin_brute"
           }
-        }
+        },
+        "mode": "all_target",
+        "aim_at_target": true
       }
     },
     {
@@ -230,10 +234,12 @@
       "target": "pick",
       "usable_by": "all",
       "actions": {
-        "type": "ltminigames:spawn_tornado",
+        "type": "weather2:spawn_tornado",
         "tornado": {
           "fire": true
-        }
+        },
+        "mode": "all_target",
+        "aim_at_target": true
       }
     },
     {
