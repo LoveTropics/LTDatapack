@@ -223,7 +223,8 @@
           }
         },
         "mode": "all_target",
-        "aim_at_target": true
+        "aim_at_target": true,
+        "speed": 0.5
       }
     },
     {
@@ -239,7 +240,8 @@
           "fire": true
         },
         "mode": "all_target",
-        "aim_at_target": true
+        "aim_at_target": true,
+        "speed": 0.5
       }
     },
     {
