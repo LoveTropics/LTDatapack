@@ -107,8 +107,6 @@
         "items": [{"id": "minecraft:ender_pearl", "count": 4}]
       }
     },
-
-    
     {
       "icon": "minecraft:wooden_pickaxe",
       "name": {"text": "Butterfingers"},
@@ -145,7 +143,6 @@
         ]
       }
     },
-
     {
       "icon": {
         "id": "peekaboo:disguise",
@@ -255,7 +252,7 @@
           "type": "ltminigames:apply_client_state",
           "state": {
             "type": "ltminigames:remap_movement",
-            "keys": {"forward": "none", "backward": "forward"}
+            "keys": {"forward": "disable", "backward": "forward"}
           }
         },
         "clear": {

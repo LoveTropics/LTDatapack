@@ -11,9 +11,9 @@
   {
     "type": "ltminigames:setup_world_border",
     "center_region": "spectators",
-    "radius": 100
+    "radius": 1000
   },
-  {"type":  "ltminigames:prevent_dimension_portals"},
+  {"type": "ltminigames:prevent_dimension_portals"},
   {
     "type": "ltminigames:set_game_rules",
     "rules": {
