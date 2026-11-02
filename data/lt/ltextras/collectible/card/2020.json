@@ -1,0 +1,29 @@
+{
+  "item": {
+    "id": "ltextras:trading_card",
+    "components": {
+      "ltextras:image": {
+        "texture": "ltextras:textures/images/trading_card/2020.png",
+        "width": 375.0,
+        "height": 525.0
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:lore": [
+        {
+          "text": "2020",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "card",
+        "rarity": "secret"
+      },
+      "minecraft:custom_name": {
+        "translate": "lt.collectible.card.name",
+        "with": ["2020"],
+        "color": "#5ABDA3"
+      }
+    }
+  }
+}

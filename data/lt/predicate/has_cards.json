@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "ltextras:has_collectable": {
+      "collectibles": "#lt:cards"
+    }
+  }
+}
