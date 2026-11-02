@@ -17,7 +17,7 @@
       "minecraft:spawn_mobs": false,
       "minecraft:mob_drops": false,
       "minecraft:advance_weather": false,
-      "minecraft:fall_damage": true,
+      "minecraft:fall_damage": false,
       "minecraft:advance_time": false,
       "minecraft:show_advancement_messages": false,
       "tropicraft:unrestricted_exploding_coconuts": true
