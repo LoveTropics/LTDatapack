@@ -91,24 +91,6 @@
         "type": "ltminigames:place_by_statistic",
         "statistic": "points",
         "order": "max"
-      },
-      {
-        "type": "ltminigames:apply_to",
-        "target": "all_players",
-        "actions": [
-          {
-            "type": "ltminigames:display_leaderboard",
-            "statistic": "points",
-            "statistic_holder": "player",
-            "order": "max",
-            "length": 5,
-            "header": {
-              "translate": "ltminigames.minigame.mysty.leaderboard"
-            },
-            "show_placement": true,
-            "show_score": false
-          }
-        ]
       }
     ]
   },
@@ -130,7 +112,7 @@
     "statistics_key": "mysty_event"
   },
   {
-    "type": "ltminigames:hats",
+    "type": "ltminigames:lobby_hats",
     "hat_mobs": [
       {
         "type": "tropicraft:gibnut",
@@ -143,7 +125,7 @@
           ]
         },
         "scale": 1.0,
-        "donation_value": 0.25,
+        "hat_count": 1,
         "weight": 10.0
       },
       {
@@ -157,7 +139,7 @@
           ]
         },
         "scale": 3.0,
-        "donation_value": 10.0,
+        "hat_count": 10,
         "weight": 0.2
       },
       {
@@ -171,7 +153,7 @@
           ]
         },
         "scale": 5.0,
-        "donation_value": 50.0,
+        "hat_count": 20,
         "weight": 0.2
       }
     ],
@@ -214,8 +196,7 @@
         "weight": 1
       }
     ],
-    "hat_donation_value": 1.0,
-    "share_with_sub_game": true
+    "donation_value_per_hat": 2.0
   },
   {
     "type": "ltminigames:sum_statistic",
