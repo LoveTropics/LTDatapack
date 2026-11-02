@@ -40,7 +40,7 @@
   {
     "type": "lt:integrations/packages/random_disguise",
     "package_type": "sabotage_package",
-    "donation_amount": 10,
+    "donation_amount": 10.0,
     "seconds": 60
   },
   "lt:integrations/packages/its_been_fun",
