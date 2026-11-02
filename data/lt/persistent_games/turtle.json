@@ -1,0 +1,35 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:race_track",
+      "id": "turtle",
+      "checkpoint_count": 19,
+      "required_checkpoint_count": 19,
+      "predicate": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "vehicle": {
+            "minecraft:entity_type": "tropicraft:turtle",
+            "team": "anticrabcollision"
+          }
+        }
+      },
+      "messages": {
+        "checkpoint_reached": {
+          "text": "Checkpoint reached!"
+        },
+        "race_completed": {
+          "text": "Race completed!"
+        },
+        "not_enough_checkpoints": {
+          "text": "You did not reach enough checkpoints to complete the race!"
+        },
+        "left_race_track": {
+          "text": "You left the race track!"
+        }
+      }
+    }
+  ]
+}

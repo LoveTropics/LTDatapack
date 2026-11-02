@@ -13,7 +13,6 @@
           "nbt": "{FallFlying:1b}"
         }
       },
-      "end_region_query": "elytra_30",
       "messages": {
         "checkpoint_reached": {
           "text": "Checkpoint reached!"
