@@ -38,7 +38,7 @@
           },
           {
             "data": {
-              "type": "lt:integrations/packages/everyone_random_disguise",
+              "type": "lt:integrations/packages/random_disguise",
               "package_type": "sabotage_package",
               "seconds": 60
             },

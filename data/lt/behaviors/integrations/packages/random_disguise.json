@@ -12,8 +12,38 @@
     },
     "donation_amount": "$amount",
     "receive_actions": {
-      "type": "ltminigames:randomize",
-      "options": "$options"
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:disguise",
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:set_random_disguise",
+          "disallowed": [
+            "ltextras:collectible",
+            "minecraft:ominous_item_spawner",
+            "minecraft:lightning_bolt",
+            "tropicraft:wall_item",
+            "minecraft:area_effect_cloud"
+          ]
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:clear_disguise"
+        }
+      },
+      "seconds": "$seconds"
+    },
+    "notification": {
+      "message": {
+        "translate": "TODO",
+        "color": "light_purple"
+      },
+      "icon": {
+        "item": "tropicraft:exploding_coconut"
+      },
+      "sentiment": "positive"
     }
   }
 ]
