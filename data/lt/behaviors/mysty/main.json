@@ -127,5 +127,93 @@
     "allow_rejoin": true,
     "statistics_key": "mysty_event"
   },
+  {
+    "type": "ltminigames:hats",
+    "hat_mobs": [
+      {
+        "type": "tropicraft:gibnut",
+        "tag": {
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 0.1
+            }
+          ]
+        },
+        "scale": 1.0,
+        "donation_value": 0.25,
+        "weight": 10.0
+      },
+      {
+        "type": "tropicraft:gibnut",
+        "tag": {
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 10.0
+            }
+          ]
+        },
+        "scale": 3.0,
+        "donation_value": 10.0,
+        "weight": 0.2
+      },
+      {
+        "type": "tropicraft:gibnut",
+        "tag": {
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 50.0
+            }
+          ]
+        },
+        "scale": 5.0,
+        "donation_value": 50.0,
+        "weight": 0.2
+      }
+    ],
+    "hat_spawn": "hat_spawn",
+    "hats": [
+      {
+        "data": {
+          "id": "ltextras:top_hat",
+          "width": 1.0,
+          "height": 1.0,
+          "bounciness": 1.0
+        },
+        "weight": 10
+      },
+      {
+        "data": {
+          "id": "ltextras:bronze_top_hat",
+          "width": 1.0,
+          "height": 1.0,
+          "bounciness": 1.0
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "ltextras:silver_top_hat",
+          "width": 1.0,
+          "height": 1.0,
+          "bounciness": 1.0
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "ltextras:gold_top_hat",
+          "width": 1.0,
+          "height": 1.0,
+          "bounciness": 1.0
+        },
+        "weight": 1
+      }
+    ],
+    "hat_donation_value": 1.0,
+    "share_with_sub_game": true
+  },
   "lt:mysty/command/score"
 ]
