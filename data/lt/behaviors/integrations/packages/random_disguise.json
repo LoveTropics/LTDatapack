@@ -4,12 +4,6 @@
     "id": "random_disguise",
     "package_type": "$package_type",
     "target": "all_players",
-    "name": {
-      "translate": "Random Disguise"
-    },
-    "description": {
-      "translate": "Random Disguise"
-    },
     "donation_amount": "$donation_amount",
     "receive_actions": {
       "type": "ltminigames:apply_for_time",
@@ -37,14 +31,20 @@
       "seconds": "$seconds"
     },
     "notification": {
-      "message": {
-        "translate": "TODO",
-        "color": "light_purple"
-      },
       "icon": {
-        "item": "tropicraft:exploding_coconut"
+        "item": {
+          "id": "peekaboo:disguise",
+          "count": 1,
+          "components": {
+            "peekaboo:disguise": {
+              "entity": {
+                "id": "minecraft:tapir"
+              }
+            }
+          }
+        }
       },
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   }
 ]
