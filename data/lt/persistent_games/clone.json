@@ -8,8 +8,7 @@
       "output_area": "clone_output",
       "block_area": "clone_blocks",
       "blocks": "ltextras:edgeless_lime_stained_glass",
-      "cloning_time": 200,
-      "cloning_cooldown": 100,
+      "cloning_cooldown": 600,
       "template": {
         "id": "peekaboo:disguise"
       }
