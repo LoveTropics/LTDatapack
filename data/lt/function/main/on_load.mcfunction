@@ -44,10 +44,6 @@ scoreboard objectives add disguise.cloneing dummy
 schedule clear lt:main/on_ten_seconds
 schedule function lt:main/on_ten_seconds 10s
 
-scoreboard objectives add stats.disguise dummy
-#Reset player cloning cooldown
-function lt:diguises/clone/stages/stage_reset
-
 # Collectible Mechanic Scoreboards
 scoreboard objectives add collectible.rocket_boots.jump minecraft.custom:jump
 scoreboard objectives add collectible.rocket_boots.time dummy
