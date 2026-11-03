@@ -1,4 +1,6 @@
 {
+  "enter_commands": [],
+  "exit_commands": [],
   "rules": {
     "attack": "deny",
     "break": "deny",
