@@ -166,39 +166,99 @@
     "hat_spawn": "hat_spawn",
     "hats": [
       {
-        "data": {
-          "id": "ltextras:top_hat",
-          "width": 1.0,
-          "height": 1.0,
-          "bounciness": 1.0
-        },
-        "weight": 10
+        "data": {"id": "ltextras:ltextras:backwards_cap"},
+        "weight": 5
       },
       {
-        "data": {
-          "id": "ltextras:bronze_top_hat",
-          "width": 1.0,
-          "height": 1.0,
-          "bounciness": 1.0
-        },
+        "data": {"id": "ltextras:baker_boy_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:bloodborne_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:chef_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:chest_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:chicken_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:cowboy_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:crown_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:duck_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:frog_cap"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:hamburger_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:mushroom_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:pie_face_horizontal_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:pirate_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:police_cap"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:santa_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:straw_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:sunglasses_cap"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:wizard_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:hard_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:top_hat"},
+        "weight": 5
+      },
+      {
+        "data": {"id": "ltextras:bronze_top_hat"},
         "weight": 3
       },
       {
-        "data": {
-          "id": "ltextras:silver_top_hat",
-          "width": 1.0,
-          "height": 1.0,
-          "bounciness": 1.0
-        },
+        "data": {"id": "ltextras:silver_top_hat"},
         "weight": 2
       },
       {
-        "data": {
-          "id": "ltextras:gold_top_hat",
-          "width": 1.0,
-          "height": 1.0,
-          "bounciness": 1.0
-        },
+        "data": {"id": "ltextras:gold_top_hat"},
         "weight": 1
       }
     ],
