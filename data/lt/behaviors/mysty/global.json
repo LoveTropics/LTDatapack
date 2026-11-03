@@ -44,9 +44,13 @@
       }
     }
   },
+  "lt:mysty/tools/bindings",
   {
     "type": "ltminigames:add_overlords",
-    "roles": ["event_overlord"]
+    "roles": ["event_overlord"],
+    "apply_to_overlord": {
+      "actions": "lt:mysty/tools/give"
+    }
   },
   {
     "type": "ltminigames:point_control_commands",

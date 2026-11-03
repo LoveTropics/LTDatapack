@@ -1,0 +1,82 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "tropicraft:exploding_coconut",
+      "count": 4,
+      "components": {
+        "minecraft:item_name": {
+          "translate": "lt.loot_table.coconut_boom",
+          "color": "red",
+          "bold": true
+        },
+        "tropicraft:explosion_radius": 0.6,
+        "ltextras:infinite": {}
+      }
+    },
+    {
+      "id": "minecraft:creeper_spawn_egg",
+      "components": {
+        "minecraft:item_name": "Charged Creeper Spawn Egg",
+        "minecraft:entity_data": {
+          "id": "minecraft:creeper",
+          "ExplosionRadius": 3.0,
+          "Fuse": 30,
+          "powered": true
+        },
+        "ltextras:infinite": {}
+      }
+    },
+    {
+      "id": "dummyplayers:dummy_player",
+      "components": {
+        "minecraft:item_name": "Swap Players",
+        "ltminigames:powerup": "lt:mysty/swap_players",
+        "ltextras:undroppable": {}
+      }
+    },
+    {
+      "id": "tropicraft:exploding_coconut",
+      "components": {
+        "minecraft:item_name": "Give Everyone Coconut Bombs",
+        "ltminigames:powerup": "lt:mysty/give_coconut_bombs",
+        "ltextras:undroppable": {}
+      }
+    },
+    {
+      "id": "weather2:weather_item",
+      "components": {
+        "minecraft:item_name": "Turn Player into Tornado",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false},
+          {"text": "30 seconds", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/turn_into_tornado",
+        "ltextras:undroppable": {}
+      }
+    },
+    {
+      "id": "minecraft:fire_charge",
+      "components": {
+        "minecraft:item_name": "Meteor Strike on Player",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/meteor_strike",
+        "ltextras:undroppable": {}
+      }
+    },
+    {
+      "id": "ltextras:gold_top_hat",
+      "components": {
+        "minecraft:item_name": "Give Hat to Player",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/give_hat",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}
