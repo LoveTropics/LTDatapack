@@ -53,13 +53,13 @@
         "lobby": {}
       },
       {
-        "game": "lt:mysty/arena/platforms"
-      },
-      {
-        "game": "lt:mysty/arena/waves"
+        "game": "lt:mysty/arena/redstone"
       },
       {
         "game": "lt:mysty/arena/island"
+      },
+      {
+        "game": "lt:mysty/arena/waves"
       },
       {
         "lobby": {}
@@ -72,12 +72,6 @@
       },
       {
         "game": "lt:mysty/platforms"
-      },
-      {
-        "lobby": {}
-      },
-      {
-        "game": "lt:mysty/columns_of_chaos"
       },
       {
         "lobby": {}
