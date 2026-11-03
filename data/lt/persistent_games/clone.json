@@ -42,7 +42,7 @@
           "data": {
             "NoBasePlate": true
           },
-          "weight": 1
+          "weight": 9
         },
         {
           "data": {
@@ -52,7 +52,7 @@
               "RightArm": [0,0,90]
             }
           },
-          "weight": 100
+          "weight": 1
         }
       ]
     }
