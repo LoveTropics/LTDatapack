@@ -703,7 +703,7 @@
   "ltminigames.minigame.qottott.map.2": "Map: STT 4",
   "ltminigames.minigame.escape_race": "Escape Race",
   "lt.enchant.silmey": "Slimey",
-  "lt.collectible.slimey_slime.description": "Warning may contain excessive slime",
+  "lt.collectible.slimey_slime.description": "Warning: May contain excessive slime",
   "lt.collectible.hover_boots.name": "Hover Boots",
   "lt.collectible.hover_boots.description": "Touch grass? Never heard of it.",
   "lt.collectible.hover_boots.tooltip.leg_movement": "- Leg Movement",
@@ -763,7 +763,7 @@
   "ltminigames.minigame.donation.mysty.slow_falling": "Slow Falling",
   "ltminigames.minigame.donation.mysty.slow_falling.toast": "%sender% gave you SLOW FALLING for 30 Seconds!",
   "ltminigames.minigame.donation.mysty.speed": "Speed",
-  "ltminigames.minigame.donation.mysty.speed.toast": "%sender% gave you a SPEED for 2 minutes!",
+  "ltminigames.minigame.donation.mysty.speed.toast": "%sender% gave you SPEED for 2 minutes!",
   "ltminigames.minigame.donation.mysty.invert_controls": "Invert Controls",
   "ltminigames.minigame.donation.mysty.invert_controls.toast": "%sender% has INVERTED MOUSE CONTROLS!",
   "ltminigames.minigame.donation.mysty.shuffle_movement": "Shuffle Movement Keys",
@@ -912,8 +912,8 @@
   "lt.loot_modifier.add_fabulousness": "+ Fabulousness",
   "lt.loot_modifier.add_flight": "+ Flight",
   "lt.loot_modifier.add_breezy": "+ Breezy",
-  "lt.loot_modifier.add_applys_in_mainhand": "+ Applys in Mainhand",
-  "lt.loot_modifier.add_applys_in_offhand": "+ Applys in Offhand",
+  "lt.loot_modifier.add_applys_in_mainhand": "+ Applies in Mainhand",
+  "lt.loot_modifier.add_applys_in_offhand": "+ Applies in Offhand",
   "lt.loot_modifier.add_single_use": "+ Single Use",
   "lt.loot_modifier.add_5_block_radius": "+ 5 Block Radius",
   "lt.loot_modifier.add_7_block_radius": "+ 7 Block Radius",
@@ -961,10 +961,10 @@
   "lt.loot.super_sunscreen.description.1": "When heatwaves hit, 2/10 dermatologists recommend Super Sunscreen™!",
 
   "lt.loot.acid_repellent_umbrella": "Acid Repellent Umbrella",
-  "lt.loot.acid_repellent_umbrella.description.1": "Walk in the acid rain? The Acid Repellent Umbrellas got you covered!",
+  "lt.loot.acid_repellent_umbrella.description.1": "Walk in the acid rain? The Acid Repellent Umbrella's got you covered!",
 
   "lt.loot.throwing_trident": "Throwing Trident",
-  "lt.loot.throwing_trident.description.1": "Poseidon would tremble … ifff he hadn't met an untimely end in the",
+  "lt.loot.throwing_trident.description.1": "Poseidon would tremble … if he hadn't met an untimely end in the",
   "lt.loot.throwing_trident.description.2": "rising tides. But that's climate change for ya'!",
 
   "lt.loot.precision_bow": "Precision Bow",
@@ -1015,8 +1015,8 @@
   "lt.loot.ender_pearl.description.2": "Use at own risk.",
 
   "lt.loot.teeter_yeeter": "Teeter Yeeter",
-  "lt.loot.teeter_yeeter.description.1": "If a teeter were to get yeeted by a teeter yeeter how far would the teeter get yeeted.",
-  "lt.loot.teeter_yeeter.description.2": "Word is: pretty far.",
+  "lt.loot.teeter_yeeter.description.1": "If a teeter were to get yeeted by a teeter yeeter how far would the teeter get yeeted?",
+  "lt.loot.teeter_yeeter.description.2": "Word is: Pretty far.",
 
   "lt.loot.ephemeral_elytra": "Ephemeral Elytra",
   "lt.loot.ephemeral_elytra.description.1": "It's like a normal elytra that doesn't last as long.",
