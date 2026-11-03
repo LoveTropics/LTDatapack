@@ -9,8 +9,8 @@
       1.1,
       1.0
     ],
-    "initial_tiles": 9,
-    "unlock_on_clear": 3,
+    "initial_tiles": 25,
+    "unlock_on_clear": 0,
     "tile_pool": [
       {
         "icon": {
