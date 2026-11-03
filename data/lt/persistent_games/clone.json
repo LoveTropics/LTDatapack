@@ -10,8 +10,53 @@
       "blocks": "ltextras:edgeless_lime_stained_glass",
       "cloning_cooldown": 600,
       "template": {
-        "id": "peekaboo:disguise"
-      }
+        "id": "peekaboo:disguise",
+        "components": {
+          "ltextras:collectible_display_info": {
+            "name": "player_disguise",
+            "rarity": "secret",
+            "additional_lore": [
+              {
+                "translate": "item.modifiers.head",
+                "color": "gray"
+              },
+              {
+                "translate": "lt.collectible.disguise.tooltip.subtract_player",
+                "color": "blue"
+              },
+              {
+                "translate": "lt.collectible.player_clone.tooltip.add_horror",
+                "color": "blue"
+              }
+            ]
+          },
+          "minecraft:custom_name": {
+            "text": "Player Disguise",
+            "italic": false,
+            "color": "#BFEA00"
+          }
+        }
+      },
+      "additional_entity_data": [
+        {
+          "data": {
+            "NoBasePlate": true
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "NoBasePlate": true,
+            "Pose": {
+              "LeftArm": [0,0,90],
+              "RightArm": [0,0,-90]
+            }
+          },
+          "weight": 100
+        }
+      ]
     }
   ]
 }
+
+
