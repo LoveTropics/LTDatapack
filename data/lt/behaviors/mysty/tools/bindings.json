@@ -106,6 +106,47 @@
     "consume": false
   },
   {
+    "type": "ltminigames:item_used",
+    "item_used": {
+      "components": {
+        "ltminigames:powerup": "lt:mysty/sharknado"
+      }
+    },
+    "source_actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:entity.arrow.hit_player"
+      },
+      {
+        "type": "ltminigames:apply_to",
+        "actions": [
+          {
+            "type": "ltminigames:show_title",
+            "subtitle": {
+              "translate": "ltminigames.minigame.donation.sharknado.title",
+              "color": "red"
+            },
+            "stay": 60
+          }
+        ],
+        "target": "all_players"
+      },
+      {
+        "type": "weather2:spawn_tornado",
+        "tornado": {
+          "entity_spawn_settings": {
+            "entity": "tropicraft:hammerhead"
+          }
+        },
+        "aim_at_target": true,
+        "x_offset": 0,
+        "z_offset": 0,
+        "mode": "all_target"
+      }
+    ],
+    "consume": false
+  },
+  {
     "type": "ltminigames:on_entity_interaction",
     "item_used": {
       "components": {

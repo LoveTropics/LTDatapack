@@ -56,6 +56,14 @@
       }
     },
     {
+      "id": "tropicraft:hammerhead_spawn_egg",
+      "components": {
+        "minecraft:item_name": "Spawn Sharknado",
+        "ltminigames:powerup": "lt:mysty/sharknado",
+        "ltextras:undroppable": {}
+      }
+    },
+    {
       "id": "minecraft:fire_charge",
       "components": {
         "minecraft:item_name": "Meteor Strike on Player",

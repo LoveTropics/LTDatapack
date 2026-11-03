@@ -12,6 +12,14 @@
     {
       "data": {
         "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/slow_falling", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
           { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
         ]
       },
