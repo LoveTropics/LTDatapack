@@ -1,35 +1,7 @@
 [
-  {
-    "type": "ltminigames:progression",
-    "channel": "starting",
-    "start": false,
-    "named_points": {
-      "start": 1,
-      "unfreeze": 6
-    }
-  },
-  {
-    "type": "ltminigames:countdown_effects",
-    "channel": "starting",
-    "target": "unfreeze",
-    "show_title": true,
-    "sound": "minecraft:block.end_portal_frame.fill",
-    "seconds": 5,
-    "pitch": {
-      "start": 1.25,
-      "end": 0.25
-    }
-  },
-  {
-    "type": "ltminigames:scheduled_actions",
-    "channel": "starting",
-    "actions": {
-      "start": [],
-      "unfreeze": [
-        "ltminigames:named_stages/progress"
-      ]
-    }
-  },
+  "lt:hardcore_havoc/progression/starting",
+  "lt:hardcore_havoc/progression/nether",
+  "lt:hardcore_havoc/progression/end",
   {
     "type": "ltminigames:named_stages",
     "stages": {
@@ -37,10 +9,6 @@
         "next_stage": "start",
         "auto_move_on": false,
         "start_actions": [
-          {
-            "type": "ltminigames:set_difficulty_now",
-            "difficulty": "peaceful"
-          },
           {
             "type": "ltminigames:apply_to",
             "target": "participants",
@@ -96,6 +64,10 @@
         "auto_move_on": true,
         "start_actions": [
           {
+            "type": "ltminigames:start_progress_channel",
+            "channel": "nether"
+          },
+          {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:noon"
           },
@@ -129,6 +101,39 @@
           }
         ],
         "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": {
+              "type": "players_dimension",
+              "dimension_type": "minecraft:the_nether"
+            },
+            "actions": [
+              {
+                "type": "ltminigames:spawn_entities_around_players",
+                "entity": {
+                  "type": "minecraft:piglin_brute"
+                },
+                "entity_count_per_player": 80,
+                "spawn_distance_min": 3,
+                "spawn_distance_max": 10,
+                "spawn_range_y": 5,
+                "spawn_try_rate": 1,
+                "max_entity_count": 60
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target,": "participant",
+            "actions": [
+              {
+                "type": "ltminigames:remove_item_from_player",
+                "item": {
+                  "id": "minecraft:slime_ball"
+                }
+              }
+            ]
+          }
         ]
       },
       "overworld_post_nether": {
@@ -143,36 +148,20 @@
           {
             "type": "ltminigames:set_difficulty_now",
             "difficulty": "normal"
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": {
-              "type": "players_dimension",
-              "dimension_type": "minecraft:the_nether"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:spawn_entities_around_players",
-                "entity": {
-                  "type": "minecraft:piglin_brute"
-                },
-                "entity_count_per_player": 40,
-                "spawn_distance_min": 3,
-                "spawn_distance_max": 10,
-                "spawn_range_y": 5,
-                "spawn_try_rate": 1,
-                "max_entity_count": 60
-              }
-            ]
           }
         ],
-        "end_actions": []
+        "end_actions": [
+        ]
       },
       "the_end": {
         "next_stage": "overworld_post_end",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
         "start_actions": [
+          {
+            "type": "ltminigames:start_progress_channel",
+            "channel": "end"
+          },
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:night"
@@ -206,7 +195,41 @@
             "text": "End Teleport"
           }
         ],
-        "end_actions": []
+        "end_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": {
+              "type": "players_dimension",
+              "dimension_type": "minecraft:the_nether"
+            },
+            "actions": [
+              {
+                "type": "ltminigames:spawn_entities_around_players",
+                "entity": {
+                  "type": "minecraft:piglin_brute"
+                },
+                "entity_count_per_player": 80,
+                "spawn_distance_min": 3,
+                "spawn_distance_max": 10,
+                "spawn_range_y": 5,
+                "spawn_try_rate": 1,
+                "max_entity_count": 60
+              }
+            ]
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target,": "participant",
+            "actions": [
+              {
+                "type": "ltminigames:remove_item_from_player",
+                "item": {
+                  "id": "minecraft:slime_ball"
+                }
+              }
+            ]
+          }
+        ]
       },
       "overworld_post_end": {
         "timer_length_ticks": 24000,

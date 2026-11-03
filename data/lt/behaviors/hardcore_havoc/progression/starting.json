@@ -1,0 +1,33 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "channel": "starting",
+    "start": false,
+    "named_points": {
+      "start": 1,
+      "unfreeze": 6
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "channel": "starting",
+    "target": "unfreeze",
+    "show_title": true,
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 5,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "channel": "starting",
+    "actions": {
+      "start": [],
+      "unfreeze": [
+        "ltminigames:named_stages/progress"
+      ]
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "type": "ltminigames:progression",
+    "channel": "nether",
+    "start": false,
+    "named_points": {
+      "start": 1,
+      "10_left": 300,
+      "5_left": 600,
+      "1_left": 840,
+      "30s_left": 870,
+      "29s_left": 871,
+      "finish": 900
+    }
+  },
+  {
+    "type": "ltminigames:countdown_effects",
+    "channel": "nether",
+    "target": "29s_left",
+    "show_title": true,
+    "sound": "minecraft:block.end_portal_frame.fill",
+    "seconds": 29,
+    "pitch": {
+      "start": 1.25,
+      "end": 0.25
+    }
+  },
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "participants",
+    "channel": "nether",
+    "actions": {
+      "10_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "Nether Closing In 10 Minutes",
+            "color": "red"
+          },
+          "stay": 50
+        }
+      ],
+      "5_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "Nether Closing In 5 Minutes",
+            "color": "red"
+          },
+          "stay": 50
+        }
+      ],
+      "1_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "Nether Closing In 1 Minute",
+            "color": "red"
+          },
+          "stay": 50
+        }
+      ],
+      "30s_left": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "Nether Closing In 30 Seconds",
+            "color": "red"
+          },
+          "stay": 50
+        }
+      ],
+      "29s_left": [
+      ]
+    }
+  }
+]
