@@ -35,6 +35,12 @@
         "start_actions": [],
         "end_actions": [
           {
+            "type": "ltminigames:set_game_rules",
+            "rules": {
+              "minecraft:spawn_mobs": true
+            }
+          },
+          {
             "type": "ltminigames:apply_to",
             "target": "participants",
             "actions": [
@@ -109,16 +115,7 @@
             },
             "actions": [
               {
-                "type": "ltminigames:spawn_entities_around_players",
-                "entity": {
-                  "type": "minecraft:piglin_brute"
-                },
-                "entity_count_per_player": 80,
-                "spawn_distance_min": 3,
-                "spawn_distance_max": 10,
-                "spawn_range_y": 5,
-                "spawn_try_rate": 1,
-                "max_entity_count": 60
+                "type": "ltminigames:kill"
               }
             ]
           },
@@ -204,16 +201,7 @@
             },
             "actions": [
               {
-                "type": "ltminigames:spawn_entities_around_players",
-                "entity": {
-                  "type": "minecraft:piglin_brute"
-                },
-                "entity_count_per_player": 80,
-                "spawn_distance_min": 3,
-                "spawn_distance_max": 10,
-                "spawn_range_y": 5,
-                "spawn_try_rate": 1,
-                "max_entity_count": 60
+                "type": "ltminigames:kill"
               }
             ]
           },

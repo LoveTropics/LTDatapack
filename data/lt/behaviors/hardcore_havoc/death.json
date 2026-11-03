@@ -3,7 +3,27 @@
     "type": "ltminigames:immediate_respawn",
     "role": "participant",
     "respawn_as": "spectator",
-    "drop_inventory": true
+    "drop_inventory": true,
+    "respawn_in_place": true,
+    "respawn_action": [
+      "ltminigames:clear_effects",
+      "ltminigames:extinguish_player"
+    ]
+  },
+  {
+    "type": "ltminigames:on_death",
+    "killed_action": {
+      "target": "all_players",
+      "actions": [
+        {
+          "type": "ltminigames:send_message",
+          "message": {
+            "translate": "ltminigames.minigame.eliminated_template",
+            "color": "gray"
+          }
+        }
+      ]
+    }
   },
   {
     "type": "ltminigames:on_death",

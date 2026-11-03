@@ -27,7 +27,7 @@
   },
   {
     "type": "ltminigames:scheduled_actions",
-    "target": "participants",
+    "target": "all_players",
     "channel": "end",
     "actions": {
       "10_left": [
@@ -37,9 +37,28 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "10 minutes",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until The End closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "End Closing In 10 Minutes",
+            "text": "10 minutes",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "until The End closes.",
             "color": "red"
           },
           "stay": 50
@@ -52,9 +71,28 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "5 minutes",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until The End closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "End Closing In 5 Minutes",
+            "text": "5 minutes",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "until The End closes.",
             "color": "red"
           },
           "stay": 50
@@ -67,9 +105,28 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "1 minute",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until The End closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "End Closing In 1 Minute",
+            "text": "1 minute",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "until The End closes.",
             "color": "red"
           },
           "stay": 50
@@ -82,9 +139,28 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "30 seconds",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until The End closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "End Closing In 30 Seconds",
+            "text": "30 seconds",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "until The End closes.",
             "color": "red"
           },
           "stay": 50

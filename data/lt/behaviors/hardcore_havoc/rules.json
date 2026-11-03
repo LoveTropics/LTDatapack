@@ -23,7 +23,8 @@
     "rules": {
       "minecraft:command_blocks_work": true,
       "minecraft:locator_bar": false,
-      "minecraft:spawn_mobs": true,
+      "minecraft:spawn_mobs": false,
+      "minecraft:advance_time": false,
       "minecraft:natural_health_regeneration": false,
       "minecraft:show_advancement_messages": true,
       "command_block_output": false,

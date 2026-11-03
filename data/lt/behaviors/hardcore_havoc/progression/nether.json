@@ -14,18 +14,6 @@
     }
   },
   {
-    "type": "ltminigames:countdown_effects",
-    "channel": "nether",
-    "target": "29s_left",
-    "show_title": true,
-    "sound": "minecraft:block.end_portal_frame.fill",
-    "seconds": 29,
-    "pitch": {
-      "start": 1.25,
-      "end": 0.25
-    }
-  },
-  {
     "type": "ltminigames:scheduled_actions",
     "target": "participants",
     "channel": "nether",
@@ -37,9 +25,28 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "10 minutes",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until the Nether closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "Nether Closing In 10 Minutes",
+            "text": "10 minutes",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "until Nether closes.",
             "color": "red"
           },
           "stay": 50
@@ -52,10 +59,29 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "5 minutes",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until the Nether closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "Nether Closing In 5 Minutes",
+            "text": "5 minutes",
             "color": "red"
+          },
+          "subtitle": {
+            "text": "until the Nether closes.",
+            "color": "gray"
           },
           "stay": 50
         }
@@ -67,10 +93,29 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "1 minute",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until the Nether closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "Nether Closing In 1 Minute",
+            "text": "1 minute",
             "color": "red"
+          },
+          "subtitle": {
+            "text": "until the Nether closes.",
+            "color": "gray"
           },
           "stay": 50
         }
@@ -82,12 +127,43 @@
           "pitch": 0.2
         },
         {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "30 seconds",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " until the Nether closes.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "ltminigames:show_title",
           "title": {
-            "text": "Nether Closing In 30 Seconds",
+            "text": "30 seconds",
             "color": "red"
           },
+          "subtitle": {
+            "text": "until the Nether closes.",
+            "color": "gray"
+          },
           "stay": 50
+        },
+        {
+          "type": "ltminigames:countdown_effects",
+          "channel": "nether",
+          "target": "29s_left",
+          "show_title": true,
+          "sound": "minecraft:block.end_portal_frame.fill",
+          "seconds": 29,
+          "pitch": {
+            "start": 1.25,
+            "end": 0.25
+          }
         }
       ],
       "29s_left": [
