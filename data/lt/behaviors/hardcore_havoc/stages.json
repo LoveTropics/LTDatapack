@@ -86,126 +86,6 @@
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:day"
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": {
-              "type": "specific_team",
-              "team": "red"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:give_dimension_transport_item",
-                "target_dimension_type": "minecraft:the_nether",
-                "target_region": "nether_red",
-                "item": {
-                  "id": "minecraft:slime_ball",
-                  "components": {
-                    "ltextras:undroppable": {},
-                    "item_name": {
-                      "text": "Nether Teleport"
-                    },
-                    "minecraft:max_damage": 2,
-                    "minecraft:damage": 0,
-                    "minecraft:max_stack_size": 1,
-                    "minecraft:consumable": {
-                      "consume_seconds": 10,
-                      "sound": "block.portal.trigger"
-                    }
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": {
-              "type": "specific_team",
-              "team": "blue"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:give_dimension_transport_item",
-                "target_dimension_type": "minecraft:the_nether",
-                "target_region": "nether_blue",
-                "item": {
-                  "id": "minecraft:slime_ball",
-                  "components": {
-                    "ltextras:undroppable": {},
-                    "item_name": {
-                      "text": "Nether Teleport"
-                    },
-                    "minecraft:max_damage": 2,
-                    "minecraft:damage": 0,
-                    "minecraft:max_stack_size": 1,
-                    "minecraft:consumable": {
-                      "consume_seconds": 10,
-                      "sound": "block.portal.trigger"
-                    }
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": {
-              "type": "specific_team",
-              "team": "yellow"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:give_dimension_transport_item",
-                "target_dimension_type": "minecraft:the_nether",
-                "target_region": "nether_yellow",
-                "item": {
-                  "id": "minecraft:slime_ball",
-                  "components": {
-                    "ltextras:undroppable": {},
-                    "item_name": {
-                      "text": "Nether Teleport"
-                    },
-                    "minecraft:max_damage": 2,
-                    "minecraft:damage": 0,
-                    "minecraft:max_stack_size": 1,
-                    "minecraft:consumable": {
-                      "consume_seconds": 10,
-                      "sound": "block.portal.trigger"
-                    }
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": {
-              "type": "specific_team",
-              "team": "green"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:give_dimension_transport_item",
-                "target_dimension_type": "minecraft:the_nether",
-                "target_region": "nether_green",
-                "item": {
-                  "id": "minecraft:slime_ball",
-                  "components": {
-                    "ltextras:undroppable": {},
-                    "item_name": {
-                      "text": "Nether Teleport"
-                    },
-                    "minecraft:max_damage": 2,
-                    "minecraft:damage": 0,
-                    "minecraft:max_stack_size": 1,
-                    "minecraft:consumable": {
-                      "consume_seconds": 10,
-                      "sound": "block.portal.trigger"
-                    }
-                  }
-                }
-              }
-            ]
           }
         ],
         "end_actions": []
@@ -218,9 +98,38 @@
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:noon"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_nether",
+            "team": "red",
+            "region": "nether_red",
+            "text": "Nether Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_nether",
+            "team": "blue",
+            "region": "nether_blue",
+            "text": "Nether Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_nether",
+            "team": "yellow",
+            "region": "nether_yellow",
+            "text": "Nether Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_nether",
+            "team": "green",
+            "region": "nether_green",
+            "text": "Nether Teleport"
           }
         ],
-        "end_actions": []
+        "end_actions": [
+        ]
       },
       "overworld_post_nether": {
         "next_stage": "the_end",
@@ -234,6 +143,27 @@
           {
             "type": "ltminigames:set_difficulty_now",
             "difficulty": "normal"
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target": {
+              "type": "players_dimension",
+              "dimension_type": "minecraft:the_nether"
+            },
+            "actions": [
+              {
+                "type": "ltminigames:spawn_entities_around_players",
+                "entity": {
+                  "type": "minecraft:piglin_brute"
+                },
+                "entity_count_per_player": 40,
+                "spawn_distance_min": 3,
+                "spawn_distance_max": 10,
+                "spawn_range_y": 5,
+                "spawn_try_rate": 1,
+                "max_entity_count": 60
+              }
+            ]
           }
         ],
         "end_actions": []
@@ -246,6 +176,34 @@
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:night"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_end",
+            "team": "red",
+            "region": "end_red",
+            "text": "End Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_end",
+            "team": "blue",
+            "region": "end_blue",
+            "text": "End Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_end",
+            "team": "yellow",
+            "region": "end_yellow",
+            "text": "End Teleport"
+          },
+          {
+            "type": "lt:hardcore_havoc/transport_items",
+            "dimension": "minecraft:the_end",
+            "team": "green",
+            "region": "end_green",
+            "text": "End Teleport"
           }
         ],
         "end_actions": []

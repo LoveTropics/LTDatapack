@@ -1,0 +1,30 @@
+{
+  "type": "ltminigames:apply_to",
+  "target": {
+    "type": "specific_team",
+    "team": "$team"
+  },
+  "actions": [
+    {
+      "type": "ltminigames:give_dimension_transport_item",
+      "target_dimension_type": "$dimension",
+      "target_region": "$region",
+      "item": {
+        "id": "minecraft:slime_ball",
+        "components": {
+          "ltextras:undroppable": {},
+          "item_name": {
+            "text": "$text"
+          },
+          "minecraft:max_damage": 2,
+          "minecraft:damage": 0,
+          "minecraft:max_stack_size": 1,
+          "minecraft:consumable": {
+            "consume_seconds": 1,
+            "sound": "block.portal.trigger"
+          }
+        }
+      }
+    }
+  ]
+}
