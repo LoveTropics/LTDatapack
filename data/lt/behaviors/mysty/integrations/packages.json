@@ -18,8 +18,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 1
+            "type": "lt:mysty/distribute_hats",
+            "count": 2
           }
         }
       ]
@@ -56,8 +56,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 2
+            "type": "lt:mysty/distribute_hats",
+            "count": 4
           }
         }
       ]
@@ -110,8 +110,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 4
+            "type": "lt:mysty/distribute_hats",
+            "count": 8
           }
         }
       ]
@@ -138,8 +138,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 1
+            "type": "lt:mysty/distribute_hats",
+            "count": 2
           }
         }
       ]
@@ -176,8 +176,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 2
+            "type": "lt:mysty/distribute_hats",
+            "count": 4
           }
         }
       ]
@@ -230,8 +230,8 @@
         },
         {
           "actions": {
-            "type": "lt:mysty/give_hats",
-            "count": 4
+            "type": "lt:mysty/distribute_hats",
+            "count": 8
           }
         }
       ]

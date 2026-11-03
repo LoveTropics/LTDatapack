@@ -1,0 +1,12 @@
+{
+  "type": "ltminigames:repeat",
+  "actions": {
+    "type": "lt:mysty/give_hats",
+    "count": 1
+  },
+  "target": {
+    "type": "limit_entities",
+    "count": 1
+  },
+  "count": "$count"
+}
