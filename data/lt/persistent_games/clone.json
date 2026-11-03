@@ -1,0 +1,16 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:cloning_machine",
+      "collectable_spawn": "c_spawn",
+      "cloning_area": "c_area",
+      "output_area": "c_output",
+      "cloning_time": 200,
+      "cloning_cooldown": 100,
+      "template": {
+        "id": "peekaboo:disguise"
+      }
+    }
+  ]
+}
