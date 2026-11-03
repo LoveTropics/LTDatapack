@@ -48,8 +48,8 @@
           "data": {
             "NoBasePlate": true,
             "Pose": {
-              "LeftArm": [0,0,90],
-              "RightArm": [0,0,-90]
+              "LeftArm": [0,0,-90],
+              "RightArm": [0,0,90]
             }
           },
           "weight": 100
