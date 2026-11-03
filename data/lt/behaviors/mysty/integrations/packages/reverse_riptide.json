@@ -28,7 +28,7 @@
   ],
   "notification": {
     "icon": {
-      "effect": "minecraft:trident"
+      "item": "minecraft:trident"
     }
   }
 }

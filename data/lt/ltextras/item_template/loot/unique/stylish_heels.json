@@ -29,7 +29,9 @@
             "amount": 3.0,
             "operation": "add_value",
             "slot": "feet",
-            "display": "hidden"
+            "display": {
+              "type": "hidden"
+            }
         }
       ],
       "minecraft:tooltip_display": {
