@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "ltextras:bloodborne_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "item.ltextras.bloodborne_hat",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "bloodborne_hat",
+        "rarity": "purchased"
+      }
+    }
+  }
+}

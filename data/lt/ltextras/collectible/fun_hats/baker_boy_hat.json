@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "ltextras:baker_boy_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "item.ltextras.baker_boy_hat",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "baker_boy_hat",
+        "rarity": "purchased"
+      }
+    }
+  }
+}

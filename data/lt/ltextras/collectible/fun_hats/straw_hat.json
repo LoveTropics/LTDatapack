@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "ltextras:straw_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "item.ltextras.straw_hat",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "straw_hat",
+        "rarity": "purchased"
+      }
+    }
+  }
+}

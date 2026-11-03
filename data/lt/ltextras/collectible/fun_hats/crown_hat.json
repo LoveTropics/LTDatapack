@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "ltextras:crown_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "item.ltextras.crown_hat",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "crown_hat",
+        "rarity": "purchased"
+      }
+    }
+  }
+}

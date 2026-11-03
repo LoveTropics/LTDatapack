@@ -1,0 +1,18 @@
+{
+  "item": {
+    "id": "ltextras:chef_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "item.ltextras.chef_hat",
+          "color": "#BFEA00",
+          "italic": false
+        }
+      ],
+      "ltextras:collectible_display_info": {
+        "name": "chef_hat",
+        "rarity": "purchased"
+      }
+    }
+  }
+}
