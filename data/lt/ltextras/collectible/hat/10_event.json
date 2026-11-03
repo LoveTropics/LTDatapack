@@ -16,7 +16,8 @@
       },
       "minecraft:custom_name": {
         "translate": "lt.collectible.10_event_hat.name",
-        "color": "#5ABDA3"
+        "color": "#5ABDA3",
+        "italic": false
       }
     }
   }

@@ -22,7 +22,8 @@
       "minecraft:custom_name": {
         "translate": "lt.collectible.card.name",
         "with": ["2023"],
-        "color": "#5ABDA3"
+        "color": "#5ABDA3",
+        "italic": false
       }
     }
   }

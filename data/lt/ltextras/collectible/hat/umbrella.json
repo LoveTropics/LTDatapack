@@ -11,7 +11,8 @@
       },
       "minecraft:custom_name": {
         "translate": "lt.collectible.umbrella_hat.name",
-        "color": "#BFEA00"
+        "color": "#BFEA00",
+        "italic": false
       }
     }
   }
