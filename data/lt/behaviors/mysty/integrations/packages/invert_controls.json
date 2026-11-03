@@ -6,6 +6,7 @@
   "receive_actions": [
     {
       "type": "ltminigames:apply_for_time",
+      "mutex": "lt:invert_controls",
       "apply": {
         "target": "participants",
         "actions": {

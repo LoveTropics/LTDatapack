@@ -19,7 +19,7 @@
     ],
     "target": {
       "type": "limit_entities",
-      "count": 1
+      "count": 3
     }
   },
   "notification": {

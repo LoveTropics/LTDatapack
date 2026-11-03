@@ -1,0 +1,14 @@
+{
+  "type": "lt:integrations/packages/attribute",
+  "id": "more_friction",
+  "mutex": "lt:slipperiness",
+  "icon": "minecraft:ice",
+  "seconds": "$seconds",
+  "attribute": {
+    "type": "ltextras:friction",
+    "id": "ltminigames:more_friction",
+    "name": "more_friction_package",
+    "amount": 1.0,
+    "operation": "add_value"
+  }
+}

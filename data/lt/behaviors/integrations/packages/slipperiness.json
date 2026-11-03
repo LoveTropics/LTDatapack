@@ -9,7 +9,7 @@
     "type": "ltextras:friction",
     "id": "ltminigames:more_friction",
     "name": "more_friction_package",
-    "amount": 0.045,
+    "amount": 1.0,
     "operation": "add_value"
   }
 }

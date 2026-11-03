@@ -1,0 +1,34 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "mysty.reverse_riptide",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:reverse_riptide",
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:reverse_riptide"
+          }
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:reverse_riptide"
+        }
+      },
+      "seconds": "$seconds"
+    }
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:trident"
+    }
+  }
+}

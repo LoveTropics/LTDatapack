@@ -4,6 +4,29 @@
 
   ],
   "chaos_effects": [
-
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/blindness", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/invert_controls", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    }
   ]
 }

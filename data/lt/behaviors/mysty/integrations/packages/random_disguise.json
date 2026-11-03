@@ -1,0 +1,6 @@
+{
+  "type": "lt:integrations/packages/random_disguise",
+  "package_type": "sabotage_package",
+  "seconds": "$seconds",
+  "changes_size": false
+}

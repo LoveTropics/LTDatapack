@@ -1,9 +1,79 @@
 {
   "type": "lt:mysty/integrations/packages",
   "care_effects": [
-
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/slow_falling", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/big_leaps", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "count": 4 }
+        ]
+      },
+      "weight": 1
+    }
   ],
   "chaos_effects": [
-
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/blindness", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/levitation", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/effects/slowness", "seconds": 15, "amplifier": 1 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/invert_controls", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/swap_players" }
+        ]
+      },
+      "weight": 1
+    }
   ]
 }

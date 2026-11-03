@@ -4,6 +4,13 @@
 
   ],
   "chaos_effects": [
-
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/invert_controls", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    }
   ]
 }

@@ -1,14 +1,8 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "player_boom_package",
+  "id": "boom_package",
   "package_type": "care_package",
   "target": "player",
-  "name": {
-    "translate": "ltminigames.minigame.donation.boom_package"
-  },
-  "description": {
-    "translate": "ltminigames.minigame.donation.boom_package.description"
-  },
   "receive_actions": [
     {
       "type": "ltminigames:give_loot",
