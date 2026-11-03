@@ -24,7 +24,8 @@
             "minecraft:lightning_bolt",
             "tropicraft:wall_item",
             "minecraft:area_effect_cloud"
-          ]
+          ],
+          "changes_size": "$changes_size"
         }
       },
       "clear": {
