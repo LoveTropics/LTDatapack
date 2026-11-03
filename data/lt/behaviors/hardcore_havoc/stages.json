@@ -124,7 +124,7 @@
           },
           {
             "type": "ltminigames:apply_to",
-            "target,": "participant",
+            "target": "participant",
             "actions": [
               {
                 "type": "ltminigames:remove_item_from_player",
@@ -219,7 +219,7 @@
           },
           {
             "type": "ltminigames:apply_to",
-            "target,": "participant",
+            "target": "participant",
             "actions": [
               {
                 "type": "ltminigames:remove_item_from_player",
