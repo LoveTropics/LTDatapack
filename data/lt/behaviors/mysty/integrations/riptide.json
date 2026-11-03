@@ -1,7 +1,5 @@
 {
-  "type": "lt:mysty/integrations/packages",
-  "care_effects": [
-  ],
+  "type": "lt:mysty/integrations/chaos_packages",
   "chaos_effects": [
     {
       "data": {
@@ -22,6 +20,14 @@
     {
       "data": {
         "actions": [
+          { "type": "lt:mysty/integrations/packages/shuffle_movement", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
           { "type": "lt:mysty/integrations/packages/slipperiness", "seconds": 30 }
         ]
       },
@@ -31,6 +37,14 @@
       "data": {
         "actions": [
           { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/player_dummy", "seconds": 30 }
         ]
       },
       "weight": 1

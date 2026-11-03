@@ -1,0 +1,122 @@
+[
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mysty_chaos_1",
+    "package_type": "sabotage_package",
+    "target": "all_players",
+    "donation_amount": 10.0,
+    "receive_actions": {
+      "type": "ltminigames:sequence",
+      "sequence": [
+        {
+          "actions": {
+            "type": "ltminigames:retry",
+            "actions": {
+              "type": "ltminigames:randomize",
+              "options": "$chaos_effects"
+            },
+            "attempts": 20
+          }
+        },
+        {
+          "actions": {
+            "type": "lt:mysty/distribute_hats",
+            "count": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mysty_chaos_2",
+    "package_type": "sabotage_package",
+    "target": "all_players",
+    "donation_amount": 20.0,
+    "receive_actions": {
+      "type": "ltminigames:sequence",
+      "sequence": [
+        {
+          "actions": [
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            },
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            }
+          ]
+        },
+        {
+          "actions": {
+            "type": "lt:mysty/distribute_hats",
+            "count": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "ltminigames:donation_package",
+    "id": "mysty_chaos_4",
+    "package_type": "sabotage_package",
+    "target": "all_players",
+    "donation_amount": 35.0,
+    "receive_actions": {
+      "type": "ltminigames:sequence",
+      "sequence": [
+        {
+          "actions": [
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            },
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            },
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            },
+            {
+              "type": "ltminigames:retry",
+              "actions": {
+                "type": "ltminigames:randomize",
+                "options": "$chaos_effects"
+              },
+              "attempts": 20
+            }
+          ]
+        },
+        {
+          "actions": {
+            "type": "lt:mysty/distribute_hats",
+            "count": 8
+          }
+        }
+      ]
+    }
+  }
+]

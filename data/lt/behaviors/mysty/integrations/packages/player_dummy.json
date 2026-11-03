@@ -1,0 +1,10 @@
+{
+  "type": "lt:integrations/packages/disguise",
+  "id": "player_dummy_package",
+  "toast": "ltminigames.minigame.donation.player_dummy_package.toast",
+  "entity": {
+    "id": "dummyplayers:dummy_player"
+  },
+  "apply_donor_name": true,
+  "seconds": "$seconds"
+}

@@ -766,6 +766,8 @@
   "ltminigames.minigame.donation.mysty.speed.toast": "%sender% gave you a SPEED for 2 minutes!",
   "ltminigames.minigame.donation.mysty.invert_controls": "Invert Controls",
   "ltminigames.minigame.donation.mysty.invert_controls.toast": "%sender% has INVERTED MOUSE CONTROLS!",
+  "ltminigames.minigame.donation.mysty.shuffle_movement": "Shuffle Movement Keys",
+  "ltminigames.minigame.donation.mysty.shuffle_movement.toast": "%sender% has SHUFFLED MOVEMENT KEYS!",
   "ltminigames.minigame.donation.mysty.reverse_riptide": "Reverse Riptide",
   "ltminigames.minigame.donation.mysty.reverse_riptide.toast": "%sender% has REVERSED RIPTIDE!",
   "ltminigames.minigame.donation.mysty.boom_package": "Coconut Bombs",

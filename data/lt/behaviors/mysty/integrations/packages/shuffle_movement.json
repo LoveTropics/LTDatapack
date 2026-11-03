@@ -1,0 +1,35 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "mysty.shuffle_movement",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:shuffle_movement",
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:apply_client_state",
+          "state": {
+            "type": "ltminigames:remap_movement",
+            "keys": {"forward": "left", "backward": "forward", "left": "right", "right": "backward"}
+          }
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:remove_client_state",
+          "state": "ltminigames:remap_movement"
+        }
+      },
+      "seconds": "$seconds"
+    }
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:nausea"
+    }
+  }
+}
