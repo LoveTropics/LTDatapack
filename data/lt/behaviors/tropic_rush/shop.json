@@ -3,6 +3,27 @@
   "tropicoins_per_donated_amount": 10,
   "offers": [
     {
+      "icon": "minecraft:amethyst_shard",
+      "name": {"text": "Spying Shard"},
+      "description": {"text": "Peek at a player's inventory or watch them for a minute (90 second cooldown)"},
+      "cost": 2,
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:amethyst_shard",
+            "components": {
+              "ltminigames:selector": "spying",
+              "minecraft:item_name": {"text": "Spying Shard", "color": "light_purple"},
+              "minecraft:max_stack_size": 1,
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:use_cooldown": {"seconds": 90, "cooldown_group": "ltminigames:spying"}
+            }
+          }
+        ]
+      }
+    },
+    {
       "icon": "minecraft:iron_pickaxe",
       "name": {"text": "Iron Pickaxe"},
       "description": {"text": "Skip straight to mining iron"},
