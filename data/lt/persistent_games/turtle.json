@@ -28,7 +28,12 @@
         "left_race_track": {
           "text": "You left the race track!"
         }
-      }
+      },
+      "leave_track_spawn": "turtle_fail",
+      "commands_on_leave": [
+        "ride @s dismount",
+        "tp @s -936 143 -1753 0 0"
+      ]
     }
   ]
 }

@@ -19,21 +19,6 @@ scoreboard objectives add player.walk_one_cm minecraft.custom:minecraft.walk_one
 # Reload Counter
 scoreboard players add reloads main.stats 1
 
-# handle STT entity killing
-scoreboard objectives add game.stt.entity_track dummy
-
-# Setup CCFUCC stuff
-scoreboard objectives add club.disguiseCount dummy
-scoreboard objectives add club.global dummy
-scoreboard objectives add club.joinClock dummy
-scoreboard objectives add club.invCheck dummy
-scoreboard objectives add club.disguiseWearTrack dummy
-scoreboard objectives add club.dialogueTime dummy
-
-team add club.hideNames
-team modify club.hideNames friendlyFire false
-team modify club.hideNames nametagVisibility never
-
 #Stuff for donation effects
 scoreboard objectives add donation.effects dummy
 
@@ -55,9 +40,6 @@ team modify anticrabcollision collisionRule never
 # Party Room
 scoreboard objectives add party_room.items dummy
 function lt:donation_effects/party_room/disco_floor/on_second
-
-# Scavenger Hunt
-scoreboard objectives add world_game.scavenger_hunt.stats dummy
 
 # On Second
 schedule function lt:main/on_second 1s replace

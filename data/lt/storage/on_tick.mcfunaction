@@ -1,0 +1,3 @@
+# Club Stuff
+execute in tropicraft:tropics if entity @a[tag=club.first_time_join] run function lt:club/introduction/on_tick
+execute in tropicraft:tropics run function lt:club/on_tick
