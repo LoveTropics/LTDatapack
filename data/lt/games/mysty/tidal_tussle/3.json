@@ -30,6 +30,7 @@
     "lt:survive_the_tide/3/phases",
     "lt:survive_the_tide/mode/ffa",
     "lt:survive_the_tide/3/weather",
-    "lt:survive_the_tide/common"
+    "lt:survive_the_tide/common",
+    "lt:mysty/integrations/tidal_tussle"
   ]
 }

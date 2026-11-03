@@ -9,7 +9,6 @@
   "description": {
     "translate": "ltminigames.minigame.donation.swap.description"
   },
-  "donation_amount": "$amount",
   "receive_actions": [
     {
       "type": "ltminigames:countdown_action",

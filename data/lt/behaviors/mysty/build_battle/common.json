@@ -5,6 +5,7 @@
   },
   "lt:common/spectator",
   "lt:mysty/global",
+  "lt:mysty/integrations/build_battle",
   {
     "type": "ltminigames:position_players",
     "spectators": "build_plot"

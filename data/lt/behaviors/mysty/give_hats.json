@@ -1,0 +1,43 @@
+{
+  "type": "ltminigames:give_hats",
+  "hats": [
+    {
+      "data": {
+        "id": "ltextras:top_hat",
+        "width": 1.0,
+        "height": 1.0,
+        "bounciness": 1.0
+      },
+      "weight": 10
+    },
+    {
+      "data": {
+        "id": "ltextras:bronze_top_hat",
+        "width": 1.0,
+        "height": 1.0,
+        "bounciness": 1.0
+      },
+      "weight": 3
+    },
+    {
+      "data": {
+        "id": "ltextras:silver_top_hat",
+        "width": 1.0,
+        "height": 1.0,
+        "bounciness": 1.0
+      },
+      "weight": 2
+    },
+    {
+      "data": {
+        "id": "ltextras:gold_top_hat",
+        "width": 1.0,
+        "height": 1.0,
+        "bounciness": 1.0
+      },
+      "weight": 1
+    }
+  ],
+  "count": "$count",
+  "bottom": true
+}

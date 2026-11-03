@@ -3,7 +3,6 @@
   "id": "big_leaps",
   "toast": "ltminigames.minigame.donation.big_leaps.toast",
   "icon": "minecraft:rabbit_foot",
-  "donation_amount": "$amount",
   "seconds": "$seconds",
   "attribute": {
     "type": "minecraft:gravity",

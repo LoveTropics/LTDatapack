@@ -3,7 +3,6 @@
   "id": "player_tornado_baby",
   "package_type": "care_package",
   "target": "player",
-  "donation_amount": "$amount",
   "receive_actions": [
     {
       "type": "weather2:transform_player_tornado",

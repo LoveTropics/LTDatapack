@@ -3,7 +3,6 @@
   "id": "meteor_storm_package",
   "package_type": "sabotage_package",
   "target": "all_players",
-  "donation_amount": "$amount",
   "receive_actions": [
     {
       "type": "ltminigames:show_title",

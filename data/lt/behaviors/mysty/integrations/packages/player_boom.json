@@ -9,9 +9,7 @@
   "description": {
     "translate": "ltminigames.minigame.donation.boom_package.description"
   },
-  "donation_amount": "$amount",
   "receive_actions": [
-    "ltminigames:give_player_head_package",
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/boom_package"

@@ -1,9 +1,8 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "wind_charge_package",
+  "id": "mysty.wind_charge",
   "package_type": "care_package",
   "target": "all_players",
-  "donation_amount": "$amount",
   "receive_actions": [
     {
       "type": "ltminigames:add_equipment",

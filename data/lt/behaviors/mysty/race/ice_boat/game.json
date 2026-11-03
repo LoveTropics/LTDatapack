@@ -13,6 +13,7 @@
     "join_late_with_role": "spectator"
   },
   "lt:mysty/global",
+  "lt:mysty/integrations/ice_boat",
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",

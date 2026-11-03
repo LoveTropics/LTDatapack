@@ -10,7 +10,7 @@
     "type": "ltminigames:last_remaining_win_trigger",
     "holder": "player"
   },
-  "lt:mysty/integrations/common",
+  "lt:mysty/integrations/platforms",
   {
     "type": "lt:block_party/simple",
     "floor": "floor",

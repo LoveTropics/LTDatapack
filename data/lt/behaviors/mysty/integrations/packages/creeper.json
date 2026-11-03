@@ -1,0 +1,30 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "chosen_creeper_package",
+  "package_type": "sabotage_package",
+  "target": "player",
+  "receive_actions": {
+    "actions": [
+      {
+        "type": "ltminigames:spawn_entity_at_player",
+        "entity": {
+          "type": "minecraft:creeper",
+          "tag": {
+            "ExplosionRadius": 5.0,
+            "Fuse": 10
+          }
+        },
+        "distance": 3.0
+      }
+    ],
+    "target": {
+      "type": "limit_entities",
+      "count": 1
+    }
+  },
+  "notification": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    }
+  }
+}

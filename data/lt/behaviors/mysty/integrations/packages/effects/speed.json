@@ -1,11 +1,9 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "speed_package",
-  "package_type": "sabotage_package",
+  "id": "mysty.speed",
+  "package_type": "care_package",
   "target": "player",
-  "donation_amount": "$amount",
   "receive_actions": [
-    "ltminigames:give_player_head_package",
     {
       "type": "ltminigames:give_effect",
       "effects": [

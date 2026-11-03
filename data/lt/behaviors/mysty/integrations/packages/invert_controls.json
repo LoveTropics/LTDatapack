@@ -1,11 +1,9 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "invert_controls_package",
+  "id": "mysty.invert_controls",
   "package_type": "sabotage_package",
   "target": "all_players",
-  "donation_amount": "$amount",
   "receive_actions": [
-    "ltminigames:give_player_head_package",
     {
       "type": "ltminigames:apply_for_time",
       "apply": {

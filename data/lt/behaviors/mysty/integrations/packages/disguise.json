@@ -3,7 +3,6 @@
   "id": "$id",
   "package_type": "sabotage_package",
   "target": "all_players",
-  "donation_amount": "$donation_amount",
   "receive_actions": [
     {
       "type": "ltminigames:apply_for_time",

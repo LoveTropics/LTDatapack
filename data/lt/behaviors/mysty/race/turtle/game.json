@@ -11,7 +11,7 @@
     }
   },
   "lt:mysty/global",
-  "lt:mysty/integrations/common",
+  "lt:mysty/integrations/turtle",
   {
     "type": "ltminigames:hide_players",
     "game_modes_to_hide_by_role": {

@@ -3,9 +3,7 @@
   "id": "boom_package",
   "package_type": "care_package",
   "target": "all_players",
-  "donation_amount": "$amount",
   "receive_actions": [
-    "ltminigames:give_player_head_package",
     {
       "type": "ltminigames:give_loot",
       "loot_table": "lt:packages/boom_package"

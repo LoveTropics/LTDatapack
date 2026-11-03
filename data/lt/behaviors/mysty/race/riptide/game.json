@@ -7,7 +7,7 @@
   },
   "lt:common/spectator",
   "lt:mysty/global",
-  "lt:mysty/integrations/common",
+  "lt:mysty/integrations/riptide",
   "lt:mysty/race/riptide/ruleset",
   {
     "type": "ltminigames:position_players",

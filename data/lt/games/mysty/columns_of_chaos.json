@@ -21,6 +21,7 @@
       "type": "lt:columns_of_chaos/common",
       "statistic_holder": "player"
     },
+    "lt:mysty/integrations/columns_of_chaos",
     {
       "type": "lt:columns_of_chaos/phases",
       "total_seconds": 600
