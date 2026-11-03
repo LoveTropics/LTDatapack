@@ -37,10 +37,6 @@ scoreboard objectives add collectible.rocket_boots.time dummy
 team add anticrabcollision
 team modify anticrabcollision collisionRule never
 
-# Party Room
-scoreboard objectives add party_room.items dummy
-function lt:donation_effects/party_room/disco_floor/on_second
-
 # On Second
 schedule function lt:main/on_second 1s replace
 

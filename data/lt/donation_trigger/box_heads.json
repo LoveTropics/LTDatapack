@@ -9,7 +9,7 @@
     "action": {
       "target": {
         "type": "tag",
-        "tag": "test"
+        "tag": "box_on_donation"
       },
       "type": "add_hat",
       "width": {
@@ -20,7 +20,7 @@
         "min": 0.5,
         "max": 3
       },
-      "scale_per_dollar": 0.1,
+      "scale_per_dollar": 0.01,
       "max_hats": 50,
       "item": "ltextras:word_box"
     }
