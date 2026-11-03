@@ -53,6 +53,7 @@
     {
       "type": "lt:columns_of_chaos/common",
       "statistic_holder": "team"
-    }
+    },
+    "lt:columns_of_chaos/integrations"
   ]
 }

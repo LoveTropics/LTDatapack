@@ -52,6 +52,7 @@
     "lt:survive_the_tide/3/phases",
     "lt:survive_the_tide/mode/ffa",
     "lt:survive_the_tide/weather/snowpocalypse",
-    "lt:survive_the_tide/common"
+    "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations"
   ]
 }

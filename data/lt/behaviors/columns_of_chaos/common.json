@@ -54,6 +54,5 @@
       }
     },
     "target": "all_players"
-  },
-  "lt:integrations/packages/meteor_storm"
+  }
 ]

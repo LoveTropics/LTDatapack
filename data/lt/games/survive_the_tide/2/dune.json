@@ -42,6 +42,7 @@
     "lt:survive_the_tide/2/phases",
     "lt:survive_the_tide/mode/ffa",
     "lt:survive_the_tide/weather/dune",
-    "lt:survive_the_tide/common"
+    "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations"
   ]
 }

@@ -49,6 +49,7 @@
     "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/1/weather",
     "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations",
 
     {
       "type": "ltgames_voice:voice_chat",

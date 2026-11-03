@@ -83,6 +83,7 @@
       "friendly_fire": true
     },
     "lt:survive_the_tide/3/weather",
-    "lt:survive_the_tide/common"
+    "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations"
   ]
 }
