@@ -4,7 +4,7 @@
     "id": "mysty_care_1",
     "package_type": "care_package",
     "target": "team",
-    "donation_amount": 10.0,
+    "donation_amount": 15.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
@@ -30,7 +30,7 @@
     "id": "mysty_care_2",
     "package_type": "care_package",
     "target": "team",
-    "donation_amount": 20.0,
+    "donation_amount": 30.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
@@ -68,7 +68,7 @@
     "id": "mysty_care_4",
     "package_type": "care_package",
     "target": "team",
-    "donation_amount": 35.0,
+    "donation_amount": 50.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
