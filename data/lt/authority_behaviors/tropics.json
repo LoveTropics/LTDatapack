@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "attack": "deny",
+    "break": "deny",
+    "craft": "deny",
+    "damage": "deny",
+    "explosion": "deny",
+    "fall_damage": "deny",
+    "hunger": "deny",
+    "interact": "allow",
+    "interact_blocks": "allow",
+    "interact_entities": "allow",
+    "modify": "deny",
+    "modify_armor_stands": "deny",
+    "modify_bookshelves": "deny",
+    "modify_item_frames": "deny",
+    "modify_lecterns": "deny",
+    "modify_signs": "deny",
+    "player_damage": "deny",
+    "portals": "deny",
+    "pvp": "deny"
+  }
+}
