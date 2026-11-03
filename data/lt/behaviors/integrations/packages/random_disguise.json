@@ -38,7 +38,7 @@
           "components": {
             "peekaboo:disguise": {
               "entity": {
-                "id": "minecraft:tapir"
+                "id": "tropicraft:tapir"
               }
             }
           }

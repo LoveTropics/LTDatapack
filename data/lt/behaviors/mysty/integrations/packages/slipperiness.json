@@ -1,6 +1,7 @@
 {
   "type": "lt:integrations/packages/attribute",
   "id": "more_friction",
+  "toast": "ltminigames.minigame.donation.more_friction.toast",
   "mutex": "lt:slipperiness",
   "icon": "minecraft:ice",
   "seconds": "$seconds",
