@@ -3,9 +3,11 @@
   "behaviors": [
     {
       "type": "ltminigames:cloning_machine",
-      "collectable_spawn": "c_spawn",
-      "cloning_area": "c_area",
-      "output_area": "c_output",
+      "collectable_spawn": "clone_spawn",
+      "cloning_area": "clone_area",
+      "output_area": "clone_output",
+      "block_area": "clone_blocks",
+      "blocks": "ltextras:edgeless_lime_stained_glass",
       "cloning_time": 200,
       "cloning_cooldown": 100,
       "template": {
