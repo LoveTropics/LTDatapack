@@ -34,7 +34,7 @@
           "order": "max",
           "length": 5,
           "header": {
-            "translate": "ltminigames.minigame.mysty.final_results.individual"
+            "translate": "ltminigames.minigame.mysty.final_results.players"
           }
         }
       ]
