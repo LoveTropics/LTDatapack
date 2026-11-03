@@ -12,6 +12,7 @@
         "color": "red"
       },
       "countdown": 5,
+      "max_queue_size": 1,
       "actions": {
         "type": "ltminigames:spawn_surprise_wave",
         "wave_size": 3
