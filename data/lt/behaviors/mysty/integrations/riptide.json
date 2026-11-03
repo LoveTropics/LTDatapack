@@ -28,14 +28,6 @@
     {
       "data": {
         "actions": [
-          { "type": "lt:mysty/integrations/packages/slipperiness", "seconds": 30 }
-        ]
-      },
-      "weight": 1
-    },
-    {
-      "data": {
-        "actions": [
           { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
         ]
       },
