@@ -136,7 +136,8 @@
         "tornado": {
           "entity_spawn_settings": {
             "entity": "tropicraft:hammerhead"
-          }
+          },
+          "length_in_ticks": 400
         },
         "aim_at_target": true,
         "x_offset": 0,
