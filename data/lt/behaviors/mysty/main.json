@@ -166,7 +166,7 @@
     "hat_spawn": "hat_spawn",
     "hats": [
       {
-        "data": {"id": "ltextras:ltextras:backwards_cap"},
+        "data": {"id": "ltextras:backwards_cap"},
         "weight": 5
       },
       {
