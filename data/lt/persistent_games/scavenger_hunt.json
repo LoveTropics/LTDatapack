@@ -1,0 +1,43 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:scavenger_hunt",
+      "on_unlock": {
+        "sound": "entity.arrow.hit_player",
+        "commands": [
+          "say hi"
+        ],
+        "messages": [
+          "Nice!"
+        ]
+      },
+      "on_already_unlocked": {
+        "sound": "entity.villager.no",
+        "messages": [
+          "You have already found this!"
+        ]
+      },
+      "on_missing_previous": {
+      },
+      "stages": [
+        {
+          "button_region": "scavenger_1",
+          "on_unlock": {
+            "messages": ["Woohoo"]
+          }
+        },
+        {
+          "button_region": "scavenger_2"
+        },
+        {
+          "button_region": "scavenger_3",
+          "on_missing_previous": {
+            "set_stage_index": 0,
+            "messages": ["LOL NO"]
+          }
+        }
+      ]
+    }
+  ]
+}
