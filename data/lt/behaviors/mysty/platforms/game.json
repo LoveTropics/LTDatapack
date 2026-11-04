@@ -101,5 +101,6 @@
     "statistic": "points",
     "amount": 5
   },
-  "ltminigames:disable_tnt_block_destruction"
+  "ltminigames:disable_tnt_block_destruction",
+  "ltminigames:cancel_player_damage"
 ]
