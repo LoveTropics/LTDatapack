@@ -1,4 +1,7 @@
 {
-  "enter_commands": ["function lt:world_games/turtle/summon_turtle"],
+  "enter_commands": [
+    "function lt:world_games/turtle/summon_turtle",
+    "effect give @s ltextras:fish_eye infinite 255 true"
+  ],
   "exit_commands": []
 }
