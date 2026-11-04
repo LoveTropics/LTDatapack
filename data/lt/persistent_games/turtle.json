@@ -5,7 +5,7 @@
       "type": "ltminigames:race_track",
       "id": "turtle",
       "checkpoint_count": 19,
-      "required_checkpoint_count": 1,
+      "required_checkpoint_count": 15,
       "predicate": {
         "condition": "minecraft:entity_properties",
         "entity": "this",
