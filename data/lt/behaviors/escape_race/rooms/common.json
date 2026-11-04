@@ -10,10 +10,16 @@
   "lt:escape_race/global",
   {
     "type": "ltminigames:immediate_respawn",
-    "death_message": {
-      "text": "☠ %message%",
-      "color": "gray"
-    },
+    "death_message": [
+      {
+        "left_highlight": "#a08e0021",
+        "right_highlight": "#60191829"
+      },
+      {
+        "text": "☠ %message%",
+        "color": "gray"
+      }
+    ],
     "drop_inventory": "$drop_inventory"
   }
 ]
