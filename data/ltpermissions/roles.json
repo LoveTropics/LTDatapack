@@ -17,6 +17,10 @@
     "includes": ["administration"],
     "overrides": {
       "name_decoration": {
+        "prefix": {
+          "text": "[ALT] ",
+          "color": "red"
+        },
         "style": "#31a2ac"
       }
     }
@@ -36,7 +40,6 @@
   "live": {
     "includes": ["host", "voice"],
     "overrides": {
-      "chat/no_chat": true,
       "name_decoration": {
         "prefix": {
           "text": "▶ ",
@@ -115,7 +118,7 @@
     }
   },
   "mojangsta": {
-    "includes": ["trusted"],
+    "includes": ["pro_builder"],
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
@@ -127,15 +130,29 @@
     }
   },
   "modder": {
-    "includes": ["privileged"],
+    "includes": ["pro_builder", "game_controller"],
     "overrides": {
+      "commands": {
+        "shield": "allow"
+      },
       "name_decoration": {
         "style": "#DEB22F"
       }
     }
   },
-  "pro_builder": {},
+  "pro_builder": {
+    "includes": ["builder"],
+    "overrides": {
+      "commands": {
+        "clear": "allow",
+        "effect": "allow",
+        "map join .*": "allow",
+        "map leave .*": "allow"
+      }
+    }
+  },
   "builder": {
+    "includes": ["trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
@@ -148,13 +165,20 @@
       "chat/moderator": true,
       "name_decoration": {
         "style": "#3498db"
-      },
-      "commands": {
-        "mc": "allow"
       }
     }
   },
-  "worldedit": {},
+  "worldedit": {
+    "overrides": {
+      "op_level": 2,
+      "worldedit_allowed": true,
+      "commands": {
+        "/.*": "allow",
+        "mask .*": "allow",
+        "/regen .*": "deny"
+      }
+    }
+  },
   "game_controller": {
     "overrides": {
       "commands": {
@@ -193,7 +217,12 @@
     "overrides": {
       "commands": {
         "kick": "allow",
-        "warn": "allow"
+        "ban": "allow",
+        "ban-ip": "allow",
+        "pardon": "allow",
+        "pardon-ip": "allow",
+        "banlist": "allow",
+        "unban": "allow"
       }
     }
   },
@@ -209,9 +238,7 @@
     "overrides": {"shield_bypass": true}
   },
   "event_overlord": {},
-  "donator": {
-    "includes": ["whitelisted"]
-  },
+  "donator": {},
   "whitelisted": {
     "overrides": {
       "commands": {
@@ -245,13 +272,14 @@
         "game": "deny",
         "config": "deny",
         "admin": "deny",
-        "((?!title|tellraw|give).)*": "deny"
+        "((?!title|tellraw|give).)*": "deny",
+        "voicechat": "deny"
       },
       "command_feedback": false,
       "join_access": {
         "allows_joining": false,
         "not_whitelisted_message": {
-          "translate": "lt.whitelist.not_whitelisted"
+          "text": "You are not whitelisted on the server. Please reach out in discord if should be whitelisted."
         }
       },
       "permission_nodes": {
