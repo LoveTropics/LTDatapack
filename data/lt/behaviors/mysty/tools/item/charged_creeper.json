@@ -11,7 +11,7 @@
           "Fuse": 30,
           "powered": true
         },
-        "ltextras:infinite": {}
+        "ltextras:undroppable": {}
       }
     }
   ],

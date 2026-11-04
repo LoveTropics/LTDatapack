@@ -1,11 +1,5 @@
 [
-  "lt:mysty/tools/give/infinite_coconut_bomb",
-  "lt:mysty/tools/give/charged_creeper",
-  "lt:mysty/tools/give/rocket_crossbow",
-  "lt:mysty/tools/give/swap_players",
-  "lt:mysty/tools/give/give_coconut_bombs",
-  "lt:mysty/tools/give/turn_into_tornado",
-  "lt:mysty/tools/give/sharknado",
-  "lt:mysty/tools/give/meteor_strike",
-  "lt:mysty/tools/give/give_hat"
+  "lt:mysty/tools/item/infinite_coconut_bomb",
+  "lt:mysty/tools/item/charged_creeper",
+  "lt:mysty/tools/item/rocket_crossbow"
 ]

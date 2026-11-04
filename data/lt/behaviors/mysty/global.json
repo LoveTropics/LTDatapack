@@ -44,7 +44,7 @@
       }
     }
   },
-  "lt:mysty/tools/bindings",
+  "lt:mysty/tools/shop",
   {
     "type": "ltminigames:add_overlords",
     "roles": ["event_overlord"],

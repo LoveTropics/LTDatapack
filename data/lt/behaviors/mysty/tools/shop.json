@@ -1,0 +1,154 @@
+{
+  "type": "ltminigames:shop",
+  "offers": [
+    {
+      "icon": {
+        "id": "weather2:weather_item"
+      },
+      "name": "Turn Player into Tornado",
+      "description": [
+        {"text": "30 seconds", "color": "blue"}
+      ],
+      "target": "pick",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "weather2:transform_player_tornado",
+          "time_ticks": 300,
+          "baby": true
+        },
+        {
+          "type": "ltminigames:show_title",
+          "subtitle": {
+            "translate": "ltminigames.minigame.donation.player_tornado_baby.title",
+            "color": "red"
+          },
+          "stay": 60
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "minecraft:fire_charge"
+      },
+      "name": "Meteor Strike on Player",
+      "target": "pick",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:shoot_projectiles_at_player",
+          "entity_count_per_player": 5,
+          "spawn_distance_max": 25,
+          "target_randomness": 5,
+          "spawn_height": 20,
+          "spawn_rate_base": 10,
+          "spawn_rate_random": 20,
+          "explosion_strength": 2
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "tropicraft:exploding_coconut"
+      },
+      "name": "Give everyone Coconut Bombs",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "bonus",
+      "actions": {
+        "actions": [
+          {
+            "type": "ltminigames:give_loot",
+            "loot_table": "lt:packages/boom_package"
+          }
+        ],
+        "target": "participants"
+      }
+    },
+    {
+      "icon": {
+        "id": "ltextras:top_hat"
+      },
+      "name": "Give Hat to Player",
+      "target": "pick",
+      "usable_by": "overlords",
+      "flavor": "bonus",
+      "actions": {
+        "actions": [
+          {
+            "type": "lt:mysty/give_hats",
+            "count": 1
+          }
+        ],
+        "target": "participants"
+      }
+    },
+    {
+      "icon": {
+        "id": "tropicraft:hammerhead_spawn_egg"
+      },
+      "name": "Spawn Sharknado",
+      "description": [
+        "Spawns at your position"
+      ],
+      "target": "self",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:apply_to",
+          "actions": [
+            {
+              "type": "ltminigames:show_title",
+              "subtitle": {
+                "translate": "ltminigames.minigame.donation.sharknado.title",
+                "color": "red"
+              },
+              "stay": 60
+            }
+          ],
+          "target": "all_players"
+        },
+        {
+          "type": "weather2:spawn_tornado",
+          "tornado": {
+            "entity_spawn_settings": {
+              "entity": "tropicraft:hammerhead"
+            },
+            "length_in_ticks": 400
+          },
+          "aim_at_target": true,
+          "x_offset": 0,
+          "z_offset": 0,
+          "mode": "all_target"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "id": "dummyplayers:dummy_player"
+      },
+      "name": "Swap Players",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:countdown_action",
+          "warning": {
+            "translate": "ltminigames.minigame.donation.swap.warning",
+            "color": "red"
+          },
+          "countdown": 5,
+          "max_queue_size": 1,
+          "actions": {
+            "type": "ltminigames:swap_players"
+          },
+          "target": "participants"
+        }
+      ]
+    }
+  ]
+}
