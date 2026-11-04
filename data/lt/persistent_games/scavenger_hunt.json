@@ -4,34 +4,61 @@
     {
       "type": "ltminigames:scavenger_hunt",
       "on_unlock": {
-        "sound": "entity.arrow.hit_player",
-        "commands": [
-          "say hi"
-        ],
-        "messages": [
-          "Nice!"
-        ]
+        "sound": "entity.villager.no"
       },
-      "on_already_unlocked": {
-        "sound": "entity.villager.no",
-        "messages": [
-          "You have already found this!"
-        ]
-      },
+      "on_already_unlocked": {},
       "on_missing_previous": {
+        "sound": "ltminigames:incorrect",
+        "messages": [
+          {
+            "translate": "lt.scavenger_hunt.order"
+          }
+        ]
       },
       "stages": [
         {
           "button_region": "scavenger_1",
           "on_unlock": {
-            "messages": ["Woohoo"]
+            "commands": [
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/01\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"1\"}],title:\"Clue 1\"}]\n"
+            ]
           }
         },
         {
-          "button_region": "scavenger_2"
+          "button_region": "scavenger_2",
+          "on_unlock": {
+            "commands": [
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/02\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"1\"}],title:\"Clue 2\"}]\n"
+            ]
+          }
         },
         {
-          "button_region": "scavenger_3"
+          "button_region": "scavenger_3",
+          "on_unlock": {
+            "commands": [
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/03\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"1\"}],title:\"Clue 3\"}]\n"
+            ]
+          }
+        }, {
+          "button_region": "scavenger_4",
+          "on_unlock": {
+            "commands": [
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/04\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"1\"}],title:\"Clue 4\"}]\n"
+            ]
+          }
+        }, {
+          "button_region": "scavenger_5",
+          "on_unlock": {
+            "commands": [
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/05\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"1\"}],title:\"Clue 5\"}]\n"
+            ]
+          }
+        }, {
+          "button_region": "scavenger_6",
+          "on_unlock": {
+            "commands": [
+            ]
+          }
         }
       ]
     }
