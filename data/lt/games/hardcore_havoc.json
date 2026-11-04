@@ -33,6 +33,7 @@
       }
     ]
   },
+  "donation_type": "participant_contributions",
   "map": {
     "type": "ltminigames:load_map_with_multiple_dimensions",
     "dimensions": [
