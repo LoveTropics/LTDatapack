@@ -31,11 +31,7 @@
           "button_region": "scavenger_2"
         },
         {
-          "button_region": "scavenger_3",
-          "on_missing_previous": {
-            "set_stage_index": 0,
-            "messages": ["LOL NO"]
-          }
+          "button_region": "scavenger_3"
         }
       ]
     }
