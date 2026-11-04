@@ -33,18 +33,9 @@
           {
             "data": {
               "type": "lt:turtle_race/donations/packages/speed",
-              "amount": 1.2,
-              "duration": 20,
-              "id": "speed_1"
-            },
-            "weight": 10
-          },
-          {
-            "data": {
-              "type": "lt:turtle_race/donations/packages/speed",
               "amount": 1.5,
               "duration": 20,
-              "id": "speed_2"
+              "id": "speed"
             },
             "weight": 10
           },
@@ -53,34 +44,7 @@
               "type": "lt:turtle_race/donations/packages/speed",
               "amount": 1.7,
               "duration": 20,
-              "id": "speed_3"
-            },
-            "weight": 10
-          },
-          {
-            "data": {
-              "type": "lt:turtle_race/donations/packages/speed",
-              "amount": 1.7,
-              "duration": 20,
-              "id": "slow_1"
-            },
-            "weight": 10
-          },
-          {
-            "data": {
-              "type": "lt:turtle_race/donations/packages/speed",
-              "amount": 1.7,
-              "duration": 20,
-              "id": "slow_2"
-            },
-            "weight": 10
-          },
-          {
-            "data": {
-              "type": "lt:turtle_race/donations/packages/speed",
-              "amount": 1.7,
-              "duration": 20,
-              "id": "slow_3"
+              "id": "slow"
             },
             "weight": 10
           }

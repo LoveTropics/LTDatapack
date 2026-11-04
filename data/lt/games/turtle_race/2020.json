@@ -49,6 +49,7 @@
       "type": "lt:turtle_race/standard",
       "track_point_count": 90,
       "lap_count": 1
-    }
+    },
+    "lt:turtle_race/donations/donations"
   ]
 }
