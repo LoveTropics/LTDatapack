@@ -81,5 +81,12 @@
   {
     "type": "ltminigames:hats"
   },
-  "ltminigames:hat_pickup"
+  "ltminigames:hat_pickup",
+  "ltminigames:sync_teams",
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:glow_team_members"
+    }
+  }
 ]
