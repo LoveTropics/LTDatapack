@@ -53,6 +53,7 @@
       "type": "ltminigames:teams",
       "player_collision": false
     },
-    "lt:de_a_coudre/common"
+    "lt:de_a_coudre/common",
+    "lt:de_a_coudre/equip_teams"
   ]
 }

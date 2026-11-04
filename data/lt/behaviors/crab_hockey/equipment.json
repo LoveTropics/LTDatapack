@@ -43,14 +43,14 @@
           "red": {
             "id": "minecraft:red_wool",
             "components": {
-              "item_name": "\"Red Team\"",
+              "item_name": "Red Team",
               "ltextras:undroppable": {}
             }
           },
           "blue": {
             "id": "minecraft:blue_wool",
             "components": {
-              "item_name": "\"Blue Team\"",
+              "item_name": "Blue Team",
               "ltextras:undroppable": {}
             }
           }
