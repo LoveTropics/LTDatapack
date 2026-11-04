@@ -13,6 +13,7 @@
         "id": "minecraft:slime_ball",
         "components": {
           "ltextras:undroppable": {},
+          "minecraft:item_model": "$item_model",
           "item_name": {
             "text": "$text"
           },

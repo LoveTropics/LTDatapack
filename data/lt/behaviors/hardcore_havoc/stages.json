@@ -80,6 +80,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_nether",
+            "item_model": "lt:edible_nether_portal",
             "team": "red",
             "region": "nether_red",
             "text": "Nether Teleport"
@@ -87,6 +88,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_nether",
+            "item_model": "lt:edible_nether_portal",
             "team": "blue",
             "region": "nether_blue",
             "text": "Nether Teleport"
@@ -94,6 +96,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_nether",
+            "item_model": "lt:edible_nether_portal",
             "team": "yellow",
             "region": "nether_yellow",
             "text": "Nether Teleport"
@@ -101,6 +104,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_nether",
+            "item_model": "lt:edible_nether_portal",
             "team": "green",
             "region": "nether_green",
             "text": "Nether Teleport"
@@ -166,6 +170,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_end",
+            "item_model": "lt:edible_end_portal",
             "team": "red",
             "region": "end_red",
             "text": "End Teleport"
@@ -173,6 +178,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_end",
+            "item_model": "lt:edible_end_portal",
             "team": "blue",
             "region": "end_blue",
             "text": "End Teleport"
@@ -180,6 +186,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_end",
+            "item_model": "lt:edible_end_portal",
             "team": "yellow",
             "region": "end_yellow",
             "text": "End Teleport"
@@ -187,6 +194,7 @@
           {
             "type": "lt:hardcore_havoc/transport_items",
             "dimension": "minecraft:the_end",
+            "item_model": "lt:edible_end_portal",
             "team": "green",
             "region": "end_green",
             "text": "End Teleport"
