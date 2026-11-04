@@ -8,22 +8,13 @@
     "respawn_action": [
       "ltminigames:clear_effects",
       "ltminigames:extinguish_player"
+    ],
+    "death_message": [
+      {
+        "translate": "ltminigames.minigame.eliminated_template",
+        "color": "gray"
+      }
     ]
-  },
-  {
-    "type": "ltminigames:on_death",
-    "killed_action": {
-      "target": "all_players",
-      "actions": [
-        {
-          "type": "ltminigames:send_message",
-          "message": {
-            "translate": "ltminigames.minigame.eliminated_template",
-            "color": "gray"
-          }
-        }
-      ]
-    }
   },
   {
     "type": "ltminigames:on_death",
