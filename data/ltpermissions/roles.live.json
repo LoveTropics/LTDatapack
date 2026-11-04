@@ -2,6 +2,8 @@
   "organiser": {
     "includes": ["administration"],
     "overrides": {
+      "chat/moderator": true,
+      "chat/organiser": true,
       "name_decoration": {
         "style": "#2ecc71"
       },
@@ -34,6 +36,7 @@
   "live": {
     "includes": ["host", "voice"],
     "overrides": {
+      "chat/no_chat": true,
       "name_decoration": {
         "prefix": {
           "text": "▶ ",
@@ -142,6 +145,7 @@
   "moderator": {
     "includes": ["privileged"],
     "overrides": {
+      "chat/moderator": true,
       "name_decoration": {
         "style": "#3498db"
       }
@@ -186,12 +190,7 @@
     "overrides": {
       "commands": {
         "kick": "allow",
-        "ban": "allow",
-        "ban-ip": "allow",
-        "pardon": "allow",
-        "pardon-ip": "allow",
-        "banlist": "allow",
-        "unban": "allow"
+        "warn": "allow"
       }
     }
   },

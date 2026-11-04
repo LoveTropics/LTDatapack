@@ -24,7 +24,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "can_place_on": {}
+                "minecraft:can_place_on": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:can_place_on"
+                  ]
+                }
               }
             }
           ]
