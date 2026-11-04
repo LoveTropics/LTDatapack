@@ -82,6 +82,14 @@
         ]
       },
       "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:mysty/integrations/packages/player_dvd" }
+        ]
+      },
+      "weight": 1
     }
   ]
 }

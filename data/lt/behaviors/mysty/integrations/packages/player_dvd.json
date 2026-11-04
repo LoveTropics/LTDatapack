@@ -1,0 +1,19 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "player_dvd",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "receive_actions": [
+    {
+      "type": "ltminigames:add_dvd_face",
+      "apply_donor_name": true,
+      "length_in_ticks": 600,
+      "count": 3
+    }
+  ],
+  "notification": {
+    "icon": {
+      "effect": "minecraft:player_head"
+    }
+  }
+}
