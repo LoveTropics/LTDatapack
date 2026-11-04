@@ -1,0 +1,40 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "ltextras:rocket_crossbow",
+      "components": {
+        "minecraft:item_model": "minecraft:crossbow",
+        "!minecraft:use_cooldown": {},
+        "minecraft:charged_projectiles": [
+          {
+            "id": "minecraft:firework_rocket",
+            "components": {
+              "minecraft:fireworks": {
+                "flight_duration": 2,
+                "explosions": [
+                  {
+                    "shape": "small_ball",
+                    "colors": [
+                      16753964
+                    ],
+                    "fade_colors": [
+                      5748024
+                    ],
+                    "has_trail": true,
+                    "has_twinkle": true
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:fireworks"]
+              }
+            }
+          }
+        ],
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "ltextras:gold_top_hat",
+      "components": {
+        "minecraft:item_name": "Give Hat to Player",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/give_hat",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

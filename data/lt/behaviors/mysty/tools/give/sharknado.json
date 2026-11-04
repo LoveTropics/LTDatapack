@@ -1,0 +1,14 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "tropicraft:hammerhead_spawn_egg",
+      "components": {
+        "minecraft:item_name": "Spawn Sharknado",
+        "ltminigames:powerup": "lt:mysty/sharknado",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

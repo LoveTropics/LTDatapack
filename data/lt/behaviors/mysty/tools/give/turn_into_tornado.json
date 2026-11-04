@@ -1,0 +1,18 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "weather2:weather_item",
+      "components": {
+        "minecraft:item_name": "Turn Player into Tornado",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false},
+          {"text": "30 seconds", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/turn_into_tornado",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

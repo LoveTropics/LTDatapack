@@ -1,0 +1,14 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "dummyplayers:dummy_player",
+      "components": {
+        "minecraft:item_name": "Swap Players",
+        "ltminigames:powerup": "lt:mysty/swap_players",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

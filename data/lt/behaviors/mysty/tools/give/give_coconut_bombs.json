@@ -1,0 +1,14 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "tropicraft:exploding_coconut",
+      "components": {
+        "minecraft:item_name": "Give Everyone Coconut Bombs",
+        "ltminigames:powerup": "lt:mysty/give_coconut_bombs",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

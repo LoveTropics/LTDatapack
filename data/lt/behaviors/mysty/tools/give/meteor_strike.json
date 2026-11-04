@@ -1,0 +1,17 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "minecraft:fire_charge",
+      "components": {
+        "minecraft:item_name": "Meteor Strike on Player",
+        "minecraft:lore": [
+          {"text": "Must right-click a player", "color": "blue", "italic": false}
+        ],
+        "ltminigames:powerup": "lt:mysty/meteor_strike",
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}
