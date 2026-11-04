@@ -17,7 +17,7 @@ tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"text":"","colo
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"      "},{"translate":"lt.utility.first_join.message.1","color":"#ff9900"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"            "},{"translate":"lt.utility.first_join.title","color":"#4eb61d"}]
 tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"               "},{"text":"            ❤ ","color":"red"}]
-tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"          "},{"translate":"lt.charity.name_2","color":"#21b8cf"}]
+tellraw @s [{"text":"| ","color":"dark_gray"},{"text":"                      "},{"translate":"lt.charity.name_2","color":"#21b8cf"}]
 tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 collectible give @s lt:utility/tropical_map
