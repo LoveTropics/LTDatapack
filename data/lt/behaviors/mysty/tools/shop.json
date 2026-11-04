@@ -60,21 +60,9 @@
       "actions": {
         "actions": [
           {
-            "type": "ltminigames:add_equipment",
-            "items": [
-              {
-                "id": "tropicraft:exploding_coconut",
-                "count": 4,
-                "components": {
-                  "minecraft:item_name": {
-                    "translate": "lt.loot_table.coconut_boom",
-                    "color": "red",
-                    "bold": true
-                  },
-                  "tropicraft:explosion_radius": 0.6
-                }
-              }
-            ]
+            "type": "lt:mysty/give_coconuts",
+            "count": 4,
+            "explosion_radius": 2.4
           }
         ],
         "target": "participants"

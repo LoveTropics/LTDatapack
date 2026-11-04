@@ -19,17 +19,8 @@
     "actions": {
       "game": [
         {
-          "type": "ltminigames:add_equipment",
-          "items": [
-            {
-              "id": "tropicraft:exploding_coconut",
-              "count": 12,
-              "components": {
-                "ltextras:undroppable": {},
-                "ltextras:cooldown_override": 10
-              }
-            }
-          ]
+          "type": "lt:mysty/give_coconuts",
+          "count": 12
         }
       ]
     }

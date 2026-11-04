@@ -6,6 +6,7 @@
       "components": {
         "minecraft:item_model": "minecraft:crossbow",
         "!minecraft:use_cooldown": {},
+        "!minecraft:max_damage": {},
         "minecraft:charged_projectiles": [
           {
             "id": "minecraft:firework_rocket",

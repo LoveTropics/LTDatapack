@@ -10,7 +10,7 @@
           "color": "red",
           "bold": true
         },
-        "tropicraft:explosion_radius": 0.6,
+        "tropicraft:explosion_radius": 2.4,
         "ltextras:infinite": {}
       }
     }
