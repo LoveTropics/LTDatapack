@@ -88,5 +88,11 @@
     "state": {
       "type": "ltminigames:glow_team_members"
     }
+  },
+  {
+    "type": "ltminigames:modify_loot_tables",
+    "remove": [
+      "tropicraft:entities/hammerhead"
+    ]
   }
 ]

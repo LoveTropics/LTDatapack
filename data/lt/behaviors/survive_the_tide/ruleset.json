@@ -23,5 +23,11 @@
       "tropicraft:unrestricted_exploding_coconuts": true
     }
   },
-  "ltminigames:tnt_auto_fuse"
+  "ltminigames:tnt_auto_fuse",
+  {
+    "type": "ltminigames:modify_loot_tables",
+    "remove": [
+      "tropicraft:entities/hammerhead"
+    ]
+  }
 ]
