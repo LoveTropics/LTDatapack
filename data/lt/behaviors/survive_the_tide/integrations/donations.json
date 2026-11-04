@@ -73,18 +73,16 @@
           "type": "minecraft:zombie",
           "tag": {
             "IsBaby": true,
-            "ArmorItems": [
-              {},
-              {},
-              {
+            "equipment": {
+              "chest": {
                 "id": "minecraft:golden_chestplate",
                 "components": {"unbreakable": {}}
               },
-              {
+              "head": {
                 "id": "minecraft:golden_helmet",
                 "components": {"unbreakable": {}}
               }
-            ]
+            }
           }
         },
         "entity_count_per_player": 4,

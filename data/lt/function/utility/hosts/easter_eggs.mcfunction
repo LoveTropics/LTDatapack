@@ -1,6 +1,5 @@
 # Resets to empty hand
-execute as @s run data modify entity @s HandItems set value [{},{}]
-execute as @s run data modify entity @s ArmorItems set value [{},{},{},{}]
+execute as @s run data modify entity @s equipment set value {}
 
 # DinnerBeef - Debug
 execute as @s if data entity @s {profile:{id:[I;-1485293637,-1100069853,-1638540787,-1475363801]}} run item replace entity @s armor.head with peekaboo:mob_hat[peekaboo:entity={id:"tropicraft:fiddler_crab"},peekaboo:size=2]

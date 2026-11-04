@@ -103,17 +103,14 @@
                 "entity_data": {
                   "id": "zombie",
                   "Tags": ["game.stt.placed_mob"],
-                  "ArmorItems": [
-                    {},
-                    {},
-                    {},
-                    {
+                  "equipment": {
+                    "head": {
                       "id": "leather_helmet",
                       "components": {
                         "unbreakable": {}
                       }
                     }
-                  ]
+                  }
                 },
                 "can_place_on": {}
               }

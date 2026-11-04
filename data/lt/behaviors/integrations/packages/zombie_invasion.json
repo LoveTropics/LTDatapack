@@ -27,32 +27,28 @@
           "IsBaby": false,
           "attributes": [
             {
-              "id": "generic.max_health",
+              "id": "minecraft:max_health",
               "base": 8
             }
           ],
-          "ArmorItems": [
-            {},
-            {},
-            {},
-            {
+          "equipment": {
+            "head": {
               "id": "minecraft:leather_helmet",
               "count": 1,
               "components": {
                 "unbreakable": {}
               }
             }
-          ]
-        }
-      },
-      "entity_count_per_player": 12,
-      "spawn_distance_min": 10,
-      "spawn_distance_max": 20,
-      "spawn_range_y": 10,
-      "spawn_try_rate": 10,
-      "max_entity_count": 150
-    }
-  ],
+          }
+        },
+        "entity_count_per_player": 12,
+        "spawn_distance_min": 10,
+        "spawn_distance_max": 20,
+        "spawn_range_y": 10,
+        "spawn_try_rate": 10,
+        "max_entity_count": 150
+      }
+      ],
   "notification": {
     "icon": {
       "item": "minecraft:zombie_head"

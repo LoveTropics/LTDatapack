@@ -7,11 +7,9 @@
       "entity": {
         "id": "minecraft:armor_stand",
         "ShowArms": true,
-        "HandItems": [{"id": "minecraft:wooden_sword", "components": {"enchantment_glint_override": true}}, {}],
-        "ArmorItems": [
-          {},
-          {},
-          {
+        "equipment": {
+          "mainhand": {"id": "minecraft:wooden_sword", "components": {"enchantment_glint_override": true}},
+          "chest": {
             "id": "minecraft:leather_chestplate",
             "components": {
               "enchantment_glint_override": true,
@@ -21,9 +19,8 @@
                 "pattern": "minecraft:wayfinder"
               }
             }
-          },
-          {}
-        ]
+          }
+        }
       },
       "apply": "lt:qottott/kits/opportunist"
     },
@@ -33,11 +30,9 @@
       "entity": {
         "id": "minecraft:armor_stand",
         "ShowArms": true,
-        "HandItems": [{"id": "minecraft:wooden_axe", "components": {"enchantment_glint_override": true}}, {}],
-        "ArmorItems": [
-          {},
-          {},
-          {
+        "equipment": {
+          "mainhand": {"id": "minecraft:wooden_axe", "components": {"enchantment_glint_override": true}},
+          "chest": {
             "id": "minecraft:leather_chestplate",
             "components": {
               "enchantment_glint_override": true,
@@ -47,9 +42,8 @@
                 "pattern": "minecraft:vex"
               }
             }
-          },
-          {}
-        ]
+          }
+        }
       },
       "apply": "lt:qottott/kits/fighter"
     },
@@ -59,11 +53,9 @@
       "entity": {
         "id": "minecraft:armor_stand",
         "ShowArms": true,
-        "HandItems": [{"id": "minecraft:stick", "components": {"enchantment_glint_override": true}}, {}],
-        "ArmorItems": [
-          {},
-          {},
-          {
+        "equipment": {
+          "mainhand": {"id": "minecraft:stick", "components": {"enchantment_glint_override": true}},
+          "chest": {
             "id": "minecraft:leather_chestplate",
             "components": {
               "enchantment_glint_override": true,
@@ -73,9 +65,8 @@
                 "pattern": "minecraft:coast"
               }
             }
-          },
-          {}
-        ]
+          }
+        }
       },
       "apply": "lt:qottott/kits/brawler"
     }

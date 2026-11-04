@@ -28,22 +28,19 @@
             "IsBaby": false,
             "attributes": [
               {
-                "id": "generic.max_health",
+                "id": "max_health",
                 "base": 8
               }
             ],
-            "ArmorItems": [
-              {},
-              {},
-              {},
-              {
+            "equipment": {
+              "head": {
                 "id": "minecraft:leather_helmet",
                 "count": 1,
                 "components": {
                   "unbreakable": {}
                 }
               }
-            ]
+            }
           }
         },
         "entity_count_per_player": 12,
