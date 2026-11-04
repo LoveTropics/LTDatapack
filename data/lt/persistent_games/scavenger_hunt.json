@@ -7,7 +7,7 @@
         "sound": "ltminigames:escape_race.generic.yes.3"
       },
       "on_already_unlocked": {
-        "sound": "lt:turtle_clash.anti_gravity",
+        "sound": "ltminigames:correct",
         "messages": [
           {
             "text": "§4❗ §2You have got this clue"

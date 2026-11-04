@@ -2,6 +2,7 @@
   "name": {
     "translate": "Bingo!"
   },
+  "hide_from_list": true,
   "maximum_participants": 1,
   "map": {
     "type": "ltminigames:generator",
