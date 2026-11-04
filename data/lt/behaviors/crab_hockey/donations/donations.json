@@ -52,7 +52,7 @@
           {
             "data": {
               "type": "lt:crab_hockey/donations/packages/more_crabs",
-              "id": "plus_two_crab",
+              "id": "plus_two_crabs",
               "amount": 2
             },
             "weight": 1
