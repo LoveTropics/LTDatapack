@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lt:fun_hats/wizard_hat",
+    "lt:fun_hats/santa_hat",
+    "lt:fun_hats/pirate_hat",
+    "lt:fun_hats/cowboy_hat",
+    "lt:fun_hats/straw_hat"
+  ]
+}

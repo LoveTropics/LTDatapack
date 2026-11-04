@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lt:fun_hats/baker_boy_hat",
+    "lt:fun_hats/chef_hat",
+    "lt:fun_hats/chicken_hat",
+    "lt:fun_hats/hamburger_hat",
+    "lt:fun_hats/duck_hat",
+    "lt:fun_hats/pie_face_vertical_hat"
+  ]
+}
