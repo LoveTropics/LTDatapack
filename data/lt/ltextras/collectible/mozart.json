@@ -1,0 +1,24 @@
+{
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Wolfgang Amadeus Mozart",
+        "color": "#5ABDA3",
+        "italic": false
+      },
+      "ltextras:collectible_display_info": {
+        "name": "mozart",
+        "rarity": "secret"
+      },
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "dummyplayers:dummy_player",
+          "profile": "Mozart",
+          "NoBasePlate": true
+        }
+      }
+    }
+  },
+  "auto_equip": false
+}
