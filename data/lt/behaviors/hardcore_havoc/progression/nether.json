@@ -156,7 +156,7 @@
         {
           "type": "ltminigames:countdown_effects",
           "channel": "nether",
-          "target": "29s_left",
+          "target": "finish",
           "show_title": true,
           "sound": "minecraft:block.end_portal_frame.fill",
           "seconds": 29,
@@ -167,6 +167,40 @@
         }
       ],
       "29s_left": [
+      ],
+      "finish": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "The Nether",
+              "color": "red",
+              "bold": true
+            },
+            {
+              "text": " is now closed.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "The Nether",
+            "color": "red"
+          },
+          "subtitle": {
+            "text": "is now closed.",
+            "color": "gray"
+          },
+          "stay": 50
+        }
       ]
     }
   }
