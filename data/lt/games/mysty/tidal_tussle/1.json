@@ -6,7 +6,7 @@
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
-  "intro_slideshow": "lt:game/survive_the_tide/ffa_1",
+  "intro_slideshow": "lt:game/survive_the_tide/teams_1",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/survive_the_tide/survive_the_tide_1",
