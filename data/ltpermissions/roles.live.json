@@ -210,6 +210,17 @@
     "overrides": {"shield_bypass": true}
   },
   "event_overlord": {},
+  "sponsor": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[Sponsor] ",
+          "color": "yellow"
+        },
+        "style": "#31a2ac"
+      }
+    }
+  },
   "donator": {
     "includes": ["whitelisted"]
   },

@@ -239,6 +239,17 @@
   },
   "event_overlord": {},
   "donator": {},
+  "sponsor": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[Sponsor] ",
+          "color": "yellow"
+        },
+        "style": "#31a2ac"
+      }
+    }
+  },
   "whitelisted": {
     "overrides": {
       "commands": {
