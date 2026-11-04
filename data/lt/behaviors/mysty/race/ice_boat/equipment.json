@@ -5,7 +5,8 @@
       "id": "minecraft:crossbow",
       "components": {
         "minecraft:unbreakable": {},
-        "ltextras:cooldown_override": 300
+        "ltextras:cooldown_override": 200,
+        "ltextras:crossbow_charge_time": 0.5
       }
     },
     {

@@ -15,6 +15,7 @@
   "ltminigames:disable_hunger",
   "ltminigames:cancel_player_damage",
   "ltminigames:immediate_respawn",
+  "ltminigames:disable_tnt_block_destruction",
   {
     "type": "ltminigames:position_players",
     "all": ["spawn"]

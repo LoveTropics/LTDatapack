@@ -31,5 +31,6 @@
   "ltminigames:disable_hunger",
   "ltminigames:disable_throwing_items",
   "ltminigames:immediate_respawn",
-  "ltminigames:cancel_player_attacks"
+  "ltminigames:cancel_player_attacks",
+  "ltminigames:disable_tnt_block_destruction"
 ]
