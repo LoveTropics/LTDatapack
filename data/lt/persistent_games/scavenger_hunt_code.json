@@ -76,6 +76,7 @@
         {
           "button_region": "code_8",
           "on_unlock": {
+            "set_stage_index": 0,
             "commands": [
               "tp @s -871 121 -1638 -90 0",
               "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 1.189207"
