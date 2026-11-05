@@ -58,7 +58,8 @@
         "style": "#e91e63"
       },
       "commands": {
-        "gamemode": "allow"
+        "gamemode": "allow",
+        "tp": "allow"
       },
       "waypoint_icon": {
         "style": "lt:host",
