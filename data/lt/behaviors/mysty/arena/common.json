@@ -64,6 +64,8 @@
         "ltextras:undroppable": {}
       }
     },
+    "initial_count": 3,
+    "max_count": 10,
     "interval": 600
   },
   {
@@ -115,10 +117,9 @@
     "actions": [
       {
         "type": "ltminigames:add_equipment",
-        "clear": true,
         "items": [
           {
-            "id": "minecraft:wooden_hoe",
+            "id": "minecraft:stick",
             "components": {
               "unbreakable": {},
               "ltextras:undroppable": {},
@@ -127,7 +128,8 @@
               }
             }
           }
-        ]
+        ],
+        "allow_duplicates": false
       }
     ]
   },
