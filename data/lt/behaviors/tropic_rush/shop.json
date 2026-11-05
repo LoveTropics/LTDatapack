@@ -147,7 +147,7 @@
       "description": {"text": "Mining Fatigue II for 60 seconds"},
       "cost": 10,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:give_effect",
@@ -166,7 +166,7 @@
       "description": {"text": "Blinds a random player for 30 seconds"},
       "cost": 6,
       "target": "random",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:give_effect",
@@ -194,7 +194,7 @@
       "description": {"text": "Turn a player into a blaze for 60 seconds"},
       "cost": 15,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:apply_for_time",
@@ -218,7 +218,7 @@
       "description": {"text": "Inverts a player controls 30 seconds"},
       "cost": 15,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:apply_for_time",
@@ -250,7 +250,7 @@
       "description": {"text": "Spawn a Piglin Brute-Nado near a player"},
       "cost": 25,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "weather2:spawn_tornado",
@@ -270,7 +270,7 @@
       "description": {"text": "Spawn a Firenado near a player"},
       "cost": 25,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "weather2:spawn_tornado",
@@ -288,7 +288,7 @@
       "description": {"text": "Stops a player from moving forward for 45 seconds"},
       "cost": 12,
       "target": "pick",
-      "usable_by": ["players", "ghosts"],
+      "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:apply_for_time",
