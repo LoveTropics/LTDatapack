@@ -1,5 +1,7 @@
 [
   "lt:mysty/tools/item/infinite_coconut_bomb",
   "lt:mysty/tools/item/charged_creeper",
-  "lt:mysty/tools/item/rocket_crossbow"
+  "lt:mysty/tools/item/rocket_crossbow",
+  "lt:mysty/tools/item/snowball",
+  "lt:mysty/tools/item/potions"
 ]

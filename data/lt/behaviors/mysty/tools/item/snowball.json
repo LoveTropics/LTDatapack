@@ -1,0 +1,13 @@
+{
+  "type": "ltminigames:add_equipment",
+  "items": [
+    {
+      "id": "minecraft:snowball",
+      "count": 1,
+      "components": {
+        "ltextras:undroppable": {}
+      }
+    }
+  ],
+  "allow_duplicates": false
+}

@@ -64,7 +64,7 @@
       },
       {
         "data": {
-          "id": "minecraft:splash_potion",
+          "id": "minecraft:lingering_potion",
           "components": {
             "minecraft:potion_contents": {
               "custom_effects": [
@@ -75,6 +75,7 @@
                 }
               ]
             },
+            "minecraft:custom_name": {"text": "Lingering Potion of Blindness", "italic": false},
             "ltextras:undroppable": {}
           }
         },
