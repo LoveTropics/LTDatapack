@@ -31,5 +31,13 @@
         "state": "ltminigames:disable_player_movement"
       }
     }
+  },
+  {
+    "type": "ltminigames:cancel_player_damage",
+    "channel": "freeze",
+    "period": {
+      "start": 0,
+      "end": "unfreeze"
+    }
   }
 ]

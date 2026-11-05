@@ -10,6 +10,10 @@
   "lt:mysty/global",
   "lt:mysty/integrations/arena",
   {
+    "type": "lt:common/freeze_on_start",
+    "seconds": 5
+  },
+  {
     "type": "ltminigames:last_remaining_win_trigger",
     "holder": "player"
   },
@@ -55,18 +59,44 @@
     "void_below_region": "void"
   },
   {
-    "type": "ltminigames:permanent_item",
-    "item": {
-      "id": "tropicraft:exploding_coconut",
-      "count": 1,
-      "components": {
-        "tropicraft:explosion_radius": 2,
-        "ltextras:undroppable": {}
+    "type": "ltminigames:scheduled_actions",
+    "channel": "freeze",
+    "target": "participants",
+    "actions": {
+      "unfreeze": {
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "tropicraft:exploding_coconut",
+            "count": 3,
+            "components": {
+              "tropicraft:explosion_radius": 2,
+              "ltextras:undroppable": {}
+            }
+          }
+        ]
       }
+    }
+  },
+  {
+    "type": "ltminigames:only_tick_in_period",
+    "channel": "freeze",
+    "period": {
+      "start": "unfreeze"
     },
-    "initial_count": 3,
-    "max_count": 10,
-    "interval": 600
+    "behavior": {
+      "type": "ltminigames:permanent_item",
+      "item": {
+        "id": "tropicraft:exploding_coconut",
+        "count": 1,
+        "components": {
+          "tropicraft:explosion_radius": 2,
+          "ltextras:undroppable": {}
+        }
+      },
+      "max_count": 10,
+      "interval": 600
+    }
   },
   {
     "type": "ltminigames:events/game_over",
