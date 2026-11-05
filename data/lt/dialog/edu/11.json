@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:notice",
+  "external_title": "",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Micro-Hydro: Struggling to Meet Dulao’s Energy Needs\n\nElectricity needs in Barangay Dulao’s existing micro-hydro plant generates renewable electricity using the natural flow of water from the surrounding watershed. Although the system provides an important source of clean energy for the village, its electricity output declines during the drier summer months, limiting its ability to meet the community’s needs year-round. The plant continues to serve essential shared facilities, highlighting the importance of protecting the watershed that sustains this renewable energy source."
+  }
+}

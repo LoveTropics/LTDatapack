@@ -1,35 +1,9 @@
 {
   "type": "minecraft:notice",
-  "title": {
-    "translate": "lt.edu.text.1.title",
-    "color": "aqua",
-    "bold": true
-  },
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.1_1"
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.1_2"
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.1_3"
-      },
-      "width": 200
-    }
-  ],
-  "inputs": [],
-  "can_close_with_escape": true,
-  "pause": false,
-  "after_action": "close"
+  "external_title": "",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Barangay (Village) Dulao\n \nBarangay Dulao is a small Indigenous community of about 300 people, nestled in the mountainous region of Malibcong, Abra, in the northern Philippines. Surrounded by forests, rivers, and agricultural lands, the community maintains a deep connection to its ancestral environment and cultural traditions. However, increasingly unpredictable rainfall, powerful typhoons, landslides, and prolonged dry periods threaten local livelihoods, food security, and the natural landscapes that sustain the community."
+  }
 }

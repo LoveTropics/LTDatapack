@@ -1,35 +1,9 @@
 {
   "type": "minecraft:notice",
-  "title": {
-    "translate": "lt.edu.text.2.title",
-    "color": "aqua",
-    "bold": true
-  },
-  "body": [
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.2_1"
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.2_2"
-      },
-      "width": 200
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "translate": "lt.edu.text.2_3"
-      },
-      "width": 200
-    }
-  ],
-  "inputs": [],
-  "can_close_with_escape": true,
-  "pause": false,
-  "after_action": "close"
+  "external_title": "",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Seacology & LoveTropics: \nWhat your funds will support \n \nSeacology partners with island communities to protect vital ecosystems in exchange for infrastructure that will help improve local quality of life. In exchange for a commitment to protecting the watershed and preserving vital habitats for critically endangered species, the community will receive a new solar-powered energy system. Working alongside the village’s existing hydroelectric system, the new solar installations will provide reliable electricity to 60 households, benefiting 300 residents. It will also power essential community facilities including the kindergarten, elementary school, health clinic, place of worship, and local government office."
+  }
 }

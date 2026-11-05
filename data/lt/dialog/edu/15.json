@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:notice",
+  "external_title": "",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Seacology: Protecting Island Ecosystems,\n Empowering Communities\n\nSeacology is an international nonprofit organization dedicated to protecting threatened island ecosystems and the communities that depend on them. Founded in 1991, Seacology works with Indigenous communities around the world, offering essential infrastructure and community benefits in exchange for long-term commitments to environmental conservation. From protecting tropical forests and coral reefs to providing clean water, schools, and renewable energy, Seacology's unique approach recognizes that lasting conservation succeeds when local communities are empowered to protect their natural heritage."
+  }
+}

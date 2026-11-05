@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:notice",
+  "external_title": "",
+  "title": "",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The Barangay Dulao Project\n\nNestled in the mountains of Abra province in the northern Philippines, Barangay Dulao is home to approximately 300 residents, predominantly from the Indigenous Mabaka community. In partnership with Seacology, the village is undertaking an ambitious conservation project to protect and restore 319 acres of vital freshwater watershed for 10 years. In exchange, the community will receive a solar energy system to supplement its aging micro-hydro plant, providing more reliable electricity to local households and essential services. Through reforestation, forest patrols, and sustainable land management, the project will help safeguard biodiversity, strengthen climate resilience, and preserve the community's ancestral lands and cultural traditions for future generations."
+  }
+}
