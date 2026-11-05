@@ -3,6 +3,7 @@
   "behaviors": [
     {
       "type": "ltminigames:scavenger_hunt",
+      "id": "lt:the_scavenger_hunt",
       "on_unlock": {
         "sound": "ltminigames:escape_race.generic.yes.3"
       },
