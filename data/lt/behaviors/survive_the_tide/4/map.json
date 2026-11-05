@@ -23,43 +23,43 @@
     "fluid_levels": [
       {
         "point": "tide_rise_1",
-        "value": -8
+        "value": 15
       },
       {
         "point": "rain_end_1",
-        "value": 23
+        "value": 64
       },
       {
         "point": "tide_rise_2",
-        "value": 23
+        "value": 64
       },
       {
         "point": "rain_end_2",
-        "value": 49
+        "value": 90
       },
       {
         "point": "tide_rise_3",
-        "value": 49
+        "value": 90
       },
       {
         "point": "rain_end_3",
-        "value": 85
+        "value": 129
       },
       {
         "point": "tide_rise_4",
-        "value": 85
+        "value": 129
       },
       {
         "point": "rain_end_4",
-        "value": 106
+        "value": 147
       },
       {
         "point": "tide_rise_5",
-        "value": 106
+        "value": 147
       },
       {
         "point": "rain_end_5",
-        "value": 106
+        "value": 168
       }
     ]
   },
