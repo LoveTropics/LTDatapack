@@ -2,14 +2,6 @@
   "type": "ltminigames:add_equipment",
   "items": [
     {
-      "id": "minecraft:crossbow",
-      "components": {
-        "minecraft:unbreakable": {},
-        "ltextras:cooldown_override": 200,
-        "ltextras:crossbow_charge_time": 0.5
-      }
-    },
-    {
       "id": "minecraft:acacia_boat",
       "components": {
         "ltextras:infinite": {},
@@ -18,30 +10,5 @@
         }
       }
     }
-  ],
-  "offhand": {
-    "id": "minecraft:firework_rocket",
-    "components": {
-      "minecraft:fireworks": {
-        "flight_duration": 2,
-        "explosions": [
-          {
-            "shape": "small_ball",
-            "colors": [
-              16753964
-            ],
-            "fade_colors": [
-              5748024
-            ],
-            "has_trail": true,
-            "has_twinkle": true
-          }
-        ]
-      },
-      "minecraft:tooltip_display": {
-        "hidden_components": ["minecraft:fireworks"]
-      },
-      "ltextras:infinite": {}
-    }
-  }
+  ]
 }

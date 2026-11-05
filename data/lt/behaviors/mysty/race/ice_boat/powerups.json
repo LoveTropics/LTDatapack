@@ -1,0 +1,87 @@
+{
+  "type": "ltminigames:only_tick_in_period",
+  "period": {
+    "start": "go",
+    "end": "end"
+  },
+  "behavior": {
+    "type": "ltminigames:permanent_item",
+    "item": [
+      {
+        "data": {
+          "id": "ltextras:rocket_crossbow",
+          "components": {
+            "minecraft:item_model": "minecraft:crossbow",
+            "minecraft:max_damage": 1,
+            "minecraft:charged_projectiles": [
+              {
+                "id": "minecraft:firework_rocket",
+                "components": {
+                  "minecraft:fireworks": {
+                    "flight_duration": 2,
+                    "explosions": [
+                      {
+                        "shape": "small_ball",
+                        "colors": [
+                          16753964
+                        ],
+                        "fade_colors": [
+                          5748024
+                        ],
+                        "has_trail": true,
+                        "has_twinkle": true
+                      }
+                    ]
+                  },
+                  "minecraft:tooltip_display": {
+                    "hidden_components": ["minecraft:fireworks"]
+                  }
+                }
+              }
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "ltextras:undroppable": {}
+          }
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "minecraft:creeper_spawn_egg",
+          "components": {
+            "minecraft:item_name": "Charged Creeper Spawn Egg",
+            "minecraft:entity_data": {
+              "id": "minecraft:creeper",
+              "ExplosionRadius": 3.0,
+              "Fuse": 30,
+              "powered": true
+            },
+            "ltextras:undroppable": {},
+            "minecraft:can_place_on": {"blocks": ["minecraft:ice"]}
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "minecraft:splash_potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "custom_effects": [
+                {
+                  "id": "minecraft:blindness",
+                  "amplifier": 1,
+                  "duration": 300
+                }
+              ]
+            },
+            "ltextras:undroppable": {}
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "max_count": 2,
+    "interval": 100
+  }
+}

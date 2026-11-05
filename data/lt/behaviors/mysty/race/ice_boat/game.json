@@ -4,7 +4,7 @@
     "named_points": {
       "start": 0,
       "go": 10,
-      "end": 100000
+      "end": 18000
     }
   },
   {
@@ -128,6 +128,7 @@
   "lt:common/game_over_title",
   "lt:common/spectator",
   "lt:mysty/race/ice_boat/ruleset",
+  "lt:mysty/race/ice_boat/powerups",
   {
     "type": "lt:common/winner_points",
     "statistic": "points",
