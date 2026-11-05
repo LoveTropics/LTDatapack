@@ -23,8 +23,34 @@
       "type": ["integer", "string"],
       "pattern": "^\\$.*"
     },
-    "trigger": {
-      "$comment": "TODO - FIX"
+    "criteria": {
+      "$comment": "Advancement criteria that complete the tile",
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "trigger": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "trigger"
+        ]
+      }
+    },
+    "requirements": {
+      "$comment": "Which criteria must be met (like advancements)",
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
     }
   },
   "additionalProperties": false,

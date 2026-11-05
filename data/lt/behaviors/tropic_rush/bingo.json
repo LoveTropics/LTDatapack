@@ -20,19 +20,18 @@
           "text": "Get a log"
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "#minecraft:logs"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "#minecraft:logs"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -42,41 +41,31 @@
           "text": "Craft a crafting table"
         },
         "reward": 3,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:crafting_table"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:crafting_table"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
-          "id": "minecraft:wooden_pickaxe"
+          "id": "minecraft:stone_pickaxe"
         },
         "title": {
-          "text": "Craft a pickaxe"
+          "text": "Craft a stone pickaxe"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "#minecraft:pickaxes"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:stone_pickaxe"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -86,19 +75,18 @@
           "text": "Get cobblestone"
         },
         "reward": 3,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:cobblestone"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:cobblestone"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -108,19 +96,18 @@
           "text": "Get coal"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:coal"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:coal"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -130,19 +117,18 @@
           "text": "Get seeds"
         },
         "reward": 3,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:wheat_seeds"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:wheat_seeds"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -152,19 +138,14 @@
           "text": "Craft a furnace"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:furnace"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:furnace"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -174,41 +155,35 @@
           "text": "Get flint"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:flint"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:flint"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
           "id": "minecraft:oak_boat"
         },
         "title": {
-          "text": "Craft a boat"
+          "text": "Craft an oak boat"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "#minecraft:boats"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:oak_boat"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -218,19 +193,18 @@
           "text": "Get wool"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "#minecraft:wool"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "#minecraft:wool"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -240,19 +214,18 @@
           "text": "Get an egg"
         },
         "reward": 5,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:egg"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:egg"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -262,19 +235,18 @@
           "text": "Get cooked beef"
         },
         "reward": 6,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:cooked_beef"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:cooked_beef"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -284,19 +256,18 @@
           "text": "Get string"
         },
         "reward": 8,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:string"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:string"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -306,41 +277,35 @@
           "text": "Get leather"
         },
         "reward": 8,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:leather"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:leather"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
           "id": "minecraft:red_bed"
         },
         "title": {
-          "text": "Craft a bed"
+          "text": "Craft a red bed"
         },
         "reward": 8,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "#minecraft:beds"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:red_bed"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -350,19 +315,18 @@
           "text": "Get an iron ingot"
         },
         "reward": 8,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:iron_ingot"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:iron_ingot"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -372,19 +336,18 @@
           "text": "Get a gold ingot"
         },
         "reward": 10,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:gold_ingot"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:gold_ingot"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -394,19 +357,14 @@
           "text": "Craft a bucket"
         },
         "reward": 10,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:bucket"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:bucket"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -416,19 +374,14 @@
           "text": "Craft a shield"
         },
         "reward": 10,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:shield"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:shield"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -438,19 +391,14 @@
           "text": "Craft a bow"
         },
         "reward": 10,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:bow"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:bow"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -460,19 +408,14 @@
           "text": "Craft an iron pickaxe"
         },
         "reward": 12,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:iron_pickaxe"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:iron_pickaxe"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -482,19 +425,14 @@
           "text": "Craft a flint and steel"
         },
         "reward": 12,
-        "trigger": [
-          {
-            "type": "ltminigames:item_crafted",
-            "item": {
-              "items": "minecraft:flint_and_steel"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:flint_and_steel"
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -504,19 +442,18 @@
           "text": "Get a water bucket"
         },
         "reward": 12,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:water_bucket"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:water_bucket"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -526,19 +463,18 @@
           "text": "Get a lava bucket"
         },
         "reward": 15,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:lava_bucket"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:lava_bucket"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
@@ -548,41 +484,40 @@
           "text": "Get a glass block"
         },
         "reward": 15,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:glass"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:glass"
+                }
+              ]
+            }
           }
-        ]
+        }
       },
       {
         "icon": {
-          "id": "minecraft:netherite_upgrade_smithing_template"
+          "id": "minecraft:cake"
         },
         "title": {
-          "text": "Column Multiplier"
+          "text": "Befriend a warden by interacting on one with a cake in hand."
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:netherite_upgrade_smithing_template"
-            },
-            "apply": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
+        "criteria": {
+          "befriend": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+              "item": {
+                "items": "minecraft:cake"
+              },
+              "entity": {
+                "minecraft:entity_type": "minecraft:warden"
               }
-            ]
+            }
           }
-        ],
+        },
         "tile_type": "column_multiplier"
       },
       {
@@ -593,19 +528,18 @@
           "text": "Column Multiplier"
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:netherite_upgrade_smithing_template"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:netherite_upgrade_smithing_template"
+                }
+              ]
+            }
           }
-        ],
+        },
         "tile_type": "column_multiplier"
       },
       {
@@ -616,19 +550,18 @@
           "text": "Column Multiplier"
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:netherite_upgrade_smithing_template"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:netherite_upgrade_smithing_template"
+                }
+              ]
+            }
           }
-        ],
+        },
         "tile_type": "column_multiplier"
       },
       {
@@ -639,19 +572,18 @@
           "text": "Column Multiplier"
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:netherite_upgrade_smithing_template"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:netherite_upgrade_smithing_template"
+                }
+              ]
+            }
           }
-        ],
+        },
         "tile_type": "column_multiplier"
       },
       {
@@ -662,20 +594,36 @@
           "text": "Column Multiplier"
         },
         "reward": 2,
-        "trigger": [
-          {
-            "type": "ltminigames:while_in_inventory",
-            "item": {
-              "items": "minecraft:netherite_upgrade_smithing_template"
-            },
-            "actions": [
-              {
-                "type": "ltminigames:bingo/complete_tile"
-              }
-            ]
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:netherite_upgrade_smithing_template"
+                }
+              ]
+            }
           }
-        ],
+        },
         "tile_type": "column_multiplier"
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:on_entity_interaction",
+    "item_used": {
+      "items": "minecraft:cake"
+    },
+    "target_predicate": {
+      "minecraft:entity_type": "minecraft:warden"
+    },
+    "consume": true,
+    "source_actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:entity.generic.eat",
+        "source": "players"
       }
     ]
   }

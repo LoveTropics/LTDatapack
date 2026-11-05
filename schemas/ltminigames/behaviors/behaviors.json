@@ -41,9 +41,6 @@
           "$ref": "../behaviors/ltminigames/bingo/add_title.json"
         },
         {
-          "$ref": "../behaviors/ltminigames/bingo/complete_tile.json"
-        },
-        {
           "$ref": "../behaviors/ltminigames/biodiversity_blitz.json"
         },
         {

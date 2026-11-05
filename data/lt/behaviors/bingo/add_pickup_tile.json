@@ -13,19 +13,19 @@
       ]
     },
     "reward": "$reward",
-    "trigger": [
-      {
-        "type": "ltminigames:item_picked_up",
-        "item": {
-          "items": ["$item"]
-        },
-        "actions": [
-          {
-            "type": "ltminigames:bingo/complete_tile"
-          }
-        ],
-        "consume": false
+    "criteria": {
+      "obtain": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "$item"
+              ]
+            }
+          ]
+        }
       }
-    ]
+    }
   }
 ]
