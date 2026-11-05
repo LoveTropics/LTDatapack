@@ -103,5 +103,17 @@
         "minecraft:entity_type": "minecraft:creeper"
       }
     }
+  },
+  {
+    "type": "ltminigames:set_game_rules",
+    "rules": {
+      "minecraft:locator_bar": false,
+      "minecraft:spawn_mobs": false,
+      "minecraft:immediate_respawn": true,
+      "minecraft:advance_weather": false,
+      "minecraft:advance_time": false,
+      "minecraft:show_advancement_messages": false,
+      "tropicraft:unrestricted_exploding_coconuts": true
+    }
   }
 ]
