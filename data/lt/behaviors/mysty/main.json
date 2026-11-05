@@ -93,7 +93,15 @@
         "statistic": "points",
         "order": "max"
       }
-    ]
+    ],
+    "return_to_lobby_leaderboard": {
+      "statistic": "points",
+      "statistic_holder": "player",
+      "order": "max",
+      "length": 3,
+      "show_placement": true,
+      "show_score": false
+    }
   },
   {
     "type": "ltminigames:leaderboard_placeholder",
