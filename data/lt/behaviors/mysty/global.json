@@ -99,7 +99,7 @@
     "type": "ltminigames:scale_damage",
     "factor": 0.35,
     "source": {
-      "indirect_entity": {
+      "source_entity": {
         "minecraft:entity_type": "minecraft:creeper"
       }
     }
