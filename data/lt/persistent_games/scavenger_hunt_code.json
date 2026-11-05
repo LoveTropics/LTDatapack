@@ -10,6 +10,12 @@
           "playsound ltminigames:escape_race.generic.no.4 voice @s ~ ~ ~ 5"
         ]
       },
+      "on_already_unlocked": {
+        "set_stage_index": 0,
+        "commands": [
+          "playsound ltminigames:escape_race.generic.no.4 voice @s ~ ~ ~ 5"
+        ]
+      },
       "stages": [
         {
           "button_region": "code_1",
