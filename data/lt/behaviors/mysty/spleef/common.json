@@ -76,5 +76,12 @@
     "type": "lt:common/winner_points",
     "statistic": "points",
     "amount": 5
+  },
+  {
+    "type": "ltminigames:action_bar",
+    "text": {
+      "text": "%participants%/%total_participants% remaining",
+      "color": "green"
+    }
   }
 ]
