@@ -8,24 +8,20 @@
       },
       "entries": [
         {
-          "rolls": 1,
-          "entries": [
+          "type": "ltextras:item_template",
+          "template": "lt:loot/ammo/arrow",
+          "weight": 4,
+          "functions": [
             {
-              "type": "ltextras:item_template",
-              "template": "lt:loot/ammo/arrow",
-              "weight": 4,
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "min": 3,
-                    "max": 5
-                  }
-                }
-              ]
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
             }
           ]
         },
+        
         {
           "type": "ltextras:item_template",
           "template": "lt:loot/healing/health_potion",
@@ -156,9 +152,7 @@
               "components": {
                 "minecraft:can_place_on": {},
                 "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:can_place_on"
-                  ]
+                  "hidden_components": ["minecraft:can_place_on"]
                 }
               }
             }
@@ -168,3 +162,4 @@
     }
   ]
 }
+
