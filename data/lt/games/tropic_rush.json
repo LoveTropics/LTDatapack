@@ -90,6 +90,11 @@
     },
     "ltminigames:ghosts",
     "lt:common/spectator",
+    {
+      "type": "ltminigames:add_overlords",
+      "players": ["e1949d31-4f97-423a-8229-690fd6756b1c"],
+      "game_type": "spectator"
+    },
     "lt:tropic_rush/bingo",
     "lt:tropic_rush/shop",
     "ltminigames:tropic_rush/spying",
