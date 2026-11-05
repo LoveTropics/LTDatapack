@@ -88,7 +88,7 @@
     "header": [
       { "translate": "ltminigames.minigame.mysty.platforms.header", "color": "gray" },
       {
-        "text": "live.lovetropics.org/donate",
+        "text": "live.lovetropics.org",
         "color": "white",
         "underlined": true
       }

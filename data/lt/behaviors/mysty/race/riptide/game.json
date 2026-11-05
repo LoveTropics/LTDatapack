@@ -111,7 +111,7 @@
     "header": [
       { "translate": "ltminigames.minigame.mysty.race.riptide.header", "color": "gray" },
       {
-        "text": "live.lovetropics.org/donate",
+        "text": "live.lovetropics.org",
         "color": "white",
         "underlined": true
       }
