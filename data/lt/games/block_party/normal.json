@@ -18,7 +18,7 @@
     },
     {
       "type": "ltminigames:last_remaining_win_trigger",
-      "holder": "team"
+      "holder": "player"
     },
     {
       "type": "lt:block_party/simple",
