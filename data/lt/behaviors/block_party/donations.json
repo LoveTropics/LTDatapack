@@ -14,6 +14,13 @@
               "type": "lt:integrations/packages/swap_players"
             },
             "weight": 1
+          },
+          {
+            "data": {
+              "type": "lt:integrations/packages/random_disguise",
+              "seconds": 60
+            },
+            "weight": 1
           }
         ]
       }
