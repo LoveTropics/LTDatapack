@@ -4,7 +4,7 @@
     "channel": "freeze",
     "named_points": {
       "start": 0,
-      "unfreeze": 5
+      "unfreeze": "$seconds"
     }
   },
   {

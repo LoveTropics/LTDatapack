@@ -10,6 +10,11 @@
   "lt:mysty/integrations/riptide",
   "lt:mysty/race/riptide/ruleset",
   {
+    "type": "lt:common/freeze_on_start",
+    "seconds": 5
+  },
+  "lt:mysty/race/riptide/freeze",
+  {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
     "spectators": "spectator_spawn",
@@ -84,7 +89,10 @@
             }
           ]
         },
-        "ltminigames:set_total_time"
+        {
+          "type": "ltminigames:set_total_time",
+          "add_seconds": -5
+        }
       ]
     },
     "interval": 2
