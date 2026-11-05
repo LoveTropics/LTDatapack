@@ -1,0 +1,84 @@
+{
+  "dimension": "tropicraft:tropics",
+  "behaviors": [
+    {
+      "type": "ltminigames:scavenger_hunt",
+      "id": "lt:the_code",
+      "on_missing_previous": {
+        "on_missing_previous": {
+          "set_stage_index": 0
+        },
+        "commands": [
+          "playsound ltminigames:escape_race.generic.no.4 voice @s ~ ~ ~ 5"
+        ]
+      },
+      "stages": [
+        {
+          "button_region": "code_1",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 0.667420"
+            ]
+          }
+        },
+        {
+          "button_region": "code_3",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 0.840896"
+            ]
+          }
+        },
+        {
+          "button_region": "code_7",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 1.059463"
+            ]
+          }
+        },
+        {
+          "button_region": "code_6",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 1.122462"
+            ]
+          }
+        },
+        {
+          "button_region": "code_5",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 0.793701"
+            ]
+          }
+        },
+        {
+          "button_region": "code_2",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 1.498307"
+            ]
+          }
+        },
+        {
+          "button_region": "code_4",
+          "on_unlock": {
+            "commands": [
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 0.890899"
+            ]
+          }
+        },
+        {
+          "button_region": "code_8",
+          "on_unlock": {
+            "commands": [
+              "tp @s -871 121 -1638 -90 0",
+              "playsound minecraft:block.note_block.didgeridoo voice @s ~ ~ ~ 5 1.189207"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
