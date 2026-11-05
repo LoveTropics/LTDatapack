@@ -9,23 +9,17 @@
     "border_particles": [
       {
         "particle": {
-          "type": "minecraft:explosion"
+          "type": "minecraft:trial_spawner_detection"
         },
         "rate": 1,
-        "chance": 30,
-        "density": 4.0
-      },
-      {
-        "particle": {
-          "type": "minecraft:portal"
-        },
-        "rate": 1,
+        "speed": 0.0,
         "chance": 10,
-        "density": 8.0
+        "density": 10.0
       }
     ],
     "particle_height": 110,
     "damage_rate_delay": 20,
-    "damage_amount": 4
+    "damage_amount": 4,
+    "min_radius": 6.0
   }
 ]
