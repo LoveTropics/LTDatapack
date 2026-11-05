@@ -11,89 +11,96 @@
     ],
     "initial_tiles": 30,
     "unlock_on_clear": 0,
-    "tile_pool": [
-      {
+    "tiles": {
+      "0:0": {
         "icon": {
-          "id": "minecraft:oak_log"
+          "id": "minecraft:netherite_spear"
         },
         "title": {
-          "text": "Get a log"
+          "text": "Netherite Spear"
         },
-        "reward": 2,
+        "reward": 25,
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
               "items": [
                 {
-                  "items": "#minecraft:logs"
+                  "items": "minecraft:netherite_spear"
                 }
               ]
             }
           }
         }
       },
-      {
+      "0:1": {
         "icon": {
-          "id": "minecraft:crafting_table"
+          "id": "minecraft:dragon_egg"
         },
         "title": {
-          "text": "Craft a crafting table"
+          "text": "Dragon Egg"
         },
-        "reward": 3,
+        "reward": 30,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:dragon_egg"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "0:2": {
+        "icon": {
+          "id": "minecraft:ward_armor_trim_smithing_template"
+        },
+        "title": {
+          "text": "Ward or Silence Armor Trim"
+        },
+        "reward": 25,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:ward_armor_trim_smithing_template",
+                    "minecraft:silence_armor_trim_smithing_template"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "0:3": {
+        "icon": {
+          "id": "minecraft:calibrated_sculk_sensor"
+        },
+        "title": {
+          "text": "Craft a Calibrated Sculk Sensor"
+        },
+        "reward": 15,
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-              "recipe_id": "minecraft:crafting_table"
+              "recipe_id": "minecraft:calibrated_sculk_sensor"
             }
           }
         }
       },
-      {
+      "0:4": {
         "icon": {
-          "id": "minecraft:stone_pickaxe"
+          "id": "minecraft:red_mushroom_block"
         },
         "title": {
-          "text": "Craft a stone pickaxe"
-        },
-        "reward": 5,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:stone_pickaxe"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:cobblestone"
-        },
-        "title": {
-          "text": "Get cobblestone"
-        },
-        "reward": 3,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:cobblestone"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:coal"
-        },
-        "title": {
-          "text": "Get coal"
+          "text": "Red Mushroom Block"
         },
         "reward": 5,
         "criteria": {
@@ -102,137 +109,64 @@
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:coal"
+                  "items": "minecraft:red_mushroom_block"
                 }
               ]
             }
           }
         }
       },
-      {
+      "1:0": {
         "icon": {
-          "id": "minecraft:wheat_seeds"
+          "id": "minecraft:popped_chorus_fruit"
         },
         "title": {
-          "text": "Get seeds"
+          "text": "Popped Chorus Fruit"
         },
-        "reward": 3,
+        "reward": 15,
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:wheat_seeds"
+                  "items": "minecraft:popped_chorus_fruit"
                 }
               ]
             }
           }
         }
       },
-      {
+      "1:1": {
         "icon": {
-          "id": "minecraft:furnace"
+          "id": "minecraft:netherite_upgrade_smithing_template"
         },
         "title": {
-          "text": "Craft a furnace"
+          "text": "Netherite Upgrade"
         },
-        "reward": 5,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:furnace"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:flint"
-        },
-        "title": {
-          "text": "Get flint"
-        },
-        "reward": 5,
+        "reward": 15,
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:flint"
+                  "items": "minecraft:netherite_upgrade_smithing_template"
                 }
               ]
             }
           }
         }
       },
-      {
+      "1:2": {
         "icon": {
-          "id": "minecraft:oak_boat"
+          "id": "minecraft:lime_banner"
         },
         "title": {
-          "text": "Craft an oak boat"
+          "text": "Lime Banner with a Brown Pattern"
         },
-        "reward": 5,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:oak_boat"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:white_wool"
-        },
-        "title": {
-          "text": "Get wool"
-        },
-        "reward": 5,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "#minecraft:wool"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:egg"
-        },
-        "title": {
-          "text": "Get an egg"
-        },
-        "reward": 5,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:egg"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:cooked_beef"
-        },
-        "title": {
-          "text": "Get cooked beef"
+        "description": {
+          "text": "Any pattern but the Flower Charge, Field Masoned and Bordure Indented"
         },
         "reward": 6,
         "criteria": {
@@ -241,19 +175,31 @@
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:cooked_beef"
+                  "items": "minecraft:lime_banner",
+                  "predicates": {
+                    "ltminigames:banner_patterns": {
+                      "layers": {
+                        "contains": [
+                          {
+                            "pattern": "#lt:tropic_rush/bingo_banner",
+                            "color": "brown"
+                          }
+                        ]
+                      }
+                    }
+                  }
                 }
               ]
             }
           }
         }
       },
-      {
+      "1:3": {
         "icon": {
-          "id": "minecraft:string"
+          "id": "minecraft:wind_charge"
         },
         "title": {
-          "text": "Get string"
+          "text": "Wind Charge"
         },
         "reward": 8,
         "criteria": {
@@ -262,205 +208,36 @@
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:string"
+                  "items": "minecraft:wind_charge"
                 }
               ]
             }
           }
         }
       },
-      {
+      "1:4": {
         "icon": {
-          "id": "minecraft:leather"
+          "id": "minecraft:blast_furnace"
         },
         "title": {
-          "text": "Get leather"
-        },
-        "reward": 8,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:leather"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:red_bed"
-        },
-        "title": {
-          "text": "Craft a red bed"
+          "text": "Craft a Blast Furnace"
         },
         "reward": 8,
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-              "recipe_id": "minecraft:red_bed"
+              "recipe_id": "minecraft:blast_furnace"
             }
           }
         }
       },
-      {
+      "2:0": {
         "icon": {
-          "id": "minecraft:iron_ingot"
+          "id": "minecraft:totem_of_undying"
         },
         "title": {
-          "text": "Get an iron ingot"
-        },
-        "reward": 8,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:iron_ingot"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:gold_ingot"
-        },
-        "title": {
-          "text": "Get a gold ingot"
-        },
-        "reward": 10,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:gold_ingot"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:bucket"
-        },
-        "title": {
-          "text": "Craft a bucket"
-        },
-        "reward": 10,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:bucket"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:shield"
-        },
-        "title": {
-          "text": "Craft a shield"
-        },
-        "reward": 10,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:shield"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:bow"
-        },
-        "title": {
-          "text": "Craft a bow"
-        },
-        "reward": 10,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:bow"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:iron_pickaxe"
-        },
-        "title": {
-          "text": "Craft an iron pickaxe"
-        },
-        "reward": 12,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:iron_pickaxe"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:flint_and_steel"
-        },
-        "title": {
-          "text": "Craft a flint and steel"
-        },
-        "reward": 12,
-        "criteria": {
-          "craft": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-              "recipe_id": "minecraft:flint_and_steel"
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:water_bucket"
-        },
-        "title": {
-          "text": "Get a water bucket"
-        },
-        "reward": 12,
-        "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:water_bucket"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "icon": {
-          "id": "minecraft:lava_bucket"
-        },
-        "title": {
-          "text": "Get a lava bucket"
+          "text": "Totem of Undying"
         },
         "reward": 15,
         "criteria": {
@@ -469,42 +246,363 @@
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:lava_bucket"
+                  "items": "minecraft:totem_of_undying"
                 }
               ]
             }
           }
         }
       },
-      {
+      "2:1": {
         "icon": {
-          "id": "minecraft:glass"
+          "id": "minecraft:experience_bottle"
         },
         "title": {
-          "text": "Get a glass block"
+          "text": "Bottle o' Enchanting"
         },
-        "reward": 15,
+        "reward": 10,
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:glass"
+                  "items": "minecraft:experience_bottle"
                 }
               ]
             }
           }
         }
       },
-      {
+      "2:2": {
+        "icon": {
+          "id": "minecraft:piglin_head"
+        },
+        "title": {
+          "text": "Piglin Head"
+        },
+        "reward": 20,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:piglin_head"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "2:3": {
+        "icon": {
+          "id": "minecraft:mace"
+        },
+        "title": {
+          "text": "Mace"
+        },
+        "reward": 25,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:mace"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "2:4": {
+        "icon": {
+          "id": "minecraft:prismarine_crystals"
+        },
+        "title": {
+          "text": "Prismarine Crystals"
+        },
+        "reward": 10,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:prismarine_crystals"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3:0": {
+        "icon": {
+          "id": "minecraft:enchanted_golden_apple"
+        },
+        "title": {
+          "text": "Enchanted Golden Apple"
+        },
+        "reward": 20,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:enchanted_golden_apple"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3:1": {
+        "icon": {
+          "id": "minecraft:ominous_bottle"
+        },
+        "title": {
+          "text": "Ominous Bottle"
+        },
+        "reward": 12,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:ominous_bottle"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3:2": {
+        "icon": {
+          "id": "minecraft:axolotl_bucket"
+        },
+        "title": {
+          "text": "Bucket of Axolotl"
+        },
+        "reward": 8,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:axolotl_bucket"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3:3": {
+        "icon": {
+          "id": "minecraft:waxed_oxidized_copper_lantern"
+        },
+        "title": {
+          "text": "Waxed Oxidized Copper Lantern"
+        },
+        "reward": 10,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:waxed_oxidized_copper_lantern"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3:4": {
+        "icon": {
+          "id": "minecraft:mangrove_chest_boat"
+        },
+        "title": {
+          "text": "Craft a Mangrove Boat with Chest"
+        },
+        "reward": 8,
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:mangrove_chest_boat"
+            }
+          }
+        }
+      },
+      "4:0": {
         "icon": {
           "id": "minecraft:cake"
         },
         "title": {
+          "text": "Craft a Cake"
+        },
+        "reward": 6,
+        "criteria": {
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+              "recipe_id": "minecraft:cake"
+            }
+          }
+        }
+      },
+      "4:1": {
+        "icon": {
+          "id": "minecraft:phantom_membrane"
+        },
+        "title": {
+          "text": "Phantom Membrane"
+        },
+        "reward": 8,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:phantom_membrane"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "4:2": {
+        "icon": {
+          "id": "minecraft:goat_horn"
+        },
+        "title": {
+          "text": "Screaming Goat Horn"
+        },
+        "description": {
+          "text": "Admire, Call, Yearn or Dream"
+        },
+        "reward": 15,
+        "criteria": {
+          "admire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:goat_horn",
+                  "components": {
+                    "minecraft:instrument": "minecraft:admire_goat_horn"
+                  }
+                }
+              ]
+            }
+          },
+          "call": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:goat_horn",
+                  "components": {
+                    "minecraft:instrument": "minecraft:call_goat_horn"
+                  }
+                }
+              ]
+            }
+          },
+          "yearn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:goat_horn",
+                  "components": {
+                    "minecraft:instrument": "minecraft:yearn_goat_horn"
+                  }
+                }
+              ]
+            }
+          },
+          "dream": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:goat_horn",
+                  "components": {
+                    "minecraft:instrument": "minecraft:dream_goat_horn"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "admire",
+            "call",
+            "yearn",
+            "dream"
+          ]
+        ]
+      },
+      "4:3": {
+        "icon": {
+          "id": "minecraft:milk_bucket"
+        },
+        "title": {
+          "text": "Milk Bucket"
+        },
+        "reward": 3,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:milk_bucket"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "4:4": {
+        "icon": {
+          "id": "minecraft:trident"
+        },
+        "title": {
+          "text": "Trident"
+        },
+        "reward": 20,
+        "criteria": {
+          "obtain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": "minecraft:trident"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "5:0": {
+        "icon": {
+          "id": "minecraft:cake"
+        },
+        "title": {
+          "text": "Confectionary Connection"
+        },
+        "description": {
           "text": "Befriend a warden by interacting on one with a cake in hand."
         },
-        "reward": 2,
+        "reward": 10,
         "criteria": {
           "befriend": {
             "trigger": "minecraft:player_interacted_with_entity",
@@ -520,87 +618,105 @@
         },
         "tile_type": "column_multiplier"
       },
-      {
+      "5:1": {
         "icon": {
-          "id": "minecraft:netherite_upgrade_smithing_template"
+          "id": "minecraft:crossbow"
         },
         "title": {
-          "text": "Column Multiplier"
+          "text": "It's Raid O' Clock"
         },
-        "reward": 2,
+        "description": {
+          "text": "Complete wave five of a pillager raid."
+        },
+        "reward": 10,
         "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
+          "wave_five": {
+            "trigger": "ltminigames:raid_wave_completed",
             "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:netherite_upgrade_smithing_template"
-                }
-              ]
+              "wave": {
+                "min": 5
+              }
             }
           }
         },
         "tile_type": "column_multiplier"
       },
-      {
+      "5:2": {
         "icon": {
-          "id": "minecraft:netherite_upgrade_smithing_template"
+          "id": "minecraft:coast_armor_trim_smithing_template"
         },
         "title": {
-          "text": "Column Multiplier"
+          "text": "All The Trimmings"
         },
-        "reward": 2,
+        "description": {
+          "text": "Wear four different pieces of armor at the same time. Each piece of armor must have a different trim and material."
+        },
+        "reward": 10,
         "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
+          "trimmed": {
+            "trigger": "minecraft:location",
             "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:netherite_upgrade_smithing_template"
+              "player": {
+                "ltminigames:distinct_armor_trims": {
+                  "pieces": 4
                 }
-              ]
+              }
             }
           }
         },
         "tile_type": "column_multiplier"
       },
-      {
+      "5:3": {
         "icon": {
-          "id": "minecraft:netherite_upgrade_smithing_template"
+          "id": "minecraft:ghast_tear"
         },
         "title": {
-          "text": "Column Multiplier"
+          "text": "Uneasy Alliance"
         },
-        "reward": 2,
+        "description": {
+          "text": "Bring a ghast to the overworld ... then kill it. We copied the advancement. Sue us."
+        },
+        "reward": 10,
         "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
+          "killed_ghast": {
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:netherite_upgrade_smithing_template"
+              "entity": {
+                "minecraft:entity_type": "minecraft:ghast",
+                "minecraft:location": {
+                  "biomes": "#minecraft:is_overworld"
                 }
-              ]
+              }
             }
           }
         },
         "tile_type": "column_multiplier"
       },
-      {
+      "5:4": {
         "icon": {
-          "id": "minecraft:netherite_upgrade_smithing_template"
+          "id": "minecraft:bundle"
         },
         "title": {
-          "text": "Column Multiplier"
+          "text": "Bundle of Everything"
         },
-        "reward": 2,
+        "description": {
+          "text": "Hold a bundle of any color containing sixty-four different items."
+        },
+        "reward": 10,
         "criteria": {
-          "obtain": {
+          "full_bundle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:netherite_upgrade_smithing_template"
+                  "items": "#minecraft:bundles",
+                  "predicates": {
+                    "minecraft:bundle_contents": {
+                      "items": {
+                        "size": 64
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -608,7 +724,7 @@
         },
         "tile_type": "column_multiplier"
       }
-    ]
+    }
   },
   {
     "type": "ltminigames:on_entity_interaction",

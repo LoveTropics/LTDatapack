@@ -9,18 +9,29 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": ["string"]
+          "type": [
+            "string"
+          ]
         }
       }
     },
     "title": {
       "$comment": "TODO - FIX"
     },
+    "description": {
+      "$comment": "Text component shown when hovering the tile, explaining what to do"
+    },
+    "clue": {
+      "$comment": "Text component shown when hovering the tile while it is locked"
+    },
     "item": {
       "$ref": "../../../properties/items.json"
     },
     "reward": {
-      "type": ["integer", "string"],
+      "type": [
+        "integer",
+        "string"
+      ],
       "pattern": "^\\$.*"
     },
     "criteria": {
@@ -51,6 +62,13 @@
           "type": "string"
         }
       }
+    },
+    "tile_type": {
+      "type": "string",
+      "enum": [
+        "collect_item",
+        "column_multiplier"
+      ]
     }
   },
   "additionalProperties": false,

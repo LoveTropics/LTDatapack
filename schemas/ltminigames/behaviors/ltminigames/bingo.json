@@ -23,6 +23,95 @@
     "on_bingo": {
       "$comment": "IDK - VSCode does like this being a path for some reason",
       "$ref": "../behaviors/behaviors.json"
+    },
+    "tiles": {
+      "$comment": "Tiles at their position on the board, as \"row:column\" counted from 0 at the top left",
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+:[0-9]+$": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": [
+                    "string"
+                  ]
+                }
+              }
+            },
+            "title": {
+              "$comment": "TODO - FIX"
+            },
+            "description": {
+              "$comment": "Text component shown when hovering the tile, explaining what to do"
+            },
+            "clue": {
+              "$comment": "Text component shown when hovering the tile while it is locked"
+            },
+            "reward": {
+              "type": [
+                "integer",
+                "string"
+              ],
+              "pattern": "^\\$.*"
+            },
+            "criteria": {
+              "$comment": "Advancement criteria that complete the tile",
+              "type": "object",
+              "minProperties": 1,
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "trigger": {
+                    "type": "string"
+                  },
+                  "conditions": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "trigger"
+                ]
+              }
+            },
+            "requirements": {
+              "$comment": "Which criteria must be met (like advancements)",
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "tile_type": {
+              "type": "string",
+              "enum": [
+                "collect_item",
+                "column_multiplier"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "icon",
+            "title",
+            "reward",
+            "criteria"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "initial_tiles": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unlock_on_clear": {
+      "type": "integer",
+      "minimum": 0
     }
   },
   "additionalProperties": false,
