@@ -5,9 +5,7 @@
       "type": "ltminigames:scavenger_hunt",
       "id": "lt:the_code",
       "on_missing_previous": {
-        "on_missing_previous": {
-          "set_stage_index": 0
-        },
+        "set_stage_index": 0,
         "commands": [
           "playsound ltminigames:escape_race.generic.no.4 voice @s ~ ~ ~ 5"
         ]
