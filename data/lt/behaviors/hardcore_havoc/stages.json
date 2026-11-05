@@ -260,7 +260,7 @@
         "reversed": true
       },
       "start": {
-        "title": "Starting in %time%",
+        "title": "Starting...",
         "color": "green",
         "reversed": true
       },

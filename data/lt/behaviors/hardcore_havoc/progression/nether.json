@@ -25,31 +25,9 @@
           "pitch": 0.2
         },
         {
-          "type": "ltminigames:send_message",
-          "message": [
-            {
-              "text": "10 minutes",
-              "color": "red",
-              "bold": true
-            },
-            {
-              "text": " until the Nether closes.",
-              "color": "gray",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "10 minutes",
-            "color": "red"
-          },
-          "subtitle": {
-            "text": "until Nether closes.",
-            "color": "red"
-          },
-          "stay": 50
+          "type": "lt:hardcore_havoc/progress/countdown_message",
+          "time_remaining": "10 minutes",
+          "dimension": "Nether"
         }
       ],
       "5_left": [
@@ -59,31 +37,9 @@
           "pitch": 0.2
         },
         {
-          "type": "ltminigames:send_message",
-          "message": [
-            {
-              "text": "5 minutes",
-              "color": "red",
-              "bold": true
-            },
-            {
-              "text": " until the Nether closes.",
-              "color": "gray",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "5 minutes",
-            "color": "red"
-          },
-          "subtitle": {
-            "text": "until the Nether closes.",
-            "color": "gray"
-          },
-          "stay": 50
+          "type": "lt:hardcore_havoc/progress/countdown_message",
+          "time_remaining": "5 minutes",
+          "dimension": "Nether"
         }
       ],
       "1_left": [
@@ -93,31 +49,9 @@
           "pitch": 0.2
         },
         {
-          "type": "ltminigames:send_message",
-          "message": [
-            {
-              "text": "1 minute",
-              "color": "red",
-              "bold": true
-            },
-            {
-              "text": " until the Nether closes.",
-              "color": "gray",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "1 minute",
-            "color": "red"
-          },
-          "subtitle": {
-            "text": "until the Nether closes.",
-            "color": "gray"
-          },
-          "stay": 50
+          "type": "lt:hardcore_havoc/progress/countdown_message",
+          "time_remaining": "1 minute",
+          "dimension": "Nether"
         }
       ],
       "30s_left": [
@@ -127,31 +61,9 @@
           "pitch": 0.2
         },
         {
-          "type": "ltminigames:send_message",
-          "message": [
-            {
-              "text": "30 seconds",
-              "color": "red",
-              "bold": true
-            },
-            {
-              "text": " until the Nether closes.",
-              "color": "gray",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "ltminigames:show_title",
-          "title": {
-            "text": "30 seconds",
-            "color": "red"
-          },
-          "subtitle": {
-            "text": "until the Nether closes.",
-            "color": "gray"
-          },
-          "stay": 50
+          "type": "lt:hardcore_havoc/progress/countdown_message",
+          "time_remaining": "30 seconds",
+          "dimension": "Nether"
         },
         {
           "type": "ltminigames:countdown_effects",
@@ -179,6 +91,7 @@
           "message": [
             {
               "text": "The Nether",
+              "font": "lt:minecraft_5",
               "color": "red",
               "bold": true
             },
@@ -193,7 +106,9 @@
           "type": "ltminigames:show_title",
           "title": {
             "text": "The Nether",
-            "color": "red"
+            "font": "lt:minecraft_5",
+            "color": "red",
+            "bold": true
           },
           "subtitle": {
             "text": "is now closed.",

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "ltminigames:send_message",
+    "message": [
+      {
+        "text": "$time_remaining",
+        "font": "lt:minecraft_5",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " until the $dimension closes.",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:show_title",
+    "title": {
+      "text": "$time_remaining",
+      "color": "red",
+      "bold": true,
+      "font": "lt:minecraft_5"
+    },
+    "subtitle": {
+      "text": "until the $dimension closes.",
+      "color": "gray"
+    },
+    "stay": 50
+  }
+]
