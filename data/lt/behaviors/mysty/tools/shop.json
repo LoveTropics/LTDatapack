@@ -77,13 +77,8 @@
       "usable_by": "overlords",
       "flavor": "bonus",
       "actions": {
-        "actions": [
-          {
-            "type": "lt:mysty/give_hats",
-            "count": 1
-          }
-        ],
-        "target": "participants"
+        "type": "lt:mysty/give_hats",
+        "count": 1
       }
     },
     {
