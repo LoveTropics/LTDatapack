@@ -1,0 +1,25 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/crossbow_and_arrows",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/loot_category/bow_and_arrows",
+          "weight": 4
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/weapon/throwing_trident",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

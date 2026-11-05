@@ -1,0 +1,72 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": {
+        "type": "ltextras:weighted_list",
+        "distribution": [
+          { "data": 1, "weight": 4 },
+          { "data": 2, "weight": 1 }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/light_armor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/light_melee",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/light_ranged",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/low_buff_consumables",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/mid_food",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/low_utility",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/medium_armor",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/medium_melee",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "ltextras:weighted_list",
+        "distribution": [
+          { "data": 0, "weight": 97 },
+          { "data": 1, "weight": 3 }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/low_unique",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

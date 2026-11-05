@@ -1,0 +1,35 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_leggings",
+          "weight": 4
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/diamond_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/diamond_leggings",
+          "weight": 2
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/diamond_boots",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

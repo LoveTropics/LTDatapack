@@ -1,0 +1,67 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": {
+        "type": "ltextras:weighted_list",
+        "distribution": [
+          { "data": 1, "weight": 3 },
+          { "data": 2, "weight": 1 }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/heavy_armor",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/heavy_melee",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/high_buff_consumables",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/high_food",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/high_utility",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/medium_ranged",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/ammo",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "ltextras:weighted_list",
+        "distribution": [
+          { "data": 0, "weight": 97 },
+          { "data": 1, "weight": 3 }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/high_unique",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

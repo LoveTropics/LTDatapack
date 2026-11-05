@@ -1,0 +1,25 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/weapon/stone_sword",
+          "weight": 4
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/weapon/iron_sword",
+          "weight": 2
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/weapon/stone_axe",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_leggings",
+          "weight": 6
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/iron_boots",
+          "weight": 6
+        },
+        {
+          "type": "ltextras:item_template",
+          "template": "lt:loot/armour/copper_chestplate",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
