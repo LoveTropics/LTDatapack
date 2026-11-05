@@ -6,5 +6,6 @@
     "id": "dummyplayers:dummy_player"
   },
   "apply_donor_name": true,
-  "seconds": "$seconds"
+  "seconds": "$seconds",
+  "ignore_data_on_clear": true
 }

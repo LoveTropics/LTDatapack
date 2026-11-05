@@ -25,7 +25,8 @@
         "target": "all_players",
         "actions": {
           "type": "ltminigames:clear_disguise",
-          "entity": "$entity"
+          "entity": "$entity",
+          "ignore_entity_data": "$ignore_data_on_clear"
         }
       },
       "seconds": "$seconds"
