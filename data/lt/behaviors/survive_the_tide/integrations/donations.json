@@ -39,7 +39,6 @@
   },
   {
     "type": "lt:integrations/packages/random_disguise",
-    "package_type": "sabotage_package",
     "donation_amount": 10.0,
     "seconds": 60
   },

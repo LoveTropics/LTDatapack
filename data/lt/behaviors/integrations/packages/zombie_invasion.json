@@ -48,7 +48,8 @@
         "spawn_try_rate": 10,
         "max_entity_count": 150
       }
-      ],
+    }
+  ],
   "notification": {
     "icon": {
       "item": "minecraft:zombie_head"

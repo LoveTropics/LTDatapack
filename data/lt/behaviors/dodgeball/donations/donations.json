@@ -39,7 +39,6 @@
           {
             "data": {
               "type": "lt:integrations/packages/random_disguise",
-              "package_type": "sabotage_package",
               "seconds": 60
             },
             "weight": 1
