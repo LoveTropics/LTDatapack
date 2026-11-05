@@ -52,7 +52,7 @@
     }
   },
   "host": {
-    "includes": ["creator"],
+    "includes": ["creator", "voice"],
     "overrides": {
       "name_decoration": {
         "style": "#e91e63"
