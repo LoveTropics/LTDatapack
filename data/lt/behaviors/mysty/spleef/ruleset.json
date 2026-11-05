@@ -3,8 +3,16 @@
     "type": "ltminigames:block_break",
     "actions": [
       {
-        "type": "ltminigames:give_loot",
-        "loot_table": "lt:mysty/snowball"
+        "type": "ltminigames:add_equipment",
+        "items": [
+          {
+            "id": "minecraft:snowball",
+            "count": 1,
+            "components": {
+              "minecraft:use_cooldown": {"seconds": 0.15}
+            }
+          }
+        ]
       }
     ]
   },
