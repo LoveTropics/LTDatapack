@@ -1,7 +1,8 @@
 [
   {
     "type": "ltminigames:build_battle",
-    "plots_name": "build_plot"
+    "plots_name": "build_plot",
+    "theme": "A Tropical Masterpiece"
   },
   "lt:common/spectator",
   "lt:mysty/global",
@@ -66,7 +67,7 @@
     "type": "ltminigames:place_by_statistic",
     "statistic": "points",
     "order": "max",
-    "trigger_win": "player"
+    "trigger_win": "team"
   },
   {
     "type": "ltminigames:game_end_effects",
@@ -87,12 +88,16 @@
   "lt:common/winner_glows",
   "lt:common/announce_game_over",
   {
+    "type": "ltminigames:share_statistic_in_team",
+    "statistic": "points"
+  },
+  {
     "type": "ltminigames:events/game_over",
     "actions": [
       {
         "type": "ltminigames:display_leaderboard",
         "statistic": "points",
-        "statistic_holder": "player",
+        "statistic_holder": "team",
         "order": "max",
         "length": 5,
         "header": { "translate": "ltminigames.minigame.results" }
