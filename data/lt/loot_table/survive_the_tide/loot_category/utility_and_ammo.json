@@ -7,7 +7,7 @@
         {
           "type": "ltextras:item_template",
           "template": "lt:loot/utility/acid_repellent_umbrella",
-          "weight": 13
+          "weight": 14
         },
         {
           "type": "ltextras:item_template",
@@ -84,7 +84,7 @@
         {
           "type": "ltextras:item_template",
           "template": "lt:loot/utility/super_sunscreen",
-          "weight": 12
+          "weight": 13
         },
         {
           "type": "ltextras:item_template",
