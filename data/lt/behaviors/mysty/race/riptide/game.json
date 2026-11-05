@@ -122,7 +122,8 @@
     "type": "ltminigames:place_by_statistic",
     "statistic": "total_time",
     "order": "min",
-    "trigger_win": "player"
+    "trigger_win": "player",
+    "allow_multiple_wins": true
   },
   {
     "type": "ltminigames:events/game_over",
