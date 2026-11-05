@@ -75,15 +75,10 @@
     "overrides": {
       "name_decoration": {
         "style": "#FF5555",
-        "prefix": [
-          {
-            "atlas": "minecraft:gui",
-            "sprite": "hud/heart/hardcore_full"
-          },
-          {
-            "text": " "
-          }
-        ]
+        "prefix":  {
+          "atlas": "minecraft:gui",
+          "sprite": "hud/heart/hardcore_full"
+        }
       }
     }
   },
