@@ -30,6 +30,10 @@
         }
       },
       "leave_track_spawn": "turtle_fail",
+      "commands_on_exit": [
+        "ride @s dismount",
+        "effect clear @s ltextras:fish_eye"
+      ],
       "commands_on_leave": [
         "ride @s dismount",
         "effect clear @s ltextras:fish_eye"
