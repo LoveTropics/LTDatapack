@@ -20,6 +20,7 @@
           "text": "Netherite Spear"
         },
         "reward": 25,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -41,6 +42,7 @@
           "text": "Dragon Egg"
         },
         "reward": 30,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -62,6 +64,7 @@
           "text": "Ward or Silence Armor Trim"
         },
         "reward": 25,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -86,6 +89,7 @@
           "text": "Craft a Calibrated Sculk Sensor"
         },
         "reward": 15,
+        "kind": "craft",
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
@@ -103,6 +107,7 @@
           "text": "Red Mushroom Block"
         },
         "reward": 5,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -124,6 +129,7 @@
           "text": "Popped Chorus Fruit"
         },
         "reward": 15,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -145,6 +151,7 @@
           "text": "Netherite Upgrade"
         },
         "reward": 15,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -169,6 +176,7 @@
           "text": "Any pattern but the Flower Charge, Field Masoned and Bordure Indented"
         },
         "reward": 6,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -202,6 +210,7 @@
           "text": "Wind Charge"
         },
         "reward": 8,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -223,6 +232,7 @@
           "text": "Craft a Blast Furnace"
         },
         "reward": 8,
+        "kind": "craft",
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
@@ -240,6 +250,7 @@
           "text": "Totem of Undying"
         },
         "reward": 15,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -261,6 +272,7 @@
           "text": "Bottle o' Enchanting"
         },
         "reward": 10,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -282,6 +294,7 @@
           "text": "Piglin Head"
         },
         "reward": 20,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -303,6 +316,7 @@
           "text": "Mace"
         },
         "reward": 25,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -324,6 +338,7 @@
           "text": "Prismarine Crystals"
         },
         "reward": 10,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -345,6 +360,7 @@
           "text": "Enchanted Golden Apple"
         },
         "reward": 20,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -366,6 +382,7 @@
           "text": "Ominous Bottle"
         },
         "reward": 12,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -387,6 +404,7 @@
           "text": "Bucket of Axolotl"
         },
         "reward": 8,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -408,6 +426,7 @@
           "text": "Waxed Oxidized Copper Lantern"
         },
         "reward": 10,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -429,6 +448,7 @@
           "text": "Craft a Mangrove Boat with Chest"
         },
         "reward": 8,
+        "kind": "craft",
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
@@ -446,6 +466,7 @@
           "text": "Craft a Cake"
         },
         "reward": 6,
+        "kind": "craft",
         "criteria": {
           "craft": {
             "trigger": "minecraft:recipe_crafted",
@@ -463,6 +484,7 @@
           "text": "Phantom Membrane"
         },
         "reward": 8,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -487,6 +509,7 @@
           "text": "Admire, Call, Yearn or Dream"
         },
         "reward": 15,
+        "kind": "obtain",
         "criteria": {
           "admire": {
             "trigger": "minecraft:inventory_changed",
@@ -558,6 +581,7 @@
           "text": "Milk Bucket"
         },
         "reward": 3,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -579,6 +603,7 @@
           "text": "Trident"
         },
         "reward": 20,
+        "kind": "obtain",
         "criteria": {
           "obtain": {
             "trigger": "minecraft:inventory_changed",
@@ -603,6 +628,7 @@
           "text": "Befriend a warden by interacting on one with a cake in hand."
         },
         "reward": 10,
+        "kind": "challenge",
         "criteria": {
           "befriend": {
             "trigger": "minecraft:player_interacted_with_entity",
@@ -629,6 +655,7 @@
           "text": "Complete wave five of a pillager raid."
         },
         "reward": 10,
+        "kind": "challenge",
         "criteria": {
           "wave_five": {
             "trigger": "ltminigames:raid_wave_completed",
@@ -652,6 +679,7 @@
           "text": "Wear four different pieces of armor at the same time. Each piece of armor must have a different trim and material."
         },
         "reward": 10,
+        "kind": "challenge",
         "criteria": {
           "trimmed": {
             "trigger": "minecraft:location",
@@ -677,6 +705,7 @@
           "text": "Bring a ghast to the overworld ... then kill it. We copied the advancement. Sue us."
         },
         "reward": 10,
+        "kind": "challenge",
         "criteria": {
           "killed_ghast": {
             "trigger": "minecraft:player_killed_entity",
@@ -703,6 +732,7 @@
           "text": "Hold a bundle of any color containing sixty-four different items."
         },
         "reward": 10,
+        "kind": "challenge",
         "criteria": {
           "full_bundle": {
             "trigger": "minecraft:inventory_changed",

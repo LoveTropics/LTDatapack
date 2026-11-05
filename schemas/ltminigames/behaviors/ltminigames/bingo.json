@@ -92,6 +92,16 @@
                 "collect_item",
                 "column_multiplier"
               ]
+            },
+            "kind": {
+              "type": "string",
+              "description": "Icon texture",
+              "enum": [
+                "obtain",
+                "craft",
+                "challenge"
+              ],
+              "default": "obtain"
             }
           },
           "additionalProperties": false,
