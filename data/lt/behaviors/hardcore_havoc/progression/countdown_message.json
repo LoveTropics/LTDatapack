@@ -1,52 +1,63 @@
 [
   {
-    "type": "ltminigames:send_message",
-    "message": [
+    "type": "ltminigames:apply_to",
+    "target": "all_players",
+    "actions": [
       {
-        "text": "$time_remaining",
-        "font": "lt:minecraft_five",
-        "color": "#CC3A4D",
-        "bold": true
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "pitch": 0.2
       },
       {
-        "text": " until the ",
-        "color": "gray",
-        "bold": false
+        "type": "ltminigames:send_message",
+        "message": [
+          {
+            "text": "$time_remaining",
+            "font": "lt:minecraft_five",
+            "color": "#CC3A4D",
+            "bold": true
+          },
+          {
+            "text": " until the ",
+            "color": "gray",
+            "bold": false
+          },
+          {
+            "text": "$dimension",
+            "color": "gray",
+            "bold": false
+          },
+          {
+            "text": " closes.",
+            "color": "gray",
+            "bold": false
+          }
+        ]
       },
       {
-        "text": "$dimension",
-        "color": "gray",
-        "bold": false
-      },
-      {
-        "text": " closes.",
-        "color": "gray",
-        "bold": false
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "$time_remaining",
+          "color": "#CC3A4D",
+          "bold": true,
+          "font": "lt:minecraft_five"
+        },
+        "subtitle": [
+          {
+            "text": "until the ",
+            "color": "gray"
+          },
+          {
+            "text": "$dimension",
+            "color": "gray"
+          },
+          {
+            "text": " closes.",
+            "color": "gray"
+          }
+        ],
+        "stay": 50
       }
     ]
-  },
-  {
-    "type": "ltminigames:show_title",
-    "title": {
-      "text": "$time_remaining",
-      "color": "#CC3A4D",
-      "bold": true,
-      "font": "lt:minecraft_five"
-    },
-    "subtitle": [
-      {
-        "text": "until the ",
-        "color": "gray"
-      },
-      {
-        "text": "$dimension",
-        "color": "gray"
-      },
-      {
-        "text": " closes.",
-        "color": "gray"
-      }
-    ],
-    "stay": 50
   }
 ]

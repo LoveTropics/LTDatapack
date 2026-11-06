@@ -45,6 +45,11 @@
       {
         "type": "ltminigames:play_sound",
         "sound": "minecraft:ui.toast.challenge_complete"
+      },
+      {
+        "type": "ltminigames:named_stages/skip_to",
+        "stage": "post_game",
+        "ignore_end_actions": true
       }
     ],
     "target": "all_players"
