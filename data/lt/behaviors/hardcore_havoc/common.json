@@ -50,6 +50,7 @@
     "target": "all_players"
   },
   "ltminigames:teams",
+  "lt:common/spectator",
   "lt:hardcore_havoc/death",
   "lt:hardcore_havoc/stages",
   "lt:hardcore_havoc/rules",
