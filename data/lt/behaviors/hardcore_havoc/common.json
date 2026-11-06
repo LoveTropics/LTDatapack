@@ -49,6 +49,36 @@
     ],
     "target": "all_players"
   },
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:remap_sprite",
+      "remap": {
+        "hud/heart/container": "hud/heart/container_hardcore",
+        "hud/heart/container_blinking": "hud/heart/container_hardcore_blinking",
+        "hud/heart/full": "hud/heart/hardcore_full",
+        "hud/heart/full_blinking": "hud/heart/hardcore_full_blinking",
+        "hud/heart/half": "hud/heart/hardcore_half",
+        "hud/heart/half_blinking": "hud/heart/hardcore_half_blinking",
+        "hud/heart/poisoned_full": "hud/heart/poisoned_hardcore_full",
+        "hud/heart/poisoned_full_blinking": "hud/heart/poisoned_hardcore_full_blinking",
+        "hud/heart/poisoned_half": "hud/heart/poisoned_hardcore_half",
+        "hud/heart/poisoned_half_blinking": "hud/heart/poisoned_hardcore_half_blinking",
+        "hud/heart/withered_full": "hud/heart/withered_hardcore_full",
+        "hud/heart/withered_full_blinking": "hud/heart/withered_hardcore_full_blinking",
+        "hud/heart/withered_half": "hud/heart/withered_hardcore_half",
+        "hud/heart/withered_half_blinking": "hud/heart/withered_hardcore_half_blinking",
+        "hud/heart/absorbing_full": "hud/heart/absorbing_hardcore_full",
+        "hud/heart/absorbing_full_blinking": "hud/heart/absorbing_hardcore_full_blinking",
+        "hud/heart/absorbing_half": "hud/heart/absorbing_hardcore_half",
+        "hud/heart/absorbing_half_blinking": "hud/heart/absorbing_hardcore_half_blinking",
+        "hud/heart/frozen_full": "hud/heart/frozen_hardcore_full",
+        "hud/heart/frozen_full_blinking": "hud/heart/frozen_hardcore_full_blinking",
+        "hud/heart/frozen_half": "hud/heart/frozen_hardcore_half",
+        "hud/heart/frozen_half_blinking": "hud/heart/frozen_hardcore_half_blinking"
+      }
+    }
+  },
   "ltminigames:teams",
   "lt:common/spectator",
   "lt:hardcore_havoc/death",
