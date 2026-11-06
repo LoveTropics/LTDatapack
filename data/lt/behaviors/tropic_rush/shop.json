@@ -5,7 +5,7 @@
     {
       "icon": "minecraft:amethyst_shard",
       "name": {"text": "Spying Shard"},
-      "description": {"text": "Peek at a player's inventory or watch them for a minute (90 second cooldown)"},
+      "description": [{"text": "Peek at a player's inventory or watch them for a minute (90 second cooldown)"}],
       "cost": 2,
       "flavor": "bonus",
       "actions": {
@@ -27,7 +27,7 @@
     {
       "icon": "minecraft:iron_pickaxe",
       "name": {"text": "Iron Pickaxe"},
-      "description": {"text": "Skip straight to mining iron"},
+      "description": [{"text": "Skip straight to mining iron"}],
       "cost": 5,
       "flavor": "bonus",
       "actions": {
@@ -38,7 +38,7 @@
     {
       "icon": "minecraft:water_bucket",
       "name": {"text": "Water Bucket"},
-      "description": {"text": "For portals, falls and lava"},
+      "description": [{"text": "For portals, falls and lava"}],
       "cost": 5,
       "flavor": "bonus",
       "actions": {
@@ -69,7 +69,7 @@
     {
       "icon": "minecraft:sugar",
       "name": {"text": "Speed Boost"},
-      "description": {"text": "Speed II for 2 minutes"},
+      "description": [{"text": "Speed II for 2 minutes"}],
       "cost": 10,
       "flavor": "bonus",
       "actions": {
@@ -86,7 +86,7 @@
     {
       "icon": "minecraft:iron_chestplate",
       "name": {"text": "Iron Armor"},
-      "description": {"text": "A full set of iron armor"},
+      "description": [{"text": "A full set of iron armor"}],
       "cost": 20,
       "flavor": "bonus",
       "actions": {
@@ -100,7 +100,7 @@
     {
       "icon": {"id": "minecraft:obsidian", "count": 10},
       "name": {"text": "Obsidian"},
-      "description": {"text": "Enough for a Nether portal"},
+      "description": [{"text": "Enough for a Nether portal"}],
       "cost": 15,
       "flavor": "bonus",
       "actions": {
@@ -111,7 +111,7 @@
     {
       "icon": "minecraft:white_bed",
       "name": {"text": "Beds"},
-      "description": {"text": "Three beds, the fastest way to deal with a dragon"},
+      "description": [{"text": "Three beds, the fastest way to deal with a dragon"}],
       "cost": 15,
       "flavor": "bonus",
       "actions": {
@@ -144,7 +144,7 @@
     {
       "icon": "minecraft:wooden_pickaxe",
       "name": {"text": "Butterfingers"},
-      "description": {"text": "Mining Fatigue II for 60 seconds"},
+      "description": [{"text": "Mining Fatigue II for 60 seconds"}],
       "cost": 10,
       "target": "pick",
       "usable_by": "all",
@@ -163,7 +163,7 @@
     {
       "icon": "minecraft:black_dye",
       "name": {"text": "Blackout"},
-      "description": {"text": "Blinds a random player for 30 seconds"},
+      "description": [{"text": "Blinds a random player for 30 seconds"}],
       "cost": 6,
       "target": "random",
       "usable_by": "all",
@@ -191,7 +191,7 @@
         }
       },
       "name": {"text": "Your a blaze now"},
-      "description": {"text": "Turn a player into a blaze for 60 seconds"},
+      "description": [{"text": "Turn a player into a blaze for 60 seconds"}],
       "cost": 15,
       "target": "pick",
       "usable_by": "all",
@@ -215,7 +215,7 @@
     {
       "icon": "ltminigames:control_inverter",
       "name": {"text": "Invert Controls"},
-      "description": {"text": "Inverts a player controls 30 seconds"},
+      "description": [{"text": "Inverts a player controls 30 seconds"}],
       "cost": 15,
       "target": "pick",
       "usable_by": "all",
@@ -247,7 +247,7 @@
         }
       },
       "name": {"text": "Piglin Brute-Nado"},
-      "description": {"text": "Spawn a Piglin Brute-Nado near a player"},
+      "description": [{"text": "Spawn a Piglin Brute-Nado near a player"}],
       "cost": 25,
       "target": "pick",
       "usable_by": "all",
@@ -267,7 +267,7 @@
     {
       "icon": "minecraft:flint_and_steel",
       "name": {"text": "Firenado"},
-      "description": {"text": "Spawn a Firenado near a player"},
+      "description": [{"text": "Spawn a Firenado near a player"}],
       "cost": 25,
       "target": "pick",
       "usable_by": "all",
@@ -285,7 +285,7 @@
     {
       "icon": "minecraft:leather_boots",
       "name": {"text": "Moonwalk"},
-      "description": {"text": "Stops a player from moving forward for 45 seconds"},
+      "description": [{"text": "Stops a player from moving forward for 45 seconds"}],
       "cost": 12,
       "target": "pick",
       "usable_by": "all",
