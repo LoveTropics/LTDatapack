@@ -4,6 +4,7 @@
     "color": "aqua"
   },
   "icon": "ltminigames:minigames/turtle_race/turtle_icon_1",
+  "intro_slideshow": "lt:game/mysty/ice_boat",
   "maximum_participants": 50,
   "map": {
     "type": "ltminigames:load_map",

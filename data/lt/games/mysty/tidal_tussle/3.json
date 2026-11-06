@@ -7,7 +7,7 @@
     "translate": "ltminigames.minigame.high",
     "color": "red"
   },
-  "intro_slideshow": "lt:game/survive_the_tide/teams_1",
+  "intro_slideshow": "lt:game/mysty/tidal_tussle",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,

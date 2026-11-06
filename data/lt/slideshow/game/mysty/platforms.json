@@ -1,0 +1,12 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/mysty_block_party.png",
+      "header": "Puzzling Platforms",
+      "body": "Stand on the right block type! Watch out for PvP enabling. You have 3 lives.",
+      "duration": 7.0
+    }
+  ]
+}

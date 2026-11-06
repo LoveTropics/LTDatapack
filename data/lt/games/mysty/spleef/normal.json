@@ -3,6 +3,7 @@
     "translate": "ltminigames.minigame.mysty.spleef.normal",
     "color": "aqua"
   },
+  "intro_slideshow": "lt:game/mysty/spleef",
   "icon": "ltminigames:minigames/spleef/icon",
   "hide_from_list": true,
   "minimum_participants": 1,

@@ -1,0 +1,12 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/mysty_build_battle.png",
+      "header": "Build-off",
+      "body": "Build a Tropical Masterpiece together with your team, and get scored the highest by our judges!",
+      "duration": 7.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/mysty_riptide_rush.png",
+      "header": "Riptide Rush",
+      "body": "Race through the course as fast as possible!",
+      "duration": 7.0
+    }
+  ]
+}

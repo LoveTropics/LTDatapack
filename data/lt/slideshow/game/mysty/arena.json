@@ -1,0 +1,12 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/mysty_coconut.png",
+      "header": "Coconut Combat",
+      "body": "Knock each other off the map with Coconut Bombs - and be the last player standing!",
+      "duration": 7.0
+    }
+  ]
+}

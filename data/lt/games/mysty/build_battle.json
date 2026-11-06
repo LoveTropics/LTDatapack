@@ -3,6 +3,7 @@
     "translate": "ltminigames.minigame.mysty.build_battle",
     "color": "dark_green"
   },
+  "intro_slideshow": "lt:game/mysty/build_battle",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 64,

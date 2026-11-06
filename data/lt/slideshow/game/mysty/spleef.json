@@ -1,0 +1,12 @@
+{
+  "default_transition": 2.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/mysty_super_spleef.png",
+      "header": "Super Spleef",
+      "body": "Spleef your foes, and be the last standing player!\nSnowballs give knockback and break blocks.",
+      "duration": 7.0
+    }
+  ]
+}

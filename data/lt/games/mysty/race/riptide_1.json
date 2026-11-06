@@ -5,6 +5,7 @@
   },
   "maximum_participants": 1000,
   "hide_from_list": true,
+  "intro_slideshow": "lt:game/mysty/riptide_rush",
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/mysty/racing/trident",

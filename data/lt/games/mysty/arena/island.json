@@ -3,6 +3,7 @@
     "translate": "ltminigames.minigame.mysty.arena.normal",
     "color": "aqua"
   },
+  "intro_slideshow": "lt:game/mysty/arena",
   "hide_from_list": true,
   "minimum_participants": 1,
   "maximum_participants": 1000,
