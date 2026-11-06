@@ -1,0 +1,305 @@
+{
+  "organiser": {
+    "includes": ["administration"],
+    "overrides": {
+      "chat/moderator": true,
+      "chat/organiser": true,
+      "name_decoration": {
+        "style": "#2ecc71"
+      },
+      "waypoint_icon": {
+        "style": "lt:turtle",
+        "color": [0.18, 0.8, 0.443]
+      }
+    }
+  },
+  "alt_account": {
+    "includes": ["administration"],
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[ALT] ",
+          "color": "red"
+        },
+        "style": "#31a2ac"
+      }
+    }
+  },
+  "administration": {
+    "includes": ["whitelisted", "voice"],
+    "overrides": {
+      "op_level": 4,
+      "commands": {
+        ".*": "allow"
+      },
+      "permission_nodes": {
+        "voicechat.admin": true
+      }
+    }
+  },
+  "live": {
+    "includes": ["host", "voice"],
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "▶ ",
+          "color": "red"
+        },
+        "style": "#e91e63"
+      },
+      "host": true,
+      "waypoint_icon": {
+        "style": "lt:live",
+        "color": [0.9137, 0.1176, 0.3882]
+      }
+    }
+  },
+  "host": {
+    "includes": ["creator", "voice"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#e91e63"
+      },
+      "commands": {
+        "gamemode": "allow",
+        "tp": "allow"
+      },
+      "waypoint_icon": {
+        "style": "lt:host",
+        "color": [0.914, 0.118, 0.388]
+      }
+    }
+  },
+  "hardcore": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#FF5555"
+      }
+    }
+  },
+  "girlypop": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#AA336A"
+      }
+    }
+  },
+  "speedrun": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#00ffe5"
+      }
+    }
+  },
+  "hoedown": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#ffb005"
+      }
+    }
+  },
+  "pantheon": {
+    "includes": ["creator"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#ffb005"
+      }
+    }
+  },
+  "creator": {
+    "includes": ["whitelisted"],
+    "overrides": {
+      "commands": {
+        "fly": "allow"
+      }
+    }
+  },
+  "mojangsta": {
+    "includes": ["pro_builder"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#d84283"
+      },
+      "waypoint_icon": {
+        "style": "lt:mojang",
+        "color": [0.847, 0.2588, 0.5137]
+      }
+    }
+  },
+  "modder": {
+    "includes": ["pro_builder", "game_controller"],
+    "overrides": {
+      "commands": {
+        "shield": "allow"
+      },
+      "name_decoration": {
+        "style": "#DEB22F"
+      }
+    }
+  },
+  "pro_builder": {
+    "includes": ["builder"],
+    "overrides": {
+      "commands": {
+        "clear": "allow",
+        "effect": "allow",
+        "map join .*": "allow",
+        "map leave .*": "allow"
+      }
+    }
+  },
+  "builder": {
+    "includes": ["trusted"],
+    "overrides": {
+      "name_decoration": {
+        "style": "#a95cdd"
+      }
+    }
+  },
+  "moderator": {
+    "includes": ["privileged"],
+    "overrides": {
+      "chat/moderator": true,
+      "name_decoration": {
+        "style": "#3498db"
+      }
+    }
+  },
+  "worldedit": {
+    "overrides": {
+      "op_level": 2,
+      "worldedit_allowed": true,
+      "commands": {
+        "/.*": "allow",
+        "mask .*": "allow",
+        "/regen .*": "deny"
+      }
+    }
+  },
+  "game_controller": {
+    "overrides": {
+      "commands": {
+        "game": "allow"
+      }
+    }
+  },
+  "voice_broadcast": {
+    "includes": ["voice"],
+    "overrides": {
+      "broadcast_voice": true
+    }
+  },
+  "voice": {
+    "overrides": {
+      "permission_nodes": {
+        "voicechat.speak": true,
+        "voicechat.groups": true
+      }
+    }
+  },
+  "trusted": {
+    "includes": ["privileged"],
+    "overrides": {
+      "op_level": 2,
+      "commands": {
+        "fly": "allow",
+        "give": "allow",
+        "gamemode .*": "allow",
+        "tp": "allow"
+      }
+    }
+  },
+  "privileged": {
+    "includes": ["whitelisted"],
+    "overrides": {
+      "commands": {
+        "kick": "allow",
+        "ban": "allow",
+        "ban-ip": "allow",
+        "pardon": "allow",
+        "pardon-ip": "allow",
+        "banlist": "allow",
+        "unban": "allow"
+      }
+    }
+  },
+  "dinners": {},
+  "river_race_red": {},
+  "river_race_blue": {},
+  "commander": {
+    "overrides": {
+      "command_feedback": true
+    }
+  },
+  "shield_bypass": {
+    "overrides": {"shield_bypass": true}
+  },
+  "event_overlord": {},
+  "donator": {},
+  "sponsor": {
+    "overrides": {
+      "name_decoration": {
+        "prefix": {
+          "text": "[S] ",
+          "color": "yellow"
+        },
+        "style": "#31a2ac"
+      }
+    }
+  },
+  "whitelisted": {
+    "overrides": {
+      "commands": {
+        "help": "allow",
+        "game join": "allow",
+        "game spectate": "allow",
+        "game play": "allow",
+        "game leave": "allow",
+        "game register": "allow",
+        "me": "allow",
+        "w": "allow",
+        "tell": "allow",
+        "msg": "allow",
+        "chat": "allow",
+        "shout": "allow",
+        "spawnitems": "allow",
+        "tpa": "allow",
+        "tpaccept": "allow",
+        "warp": "allow",
+        "tools": "allow",
+        "spawn": "allow"
+      },
+      "join_access": {
+        "allows_joining": true
+      }
+    }
+  },
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "game": "deny",
+        "config": "deny",
+        "admin": "deny",
+        "((?!title|tellraw|give).)*": "deny",
+        "voicechat": "deny"
+      },
+      "command_feedback": false,
+      "join_access": {
+        "allows_joining": false,
+        "not_whitelisted_message": {
+          "text": "You are not whitelisted on the server. Please reach out in discord if should be whitelisted."
+        }
+      },
+      "permission_nodes": {
+        "voicechat.listen": true,
+        "voicechat.speak": false,
+        "voicechat.groups": false,
+        "voicechat.admin": false
+      }
+    }
+  }
+}
