@@ -1,0 +1,271 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.tropic_rush",
+    "color": "light_purple",
+    "extra": [
+      " ",
+      {
+        "text": "(Test Tiles)",
+        "color": "gray"
+      }
+    ]
+  },
+  "minimum_participants": 1,
+  "maximum_participants": 6,
+  "donation_type": "participant_contributions",
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/waiting_lobby",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "survival",
+      "join_late_with_role": "spectator",
+      "rejoin": "restore",
+      "backend_id": "lt:tropic_rush",
+      "statistics_key": "tropic_rush"
+    },
+    {
+      "type": "ltminigames:position_players",
+      "all": "spawn"
+    },
+    {
+      "type": "ltminigames:set_game_rules",
+      "apply_defaults": true,
+      "rules": {
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:show_advancement_messages": true,
+        "tropicraft:unrestricted_exploding_coconuts": true
+      }
+    },
+    {
+      "type": "ltminigames:tropic_rush/player_worlds",
+      "world": "lt:tropic_rush/world",
+      "seed": -365887580807804997,
+      "map": {
+        "type": "ltminigames:generator",
+        "generator": {
+          "type": "minecraft:noise",
+          "biome_source": {
+            "type": "minecraft:multi_noise",
+            "preset": "minecraft:overworld"
+          },
+          "settings": "minecraft:overworld"
+        },
+        "dimension": "minecraft:overworld",
+        "spawn_region": "spawn",
+        "spawn_pos": [-260, 69, 3660],
+        "nether": {
+          "generator": {
+            "type": "minecraft:noise",
+            "biome_source": {
+              "type": "minecraft:multi_noise",
+              "preset": "minecraft:nether"
+            },
+            "settings": "minecraft:nether"
+          },
+          "dimension": "minecraft:the_nether"
+        },
+        "end": {
+          "generator": {
+            "type": "minecraft:noise",
+            "biome_source": {
+              "type": "minecraft:the_end"
+            },
+            "settings": "minecraft:end"
+          },
+          "dimension": "minecraft:the_end"
+        }
+      },
+      "spawn_region": "spawn"
+    },
+    "ltminigames:ghosts",
+    "lt:common/spectator",
+    {
+      "type": "ltminigames:add_overlords",
+      "players": ["e1949d31-4f97-423a-8229-690fd6756b1c"],
+      "game_type": "spectator"
+    },
+    "lt:tropic_rush/bingo_test",
+    "lt:tropic_rush/shop",
+    "ltminigames:tropic_rush/spying",
+    "lt:tropic_rush/modifiers",
+    "lt:tropic_rush/donations",
+    {
+      "type": "ltminigames:donation_milestones",
+      "id": "rules",
+      "every": 20,
+      "actions": {
+        "type": "ltminigames:tropic_rush/change_modifier",
+        "amount": 1
+      }
+    },
+    {
+      "type": "ltminigames:tropic_rush/finish",
+      "dragon_kill": false,
+      "full_bingo_card": true
+    },
+    {
+      "type": "ltminigames:progression",
+      "named_points": {
+        "start": 0,
+        "end": 5400
+      }
+    },
+    {
+      "type": "ltminigames:scheduled_actions",
+      "target": "all_players",
+      "actions": {
+        "end": [
+          "ltminigames:end_game",
+          {
+            "type": "ltminigames:set_player_role",
+            "role": "spectator",
+            "respawn_in_place": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "ltminigames:phase_progress_bar",
+      "entries": [
+        {
+          "period": {
+            "start": "start",
+            "end": "end"
+          },
+          "text": {
+            "translate": "ltminigames.minigame.tropic_rush",
+            "color": "green"
+          },
+          "color": "green",
+          "include_time": true,
+          "reversed": true
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:events/game_over",
+      "actions": [
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "translate": "ltminigames.minigame.game_over.title",
+            "color": "gold"
+          },
+          "subtitle": {
+            "translate": "ltminigames.minigame.game_over.subtitle",
+            "color": "gray"
+          },
+          "fade_in": 10,
+          "stay": 60,
+          "fade_out": 10
+        },
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        }
+      ],
+      "target": "all_players"
+    },
+    {
+      "type": "ltminigames:custom_command",
+      "path": [
+        "unlock_tiles"
+      ],
+      "permission_level": "overlord",
+      "argument": "none",
+      "actions": [
+        {
+          "type": "ltminigames:bingo/unlock_tiles",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "ltminigames:point_control_commands",
+      "statistic": "tropicoins",
+      "subcommand": ["coins"]
+    },
+    {
+      "type": "ltminigames:set_difficulty",
+      "difficulty": "normal"
+    },
+    {
+      "type": "ltminigames:immediate_respawn",
+      "death_message": [
+        {
+          "left_highlight": "#a08e0021",
+          "right_highlight": "#60191829"
+        },
+        {
+          "translate": "ltminigames.minigame.survive_the_tide.eliminated",
+          "color": "gray"
+        }
+      ],
+      "drop_inventory": true,
+      "respawn_action": [
+        "ltminigames:clear_effects",
+        "ltminigames:extinguish_player",
+        "ltminigames:reset_hunger"
+      ]
+    },
+    {
+      "type": "ltminigames:tropic_rush/ender_pearl_deviation",
+      "modifier": "pearl_deviation",
+      "max_degrees": 180.0,
+      "growth": 3.0
+    },
+    {
+      "type": "ltminigames:tropic_rush/scramble_debug_screen",
+      "modifier": "bugged_debug",
+      "shuffle_level": 1,
+      "swap_sides_level": 3,
+      "fake_lines_per_level": 0.5,
+      "garble_chance_per_level": 0.05,
+      "rescramble_chance_per_level": 0.1,
+      "extra_lines": [
+        {"level": 2, "line": "Minecraft Dungeons 2 playtime: 0 hours"},
+        {"level": 4, "line": "Minecraft Dungeons 2 playtime: 2909 hours"},
+        {"level": 3, "line": "Scope: Normal"},
+        {"level": 5, "line": "Scope: Expanded"}
+      ]
+    },
+    {
+      "type": "ltminigames:leaky_pockets",
+      "interval": 5
+    },
+    {
+      "type": "ltminigames:tropic_rush/bouncy_ground",
+      "modifier": "bouncy_ground",
+      "levels": [
+        {"min_fall_distance": 10, "bounciness": 0.5, "fall_damage_multiplier": 1.0},
+        {"min_fall_distance": 7, "bounciness": 0.6, "fall_damage_multiplier": 0.75},
+        {"min_fall_distance": 5, "bounciness": 0.7, "fall_damage_multiplier": 0.5},
+        {"min_fall_distance": 3, "bounciness": 0.85, "fall_damage_multiplier": 0.25},
+        {"min_fall_distance": 0, "bounciness": 1.0, "fall_damage_multiplier": 0.0}
+      ]
+    },
+    "lt:common/game_over_title",
+    "ltminigames:game_limted_chat",
+    {"type":  "ltminigames:announcements"}
+  ]
+}
