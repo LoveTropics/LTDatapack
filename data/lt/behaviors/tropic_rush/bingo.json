@@ -11,6 +11,10 @@
     ],
     "initial_tiles": 30,
     "unlock_on_clear": 0,
+    "on_tile_completed": {
+      "type": "lt:mysty/give_hats",
+      "count": 1
+    },
     "tiles": {
       "0:0": {
         "icon": {
