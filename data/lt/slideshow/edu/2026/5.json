@@ -1,0 +1,11 @@
+{
+  "default_transition": 0.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/2026_build_5.png",
+      "duration": 100.0
+    }
+  ]
+}
