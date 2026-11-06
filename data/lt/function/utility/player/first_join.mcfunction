@@ -22,4 +22,5 @@ tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 collectible give @s lt:utility/tropical_map
 give @s ltextras:tropicoin 10
+tropicoins add @s 10
  
