@@ -16,22 +16,22 @@
       {
         "start": "rain_start_2",
         "end": "rain_end_2",
-        "weather": "heavy_rain"
+        "weather": ["acid_rain", "heavy_rain"]
       },
       {
         "start": "rain_start_3",
         "end": "rain_end_3",
-        "weather": "heavy_rain"
+        "weather": ["acid_rain", "heavy_rain"]
       },
       {
         "start": "rain_start_4",
         "end": "rain_end_4",
-        "weather": "heavy_rain"
+        "weather": ["acid_rain", "heavy_rain"]
       },
       {
         "start": "rain_start_5",
         "end": "rain_end_5",
-        "weather": "heavy_rain"
+        "weather": ["acid_rain", "heavy_rain"]
       }
     ]
   },
