@@ -1,6 +1,6 @@
 {
   "type": "ltminigames:donation_package",
-  "id": "player_donation",
+  "id": "tropic_rush_player_donation",
   "package_type": "care_package",
   "target": "player",
   "include_sub_phases": true,
