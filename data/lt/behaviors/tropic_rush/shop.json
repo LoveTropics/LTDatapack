@@ -317,6 +317,31 @@
         "type": "ltgames_voice:timed_group",
         "seconds": 24
       }
+    },
+    {
+      "icon": "minecraft:map",
+      "name": {"text": "Let's go on an Adventure!"},
+      "description": [{"text": "Puts a player in adventure mode for 60 seconds. Truly an adventure."}],
+      "cost": 20,
+      "target": "pick",
+      "target_cooldown": 600,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "split_by_player": true,
+        "seconds": 60,
+        "apply": {
+          "type": "ltminigames:set_game_mode_now",
+          "game_mode": "adventure",
+          "from": "survival"
+        },
+        "clear": {
+          "type": "ltminigames:set_game_mode_now",
+          "game_mode": "survival",
+          "from": "adventure"
+        }
+      }
     }
   ]
 }
