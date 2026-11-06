@@ -22,9 +22,6 @@
       "rain_end_5": 860,
       "announce_extraction": 861,
       "open_extraction": 871,
-      "explosive_storm_start": 1000,
-      "explosive_storm_mid": 1150,
-      "explosive_storm_end": 1300,
       "end": 1300
     },
     "max_time_step": 3,
