@@ -1,0 +1,55 @@
+plugins {
+  id 'maven-publish'
+}
+
+group = 'org.lovetropics'
+
+def env = System.getenv()
+version = "$mod_version-SNAPSHOT"
+
+tasks.register('data', Jar) {
+  archiveFileName = 'lt-data.jar'
+  destinationDirectory = layout.buildDirectory
+
+  from 'data'
+  from 'META-INF'
+  from 'pack.mcmeta'
+
+  exclude '**/maps/**'
+}
+
+tasks.register('assets', Jar) {
+  archiveFileName = 'lt-assets.jar'
+  destinationDirectory = layout.buildDirectory
+
+  from 'assets'
+  from 'META-INF'
+  from 'pack.mcmeta'
+}
+
+publishing {
+  publications {
+    register('mavenAssets', MavenPublication) {
+      artifactId = 'lt-assets'
+      artifact assets
+    }
+    register('mavenData', MavenPublication) {
+      artifactId = 'lt-data'
+      artifact data
+    }
+  }
+
+  repositories {
+    if (env.MAVEN_URL) {
+      maven {
+        credentials {
+          username env.MAVEN_USERNAME
+          password env.MAVEN_PASSWORD
+        }
+        url env.MAVEN_URL
+      }
+    } else {
+      mavenLocal()
+    }
+  }
+}
