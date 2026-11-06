@@ -13,7 +13,6 @@
     "type": "lt:common/freeze_on_start",
     "seconds": 5
   },
-  "lt:mysty/race/riptide/freeze",
   {
     "type": "ltminigames:position_players",
     "participants": "player_spawn",
