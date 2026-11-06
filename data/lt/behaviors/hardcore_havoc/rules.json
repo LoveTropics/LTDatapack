@@ -34,6 +34,10 @@
     "difficulty": "normal"
   },
   {
+    "type":  "ltminigames:modify_furnace_smelt_times",
+    "modifier":  0.25
+  },
+  {
     "type": "ltminigames:set_game_rules",
     "rules": {
       "minecraft:command_blocks_work": true,
