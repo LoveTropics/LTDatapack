@@ -31,6 +31,7 @@
       },
       "leave_track_spawn": "turtle_fail",
       "commands_on_exit": [
+        "tp @s -936 141 -1753 0 0",
         "ride @s dismount",
         "effect clear @s ltextras:fish_eye"
       ],
