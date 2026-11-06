@@ -376,22 +376,18 @@
       },
       "3:1": {
         "icon": {
-          "id": "minecraft:ominous_bottle"
+          "id": "minecraft:sticky_piston"
         },
         "title": {
-          "text": "Ominous Bottle"
+          "text": "Craft a Sticky Piston"
         },
         "reward": 12,
-        "kind": "obtain",
+        "kind": "craft",
         "criteria": {
-          "obtain": {
-            "trigger": "minecraft:inventory_changed",
+          "craft": {
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-              "items": [
-                {
-                  "items": "minecraft:ominous_bottle"
-                }
-              ]
+              "recipe_id": "minecraft:sticky_piston"
             }
           }
         }
@@ -478,10 +474,13 @@
       },
       "4:1": {
         "icon": {
-          "id": "minecraft:phantom_membrane"
+          "id": "minecraft:music_disc_lava_chicken"
         },
         "title": {
-          "text": "Phantom Membrane"
+          "text": "Lava Chicken"
+        },
+        "description": {
+          "text": "Get the Lava Chicken disc by killing... a CHICKEN JOCKEEEY!"
         },
         "reward": 8,
         "kind": "obtain",
@@ -491,7 +490,7 @@
             "conditions": {
               "items": [
                 {
-                  "items": "minecraft:phantom_membrane"
+                  "items": "minecraft:music_disc_lava_chicken"
                 }
               ]
             }
