@@ -9,7 +9,17 @@
         "bold": true
       },
       {
-        "text": " until the $dimension closes.",
+        "text": " until the ",
+        "color": "gray",
+        "bold": false
+      },
+      {
+        "text": "$dimension",
+        "color": "gray",
+        "bold": false
+      },
+      {
+        "text": " closes.",
         "color": "gray",
         "bold": false
       }
@@ -23,10 +33,20 @@
       "bold": true,
       "font": "lt:minecraft_five"
     },
-    "subtitle": {
-      "text": "until the $dimension closes.",
-      "color": "gray"
-    },
+    "subtitle": [
+      {
+        "text": "until the ",
+        "color": "gray"
+      },
+      {
+        "text": "$dimension",
+        "color": "gray"
+      },
+      {
+        "text": " closes.",
+        "color": "gray"
+      }
+    ],
     "stay": 50
   }
 ]

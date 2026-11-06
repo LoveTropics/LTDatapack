@@ -9,10 +9,16 @@
         "bold": true
       },
       {
-        "text": "World border has started shrinking over $duration_string",
+        "text": " - World border has started shrinking over ",
+        "color": "gray",
+        "bold": false
+      },
+      {
+        "text": "$duration_string",
         "color": "gray",
         "bold": false
       }
+
     ]
   },
   {
@@ -23,10 +29,16 @@
       "bold": true,
       "font": "lt:minecraft_five"
     },
-    "subtitle": {
-      "text": "World border has started shrinking over $duration_string",
-      "color": "gray"
-    },
+    "subtitle": [
+      {
+        "text": "World border has started shrinking over ",
+        "color": "gray"
+      },
+      {
+        "text": "$duration_string",
+        "color": "gray"
+      }
+    ],
     "stay": 50
   }
 ]
