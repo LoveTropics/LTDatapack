@@ -170,40 +170,6 @@
       }
     },
     {
-      "id": "blaze_disguise",
-      "icon": {
-        "id": "peekaboo:disguise",
-        "components": {
-          "peekaboo:disguise": {
-            "entity": {
-              "id": "minecraft:blaze"
-            }
-          }
-        }
-      },
-      "name": {"text": "Your a blaze now"},
-      "description": [{"text": "Turn a player into a blaze for 60 seconds"}],
-      "cost": 15,
-      "target": "pick",
-      "usable_by": "all",
-      "flavor": "sabotage",
-      "actions": {
-        "type": "ltminigames:apply_for_time",
-        "split_by_player": true,
-        "seconds": 60,
-        "mutex": "lt:tropic_rush/disguise",
-        "apply": {
-          "type": "ltminigames:set_disguise",
-          "entity": {
-            "id": "minecraft:blaze"
-          }
-        },
-        "clear": {
-          "type": "ltminigames:clear_disguise"
-        }
-      }
-    },
-    {
       "id": "invert_controls",
       "icon": "ltminigames:control_inverter",
       "name": {"text": "Invert Controls"},
@@ -216,7 +182,6 @@
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
         "seconds": 30,
-        "mutex": "lt:tropic_rush/controls",
         "apply": {
           "type": "ltminigames:apply_client_state",
           "state": {"type": "ltminigames:invert_controls"}
@@ -289,7 +254,6 @@
         "type": "ltminigames:apply_for_time",
         "split_by_player": true,
         "seconds": 45,
-        "mutex": "lt:tropic_rush/controls",
         "apply": {
           "type": "ltminigames:apply_client_state",
           "state": {
