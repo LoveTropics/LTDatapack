@@ -84,7 +84,7 @@
     }
   },
   "speedrun": {
-    "includes": ["creator"],
+    "includes": ["creator", "voice"],
     "overrides": {
       "name_decoration": {
         "style": "#00ffe5"
