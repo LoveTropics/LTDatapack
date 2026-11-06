@@ -545,8 +545,7 @@
               }
             ]
           }
-        }
-      },
+        },
       "overworld_post_end": {
         "timer_length_ticks": 24000,
         "start_actions": [
