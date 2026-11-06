@@ -59,7 +59,6 @@
     {
       "type": "ltminigames:tropic_rush/player_worlds",
       "world": "lt:tropic_rush/world",
-      "seed": -365887580807804997,
       "map": {
         "type": "ltminigames:generator",
         "generator": {
@@ -72,7 +71,6 @@
         },
         "dimension": "minecraft:overworld",
         "spawn_region": "spawn",
-        "spawn_pos": [-260, 69, 3660],
         "nether": {
           "generator": {
             "type": "minecraft:noise",
