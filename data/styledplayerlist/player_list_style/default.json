@@ -12,7 +12,7 @@
   "list_footer": [
     "",
     "<color:#5ebfa1><strikethrough>                                          </strikethrough></color>",
-    "Next up: <color:#c76035>%ltextras:schedule/next/host_text%",
+    "Next up: <color:#c76035>%ltextras:schedule/next/hosts%",
     "at <color:aqua>%ltextras:schedule/next/start%</color> (in <color:aqua>%ltextras:schedule/next/time_until%</color>)"
   ],
   "hidden_in_commands": false
