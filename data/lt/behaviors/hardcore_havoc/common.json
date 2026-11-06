@@ -26,10 +26,6 @@
     }
   },
   {
-    "type": "ltminigames:game_end_effects",
-    "stop_delay": 200
-  },
-  {
     "type": "ltminigames:events/game_over",
     "actions": [
       {
