@@ -52,6 +52,12 @@
       ]
     },
     {
+      "type": "ltminigames:set_client_state",
+      "state": {
+        "type": "ltminigames:glow_team_members"
+      }
+    },
+    {
       "type": "ltminigames:last_remaining_win_trigger",
       "holder": "team"
     },
