@@ -23,7 +23,7 @@
       "minecraft:fall_damage": false,
       "minecraft:advance_time": false,
       "minecraft:show_advancement_messages": false,
-      "minecraft:enable_build_mode": true
+      "gamemodebuild:enable_build_mode": true
     }
   },
   "ltminigames:disable_hunger",
