@@ -337,6 +337,22 @@
           "from": "adventure"
         }
       }
+    },
+    {
+      "id": "player_dvd",
+      "icon": "minecraft:player_head",
+      "name": {"text": "DVD Screensaver"},
+      "description": [{"text": "Add your player face as a DVD Screensaver over everyone's screens"}],
+      "cost": 8,
+      "target": "global",
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:add_dvd_face",
+        "apply_donor_name": true,
+        "length_in_ticks": 600,
+        "count": 3
+      }
     }
   ]
 }
