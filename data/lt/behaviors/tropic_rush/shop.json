@@ -25,118 +25,99 @@
       }
     },
     {
-      "icon": "minecraft:iron_pickaxe",
-      "name": {"text": "Iron Pickaxe"},
-      "description": [{"text": "Skip straight to mining iron"}],
-      "cost": 5,
+      "icon": {"id": "minecraft:iron_ingot", "count": 5},
+      "name": {"text": "Iron"},
+      "description": [{"text": "5 iron ingots"}],
+      "cost": 10,
+      "stock": 10,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": ["minecraft:iron_pickaxe"]
+        "items": [{"id": "minecraft:iron_ingot", "count": 5}]
       }
     },
     {
-      "icon": "minecraft:water_bucket",
-      "name": {"text": "Water Bucket"},
-      "description": [{"text": "For portals, falls and lava"}],
-      "cost": 5,
+      "icon": {"id": "minecraft:oak_log", "count": 10},
+      "name": {"text": "Wood"},
+      "description": [{"text": "10 oak logs"}],
+      "cost": 8,
+      "stock": 10,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": ["minecraft:water_bucket"]
+        "items": [{"id": "minecraft:oak_log", "count": 10}]
       }
     },
     {
-      "icon": {"id": "minecraft:cooked_beef", "count": 16},
+      "icon": {"id": "minecraft:cooked_beef", "count": 8},
       "name": {"text": "Steak"},
-      "cost": 3,
+      "description": [{"text": "8 cooked beef"}],
+      "cost": 12,
+      "stock": 10,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": [{"id": "minecraft:cooked_beef", "count": 16}]
+        "items": [{"id": "minecraft:cooked_beef", "count": 8}]
       }
     },
     {
-      "icon": "minecraft:golden_apple",
-      "name": {"text": "Golden Apple"},
-      "cost": 10,
+      "icon": {
+        "id": "minecraft:potion",
+        "components": {
+          "minecraft:potion_contents": {"potion": "minecraft:swiftness"}
+        }
+      },
+      "name": {"text": "Speed Potion"},
+      "description": [{"text": "A Potion of Swiftness"}],
+      "cost": 15,
+      "stock": 6,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": ["minecraft:golden_apple"]
-      }
-    },
-    {
-      "icon": "minecraft:sugar",
-      "name": {"text": "Speed Boost"},
-      "description": [{"text": "Speed II for 2 minutes"}],
-      "cost": 10,
-      "flavor": "bonus",
-      "actions": {
-        "type": "ltminigames:give_effect",
-        "effects": [
+        "items": [
           {
-            "type": "minecraft:speed",
-            "seconds": 120,
-            "amplifier": 1
+            "id": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {"potion": "minecraft:swiftness"}
+            }
           }
         ]
       }
     },
     {
-      "icon": "minecraft:iron_chestplate",
-      "name": {"text": "Iron Armor"},
-      "description": [{"text": "A full set of iron armor"}],
-      "cost": 20,
+      "icon": "minecraft:ominous_bottle",
+      "name": {"text": "Ominous Bottle"},
+      "description": [{"text": "Drink it to get Bad Omen"}],
+      "cost": 50,
+      "stock": 5,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "head": "minecraft:iron_helmet",
-        "chest": "minecraft:iron_chestplate",
-        "legs": "minecraft:iron_leggings",
-        "feet": "minecraft:iron_boots"
+        "items": ["minecraft:ominous_bottle"]
       }
     },
     {
-      "icon": {"id": "minecraft:obsidian", "count": 10},
-      "name": {"text": "Obsidian"},
-      "description": [{"text": "Enough for a Nether portal"}],
-      "cost": 15,
+      "icon": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:stored_enchantments": {"minecraft:channeling": 1}
+        }
+      },
+      "name": {"text": "Channeling Book"},
+      "description": [{"text": "An enchanted book with Channeling"}],
+      "cost": 60,
+      "stock": 1,
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": [{"id": "minecraft:obsidian", "count": 10}]
-      }
-    },
-    {
-      "icon": "minecraft:white_bed",
-      "name": {"text": "Beds"},
-      "description": [{"text": "Three beds, the fastest way to deal with a dragon"}],
-      "cost": 15,
-      "flavor": "bonus",
-      "actions": {
-        "type": "ltminigames:add_equipment",
-        "items": ["minecraft:white_bed", "minecraft:white_bed", "minecraft:white_bed"]
-      }
-    },
-    {
-      "icon": {"id": "minecraft:blaze_rod", "count": 2},
-      "name": {"text": "Blaze Rods"},
-      "cost": 25,
-      "flavor": "bonus",
-      "actions": {
-        "type": "ltminigames:add_equipment",
-        "items": [{"id": "minecraft:blaze_rod", "count": 2}]
-      }
-    },
-    {
-      "icon": {"id": "minecraft:ender_pearl", "count": 4},
-      "name": {"text": "Ender Pearls"},
-      "cost": 20,
-      "flavor": "bonus",
-      "actions": {
-        "type": "ltminigames:add_equipment",
-        "items": [{"id": "minecraft:ender_pearl", "count": 4}]
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {"minecraft:channeling": 1}
+            }
+          }
+        ]
       }
     },
 
