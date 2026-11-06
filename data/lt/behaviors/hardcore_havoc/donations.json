@@ -1,5 +1,8 @@
 [
   {"type": "lt:integrations/packages/player_team_donation", "amount": 5.0, "per_amount": 6},
+  {"type": "lt:integrations/packages/player_team_donation", "amount": 10.0, "per_amount": 6},
+  {"type": "lt:integrations/packages/player_team_donation", "amount": 15.0, "per_amount": 6},
   {"type": "lt:integrations/packages/loyal_donator", "amount": 20.0},
+  "lt:integrations/packages/invert_controls",
   {"type": "lt:integrations/packages/swap_teams", "amount": 75.0}
 ]

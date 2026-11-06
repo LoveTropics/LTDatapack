@@ -290,5 +290,12 @@
         "reversed": true
       }
     }
+  },
+  {
+    "type": "ltminigames:named_stages/block_packages",
+    "stages": [
+      "prestart",
+      "start"
+    ]
   }
 ]
