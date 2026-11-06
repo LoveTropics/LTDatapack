@@ -267,7 +267,7 @@
       "icon": "minecraft:leather_boots",
       "name": {"text": "Moonwalk"},
       "description": [{"text": "Stops a player from moving forward for 45 seconds"}],
-      "cost": 12,
+      "cost": 24,
       "target": "pick",
       "usable_by": "all",
       "flavor": "sabotage",
@@ -292,7 +292,7 @@
     {
       "icon": "minecraft:goat_horn",
       "name": {"text": "Call a \"Friend\""},
-      "description": [{"text": "Open a voice group with the selected player for 60 seconds. To say nice things to them, of course!"}],
+      "description": [{"text": "Open a voice group with the selected player for 24 seconds. To say nice things to them, of course!"}],
       "cost": 12,
       "target": "pick",
       "include_self": true,
@@ -300,7 +300,7 @@
       "flavor": "sabotage",
       "actions":{
         "type": "ltgames_voice:timed_group",
-        "seconds": 60
+        "seconds": 24
       }
     }
   ]
