@@ -1,0 +1,32 @@
+[
+  {
+    "type": "ltminigames:send_message",
+    "message": [
+      {
+        "text": "$start_size -> $end_size",
+        "font": "lt:minecraft_5",
+        "color": "#CC3A4D",
+        "bold": true
+      },
+      {
+        "text": "World border has started shrinking over $duration_string",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "ltminigames:show_title",
+    "title": {
+      "text": "$start_size -> $end_size",
+      "color": "#CC3A4D",
+      "bold": true,
+      "font": "lt:minecraft_5"
+    },
+    "subtitle": {
+      "text": "World border has started shrinking over $duration_string",
+      "color": "gray"
+    },
+    "stay": 50
+  }
+]

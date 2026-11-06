@@ -67,8 +67,14 @@
             "type": "ltminigames:change_world_border",
             "center_region": "center",
             "radius": 1400,
-            "ticks": 2000
-          } 
+            "ticks": 1000
+          },
+          {
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "start_size": "1900",
+            "end_size": "1400",
+            "duration_string": "one minute!"
+          }
         ]
       },
       "nether": {
@@ -141,6 +147,18 @@
                 }
               }
             ]
+          },
+          {
+            "type": "ltminigames:change_world_border",
+            "center_region": "center",
+            "radius": 1000,
+            "ticks": 800
+          },
+          {
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "start_size": "1400",
+            "end_size": "1000",
+            "duration_string": "fourty seconds!"
           }
         ]
       },
@@ -159,6 +177,18 @@
           }
         ],
         "end_actions": [
+          {
+            "type": "ltminigames:change_world_border",
+            "center_region": "center",
+            "radius": 500,
+            "ticks": 500
+          },
+          {
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "start_size": "1000",
+            "end_size": "500",
+            "duration_string": "twenty-five seconds!"
+          }
         ]
       },
       "the_end": {
@@ -231,6 +261,18 @@
                 }
               }
             ]
+          },
+          {
+            "type": "ltminigames:change_world_border",
+            "center_region": "center",
+            "radius": 100,
+            "ticks": 6000
+          },
+          {
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "start_size": "500",
+            "end_size": "100",
+            "duration_string": "five minutes!"
           }
         ]
       },

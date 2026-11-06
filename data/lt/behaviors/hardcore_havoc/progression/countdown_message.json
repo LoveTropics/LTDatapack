@@ -5,7 +5,7 @@
       {
         "text": "$time_remaining",
         "font": "lt:minecraft_5",
-        "color": "red",
+        "color": "#CC3A4D",
         "bold": true
       },
       {
@@ -19,7 +19,7 @@
     "type": "ltminigames:show_title",
     "title": {
       "text": "$time_remaining",
-      "color": "red",
+      "color": "#CC3A4D",
       "bold": true,
       "font": "lt:minecraft_5"
     },
