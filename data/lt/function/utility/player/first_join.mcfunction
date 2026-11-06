@@ -1,4 +1,4 @@
-execute in tropicraft:tropics run tp @s -689 174 -1699 180 -6
+execute in tropicraft:tropics run tp @s -689 176 -1699 180 -6
 execute in tropicraft:tropics run spawnpoint @s -689 174 -1699
 # Set There WayPoint
 execute as @s run function lt:utility/waypoint
