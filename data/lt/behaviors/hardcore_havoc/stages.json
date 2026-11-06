@@ -67,7 +67,7 @@
             "type": "ltminigames:change_world_border",
             "center_region": "center",
             "radius": 1400,
-            "ticks": 1000
+            "ticks": 1200
           },
           {
             "type": "ltminigames:apply_to",
@@ -157,7 +157,7 @@
             "type": "ltminigames:change_world_border",
             "center_region": "center",
             "radius": 1000,
-            "ticks": 800
+            "ticks": 1200
           },
           {
             "type": "ltminigames:apply_to",
@@ -166,7 +166,7 @@
               {
                 "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
                 "size_change": "1400 -> 1000",
-                "duration_string": "fourty seconds!"
+                "duration_string": "one minute!"
               }
             ]
           }
@@ -191,7 +191,7 @@
             "type": "ltminigames:change_world_border",
             "center_region": "center",
             "radius": 500,
-            "ticks": 500
+            "ticks": 1200
           },
           {
             "type": "ltminigames:apply_to",
@@ -200,7 +200,7 @@
               {
                 "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
                 "size_change": "1000 -> 500",
-                "duration_string": "twenty-five seconds!"
+                "duration_string": "one minute!"
               }
             ]
           }
