@@ -11,10 +11,9 @@ tasks.register('data', Jar) {
   archiveFileName = 'lt-data.jar'
   destinationDirectory = layout.buildDirectory
 
-  from 'data'
-  from 'META-INF'
-  from 'pack.mcmeta'
+  from '.'
 
+  include 'data/**', 'META-INF/**', 'pack.mcmeta'
   exclude '**/maps/**'
 }
 
@@ -22,9 +21,8 @@ tasks.register('assets', Jar) {
   archiveFileName = 'lt-assets.jar'
   destinationDirectory = layout.buildDirectory
 
-  from 'assets'
-  from 'META-INF'
-  from 'pack.mcmeta'
+  from '.'
+  include 'assets/**', 'META-INF/**', 'pack.mcmeta'
 }
 
 publishing {
