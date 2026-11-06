@@ -22,5 +22,6 @@ tellraw @s [{"text":"| ","color":"dark_gray"}]
 
 collectible give @s lt:utility/tropical_map
 give @s ltextras:tropicoin 10
-give @s ltextras:collectible_basket
-collectible unlock @s
+### Fix if the spawn items don't work
+#give @s ltextras:collectible_basket
+#collectible unlock @s
