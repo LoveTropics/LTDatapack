@@ -12,7 +12,8 @@
       ],
       "ltextras:collectible_display_info": {
         "name": "party_glasses",
-        "rarity": "secret"
+        "rarity": "secret",
+        "description": true
       }
     }
   },
