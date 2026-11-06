@@ -10,7 +10,7 @@
     "fall_damage": "deny",
     "hunger": "deny",
     "interact": "allow",
-    "interact_blocks": "allow",
+    "interact_blocks": "deny",
     "interact_entities": "allow",
     "modify": "deny",
     "modify_armor_stands": "deny",
