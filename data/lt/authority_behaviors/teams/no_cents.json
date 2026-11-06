@@ -1,4 +1,4 @@
 {
-  "enter_commands": ["function lt:utility/team/join {\"team\":\"no_cents\",color:aqua}"],
+  "enter_commands": ["function lt:utility/team/join {\"team\":\"no_cents\",\"color\":aqua}"],
   "exit_commands": []
 }
