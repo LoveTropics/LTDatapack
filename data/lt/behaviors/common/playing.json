@@ -15,5 +15,6 @@
     "rejoin": "$rejoin"
   },
   "ltminigames:set_winner_statistic",
-  "lt:common/hoist_participants_tab_list"
+  "lt:common/hoist_participants_tab_list",
+  "ltminigames:game_limted_chat"
 ]
