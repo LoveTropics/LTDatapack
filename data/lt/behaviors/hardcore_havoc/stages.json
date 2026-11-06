@@ -70,9 +70,15 @@
             "ticks": 1000
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "size_change": "1900 -> 1400",
-            "duration_string": "one minute!"
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                "size_change": "1900 -> 1400",
+                "duration_string": "one minute!"
+              }
+            ]
           }
         ]
       },
@@ -154,9 +160,15 @@
             "ticks": 800
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "size_change": "1400 -> 1000",
-            "duration_string": "fourty seconds!"
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                "size_change": "1400 -> 1000",
+                "duration_string": "fourty seconds!"
+              }
+            ]
           }
         ]
       },
@@ -182,9 +194,15 @@
             "ticks": 500
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "size_change": "1000 -> 500",
-            "duration_string": "twenty-five seconds!"
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                "size_change": "1000 -> 500",
+                "duration_string": "twenty-five seconds!"
+              }
+            ]
           }
         ]
       },
@@ -266,9 +284,15 @@
             "ticks": 6000
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "size_change": "500 -> 100",
-            "duration_string": "five minutes!"
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                "size_change": "500 -> 100",
+                "duration_string": "five minutes!"
+              }
+            ]
           }
         ]
       },
@@ -331,9 +355,7 @@
   },
   {
     "type": "ltminigames:named_stages/block_packages",
-    "stages": [
-      "prestart",
-      "start"
-    ]
+    "stages": ["prestart", "start"]
   }
 ]
+
