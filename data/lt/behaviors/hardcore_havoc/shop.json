@@ -1,5 +1,24 @@
 {
   "type": "ltminigames:shop",
-  "tropicoins_per_donated_amount": 10,
-  "offers": []
+  "tropicoins_per_donated_amount": 6,
+  "offers": [
+    {
+      "icon": "minecraft:goat_horn",
+      "name": {"text": "Talk to Team"},
+      "description": [{"text": "Open a voice group with the selected team for 60 seconds. To say nice things to them, of course!"}],
+      "cost": 5,
+      "target": "pick",
+      "target_team": true,
+      "include_self": true,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "actions": {
+          "type": "ltgames_voice:timed_group",
+          "seconds": 60
+        },
+        "target": "widen_to_team"
+      }
+    }
+  ]
 }
