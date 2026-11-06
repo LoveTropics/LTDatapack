@@ -108,6 +108,7 @@
     }
   },
   "creator": {
+    "includes": ["whitelisted"],
     "overrides": {
       "commands": {
         "fly": "allow"
