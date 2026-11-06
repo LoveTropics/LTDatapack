@@ -18,6 +18,15 @@
                 "state": {
                   "type": "ltminigames:disable_player_movement"
                 }
+              },
+              {
+                "type": "ltminigames:add_attribute_modifier",
+                "attribute": "minecraft:block_break_speed",
+                "modifier": {
+                  "id": "lt:hardcore_havoc",
+                  "amount": -1,
+                  "operation": "add_value"
+                }
               }
             ]
           }
@@ -47,6 +56,11 @@
               {
                 "type": "ltminigames:remove_client_state",
                 "state": "ltminigames:disable_player_movement"
+              },
+              {
+                "type": "ltminigames:clear_attribute_modifier",
+                "id": "lt:hardcore_havoc",
+                "attribute": "minecraft:block_break_speed"
               }
             ]
           }
