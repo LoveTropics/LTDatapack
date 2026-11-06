@@ -13,11 +13,8 @@
       "usable_by": "all",
       "flavor": "sabotage",
       "actions": {
-        "actions": {
-          "type": "ltgames_voice:timed_group",
-          "seconds": 60
-        },
-        "target": "widen_to_team"
+        "type": "ltgames_voice:timed_group",
+        "seconds": 60
       }
     }
   ]
