@@ -7,9 +7,7 @@
   "apply_to_team": true,
   "receive_actions": [
     {
-      "type": "ltminigames:give_items_amount_based",
-      "item": "ltextras:tropicoin",
-      "per_amount": "$per_amount"
+      "type": "ltminigames:give_donated_tropicoins"
     },
     {
       "type": "ltminigames:show_title",
