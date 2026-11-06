@@ -1,0 +1,64 @@
+{
+  "item": {
+    "id": "peekaboo:disguise",
+    "components": {
+      "peekaboo:disguise": {
+        "entity": {
+          "id": "ltextras:philippine_eagle"
+        }
+      },
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.ltextras.philippine_eagle",
+          "color": "#005958",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "translate": "lt.collectible.disguise.name.suffix",
+          "color": "#005958",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments",
+          "minecraft:dyed_color",
+          "minecraft:unbreakable"
+        ]
+      },
+      "minecraft:dyed_color": 10511680,
+      "ltextras:collectible_display_info": {
+        "name": "philippine_eagle",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "translate": "lt.collectible.disguise.tooltip.subtract_player",
+            "color": "blue",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "ltextras:philippine_eagle",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

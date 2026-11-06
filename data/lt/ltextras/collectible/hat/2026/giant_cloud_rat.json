@@ -1,0 +1,48 @@
+{
+  "item": {
+    "id": "peekaboo:mob_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.ltextras.giant_cloud_rat",
+          "color": "#005958",
+          "italic": false
+        },
+        {
+          "translate": " "
+        },
+        {
+          "translate": "lt.collectible.hat.name.suffix",
+          "color": "#005958",
+          "italic": false
+        }
+      ],
+      "peekaboo:entity": {
+        "id": "ltextras:giant_cloud_rat"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "giant_cloud_rat",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.ltextras.giant_cloud_rat",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

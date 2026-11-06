@@ -1,0 +1,48 @@
+{
+  "item": {
+    "id": "peekaboo:mob_hat",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "translate": "entity.ltextras.philippine_warty_pig",
+          "color": "#005958",
+          "italic": false
+        },
+        {
+          "translate": " "
+        },
+        {
+          "translate": "lt.collectible.hat.name.suffix",
+          "color": "#005958",
+          "italic": false
+        }
+      ],
+      "peekaboo:entity": {
+        "id": "ltextras:philippine_warty_pig"
+      },
+      "ltextras:collectible_display_info": {
+        "name": "philippine_warty_pig",
+        "rarity": "secret",
+        "additional_lore": [
+          {
+            "translate": "item.modifiers.head",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+              "text": " + ",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "translate": "entity.ltextras.philippine_warty_pig",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
