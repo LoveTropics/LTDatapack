@@ -206,6 +206,9 @@
           "$ref": "../behaviors/ltminigames/tropic_rush/attribute_per_level.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/tropic_rush/bouncy_ground.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/tropic_rush/change_modifier.json"
         },
         {

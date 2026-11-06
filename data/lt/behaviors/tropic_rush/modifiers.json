@@ -17,6 +17,14 @@
       "description": {"text": "The F3 screen gets shuffled, swapped around, filled with fake lines and garbled numbers"},
       "riddle": {"text": "Your instruments have started lying to you"},
       "max_level": 10
+    },
+    {
+      "id": "bouncy_ground",
+      "icon": "minecraft:slime_ball",
+      "name": {"text": "Bouncy Ground"},
+      "description": {"text": "The ground bounces you back up like a slime block: from shorter falls, higher and with less fall damage the stronger it gets, until there's none at the max level. Sneak to stop bouncing"},
+      "riddle": {"text": "What goes down must come back up"},
+      "max_level": 5
     }
   ]
 }
