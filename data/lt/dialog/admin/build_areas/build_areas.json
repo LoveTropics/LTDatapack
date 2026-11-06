@@ -20,7 +20,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "protect exclusion remove role build_world everyone"
+        "command": "protect exclusion remove role build_area everyone"
       }
     },
     {
@@ -30,7 +30,7 @@
       },
       "action": {
         "type": "minecraft:run_command",
-        "command": "protect exclusion add role build_world everyone"
+        "command": "protect exclusion add role build_area everyone"
       }
     },
     {
