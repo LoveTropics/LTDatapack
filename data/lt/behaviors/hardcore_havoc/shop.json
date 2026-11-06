@@ -3,6 +3,87 @@
   "tropicoins_per_donated_amount": 6,
   "offers": [
     {
+      "icon": { "id": "minecraft:gold_ingot", "count": 5 },
+      "name": { "text": "Gold Ingots" },
+      "description": [{ "text": "There's 5 of them! And they're gold!" }],
+      "cost": 30,
+      "stock": 10,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:gold_ingot", "count": 5 }] }
+    },
+    {
+      "icon": { "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:swiftness" },
+      "name": { "text": "Swiftness Potion" },
+      "description": [{ "text": "a potion of swiftness." }],
+      "cost": 25,
+      "stock": 15,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:swiftness" }] }
+    },
+    {
+      "icon": { "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:regeneration" },
+      "name": { "text": "Regeneration Potion" },
+      "description": [{ "text": "A potion of regeneration." }],
+      "cost": 30,
+      "stock": 15,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:regeneration" }] }
+    },
+    {
+      "icon": { "id": "minecraft:golden_apple", "count": 1 },
+      "name": { "text": "Golden Apple" },
+      "description": [{ "text": "It's shiny and repels doctors!" }],
+      "cost": 40,
+      "stock": 15,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:golden_apple", "count": 1 }] }
+    },
+    {
+      "icon": { "id": "minecraft:firework_rocket", "count": 1 },
+      "name": { "text": "Firework Rocket" },
+      "description": [{ "text": "A firework rocket with 1 duration and no special stars :(" }],
+      "cost": 6,
+      "stock": 1,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:firework_rocket", "count": 1 }] }
+    },
+    {
+      "icon": { "id": "minecraft:arrow", "count": 10 },
+      "name": { "text": "Arrow" },
+      "description": [{ "text": "Quiver not included." }],
+      "cost": 30,
+      "stock": 30,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:arrow", "count": 10 }] }
+    },
+    {
+      "icon": { "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" },
+      "name": { "text": "Tipped Slowness Arrow" },
+      "description": [{ "text": "Pointy end up!" }],
+      "cost": 20,
+      "stock": 15,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" }] }
+    },
+    {
+      "icon": { "id": "ltminigames:lightning_arrow", "count": 1 },
+      "name": { "text": "Lightning Arrow" },
+      "description": [{ "text": "Strikes lightning at the hit target or block." }],
+      "cost": 15,
+      "stock": 1,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltminigames:lightning_arrow", "count": 1 }] }
+    },
+    {
+      "icon": { "id": "ltextras:gegy_potato_chips", "count": 6 },
+      "name": { "text": "Gegy's Potato Chips™" },
+      "description": [{ "text": "8 Nutrition, 3 Saturation, and a truly egregious volume of artificial flavour." }],
+      "cost": 30,
+      "stock": 30,
+      "flavor": "bonus",
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6 }] }
+	},
+    {
       "icon": "minecraft:goat_horn",
       "name": {"text": "Curse of Bad Microphone"},
       "description": [{"text": "Curse the selected team to have terrible microphone quality for 60 seconds."}],
@@ -63,7 +144,8 @@
       "actions": {
         "type": "ltgames_voice:timed_group",
         "seconds": 60
-      }
+     }
     }
   ]
 }
+
