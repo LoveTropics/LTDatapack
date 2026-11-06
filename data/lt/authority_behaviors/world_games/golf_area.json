@@ -1,6 +1,6 @@
 {
-  "enter_commands": ["tag @s add in.golf.area", "collectible lock @s", "clear @s minecraft:wind_charge"],
-  "exit_commands": ["tag @s remove in.golf.area", "collectible unlock @s", "clear @s minecraft:wind_charge"],
+  "enter_commands": ["tag @s add in.golf.area", "collectible lock @s", "tellraw Gegy \"LOCK\"", "clear @s minecraft:wind_charge"],
+  "exit_commands": ["tag @s remove in.golf.area", "collectible unlock @s", "tellraw Gegy \"UNLOCK\"", "clear @s minecraft:wind_charge"],
   "rules": {
     "attack": "allow"
   }
