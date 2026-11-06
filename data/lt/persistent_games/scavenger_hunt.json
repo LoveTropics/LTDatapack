@@ -36,7 +36,8 @@
           "button_region": "scavenger_2",
           "on_unlock": {
             "commands": [
-              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/02\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"2\"}],title:\"Clue 2\"}]"
+              "collectible give @s item minecraft:written_book[ltextras:interact_action={click_events:{action:show_dialog,dialog:\"lt:scavenger_hunt/02\"},cancel_event:true},written_book_content={resolved:true,author:\"The Puzzle Whisperer\",pages:[{text:\"2\"}],title:\"Clue 2\"}]",
+              "collectible give @s lt:scavenger_hunt"
             ]
           }
         },

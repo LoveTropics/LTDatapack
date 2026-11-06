@@ -2,6 +2,11 @@
   "item": {
     "id": "ltextras:blue_glasses",
     "components": {
+      "minecraft:custom_name": {
+        "text": "Blues Clues",
+        "color": "#27A3F5",
+        "italic": false
+      },
       "ltextras:painting_overlay": [
         {
           "display_text": "1",
