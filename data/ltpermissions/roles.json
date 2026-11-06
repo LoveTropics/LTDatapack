@@ -52,7 +52,7 @@
     }
   },
   "host": {
-    "includes": ["creator", "voice", "whitelisted"],
+    "includes": ["creator", "voice"],
     "overrides": {
       "name_decoration": {
         "style": "#e91e63"
@@ -116,7 +116,7 @@
     }
   },
   "mojangsta": {
-    "includes": ["trusted", "whitelisted"],
+    "includes": ["trusted"],
     "overrides": {
       "name_decoration": {
         "style": "#d84283"
@@ -137,6 +137,7 @@
   },
   "pro_builder": {},
   "builder": {
+    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
@@ -190,6 +191,7 @@
     }
   },
   "privileged": {
+    "includes": ["whitelisted"],
     "overrides": {
       "commands": {
         "kick": "allow",
@@ -220,7 +222,9 @@
       }
     }
   },
-  "donator": {},
+  "donator": {
+    "includes": ["whitelisted"]
+  },
   "whitelisted": {
     "overrides": {
       "commands": {

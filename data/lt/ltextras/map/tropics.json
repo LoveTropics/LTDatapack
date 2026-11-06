@@ -1,9 +1,9 @@
 {
   "description": { "translate": "lt.map.tropics" },
   "dimension": "tropicraft:tropics",
-  "min_x": -1058,
-  "min_z": -2061,
-  "max_x": -288,
-  "max_z": -1289,
+  "min_x": -1100,
+  "min_z": -2045,
+  "max_x": -220,
+  "max_z": -1331,
   "texture": "ltextras:textures/map.png"
 }
