@@ -15,6 +15,26 @@
   "actions": [
     {
       "label": {
+        "text": "Enable Free Build",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "protect exclusion remove role build_world everyone"
+      }
+    },
+    {
+      "label": {
+        "text": "Disable Free Build",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "protect exclusion add role build_world everyone"
+      }
+    },
+    {
+      "label": {
         "text": "Enable Build Area 1",
         "color": "green"
       },
@@ -71,46 +91,6 @@
       "action": {
         "type": "minecraft:run_command",
         "command": "protect exclusion add role build_area_3 everyone"
-      }
-    },
-    {
-      "label": {
-        "text": "Enable Build Area 4",
-        "color": "green"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "protect exclusion remove role build_area_4 everyone"
-      }
-    },
-    {
-      "label": {
-        "text": "Disable Build Area 4",
-        "color": "red"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "protect exclusion add role build_area_4 everyone"
-      }
-    },
-    {
-      "label": {
-        "text": "Enable Build Area 5",
-        "color": "green"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "protect exclusion remove role build_area_5 everyone"
-      }
-    },
-    {
-      "label": {
-        "text": "Disable Build Area 5",
-        "color": "red"
-      },
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "protect exclusion add role build_area_5 everyone"
       }
     }
   ]

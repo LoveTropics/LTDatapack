@@ -1,0 +1,42 @@
+{
+  "item": {
+    "id": "ltextras:blue_glasses",
+    "components": {
+      "ltextras:painting_overlay": [
+        {
+          "display_text": "1",
+          "painting": "minecraft:bouquet"
+        },
+        {
+          "display_text": "3",
+          "painting": "minecraft:cavebird"
+        },
+        {
+          "display_text": "7",
+          "painting": "minecraft:cotan"
+        },
+        {
+          "display_text": "6",
+          "painting": "minecraft:dennis"
+        },
+        {
+          "display_text": "5",
+          "painting": "minecraft:endboss"
+        },
+        {
+          "display_text": "2",
+          "painting": "minecraft:fern"
+        },
+        {
+          "display_text": "4",
+          "painting": "minecraft:tides"
+        },
+        {
+          "display_text": "8",
+          "painting": "minecraft:sunflowers"
+        }
+      ]
+    }
+  },
+  "auto_equip": false
+}
