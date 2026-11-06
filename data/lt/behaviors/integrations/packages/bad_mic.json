@@ -7,20 +7,15 @@
   "receive_actions": [
     {
       "type": "ltminigames:apply_for_time",
-      "mutex": "lt:microphone_quality",
+      "mutex": "lt:microphone",
+      "split_by_player": true,
       "apply": {
-        "target": "participants",
-        "actions": {
-          "type": "ltgames_voice:modify_voice",
-          "quality": 0.1
-        }
+        "type": "ltgames_voice:modify_voice",
+        "quality": 0.1
       },
       "clear": {
-        "target": "all_players",
-        "actions": {
-          "type": "ltgames_voice:modify_voice",
-          "quality": 1.0
-        }
+        "type": "ltgames_voice:modify_voice",
+        "quality": 1.0
       },
       "seconds": "$seconds"
     }

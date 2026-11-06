@@ -2,15 +2,29 @@
   "type": "ltminigames:donation_package",
   "id": "mute_team_vc",
   "package_type": "sabotage_package",
-  "target": "player",
-  "donation_amount": 100.0,
-  "apply_to_team": true,
+  "target": "team",
+  "donation_amount": "$donation_amount",
   "receive_actions": [
-    "ltminigames:give_player_head_package"
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:microphone",
+      "split_by_player": true,
+      "apply": {
+        "type": "ltgames_voice:modify_voice",
+        "volume": 0.0
+      },
+      "clear": {
+        "type": "ltgames_voice:modify_voice",
+        "volume": 1.0
+      },
+      "seconds": "$seconds"
+    }
   ],
   "notification": {
     "icon": {
-      "item": "minecraft:white_wool"
+      "item": {
+        "id": "minecraft:barrier"
+      }
     }
   }
 }

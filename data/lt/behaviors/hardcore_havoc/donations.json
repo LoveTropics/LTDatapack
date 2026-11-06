@@ -2,5 +2,7 @@
   {"type": "lt:integrations/packages/player_team_donation", "amount": 5.0, "per_amount": 6},
   {"type": "lt:integrations/packages/loyal_donator", "amount": 20.0},
   "lt:integrations/packages/invert_controls",
-  {"type": "lt:integrations/packages/swap_teams", "amount": 75.0}
+  {"type": "lt:integrations/packages/swap_teams", "amount": 75.0},
+  {"type": "lt:integrations/packages/mute_team_vc", "donation_amount": 20.0, "seconds": 60},
+  {"type": "lt:integrations/packages/bad_mic", "donation_amount": 15.0, "seconds": 60}
 ]
