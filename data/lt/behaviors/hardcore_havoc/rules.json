@@ -11,8 +11,23 @@
   },
   {
     "type": "ltminigames:setup_world_border",
-    "center_region": "spectators",
-    "radius": 2000
+    "borders": [
+      {
+        "center_region": "center",
+        "radius": 1900,
+        "warn_distance": 90
+      },
+      {
+        "center_region": "end_center",
+        "radius": 300,
+        "warn_distance": 25
+      },
+      {
+        "center_region": "nether_center",
+        "radius": 300,
+        "warn_distance": 25
+      }
+    ]
   },
   {
     "type": "ltminigames:set_difficulty",

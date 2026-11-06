@@ -62,7 +62,14 @@
             "time_marker": "minecraft:day"
           }
         ],
-        "end_actions": []
+        "end_actions": [
+          {
+            "type": "ltminigames:change_world_border",
+            "center_region": "center",
+            "radius": 1400,
+            "ticks": 2000
+          } 
+        ]
       },
       "nether": {
         "next_stage": "overworld_post_nether",
