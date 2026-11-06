@@ -24,4 +24,4 @@ collectible give @s lt:utility/tropical_map
 give @s ltextras:tropicoin 10
 ### Fix if the spawn items don't work
 #give @s ltextras:collectible_basket
-#collectible unlock @s
+collectible unlock @s
