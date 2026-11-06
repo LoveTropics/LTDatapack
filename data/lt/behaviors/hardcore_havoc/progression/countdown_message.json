@@ -4,7 +4,7 @@
     "message": [
       {
         "text": "$time_remaining",
-        "font": "lt:minecraft_5",
+        "font": "lt:minecraft_five",
         "color": "#CC3A4D",
         "bold": true
       },
@@ -21,7 +21,7 @@
       "text": "$time_remaining",
       "color": "#CC3A4D",
       "bold": true,
-      "font": "lt:minecraft_5"
+      "font": "lt:minecraft_five"
     },
     "subtitle": {
       "text": "until the $dimension closes.",

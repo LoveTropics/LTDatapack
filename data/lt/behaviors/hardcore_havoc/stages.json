@@ -162,7 +162,9 @@
               {
                 "type": "ltminigames:remove_item_from_player",
                 "item": {
-                  "id": "minecraft:slime_ball"
+                  "items": [
+                    "minecraft:slime_ball"
+                  ]
                 }
               }
             ]
