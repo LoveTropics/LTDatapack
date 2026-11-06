@@ -18,6 +18,13 @@
     "split_by_team": true,
     "spectators": ["spectators"]
   },
+  "ltminigames:sync_teams",
+  {
+    "type": "ltminigames:set_client_state",
+    "state": {
+      "type": "ltminigames:glow_team_members"
+    }
+  },
   {
     "type": "ltminigames:game_end_effects",
     "stop_delay": 200

@@ -44,7 +44,7 @@
         "start_actions": [],
         "end_actions": [
           {
-            "type": "ltminigames:set_game_rules",
+            "type": "ltminigames:set_game_rules_now",
             "rules": {
               "minecraft:spawn_mobs": true
             }
