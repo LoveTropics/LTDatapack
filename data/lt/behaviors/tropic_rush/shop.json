@@ -215,7 +215,8 @@
         "tornado": {
           "entity_spawn_settings": {
             "entity": "minecraft:piglin_brute"
-          }
+          },
+          "length_in_ticks": 600
         },
         "mode": "all_target",
         "aim_at_target": true,
@@ -234,7 +235,8 @@
       "actions": {
         "type": "weather2:spawn_tornado",
         "tornado": {
-          "fire": true
+          "fire": true,
+          "length_in_ticks": 600
         },
         "mode": "all_target",
         "aim_at_target": true,
