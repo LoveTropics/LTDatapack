@@ -116,6 +116,9 @@
           "$ref": "../behaviors/ltminigames/display_leadboard.json"
         },
         {
+          "$ref": "../behaviors/ltminigames/donation_milestones.json"
+        },
+        {
           "$ref": "../behaviors/ltminigames/donation_package.json"
         },
         {

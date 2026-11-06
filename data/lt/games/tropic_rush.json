@@ -103,6 +103,15 @@
     "lt:tropic_rush/modifiers",
     "lt:tropic_rush/donations",
     {
+      "type": "ltminigames:donation_milestones",
+      "id": "rules",
+      "every": 20,
+      "actions": {
+        "type": "ltminigames:tropic_rush/change_modifier",
+        "amount": 1
+      }
+    },
+    {
       "type": "ltminigames:tropic_rush/finish",
       "dragon_kill": false,
       "full_bingo_card": true

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ltminigames:donation_milestones"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "$comment": "Unique id for th command"
+    },
+    "every": {
+      "type": "number",
+      "minimum": 0.01,
+      "$comment": "Donated amount in total for each milestone"
+    },
+    "actions": {
+      "$ref": "../../properties/actions.json"
+    },
+    "target": {},
+    "max_runs": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "id",
+    "every",
+    "actions"
+  ]
+}

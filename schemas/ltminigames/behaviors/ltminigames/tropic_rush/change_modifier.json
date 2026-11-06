@@ -6,7 +6,8 @@
       "const": "ltminigames:tropic_rush/change_modifier"
     },
     "modifier": {
-      "type": "string"
+      "type": "string",
+      "$comment": "Leave out to change a random modifier that the amount would change, e.g. one below its max level"
     },
     "amount": {
       "type": "integer"
@@ -17,7 +18,6 @@
   },
   "additionalProperties": false,
   "required": [
-    "type",
-    "modifier"
+    "type"
   ]
 }
