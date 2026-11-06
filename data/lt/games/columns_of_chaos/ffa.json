@@ -4,7 +4,7 @@
     "color": "dark_green"
   },
   "minimum_participants": 1,
-  "maximum_participants": 1000,
+  "maximum_participants": 30,
   "map": {
     "type": "ltminigames:load_map",
     "load_from": "lt:games/pillars_of_wealth"
