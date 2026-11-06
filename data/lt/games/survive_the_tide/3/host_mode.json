@@ -1,0 +1,74 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.survive_the_tide_3",
+    "color": "blue",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.dinner",
+        "color": "aqua"
+      }
+    ]
+  },
+  "subtitle": {
+    "translate": "ltminigames.minigame.high",
+    "color": "red"
+  },
+  "icon": "ltminigames:minigames/survive_the_tide/icon",
+  "hide_from_list": true,
+  "intro_slideshow": "lt:game/survive_the_tide/teams_3",
+  "minimum_participants": 3,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      {
+        "type": "ltminigames:setup_teams",
+        "teams": {
+          "dinners": {
+            "name": "Pantheon",
+            "dye": "red",
+            "assign_roles": ["pantheon"]
+          },
+          "everyone": {
+            "name": "Everyone Else",
+            "dye": "cyan"
+          }
+        }
+      }
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/survive_the_tide/survive_the_tide_3",
+    "dimension_type": "lt:raised_clouds"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:survive_the_tide_3_teams",
+      "statistics_key": "survive_the_tide"
+    },
+    {
+      "type": "lt:survive_the_tide/3/map",
+      "tide": 190
+    },
+    "lt:survive_the_tide/3/phases",
+    "lt:survive_the_tide/mode/teams",
+    "lt:survive_the_tide/3/weather",
+    "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations"
+  ]
+}
