@@ -777,7 +777,7 @@
       {
         "type": "ltminigames:play_sound",
         "sound": "minecraft:entity.generic.eat",
-        "source": "players"
+        "source": "player"
       }
     ]
   }
