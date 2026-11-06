@@ -66,7 +66,7 @@
   },
   "lt:qottott/death",
   {
-    "type": "ltminigames:leaky_pockets",
+    "type": "ltminigames:qottott/leaky_pockets",
     "statistic": "points",
     "item": {
       "id": "ltextras:tropicoin",

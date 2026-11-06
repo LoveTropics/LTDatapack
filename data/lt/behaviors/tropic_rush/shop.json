@@ -268,6 +268,36 @@
       }
     },
     {
+      "id": "leaky_pockets",
+      "icon": "minecraft:green_bundle",
+      "name": {"text": "Leaky Pockets"},
+      "description": [{"text": "The target's pockets start to leak and will start dropping items randomly for 45 seconds"}],
+      "cost": 35,
+      "target": "pick",
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "split_by_player": true,
+        "seconds": 45,
+        "mutex": "lt:leaky_pockets",
+        "apply": {
+          "type": "ltminigames:add_attribute_modifier",
+          "attribute": "ltminigames:leaky_pockets",
+          "modifier": {
+            "id": "lt:leaky_pockets",
+            "amount": 0.0008,
+            "operation": "add_value"
+          }
+        },
+        "clear": {
+          "type": "ltminigames:clear_attribute_modifier",
+          "id": "lt:leaky_pockets",
+          "attribute": "ltminigames:leaky_pockets"
+        }
+      }
+    },
+    {
       "id": "call_friend",
       "icon": "minecraft:goat_horn",
       "name": {"text": "Call a \"Friend\""},

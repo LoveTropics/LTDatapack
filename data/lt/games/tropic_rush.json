@@ -211,6 +211,10 @@
         {"level": 3, "line": "Scope: Normal"},
         {"level": 5, "line": "Scope: Expanded"}
       ]
+    },
+    {
+      "type": "ltminigames:leaky_pockets",
+      "interval": 5
     }
   ]
 }
