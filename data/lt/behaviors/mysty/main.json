@@ -30,18 +30,6 @@
     ],
     "queue": [
       {
-        "game": "lt:mysty/spleef/normal"
-      },
-      {
-        "game": "lt:mysty/spleef/coconut"
-      },
-      {
-        "game": "lt:mysty/spleef/blindness"
-      },
-      {
-        "lobby": {}
-      },
-      {
         "game": "lt:mysty/race/riptide_1"
       },
       {
@@ -49,6 +37,12 @@
       },
       {
         "game": "lt:mysty/race/turtle"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/race/ice_boat"
       },
       {
         "lobby": {}
@@ -66,12 +60,6 @@
         "lobby": {}
       },
       {
-        "game": "lt:mysty/race/ice_boat"
-      },
-      {
-        "lobby": {}
-      },
-      {
         "game": "lt:mysty/platforms"
       },
       {
@@ -79,6 +67,18 @@
       },
       {
         "game": "lt:mysty/build_battle"
+      },
+      {
+        "lobby": {}
+      },
+      {
+        "game": "lt:mysty/spleef/normal"
+      },
+      {
+        "game": "lt:mysty/spleef/coconut"
+      },
+      {
+        "game": "lt:mysty/spleef/blindness"
       },
       {
         "lobby": {}
