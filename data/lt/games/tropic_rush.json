@@ -204,6 +204,16 @@
     },
     {
       "type": "ltminigames:immediate_respawn",
+      "death_message": [
+        {
+          "left_highlight": "#a08e0021",
+          "right_highlight": "#60191829"
+        },
+        {
+          "translate": "ltminigames.minigame.survive_the_tide.eliminated",
+          "color": "gray"
+        }
+      ],
       "drop_inventory": true,
       "respawn_action": [
         "ltminigames:clear_effects",
