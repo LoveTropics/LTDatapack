@@ -103,7 +103,7 @@
     },
     {
       "id": "bad_mic",
-      "icon": "minecraft:goat_horn",
+      "icon": "minecraft:music_disc_11",
       "name": { "text": "Curse of Bad Microphone" },
       "description": [{ "text": "Curse the selected team to have terrible microphone quality for 60 seconds." }],
       "cost": 30,
