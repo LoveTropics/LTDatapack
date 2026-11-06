@@ -40,6 +40,14 @@
         ]
       },
       "weight": 1
+    },
+    {
+      "data": {
+        "actions": [
+          { "type": "lt:integrations/packages/bad_mic", "seconds": 20 }
+        ]
+      },
+      "weight": 1
     }
   ]
 }
