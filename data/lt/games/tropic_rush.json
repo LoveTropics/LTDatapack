@@ -237,6 +237,7 @@
         {"min_fall_distance": 0, "bounciness": 1.0, "fall_damage_multiplier": 0.0}
       ]
     },
-    "ltminigames:game_limted_chat"
+    "ltminigames:game_limted_chat",
+    {"type":  "ltminigames:announcements"}
   ]
 }
