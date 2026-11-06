@@ -90,5 +90,6 @@
   "lt:hardcore_havoc/stages",
   "lt:hardcore_havoc/rules",
   "lt:hardcore_havoc/shop",
-  "lt:hardcore_havoc/donations"
+  "lt:hardcore_havoc/donations",
+  "ltminigames:game_limted_chat"
 ]
