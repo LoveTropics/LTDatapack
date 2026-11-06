@@ -244,7 +244,7 @@
     "overrides": {
       "name_decoration": {
         "prefix": {
-          "text": "[Sponsor] ",
+          "text": "[S] ",
           "color": "yellow"
         },
         "style": "#31a2ac"
