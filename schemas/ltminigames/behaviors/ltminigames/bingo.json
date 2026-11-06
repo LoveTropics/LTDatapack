@@ -102,6 +102,13 @@
                 "challenge"
               ],
               "default": "obtain"
+            },
+            "column_multipliers": {
+              "type": "array",
+              "description": "Makes the tile a column multiplier: completing it multiplies the points of every other tile in its column, including those already completed.",
+              "items": {
+                "type": "number"
+              }
             }
           },
           "additionalProperties": false,

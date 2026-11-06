@@ -642,7 +642,8 @@
             }
           }
         },
-        "tile_type": "column_multiplier"
+        "tile_type": "column_multiplier",
+        "column_multipliers": [1.5, 1.3, 1.15]
       },
       "5:1": {
         "icon": {
@@ -666,7 +667,8 @@
             }
           }
         },
-        "tile_type": "column_multiplier"
+        "tile_type": "column_multiplier",
+        "column_multipliers": [1.5, 1.3, 1.15]
       },
       "5:2": {
         "icon": {
@@ -692,7 +694,8 @@
             }
           }
         },
-        "tile_type": "column_multiplier"
+        "tile_type": "column_multiplier",
+        "column_multipliers": [1.5, 1.3, 1.15]
       },
       "5:3": {
         "icon": {
@@ -719,7 +722,8 @@
             }
           }
         },
-        "tile_type": "column_multiplier"
+        "tile_type": "column_multiplier",
+        "column_multipliers": [1.5, 1.3, 1.15]
       },
       "5:4": {
         "icon": {
@@ -752,7 +756,8 @@
             }
           }
         },
-        "tile_type": "column_multiplier"
+        "tile_type": "column_multiplier",
+        "column_multipliers": [1.5, 1.3, 1.15]
       }
     }
   },
