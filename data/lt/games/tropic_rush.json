@@ -45,7 +45,7 @@
       "rules": {
         "minecraft:command_blocks_work": false,
         "minecraft:locator_bar": false,
-        "minecraft:show_advancement_messages": false,
+        "minecraft:show_advancement_messages": true,
         "tropicraft:unrestricted_exploding_coconuts": true
       }
     },
