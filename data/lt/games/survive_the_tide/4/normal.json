@@ -6,7 +6,7 @@
   "icon": "ltminigames:minigames/survive_the_tide/icon",
   "minimum_participants": 3,
   "maximum_participants": 1000,
-  "hide_from_list": true,
+  "hide_from_list": false,
   "waiting": {
     "map": {
       "type": "ltminigames:load_map",
@@ -25,7 +25,7 @@
   },
   "map": {
     "type": "ltminigames:load_map",
-    "load_from": "lt:games/survive_the_tide/survive_the_tide_4"
+    "load_from": "lt:games/survive_the_tide/04"
   },
   "behaviors": [
     {
