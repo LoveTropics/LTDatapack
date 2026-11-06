@@ -1,17 +1,5 @@
 {
   "type": "ltminigames:shop",
   "tropicoins_per_donated_amount": 10,
-  "offers": [
-    {
-      "icon": "minecraft:iron_pickaxe",
-      "name": {"text": "Iron Pickaxe"},
-      "description": {"text": "Skip straight to mining iron"},
-      "flavor": "bonus",
-      "cost": 5,
-      "actions": {
-        "type": "ltminigames:add_equipment",
-        "items": ["minecraft:iron_pickaxe"]
-      }
-    }
-  ]
+  "offers": []
 }
