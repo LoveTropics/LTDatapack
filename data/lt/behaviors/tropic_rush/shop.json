@@ -319,6 +319,7 @@
       }
     },
     {
+      "id": "adventure",
       "icon": "minecraft:map",
       "name": {"text": "Let's go on an Adventure!"},
       "description": [{"text": "Puts a player in adventure mode for 60 seconds. Truly an adventure."}],
