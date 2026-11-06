@@ -70,9 +70,8 @@
             "ticks": 1000
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "start_size": "1900",
-            "end_size": "1400",
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "size_change": "1900 -> 1400",
             "duration_string": "one minute!"
           }
         ]
@@ -155,9 +154,8 @@
             "ticks": 800
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "start_size": "1400",
-            "end_size": "1000",
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "size_change": "1400 -> 1000",
             "duration_string": "fourty seconds!"
           }
         ]
@@ -184,9 +182,8 @@
             "ticks": 500
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "start_size": "1000",
-            "end_size": "500",
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "size_change": "1000 -> 500",
             "duration_string": "twenty-five seconds!"
           }
         ]
@@ -269,9 +266,8 @@
             "ticks": 6000
           },
           {
-            "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-            "start_size": "500",
-            "end_size": "100",
+            "type": "lt:hardcore_havoc/progress/world_border_shrinking_message",
+            "size_change": "500 -> 100",
             "duration_string": "five minutes!"
           }
         ]

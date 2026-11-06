@@ -3,7 +3,7 @@
     "type": "ltminigames:send_message",
     "message": [
       {
-        "text": "$start_size -> $end_size",
+        "text": "$size_change",
         "font": "lt:minecraft_5",
         "color": "#CC3A4D",
         "bold": true
@@ -18,7 +18,7 @@
   {
     "type": "ltminigames:show_title",
     "title": {
-      "text": "$start_size -> $end_size",
+      "text": "$size_change",
       "color": "#CC3A4D",
       "bold": true,
       "font": "lt:minecraft_5"
