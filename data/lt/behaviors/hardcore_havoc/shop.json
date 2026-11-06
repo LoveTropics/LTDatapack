@@ -14,7 +14,7 @@
     },
     {
       "id": "swiftness_potion",
-      "icon": { "id": "minecraft:potion", "count": 1, "potion_contents": {"potion": "minecraft:swiftness"} },
+      "icon": { "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:swiftness" } } },
       "name": { "text": "Swiftness Potion" },
       "description": [{ "text": "a potion of swiftness." }],
       "cost": 25,
@@ -22,12 +22,12 @@
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": {"potion": "minecraft:swiftness"} }]
+        "items": [{ "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:swiftness" } } }]
       }
     },
     {
       "id": "regen_potion",
-      "icon": { "id": "minecraft:potion", "count": 1, "potion_contents": {"potion": "minecraft:regeneration"}},
+      "icon": { "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:regeneration" } } },
       "name": { "text": "Regeneration Potion" },
       "description": [{ "text": "A potion of regeneration." }],
       "cost": 30,
@@ -35,7 +35,7 @@
       "flavor": "bonus",
       "actions": {
         "type": "ltminigames:add_equipment",
-        "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": {"potion": "minecraft:regeneration"} }]
+        "items": [{ "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:regeneration" } } }]
       }
     },
     {
@@ -99,7 +99,10 @@
       "cost": 30,
       "stock": 30,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6 }] }
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6, "components": { "food": { "nutrition": 8, "saturation": 3 } } }]
+      }
     },
     {
       "id": "bad_mic",
