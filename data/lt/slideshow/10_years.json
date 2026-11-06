@@ -1,0 +1,11 @@
+{
+  "default_transition": 0.0,
+  "looping": true,
+  "slides": [
+    {
+      "type": "video",
+      "file": "https://cdn.lovetropics.org/uploads/overtheyears2026.mp4",
+      "duration": 60.0
+    }
+  ]
+}
