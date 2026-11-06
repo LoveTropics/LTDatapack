@@ -127,6 +127,18 @@
         ]
       }
     },
+    {
+      "id": "fire_extinguisher",
+      "icon": "ltextras:fire_extinguisher",
+      "name": {"text": "Fire Extinguisher"},
+      "cost": 45,
+      "stock": 10,
+      "flavor": "bonus",
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": ["ltextras:fire_extinguisher"]
+      }
+    },
 
 
     {
