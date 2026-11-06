@@ -1,0 +1,28 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "player_team_donation",
+  "package_type": "care_package",
+  "target": "player",
+  "donation_amount": "$amount",
+  "apply_to_team": true,
+  "receive_actions": [
+    {
+      "type": "ltminigames:give_items_amount_based",
+      "item": "ltextras:tropicoin",
+      "per_amount": "$per_amount"
+    },
+    {
+      "type": "ltminigames:show_title",
+      "subtitle": {
+        "translate": "ltminigames.minigame.donation.player_donation.title",
+        "color": "red"
+      },
+      "stay": 60
+    }
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltextras:tropicoin"
+    }
+  }
+}

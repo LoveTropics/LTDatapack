@@ -6,6 +6,7 @@
     "rejoin": "restore",
     "statistics_key": "hardcore_havoc"
   },
+  {"type":  "ltminigames:announcements"},
   {
     "type": "ltminigames:position_players",
     "teams": {

@@ -1,0 +1,24 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "loyal_donator_package",
+  "package_type": "care_package",
+  "target": "player",
+  "donation_amount": "$amount",
+  "receive_actions": [
+    {
+      "type": "ltminigames:spawn_entity_disguised_as_donator_and_tamed_by_target",
+      "entity": {
+        "type": "minecraft:wolf",
+        "tag": {
+          "Silent": true
+        }
+      },
+      "distance": 3.0
+    }
+  ],
+  "notification": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    }
+  }
+}
