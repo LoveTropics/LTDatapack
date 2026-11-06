@@ -78,12 +78,7 @@
   },
   {
     "type": "lt:survive_the_tide/explosive_storm",
-    "center_region": "explosive_storm"
-  },
-  {
-    "type": "lt:survive_the_tide/loot_drop",
-    "loot_table": "lt:stt/tier_3",
-    "count": 1
+    "center_region": "center"
   },
   "ltminigames:disable_tnt_block_destruction",
   {

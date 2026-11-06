@@ -20,6 +20,8 @@
       "rain_start_5": 830,
       "tide_rise_5": 835,
       "rain_end_5": 860,
+      "announce_extraction": 861,
+      "open_extraction": 871,
       "explosive_storm_start": 1000,
       "explosive_storm_mid": 1150,
       "explosive_storm_end": 1300,
@@ -181,5 +183,6 @@
         "color": "red"
       }
     ]
-  }
+  },
+  "lt:survive_the_tide/4/extraction"
 ]

@@ -1,0 +1,87 @@
+[
+  {
+    "type": "ltminigames:scheduled_actions",
+    "target": "all_players",
+    "actions": {
+      "announce_extraction": [
+        {
+          "type": "ltminigames:play_sound",
+          "sound": "minecraft:block.end_portal.spawn",
+          "pitch": 0.2
+        },
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "10 seconds",
+            "color": "#CC3A4D",
+            "bold": true,
+            "font": "lt:minecraft_five"
+          },
+          "subtitle": [
+            {
+              "text": "until the extraction zone opens.",
+              "color": "gray"
+            }
+          ],
+          "stay": 50
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "10 seconds",
+              "font": "lt:minecraft_five",
+              "color": "#CC3A4D",
+              "bold": true
+            },
+            {
+              "text": " until the extraction zone opens.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        }
+      ],
+      "open_extraction": [
+        {
+          "type": "ltminigames:show_title",
+          "title": {
+            "text": "Extraction Zone",
+            "color": "#CC3A4D",
+            "bold": true,
+            "font": "lt:minecraft_five"
+          },
+          "subtitle": [
+            {
+              "text": "now open.",
+              "color": "gray"
+            }
+          ],
+          "stay": 50
+        },
+        {
+          "type": "ltminigames:send_message",
+          "message": [
+            {
+              "text": "Extraction Zone",
+              "font": "lt:minecraft_five",
+              "color": "#CC3A4D",
+              "bold": true
+            },
+            {
+              "text": " now open.",
+              "color": "gray",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "ltminigames:extraction_layer",
+          "region": "pickup_contest_zone",
+          "seconds": 5,
+          "initial_seconds": 15
+        }
+      ]
+    }
+  }
+]
