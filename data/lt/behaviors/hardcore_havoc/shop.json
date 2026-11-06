@@ -18,7 +18,10 @@
       "cost": 25,
       "stock": 15,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:swiftness" }] }
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:swiftness" }]
+      }
     },
     {
       "icon": { "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:regeneration" },
@@ -27,7 +30,10 @@
       "cost": 30,
       "stock": 15,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:regeneration" }] }
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "minecraft:potion", "count": 1, "potion_contents": "minecraft:regeneration" }]
+      }
     },
     {
       "icon": { "id": "minecraft:golden_apple", "count": 1 },
@@ -63,7 +69,10 @@
       "cost": 20,
       "stock": 15,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" }] }
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" }]
+      }
     },
     {
       "icon": { "id": "ltminigames:lightning_arrow", "count": 1 },
@@ -82,11 +91,11 @@
       "stock": 30,
       "flavor": "bonus",
       "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6 }] }
-	},
+    },
     {
       "icon": "minecraft:goat_horn",
-      "name": {"text": "Curse of Bad Microphone"},
-      "description": [{"text": "Curse the selected team to have terrible microphone quality for 60 seconds."}],
+      "name": { "text": "Curse of Bad Microphone" },
+      "description": [{ "text": "Curse the selected team to have terrible microphone quality for 60 seconds." }],
       "cost": 32,
       "target": "pick",
       "target_team": true,
@@ -109,8 +118,8 @@
     },
     {
       "icon": "minecraft:barrier",
-      "name": {"text": "Curse of No Microphone"},
-      "description": [{"text": "Curse the selected team to have NO microphones for 60 seconds."}],
+      "name": { "text": "Curse of No Microphone" },
+      "description": [{ "text": "Curse the selected team to have NO microphones for 60 seconds." }],
       "cost": 64,
       "target": "pick",
       "target_team": true,
@@ -133,8 +142,8 @@
     },
     {
       "icon": "minecraft:goat_horn",
-      "name": {"text": "Talk to Team"},
-      "description": [{"text": "Open a voice group with the selected team for 60 seconds. To say nice things to them, of course!"}],
+      "name": { "text": "Talk to Team" },
+      "description": [{ "text": "Open a voice group with the selected team for 60 seconds. To say nice things to them, of course!" }],
       "cost": 32,
       "target": "pick",
       "target_team": true,
@@ -144,7 +153,7 @@
       "actions": {
         "type": "ltgames_voice:timed_group",
         "seconds": 60
-     }
+      }
     }
   ]
 }
