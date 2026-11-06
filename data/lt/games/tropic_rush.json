@@ -198,13 +198,6 @@
       "degrees_per_level": 1.0
     },
     {
-      "type": "ltminigames:tropic_rush/attribute_per_level",
-      "modifier": "heavy",
-      "attribute": "minecraft:gravity",
-      "amount_per_level": 0.02,
-      "operation": "add_multiplied_base"
-    },
-    {
       "type": "ltminigames:tropic_rush/scramble_debug_screen",
       "modifier": "bugged_debug",
       "shuffle_level": 1,
