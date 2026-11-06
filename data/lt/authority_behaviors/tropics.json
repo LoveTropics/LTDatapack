@@ -20,6 +20,7 @@
     "modify_signs": "deny",
     "player_damage": "deny",
     "portals": "deny",
-    "pvp": "deny"
+    "pvp": "deny",
+    "place": "deny"
   }
 }
