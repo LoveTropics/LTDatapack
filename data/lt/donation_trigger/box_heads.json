@@ -20,7 +20,7 @@
         "min": 0.5,
         "max": 3
       },
-      "scale_per_dollar": 0.01,
+      "scale_per_dollar": 0.025,
       "max_hats": 50,
       "item": "ltextras:word_box"
     }
