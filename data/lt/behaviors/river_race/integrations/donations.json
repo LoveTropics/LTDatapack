@@ -4,7 +4,7 @@
   "lt:integrations/packages/money_grows_on_trees",
   "lt:integrations/packages/team_coins",
   "lt:river_race/integrations/feed_the_hungry",
-  "lt:integrations/packages/mute_team_vc",
+  {"type": "lt:integrations/packages/mute_team_vc", "seconds":  30} ,
   "lt:integrations/packages/invert_controls",
   "lt:river_race/integrations/spawner_buff",
   "lt:river_race/integrations/silverfish_infestation",
