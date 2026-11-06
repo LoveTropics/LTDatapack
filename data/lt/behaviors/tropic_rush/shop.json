@@ -288,6 +288,20 @@
           "state": "ltminigames:remap_movement"
         }
       }
+    },
+    {
+      "icon": "minecraft:goat_horn",
+      "name": {"text": "Talk to Player"},
+      "description": [{"text": "Open a voice group with the selected player for 60 seconds. To say nice things to them, of course!"}],
+      "cost": 8,
+      "target": "pick",
+      "include_self": true,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions":{
+        "type": "ltgames_voice:timed_group",
+        "seconds": 60
+      }
     }
   ]
 }
