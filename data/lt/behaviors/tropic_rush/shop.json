@@ -291,9 +291,9 @@
     },
     {
       "icon": "minecraft:goat_horn",
-      "name": {"text": "Talk to Player"},
+      "name": {"text": "Call a \"Friend\""},
       "description": [{"text": "Open a voice group with the selected player for 60 seconds. To say nice things to them, of course!"}],
-      "cost": 5,
+      "cost": 12,
       "target": "pick",
       "include_self": true,
       "usable_by": "all",

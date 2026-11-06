@@ -4,9 +4,57 @@
   "offers": [
     {
       "icon": "minecraft:goat_horn",
+      "name": {"text": "Curse of Bad Microphone"},
+      "description": [{"text": "Curse the selected team to have terrible microphone quality for 60 seconds."}],
+      "cost": 32,
+      "target": "pick",
+      "target_team": true,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "mutex": "lt:microphone",
+        "split_by_player": true,
+        "apply": {
+          "type": "ltgames_voice:modify_voice",
+          "quality": 0.1
+        },
+        "clear": {
+          "type": "ltgames_voice:modify_voice",
+          "quality": 1.0
+        },
+        "seconds": 60
+      }
+    },
+    {
+      "icon": "minecraft:barrier",
+      "name": {"text": "Curse of No Microphone"},
+      "description": [{"text": "Curse the selected team to have NO microphones for 60 seconds."}],
+      "cost": 64,
+      "target": "pick",
+      "target_team": true,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:apply_for_time",
+        "mutex": "lt:microphone",
+        "split_by_player": true,
+        "apply": {
+          "type": "ltgames_voice:modify_voice",
+          "volume": 0.0
+        },
+        "clear": {
+          "type": "ltgames_voice:modify_voice",
+          "volume": 1.0
+        },
+        "seconds": 60
+      }
+    },
+    {
+      "icon": "minecraft:goat_horn",
       "name": {"text": "Talk to Team"},
       "description": [{"text": "Open a voice group with the selected team for 60 seconds. To say nice things to them, of course!"}],
-      "cost": 5,
+      "cost": 32,
       "target": "pick",
       "target_team": true,
       "include_self": true,
