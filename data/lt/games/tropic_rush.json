@@ -195,7 +195,8 @@
     {
       "type": "ltminigames:tropic_rush/ender_pearl_deviation",
       "modifier": "pearl_deviation",
-      "degrees_per_level": 1.0
+      "max_degrees": 180.0,
+      "growth": 3.0
     },
     {
       "type": "ltminigames:tropic_rush/scramble_debug_screen",

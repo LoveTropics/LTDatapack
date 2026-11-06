@@ -5,10 +5,10 @@
       "id": "pearl_deviation",
       "icon": "minecraft:ender_pearl",
       "name": {"text": "Wonky Pearls"},
-      "description": {"text": "Thrown ender pearls veer off course, by 1 degree per level"},
+      "description": {"text": "Thrown ender pearls veer off course, three times more with every level, until they turn right back around"},
       "riddle": {"text": "Aim true all you like, the void has other plans"},
-      "base_level": 2,
-      "max_level": 30
+      "base_level": 1,
+      "max_level": 5
     },
     {
       "id": "bugged_debug",

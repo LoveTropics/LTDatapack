@@ -8,14 +8,22 @@
     "modifier": {
       "type": "string"
     },
-    "degrees_per_level": {
-      "type": "number"
+    "max_degrees": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 180,
+      "$comment": "Deviation at the max level of the modifier"
+    },
+    "growth": {
+      "type": "number",
+      "minimum": 1,
+      "$comment": "How many times more each level deviates than the one below, defaults to 2"
     }
   },
   "additionalProperties": false,
   "required": [
     "type",
     "modifier",
-    "degrees_per_level"
+    "max_degrees"
   ]
 }
