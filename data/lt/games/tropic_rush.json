@@ -259,6 +259,13 @@
     },
     "lt:common/game_over_title",
     "ltminigames:game_limted_chat",
-    {"type":  "ltminigames:announcements"}
+    {"type": "ltminigames:announcements"},
+    {
+      "type": "ltminigames:modify_loot_tables",
+      "replace": {
+        "minecraft:chests/trial_chambers/reward": "lt:tropic_rush/reward",
+        "minecraft:chests/trial_chambers/reward_ominous": "lt:tropic_rush/reward_ominous"
+      }
+    }
   ]
 }
