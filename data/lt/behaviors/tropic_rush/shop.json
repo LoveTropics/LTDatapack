@@ -3,6 +3,7 @@
   "tropicoins_per_donated_amount": 6,
   "offers": [
     {
+      "id": "spying_shard",
       "icon": "minecraft:amethyst_shard",
       "name": {"text": "Spying Shard"},
       "description": [{"text": "Peek at a player's inventory or watch them for a minute (90 second cooldown)"}],
@@ -25,6 +26,7 @@
       }
     },
     {
+      "id": "iron_ingot",
       "icon": {"id": "minecraft:iron_ingot", "count": 5},
       "name": {"text": "Iron"},
       "description": [{"text": "5 iron ingots"}],
@@ -37,6 +39,7 @@
       }
     },
     {
+      "id": "wood",
       "icon": {"id": "minecraft:oak_log", "count": 10},
       "name": {"text": "Wood"},
       "description": [{"text": "10 oak logs"}],
@@ -49,6 +52,7 @@
       }
     },
     {
+      "id": "steak",
       "icon": {"id": "minecraft:cooked_beef", "count": 8},
       "name": {"text": "Steak"},
       "description": [{"text": "8 cooked beef"}],
@@ -61,6 +65,7 @@
       }
     },
     {
+      "id": "speed",
       "icon": {
         "id": "minecraft:potion",
         "components": {
@@ -85,6 +90,7 @@
       }
     },
     {
+      "id": "ominous",
       "icon": "minecraft:ominous_bottle",
       "name": {"text": "Ominous Bottle"},
       "description": [{"text": "Drink it to get Bad Omen"}],
@@ -97,6 +103,7 @@
       }
     },
     {
+      "id": "channeling",
       "icon": {
         "id": "minecraft:enchanted_book",
         "components": {
@@ -123,6 +130,7 @@
 
 
     {
+      "id": "butterfingers",
       "icon": "minecraft:wooden_pickaxe",
       "name": {"text": "Butterfingers"},
       "description": [{"text": "Mining Fatigue II for 60 seconds"}],
@@ -142,6 +150,7 @@
       }
     },
     {
+      "id": "blackout",
       "icon": "minecraft:black_dye",
       "name": {"text": "Blackout"},
       "description": [{"text": "Blinds a random player for 30 seconds"}],
@@ -161,6 +170,7 @@
       }
     },
     {
+      "id": "blaze_disguise",
       "icon": {
         "id": "peekaboo:disguise",
         "components": {
@@ -194,6 +204,7 @@
       }
     },
     {
+      "id": "invert_controls",
       "icon": "ltminigames:control_inverter",
       "name": {"text": "Invert Controls"},
       "description": [{"text": "Inverts a player controls 30 seconds"}],
@@ -217,6 +228,7 @@
       }
     },
     {
+      "id": "piglin_brutenado",
       "icon": {
         "id": "peekaboo:disguise",
         "components": {
@@ -246,6 +258,7 @@
       }
     },
     {
+      "id": "firenado",
       "icon": "minecraft:flint_and_steel",
       "name": {"text": "Firenado"},
       "description": [{"text": "Spawn a Firenado near a player"}],
@@ -264,6 +277,7 @@
       }
     },
     {
+      "id": "moonwalk",
       "icon": "minecraft:leather_boots",
       "name": {"text": "Moonwalk"},
       "description": [{"text": "Stops a player from moving forward for 45 seconds"}],
@@ -290,6 +304,7 @@
       }
     },
     {
+      "id": "call_friend",
       "icon": "minecraft:goat_horn",
       "name": {"text": "Call a \"Friend\""},
       "description": [{"text": "Open a voice group with the selected player for 24 seconds. To say nice things to them, of course!"}],
