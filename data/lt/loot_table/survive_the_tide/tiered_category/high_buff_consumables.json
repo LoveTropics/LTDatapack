@@ -24,7 +24,7 @@
         },
         {
           "type": "ltextras:item_template",
-          "template": "lt:loot/ammo/pc_energy",
+          "template": "lt:loot/healing/pc_energy",
           "weight": 2,
           "functions": [
             {
@@ -38,7 +38,7 @@
         },
         {
           "type": "ltextras:item_template",
-          "template": "lt:loot/ammo/colada_ral_damage",
+          "template": "lt:loot/healing/colada_ral_damage",
           "weight": 4,
           "functions": [
             {

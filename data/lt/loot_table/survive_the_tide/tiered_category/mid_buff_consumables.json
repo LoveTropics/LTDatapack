@@ -34,7 +34,7 @@
         },
         {
           "type": "ltextras:item_template",
-          "template": "lt:loot/ammo/pc_energy",
+          "template": "lt:loot/healing/pc_energy",
           "weight": 1,
           "functions": [
             {
