@@ -151,6 +151,106 @@
           "target": "participants"
         }
       ]
+    },
+    {
+      "id": "shuffle_movement_keys",
+      "icon": {
+        "effect": "minecraft:nausea"
+      },
+      "name": "Shuffle Movement Keys",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:apply_for_time",
+          "mutex": "lt:shuffle_movement",
+          "apply": {
+            "target": "participants",
+            "actions": {
+              "type": "ltminigames:apply_client_state",
+              "state": {
+                "type": "ltminigames:remap_movement",
+                "keys": {"forward": "left", "backward": "forward", "left": "right", "right": "backward"}
+              }
+            }
+          },
+          "clear": {
+            "target": "all_players",
+            "actions": {
+              "type": "ltminigames:remove_client_state",
+              "state": "ltminigames:remap_movement"
+            }
+          },
+          "seconds": "30"
+        }
+      ]
+    },
+    {
+      "id": "all_players_glowing",
+      "icon": {
+        "effect": "minecraft:glowing"
+      },
+      "name": "All Players Glowing",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:glowing",
+              "seconds": 30,
+              "amplifier": 1,
+              "particles": false,
+              "show_icon": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "all_players_blind",
+      "icon": {
+        "effect": "minecraft:glowing"
+      },
+      "name": "All Players Blind",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:give_effect",
+          "effects": [
+            {
+              "type": "minecraft:blindness",
+              "seconds": 30,
+              "amplifier": 1,
+              "particles": false,
+              "show_icon": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spawn_creeper_at_all_players",
+      "icon": {
+        "item": "minecraft:creeper_spawn_egg"
+      },
+      "name": "Spawn Creeper on All Players",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:spawn_entity_at_player",
+          "entity": {
+            "type": "minecraft:creeper"
+          }
+        }
+      ]
     }
   ]
 }
