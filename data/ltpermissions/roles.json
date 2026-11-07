@@ -91,8 +91,32 @@
       }
     }
   },
+  "mysty_magenta": {
+    "includes": ["hoedown"]
+  },
+  "mysty_cyan":{
+    "includes": ["hoedown"]
+  },
+  "mysty_yellow": {
+    "includes": ["hoedown"]
+  },
+  "mysty_light_gray":{
+    "includes": ["hoedown"]
+  },
+  "mysty_green": {
+    "includes": ["hoedown"]
+  },
+  "mysty_orange":{
+    "includes": ["hoedown"]
+  },
+  "mysty_black": {
+    "includes": ["hoedown"]
+  },
+  "mysty_red":{
+    "includes": ["hoedown"]
+  },
   "hoedown": {
-    "includes": ["creator"],
+    "includes": [],
     "overrides": {
       "name_decoration": {
         "style": "#ffb005"
