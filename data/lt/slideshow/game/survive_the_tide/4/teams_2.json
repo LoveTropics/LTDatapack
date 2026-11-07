@@ -1,0 +1,46 @@
+{
+  "default_transition": 1.0,
+  "slides": [
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt4_slide_1.png",
+      "header": "Survive the Tide IV",
+      "body": "Rainfall is coming and your company has abandoned you. Flooding will be frequent.",
+      "duration": 6.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt4_slide_2.png",
+      "header": "Survive the Tide IV - Blue vs. Red",
+      "body": "Stick with your team. Your survival depends on it.",
+      "duration": 5.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt4_slide_3.png",
+      "header": "Survive the Tide IV - Loot Pipes",
+      "body": "Chests are rare. Pipes with loot droppers aren't. If your team wants gear, they'll be how you get it.",
+      "duration": 7.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt4_slide_4.png",
+      "header": "Survive the Tide IV - Big Red Buttons",
+      "body": "Near every loot dropper is a button to start it. But you'll need enough of your teammates nearby to activate them.",
+      "duration": 7.0
+    },
+    {
+      "type": "image",
+      "file": "https://cdn.lovetropics.org/uploads/stt4_slide_6.png",
+      "header": "In 15 minutes extraction will open. You entire team must claim it to win.",
+      "duration": 6.0,
+      "transition_out": 1.0
+    },
+    {
+      "type": "blank",
+      "header": "Good luck!",
+      "duration": 5.0,
+      "transition_out": 1.0
+    }
+  ]
+}
