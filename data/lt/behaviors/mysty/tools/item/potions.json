@@ -2,28 +2,10 @@
   "type": "ltminigames:add_equipment",
   "items": [
     {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:slowness"
-        },
-        "ltextras:undroppable": {}
-      }
-    },
-    {
       "id": "minecraft:lingering_potion",
       "components": {
         "minecraft:potion_contents": {
           "potion": "minecraft:slowness"
-        },
-        "ltextras:undroppable": {}
-      }
-    },
-    {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:healing"
         },
         "ltextras:undroppable": {}
       }
@@ -38,29 +20,12 @@
       }
     },
     {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "custom_effects": [
-            {
-              "duration": 1800,
-              "show_icon": true,
-              "amplifier": 1,
-              "id": "minecraft:blindness"
-            }
-          ]
-        },
-        "minecraft:custom_name": {"text": "Splash Potion of Blindness", "italic": false},
-        "ltextras:undroppable": {}
-      }
-    },
-    {
       "id": "minecraft:lingering_potion",
       "components": {
         "minecraft:potion_contents": {
           "custom_effects": [
             {
-              "duration": 1800,
+              "duration": 1000,
               "show_icon": true,
               "amplifier": 1,
               "id": "minecraft:blindness"
@@ -72,29 +37,12 @@
       }
     },
     {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "custom_effects": [
-            {
-              "duration": 1800,
-              "show_icon": true,
-              "amplifier": 0,
-              "id": "minecraft:glowing"
-            }
-          ]
-        },
-        "minecraft:custom_name": {"text": "Splash Potion of Glowing", "italic": false},
-        "ltextras:undroppable": {}
-      }
-    },
-    {
       "id": "minecraft:lingering_potion",
       "components": {
         "minecraft:potion_contents": {
           "custom_effects": [
             {
-              "duration": 1800,
+              "duration": 1000,
               "show_icon": true,
               "amplifier": 0,
               "id": "minecraft:glowing"
