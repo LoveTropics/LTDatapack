@@ -7,7 +7,7 @@
           { "type": "lt:mysty/integrations/packages/player_boom" }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -15,7 +15,7 @@
           { "type": "lt:mysty/integrations/packages/effects/speed", "seconds": 30, "amplifier": 1 }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -23,7 +23,7 @@
           { "type": "lt:mysty/integrations/packages/wind_charge_offhand", "count": 6 }
         ]
       },
-      "weight": 1
+      "weight": 2
     }
   ],
   "chaos_effects": [
@@ -33,7 +33,7 @@
           { "type": "lt:mysty/integrations/packages/meteor_storm", "explosion_strength": 1 }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -57,7 +57,7 @@
           { "type": "lt:mysty/integrations/packages/swap_players" }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -65,7 +65,7 @@
           { "type": "lt:mysty/integrations/packages/creeper" }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -73,7 +73,7 @@
           { "type": "lt:mysty/integrations/packages/slipperiness", "seconds": 30 }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -81,7 +81,7 @@
           { "type": "lt:mysty/integrations/packages/random_disguise", "seconds": 30 }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -89,7 +89,7 @@
           { "type": "lt:mysty/integrations/packages/player_dummy", "seconds": 30 }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -97,7 +97,7 @@
           { "type": "lt:mysty/integrations/packages/player_dvd" }
         ]
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "data": {
@@ -105,7 +105,7 @@
           { "type": "lt:integrations/packages/bad_mic", "seconds": 20 }
         ]
       },
-      "weight": 1
+      "weight": 2
     }
   ]
 }
