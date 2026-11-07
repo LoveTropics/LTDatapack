@@ -160,6 +160,12 @@
       "type": "lt:fixed_rewards",
       "coins": 10
     },
-    "ltminigames:disable_throwing_items"
+    "ltminigames:disable_throwing_items",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "minecraft:command_blocks_work": false
+      }
+    }
   ]
 }
