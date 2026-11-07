@@ -155,7 +155,8 @@
             "item_model": "lt:edible_nether_portal",
             "team": "red",
             "region": "nether_red",
-            "text": "Nether Teleport"
+            "text": "Nether Teleport",
+            "subcommand": "nether_red"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -163,7 +164,8 @@
             "item_model": "lt:edible_nether_portal",
             "team": "blue",
             "region": "nether_blue",
-            "text": "Nether Teleport"
+            "text": "Nether Teleport",
+            "subcommand": "nether_blue"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -171,7 +173,8 @@
             "item_model": "lt:edible_nether_portal",
             "team": "yellow",
             "region": "nether_yellow",
-            "text": "Nether Teleport"
+            "text": "Nether Teleport",
+            "subcommand": "nether_yellow"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -179,7 +182,8 @@
             "item_model": "lt:edible_nether_portal",
             "team": "green",
             "region": "nether_green",
-            "text": "Nether Teleport"
+            "text": "Nether Teleport",
+            "subcommand": "nether_green"
           }
         ],
         "end_actions": [
@@ -507,7 +511,8 @@
             "item_model": "lt:edible_end_portal",
             "team": "red",
             "region": "end_red",
-            "text": "End Teleport"
+            "text": "End Teleport",
+            "subcommand": "end_red"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -515,7 +520,8 @@
             "item_model": "lt:edible_end_portal",
             "team": "blue",
             "region": "end_blue",
-            "text": "End Teleport"
+            "text": "End Teleport",
+            "subcommand": "end_blue"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -523,7 +529,8 @@
             "item_model": "lt:edible_end_portal",
             "team": "yellow",
             "region": "end_yellow",
-            "text": "End Teleport"
+            "text": "End Teleport",
+            "subcommand": "end_yellow"
           },
           {
             "type": "lt:hardcore_havoc/transport_items",
@@ -531,7 +538,8 @@
             "item_model": "lt:edible_end_portal",
             "team": "green",
             "region": "end_green",
-            "text": "End Teleport"
+            "text": "End Teleport",
+            "subcommand": "end_green"
           }
         ],
         "end_actions": [

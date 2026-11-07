@@ -9,6 +9,7 @@
       "type": "ltminigames:give_dimension_transport_item",
       "target_dimension_type": "$dimension",
       "target_region": "$region",
+      "subcommand": "$subcommand",
       "item": {
         "id": "minecraft:slime_ball",
         "components": {
