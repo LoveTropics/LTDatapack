@@ -32,8 +32,9 @@
     {
       "type": "image",
       "file": "https://cdn.lovetropics.org/uploads/stt4_slide_6.png",
-      "header": "In 15 minutes extraction will open. You entire team must claim it to win.",
-      "duration": 6.0,
+      "header": "Survive the Tide IV - Extraction",
+      "body": "In 15 minutes an extraction zone will open at the ravines highest level. Your entire team must claim it to win.",
+      "duration": 7.0,
       "transition_out": 1.0
     },
     {
