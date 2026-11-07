@@ -13,6 +13,13 @@
       }
     }
   },
+  "fake_organiser": {
+    "overrides": {
+      "name_decoration": {
+        "style": "#2ecc71"
+      }
+    }
+  },
   "alt_account": {
     "includes": ["administration"],
     "overrides": {
