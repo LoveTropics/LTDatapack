@@ -4,7 +4,7 @@
     "id": "mysty_chaos_1",
     "package_type": "sabotage_package",
     "target": "all_players",
-    "donation_amount": 15.0,
+    "donation_amount": 5.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
@@ -32,7 +32,7 @@
     "id": "mysty_chaos_2",
     "package_type": "sabotage_package",
     "target": "all_players",
-    "donation_amount": 30.0,
+    "donation_amount": 10.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
@@ -70,7 +70,7 @@
     "id": "mysty_chaos_4",
     "package_type": "sabotage_package",
     "target": "all_players",
-    "donation_amount": 50.0,
+    "donation_amount": 15.0,
     "receive_actions": {
       "type": "ltminigames:sequence",
       "sequence": [
