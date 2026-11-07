@@ -4,6 +4,13 @@
     "plots_name": "build_plot",
     "theme": "A Tropical Masterpiece"
   },
+  {
+    "type": "ltminigames:action_bar",
+    "text": {
+      "text": "Build a Tropical Masterpiece",
+      "color": "green"
+    }
+  },
   "lt:common/spectator",
   "lt:mysty/global",
   "lt:mysty/integrations/build_battle",
