@@ -1,0 +1,10 @@
+{
+  "type": "ltminigames:add_equipment",
+  "offhand": {
+    "id": "minecraft:wind_charge",
+    "count": "$count",
+    "components": {
+      "ltextras:undroppable": {}
+    }
+  }
+}

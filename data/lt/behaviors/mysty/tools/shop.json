@@ -72,6 +72,25 @@
       }
     },
     {
+      "id": "wind_charge",
+      "icon": {
+        "id": "minecraft:wind_charge"
+      },
+      "name": "Give everyone Wind Charges",
+      "target": "global",
+      "usable_by": "overlords",
+      "flavor": "bonus",
+      "actions": {
+        "actions": [
+          {
+            "type": "lt:mysty/give_wind_charges",
+            "count": 4
+          }
+        ],
+        "target": "participants"
+      }
+    },
+    {
       "id": "give_hat",
       "icon": {
         "id": "ltextras:top_hat"
@@ -124,6 +143,45 @@
           "x_offset": 0,
           "z_offset": 0,
           "mode": "all_target"
+        }
+      ]
+    },
+    {
+      "id": "firenado",
+      "icon": "minecraft:flint_and_steel",
+      "name": "Spawn Firenado",
+      "description": [
+        "Spawns at your position"
+      ],
+      "target": "self",
+      "usable_by": "overlords",
+      "flavor": "sabotage",
+      "actions": [
+        {
+          "type": "ltminigames:apply_to",
+          "actions": [
+            {
+              "type": "ltminigames:show_title",
+              "subtitle": {
+                "text": "A FIRENADO has appeared!",
+                "color": "red"
+              },
+              "stay": 60
+            }
+          ],
+          "target": "all_players"
+        },
+        {
+          "type": "weather2:spawn_tornado",
+          "tornado": {
+            "fire": true,
+            "length_in_ticks": 400
+          },
+          "aim_at_target": true,
+          "x_offset": 0,
+          "z_offset": 0,
+          "mode": "all_target",
+          "speed": 2.5
         }
       ]
     },
@@ -225,7 +283,7 @@
           "effects": [
             {
               "type": "minecraft:blindness",
-              "seconds": 30,
+              "seconds": 10,
               "amplifier": 1,
               "particles": false,
               "show_icon": true

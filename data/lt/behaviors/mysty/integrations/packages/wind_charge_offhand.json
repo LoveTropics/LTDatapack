@@ -5,14 +5,8 @@
   "target": "all_players",
   "receive_actions": [
     {
-      "type": "ltminigames:add_equipment",
-      "offhand": {
-        "id": "minecraft:wind_charge",
-        "count": "$count",
-        "components": {
-          "ltextras:undroppable": {}
-        }
-      }
+      "type": "lt:mysty/give_wind_charges",
+      "count": "$count"
     }
   ],
   "notification": {
