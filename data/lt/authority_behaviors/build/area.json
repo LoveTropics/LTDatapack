@@ -1,6 +1,15 @@
 {
-  "enter_commands": ["build enable @s", "fly enable", "execute if entity @s[gamemode=adventure] run gamemode survival"],
-  "exit_commands": ["build disable @s", "execute if entity @s[gamemode=!creative,gamemode=!spectator] run fly disable"],
+  "enter_commands": [
+    "build enable @s",
+    "fly enable",
+    "execute if entity @s[gamemode=adventure] run gamemode survival",
+    "attribute @s minecraft:block_break_speed base set 10"
+  ],
+  "exit_commands": [
+    "build disable @s",
+    "execute if entity @s[gamemode=!creative,gamemode=!spectator] run fly disable",
+    "attribute @s minecraft:block_break_speed base reset"
+  ],
   "rules": {
     "break": "allow",
     "place": "allow",
