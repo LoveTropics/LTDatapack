@@ -114,6 +114,16 @@
     "show_score": false
   },
   {
+    "type": "ltminigames:leaderboard_placeholder",
+    "id": "lt:mysty/team_leaderboard",
+    "statistic": "points",
+    "statistic_holder": "team",
+    "order": "max",
+    "length": 5,
+    "show_placement": true,
+    "show_score": false
+  },
+  {
     "type": "lt:common/playing",
     "game_type": "adventure",
     "join_late_with_role": "spectator",
