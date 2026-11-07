@@ -1,4 +1,5 @@
 [
+  "lt:mysty/integrations/packages/everyone_tornado",
   {
     "type": "ltminigames:donation_package",
     "id": "mysty_chaos_1",
