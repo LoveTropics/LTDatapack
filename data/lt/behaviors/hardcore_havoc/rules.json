@@ -4,6 +4,7 @@
     "type": "ltgames_voice:voice_chat",
     "open_to_everyone": false,
     "group_by_team": true,
+    "group_proximity_mode": "open",
     "include_spectators_in_group": true
   },
   {
