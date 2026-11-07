@@ -74,6 +74,29 @@
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:day"
+          },
+          {
+            "type": "ltminigames:apply_to",
+            "target": "participants",
+            "actions": [
+              {
+                "type": "ltminigames:give_compass_with_lodestone_target",
+                "target_dimension_type": "minecraft:overworld",
+                "target_region": "center",
+                "item": {
+                  "id": "minecraft:compass",
+                  "components": {
+                    "ltextras:undroppable": {},
+                    "item_name": {
+                      "text": "Center Compass"
+                    },
+                    "minecraft:enchantments": {
+                      "vanishing_curse": 1
+                    }
+                  }
+                }
+              }
+            ]
           }
         ],
         "end_actions": [],
@@ -547,7 +570,7 @@
             "type": "ltminigames:apply_to",
             "target": {
               "type": "players_dimension",
-              "dimension_type": "minecraft:the_nether"
+              "dimension_type": "minecraft:the_end"
             },
             "actions": [
               {
@@ -582,7 +605,7 @@
                 "type": "ltminigames:send_message",
                 "message": [
                   {
-                    "text": "The Nether",
+                    "text": "The End",
                     "font": "lt:minecraft_five",
                     "color": "red",
                     "bold": true
@@ -597,7 +620,7 @@
               {
                 "type": "ltminigames:show_title",
                 "title": {
-                  "text": "The Nether",
+                  "text": "The End",
                   "font": "lt:minecraft_five",
                   "color": "red",
                   "bold": true
