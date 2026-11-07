@@ -53,7 +53,7 @@
             "minecraft:entity_data": {
               "id": "minecraft:creeper",
               "ExplosionRadius": 3.0,
-              "Fuse": 30,
+              "Fuse": 15,
               "powered": true
             },
             "ltextras:undroppable": {},
