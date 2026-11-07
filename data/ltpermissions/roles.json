@@ -116,7 +116,7 @@
     "includes": ["hoedown"]
   },
   "hoedown": {
-    "includes": [],
+    "includes": ["creator", "voice"],
     "overrides": {
       "name_decoration": {
         "style": "#ffb005"
