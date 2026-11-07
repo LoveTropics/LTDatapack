@@ -4,8 +4,8 @@
   "package_type": "sabotage_package",
   "target": "all_players",
   "donation_amount": 100.0,
-  "name": "Everyone is a Tornado",
-  "description": "Turn EVERYONE into a Tornado",
+  "name": {"translate": "Everyone is a Tornado"},
+  "description": {"translate": "Turn EVERYONE into a Tornado"},
   "receive_actions": [
     {
       "type": "weather2:transform_player_tornado",
