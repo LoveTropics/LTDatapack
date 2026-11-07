@@ -258,7 +258,7 @@
       ]
     },
     "lt:common/game_over_title",
-    "ltminigames:game_limted_chat",
+    "ltminigames:game_limited_chat",
     {"type": "ltminigames:announcements"},
     {
       "type": "ltminigames:modify_loot_tables",
