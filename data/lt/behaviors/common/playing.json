@@ -16,5 +16,6 @@
   },
   "ltminigames:set_winner_statistic",
   "lt:common/hoist_participants_tab_list",
-  "ltminigames:game_limited_chat"
+  "ltminigames:game_limited_chat",
+  {"type":  "ltminigames:announcements"}
 ]
