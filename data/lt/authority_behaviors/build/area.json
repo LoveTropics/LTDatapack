@@ -13,6 +13,7 @@
   "rules": {
     "break": "allow",
     "place": "allow",
+    "interact_blocks": "allow",
     "modify_armor_stand": "allow",
     "modify_bookshelves": "allow"
   }
