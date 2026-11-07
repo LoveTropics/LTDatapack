@@ -172,6 +172,23 @@
         "type": "ltgames_voice:timed_group",
         "seconds": 24
       }
+    },
+    {
+      "id": "player_dvd",
+      "icon": "minecraft:player_head",
+      "name": {"text": "DVD Screensaver"},
+      "description": [{"text": "Add your player face as a DVD Screensaver over the team's screens. Additional purchases stack this effect on the target. Each stack lasts for 30 seconds."}],
+      "cost": 8,
+      "target": "pick",
+      "target_team": true,
+      "usable_by": "all",
+      "flavor": "sabotage",
+      "actions": {
+        "type": "ltminigames:add_dvd_face",
+        "apply_donor_name": true,
+        "length_in_ticks": 600,
+        "count": 3
+      }
     }
   ]
 }
