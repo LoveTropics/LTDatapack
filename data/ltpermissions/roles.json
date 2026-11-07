@@ -178,6 +178,11 @@
       }
     }
   },
+  "no_group_chat": {
+    "overrides": {
+      "chat/no_chat": true
+    }
+  },
   "trusted": {
     "includes": ["privileged"],
     "overrides": {
