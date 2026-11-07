@@ -22,7 +22,7 @@
   {
     "type": "ltminigames:checkpoints",
     "checkpoints": [{ "region": "checkpoint" }],
-    "angle": -180.0
+    "angle": "$angle"
   },
   {
     "type": "ltminigames:kill_in_void",

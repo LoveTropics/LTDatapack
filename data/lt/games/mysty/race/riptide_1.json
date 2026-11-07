@@ -11,5 +11,8 @@
     "load_from": "lt:games/mysty/racing/trident",
     "dimension_type": "lt:no_clouds"
   },
-  "behaviors": "lt:mysty/race/riptide/game"
+  "behaviors": {
+    "type": "lt:mysty/race/riptide/game",
+    "angle": -180.0
+  }
 }
