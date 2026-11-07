@@ -1,10 +1,9 @@
 tag @s add ghost.setup
-effect give @s resistance infinite 255 true
-effect give @s invisibility infinite 255 true
-effect give @s ltextras:mm_hovering infinite 255 true
+
 gamemode adventure @s
 
 ### Items
+item replace entity @s container.0 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
 item replace entity @s container.1 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
 item replace entity @s container.2 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
 item replace entity @s container.3 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
@@ -40,9 +39,3 @@ item replace entity @s container.32 with barrier[ltextras:undroppable={},custom_
 item replace entity @s container.33 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
 item replace entity @s container.34 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
 item replace entity @s container.35 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
-
-item replace entity @s armor.head with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"head"}]
-item replace entity @s armor.chest with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"chest"}]
-item replace entity @s armor.legs with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"legs"}]
-item replace entity @s armor.feet with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"feet"}]
-item replace entity @s weapon.offhand with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
