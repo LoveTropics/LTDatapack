@@ -88,6 +88,7 @@
     "type": "ltminigames:teams",
     "static_team_ids": true
   },
+  "ltminigames:ghosts",
   "lt:common/spectator",
   "lt:hardcore_havoc/death",
   "lt:hardcore_havoc/stages",

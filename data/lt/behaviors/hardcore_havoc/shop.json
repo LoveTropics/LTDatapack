@@ -11,7 +11,8 @@
       "cost": 30,
       "stock": 10,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:gold_ingot", "count": 5 }] }
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:gold_ingot", "count": 5 }] },
+      "usable_by": ["players"]
     },
     {
       "id": "swiftness_potion",
@@ -24,7 +25,8 @@
       "actions": {
         "type": "ltminigames:add_equipment",
         "items": [{ "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:swiftness" } } }]
-      }
+      },
+      "usable_by": ["players"]
     },
     {
       "id": "regen_potion",
@@ -37,7 +39,8 @@
       "actions": {
         "type": "ltminigames:add_equipment",
         "items": [{ "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:regeneration" } } }]
-      }
+      },
+      "usable_by": ["players"]
     },
     {
       "id": "golden_apple",
@@ -47,7 +50,8 @@
       "cost": 40,
       "stock": 15,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:golden_apple", "count": 1 }] }
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:golden_apple", "count": 1 }] },
+      "usable_by": ["players"]
     },
     {
       "id": "firework",
@@ -57,7 +61,8 @@
       "cost": 6,
       "stock": 1,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:firework_rocket", "count": 1 }] }
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:firework_rocket", "count": 1 }] },
+      "usable_by": ["players"]
     },
     {
       "id": "arrow",
@@ -67,7 +72,8 @@
       "cost": 30,
       "stock": 30,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:arrow", "count": 10 }] }
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:arrow", "count": 10 }] },
+      "usable_by": ["players"]
     },
     {
       "id": "slowness_arrow",
@@ -80,7 +86,8 @@
       "actions": {
         "type": "ltminigames:add_equipment",
         "items": [{ "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" }]
-      }
+      },
+      "usable_by": ["players"]
     },
     {
       "id": "lightning_arrow",
@@ -90,7 +97,8 @@
       "cost": 15,
       "stock": 1,
       "flavor": "bonus",
-      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltminigames:lightning_arrow", "count": 1 }] }
+      "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "ltminigames:lightning_arrow", "count": 1 }] },
+      "usable_by": ["players"]
     },
     {
       "id": "potato_chips",
@@ -103,7 +111,8 @@
       "actions": {
         "type": "ltminigames:add_equipment",
         "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6, "components": { "food": { "nutrition": 8, "saturation": 3 } } }]
-      }
+      },
+      "usable_by": ["players"]
     },
     {
       "id": "bad_mic",
@@ -114,7 +123,7 @@
       "stock": 15,
       "target": "pick",
       "target_team": true,
-      "usable_by": "all",
+      "usable_by": ["players", "ghosts"],
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:apply_for_time",
@@ -140,7 +149,7 @@
       "stock": 5,
       "target": "pick",
       "target_team": true,
-      "usable_by": "all",
+      "usable_by": ["players", "ghosts"],
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:apply_for_time",
@@ -166,7 +175,7 @@
       "target": "pick",
       "target_team": true,
       "include_self": true,
-      "usable_by": "all",
+      "usable_by": ["players", "ghosts"],
       "flavor": "sabotage",
       "actions": {
         "type": "ltgames_voice:timed_group",
@@ -181,7 +190,7 @@
       "cost": 8,
       "target": "pick",
       "target_team": true,
-      "usable_by": "all",
+      "usable_by": ["players", "ghosts"],
       "flavor": "sabotage",
       "actions": {
         "type": "ltminigames:add_dvd_face",
