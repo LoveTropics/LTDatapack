@@ -15,6 +15,20 @@
       "usable_by": ["players"]
     },
     {
+      "id": "turtle_master_potion",
+      "icon": { "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:turtle_master" }, "potion_duration_scale": 2.0 } },
+      "name": { "text": "Potion of the Turtle Master" },
+      "description": [{ "text": "A potion of the Turtle Master that lasts 40 seconds." }],
+      "cost": 120,
+      "stock": 15,
+      "flavor": "bonus",
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:regeneration" } } }]
+      },
+      "usable_by": ["players"]
+    },
+    {
       "id": "swiftness_potion",
       "icon": { "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:swiftness" } } },
       "name": { "text": "Swiftness Potion" },
@@ -33,7 +47,7 @@
       "icon": { "id": "minecraft:potion", "count": 1, "components": { "potion_contents": { "potion": "minecraft:regeneration" } } },
       "name": { "text": "Regeneration Potion" },
       "description": [{ "text": "A potion of regeneration." }],
-      "cost": 30,
+      "cost": 120,
       "stock": 15,
       "flavor": "bonus",
       "actions": {
@@ -47,7 +61,7 @@
       "icon": { "id": "minecraft:golden_apple", "count": 1 },
       "name": { "text": "Golden Apple" },
       "description": [{ "text": "It's shiny and repels doctors!" }],
-      "cost": 40,
+      "cost": 110,
       "stock": 15,
       "flavor": "bonus",
       "actions": { "type": "ltminigames:add_equipment", "items": [{ "id": "minecraft:golden_apple", "count": 1 }] },
@@ -67,8 +81,8 @@
     {
       "id": "arrow",
       "icon": { "id": "minecraft:arrow", "count": 10 },
-      "name": { "text": "Arrow" },
-      "description": [{ "text": "Quiver not included." }],
+      "name": { "text": "Arrows" },
+      "description": [{ "text": "10 Arrows. Quiver not included." }],
       "cost": 30,
       "stock": 30,
       "flavor": "bonus",
@@ -79,7 +93,7 @@
       "id": "slowness_arrow",
       "icon": { "id": "minecraft:tipped_arrow", "count": 3, "potion_contents": "minecraft:slowness" },
       "name": { "text": "Tipped Slowness Arrow" },
-      "description": [{ "text": "Pointy end up!" }],
+      "description": [{ "text": "3 Tipped arrows. Pointy end up!" }],
       "cost": 20,
       "stock": 15,
       "flavor": "bonus",
@@ -93,7 +107,7 @@
       "id": "lightning_arrow",
       "icon": { "id": "ltminigames:lightning_arrow", "count": 1 },
       "name": { "text": "Lightning Arrow" },
-      "description": [{ "text": "Strikes lightning at the hit target or block." }],
+      "description": [{ "text": "3 Tipped arrows. Strikes lightning at the hit target or block." }],
       "cost": 15,
       "stock": 1,
       "flavor": "bonus",
@@ -104,7 +118,20 @@
       "id": "potato_chips",
       "icon": { "id": "ltextras:gegy_potato_chips", "count": 6 },
       "name": { "text": "Gegy's Potato Chips™" },
-      "description": [{ "text": "8 Nutrition, 3 Saturation, and a truly egregious volume of artificial flavour." }],
+      "description": [{ "text": "6 of 'em. 8 Nutrition, 3 Saturation, and a truly egregious volume of artificial flavour." }],
+      "cost": 30,
+      "stock": 30,
+      "flavor": "bonus",
+      "actions": {
+        "type": "ltminigames:add_equipment",
+        "items": [{ "id": "ltextras:gegy_potato_chips", "count": 6, "components": { "food": { "nutrition": 8, "saturation": 3 } } }]
+      }
+    },
+    {
+      "id": "potato_chips",
+      "icon": { "id": "ltextras:gegy_potato_chips", "count": 6 },
+      "name": { "text": "Gegy's Potato Chips™" },
+      "description": [{ "text": "6 of 'em. 8 Nutrition, 3 Saturation, and a truly egregious volume of artificial flavour." }],
       "cost": 30,
       "stock": 30,
       "flavor": "bonus",
