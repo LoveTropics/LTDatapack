@@ -14,8 +14,8 @@
   {
     "type": "ltminigames:position_players",
     "teams": {
-      "blue": ["blue_spawn"],
-      "red": ["red_spawn"]
+      "blue": ["blue_spawn_2"],
+      "red": ["red_spawn_2"]
     },
     "split_by_team": true,
     "spectators": "spectator_spawn"
