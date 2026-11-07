@@ -120,6 +120,9 @@
     "overrides": {
       "name_decoration": {
         "style": "#ffb005"
+      },
+      "commands": {
+        "fly": "deny"
       }
     }
   },
