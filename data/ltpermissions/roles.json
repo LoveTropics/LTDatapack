@@ -91,28 +91,32 @@
       }
     }
   },
+  "red": {},
+  "yellow": {},
+  "blue": {},
+  "green": {},
   "mysty_magenta": {
     "includes": ["hoedown"]
   },
-  "mysty_cyan":{
+  "mysty_cyan": {
     "includes": ["hoedown"]
   },
   "mysty_yellow": {
     "includes": ["hoedown"]
   },
-  "mysty_light_gray":{
+  "mysty_light_gray": {
     "includes": ["hoedown"]
   },
   "mysty_green": {
     "includes": ["hoedown"]
   },
-  "mysty_orange":{
+  "mysty_orange": {
     "includes": ["hoedown"]
   },
   "mysty_black": {
     "includes": ["hoedown"]
   },
-  "mysty_red":{
+  "mysty_red": {
     "includes": ["hoedown"]
   },
   "hoedown": {
