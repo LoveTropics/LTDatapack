@@ -182,7 +182,7 @@
               "state": "ltminigames:remap_movement"
             }
           },
-          "seconds": "30"
+          "seconds": 30
         }
       ]
     },
