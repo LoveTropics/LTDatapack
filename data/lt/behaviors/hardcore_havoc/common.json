@@ -90,6 +90,11 @@
   "lt:hardcore_havoc/stages",
   "lt:hardcore_havoc/rules",
   "lt:hardcore_havoc/shop",
+  {
+    "type": "ltminigames:point_control_commands",
+    "statistic": "tropicoins",
+    "subcommand": ["coins"]
+  },
   "lt:hardcore_havoc/donations",
   "ltminigames:game_limited_chat"
 ]

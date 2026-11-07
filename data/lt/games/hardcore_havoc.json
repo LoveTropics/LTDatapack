@@ -52,11 +52,6 @@
     ]
   },
   "behaviors": [
-    "lt:hardcore_havoc/common",
-    {
-      "type": "ltminigames:point_control_commands",
-      "statistic": "tropicoins",
-      "subcommand": ["coins"]
-    }
+    "lt:hardcore_havoc/common"
   ]
 }

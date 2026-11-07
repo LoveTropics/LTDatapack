@@ -1,6 +1,7 @@
 {
   "type": "ltminigames:shop",
   "tropicoins_per_donated_amount": 6,
+  "coins_scope": "team",
   "offers": [
     {
       "id": "gold",
