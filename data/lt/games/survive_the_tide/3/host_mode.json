@@ -36,9 +36,9 @@
         "type": "ltminigames:setup_teams",
         "teams": {
           "dinners": {
-            "name": "Pantheon",
+            "name": "Girlypop",
             "dye": "red",
-            "assign_roles": ["pantheon"]
+            "assign_roles": ["girlypop"]
           },
           "everyone": {
             "name": "Everyone Else",
