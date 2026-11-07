@@ -248,7 +248,8 @@
           "type": "ltminigames:spawn_entity_at_player",
           "entity": {
             "type": "minecraft:creeper"
-          }
+          },
+          "distance": 2
         }
       ]
     }
