@@ -13,6 +13,12 @@
 ### Setup ghosts
 execute as @a[tag=ghost,tag=!ghost.setup] at @s run function lt:game/hardcore_havoc/setup_ghost
 
+### EFFECTS
+effect give @a[tag=ghost] resistance infinite 255 true
+effect give @a[tag=ghost] invisibility infinite 255 true
+effect give @a[tag=ghost] ltextras:mm_hovering infinite 255 true
+
+
 
 ### Revert player position if they get too far away from their teammates.
 execute as @a[team=red,tag=ghost.setup] at @s unless entity @a[team=red,tag=!ghost,distance=..75] run tp @s @p[team=red,tag=!ghost]
