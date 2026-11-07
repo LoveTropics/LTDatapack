@@ -1,4 +1,5 @@
 function lt:game/hardcore_havoc/cleanup_ghost
+game setrole @s participant
 gamemode survival @s
 effect give @s minecraft:resistance 10 5 true
 execute as @s[team=red] at @s run tp @s @p[team=red,tag=!ghost,distance=5..]
