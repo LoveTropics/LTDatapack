@@ -1,0 +1,48 @@
+tag @s add ghost.setup
+effect give @s resistance infinite 255 true
+effect give @s invisibility infinite 255 true
+effect give @s ltextras:mm_hovering infinite 255 true
+gamemode adventure @s
+
+### Items
+item replace entity @s container.1 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.2 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.3 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.4 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.5 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.6 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.7 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.8 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.9 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.10 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.11 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.12 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.13 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.14 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.15 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.16 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.17 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.18 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.19 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.20 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.21 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.22 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.23 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.24 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.25 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.26 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.27 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.28 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.29 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.30 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.31 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.32 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.33 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.34 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+item replace entity @s container.35 with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
+
+item replace entity @s armor.head with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"head"}]
+item replace entity @s armor.chest with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"chest"}]
+item replace entity @s armor.legs with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"legs"}]
+item replace entity @s armor.feet with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1,equippable={slot:"feet"}]
+item replace entity @s weapon.offhand with barrier[ltextras:undroppable={},custom_name={"text":"Ghosts don't have inventories!","color":"dark_gray","font":"lt:minecraft_five"},max_stack_size=1]
