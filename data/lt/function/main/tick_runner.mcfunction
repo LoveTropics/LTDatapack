@@ -21,4 +21,4 @@ function lt:stage/on_tick
 # Forklifts
 #function lt:forklift/on_tick
 
-execute if entity @a[tag=ghost] run function lt:game/hardcore_havoc/on_tick
+execute run function lt:game/hardcore_havoc/on_tick
