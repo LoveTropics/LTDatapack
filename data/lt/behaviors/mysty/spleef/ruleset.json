@@ -28,16 +28,6 @@
     }
   },
   {
-    "type": "ltminigames:projectile_knockback",
-    "projectile": {
-      "minecraft:entity_type": "minecraft:snowball"
-    },
-    "target": {
-      "minecraft:entity_type": "minecraft:player"
-    },
-    "strength": 0.4
-  },
-  {
     "type": "ltminigames:set_game_rules",
     "rules": {
       "minecraft:block_drops": false,

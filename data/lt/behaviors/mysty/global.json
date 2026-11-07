@@ -115,5 +115,15 @@
       "minecraft:show_advancement_messages": false,
       "tropicraft:unrestricted_exploding_coconuts": true
     }
+  },
+  {
+    "type": "ltminigames:projectile_knockback",
+    "projectile": {
+      "minecraft:entity_type": "minecraft:snowball"
+    },
+    "target": {
+      "minecraft:entity_type": "minecraft:player"
+    },
+    "strength": 0.4
   }
 ]
