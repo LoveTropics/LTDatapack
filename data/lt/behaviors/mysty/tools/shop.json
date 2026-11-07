@@ -155,7 +155,7 @@
     {
       "id": "shuffle_movement_keys",
       "icon": {
-        "effect": "minecraft:nausea"
+        "id": "minecraft:heavy_core"
       },
       "name": "Shuffle Movement Keys",
       "target": "global",
@@ -189,7 +189,7 @@
     {
       "id": "all_players_glowing",
       "icon": {
-        "effect": "minecraft:glowing"
+        "id": "minecraft:glow_ink_sac"
       },
       "name": "All Players Glowing",
       "target": "global",
@@ -213,7 +213,7 @@
     {
       "id": "all_players_blind",
       "icon": {
-        "effect": "minecraft:glowing"
+        "id": "ltextras:huge_glasses"
       },
       "name": "All Players Blind",
       "target": "global",
@@ -237,7 +237,7 @@
     {
       "id": "spawn_creeper_at_all_players",
       "icon": {
-        "item": "minecraft:creeper_spawn_egg"
+        "id": "minecraft:creeper_spawn_egg"
       },
       "name": "Spawn Creeper on All Players",
       "target": "global",
