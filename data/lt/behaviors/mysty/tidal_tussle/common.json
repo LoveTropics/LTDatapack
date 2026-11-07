@@ -2,11 +2,6 @@
   "lt:mysty/global",
   "lt:mysty/coins_on_death",
   {
-    "type": "ltgames_voice:voice_chat",
-    "open_to_everyone": false,
-    "group_by_team": true
-  },
-  {
     "type": "lt:common/winner_points",
     "statistic": "points",
     "amount": 5
