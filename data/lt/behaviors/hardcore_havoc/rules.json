@@ -3,7 +3,8 @@
   {
     "type": "ltgames_voice:voice_chat",
     "open_to_everyone": false,
-    "group_by_team": true
+    "group_by_team": true,
+    "include_spectators_in_group": true
   },
   {
     "type": "ltminigames:last_remaining_win_trigger",
