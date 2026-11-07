@@ -2,7 +2,10 @@
   {
     "type": "ltminigames:build_battle",
     "plots_name": "build_plot",
-    "theme": "A Tropical Masterpiece"
+    "theme": "A Tropical Masterpiece",
+    "base_points": 3,
+    "point_increment": 3,
+    "point_option_count": 6
   },
   {
     "type": "ltminigames:action_bar",
