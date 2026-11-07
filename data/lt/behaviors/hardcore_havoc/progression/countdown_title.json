@@ -1,0 +1,40 @@
+[
+  {
+    "type": "ltminigames:apply_to",
+    "target": {
+      "type": "players_dimension",
+      "dimension_type": "$dimension_target"
+    },
+    "actions": [
+      {
+        "type": "ltminigames:play_sound",
+        "sound": "minecraft:block.end_portal.spawn",
+        "pitch": 0.2
+      },
+      {
+        "type": "ltminigames:show_title",
+        "title": {
+          "text": "$time_remaining",
+          "color": "#CC3A4D",
+          "bold": true,
+          "font": "lt:minecraft_five"
+        },
+        "subtitle": [
+          {
+            "text": "until the ",
+            "color": "gray"
+          },
+          {
+            "text": "$dimension",
+            "color": "gray"
+          },
+          {
+            "text": " closes.",
+            "color": "gray"
+          }
+        ],
+        "stay": 50
+      }
+    ]
+  }
+]

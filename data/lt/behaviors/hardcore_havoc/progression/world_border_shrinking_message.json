@@ -18,20 +18,23 @@
         "color": "gray",
         "bold": false
       }
-
     ]
   },
   {
     "type": "ltminigames:show_title",
     "title": {
-      "text": "$size_change",
+      "text": "BORDER SHRINKING",
       "color": "#CC3A4D",
       "bold": true,
       "font": "lt:minecraft_five"
     },
     "subtitle": [
       {
-        "text": "World border has started shrinking over ",
+        "text": "$size_change",
+        "color": "gray"
+      },
+      {
+        "text": " over ",
         "color": "gray"
       },
       {

@@ -76,31 +76,75 @@
             "time_marker": "minecraft:day"
           }
         ],
-        "end_actions": [
-          {
-            "type": "ltminigames:change_world_border",
-            "center_region": "center",
-            "radius": 1400,
-            "ticks": 1200
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": "all_players",
-            "actions": [
-              {
-                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-                "size_change": "1900 -> 1400",
-                "duration_string": "one minute!"
-              }
-            ]
-          }
-        ]
+        "end_actions": [],
+        "tick_actions": {
+          "28800": [
+            {
+              "type": "ltminigames:change_world_border",
+              "center_region": "center",
+              "radius": 1400,
+              "ticks": 1200
+            },
+            {
+              "type": "ltminigames:apply_to",
+              "target": "all_players",
+              "actions": [
+                {
+                  "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                  "size_change": "1900 -> 1400",
+                  "duration_string": "one minute!"
+                }
+              ]
+            }
+          ]
+        }
       },
       "nether": {
         "next_stage": "overworld_post_nether",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
         "start_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "minecraft:block.end_portal.spawn",
+                "pitch": 0.2
+              },
+              {
+                "type": "ltminigames:send_message",
+                "message": [
+                  {
+                    "text": "The Nether",
+                    "font": "lt:minecraft_five",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": " is now open.",
+                    "color": "gray",
+                    "bold": false
+                  }
+                ]
+              },
+              {
+                "type": "ltminigames:show_title",
+                "title": {
+                  "text": "The Nether",
+                  "font": "lt:minecraft_five",
+                  "color": "red",
+                  "bold": true
+                },
+                "subtitle": {
+                  "text": "is now open.",
+                  "color": "gray"
+                },
+                "stay": 50
+              }
+            ]
+          },
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:noon"
@@ -166,12 +210,6 @@
             ]
           },
           {
-            "type": "ltminigames:change_world_border",
-            "center_region": "center",
-            "radius": 1000,
-            "ticks": 1200
-          },
-          {
             "type": "ltminigames:apply_to",
             "target": "all_players",
             "actions": [
@@ -215,6 +253,12 @@
                 "delay": 60,
                 "actions": [
                   {
+                    "type": "ltminigames:change_world_border",
+                    "center_region": "center",
+                    "radius": 1000,
+                    "ticks": 1200
+                  },
+                  {
                     "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
                     "size_change": "1400 -> 1000",
                     "duration_string": "one minute!"
@@ -230,6 +274,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "10 minutes",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "10 minutes",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "12000": [
@@ -237,6 +287,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "5 minutes",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "5 minute",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "16800": [
@@ -244,6 +300,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "1 minute",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "1 minute",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17400": [
@@ -251,6 +313,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "30 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "30 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17700": [
@@ -258,6 +326,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "15 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "15 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17800": [
@@ -265,6 +339,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "10 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "10 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17900": [
@@ -272,6 +352,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "5 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "5 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17920": [
@@ -279,6 +365,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "4 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "4 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17940": [
@@ -286,6 +378,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "3 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "3 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17960": [
@@ -293,6 +391,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "2 seconds",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "2 seconds",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ],
           "17980": [
@@ -300,6 +404,12 @@
               "type": "lt:hardcore_havoc/progression/countdown_message",
               "time_remaining": "1 second",
               "dimension": "Nether"
+            },
+            {
+              "type": "lt:hardcore_havoc/progression/countdown_title",
+              "time_remaining": "1 second",
+              "dimension": "Nether",
+              "dimension_target": "minecraft:the_nether"
             }
           ]
         }
@@ -318,31 +428,75 @@
             "difficulty": "normal"
           }
         ],
-        "end_actions": [
-          {
-            "type": "ltminigames:change_world_border",
-            "center_region": "center",
-            "radius": 500,
-            "ticks": 1200
-          },
-          {
-            "type": "ltminigames:apply_to",
-            "target": "all_players",
-            "actions": [
-              {
-                "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
-                "size_change": "1000 -> 500",
-                "duration_string": "one minute!"
-              }
-            ]
-          }
-        ]
+        "tick_actions": {
+          "28800": [
+            {
+              "type": "ltminigames:change_world_border",
+              "center_region": "center",
+              "radius": 500,
+              "ticks": 1200
+            },
+            {
+              "type": "ltminigames:apply_to",
+              "target": "all_players",
+              "actions": [
+                {
+                  "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
+                  "size_change": "1000 -> 500",
+                  "duration_string": "one minute!"
+                }
+              ]
+            }
+          ]
+        },
+        "end_actions": []
       },
       "the_end": {
         "next_stage": "overworld_post_end",
         "timer_length_ticks": 18000,
         "auto_move_on": true,
         "start_actions": [
+          {
+            "type": "ltminigames:apply_to",
+            "target": "all_players",
+            "actions": [
+              {
+                "type": "ltminigames:play_sound",
+                "sound": "minecraft:block.end_portal.spawn",
+                "pitch": 0.2
+              },
+              {
+                "type": "ltminigames:send_message",
+                "message": [
+                  {
+                    "text": "The End",
+                    "font": "lt:minecraft_five",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": " is now open.",
+                    "color": "gray",
+                    "bold": false
+                  }
+                ]
+              },
+              {
+                "type": "ltminigames:show_title",
+                "title": {
+                  "text": "The End",
+                  "font": "lt:minecraft_five",
+                  "color": "red",
+                  "bold": true
+                },
+                "subtitle": {
+                  "text": "is now open.",
+                  "color": "gray"
+                },
+                "stay": 50
+              }
+            ]
+          },
           {
             "type": "ltminigames:set_day_time_now",
             "time_marker": "minecraft:night"
@@ -408,12 +562,6 @@
             ]
           },
           {
-            "type": "ltminigames:change_world_border",
-            "center_region": "center",
-            "radius": 100,
-            "ticks": 6000
-          },
-          {
             "type": "ltminigames:apply_to",
             "target": "all_players",
             "actions": [
@@ -457,6 +605,12 @@
                 "delay": 60,
                 "actions": [
                   {
+                    "type": "ltminigames:change_world_border",
+                    "center_region": "center",
+                    "radius": 100,
+                    "ticks": 6000
+                  },
+                  {
                     "type": "lt:hardcore_havoc/progression/world_border_shrinking_message",
                     "size_change": "500 -> 100",
                     "duration_string": "five minutes!"
@@ -472,6 +626,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "10 minutes",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "10 minutes",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "12000": [
@@ -479,6 +639,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "5 minutes",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "5 minutes",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "16800": [
@@ -486,6 +652,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "1 minute",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "1 minute",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17400": [
@@ -493,6 +665,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "30 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "30 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17700": [
@@ -500,6 +678,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "15 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "15 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17800": [
@@ -507,6 +691,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "10 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "10 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17900": [
@@ -514,6 +704,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "5 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "5 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17920": [
@@ -521,6 +717,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "4 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "4 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17940": [
@@ -528,6 +730,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "3 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "3 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17960": [
@@ -535,6 +743,12 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "2 seconds",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "2 seconds",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ],
             "17980": [
@@ -542,10 +756,16 @@
                 "type": "lt:hardcore_havoc/progression/countdown_message",
                 "time_remaining": "1 second",
                 "dimension": "End"
+              },
+              {
+                "type": "lt:hardcore_havoc/progression/countdown_title",
+                "time_remaining": "1 second",
+                "dimension": "End",
+                "dimension_target": "minecraft:the_end"
               }
             ]
           }
-        },
+       },
       "overworld_post_end": {
         "timer_length_ticks": 24000,
         "start_actions": [
@@ -572,7 +792,7 @@
     "type": "ltminigames:named_stages/stage_bar",
     "bar_by_stage": {
       "prestart": {
-        "title": "Starting Soon",
+        "title": "You are frozen. We will be starting soon...",
         "color": "green",
         "reversed": true
       },
