@@ -125,5 +125,21 @@
       "minecraft:entity_type": "minecraft:player"
     },
     "strength": 0.4
+  },
+  {
+    "type": "ltminigames:scale_damage",
+    "factor": 0.0,
+    "source": {
+      "direct_entity": {
+        "minecraft:entity_type": "tropicraft:exploding_coconut"
+      }
+    }
+  },
+  {
+    "type": "ltminigames:scale_explosion_knockback",
+    "factor": 2.25,
+    "exploder": {
+      "minecraft:entity_type": "tropicraft:exploding_coconut"
+    }
   }
 ]
