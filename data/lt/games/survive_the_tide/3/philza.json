@@ -73,7 +73,7 @@
     {
       "type": "ltminigames:set_max_health",
       "max_health_by_team": {
-        "everyone": 10.0,
+        "everyone": 6.0,
         "host": 20.0
       }
     },
