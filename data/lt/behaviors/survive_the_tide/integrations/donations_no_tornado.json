@@ -96,5 +96,11 @@
         "spawn_try_rate": 1
       }
     ]
+  },
+  {
+    "type": "lt:integrations/packages/player_dvd",
+    "donation_amount": 6.0,
+    "count": 6,
+    "length_in_ticks": 1200
   }
 ]

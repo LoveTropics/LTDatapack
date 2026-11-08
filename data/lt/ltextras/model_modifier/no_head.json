@@ -1,0 +1,11 @@
+{
+  "type": "ltextras:operation",
+  "operation": "set",
+  "parts":{
+    "head": {
+      "xScale": 0,
+      "zScale": 0,
+      "yScale": 0
+    }
+  }
+}
