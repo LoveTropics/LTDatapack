@@ -29,7 +29,7 @@
     }
   },
   "administration": {
-    "includes": ["whitelisted", "voice"],
+    "includes": ["whitelisted", "voice", "shield_bypass"],
     "overrides": {
       "op_level": 4,
       "commands": {
@@ -146,7 +146,7 @@
     }
   },
   "creator": {
-    "includes": ["whitelisted"],
+    "includes": ["whitelisted", "shield_bypass"],
     "overrides": {
       "commands": {
         "fly": "allow"
@@ -234,7 +234,7 @@
     }
   },
   "privileged": {
-    "includes": ["whitelisted"],
+    "includes": ["whitelisted", "shield_bypass"],
     "overrides": {
       "commands": {
         "kick": "allow",
