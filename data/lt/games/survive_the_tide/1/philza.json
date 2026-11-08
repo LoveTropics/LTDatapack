@@ -33,7 +33,7 @@
           "host": {
             "name": "Host",
             "dye": "red",
-            "assign_roles": ["live", "organiser"]
+            "assign_roles": ["live"]
           },
           "everyone": {
             "name": "Everyone Else",
@@ -60,7 +60,7 @@
     {
       "type": "ltminigames:set_max_health",
       "max_health_by_team": {
-        "everyone": 10.0,
+        "everyone": 6.0,
         "host": 20.0
       }
     },
