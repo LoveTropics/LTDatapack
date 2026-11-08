@@ -47,9 +47,7 @@
     },
     "lt:survive_the_tide/4/weather",
     "lt:survive_the_tide/common",
-    {
-      "type": "lt:survive_the_tide/integrations",
-      "tornado_spawn_offset_range": 48
-    }
+    "lt:survive_the_tide/integrations/donations_no_tornado",
+    "lt:survive_the_tide/integrations/events"
   ]
 }
