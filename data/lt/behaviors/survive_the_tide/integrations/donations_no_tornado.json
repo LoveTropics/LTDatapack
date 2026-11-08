@@ -61,7 +61,7 @@
   "lt:integrations/packages/invert_controls",
   {
     "type": "lt:integrations/packages/loyal_donator",
-    "amount": 20.0
+    "amount": 5.0
   },
   {
     "type": "ltminigames:donation_threshold",
