@@ -1,0 +1,62 @@
+{
+  "name":[
+    {
+      "translate": "ltminigames.minigame.survive_the_tide_4",
+      "color": "green"
+    },
+    " VC"
+  ],
+  "icon": "ltminigames:minigames/survive_the_tide/icon",
+  "minimum_participants": 3,
+  "maximum_participants": 1000,
+  "hide_from_list": false,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/red_blue"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/survive_the_tide/04"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:survive_the_tide_4",
+      "statistics_key": "survive_the_tide"
+    },
+    "lt:survive_the_tide/4/map",
+    "lt:survive_the_tide/4/phases",
+    "ltminigames:none_remaining_end_trigger",
+    "lt:survive_the_tide/mode/teams/win_outro",
+    "ltminigames:teams",
+    "lt:survive_the_tide/mode/teams/glow",
+    {
+      "type": "ltminigames:team_chat",
+      "chat_type": "lt:team_chat"
+    },
+    "lt:survive_the_tide/4/weather",
+    "lt:survive_the_tide/common",
+    "lt:survive_the_tide/integrations/donations_no_tornado",
+    "lt:survive_the_tide/integrations/events",
+    {
+      "type": "ltgames_voice:voice_chat",
+      "open_to_everyone": true,
+      "group_by_team": false
+    },
+    {"type": "lt:integrations/packages/bad_mic", "donation_amount": 15.0, "seconds": 60}
+  ]
+}
