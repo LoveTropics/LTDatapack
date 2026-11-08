@@ -42,6 +42,11 @@
     "donation_amount": 10.0,
     "seconds": 60
   },
+  {
+    "type": "lt:integrations/packages/gilets_jaunes",
+    "donation_amount": 10.0,
+    "seconds": 60
+  },
   "lt:integrations/packages/its_been_fun",
   "lt:integrations/packages/slowness",
   "lt:integrations/packages/hunger",

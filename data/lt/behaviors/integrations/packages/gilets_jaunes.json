@@ -1,0 +1,37 @@
+{
+  "type": "ltminigames:donation_package",
+  "id": "gilets_jaunes",
+  "package_type": "sabotage_package",
+  "target": "all_players",
+  "donation_amount": "$donation_amount",
+  "receive_actions": [
+    {
+      "type": "ltminigames:apply_for_time",
+      "mutex": "lt:gilets_jaunes",
+      "apply": {
+        "target": "participants",
+        "actions": {
+          "type": "ltminigames:add_equipment",
+          "chest": "ltextras:reflective_vest",
+          "keep_replaced": true
+        }
+      },
+      "clear": {
+        "target": "all_players",
+        "actions": {
+          "type": "ltminigames:remove_item_from_player",
+          "item": {
+            "items": "ltextras:reflective_vest"
+          }
+        }
+      },
+      "seconds": "$seconds"
+    }
+  ],
+  "notification": {
+    "icon": {
+      "item": "ltextras:reflective_vest"
+    },
+    "sentiment": "neutral"
+  }
+}
