@@ -22,11 +22,31 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "lt:survive_the_tide/tiered_category/high_buff_consumables",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/ammo",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "lt:survive_the_tide/tiered_category/high_utility",
           "weight": 3
         }
       ]
