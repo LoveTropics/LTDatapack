@@ -43,7 +43,7 @@
           "host": {
             "name": "Host",
             "dye": "red",
-            "assign_roles": ["live"]
+            "assign_roles": ["live", "organiser"]
           },
           "everyone": {
             "name": "Everyone Else",
@@ -60,6 +60,11 @@
   },
   "behaviors": [
     {
+      "type": "ltgames_voice:voice_chat",
+      "open_to_everyone": true,
+      "group_by_team": true
+    },
+    {
       "type": "lt:common/playing",
       "game_type": "adventure",
       "join_late_with_role": "spectator",
@@ -73,7 +78,7 @@
     {
       "type": "ltminigames:set_max_health",
       "max_health_by_team": {
-        "everyone": 6.0,
+        "everyone": 14.0,
         "host": 20.0
       }
     },
