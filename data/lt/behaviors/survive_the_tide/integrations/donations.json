@@ -56,6 +56,10 @@
   "lt:integrations/packages/puffer_package",
   "lt:integrations/packages/player_tornado",
   "lt:integrations/packages/player_tornado_baby",
+  {
+    "type": "lt:integrations/packages/sharknado",
+    "spawn_offset_range": "$tornado_spawn_offset_range"
+  },
   "lt:integrations/packages/sharknado",
   "lt:integrations/packages/invert_controls",
   {

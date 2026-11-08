@@ -40,6 +40,9 @@
     "lt:survive_the_tide/mode/teams",
     "lt:survive_the_tide/4/weather",
     "lt:survive_the_tide/common",
-    "lt:survive_the_tide/integrations"
+    {
+      "type": "lt:survive_the_tide/integrations",
+      "tornado_spawn_offset_range": 48
+    }
   ]
 }

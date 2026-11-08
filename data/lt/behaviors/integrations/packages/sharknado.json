@@ -14,7 +14,9 @@
         "length_in_ticks": 1200
       },
       "mode": "all_target",
-      "target": "center"
+      "target": "center",
+      "x_offset": "$spawn_offset_range",
+      "z_offset": "$spawn_offset_range"
     },
     {
       "type": "ltminigames:show_title",

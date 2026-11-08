@@ -1,5 +1,8 @@
 [
-  "lt:survive_the_tide/integrations/donations",
+  {
+    "type": "lt:survive_the_tide/integrations/donations",
+    "tornado_spawn_offset_range": "$tornado_spawn_offset_range"
+  },
   "lt:survive_the_tide/integrations/events"
 ]
  
