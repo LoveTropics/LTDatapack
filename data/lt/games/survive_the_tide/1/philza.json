@@ -33,7 +33,7 @@
           "host": {
             "name": "Host",
             "dye": "red",
-            "assign_roles": ["live"]
+            "assign_roles": ["live", "organiser"]
           },
           "everyone": {
             "name": "Everyone Else",
