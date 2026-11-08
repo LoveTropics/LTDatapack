@@ -60,7 +60,6 @@
     "type": "lt:integrations/packages/sharknado",
     "spawn_offset_range": "$tornado_spawn_offset_range"
   },
-  "lt:integrations/packages/sharknado",
   "lt:integrations/packages/invert_controls",
   {
     "type": "ltminigames:donation_threshold",
