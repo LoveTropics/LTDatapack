@@ -1,5 +1,9 @@
 [
-  "lt:survive_the_tide/mode/teams/win_logic",
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "holder": "team"
+  },
+  "lt:survive_the_tide/mode/teams/win_outro",
   {
     "type": "ltminigames:teams",
     "friendly_fire": "$friendly_fire"

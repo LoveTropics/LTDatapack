@@ -1,3 +1,7 @@
 [
-  "lt:survive_the_tide/mode/ffa/win_logic"
+  {
+    "type": "ltminigames:last_remaining_win_trigger",
+    "holder": "player"
+  },
+  "lt:survive_the_tide/mode/ffa/win_outro"
 ]

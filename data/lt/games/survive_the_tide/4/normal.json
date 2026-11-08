@@ -37,7 +37,14 @@
     },
     "lt:survive_the_tide/4/map",
     "lt:survive_the_tide/4/phases",
-    "lt:survive_the_tide/mode/teams",
+    "ltminigames:none_remaining_end_trigger",
+    "lt:survive_the_tide/mode/teams/win_outro",
+    "ltminigames:teams",
+    "lt:survive_the_tide/mode/teams/glow",
+    {
+      "type": "ltminigames:team_chat",
+      "chat_type": "lt:team_chat"
+    },
     "lt:survive_the_tide/4/weather",
     "lt:survive_the_tide/common",
     {
