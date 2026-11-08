@@ -60,6 +60,10 @@
   "lt:integrations/packages/player_tornado_baby",
   "lt:integrations/packages/invert_controls",
   {
+    "type": "lt:integrations/packages/loyal_donator",
+    "amount": 20.0
+  },
+  {
     "type": "ltminigames:donation_threshold",
     "threshold": 20.0,
     "target": {
