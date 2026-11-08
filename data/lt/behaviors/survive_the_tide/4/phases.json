@@ -14,15 +14,12 @@
       "rain_start_3": 470,
       "tide_rise_3": 475,
       "rain_end_3": 500,
-      "rain_start_4": 650,
-      "tide_rise_4": 655,
-      "rain_end_4": 680,
-      "rain_start_5": 830,
-      "tide_rise_5": 835,
-      "rain_end_5": 860,
-      "announce_extraction": 861,
-      "open_extraction": 871,
-      "end": 1300
+      "rain_start_4": 700,
+      "tide_rise_4": 705,
+      "rain_end_4": 720,
+      "announce_extraction": 655,
+      "open_extraction": 730,
+      "end": 940
     },
     "max_time_step": 3,
     "fixed_time_step": [
@@ -45,10 +42,6 @@
       {
         "start": "tide_rise_4",
         "end": "rain_end_4"
-      },
-      {
-        "start": "tide_rise_5",
-        "end": "rain_end_5"
       }
     ],
     "time_by_player_count": [
