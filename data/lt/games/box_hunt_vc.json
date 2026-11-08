@@ -1,0 +1,103 @@
+{
+  "name": {
+    "translate": "ltminigames.minigame.box_hunt",
+    "color": "dark_green",
+    "extra": [
+      " ",
+      {
+        "translate": "ltminigames.minigame.teams_2",
+        "color": "gold"
+      },
+      "VC"
+    ]
+  },
+  "minimum_participants": 2,
+  "maximum_participants": 1000,
+  "waiting": {
+    "map": {
+      "type": "ltminigames:load_map",
+      "load_from": "lt:games/waiting_lobby",
+      "dimension_type": "tropicraft:tropics"
+    },
+    "behaviors": [
+      {
+        "type": "lt:common/waiting",
+        "regions": {
+          "spawn": "spawn"
+        }
+      },
+      "lt:teams/hiders_seekers"
+    ]
+  },
+  "map": {
+    "type": "ltminigames:load_map",
+    "load_from": "lt:games/box_hunt",
+    "dimension_type": "tropicraft:tropics"
+  },
+  "behaviors": [
+    {
+      "type": "lt:common/playing",
+      "game_type": "adventure",
+      "join_late_with_role": "spectator",
+      "backend_id": "lt:box_hunt",
+      "statistics_key": "box_hunt"
+    },
+    "ltminigames:teams",
+    {
+      "type": "ltminigames:position_players",
+      "teams": {
+        "hiders": [
+          "boxes_spawn"
+        ],
+        "seekers": [
+          "hunters_spawn"
+        ]
+      },
+      "spectators": [
+        "boxes_spawn"
+      ]
+    },
+    {
+      "type": "ltminigames:last_remaining_win_trigger",
+      "holder": "team"
+    },
+    {
+      "type": "ltminigames:update_word_boxes_in_world",
+      "block_entity_type": "ltextras:word_box"
+    },
+    "ltminigames:disable_hunger",
+    "lt:box_hunt/equipment",
+    "lt:box_hunt/actions",
+    "lt:survive_the_tide/mode/teams/glow",
+    "lt:common/spectator",
+    {
+      "type": "ltminigames:set_game_rules",
+      "rules": {
+        "minecraft:command_blocks_work": false,
+        "minecraft:locator_bar": false,
+        "minecraft:spawn_mobs": false,
+        "minecraft:immediate_respawn": true,
+        "minecraft:natural_health_regeneration": false,
+        "minecraft:advance_weather": false,
+        "minecraft:fall_damage": false,
+        "minecraft:advance_time": false,
+        "minecraft:show_advancement_messages": false
+      }
+    },
+    {
+      "type": "ltminigames:game_end_effects",
+      "stop_delay": 200
+    },
+    "lt:common/announce_game_over",
+    {
+      "type": "lt:fixed_rewards",
+      "coins": 5
+    },
+    {
+      "type": "ltgames_voice:voice_chat",
+      "open_to_everyone": true,
+      "group_by_team": false
+    },
+    {"type": "lt:integrations/packages/bad_mic", "donation_amount": 15.0, "seconds": 60}
+  ]
+}
