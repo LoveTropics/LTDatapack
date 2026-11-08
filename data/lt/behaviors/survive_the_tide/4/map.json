@@ -64,7 +64,15 @@
       },
       {
         "point": "rain_end_4",
-        "value": 147
+        "value": 168
+      },
+      {
+        "point": "tide_rise_5",
+        "value": 168
+      },
+      {
+        "point": "rain_end_5",
+        "value": 179
       }
     ]
   },

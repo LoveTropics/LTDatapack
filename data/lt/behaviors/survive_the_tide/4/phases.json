@@ -17,6 +17,8 @@
       "rain_start_4": 700,
       "tide_rise_4": 705,
       "rain_end_4": 720,
+      "tide_rise_5": 800,
+      "rain_end_5": 810,
       "announce_extraction": 655,
       "open_extraction": 730,
       "end": 940
@@ -42,6 +44,10 @@
       {
         "start": "tide_rise_4",
         "end": "rain_end_4"
+      },
+      {
+        "start": "tide_rise_5",
+        "end": "rain_end_5"
       }
     ],
     "time_by_player_count": [
