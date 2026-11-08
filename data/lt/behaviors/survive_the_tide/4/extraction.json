@@ -74,12 +74,6 @@
               "bold": false
             }
           ]
-        },
-        {
-          "type": "ltminigames:extraction_layer",
-          "region": "pickup_contest_zone",
-          "seconds": 5,
-          "initial_seconds": 15
         }
       ]
     }

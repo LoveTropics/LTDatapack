@@ -21,6 +21,15 @@
     "spectators": "spectator_spawn"
   },
   {
+    "type": "ltminigames:extraction_layer",
+    "region": "pickup_contest_zone",
+    "seconds": 5,
+    "initial_seconds": 15,
+    "unlock_period": {
+      "start": "open_extraction"
+    }
+  },
+  {
     "type": "ltminigames:rising_fluid",
     "fill_type": "water",
     "region": "tide_area",
