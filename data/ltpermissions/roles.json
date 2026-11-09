@@ -146,7 +146,7 @@
     }
   },
   "creator": {
-    "includes": ["whitelisted", "shield_bypass"],
+    "includes": ["shield_bypass"],
     "overrides": {
       "commands": {
         "fly": "allow"
@@ -175,7 +175,6 @@
   },
   "pro_builder": {},
   "builder": {
-    "includes": ["whitelisted"],
     "overrides": {
       "name_decoration": {
         "style": "#a95cdd"
@@ -234,7 +233,7 @@
     }
   },
   "privileged": {
-    "includes": ["whitelisted", "shield_bypass"],
+    "includes": ["shield_bypass"],
     "overrides": {
       "commands": {
         "kick": "allow",
@@ -266,9 +265,7 @@
     }
   },
   "evil": {},
-  "donator": {
-    "includes": ["whitelisted"]
-  },
+  "donator": {},
   "whitelisted": {
     "overrides": {
       "commands": {
@@ -308,7 +305,7 @@
       "join_access": {
         "allows_joining": false,
         "not_whitelisted_message": {
-          "translate": "lt.whitelist.not_whitelisted"
+          "text": "The event is over :("
         }
       },
       "permission_nodes": {
